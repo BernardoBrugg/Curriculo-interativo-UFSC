@@ -1,0 +1,10 @@
+export { phase1 } from "./phase1";
+export { phase2 } from "./phase2";
+export { phase3 } from "./phase3";
+export { phase4 } from "./phase4";
+export { phase5 } from "./phase5";
+export { phase6 } from "./phase6";
+export { phase7 } from "./phase7";
+export { phase8 } from "./phase8";
+export { phase9, phase10 } from "./phase9-10";
+export { optativesGOP } from "./optatives";
