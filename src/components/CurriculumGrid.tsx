@@ -39,10 +39,10 @@ export function CurriculumGrid({
       grouped.get(phaseNum)!.push(c);
     });
 
-    // Sort Ob first, then Op, then alphabetically
+    const typeOrder = { Ob: 0, Op: 1, FreeOp: 2 };
     grouped.forEach((list) => {
       list.sort((a, b) => {
-        if (a.type !== b.type) return a.type === "Ob" ? -1 : 1;
+        if (a.type !== b.type) return typeOrder[a.type] - typeOrder[b.type];
         return a.name.localeCompare(b.name);
       });
     });
@@ -90,6 +90,10 @@ export function CurriculumGrid({
             <span className="inline-flex items-center gap-1.5">
               <span className="h-3 w-1 rounded-sm bg-[var(--color-type-op)]" />
               Optativa do curso
+            </span>
+            <span className="inline-flex items-center gap-1.5">
+              <span className="h-3 w-1 rounded-sm bg-[var(--color-type-free-op)]" />
+              Optativa livre
             </span>
           </div>
         </div>

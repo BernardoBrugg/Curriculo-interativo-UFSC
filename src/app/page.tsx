@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { curriculum } from "@/data/curriculum";
+import { ScrollReveal } from "@/components/ScrollReveal";
 import { SiteFooter } from "@/components/SiteFooter";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
@@ -33,15 +34,9 @@ export default function LandingPage() {
       <section className="relative z-10 mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 py-5 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between">
           <Link href="/" className="text-sm font-semibold tracking-tight text-[var(--text-strong)]">
-            Curriculo Interativo - UFSC
+            Curriculo Interativo UFSC
           </Link>
           <div className="flex items-center gap-2">
-            <Link
-              href="/app"
-              className="hidden rounded-full px-4 py-2 text-sm font-medium text-[var(--text-muted)] transition hover:text-[var(--text-strong)] sm:inline-flex"
-            >
-              Abrir ferramenta
-            </Link>
             <ThemeToggle />
           </div>
         </nav>
@@ -53,9 +48,9 @@ export default function LandingPage() {
             </p>
             <h1 className="text-3xl font-semibold leading-tight tracking-tight text-[var(--text-strong)] min-[430px]:text-5xl sm:text-6xl lg:text-7xl">
               <span className="block">Planeje sua</span>
-              <span className="block">grade com uma</span>
-              <span className="gradient-text block">visao elegante</span>
-              <span className="block">do caminho.</span>
+              <span className="gradient-text block">Graduação</span>
+              <span className="block">Atinja seus</span>
+              <span className="block">Objetivos</span>
             </h1>
             <p className="mt-6 max-w-full text-base leading-7 text-[var(--text-muted)] min-[430px]:max-w-2xl sm:text-lg sm:leading-8">
               <span className="block">Acompanhe progresso e pre-requisitos.</span>
@@ -63,7 +58,7 @@ export default function LandingPage() {
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
-                href="/app"
+                href="/producao"
                 className="inline-flex h-12 items-center justify-center rounded-full bg-[var(--text-strong)] px-6 text-sm font-semibold text-[var(--bg-base)] shadow-[var(--shadow-card)] transition hover:-translate-y-0.5 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-[var(--ring)]"
                 style={{ maxWidth: "18rem" }}
               >
@@ -141,21 +136,24 @@ export default function LandingPage() {
 
       <section id="recursos" className="relative z-10 mx-auto grid max-w-7xl gap-4 px-4 py-12 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         {featureCards.map((feature, index) => (
-          <article
+          <ScrollReveal key={feature.title} delay={index * 90}>
+            <article
             key={feature.title}
             className="animate-soft-pop glass-surface rounded-3xl p-6 transition hover:-translate-y-1"
-            style={{ animationDelay: `${index * 90}ms` }}
-          >
-            <span className="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-[var(--accent-soft)] text-sm font-semibold text-[var(--accent)]">
-              {index + 1}
-            </span>
-            <h2 className="mt-5 text-xl font-semibold text-[var(--text-strong)]">{feature.title}</h2>
-            <p className="mt-3 text-sm leading-6 text-[var(--text-muted)]">{feature.text}</p>
-          </article>
+            >
+              <span className="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-[var(--accent-soft)] text-sm font-semibold text-[var(--accent)]">
+                {index + 1}
+              </span>
+              <h2 className="mt-5 text-xl font-semibold text-[var(--text-strong)]">{feature.title}</h2>
+              <p className="mt-3 text-sm leading-6 text-[var(--text-muted)]">{feature.text}</p>
+            </article>
+          </ScrollReveal>
         ))}
       </section>
 
-      <SiteFooter />
+      <ScrollReveal>
+        <SiteFooter />
+      </ScrollReveal>
     </main>
   );
 }

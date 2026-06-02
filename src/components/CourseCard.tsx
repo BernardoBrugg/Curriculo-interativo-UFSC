@@ -56,8 +56,20 @@ export function CourseCard({
     },
   }[computedState];
 
-  const typeAccent = course.type === "Ob" ? "bg-[var(--color-type-ob)]" : "bg-[var(--color-type-op)]";
-  const typeLabel = course.type === "Ob" ? "Obrigatoria" : "Optativa do curso";
+  const typeMeta = {
+    Ob: {
+      accent: "bg-[var(--color-type-ob)]",
+      label: "Obrigatoria",
+    },
+    Op: {
+      accent: "bg-[var(--color-type-op)]",
+      label: "Optativa do curso",
+    },
+    FreeOp: {
+      accent: "bg-[var(--color-type-free-op)]",
+      label: "Optativa livre",
+    },
+  }[course.type];
 
   let relationshipClass = "";
   if (isSelected) relationshipClass = "z-10 ring-2 ring-[var(--text-strong)]";
@@ -79,7 +91,7 @@ export function CourseCard({
       onBlur={onMouseLeave}
       className={`relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition duration-200 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] focus:outline-none ${statusMeta.card} ${relationshipClass} ${visibilityClass}`}
     >
-      <span className={`absolute inset-y-3 left-0 w-1 rounded-r-full ${typeAccent}`} />
+      <span className={`absolute inset-y-3 left-0 w-1 rounded-r-full ${typeMeta.accent}`} />
       <div className="flex items-start justify-between gap-2 pl-2">
         <span className="font-mono text-[11px] font-semibold tracking-wide text-[var(--text-muted)]">
           {course.code}
@@ -110,7 +122,7 @@ export function CourseCard({
           {statusMeta.label}
         </span>
         <span className="text-[10px] font-semibold text-[var(--text-faint)]">
-          {typeLabel}
+          {typeMeta.label}
         </span>
       </div>
     </button>

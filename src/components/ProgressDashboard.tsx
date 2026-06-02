@@ -6,6 +6,7 @@ import { Course, CourseStatus } from "@/types/curriculum";
 interface ProgressDashboardProps {
   courses: Course[];
   statuses: Record<string, CourseStatus>;
+  totalHours: number;
   onReset: () => void;
   searchSlot: ReactNode;
 }
@@ -20,29 +21,29 @@ const statusLegend = [
 export function ProgressDashboard({
   courses,
   statuses,
+  totalHours,
   onReset,
   searchSlot,
 }: ProgressDashboardProps) {
   const stats = useMemo(() => {
     let completed = 0;
     let inProgress = 0;
-    let completedHours = 0;
-    let totalHours = 0;
+    let rawCompletedHours = 0;
 
     courses.forEach((course) => {
-      totalHours += course.hours;
       if (statuses[course.id] === "completed") {
         completed++;
-        completedHours += course.hours;
+        rawCompletedHours += course.hours;
       } else if (statuses[course.id] === "in-progress") {
         inProgress++;
       }
     });
 
-    const percent = totalHours > 0 ? Math.round((completedHours / totalHours) * 100) : 0;
+    const completedHours = Math.min(rawCompletedHours, totalHours);
+    const percent = totalHours > 0 ? Math.min(100, Math.round((completedHours / totalHours) * 100)) : 0;
 
     return { completed, inProgress, total: courses.length, completedHours, totalHours, percent };
-  }, [courses, statuses]);
+  }, [courses, statuses, totalHours]);
 
   return (
     <section className="glass-surface w-full min-w-0 max-w-full rounded-3xl p-3 sm:p-4">

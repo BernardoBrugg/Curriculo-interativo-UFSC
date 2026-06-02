@@ -7,7 +7,7 @@ export function SiteFooter() {
         <div className="mx-auto flex w-full max-w-7xl flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="text-lg font-semibold tracking-tight text-[var(--text-strong)]">
-              Curriculo Interativo - UFSC
+              Curriculo Interativo UFSC
             </p>
             <p className="mt-3 max-w-md text-sm leading-6 text-[var(--text-muted)]">
               Uma ferramenta local para visualizar progresso, dependencias e planejamento da
@@ -20,7 +20,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mx-auto mt-7 flex w-full max-w-7xl flex-col gap-3 border-t border-[var(--glass-border)] pt-5 text-xs text-[var(--text-faint)] sm:flex-row sm:items-center sm:justify-between">
-          <span>© {year} Curriculo Interativo - UFSC. Todos os direitos reservados.</span>
+          <span>© {year} Curriculo Interativo UFSC. Todos os direitos reservados.</span>
           <div className="flex flex-wrap items-center gap-3">
             <span>Desenvolvido por Bernardo Bruggemann.</span>
             <a

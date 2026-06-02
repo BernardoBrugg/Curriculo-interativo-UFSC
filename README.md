@@ -1,18 +1,22 @@
-# Curriculo Interativo
+# Curriculo Interativo UFSC
 
-Ferramenta web para explorar o curriculo de Engenharia de Producao da UFSC
+Ferramenta web para explorar grades de graduacao da UFSC. A primeira grade
+disponivel e Engenharia de Producao
 (matriz 2023.1), acompanhar progresso e visualizar relacoes de pre-requisitos.
 
 ## Features
 
 - Landing page em `/` com apresentacao da ferramenta.
-- Aplicacao interativa em `/app`.
+- Aplicacao interativa de Producao em `/producao`.
+- Redirect legado de `/app` para `/producao`.
 - Progresso persistido em `localStorage`.
 - Busca por codigo ou nome da disciplina.
 - Destaque visual de pre-requisitos e dependencias.
 - Tema claro/escuro com toggle por icone.
 - Tema escuro sobrio em preto/cinza, sem paleta azul.
 - Regras de optativas visiveis: minimo 324h-a do curso e ate 108h-a livres.
+- Optativa livre selecionavel, contando no percentual de conclusao.
+- Favicon SVG proprio em `src/app/icon.svg`.
 - Rodape full width com links para LinkedIn e GitHub do autor.
 - UI responsiva com gradientes, glassmorphism e transicoes suaves.
 
@@ -34,7 +38,7 @@ npm run dev
 Acesse:
 
 - Landing page: `http://localhost:3000`
-- Ferramenta: `http://localhost:3000/app`
+- Ferramenta: `http://localhost:3000/producao`
 
 ## Verificacao
 

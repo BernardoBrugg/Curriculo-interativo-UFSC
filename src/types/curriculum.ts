@@ -5,7 +5,7 @@ export interface Course {
   credits: number;
   hours: number;
   phase: number;
-  type: "Ob" | "Op";
+  type: "Ob" | "Op" | "FreeOp";
   prerequisites: string[];
   equivalents: string[];
   syllabus: string;

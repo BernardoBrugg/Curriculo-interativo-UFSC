@@ -18,6 +18,19 @@ const phases: PhaseInfo[] = [
   { number: 10, name: "Conclusão" },
 ];
 
+const freeOptative = {
+  id: "OPT-LIVRE-108",
+  code: "OPT-LIVRE",
+  name: "Optativa Livre",
+  credits: 6,
+  hours: 108,
+  phase: 10,
+  type: "FreeOp" as const,
+  prerequisites: [],
+  equivalents: [],
+  syllabus: "Carga de optativas livres: ate 108h-a em disciplinas extracurriculares de qualquer departamento, sem necessidade de aprovacao do colegiado do curso.",
+};
+
 export const curriculum: CurriculumData = {
   program: "Engenharia de Produção",
   institution: "Universidade Federal de Santa Catarina",
@@ -28,5 +41,6 @@ export const curriculum: CurriculumData = {
     ...phase1, ...phase2, ...phase3, ...phase4, ...phase5,
     ...phase6, ...phase7, ...phase8, ...phase9, ...phase10,
     ...optativesGOP,
+    freeOptative,
   ],
 };

@@ -1,4 +1,4 @@
-# Curriculo Interativo - Workspace Rules
+# Curriculo Interativo UFSC - Workspace Rules
 
 ## Tech Stack
 
@@ -11,7 +11,8 @@
 ## Routes
 
 - `/`: landing page with product presentation and CTA to the app.
-- `/app`: interactive curriculum board.
+- `/producao`: interactive curriculum board for Engenharia de Producao.
+- `/app`: legacy redirect to `/producao`.
 
 ## Architecture
 
@@ -31,6 +32,12 @@ src/
 - Use gradient backgrounds and glassmorphism, but keep the result elegant:
   translucent surfaces, subtle blur, thin borders, soft shadows, restrained
   animation.
+- Keep this visual language consistent across all routes: same semantic tokens,
+  glass surfaces, typography, spacing rhythm, dark-mode neutrality, and
+  restrained motion.
+- Elements that enter below the fold should use the shared scroll-reveal motion:
+  fade in with a small upward translate, stagger only when it improves scanning,
+  and respect `prefers-reduced-motion`.
 - Avoid noisy neon, excessive glow, and layout-shifting card scale effects.
 - The app must support light and dark themes with an icon-only toggle.
 - Dark theme must stay neutral black/gray. Do not introduce blue or purple as
@@ -44,6 +51,9 @@ src/
 - Keep course data static and exact to the source curriculum.
 - Show optative rules in the UI: 324h-a minimum from course optatives
   (GOP/EPP) and up to 108h-a as free optatives from any department.
+- Free optatives must remain selectable and count toward completion progress.
+- Course pages should be route-specific (`/producao` now) so future graduation
+  courses can be added without overloading a generic `/app` route.
 - Do not add backend, auth, or database dependencies.
 - Preserve search, status cycling, reset, prerequisite highlighting, and
   dependent highlighting behavior.
