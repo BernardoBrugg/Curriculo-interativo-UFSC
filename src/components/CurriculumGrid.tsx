@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import { Course, CourseStatus, PhaseInfo } from "@/types/curriculum";
 import { CourseCard } from "./CourseCard";
+import { useDragScroll } from "@/hooks/useDragScroll";
 
 interface CurriculumGridProps {
   phases: PhaseInfo[];
@@ -27,7 +28,16 @@ export function CurriculumGrid({
   onSelectCourse,
   onToggleStatus,
 }: CurriculumGridProps) {
-  // Group courses by phase
+  const { ref: scrollRef, isDragging, events } = useDragScroll<HTMLDivElement>();
+
+  const scrollLeft = () => {
+    if (scrollRef.current) scrollRef.current.scrollBy({ left: -300, behavior: "smooth" });
+  };
+
+  const scrollRight = () => {
+    if (scrollRef.current) scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
+  };
+
   const coursesByPhase = useMemo(() => {
     const grouped = new Map<number, Course[]>();
     phases.forEach((p) => grouped.set(p.number, []));
@@ -110,8 +120,31 @@ export function CurriculumGrid({
         </div>
       </div>
 
-      <div className="max-w-full touch-pan-x overflow-x-auto overflow-y-visible overscroll-x-contain pb-4 [scrollbar-gutter:stable]">
-        <div className="flex min-w-max gap-3 p-3 pr-6">
+      <div className="relative group mx-auto max-w-[1920px]">
+        <button
+          onClick={scrollLeft}
+          className="absolute left-0 top-1/2 z-20 -translate-x-4 -translate-y-1/2 hidden h-11 w-11 items-center justify-center rounded-full border border-[var(--glass-border)] bg-[var(--glass-surface)] text-[var(--text-strong)] shadow-lg backdrop-blur transition duration-300 hover:scale-110 hover:bg-[var(--glass-strong)] hover:border-[var(--glass-border)]/80 focus:outline-none focus:ring-2 focus:ring-[var(--accent)] md:flex opacity-0 group-hover:opacity-100"
+        >
+          <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <button
+          onClick={scrollRight}
+          className="absolute right-0 top-1/2 z-20 translate-x-4 -translate-y-1/2 hidden h-11 w-11 items-center justify-center rounded-full border border-[var(--glass-border)] bg-[var(--glass-surface)] text-[var(--text-strong)] shadow-lg backdrop-blur transition duration-300 hover:scale-110 hover:bg-[var(--glass-strong)] hover:border-[var(--glass-border)]/80 focus:outline-none focus:ring-2 focus:ring-[var(--accent)] md:flex opacity-0 group-hover:opacity-100"
+        >
+          <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+
+        <div
+          ref={scrollRef}
+          {...events}
+          className={`max-w-full touch-pan-x overflow-x-auto overflow-y-visible overscroll-x-contain pb-4 [scrollbar-gutter:stable] ${isDragging ? "cursor-grabbing select-none" : "cursor-grab"}`}
+        >
+          <div className="flex min-w-max gap-3 p-3 pr-6">
           {phases.map((phase) => {
             const phaseCourses = coursesByPhase.get(phase.number) ?? [];
             const phaseStats = getPhaseStats(phaseCourses);
@@ -166,6 +199,7 @@ export function CurriculumGrid({
               </div>
             );
           })}
+          </div>
         </div>
       </div>
     </section>
