@@ -5,9 +5,9 @@ import "./globals.css";
 const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  applicationName: "Curriculo Interativo UFSC",
-  title: "Curriculo Interativo UFSC - Engenharia de Producao",
-  description: "Visualizador interativo do curriculo do curso de Engenharia de Producao da UFSC (2023.1)",
+  applicationName: "Currículo Interativo UFSC",
+  title: "Currículo Interativo UFSC - Engenharia de Produção",
+  description: "Visualizador interativo do currículo do curso de Engenharia de Produção da UFSC (2023.1)",
 };
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
   `;
 
   return (
-    <html lang="pt-BR" className={geist.className} data-scroll-behavior="smooth" suppressHydrationWarning>
+    <html lang="pt-BR" className={`${geist.className} scroll-smooth`} data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>

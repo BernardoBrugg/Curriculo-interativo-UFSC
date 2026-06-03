@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { curriculum } from "@/data/curriculum";
+
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { SiteFooter } from "@/components/SiteFooter";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -23,9 +23,11 @@ const featureCards = [
   },
 ];
 
+import { availableCourses } from "@/data/curricula";
+
 export default function LandingPage() {
-  const totalCourses = curriculum.courses.length;
-  const totalHours = curriculum.totalHours;
+  // Using a placeholder or the first course to show stats
+  const sampleCourse = availableCourses[0];
 
   return (
     <main className="app-gradient min-h-screen overflow-hidden">
@@ -34,7 +36,7 @@ export default function LandingPage() {
       <section className="relative z-10 mx-auto flex min-h-screen w-full max-w-7xl flex-col px-4 py-5 sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between">
           <Link href="/" className="text-sm font-semibold tracking-tight text-[var(--text-strong)]">
-            Curriculo Interativo UFSC
+            Currículo Interativo UFSC
           </Link>
           <div className="flex items-center gap-2">
             <ThemeToggle />
@@ -43,9 +45,6 @@ export default function LandingPage() {
 
         <div className="grid min-w-0 flex-1 items-center gap-10 py-14 lg:grid-cols-[1fr_0.92fr] lg:py-10">
           <div className="landing-copy animate-rise w-full min-w-0">
-            <p className="mb-4 inline-flex rounded-full border border-[var(--glass-border)] bg-[var(--glass-muted)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--text-muted)] backdrop-blur">
-              Engenharia de Producao UFSC 2023.1
-            </p>
             <h1 className="text-3xl font-semibold leading-tight tracking-tight text-[var(--text-strong)] min-[430px]:text-5xl sm:text-6xl lg:text-7xl">
               <span className="block">Planeje sua</span>
               <span className="gradient-text block">Graduação</span>
@@ -56,81 +55,46 @@ export default function LandingPage() {
               <span className="block">Acompanhe progresso e pre-requisitos.</span>
               <span className="block">Simule seu percurso em um painel interativo.</span>
             </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Link
-                href="/producao"
-                className="inline-flex h-12 items-center justify-center rounded-full bg-[var(--text-strong)] px-6 text-sm font-semibold text-[var(--bg-base)] shadow-[var(--shadow-card)] transition hover:-translate-y-0.5 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-[var(--ring)]"
-                style={{ maxWidth: "18rem" }}
-              >
-                Comece ja
-              </Link>
-              <a
-                href="#recursos"
-                className="glass-control inline-flex h-12 items-center justify-center rounded-full px-6 text-sm font-semibold transition hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-[var(--ring)]"
-                style={{ maxWidth: "18rem" }}
-              >
-                Ver recursos
-              </a>
-            </div>
+            
+            
           </div>
 
-          <div className="landing-preview animate-rise-delayed glass-surface w-full min-w-0 overflow-hidden rounded-[2rem] p-3 sm:p-4 lg:p-5">
-            <div className="min-w-0 rounded-[1.5rem] border border-[var(--glass-border)] bg-[var(--glass-strong)] p-3 sm:p-4">
-              <div className="flex min-w-0 flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
-                <div className="min-w-0">
-                  <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--text-faint)]">
-                    Preview da ferramenta
-                  </p>
-                  <p className="mt-2 text-3xl font-semibold text-[var(--text-strong)]">28%</p>
-                  <p className="text-sm text-[var(--text-muted)]">1210h de {totalHours}h</p>
-                </div>
-                <div className="flex min-w-0 flex-wrap gap-2 text-xs sm:shrink-0 sm:flex-col sm:text-right">
-                  <span className="max-w-full truncate rounded-full bg-[var(--accent-soft)] px-2 py-1 font-semibold text-[var(--accent)]">
-                    {totalCourses} disciplinas
-                  </span>
-                  <span className="max-w-full truncate rounded-full bg-[var(--glass-muted)] px-2 py-1 text-[var(--text-muted)]">
-                    10 semestres
-                  </span>
-                </div>
-              </div>
-
-              <div className="mt-4 h-2 overflow-hidden rounded-full bg-[var(--accent-soft)]">
-                <div className="preview-bar h-full w-[28%] origin-left rounded-full bg-gradient-to-r from-[var(--accent)] to-[var(--accent-2)]" />
-              </div>
-
-              <div className="mt-4 grid gap-2 sm:grid-cols-3">
-                {[
-                  ["Semestre 1", "MTM3100", "Concluida", "bg-emerald-500"],
-                  ["Semestre 5", "EPS2351", "Liberada", "bg-[var(--accent)]"],
-                  ["Semestre 9", "Optativas", "324h-a curso", "bg-[var(--color-type-op)]"],
-                ].map(([semester, code, status, dot], index) => (
-                  <div
-                    key={semester}
-                    className="animate-soft-pop glass-card min-w-0 rounded-2xl p-3"
-                    style={{ animationDelay: `${240 + index * 110}ms` }}
+          <div className="animate-rise-delayed w-full min-w-0">
+            <div className="rounded-[2rem] border border-[var(--glass-border)] bg-[var(--glass-surface)]/30 p-6 backdrop-blur-sm sm:p-8">
+              <h3 className="mb-6 flex items-center gap-4 text-sm font-bold uppercase tracking-[0.15em] text-[var(--text-faint)]">
+                Selecione seu curso
+                <span className="h-px flex-1 bg-gradient-to-r from-[var(--glass-border)] to-transparent" />
+              </h3>
+              
+              <div className="grid gap-3 min-[430px]:grid-cols-2">
+                {availableCourses.map((course) => (
+                  <Link
+                    key={course.id}
+                    href={`/${course.id}`}
+                    className="group relative flex items-center justify-between overflow-hidden rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-surface)] p-4 transition-all duration-300 hover:-translate-y-1 hover:bg-[var(--glass-strong)] hover:shadow-lg hover:shadow-[var(--accent)]/10 hover:border-[var(--accent)]/30 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]"
                   >
-                    <p className="truncate text-xs font-semibold text-[var(--text-muted)]">{semester}</p>
-                    <p className="mt-2 truncate font-mono text-xs font-semibold text-[var(--text-faint)]">{code}</p>
-                    <div className="mt-3 flex items-center gap-1.5 text-xs font-semibold text-[var(--text-strong)]">
-                      <span className={`h-2 w-2 shrink-0 rounded-full ${dot}`} />
-                      <span className="truncate">{status}</span>
+                    <div className="absolute inset-0 bg-gradient-to-r from-[var(--accent)]/0 via-[var(--accent)]/0 to-[var(--accent)]/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                    
+                    <div className="relative z-10 flex min-w-0 flex-col">
+                      <span className="truncate text-sm font-bold text-[var(--text-strong)] group-hover:text-[var(--accent)] transition-colors duration-300">
+                        {course.name.replace("Engenharia ", "Eng. ")}
+                      </span>
+                      <span className="mt-1 truncate text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
+                        {course.description}
+                      </span>
                     </div>
-                  </div>
+                    
+                    <div className="relative z-10 ml-3 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--bg-primary)] shadow-inner ring-1 ring-[var(--glass-border)] transition-all duration-300 group-hover:scale-110 group-hover:bg-[var(--accent)] group-hover:text-white group-hover:ring-[var(--accent)] text-[var(--text-faint)]">
+                      <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
+                  </Link>
                 ))}
               </div>
-
-              <div className="mt-3 grid gap-2 sm:grid-cols-2">
-                <div className="glass-card rounded-2xl px-3 py-2">
-                  <p className="text-xs text-[var(--text-faint)]">Pre-requisitos visiveis</p>
-                  <p className="mt-1 text-lg font-semibold text-[var(--text-strong)]">0 {"->"} 4</p>
-                </div>
-                <div className="glass-card rounded-2xl px-3 py-2">
-                  <p className="text-xs text-[var(--text-faint)]">Optativas livres</p>
-                  <p className="mt-1 text-lg font-semibold text-[var(--text-strong)]">108h-a</p>
-                </div>
-              </div>
             </div>
           </div>
+
         </div>
       </section>
 
