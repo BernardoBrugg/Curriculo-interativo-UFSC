@@ -4,7 +4,7 @@ export const phase10: Course[] = [
   {
     id: "DIR5995",
     code: "DIR5995",
-    name: "Noções de Direito ou (DIR5996",
+    name: "Noções de Direito",
     credits: 2,
     hours: 36,
     phase: 10,

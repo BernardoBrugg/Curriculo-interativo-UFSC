@@ -4,7 +4,7 @@ export const phase3: Course[] = [
   {
     id: "EMC5713",
     code: "EMC5713",
-    name: "Termodinâmica para Engenharia de",
+    name: "Termodinâmica para Engenharia de Materiais",
     credits: 4,
     hours: 72,
     phase: 3,
@@ -16,7 +16,7 @@ export const phase3: Course[] = [
   {
     id: "EMC5728",
     code: "EMC5728",
-    name: "Segurança do Trabalho para Engenharia de",
+    name: "Segurança do Trabalho para Engenharia de Materiais",
     credits: 2,
     hours: 36,
     phase: 3,
@@ -52,7 +52,7 @@ export const phase3: Course[] = [
   {
     id: "MTM5207",
     code: "MTM5207",
-    name: "Cálculo para Engenharia de Materiais 3 ou (MTM5163",
+    name: "Cálculo para Engenharia de Materiais 3",
     credits: 4,
     hours: 72,
     phase: 3,

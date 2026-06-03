@@ -4,7 +4,7 @@ export const phase4: Course[] = [
   {
     id: "EMC5130",
     code: "EMC5130",
-    name: "Mecânica dos Sólidos para Engenharia de",
+    name: "Mecânica dos Sólidos para Engenharia de Materiais",
     credits: 5,
     hours: 90,
     phase: 4,
@@ -40,7 +40,7 @@ export const phase4: Course[] = [
   {
     id: "EMC5730",
     code: "EMC5730",
-    name: "Métodos Estatísticos para Engenharia de",
+    name: "Métodos Estatísticos para Engenharia de Materiais",
     credits: 4,
     hours: 72,
     phase: 4,

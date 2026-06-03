@@ -7,6 +7,7 @@ import { curriculumAutomacao as automacao } from "./automacao";
 import { curriculumSanitaria as sanitaria } from "./sanitaria";
 import { curriculumQuimica as quimica } from "./quimica";
 import { curriculumMateriais as materiais } from "./materiais";
+import { curriculumEletronica as eletronica } from "./eletronica";
 
 export const curriculaRegistry: Record<string, CurriculumData> = {
   producao,
@@ -16,7 +17,8 @@ export const curriculaRegistry: Record<string, CurriculumData> = {
   automacao,
   sanitaria,
   quimica,
-  materiais
+  materiais,
+  eletronica
 };
 
 export const getCurriculum = (courseId: string): CurriculumData | undefined => {
@@ -28,8 +30,9 @@ export const availableCourses = [
   { id: "mecanica", name: "Engenharia Mecânica", description: "Matriz 2025.1" },
   { id: "civil", name: "Engenharia Civil", description: "Matriz 2020.1" },
   { id: "eletrica", name: "Engenharia Elétrica", description: "Matriz 2005.1" },
+  { id: "eletronica", name: "Engenharia Eletrônica", description: "Matriz 2012.1" },
   { id: "automacao", name: "Engenharia de Controle e Automação", description: "Matriz 2024.1" },
   { id: "sanitaria", name: "Engenharia Sanitária e Ambiental", description: "Matriz 2015.1" },
   { id: "quimica", name: "Engenharia Química", description: "Matriz 1991.1" },
-  { id: "materiais", name: "Engenharia de Materiais", description: "Matriz 2001.1" },
+  { id: "materiais", name: "Engenharia de Materiais", description: "Matriz 2001.1" }
 ];

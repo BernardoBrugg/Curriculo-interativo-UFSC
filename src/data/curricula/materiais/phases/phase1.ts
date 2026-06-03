@@ -4,7 +4,7 @@ export const phase1: Course[] = [
   {
     id: "EGR5603",
     code: "EGR5603",
-    name: "Desenho Técnico para Engenharia de",
+    name: "Desenho Técnico para Engenharia de Materiais",
     credits: 4,
     hours: 72,
     phase: 1,
@@ -16,7 +16,7 @@ export const phase1: Course[] = [
   {
     id: "EMC5710",
     code: "EMC5710",
-    name: "Técnicas de Aquisição e Tratamento de",
+    name: "Técnicas de Aquisição e Tratamento de Dados",
     credits: 4,
     hours: 72,
     phase: 1,
@@ -52,7 +52,7 @@ export const phase1: Course[] = [
   {
     id: "MTM5205",
     code: "MTM5205",
-    name: "Cálculo para Engenharia de Materiais 1 ou (MTM5115",
+    name: "Cálculo para Engenharia de Materiais 1",
     credits: 8,
     hours: 144,
     phase: 1,

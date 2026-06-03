@@ -52,7 +52,7 @@ export const phase12: Course[] = [
   {
     id: "EMC5771",
     code: "EMC5771",
-    name: "Trabalho de Graduação em Engenharia de",
+    name: "Trabalho de Graduação em Engenharia de Materiais",
     credits: 2,
     hours: 36,
     phase: 12,

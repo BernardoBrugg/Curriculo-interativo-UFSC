@@ -52,7 +52,7 @@ export const phase2: Course[] = [
   {
     id: "MTM5206",
     code: "MTM5206",
-    name: "Cálculo para Engenharia de Materiais 2 ou (MTM5162",
+    name: "Cálculo para Engenharia de Materiais 2",
     credits: 8,
     hours: 144,
     phase: 2,
