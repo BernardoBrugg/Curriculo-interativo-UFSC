@@ -1,0 +1,40 @@
+import { Course } from "@/types/curriculum";
+
+export const phase9: Course[] = [
+  {
+    id: "ECV2901",
+    code: "ECV2901",
+    name: "Legislação e Segurança do Trabalho",
+    credits: 3,
+    hours: 54,
+    phase: 9,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+  {
+    id: "ECV2902",
+    code: "ECV2902",
+    name: "Obras de Engenharia e Impacto Ambiental",
+    credits: 2,
+    hours: 36,
+    phase: 9,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+  {
+    id: "ECV2903",
+    code: "ECV2903",
+    name: "TCC: Projeto Integrador I",
+    credits: 4,
+    hours: 72,
+    phase: 9,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+];

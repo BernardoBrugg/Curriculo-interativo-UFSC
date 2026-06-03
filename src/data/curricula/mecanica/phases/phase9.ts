@@ -1,0 +1,40 @@
+import { Course } from "@/types/curriculum";
+
+export const phase9: Course[] = [
+  {
+    id: "EMC5803",
+    code: "EMC5803",
+    name: "Projeto Final de Curso",
+    credits: 5,
+    hours: 90,
+    phase: 9,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+  {
+    id: "EMC5804",
+    code: "EMC5804",
+    name: "Análise Integrada de Sistemas Térmicos",
+    credits: 4,
+    hours: 72,
+    phase: 9,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+  {
+    id: "ENS5146",
+    code: "ENS5146",
+    name: "Introdução à Engenharia Ambiental 1500 hs Ob",
+    credits: 2,
+    hours: 36,
+    phase: 9,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+];

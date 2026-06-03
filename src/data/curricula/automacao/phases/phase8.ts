@@ -1,0 +1,40 @@
+import { Course } from "@/types/curriculum";
+
+export const phase8: Course[] = [
+  {
+    id: "DAS5402",
+    code: "DAS5402",
+    name: "Ética e Aspectos de Segurança em",
+    credits: 2,
+    hours: 36,
+    phase: 8,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+  {
+    id: "DAS5502",
+    code: "DAS5502",
+    name: "Estágio em Controle e Automação",
+    credits: 12,
+    hours: 216,
+    phase: 8,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+  {
+    id: "EPS7076",
+    code: "EPS7076",
+    name: "Gestão Econômica e de Investimentos",
+    credits: 3,
+    hours: 54,
+    phase: 8,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+];

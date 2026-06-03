@@ -1,0 +1,40 @@
+import { Course } from "@/types/curriculum";
+
+export const phase8: Course[] = [
+  {
+    id: "ECV2801",
+    code: "ECV2801",
+    name: "Orçamento de Obras",
+    credits: 3,
+    hours: 54,
+    phase: 8,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+  {
+    id: "ECV2802",
+    code: "ECV2802",
+    name: "Pavimentação",
+    credits: 4,
+    hours: 72,
+    phase: 8,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+  {
+    id: "ECV2803",
+    code: "ECV2803",
+    name: "Planejamento de Obras",
+    credits: 3,
+    hours: 54,
+    phase: 8,
+    type: "Ob" as const,
+    prerequisites: [],
+    equivalents: [],
+    syllabus: "",
+  },
+];
