@@ -26,9 +26,6 @@ const featureCards = [
 import { availableCourses } from "@/data/curricula";
 
 export default function LandingPage() {
-  // Using a placeholder or the first course to show stats
-  const sampleCourse = availableCourses[0];
-
   return (
     <main className="app-gradient min-h-screen overflow-hidden">
       <div className="pointer-events-none absolute inset-0 opacity-80 [background-image:linear-gradient(rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.08)_1px,transparent_1px)] [background-size:48px_48px]" />
@@ -55,8 +52,8 @@ export default function LandingPage() {
               <span className="block">Acompanhe progresso e pre-requisitos.</span>
               <span className="block">Simule seu percurso em um painel interativo.</span>
             </p>
-            
-            
+
+
           </div>
 
           <div className="animate-rise-delayed w-full min-w-0">
@@ -65,7 +62,7 @@ export default function LandingPage() {
                 Selecione seu curso
                 <span className="h-px flex-1 bg-gradient-to-r from-[var(--glass-border)] to-transparent" />
               </h3>
-              
+
               <div className="grid gap-3 min-[430px]:grid-cols-2">
                 {availableCourses.map((course) => (
                   <Link
@@ -74,7 +71,7 @@ export default function LandingPage() {
                     className="group relative flex items-center justify-between overflow-hidden rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-surface)] p-4 transition-all duration-300 hover:-translate-y-1 hover:bg-[var(--glass-strong)] hover:shadow-lg hover:shadow-[var(--accent)]/10 hover:border-[var(--accent)]/30 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]"
                   >
                     <div className="absolute inset-0 bg-gradient-to-r from-[var(--accent)]/0 via-[var(--accent)]/0 to-[var(--accent)]/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                    
+
                     <div className="relative z-10 flex min-w-0 flex-col">
                       <span className="truncate text-sm font-bold text-[var(--text-strong)] group-hover:text-[var(--accent)] transition-colors duration-300">
                         {course.name.replace("Engenharia ", "Eng. ")}
@@ -83,7 +80,7 @@ export default function LandingPage() {
                         {course.description}
                       </span>
                     </div>
-                    
+
                     <div className="relative z-10 ml-3 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--bg-primary)] shadow-inner ring-1 ring-[var(--glass-border)] transition-all duration-300 group-hover:scale-110 group-hover:bg-[var(--accent)] group-hover:text-white group-hover:ring-[var(--accent)] text-[var(--text-faint)]">
                       <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" />
@@ -100,16 +97,16 @@ export default function LandingPage() {
 
       <section id="recursos" className="relative z-10 mx-auto grid max-w-7xl gap-4 px-4 py-12 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         {featureCards.map((feature, index) => (
-          <ScrollReveal key={feature.title} delay={index * 90} className="h-full">
+          <ScrollReveal key={feature.title} delay={index * 90}>
             <article
-            key={feature.title}
-            className="animate-soft-pop glass-surface flex h-full flex-col rounded-3xl p-6 transition hover:-translate-y-1"
+              key={feature.title}
+              className="animate-soft-pop glass-surface rounded-3xl p-6 transition hover:-translate-y-1"
             >
-              <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl bg-[var(--accent-soft)] text-sm font-semibold text-[var(--accent)]">
+              <span className="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-[var(--accent-soft)] text-sm font-semibold text-[var(--accent)]">
                 {index + 1}
               </span>
               <h2 className="mt-5 text-xl font-semibold text-[var(--text-strong)]">{feature.title}</h2>
-              <p className="mt-3 flex-1 text-sm leading-6 text-[var(--text-muted)]">{feature.text}</p>
+              <p className="mt-3 text-sm leading-6 text-[var(--text-muted)]">{feature.text}</p>
             </article>
           </ScrollReveal>
         ))}

@@ -142,15 +142,15 @@ export function CurriculumGrid({
         <div
           ref={scrollRef}
           {...events}
-          className={`max-w-full touch-pan-x overflow-x-auto overflow-y-visible overscroll-x-contain pb-4 [scrollbar-gutter:stable] ${isDragging ? "cursor-grabbing select-none" : "cursor-grab"}`}
+          className={`max-w-full touch-pan-y md:touch-pan-x overflow-y-visible overflow-x-hidden md:overflow-x-auto md:overscroll-x-contain pb-4 md:[scrollbar-gutter:stable] ${isDragging ? "md:cursor-grabbing md:select-none" : "md:cursor-grab"}`}
         >
-          <div className="flex min-w-max gap-3 p-3 pr-6">
+          <div className="flex flex-col md:flex-row md:min-w-max gap-4 md:gap-3 p-3 md:pr-6">
           {phases.map((phase) => {
             const phaseCourses = coursesByPhase.get(phase.number) ?? [];
             const phaseStats = getPhaseStats(phaseCourses);
 
             return (
-              <div key={phase.number} className="flex w-[260px] shrink-0 flex-col overflow-hidden rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-muted)] backdrop-blur">
+              <div key={phase.number} className="flex w-full md:w-[260px] shrink-0 flex-col overflow-hidden rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-muted)] backdrop-blur">
                 <div className="border-b border-[var(--glass-border)] bg-[var(--glass-strong)] px-3 py-2.5">
                   <div className="flex items-start justify-between gap-2">
                     <h3 className="text-sm font-semibold text-[var(--text-strong)]">Semestre {phase.number}</h3>
