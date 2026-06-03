@@ -3,25 +3,24 @@
 import { useState, useCallback } from "react";
 import { CourseStatus } from "@/types/curriculum";
 
-const STORAGE_KEY = "curriculo-eps-status";
 const STATUSES: CourseStatus[] = ["pending", "in-progress", "completed"];
 
-function loadFromStorage(): Record<string, CourseStatus> {
+function loadFromStorage(courseId: string): Record<string, CourseStatus> {
   if (typeof window === "undefined") return {};
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(`curriculo-${courseId}-status`);
     return raw ? JSON.parse(raw) : {};
   } catch {
     return {};
   }
 }
 
-function saveToStorage(data: Record<string, CourseStatus>) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+function saveToStorage(courseId: string, data: Record<string, CourseStatus>) {
+  localStorage.setItem(`curriculo-${courseId}-status`, JSON.stringify(data));
 }
 
-export function useCourseStatus() {
-  const [statuses, setStatuses] = useState<Record<string, CourseStatus>>(loadFromStorage);
+export function useCourseStatus(courseId: string) {
+  const [statuses, setStatuses] = useState<Record<string, CourseStatus>>(() => loadFromStorage(courseId));
 
   const getStatus = useCallback(
     (id: string): CourseStatus => statuses[id] ?? "pending",
@@ -33,10 +32,10 @@ export function useCourseStatus() {
       const next = { ...prev };
       if (status === "pending") delete next[id];
       else next[id] = status;
-      saveToStorage(next);
+      saveToStorage(courseId, next);
       return next;
     });
-  }, []);
+  }, [courseId]);
 
   const toggleStatus = useCallback((id: string) => {
     setStatuses((prev) => {
@@ -51,15 +50,15 @@ export function useCourseStatus() {
         next[id] = newStatus;
       }
       
-      saveToStorage(next);
+      saveToStorage(courseId, next);
       return next;
     });
-  }, []);
+  }, [courseId]);
 
   const resetAll = useCallback(() => {
     setStatuses({});
-    saveToStorage({});
-  }, []);
+    saveToStorage(courseId, {});
+  }, [courseId]);
 
   return { statuses, getStatus, setStatus, toggleStatus, resetAll };
 }

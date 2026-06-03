@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
-import { curriculum } from "@/data/curriculum";
+import { use, useState } from "react";
+import { getCurriculum } from "@/data/curricula";
 import { useCourseStatus } from "@/hooks/useCourseStatus";
 import { useCourseGraph } from "@/hooks/useCourseGraph";
+import { notFound } from "next/navigation";
 
 import { SearchBar } from "@/components/SearchBar";
 import { ScrollReveal } from "@/components/ScrollReveal";
@@ -13,11 +14,18 @@ import { ArrowOverlay } from "@/components/ArrowOverlay";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { SiteFooter } from "@/components/SiteFooter";
 
-export default function ProducaoPage() {
+export default function CoursePage({ params }: { params: Promise<{ course: string }> }) {
+  const { course } = use(params);
+  const curriculum = getCurriculum(course);
+
+  if (!curriculum) {
+    notFound();
+  }
+
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
-  const { statuses, toggleStatus, resetAll } = useCourseStatus();
+  const { statuses, toggleStatus, resetAll } = useCourseStatus(course);
   const graph = useCourseGraph(curriculum.courses);
 
   const prerequisites = selectedId ? graph.getPrerequisites(selectedId) : new Set<string>();
