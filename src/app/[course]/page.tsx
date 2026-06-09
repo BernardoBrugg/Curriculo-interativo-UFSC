@@ -35,25 +35,36 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
 
   const prerequisites = selectedId ? graph.getPrerequisites(selectedId) : new Set<string>();
   const dependents = selectedId ? graph.getDependents(selectedId) : new Set<string>();
-  const handleToggleStatus = useCallback(
+  const isCourseBlocked = useCallback(
     (id: string) => {
       const selectedCourse = coursesById.get(id);
-      if (!selectedCourse) return;
-
-      const isBlocked = selectedCourse.prerequisites.some(
+      if (!selectedCourse) return false;
+      return selectedCourse.prerequisites.some(
         (prerequisiteId) => statuses[prerequisiteId] !== "completed"
       );
+    },
+    [coursesById, statuses]
+  );
 
-      if (!isBlocked) {
+  const shouldResetBlockedCourse = useCallback(
+    (id: string) => {
+      const currentStatus = statuses[id] ?? "pending";
+      return currentStatus !== "pending";
+    },
+    [statuses]
+  );
+
+  const handleToggleStatus = useCallback(
+    (id: string) => {
+      if (!coursesById.has(id)) return;
+      if (!isCourseBlocked(id)) {
         toggleStatus(id);
         return;
       }
-
-      const currentStatus = statuses[id] ?? "pending";
-      if (currentStatus === "pending") return;
+      if (!shouldResetBlockedCourse(id)) return;
       setStatus(id, "pending");
     },
-    [coursesById, setStatus, statuses, toggleStatus]
+    [coursesById, isCourseBlocked, setStatus, shouldResetBlockedCourse, toggleStatus]
   );
 
   return (
