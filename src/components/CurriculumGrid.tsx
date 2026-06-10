@@ -89,13 +89,13 @@ export function CurriculumGrid({
           <div>
             <h2 className="text-base font-semibold text-[var(--text-strong)]">Grade curricular</h2>
             <p className="text-sm text-[var(--text-muted)]">
-              Selecione uma disciplina para ver relacoes.
+              Selecione uma disciplina para ver relações.
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-2 text-xs text-[var(--text-muted)]">
             <span className="inline-flex items-center gap-1.5">
               <span className="h-3 w-1 rounded-sm bg-[var(--color-type-ob)]" />
-              Obrigatoria
+              Obrigatória
             </span>
             <span className="inline-flex items-center gap-1.5">
               <span className="h-3 w-1 rounded-sm bg-[var(--color-type-op)]" />
@@ -110,11 +110,11 @@ export function CurriculumGrid({
 
         <div className="mt-3 grid gap-2 text-xs md:grid-cols-2">
           <div className="glass-card rounded-2xl px-3 py-2">
-            <p className="font-semibold text-[var(--text-strong)]">Optativas do curso: minimo 324h-a</p>
-            <p className="mt-0.5 text-[var(--text-muted)]">Trilhas GOP/EPP, graduacao ou pos-graduacao.</p>
+            <p className="font-semibold text-[var(--text-strong)]">Optativas do curso: mínimo 324h-a</p>
+            <p className="mt-0.5 text-[var(--text-muted)]">Trilhas GOP/EPP, graduação ou pós-graduação.</p>
           </div>
           <div className="glass-card rounded-2xl px-3 py-2">
-            <p className="font-semibold text-[var(--text-strong)]">Optativas livres: ate 108h-a</p>
+            <p className="font-semibold text-[var(--text-strong)]">Optativas livres: até 108h-a</p>
             <p className="mt-0.5 text-[var(--text-muted)]">Disciplinas extracurriculares de qualquer departamento.</p>
           </div>
         </div>

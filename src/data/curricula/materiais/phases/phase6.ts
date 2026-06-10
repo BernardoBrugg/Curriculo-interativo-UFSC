@@ -4,7 +4,7 @@ export const phase6: Course[] = [
   {
     id: "EMC5426",
     code: "EMC5426",
-    name: "Fenomenos de Transporte para Engenharia",
+    name: "Fenômenos de Transporte para Engenharia",
     credits: 4,
     hours: 72,
     phase: 6,

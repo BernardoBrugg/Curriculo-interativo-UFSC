@@ -52,7 +52,7 @@ export const phase5: Course[] = [
   {
     id: "EMC5235",
     code: "EMC5235",
-    name: "Metrologia Industrial",
+    name: "Metrologia Indústrial",
     credits: 4,
     hours: 72,
     phase: 5,

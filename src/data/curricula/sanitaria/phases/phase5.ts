@@ -40,7 +40,7 @@ export const phase5: Course[] = [
   {
     id: "EMC5125",
     code: "EMC5125",
-    name: "Mecanica dos Solidos I",
+    name: "Mecânica dos Sólidos I",
     credits: 4,
     hours: 72,
     phase: 5,

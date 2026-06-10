@@ -79,7 +79,7 @@ export const phase6: Course[] = [
   {
     id: "EPS7024",
     code: "EPS7024",
-    name: "Métodos Quantitativos na Gestão da Produção Industrial",
+    name: "Métodos Quantitativos na Gestão da Produção Indústrial",
     credits: 4,
     hours: 72,
     phase: 6,
