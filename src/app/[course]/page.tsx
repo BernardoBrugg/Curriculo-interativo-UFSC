@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useState } from "react";
+import { use, useCallback, useMemo, useState } from "react";
 import Link from "next/link";
 import { getCurriculum } from "@/data/curricula";
 import { useCourseStatus } from "@/hooks/useCourseStatus";
@@ -26,11 +26,46 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
-  const { statuses, toggleStatus, resetAll } = useCourseStatus(course);
+  const { statuses, toggleStatus, setStatus, resetAll } = useCourseStatus(course);
   const graph = useCourseGraph(curriculum.courses);
+  const coursesById = useMemo(
+    () => new Map(curriculum.courses.map((courseItem) => [courseItem.id, courseItem])),
+    [curriculum.courses]
+  );
 
   const prerequisites = selectedId ? graph.getPrerequisites(selectedId) : new Set<string>();
   const dependents = selectedId ? graph.getDependents(selectedId) : new Set<string>();
+  const isBlockedByPrerequisites = useCallback(
+    (id: string) => {
+      const selectedCourse = coursesById.get(id);
+      if (!selectedCourse) return false;
+      return selectedCourse.prerequisites.some(
+        (prerequisiteId) => statuses[prerequisiteId] !== "completed"
+      );
+    },
+    [coursesById, statuses]
+  );
+
+  const hasNonPendingStatus = useCallback(
+    (id: string) => {
+      const currentStatus = statuses[id] ?? "pending";
+      return currentStatus !== "pending";
+    },
+    [statuses]
+  );
+
+  const handleToggleStatus = useCallback(
+    (id: string) => {
+      if (!coursesById.has(id)) return;
+      if (isBlockedByPrerequisites(id)) {
+        if (!hasNonPendingStatus(id)) return;
+        setStatus(id, "pending");
+        return;
+      }
+      toggleStatus(id);
+    },
+    [coursesById, hasNonPendingStatus, isBlockedByPrerequisites, setStatus, toggleStatus]
+  );
 
   return (
     <main className="app-gradient relative min-h-screen">
@@ -73,7 +108,7 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
             prerequisites={prerequisites}
             dependents={dependents}
             onSelectCourse={(id) => setSelectedId(id === selectedId ? null : id)}
-            onToggleStatus={toggleStatus}
+            onToggleStatus={handleToggleStatus}
           />
         </ScrollReveal>
       </div>
