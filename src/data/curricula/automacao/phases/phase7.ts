@@ -52,7 +52,7 @@ export const phase7: Course[] = [
   {
     id: "EMC5251",
     code: "EMC5251",
-    name: "Introdução à Robótica Indústrial",
+    name: "Introdução à Robótica Industrial",
     credits: 4,
     hours: 72,
     phase: 7,

@@ -76,7 +76,7 @@ export const phase5: Course[] = [
   {
     id: "EPS5229",
     code: "EPS5229",
-    name: "Organização Indústrial 1500 hs Ob",
+    name: "Organização Industrial 1500 hs Ob",
     credits: 3,
     hours: 54,
     phase: 5,
