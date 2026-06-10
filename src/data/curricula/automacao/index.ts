@@ -16,7 +16,7 @@ const phases: PhaseInfo[] = [
   { number: 10, name: "10ª Fase" },
 ];
 
-export const curriculumAutomacao: CurriculumData = {
+export const curriculumAutomação: CurriculumData = {
   program: "Engenharia de Controle e Automação",
   institution: "Universidade Federal de Santa Catarina",
   version: "Matriz 2024.1",

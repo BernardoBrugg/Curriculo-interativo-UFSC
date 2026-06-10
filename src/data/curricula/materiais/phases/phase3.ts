@@ -28,7 +28,7 @@ export const phase3: Course[] = [
   {
     id: "EMC5733",
     code: "EMC5733",
-    name: "Análise Termo-Fisica de Materiais",
+    name: "Análise Termo-Física de Materiais",
     credits: 2,
     hours: 36,
     phase: 3,

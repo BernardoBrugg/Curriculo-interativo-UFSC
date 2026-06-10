@@ -16,7 +16,7 @@ const phases: PhaseInfo[] = [
   { number: 10, name: "10ª Fase" },
 ];
 
-export const curriculumQuimica: CurriculumData = {
+export const curriculumQuímica: CurriculumData = {
   program: "Engenharia Química",
   institution: "Universidade Federal de Santa Catarina",
   version: "Matriz 1991.1",

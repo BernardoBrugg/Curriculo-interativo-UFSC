@@ -27,7 +27,7 @@ export function CourseCard({
 }: CourseCardProps) {
   const statusMeta = {
     completed: {
-      label: "Concluida",
+      label: "Concluída",
       code: "OK",
       card: "border-emerald-400/35 bg-emerald-500/12",
       accent: "bg-emerald-500",
@@ -59,7 +59,7 @@ export function CourseCard({
   const typeMeta = {
     Ob: {
       accent: "bg-[var(--color-type-ob)]",
-      label: "Obrigatoria",
+      label: "Obrigatória",
     },
     Op: {
       accent: "bg-[var(--color-type-op)]",
@@ -80,16 +80,23 @@ export function CourseCard({
   if (isFilteredOut) visibilityClass = "opacity-25 grayscale";
   else if (computedState === "blocked") visibilityClass = "opacity-70 hover:opacity-95";
 
+  const handleClick = () => {
+    if (typeof navigator !== "undefined" && navigator.vibrate) {
+      navigator.vibrate(50);
+    }
+    onClick();
+  };
+
   return (
     <button
       id={`course-${course.id}`}
       type="button"
-      onClick={onClick}
+      onClick={handleClick}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onFocus={onMouseEnter}
       onBlur={onMouseLeave}
-      className={`relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition duration-200 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] focus:outline-none ${statusMeta.card} ${relationshipClass} ${visibilityClass}`}
+      className={`relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition-all duration-200 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] active:scale-[0.97] active:opacity-90 active:shadow-inner focus:outline-none ${statusMeta.card} ${relationshipClass} ${visibilityClass}`}
     >
       <span className={`absolute inset-y-3 left-0 w-1 rounded-r-full ${typeMeta.accent}`} />
       <div className="flex items-start justify-between gap-2 pl-2">
@@ -106,7 +113,7 @@ export function CourseCard({
           {course.extensionHours && (
             <span
               className="inline-flex h-5 items-center rounded-full bg-[var(--accent-soft)] px-1.5 text-[10px] font-semibold text-[var(--accent-2)]"
-              title="Horas de extensao"
+              title="Horas de extensão"
             >
               Ext
             </span>

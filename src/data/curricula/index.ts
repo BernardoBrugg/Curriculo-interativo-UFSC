@@ -1,13 +1,13 @@
 import { CurriculumData } from "@/types/curriculum";
 import { curriculum as producao } from "./producao";
-import { curriculumMecanica as mecanica } from "./mecanica";
+import { curriculumMecânica as mecanica } from "./mecanica";
 import { curriculumCivil as civil } from "./civil";
-import { curriculumEletrica as eletrica } from "./eletrica";
-import { curriculumAutomacao as automacao } from "./automacao";
-import { curriculumSanitaria as sanitaria } from "./sanitaria";
-import { curriculumQuimica as quimica } from "./quimica";
+import { curriculumElétrica as eletrica } from "./eletrica";
+import { curriculumAutomação as automacao } from "./automacao";
+import { curriculumSanitária as sanitaria } from "./sanitaria";
+import { curriculumQuímica as quimica } from "./quimica";
 import { curriculumMateriais as materiais } from "./materiais";
-import { curriculumEletronica as eletronica } from "./eletronica";
+import { curriculumEletrônica as eletronica } from "./eletronica";
 
 export const curriculaRegistry: Record<string, CurriculumData> = {
   producao,

@@ -7,19 +7,19 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 const featureCards = [
   {
     title: "Progresso claro",
-    text: "Veja horas, disciplinas concluidas e andamento geral sem planilhas paralelas.",
+    text: "Veja horas, disciplinas concluídas e andamento geral sem planilhas paralelas.",
   },
   {
-    title: "Dependencias visuais",
+    title: "Dependências visuais",
     text: "Passe por uma disciplina e entenda rapidamente o que destrava ou bloqueia o caminho.",
   },
   {
     title: "Planejamento por semestre",
-    text: "Organize a grade por semestre, status e disponibilidade em uma unica superficie.",
+    text: "Organize a grade por semestre, status e disponibilidade em uma única superfície.",
   },
   {
-    title: "Optativas sem confusao",
-    text: "Separe optativas do curso e livres com as regras de carga horaria visiveis.",
+    title: "Optativas sem confusão",
+    text: "Separe optativas do curso e livres com as regras de carga horária visíveis.",
   },
 ];
 
@@ -49,7 +49,7 @@ export default function LandingPage() {
               <span className="block">Objetivos</span>
             </h1>
             <p className="mt-6 max-w-full text-base leading-7 text-[var(--text-muted)] min-[430px]:max-w-2xl sm:text-lg sm:leading-8">
-              <span className="block">Acompanhe progresso e pre-requisitos.</span>
+              <span className="block">Acompanhe progresso e pré-requisitos.</span>
               <span className="block">Simule seu percurso em um painel interativo.</span>
             </p>
 
