@@ -1,47 +1,53 @@
 "use client";
 
-import { use, useCallback, useMemo, useState } from "react";
+import { use, useState, useMemo, useCallback, useEffect } from "react";
 import Link from "next/link";
-import { getCurriculum } from "@/data/curricula";
 import { useCourseStatus } from "@/hooks/useCourseStatus";
 import { useCourseGraph } from "@/hooks/useCourseGraph";
-import { notFound } from "next/navigation";
+import { useCustomPhases } from "@/hooks/useCustomPhases";
+import { useRouter } from "next/navigation";
+import { useCurriculum } from "@/hooks/useCurricula";
 
 import { SearchBar } from "@/components/SearchBar";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { ProgressDashboard } from "@/components/ProgressDashboard";
 import { CurriculumGrid } from "@/components/CurriculumGrid";
-import { ArrowOverlay } from "@/components/ArrowOverlay";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { SiteFooter } from "@/components/SiteFooter";
+import { useAuth } from "@/components/AuthProvider";
 
 export default function CoursePage({ params }: { params: Promise<{ course: string }> }) {
   const { course } = use(params);
-  const curriculum = getCurriculum(course);
-
-  if (!curriculum) {
-    notFound();
-  }
+  const router = useRouter();
+  const { user, isLoading, logOut } = useAuth();
+  const { curriculum, isLoading: curriculumLoading, error: curriculumError } = useCurriculum(course);
+  const curriculumCourses = useMemo(() => curriculum?.courses ?? [], [curriculum]);
 
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
-  const { statuses, toggleStatus, setStatus, resetAll } = useCourseStatus(course);
-  const graph = useCourseGraph(curriculum.courses);
+  const { statuses, toggleStatus, setStatus, resetAll, error: statusError } = useCourseStatus(course);
+  const { customPhases, setCustomPhase, error: phaseError } = useCustomPhases(course);
+  const graph = useCourseGraph(curriculumCourses);
+
   const coursesById = useMemo(
-    () => new Map(curriculum.courses.map((courseItem) => [courseItem.id, courseItem])),
-    [curriculum.courses]
+    () => new Map(curriculumCourses.map((courseItem) => [courseItem.id, courseItem])),
+    [curriculumCourses]
   );
 
   const prerequisites = selectedId ? graph.getPrerequisites(selectedId) : new Set<string>();
   const dependents = selectedId ? graph.getDependents(selectedId) : new Set<string>();
+
   const isBlockedByPrerequisites = useCallback(
     (id: string) => {
       const selectedCourse = coursesById.get(id);
       if (!selectedCourse) return false;
-      return selectedCourse.prerequisites.some(
-        (prerequisiteId) => statuses[prerequisiteId] !== "completed"
-      );
+      return selectedCourse.prerequisites.some((prerequisiteId) => {
+        if (statuses[prerequisiteId] === "completed") return false;
+        const prereqCourse = coursesById.get(prerequisiteId);
+        if (prereqCourse?.equivalents?.some(eqId => statuses[eqId] === "completed")) return false;
+        return true;
+      });
     },
     [coursesById, statuses]
   );
@@ -67,6 +73,22 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
     [coursesById, hasNonPendingStatus, isBlockedByPrerequisites, setStatus, toggleStatus]
   );
 
+  useEffect(() => {
+    if (!isLoading && !user) router.replace("/");
+  }, [isLoading, router, user]);
+
+  if (isLoading || !user) {
+    return <main className="app-gradient min-h-screen" />;
+  }
+
+  if (curriculumLoading) {
+    return <main className="app-gradient min-h-screen" />;
+  }
+
+  if (!curriculum) {
+    return <main className="app-gradient flex min-h-screen items-center justify-center px-4"><div className="glass-surface rounded-3xl p-8 text-center"><p className="text-sm text-[var(--text-muted)]">{curriculumError || "Este currículo não está disponível."}</p><Link href="/" className="mt-4 inline-flex rounded-xl bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-[var(--on-accent)]">Voltar para meus cursos</Link></div></main>;
+  }
+
   return (
     <main className="app-gradient relative min-h-screen">
       <div className="pointer-events-none absolute inset-0 opacity-70 [background-image:linear-gradient(rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.08)_1px,transparent_1px)] [background-size:44px_44px]" />
@@ -83,14 +105,22 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
         </Link>
       </div>
 
-      <div className="fixed right-4 top-4 z-50">
+      <div className="fixed right-4 top-4 z-50 flex items-center gap-2">
+        <button
+          type="button"
+          onClick={() => void logOut()}
+          className="rounded-full border border-[var(--glass-border)] bg-[var(--glass-surface)]/60 px-4 py-2 text-sm font-semibold text-[var(--text-strong)] backdrop-blur-md transition hover:bg-[var(--glass-strong)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]"
+        >
+          Sair
+        </button>
         <ThemeToggle />
       </div>
 
       <div className="relative z-10 mx-auto flex w-full max-w-[1920px] min-w-0 flex-col gap-4 px-3 pb-8 pt-20 sm:px-5 lg:px-7">
         <ScrollReveal>
+          {(statusError || phaseError) && <p role="alert" className="rounded-xl bg-red-500/10 px-4 py-3 text-sm font-medium text-red-600">{statusError || phaseError}</p>}
           <ProgressDashboard
-            courses={curriculum.courses}
+            courses={curriculumCourses}
             statuses={statuses}
             totalHours={curriculum.totalHours}
             onReset={resetAll}
@@ -101,14 +131,16 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
         <ScrollReveal delay={90}>
           <CurriculumGrid
             phases={curriculum.phases}
-            courses={curriculum.courses}
+            courses={curriculumCourses}
             statuses={statuses}
             selectedId={selectedId}
             searchQuery={searchQuery}
             prerequisites={prerequisites}
             dependents={dependents}
+            customPhases={customPhases}
             onSelectCourse={(id) => setSelectedId(id === selectedId ? null : id)}
             onToggleStatus={handleToggleStatus}
+            onMoveCourse={setCustomPhase}
           />
         </ScrollReveal>
       </div>
@@ -116,13 +148,6 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
       <ScrollReveal>
         <SiteFooter />
       </ScrollReveal>
-
-      <ArrowOverlay
-        selectedId={selectedId}
-        prerequisites={prerequisites}
-        dependents={dependents}
-        courses={curriculum.courses}
-      />
     </main>
   );
 }

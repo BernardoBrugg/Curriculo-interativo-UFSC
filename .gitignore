@@ -23,10 +23,12 @@
 # misc
 .DS_Store
 *.pem
+*-firebase-adminsdk-*.json
 .agents/
 
 # debug
 npm-debug.log*
+firebase-debug.log
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*

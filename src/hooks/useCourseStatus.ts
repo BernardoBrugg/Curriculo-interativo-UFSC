@@ -1,80 +1,74 @@
 "use client";
 
-import { useCallback, useMemo, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useState } from "react";
+import { FieldPath, deleteField, doc, onSnapshot, serverTimestamp, setDoc, updateDoc } from "firebase/firestore";
+import { useAuth } from "@/components/AuthProvider";
+import { firestore } from "@/lib/firebase";
+import { normalizeProgress } from "@/lib/firestore-progress";
 import { CourseStatus } from "@/types/curriculum";
 
-const STATUSES: CourseStatus[] = ["pending", "in-progress", "completed"];
-
-function subscribe(callback: () => void) {
-  if (typeof window === "undefined") return () => {};
-  window.addEventListener("curriculo-storage-update", callback);
-  window.addEventListener("storage", callback);
-  return () => {
-    window.removeEventListener("curriculo-storage-update", callback);
-    window.removeEventListener("storage", callback);
-  };
-}
+const statuses: CourseStatus[] = ["pending", "in-progress", "completed"];
 
 export function useCourseStatus(courseId: string) {
-  const getSnapshot = useCallback(() => {
-    if (typeof window === "undefined") return "{}";
-    return localStorage.getItem(`curriculo-${courseId}-status`) || "{}";
-  }, [courseId]);
+  const { user } = useAuth();
+  const [courseStatuses, setCourseStatuses] = useState<Record<string, CourseStatus>>({});
+  const [error, setError] = useState("");
 
-  const rawStatuses = useSyncExternalStore(subscribe, getSnapshot, () => "{}");
-
-  const statuses = useMemo(() => {
-    try {
-      return JSON.parse(rawStatuses) as Record<string, CourseStatus>;
-    } catch {
-      return {};
+  useEffect(() => {
+    if (!user) {
+      return;
     }
-  }, [rawStatuses]);
 
-  const saveToStorage = useCallback(
-    (data: Record<string, CourseStatus>) => {
-      localStorage.setItem(`curriculo-${courseId}-status`, JSON.stringify(data));
-      window.dispatchEvent(new Event("curriculo-storage-update"));
-    },
-    [courseId]
-  );
+    return onSnapshot(
+      doc(firestore, "users", user.uid, "curricula", courseId),
+      (snapshot) => {
+        setCourseStatuses(normalizeProgress(snapshot.data()).statuses);
+        setError("");
+      },
+      () => setError("Não foi possível carregar o progresso salvo.")
+    );
+  }, [courseId, user]);
 
-  const getStatus = useCallback(
-    (id: string): CourseStatus => statuses[id] ?? "pending",
-    [statuses]
-  );
-
-  const setStatus = useCallback(
-    (id: string, status: CourseStatus) => {
-      const next = { ...statuses };
-      if (status === "pending") delete next[id];
-      else next[id] = status;
-      saveToStorage(next);
-    },
-    [statuses, saveToStorage]
-  );
-
-  const toggleStatus = useCallback(
-    (id: string) => {
-      const current = statuses[id] ?? "pending";
-      const nextIdx = (STATUSES.indexOf(current) + 1) % STATUSES.length;
-      const newStatus = STATUSES[nextIdx];
-      const next = { ...statuses };
-
-      if (newStatus === "pending") {
-        delete next[id];
-      } else {
-        next[id] = newStatus;
+  const saveStatus = useCallback(async (id: string, status: CourseStatus) => {
+    if (!user) return;
+    try {
+      const progressRef = doc(firestore, "users", user.uid, "curricula", courseId);
+      if (status === "pending") {
+        await updateDoc(progressRef, new FieldPath("statuses", id), deleteField(), "updatedAt", serverTimestamp());
+        return;
       }
+      await setDoc(progressRef, { statuses: { [id]: status }, updatedAt: serverTimestamp() }, { merge: true });
+    } catch {
+      setError("Não foi possível salvar o progresso. Tente novamente.");
+    }
+  }, [courseId, user]);
 
-      saveToStorage(next);
-    },
-    [statuses, saveToStorage]
-  );
+  const getStatus = useCallback((id: string): CourseStatus => courseStatuses[id] ?? "pending", [courseStatuses]);
+
+  const setStatus = useCallback((id: string, status: CourseStatus) => {
+    const nextStatuses = { ...courseStatuses };
+    if (status === "pending") delete nextStatuses[id];
+    else nextStatuses[id] = status;
+    setCourseStatuses(nextStatuses);
+    void saveStatus(id, status);
+  }, [courseStatuses, saveStatus]);
+
+  const toggleStatus = useCallback((id: string) => {
+    const current = courseStatuses[id] ?? "pending";
+    const nextStatus = statuses[(statuses.indexOf(current) + 1) % statuses.length];
+    setStatus(id, nextStatus);
+  }, [courseStatuses, setStatus]);
 
   const resetAll = useCallback(() => {
-    saveToStorage({});
-  }, [saveToStorage]);
+    if (!user || Object.keys(courseStatuses).length === 0) return;
+    const nextStatuses = Object.fromEntries(Object.keys(courseStatuses).map((id) => [id, deleteField()]));
+    setCourseStatuses({});
+    void setDoc(
+      doc(firestore, "users", user.uid, "curricula", courseId),
+      { statuses: nextStatuses, updatedAt: serverTimestamp() },
+      { merge: true }
+    ).catch(() => setError("Não foi possível salvar o progresso. Tente novamente."));
+  }, [courseId, courseStatuses, user]);
 
-  return { statuses, getStatus, setStatus, toggleStatus, resetAll, isMounted: true };
+  return { statuses: courseStatuses, getStatus, setStatus, toggleStatus, resetAll, error };
 }

@@ -1,8 +1,13 @@
+"use client";
+
 import Link from "next/link";
 
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { SiteFooter } from "@/components/SiteFooter";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { AuthScreen } from "@/components/AuthScreen";
+import { CourseLibrary } from "@/components/CourseLibrary";
+import { useAuth } from "@/components/AuthProvider";
 
 const featureCards = [
   {
@@ -23,9 +28,14 @@ const featureCards = [
   },
 ];
 
-import { availableCourses } from "@/data/curricula";
 
 export default function LandingPage() {
+  const { isLoading, user, logOut } = useAuth();
+
+  if (isLoading) {
+    return <main className="app-gradient min-h-screen" />;
+  }
+
   return (
     <main className="app-gradient min-h-screen overflow-hidden">
       <div className="pointer-events-none absolute inset-0 opacity-80 [background-image:linear-gradient(rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.08)_1px,transparent_1px)] [background-size:48px_48px]" />
@@ -36,6 +46,11 @@ export default function LandingPage() {
             Currículo Interativo UFSC
           </Link>
           <div className="flex items-center gap-2">
+            {user && <button
+              type="button"
+              onClick={() => void logOut()}
+              className="rounded-full border border-[var(--glass-border)] bg-[var(--glass-surface)] px-3 py-2 text-sm font-semibold text-[var(--text-strong)] transition hover:bg-[var(--glass-strong)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]"
+            >Sair</button>}
             <ThemeToggle />
           </div>
         </nav>
@@ -57,39 +72,7 @@ export default function LandingPage() {
           </div>
 
           <div className="animate-rise-delayed w-full min-w-0">
-            <div className="rounded-[2rem] border border-[var(--glass-border)] bg-[var(--glass-surface)]/30 p-6 backdrop-blur-sm sm:p-8">
-              <h3 className="mb-6 flex items-center gap-4 text-sm font-bold uppercase tracking-[0.15em] text-[var(--text-faint)]">
-                Selecione seu curso
-                <span className="h-px flex-1 bg-gradient-to-r from-[var(--glass-border)] to-transparent" />
-              </h3>
-
-              <div className="grid gap-3 min-[430px]:grid-cols-2">
-                {availableCourses.map((course) => (
-                  <Link
-                    key={course.id}
-                    href={`/${course.id}`}
-                    className="group relative flex items-center justify-between overflow-hidden rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-surface)] p-4 transition-all duration-300 hover:-translate-y-1 hover:bg-[var(--glass-strong)] hover:shadow-lg hover:shadow-[var(--accent)]/10 hover:border-[var(--accent)]/30 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]"
-                  >
-                    <div className="absolute inset-0 bg-gradient-to-r from-[var(--accent)]/0 via-[var(--accent)]/0 to-[var(--accent)]/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-
-                    <div className="relative z-10 flex min-w-0 flex-col">
-                      <span className="truncate text-sm font-bold text-[var(--text-strong)] group-hover:text-[var(--accent)] transition-colors duration-300">
-                        {course.name.replace("Engenharia ", "Eng. ")}
-                      </span>
-                      <span className="mt-1 truncate text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
-                        {course.description}
-                      </span>
-                    </div>
-
-                    <div className="relative z-10 ml-3 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--bg-primary)] shadow-inner ring-1 ring-[var(--glass-border)] transition-all duration-300 group-hover:scale-110 group-hover:bg-[var(--accent)] group-hover:text-white group-hover:ring-[var(--accent)] text-[var(--text-faint)]">
-                      <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
+            {user ? <CourseLibrary /> : <AuthScreen />}
           </div>
 
         </div>

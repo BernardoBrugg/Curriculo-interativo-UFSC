@@ -1,5 +1,6 @@
 "use client";
 
+import { useDraggable } from "@dnd-kit/core";
 import { Course } from "@/types/curriculum";
 
 interface CourseCardProps {
@@ -25,6 +26,11 @@ export function CourseCard({
   onMouseEnter,
   onMouseLeave,
 }: CourseCardProps) {
+  const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
+    id: course.id,
+    data: { course },
+  });
+
   const statusMeta = {
     completed: {
       label: "Concluída",
@@ -80,6 +86,12 @@ export function CourseCard({
   if (isFilteredOut) visibilityClass = "opacity-25 grayscale";
   else if (computedState === "blocked") visibilityClass = "opacity-70 hover:opacity-95";
 
+  if (isDragging) visibilityClass += " opacity-50";
+
+  const style = transform
+    ? { transform: `translate3d(${transform.x}px, ${transform.y}px, 0)`, zIndex: 50 }
+    : undefined;
+
   const handleClick = () => {
     if (typeof navigator !== "undefined" && navigator.vibrate) {
       navigator.vibrate(50);
@@ -89,6 +101,8 @@ export function CourseCard({
 
   return (
     <button
+      ref={setNodeRef}
+      style={style}
       id={`course-${course.id}`}
       type="button"
       onClick={handleClick}
@@ -96,7 +110,9 @@ export function CourseCard({
       onMouseLeave={onMouseLeave}
       onFocus={onMouseEnter}
       onBlur={onMouseLeave}
-      className={`relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition-all duration-200 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] active:scale-[0.97] active:opacity-90 active:shadow-inner focus:outline-none ${statusMeta.card} ${relationshipClass} ${visibilityClass}`}
+      {...attributes}
+      {...listeners}
+      className={`relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition-all duration-200 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] active:scale-[0.97] active:opacity-90 active:shadow-inner focus:outline-none touch-none ${statusMeta.card} ${relationshipClass} ${visibilityClass}`}
     >
       <span className={`absolute inset-y-3 left-0 w-1 rounded-r-full ${typeMeta.accent}`} />
       <div className="flex items-start justify-between gap-2 pl-2">
@@ -128,8 +144,11 @@ export function CourseCard({
           <span className={`h-2 w-2 rounded-full ${statusMeta.accent}`} />
           {statusMeta.label}
         </span>
-        <span className="text-[10px] font-semibold text-[var(--text-faint)]">
+        <span className="text-[10px] font-semibold text-[var(--text-faint)] flex items-center gap-1">
           {typeMeta.label}
+          <svg className="h-3 w-3 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8h16M4 16h16" />
+          </svg>
         </span>
       </div>
     </button>

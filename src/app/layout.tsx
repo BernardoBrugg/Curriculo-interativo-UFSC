@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Script from "next/script";
+import { AuthProvider } from "@/components/AuthProvider";
 import "./globals.css";
 
 const geist = Geist({ subsets: ["latin"] });
@@ -37,7 +38,7 @@ export default function RootLayout({
         <Script id="theme-script" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
       <body className="min-h-screen" suppressHydrationWarning>
-        {children}
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );
