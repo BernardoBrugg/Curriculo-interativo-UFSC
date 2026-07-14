@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getDropTargetLabel } from "./drag-copy";
+import { getDropTargetLabel } from "../../src/lib/drag-copy";
 
 describe("getDropTargetLabel", () => {
   it("returns a clear destination label for a semester", () => {

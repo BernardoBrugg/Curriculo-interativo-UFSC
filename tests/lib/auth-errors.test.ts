@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getAuthErrorMessage } from "./auth-errors";
+import { getAuthErrorMessage } from "../../src/lib/auth-errors";
 
 describe("getAuthErrorMessage", () => {
   it("translates Firebase credential errors to Portuguese", () => {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { normalizeCurriculumDocument, normalizeCurriculumSummary } from "./curriculum-repository";
+import { normalizeCurriculumDocument, normalizeCurriculumSummary } from "../../src/lib/curriculum-repository";
 
 describe("curriculum repository normalization", () => {
   it("normalizes a curriculum document returned by Firestore", () => {

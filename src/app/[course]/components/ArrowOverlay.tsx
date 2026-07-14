@@ -31,7 +31,6 @@ export function ArrowOverlay({ selectedId, prerequisites, dependents, courses }:
       const selectedRect = selectedEl.getBoundingClientRect();
       const newPaths: OverlayPath[] = [];
 
-      // Draw lines from prerequisites TO selected
       Array.from(prerequisites).forEach((id) => {
         const el = document.getElementById(`course-${id}`);
         if (!el) return;
@@ -42,7 +41,6 @@ export function ArrowOverlay({ selectedId, prerequisites, dependents, courses }:
         const endX = selectedRect.left;
         const endY = selectedRect.top + selectedRect.height / 2;
         
-        // Bezier curve
         const cp1X = startX + (endX - startX) / 2;
         const cp1Y = startY;
         const cp2X = startX + (endX - startX) / 2;
@@ -55,7 +53,6 @@ export function ArrowOverlay({ selectedId, prerequisites, dependents, courses }:
         });
       });
 
-      // Draw lines from selected TO dependents
       Array.from(dependents).forEach((id) => {
         const el = document.getElementById(`course-${id}`);
         if (!el) return;
@@ -81,7 +78,6 @@ export function ArrowOverlay({ selectedId, prerequisites, dependents, courses }:
       setPaths(newPaths);
     };
 
-    // Animation frame loop keeps connectors aligned during horizontal scrolling.
     const loop = () => {
       updatePaths();
       frameId = requestAnimationFrame(loop);

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { sumCourseCredits } from "./curriculum-stats";
+import { sumCourseCredits } from "../../src/lib/curriculum-stats";
 
 describe("sumCourseCredits", () => {
   it("sums the credits from the courses in a semester", () => {

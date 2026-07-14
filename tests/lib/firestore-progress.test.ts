@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { normalizeProgress } from "./firestore-progress";
+import { normalizeProgress } from "../../src/lib/firestore-progress";
 
 describe("normalizeProgress", () => {
   it("returns empty progress for a missing Firestore document", () => {

@@ -49,7 +49,7 @@ export function AuthScreen() {
       if (mode === "sign-up") await signUp(email, password);
       if (isReset) {
         await sendPasswordReset(email);
-        setNotice("Link enviado. Confira sua caixa de entrada.");
+        setNotice("E-mail enviado. Confira sua caixa de entrada para definir uma nova senha.");
       }
     } catch (reason) {
       setError(getAuthErrorMessage(getErrorCode(reason)));
@@ -71,9 +71,9 @@ export function AuthScreen() {
     }
   };
 
-  const title = mode === "sign-in" ? "Entre na sua conta" : mode === "sign-up" ? "Crie sua conta" : "Recupere sua senha";
-  const description = mode === "sign-in" ? "Acesse seu currículo e continue de onde parou." : mode === "sign-up" ? "Salve seu planejamento e acesse de qualquer dispositivo." : "Informe seu e-mail para receber um link de recuperação.";
-  const action = mode === "sign-in" ? "Entrar" : mode === "sign-up" ? "Criar conta" : "Enviar link";
+  const title = mode === "sign-in" ? "Entre na sua conta" : mode === "sign-up" ? "Crie sua conta" : "Esqueci minha senha";
+  const description = mode === "sign-in" ? "Acesse seu currículo e continue de onde parou." : mode === "sign-up" ? "Salve seu planejamento e acesse de qualquer dispositivo." : "Informe seu e-mail para receber um link e definir uma nova senha.";
+  const action = mode === "sign-in" ? "Entrar" : mode === "sign-up" ? "Criar conta" : "Enviar e-mail de recuperação";
 
   return (
     <div className="rounded-[2rem] border border-[var(--glass-border)] bg-[var(--glass-surface)]/30 p-6 backdrop-blur-sm sm:p-8">
@@ -93,7 +93,7 @@ export function AuthScreen() {
         <button type="submit" disabled={isSubmitting} className="auth-primary w-full rounded-xl px-4 py-3.5 text-sm font-bold transition hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-60">{isSubmitting ? "Aguarde..." : action}</button>
       </form>
       {!isReset && <><div className="my-5 flex items-center gap-3 text-xs font-semibold text-[var(--text-faint)]"><span className="h-px flex-1 bg-[var(--glass-border)]" />ou<span className="h-px flex-1 bg-[var(--glass-border)]" /></div><button type="button" disabled={isSubmitting} onClick={handleGoogleSignIn} className="auth-secondary w-full rounded-xl px-4 py-3.5 text-sm font-bold transition hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-60">Continuar com Google</button></>}
-      <div className="mt-5 flex justify-center text-sm font-semibold">{mode === "sign-in" && <button type="button" onClick={() => changeMode("reset")} className="auth-tab cursor-pointer px-2 py-1 text-[var(--accent)] hover:underline">Esqueci a senha</button>}{mode !== "sign-in" && <button type="button" onClick={() => changeMode("sign-in")} className="auth-tab cursor-pointer px-2 py-1 text-[var(--accent)] hover:underline">Voltar para entrar</button>}</div>
+      <div className="mt-5 flex justify-center text-sm font-semibold">{mode === "sign-in" && <button type="button" onClick={() => changeMode("reset")} className="auth-tab cursor-pointer px-2 py-1 text-[var(--accent)] hover:underline">Esqueci minha senha</button>}{mode !== "sign-in" && <button type="button" onClick={() => changeMode("sign-in")} className="auth-tab cursor-pointer px-2 py-1 text-[var(--accent)] hover:underline">Voltar para entrar</button>}</div>
     </div>
   );
 }

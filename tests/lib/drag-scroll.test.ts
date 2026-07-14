@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { shouldStartDragScroll } from "./drag-scroll";
+import { shouldStartDragScroll } from "../../src/lib/drag-scroll";
 
 describe("shouldStartDragScroll", () => {
   it("does not start board scrolling from interactive controls", () => {

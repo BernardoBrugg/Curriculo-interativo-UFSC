@@ -9,6 +9,11 @@ const messages: Record<string, string> = {
   "auth/weak-password": "A senha deve ter pelo menos 6 caracteres.",
   "auth/operation-not-allowed": "Este método de autenticação ainda não foi ativado no Firebase Console.",
   "auth/wrong-password": "E-mail ou senha inválidos.",
+  "auth/requires-recent-login": "Confirme sua identidade novamente para continuar.",
+  "auth/password-required": "Informe sua senha atual para continuar.",
+  "auth/provider-not-supported": "Este provedor não permite esta operação.",
+  "auth/invalid-password": "A senha atual está incorreta.",
+  "auth/user-disabled": "Esta conta está desativada.",
 };
 
 export function getAuthErrorMessage(code: string) {

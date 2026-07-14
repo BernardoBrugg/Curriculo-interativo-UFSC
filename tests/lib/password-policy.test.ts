@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getPasswordValidationError } from "./password-policy";
+import { getPasswordValidationError } from "../../src/lib/password-policy";
 
 describe("getPasswordValidationError", () => {
   it("requires eight characters, uppercase, lowercase, and number", () => {
