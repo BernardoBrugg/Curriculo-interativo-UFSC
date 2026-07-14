@@ -1,9 +1,11 @@
 "use client";
 
 import { useDraggable } from "@dnd-kit/core";
-import { useMemo } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { Course } from "@/types/curriculum";
 import { getCoursePopoverData } from "@/lib/course-popover";
+import { getCoursePopoverPosition } from "@/lib/course-popover-position";
 
 interface CourseCardProps {
   course: Course;
@@ -32,7 +34,9 @@ export function CourseCard({
   onMouseLeave,
   isOverlay = false,
 }: CourseCardProps) {
-  const { attributes, listeners, setNodeRef, setActivatorNodeRef, transform, isDragging } = useDraggable({
+  const cardRef = useRef<HTMLDivElement | null>(null);
+  const [popoverPosition, setPopoverPosition] = useState<{ left: number; top: number } | null>(null);
+  const { attributes, listeners, setNodeRef, setActivatorNodeRef, isDragging } = useDraggable({
     id: course.id,
     data: { course },
   });
@@ -93,11 +97,7 @@ export function CourseCard({
   if (isFilteredOut) visibilityClass = "opacity-25 grayscale";
   else if (computedState === "blocked") visibilityClass = "opacity-70 hover:opacity-95";
 
-  if (isDragging) visibilityClass += " opacity-50";
-
-  const style = !isOverlay && transform
-    ? { transform: `translate3d(${transform.x}px, ${transform.y}px, 0)`, zIndex: 50 }
-    : undefined;
+  if (isDragging && !isOverlay) visibilityClass += " opacity-0";
 
   const handleClick = () => {
     if (typeof navigator !== "undefined" && navigator.vibrate) {
@@ -106,15 +106,58 @@ export function CourseCard({
     onClick();
   };
 
+  const updatePopoverPosition = useCallback(() => {
+    if (!cardRef.current || typeof window === "undefined") return;
+    const rect = cardRef.current.getBoundingClientRect();
+    setPopoverPosition(getCoursePopoverPosition(rect, { width: window.innerWidth, height: window.innerHeight }));
+  }, []);
+
+  const handleMouseEnter = () => {
+    updatePopoverPosition();
+    onMouseEnter();
+  };
+
+  const handleMouseLeave = () => {
+    setPopoverPosition(null);
+    onMouseLeave();
+  };
+
+  const setCardRefs = useCallback(
+    (node: HTMLDivElement | null) => {
+      cardRef.current = node;
+      if (!isOverlay) setNodeRef(node);
+    },
+    [isOverlay, setNodeRef]
+  );
+
+  const popover = !isOverlay && popoverPosition && typeof document !== "undefined" ? createPortal(
+    <div role="tooltip" className="pointer-events-none fixed z-[80] w-72 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-strong)] p-4 text-left shadow-2xl backdrop-blur-xl" style={popoverPosition}>
+      <p className="text-xs font-bold uppercase tracking-[0.14em] text-[var(--accent)]">Detalhes da disciplina</p>
+      <dl className="mt-3 grid grid-cols-2 gap-2 text-xs">
+        <div className="rounded-lg bg-[var(--glass-muted)] px-2.5 py-2">
+          <dt className="text-[var(--text-faint)]">Tipo</dt>
+          <dd className="mt-0.5 font-semibold text-[var(--text-strong)]">{popoverData.typeLabel}</dd>
+        </div>
+        <div className="rounded-lg bg-[var(--glass-muted)] px-2.5 py-2">
+          <dt className="text-[var(--text-faint)]">Carga</dt>
+          <dd className="mt-0.5 font-semibold text-[var(--text-strong)]">{popoverData.creditsLabel}</dd>
+        </div>
+      </dl>
+      <PopoverList label="Necessárias antes" items={popoverData.prerequisites} />
+      <PopoverList label="Desbloqueia" items={popoverData.dependents} />
+      <p className="mt-3 border-t border-[var(--glass-border)] pt-3 text-xs font-semibold leading-5 text-[var(--text-muted)]">{popoverData.dragInstruction}</p>
+    </div>,
+    document.body
+  ) : null;
+
   return (
     <div
-      ref={isOverlay ? undefined : setNodeRef}
-      style={style}
+      ref={setCardRefs}
       id={isOverlay ? undefined : `course-${course.id}`}
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
-      onFocus={onMouseEnter}
-      onBlur={onMouseLeave}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onFocus={handleMouseEnter}
+      onBlur={handleMouseLeave}
       className={`group/card relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition-all duration-200 hover:z-50 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] focus-within:z-50 ${statusMeta.card} ${relationshipClass} ${visibilityClass} ${isDragging && !isOverlay ? "z-50 scale-[1.03] shadow-2xl" : ""} ${isOverlay ? "w-[260px] cursor-grabbing shadow-2xl" : ""}`}
     >
       <span className={`absolute inset-y-3 left-0 w-1 rounded-r-full ${typeMeta.accent}`} />
@@ -156,22 +199,7 @@ export function CourseCard({
         </span>
       </div>
       </button>
-      {!isOverlay && <div role="tooltip" className="pointer-events-none absolute left-full top-0 z-[60] ml-3 hidden w-72 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-strong)] p-4 text-left shadow-2xl backdrop-blur-xl group-hover/card:block group-focus-within/card:block">
-        <p className="text-xs font-bold uppercase tracking-[0.14em] text-[var(--accent)]">Detalhes da disciplina</p>
-        <dl className="mt-3 grid grid-cols-2 gap-2 text-xs">
-          <div className="rounded-lg bg-[var(--glass-muted)] px-2.5 py-2">
-            <dt className="text-[var(--text-faint)]">Tipo</dt>
-            <dd className="mt-0.5 font-semibold text-[var(--text-strong)]">{popoverData.typeLabel}</dd>
-          </div>
-          <div className="rounded-lg bg-[var(--glass-muted)] px-2.5 py-2">
-            <dt className="text-[var(--text-faint)]">Carga</dt>
-            <dd className="mt-0.5 font-semibold text-[var(--text-strong)]">{popoverData.creditsLabel}</dd>
-          </div>
-        </dl>
-        <PopoverList label="Necessárias antes" items={popoverData.prerequisites} />
-        <PopoverList label="Desbloqueia" items={popoverData.dependents} />
-        <p className="mt-3 border-t border-[var(--glass-border)] pt-3 text-xs font-semibold leading-5 text-[var(--text-muted)]">{popoverData.dragInstruction}</p>
-      </div>}
+      {popover}
       {!isOverlay && <button
           ref={setActivatorNodeRef}
           type="button"
