@@ -1,11 +1,13 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { DndContext, DragEndEvent, useDroppable, PointerSensor, useSensor, useSensors } from "@dnd-kit/core";
+import { DndContext, DragEndEvent, DragOverlay, DragStartEvent, useDroppable, PointerSensor, useSensor, useSensors } from "@dnd-kit/core";
 import { Course, CourseStatus, PhaseInfo } from "@/types/curriculum";
 import { CourseCard } from "./CourseCard";
 import { useDragScroll } from "@/hooks/useDragScroll";
 import { useDragTutorial } from "@/hooks/useDragTutorial";
+import { getDropTargetLabel } from "@/lib/drag-copy";
+import { sumCourseCredits } from "@/lib/curriculum-stats";
 
 interface CurriculumGridProps {
   phases: PhaseInfo[];
@@ -37,6 +39,8 @@ export function CurriculumGrid({
   const { ref: scrollRef, isDragging, events } = useDragScroll<HTMLDivElement>();
   const { isVisible: isTutorialVisible, dismiss: dismissTutorial } = useDragTutorial();
   const [activeMobilePhase, setActiveMobilePhase] = useState<number>(phases[0]?.number ?? 1);
+  const [activeCourseId, setActiveCourseId] = useState<string | null>(null);
+  const [moveConfirmation, setMoveConfirmation] = useState<string | null>(null);
 
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -95,31 +99,55 @@ export function CurriculumGrid({
     return matches;
   }, [courses, searchQuery]);
 
+  const activeCourse = activeCourseId ? courseMap.get(activeCourseId) : undefined;
+  const activeCourseStatus = activeCourse ? statuses[activeCourse.id] ?? "pending" : "pending";
+  const activeCourseBlocked = activeCourse?.prerequisites.some((prerequisiteId) => {
+    if (statuses[prerequisiteId] === "completed") return false;
+    const prerequisiteCourse = courseMap.get(prerequisiteId);
+    return !prerequisiteCourse?.equivalents?.some((equivalentId) => statuses[equivalentId] === "completed");
+  }) ?? false;
+  const activeComputedState: "completed" | "in-progress" | "available" | "blocked" = activeCourseStatus === "completed"
+    ? "completed"
+    : activeCourseStatus === "in-progress"
+      ? "in-progress"
+      : activeCourseBlocked
+        ? "blocked"
+        : "available";
+
   const getPhaseStats = (phaseCourses: Course[]) => {
     const completed = phaseCourses.filter((course) => statuses[course.id] === "completed").length;
     const total = phaseCourses.length;
     const percent = total > 0 ? Math.round((completed / total) * 100) : 0;
-    return { completed, total, percent };
+    const credits = sumCourseCredits(phaseCourses);
+    return { completed, total, percent, credits };
   };
 
   const handleDragEnd = (event: DragEndEvent) => {
     const { active, over } = event;
+    setActiveCourseId(null);
     if (!over) return;
 
     const courseId = String(active.id);
     const toPhase = Number(over.id);
     onMoveCourse(courseId, toPhase);
+    setMoveConfirmation(`Disciplina movida para o semestre ${toPhase}`);
+    window.setTimeout(() => setMoveConfirmation(null), 2600);
+  };
+
+  const handleDragStart = (event: DragStartEvent) => {
+    setMoveConfirmation(null);
+    setActiveCourseId(String(event.active.id));
   };
 
   return (
-    <DndContext sensors={sensors} onDragEnd={handleDragEnd}>
+    <DndContext sensors={sensors} onDragStart={handleDragStart} onDragCancel={() => setActiveCourseId(null)} onDragEnd={handleDragEnd}>
       <section className="glass-surface w-full min-w-0 max-w-full rounded-3xl">
         <div className="border-b border-[var(--glass-border)] px-4 py-3">
           <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <h2 className="text-base font-semibold text-[var(--text-strong)]">Grade curricular</h2>
               <p className="text-sm text-[var(--text-muted)]">
-                Arraste disciplinas para organizar seu plano.
+                Clique no cartão para atualizar o status. Use o puxador para mover a disciplina.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-2 text-xs text-[var(--text-muted)]">
@@ -141,13 +169,25 @@ export function CurriculumGrid({
 
         {isTutorialVisible && <aside className="mx-3 mt-3 rounded-2xl border border-[var(--accent)]/25 bg-[var(--accent-soft)] px-4 py-4 text-sm text-[var(--text-muted)]">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <p className="font-bold text-[var(--text-strong)]">Monte seu currículo</p>
-              <p className="mt-1 leading-6">Clique e segure uma disciplina. Arraste até outro semestre e solte. A mudança fica salva automaticamente.</p>
+            <div className="min-w-0">
+              <p className="font-bold text-[var(--text-strong)]">Duas ações para começar</p>
+              <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                <div className="flex items-center gap-2 rounded-xl bg-[var(--glass-strong)] px-3 py-2">
+                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-[var(--accent)] text-xs font-bold text-[var(--on-accent)]">1</span>
+                  <span><strong className="text-[var(--text-strong)]">Clique</strong> para atualizar o status.</span>
+                </div>
+                <div className="flex items-center gap-2 rounded-xl bg-[var(--glass-strong)] px-3 py-2">
+                  <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-[var(--accent)] text-xs font-bold text-[var(--accent)]">2</span>
+                  <span><strong className="text-[var(--text-strong)]">Puxe pelo grip</strong> para trocar o semestre.</span>
+                </div>
+              </div>
             </div>
             <button type="button" onClick={() => void dismissTutorial()} className="auth-primary shrink-0 rounded-xl px-3 py-2 text-xs font-bold">Entendi</button>
           </div>
         </aside>}
+
+        {activeCourseId && <div className="mx-3 mt-3 rounded-xl border border-dashed border-[var(--accent)]/50 bg-[var(--accent-soft)] px-3 py-2 text-center text-xs font-semibold text-[var(--accent)] md:hidden">Arraste até o semestre desejado e solte</div>}
+        {moveConfirmation && <div role="status" className="mx-3 mt-3 rounded-xl border border-emerald-400/35 bg-emerald-500/10 px-3 py-2 text-center text-xs font-semibold text-emerald-700">{moveConfirmation}</div>}
 
         <div className="md:hidden border-b border-[var(--glass-border)] overflow-x-auto pb-1 pt-2 px-2 flex gap-2 hide-scrollbar">
           {phases.map((phase) => (
@@ -211,6 +251,7 @@ export function CurriculumGrid({
                   onSelectCourse={onSelectCourse}
                   onToggleStatus={onToggleStatus}
                   isMobileHidden={isMobileHidden}
+                  isDragActive={activeCourseId !== null}
                 />
               );
             })}
@@ -218,6 +259,22 @@ export function CurriculumGrid({
           </div>
         </div>
       </section>
+      <DragOverlay dropAnimation={null}>
+        {activeCourse ? (
+          <CourseCard
+            course={activeCourse}
+            computedState={activeComputedState}
+            isSelected={selectedId === activeCourse.id}
+            isPrereq={prerequisites.has(activeCourse.id)}
+            isDependent={dependents.has(activeCourse.id)}
+            isFilteredOut={false}
+            onClick={() => undefined}
+            onMouseEnter={() => undefined}
+            onMouseLeave={() => undefined}
+            isOverlay
+          />
+        ) : null}
+      </DragOverlay>
     </DndContext>
   );
 }
@@ -225,7 +282,7 @@ export function CurriculumGrid({
 interface PhaseColumnProps {
   phase: PhaseInfo;
   phaseCourses: Course[];
-  phaseStats: { completed: number; total: number; percent: number };
+  phaseStats: { completed: number; total: number; percent: number; credits: number };
   selectedId: string | null;
   searchQuery: string;
   searchMatches: Set<string>;
@@ -236,6 +293,7 @@ interface PhaseColumnProps {
   onSelectCourse: (id: string | null) => void;
   onToggleStatus: (id: string) => void;
   isMobileHidden: boolean;
+  isDragActive: boolean;
 }
 
 function PhaseColumn({
@@ -252,6 +310,7 @@ function PhaseColumn({
   onSelectCourse,
   onToggleStatus,
   isMobileHidden,
+  isDragActive,
 }: PhaseColumnProps) {
   const { isOver, setNodeRef } = useDroppable({
     id: String(phase.number),
@@ -260,19 +319,26 @@ function PhaseColumn({
   return (
     <div
       ref={setNodeRef}
+      aria-label={`Semestre ${phase.number}, ${phaseStats.total} disciplinas`}
       className={`flex w-full md:w-[260px] shrink-0 flex-col overflow-hidden rounded-2xl border ${
-        isOver ? "border-[var(--accent)] shadow-md" : "border-[var(--glass-border)]"
+        isOver ? "border-[var(--accent)] bg-[var(--accent-soft)] shadow-lg" : "border-[var(--glass-border)]"
       } bg-[var(--glass-muted)] backdrop-blur transition-colors ${
-        isMobileHidden ? "hidden md:flex" : "flex"
+        isMobileHidden && !isDragActive ? "hidden md:flex" : "flex"
       }`}
     >
       <div className="border-b border-[var(--glass-border)] bg-[var(--glass-strong)] px-3 py-2.5">
         <div className="flex items-start justify-between gap-2">
           <h3 className="text-sm font-semibold text-[var(--text-strong)]">Semestre {phase.number}</h3>
-          <span className="rounded-full bg-[var(--accent-soft)] px-1.5 py-0.5 text-[11px] font-semibold text-[var(--accent)]">
-            {phaseStats.completed}/{phaseStats.total}
-          </span>
+          <div className="flex items-center gap-1.5">
+            <span className="rounded-full bg-[var(--glass-muted)] px-1.5 py-0.5 text-[11px] font-semibold text-[var(--text-muted)]">
+              {phaseStats.credits} cr
+            </span>
+            <span className="rounded-full bg-[var(--accent-soft)] px-1.5 py-0.5 text-[11px] font-semibold text-[var(--accent)]">
+              {phaseStats.completed}/{phaseStats.total}
+            </span>
+          </div>
         </div>
+        {isOver && <p className="mt-2 rounded-lg bg-[var(--accent)] px-2 py-1 text-center text-[11px] font-bold text-[var(--on-accent)]">{getDropTargetLabel(phase.number)}</p>}
         <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-[var(--accent-soft)]">
           <div
             className="h-full rounded-full bg-gradient-to-r from-[var(--accent)] to-[var(--accent-2)]"

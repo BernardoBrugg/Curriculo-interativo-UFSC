@@ -13,6 +13,7 @@ interface CourseCardProps {
   onClick: () => void;
   onMouseEnter: () => void;
   onMouseLeave: () => void;
+  isOverlay?: boolean;
 }
 
 export function CourseCard({
@@ -25,8 +26,9 @@ export function CourseCard({
   onClick,
   onMouseEnter,
   onMouseLeave,
+  isOverlay = false,
 }: CourseCardProps) {
-  const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
+  const { attributes, listeners, setNodeRef, setActivatorNodeRef, transform, isDragging } = useDraggable({
     id: course.id,
     data: { course },
   });
@@ -88,7 +90,7 @@ export function CourseCard({
 
   if (isDragging) visibilityClass += " opacity-50";
 
-  const style = transform
+  const style = !isOverlay && transform
     ? { transform: `translate3d(${transform.x}px, ${transform.y}px, 0)`, zIndex: 50 }
     : undefined;
 
@@ -100,22 +102,19 @@ export function CourseCard({
   };
 
   return (
-    <button
-      ref={setNodeRef}
+    <div
+      ref={isOverlay ? undefined : setNodeRef}
       style={style}
-      id={`course-${course.id}`}
-      type="button"
-      onClick={handleClick}
+      id={isOverlay ? undefined : `course-${course.id}`}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onFocus={onMouseEnter}
       onBlur={onMouseLeave}
-      {...attributes}
-      {...listeners}
-      className={`relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition-all duration-200 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] active:scale-[0.97] active:opacity-90 active:shadow-inner focus:outline-none touch-none ${statusMeta.card} ${relationshipClass} ${visibilityClass}`}
+      className={`group/card relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition-all duration-200 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] ${statusMeta.card} ${relationshipClass} ${visibilityClass} ${isDragging && !isOverlay ? "z-50 scale-[1.03] shadow-2xl" : ""} ${isOverlay ? "w-[260px] cursor-grabbing shadow-2xl" : ""}`}
     >
       <span className={`absolute inset-y-3 left-0 w-1 rounded-r-full ${typeMeta.accent}`} />
-      <div className="flex items-start justify-between gap-2 pl-2">
+      <button type="button" onClick={handleClick} className="block w-full text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-transparent">
+      <div className="flex items-start justify-between gap-2 pl-2 pr-7">
         <span className="font-mono text-[11px] font-semibold tracking-wide text-[var(--text-muted)]">
           {course.code}
         </span>
@@ -139,7 +138,7 @@ export function CourseCard({
       <h3 className="mt-1.5 line-clamp-2 pl-2 text-[13px] font-semibold leading-snug text-[var(--text-strong)]">
         {course.name}
       </h3>
-      <div className="mt-1.5 flex items-center justify-between gap-2 pl-2">
+      <div className="mt-1.5 flex items-center justify-between gap-2 pl-2 pr-1">
         <span className={`inline-flex items-center gap-1.5 text-[11px] font-medium ${statusMeta.text}`}>
           <span className={`h-2 w-2 rounded-full ${statusMeta.accent}`} />
           {statusMeta.label}
@@ -151,6 +150,21 @@ export function CourseCard({
           </svg>
         </span>
       </div>
-    </button>
+      </button>
+      {!isOverlay && <button
+          ref={setActivatorNodeRef}
+          type="button"
+          aria-label={`Arrastar ${course.name} para outro semestre`}
+          title="Arrastar disciplina"
+          data-drag-handle="true"
+          {...attributes}
+          {...listeners}
+          className="absolute right-1.5 top-1/2 flex h-9 w-7 -translate-y-1/2 touch-none items-center justify-center rounded-lg text-[var(--text-faint)] opacity-75 transition hover:bg-[var(--accent-soft)] hover:text-[var(--accent)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
+        >
+          <span aria-hidden="true" className="grid grid-cols-2 gap-1">
+            {Array.from({ length: 6 }, (_, index) => <span key={index} className="h-1 w-1 rounded-full bg-current" />)}
+          </span>
+        </button>}
+    </div>
   );
 }
