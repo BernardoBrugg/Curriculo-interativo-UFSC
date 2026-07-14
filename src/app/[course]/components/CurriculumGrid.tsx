@@ -263,6 +263,7 @@ export function CurriculumGrid({
         {activeCourse ? (
           <CourseCard
             course={activeCourse}
+            allCourses={courses}
             computedState={activeComputedState}
             isSelected={selectedId === activeCourse.id}
             isPrereq={prerequisites.has(activeCourse.id)}
@@ -312,6 +313,7 @@ function PhaseColumn({
   isMobileHidden,
   isDragActive,
 }: PhaseColumnProps) {
+  const allCourses = useMemo(() => Array.from(courseMap.values()), [courseMap]);
   const { isOver, setNodeRef } = useDroppable({
     id: String(phase.number),
   });
@@ -320,7 +322,7 @@ function PhaseColumn({
     <div
       ref={setNodeRef}
       aria-label={`Semestre ${phase.number}, ${phaseStats.total} disciplinas`}
-      className={`flex w-full md:w-[260px] shrink-0 flex-col overflow-hidden rounded-2xl border ${
+      className={`flex w-full md:w-[260px] shrink-0 flex-col overflow-visible rounded-2xl border ${
         isOver ? "border-[var(--accent)] bg-[var(--accent-soft)] shadow-lg" : "border-[var(--glass-border)]"
       } bg-[var(--glass-muted)] backdrop-blur transition-colors ${
         isMobileHidden && !isDragActive ? "hidden md:flex" : "flex"
@@ -374,6 +376,7 @@ function PhaseColumn({
             <CourseCard
               key={course.id}
               course={course}
+              allCourses={allCourses}
               computedState={computedState}
               isSelected={isSelected}
               isPrereq={isPrereq}

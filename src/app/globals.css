@@ -115,8 +115,8 @@ body {
 
 .auth-primary,
 .auth-tab-active {
-  color: var(--on-accent);
-  background-color: var(--accent);
+  color: var(--on-accent) !important;
+  background-color: var(--accent) !important;
 }
 
 .auth-primary,
@@ -152,6 +152,12 @@ body {
 .auth-tab:hover {
   color: var(--text-strong);
   background: var(--glass-strong);
+}
+
+.auth-tab.auth-tab-active {
+  color: var(--on-accent) !important;
+  background-color: var(--accent) !important;
+  -webkit-text-fill-color: var(--on-accent);
 }
 
 input:-webkit-autofill,

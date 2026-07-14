@@ -1,10 +1,13 @@
 "use client";
 
 import { useDraggable } from "@dnd-kit/core";
+import { useMemo } from "react";
 import { Course } from "@/types/curriculum";
+import { getCoursePopoverData } from "@/lib/course-popover";
 
 interface CourseCardProps {
   course: Course;
+  allCourses: Course[];
   computedState: "completed" | "in-progress" | "available" | "blocked";
   isSelected: boolean;
   isPrereq: boolean;
@@ -18,6 +21,7 @@ interface CourseCardProps {
 
 export function CourseCard({
   course,
+  allCourses,
   computedState,
   isSelected,
   isPrereq,
@@ -78,6 +82,7 @@ export function CourseCard({
       label: "Optativa livre",
     },
   }[course.type];
+  const popoverData = useMemo(() => getCoursePopoverData(course, allCourses), [allCourses, course]);
 
   let relationshipClass = "";
   if (isSelected) relationshipClass = "z-10 ring-2 ring-[var(--text-strong)]";
@@ -110,7 +115,7 @@ export function CourseCard({
       onMouseLeave={onMouseLeave}
       onFocus={onMouseEnter}
       onBlur={onMouseLeave}
-      className={`group/card relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition-all duration-200 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] ${statusMeta.card} ${relationshipClass} ${visibilityClass} ${isDragging && !isOverlay ? "z-50 scale-[1.03] shadow-2xl" : ""} ${isOverlay ? "w-[260px] cursor-grabbing shadow-2xl" : ""}`}
+      className={`group/card relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition-all duration-200 hover:z-50 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] focus-within:z-50 ${statusMeta.card} ${relationshipClass} ${visibilityClass} ${isDragging && !isOverlay ? "z-50 scale-[1.03] shadow-2xl" : ""} ${isOverlay ? "w-[260px] cursor-grabbing shadow-2xl" : ""}`}
     >
       <span className={`absolute inset-y-3 left-0 w-1 rounded-r-full ${typeMeta.accent}`} />
       <button type="button" onClick={handleClick} className="block w-full text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-transparent">
@@ -151,6 +156,22 @@ export function CourseCard({
         </span>
       </div>
       </button>
+      {!isOverlay && <div role="tooltip" className="pointer-events-none absolute left-full top-0 z-[60] ml-3 hidden w-72 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-strong)] p-4 text-left shadow-2xl backdrop-blur-xl group-hover/card:block group-focus-within/card:block">
+        <p className="text-xs font-bold uppercase tracking-[0.14em] text-[var(--accent)]">Detalhes da disciplina</p>
+        <dl className="mt-3 grid grid-cols-2 gap-2 text-xs">
+          <div className="rounded-lg bg-[var(--glass-muted)] px-2.5 py-2">
+            <dt className="text-[var(--text-faint)]">Tipo</dt>
+            <dd className="mt-0.5 font-semibold text-[var(--text-strong)]">{popoverData.typeLabel}</dd>
+          </div>
+          <div className="rounded-lg bg-[var(--glass-muted)] px-2.5 py-2">
+            <dt className="text-[var(--text-faint)]">Carga</dt>
+            <dd className="mt-0.5 font-semibold text-[var(--text-strong)]">{popoverData.creditsLabel}</dd>
+          </div>
+        </dl>
+        <PopoverList label="Necessárias antes" items={popoverData.prerequisites} />
+        <PopoverList label="Desbloqueia" items={popoverData.dependents} />
+        <p className="mt-3 border-t border-[var(--glass-border)] pt-3 text-xs font-semibold leading-5 text-[var(--text-muted)]">{popoverData.dragInstruction}</p>
+      </div>}
       {!isOverlay && <button
           ref={setActivatorNodeRef}
           type="button"
@@ -165,6 +186,15 @@ export function CourseCard({
             {Array.from({ length: 6 }, (_, index) => <span key={index} className="h-1 w-1 rounded-full bg-current" />)}
           </span>
         </button>}
+    </div>
+  );
+}
+
+function PopoverList({ label, items }: { label: string; items: string[] }) {
+  return (
+    <div className="mt-3">
+      <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-[var(--text-faint)]">{label}</p>
+      {items.length > 0 ? <ul className="mt-1 space-y-1 text-xs text-[var(--text-muted)]">{items.map((item) => <li key={item}>{item}</li>)}</ul> : <p className="mt-1 text-xs text-[var(--text-muted)]">Nenhuma</p>}
     </div>
   );
 }

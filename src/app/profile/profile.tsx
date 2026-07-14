@@ -27,7 +27,12 @@ export default function ProfilePage() {
           <ThemeToggle />
         </header>
         <div className="py-12 sm:py-16">
-          <Link href="/" className="text-sm font-semibold text-[var(--accent)] hover:underline">Voltar para meus cursos</Link>
+          <Link href="/" className="auth-secondary inline-flex items-center gap-2 rounded-xl px-3 py-2 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-[var(--accent)]">
+            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            Voltar para meus cursos
+          </Link>
           <div className="mt-6">
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--text-faint)]">Conta</p>
             <h1 className="mt-2 text-4xl font-semibold tracking-tight text-[var(--text-strong)]">Seu perfil</h1>

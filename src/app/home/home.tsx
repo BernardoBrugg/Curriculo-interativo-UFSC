@@ -77,10 +77,10 @@ export default function LandingPage() {
 
       <section id="recursos" className="relative z-10 mx-auto grid max-w-7xl gap-4 px-4 py-12 sm:px-6 md:grid-cols-2 lg:grid-cols-4 lg:px-8">
         {featureCards.map((feature, index) => (
-          <ScrollReveal key={feature.title} delay={index * 90}>
+          <ScrollReveal key={feature.title} delay={index * 90} className="h-full">
             <article
               key={feature.title}
-              className="animate-soft-pop glass-surface rounded-3xl p-6 transition hover:-translate-y-1"
+              className="animate-soft-pop glass-surface h-full rounded-3xl p-6 transition hover:-translate-y-1"
             >
               <span className="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-[var(--accent-soft)] text-sm font-semibold text-[var(--accent)]">
                 {index + 1}
