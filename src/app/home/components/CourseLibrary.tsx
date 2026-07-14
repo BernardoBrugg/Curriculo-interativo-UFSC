@@ -80,7 +80,7 @@ export function CourseLibrary() {
       )}
 
       {!isLoading && visibleCurricula.length > 0 && (
-        <div className="grid gap-3 min-[430px]:grid-cols-2">
+        <div className="grid gap-3 min-[430px]:grid-cols-2 lg:max-h-[28rem] lg:overflow-y-auto lg:pr-1">
           {visibleCurricula.map((curriculum) => view === "mine" ? (
             <div key={curriculum.id} className="relative">
               <Link
@@ -88,7 +88,7 @@ export function CourseLibrary() {
                 className="group relative flex min-h-[92px] items-center justify-between overflow-hidden rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-surface)] px-4 pb-7 pt-4 transition-all duration-300 hover:-translate-y-1 hover:border-[var(--accent)]/30 hover:bg-[var(--glass-strong)] hover:shadow-lg hover:shadow-[var(--accent)]/10 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]"
               >
                 <div className="min-w-0">
-                  <span className="block break-words text-sm font-bold leading-5 text-[var(--text-strong)] transition-colors group-hover:text-[var(--accent)]">
+                  <span className="block text-sm font-bold leading-5 text-[var(--text-strong)] transition-colors group-hover:text-[var(--accent)]">
                     {curriculum.name}
                   </span>
                   <span className="mt-1 block truncate text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
@@ -115,9 +115,9 @@ export function CourseLibrary() {
               </button>
             </div>
           ) : (
-            <div key={curriculum.id} className="flex min-h-[116px] flex-col items-start justify-between gap-4 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-surface)] p-4 sm:flex-row sm:items-center">
-              <div className="min-w-0">
-                <span className="block break-words text-sm font-bold leading-5 text-[var(--text-strong)]">
+            <div key={curriculum.id} className="relative min-h-[116px] rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-surface)] p-4">
+              <div className="min-w-0 pb-10">
+                <span className="block text-sm font-bold leading-5 text-[var(--text-strong)]">
                   {curriculum.name}
                 </span>
                 <span className="mt-1 block truncate text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
@@ -127,7 +127,7 @@ export function CourseLibrary() {
               <button
                 type="button"
                 onClick={() => void addCourseAndNavigate(addCourse, (href) => router.push(href), curriculum.id)}
-                className="auth-primary ml-3 shrink-0 rounded-xl px-3 py-2 text-xs font-bold"
+                className="auth-primary absolute bottom-4 left-4 inline-flex shrink-0 items-center justify-center rounded-xl px-3 py-2 text-xs font-bold"
               >
                 Adicionar curso
               </button>
