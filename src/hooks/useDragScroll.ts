@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState, MouseEvent } from "react";
+import { shouldStartDragScroll } from "@/lib/drag-scroll";
 
 export function useDragScroll<T extends HTMLElement>() {
   const ref = useRef<T>(null);
@@ -10,6 +11,7 @@ export function useDragScroll<T extends HTMLElement>() {
 
   const onMouseDown = (e: MouseEvent<T>) => {
     if (!ref.current) return;
+    if (!shouldStartDragScroll(e.target)) return;
     setIsDragging(true);
     setStartX(e.pageX - ref.current.offsetLeft);
     setScrollLeft(ref.current.scrollLeft);
