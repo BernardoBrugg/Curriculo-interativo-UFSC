@@ -31,7 +31,7 @@ export function CourseLibrary() {
   return (
     <div className="rounded-[2rem] border border-[var(--glass-border)] bg-[var(--glass-surface)]/30 p-6 backdrop-blur-sm sm:p-8">
       <div className="mb-6 flex items-center gap-4 text-sm font-bold uppercase tracking-[0.15em] text-[var(--text-faint)]">
-        <span>{view === "mine" ? "Meus cursos" : "Cursos novos"}</span>
+        <span>{view === "mine" ? "Meus cursos" : "Adicionar curso"}</span>
         <span className="h-px flex-1 bg-gradient-to-r from-[var(--glass-border)] to-transparent" />
       </div>
 
@@ -51,7 +51,8 @@ export function CourseLibrary() {
           onClick={() => setView("new")}
           className={`auth-tab rounded-xl px-3 py-2.5 text-sm font-bold transition ${view === "new" ? "auth-tab-active shadow-sm" : ""}`}
         >
-          Cursos novos
+          <span aria-hidden="true" className="text-base">+</span>
+          Curso novo
         </button>
       </div>
 
@@ -73,7 +74,7 @@ export function CourseLibrary() {
             onClick={() => setView(view === "mine" ? "new" : "mine")}
             className="mt-3 text-sm font-bold text-[var(--accent)] hover:underline"
           >
-            {view === "mine" ? "Ver cursos novos" : "Voltar para meus cursos"}
+            {view === "mine" ? "Adicionar curso" : "Voltar para meus cursos"}
           </button>
         </div>
       )}
@@ -87,8 +88,8 @@ export function CourseLibrary() {
                 className="group relative flex min-h-[92px] items-center justify-between overflow-hidden rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-surface)] px-4 pb-7 pt-4 transition-all duration-300 hover:-translate-y-1 hover:border-[var(--accent)]/30 hover:bg-[var(--glass-strong)] hover:shadow-lg hover:shadow-[var(--accent)]/10 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]"
               >
                 <div className="min-w-0">
-                  <span className="block truncate text-sm font-bold text-[var(--text-strong)] transition-colors group-hover:text-[var(--accent)]">
-                    {curriculum.name.replace("Engenharia ", "Eng. ")}
+                  <span className="block break-words text-sm font-bold leading-5 text-[var(--text-strong)] transition-colors group-hover:text-[var(--accent)]">
+                    {curriculum.name}
                   </span>
                   <span className="mt-1 block truncate text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
                     {curriculum.description}
@@ -114,10 +115,10 @@ export function CourseLibrary() {
               </button>
             </div>
           ) : (
-            <div key={curriculum.id} className="flex items-center justify-between rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-surface)] p-4">
+            <div key={curriculum.id} className="flex min-h-[116px] flex-col items-start justify-between gap-4 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-surface)] p-4 sm:flex-row sm:items-center">
               <div className="min-w-0">
-                <span className="block truncate text-sm font-bold text-[var(--text-strong)]">
-                  {curriculum.name.replace("Engenharia ", "Eng. ")}
+                <span className="block break-words text-sm font-bold leading-5 text-[var(--text-strong)]">
+                  {curriculum.name}
                 </span>
                 <span className="mt-1 block truncate text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
                   {curriculum.description}
@@ -128,7 +129,7 @@ export function CourseLibrary() {
                 onClick={() => void addCourseAndNavigate(addCourse, (href) => router.push(href), curriculum.id)}
                 className="auth-primary ml-3 shrink-0 rounded-xl px-3 py-2 text-xs font-bold"
               >
-                Adicionar e editar
+                Adicionar curso
               </button>
             </div>
           ))}
