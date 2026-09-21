@@ -140,6 +140,7 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
             customPhases={customPhases}
             onSelectCourse={(id) => setSelectedId(id === selectedId ? null : id)}
             onToggleStatus={handleToggleStatus}
+            onSetStatus={setStatus}
             onMoveCourse={setCustomPhase}
           />
         </ScrollReveal>

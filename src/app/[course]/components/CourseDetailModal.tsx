@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useCallback } from "react";
+import { useEffect, useMemo, useCallback, useState } from "react";
+import { createPortal } from "react-dom";
 import { Course, CourseStatus, PhaseInfo } from "@/types/curriculum";
 
 interface CourseDetailModalProps {
@@ -11,6 +12,7 @@ interface CourseDetailModalProps {
   isBlocked: boolean;
   onClose: () => void;
   onToggleStatus: (courseId: string) => void;
+  onSetStatus?: (courseId: string, status: CourseStatus) => void;
   onMovePhase: (courseId: string, toPhase: number) => void;
   phases: PhaseInfo[];
 }
@@ -23,9 +25,16 @@ export function CourseDetailModal({
   isBlocked,
   onClose,
   onToggleStatus,
+  onSetStatus,
   onMovePhase,
   phases,
 }: CourseDetailModalProps) {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   useEffect(() => {
     if (!course) return;
 
@@ -55,10 +64,18 @@ export function CourseDetailModal({
     return allCourses.filter((c) => c.prerequisites.includes(course.id));
   }, [allCourses, course]);
 
-  const handleStatusClick = useCallback(() => {
-    if (!course) return;
-    onToggleStatus(course.id);
-  }, [course, onToggleStatus]);
+  const handleStatusSelect = useCallback(
+    (targetStatus: CourseStatus) => {
+      if (!course) return;
+      if (isBlocked && targetStatus !== "pending") return;
+      if (onSetStatus) {
+        onSetStatus(course.id, targetStatus);
+      } else {
+        onToggleStatus(course.id);
+      }
+    },
+    [course, isBlocked, onSetStatus, onToggleStatus]
+  );
 
   const handlePhaseChange = useCallback(
     (phaseNumber: number) => {
@@ -82,12 +99,12 @@ export function CourseDetailModal({
     pending: { label: "Pendente", bg: "bg-slate-400", text: "text-[var(--text-muted)]" },
   };
 
-  return (
+  const modalContent = (
     <div
       role="dialog"
       aria-modal="true"
       aria-labelledby="modal-course-title"
-      className="fixed inset-0 z-[100] flex items-end justify-center sm:items-center sm:p-4"
+      className="fixed inset-0 z-[9999] flex items-end justify-center sm:items-center sm:p-4"
     >
       <div
         onClick={onClose}
@@ -156,16 +173,18 @@ export function CourseDetailModal({
               {(["pending", "in-progress", "completed"] as const).map((statusOption) => {
                 const isCurrent = currentStatus === statusOption;
                 const optionMeta = statusLabels[statusOption];
+                const isOptionBlocked = isBlocked && statusOption !== "pending";
                 return (
                   <button
                     key={statusOption}
                     type="button"
-                    onClick={handleStatusClick}
+                    disabled={isOptionBlocked}
+                    onClick={() => handleStatusSelect(statusOption)}
                     className={`flex h-11 items-center justify-center gap-1.5 rounded-xl border text-xs font-bold transition ${
                       isCurrent
-                        ? "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--text-strong)] shadow-sm"
+                        ? "border-[var(--accent)] bg-[var(--accent-soft)] text-[var(--text-strong)] shadow-sm ring-1 ring-[var(--accent)]"
                         : "border-[var(--glass-border)] bg-[var(--glass-muted)] text-[var(--text-muted)] hover:bg-[var(--glass-strong)] hover:text-[var(--text-strong)]"
-                    }`}
+                    } ${isOptionBlocked ? "opacity-40 cursor-not-allowed" : "active:scale-95"}`}
                   >
                     <span className={`h-2 w-2 rounded-full ${optionMeta.bg}`} />
                     {optionMeta.label}
@@ -188,7 +207,7 @@ export function CourseDetailModal({
                     key={phase.number}
                     type="button"
                     onClick={() => handlePhaseChange(phase.number)}
-                    className={`h-9 min-w-[54px] rounded-xl px-2.5 text-xs font-semibold transition ${
+                    className={`h-9 min-w-[54px] rounded-xl px-2.5 text-xs font-semibold transition active:scale-95 ${
                       isSelected
                         ? "bg-[var(--accent)] text-[var(--on-accent)] shadow-sm"
                         : "border border-[var(--glass-border)] bg-[var(--glass-muted)] text-[var(--text-muted)] hover:bg-[var(--glass-strong)] hover:text-[var(--text-strong)]"
@@ -278,4 +297,10 @@ export function CourseDetailModal({
       </div>
     </div>
   );
+
+  if (isMounted && typeof document !== "undefined") {
+    return createPortal(modalContent, document.body);
+  }
+
+  return modalContent;
 }

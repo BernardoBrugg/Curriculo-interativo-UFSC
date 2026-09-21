@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState, useCallback } from "react";
-import { DndContext, DragEndEvent, DragOverlay, DragStartEvent, useDroppable, PointerSensor, useSensor, useSensors } from "@dnd-kit/core";
+import { DndContext, DragEndEvent, DragOverlay, DragStartEvent, useDroppable, MouseSensor, useSensor, useSensors } from "@dnd-kit/core";
 import { Course, CourseStatus, PhaseInfo } from "@/types/curriculum";
 import { CourseCard } from "./CourseCard";
 import { CourseDetailModal } from "./CourseDetailModal";
@@ -21,6 +21,7 @@ interface CurriculumGridProps {
   customPhases: Record<string, number>;
   onSelectCourse: (id: string | null) => void;
   onToggleStatus: (id: string) => void;
+  onSetStatus?: (courseId: string, status: CourseStatus) => void;
   onMoveCourse: (courseId: string, toPhase: number) => void;
 }
 
@@ -35,17 +36,22 @@ export function CurriculumGrid({
   customPhases,
   onSelectCourse,
   onToggleStatus,
+  onSetStatus,
   onMoveCourse,
 }: CurriculumGridProps) {
   const { ref: scrollRef, isDragging, events } = useDragScroll<HTMLDivElement>();
   const { isVisible: isTutorialVisible, dismiss: dismissTutorial } = useDragTutorial();
-  const [activeMobilePhase, setActiveMobilePhase] = useState<number>(phases[0]?.number ?? 1);
+  const defaultPhase = useMemo(
+    () => phases.find((p) => p.number === 1)?.number ?? phases[0]?.number ?? 1,
+    [phases]
+  );
+  const [activeMobilePhase, setActiveMobilePhase] = useState<number>(defaultPhase);
   const [activeCourseId, setActiveCourseId] = useState<string | null>(null);
   const [moveConfirmation, setMoveConfirmation] = useState<string | null>(null);
   const [modalCourse, setModalCourse] = useState<Course | null>(null);
 
   const sensors = useSensors(
-    useSensor(PointerSensor, {
+    useSensor(MouseSensor, {
       activationConstraint: {
         distance: 8,
       },
@@ -87,6 +93,11 @@ export function CurriculumGrid({
 
     return grouped;
   }, [phases, courses, customPhases]);
+
+  const sortedMobilePhases = useMemo(
+    () => phases.slice().sort((a, b) => (a.number === 0 ? 1 : b.number === 0 ? -1 : a.number - b.number)),
+    [phases]
+  );
 
   const searchMatches = useMemo(() => {
     const matches = new Set<string>();
@@ -202,9 +213,10 @@ export function CurriculumGrid({
         {moveConfirmation && <div role="status" className="mx-3 mt-3 rounded-xl border border-emerald-400/35 bg-emerald-500/10 px-3 py-2 text-center text-xs font-semibold text-emerald-700">{moveConfirmation}</div>}
 
         <div className="md:hidden border-b border-[var(--glass-border)] overflow-x-auto pb-1 pt-2 px-2 flex gap-2 hide-scrollbar">
-          {phases.map((phase) => (
+          {sortedMobilePhases.map((phase) => (
             <button
               key={phase.number}
+              type="button"
               onClick={() => setActiveMobilePhase(phase.number)}
               className={`whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                 activeMobilePhase === phase.number
@@ -300,6 +312,7 @@ export function CurriculumGrid({
         isBlocked={modalCourse ? isCourseBlocked(modalCourse) : false}
         onClose={() => setModalCourse(null)}
         onToggleStatus={onToggleStatus}
+        onSetStatus={onSetStatus}
         onMovePhase={(courseId, toPhase) => {
           onMoveCourse(courseId, toPhase);
           setMoveConfirmation(

@@ -101,12 +101,17 @@ export function CourseCard({
 
   if (isDragging && !isOverlay) visibilityClass += " opacity-0";
 
-  const handleClick = () => {
+  const isMobile = useCallback(() => {
+    if (typeof window === "undefined") return false;
+    return window.innerWidth < 768 || ("ontouchstart" in window);
+  }, []);
+
+  const handleClick = (event: React.MouseEvent) => {
+    event.stopPropagation();
     if (typeof navigator !== "undefined" && navigator.vibrate) {
       navigator.vibrate(50);
     }
-    const isTouch = typeof window !== "undefined" && window.matchMedia && !window.matchMedia("(hover: hover)").matches;
-    if ((isTouch || computedState === "blocked") && onOpenDetails) {
+    if ((isMobile() || computedState === "blocked") && onOpenDetails) {
       onOpenDetails(course);
       return;
     }
@@ -115,17 +120,20 @@ export function CourseCard({
 
   const updatePopoverPosition = useCallback(() => {
     if (!cardRef.current || typeof window === "undefined") return;
+    if (window.innerWidth < 768) return;
     if (window.matchMedia && !window.matchMedia("(hover: hover)").matches) return;
     const rect = cardRef.current.getBoundingClientRect();
     setPopoverPosition(getCoursePopoverPosition(rect, { width: window.innerWidth, height: window.innerHeight }));
   }, []);
 
   const handleMouseEnter = () => {
+    if (isMobile()) return;
     updatePopoverPosition();
     onMouseEnter();
   };
 
   const handleMouseLeave = () => {
+    if (isMobile()) return;
     setPopoverPosition(null);
     onMouseLeave();
   };

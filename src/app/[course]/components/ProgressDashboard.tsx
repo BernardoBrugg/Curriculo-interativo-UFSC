@@ -58,7 +58,7 @@ export function ProgressDashboard({
             </div>
           </div>
 
-          <div className="grid min-w-0 grid-cols-1 gap-2 min-[520px]:grid-cols-3">
+          <div className="grid min-w-0 grid-cols-3 gap-2">
             <div className="glass-card min-w-0 rounded-2xl p-2.5">
               <p className="text-xl font-semibold text-[var(--text-strong)]">{stats.completedCourses}</p>
               <p className="truncate text-xs text-[var(--text-muted)]">Concluidas</p>
