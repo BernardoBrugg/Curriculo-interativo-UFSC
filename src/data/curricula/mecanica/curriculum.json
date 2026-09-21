@@ -1,0 +1,3075 @@
+{
+  "program": "Engenharia Mecânica",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.1",
+  "totalHours": 4608,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EGR5213",
+      "code": "EGR5213",
+      "name": "Representação Gráfica Espacial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução sobre o funcionamento do sistema visual humano; Formas de visualização humana; Sistema de projeção ortogonal Mongeano; Elementos básicos de construção - ponto, reta, e plano; Mecanismos de determinação de verdadeira grandeza - Rebatimento e Mudança de plano; Construção de objetos (modelagem) envolvendo, intersecção, secção e planificação."
+    },
+    {
+      "id": "EMC5000",
+      "code": "EMC5000",
+      "name": "Cálculo 1 Aplicado à Engenharia Mecânica",
+      "credits": 1,
+      "hours": 18,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Solução de problemas físicos de engenharia, mediante o uso dos conceitos, métodos e ferramentas da disciplina Cálculo 1, a saber: limite, derivada de funções; cálculo integral."
+    },
+    {
+      "id": "EMC5004",
+      "code": "EMC5004",
+      "name": "Introdução à Engenharia Mecânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Palestras sobre Engenharia Mecânica. Funções do engenheiro no contexto tecnológico e social. Palestras sobre o curso, seu currículo e suas normas. Visita aos laboratórios: apresentação dos equipamentos básicos, sua nomenclatura, e demonstrações dos principais processos. Ferramentas da Engenharia."
+    },
+    {
+      "id": "EMC5092",
+      "code": "EMC5092",
+      "name": "Introdução à Ciência dos Materiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMC5201"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5201"
+      },
+      "syllabus": "Materiais e Engenharia Mecânica. Noções de processos de fabricação. Principais tipos de solicitações mecânicas, ensaios, propriedades e respostas dos materiais. Modelo de átomo, tipos de ligações químicas e seus efeitos nas propriedades dos materiais. Tipos de arranjos atômicos. Estruturas Cristalinas. Imperfeições em Sólidos (características, origens e efeitos no material). Difusão em Sólidos. Diagramas de Equilíbrio e microestruturas resultantes. Mecanismos de deformação plástica e de endurecimento. Processos de restauração (recuperação, recristalização, coalescimento)."
+    },
+    {
+      "id": "EMC5500",
+      "code": "EMC5500",
+      "name": "Introdução à Pesquisa e Extensão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Concepções, legislação e tendências da Extensão Universitária nas Universidades Públicas Brasileiras. A indissociabilidade entre ensino-pesquisa-extensão, como meio de contribuir para o processo de ensino-aprendizagem e o combate aos problemas da sociedade. Aspectos metodológicos, normativos e gerenciais da extensão na UFSC.",
+      "extensionHours": 36
+    },
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC5102"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5102"
+      },
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "INE5201",
+      "code": "INE5201",
+      "name": "Introdução à Ciência da Computação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "INE5231"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5231"
+      },
+      "syllabus": "Noções de sistemas de computação. Formulação de algoritmos e sua representação. Noções sobre linguagem de programação e programas. Implementação prática de algoritmos em uma linguagem de programação. Descrição de algumas aplicações típicas. Métodos computacionais na área científica e tecnológica."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM5801"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5801"
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "EGR5214",
+      "code": "EGR5214",
+      "name": "Desenho e Modelagem Geométrica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR5213"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR5213"
+      },
+      "syllabus": "Introdução ao desenho à mão livre. Normas para o desenho. Técnicas fundamentais de traçado à mão livre. Vistas ortogonais e auxiliares. Perspectivas isométricas e cavaleiras. Cotagem. Escalas. Indicação do estado de superfícies. Tolerâncias e ajustes mecânicos. Introdução ao CAD. Conceitos básicos e tipos de modelagem. Sistemas de coordenadas e de entrada de dados. Estratégias de criação de modelos. Comandos de construção, edição e visualização de modelos. Vistas secionais. Representação de elementos de máquina: Desenho dos elementos de união, Desenho dos elementos de trasmissão. Noções de projeto e de representação de conjuntos e detalhes mecânicos."
+    },
+    {
+      "id": "EMC5132",
+      "code": "EMC5132",
+      "name": "Estática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "MTM3110"
+      ],
+      "equivalents": [
+        "FSC5103"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5103"
+      },
+      "syllabus": "Estudo das condições de equilíbrio de partículas e de corpos rígidos (e.g. estruturas, vigas, treliças etc.) no plano e no espaço, envolvendo o cálculo das reações em conexões padrão utilizadas em engenharia; cálculo de forças axiais, esforços cortantes e momentos fletores em estruturas e vigas; cálculo de centroides de áreas e volumes de figuras simples e de figuras compostas; cálculo de momentos de inércia de chapas planas simples e compostas e de sólidos simples e compostos; equilíbrio de cabos."
+    },
+    {
+      "id": "EMC5510",
+      "code": "EMC5510",
+      "name": "Cálculo 2 Aplicado à Engenharia Mecânica",
+      "credits": 1,
+      "hours": 18,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "syllabus": "Solução de problemas físicos de engenharia, mediante o uso dos conceitos, métodos e ferramentas da disciplina Cálculo 2, a saber: técnicas de integração, Álgebra Vetorial e funções de várias variáveis."
+    },
+    {
+      "id": "FSC5002",
+      "code": "FSC5002",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101"
+      ],
+      "equivalents": [
+        "FSC5112"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5112"
+      },
+      "syllabus": "Estudo da Cinemática e Dinâmica da rotação de corpos rígidos. Oscilações e ondas Mecânicas(som). Estática e Dinãmica dos Fluídos. Noções sobre temperatura, calor, princípios da Termodiâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "FSC5122",
+      "code": "FSC5122",
+      "name": "Física Experimental I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Complementação dos conteúdos de mecânica, acústica, termologia. Obtida através de montagem e realização de experiências, em número de 12 (doze), versando sobre os tópicos acima."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [
+        "MTM5803"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5803"
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM5812"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5812"
+      },
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "EMC5128",
+      "code": "EMC5128",
+      "name": "Mecânica dos Sólidos A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5132",
+        "MTM3121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5132"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "syllabus": "Conceitos de projeto. Concepção, projeto preliminar, projeto detalhado, análise. Tipos de análise. Análise experimental, análise por simulação com modelos. Tipos de modelos. Modelos mecânicos, modelos matemáticos, modelos numéricos. Tipos de modelos usados em Mecânica dos Sólidos: barras, vigas, placas, cascas, sólidos. Identificação e idealização dos modelos quanto a sua forma geométrica, carregamento, materiais e condições de contorno. Solicitações internas. Reações. Diagramas. Esforços em treliças. Tensões. Estados de tensão. Equações diferenciais de equilíbrio. Transformação de tensões e deformações. Critérios de falha. Tensões uniaxiais, pinos, colunas, tensões em treliças. Deformações, definições, relações deformação-deslocamento. Transformação de deformações. Diagramas tensão-deformação, Lei de Hooke. Deformações axiais em barras e problemas hiperestáticos em barras. Flexão simples plana, obliqua, seções assimétricas. Cisalhamento em vigas longas. Torção. Solicitações compostas."
+    },
+    {
+      "id": "EMC5405",
+      "code": "EMC5405",
+      "name": "Fundamentos da Termodinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          }
+        ]
+      },
+      "syllabus": "Origens da termodinâmica: aspectos históricos. Conceitos básicos. Primeira lei. Segunda lei. Entropia. Equilíbrio termodinâmico (sistemas homogêneos, relações de Maxwell, relações envolvendo entalpia, energia interna e entropia; fator de compressibilidade isotérmica e coeficiente de compressibilidade volumétrica; comportamento de gases reais e equações de estado; diagrama generalizado para variações de entalpia a temperatura constante; diagrama generalizado para variações de entropia a temperatura constante; desenvolvimento de tabelas de propriedades termodinâmicas a partir de dados experimentais). Transições de fase."
+    },
+    {
+      "id": "EMC5520",
+      "code": "EMC5520",
+      "name": "Materiais Metálicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Energia de Gibbs. Diagramas de Equilibro. Teoria de solidificação e Diagramas de Equilíbrio. Características típicas de materiais obtidos por fundição. Imperfeições típicas. Processos de restauração: recuperação, recristalização e coalescimento. Características típicas de materiais obtidos por conformação a frio ou a quente. Curvas TTT / CCT e tratamentos térmicos. Conceitos básicos de Soldabilidade. Microestruturas de uma junta soldada. Sinterização (processos, microestruturas, materiais e propriedades). Materiais metálicos industriais. Aços, Ferros fundidos, Alumínio e suas ligas. Cobre e suas ligas. Titânio e suas ligas"
+    },
+    {
+      "id": "EMC5521",
+      "code": "EMC5521",
+      "name": "Cálculo 3 Aplicado à Engenharia Mecânica",
+      "credits": 1,
+      "hours": 18,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3120"
+      },
+      "syllabus": "Solução de problemas físicos de engenharia, mediante o uso dos conceitos, métodos e ferramentas da disciplina Cálculo 3, a saber: funções reais de várias variáveis, integrais múltiplas, integração de funções vetoriais, equações ordinárias de 1a ordem e ordem superior e Transformada de Laplace."
+    },
+    {
+      "id": "INE5202",
+      "code": "INE5202",
+      "name": "Cálculo Numérico em Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5201"
+      ],
+      "equivalents": [
+        "INE5232"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5232"
+      },
+      "syllabus": "Erros e Sistemas de Numeracão. Solução de equações algébricas e transcendentais. Solução de equações polinomiais. Sistemas de equações lineares e não lineares. Interpolação Ajustamento de curvas. Integração numérica. Solução numérica de equações diferenciais ordinárias e sistemas de equações diferenciais."
+    },
+    {
+      "id": "MTM3103",
+      "code": "MTM3103",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120"
+      ],
+      "equivalents": [
+        "MTM5804"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3120"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5804"
+      },
+      "syllabus": "-Integração múltipla: integrais duplas e triplas. Noções de cálculo vetorial: curvas e superfícies. Campos escalares e vetoriais. Integrais de linha e de superfícies. Teoremas de Green, Stokes e da Divergência."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [
+        "MTM5814"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5814"
+      },
+      "syllabus": "-Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "EMC5223",
+      "code": "EMC5223",
+      "name": "Estatística e Metrologia para Engenheiros",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "syllabus": "O papel da estatística na Engenharia. Probabilidade e estatística: principais distribuições de probabilidade, histograma, medidas de tendência central e dispersão, inferências relativas à média e à variância, dependência estatística, regressão e correlação. Metrologia: sistema internacional de unidades, erros e incertezas de medição, combinação e propagação de incertezas, calibração e rastreabilidade, sistema generalizado de medição, características de sistemas de medição, resultado da medição, garantia da qualidade, metrologia e cidadania: a proteção do consumidor."
+    },
+    {
+      "id": "EMC5302",
+      "code": "EMC5302",
+      "name": "Metodologia de Projeto em Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR5214"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR5214"
+      },
+      "syllabus": "Introdução: contexto e importância do projeto de produtos; modelos do processo e planejamento do projeto de produtos; métodos e ferramentas para a especificação de problemas de projeto e de concepção de produtos; projeto preliminar: modelagem, análise e simulação de soluções de projeto; projeto detalhado; construção e teste de protótipos"
+    },
+    {
+      "id": "EMC5418",
+      "code": "EMC5418",
+      "name": "Termodinâmica Aplicada",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5405"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5405"
+      },
+      "syllabus": "Mecânica EMC5004) Energia disponível, trabalho reversível e irreversibilidade; disponibilidade e eficiência de acordo com a segunda lei da termodinâmica; equação do balanço de exergia. Ciclos de potência; co-geração; ciclos motores e ciclos de refrigeração. Considerações gerais e misturas de gases perfeitos; misturas compostas por gases e um vapor; primeira lei da termodinâmica aplicada às misturas de gás e vapor; processo de saturação adiabática; temperaturas de bulbo úmido e de bulbo seco; carta psicrométrica. Combustíveis e o processo de combustão; entalpia de formação; aplicação da primeira lei da termodinâmica em reações químicas; entalpia, energia interna de combustão e calor de reação; temperatura adiabática de chama; terceira lei da termodinâmica e entropia absoluta; aplicação da segunda lei da termodinâmica em reações químicas; células combustíveis; processos reais de combustão.-"
+    },
+    {
+      "id": "EMC5806",
+      "code": "EMC5806",
+      "name": "Cálculo 4 Aplicado à Engenharia Mecânica",
+      "credits": 1,
+      "hours": 18,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3103"
+      },
+      "syllabus": "olução de problemas físicos de engenharia, mediante o uso dos conceitos, métodos e ferramentas da disciplina Cálculo 4, a saber: sequências e séries de funções reais de uma variável, método de separação de variáveis para equações diferenciais parciais, séries de Fourier, equações de Laplace, do calor e da onda."
+    },
+    {
+      "id": "EMC5807",
+      "code": "EMC5807",
+      "name": "Mecânica dos Sólidos B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5128"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5128"
+      },
+      "syllabus": "Introduzir conceitos de campos de deslocamentos, de tensões e de energia de deformação e aplica-los através das equações fundamentais da mecânica dos sólidos: equações cinemáticas, de equilíbrio, constitutiva elástica, e identificação de condições de contorno em problemas mecânicos. Campos de tensão em cascas cilíndricas e esféricas delgadas. Solução do problema de deflexão de vigas isostáticas e hiperestáticas pelo método da integração da equação diferencial de equilíbrio. Flambagem elástica e inelástica de barras. Fornecer aos alunos uma visão integrada do problema de falha de um sistema mecânico. Definição de modo de falha. Teoria de fadiga de metais por nucleação de trinca. Curva tensão-vida. Concentração de tensões em entalhes. Efeito de tensão média. Tensões plásticas de flexão de vigas. Efeitos de tensões residuais na vida de fadiga."
+    },
+    {
+      "id": "FSC5113",
+      "code": "FSC5113",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [
+        "FSC5133"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5133"
+      },
+      "syllabus": "Análise dos principais fenômenos da eletricidade e magnetismo abrangendo o estudo de campo elétrico, potencial elétrico, capacitor, corrente elétrica, força eletromotriz, campo magnético e indução eletromagnética."
+    },
+    {
+      "id": "MTM3104",
+      "code": "MTM3104",
+      "name": "Cálculo 4",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3131"
+      ],
+      "equivalents": [
+        "MTM5802",
+        "MTM5814"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3131"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5802"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5814"
+          }
+        ]
+      },
+      "syllabus": "Sequências e séries numéricas. Sequências e séries de funções: séries de potências e séries de Fourier. Equações diferenciais parciais: método da separação de variáveis nas equações clássicas da onda, do calor e de Laplace."
+    },
+    {
+      "id": "EEL5113",
+      "code": "EEL5113",
+      "name": "Eletrotécnica Geral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5113"
+      },
+      "syllabus": "Noções básicas de Eletricidade. Circuitos Elétricos. Transformadores. Motores Elétricos. Medidas Elétricas."
+    },
+    {
+      "id": "EMC5110",
+      "code": "EMC5110",
+      "name": "Laboratório em Propriedades Mecânicas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5092",
+        "EMC5807"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5092"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5807"
+          }
+        ]
+      },
+      "syllabus": "Medição de grandezas físicas como resistência à tração, deformação elástica e plástica de materiais. Estudo e execução de experimentos em mecânica dos sólidos e materiais de construção mecânica. Cálculo de constantes elásticas, ductilidade, tenacidade, resistência ao impacto, vida sob fadiga. Resistência à flexão para sólidos frágeis."
+    },
+    {
+      "id": "EMC5202",
+      "code": "EMC5202",
+      "name": "Usinagem dos Materiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5520"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5520"
+      },
+      "syllabus": "Conceituação e relevância da técnica de usinagem dos materiais na obtenção de componentes e produtos de engenharia com elevado valor agregado, mediante transformação da forma e dimensões da matéria-prima. Conceito, caracterização e funções do sistema máquina - ferramenta - peça. Sistemas, processos e fundamente da usinagem por ação mecânica com ferramentas de geometria definida e não definida; por ação térmica e termo-química; as principais variáveis de processo em cada caso. Fenômenos térmicos, mecânicos e químicos envolvidos nos processos de usinagem. Ferramenta para usinagem: fundamentação geométrica; os materiais envolvidos na construção destas; os mecanismos de desgaste e falha (falência) das ferramentas, as principais famílias de sistemas (máquinas ferramenta), suas características e aplicações. Determinação dos custos de usinagem e análise de produtividade. Os defeitos introduzidos nos produtos usinados por ação de processos e as conseqüências desses defeitos para a aplicação e desempenho dos produtos."
+    },
+    {
+      "id": "EMC5361",
+      "code": "EMC5361",
+      "name": "Dinâmica de Corpos Rígidos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "MTM3120"
+      ],
+      "equivalents": [
+        "FSC5207"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5207"
+      },
+      "syllabus": "Movimento plano de corpos rígidos: Cinemática de corpos, Equações de movimento de D Alembert, Princípios de trabalho, energia, quantidade de movimento e impulso. Movimento tridimensional de corpos rígidos: Cinemática de corpos, Tensor de inércia, Equações de movimento de Euler, Princípio de Hamilton e Equações de Lagrange."
+    },
+    {
+      "id": "EMC5407",
+      "code": "EMC5407",
+      "name": "Mecânica dos Fluidos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5405"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5405"
+      },
+      "syllabus": "Conceitos Fundamentais; Estática dos Fluidos; Formulações Integral e Diferencial de Leis de Conservação; Escoamento Invíscido Incompressível; Análise Dimensional e Semelhança; Escoamento Interno Viscoso Incompressível."
+    },
+    {
+      "id": "EMC5506",
+      "code": "EMC5506",
+      "name": "Laboratório em Ciências Térmicas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5405"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5405"
+      },
+      "syllabus": "De caráter predominante prático, esta disciplina pretende articular, aprofundar e integrar os conhecimentos adquiridos na área de Ciências Térmicas de tal modo que os alunos do curso sejam motivados a aprofundar os conhecimentos já adquiridos e lançar as bases para as disciplinas vindouras. A disciplina pretende desenvolver capacidades para realizar medições práticas na área de Ciências Térmicas além da consolidação do entendimento dos fenômenos envolvidos. Inclui a revisão dos conceitos de cálculo de incerteza, a medição de grandezas físicas como temperatura, pressão, fluxo de calor, velocidade e vazão. A disciplina prevê o estudo e execução de experimentos em termodinâmica, mecânica dos fluidos e transmissão de calor consolidando o conhecimento na execução de balanços de energia, avaliação de rendimentos e ciclos térmicos. Adicionalmente os alunos realizarão medição de sinais elétricos com manipulação de sistemas de aquisição de sinais realacionados com a área de Ciências Térmicas."
+    },
+    {
+      "id": "EPS5229",
+      "code": "EPS5229",
+      "name": "Organização Industrial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 1500,
+      "syllabus": "Introdução. Conceito e Funções da Administração: evolução do pensamento administrativo. Organização e Método. Planejamento e Controle da Organização. Princípios de Organização. Estruturas Organizacionais. Influência da Tecnologia e do Ambiente. O Processo de Organização ou Reorganização. Elaboração de Projetos para Pequenos e Médios Empreendimentos. Manuais de Serviço. Administração do Pessoal. Motivação e Liderança."
+    },
+    {
+      "id": "EMC5003",
+      "code": "EMC5003",
+      "name": "Tecnologia e Desenvolvimento",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 1500,
+      "syllabus": "O que é CTS. Definições de ciência, tecnologia e técnica. Revolução industrial. Desenvolvimento tecnológico e desenvolvimento social. Difusão de novas tecnologias. Sociedade tecnológica e suas implicações. As imagens da tecnologia. As noções de risco e de impacto tecnológico. Modelos de produção e modelos de sociedade. Desafios contemporâneos. Influências da ciência e da tecnologia na organização social. Relações entre ciência, tecnologia e sociedade. Questões éticas e políticas."
+    },
+    {
+      "id": "EMC5336",
+      "code": "EMC5336",
+      "name": "Controle de Sistemas Dinâmicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3104"
+      },
+      "syllabus": "Introdução aos sistemas realimentados. Modelos Dinâmicos de Sistemas Mecânicos, Elétricos e Eletromecânicos. Resposta Dinâmica. Propriedades básicas de sistemas realimentados. O método do lugar das raízes. O método da resposta em freqüência."
+    },
+    {
+      "id": "EMC5417",
+      "code": "EMC5417",
+      "name": "Transmissão de Calor",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5405",
+        "INE5201",
+        "MTM3103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5405"
+          },
+          {
+            "kind": "course",
+            "code": "INE5201"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          }
+        ]
+      },
+      "syllabus": "-Mecanismos básicos de transmissão de calor. Princípios básicos da condução de calor. Condução unidimensional. Condução bidimensional. Condução transiente. Métodos numéricos na condução. Princípios básicos da radiação térmica. Radiação entre superfícies. Aplicações"
+    },
+    {
+      "id": "EMC5505",
+      "code": "EMC5505",
+      "name": "Mecanismos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5361"
+      ],
+      "equivalents": [
+        "EMC5123"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5361"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5123"
+      },
+      "syllabus": "Introdução. Conceitos e notações aplicadas a mecanismos. Estudo de tipos de mecanismos. Conceitos elementares de síntese dimensional de mecanismos articulados. Análise cinemática de cames planos e engrenagens de dentes retos e helicoidais."
+    },
+    {
+      "id": "EMC5507",
+      "code": "EMC5507",
+      "name": "Elementos de Máquinas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5807"
+      ],
+      "equivalents": [
+        "EMC5335"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5807"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5335"
+      },
+      "syllabus": "Capacidade de carga de engrenagens cilíndricas. Uniões por parafusos. Molas helicoidais. Eixos e Árvores. Ligações entre cubo e eixo. Mancais de rolamento e escorregamento. Redutores. Acoplamentos. Freios e embreagens. Correias e correntes."
+    },
+    {
+      "id": "EMC5509",
+      "code": "EMC5509",
+      "name": "Conformação de Metais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5520",
+        "EMC5807"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5520"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5807"
+          }
+        ]
+      },
+      "syllabus": "Classificação dos processos de conformação mecânica. Tipos de esforços mecânicos predominantes. Critérios de escoamento plástico. Mecânica da plasticidade em diferentes escalas, classificação e efeitos da temperatura de trabalho. Fundamentos da Conformação. Modelos preditivos, energia e efeitos dos parâmetros de processo. Tecnologia dos processos de laminação, forjamento, extrusão e trefilação. Operações de corte, dobramento, estiramento, embutimento e ensaios de estampabilidade de chapas. Aplicação da simulação numérica na otimização dos processos de conformação e na microestrutura."
+    },
+    {
+      "id": "EMC5550",
+      "code": "EMC5550",
+      "name": "Estrutura, propriedades e Processamento",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5092"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5092"
+      },
+      "syllabus": "Classificação de polímeros, conceitos de estrutura molecular e temperaturas de transição. Conceitos de viscoelasticidade e reologia. Correlação entre estrutura e propriedades mecânicas, viscoelásticas e reológicas dos polímeros. Fundamentos do processamento de polímeros. Moldagem por extrusão. Moldagem por sopro. Termoformagem. Moldagem por injeção. Variantes dos processos e tipos de moldes. Processamento de polímeros e fabricação de moldes com técnicas de Manufatura Aditiva/Impressão 3D."
+    },
+    {
+      "id": "EMC5005",
+      "code": "EMC5005",
+      "name": "Projeto Integrado em Engenharia Mecânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5302"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5302"
+      },
+      "syllabus": "Introdução: revisão do processo de projeto; planejamento de projetos; execução do projeto: especificações de projeto (projeto informacional); concepção (projeto conceitual), modelagem e simulação (projeto preliminar) e avaliação do modelo ou protótipo."
+    },
+    {
+      "id": "EMC5006",
+      "code": "EMC5006",
+      "name": "Eletrônica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL5113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL5113"
+      },
+      "syllabus": "Fundamentos de eletricidade para instrumentação: circuitos elétricos de corrente contínua e alternada; aplicações dos teoremas de Thévenin e de Norton. Instrumentos básicos em eletrônica: fontes, geradores, multímetros, osciloscópios. Transdução de grandezas físicas. Circuitos de ponte. Processamento eletrônico de sinais. Introdução à física dos dispositivos eletrônicos. Componentes analógicos ativos discretos e integrados. Circuitos eletrônicos analógicos aplicados à instrumentação de medição e controle. Introdução à eletrônica digital: caracterização, sistemas de numeração e códigos. Lógica combinacional e seqüencial. Visão geral de arquitetura de microcomputadores e de microcontroladores. Controles programáveis. Estrutura de sistemas de aquisição de sinais de processos."
+    },
+    {
+      "id": "EMC5404",
+      "code": "EMC5404",
+      "name": "Transmissão de Calor II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5407",
+        "EMC5417"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5407"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5417"
+          }
+        ]
+      },
+      "syllabus": "Equações governantes da convecção; conceito da camada limite; efeitos da turbulência; solução de blasius; correlações para escoamentos externos; escoamentos internos; correlações; convecção natural; equações governantes; correlações; modos de ebulição e condensação; correlações, trodadores de calor."
+    },
+    {
+      "id": "EMC5419",
+      "code": "EMC5419",
+      "name": "Mecânica de Fluidos II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5407",
+        "MTM3104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5407"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3104"
+          }
+        ]
+      },
+      "syllabus": "-Escoamentos Turbulentos; Escoamento Externo Viscoso Incompressível; Máquinas de Fluxo; Escoamento Compressível."
+    },
+    {
+      "id": "EMC5443",
+      "code": "EMC5443",
+      "name": "Fundamentos de Sistemas Hidráulicos e Pneumáticos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5407"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5407"
+      },
+      "syllabus": "Parte I - Sistemas hidraúlicos: Definição, campo de aplicação e características. Revisão dos conceitos da mecãnica de fluidos (Hidrostática e Hidrodinâmica) aplicados aos sistemas hidráulicos. Fluidos hidráulicos: propriedades, compressibilidade, expansão térmica, tipos de fluidos, classificação. Componentes de sistemas hidráulicos: bombas e atuadores lineares e rotativos, válvulas de controle direcional, de pressão e de vazão, válvulas de controle contínuo (servoválvula e válvula proporcional), válvulas tipo cartucho. Acumuladores, reservatórios, filtros. Acionamentos hidrostáticos e sistemas hidráulicos básicos. Dimensionamento.Parte II - Sistemas pneumáticos: Definições: comandos, controles, grandezas analógicas e digitais. Principais elementos pneumáticos: atuadores, elementos de comando de sinal e de processamento do sinal. Projeto de comandos combinatórios e seqüencias. Aplicações à automação industrial. Dimensionamento de atuadores e elementos de comando. Geração, e distribuição do ar comprimido: compressores, canalizações, reguladores, lubrificadores e filtros."
+    },
+    {
+      "id": "EMC5600",
+      "code": "EMC5600",
+      "name": "Fundamentos de Vibrações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5361",
+        "EMC5807"
+      ],
+      "equivalents": [
+        "EMC5140"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5361"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5807"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5140"
+      },
+      "syllabus": "Conceitos básicos de sistemas vibratórios. Modelagem matemática de sistemas vibratórios. Sistemas lineares invariantes no tempo. Vibração livre de sistemas de um grau de liberdade. Vibração forçada harmônica, periódica e qualquer de sistemas de um grau de liberdade. Sistemas de múltiplos graus de liberdade."
+    },
+    {
+      "id": "EMC5800",
+      "code": "EMC5800",
+      "name": "Soldagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL5113",
+        "EMC5520"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL5113"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5520"
+          }
+        ]
+      },
+      "syllabus": "Características gerais dos processos de soldagem por fusão e sem fusão. Fundamentos de brasagem e corte térmico. Introdução à física da Soldagem a Arco Voltaico (Arco voltaico, poça de fusão, transferência metálica). Fontes de energia para soldagem. Processo TIG. Processo Arco Submerso. Processo MIG MAG e Arame Tubular. Processo Eletrodo Revestido. Processo LASER. Processo Stud Welding. Soldagem por Resistência. Processos de Soldagem no Estado Sólido. Processos Híbridos de Soldagem. Instrumentação, Monitoração, Inspeção e Controle de Qualidade em Soldagem. Sensores e Automação da Soldagem. Fundamentos de Metalurgia da Soldagem. Soldagem aplicada à Engenharia de Superfícies Revestimentos Metálicos. Soldagem de Dutos e Tubulações. Manufatura Aditiva via Soldagem a Arco Elétrico (WAAM)."
+    },
+    {
+      "id": "EMC5210",
+      "code": "EMC5210",
+      "name": "Laboratório em Manufatura e Metrologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5202",
+        "EMC5223",
+        "EMC5302",
+        "EMC5509"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5202"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5223"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5302"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5509"
+          }
+        ]
+      },
+      "syllabus": "Desenvolvimento de trabalhos em laboratórios com ênfase em atividades práticas nas área de metrologia, fundição, conformação, usinagem e processamento de polímeros."
+    },
+    {
+      "id": "EMC5508",
+      "code": "EMC5508",
+      "name": "Mecânica dos Sólidos Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5807"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5807"
+      },
+      "syllabus": "Revisão de mecânica de sólidos. Tensor de tensões. Tensor de deformação finita e infinitesimal. Relações constitutivas. Material elástico linear. Equação diferencial de equilíbrio. Princípio dos trabalhos virtuais. Princípio de mínima energia de deformação. Aproximação por elementos finitos. Elementos finitos de barras, de vigas, de estados planos de deformação e tensão, de sólidos tridimensionais. Programação, e práticas com softwares comerciais."
+    },
+    {
+      "id": "EMC5801",
+      "code": "EMC5801",
+      "name": "Planejamento do Projeto Final de Curso",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMC5021"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2200,
+        "courseType": "Ob"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5021"
+      },
+      "prerequisiteHours": 2200,
+      "syllabus": "Planejamento técnico do trabalho junto com o orientador escolhido. Cronograma do trabalho. Metodologia empregada. Ferramentas a serem empregadas no trabalho. Busca da literatura necessária."
+    },
+    {
+      "id": "EMC5802",
+      "code": "EMC5802",
+      "name": "Mecânica dos Fluídos Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5407"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5407"
+      },
+      "syllabus": "Motivação para o uso de CFD Exemplos da Engenharia. Revisão das equações de conservação. O método dos volumes finitos. Uso de aplicativos comerciais problemas simples. Solução de um problema mais complexo usando o software comercial."
+    },
+    {
+      "id": "EMC5803",
+      "code": "EMC5803",
+      "name": "Projeto Final de Curso",
+      "credits": 5,
+      "hours": 90,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5801"
+      ],
+      "equivalents": [
+        "EMC5022"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5801"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5022"
+      },
+      "syllabus": "O Projeto Final de Curso consiste na realização individual de trabalho científico e/ou tecnológico, que resulte numa monografia, de modo a demonstrar mediante defesa ante uma banca examinadora suas competências nos campos do saber da engenharia mecânica ou afins, com nível de proficiência próprio de um engenheiro em início de carreira. Identificação de problemas de Engenharia. Revisão bibliográfica a respeito do tema de projeto. Inovação e incentivo à atuação empreendedora em Engenharia. Metodologia de projeto. Fundamentação teórica. Desenvolvimento de projeto de 106automação. Avaliação críticoreflexiva dos impactos das soluções de engenharia nos contextos social, legal, econômico e ambiental. Defesa de projeto"
+    },
+    {
+      "id": "EMC5804",
+      "code": "EMC5804",
+      "name": "Análise Integrada de Sistemas Térmicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5404",
+        "EMC5419"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5404"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5419"
+          }
+        ]
+      },
+      "syllabus": "Revisão dos fundamentos. Análise de disponibilidade. Princípios da termoeconomia. Noções de matemática financeira. Estimativa preliminar de custos. Modelação de componentes. Análise dimensional. Projeto fatorial. Fatores e níveis. Fatorial completo e fracionado com 2 níveis. Resolução e confundimento. Superfície de resposta. Modelação de componentes. Bombas. Ventiladores. Turbinas. Expansores. Compressores. Trocadores de calor. Estudo de Casos. Simulação de sistemas térmicos. Otimização de sistemas térmicos."
+    },
+    {
+      "id": "ENS5146",
+      "code": "ENS5146",
+      "name": "Introdução à Engenharia Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 1500,
+      "syllabus": "A crise Ambiental. Fundamentos de processos ambientais. Controle da poluição nos meios aquático, terrestre e atmosférico. Sistema de gestão ambiental. Normas Ambientais. A variável ambiental na cooncepção de materiais e produtos. Produção mais limpa. Economia e meio ambiente. Legislação Ambiental."
+    },
+    {
+      "id": "EMC5805",
+      "code": "EMC5805",
+      "name": "Estágio Profissional em Engenharia",
+      "credits": 18,
+      "hours": 324,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMC5522"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5522"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "Vivência em indústrias, ou em instituições de pesquisa, ou em empresas, que se utilizam dos conteúdos técnicos que compõe o curso de engenharia mecânica; Treinamento prático a partir da aplicação dos conhecimentos técnicos adquiridos no curso; Desenvolvimento ou aperfeiçoamento do relacionamento profissional e humano."
+    },
+    {
+      "id": "EMC5007",
+      "code": "EMC5007",
+      "name": "Aspectos de Segurança do Trabalho",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Mecânica Rol de Disciplinas Optativas de Engenharia Mecânica A Segurança do Trabalho: histórico, legislação e motivação para sua aplicação. Riscos inerentes ao trabalho: acidentes e doença do trabalho, limites de tolerância. Agentes Físicos nos riscos ambientais relativos ao trabalho. A norma brasileira."
+    },
+    {
+      "id": "EMC5091",
+      "code": "EMC5091",
+      "name": "Estágio Profissional 2",
+      "credits": 0,
+      "hours": 0,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "_"
+    },
+    {
+      "id": "EMC5219",
+      "code": "EMC5219",
+      "name": "Tecnologia de Comando Numérico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituação de um Sistema de Comando Numérico. Princípios de funcionamento. Sistemas de acionamento. Controle de posição. Armazenamento das informações, etc. Equipamentos que utilizam sistemas de Comando Numérico. Diversos tipos de aplicações. Características peculiares dos componentes mecânicos e eletrônicos. Manutenção. Noções de interligação entre diversos equipamentos e com sistemas de informação. Noções de programação."
+    },
+    {
+      "id": "EMC5227",
+      "code": "EMC5227",
+      "name": "Automação de Processos de Soldagem",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EEL5113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL5113"
+      },
+      "syllabus": "-Fundamentos dos processos de soldagem e suas variantes modernas, com ênfase em processos a arco elétrico: revisão dos processos de soldagem clássicos; inovações construtivas e eletrônicas e eletromecânicas dos processos; aplicações dos processos modernos e suas limitações; processos híbridos. Sistemas de mecanização / automação da soldagem e monitoração: fontes de soldagem e acessórios para alimentação de material, panorama geral sobre sistemas de automação da soldagem, programação e funcionalidades especiais de manipuladores para soldagem, integração/ sincronização fonte de energia e manipuladores, aplicações e limitações de diferentes manipuladores e robôs para soldagem, sistemas sensoreados para soldagem adaptativa. Técnicas de monitoração / inspeção da solda, do sistema de soldagem e do movimento: ultrassom, radiografia, e vídeo-termografia, sensor tátil e filmagem de alta velocidade."
+    },
+    {
+      "id": "EMC5236",
+      "code": "EMC5236",
+      "name": "Medição de Grandezas Mecânicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EMC5223"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5223"
+      },
+      "syllabus": "Noções sobre experimentação. Grandezas a medir. Sistemas de medição. Características estatísticas e dinâmicas. Medição elétrica de grandezas mecânicas. Aparelhos para indicação e registro. Transdutores ativos. Transdutores passivos. Sistema de medição digital. Automação da medição."
+    },
+    {
+      "id": "EMC5251",
+      "code": "EMC5251",
+      "name": "Introdução à Robótica Industrial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Componentes dos robôs; Analise de propriedades cinemáticas; Cinemática de robôs; Introdução à estática de robôs; Introdução à dinâmica dos robôs; Geração de trajetórias para robôs; Controle de robôs; Sensores; Programação de robôs; Aplicações de robôs."
+    },
+    {
+      "id": "EMC5275",
+      "code": "EMC5275",
+      "name": "Tecnologia da Usinagem com Ferramentas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EMC5202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5202"
+      },
+      "syllabus": "Tecnologia dos processos de usinagem que empregam ferramentas de corte com cunhas cortantes de geometria definida. Estudo empírico dos mecanismos de formação de cavacos, dos mecanismos de desgaste, apresentação dos materiais de ferramentas, estudo da influência do fluido de corte sobre o processo de usinagem, da usinabilidadde dos materias de peças para os diversos materiais de ferramentas. Determinação econômica das condições de usinagem."
+    },
+    {
+      "id": "EMC5279",
+      "code": "EMC5279",
+      "name": "Projeto de Sistemas de Qualidade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Geometria Definida Conceituacão. Métodos e técnicas estatísticas básicas. Controle do produto acabado. Técnicas de controle de processos. Métodos Taguchi e QFD. Norma ISO série 9000 e qualidade total. Sistemas integrados de qualidade."
+    },
+    {
+      "id": "EMC5317",
+      "code": "EMC5317",
+      "name": "Controle de Ruído",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EMC5405"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5405"
+      },
+      "syllabus": "Introdução à acústica aplicada; grandezas acústicas: pressão, intensidade, potência, impedância. Efeito de ruído no homen; limite permitido para ruído industrial, portaria 3214 do Mtb, critérios para conforto acústico, lei do silêncio. Instrumentação de medição e análise de ruído; microfones, medidores de nível de pressão sonora, dosimetro, filtro calibrador. Materiais e dispositivos para controle de ruído; materiais fibrosos, materiais porosos, medição de absorção acústica dos materiais. Isolamento de ruído; perda de transmissão, lei de massa, efeito de ressonância e coincidência, efeito das frestas e abertura. Controle de ruído por enclausuramento. Protetores auriculares."
+    },
+    {
+      "id": "EMC5356",
+      "code": "EMC5356",
+      "name": "Veículos Automotores I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Pneus, resistências ao movimento, transmissão de forças ao solo e mecânica da frenagem, balanço de potências, estabilidade, direção, suspensão e princípios de carrocerias aerodinâmicas."
+    },
+    {
+      "id": "EMC5413",
+      "code": "EMC5413",
+      "name": "Introdução aos Escoamentos Multifásicos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Modelagem Multifásica; Escoamentos Gás-Líquido, Líquido-Líquido e Líquido-Líquido-Gás; Noções Básicas de Mudança de Fase e Equilíbrio Líquido-Vapor."
+    },
+    {
+      "id": "EMC5432",
+      "code": "EMC5432",
+      "name": "Análise Experimental de Máquinas e Sistemas Térmicos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Análise teórica e experimental de máquinas e sistemas térmicos subsidiada por estudos de casos e levantamento de dados em campo. Revisão dos fundamentos da combustão em geradores de vapor a carvão, óleo combustível, diesel, gás natural e biomassa. Geração termelétrica e cogeração. Ensaios experimentais em turbinas a gás e motores de combustão interna. Análise experimental de trocadores de calor"
+    },
+    {
+      "id": "EMC5452",
+      "code": "EMC5452",
+      "name": "Conservação de e Energia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos gerias em conservação de energia na indústria. Combustíveis industriais. Balanço energético. nacional. Tendência atuais. Auditoria energética. Balanço térmico de equipamentos. Primeira e segunda lei da temodinâmica. Energia eficiência energética. Copgeração. Recursos renováveis. Fontes alternativas de energia. Biogás, energia solar e energia eólica. Análise econômica."
+    },
+    {
+      "id": "EMC5464",
+      "code": "EMC5464",
+      "name": "Tópicos de Sistemas Hidráulicos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Revisão de alguns aspectos básicos de sistemas hidráulicos oferecidos na disciplina de Fundamentos de Sistemas Hidráulicos e Pneumáticos -"
+    },
+    {
+      "id": "EMC5465",
+      "code": "EMC5465",
+      "name": "Tópicos de Pneumática",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A pneumática moderna na automação industrial. Vantagens e desvantagens da pneumática. Campo de aplicação. Sinais analógicos e digitais. Sistemas reativos e transformativos. Estrutura típica dos sistemas pneumáticos. Caracterização e princípio de funcionamento de componentes para automação pneumática. Fundamentos da álgebra Booleana. Projeto de comandos combinatórios e seqüenciais. Métodos intuitivo, cascata e passo-a-passo. Projeto para o uso de elementos pneumáticos, eletropneumáticos e controladores lógicos programáveis."
+    },
+    {
+      "id": "EMC5471",
+      "code": "EMC5471",
+      "name": "Geração e Distribuição de Vapor",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Unidades geradoras de vapor. Tipos existentes e princípio de funcionamento. Componentes principais. Rendimento térmico. Aspectos gerais sobre fornalhas. Combustíveis industriais. Teoria da combustão. Aspectos gerais sobre caldeiras. Circulação natural, assistida e forçada. Acessórios. Controle e segurança de caldeiras. Tiragem. Transferência de calor em fornalhas. Convecção e radiação gasosa em fexes tubulares. Balanço energético de caldeiras. Economia de energia. Tubulações de vapor. Metodologia de projeto de tubulações. Traçado de tubulações em isométrico e em planta baixa. Sistemas de controle de temperatura e de pressão do vapor. Acessórios. Dilatação térmica e flexibilidade de tubulações. Perdas de calor e formação de condensado. Purgadores de vapor."
+    },
+    {
+      "id": "EMC5489",
+      "code": "EMC5489",
+      "name": "Energias Renováveis",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução. Um pouco da história das tecnologias de energia. Matriz energética brasileira e sua comparação com a mundial. Participação das fontes renováveis na matriz energética brasileira- um caso de sucesso. A geração de energia elétrica e sua distribuição. O papel das termelétricas na garantia da oferta de eletricidade no Brasil. Energia de reserva. Como flexibilizar a matriz energética brasileira. Futuro dos recursos. Energia eólica. A situação no Brasil e no mundo. Tipos de aerogeradores. Os modernos aerogeradores. Rendimento de Betz. Curva de potência. Fator de capacidade. O recurso eólico. Como medir o vento. Distribuição de Weibull. Camada limite atmosférica. Conceitos de arodinâmica. Camada limite sobre um perfil de asa. Estudo dirigido sobre a utilização do programa WASP. Perspectivas futuras para a energia eólica. Energia solar. Radiação solar. Mapa solarimétrico. Instrumentação para se medir o potencial solarimétrico. Geração fotovoltaica. Heliotérmica. Termossolar para aquecimento de água. Biomassa. As fontes de biomassa. Participação da biomassa na matriz energética brasileira. Processos de conversão energética da biomassa. Geração elétrica e biocombustíveis. Bioetanol. Processos de produção do etanol. Usinas de cogeração. Biodiesel. Produção de biodiesel no Brasil e mundial. Transesterificação de triglicerídeos. Processos de obtenção do biodiesel, transesterificação do óleo. Participação das matérias-primas utilizadas na produção do biodiesel."
+    },
+    {
+      "id": "EMC5808",
+      "code": "EMC5808",
+      "name": "Engenharia Integrada por Computador e Sistemas CAx CAD/CAM/CAx/CNC",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituação das tecnologias computacionais para auxiliar etapas de uma cadeia produtiva. Sistemas de gestão da produção e integração com sistemas CAx (CAD CAM CAE CAI). Caracterização e aplicações dos sistemas CAD 2D e 3D, modelamento 3D de sólidos, superfícies e híbridos, metodologias de trabalho e padrões de comunicação entre sistemas CAx. modelamento de formas complexas e conjuntos. Integração CAx com máquinas de comando numérico (CNC) para fabricação e inspeção."
+    },
+    {
+      "id": "EMC5809",
+      "code": "EMC5809",
+      "name": "Manufatura auxiliada por computador, programação e simulação da usinagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EGR5214",
+        "EMC5202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR5214"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5202"
+          }
+        ]
+      },
+      "syllabus": "Sistemas computacionais para manufatura. Conceitos e projetos de máquinas ferramenta controladas por um comando numérico computadorizado (CNC). Métodos para a programação CNC. Sistema CAD/CAM para a geração de programas CNC e simulação da usinagem. Usinagem de formas complexas. Operação com máquinas CNC. Digitalização geométrica com máquinas de medir por coordenadas para desenvolvimento de geometrias (integração CAD CAI MMC). Engenharia reversa."
+    },
+    {
+      "id": "EMC6200",
+      "code": "EMC6200",
+      "name": "Construindo Carreira em Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 800,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 800,
+      "syllabus": "Os desafios presentes e futuros da Engenharia e o perfil profissional. Metodologia de planejamento de carreira. Visão das empresas especializadas em recrutamento e seleção. Soft skills e métodos de avaliação. Transformação Digital na Engenharia, Conceitos e Práticas de ESG (Environmental, Ssocial and Corporate Governance), Visão de líderes empresariais, pesquisadores e profissionais de destaque."
+    },
+    {
+      "id": "EMC6279",
+      "code": "EMC6279",
+      "name": "Projeto de Sistemas de Qualidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 1500,
+      "syllabus": "Conceitos da Qualidade. Métodos e técnicas estatísticas básicas. Controle do produto acabado. Técnicas de controle de processos. Métodos Taguchi, QFD, FMEA, CEP, Seis Sigma e WCM, além de Normas ISO série 9000, 14000, 22000, 45000 dentre outras. CCQ e Sistemas integrados de qualidade e Qualidade Total na prática."
+    },
+    {
+      "id": "EMC7090",
+      "code": "EMC7090",
+      "name": "Empreendedorismo: Startups",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Lean Startup - como testar hipóteses de negócios de forma rápida e iterativa. Desenvolvimento de Clientes - como conversar com os clientes para validar e invalidar ideias de startup. Lean Model Canvas - como usar o Lean Model Canvas como um scorecard para o desenvolvimento do modelo de negócios."
+    },
+    {
+      "id": "ANT7003",
+      "code": "ANT7003",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Disciplinas Optativas do Bloco Especial Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Particularidades históricas e processos de diferenciação. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política."
+    },
+    {
+      "id": "EPS5235",
+      "code": "EPS5235",
+      "name": "Planejamento e Controle da Produção",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Visão geral dos sistemas de produção. Planejamento estratégico da produção. Planejamento mestre da produção. Programação da produção: administração de estoques, seqüenciamento,emissão e liberação de ordens. Acompanhamento da produção."
+    },
+    {
+      "id": "EPS5240",
+      "code": "EPS5240",
+      "name": "Gerenciamento de Projetos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O ciclo de vida do projeto. As funções administrativas no projeto. O gerente do projeto. Organização da equipe. Planejamento do projeto. Programação. Cronogramas. Rêdes. Orçamentos. Controle do projeto. Interligação do projeto com a empresa."
+    },
+    {
+      "id": "EPS7005",
+      "code": "EPS7005",
+      "name": "Pesquisa Operacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução: histórico e objetivos. Modelagem de Problemas. Programação Linear: método simplex; dualidade em programação linear; algoritmo simplex primal-dual; análise de sensibilidade e pós-otimalidade. Problemas Lineares Especiais: problema de atribuição; problema de transportes; problemas de fluxo em redes. Programação Inteira e Mista: branch-and-bound; cortes de Gomory; relaxação lagrangeana; algoritmo de Balas. Programação Dinâmica: condições de otimalidade e separabilidade; programação dinâmica determinística; programação dinâmica estocástica. Programação Não-linear: condições de otimalidade de Karush-Kuhn-Tucker; otimização multivariada sem restrições; otimização multivariada com restrições."
+    },
+    {
+      "id": "EPS7010",
+      "code": "EPS7010",
+      "name": "Gestão Patrimonial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Informação contábil no processo de produção das organizações. Dinâmica dos fluxos operacionais de curto e longo prazo. Princípios e procedimentos contábeis básicos. Demonstrativos contábeis para a gestão da produção. Indicadores financeiros do desempenho. Capital de giro, endividamento e estrutura de capital. Liquidez e fluxos de caixa. Rentabilidade, origem e aplicações de recursos."
+    },
+    {
+      "id": "EPS7013",
+      "code": "EPS7013",
+      "name": "Empreendedorismo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- A formação da Personalidade; O processo comportamental; As necessidades do empreendedor; O conhecimento para empreender; O empreendedor e suas habilidades; Os valores do empreendedor; O processo evolutivo das empresas; Modelos de Ciclo de Vida; A personalidade do empreendedor e o ciclo de vida da organização."
+    },
+    {
+      "id": "EPS7018",
+      "code": "EPS7018",
+      "name": "Análise Gerencial de Custos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Princípios e métodos de custo. Análise de custo-volume-lucro. Custo padrão. Método dos centros de custos. Custeio baseado em atividades (ABC). Método da unidade de esforço de produção (UEP). Gestão por atividade (ABM)."
+    },
+    {
+      "id": "EPS7019",
+      "code": "EPS7019",
+      "name": "Engenharia Econômica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos de Matemática Financeira: juros; relações de equivalência; taxas nominais e efetivas; amortização de dívidas, inflação e correção monetária. Engenharia Econômica e análise de investimentos."
+    },
+    {
+      "id": "EPS7020",
+      "code": "EPS7020",
+      "name": "Ergonomia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Introdução à Ergonomia: definições e histórico. Princípios de fisiologia do trabalho. Princípios de psicologia do trabalho. Antropometria e biomecânica. Princípios de organização do trabalho. Condições ambientais de trabalho. O projeto do trabalho. Introdução a Análise Ergonômica do Trabalho.-"
+    },
+    {
+      "id": "EPS7022",
+      "code": "EPS7022",
+      "name": "Engenharia do Trabalho",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Técnicas de registro e análise do processo. Metodologias de resolução de problemas. Análise do posto do trabalho. Programas de participação do trabalhador na melhoria dos métodos de trabalho. Medida do trabalho: cronometragem, amostragem do trabalho e tempos pré- prédeterminados. Escolas de organização do trabalho: escolas clássicas (Taylor e Ford), escola de relações humanas (enriquecimento de cargos), escolas sócio-técnicas, grupos semi-autônomos."
+    },
+    {
+      "id": "EPS7026",
+      "code": "EPS7026",
+      "name": "Logística Empresarial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- O ambiente de negócios. Conceito e evolução da logística. Cadeia de suprimentos (supply chain). O sistema logístico. Custos logísticos. Nível de serviço ao cliente. A logística de suprimento. A distribuição física de produtos. O subsistema transporte: os modais de transporte; característica e escolha do modal; os processos de coleta, transferência e distribuição. O subsistema armazém: funções e meios de armazenagem; unitização de cargas;sistemas de endereçamento dos produtos. O gerenciamento de estoques: classificação ABC, sistemática de re-suprimento."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "EMC5901",
+      "code": "EMC5901",
+      "name": "Disciplina de Pós-Graduação I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5902",
+      "code": "EMC5902",
+      "name": "Disciplina de Pós-Graduação II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5903",
+      "code": "EMC5903",
+      "name": "Disciplina de Pós-Graduação III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5904",
+      "code": "EMC5904",
+      "name": "Disciplina de Pós-Graduação IV",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5905",
+      "code": "EMC5905",
+      "name": "Disciplina de Pós-Graduação V",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5906",
+      "code": "EMC5906",
+      "name": "Disciplina de Pós-Graduação VI",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5908",
+      "code": "EMC5908",
+      "name": "Disciplina de Pós-Graduação VIII",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5909",
+      "code": "EMC5909",
+      "name": "Disciplina de Pós-Graduação IX",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5910",
+      "code": "EMC5910",
+      "name": "Disciplina de Pós-Graduação X",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5911",
+      "code": "EMC5911",
+      "name": "Disciplina de Pós-Graduação XI",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5243",
+      "code": "EMC5243",
+      "name": "Tópicos Especiais em Fabricação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Assuntos relacionados com algum tema específico da área de fabricação."
+    },
+    {
+      "id": "EMC5292",
+      "code": "EMC5292",
+      "name": "Tópicos Especiais em Fabricação II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Fabricação. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5293",
+      "code": "EMC5293",
+      "name": "Tópicos Especiais em Fabricação III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Fabricação. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5294",
+      "code": "EMC5294",
+      "name": "Tópicos Especiais em Fabricação IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Fabricação. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5295",
+      "code": "EMC5295",
+      "name": "Tópicos Especiais em Fabricação V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos especiais"
+    },
+    {
+      "id": "EMC5296",
+      "code": "EMC5296",
+      "name": "Tópicos Especiais em Fabricação VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos especiais"
+    },
+    {
+      "id": "EMC5297",
+      "code": "EMC5297",
+      "name": "Tópicos Especiais em Fabricação VII",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos especiais"
+    },
+    {
+      "id": "EMC5298",
+      "code": "EMC5298",
+      "name": "Tópicos Especiais em Fabricação VIII",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos especiais"
+    },
+    {
+      "id": "EMC5322",
+      "code": "EMC5322",
+      "name": "Tópicos Especiais em Projeto",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Assuntos específicos relacionados com a área de projeto."
+    },
+    {
+      "id": "EMC5362",
+      "code": "EMC5362",
+      "name": "Tópicos Especiais em Projeto II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Projeto. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5363",
+      "code": "EMC5363",
+      "name": "Tópicos Especiais em Projeto III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Projeto. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5364",
+      "code": "EMC5364",
+      "name": "Tópicos Especiais em Projeto IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Projeto. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5365",
+      "code": "EMC5365",
+      "name": "Tópicos Especiais em Projeto V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos especiais"
+    },
+    {
+      "id": "EMC5366",
+      "code": "EMC5366",
+      "name": "Tópicos Especiais em Projeto VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos especiais"
+    },
+    {
+      "id": "EMC5367",
+      "code": "EMC5367",
+      "name": "Tópicos Especiais em Projeto VII",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos especiais"
+    },
+    {
+      "id": "EMC5368",
+      "code": "EMC5368",
+      "name": "Tópicos Especiais em Projeto VIII",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos especiais"
+    },
+    {
+      "id": "EMC5482",
+      "code": "EMC5482",
+      "name": "Tópicos Especiais Ciências Térmicas II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Ciências Térmicas. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5483",
+      "code": "EMC5483",
+      "name": "Tópicos Especiais Ciências Térmicas III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Ciências Térmicas. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5484",
+      "code": "EMC5484",
+      "name": "Tópicos Especiais Ciências Térmicas IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Ciências Térmicas. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5485",
+      "code": "EMC5485",
+      "name": "Tópicos Especiais Ciências Térmicas V",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos especiais"
+    },
+    {
+      "id": "EMC5486",
+      "code": "EMC5486",
+      "name": "Tópicos Especiais Ciências Térmicas VI",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Ciências Térmicas. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5487",
+      "code": "EMC5487",
+      "name": "Tópicos Especiais Ciências Térmicas VII",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Ciências Térmicas. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5488",
+      "code": "EMC5488",
+      "name": "Tópicos Especiais Ciências Térmicas VIII",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina genérica a ser utilizada para ministrar algum tópico especial, de caráter temporário, da Área de Ciências Térmicas. A ementa será definida conforme o tópico abordado."
+    },
+    {
+      "id": "EMC5955",
+      "code": "EMC5955",
+      "name": "Intercâmbio Projeto 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(*) Código de disciplina que serve para validar créditos de disciplinas cursadas na pós-graduação."
+    },
+    {
+      "id": "EMC5956",
+      "code": "EMC5956",
+      "name": "Intercâmbio Projeto 2",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5957",
+      "code": "EMC5957",
+      "name": "Intercâmbio Projeto 3",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5958",
+      "code": "EMC5958",
+      "name": "Intercâmbio Projeto 4",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5959",
+      "code": "EMC5959",
+      "name": "Intercâmbio Projeto 5",
+      "credits": 36,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5960",
+      "code": "EMC5960",
+      "name": "Intercâmbio Projeto 6",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5961",
+      "code": "EMC5961",
+      "name": "Intercâmbio Projeto 7",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5962",
+      "code": "EMC5962",
+      "name": "Intercâmbio Projeto 8",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5963",
+      "code": "EMC5963",
+      "name": "Intercâmbio Projeto 9",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5964",
+      "code": "EMC5964",
+      "name": "Intercâmbio Projeto 10",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5965",
+      "code": "EMC5965",
+      "name": "Intercâmbio Projeto 11",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5966",
+      "code": "EMC5966",
+      "name": "Intercâmbio Projeto 12",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5967",
+      "code": "EMC5967",
+      "name": "Intercâmbio Termo 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5968",
+      "code": "EMC5968",
+      "name": "Intercâmbio Termo 2",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5969",
+      "code": "EMC5969",
+      "name": "Intercâmbio Termo 3",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(*) Código de disciplina que serve para validar créditos de disciplinas cursadas durante intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5970",
+      "code": "EMC5970",
+      "name": "Intercâmbio Termo 4",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5971",
+      "code": "EMC5971",
+      "name": "Intercâmbio Termo 5",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5972",
+      "code": "EMC5972",
+      "name": "Intercâmbio Termo 6",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5973",
+      "code": "EMC5973",
+      "name": "Intercâmbio Termo 7",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5974",
+      "code": "EMC5974",
+      "name": "Intercâmbio Termo 8",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5975",
+      "code": "EMC5975",
+      "name": "Intercâmbio Termo 9",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5976",
+      "code": "EMC5976",
+      "name": "Intercâmbio termo 10",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5977",
+      "code": "EMC5977",
+      "name": "Intercâmbio Termo 11",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5978",
+      "code": "EMC5978",
+      "name": "Intercâmbio Termo 12",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5979",
+      "code": "EMC5979",
+      "name": "Intercâmbio Fabricação 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5980",
+      "code": "EMC5980",
+      "name": "Intercâmbio Fabricação 2",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5981",
+      "code": "EMC5981",
+      "name": "Intercâmbio Fabricação 3",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5982",
+      "code": "EMC5982",
+      "name": "Intercâmbio Fabricação 4",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5983",
+      "code": "EMC5983",
+      "name": "Intercâmbio Fabricação 5",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5984",
+      "code": "EMC5984",
+      "name": "Intercâmbio Fabricação 6",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5985",
+      "code": "EMC5985",
+      "name": "Intercâmbio de Fabricação 7",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(*) Código de disciplina que serve para validar créditos de disciplinas cursadas durante intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5986",
+      "code": "EMC5986",
+      "name": "Intercâmbio de Fabricação 8",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5987",
+      "code": "EMC5987",
+      "name": "Intercâmbio de Fabricação 9",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5988",
+      "code": "EMC5988",
+      "name": "Intercâmbio de Fabricação 10",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5989",
+      "code": "EMC5989",
+      "name": "Intercâmbio de Fabricação 11",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5990",
+      "code": "EMC5990",
+      "name": "Intercâmbio Fabricação 12",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior."
+    },
+    {
+      "id": "EMC5041",
+      "code": "EMC5041",
+      "name": "Intercâmbio Extra Curso 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Rol de Disciplinas Optativas de Intercâmbio Extra Curso"
+    },
+    {
+      "id": "EMC5042",
+      "code": "EMC5042",
+      "name": "Intercâmbio Extra Curso 2",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5043",
+      "code": "EMC5043",
+      "name": "Intercâmbio Extra Curso 3",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5044",
+      "code": "EMC5044",
+      "name": "Intercâmbio Extra Curso 4",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5045",
+      "code": "EMC5045",
+      "name": "Intercâmbio Extra Curso 5",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5046",
+      "code": "EMC5046",
+      "name": "Intercâmbio Extra Curso 6",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5047",
+      "code": "EMC5047",
+      "name": "Intercâmbio Extra Curso 7",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5048",
+      "code": "EMC5048",
+      "name": "Intercâmbio Extra Curso 8",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5049",
+      "code": "EMC5049",
+      "name": "Intercâmbio Extra Curso 9",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5050",
+      "code": "EMC5050",
+      "name": "Intercâmbio Extra Curso 10",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5051",
+      "code": "EMC5051",
+      "name": "Intercâmbio Extra Curso 11",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5052",
+      "code": "EMC5052",
+      "name": "Intercâmbio Extra Curso 12",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5950",
+      "code": "EMC5950",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(*) Código de disciplina que serve para validar créditos de disciplinas cursadas durante intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5951",
+      "code": "EMC5951",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5952",
+      "code": "EMC5952",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5953",
+      "code": "EMC5953",
+      "name": "Programa de Intercâbio IV",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5954",
+      "code": "EMC5954",
+      "name": "Programa de Intercâmbio V",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso."
+    },
+    {
+      "id": "EMC5031",
+      "code": "EMC5031",
+      "name": "Atividades Complementares de Monitoria I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades Complementares de Monitoria I"
+    },
+    {
+      "id": "EMC5032",
+      "code": "EMC5032",
+      "name": "Atividades Complementares de Monitoria II",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 18 h/aulas intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso. Atividades Complementares de Monitoria II"
+    },
+    {
+      "id": "EMC5033",
+      "code": "EMC5033",
+      "name": "Atividades Complementares de Monitoria",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 18 h/aulas intercâmbio acadêmico no exterior. Como as disciplinas são extra curso, isto é, não são da Engenharia Mecânica ou afins, não são consideradas no cálculo da carga de optativas para integralizar o curso. Atividades Complementares de Monitoria III"
+    },
+    {
+      "id": "EMC7000",
+      "code": "EMC7000",
+      "name": "Atividades de Extensão (ações em projetos, cursos e eventos)",
+      "credits": 24,
+      "hours": 432,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades de extensão"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EGR5213",
+      "EMC5000",
+      "EMC5004",
+      "EMC5092",
+      "EMC5500",
+      "FSC5101",
+      "INE5201",
+      "MTM3110",
+      "EGR5214",
+      "EMC5132",
+      "EMC5510",
+      "FSC5002",
+      "FSC5122",
+      "MTM3120",
+      "MTM3121",
+      "EMC5128",
+      "EMC5405",
+      "EMC5520",
+      "EMC5521",
+      "INE5202",
+      "MTM3103",
+      "MTM3131",
+      "EMC5223",
+      "EMC5302",
+      "EMC5418",
+      "EMC5806",
+      "EMC5807",
+      "FSC5113",
+      "MTM3104",
+      "EEL5113",
+      "EMC5110",
+      "EMC5202",
+      "EMC5361",
+      "EMC5407",
+      "EMC5506",
+      "EPS5229",
+      "EMC5003",
+      "EMC5336",
+      "EMC5417",
+      "EMC5505",
+      "EMC5507",
+      "EMC5509",
+      "EMC5550",
+      "EMC5005",
+      "EMC5006",
+      "EMC5404",
+      "EMC5419",
+      "EMC5443",
+      "EMC5600",
+      "EMC5800",
+      "EMC5210",
+      "EMC5508",
+      "EMC5801",
+      "EMC5802",
+      "EMC5803",
+      "EMC5804",
+      "ENS5146",
+      "EMC5805",
+      "EMC7000"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas",
+        "requiredHours": 288,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "EMC5007",
+              "EMC5091",
+              "EMC5219",
+              "EMC5227",
+              "EMC5236",
+              "EMC5251",
+              "EMC5275",
+              "EMC5279",
+              "EMC5317",
+              "EMC5356",
+              "EMC5413",
+              "EMC5432",
+              "EMC5452",
+              "EMC5464",
+              "EMC5465",
+              "EMC5471",
+              "EMC5489",
+              "EMC5808",
+              "EMC5809",
+              "EMC6200",
+              "EMC6279",
+              "EMC7090",
+              "EMC5901",
+              "EMC5902",
+              "EMC5903",
+              "EMC5904",
+              "EMC5905",
+              "EMC5906",
+              "EMC5908",
+              "EMC5909",
+              "EMC5910",
+              "EMC5911",
+              "EMC5243",
+              "EMC5292",
+              "EMC5293",
+              "EMC5294",
+              "EMC5295",
+              "EMC5296",
+              "EMC5297",
+              "EMC5298",
+              "EMC5322",
+              "EMC5362",
+              "EMC5363",
+              "EMC5364",
+              "EMC5365",
+              "EMC5366",
+              "EMC5367",
+              "EMC5368",
+              "EMC5482",
+              "EMC5483",
+              "EMC5484",
+              "EMC5485",
+              "EMC5486",
+              "EMC5487",
+              "EMC5488",
+              "EMC5955",
+              "EMC5956",
+              "EMC5957",
+              "EMC5958",
+              "EMC5959",
+              "EMC5960",
+              "EMC5961",
+              "EMC5962",
+              "EMC5963",
+              "EMC5964",
+              "EMC5965",
+              "EMC5966",
+              "EMC5967",
+              "EMC5968",
+              "EMC5969",
+              "EMC5970",
+              "EMC5971",
+              "EMC5972",
+              "EMC5973",
+              "EMC5974",
+              "EMC5975",
+              "EMC5976",
+              "EMC5977",
+              "EMC5978",
+              "EMC5979",
+              "EMC5980",
+              "EMC5981",
+              "EMC5982",
+              "EMC5983",
+              "EMC5984",
+              "EMC5985",
+              "EMC5986",
+              "EMC5987",
+              "EMC5988",
+              "EMC5989",
+              "EMC5990",
+              "EMC5041",
+              "EMC5042",
+              "EMC5043",
+              "EMC5044",
+              "EMC5045",
+              "EMC5046",
+              "EMC5047",
+              "EMC5048",
+              "EMC5049",
+              "EMC5050",
+              "EMC5051",
+              "EMC5052",
+              "EMC5950",
+              "EMC5951",
+              "EMC5952",
+              "EMC5953",
+              "EMC5954"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "special-topics-and-activities",
+            "courseIds": [
+              "ANT7003",
+              "EPS5235",
+              "EPS5240",
+              "EPS7005",
+              "EPS7010",
+              "EPS7013",
+              "EPS7018",
+              "EPS7019",
+              "EPS7020",
+              "EPS7022",
+              "EPS7026",
+              "LSB7244",
+              "EMC5031",
+              "EMC5032",
+              "EMC5033"
+            ],
+            "allowsManualHours": false,
+            "maxHours": 72
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "203",
+    "curriculumCode": "20251",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=203&curriculo=20251",
+    "sha256": "21aa4454d4bcffdd4d5a8a245b4572ae80c6d24b4ca0d13818eee1ef7519f03e",
+    "capturedAt": "2026-07-15"
+  }
+}

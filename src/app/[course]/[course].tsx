@@ -7,6 +7,7 @@ import { useCourseGraph } from "@/hooks/useCourseGraph";
 import { useCustomPhases } from "@/hooks/useCustomPhases";
 import { useRouter } from "next/navigation";
 import { useCurriculum } from "@/hooks/useCurricula";
+import { isRequirementSatisfied } from "@/lib/curriculum-requirements";
 
 import { SearchBar } from "./components/SearchBar";
 import { ScrollReveal } from "@/components/ScrollReveal";
@@ -27,7 +28,7 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
-  const { statuses, toggleStatus, setStatus, resetAll, error: statusError } = useCourseStatus(course);
+  const { statuses, requirementHours, toggleStatus, setStatus, setRequirementHours, resetAll, error: statusError } = useCourseStatus(course);
   const { customPhases, setCustomPhase, error: phaseError } = useCustomPhases(course);
   const graph = useCourseGraph(curriculumCourses);
 
@@ -43,6 +44,9 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
     (id: string) => {
       const selectedCourse = coursesById.get(id);
       if (!selectedCourse) return false;
+      if (selectedCourse.prerequisiteExpression) {
+        return !isRequirementSatisfied(selectedCourse.prerequisiteExpression, statuses, coursesById);
+      }
       return selectedCourse.prerequisites.some((prerequisiteId) => {
         if (statuses[prerequisiteId] === "completed") return false;
         const prereqCourse = coursesById.get(prerequisiteId);
@@ -115,9 +119,10 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
         <ScrollReveal>
           {(statusError || phaseError) && <p role="alert" className="rounded-xl bg-red-500/10 px-4 py-3 text-sm font-medium text-red-600">{statusError || phaseError}</p>}
           <ProgressDashboard
-            courses={curriculumCourses}
+            curriculum={curriculum}
             statuses={statuses}
-            totalHours={curriculum.totalHours}
+            requirementHours={requirementHours}
+            onRequirementHoursChange={setRequirementHours}
             onReset={resetAll}
             searchSlot={<SearchBar query={searchQuery} onChange={setSearchQuery} />}
           />

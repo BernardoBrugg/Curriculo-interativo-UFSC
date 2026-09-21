@@ -1,0 +1,2345 @@
+{
+  "program": "Engenharia de Produção",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2023.1",
+  "totalHours": 4320,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EGR5213",
+      "code": "EGR5213",
+      "name": "Representação Gráfica Espacial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução sobre o funcionamento do sistema visual humano; Formas de visualização humana; Sistema de projeção ortogonal Mongeano; Elementos básicos de construção - ponto, reta, e plano; Mecanismos de determinação de verdadeira grandeza - Rebatimento e Mudança de plano; Construção de objetos (modelagem) envolvendo, intersecção, secção e planificação."
+    },
+    {
+      "id": "EPS2301",
+      "code": "EPS2301",
+      "name": "Programação para Engenharia de Produção I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EPS7001"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS7001"
+      },
+      "syllabus": "Fundamentos de lógica de programação: tipos básicos de dados; operadores; estruturas de seleção e repetição. Estruturas de dados. Leitura e manipulação de dados tabelados. Modularização: variáveis locais e globais, funções, recursividade e bibliotecas de funções. Algoritmos: formulação, planejamento e complexidade. Introdução à programação Orientada a Objetos. Fundamentos da linguagem de programação a ser utilizada e sua interface de desenvolvimento. Ferramentas computacionais importantes para Engenheiros de Produção."
+    },
+    {
+      "id": "EPS2302",
+      "code": "EPS2302",
+      "name": "Introdução à Engenharia de Produção",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EPS5120",
+        "EPS7029"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS5120"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7029"
+          }
+        ]
+      },
+      "syllabus": "Ciência, Tecnologia e Sociedade. A engenharia de produção: Histórico, definição da engenharia de produção e suas sub-áreas. Perfil e competências do engenheiro de produção. Ética, Direitos Humanos e Relações Étnico-Raciais. Exercício profissional: o sistema CONFEA/CREA. Codificação ética da profissão. Atribuições Profissionais do Engenheiro de Produção. Diretrizes e matriz curricular do curso."
+    },
+    {
+      "id": "EQA5119",
+      "code": "EQA5119",
+      "name": "Química Tecnológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Combustão. Combustíveis. Água potável e industrial. Metais e ligas metálicas. Cerâmicas. Polímeros. Corrosão."
+    },
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "EGR5214",
+      "code": "EGR5214",
+      "name": "Desenho e Modelagem Geométrica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR5213"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR5213"
+      },
+      "syllabus": "Introdução ao desenho à mão livre. Normas para o desenho. Técnicas fundamentais de traçado à mão livre. Vistas ortogonais e auxiliares. Perspectivas isométricas e cavaleiras. Cotagem. Escalas. Indicação do estado de superfícies. Tolerâncias e ajustes mecânicos. Introdução ao CAD. Conceitos básicos e tipos de modelagem. Sistemas de coordenadas e de entrada de dados. Estratégias de criação de modelos. Comandos de construção, edição e visualização de modelos. Vistas secionais. Representação de elementos de máquina: Desenho dos elementos de união, Desenho dos elementos de trasmissão. Noções de projeto e de representação de conjuntos e detalhes mecânicos."
+    },
+    {
+      "id": "EPS2320",
+      "code": "EPS2320",
+      "name": "Introdução a Sistemas de Produção",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2302"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS2302"
+      },
+      "syllabus": "Teoria de Sistemas aplicada à Engenharia de Produção. Modelo de Transformação e tipos de sistemas de produção. Objetivos do sistema de produção. Estratégia de Produção. Projeto de produtos e serviços. Arranjo Físico e Fluxo. Tecnologias de processo. Organização do Trabalho."
+    },
+    {
+      "id": "EPS7002",
+      "code": "EPS7002",
+      "name": "Probabilidade e Modelos Estocásticos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110",
+        "MTM3121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "syllabus": "Probabilidade: definições, variáveis aleatórias discretas e contínuas; distribuições conjuntas, marginais e condicionais; funções de distribuições de probabilidades: normal, qui-quadrado, exponencial, binominal e Poisson. Processos Estocásticos: definições, cadeias de Markov e matriz de transição. Teoria das filas: sistemas M/M/1, M/M/c e M/M/ck. Simulação: geração de números pseudo-aleatórios, formulação de modelos de simulação; validação do modelo; linguagens de simulação. Noções de confiabilidade de sistemas."
+    },
+    {
+      "id": "FSC5002",
+      "code": "FSC5002",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "MTM3110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          }
+        ]
+      },
+      "syllabus": "Estudo da Cinemática e Dinâmica da rotação de corpos rígidos. Oscilações e ondas Mecânicas(som). Estática e Dinãmica dos Fluídos. Noções sobre temperatura, calor, princípios da Termodiâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "FSC5103",
+      "code": "FSC5103",
+      "name": "Estática para Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "MTM3110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          }
+        ]
+      },
+      "syllabus": "Estudo das condições de equilíbrio de partículas e de corpos rígidos (estruturas, vigas, treliças etc) no plano e no espaço, envolvendo o cálculo das reações em conexões padrão utilizadas em engenharia; cálculo de forças axiais, esforços cortantes e momentos fletores em estruturas e vigas; cálculo de centróides de áreas e de volumes de figuras simples e de figuras compostas; cálculo de momentos de inércia de chapas planas simples e compostas e de sólidos simples e compostos; equilíbrio de cabos."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "EMC5405",
+      "code": "EMC5405",
+      "name": "Fundamentos da Termodinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          }
+        ]
+      },
+      "syllabus": "Origens da termodinâmica: aspectos históricos. Conceitos básicos. Primeira lei. Segunda lei. Entropia. Equilíbrio termodinâmico (sistemas homogêneos, relações de Maxwell, relações envolvendo entalpia, energia interna e entropia; fator de compressibilidade isotérmica e coeficiente de compressibilidade volumétrica; comportamento de gases reais e equações de estado; diagrama generalizado para variações de entalpia a temperatura constante; diagrama generalizado para variações de entropia a temperatura constante; desenvolvimento de tabelas de propriedades termodinâmicas a partir de dados experimentais). Transições de fase."
+    },
+    {
+      "id": "EMC5425",
+      "code": "EMC5425",
+      "name": "Fenômenos de Transportes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          }
+        ]
+      },
+      "syllabus": "Conceitos fundamentais em mecânica dos fluidos; dimensões e unidades; campos escalar, vetorial e tensorial; viscosidade. Hidrostática; pressão em fluido estático, manômetros; forças sobre superfícies planas e curvas submersas. Análise de escoamento; leis básicas para sistemas e volumes de controle; conservação da massa; equação da quantidade de movimento linear; primeira lei da termodinâmica; equação de Bernoulli. Escoamento viscoso incompressível; escoamento em tubos; diagrama de Moody; perdas de carga distribuidas e localizadas. Conceitos fundamentais em transmissão de calor; dimensões e unidades; leis básicas da transmissão de calor; condução, convecção e radiação; mecanismos combinados de transmissão de calor. Condução unidimensional em regime permanente; espessura crítica de isolamento; aletas; estruturas compostas. Difusão molecular e transporte de massa."
+    },
+    {
+      "id": "EPS2330",
+      "code": "EPS2330",
+      "name": "Introdução à Economia para Engenharia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120"
+      ],
+      "equivalents": [
+        "EPS5222"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3120"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS5222"
+      },
+      "syllabus": "Oferta e demanda. Teoria do consumidor. Teoria da firma. Estruturas de mercados e formação de preços. Mercado para fatores de produção. Externalidades e bens públicos."
+    },
+    {
+      "id": "EPS7000",
+      "code": "EPS7000",
+      "name": "Estatística e Modelos de Previsão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS7002"
+      },
+      "syllabus": "Estatística: coleta de dados e amostragem; estatística descritiva; estimação de parâmetros; testes de hipóteses paramétricos e não paramétricos; análise de correlação e regressão; projeto de experimentos. Previsão: métodos causais; séries temporais (médias móveis e Holt-Winters)."
+    },
+    {
+      "id": "FSC5113",
+      "code": "FSC5113",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5002"
+      },
+      "syllabus": "Análise dos principais fenômenos da eletricidade e magnetismo abrangendo o estudo de campo elétrico, potencial elétrico, capacitor, corrente elétrica, força eletromotriz, campo magnético e indução eletromagnética."
+    },
+    {
+      "id": "INE5202",
+      "code": "INE5202",
+      "name": "Cálculo Numérico em Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2301"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS2301"
+      },
+      "syllabus": "Erros e Sistemas de Numeracão. Solução de equações algébricas e transcendentais. Solução de equações polinomiais. Sistemas de equações lineares e não lineares. Interpolação Ajustamento de curvas. Integração numérica. Solução numérica de equações diferenciais ordinárias e sistemas de equações diferenciais."
+    },
+    {
+      "id": "MTM3103",
+      "code": "MTM3103",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3120"
+      },
+      "syllabus": "-Integração múltipla: integrais duplas e triplas. Noções de cálculo vetorial: curvas e superfícies. Campos escalares e vetoriais. Integrais de linha e de superfícies. Teoremas de Green, Stokes e da Divergência."
+    },
+    {
+      "id": "EMC5201",
+      "code": "EMC5201",
+      "name": "Materiais de Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5119"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5119"
+      },
+      "syllabus": "Materiais e Engenharia. Ligações químicas e seu efeito nas propriedades dos principais Materiais de Engenharia. Estruturas Cristalinas. Defeitos em Sólidos. Difusão em Sólidos. Propriedades Mecânicas dos Metais. Falhas em Metais.Diagramas de Equilíbrio. Análise microestrutural de Materiais, principais processamentos de materiais metálicos e sua correlação com microestrutura e propriedades resultantes no material.Transformações de fases em metais: reações perlítica, bainítica e martensítica.Tratamentos térmicos em metais: recozimento, normalização, têmpera, revenido, solubilização e precipitação. Estrutura, Propriedades e Processamento de Cerâmicas de Alto Desempenho. Estrutura, Propriedades e Processamento de Plásticos de Engenharia. Noções de Propriedades e Processamento de Materiais."
+    },
+    {
+      "id": "EPS2340",
+      "code": "EPS2340",
+      "name": "Modelagem e Análise de Decisão",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2330",
+        "EPS7002"
+      ],
+      "equivalents": [
+        "EPS7009"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2330"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7002"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS7009"
+      },
+      "syllabus": "A Teoria da decisão e suas abordagens. Abordagem normativa, descritiva e prescritiva. As limitações da racionalidade. Modelagem de problemas de decisão: alternativas, influências do ambiente e preferências. Estruturação de problemas: matriz e árvore de decisão. Princípio da Dominância. Decisão sob incerteza. Decisão sob risco. Princípio de Bernoulli. Avaliação e levantamento da informação. Noções sobre decisão com múltiplos objetivos: função de valor, método AHP, métodos outranking."
+    },
+    {
+      "id": "EPS2341",
+      "code": "EPS2341",
+      "name": "Gestão da Segurança e Saúde no Trabalho",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2320"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS2320"
+      },
+      "syllabus": "Segurança e Saúde no trabalho. Riscos Ambientais. Equipamentos de proteção individual. Sinalização de segurança. Normatização e legislações aplicadas a Gestão da Segurança e Saúde no Trabalho. Primeiros Socorros e Prevenção a Incêndios. Metodologias e Técnicas de Gerenciamento e Análise de Riscos."
+    },
+    {
+      "id": "EPS5235",
+      "code": "EPS5235",
+      "name": "Planejamento e Controle da Produção",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2320",
+        "EPS7000"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2320"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7000"
+          }
+        ]
+      },
+      "syllabus": "(Ext 18h-a) EPS7000) - Visão geral dos sistemas de produção. Planejamento estratégico da produção. Planejamento mestre da produção. Programação da produção: administração de estoques, seqüenciamento,emissão e liberação de ordens. Acompanhamento da produção."
+    },
+    {
+      "id": "FSC5122",
+      "code": "FSC5122",
+      "name": "Física Experimental I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Complementação dos conteúdos de mecânica, acústica, termologia. Obtida através de montagem e realização de experiências, em número de 12 (doze), versando sobre os tópicos acima."
+    },
+    {
+      "id": "FSC5207",
+      "code": "FSC5207",
+      "name": "Mecânica II - Dinâmica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          }
+        ]
+      },
+      "syllabus": "Estudo da cinemática das partículas e do corpo rígido. Dinâmica da partícula e do corpo rígido."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "syllabus": "-Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "EMC5128",
+      "code": "EMC5128",
+      "name": "Mecânica dos Sólidos A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5103",
+        "MTM3121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5103"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "syllabus": "Conceitos de projeto. Concepção, projeto preliminar, projeto detalhado, análise. Tipos de análise. Análise experimental, análise por simulação com modelos. Tipos de modelos. Modelos mecânicos, modelos matemáticos, modelos numéricos. Tipos de modelos usados em Mecânica dos Sólidos: barras, vigas, placas, cascas, sólidos. Identificação e idealização dos modelos quanto a sua forma geométrica, carregamento, materiais e condições de contorno. Solicitações internas. Reações. Diagramas. Esforços em treliças. Tensões. Estados de tensão. Equações diferenciais de equilíbrio. Transformação de tensões e deformações. Critérios de falha. Tensões uniaxiais, pinos, colunas, tensões em treliças. Deformações, definições, relações deformação-deslocamento. Transformação de deformações. Diagramas tensão-deformação, Lei de Hooke. Deformações axiais em barras e problemas hiperestáticos em barras. Flexão simples plana, obliqua, seções assimétricas. Cisalhamento em vigas longas. Torção. Solicitações compostas."
+    },
+    {
+      "id": "EMC5202",
+      "code": "EMC5202",
+      "name": "Usinagem dos Materiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5201"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5201"
+      },
+      "syllabus": "Conceituação e relevância da técnica de usinagem dos materiais na obtenção de componentes e produtos de engenharia com elevado valor agregado, mediante transformação da forma e dimensões da matéria-prima. Conceito, caracterização e funções do sistema máquina - ferramenta - peça. Sistemas, processos e fundamente da usinagem por ação mecânica com ferramentas de geometria definida e não definida; por ação térmica e termo-química; as principais variáveis de processo em cada caso. Fenômenos térmicos, mecânicos e químicos envolvidos nos processos de usinagem. Ferramenta para usinagem: fundamentação geométrica; os materiais envolvidos na construção destas; os mecanismos de desgaste e falha (falência) das ferramentas, as principais famílias de sistemas (máquinas ferramenta), suas características e aplicações. Determinação dos custos de usinagem e análise de produtividade. Os defeitos introduzidos nos produtos usinados por ação de processos e as conseqüências desses defeitos para a aplicação e desempenho dos produtos."
+    },
+    {
+      "id": "EMC5236",
+      "code": "EMC5236",
+      "name": "Medição de Grandezas Mecânicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS7000"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS7000"
+      },
+      "syllabus": "Noções sobre experimentação. Grandezas a medir. Sistemas de medição. Características estatísticas e dinâmicas. Medição elétrica de grandezas mecânicas. Aparelhos para indicação e registro. Transdutores ativos. Transdutores passivos. Sistema de medição digital. Automação da medição."
+    },
+    {
+      "id": "EPS2350",
+      "code": "EPS2350",
+      "name": "Introdução a Finanças para Engenharia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2330"
+      ],
+      "equivalents": [
+        "EPS7010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS2330"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS7010"
+      },
+      "syllabus": "Princípios e procedimentos contábeis básicos. Demonstrativos financeiros. Indicadores financeiros e de desempenho. Análise financeira de empresas."
+    },
+    {
+      "id": "EPS2351",
+      "code": "EPS2351",
+      "name": "Gerenciamento de Projetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS5235"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS5235"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Conceito de projeto. Fases e componentes de um projeto. Estruturas organizacionais e o gerenciamento de projetos. Planejamento e controle de projetos. O gerente de projeto e as competências interpessoais. Portfólio em gestão de projetos. Modelos de gerenciamento ágil e tradicional de projetos. Ferramentas computacionais de apoio ao projeto. Tendências e oportunidades em gerenciamento de projetos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS7005",
+      "code": "EPS7005",
+      "name": "Pesquisa Operacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2301",
+        "EPS2340"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2301"
+          },
+          {
+            "kind": "course",
+            "code": "EPS2340"
+          }
+        ]
+      },
+      "syllabus": "Introdução: histórico e objetivos. Modelagem de Problemas. Programação Linear: método simplex; dualidade em programação linear; algoritmo simplex primal-dual; análise de sensibilidade e pós-otimalidade. Problemas Lineares Especiais: problema de atribuição; problema de transportes; problemas de fluxo em redes. Programação Inteira e Mista: branch-and-bound; cortes de Gomory; relaxação lagrangeana; algoritmo de Balas. Programação Dinâmica: condições de otimalidade e separabilidade; programação dinâmica determinística; programação dinâmica estocástica. Programação Não-linear: condições de otimalidade de Karush-Kuhn-Tucker; otimização multivariada sem restrições; otimização multivariada com restrições."
+    },
+    {
+      "id": "EPS7060",
+      "code": "EPS7060",
+      "name": "Gestão Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2320"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS2320"
+      },
+      "syllabus": "Fundamentos da questão ambiental. Modelos de produção e sustentabilidade. Ferramentas da gestão ambiental. Leis e normas ambientais e métodos de avaliação de impactos. Gerenciamento de resíduos. Desastres ambientais.-"
+    },
+    {
+      "id": "EPS2306",
+      "code": "EPS2306",
+      "name": "Projeto Integrado I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 108
+      },
+      "prerequisiteHours": 108,
+      "syllabus": "Conceitos relevantes para os projetos na temática de Modelagem do Negócio. Escolha de problemas. Desenvolvimento de Soluções. Apresentação dos resultados e/ou soluções à organização.",
+      "extensionHours": 108
+    },
+    {
+      "id": "EPS2361",
+      "code": "EPS2361",
+      "name": "Análise de Dados",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS7000",
+        "EPS7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS7000"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7005"
+          }
+        ]
+      },
+      "syllabus": "Gerenciamento na Era da Informação. Gestão da Informação e o Suporte à Decisão. Ferramentas Computacionais e linguagens de programação. Fundamentos de bancos de dados. Fluxo de Projeto de análise de dados. Visualização da Informação e Dados. Tecnologia da Informação e BI. Implantação de Projetos de TI e de análise de dados."
+    },
+    {
+      "id": "EPS2362",
+      "code": "EPS2362",
+      "name": "Ergonomia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2341"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2341"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Introdução à Ergonomia. Princípios de Fisiologia do trabalho. Antropometria e Biomecânica. Princípios de Organização do trabalho. Condições Ambientais de trabalho. Princípios de Psicologia do trabalho. Princípios de Design Universal. O Projeto do trabalho. Análise Ergonômica do Trabalho (AET). Normativas vigentes.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS2363",
+      "code": "EPS2363",
+      "name": "Análise de Custos para Engenharia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Princípios e métodos de custeio. Análise custo-volume-lucro. Custo padrão. Método dos centros de custos. Custeio baseado em atividades (ABC). Método da unidade de esforço de produção (UEP).",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS2381",
+      "code": "EPS2381",
+      "name": "Gestão da Qualidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS7000"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS7000"
+      },
+      "syllabus": "A gestão da qualidade e os novos processos de gestão. Qualidade e as novas tendências na manufatura avançada. Modelos de relações com o mercado e a sociedade. A gestão da qualidade e a sobrevivência das organizações. Gestão da qualidade, revoluções industriais e inovação. A gestão da qualidade e os processos de manutenção e ampliação de mercados. Qualidade total. Gestão da qualidade em serviços. Gestão operacional da qualidade. Estratégias e ferramentas para a gestão e avaliação da qualidade. Gestão tática da qualidade. Gestão estratégica da qualidade."
+    },
+    {
+      "id": "EPS7019",
+      "code": "EPS7019",
+      "name": "Engenharia Econômica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2340",
+        "EPS2350"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2340"
+          },
+          {
+            "kind": "course",
+            "code": "EPS2350"
+          }
+        ]
+      },
+      "syllabus": "Conceitos de Matemática Financeira: juros; relações de equivalência; taxas nominais e efetivas; amortização de dívidas, inflação e correção monetária. Engenharia Econômica e análise de investimentos."
+    },
+    {
+      "id": "EPS7024",
+      "code": "EPS7024",
+      "name": "Métodos Quantitativos na Gestão da Produção Industrial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS5235",
+        "EPS7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS5235"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7005"
+          }
+        ]
+      },
+      "syllabus": "Introdução: Teoria da Produção; fatores de produção; planejamento e controle da produção; caracterização dos sistemas de produção. 2 Linhas de Produção: Introdução e formulação do problema; procedimentos heurísticos; sequenciamento de linhas mistas (múltiplos produtos). Plano Mestre da Produção (16 horas-aula) - Introdução e objetivos; políticas de encomendas; modelos dinâmicos de determinação de lotes; métodos heurísticos; modelos considerando capacidade limitada. Programação da Produção: Introdução e definição do problema; flow-shop com uma máquina; flow-shop com duas ou mais máquinas; job shop; regras de despacho. Planejamento de Materiais: Introdução; heurísticas para definição de lotes de material na produção com múltiplos estágios; cálculo das necessidades de material; MRP. Tecnologia de Grupo: Definições; codificação e classificação de peças; algoritmos de clusterização."
+    },
+    {
+      "id": "EEL5113",
+      "code": "EEL5113",
+      "name": "Eletrotécnica Geral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5113"
+      },
+      "syllabus": "Noções básicas de Eletricidade. Circuitos Elétricos. Transformadores. Motores Elétricos. Medidas Elétricas."
+    },
+    {
+      "id": "EMC5203",
+      "code": "EMC5203",
+      "name": "Conformação de Metais e Moldagem de Polímeros",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5201",
+        "EMC5236"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5201"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5236"
+          }
+        ]
+      },
+      "syllabus": "Classificação e descrição sumária dos diversos processos de conformação mecânica. Tecnologia e campos de aplicação dos processos de forjamento, laminação, trefilação e extrusão. Processos de conformação de chapas: operação de corte, dobramento, estiramento e embutimento. Introdução a estampabilidade de chapas. Ferramentas. Máquinas utilizadas. Fundamentos do processamento de polímeros. Moldagem por extrusão Moldagem por sopro. Termoformagem. Moldagem por injeção. Variantes do processo e tipos de moldes. Projeto e fabricacao de moldes com CAE/CAD/CAM. Confecção de moldes com técnicas"
+    },
+    {
+      "id": "EPS2370",
+      "code": "EPS2370",
+      "name": "Logística e Cadeia de Suprimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2363",
+        "EPS5235"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2363"
+          },
+          {
+            "kind": "course",
+            "code": "EPS5235"
+          }
+        ]
+      },
+      "syllabus": "Conceito e Evolução da Logística e Cadeia de suprimentos. Os fluxos logísticos e efeito chicote na cadeia. Logística de Suprimento. Logística Reversa. Distribuição Física e canais de distribuição. Nível de serviço e custos logísticos (trade-off). Os elementos do mix logístico. Processamento de pedidos. Estoques. Armazéns. Transporte. Lotes de compras. O sistema logístico. Tecnologias aplicadas à logística. Tendências em logística."
+    },
+    {
+      "id": "EPS2371",
+      "code": "EPS2371",
+      "name": "Metodologia de Pesquisa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "Fundamentos da metodologia científica: Método científico, seus elementos, etapas e aplicabilidade na engenharia de produção. Métodos e técnicas de pesquisa típicas na engenharia de produção. Instrumentos de coleta de dados. O pré-projeto de pesquisa e o projeto final de pesquisa. A comunicação científica. Documentação e redação de trabalhos científicos. Normas para Elaboração de Trabalhos Acadêmicos (normas ABNT e outras)."
+    },
+    {
+      "id": "EPS2372",
+      "code": "EPS2372",
+      "name": "Engenharia de Métodos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2362"
+      ],
+      "equivalents": [
+        "EPS7022"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS2362"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS7022"
+      },
+      "syllabus": "Projeto de Métodos. Técnicas de registro e análise do processo. Análise do posto de trabalho. Metodologias de resolução de problemas. Programas de participação do trabalhador na melhoria dos métodos de trabalho. Medida do trabalho: cronometragem, amostragem do trabalho e tempos pré-determinados."
+    },
+    {
+      "id": "EPS2373",
+      "code": "EPS2373",
+      "name": "Simulação de Eventos Discretos (Ext 18h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS7005"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Natureza e características da simulação. Tipos de simulação. Mecanismos de avanço do tempo da simulação discreta. Metodologia de simulação. Testes de aderência de dados. Verificação e validação de modelos. Análise de resultados de uma simulação."
+    },
+    {
+      "id": "EPS2374",
+      "code": "EPS2374",
+      "name": "Gestão de Operações de Serviços",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS5235"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS5235"
+      },
+      "syllabus": "a) EPS7024) Contextualização e relevância dos serviços na economia. Características e classificação de serviços. Estratégia e processos de serviços. Design em serviços. Avaliação da qualidade em serviços. Experiência do cliente. Modelos de negócio em serviços. Integração produto-serviço. Princípios da servitização. Tecnologia em serviços."
+    },
+    {
+      "id": "EPS2375",
+      "code": "EPS2375",
+      "name": "Planejamento de Unidade Produtivas 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2306",
+        "EPS7019"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2306"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7019"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Noções de planejamento empresarial. Metodologia para elaboração dos anteprojetos. Estudos de mercado. Definição das estratégias de competitividade do anteprojeto. Modelagem de Negócios. Análise do processo produtivo. Estudo de tamanho e escala produtiva. Estudos de localização. Determinação do investimento. Projeção de fluxo de caixa. Análise de viabilidade econômica. Análise de viabilidade financeira. Análise de Riscos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS2307",
+      "code": "EPS2307",
+      "name": "Projeto Integrado II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2306"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2306"
+          },
+          {
+            "kind": "hours",
+            "hours": 108
+          }
+        ]
+      },
+      "prerequisiteHours": 108,
+      "syllabus": "Conceitos relevantes para os projetos na temática de Modelagem das Operações. Escolha de problemas. Desenvolvimento de Soluções. Apresentação dos resultados e/ou soluções à organização.",
+      "extensionHours": 108
+    },
+    {
+      "id": "EPS2360",
+      "code": "EPS2360",
+      "name": "Engenharia da Qualidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2381"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2381"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Introdução à Engenharia da Qualidade: métodos quantitativos de diagnóstico, monitoramento e otimização da qualidade. Controle Estatístico de Processos. Métodos de inspeção e amostragem. Otimização experimental de processos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS2380",
+      "code": "EPS2380",
+      "name": "Projeto de Instalações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2372",
+        "EPS2375"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2372"
+          },
+          {
+            "kind": "course",
+            "code": "EPS2375"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Unidades de uma instalação: produtiva e administrativa. Arranjo físico: conceito, tipos de arranjo físico, estudo do fluxo, dimensionamento de áreas, métodos para elaboração de arranjo físico, layout de almoxarifado, layout de células de produção. Movimentação e Armazenagem de Materiais: conceitos e equipamentos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS2382",
+      "code": "EPS2382",
+      "name": "Desenvolvimento de Produtos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EPS7021"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2900,
+        "courseType": "Ob"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS7021"
+      },
+      "prerequisiteHours": 2900,
+      "syllabus": "Fundamentos e Fases do Desenvolvimento de Produto; Estrutura do processo de desenvolvimento de produto; Problema de projeto; Projeto preliminar: requisitos dos clientes e do produto; Projeto conceitual e geração de soluções; Diretrizes para o Projeto Detalhado; Técnicas e ferramentas para o desenvolvimento de novos produtos."
+    },
+    {
+      "id": "EPS2383",
+      "code": "EPS2383",
+      "name": "Manutenção e Confiabilidade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2361",
+        "EPS2372"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2361"
+          },
+          {
+            "kind": "course",
+            "code": "EPS2372"
+          }
+        ]
+      },
+      "syllabus": "Medidas de confiabilidade e distribuições de tempo de vida. Confiabilidade de componentes em série e paralelo. FMEA e FTA. A função manutenção. Manutenção Corretiva. Manutenção Preventiva. Manutenção Preditiva. Manutenção Centrada em Confiabilidade. Manutenção Produtiva Total."
+    },
+    {
+      "id": "EPS2384",
+      "code": "EPS2384",
+      "name": "Projeto Final de Curso I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2371"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS2371"
+      },
+      "syllabus": "Planejamento técnico do trabalho junto com o orientador escolhido; Elaboração do cronograma do trabalho; Definição da metodologia e das ferramentas a serem empregadas no trabalho; Busca da literatura."
+    },
+    {
+      "id": "EPS2390",
+      "code": "EPS2390",
+      "name": "Sistemas de Produção Enxutos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2370",
+        "EPS2372"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2370"
+          },
+          {
+            "kind": "course",
+            "code": "EPS2372"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Introdução e conceitos. Cultura e Estratégia enxuta. Manufatura enxuta. Logística enxuta. Outras abordagens enxutas.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS2391",
+      "code": "EPS2391",
+      "name": "Projeto Final Curso II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2384"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS2384"
+      },
+      "syllabus": "Aplicação prática dos tópicos estudados no curso de Engenharia de Produção, na forma de projetos técnicos e/ou científicos ao nível dos atribuídos a um engenheiro."
+    },
+    {
+      "id": "EPS2310",
+      "code": "EPS2310",
+      "name": "Estágio Supervisionado em Engenharia de Produção",
+      "credits": 12,
+      "hours": 216,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "EPS2382",
+        "EPS5235"
+      ],
+      "equivalents": [
+        "EPS7080"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2382"
+          },
+          {
+            "kind": "course",
+            "code": "EPS5235"
+          },
+          {
+            "kind": "hours",
+            "hours": 3000,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS7080"
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": ""
+    },
+    {
+      "id": "EPS0123",
+      "code": "EPS0123",
+      "name": "Gerenciamento por Processos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EPS2351"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2351"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Disciplinas Optativas da Área de Engenharia de Produção Introdução e conceitos. Cadeia de valor de processos. Modelos para Gerenciamento por processos. Notação para Gerenciamento de processos de Negócio. Indicadores-chave de desempenho. Projetos de melhoria em Gerenciamento por processos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS0223",
+      "code": "EPS0223",
+      "name": "Manufatura Avançada",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EPS2373",
+        "EPS2383",
+        "EPS7024"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2373"
+          },
+          {
+            "kind": "course",
+            "code": "EPS2383"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7024"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Conceitos e evolução. Planejamento e controle integrado de processos produtivos em sistemas de manufatura. Gestão da manufatura avançada. Transformação digital de sistemas produtivos. Sistemas produtivos distribuídos, manufatura avançada (inteligente, digital, conectada e social) e manutenção inteligente. Aplicação de conceitos, tecnologias e métodos avançados de apoio à tomada de decisão baseados em simulação, otimização e orientados a dados. Panorama, tendências e oportunidades. Tópicos especiais em sistemas de manufatura.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS0323",
+      "code": "EPS0323",
+      "name": "Seis Sigma",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EPS2381"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2381"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Fundamentos do programa seis sigma. Projetos seis sigma para a melhoria da qualidade e produtividade. Implementação do programa seis sigma. Outras aplicações do seis sigma.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS0423",
+      "code": "EPS0423",
+      "name": "Economia Circular",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EPS7060"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS7060"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Economia Circular: histórico e conceituação. Modelos de negócios circulares. As mudanças na cadeia de suprimentos. Barreiras, capacitadores e aceleradores da economia circular. Aplicações práticas da economia circular em modelos de negócios.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS0523",
+      "code": "EPS0523",
+      "name": "Planejamento de Sistemas Logísticos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EPS2370",
+        "EPS2373"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2370"
+          },
+          {
+            "kind": "course",
+            "code": "EPS2373"
+          },
+          {
+            "kind": "hours",
+            "hours": 2000,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Conceitos e evolução. Sistemas Produtivos e Logísticos. Projeto de sistemas logísticos. Planejamento e integração de processos produtivos, logísticos e de transporte. Aplicação de modelagem e simulação para apoiar o projeto de sistemas logísticos. Panorama, tendências e oportunidades. Tópicos especiais em planejamento de sistemas logísticos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS0623",
+      "code": "EPS0623",
+      "name": "Gestão da Cadeia de Suprimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EPS2370"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2370"
+          },
+          {
+            "kind": "hours",
+            "hours": 2000,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Conceitos e evolução. Tipos de cadeias de suprimentos. Integração de processos e coordenação de cadeias de suprimentos. Colaboração, cooperação e gestão de relacionamentos. Modelos para análise e aprimoramento de desempenho. Cadeias de suprimentos globais. Sustentabilidade na Cadeia de Suprimentos. Panorama, tendências e oportunidades. Tópicos especiais em cadeias de suprimentos."
+    },
+    {
+      "id": "EPS0723",
+      "code": "EPS0723",
+      "name": "Modelagem de Sistemas Logísticos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EPS2370",
+        "EPS7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2370"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7005"
+          },
+          {
+            "kind": "hours",
+            "hours": 2000,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Introdução. Estoques: modelo de lote econômico com demanda constante; modelo de lote econômico com demanda variável; modelo de lote econômico com demanda aleatória; modelo de estoque e precificação. Localização de Instalações: problema de p-medianas; problema de p-centros; planejamento da cadeia de suprimentos; localização do estoque de segurança. Problemas de Roteirização: problema de caminhos mínimos; problema do caixeiro viajante; problema do carteiro chinês; VRP capacitado; VRP com restrições de janela de tempo."
+    },
+    {
+      "id": "EPS2308",
+      "code": "EPS2308",
+      "name": "Projeto Integrado III (Modelagem",
+      "credits": 6,
+      "hours": 108,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EPS2307"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2307"
+          },
+          {
+            "kind": "hours",
+            "hours": 3000,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Conceitos relevantes para os projetos na temática de Modelagem Quantitativa de Dados. Escolha de problemas. Desenvolvimento de Soluções. Apresentação dos resultados e/ou soluções à organização."
+    },
+    {
+      "id": "EPS3023",
+      "code": "EPS3023",
+      "name": "Disciplina de Pós Graduação I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Primeira disciplina cursada na Pós-Graduação na trilha Gestão de Operações e Cadeias de Suprimentos (GOP). Estudo de conceitos, métodos e aplicações avançadas nas áreas de Gestão de Operações e Cadeia de Suprimentos, abrangendo análise, modelagem, otimização e gestão de sistemas produtivos e logísticos, com ênfase em excelência operacional, qualidade, sustentabilidade, inovação, integração tecnológica e transformação digital. Aborda planejamento e controle da produção, gestão de estoques, transporte, logística 4.0, economia circular e tecnologias limpas, entre outros."
+    },
+    {
+      "id": "EPS3123",
+      "code": "EPS3123",
+      "name": "Disciplina de Pós-Graduação II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Segunda disciplina cursada na Pós-Graduação na trilha Gestão de Operações e Cadeias de Suprimentos (GOP). Estudo de conceitos, métodos e aplicações avançadas nas áreas de Gestão de Operações e Cadeia de Suprimentos, abrangendo análise, modelagem, otimização e gestão de sistemas produtivos e logísticos, com ênfase em excelência operacional, qualidade, sustentabilidade, inovação, integração tecnológica e transformação digital. Aborda planejamento e controle da produção, gestão de estoques, transporte, logística 4.0, economia circular e tecnologias limpas, entre outros."
+    },
+    {
+      "id": "EPS3223",
+      "code": "EPS3223",
+      "name": "Disciplina de Pós Graduação III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Terceira disciplina cursada na Pós-Graduação na trilha Gestão de Operações e Cadeias de Suprimentos (GOP). Estudo de conceitos, métodos e aplicações avançadas nas áreas de Gestão de Operações e Cadeia de Suprimentos, abrangendo análise, modelagem, otimização e gestão de sistemas produtivos e logísticos, com ênfase em excelência operacional, qualidade, sustentabilidade, inovação, integração tecnológica e transformação digital. Aborda planejamento e controle da produção, gestão de estoques, transporte, logística 4.0, economia circular e tecnologias limpas, entre outros."
+    },
+    {
+      "id": "EPS3323",
+      "code": "EPS3323",
+      "name": "Disciplina de Pós Graduação IV",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Quarta disciplina cursada na Pós-Graduação na trilha Gestão de Operações e Cadeias de Suprimentos (GOP). Estudo de conceitos, métodos e aplicações avançadas nas áreas de Gestão de Operações e Cadeia de Suprimentos, abrangendo análise, modelagem, otimização e gestão de sistemas produtivos e logísticos, com ênfase em excelência operacional, qualidade, sustentabilidade, inovação, integração tecnológica e transformação digital. Aborda planejamento e controle da produção, gestão de estoques, transporte, logística 4.0, economia circular e tecnologias limpas, entre outros."
+    },
+    {
+      "id": "EPS3423",
+      "code": "EPS3423",
+      "name": "Disciplina de Pós Graduação V",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Quinta disciplina cursada na Pós-Graduação na trilha Gestão de Operações e Cadeias de Suprimentos (GOP). Estudo de conceitos, métodos e aplicações avançadas nas áreas de Gestão de Operações e Cadeia de Suprimentos, abrangendo análise, modelagem, otimização e gestão de sistemas produtivos e logísticos, com ênfase em excelência operacional, qualidade, sustentabilidade, inovação, integração tecnológica e transformação digital. Aborda planejamento e controle da produção, gestão de estoques, transporte, logística 4.0, economia circular e tecnologias limpas, entre outros."
+    },
+    {
+      "id": "EPS3523",
+      "code": "EPS3523",
+      "name": "Disciplina de Pós Graduação VI",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Sexta disciplina cursada na Pós-Graduação na trilha Gestão de Operações e Cadeias de Suprimentos (GOP). Estudo de conceitos, métodos e aplicações avançadas nas áreas de Gestão de Operações e Cadeia de Suprimentos, abrangendo análise, modelagem, otimização e gestão de sistemas produtivos e logísticos, com ênfase em excelência operacional, qualidade, sustentabilidade, inovação, integração tecnológica e transformação digital. Aborda planejamento e controle da produção, gestão de estoques, transporte, logística 4.0, economia circular e tecnologias limpas, entre outros."
+    },
+    {
+      "id": "EPS0823",
+      "code": "EPS0823",
+      "name": "Finanças Corporativas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EPS7019"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS7019"
+          },
+          {
+            "kind": "hours",
+            "hours": 3000,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Risco e retorno, teoria das carteiras, estrutura de capital, política de dividendos e financiamento."
+    },
+    {
+      "id": "EPS0923",
+      "code": "EPS0923",
+      "name": "Análise de Dados II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EPS2361"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2361"
+          },
+          {
+            "kind": "hours",
+            "hours": 3000,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Introdução ao Aprendizado Máquina (Machine learning); Exploração e visualização dos dados usando uma ferramenta estatística; prototipagem, avaliação e validação de modelos de Machine Learning; Aprendizado supervisionado/Não supervisionado; Problemas de regressão; Problemas de classificação; Problemas de clusterização; Técnicas avançadas de treinamento; Procedimentos e técnicas para estruturação de análises; Boas práticas para execução de análises compartilhadas e reprodutíveis."
+    },
+    {
+      "id": "EPS1023",
+      "code": "EPS1023",
+      "name": "Avaliação de Ativos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EPS7019"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS7019"
+          },
+          {
+            "kind": "hours",
+            "hours": 3000,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Avaliação de renda fixa: características dos títulos de renda fixa, precificação, rendimento, risco e inadimplência, estrutura a termo da taxa de juros; Avaliação de empresas: avaliação por fluxo de caixa descontado, avaliação relativa; Análise de riscos: sensibilidade, cenários, simulação de Monte Carlo; Introdução à tópicos especiais em avaliação de ativos."
+    },
+    {
+      "id": "EPS1123",
+      "code": "EPS1123",
+      "name": "Programação para Engenharia de Produção II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EPS2301"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2301"
+          },
+          {
+            "kind": "hours",
+            "hours": 3000,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Processo de desenvolvimento de software. Levantamento de requisitos. Diagramas para projeto de sistemas computacionais. Bases de Dados Relacionais. Projeto e implementação de um sistema computacional de baixa complexidade."
+    },
+    {
+      "id": "EPS1323",
+      "code": "EPS1323",
+      "name": "Business Intelligence e Visualização de Dados",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EPS2361"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2361"
+          },
+          {
+            "kind": "hours",
+            "hours": 3000,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Visualização e análise de dados. Tipos de visualizações e seus usos. Dashboards e Business Intelligence. Percepção visual e princípios do design aplicados a dashboards. Construção de dashboards estáticos e dashboards interativos."
+    },
+    {
+      "id": "EPS1423",
+      "code": "EPS1423",
+      "name": "Simulação de Sistemas Dinâmicos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EPS2373"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2373"
+          },
+          {
+            "kind": "hours",
+            "hours": 3000,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Introdução: simulação discreta e simulação contínua. Conceito de retroalimentação e conceito de defasagem temporal. Estruturação do problema. Formulação e construção do modelo: notação, diagramação e linguagens de representação de modelos. Verificação e validação do modelo. Análise de sensibilidade. Formulação e avaliação de cenários. Aplicações nas áreas de manufatura, serviços, energia e outras.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS3623",
+      "code": "EPS3623",
+      "name": "Disciplina de Pós Graduação VII",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Primeira disciplina cursada na Pós-Graduação na trilha Engenharia de Produtos e Serviços (EPP). Estudo de conceitos, metodologias e ferramentas para o desenvolvimento e gestão de produtos, processos e serviços, com foco em inovação, competitividade e sustentabilidade. Abrange desenvolvimento enxuto, incorporação de tecnologias inteligentes, gestão de portfólio, usabilidade, qualidade e modelos de negócio orientados a valor."
+    },
+    {
+      "id": "EPS3823",
+      "code": "EPS3823",
+      "name": "Disciplina de Pós Graduação IX",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Terceira disciplina cursada na Pós-Graduação na trilha Engenharia de Produtos e Serviços (EPP). Estudo de conceitos, metodologias e ferramentas para o desenvolvimento e gestão de produtos, processos e serviços, com foco em inovação, competitividade e sustentabilidade. Abrange desenvolvimento enxuto, incorporação de tecnologias inteligentes, gestão de portfólio, usabilidade, qualidade e modelos de negócio orientados a valor."
+    },
+    {
+      "id": "EPS3923",
+      "code": "EPS3923",
+      "name": "Disciplina de Pós Graduação X",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Quarta disciplina cursada na Pós-Graduação na trilha Engenharia de Produtos e Serviços (EPP). Estudo de conceitos, metodologias e ferramentas para o desenvolvimento e gestão de produtos, processos e serviços, com foco em inovação, competitividade e sustentabilidade. Abrange desenvolvimento enxuto, incorporação de tecnologias inteligentes, gestão de portfólio, usabilidade, qualidade e modelos de negócio orientados a valor."
+    },
+    {
+      "id": "EPS4023",
+      "code": "EPS4023",
+      "name": "Disciplina de Pós Graduação XI",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Quinta disciplina cursada na Pós-Graduação na trilha Engenharia de Produtos e Serviços (EPP). Estudo de conceitos, metodologias e ferramentas para o desenvolvimento e gestão de produtos, processos e serviços, com foco em inovação, competitividade e sustentabilidade. Abrange desenvolvimento enxuto, incorporação de tecnologias inteligentes, gestão de portfólio, usabilidade, qualidade e modelos de negócio orientados a valor."
+    },
+    {
+      "id": "EPS4123",
+      "code": "EPS4123",
+      "name": "Disciplina de Pós Graduação XII",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "Sexta disciplina cursada na Pós-Graduação na trilha Engenharia de Produtos e Serviços (EPP). Estudo de conceitos, metodologias e ferramentas para o desenvolvimento e gestão de produtos, processos e serviços, com foco em inovação, competitividade e sustentabilidade. Abrange desenvolvimento enxuto, incorporação de tecnologias inteligentes, gestão de portfólio, usabilidade, qualidade e modelos de negócio orientados a valor."
+    },
+    {
+      "id": "ANT7001",
+      "code": "ANT7001",
+      "name": "Cultura Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplinas Optativas Gerais Significados e dinâmicas da Cultura Brasileira. Estudos antropológicos sobre Cultura Brasileira. Conceitos de Cultura Brasileira. Artes no Brasil. Literaturas no período colonial e contemporâneo. Cultura popular e folclore. Comunicação de massa."
+    },
+    {
+      "id": "ANT7003",
+      "code": "ANT7003",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Particularidades históricas e processos de diferenciação. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política."
+    },
+    {
+      "id": "ANT7004",
+      "code": "ANT7004",
+      "name": "Etnologia Indígena",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temáticas, abordagens e perspectivas teórico-metodológicas em etnologia indígena, com ênfase sobre as sociedades situadas no Brasil. O campo de estudo da etnologia indígena, panorama histórico e atual."
+    },
+    {
+      "id": "ANT7021",
+      "code": "ANT7021",
+      "name": "Antropologia Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História da antropologia no Brasil. A questão nacional. Conceitos, questões e tendências da antropologia no Brasil."
+    },
+    {
+      "id": "ANT7701",
+      "code": "ANT7701",
+      "name": "Estudos Afro-Brasileiros - PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações raciais e racismo no Brasil. Relações interétnicas e Identidades étnicas. Estudos sobre os negros no Brasil."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "horas/aula Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "EPS2300",
+      "code": "EPS2300",
+      "name": "AACCs (Atividades Complementares)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EPS0023",
+      "code": "EPS0023",
+      "name": "Ações de Extensão",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 54
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "Atividades Acadêmicas de Extensão",
+      "extensionHours": 54
+    },
+    {
+      "id": "EPS0024",
+      "code": "EPS0024",
+      "name": "Ações de Extensão I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Participação em projetos, cursos e eventos de extensão; desenvolvimento de competências em contextos de extensão; articulação com ensino e pesquisa.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS0025",
+      "code": "EPS0025",
+      "name": "Ações de Extensão II",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Participação em projetos, cursos e eventos de extensão; desenvolvimento de competências em contextos de extensão; articulação com ensino e pesquisa.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EPS0026",
+      "code": "EPS0026",
+      "name": "Ações de Extensão III",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Participação em projetos, cursos e eventos de extensão; desenvolvimento de competências em contextos de extensão; articulação com ensino e pesquisa.",
+      "extensionHours": 18
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EGR5213",
+      "EPS2301",
+      "EPS2302",
+      "EQA5119",
+      "FSC5101",
+      "MTM3110",
+      "MTM3121",
+      "EGR5214",
+      "EPS2320",
+      "EPS7002",
+      "FSC5002",
+      "FSC5103",
+      "MTM3120",
+      "EMC5405",
+      "EMC5425",
+      "EPS2330",
+      "EPS7000",
+      "FSC5113",
+      "INE5202",
+      "MTM3103",
+      "EMC5201",
+      "EPS2340",
+      "EPS2341",
+      "EPS5235",
+      "FSC5122",
+      "FSC5207",
+      "MTM3131",
+      "EMC5128",
+      "EMC5202",
+      "EMC5236",
+      "EPS2350",
+      "EPS2351",
+      "EPS7005",
+      "EPS7060",
+      "EPS2306",
+      "EPS2361",
+      "EPS2362",
+      "EPS2363",
+      "EPS2381",
+      "EPS7019",
+      "EPS7024",
+      "EEL5113",
+      "EMC5203",
+      "EPS2370",
+      "EPS2371",
+      "EPS2372",
+      "EPS2373",
+      "EPS2374",
+      "EPS2375",
+      "EPS2307",
+      "EPS2360",
+      "EPS2380",
+      "EPS2382",
+      "EPS2383",
+      "EPS2384",
+      "EPS2390",
+      "EPS2391",
+      "EPS2310",
+      "EPS2300"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas",
+        "requiredHours": 378,
+        "sources": [
+          {
+            "id": "production-area-electives",
+            "courseIds": [
+              "EPS0123",
+              "EPS0223",
+              "EPS0323",
+              "EPS0423",
+              "EPS0523",
+              "EPS0623",
+              "EPS0723",
+              "EPS2308",
+              "EPS3023",
+              "EPS3123",
+              "EPS3223",
+              "EPS3323",
+              "EPS3423",
+              "EPS3523",
+              "EPS0823",
+              "EPS0923",
+              "EPS1023",
+              "EPS1123",
+              "EPS1323",
+              "EPS1423",
+              "EPS3623",
+              "EPS3823",
+              "EPS3923",
+              "EPS4023",
+              "EPS4123"
+            ],
+            "allowsManualHours": false,
+            "hoursField": "nonExtension"
+          },
+          {
+            "id": "free-electives",
+            "courseIds": [
+              "ANT7001",
+              "ANT7003",
+              "ANT7004",
+              "ANT7021",
+              "ANT7701",
+              "LSB7244",
+              "EPS0023",
+              "EPS0024",
+              "EPS0025",
+              "EPS0026"
+            ],
+            "allowsManualHours": false,
+            "maxHours": 54,
+            "hoursField": "nonExtension"
+          },
+          {
+            "id": "external-free-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 54
+          }
+        ]
+      },
+      {
+        "id": "extension",
+        "name": "Extensão optativa ou ações de extensão",
+        "requiredHours": 54,
+        "sources": [
+          {
+            "id": "optional-extension-hours",
+            "courseIds": [
+              "EPS0123",
+              "EPS0223",
+              "EPS0323",
+              "EPS0423",
+              "EPS0523",
+              "EPS1423",
+              "EPS0023",
+              "EPS0024",
+              "EPS0025",
+              "EPS0026"
+            ],
+            "allowsManualHours": false,
+            "maxHours": 54,
+            "hoursField": "extension"
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "237",
+    "curriculumCode": "20231",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=237&curriculo=20231",
+    "sha256": "0003a6377f3f1074d319f559aef3d350009e47b93f130524ad65c9f798c74509",
+    "capturedAt": "2026-07-15"
+  }
+}

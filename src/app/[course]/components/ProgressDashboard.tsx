@@ -1,12 +1,15 @@
 "use client";
 
 import { ReactNode, useMemo } from "react";
-import { Course, CourseStatus } from "@/types/curriculum";
+import { calculateCurriculumProgress } from "../../../lib/curriculum-progress";
+import { CourseStatus, CurriculumData } from "@/types/curriculum";
+import { RequirementProgress } from "./RequirementProgress";
 
 interface ProgressDashboardProps {
-  courses: Course[];
+  curriculum: CurriculumData;
   statuses: Record<string, CourseStatus>;
-  totalHours: number;
+  requirementHours: Record<string, number>;
+  onRequirementHoursChange: (sourceId: string, hours: number) => void;
   onReset: () => void;
   searchSlot: ReactNode;
 }
@@ -19,31 +22,17 @@ const statusLegend = [
 ];
 
 export function ProgressDashboard({
-  courses,
+  curriculum,
   statuses,
-  totalHours,
+  requirementHours,
+  onRequirementHoursChange,
   onReset,
   searchSlot,
 }: ProgressDashboardProps) {
-  const stats = useMemo(() => {
-    let completed = 0;
-    let inProgress = 0;
-    let rawCompletedHours = 0;
-
-    courses.forEach((course) => {
-      if (statuses[course.id] === "completed") {
-        completed++;
-        rawCompletedHours += course.hours;
-      } else if (statuses[course.id] === "in-progress") {
-        inProgress++;
-      }
-    });
-
-    const completedHours = Math.min(rawCompletedHours, totalHours);
-    const percent = totalHours > 0 ? Math.min(100, Math.round((completedHours / totalHours) * 100)) : 0;
-
-    return { completed, inProgress, total: courses.length, completedHours, totalHours, percent };
-  }, [courses, statuses, totalHours]);
+  const stats = useMemo(
+    () => calculateCurriculumProgress({ curriculum, statuses, requirementHours }),
+    [curriculum, requirementHours, statuses]
+  );
 
   return (
     <section className="glass-surface w-full min-w-0 max-w-full rounded-3xl p-3 sm:p-4">
@@ -71,15 +60,15 @@ export function ProgressDashboard({
 
           <div className="grid min-w-0 grid-cols-1 gap-2 min-[520px]:grid-cols-3">
             <div className="glass-card min-w-0 rounded-2xl p-2.5">
-              <p className="text-xl font-semibold text-[var(--text-strong)]">{stats.completed}</p>
+              <p className="text-xl font-semibold text-[var(--text-strong)]">{stats.completedCourses}</p>
               <p className="truncate text-xs text-[var(--text-muted)]">Concluidas</p>
             </div>
             <div className="glass-card min-w-0 rounded-2xl p-2.5">
-              <p className="text-xl font-semibold text-[var(--text-strong)]">{stats.inProgress}</p>
+              <p className="text-xl font-semibold text-[var(--text-strong)]">{stats.inProgressCourses}</p>
               <p className="truncate text-xs text-[var(--text-muted)]">Cursando</p>
             </div>
             <div className="glass-card min-w-0 rounded-2xl p-2.5">
-              <p className="text-xl font-semibold text-[var(--text-strong)]">{stats.total}</p>
+              <p className="text-xl font-semibold text-[var(--text-strong)]">{curriculum.courses.length}</p>
               <p className="truncate text-xs text-[var(--text-muted)]">Disciplinas</p>
             </div>
           </div>
@@ -111,6 +100,14 @@ export function ProgressDashboard({
           </div>
         </div>
       </div>
+      {curriculum.completion && curriculum.completion.requirements.length > 0 && (
+        <RequirementProgress
+          requirements={curriculum.completion.requirements}
+          progress={stats.requirements}
+          requirementHours={requirementHours}
+          onRequirementHoursChange={onRequirementHoursChange}
+        />
+      )}
     </section>
   );
 }

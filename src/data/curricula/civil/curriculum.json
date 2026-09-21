@@ -1,0 +1,2744 @@
+{
+  "program": "Engenharia Civil",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2020.1",
+  "totalHours": 4518,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ECV2101",
+      "code": "ECV2101",
+      "name": "Introdução à Engenharia Civil",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Visão histórica da engenharia civil, função do engenheiro na sociedade incluindo a temática de história e cultura afro-brasileira e indígena e relações étnico-raciais e de gêneros, áreas de atuação, inovações."
+    },
+    {
+      "id": "EGR5213",
+      "code": "EGR5213",
+      "name": "Representação Gráfica Espacial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5212"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5212"
+      },
+      "syllabus": "Introdução sobre o funcionamento do sistema visual humano; Formas de visualização humana; Sistema de projeção ortogonal Mongeano; Elementos básicos de construção - ponto, reta, e plano; Mecanismos de determinação de verdadeira grandeza - Rebatimento e Mudança de plano; Construção de objetos (modelagem) envolvendo, intersecção, secção e planificação."
+    },
+    {
+      "id": "EGR5604",
+      "code": "EGR5604",
+      "name": "Desenho Técnico I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao Desenho Técnico à mão livre. Normas para o desenho. Técnicas fundamentais de traçado à mão livre. Sistemas de representação: 1º e 3º diedros. Projeção ortogonal de peças simples. Vistas omitidas. Cotagem e proporções. Perspectiva axométrica, isométrica, bimétrica, trimétrica. Perspectiva cavaleira. Esboços cotados. Sombras próprias. Esboços sombreados."
+    },
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3101",
+        "MTM5115",
+        "MTM5161",
+        "MTM5183"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5115"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5183"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "QMC5125",
+      "code": "QMC5125",
+      "name": "Química Geral Experimental A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5104",
+        "QMC5106"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5104"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5106"
+          }
+        ]
+      },
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. ConfiguraçãoEletrônica. Orbital Atômico. Ligações químicas: iônicas, covalentes, metálicas. Leis dos gases. Conceito de Mol. Funções químicas. Misturas. Soluções. Concentração de soluções. Equações químicas. Reações redox. Introdução ao Equilíbrio químico; ácidos ebases; ph. Calor de reação. Introdução á Termoquímica."
+    },
+    {
+      "id": "QMC5138",
+      "code": "QMC5138",
+      "name": "Química Geral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5104",
+        "QMC5106"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5104"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5106"
+          }
+        ]
+      },
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. Orbital atômico. Transformações químicas. Gases, líquidos e pressão de vapor. Estequiometria. Conceito de mol. Termodinâmica. Geometria molecular, Momento dipolar, Solubilidade. Estruturas químicas cristalinas, Elétrons nos sólidos, Defeitos nos sólidos. Soluções e misturas, propriedades coligativas. Cinética e mecanismos de reações. Equilíbrio químico, Equilíbrio ácido-base. Reações de oxi- reduções, eletroquímica, pilhas, corrosão e combustão."
+    },
+    {
+      "id": "ECV2201",
+      "code": "ECV2201",
+      "name": "Introdução à Mecânica das Estruturas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudos qualitativos com uso de modelos físicos de estruturas em barras, laminares (placas e cascas) e blocos. Abordagem de: equilíbrio estrutural, esforços internos nas estruturas; tipos de vínculo - movimentos permitidos e grau de rigidez; influência das propriedades geométricas das seções transversais dos elementos estruturais. Introdução ao projeto de estruturas."
+    },
+    {
+      "id": "ECV2202",
+      "code": "ECV2202",
+      "name": "Topografia I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR5213",
+        "EGR5604"
+      ],
+      "equivalents": [
+        "ECV5136"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR5213"
+          },
+          {
+            "kind": "course",
+            "code": "EGR5604"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5136"
+      },
+      "syllabus": "Formas e dimensões da terra. Sistema Geodésico Brasileiro. Sistemas de coordenadas. Medições de ângulos e distâncias. Métodos de levantamento topográfico planimétrico de precisão. Sistemas de posicionamento global. Georreferenciamento de imóveis. Cálculo de áreas. Representação cartográfica de levantamentos topográficos."
+    },
+    {
+      "id": "ECV2203",
+      "code": "ECV2203",
+      "name": "Desenho Técnico para Engenharia Civil",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR5213"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR5213"
+      },
+      "syllabus": "Introdução ao Desenho Técnico e instrumentos, cotas e escalas. Utilização de sistema CAD: Aprendizagem dos comandos fundamentais no traçado de desenhos técnicos no domínio da Engenharia. Introdução à modelação em 3D. Aplicação na representação em 2D e 3D. Desenho Topográfico. Noções de projeção central. Desenho Arquitetônico. Desenho de estruturas de madeiras, metálicas e de concreto. Desenho de instalações hidrossanitárias. Desenho de Instalações Elétricas."
+    },
+    {
+      "id": "FSC5002",
+      "code": "FSC5002",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101"
+      ],
+      "equivalents": [
+        "FSC5112",
+        "FSC5132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5112"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5132"
+          }
+        ]
+      },
+      "syllabus": "Estudo da Cinemática e Dinâmica da rotação de corpos rígidos. Oscilações e ondas Mecânicas(som). Estática e Dinãmica dos Fluídos. Noções sobre temperatura, calor, princípios da Termodiâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "FSC5122",
+      "code": "FSC5122",
+      "name": "Física Experimental I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "syllabus": "Complementação dos conteúdos de mecânica, acústica, termologia. Obtida através de montagem e realização de experiências, em número de 12 (doze), versando sobre os tópicos acima."
+    },
+    {
+      "id": "INE5201",
+      "code": "INE5201",
+      "name": "Introdução à Ciência da Computação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções de sistemas de computação. Formulação de algoritmos e sua representação. Noções sobre linguagem de programação e programas. Implementação prática de algoritmos em uma linguagem de programação. Descrição de algumas aplicações típicas. Métodos computacionais na área científica e tecnológica."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3101",
+        "MTM3110"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM3111",
+        "MTM5162",
+        "MTM5512"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5162"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5512"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM5162"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5512"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3112",
+        "MTM5245",
+        "MTM5247"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3112"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5245"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5247"
+          }
+        ]
+      },
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "ARQ5115",
+      "code": "ARQ5115",
+      "name": "Arquitetura I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2203"
+      ],
+      "equivalents": [
+        "ARQ1115"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2203"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ1115"
+      },
+      "syllabus": "Identificação das condições essenciais para a composição de um projeto arquitetônico. Organização dos espaços arquitetônicos com fundamentos na modulação e no seu interrelacionamento básico. Análise e desenvolvimento do projeto arquitetônico na produção do espaço ambiental, envolvendo tanto a relação interior/exterior , interior/interior bem como a relação do prédio com a cidade."
+    },
+    {
+      "id": "ECV2301",
+      "code": "ECV2301",
+      "name": "Ciências e Engenharia de Materiais para a",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5125"
+      ],
+      "equivalents": [
+        "EQA5118"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5125"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EQA5118"
+      },
+      "syllabus": "Ligações interatômicas: origem física do modulo de elasticidade e do coeficiente de dilatação térmica. Estrutura dos sólidos: estado cristalino, imperfeições, desordem, estado amorfo, desenvolvimento das microestruturas. Superfícies e interfaces. Comportamento dos materiais sob carregamento: constantes de elasticidade, deformação plástica, ruptura, fluência, tenacidade, fadiga. Propriedades físicas dos materiais: massa específica, noções de térmica e acústica, comportamento ao fogo. Cimento portland (fabricação, hidratação). Corrosão de metais. Polímeros e tintas (tipos, degradação). Materiais cerâmicos (produção). Vidros especiais. Madeira (anisotropia e suas consequências). Materiais compósitos."
+    },
+    {
+      "id": "ECV2302",
+      "code": "ECV2302",
+      "name": "Estática para Engenharia Civil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2201",
+        "FSC5101",
+        "MTM3102",
+        "MTM3120"
+      ],
+      "equivalents": [
+        "ECV5051"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ECV2201"
+              },
+              {
+                "kind": "course",
+                "code": "FSC5101"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ECV2201"
+              },
+              {
+                "kind": "course",
+                "code": "FSC5101"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5051"
+      },
+      "syllabus": "Engenharia Civil QMC5138) Estudos das condições de equilíbrio de partículas e de corpos rígidos em estruturas e elementos estruturais de barra (vigas, treliças, etc.) no plano e no espaço; cálculo de reações em ligações padrão utilizadas em Engenharia; cálculo de forças axiais, esforços cortantes e momentos fletores em estruturas; cálculo de centroides de áreas e de volumes de figuras simples e de figuras compostas; cálculo de momentos de inércia de chapas planas simples e compostas e de sólidos simples e compostos; cálculo de esforços internos em treliças e cabos."
+    },
+    {
+      "id": "ECV2303",
+      "code": "ECV2303",
+      "name": "Geologia de Engenharia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ECV5149"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5149"
+      },
+      "syllabus": "Mineralogia; Petrologia das rochas ígneas sedimentares e metamórficas; Tecnologia das rochas na construção civil; Métodos de Investigação; Geologia Estrutural; Geologia aplicada a túneis e barragens."
+    },
+    {
+      "id": "ECV2304",
+      "code": "ECV2304",
+      "name": "Topografia II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2202"
+      ],
+      "equivalents": [
+        "ECV5137"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2202"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5137"
+      },
+      "syllabus": "Métodos de nivelamento aplicados à engenharia. Topologia. Representação cartográfica planialtimétrica. Cálculo de volumes. Locação de obras. Controle/acompanhamento de obras."
+    },
+    {
+      "id": "EMC5425",
+      "code": "EMC5425",
+      "name": "Fenômenos de Transportes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002"
+      ],
+      "equivalents": [
+        "EMC1425"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5002"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC1425"
+      },
+      "syllabus": "Conceitos fundamentais em mecânica dos fluidos; dimensões e unidades; campos escalar, vetorial e tensorial; viscosidade. Hidrostática; pressão em fluido estático, manômetros; forças sobre superfícies planas e curvas submersas. Análise de escoamento; leis básicas para sistemas e volumes de controle; conservação da massa; equação da quantidade de movimento linear; primeira lei da termodinâmica; equação de Bernoulli. Escoamento viscoso incompressível; escoamento em tubos; diagrama de Moody; perdas de carga distribuidas e localizadas. Conceitos fundamentais em transmissão de calor; dimensões e unidades; leis básicas da transmissão de calor; condução, convecção e radiação; mecanismos combinados de transmissão de calor. Condução unidimensional em regime permanente; espessura crítica de isolamento; aletas; estruturas compostas. Difusão molecular e transporte de massa."
+    },
+    {
+      "id": "INE5108",
+      "code": "INE5108",
+      "name": "Estatística e Probabilidade para Ciências",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3101"
+      },
+      "syllabus": "Teoria da probabilidade. Variáveis aleatórias e distribuição de probabilidade. Principais distribuições de probabilidade discretas. Distribuição normal. Outras distribuições de probabilidade contínuas. Estimação de parâmetros. Testes de hipóteses."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121",
+        "MTM3102",
+        "MTM3112"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5117",
+        "MTM5163",
+        "MTM5185"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3121"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3112"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3112"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3121"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5117"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5163"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5185"
+          }
+        ]
+      },
+      "syllabus": "Exatas MTM3110) -Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "ECV2401",
+      "code": "ECV2401",
+      "name": "Análise Estrutural I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2302"
+      ],
+      "equivalents": [
+        "ECV5219"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2302"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5219"
+      },
+      "syllabus": "Equações de equilíbrio estático; grau de estaticidade; esforços internos em estruturas isostáticas: vigas - método das seções, método das áreas, método direto; vigas Gerber; pórticos planos e espaciais; arcos; grelhas; linhas de influência em estruturas isostáticas."
+    },
+    {
+      "id": "ECV2402",
+      "code": "ECV2402",
+      "name": "Geoprocessamento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2304"
+      ],
+      "equivalents": [
+        "ECV5143"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2304"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5143"
+      },
+      "syllabus": "Conceitos e fundamentos de Geotecnologias, Geoprocessamento e Georreferenciamento.. Sensoriamento Remoto. Fotogrametria. Aquisição de Imagens. Análise Visual de Imagens. Processamento Digital de Imagens. Modelo Digital de Terreno. Sistemas de Informações Geográficas."
+    },
+    {
+      "id": "ECV2403",
+      "code": "ECV2403",
+      "name": "Materiais de Construção I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2301",
+        "ECV2303"
+      ],
+      "equivalents": [
+        "ECV5302"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2301"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2303"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5302"
+      },
+      "syllabus": "Produção, propriedades tecnológicas, comportamento mecânico, desempenho. Aplicação dos materiais: pedras naturais, agregados, aglomerantes, aditivos, argamassas, concretos, concretos especiais. Ensaios em laboratórios."
+    },
+    {
+      "id": "ECV2404",
+      "code": "ECV2404",
+      "name": "Mecânica dos Sólidos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2302"
+      ],
+      "equivalents": [
+        "ECV5213"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2302"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5213"
+      },
+      "syllabus": "Tensões e deformações em corpos sólidos submetidos aos esforços: axial; flexão simples reta e oblíqua; flexão composta normal e oblíqua; torção e cisalhamento; introdução ao comportamento mecânico de materiais elásticos, inelásticos e plásticos; verificação da segurança e dimensionamento segundo o critério de tensões admissíveis; análise de tensões: estado geral de tensões; estado uniaxial, biaxial e plano de tensões; estado de cisalhamento puro; transformação de tensões e tensões principais; círculo de Mohr."
+    },
+    {
+      "id": "ECV2405",
+      "code": "ECV2405",
+      "name": "Sistemas de Transporte",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2304"
+      ],
+      "equivalents": [
+        "ECV5119"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2304"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5119"
+      },
+      "syllabus": "Introdução à engenharia de transportes. Os transportes no Brasil. Desenho urbano e o processo de urbanização. Planos globais e setoriais de transportes. Noções de planejamento de transportes. Métodos de previsão de demanda. Coordenação das modalidades de transportes. Aspectos técnicos e econômicos das modalidades de transportes. Qualidade dos sistemas de transportes. Soluções relacionadas ao transporte coletivo. Transportes especializados. Terminais. Sistemas viários interurbanos. Avaliação econômica de projetos rodoviários. Benefícios e custos. Introdução a Sistemas Inteligentes de Transportes (ITS)."
+    },
+    {
+      "id": "ENS5101",
+      "code": "ENS5101",
+      "name": "Hidráulica",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5425"
+      ],
+      "equivalents": [
+        "ECV1401",
+        "ENS1101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5425"
+          },
+          {
+            "kind": "hours",
+            "hours": 5101
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV1401"
+          },
+          {
+            "kind": "course",
+            "code": "ENS1101"
+          }
+        ]
+      },
+      "prerequisiteHours": 5101,
+      "syllabus": "Conceito de hidrostática e hidrodinâmica. Condutos sob pressão: fórmulas de perda de cargas racionais e práticas: perda de carga acidental; condutos equivalentes; condutos em série e em paralelo; distribuição em percursos; diâmetro econômico; problema dos três reservatórios. Movimento uniforme em canais; tipos de secções; seção de mínima resistência. Orifícios, bocais e vertedores. Escoamento sob carga variável. Movimento variado em canais."
+    },
+    {
+      "id": "MTM3103",
+      "code": "MTM3103",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3102",
+        "MTM3120"
+      ],
+      "equivalents": [
+        "MTM5117",
+        "MTM5163",
+        "MTM5185"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5117"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5163"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5185"
+          }
+        ]
+      },
+      "syllabus": "-Integração múltipla: integrais duplas e triplas. Noções de cálculo vetorial: curvas e superfícies. Campos escalares e vetoriais. Integrais de linha e de superfícies. Teoremas de Green, Stokes e da Divergência."
+    },
+    {
+      "id": "ARQ5515",
+      "code": "ARQ5515",
+      "name": "Urbanismo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2402"
+      ],
+      "equivalents": [
+        "ARQ1515"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2402"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ1515"
+      },
+      "syllabus": "Transmitir aos alunos conhecimentos gerais, como uma introdução ao estudo do 'Urbanismo', partindo do princípio de que o desenvolvimento urbano é um processo interativo com os desenvolvimentos sócio-econômico e cultural."
+    },
+    {
+      "id": "ECV2501",
+      "code": "ECV2501",
+      "name": "Ações e Segurança nas Estruturas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5108"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5108"
+      },
+      "syllabus": "Introdução ao Método dos Estados Limites: Estados Limites Último e de Serviço; conceitos de segurança estrutural: conceitos probabilísticos, método semiprobabilístico, coeficientes parciais de ponderação; ações em estruturas correntes da engenharia civil: ações permanentes, acidentais, especiais ou de construção, excepcionais, efeito do vento em edificações; desastres; combinação de ações: últimas e de serviço ou utilização; modelagem das ações nas estruturas; Verificação da segurança nas estruturas: resistências de cálculo dos materiais, esforços solicitantes resistentes, verificação das condições analíticas de segurança."
+    },
+    {
+      "id": "ECV2502",
+      "code": "ECV2502",
+      "name": "Estradas I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2402"
+      ],
+      "equivalents": [
+        "ECV5115"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2402"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5115"
+      },
+      "syllabus": "Classificação das estradas. Influência do relevo e da geotecnia na escolha do traçado de estradas. Escolha das diretrizes de projeto de uma estrada. Projeto geométrico de estradas. Projeto de terraplenagem."
+    },
+    {
+      "id": "ECV2503",
+      "code": "ECV2503",
+      "name": "Física das Construções",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5425",
+        "FSC5122"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5425"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5122"
+          }
+        ]
+      },
+      "syllabus": "Térmica: Balanço térmico de edifícios e métodos simplificados para o cálculo das necessidades de energia. Umidade: Formas de manifestação da umidade em edifícios, suas causas e efeitos; Psicrometria; Grandezas características do ar úmido; Mecanismos de transporte da umidade; Análise do risco de condensações superficiais e interiores. Ventilação natural e artificial: Relação entre vazão e diferença de pressão; Ventilação por ação térmica e por ação do vento; Cálculo das vazões de ar para satisfação de exigências de qualidade do ar, conforto térmico, limitação de condensações, conforto olfativo, poluição interna aos edifícios e dimensionamento de aberturas. Acústica: Propagação e medição do som; Acústica geométrica; Campos sonoros em recintos fechados; Absorção sonora e tempo de reverberação; Isolamento sonoro a sons aéreos e de percussão; isolamento e melhoria do conforto acústico nos edifícios. Desempenho Térmico dos Edifícios: participação das fachadas, coberturas, janelas, equipamentos e ocupantes, resfriamento passivo. Iluminação natural: Física da luz e grandezas fundamentais; Fontes de luz e modelos de céu; Fator de luz de dia."
+    },
+    {
+      "id": "ECV2504",
+      "code": "ECV2504",
+      "name": "Materiais de Construção II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2403"
+      ],
+      "equivalents": [
+        "ECV5311"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2403"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5311"
+      },
+      "syllabus": "Produção, propriedades tecnológicas, comportamento mecânico, desempenho. Aplicação dos materiais: madeiras, cerâmicos, metálicos, betuminosos, materiais poliméricos, vidros, borrachas, elastômeros. Ensaios em laboratórios."
+    },
+    {
+      "id": "ECV2505",
+      "code": "ECV2505",
+      "name": "Mecânica dos Sólidos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2401",
+        "ECV2404"
+      ],
+      "equivalents": [
+        "ECV5214"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2401"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2404"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5214"
+      },
+      "syllabus": "Análise de tensões: estado triaxial de tensões; critérios de escoamento e de fratura: critério de Tresca, de Von-Mises e de Mohr-Coulomb; tubos de parede fina submetida à pressão interna; cálculo de deslocamentos em estruturas: método de integração direta, método da analogia de Mohr, Princípio dos Trabalhos Virtuais; teoremas complementares de energia; estabilidade de peças esbeltas submetidas à compressão axial e excêntrica."
+    },
+    {
+      "id": "ECV2506",
+      "code": "ECV2506",
+      "name": "Mecânica dos Solos I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2303",
+        "EMC5425"
+      ],
+      "equivalents": [
+        "ECV5104"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2303"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5425"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5104"
+      },
+      "syllabus": "Origem e formação dos solos. Classificação. Índices físicos. Plasticidade e consistência. Compacidade. Permeabilidade. Percolação. Distribuição de pressões no solo. Compressibilidade. Ensaios de laboratório."
+    },
+    {
+      "id": "INE5202",
+      "code": "INE5202",
+      "name": "Cálculo Numérico em Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5201",
+        "MTM3103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5201"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          }
+        ]
+      },
+      "syllabus": "Erros e Sistemas de Numeracão. Solução de equações algébricas e transcendentais. Solução de equações polinomiais. Sistemas de equações lineares e não lineares. Interpolação Ajustamento de curvas. Integração numérica. Solução numérica de equações diferenciais ordinárias e sistemas de equações diferenciais."
+    },
+    {
+      "id": "ECV2601",
+      "code": "ECV2601",
+      "name": "Análise Estrutural II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2401",
+        "ECV2505",
+        "MTM3112",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "ECV5220"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ECV2401"
+              },
+              {
+                "kind": "course",
+                "code": "ECV2505"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3112"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ECV2401"
+              },
+              {
+                "kind": "course",
+                "code": "ECV2505"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3121"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5220"
+      },
+      "syllabus": "Resolução de estruturas hiperestáticas; método das forças: formulação algébrica e matricial; método dos deslocamentos: formulação matricial."
+    },
+    {
+      "id": "ECV2602",
+      "code": "ECV2602",
+      "name": "Concreto Armado I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2401",
+        "ECV2404",
+        "ECV2501"
+      ],
+      "equivalents": [
+        "ECV5261"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2401"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2404"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2501"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5261"
+      },
+      "syllabus": "Materiais: concreto e aço. Fases de comportamento das estruturas de concreto armado. Flexão simples (seção retangular com armadura simples e dupla, seção T). Cisalhamento: dimensionamento e detalhamento da armadura transversal. Detalhamento da armadura longitudinal e ancoragem nos apoios. Verificação dos Estados Limites de Serviço: abertura de fissuras e flechas."
+    },
+    {
+      "id": "ECV2603",
+      "code": "ECV2603",
+      "name": "Engenharia de Tráfego",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2405"
+      ],
+      "equivalents": [
+        "ECV5129"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2405"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5129"
+      },
+      "syllabus": "Elementos da engenharia de tráfego. Mobilidade urbana. Características básicas do fluxo de tráfego. Métodos de coleta de dados de tráfego. Acidentes de trânsito e tratamento de pontos críticos. Dimensionamento de semáforos. Dimensionamento de estacionamentos. Estudo de polos geradores de viagens. Capacidade e nível de serviço de rodovias. Noções de microssimulação de tráfego."
+    },
+    {
+      "id": "ECV2604",
+      "code": "ECV2604",
+      "name": "Instalações Prediais I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ5115",
+        "ENS5101"
+      ],
+      "equivalents": [
+        "ECV5317"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ5115"
+          },
+          {
+            "kind": "course",
+            "code": "ENS5101"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5317"
+      },
+      "syllabus": "Projetos de instalação predial de água fria, água quente, esgoto sanitário. Sistemas preventivos contra incêndio. Sistemas de detecção e alarme de incêndios. Sistemas de chuveiros automáticos. Rotas de fuga. Sistemas de proteção contra descargas atmosféricas. Esgotamento pluvial. Aproveitamento de água de chuva. Instalações de gás combustível."
+    },
+    {
+      "id": "ECV2605",
+      "code": "ECV2605",
+      "name": "Mecânica dos Solos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2404",
+        "ECV2506"
+      ],
+      "equivalents": [
+        "ECV5114"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2404"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2506"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5114"
+      },
+      "syllabus": "Compactação dos solos. Índice de Suporte Califórnia e expansibilidade. Resistência ao cisalhamento dos solos. Empuxos de terra. Estabilidade de taludes. Ensaios de laboratório. Tipos de estruturas de contenção. Estabilidade das estruturas de contenção. Dimensionamento de muros de arrimo e cortinas atirantadas"
+    },
+    {
+      "id": "ECV2606",
+      "code": "ECV2606",
+      "name": "Técnicas de Construção I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ5115",
+        "ECV2403",
+        "ECV2504"
+      ],
+      "equivalents": [
+        "ECV5356"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ5115"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2403"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2504"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5356"
+      },
+      "syllabus": "Projetos e licenciamento. Canteiros. Serviços preliminares. Contenções. Fundações. Estrutura de concreto armado: formas, armaduras e concretagem."
+    },
+    {
+      "id": "ECV2607",
+      "code": "ECV2607",
+      "name": "Técnicas de Construção II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ5115",
+        "ECV2403",
+        "ECV2504"
+      ],
+      "equivalents": [
+        "ECV5357"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ5115"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2403"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2504"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5357"
+      },
+      "syllabus": "Concreto protendido moldado in loco. Fechamento em alvenaria. Revestimentos: argamassa, pétreos, cerâmicos. Impermeabilização. Isolamento térmico e acústico. Cobertura. Esquadrias e divisórias. Pintura."
+    },
+    {
+      "id": "ENS5102",
+      "code": "ENS5102",
+      "name": "Hidrologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS5101"
+      ],
+      "equivalents": [
+        "ECV1402",
+        "ENS1102",
+        "ENS5105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5101"
+          },
+          {
+            "kind": "hours",
+            "hours": 5102
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV1402"
+          },
+          {
+            "kind": "course",
+            "code": "ENS1102"
+          },
+          {
+            "kind": "course",
+            "code": "ENS5105"
+          }
+        ]
+      },
+      "prerequisiteHours": 5102,
+      "syllabus": "Ciclo hidrológico. Precipitação. Bacias Hidrológicas. Escoamento superficial. Evapotranspiração. Infiltração. Águas Subterrâneas. Hidrogramas. Cheias. Estimativa de vazões de enchente. Reservatório de regularização - Armazenamento."
+    },
+    {
+      "id": "ECV2701",
+      "code": "ECV2701",
+      "name": "Concreto Armado II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2602",
+        "MTM3103"
+      ],
+      "equivalents": [
+        "ECV5262"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2602"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5262"
+      },
+      "syllabus": "Lajes de concreto armado: tipos, reações das lajes nas vigas, esforços solicitantes nas lajes, dimensionamento e detalhamento, estados limites de serviço. Dimensionamento de seções à flexão composta normal: armaduras assimétricas e simétricas. Flexão composta oblíqua com armaduras simétricas. Pilares de concreto armado."
+    },
+    {
+      "id": "ECV2702",
+      "code": "ECV2702",
+      "name": "Estradas II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2502",
+        "ECV2605",
+        "ENS5102"
+      ],
+      "equivalents": [
+        "ECV5134"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2502"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2605"
+          },
+          {
+            "kind": "course",
+            "code": "ENS5102"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5134"
+      },
+      "syllabus": "Dimensionamento de sistemas de drenagem das estradas. Obras de arte correntes e especiais. Planejamento da implantação de uma estrada. Equipamentos para execução de estradas. Gestão de programas ambientais na implantação. Supervisão e controle da execução."
+    },
+    {
+      "id": "ECV2703",
+      "code": "ECV2703",
+      "name": "Estruturas Metálicas e de Madeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2501",
+        "ECV2504",
+        "ECV2601"
+      ],
+      "equivalents": [
+        "ECV5251",
+        "ECV5255"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2501"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2504"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2601"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV5251"
+          },
+          {
+            "kind": "course",
+            "code": "ECV5255"
+          }
+        ]
+      },
+      "syllabus": "Introdução às características do material estrutural: aço e madeira. Critérios de projeto de estruturas de madeira: tração, cisalhamento em ligações, flexão simples normal e oblíqua, flexão composta, compressão normal às fibras, compressão paralela às fibras, estabilidade lateral de vigas esbeltas, ligações com conectores. Critérios de projeto de estruturas metálicas: tração, flexão simples normal e oblíqua, flexão composta normal e oblíqua, compressão simples."
+    },
+    {
+      "id": "ECV2704",
+      "code": "ECV2704",
+      "name": "Expressão Oral e Escrita",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Técnicas de preparação de apresentações. Método de pesquisa. Estudo e produção de textos técnico-científicos. Propostas, laudos, relatórios e artigos."
+    },
+    {
+      "id": "ECV2705",
+      "code": "ECV2705",
+      "name": "Fundações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2605",
+        "ECV2606"
+      ],
+      "equivalents": [
+        "ECV5135"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2605"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2606"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5135"
+      },
+      "syllabus": "Investigação geotécnica e sondagens. Tipos de fundações rasas e profundas. Critérios para seleção e escolha do tipo de fundação. Fundações superficiais e profundas: capacidade de suporte e previsão de recalques. Dimensionamento de fundações: sapatas e estacas pré-moldadas. Provas de carga em fundações."
+    },
+    {
+      "id": "ECV2706",
+      "code": "ECV2706",
+      "name": "Instalações Prediais II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ5115",
+        "ENS5101"
+      ],
+      "equivalents": [
+        "ECV5319"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ5115"
+          },
+          {
+            "kind": "course",
+            "code": "ENS5101"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5319"
+      },
+      "syllabus": "Conceito de tensão elétrica, intensidade de corrente elétrica e de potência elétrica. Condutores elétricos. Comandos. Tomadas. Aterramento. Circuito. Disjuntores. Quadros elétricos. Eletrodutos. Alimentação monofásica e trifásica. Instalações telefônicas e lógicas. Subestações prediais."
+    },
+    {
+      "id": "ECV2707",
+      "code": "ECV2707",
+      "name": "Planejamento Econômico e Financeiro",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2502",
+        "ECV2606"
+      ],
+      "equivalents": [
+        "ECV5500"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2502"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2606"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5500"
+      },
+      "syllabus": "Taxas de juros. Relações de equivalência financeira. Métodos de avaliação de investimentos. Seleção de investimentos. Inflação e correção monetária. Análise de risco. Elaboração e análise econômico financeira de projetos imobiliários. Financiamentos: captação de recursos e sistemas de amortização. Fundamentos de planejamento econômico e financeiro para empresas e empreendimentos na construção civil."
+    },
+    {
+      "id": "ENS5106",
+      "code": "ENS5106",
+      "name": "Saneamento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS5101"
+      ],
+      "equivalents": [
+        "ENS1106",
+        "ECV1405",
+        "ECV1416"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS5101"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS1106"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ECV1405"
+              },
+              {
+                "kind": "course",
+                "code": "ECV1416"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Sistemas de abastecimento de água. Características das águas de abastecimento. Etapas de elaboração de projeto. Consumo de água. Captação, adução e reservação de água. Rede de distribuição. Tratamento de água. Sistemas de esgoto. Rede de esgotos sanitários. Tratamento de esgotos sanitários. Rede de esgoto pluvial. Sistemas de resíduos sólidos: Limpeza pública (acondicionamento, coleta e transporte) e Tratamento de resíduos sólidos (aterro sanitário, incineração e compostagem)."
+    },
+    {
+      "id": "ECV2801",
+      "code": "ECV2801",
+      "name": "Orçamento de Obras",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2606",
+        "ECV2607"
+      ],
+      "equivalents": [
+        "ECV5307"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2606"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2607"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5307"
+      },
+      "syllabus": "Noções de administração da construção. Orçamentação de obras. Custos diretos: insumos, composições unitárias de custos, encargos sociais, curva ABC. Benefícios e despesas indiretas. Avaliação de custos unitários para incorporação de edifícios."
+    },
+    {
+      "id": "ECV2802",
+      "code": "ECV2802",
+      "name": "Pavimentação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2702"
+      ],
+      "equivalents": [
+        "ECV5154"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2702"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5154"
+      },
+      "syllabus": "Tipos de pavimentos. Ação do tráfego nas rodovias. Comportamento dos materiais empregados na pavimentação: solos, agregados, ligante asfáltico e materiais cimentícios. Tipos de misturas asfálticas e propriedades funcionais. Projeto da mistura asfáltica e ensaios de desempenho. Estudo geotécnico: CBR de projeto e prospecção de materiais. Dimensionamento de pavimentos flexíveis e rígidos. Construção de pavimentos e controle tecnológico. Conservação e manutenção de estradas."
+    },
+    {
+      "id": "ECV2803",
+      "code": "ECV2803",
+      "name": "Planejamento de Obras",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2606",
+        "ECV2607"
+      ],
+      "equivalents": [
+        "ECV5318"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2606"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2607"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5318"
+      },
+      "syllabus": "Roteiro do planejamento. Estrutura analítica de projeto. Duração e produtividade. Precedências. Diagrama de rede (método das flechas e dos blocos). Caminho Crítico. Folgas e cronograma. Linha de balanceamento. Curva de agregação de recursos."
+    },
+    {
+      "id": "ECV2901",
+      "code": "ECV2901",
+      "name": "Legislação e Segurança do Trabalho",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2606",
+        "ECV2607"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2606"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2607"
+          }
+        ]
+      },
+      "syllabus": "Fundamentação filosófica, social e política do trabalho. Sistema profissional. Normas técnicas e legislação profissional. Ética e o exercício profissional. Modalidades de contratos de obras. Licitações. Terceirização e subcontratações. Fundamentos de engenharia de segurança do trabalho. Controle do ambiente de trabalho. Proteção coletiva e individual. Riscos específicos nas atividades da engenharia civil. Análise e estatísticas de acidentes. Comissão interna de prevenção de acidentes. Normalização e legislação específica da segurança do trabalho. Organização da segurança do trabalho na empresa e em atividades extra-empresa."
+    },
+    {
+      "id": "ECV2902",
+      "code": "ECV2902",
+      "name": "Obras de Engenharia e Impacto Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2402"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2402"
+      },
+      "syllabus": "Construção e meio-ambiente. Aspectos e impactos ambientais de obras de engenharia. Sistemas de redução de impactos ambientais. Legislação e licenças ambientais. Boas práticas ambientais na construção civil. Sistema de gestão ambiental."
+    },
+    {
+      "id": "ECV2903",
+      "code": "ECV2903",
+      "name": "TCC: Projeto Integrador I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ5515",
+        "ECV2101",
+        "ECV2503",
+        "ECV2603",
+        "ECV2604",
+        "ECV2701",
+        "ECV2703",
+        "ECV2704",
+        "ECV2705",
+        "ECV2706",
+        "ECV2707",
+        "ECV2801",
+        "ECV2802",
+        "ECV2803",
+        "ENS5106",
+        "INE5202",
+        "MTM3131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ5515"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2101"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2503"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2603"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2604"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2701"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2703"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2704"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2705"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2706"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2707"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2801"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2802"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2803"
+          },
+          {
+            "kind": "course",
+            "code": "ENS5106"
+          },
+          {
+            "kind": "course",
+            "code": "INE5202"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3131"
+          }
+        ]
+      },
+      "syllabus": "Apresentação do planejamento para o desenvolvimento de um anteprojeto de engenharia. Desenvolvimento das etapas do anteprojeto de engenharia. Apresentação e defesa do anteprojeto."
+    },
+    {
+      "id": "ECV2000",
+      "code": "ECV2000",
+      "name": "Estágio Profissionalizante Supervisionado",
+      "credits": 30,
+      "hours": 540,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2404",
+        "ECV2901",
+        "ECV2902",
+        "ECV2903"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2404"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2901"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2902"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2903"
+          }
+        ]
+      },
+      "syllabus": "Participação em atividades de trabalho programadas, orientadas e avaliadas em seu meio que estejam vinculadas à formação acadêmica e profissional do Engenheiro Civil."
+    },
+    {
+      "id": "ECV2002",
+      "code": "ECV2002",
+      "name": "TCC: Projeto Integrado II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV2903"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2903"
+      },
+      "syllabus": "Desenvolvimento das etapas do projeto de engenharia. Apresentação e defesa do projeto. Elaboração e apresentação da monografia."
+    },
+    {
+      "id": "ECV2905",
+      "code": "ECV2905",
+      "name": "Atividades Complementares",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades Complementares Atividades extraclasse relevantes para a formação do graduando em Engenharia Civil."
+    },
+    {
+      "id": "ECV2811",
+      "code": "ECV2811",
+      "name": "Construção Pré-Fabricada",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECV2602",
+        "ECV2606",
+        "ECV2607"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2602"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2606"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2607"
+          }
+        ]
+      },
+      "syllabus": "Racionalização de projetos: compatibilização, coordenação modular. Sistemas inovadores de formas. Pré-fabricação. Pré-moldados. Sistemas inovadores de fechamento: painéis, vidros, fachadas ventiladas. Concreto protendido. Construções híbridas. Sistemas tensionados. Robótica aplicada à construção."
+    },
+    {
+      "id": "ECV2812",
+      "code": "ECV2812",
+      "name": "Ferramentas Computacionais Aplicadas à",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5201"
+      ],
+      "equivalents": [
+        "ECV5360"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5360"
+      },
+      "syllabus": "Sistemas de computação, funções principais, formas de representação de dados. Ferramentas para Engenharia Civil: planilhas eletrônicas, bancos de dados, engenharia assistida do computador (CAD/BIM), cálculo numérico e visualização de funções, analise estatístico, gerenciadores de projetos. A programação orientada a objetos de aplicações de engenharia."
+    },
+    {
+      "id": "ECV2814",
+      "code": "ECV2814",
+      "name": "Instalações Prediais Especiais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECV2604",
+        "ECV2706"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV2604"
+          },
+          {
+            "kind": "course",
+            "code": "ECV2706"
+          }
+        ]
+      },
+      "syllabus": "Engenharia Civil Sistemas de recalque: bombas de água, princípio de funcionamento, bombas de esgoto e controles. Sistemas de movimentação vertical: Elevadores, tipos, analise energética, escadas rodantes, critérios de projeto. Sistemas de movimentação horizontal; Cabeamento estruturado: normas, piso elevado, componentes. Automação predial: Domótica, sensores, qualidade do ar. Sistemas de detecção e alarme de Incêndio, sistemas de sonorização. Monitoramento por vídeo: Câmeras: tipos. Padrão de entrada de energia em alta tensão: subestação blindada, subestação abrigada. Geradores de Emergência: tipos, dimensionamento. Sistemas de climatização: tipos, análise energética. Sistemas de tratamento de efluentes privativos. ETEs compactas. Sistemas de micro-geração: Solar, eólica. Gerenciamento da manutenção de edificações: Modelos. Dimensionamento de equipe. Custo."
+    },
+    {
+      "id": "ECV2821",
+      "code": "ECV2821",
+      "name": "Métodos de elementos Finitos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECV2601"
+      ],
+      "equivalents": [
+        "ECV5365"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2601"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5365"
+      },
+      "syllabus": "Métodos aproximados; Formulação variacional de elementos finitos de barra e viga; Arquitetura de um código computacional; Elementos finitos para elasticidade plana; Aplicações com ferramentas computacionais."
+    },
+    {
+      "id": "ECV2822",
+      "code": "ECV2822",
+      "name": "Projeto de Estruturas em Concreto Armado",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECV2701"
+      ],
+      "equivalents": [
+        "ECV5263",
+        "ECV5264"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2701"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV5263"
+          },
+          {
+            "kind": "course",
+            "code": "ECV5264"
+          }
+        ]
+      },
+      "syllabus": "Considerações básicas para o desenvolvimento de projeto de estruturas de concreto armado. Análise estrutural e estabilidade global das edificações em concreto armado. Torção. Reservatórios. Escadas. Elaboração de um projeto estrutural em concreto armado. Noções de dimensionamento de estrutura de concreto em situação de incêndio."
+    },
+    {
+      "id": "ECV2823",
+      "code": "ECV2823",
+      "name": "Projeto de Estruturas em Concreto",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECV2701"
+      ],
+      "equivalents": [
+        "ECV5266"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2701"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5266"
+      },
+      "syllabus": "Introdução. Materiais empregados. Sistemas de protensão. Flexão. Fissuração. Traçado da armadura. Perdas de protensão. Cisalhamento. Tópicos especiais."
+    },
+    {
+      "id": "ECV2824",
+      "code": "ECV2824",
+      "name": "Projeto de Estruturas de Pontes",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECV2701"
+      ],
+      "equivalents": [
+        "ECV5260"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV2701"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5260"
+      },
+      "syllabus": "Protendido Conceitos gerais, classificação das pontes. Elementos necessários ao projeto. Ações a considerar: cargas permanentes, cargas móveis rodoviárias e ferroviárias, temperatura. Superestrutura: distribuição dos esforços nas lajes e longarinas, envoltória de esforços, dimensionamento. Fadiga. Mesoestrutura: esforço nos pilares, dimensionamento. Aparelhos de apoio. Projeto de uma ponte."
+    },
+    {
+      "id": "ECV2831",
+      "code": "ECV2831",
+      "name": "Aeroportos, Portos e Vias Navegáveis",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Organização do espaço aéreo. Características das aeronaves. Noções de mecânica de vôo. Composição de peso e desempenho em cruzeiro. Plano diretor aeroportuário. Escolha de sítio aeroportuário. Configuração espacial dos aeroportos. Projeto geométrico do lado ar. Dimensionamento de comprimento de pista de P&D. Capacidade de pistas de P&D. Zonas de proteção de aeródromos. Dimensionamento de pavimentos de aeródromos. Componentes do terminal de passageiros. Drenagem de aeródromos. Sinalização de aeródromos. Helipontos. Introdução à infraestrutura portuária. Tipos de cargas e de embarcações. Estruturas de proteção portuária. Obras de transposição de desníveis. Dimensões de canais de navegação. Regularização de canais de navegação. Efeito de ventos, ondas, marés e correntes sobre a estrutura e a operação portuárias. Técnicas para planejamento de portos e terminais."
+    },
+    {
+      "id": "ECV2832",
+      "code": "ECV2832",
+      "name": "Ensaios Geotécnicos Especiais de Campo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ensaios de laboratório e de campo em geotecnia: características, aplicações, limitações, vantagens e desvantagens. Ensaios de laboratório: permeabilidade, adensamento, colapso, cisalhamento direto e triaxiais. Ensaios de campo: SPT, ensaios de cone, ensaio pressiométrico, ensaio dilatométrico, ensaios de permeabilidade em campo."
+    },
+    {
+      "id": "ECV2833",
+      "code": "ECV2833",
+      "name": "Estabilidade de Taludes",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "e Laboratório Mecanismos de ruptura. Resistência mecânica. Cálculos de estabilidade. Métodos de equilíbrio- limite. Análise tensão- deformação. Análise probabilística. Instrumentação e monitoramento. Métodos de estabilização e controle. Estabilidade de maciços rochosos. Pré-requisito: ECV 2605 - Mecânica dos Solos II."
+    },
+    {
+      "id": "ECV2834",
+      "code": "ECV2834",
+      "name": "Obras de terra",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Propriedades de solos compactados e enrocamentos. Tipos de barragem: concreto, terra, enrocamento com face de concreto. Barragens: fatores condicionantes de projeto, seções típicas e aspectos construtivos; análise de pressões neutras; drenos e filtros; previsão de tensões e deformações. Barragens de rejeitos. Instrumentação. Escavações profundas e a céu aberto. Estruturas de Contenção. Aterros sobre solos moles. Melhoria de solos. Aterros viários. Pré-requisito: ECV 2605 - Mecânica dos Solos II."
+    },
+    {
+      "id": "ECV2841",
+      "code": "ECV2841",
+      "name": "Geotecnologias para Engenharia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios básicos de geotecnologias. Laser Scanning: (aéreo e terrestre), VANTS (Veículos Aéreos não Tripulável). Sistema para imageamento a nível de rua. Aplicações na Engenharia. Pré-requisito: ECV 2304 - Topografia II."
+    },
+    {
+      "id": "ECV2842",
+      "code": "ECV2842",
+      "name": "Ordenamento e Planejamento Territorial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos de planejamento e gestão. Histórico do planejamento territorial. Legislação urbanística. Instrumentos de planejamento e gestão territorial. Cidades sustentáveis. Pré-requisito: ARQ 5515 - Urbanismo."
+    },
+    {
+      "id": "ECV2843",
+      "code": "ECV2843",
+      "name": "Sistemas Globais de Navegação por",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Geodésia. Sistemas de referência. Sistema geodésico brasileiro. Rede brasileira de monitoramento contínuo. Sistemas de posicionamento global. Estruturas dos sinais. Medições. Tipos de posicionamento. Métodos de levantamento. Processamento. Aplicações em engenharia. Pré-requisito: ECV 2304 - Topografia II."
+    },
+    {
+      "id": "ECV2844",
+      "code": "ECV2844",
+      "name": "Tópicos Especiais de Topografia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Satélite54 Rede de pontos de apoio. Locação de obras de engenharia. Batimetria. Topografia no controle da estabilidade das construções. Topografia subterrânea. Topografia em obras de saneamento. Topografia em terraplenagem. Pré-requisito: ECV 2304 - Topografia II."
+    },
+    {
+      "id": "ECV2906",
+      "code": "ECV2906",
+      "name": "Atividades Extensionistas",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Para validação de atividades extensionistas aprovadas pelo curso."
+    },
+    {
+      "id": "ECV2911",
+      "code": "ECV2911",
+      "name": "Materiais não Convencionais Sustentáveis",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao sistema de gestão dos resíduos. Aspectos técnicos do aproveitamento e da valorização dos resíduos da construção civil. Materiais de baixo impacto ambiental. Tecnologias e aplicação de materiais reciclados. Agregados reciclados. Resíduos de construção e demolição. Avaliação ambiental dos produtos de construção. Pré-requisitos: ECV 2403 - Materiais de construção I."
+    },
+    {
+      "id": "ECV2912",
+      "code": "ECV2912",
+      "name": "Patologia das Construções",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ECV5355"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5355"
+      },
+      "syllabus": "Introdução. Conceitos. Agentes causadores de patologias. Patologias do concreto armado: corrosão das armaduras, fissuração, ataque de agentes agressivos, reações expansivas. Vida útil das estruturas de concreto. Patologias das fundações. Patologia dos revestimentos (argamassas, cerâmicas, pintura). Problemas em impermeabilizações. Patologias das alvenarias. Análise de estruturas acabadas. Tipos de reparos em concretos e reforços estruturais. Diagnóstico e prognóstico. Prevenção. Pré-requisitos: ECV 2602 - Concreto Armado I, ECV 2606 - Técnicas de construção I e ECV 2607 - Técnicas de construção II."
+    },
+    {
+      "id": "ECV2913",
+      "code": "ECV2913",
+      "name": "Sustentabilidade em Edificações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ECV5364"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5364"
+      },
+      "syllabus": "Introdução à sustentabilidade (histórico e análise conceitual do tema). Métodos de avaliação de sustentabilidade de edifícios (sistemas de certificação). Uso e ocupação do solo (escolha do local de projeto de acordo com critérios de sustentabilidade). Materiais construtivos e a sustentabilidade (conceito de energia embutida e ciclo de vida útil, materiais de acabamento). Arquitetura Sustentável: eficiência energética, qualidade do ambiente interno, uso racional de água, uso de recursos renováveis, gerenciamento de resíduos. Políticas públicas no Brasil (leis de incentivo à eficiência energética); Regulamentação brasileira para etiquetagem voluntária de nível de eficiência energética de edifícios comerciais, públicos e residenciais. Pré-requisitos: ARQ 5115 - Arquitetura I e ECV 2301 - Ciência e Engenharia de Materiais para a Engenharia Civil."
+    },
+    {
+      "id": "ECV2914",
+      "code": "ECV2914",
+      "name": "Tecnologia de Concretos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Dosagem. Métodos para o estudo da composição granulométrica do concreto: métodos empíricos ou experimentais, métodos que utilizam tabelas e ábacos e métodos das curvas de referência. Resistências mecânicas. Módulo de elasticidade. Retração. Fluência e relaxação. Tipos, classes e qualidade dos concretos. Concretos Especiais. Pré-requisitos: ECV 2301 - Ciência e Engenharia de Materiais para a Engenharia Civil, ECV 2403 - Materiais de construção I e ECV 2504 - Materiais de construção II."
+    },
+    {
+      "id": "ECV2921",
+      "code": "ECV2921",
+      "name": "Projeto de Estruturas em Madeira",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tipos de sistemas estruturais de estruturas de madeira. Contraventamento. Dimensionamento de peças múltiplas ou compostas. Projeto de ligações: articuladas, semirrígidas e rígidas. Noções de dimensionamento de estrutura de madeira em situação de incêndio. Considerações básicas para o desenvolvimento de projeto de estruturas em madeira. Elaboração de um projeto estrutural em madeira. Pré-requisito: ECV 2703 - Estruturas metálicas e de madeira."
+    },
+    {
+      "id": "ECV2922",
+      "code": "ECV2922",
+      "name": "Projeto de Estruturas em Aço",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ações e segurança. Estabilidade lateral e análise estrutural. Análise linear vs não linear geométrica. Dimensionamento de elementos de aço. Ligações. Considerações básicas para o desenvolvimento de projeto de estruturas em aço. Noções de dimensionamento de estrutura de concreto em situação de incêndio. Elaboração de um projeto estrutural em aço. Pré-requisito: ECV 2703 - Estruturas metálicas e de madeira."
+    },
+    {
+      "id": "ECV2923",
+      "code": "ECV2923",
+      "name": "Projeto de Fundações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ECV5265"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5265"
+      },
+      "syllabus": "Fundações diretas: métodos de cálculo e detalhamento de sapatas (isoladas, associadas, contínuas e em divisas), vigas de equilíbrio, radier e blocos. Fundações profundas: métodos de cálculo de blocos de coroamento, tubulões, estacas. Pré-requisito: ECV 2701 - Concreto Armado II e ECV 2705 - Fundações."
+    },
+    {
+      "id": "ECV2924",
+      "code": "ECV2924",
+      "name": "Tópicos Especiais em Mecânica dos Sólidos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à teoria da elasticidade: tensão e deformação, elasticidade bidimensional, funções de AIRY. Torção de Saint-Venant. Método da energia e aplicações. Método das diferenças finitas e aplicações. Método plástico e cálculo plástico de estruturas de barras. Pré-requisito: ECV 2505 - Mecânica dos Sólidos II."
+    },
+    {
+      "id": "ECV2931",
+      "code": "ECV2931",
+      "name": "Gestão de Pavimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Natureza do gerenciamento de pavimentos. Componentes básicos de um sistema de gerência de pavimentos. Métodos e equipamentos de avaliação das condições estrutural e funcional de pavimentos. Modelos de desempenho. Tipos de intervenção para conservação e reabilitação de pavimentos. Processos de seleção de investimentos. Implementação de sistemas. Monitoramento da rede de pavimentos. Retroalimentação de sistemas de gerência de pavimentos. Programa de pesquisa e treinamento. Pré-requisito: ECV 2802 - Pavimentação."
+    },
+    {
+      "id": "ECV2932",
+      "code": "ECV2932",
+      "name": "Planejamento de Transportes",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Pré-requisito: ECV 2405 - Sistemas de transporte."
+    },
+    {
+      "id": "ECV2933",
+      "code": "ECV2933",
+      "name": "Tópicos Avançados em Fundações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundações superficiais: métodos teóricos de dimensionamento; provas de carga em placa, carregamentos horizontais. Fundações profundas: métodos racionais; ensaios de integridade de estacas; efeitos de grupo; carregamentos transversais. Patologia das fundações. Projetos de fundações rasas e profundas. Pré-requisito: ECV2705 - Fundações."
+    },
+    {
+      "id": "ECV2934",
+      "code": "ECV2934",
+      "name": "Tópicos Complementares em Projetos de Vias",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Projeto geométrico de interseções em rodovias rurais. Projeto geométrico de rodovias e interseções urbanas. Sinalização horizontal e vertical de rodovias. Projeto de ferrovias: geométrico, infraestrutura e superestrutura. Pré-requisito: ECV 2702 - Estradas II."
+    },
+    {
+      "id": "ECV2941",
+      "code": "ECV2941",
+      "name": "Elaboração de Planta de Valores Genéricos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Legislação tributária municipal: tipos de tributos, base de cálculo, alíquotas. Planta de valores genéricos: método de elaboração, aprovação e atualização. Uso de sistemas de informações geográficas em avaliação de imóveis. Planta de valores genéricos usando regressão linear. Superfície de tendência. Regressão espacial. Krigagem. Avaliação em massa para fins tributários. Análise de desempenho das avaliações em massa. Pré-requisito: INE 5108 - Estatística e probabilidade para ciências exatas."
+    },
+    {
+      "id": "ECV2942",
+      "code": "ECV2942",
+      "name": "Engenharia de Avaliações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Método comparativo direto de dados de mercado. Avaliação por inferência estatística usando regressão linear. Avaliação usando tratamento por fatores. Intervalo de confiança para o valor estimado.. Métodos para identificar o custo de um imóvel. Método involutivo. Método evolutivo. Método da capitalização da renda. Especificação da avaliação. Elaboração de laudos de avaliação. Pré-requisito: INE 5108 - Estatística e probabilidade para ciências exatas."
+    },
+    {
+      "id": "ECV2943",
+      "code": "ECV2943",
+      "name": "Fotointerpretação Aplicada à Engenharia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Elementos de fotointerpretação. Fotointerpretação da vegetação e do uso da terra, do relevo, das redes de drenagem e de solos. Aplicação das técnicas de fotointerpretação na elaboração de estudos e projetos de engenharia. Pré-requisito: ECV 2402 - Geoprocessamento."
+    },
+    {
+      "id": "ECV2944",
+      "code": "ECV2944",
+      "name": "Sistema de Informações Geográficas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos conceituais de SIG. Modelos de Dados. Tratamento e construção de Banco de Dados Geográficos. Importação, exportação e edição de dados. Análise e Consultas de Dados Espaciais. Geração de Mapas. Pré-requisito: ECV 2402 - Geoprocessamento."
+    },
+    {
+      "id": "ECV2945",
+      "code": "ECV2945",
+      "name": "Gerenciamento da Construção",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Guia PMBoK. Abordagem probabilística de durações. Aceleração de projetos. Controle de obras: gestão dos recursos físicos (material, mão de obra e equipamentos). Indicadores usados em gestão. Lean Construction. Aplicação da Modelagem da informação ao orçamento, planejamento e gerenciamento de manutenções e instalações."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ECV2101",
+      "EGR5213",
+      "EGR5604",
+      "FSC5101",
+      "MTM3110",
+      "QMC5125",
+      "QMC5138",
+      "ECV2201",
+      "ECV2202",
+      "ECV2203",
+      "FSC5002",
+      "FSC5122",
+      "INE5201",
+      "MTM3120",
+      "MTM3121",
+      "ARQ5115",
+      "ECV2301",
+      "ECV2302",
+      "ECV2303",
+      "ECV2304",
+      "EMC5425",
+      "INE5108",
+      "MTM3131",
+      "ECV2401",
+      "ECV2402",
+      "ECV2403",
+      "ECV2404",
+      "ECV2405",
+      "ENS5101",
+      "MTM3103",
+      "ARQ5515",
+      "ECV2501",
+      "ECV2502",
+      "ECV2503",
+      "ECV2504",
+      "ECV2505",
+      "ECV2506",
+      "INE5202",
+      "ECV2601",
+      "ECV2602",
+      "ECV2603",
+      "ECV2604",
+      "ECV2605",
+      "ECV2606",
+      "ECV2607",
+      "ENS5102",
+      "ECV2701",
+      "ECV2702",
+      "ECV2703",
+      "ECV2704",
+      "ECV2705",
+      "ECV2706",
+      "ECV2707",
+      "ENS5106",
+      "ECV2801",
+      "ECV2802",
+      "ECV2803",
+      "ECV2901",
+      "ECV2902",
+      "ECV2903",
+      "ECV2000",
+      "ECV2002"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e atividades complementares",
+        "requiredHours": 432,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ECV2811",
+              "ECV2812",
+              "ECV2814",
+              "ECV2821",
+              "ECV2822",
+              "ECV2823",
+              "ECV2824",
+              "ECV2831",
+              "ECV2832",
+              "ECV2833",
+              "ECV2834",
+              "ECV2841",
+              "ECV2842",
+              "ECV2843",
+              "ECV2844",
+              "ECV2906",
+              "ECV2911",
+              "ECV2912",
+              "ECV2913",
+              "ECV2914",
+              "ECV2921",
+              "ECV2922",
+              "ECV2923",
+              "ECV2924",
+              "ECV2931",
+              "ECV2932",
+              "ECV2933",
+              "ECV2934",
+              "ECV2941",
+              "ECV2942",
+              "ECV2943",
+              "ECV2944",
+              "ECV2945"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "complementary-activities",
+            "courseIds": [
+              "ECV2905"
+            ],
+            "allowsManualHours": false,
+            "maxHours": 54
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "201",
+    "curriculumCode": "20201",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=201&curriculo=20201",
+    "sha256": "cdd0dbca851b2df136fa71b45a1c47b21bdd6a44f6a55db377b316f4f904dc6e",
+    "capturedAt": "2026-07-15"
+  }
+}

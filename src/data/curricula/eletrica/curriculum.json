@@ -1,0 +1,4193 @@
+{
+  "program": "Engenharia Elétrica",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2005.1",
+  "totalHours": 4446,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EEL7011",
+      "code": "EEL7011",
+      "name": "Laboratório de Eletricidade Básica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções gerais de eletricidade (unidades, erros, corrente, tensão, Lei de Ohm, potência, energia e outras características elétricas); medidores: amperímetro, voltímetro, ohmímetro; circuitos resistivos e leis de Kirchhoff; osciloscópio e gerador de funções; capacitores; diodos e retificadores; transistores; amplificadores operacionais; circuitos elétricos simples."
+    },
+    {
+      "id": "EEL7014",
+      "code": "EEL7014",
+      "name": "Introdução às Engenharias Elétrica e Eletrônica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EEL7010"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL7010"
+      },
+      "syllabus": "Engenharia Elétrica e Engenharia Eletrônica: perspectiva histórica; atribuições do engenheiro; campos de atuação, gerenciamento em engenharia, ética. Temas de importância para o profissional de engenharia elétrica e de engenharia eletrônica."
+    },
+    {
+      "id": "EGR5619",
+      "code": "EGR5619",
+      "name": "Desenho Técnico para Engenharia Elétrica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito, normalização e classificação do desenho técnico; técnicas fundamentais do traçado a mão livre; técnicas fundamentais do desenho auxiliado por computador (CAD); noções básicas de geometria descritiva; sistemas de representação: perspectivas e vistas ortográficas; desenho técnico: classificação e normas técnicas; técnicas fundamentais do desenho técnico com instrumentos; desenho de projetos industriais; desenho de projetos de engenharia; desenho de diagramas elétricos; noções de desenho civil e arquitetônico; desenho de instalação elétrica residencial."
+    },
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC5161"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5161"
+      },
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "INE5201",
+      "code": "INE5201",
+      "name": "Introdução à Ciência da Computação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EEL7021"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL7021"
+      },
+      "syllabus": "Noções de sistemas de computação. Formulação de algoritmos e sua representação. Noções sobre linguagem de programação e programas. Implementação prática de algoritmos em uma linguagem de programação. Descrição de algumas aplicações típicas. Métodos computacionais na área científica e tecnológica."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3101",
+        "MTM5183",
+        "MTM5801"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5183"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5801"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "QMC5125",
+      "code": "QMC5125",
+      "name": "Química Geral Experimental A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5106"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5106"
+      },
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. ConfiguraçãoEletrônica. Orbital Atômico. Ligações químicas: iônicas, covalentes, metálicas. Leis dos gases. Conceito de Mol. Funções químicas. Misturas. Soluções. Concentração de soluções. Equações químicas. Reações redox. Introdução ao Equilíbrio químico; ácidos ebases; ph. Calor de reação. Introdução á Termoquímica."
+    },
+    {
+      "id": "QMC5138",
+      "code": "QMC5138",
+      "name": "Química Geral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5106"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5106"
+      },
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. Orbital atômico. Transformações químicas. Gases, líquidos e pressão de vapor. Estequiometria. Conceito de mol. Termodinâmica. Geometria molecular, Momento dipolar, Solubilidade. Estruturas químicas cristalinas, Elétrons nos sólidos, Defeitos nos sólidos. Soluções e misturas, propriedades coligativas. Cinética e mecanismos de reações. Equilíbrio químico, Equilíbrio ácido-base. Reações de oxi- reduções, eletroquímica, pilhas, corrosão e combustão."
+    },
+    {
+      "id": "EEL5105",
+      "code": "EEL5105",
+      "name": "Circuitos e Técnicas Digitais",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7011",
+        "INE5201"
+      ],
+      "equivalents": [
+        "EEL7020"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7011"
+          },
+          {
+            "kind": "course",
+            "code": "INE5201"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL7020"
+      },
+      "syllabus": "Sistemas de numeração e códigos numéricos. Álgebra Booleana. Funções e portas lógicas. Portas lógicas CMOS. Síntese e otimização de circuitos lógicos. Circuitos combinacionais. Circuitos sequenciais. Máquinas de estados finitos. Relógio e temporização. Modelo bloco operativo/bloco de controle. Introdução às linguagens de descrição de hardware (HDL). Dispositivos lógicos programáveis."
+    },
+    {
+      "id": "EEL7013",
+      "code": "EEL7013",
+      "name": "Laboratório de Transdutores",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7011"
+      ],
+      "equivalents": [
+        "FSC5164"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7011"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5164"
+      },
+      "syllabus": "Exercícios de laboratório explorando uma variedade de transdutores eletrônicos para medida de quantidades físicas como temperatura, força, deslocamento, som, luz e potencial iônico. Formas de aquisição de dados e visualização gráfica. Ruídos em transdutores."
+    },
+    {
+      "id": "FSC5002",
+      "code": "FSC5002",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "MTM3110"
+      ],
+      "equivalents": [
+        "FSC5112",
+        "FSC5163"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5112"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5163"
+          }
+        ]
+      },
+      "syllabus": "Estudo da Cinemática e Dinâmica da rotação de corpos rígidos. Oscilações e ondas Mecânicas(som). Estática e Dinãmica dos Fluídos. Noções sobre temperatura, calor, princípios da Termodiâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "FSC5122",
+      "code": "FSC5122",
+      "name": "Física Experimental I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101"
+      ],
+      "equivalents": [
+        "FSC5161"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5161"
+      },
+      "syllabus": "Complementação dos conteúdos de mecânica, acústica, termologia. Obtida através de montagem e realização de experiências, em número de 12 (doze), versando sobre os tópicos acima."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM3111",
+        "MTM5184",
+        "MTM5802"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5184"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5802"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110",
+        "MTM3111"
+      ],
+      "equivalents": [
+        "MTM3112",
+        "MTM5245",
+        "MTM5247",
+        "MTM5812"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3111"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3112"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5245"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5247"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5812"
+          }
+        ]
+      },
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "ECZ5102",
+      "code": "ECZ5102",
+      "name": "Conservação de Recursos Naturais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ECZ7101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 700
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ7101"
+      },
+      "prerequisiteHours": 700,
+      "syllabus": "Estrutura, funcionamento e dinâmica de ecossistemas. Efeito da ação antrópica sobre os ecossistemas. Legislação e Conservação dos recursos naturais."
+    },
+    {
+      "id": "FSC5113",
+      "code": "FSC5113",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002"
+      ],
+      "equivalents": [
+        "FSC5162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5002"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5162"
+      },
+      "syllabus": "Análise dos principais fenômenos da eletricidade e magnetismo abrangendo o estudo de campo elétrico, potencial elétrico, capacitor, corrente elétrica, força eletromotriz, campo magnético e indução eletromagnética."
+    },
+    {
+      "id": "INE5118",
+      "code": "INE5118",
+      "name": "Probabilidade Estatística e Processos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3120"
+      },
+      "syllabus": "Teoria de probabilidade; variáveis aleatórias; distribuição de probabilidades; funções de variáveis aleatórias; geração de variáveis aleatórias; teoria de probabilidades para múltiplas variáveis; distribuição de probabilidade conjunta; soma de variáveis aleatórias; estimação de parâmetros; teste de hipóteses; introdução aos processos estocásticos; introdução às cadeias de Markov."
+    },
+    {
+      "id": "INE5202",
+      "code": "INE5202",
+      "name": "Cálculo Numérico em Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5201",
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "EEL7031"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5201"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL7031"
+      },
+      "syllabus": "Estocásticos Erros e Sistemas de Numeracão. Solução de equações algébricas e transcendentais. Solução de equações polinomiais. Sistemas de equações lineares e não lineares. Interpolação Ajustamento de curvas. Integração numérica. Solução numérica de equações diferenciais ordinárias e sistemas de equações diferenciais."
+    },
+    {
+      "id": "MTM3103",
+      "code": "MTM3103",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120"
+      ],
+      "equivalents": [
+        "MTM5163",
+        "MTM5185",
+        "MTM5803"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3120"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5163"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5185"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5803"
+          }
+        ]
+      },
+      "syllabus": "-Integração múltipla: integrais duplas e triplas. Noções de cálculo vetorial: curvas e superfícies. Campos escalares e vetoriais. Integrais de linha e de superfícies. Teoremas de Green, Stokes e da Divergência."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "MTM3102"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3102"
+      },
+      "syllabus": "-Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "EEL7035",
+      "code": "EEL7035",
+      "name": "Microprocessadores e Microcontroladores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL5105"
+      ],
+      "equivalents": [
+        "EEL7030"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL5105"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL7030"
+      },
+      "syllabus": "Conceitos fundamentais de microprocessadores e microcontroladores. Programação em linguagem C para sistemas embarcados e noções de linguagem Assembly. Hierarquia de memória: registradores; memória cache; RAM; ROM; e memória externa. Mecanismos de controle: interrupção e polling. Interfaces e periféricos: GPIO; AD/DA. Temporizadores e contadores. Comunicação serial. Desenvolvimento de projetos com foco em sistemas embarcados e integração de hardware e software, utilizando kits de desenvolvimento."
+    },
+    {
+      "id": "EEL7041",
+      "code": "EEL7041",
+      "name": "Eletromagnetismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113",
+        "MTM3103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5113"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          }
+        ]
+      },
+      "syllabus": "1. Revisão Matemática: o operador nabla; gradiente; divergente e rotacional; teorema da divergência e teorema de Stokes; operadores de segunda ordem; e exemplos. 2. O Eletromagnetismo a partir das equações de Maxwell: as grandezas eletromagnéticas, as equações de Maxwell sob a forma local e sob a forma integral; o eletromagnetismo em baixas frequências (quase-estática); e exemplos. 3. A Eletrostática: campo elétrico; teorema de Gauss; potencial elétrico; força eletromotriz; refração de campos elétricos; rigidez dielétrica; capacitância; e exemplos. 4. A Magnetostática: lei de Ampère; lei de Biot-Savart; refração de campos magnéticos; materiais magnéticos: diamagnetismo, paramagnetismo, ferromagnetismo, e ímãs permanentes; circuitos magnéticos; indutâncias; e exemplos. 5. A Magnetodinâmica: lei de Faraday; lei de Lenz; blindagem magnética; penetração de campos magnéticos em condutores; perdas no cobre e no ferro; e exemplos. 6. Interação entre grandezas eletromagnéticas e mecânicas: lei de Laplace; lei de Lorentz; força pela variação de energia; vetor de Poynting; tensor de Maxwell; e exemplos."
+    },
+    {
+      "id": "EEL7045",
+      "code": "EEL7045",
+      "name": "Circuitos Elétricos A",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7013",
+        "FSC5113",
+        "MTM3120"
+      ],
+      "equivalents": [
+        "EEL7040"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7013"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5113"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL7040"
+      },
+      "syllabus": "Conceitos básicos: carga, corrente, tensão, potência, energia, elementos de circuito. Leis básicas (Ohm, Kirchhoff). Circuitos de corrente contínua: divisor de tensão e de corrente; métodos de análise (nodal e de malhas); teoremas de circuitos (linearidade, superposição, transformação de fontes, Thévenin, Norton, máxima transferência de potência). Capacitores e indutores. Circuitos de primeira ordem. Circuitos de segunda ordem. Circuitos de corrente alternada: senóides e fasores, relação fasorial para elementos de circuito, impedância e admitância; análise senoidal em regime permanente; resposta em frequência (ressonância e filtros); potência (valor eficaz, potências instantânea, ativa, reativa e aparente, fator de potência, máxima transferência de potência). Atividades de laboratório."
+    },
+    {
+      "id": "EPS7019",
+      "code": "EPS7019",
+      "name": "Engenharia Econômica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EPS5209"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 900
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS5209"
+      },
+      "prerequisiteHours": 900,
+      "syllabus": "Conceitos de Matemática Financeira: juros; relações de equivalência; taxas nominais e efetivas; amortização de dívidas, inflação e correção monetária. Engenharia Econômica e análise de investimentos."
+    },
+    {
+      "id": "FSC5114",
+      "code": "FSC5114",
+      "name": "Física IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113"
+      ],
+      "equivalents": [
+        "EMC5125"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5113"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5125"
+      },
+      "syllabus": "Indutância e suas aplicações; as propriedades magnéticas da matéria: materiais diamagnéticos, paramagnéticos e ferromagnéticos, as leis que os regem. Equações de Maxwell: interpretação física e aplicações. Solução de circuitos em série (RLC) de corrente alternada e transformadores. Luz: natureza, propagação e fenômenos ópticos (interferência, difração e polarização). Física Moderna: introdução à Mecânica Quântica, Física Atômica e Nuclear. Relatividade Especial: Leis e aplicações."
+    },
+    {
+      "id": "MTM3104",
+      "code": "MTM3104",
+      "name": "Cálculo 4",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3131"
+      ],
+      "equivalents": [
+        "MTM5164",
+        "MTM5186",
+        "MTM5804"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3131"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5164"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5186"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5804"
+          }
+        ]
+      },
+      "syllabus": "Sequências e séries numéricas. Sequências e séries de funções: séries de potências e séries de Fourier. Equações diferenciais parciais: método da separação de variáveis nas equações clássicas da onda, do calor e de Laplace."
+    },
+    {
+      "id": "EEL7051",
+      "code": "EEL7051",
+      "name": "Materiais Elétricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5114",
+        "QMC5125",
+        "QMC5138"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5114"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5125"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5138"
+          }
+        ]
+      },
+      "syllabus": "Propriedades gerais dos materiais; classificação; materiais condutores; materiais semicondutores; materiais isolantes; materiais magnéticos, aplicações."
+    },
+    {
+      "id": "EEL7052",
+      "code": "EEL7052",
+      "name": "Sistemas Lineares",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7045",
+        "MTM3104",
+        "MTM3121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7045"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3104"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "syllabus": "Sinais e sistemas contínuos; sistemas lineares contínuos e invariantes no tempo; Série de Fourier; Transformada de Fourier; Transformada de Laplace; funções de transferência e representação por diagrama em blocos; resposta em frequência de sistemas lineares e invariantes no tempo; sistemas amostrados e Transformada Z."
+    },
+    {
+      "id": "EEL7053",
+      "code": "EEL7053",
+      "name": "Ondas Eletromagnéticas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7041",
+        "EEL7045"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7041"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7045"
+          }
+        ]
+      },
+      "syllabus": "Equações de Maxwell; ondas planas uniformes (OPU): propagação das OPU num meio qualquer, potência associada à OPU - o vetor de Poynting, propagação das OPU em meios sem perda, propagação das OPU em bons condutores, reflexão de ondas, polarização de ondas. Linhas de transmissão (LT): equações e parâmetros básicos, forma hiperbólica das equações de LT, reflexão e casamento de impedâncias, tipos e parâmetros das LT. Guias de onda e cavidades ressonantes. Antenas: (definição, parâmetros principais, tipos e aplicações, cálculo de radioenlaces)."
+    },
+    {
+      "id": "EEL7055",
+      "code": "EEL7055",
+      "name": "Circuitos Elétricos B",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7045"
+      ],
+      "equivalents": [
+        "EEL7050"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7045"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL7050"
+      },
+      "syllabus": "Potência complexa. Correção do fator de potência. Circuitos trifásicos: tensões balanceadas, tipos de ligações, potência em sistemas balanceados, sistemas desbalanceados, componentes simétricas. Análise de circuitos com a integral de convolução. Circuitos acoplados magneticamente: indutância (própria e mútua), energia, transformadores. Quadripolos: parâmetros de impedância, admitância, híbridos e de transmissão, conexão de quadripolos. Laboratório."
+    },
+    {
+      "id": "EEL7061",
+      "code": "EEL7061",
+      "name": "Eletrônica I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7045",
+        "FSC5114"
+      ],
+      "equivalents": [
+        "EEL5346"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7045"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5114"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL5346"
+      },
+      "syllabus": "Introdução à eletrônica; amplificadores operacionais; diodos; o transistor de junção bipolar; transistores de efeito de campo; componentes optoeletrônicos."
+    },
+    {
+      "id": "DIR5998",
+      "code": "DIR5998",
+      "name": "Legislação e Ética em Engenharia Elétrica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1200
+      },
+      "prerequisiteHours": 1200,
+      "syllabus": "Sujeito de direito, personalidade, capacidade, direito e obrigações; legislação, técnica, hierarquia de normas; comerciante, individual e coletivo, constituição, registro, estabelecimento empresarial; propriedade industrial, invenção, modelos e marcas; registro de patentes, Convenção de Paris, transferência de tecnologia, franquia; contrato de trabalho, sujeitos, elementos, relação trabalhista, direitos e deveres, terceirização; segurança e acidente de trabalho; responsabilidades civil, penal, trabalhista e administrativa; licitações; profissão: exercício, atribuições, honorários, legislação; sistema CONFEA/CREA; A.R.T.; acervo técnico; ética profissional; Código de Defesa do Consumidor."
+    },
+    {
+      "id": "EEL7062",
+      "code": "EEL7062",
+      "name": "Princípios de Sistemas de Comunicação",
+      "credits": 5,
+      "hours": 90,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7052",
+        "INE5118"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7052"
+          },
+          {
+            "kind": "course",
+            "code": "INE5118"
+          }
+        ]
+      },
+      "syllabus": "Análise e transmissão de sinais; modulações analógicas em amplitude e em frequência; multiplexação; ruído em sistemas de comunicação; modulação por pulso; conversão analógico-digital; transmissão digital em banda base e em banda passante."
+    },
+    {
+      "id": "EEL7063",
+      "code": "EEL7063",
+      "name": "Sistemas de Controle (Teoria e Laboratório)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7052"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7052"
+      },
+      "syllabus": "Representação de sistemas de controle por diagramas de blocos; análise de sistemas de controle contínuos e discretos em regime permanente: precisão e sensibilidade; estabilidade de sistemas de controle contínuos e discretos: métodos de Routh-Hurwitz, Jury, Nyquist e Bode; estruturas básicas de controladores; projeto de controladores contínuos e discretos: método de Ziegler-Nichols, projeto usando o lugar das raízes, projeto usando métodos frequências, projeto usando o método do tempo mínimo (dead-beat)."
+    },
+    {
+      "id": "EEL7064",
+      "code": "EEL7064",
+      "name": "Conversão Eletromecânica de Energia A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7041",
+        "EEL7051",
+        "EEL7055"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7041"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7051"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7055"
+          }
+        ]
+      },
+      "syllabus": "Introdução e princípios de máquinas elétricas; transformadores: tipos, ensaios, circuito equivalente, regulação e rendimento, paralelismo de transformadores, transformador de corrente e Potencial, autotransformador, campo girante, máquinas síncronas: geradores síncronos, motores síncronos, teoria de máquinas síncronas de polos lisos e salientes; ensaios, circuitos equivalentes, controle da energia ativa e reativa, triângulo de Potier, diagrama de capabilidade, Tipos de excitação, enrolamento compensador, sincronismo, compensador síncrono, refrigeração, laboratório."
+    },
+    {
+      "id": "EEL7072",
+      "code": "EEL7072",
+      "name": "Projeto de Instalações Elétricas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7051",
+        "EEL7055"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7051"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7055"
+          }
+        ]
+      },
+      "syllabus": "Normas; sistemas de alimentação e configuração de redes BT e AT; planejamento e projeto de uma instalação; cargas típicas; componentes de uma instalação; pontos de iluminação e tomadas; potência instalada; fator de demanda; fator de carga; diagrama unifilar; dimensionamentos dos condutores; dimensionamento da proteção; projeto residencial e predial; pára-raios; projeto telefônico; interfones; antenas, alarmes; luminotécnica; projeto de iluminação de interiores; iluminação de emergência; instalações elétricas industriais."
+    },
+    {
+      "id": "EEL7522",
+      "code": "EEL7522",
+      "name": "Processamento Digital de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7052"
+      ],
+      "equivalents": [
+        "EEL7065",
+        "EEL7521"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7052"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7065"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7521"
+          }
+        ]
+      },
+      "syllabus": "Sinais discretos básicos e propriedades de sistemas discretos. Sistemas discretos lineares e invariantes no tempo (LIT). Análise de Fourier para sinais discretos. Caracterização de sinais e sistemas discretos no domínio da frequência. Processamento em tempo real. Processamento discreto de sinais contínuos. Projeto de filtros digitais. Amostragem de sinais discretos. Exemplos de sistemas."
+    },
+    {
+      "id": "EEL7071",
+      "code": "EEL7071",
+      "name": "Introdução a Sistemas de Energia Elétrica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7053",
+        "EEL7064",
+        "INE5202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7053"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7064"
+          },
+          {
+            "kind": "course",
+            "code": "INE5202"
+          }
+        ]
+      },
+      "syllabus": "Organização da indústria de energia elétrica; modelagem dos elementos e representação dos sistemas elétricos; análise de fluxo de potência; análise de curto-circuito."
+    },
+    {
+      "id": "EEL7073",
+      "code": "EEL7073",
+      "name": "Conversão Eletromecânica de Energia B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7064"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7064"
+      },
+      "syllabus": "Motores de indução: ensaios, circuito equivalente, potência e torque em motores trifásicos, métodos de partida do motor trifásico, Motores monofásico e bifásico; máquinas de corrente contínua: máquinas elementares, máquinas reais, tensão gerada e torque, fluxo de potência e perdas, geradores corrente contínua, motores corrente contínua; máquinas especiais: motor universal, outros tipos de motores especiais, laboratório."
+    },
+    {
+      "id": "EEL7074",
+      "code": "EEL7074",
+      "name": "Eletrônica de Potencia I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7061"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7061"
+      },
+      "syllabus": "Revisão da teoria de potência elétrica e qualidade de energia em sistemas de corrente alternada. Semicondutores de potência (diodos, tiristores e transistores de potência): características estáticas e dinâmicas, cálculo térmico; retificadores a diodo; retificadores a tiristor e inversores não-autônomos; estudo da comutação; princípios de conversores duais; princípios de cicloconversores; princípios os de gradadores; Ábaco de Puschlowski; princípios de conversores CC-CC comutados em alta frequência; princípios de inversores comutados em alta frequência."
+    },
+    {
+      "id": "EEL7300",
+      "code": "EEL7300",
+      "name": "Instrumentação Eletrônica",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL5105",
+        "EEL7061"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL5105"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7061"
+          }
+        ]
+      },
+      "syllabus": "Sensores e transdutores; aplicações do amplificador operacional; fontes de alimentação reguladas; circuitos de amostragem/retenção; conversor digital/analógico; conversor analógico/digital; blocos eletrônicos analógicos."
+    },
+    {
+      "id": "EMC5425",
+      "code": "EMC5425",
+      "name": "Fenômenos de Transportes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113",
+        "FSC5122",
+        "MTM3103",
+        "FSC5163"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FSC5113"
+              },
+              {
+                "kind": "course",
+                "code": "FSC5122"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3103"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FSC5163"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3103"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Conceitos fundamentais em mecânica dos fluidos; dimensões e unidades; campos escalar, vetorial e tensorial; viscosidade. Hidrostática; pressão em fluido estático, manômetros; forças sobre superfícies planas e curvas submersas. Análise de escoamento; leis básicas para sistemas e volumes de controle; conservação da massa; equação da quantidade de movimento linear; primeira lei da termodinâmica; equação de Bernoulli. Escoamento viscoso incompressível; escoamento em tubos; diagrama de Moody; perdas de carga distribuidas e localizadas. Conceitos fundamentais em transmissão de calor; dimensões e unidades; leis básicas da transmissão de calor; condução, convecção e radiação; mecanismos combinados de transmissão de calor. Condução unidimensional em regime permanente; espessura crítica de isolamento; aletas; estruturas compostas. Difusão molecular e transporte de massa."
+    },
+    {
+      "id": "INE5407",
+      "code": "INE5407",
+      "name": "Ciência, Tecnologia e Sociedade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1200
+      },
+      "prerequisiteHours": 1200,
+      "syllabus": "Estudo das relações entre ciência, tecnologia e sociedade ao longo da história, com ênfase na atualidade; filosofia da ciência; análise de valores e ideologias envolvendo a produção e divulgação da ciência e da tecnologia; influências das diferenças culturais nas concepções de ciência e tecnologia e de suas relações com as sociedades; a participação da sociedade na definição de políticas relativas às questões científicas, tecnológicas, econômicas e ecológicas. O impacto da informática na sociedade."
+    },
+    {
+      "id": "EEL7080",
+      "code": "EEL7080",
+      "name": "Seminários de Engenharia Elétrica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7055"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7055"
+          },
+          {
+            "kind": "hours",
+            "hours": 72,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Preparação e apresentação de seminários sobre tópicos atuais da Engenharia Elétrica, sob a orientação do professor da disciplina."
+    },
+    {
+      "id": "EEL7081",
+      "code": "EEL7081",
+      "name": "Aspectos de Segurança em Engenharia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7072"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7072"
+      },
+      "syllabus": "Choque elétrico; descargas atmosféricas; tensão de choque; tensão de passo; coração humano; funcionamento elétrico do coração; fibrilação ventricular devido ao choque elétrico; desfibrilador elétrico; primeiros socorros; massagem cardíaca e respiração artificial; efeitos do choque elétrico no corpo humano; riscos do choque elétrico; análise das instalações elétricas; riscos em equipamentos hospitalares; legislação e normas regulamentadoras; segurança contra incêndios."
+    },
+    {
+      "id": "EEL7830",
+      "code": "EEL7830",
+      "name": "Estágio Curricular Curto I",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Elétrica Objetiva experiência em atividades de investigação científica ou de atuação profissional em empresas do setor eletroeletrônico, onde o discente deve aplicar conhecimentos matemáticos, científicos, tecnológicos e instrumentais à engenharia, para planejar, supervisionar, elaborar e coordenar projetos e serviços de engenharia, para identificar, formular e resolver problemas de engenharia, para supervisionar a operação e a manutenção de sistemas e para avaliar criticamente a operação e a manutenção de sistemas em trabalhos que resultem em algum benefício para a sociedade. O discente deverá cumprir uma carga horária de estágio de 360 horas, que pode ser cumprida em um único estágio de 360 horas ou em dois programas de estágio de 180 horas. O discente deverá apresentar ao seu orientador na UFSC um projeto completo, direcionado para atividades que tragam benefícios para a sociedade, com cronograma que apresente as etapas a serem cumpridas e as datas de apresentação de relatórios. O acompanhamento da entrega de relatórios ficará sob a responsabilidade da coordenadoria de estágio. Haverá um supervisor no local do estágio."
+    },
+    {
+      "id": "EEL7871",
+      "code": "EEL7871",
+      "name": "Estágio Curricular Curto II",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7830"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7830"
+      },
+      "syllabus": "Objetiva experiência em atividades de investigação científica ou de atuação profissional em empresas do setor eletroeletrônico, onde o discente deve aplicar conhecimentos matemáticos, científicos, tecnológicos e instrumentais à engenharia, para planejar, supervisionar, elaborar e coordenar projetos e serviços de engenharia, para identificar, formular e resolver problemas de engenharia, para supervisionar a operação e a manutenção de sistemas e para avaliar criticamente a operação e a manutenção de sistemas em trabalhos que resultem em algum benefício para a sociedade. O discente deverá cumprir uma carga horária de estágio de 360 horas, que pode ser cumprida em um único estágio de 360 horas ou em dois programas de estágio de 180 horas. O discente deverá apresentar ao seu orientador na UFSC um projeto completo, direcionado para atividades que tragam benefícios para a sociedade, com cronograma que apresente as etapas a serem cumpridas e as datas de apresentação de relatórios. O acompanhamento da entrega de relatórios ficará sob a responsabilidade da coordenadoria de estágio. Haverá um supervisor no local do estágio."
+    },
+    {
+      "id": "EEL7872",
+      "code": "EEL7872",
+      "name": "Estágio Curricular Longo",
+      "credits": 20,
+      "hours": 360,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Objetiva experiência em atividades de investigação científica ou de atuação profissional em empresas do setor eletroeletrônico, onde o discente deve aplicar conhecimentos matemáticos, científicos, tecnológicos e instrumentais à engenharia, para planejar, supervisionar, elaborar e coordenar projetos e serviços de engenharia, para identificar, formular e resolver problemas de engenharia, para supervisionar a operação e a manutenção de sistemas e para avaliar criticamente a operação e a manutenção de sistemas em trabalhos que resultem em algum benefício para a sociedade. O discente deverá cumprir uma carga horária de estágio de 360 horas, que pode ser cumprida em um único estágio de 360 horas ou em dois programas de estágio de 180 horas. O discente deverá apresentar ao seu orientador na UFSC um projeto completo, direcionado para atividades que tragam benefícios para a sociedade, com cronograma que apresente as etapas a serem cumpridas e as datas de apresentação de relatórios. O acompanhamento da entrega de relatórios ficará sob a responsabilidade da coordenadoria de estágio. Haverá um supervisor no local do estágio."
+    },
+    {
+      "id": "EEL7889",
+      "code": "EEL7889",
+      "name": "Planejamento do Trabalho de conclusão de Curso",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7080"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7080"
+          },
+          {
+            "kind": "hours",
+            "hours": 144
+          }
+        ]
+      },
+      "prerequisiteHours": 144,
+      "syllabus": "Trabalho preparatório do Projeto Final de Curso, constituindo na elaboração de um pré-projeto na área de Engenharia Elétrica e correspondente Revisão Bibliográfica (Estado da Arte) direcionado para aplicações em engenharia elétrica que envolvam a academia, empresa ou comunidade."
+    },
+    {
+      "id": "EEL7890",
+      "code": "EEL7890",
+      "name": "Trabalho de conclusão de Curso (TCC)",
+      "credits": 18,
+      "hours": 324,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7889"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7889"
+          },
+          {
+            "kind": "hours",
+            "hours": 216
+          }
+        ]
+      },
+      "prerequisiteHours": 216,
+      "syllabus": "O TCC, ou Projeto Final, é realizado como complementação às habilidades adquiridas nas disciplinas de projeto, buscando-se capacitar o discente para aplicar conhecimentos matemáticos, científicos, tecnológicos e instrumentais à engenharia, para projetar, conduzir experimentos e interpretar resultados, para conceber, projetar e analisar sistemas e processos, para planejar, supervisionar, elaborar e coordenar projetos e serviços de engenharia, para identificar, formular e resolver problemas de engenharia, e para desenvolver e/ou utilizar novas ferramentas e técnicas e deve ser direcionado a trabalhos que revertam em benefícios para a sociedade. Pré-requisitos: EEL7889 e três disciplinas de projetos."
+    },
+    {
+      "id": "EEL7083",
+      "code": "EEL7083",
+      "name": "Energia Elétrica e Sustentabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5114",
+        "FSC5163",
+        "FSC5002",
+        "FSC5122"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5114"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5163"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FSC5002"
+              },
+              {
+                "kind": "course",
+                "code": "FSC5122"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Energia e Sociedade: O papel da energia no desenvolvimento moderno. Recursos energéticos e o uso do meio ambiente. Fontes de Energia (convencionais: carvão, nuclear, hidráulica, gás natural, óleo; não convencionais: biomassa, eólica, solar, fotovoltaica, solar térmica, ondas, marés, geotérmica, PCH). O conceito do desenvolvimento sustentado. A conservação de energia elétrica e benefícios associados. Conservação de energia elétrica e comportamento dos consumidores. Barreiras à conservação de energia elétrica. Eficiência Energética: índices e níveis. Uso final da energia elétrica: motores elétricos, iluminação, refrigeração, aquecimento. Técnicas e Métodos de conservação de energia elétrica. Auditorias energéticas. Potencial de conservação de energia elétrica no Brasil: Análise nos setores industrial, residencial e comercial. Eficiência energética em edificações. O planejamento de sistemas de energia elétrica pelo lado da oferta e pelo lado da demanda. Qualidade da energia elétrica e conservação. Avaliação econômica de programas de conservação de energia elétrica. Tarifação e conservação de energia. Perdas na geração, transmissão e distribuição de energia elétrica."
+    },
+    {
+      "id": "EEL7100",
+      "code": "EEL7100",
+      "name": "Operação de Sistemas de Energia Elétrica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7071"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7071"
+      },
+      "syllabus": "Estrutura e tipos de estudos de operação de Sistemas Elétricos de Potência; Despacho Econômico de unidades térmicas; consideração de perdas de transmissão; Alocação Ótima de Unidades Geradoras; Fluxo de Potência Ótimo; Despacho Hidrotérmico; Geração renovável não tradicional: geração eólica e fotovoltaica; Controle de Geração e operação interligada; Modelagem em tempo real de sistemas de energia elétrica"
+    },
+    {
+      "id": "EEL7101",
+      "code": "EEL7101",
+      "name": "Dinâmica e Controle de Sistemas Elétricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7071"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7071"
+      },
+      "syllabus": "Aspectos gerais da dinâmica e controle de sistemas elétricos de potência. Características e modelagem de equipamentos. Sistemas de Controle. Estudos de Estabilidade. Síntese e Ajuste de Controladores."
+    },
+    {
+      "id": "EEL7102",
+      "code": "EEL7102",
+      "name": "Sistema de Distribuição de Energia Elétrica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7071"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7071"
+      },
+      "syllabus": "de Potencia A disciplina de Sistemas de Distribuição de Energia Elétrica é dividida em quatro etapas metodológicas: a. Aspectos tecnológicos de sistemas de distribuição & Projeto de Redes de Sistemas de Distribuição; b. Planejamento da Expansão de SD - modelos de previsão espacial de demanda, técnicas de otimização; c. Planejamento da Operação de SD: qualidade de serviços; perturbações e soluções corretivas; d. Automação de Redes de Distribuição & Manutenção em Sistemas de Distribuição."
+    },
+    {
+      "id": "EEL7103",
+      "code": "EEL7103",
+      "name": "Instalações Elétricas Industriais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7071",
+        "EEL7072"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7071"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7072"
+          }
+        ]
+      },
+      "syllabus": "Partes constituintes de uma instalação elétrica industrial, dimensionamento e especificação de circuitos, proteção, dimensionamento e especificação de subestações, correção do fator de potência, cargas especiais e fontes de emergência."
+    },
+    {
+      "id": "EEL7104",
+      "code": "EEL7104",
+      "name": "Planejamento e Regulação de Mercados de Energia Elétrica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7071"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7071"
+      },
+      "syllabus": "Por que planejar? Os três mundos da indústria da eletricidade – energia (mundo da média), potência (mundo do instantâneo) e comercialização (mundo do mercado). A Produção e o Consumo de Energia Elétrica. O Problema do Planejamento da Operação Energética de um Sistema de Energia Elétrica. O Planejamento da Operação Energética no Brasil. Restruturação do Modelo Institucional do Setor Elétrico. Modelo Vigente. Formação de Preço, Contabilização e Liquidação. Gerenciamento de Riscos de Mercado."
+    },
+    {
+      "id": "EEL7105",
+      "code": "EEL7105",
+      "name": "Planejamento da Operação de Sistemas de Energia Elétrica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7100"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7100"
+      },
+      "syllabus": "Objetivos do planejamento da operação; subdivisões do problema; despacho econômico; fluxo de potência ótimo usando modelo linearizado da rede; alocação ótima de unidades; coordenação hidrotérmica; operação interligada de sistemas de potência; introdução à operação em ambiente desregulamentado."
+    },
+    {
+      "id": "EEL7106",
+      "code": "EEL7106",
+      "name": "Proteção de Sistemas Elétricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7071"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7071"
+      },
+      "syllabus": "Introdução ao sistema de aterramento; Medição da resistividade do solo; Estratificação do solo; Sistemas de aterramento; Tratamento químico do solo; Quesitos de segurança; Malha de aterramento; Medida de resistência de terra; Corrosão no sistema de aterramento; Surtos de tensão no aterramento; Transformador de corrente e potencial; Proteção de subcorrente; Religamento; Relé direcional; Proteção de distância; Proteção diferencial; Proteção de transformadores; Proteção da geração; Teleproteção."
+    },
+    {
+      "id": "EEL7107",
+      "code": "EEL7107",
+      "name": "Transmissão de Energia Elétrica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7071"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7071"
+      },
+      "syllabus": "Estudo de modelos, cálculo de parâmetros e operação das linhas de transmissão; Planejamento, aspectos mecânicos, e efeitos ambientais na transmissão de energia elétrica."
+    },
+    {
+      "id": "EEL7108",
+      "code": "EEL7108",
+      "name": "Tópicos Especiais Sistema Energia Elétrica",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7109",
+      "code": "EEL7109",
+      "name": "Tópicos Especiais Sistema Energia Elétrica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7110",
+      "code": "EEL7110",
+      "name": "Tópicos Especiais Sistema Energia Elétrica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "II Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7111",
+      "code": "EEL7111",
+      "name": "Tópicos Especiais Sistema Energia Elétrica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "III Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7112",
+      "code": "EEL7112",
+      "name": "Tópico avançado - Sistema Energia Elétrica",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "IV Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7113",
+      "code": "EEL7113",
+      "name": "Tópico Avançado - Sistema Energia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "I Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7114",
+      "code": "EEL7114",
+      "name": "Tópico Avançado - Sistema Energia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Elétrica II Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7115",
+      "code": "EEL7115",
+      "name": "Tópico avançado - Sistema Energia Elétrica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Elétrica III Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7200",
+      "code": "EEL7200",
+      "name": "Eletrônica de Potencia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7073",
+        "EEL7074"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7073"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7074"
+          }
+        ]
+      },
+      "syllabus": "Introdução ao estudo dos semicondutores de potência com chaveamento controlado: Transistor Bipolar de Potência, MOSFET de Potência e IGBT. Estudo dos Conversores CC-CC: Conversor CC-CC abaixador de tensão (Buck); Conversor CC-CC elevador de tensão (Boost); Conversor CC-CC à acumulação de energia, Conversor Buck-Boost e Conversor Cúk; Reversibilidade dos Conversores CC-CC. Conversores CC-CC Isolados (Forward, Flyback, Push-Pull, Meia- Ponte e Ponte Completa). Conversores CC-CA (Inversores Autônomos): Conversores CC-CA de tensão; Conversores CC-CA de corrente; Controle de tensão nos Conversores CC-CA; Filtro de saída nos conversores CC-CA de tensão com modulação PWM; Conversores CC-CA regulados em Corrente."
+    },
+    {
+      "id": "EEL7201",
+      "code": "EEL7201",
+      "name": "Aspectos Construtivos e Analise de Maquinas Elétricas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7073"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7073"
+      },
+      "syllabus": "Introdução; teoria de eixos de referência; teoria das máquinas de indução trifásicas simétricas; máquina de ímãs permanentes."
+    },
+    {
+      "id": "EEL7202",
+      "code": "EEL7202",
+      "name": "Acionamentos Elétricos e Eletrônicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7074"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7074"
+      },
+      "syllabus": "Comportamento do motor de corrente contínua em regime permanente; Métodos tradicionais de variação de velocidade dos motores CC; Métodos para o estudo do comportamento dinâmico e transitório do motor CC; Princípio de regulação de velocidade e de corrente (torque); Projeto dos reguladores em cascata e em paralelo; Determinação dos parâmetros do motor CC; Introdução ao estudo da associação dos motores de corrente contínua aos conversores estáticos; Estudo do motor CC alimentado por retificador controlado; Estudo comparativo de estruturas retificadoras monofásicas a tiristor e a diodo associadas à máquina CC; Motor CC associado a conversores CC-CC. Motor de indução alimentado com tensão senoidal, frequência variável em regime permanente; Estudo dos valores instantâneos da corrente do estator e do torque para alimentação retangular em tensão; Motor de indução alimentado em corrente (senoidais) sob frequência variável em regime permanente; Motor de indução alimentado por corrente retangulares; Controle de velocidade do motor de indução por meio de gradador e por meio de conversor CC-CC no rotor; Acionamento do motor de indução com rotor bobinado por meio de cascata de conversores. Princípios básicos de acionamento elétrico do motor síncrono; Controle de velocidade do motor síncrono; Alimentação em corrente do motor síncrono; Comutador eletrônico (Brushless Machine)."
+    },
+    {
+      "id": "EEL7203",
+      "code": "EEL7203",
+      "name": "Projeto de Fontes Chaveadas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7074"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7074"
+      },
+      "syllabus": "Retificadores monofásicos com filtro capacitivo; Retificadores monofásicos com coreção ativa do fator de potência; Estágio de entrada: retificador monofásico, retificador trifásico, filtro capacitivo de entrada. Topologias dos conversores para fontes chaveadas isoladas: flyback, forward, meia-ponte, ponte completa, push-pull. Comando, comutação e proteção de semicondutores de potência, com ênfase ao MOSFET e IGBT. Circuitos de comando, controle e proteção de fontes chaveadas, incluindo fontes auxiliares. Resposta transitória e estabilidade. Projeto de transformadores e indutores de alta frequência. Análise e filtragem de radio-interferência causada por fontes chaveadas. Caracterização e especificação de capacitores para alta frequência."
+    },
+    {
+      "id": "EEL7204",
+      "code": "EEL7204",
+      "name": "Processamento de Energia Fotovoltaica e Eólica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7063",
+        "EEL7074"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7063"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7074"
+          }
+        ]
+      },
+      "syllabus": "Geração fotovoltaica (efeito fotovoltaico; diferenças entre célula, módulo e arranjo fotovoltaico; ligação de células em série, em paralelo e de forma mista; influência da radiação solar e da temperatura na fotogeração; modelagem matemática de módulos fotovoltaicos; interpretação de informações de catálogo; curva de caracterização I-V e P-V; técnicas de rastreamento do ponto de máxima potência; conversores cc-cc aplicados ao rastreamento do ponto de máxima potência); Geração Eólica (partes de um aerogerdor; diferenças entre aerogeradores de pequeno porte e grande porte; potência mecânica e coeficiente de potência; influência da velocidade do vento; princípio de geração elétrica em uma aerogerador; controle de potência; interpretação de informação de catálogo; curva de caracterização I-V e P-V; técnicas de rastreamento do ponto de máxima potência; conversores aplicados ao rastreamento do ponto de máxima potência de aerogeradores); Microgeração (resoluções normativas ANEEL nº 482 e 687; Projeto, dimensionamento e simulação de sistemas fotovoltaicos e eólicos conectados à rede elétrica), impactos da inserção de fontes renováveis no sistema elétrico."
+    },
+    {
+      "id": "EEL7205",
+      "code": "EEL7205",
+      "name": "Dispositivos de Armazenamento de Energia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7063",
+        "EEL7074"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7063"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7074"
+          }
+        ]
+      },
+      "syllabus": "Tipos de dispositivos de armazenamento (baterias, supercapacitores, flyweel, célula a combustível, bombeamento de água, ar comprimido, supercondutores magnéticos, etc); Comparação entre densidade de potência e densidade de energia; capacidade de armazenamento; autonomia; dinâmica de carga e descarga; critérios de segurança; processamento de energia; sistemas de gerenciamento de energia (BMS); aplicações (sistemas de backup, veículos elétricos, fontes renováveis em aplicações isoladas, auxílio à demanda em sistema elétricos de potência, etc.); qualidade de energia em sistemas de armazenamento (distúrbios na rede elétrica, interferência eletromagnética, distorção harmônica total, fator de deslocamento, fator de distorção, fator de potência)."
+    },
+    {
+      "id": "EEL7210",
+      "code": "EEL7210",
+      "name": "Modelagem Eletromagnética",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7041"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7041"
+      },
+      "syllabus": "Introdução ao Eletromagnetismo aplicado a casos reais: revisão de eletrostática, magnetostática, magnetodinâmica e ondas eletromagnéticas; circuitos magnéticos lineares e não-lineares; analogia entre circuitos elétricos e magnéticos; ímãs permanentes; equações de Laplace e de Poisson para campos eletromagnéticos; tensor de Maxwell; cálculo de forças a partir da variação de energia; projeto analítico de circuitos magnéticos lineares e não-lineares; análise através de indutâncias, energia e forças magnetomotrizes; métodos computacionais para cálculo de campos; aplicações."
+    },
+    {
+      "id": "EEL7211",
+      "code": "EEL7211",
+      "name": "Elementos Finitos em Engenharia Elétrica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7210"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7210"
+      },
+      "syllabus": "Equações de Laplace e Poisson relativas a Campos Eletromagnéticos; discretização; método residual de Galerkin; geração e resolução de sistemas matriciais; os setores de pré - e pós-processamento; aplicação do método aos problemas em potencial escalar e magnético; aplicação aos problemas em potencial vetor; campos eletrostáticos em meios isolantes; aplicação em meios condutores; casos de campos magnéticos com potencial escalar, campos magnéticos em potencial vetor; projetos e otimização de estruturas."
+    },
+    {
+      "id": "EEL7212",
+      "code": "EEL7212",
+      "name": "Introdução a Compatibilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7053"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7053"
+      },
+      "syllabus": "Introdução; história dos CEM, normas; princípios eletromagnéticos básicos; não-linearidades dos componentes eletrônicos; espectro de sinais; emissões irradiadas e suscetibilidades; emissões conduzidas e suscetibilidades; diafonia; blindagens; descargas eletrostáticas; projetos para compatibilidade eletromagnética (placas de circuito impresso, aterramento, disposição lógica, filtros, etc.); aplicações em laboratório (paradiafonia, descargas eletrostáticas, blindagem de campos, interferências conduzidas, supressores de transiente e filtros)."
+    },
+    {
+      "id": "EEL7213",
+      "code": "EEL7213",
+      "name": "Tópicos Especiais Eletrônica Pot.e Acion. I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Eletromagnética EEL7061) Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7214",
+      "code": "EEL7214",
+      "name": "Tópicos Especiais Eletron.pot.e Acion. II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7215",
+      "code": "EEL7215",
+      "name": "Tópicos Especiais Eletron.pot.e Acion. III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7216",
+      "code": "EEL7216",
+      "name": "Tópicos Especiais Eletron.pot.e Acion. IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7217",
+      "code": "EEL7217",
+      "name": "Topico Avançado Eletron.pot.acion I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7218",
+      "code": "EEL7218",
+      "name": "Tópico Avançado Eletron.pot. Acion. II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7219",
+      "code": "EEL7219",
+      "name": "Tópico Avançado Eletron.pot. Acion. III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7220",
+      "code": "EEL7220",
+      "name": "Tópico Avançado Eletron.pot. Acion. IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7301",
+      "code": "EEL7301",
+      "name": "Circuitos Eletrônicos Digitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7020",
+        "EEL7061"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7020"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7061"
+          }
+        ]
+      },
+      "syllabus": "Características estáticas e dinâmicas de circuitos digitais; o circuito inversor; lógicas combinacionais CMOS estática, pseudo nMOS e com transistores de passagem; lógicas combinacionais dinâmicas; circuitos sequenciais; ROM e RAM estática e dinâmica; lógicas com transistor bipolar; introdução ao projeto de circuitos integrados digitais."
+    },
+    {
+      "id": "EEL7302",
+      "code": "EEL7302",
+      "name": "Projeto de Sistemas Digitais em PLDs",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7035",
+        "EEL7061"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7035"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7061"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos PLDs; arquitetura da família MAX7000 da Altera; Max+Plus II: ferramenta de desenvolvimento para PLDs; introdução à VHDL (VHSIC Hardware Description Language); projeto de aplicações."
+    },
+    {
+      "id": "EEL7303",
+      "code": "EEL7303",
+      "name": "Circuitos Eletrônicos Analógicos",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7052",
+        "EEL7061"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7052"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7061"
+          }
+        ]
+      },
+      "syllabus": "Amplificadores multi-estágios; ruído em circuitos analógicos; amplificadores diferenciais; espelhos de corrente; estágios de saída e amplificadores de potência; resposta em frequência de amplificadores; referências de corrente e tensão; circuitos com amplificadores operacionais; circuitos realimentados; osciladores."
+    },
+    {
+      "id": "EEL7304",
+      "code": "EEL7304",
+      "name": "Filtros Analógicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7061"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7061"
+      },
+      "syllabus": "Tipos de sinais e de processadores; filtros seletores de sinais; aproximações; equalização de fase; transformações em frequência e escalamentos; sensibilidade; filtros analógicos contínuos; filtros analógicos amostrados; noções de sintonia automática; osciladores sinusoidais; multivibradores e temporizadores."
+    },
+    {
+      "id": "EEL7307",
+      "code": "EEL7307",
+      "name": "Introdução a Informática Médica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7035",
+        "EEL7061"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7035"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7061"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos sistemas de informática médica. Registro eletrônico de saúde. Grandezas e sinais biomédicos (ECG, EEG, PPG, EMG, outros). Processamento de sinais biomédicos: domínios do tempo, frequência e análise conjunta. Processamento de sinais biomédicos: PCA e ICA. Métodos de decisão e aprendizagem de máquina: Thresholding, KNN, árvores, RNA. Técnicas de diagnóstico por imagens: oftalmoscopia, ultrassonografia, tomografia computadorizada."
+    },
+    {
+      "id": "EEL7308",
+      "code": "EEL7308",
+      "name": "Fundamentos de Engenharia Biomédica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7300"
+      ],
+      "equivalents": [
+        "EEL7885"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7300"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL7885"
+      },
+      "syllabus": "Introdução à engenharia biomédica; introdução a sistemas e sinais biológicos; conceitos de instrumentação biomédica; conceitos de engenharia clínica; segurança em ambientes hospitalares. Aulas práticas e experiências no laboratório do GPEB."
+    },
+    {
+      "id": "EEL7309",
+      "code": "EEL7309",
+      "name": "Tópicos Especiais em Eletrônica I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7310",
+      "code": "EEL7310",
+      "name": "Tópicos Especiais em Eletrônica II",
+      "credits": 1,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7311",
+      "code": "EEL7311",
+      "name": "Tópicos Especiais em Eletrônica III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7312",
+      "code": "EEL7312",
+      "name": "Tópicos Especiais em Eletrônica IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7313",
+      "code": "EEL7313",
+      "name": "Tópicos Avançados em Eletrônica I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7314",
+      "code": "EEL7314",
+      "name": "Tópicos Avançados em Eletrônica II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7315",
+      "code": "EEL7315",
+      "name": "Tópicos Avançados em Eletrônica III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7316",
+      "code": "EEL7316",
+      "name": "Tópicos Avançados em Eletrônica IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7317",
+      "code": "EEL7317",
+      "name": "Projeto VLSI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Lógica CMOS estática. Tecnologia CMOS e regras de projeto. Características estáticas e dinâmicas de circuitos CMOS. Ferramentas de projeto assistido por computador. Simulação elétrica e lógica. Leiaute e regras de projeto. Subsistemas CMOS. Circuitos sequenciais. Circuitos lógicos dinâmicos.Técnicas estruturadas de projeto de circuitos integrados. VHDL. Síntese utilizando VHDL."
+    },
+    {
+      "id": "EEL7318",
+      "code": "EEL7318",
+      "name": "Projeto de Circuitos Integrados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7411"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7411"
+      },
+      "syllabus": "Tecnologia CMOS. Princípio de funcionamento e modelagem do MOSFET. Simuladores de circuitos. Componentes passivos na tecnologia CMOS. Especificações elétricas de processo e regras de projeto. Modelo do MOSFET e aplicação em circuitos elementares como amplificadores e portas lógicas de baixa complexidade. Espelhos de corrente. Amplificadores elementares. Amplificador diferencial. Amplificador operacional. Circuitos a capacitores chaveados."
+    },
+    {
+      "id": "EEL7319",
+      "code": "EEL7319",
+      "name": "Circuitos RF",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7053",
+        "EEL7061",
+        "EEL7062"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7053"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7061"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7062"
+          }
+        ]
+      },
+      "syllabus": "Especificação de sistemas e circuitos em RF, figuras de mérito dos circuitos RF (ganho, figura de ruído, linearidade, distorção, eficiência, etc.) ruído em circuitos RF, análise de distorção (sinais pequenos e sinais fortes), componentes passivos e ativos em RF, parâmetros de espalhamento, ábaco de Smith, técnicas de adaptação de impedância. Análise e projeto de amplificadores de baixo ruído, amplificadores de potência, misturadores e osciladores senoidais. PLL. Técnicas de simulação de circuitos RF. Práticas de laboratório."
+    },
+    {
+      "id": "EEL7320",
+      "code": "EEL7320",
+      "name": "Optoeletrônica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7051"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7051"
+      },
+      "syllabus": "Natureza ondulatória da luz. Guias de onda e fibras óticas. Semicondutores e LEDs. Lasers. Fotodetetores. Dispositivos fotovoltaicos. Polarização e modulação da luz."
+    },
+    {
+      "id": "EEL7400",
+      "code": "EEL7400",
+      "name": "Telecomunicações: Teoria e Fundamentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7053",
+        "EEL7062"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7053"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7062"
+          }
+        ]
+      },
+      "syllabus": "Princípios básicos: histórico, sistemas analógicos e digitais, multiplexação; comunicação com fio: linhas telefônicas, cabo coaxial, fibras ópticas; comunicação sem fio: rádio-transmissão, o sistema celular, o sistema paging, comunicação por satélite, aplicações; redes de comunicação: redes de dados, redes de área local, redes digitais de serviços integrados (ISDN)."
+    },
+    {
+      "id": "EEL7401",
+      "code": "EEL7401",
+      "name": "Teoria da Informação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7062"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7062"
+      },
+      "syllabus": "Estatística e teoria da informação; os pontos extremos da teoria da comunicação: compressão de dados ao limite da entropia e comunicação no limite da capacidade do canal; complexidade de Kolmogorov; entropia de Shannon; teoria da taxa de distorção; códigos randômicos e de Huffman; tratamento unificado baseado no Teorema da Equipartição Assintótica."
+    },
+    {
+      "id": "EEL7402",
+      "code": "EEL7402",
+      "name": "Redes Comunicação de Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7062"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7062"
+      },
+      "syllabus": "Aplicações de redes de computadores; arquitetura de redes; topologia de redes; análise de conectividade; análise de atrasos; projeto de acesso local; camada física; camada de link de dados; protocolos de camada superior; roteamento; controle de fluxo; controle de congestionamento; redes de área local."
+    },
+    {
+      "id": "EEL7403",
+      "code": "EEL7403",
+      "name": "Comunicações Moveis",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7062",
+        "EEL7522"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7062"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7522"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos sistemas de comunicação sem fio; o conceito de celular; o modelo de propagação em um ambiente rádio-móvel; os efeitos de propagação por multipercurso; técnicas de modulação para rádio móvel; equalização; diversidade e codificação do canal; técnicas de múltiplos acessos para comunicações móveis; os diversos padrões dos sistemas de comunicação sem fio."
+    },
+    {
+      "id": "EEL7404",
+      "code": "EEL7404",
+      "name": "Sistemas de Comunicações Ópticas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7062",
+        "EEL7522"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7062"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7522"
+          }
+        ]
+      },
+      "syllabus": "Introdução; transmissão em fibras ópticas; fontes ópticas e transmissores; detectores ópticos e receptores; sistemas de comunicações ópticas; tópicos atuais em sistemas de comunicações ópticas."
+    },
+    {
+      "id": "EEL7406",
+      "code": "EEL7406",
+      "name": "Engenharia de Microondas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7062"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7062"
+      },
+      "syllabus": "Teoria de linhas de transmissão; guias de onda retangulares e circulares; descontinuidades e perdas em guias de ondas; cavidades ressonantes e fator de qualidade; filtros passa-baixos, passa-faixa e passa-altos; microstrip; característica de impedância e constante de propagação, acoplamento, indutores, capacitores; CAD, projeto de linhas e acoplamentos; sistemas de micro-ondas, fontes, receptores, cargas, amplificadores, ruído, acoplamentos."
+    },
+    {
+      "id": "EEL7408",
+      "code": "EEL7408",
+      "name": "Tópicos Especiais - Telecomunicações I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7409",
+      "code": "EEL7409",
+      "name": "Tópicos Especiais - Telecomunicações II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7410",
+      "code": "EEL7410",
+      "name": "Tópicos Especiais - Telecomunicações III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7411",
+      "code": "EEL7411",
+      "name": "Tópicos Especiais - Telecomunicações IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7412",
+      "code": "EEL7412",
+      "name": "Tópico Avançado - Telecomunicações I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7413",
+      "code": "EEL7413",
+      "name": "Tópico Avançado - Telecomunicações II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7414",
+      "code": "EEL7414",
+      "name": "Tópico Avançado - Telecomunicações III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7415",
+      "code": "EEL7415",
+      "name": "Tópico Avançado - Telecomunicações IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7416",
+      "code": "EEL7416",
+      "name": "Introdução à Codificação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7062"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7062"
+      },
+      "syllabus": "Erros em canais binários; estruturas algébricas; codificação para correção e detecção de erros; códigos de bloco lineares; código de Hamming; códigos cíclicos e CRC; código Reed-Solomon; códigos convolucioais e o algoritmo de Viterbi; introdução aos códigos turbo e LDPC; aplicações em padrões de comunicações da atualidade."
+    },
+    {
+      "id": "EEL7417",
+      "code": "EEL7417",
+      "name": "Fundamentos de Comunicação Digital",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7062",
+        "EEL7522"
+      ],
+      "equivalents": [
+        "EEL7405"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7062"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7522"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL7405"
+      },
+      "syllabus": "Fundamentos da Teoria da Probabilidade; Processos Aleatórios e Análise Espectral; Princípios de Transmissão de Dados Digitais; Análise de Desempenho de Sistemas de Comunicação Digital; Comunicações Digitais com Canais Sujeitos a Distorção Linear."
+    },
+    {
+      "id": "EEL7418",
+      "code": "EEL7418",
+      "name": "Engenharia de Antenas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7053",
+        "EEL7062"
+      ],
+      "equivalents": [
+        "EEL7407"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL7053"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7062"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL7407"
+      },
+      "syllabus": "Conceitos básicos; a antena isotrópica; o dipolo infinitesimal; parâmetros principais das antenas; diferentes tipos de antenas (filamentares, diretivas, de banda larga, refletoras, de abertura, impressas, etc.); arranjos de antenas; casadores e baluns; cálculo de radioenlaces (fórmula de Friis, equação de radar e atenuação em obstáculos)."
+    },
+    {
+      "id": "DAS5131",
+      "code": "DAS5131",
+      "name": "Controle Multivariável",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7531"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7531"
+      },
+      "syllabus": "Representação por variáveis de estado de sistemas contínuos e amostrados. Metodologia de análise e projeto de sistemas de controle multivariável. Controlabilidade e observabilidade. Decomposição canônica de sistemas lineares. Formas canônicas. Relação entre a representação por variáveis de estado e a matriz função de transferência. Pólos e zeros multivariáveis. Controle com o estado mensurável. Realimentação de estados. Propriedades: caso monovariável, extensão de resultados. Conceito de estimador de estado; Observadores; Controle usando realimentação de estado estimado. Teorema da separação; Introdução ao conceito de compensação dinâmica. Laboratório: (18 hs) - Utilização de ferramentas de análise e projeto de sistemas multivariáveis. (PACSC). Aplicação a processos físicos tipicamente multivariáveis. (coluna de destilação, motores ac., etc)."
+    },
+    {
+      "id": "DAS5141",
+      "code": "DAS5141",
+      "name": "Sistemas Não-Lineares",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7531"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7531"
+      },
+      "syllabus": "Importância do estudo de sistemas não-lineares. Representação matemática: Equações diferenciais não-lineares; Teoremas de existência e unicidade de solução. Estabilidade, diferentes definições. Análise pelo palno de fase. Singularidades, classificação. Métodos gráficos para não-linearidades típicas (saturação, zona morta, atraso, etc). Aproximação linear. Função descritiva. Segundo método de Liapunov; Domínio de estabilidade; Estabilidade absoluta. Métodos numéricos de análise de estabilidade. Controle de sistemas não-lineares típicos (temperatura, nível, etc). Laboratório: (18 hs) - Análise de estabilidade usando simuladores. Experiência com sistemas físicos não-lineares. Utilização de ferramentas de análise e projeto assistido por computador. Projeto de controladores lineares e não-lineares."
+    },
+    {
+      "id": "EEL7022",
+      "code": "EEL7022",
+      "name": "Processamento Digital Multi-Taxas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7522"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7522"
+      },
+      "syllabus": "Estruturas para alteração de taxa de amostragem: dizimadores e interpoladores. Decomposição polifásica. Bancos de Filtros: bancos uniformes de filtros, filtros de Nyquist, bancos de filtros QMF, reconstrução perfeita, bancos de filtros modulados por cosseno. A Transformada de Fourier Limitada no Tempo. A Transformada Wavelet."
+    },
+    {
+      "id": "EEL7023",
+      "code": "EEL7023",
+      "name": "Processamento Digital de Imagens",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7522"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7522"
+      },
+      "syllabus": "Fundamentos, aquisição e amostragem, transformada discreta de Fourier bidimensional e outras transformadas bidimensionais, processamento pontual, filtragem linear, equalização de histograma, processamento no domínio da frequência, processamento homomórfico, morfologia matemática, segmentação de imagens, limiarização, detecção de bordas e descontinuidades, descritores de características, reconhecimento e interpretação com métodos de decisão por distância, com métodos estatísticos e treinamento supervisionado."
+    },
+    {
+      "id": "EEL7502",
+      "code": "EEL7502",
+      "name": "Técnicas Avançadas de Controle",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7531"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7531"
+      },
+      "syllabus": "Controle robusto: conceitos básicos, modelagem, estabilidade robusta. Controles H2 e Hoo. Controle adaptativo: conceitos básicos; esquemas de controle adaptativo. Técnicas de identificação de sistemas. O controle adaptativo auto ajustável. Técnicas de controle adaptativo: posicionamento de polos, variância mínima, variância mínima generalizada e controle preditivo generalizado. Controle difuso."
+    },
+    {
+      "id": "EEL7504",
+      "code": "EEL7504",
+      "name": "Processamento Adaptativo de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos sistemas adaptativos; filtros adaptativos; estruturas de sistemas adaptativos: filtro e algoritmo de adaptação; classes de aplicações de filtragem adaptativa: identificação, modelagem inversa, predição e cancelamento de interferências; processador linear adaptativo; função custo; matriz de autocorrelação; minimização de uma função custo quadrática; o algoritmo LMS; outros algoritmos adaptativos; aplicações: identificação de sistemas, estimação de parâmetros, equalização adaptativa, cancelamento de interferência, codificação de sinais de voz, modulação PCM adaptativa, análise espectral, detecção de sinais, cancelamento de ruído, cancelamento de ecos, filtragem espacial adaptativa."
+    },
+    {
+      "id": "EEL7505",
+      "code": "EEL7505",
+      "name": "Tópico Avançado em Processamento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7521"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7521"
+      },
+      "syllabus": "Processamento de sinais aleatórios: análise espectral, correlação, ruído; processamento unidimensional (processamento de voz, áudio, sinais biomédicos); processamento bidimensional (processamento de imagens e vídeo); técnicas de codificação de sinais; processamento adaptativo de sinais; processamento de sinais usando redes neurais e lógica difusa."
+    },
+    {
+      "id": "EEL7506",
+      "code": "EEL7506",
+      "name": "Tópicos Especiais em Controle Processos",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7507",
+      "code": "EEL7507",
+      "name": "Tópicos Especiais em Controle Processos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Sinais I Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7508",
+      "code": "EEL7508",
+      "name": "Tópicos Especiais em Controle Processos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Sinais II Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7509",
+      "code": "EEL7509",
+      "name": "Tópicos Especiais em Controle Processos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Sinais III Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7510",
+      "code": "EEL7510",
+      "name": "Tópicos Avançados em Controle",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Sinais IV Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7511",
+      "code": "EEL7511",
+      "name": "Tópicos Avançados em Controle",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Processos de Sinais I Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7512",
+      "code": "EEL7512",
+      "name": "Tópicos Avançados em Controle",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Processos de Sinais II Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7513",
+      "code": "EEL7513",
+      "name": "Tópicos Avançados em Controle",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "processos de Sinais III Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área, visto com maior profundidade como, por exemplo, em algum programa de pós-graduação. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior, em níveis mais avançados, em relação a uma disciplina de graduação."
+    },
+    {
+      "id": "EEL7520",
+      "code": "EEL7520",
+      "name": "Fundamentos de Processamentos de Sinais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7522"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7522"
+      },
+      "syllabus": "processos de sinais IV Introdução a técnicas de processamento de sinais. Aplicações de processamento de sinais: processamento de sinais de voz e de imagem, filtragem adaptativa, processamento de sinais biomédicos, outras aplicações."
+    },
+    {
+      "id": "EEL7521",
+      "code": "EEL7521",
+      "name": "Processamento Digital de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7522"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7522"
+      },
+      "syllabus": "Representação de sinais e sistemas discretos em domínios transformados. Processamento digital de sinais contínuos: amostragem de sinais contínuos, projeto de filtros analógicos de anti-recobrimento e de reconstrução, conversões A/D e D/A. Estruturas de filtragem digital: estruturas de filtros FIR e IIR. Projeto de filtros digitais FIR e IIR."
+    },
+    {
+      "id": "EEL7531",
+      "code": "EEL7531",
+      "name": "Fundamentos de Controle",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7063"
+      ],
+      "equivalents": [
+        "EEL7530"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7063"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL7530"
+      },
+      "syllabus": "Análise no espaço de estados. Representação no espaço de estados. Variáveis de estado. Realizações canônicas. Controlabilidade e observabilidade. Formas canônicas de controlabilidade e observabilidade. Controle modal e controle quadrático. Fundamentos e aplicações. Observadores de estado. Filtro de Kalman. Sistemas não lineares: conceitos básicos e fundamentos matemáticos. Conceitos de estabilidade e teoria da estabilidade de Lyapunov. Funções definidas em sinal. Funções de Lyapunov. Soluções periódicas, ciclos limites e funções descritivas. Introdução ao controle não-linear: controle linearizante, controle a modos deslizantes e outras técnicas de controle não-linear."
+    },
+    {
+      "id": "EMC5247",
+      "code": "EMC5247",
+      "name": "Dispositivos de Manipulação: Robótica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7531"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7531"
+      },
+      "syllabus": "Automação e robótica; histórico da robótica. Conceitos gerais. Classificação de robôs. Componentes e estrutura de um robô. O sistema robótico; aplicações em uma célula de trabalho; funções; especificações. Modelagem de robôs; introdução à cinemática e à dinâmica dos manipuladores; o problema cinemático inverso. Cálculo de trajetórias. Sistemas de controle e sensores; controle de posição e de velocidade. Teoria de programação de robôs. Exemplos."
+    },
+    {
+      "id": "EEL7600",
+      "code": "EEL7600",
+      "name": "Fundamentos de Gestao Empresarial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EPS5209",
+        "EPS7019"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS5209"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7019"
+          }
+        ]
+      },
+      "syllabus": "Gerenciamento empresarial: introdução e objetivos; perfil do profissional de Engenharia Elétrica; gerenciamento de empresas em ambientes globalizados; níveis de globalização e objetivos empresariais; novos padrões de competitividade; qualidade; gerenciamento da qualidade total; análise dos ambientes interno e externo de uma organização; gerenciamento de mudanças organizacionais; planejamento estratégico em uma organização; técnicas e tendências; estratégias em ambientes desregulamentados: o caso do setor elétrico brasileiro; marketing em tempos de globalização; planejamento e técnicas de implementação; alianças estratégicas entre organizações."
+    },
+    {
+      "id": "EEL7601",
+      "code": "EEL7601",
+      "name": "Telecomunicações: Gerencia e Negócios",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7400"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7400"
+      },
+      "syllabus": "Telecomunicações, oportunidades e desafios; fundamentos de redes de telecomunicações; terminais e estações de trabalho; link de transmissão; métodos de transmissão; escolha de oportunidades; definição de plataforma em telecomunicações; casos econômicos; a indústria das telecomunicações; gerência de redes; qualidade total das operações; gerenciamento de custos."
+    },
+    {
+      "id": "EEL7602",
+      "code": "EEL7602",
+      "name": "Tópicos Especiais em Gestão Empresarial I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7603",
+      "code": "EEL7603",
+      "name": "Tópicos Especiais em Gestão Empresarial",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7604",
+      "code": "EEL7604",
+      "name": "Tópicos Especiais em Gestão Empresarial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "II Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EEL7605",
+      "code": "EEL7605",
+      "name": "Tópicos Especiais em Gestão Empresarial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "III Nome fantasia (\"chapéu\"), que permite validar disciplinas relacionadas à área de especialização, mas cujo conteúdo não esteja contemplado nas disciplinas pertencentes a essa área. Pode ser usada, por exemplo, para validar cursos esporádicos ministrados por professor visitante, ou para validar disciplinas cursadas em outras instituições de ensino superior, no Brasil ou no exterior."
+    },
+    {
+      "id": "EGC5013",
+      "code": "EGC5013",
+      "name": "Gestão do Conhecimento nas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1200
+      },
+      "prerequisiteHours": 1200,
+      "syllabus": "IV Conceitos, histórico (dados, informação e conhecimento). Diretrizes e recomendações básicas e principais abordagens utilizadas na gestão do conhecimento. Criação do conhecimento: formatos e conversões. Facilitadores do trabalho com o formato tácito e explícito do conhecimento. Aplicações da tecnologia da informação na gestão do conhecimento. Aplicação da gestão do conhecimento na organização por meio de seus processos empresariais."
+    },
+    {
+      "id": "EPS5220",
+      "code": "EPS5220",
+      "name": "Gerência da Produção",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A função da produção. Sistemas de produção: convencional, MRP I e II e 'Just-in-time'. Técnicas de programação e controle. Garantia da qualidade: conceitos, organização do sistemas de garantia da qualidade, inspeção de qualidade, normalização e gráficos de controle."
+    },
+    {
+      "id": "EPS5240",
+      "code": "EPS5240",
+      "name": "Gerenciamento de Projetos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O ciclo de vida do projeto. As funções administrativas no projeto. O gerente do projeto. Organização da equipe. Planejamento do projeto. Programação. Cronogramas. Rêdes. Orçamentos. Controle do projeto. Interligação do projeto com a empresa."
+    },
+    {
+      "id": "EPS5241",
+      "code": "EPS5241",
+      "name": "Planejamento Estratégico",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Planejamento estratégico e objetivos. Sistemas de planejamento estratégico. Sistemas de planos. O processo de planejamento estratégico. O subsistema de decisão para planejamento. Subsistema de informação e organização para planejamento. Subsistema de gerência para planejamento."
+    },
+    {
+      "id": "EPS7004",
+      "code": "EPS7004",
+      "name": "Logística Empresarial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O ambiente de negócios. Conceito e evolução da logística. Cadeia de suprimentos (supply chain). O sistema logístico. Custos logísticos. Nível de serviço ao cliente. A logística de suprimento. A distribuição física de produtos. O subsistema transporte: os modais de transporte; característica e escolha do modal; os processos coleta-transferência e distribuição. O subsistema armazém: funções e meios de armazenagem; unitização de cargas; sistemas de endereçamento dos produtos. O gerenciamento de estoques: classificação ABC, sistemática de re-suprimento."
+    },
+    {
+      "id": "EPS7008",
+      "code": "EPS7008",
+      "name": "Gestão Estratégica da Tecnologia da Informação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Competitividade; Empresas Inteligentes (Gerenciamento na Era da Informação); Plano de ação em GC; Gestão da Informação e o Suporte à Decisão; Tecnologia da Informação e BI; Tecnologias da informação e GC; Implantação de Projetos de TI e GC."
+    },
+    {
+      "id": "EPS7026",
+      "code": "EPS7026",
+      "name": "Logística Empresarial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- O ambiente de negócios. Conceito e evolução da logística. Cadeia de suprimentos (supply chain). O sistema logístico. Custos logísticos. Nível de serviço ao cliente. A logística de suprimento. A distribuição física de produtos. O subsistema transporte: os modais de transporte; característica e escolha do modal; os processos de coleta, transferência e distribuição. O subsistema armazém: funções e meios de armazenagem; unitização de cargas;sistemas de endereçamento dos produtos. O gerenciamento de estoques: classificação ABC, sistemática de re-suprimento."
+    },
+    {
+      "id": "EPS7034",
+      "code": "EPS7034",
+      "name": "Gestão Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ5102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECZ5102"
+      },
+      "syllabus": "- Recursos e sistemas ambientais. Economia do meio ambiente. Desenvolvimento e sustentabilidade. Qualidade total e ambiente: conceitos e definições. Causas da degradação ambiental. A produção de bens e serviços e o mecanismo do desenvolvimento limpo. Sistemas de gestão da qualidade ambiental. Responsabilidades das empresas. Avaliação de custos ambientais. Normativas internacionais. Auditorias ambientais."
+    },
+    {
+      "id": "EEL7810",
+      "code": "EEL7810",
+      "name": "Projeto Nível I em Área Básica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7811",
+      "code": "EEL7811",
+      "name": "Projeto Nível I em Sistema de Energia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7812",
+      "code": "EEL7812",
+      "name": "Projeto Nível I eletro./poten/acion. I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7813",
+      "code": "EEL7813",
+      "name": "Projeto Nível I em Eletrônica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7814",
+      "code": "EEL7814",
+      "name": "Projeto Nível I em Telecomunicações I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7815",
+      "code": "EEL7815",
+      "name": "Projeto Nível I em Cont e Proc de Sinais I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7816",
+      "code": "EEL7816",
+      "name": "Projeto Nível I em Gestão Empresarial I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7820",
+      "code": "EEL7820",
+      "name": "Projeto Nível II em Área Básica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7821",
+      "code": "EEL7821",
+      "name": "Projeto Nível II em Sistemas de Energia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Simulação de sistemas elétricos de potência, algoritmos de proteção digital, faltas de alta e baixa impedância, diagnóstico automático de ocorrências em sistemas elétricos, detecção de faltas, identificação de faltas."
+    },
+    {
+      "id": "EEL7822",
+      "code": "EEL7822",
+      "name": "Projeto Nível II em Eletrônica Pot. e Acion. I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7823",
+      "code": "EEL7823",
+      "name": "Projeto Nível II em Eletrônica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7824",
+      "code": "EEL7824",
+      "name": "Projeto Nível II em Telecomunicações I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7825",
+      "code": "EEL7825",
+      "name": "Projeto Nível II em Controle e Processamento de Sinais I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7826",
+      "code": "EEL7826",
+      "name": "Projeto Nível II em Gestão Empresarial I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7831",
+      "code": "EEL7831",
+      "name": "Projeto Nível I em Área Básica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7832",
+      "code": "EEL7832",
+      "name": "Projeto Nível I em Área Básica III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7833",
+      "code": "EEL7833",
+      "name": "Projeto Nível I em Sistemas de Energia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7834",
+      "code": "EEL7834",
+      "name": "Projeto Nível I em Sistemas de Energia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7835",
+      "code": "EEL7835",
+      "name": "Projeto Nível I em Eletrônica Pot. e Acion. II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7836",
+      "code": "EEL7836",
+      "name": "Projeto Nível I em Eletrônica Pot. e Acion.",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7837",
+      "code": "EEL7837",
+      "name": "Projeto Nível I em Eletrônica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "III Desenvolvimento de projetos em instrumentação eletrônica analógica, digital e/ou microprocessada envolvendo sensores e transdutores para medição e processamento de grandezas físicas. São apresentados os conteúdos para a compreensão de dispositivos eletrônicos e suas aplicações em circuitos eletrônicos no contexto da aplicação (projeto) em desenvolvimento."
+    },
+    {
+      "id": "EEL7838",
+      "code": "EEL7838",
+      "name": "Projeto Nível I em Eletrônica III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7839",
+      "code": "EEL7839",
+      "name": "Projeto Nível I em Telecomunicações II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7841",
+      "code": "EEL7841",
+      "name": "Projeto Nível I em Telecomunicações III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7842",
+      "code": "EEL7842",
+      "name": "Projeto Nível I em Cont. e Proces. Sinais II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7843",
+      "code": "EEL7843",
+      "name": "Projeto Nível I em Cont. e Proces. Sinais III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7844",
+      "code": "EEL7844",
+      "name": "Projeto Nível I em Gestão Empresarial II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7845",
+      "code": "EEL7845",
+      "name": "Projeto Nível I em Gestão Empresarial III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7846",
+      "code": "EEL7846",
+      "name": "Projeto Nível II em Área Básica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7847",
+      "code": "EEL7847",
+      "name": "Projeto Nível II em Área Básica III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7848",
+      "code": "EEL7848",
+      "name": "Projeto Nível II em Sistemas de Energia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7849",
+      "code": "EEL7849",
+      "name": "Projeto Nível II em Sistemas de Energia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7861",
+      "code": "EEL7861",
+      "name": "Projeto Nível II em Eletrônica de Potência e Acionamentos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7862",
+      "code": "EEL7862",
+      "name": "Projeto Nível II em Eletrônica de Potência e Acionamentos III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7863",
+      "code": "EEL7863",
+      "name": "Projeto Nível II em Eletrônica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos de maior complexidade em instrumentação eletrônica analógica, digital e/ou microprocessada e de potência envolvendo sensores e transdutores para medição e processamento de grandezas físicas. São apresentados os conteúdos para a compreensão de dispositivos eletrônicos e suas aplicações em circuitos eletrônicos no contexto da aplicação (projeto) em desenvolvimento."
+    },
+    {
+      "id": "EEL7864",
+      "code": "EEL7864",
+      "name": "Projeto Nível II em Eletrônica III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7865",
+      "code": "EEL7865",
+      "name": "Projeto Nível II em Telecomunicações II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7866",
+      "code": "EEL7866",
+      "name": "Projeto Nível II em Telecomunicações III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7867",
+      "code": "EEL7867",
+      "name": "Projeto Nível II em Controle e Processamento de Sinais II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "externa."
+    },
+    {
+      "id": "EEL7868",
+      "code": "EEL7868",
+      "name": "Projeto Nível II em Controle e Processamento de Sinais III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7869",
+      "code": "EEL7869",
+      "name": "Projeto Nível II em Gestão Empresarial II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7870",
+      "code": "EEL7870",
+      "name": "Projeto Nível II em Gestão Empresarial III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de projetos visando integração vertical e horizontal dos conteúdos das disciplinas do curso, assim como um caráter de multidisciplinaridade. Os projetos são realizados em grupos que, normalmente, incluem discentes de fases diferentes, capacitando o estudante para o trabalho em equipes multidisciplinares. Os projetos propostos pelos professores, dentro de sua área de atuação, ao início de cada semestre, são apresentados em Planos de Ensino, divulgados entre o final de um semestre e o início do semestre seguinte. Devem ter interesse social, integrando a universidade com a comunidade externa."
+    },
+    {
+      "id": "EEL7700",
+      "code": "EEL7700",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em Programa de Intercâmbio Acadêmico - decorrente de convênio assinado com instituições de Ensino Superior, Agências de Fomento, Centros de Pesquisa, e instituições semelhantes - visando à realização de atividades acadêmicas como cursos, estágios e pesquisas orientadas ao aprimoramento da formação do discente, devidamente reconhecidas pelo Colegiado do Curso. Pré-requisitos: estar inscrito em algum programa de intercâmbio reconhecido pelo Colegiado do Curso."
+    },
+    {
+      "id": "EEL7800",
+      "code": "EEL7800",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7700"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7700"
+      },
+      "syllabus": "do disposto na Resol.007/CUn/99, de 30/03/99. Continuidade da participação em Programa de Intercâmbio Acadêmico visando à realização de cursos, estágios e pesquisas orientadas ao aprimoramento da formação do discente. Pré-requisitos: matrícula em EEL7700, no semestre imediatamente anterior."
+    },
+    {
+      "id": "EEL7853",
+      "code": "EEL7853",
+      "name": "Atividade Complementar - Monitoria I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividades de monitoria supervisionada por professor responsável por disciplina de qualquer natureza constante do currículo vigente, que requer planejamento, desenvolvimento e avaliação de modo a contribuir com a formação profissional do discente que se habilita ao papel de monitor. As atividades de monitoria devem ser supervisionadas por professores dos Departamentos de Ensino que oferecem as respectivas disciplinas. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade e/ou certificado de participação em programa de monitoria."
+    },
+    {
+      "id": "EEL7854",
+      "code": "EEL7854",
+      "name": "Atividade Complementar - Monitoria II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividades de monitoria supervisionada por professor responsável por disciplina de qualquer natureza constante do currículo vigente, que requer planejamento, desenvolvimento e avaliação de modo a contribuir com a formação profissional do discente que se habilita ao papel de monitor. As atividades de monitoria devem ser supervisionadas por professores dos Departamentos de Ensino que oferecem as respectivas disciplinas. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade e/ou certificado de participação em programa de monitoria."
+    },
+    {
+      "id": "EEL7855",
+      "code": "EEL7855",
+      "name": "Atividade Complementar - Monitoria III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividades de monitoria supervisionada por professor responsável por disciplina de qualquer natureza constante do currículo vigente, que requer planejamento, desenvolvimento e avaliação de modo a contribuir com a formação profissional do discente que se habilita ao papel de monitor. As atividades de monitoria devem ser supervisionadas por professores dos Departamentos de Ensino que oferecem as respectivas disciplinas. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade e/ou certificado de participação em programa de monitoria."
+    },
+    {
+      "id": "EEL7856",
+      "code": "EEL7856",
+      "name": "Atividade Complementar - Monitoria IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividades de monitoria supervisionada por professor responsável por disciplina de qualquer natureza constante do currículo vigente, que requer planejamento, desenvolvimento e avaliação de modo a contribuir com a formação profissional do discente que se habilita ao papel de monitor. As atividades de monitoria devem ser supervisionadas por professores dos Departamentos de Ensino que oferecem as respectivas disciplinas. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade e/ou certificado de participação em programa de monitoria."
+    },
+    {
+      "id": "EEL7857",
+      "code": "EEL7857",
+      "name": "Atividade Complementar-Monitoria V",
+      "credits": 8,
+      "hours": 144,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividades de monitoria supervisionada por professor responsável por disciplina de qualquer natureza constante do currículo vigente, que requer planejamento, desenvolvimento e avaliação de modo a contribuir com a formação profissional do discente que se habilita ao papel de monitor. As atividades de monitoria devem ser supervisionadas por professores dos Departamentos de Ensino que oferecem as respectivas disciplinas. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade e/ou certificado de participação em programa de monitoria."
+    },
+    {
+      "id": "EEL7873",
+      "code": "EEL7873",
+      "name": "Atividade Complementar Pesquisa I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividades de pesquisa supervisionada por professor responsável por projeto de pesquisa registrado na Universidade Federal de Santa Catarina. As atividades de pesquisa devem ser relacionadas às áreas afins do curso, contribuindo para a formação do discente em engenharia. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade com nota e carga horária e/ou certificado de participação em projeto de pesquisa."
+    },
+    {
+      "id": "EEL7874",
+      "code": "EEL7874",
+      "name": "Atividade Complementar Pesquisa II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividades de pesquisa supervisionada por professor responsável por projeto de pesquisa registrado na Universidade Federal de Santa Catarina. As atividades de pesquisa devem ser relacionadas às áreas afins do curso, contribuindo para a formação do discente em engenharia. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade com nota e carga horária e/ou certificado de participação em projeto de pesquisa."
+    },
+    {
+      "id": "EEL7875",
+      "code": "EEL7875",
+      "name": "Atividade Complementar Pesquisa III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividades de pesquisa supervisionada por professor responsável por projeto de pesquisa registrado na Universidade Federal de Santa Catarina. As atividades de pesquisa devem ser relacionadas às áreas afins do curso, contribuindo para a formação do discente em engenharia. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade com nota e carga horária e/ou certificado de participação em projeto de pesquisa."
+    },
+    {
+      "id": "EEL7876",
+      "code": "EEL7876",
+      "name": "Atividade Complementar Pesquisa IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividades de pesquisa supervisionada por professor responsável por projeto de pesquisa registrado na Universidade Federal de Santa Catarina. As atividades de pesquisa devem ser relacionadas às áreas afins do curso, contribuindo para a formação do discente em engenharia. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade com nota e carga horária e/ou certificado de participação em projeto de pesquisa."
+    },
+    {
+      "id": "EEL7877",
+      "code": "EEL7877",
+      "name": "Atividade Complementar Extensão I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividade de extensão supervisionada por professor do Departamento de Engenharia Elétrica e Eletrônica. As atividades devem ser relacionadas com temas de interesse do curso e devem possuir interesse social, integrando a universidade com a comunidade externa. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade com nota e carga horária, e/ou certificado de participação na atividade."
+    },
+    {
+      "id": "EEL7878",
+      "code": "EEL7878",
+      "name": "Atividade Complementar Extensão II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividade de extensão supervisionada por professor do Departamento de Engenharia Elétrica e Eletrônica. As atividades devem ser relacionadas com temas de interesse do curso e devem possuir interesse social, integrando a universidade com a comunidade externa. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade com nota e carga horária, e/ou certificado de participação na atividade."
+    },
+    {
+      "id": "EEL7879",
+      "code": "EEL7879",
+      "name": "Atividade Complementar Extensão III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividade de extensão supervisionada por professor do Departamento de Engenharia Elétrica e Eletrônica. As atividades devem ser relacionadas com temas de interesse do curso e devem possuir interesse social, integrando a universidade com a comunidade externa. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade com nota e carga horária, e/ou certificado de participação na atividade."
+    },
+    {
+      "id": "EEL7880",
+      "code": "EEL7880",
+      "name": "Atividade Complementar Extensão IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividade de extensão supervisionada por professor do Departamento de Engenharia Elétrica e Eletrônica. As atividades devem ser relacionadas com temas de interesse do curso e devem possuir interesse social, integrando a universidade com a comunidade externa. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade com nota e carga horária, e/ou certificado de participação na atividade."
+    },
+    {
+      "id": "EEL7881",
+      "code": "EEL7881",
+      "name": "Atividade Complementar Extensão V",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividade de extensão supervisionada por professor do Departamento de Engenharia Elétrica e Eletrônica. As atividades devem ser relacionadas com temas de interesse do curso de graduação em Engenharia Elétrica e devem possuir interesse social, integrando a universidade com a comunidade externa. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade com nota e carga horária, e/ou certificado de participação na atividade."
+    },
+    {
+      "id": "EEL7882",
+      "code": "EEL7882",
+      "name": "Atividade Complementar de Pesquisa V",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em atividades de pesquisa supervisionada por professor responsável por projeto de pesquisa registrado na Universidade Federal de Santa Catarina. As atividades de pesquisa devem ser relacionadas às áreas afins do curso de graduação em Engenharia Elétrica, contribuindo para a formação do discente em engenharia. A validação dos créditos é condicionada a uma recomendação por escrito do orientador da atividade com nota e carga horária e/ou certificado de participação em projeto de pesquisa."
+    },
+    {
+      "id": "EEL7900",
+      "code": "EEL7900",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7800"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7800"
+      },
+      "syllabus": "Continuidade da participação em Programa de Intercâmbio Acadêmico visando à realização de cursos, estágios e pesquisas orientadas ao aprimoramento da formação do discente. Pré-requisitos: matrícula em EEL7800, no semestre imediatamente anterior."
+    },
+    {
+      "id": "EEL8000",
+      "code": "EEL8000",
+      "name": "Programa de Intecâmbio IV",
+      "credits": 0,
+      "hours": 0,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "EEL7900"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7900"
+      },
+      "syllabus": "do disposto na Resol.007/CUn/99, de 30/03/99. Continuidade da participação em Programa de Intercâmbio Acadêmico visando à realização de cursos, estágios e pesquisas orientadas ao aprimoramento da formação do discente. Pré-requisitos: matrícula em EEL7900, no semestre imediatamente anterior."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EEL7011",
+      "EEL7014",
+      "EGR5619",
+      "FSC5101",
+      "INE5201",
+      "MTM3110",
+      "QMC5125",
+      "QMC5138",
+      "EEL5105",
+      "EEL7013",
+      "FSC5002",
+      "FSC5122",
+      "MTM3120",
+      "MTM3121",
+      "ECZ5102",
+      "FSC5113",
+      "INE5118",
+      "INE5202",
+      "MTM3103",
+      "MTM3131",
+      "EEL7035",
+      "EEL7041",
+      "EEL7045",
+      "EPS7019",
+      "FSC5114",
+      "MTM3104",
+      "EEL7051",
+      "EEL7052",
+      "EEL7053",
+      "EEL7055",
+      "EEL7061",
+      "DIR5998",
+      "EEL7062",
+      "EEL7063",
+      "EEL7064",
+      "EEL7072",
+      "EEL7522",
+      "EEL7071",
+      "EEL7073",
+      "EEL7074",
+      "EEL7300",
+      "EMC5425",
+      "INE5407",
+      "EEL7080",
+      "EEL7081",
+      "EEL7889",
+      "EEL7890"
+    ],
+    "requirements": [
+      {
+        "id": "graduation-project",
+        "name": "Projeto de conclusão de curso",
+        "requiredHours": 216,
+        "sources": [
+          {
+            "id": "graduation-project-options",
+            "courseIds": [
+              "EEL7810",
+              "EEL7811",
+              "EEL7812",
+              "EEL7813",
+              "EEL7814",
+              "EEL7815",
+              "EEL7816",
+              "EEL7820",
+              "EEL7821",
+              "EEL7822",
+              "EEL7823",
+              "EEL7824",
+              "EEL7825",
+              "EEL7826",
+              "EEL7831",
+              "EEL7832",
+              "EEL7833",
+              "EEL7834",
+              "EEL7835",
+              "EEL7836",
+              "EEL7837",
+              "EEL7838",
+              "EEL7839",
+              "EEL7841",
+              "EEL7842",
+              "EEL7843",
+              "EEL7844",
+              "EEL7845",
+              "EEL7846",
+              "EEL7847",
+              "EEL7848",
+              "EEL7849",
+              "EEL7861",
+              "EEL7862",
+              "EEL7863",
+              "EEL7864",
+              "EEL7865",
+              "EEL7866",
+              "EEL7867",
+              "EEL7868",
+              "EEL7869",
+              "EEL7870"
+            ],
+            "allowsManualHours": false,
+            "maxHours": 216
+          }
+        ]
+      },
+      {
+        "id": "internship",
+        "name": "Estágio curricular",
+        "requiredHours": 360,
+        "sources": [
+          {
+            "id": "internship-options",
+            "courseIds": [
+              "EEL7830",
+              "EEL7871",
+              "EEL7872"
+            ],
+            "allowsManualHours": false,
+            "maxHours": 360
+          }
+        ]
+      },
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas",
+        "requiredHours": 432,
+        "sources": [
+          {
+            "id": "professional-area-electives",
+            "courseIds": [
+              "EEL7083",
+              "EEL7100",
+              "EEL7101",
+              "EEL7102",
+              "EEL7103",
+              "EEL7104",
+              "EEL7105",
+              "EEL7106",
+              "EEL7107",
+              "EEL7108",
+              "EEL7109",
+              "EEL7110",
+              "EEL7111",
+              "EEL7112",
+              "EEL7113",
+              "EEL7114",
+              "EEL7115",
+              "EEL7200",
+              "EEL7201",
+              "EEL7202",
+              "EEL7203",
+              "EEL7204",
+              "EEL7205",
+              "EEL7210",
+              "EEL7211",
+              "EEL7212",
+              "EEL7213",
+              "EEL7214",
+              "EEL7215",
+              "EEL7216",
+              "EEL7217",
+              "EEL7218",
+              "EEL7219",
+              "EEL7220",
+              "EEL7301",
+              "EEL7302",
+              "EEL7303",
+              "EEL7304",
+              "EEL7307",
+              "EEL7308",
+              "EEL7309",
+              "EEL7310",
+              "EEL7311",
+              "EEL7312",
+              "EEL7313",
+              "EEL7314",
+              "EEL7315",
+              "EEL7316",
+              "EEL7317",
+              "EEL7318",
+              "EEL7319",
+              "EEL7320",
+              "EEL7400",
+              "EEL7401",
+              "EEL7402",
+              "EEL7403",
+              "EEL7404",
+              "EEL7406",
+              "EEL7408",
+              "EEL7409",
+              "EEL7410",
+              "EEL7411",
+              "EEL7412",
+              "EEL7413",
+              "EEL7414",
+              "EEL7415",
+              "EEL7416",
+              "EEL7417",
+              "EEL7418",
+              "DAS5131",
+              "DAS5141",
+              "EEL7022",
+              "EEL7023",
+              "EEL7502",
+              "EEL7504",
+              "EEL7505",
+              "EEL7506",
+              "EEL7507",
+              "EEL7508",
+              "EEL7509",
+              "EEL7510",
+              "EEL7511",
+              "EEL7512",
+              "EEL7513",
+              "EEL7520",
+              "EEL7521",
+              "EEL7531",
+              "EMC5247",
+              "EEL7600",
+              "EEL7601",
+              "EEL7602",
+              "EEL7603",
+              "EEL7604",
+              "EEL7605",
+              "EGC5013",
+              "EPS5220",
+              "EPS5240",
+              "EPS5241",
+              "EPS7004",
+              "EPS7008",
+              "EPS7026",
+              "EPS7034"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "other-electives",
+            "courseIds": [],
+            "allowsManualHours": false,
+            "maxHours": 144
+          },
+          {
+            "id": "complementary-activities",
+            "courseIds": [
+              "EEL7700",
+              "EEL7800",
+              "EEL7853",
+              "EEL7854",
+              "EEL7855",
+              "EEL7856",
+              "EEL7857",
+              "EEL7873",
+              "EEL7874",
+              "EEL7875",
+              "EEL7876",
+              "EEL7877",
+              "EEL7878",
+              "EEL7879",
+              "EEL7880",
+              "EEL7881",
+              "EEL7882",
+              "EEL7900",
+              "EEL8000"
+            ],
+            "allowsManualHours": false,
+            "maxHours": 144
+          },
+          {
+            "id": "external-free-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 144
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "202",
+    "curriculumCode": "20051",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=202&curriculo=20051",
+    "sha256": "9bdf93cd9aa32088129efb7630ffe7631c6d54ce450e46fce1672d78478256d8",
+    "capturedAt": "2026-07-15"
+  }
+}

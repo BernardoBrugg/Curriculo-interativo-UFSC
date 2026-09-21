@@ -1,0 +1,1745 @@
+{
+  "program": "Engenharia de Materiais",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2001.1",
+  "totalHours": 4344,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 11,
+      "name": "11ª Fase"
+    },
+    {
+      "number": 13,
+      "name": "13ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EGR5603",
+      "code": "EGR5603",
+      "name": "Desenho Técnico para Engenharia de Materiais",
+      "credits": 4,
+      "hours": 56,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5618"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5618"
+      },
+      "syllabus": "Normas Técnicas, Noções de técnicas de traçado a mão livre, Sistemas de representação: Perspectiva e Projeções Ortogonais, Cotagem, Noções de corte."
+    },
+    {
+      "id": "EMC5710",
+      "code": "EMC5710",
+      "name": "Técnicas de Aquisição e Tratamento de Dados",
+      "credits": 4,
+      "hours": 56,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMC5700"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5700"
+      },
+      "syllabus": "Noções de estatística (com utilização de editor gráfico e de planilha); aquisição eletrônica de dados (medições com uso de eletrônica) e métodos matemáticos de tratamento de dados."
+    },
+    {
+      "id": "EMC5711",
+      "code": "EMC5711",
+      "name": "Introdução à Engenharia Materiais",
+      "credits": 3,
+      "hours": 56,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMC5002",
+        "EMC5751"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5002"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5751"
+          }
+        ]
+      },
+      "syllabus": "A profissão de engenheiro de materiais; classes de materiais; ligações químicas e sua influência sobre as propriedades; estruturas cristalinas; estruturas não cristalinas e semi-cristalinas"
+    },
+    {
+      "id": "EMC5731",
+      "code": "EMC5731",
+      "name": "Caracterização Microestrutural de Materiais",
+      "credits": 4,
+      "hours": 56,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMC5002"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5002"
+      },
+      "syllabus": "Introdução à caracterização microestrutural: conceitos de microestrutura, fase cristalina, grão, contorno de grão, poro. Técnica de preparação de amostras para análise microestrutural (metalografia). Fundamentos das técnicas de análise microscópica: microscopia óptica, microscopia eletrônica de varredura, microanálise. Teoria e prática em metalografia, microscopia ótica e eletrônica de varredura."
+    },
+    {
+      "id": "MTM5205",
+      "code": "MTM5205",
+      "name": "Cálculo para Engenharia de Materiais 1",
+      "credits": 8,
+      "hours": 112,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM5115",
+        "MTM5161",
+        "MTM5168",
+        "MTM7001"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5115"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5168"
+          },
+          {
+            "kind": "course",
+            "code": "MTM7001"
+          }
+        ]
+      },
+      "syllabus": "Funções. Limites. Diferenciação. Derivadas. Introdução à Álgebra Simbólica. Aplicação da Diferenciação: Curvas, Otimização. Integração: Soma Riemaniana. Teorema Fundamental do Cálculo. Aplicações da Integração: Áreas. Técnicas de Integração. Utilização de Softwares Matemáticos como Ferramenta de Cálculo."
+    },
+    {
+      "id": "QMC5119",
+      "code": "QMC5119",
+      "name": "Introdução ao Laboratório de Química",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5117"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5117"
+      },
+      "syllabus": "O ambiente laboratorial. Normas de segurança no laboratório. Noções básicas de prevenção e combate a incêndios. Produtos químicos e seus efeitos. Preparo de soluções e segurança. Equipamentos básicos de laboratório. Calibração de instrumentos de medidas. Técnicas básicas em laboratório de química. Algarismos significativos. Medidas e tratamento de dados. Levantamento, análise de dados experimentais e elaboração de relatório científico Procedimentos de descarte e tratamentos dos resíduos de laboratórios de química."
+    },
+    {
+      "id": "EMC5719",
+      "code": "EMC5719",
+      "name": "Materiais e Microestruturas",
+      "credits": 4,
+      "hours": 56,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5711"
+      ],
+      "equivalents": [
+        "EMC5712"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5711"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5712"
+      },
+      "syllabus": "Materiais Cristalinos E Não-Cristalinos; Estrutura Cristalina Dos Sólidos; Conceitos Fundamentais; Direções E Planos Cristalográficos; Densidade Linear E Planar; Estruturas Cristalinas Compactas.Desordem Atômica Nos Sólidos: Lacunas, Soluções Sólidas, Mecanismos De Difusão Em Sólidos; Difusão Em Regime Estacionário E Não-Estacionário: 1a Lei De Fick E 2a. Lei De Fick; Fatores Que Influenciam A Difusão. Diagrama De Fase De Um Componente; Equilíbrio De Fases Com Dois Componentes; Diagrama Eutético; Peritético, Diagramas Envolvendo Transformações No Estado Sólido: Eutetóide, Introdução Aos Diagramas De Fase Ternários; Nucleação Homogênea, Heterogênea, Precipitação; Crescimento De Fases;Cinética E Microestrutura Das Transformações Estruturais: Natureza Das Transformações De Fase; Força Motriz Para Transformação"
+    },
+    {
+      "id": "EMC5732",
+      "code": "EMC5732",
+      "name": "Estrutura Cristalina de Sólidos",
+      "credits": 2,
+      "hours": 28,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5711"
+      ],
+      "equivalents": [
+        "EMC5700",
+        "EMC5751"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5711"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5700"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5751"
+          }
+        ]
+      },
+      "syllabus": "Tipos de difração e ondas em geral. DIFRAÇÃO: interferência de duas unidades e difração de N unidades num arranjo unidimensional. Propriedades físicas que podem ser observadas em uma dimensão. Elementos de difração em três dimensões e o fator de estrutura. Produção de raios-x; absorção pelo efeito fotoelétrico; absorção de raios-x. Grupos espaciais e o elemento assimétrico. Difração de um pó ( de cristais ). O difractômetro moderno de focalização tipo Bragg-Brentano. Identificação de fases e a Base de Dados ICDD e `software comercial`. Analise quantitativa de fases. Tamanho de partículas e cristais não-perfeitos."
+    },
+    {
+      "id": "FSC5062",
+      "code": "FSC5062",
+      "name": "Física para Engenharia de Materiais A",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM5205"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM5205"
+      },
+      "syllabus": "Dinâmica da partícula. Conservação da energia e momento linear. Cinemática e dinâmica do corpo rígido. Oscilações e ondas."
+    },
+    {
+      "id": "MTM5206",
+      "code": "MTM5206",
+      "name": "Cálculo para Engenharia de Materiais 2",
+      "credits": 8,
+      "hours": 112,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM5205"
+      ],
+      "equivalents": [
+        "MTM5162",
+        "MTM5169"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM5205"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5162"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5169"
+          }
+        ]
+      },
+      "syllabus": "Modelos básicos com Equações Diferenciais, Equações diferenciais de primeira ordem, Aplicações, Método de Euler, Solução de equações diferenciais de 2a ordem utilizando o Maple. Coordenadas Polares, Retas Tangentes, Área, Secções cônicas em coordenadas retangulares e polares, O espaço tridimensional, Esferas e superfícies cilíndricas, Planos no espaço tridimensional, Superfíies quádricas, Coordenadas cilíndricas e esféricas. Funções de duas ou mais variáveis, Limites e continuidade, Derivadas parciais, Diferenciabilidade e regra da cadeia, Derivadas parciais de ordem superior, Derivadas direcionais e gradientes, Extremos de funções de várias variáveis."
+    },
+    {
+      "id": "EMC5713",
+      "code": "EMC5713",
+      "name": "Termodinâmica para Engenharia de Materiais",
+      "credits": 4,
+      "hours": 56,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5719",
+        "MTM5205"
+      ],
+      "equivalents": [
+        "EMC5101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5719"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5205"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5101"
+      },
+      "syllabus": "Proporcionar o entendimento dos principais conceitos da termodinâmica dentro do contexto da área de Ciência e Engenharia de Materiais; Prever as reações que podem ocorrer entre fases/componentes quando do processamento dos materiais, em função dos parâmetros de processamento e do sistema particular utilizado. Estudar os diagramas de fases de sistemas metalúrgicos e cerâmicos mais freqüentes, visando entender a formação da microestrutura."
+    },
+    {
+      "id": "EMC5728",
+      "code": "EMC5728",
+      "name": "Segurança do Trabalho para Engenharia de Materiais",
+      "credits": 2,
+      "hours": 28,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5732"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5732"
+      },
+      "syllabus": "A Legislação Brasileira sobre acidentes e Doenças do Trabalho. Os riscos inerentes ao trabalho: administrativos, ocupacionais, ambientais e ergonômicos. Medidas necessárias a prevenção a acidentes. As Normas Regulamentadoras - NR. A aplicação das NR."
+    },
+    {
+      "id": "EMC5733",
+      "code": "EMC5733",
+      "name": "Análise Termo-Fisica de Materiais",
+      "credits": 2,
+      "hours": 28,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5732"
+      ],
+      "equivalents": [
+        "EMC5701"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5732"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5701"
+      },
+      "syllabus": "Importância das técnicas de analise térmica na avaliação do comportamento físico e químico dos materiais. Princípios básicos das técnicas de calorimetria diferencial, análise termogravimétrica e dilatometria. Aplicações das técnicas de análise térmica e estudos de caso envolvendo a medição do coeficiente de dilatação térmica, identificação de transformações de fase, hidratação e desidratação, comportamento na sinterização etc. Apresentação de palestras correlatas."
+    },
+    {
+      "id": "FSC5063",
+      "code": "FSC5063",
+      "name": "Física para Engenharia de Materiais B",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5062"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5062"
+      },
+      "syllabus": "Eletrostática. Eletrodinâmica. Propriedades da Luz. Óptica Física."
+    },
+    {
+      "id": "MTM5207",
+      "code": "MTM5207",
+      "name": "Cálculo para Engenharia de Materiais 3",
+      "credits": 4,
+      "hours": 56,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM5206"
+      ],
+      "equivalents": [
+        "MTM5163",
+        "MTM5170"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM5206"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5163"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5170"
+          }
+        ]
+      },
+      "syllabus": "Integrais duplas, em coordenadas retangulares e polares, Integrais duplas em regiões não retangulares, Superfícies paramétricas, Área de superfícies, Integrais triplas em coordenadas retangulares, cilíndricas e esféricas, Centróide, Centro de gravidade, Momentos de inércia. Vetores, Produto escalar e projeções, Produto vetorial, Funções vetoriais, Vetores Tangente e Normal, Campos vetoriais, Integrais de Linha, Campos Conservativos, Teorema de Green, Integrais de Superfície Teorema da Divergência, Teorema de Stokes. Sequências monótonas e limitadas, Séries infinitas de termos constantes, positivos e alternados, convergência absoluta e condicional, Testes de convergência, Séries de potência, Derivação e integração de séries de potência, Série de Taylor, Séries de Maclaurin, Solução de equações diferenciais por séries de potência."
+    },
+    {
+      "id": "EMC5130",
+      "code": "EMC5130",
+      "name": "Mecânica dos Sólidos para Engenharia de Materiais",
+      "credits": 5,
+      "hours": 70,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM5206"
+      ],
+      "equivalents": [
+        "EMC5125",
+        "EMC5128"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM5206"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5125"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5128"
+          }
+        ]
+      },
+      "syllabus": "Solicitações compostas. Flexão desviada. Prismas curtos. Energia de deformação. Teoria da máxima energia de distorção. Isostática. Hiperestática. Flambagem. Placas e cascas."
+    },
+    {
+      "id": "EMC5714",
+      "code": "EMC5714",
+      "name": "Mecanismos de Deformação e Fratura",
+      "credits": 4,
+      "hours": 56,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5713"
+      ],
+      "equivalents": [
+        "EMC5701"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5713"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5701"
+      },
+      "syllabus": "Introduzir os principais conceitos teóricos sobre o comportamento mecânico de materiais de engenharia, discutindo as relações entre microestrutura e propriedades mecânicas. Introduzir os principais conceitos de mecânica e mecanismos de fratura de materiais dúcteis e frágeis."
+    },
+    {
+      "id": "EMC5715",
+      "code": "EMC5715",
+      "name": "Metais Ferrosos e Não Ferrosos",
+      "credits": 4,
+      "hours": 56,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5733"
+      ],
+      "equivalents": [
+        "EMC5701"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5733"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5701"
+      },
+      "syllabus": "Estudo da composição, processamento termomecânico, microestrutura, propriedades e aplicações das principais ligas metálicas utilizadas em construção mecânica."
+    },
+    {
+      "id": "EMC5730",
+      "code": "EMC5730",
+      "name": "Métodos Estatísticos para Engenharia de Materiais",
+      "credits": 4,
+      "hours": 56,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5710",
+        "MTM5205"
+      ],
+      "equivalents": [
+        "EMC5223",
+        "EMC5720"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5710"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5205"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5223"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5720"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "EMC5734",
+      "code": "EMC5734",
+      "name": "Propriedades Mecânicas",
+      "credits": 2,
+      "hours": 28,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5733"
+      ],
+      "equivalents": [
+        "EMC5103"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5733"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5103"
+      },
+      "syllabus": "Testes Mecânicos: Tração, Compressão, Flexão, Estanpabilidade, Tenacidade à Fratura, Fadiga, Fluência. Projeto: Análise Mecânica de Materiais Metálicos, Cerâmicos e Poliméricos: Resistência, Deformação e Fratura – Estudos de Casos."
+    },
+    {
+      "id": "EMC5746",
+      "code": "EMC5746",
+      "name": "Materiais Vítreos",
+      "credits": 3,
+      "hours": 42,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5733"
+      ],
+      "equivalents": [
+        "EMC5741"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5733"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5741"
+      },
+      "syllabus": "-Fundamentos dos materiais vítreos: Breve história dos materiais vítreos. Definições e fundamentos do estado vítreo, estrutura e formação de vidros, composição química e representação da fórmula química, matérias-primas e cálculo de carga para a produção de vidros, aspectos tecnológicos da produção de vidros, propriedades e cálculo de propriedades de vidros, famílias de vidros de interesse tecnológico e aplicações. Vitrocerâmicos: Definição e conceitos correlatos, características e propriedades com ênfase em vitrocerâmicos sinterizados e aplicações industriais, teoria da sinterização e cristalização, métodos de estudo. Esmaltes cerâmicos/vidrados: Definição e conceitos correlatos, processamento, propriedades e aplicações específicas com ênfase em esmaltes cerâmicos para cerâmica de revestimento."
+    },
+    {
+      "id": "EMC5551",
+      "code": "EMC5551",
+      "name": "Estágio Supervisionado 1",
+      "credits": 20,
+      "hours": 280,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5713"
+      ],
+      "equivalents": [
+        "EMC5531"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5713"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5531"
+      },
+      "syllabus": "Contato com o setor industrial e/ou com a pesquisa nas áreas de metais, polímeros, cerâmicos e compósitos. Aplicação dos conhecimentos adquiridos. Relacionamento profissional. Desenvolvimento da competência técnico-científica.Pró atividade"
+    },
+    {
+      "id": "EMC5426",
+      "code": "EMC5426",
+      "name": "Fenomenos de Transporte para Engenharia",
+      "credits": 4,
+      "hours": 56,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5714"
+      ],
+      "equivalents": [
+        "EMC5425"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5714"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5425"
+      },
+      "syllabus": "Conceitos básicos: o contínuo, viscosidade, pressão, temperatura, tensão superficial. Fluido Newtoniano e Fluido não Newtoniano. Camada limite. Equação fundamental da fluido-estática. Princípios da monometria. Empuxo hidrostático. Esforços sobre corpos submersos. Fluidos em Movimento. Derivada material (ou de partícula). Equação de conservação para Volume de Controle-Teorema de transporte de Reynolds. Conservação da massa. Equação da quantidade de movimento, na forma integral. Equação de Euler. Equação de Bernoulli. Tubo de Pitot e Venturi. Escoamento de fluido viscoso. Perda de carga em tubos e dutos. Perdas distribuídas e perdas localizadas. Diagrama de Moody. Condução térmica através de paredes planas. Analogia elétrica. Condução térmica através de paredes curvas e compostas. Convecção térmica sobre placas planas. Convecção térmica para escoamentos laminares e turbulentos, em tubos e dutos. Correlações empíricas. Noções básicas de trocadores de calor. Radiação térmica."
+    },
+    {
+      "id": "EMC5742",
+      "code": "EMC5742",
+      "name": "Conformação Mecânica",
+      "credits": 3,
+      "hours": 42,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5551"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5551"
+      },
+      "syllabus": "de Materiais Conceito de tensão e deformação: deformação elástica, critérios de escoamento, deformação plástica de cristais, policristais e agregados. Conformação a quente, morno e a frio: Transformações estruturais. Lubrificação na conformação mecânica. Conceitos básicos de tenções residuais e sua eliminação, na conformação mecânica. Processos de transformação mecânica de metais: laminação; extrusão, forjamento, trefilação, estampagem."
+    },
+    {
+      "id": "EMC5743",
+      "code": "EMC5743",
+      "name": "Soldagem, Usinagem e Fundição",
+      "credits": 5,
+      "hours": 70,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5746"
+      ],
+      "equivalents": [
+        "EMC5245"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5746"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5245"
+      },
+      "syllabus": "Processos de fabricação com e sem remoção de material. Processos de usinagem, conformação mecânica, fundição, soldagem. Noções de processos especiais de fabricação (eletroerosão, erosão eletroquímica, ultrasom, feixe eletrônico, raio laser e outros). Descrição dos diversos equipamentos para automatizar os processos de fabricação. Noções de interligação com outros setores (projetos, planejamento e montagem, etc)."
+    },
+    {
+      "id": "FSC5509",
+      "code": "FSC5509",
+      "name": "Fundamentos de Estrutura da Matéria",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5063",
+        "MTM5206"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5063"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5206"
+          }
+        ]
+      },
+      "syllabus": "Radiação eletromagnética e corpo negro; Partículas e ondas. Estados estacionários. Equação de Schröedinger. Interação radiação matéria. Regras de seleção. Átomos de mais de um elétron. Moléculas. Sólidos. A parte laboratorial englobará experiências de: Fundamentos químicos da teoria atômica; Experimentos com luz coerente (laser); Experimento de Frank-Hertz; Tubos de GM e fotomultiplicadores. Espectros em tubos de R-X.; Absorção e filtragem de registros; Reflexão de Bragg; Cristais cúbicos na Câmara de Debye-Scherer."
+    },
+    {
+      "id": "QMC5118",
+      "code": "QMC5118",
+      "name": "Química para Engenharia de Materiais 2",
+      "credits": 4,
+      "hours": 56,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5714"
+      ],
+      "equivalents": [
+        "QMC5108",
+        "QMC5125",
+        "QMC5222"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5714"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5108"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5125"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5222"
+          }
+        ]
+      },
+      "syllabus": "QUÍMICA ORGÂNICA. Particularidades do carbono. Propriedades físico-químicas, síntese e reações de alcanos, alcenos, haletos de alquila, álcoois, fenóis, éteres, epóxidos, ácidos orgânicos, esters, amidas, cetonas e aldeídos."
+    },
+    {
+      "id": "EMC5552",
+      "code": "EMC5552",
+      "name": "Estágio Supervisionado 2",
+      "credits": 20,
+      "hours": 280,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5714"
+      ],
+      "equivalents": [
+        "EMC5532"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5714"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5532"
+      },
+      "syllabus": "Contato com o setor industrial e/ou com a pesquisa nas áreas de metais, polímeros, cerâmicos e compósitos. Aplicação dos conhecimentos adquiridos. Relacionamento profissional. Desenvolvimento da competência técnico-científica.Pró atividade"
+    },
+    {
+      "id": "EMC5716",
+      "code": "EMC5716",
+      "name": "Materiais Poliméricos",
+      "credits": 6,
+      "hours": 84,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5552",
+        "QMC5118",
+        "QMC5119"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5552"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5118"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5119"
+          }
+        ]
+      },
+      "syllabus": "Uso de materiais poliméricos, desenvolvimento de produtos, classificação e síntese de polímeros, estrutura e morfologia, polímeros em solução, estado sólido amorfo e cristalino, propriedades físicas e químicas, copolímeros, blendas, compósitos, espumas, aditivos e reciclagem de polímeros."
+    },
+    {
+      "id": "EMC5718",
+      "code": "EMC5718",
+      "name": "Análise de Falhas em Materiais",
+      "credits": 2,
+      "hours": 28,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5715"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5715"
+      },
+      "syllabus": "Definicao de falha e classificacao. Deformação excessiva, Fratura Dúctil; Fratura Fragil; Fratura por Fadiga; Deformacao e Fratura por Fluência; Fraturas sob influência do meio."
+    },
+    {
+      "id": "EMC5735",
+      "code": "EMC5735",
+      "name": "Caracterização de Materiais Poliméricos",
+      "credits": 2,
+      "hours": 28,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5734",
+        "QMC5118",
+        "QMC5119"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5734"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5118"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5119"
+          }
+        ]
+      },
+      "syllabus": "Técnicas de caracterização de polímeros em solução ou no estado sólido: densidade, solubilidade, teste de chama, métodos espectroscópicos e análise térmica. Ensaios mecânicos: dureza, propriedades de tração e flexão, deformação, fratura e fadiga dos matérias."
+    },
+    {
+      "id": "EMC5744",
+      "code": "EMC5744",
+      "name": "Processamento de Materiais Poliméricos",
+      "credits": 4,
+      "hours": 56,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5743"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5743"
+      },
+      "syllabus": "Reologia em processamento de polímeros, propriedades viscoeláticas. Extrusão: roscas (tipos de roscas e aplicações, dimensionamento das zonas de alimentação, plastificação e dosagem, elementos de mistura dispersivos e distributivos), matrizes de extrusão (projetos de matrizes, cálculo de perda de pressão, efeitos geométricos e reológicos) problemas de centragem, estagnação e não uniformidade do estrudado, otimização de polímeros e projetos de roscas através de simulação (dados necessários para simulação de processamento de polímeros, análise de dados e aplicações). Moldagem por compressão, transferência, termoformagem, rotomoldagem, injeção, sopro, (máquinas/moldes/processo, observações gerais sobre processamento, desenvolvimento de produto, projeto de gerenciamento para moldagem por sopro), calandragem e fiação."
+    },
+    {
+      "id": "FSC5535",
+      "code": "FSC5535",
+      "name": "Propriedades Elétrica, Óptica e Magnética",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5509"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5509"
+      },
+      "syllabus": "Condução eletrônica e iônica. Modelos do elétron livre e teoria de bandas de energia; Metais. Semicondutores. Magnetismo. Supercondutividade. Propriedades elétricas (interpretação atômica e macroscópica). Materiais cerâmicos. Propriedades ópticas de materiais (absorção e transmissão de radiações, efeito foto-voltáico, etc)."
+    },
+    {
+      "id": "EMC5553",
+      "code": "EMC5553",
+      "name": "Estágio Supervisionado 3",
+      "credits": 20,
+      "hours": 280,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5742"
+      ],
+      "equivalents": [
+        "EMC5533"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5742"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5533"
+      },
+      "syllabus": "Contato com o setor industrial e/ou com a pesquisa nas áreas de metais, polímeros, cerâmicos e compósitos. Aplicação dos conhecimentos adquiridos. Relacionamento profissional. Desenvolvimento da competência técnico-científica.Pró atividade"
+    },
+    {
+      "id": "DIR5995",
+      "code": "DIR5995",
+      "name": "Noções de Direito",
+      "credits": 2,
+      "hours": 28,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5716"
+      ],
+      "equivalents": [
+        "DIR5996",
+        "DIR5997"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5716"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5996"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5997"
+          }
+        ]
+      },
+      "syllabus": "Responsabilidade civil (regulada pelo CC): contratual, extra-contratual. Responsabilidade civil: código do consumidor. Responsabilidade penal: no código de defesa do consumidor e no código penal."
+    },
+    {
+      "id": "EMC5717",
+      "code": "EMC5717",
+      "name": "Materiais Cerâmicos",
+      "credits": 4,
+      "hours": 56,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5553"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5553"
+      },
+      "syllabus": "Importância dos materiais cerâmicos avançados e tradicionais. Características intrínsecas dos materiais cerâmicos. Ligações químicas, estruturas cristalinas e diagramas de equilíbrio. Propriedades físicas, térmicas e mecânicas. Crescimento sub-crítico de trincas. Resistência ao choque térmico. Teoria da sinterização. Processos de acabamento. Mecanismos de tenacificação. Seminários: etapas do processo produtivo e aplicações de componentes cerâmicos."
+    },
+    {
+      "id": "EMC5725",
+      "code": "EMC5725",
+      "name": "Metodologia de Projeto",
+      "credits": 4,
+      "hours": 56,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5716"
+      ],
+      "equivalents": [
+        "EMC5340"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5716"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5340"
+      },
+      "syllabus": "Morfologia do processo de projeto. Análise de informações e demanda. Tipos de produtos e requisitos de projeto. Síntese de soluções alternativas. Função síntese. Valoração e análise de valores. Aspectos econômicos. Projeto preliminar. Seleção da solução. Formulação de modelos. Materiais e processos de fabricação. Projeto detalhado e revisão."
+    },
+    {
+      "id": "EMC5726",
+      "code": "EMC5726",
+      "name": "Ferramentas da Qualidade",
+      "credits": 2,
+      "hours": 28,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5716"
+      ],
+      "equivalents": [
+        "EMC5279"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5716"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5279"
+      },
+      "syllabus": "Conceito de qualidade total. Modelos de controle: planejamento, gestão; estratégias e avaliação. Controle estatístico de processos e produtos. Projetos: estudo de casos em indústrias fabricante de materiais: cerâmicos, poliméricos e metálicos."
+    },
+    {
+      "id": "ENS5122",
+      "code": "ENS5122",
+      "name": "Elementos de Engenharia Ambiental",
+      "credits": 2,
+      "hours": 28,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5716"
+      ],
+      "equivalents": [
+        "ECZ5112"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5716"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5112"
+      },
+      "syllabus": "Conceitos ambientais. O estado do mundo. Economia ecológica. A variável ambiental nas organizações. Prevenção de poluição. Valorização, eliminação/tratamento de resíduos sólidos, líquidos e gasosos. Gestão ambiental (ISO 14001). A variável ambiental na concepção de materiais e produtos (eficiência energética, escolha de materiais, produção, embalagem, transporte, resíduos, utilização, reciclagem)."
+    },
+    {
+      "id": "EQA5745",
+      "code": "EQA5745",
+      "name": "Processamento de Materiais Cerâmicos",
+      "credits": 4,
+      "hours": 56,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5744"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5744"
+      },
+      "syllabus": "Processos de obtenção de materiais cerâmicos: matérias-primas; processamento a partir do pó, processos de conformação, densificação, operações de acabamento mecânico, garantia de qualidade. Projeto: projeto de produtos e estudos de caso a partir dos materiais e processos estudados."
+    },
+    {
+      "id": "EMC5554",
+      "code": "EMC5554",
+      "name": "Estágio Supervisionado 4",
+      "credits": 20,
+      "hours": 280,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5716"
+      ],
+      "equivalents": [
+        "EMC5534"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5716"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5534"
+      },
+      "syllabus": "Contato com o setor industrial e/ou com a pesquisa nas áreas de metais, polímeros, cerâmicos e compósitos. Aplicação dos conhecimentos adquiridos. Relacionamento profissional. Desenvolvimento da competência técnico-científica. Pró atividade."
+    },
+    {
+      "id": "EGC5021",
+      "code": "EGC5021",
+      "name": "Engenharia e gestão do Conhecimento",
+      "credits": 3,
+      "hours": 56,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5717"
+      ],
+      "equivalents": [
+        "EPS5121"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5717"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS5121"
+      },
+      "syllabus": "Valor do Conhecimento. Conceitos Básicos da Engenharia do Conhecimento. Conceitos básicos da Gestão do Conhecimento. Componentes de um modelo de conhecimento. Modelos de Conhecimento Padrões. Construção de um modelo de Conhecimento. Técnicas de elicitação do conhecimento. Ferramentas."
+    },
+    {
+      "id": "EGC5022",
+      "code": "EGC5022",
+      "name": "Engenharia e gestão da Inovação",
+      "credits": 3,
+      "hours": 56,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5717"
+      ],
+      "equivalents": [
+        "EPS5122"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5717"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS5122"
+      },
+      "syllabus": "Inovação. Empreendedorismo Inovador. Gestão de Projetos. Plano de negócios."
+    },
+    {
+      "id": "EMC5727",
+      "code": "EMC5727",
+      "name": "Teoria do Conhecimento para Engenharia",
+      "credits": 4,
+      "hours": 56,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5717"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5717"
+      },
+      "syllabus": "Origem e evolução da tecnologia. Distinção entre ciência e tecnologia, técnica e tecnologia, e engenharia e tecnologia. Definição de tecnologia. Classificação das tecnologias. Pesquisa tecnológica. Lógica da pesquisa tecnológica. Conceito de verdade na pesquisa tecnológica. Questões epistemológicas da tecnologia."
+    },
+    {
+      "id": "EMC5729",
+      "code": "EMC5729",
+      "name": "Modelagem Matemática",
+      "credits": 4,
+      "hours": 56,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5130",
+        "EMC5426",
+        "MTM5207"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5130"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5426"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5207"
+          }
+        ]
+      },
+      "syllabus": "de Materiais -Revisão sobre fundamentos da matemática: funções, limites, derivadas, integrais e equações diferenciais ordinárias de primeira e segunda ordem. Equações diferenciais aplicadas a problemas físicos. Simulações matemáticas aplicadas à Engenharia de Materiais."
+    },
+    {
+      "id": "EMC5771",
+      "code": "EMC5771",
+      "name": "Trabalho de Graduação em Engenharia de Materiais 1",
+      "credits": 2,
+      "hours": 28,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5717"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5717"
+      },
+      "syllabus": "Preparação para a confecção do trabalho de graduação pelo estudo dos tópicos de: Elaboração e execução de trabalhos científicos. Pesquisa bibliográfica. Redação cientifica. Referencias bibliográficas."
+    },
+    {
+      "id": "EMC5555",
+      "code": "EMC5555",
+      "name": "Estágio Supervisionado 5",
+      "credits": 20,
+      "hours": 280,
+      "phase": 13,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5717"
+      ],
+      "equivalents": [
+        "EMC5535"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5717"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5535"
+      },
+      "syllabus": "Contato com o setor industrial e/ou com a pesquisa nas áreas de metais, polímeros, cerâmicos e compósitos. Aplicação dos conhecimentos adquiridos. Relacionamento profissional. Desenvolvimento da competência técnico-científica. Pró atividade."
+    },
+    {
+      "id": "EMC5772",
+      "code": "EMC5772",
+      "name": "Trabalho de Graduação em Engenharia de Materiais 2",
+      "credits": 8,
+      "hours": 112,
+      "phase": 13,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5771"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5771"
+      },
+      "syllabus": "O campo de elaboração do trabalho de graduação, na área de materiais. Execução da revisão bibliográfica. Montagem do experimento. Coleta de dados e análise de resultados. Estudos complementares a realização do trabalho. Apresentação do Trabalho."
+    },
+    {
+      "id": "EMC5556",
+      "code": "EMC5556",
+      "name": "Estágio Supervisionado 6",
+      "credits": 20,
+      "hours": 280,
+      "phase": 13,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5717"
+      ],
+      "equivalents": [
+        "EMC5536"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5717"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5536"
+      },
+      "syllabus": "Contato com o setor industrial e/ou com a pesquisa nas áreas de metais, polímeros, cerâmicos e compósitos. Aplicação dos conhecimentos adquiridos. Relacionamento profissional. Desenvolvimento da competência técnico-científica. Pró atividade."
+    },
+    {
+      "id": "EGC5023",
+      "code": "EGC5023",
+      "name": "Introdução às Técnicas de Engenharia do Conhecimento A",
+      "credits": 3,
+      "hours": 56,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Visão geral; fundamentos e problemas da inteligência artificial e da ciência cognitiva; relação entre Inteligência Artificial e Engenharia do Conhecimento; visão geral das principais técnicas de IA; aplicações e implementação em software de técnicas de inteligência artificial."
+    },
+    {
+      "id": "EGC5026",
+      "code": "EGC5026",
+      "name": "Técnicas de Engenharia do Conhecimento I",
+      "credits": 3,
+      "hours": 56,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Engenharia do Conhecimento e a Inteligência Artificial. Natureza e Origem da Computação Neural, Aplicações da Computação Neural, Benefícios e Perspectivas. Primeiras Redes Adaptativas (Perceptron, Adaline e Madaline), Memória Associativa, Redes de Hopfield, Redes Back Propagations, Redes de Kohonen, ARTs, Radial Basis Function. Tendências e Aplicações."
+    },
+    {
+      "id": "EMC5217",
+      "code": "EMC5217",
+      "name": "Trabalho em Chapas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMC5744"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5744"
+      },
+      "syllabus": "A Operação de trabalho em chapas. Elementos construtivos dos diversos tipos de ferramentas. Ferramentas de corte, de dobramento e curvamento, de embutimento e estiramento, para trabalhos mistos progressivos. Exemplos de ferramentas para fabricação de peças estampadas. Ferramentas com matrizes e estampos de metal duro. Estampagem fina. Projeto."
+    },
+    {
+      "id": "EMC5224",
+      "code": "EMC5224",
+      "name": "Metalurgia do Pó e Materiais Conjugados",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMC5716"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5716"
+      },
+      "syllabus": "Processos de obtenção de pós. Caracterização e propriedades dos pós. Métodos de compactação e moldagem. Processos de sinterização e homogeneização. Principais ensaios em materiais sinterizados. Peças estruturais-Producão em grandes séries. Materiais porosos. Materiais de alto ponto de fusão. Materiais conjugados. Materiais sinterizados magnéticos. Produção e propriedades de materiais cerâmicos."
+    },
+    {
+      "id": "EMC5557",
+      "code": "EMC5557",
+      "name": "Iniciação Cientifica",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ": Atividades de iniciação à pesquisa em laboratórios da Universidade Federal de Santa Catarina\"."
+    },
+    {
+      "id": "EMC5706",
+      "code": "EMC5706",
+      "name": "Materiais Compósitos",
+      "credits": 3,
+      "hours": 56,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMC5224",
+        "EMC5744"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5224"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5744"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "EMC5707",
+      "code": "EMC5707",
+      "name": "Tecnologia de Polímeros",
+      "credits": 4,
+      "hours": 56,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMC5716"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5716"
+      },
+      "syllabus": "Termoplásticos de Engenharia, Termofixos, Elastômeros, Blendas & Compósitos Poliméricos."
+    },
+    {
+      "id": "EMC5722",
+      "code": "EMC5722",
+      "name": "Projetos de Engenharia de Materiais II",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de conteúdos programáticos teóricos através de recursos computacionais e de laboratório. Complementação de conteúdos programáticos através de estudos dirigidos e de laboratório. Desenvolvimento de pequenos projetos que utilizem métodos e técnicas de medidas usadas na área de materiais."
+    },
+    {
+      "id": "EMC5753",
+      "code": "EMC5753",
+      "name": "Seminários III",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Progressos científicos e tecnológicos da área de materiais. Transformações econômicas e sociais decorrentes do desenvolvimento científico e tecnológico. Palestras de caráter específico da área de materiais e de formação geral."
+    },
+    {
+      "id": "EMC5763",
+      "code": "EMC5763",
+      "name": "Materiais Sinterizados: tecnologia de fabricação, produtos e aplicações",
+      "credits": 4,
+      "hours": 56,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos de processo: introdução e visão geral do processo; tecnologia de fabricação de pós; características físicas e propriedades tecnológicas de pós; técnicas de conformação e compactação de pós; tratamento térmico de sinterização. Materiais e aplicações: Principais tipos de aços sinterizados, suas propriedades e aplicações; Materiais porosos sinterizados e funções de engenharia de poros; Metais compósitos sinterizados; Materiais sinterizados não metálicos."
+    },
+    {
+      "id": "EMC5791",
+      "code": "EMC5791",
+      "name": "Tópicos Especiais em Materiais 1",
+      "credits": 4,
+      "hours": 56,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EMC5792",
+      "code": "EMC5792",
+      "name": "Tópicos Especiais em Materiais 2",
+      "credits": 4,
+      "hours": 56,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EMC5793",
+      "code": "EMC5793",
+      "name": "Tópicos Especiais em Materiais 3",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EMC5794",
+      "code": "EMC5794",
+      "name": "Tópicos Especiais em Materiais 4",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EMC5795",
+      "code": "EMC5795",
+      "name": "Tópicos Especiais em Materiais 5",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EMC5796",
+      "code": "EMC5796",
+      "name": "Tópicos Especiais em Materiais 6",
+      "credits": 2,
+      "hours": 28,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EMC5797",
+      "code": "EMC5797",
+      "name": "Tópicos Especiais em Materiais 7",
+      "credits": 3,
+      "hours": 42,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EMC5901",
+      "code": "EMC5901",
+      "name": "Disciplina de Pós-Graduação I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5902",
+      "code": "EMC5902",
+      "name": "Disciplina de Pós-Graduação II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5903",
+      "code": "EMC5903",
+      "name": "Disciplina de Pós-Graduação III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5904",
+      "code": "EMC5904",
+      "name": "Disciplina de Pós-Graduação IV",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de Pós-Graduação"
+    },
+    {
+      "id": "EMC5950",
+      "code": "EMC5950",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EMC5951",
+      "code": "EMC5951",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EQA5319",
+      "code": "EQA5319",
+      "name": "Materiais Poliméricos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrutura química de polímeros. Flexibilidade de cadeias. Cristalinidade. Cinética de cristalização e nucleação. Transição de vidro e os estados vítreo e elastomérico. Propriedades termodinâmicas. Propriedades dielétricas e mecânicas. Propriedades em função de peso molecular. Compósitos poliméricos. Vantagens e desvantagens de polímeros em aplicações."
+    },
+    {
+      "id": "EQA5344",
+      "code": "EQA5344",
+      "name": "Termodinâmica para Materiais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções básicas de estrutura cristalina e fases. Composto e soluções sólidas. Pressão de Vapor e atividade. Tensão superficial e interfacial. Fundamentos energéticos da termodinâmica. Equilíbrio de reações. Diagramas de Ellingham. Termodinâmica de soluções sólidas. Introdução aos diagramas de equilíbrio."
+    },
+    {
+      "id": "FSC5527",
+      "code": "FSC5527",
+      "name": "Estado Sólido",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrutura cristalina. Difração e rede recíproca. Forças interatômicas e intermoleculares. Constantes elásticas e ondas. Fónons e vibrações da rede. Propriedades térmicas de isoladores. Estatística de Fermi e o gás de elétrons. Bandas de energia. Semicondutores. Tópicos livres: dielétricos, ferroeletricidade, dia e paramagnetismo, supercondutividade."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EGR5603",
+      "EMC5710",
+      "EMC5711",
+      "EMC5731",
+      "MTM5205",
+      "QMC5119",
+      "EMC5719",
+      "EMC5732",
+      "FSC5062",
+      "MTM5206",
+      "EMC5713",
+      "EMC5733",
+      "FSC5063",
+      "MTM5207",
+      "EMC5130",
+      "EMC5714",
+      "EMC5715",
+      "EMC5730",
+      "EMC5734",
+      "EMC5746",
+      "EMC5551",
+      "EMC5426",
+      "EMC5742",
+      "EMC5743",
+      "FSC5509",
+      "QMC5118",
+      "EMC5552",
+      "EMC5716",
+      "EMC5718",
+      "EMC5735",
+      "EMC5744",
+      "FSC5535",
+      "EMC5553",
+      "DIR5995",
+      "EMC5717",
+      "EMC5725",
+      "EMC5726",
+      "ENS5122",
+      "EQA5745",
+      "EMC5554",
+      "EGC5021",
+      "EGC5022",
+      "EMC5727",
+      "EMC5729",
+      "EMC5771",
+      "EMC5555",
+      "EMC5772",
+      "EMC5556"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas",
+        "requiredHours": 198,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "EGC5023",
+              "EGC5026",
+              "EMC5217",
+              "EMC5224",
+              "EMC5557",
+              "EMC5706",
+              "EMC5707",
+              "EMC5722",
+              "EMC5753",
+              "EMC5763",
+              "EMC5791",
+              "EMC5792",
+              "EMC5793",
+              "EMC5794",
+              "EMC5795",
+              "EMC5796",
+              "EMC5797",
+              "EMC5901",
+              "EMC5902",
+              "EMC5903",
+              "EMC5904",
+              "EMC5950",
+              "EMC5951",
+              "EQA5319",
+              "EQA5344",
+              "FSC5527",
+              "LSB7904"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 54
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "233",
+    "curriculumCode": "20011",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=233&curriculo=20011",
+    "sha256": "f5762b70f357c54d6ccb314b1127e2ee46ddefe06c2382142f156312ba2ad40e",
+    "capturedAt": "2026-07-15"
+  }
+}

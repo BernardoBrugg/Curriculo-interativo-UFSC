@@ -21,4 +21,9 @@ describe("curriculum repository normalization", () => {
       description: "Matriz 2020.1",
     });
   });
+
+  it("preserves completion requirements loaded from Firestore", () => {
+    const completion = { requiredCourseIds: ["ECV0001"], requirements: [] };
+    expect(normalizeCurriculumDocument({ id: "civil", completion }).completion).toEqual(completion);
+  });
 });

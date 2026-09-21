@@ -12,6 +12,7 @@ const statuses: CourseStatus[] = ["pending", "in-progress", "completed"];
 export function useCourseStatus(courseId: string) {
   const { user } = useAuth();
   const [courseStatuses, setCourseStatuses] = useState<Record<string, CourseStatus>>({});
+  const [requirementHours, setRequirementHoursState] = useState<Record<string, number>>({});
   const [error, setError] = useState("");
 
   useEffect(() => {
@@ -22,7 +23,9 @@ export function useCourseStatus(courseId: string) {
     return onSnapshot(
       doc(firestore, "users", user.uid, "curricula", courseId),
       (snapshot) => {
-        setCourseStatuses(normalizeProgress(snapshot.data()).statuses);
+        const progress = normalizeProgress(snapshot.data());
+        setCourseStatuses(progress.statuses);
+        setRequirementHoursState(progress.requirementHours);
         setError("");
       },
       () => setError("Não foi possível carregar o progresso salvo.")
@@ -59,16 +62,28 @@ export function useCourseStatus(courseId: string) {
     setStatus(id, nextStatus);
   }, [courseStatuses, setStatus]);
 
-  const resetAll = useCallback(() => {
-    if (!user || Object.keys(courseStatuses).length === 0) return;
-    const nextStatuses = Object.fromEntries(Object.keys(courseStatuses).map((id) => [id, deleteField()]));
-    setCourseStatuses({});
+  const setRequirementHours = useCallback((id: string, hours: number) => {
+    if (!Number.isFinite(hours) || hours < 0) return;
+    setRequirementHoursState((current) => ({ ...current, [id]: hours }));
+    if (!user) return;
     void setDoc(
       doc(firestore, "users", user.uid, "curricula", courseId),
-      { statuses: nextStatuses, updatedAt: serverTimestamp() },
+      { requirementHours: { [id]: hours }, updatedAt: serverTimestamp() },
+      { merge: true }
+    ).catch(() => setError("Não foi possível salvar as horas validadas. Tente novamente."));
+  }, [courseId, user]);
+
+  const resetAll = useCallback(() => {
+    if (!user || (Object.keys(courseStatuses).length === 0 && Object.keys(requirementHours).length === 0)) return;
+    const nextStatuses = Object.fromEntries(Object.keys(courseStatuses).map((id) => [id, deleteField()]));
+    setCourseStatuses({});
+    setRequirementHoursState({});
+    void setDoc(
+      doc(firestore, "users", user.uid, "curricula", courseId),
+      { statuses: nextStatuses, requirementHours: deleteField(), updatedAt: serverTimestamp() },
       { merge: true }
     ).catch(() => setError("Não foi possível salvar o progresso. Tente novamente."));
-  }, [courseId, courseStatuses, user]);
+  }, [courseId, courseStatuses, requirementHours, user]);
 
-  return { statuses: courseStatuses, getStatus, setStatus, toggleStatus, resetAll, error };
+  return { statuses: courseStatuses, requirementHours, getStatus, setStatus, setRequirementHours, toggleStatus, resetAll, error };
 }

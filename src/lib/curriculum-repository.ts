@@ -1,4 +1,4 @@
-import { Course, CurriculumData, PhaseInfo } from "@/types/curriculum";
+import { Course, CurriculumCompletion, CurriculumData, CurriculumSource, PhaseInfo } from "@/types/curriculum";
 
 export interface CurriculumDocument extends CurriculumData {
   id: string;
@@ -20,6 +20,8 @@ export function normalizeCurriculumDocument(value: unknown): CurriculumDocument 
     totalHours: typeof data.totalHours === "number" ? data.totalHours : 0,
     phases: Array.isArray(data.phases) ? data.phases as PhaseInfo[] : [],
     courses: Array.isArray(data.courses) ? data.courses as Course[] : [],
+    ...(data.completion && typeof data.completion === "object" ? { completion: data.completion as CurriculumCompletion } : {}),
+    ...(data.source && typeof data.source === "object" ? { source: data.source as CurriculumSource } : {}),
   };
 }
 

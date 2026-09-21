@@ -1,0 +1,3008 @@
+{
+  "program": "Engenharia Sanitária e Ambiental",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2015.1",
+  "totalHours": 4518,
+  "phases": [
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ECZ5113",
+      "code": "ECZ5113",
+      "name": "Fundamentos de Ecologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ECZ5101"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5101"
+      },
+      "syllabus": "Conceito de ecologia. Conceito de ecossistema e principais componentes. Fluxo de energia e ciclos biogeoquímicos. Componentes estruturais e funcionais dos ecossistemas aquáticos naturais e artificiais"
+    },
+    {
+      "id": "EGR5213",
+      "code": "EGR5213",
+      "name": "Representação Gráfica Espacial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5212"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5212"
+      },
+      "syllabus": "Introdução sobre o funcionamento do sistema visual humano; Formas de visualização humana; Sistema de projeção ortogonal Mongeano; Elementos básicos de construção - ponto, reta, e plano; Mecanismos de determinação de verdadeira grandeza - Rebatimento e Mudança de plano; Construção de objetos (modelagem) envolvendo, intersecção, secção e planificação."
+    },
+    {
+      "id": "ENS7001",
+      "code": "ENS7001",
+      "name": "Introdução à Engenharia Sanitária e Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ENS5138"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5138"
+      },
+      "syllabus": "Papel da Engenharia Sanitária e Ambiental e atribuições do Eng.Sanitarista e Ambiental.. Ciência e Tecnologia. As múltiplas dimensões da questão ambiental. Salubridade ambiental. Introdução ao saneamento ambiental. Controle da poluição da água, ar e solo. Gestão de resíduos sólidos. Políticas públicas setoriais."
+    },
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3101",
+        "MTM5161"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "QMC5125",
+      "code": "QMC5125",
+      "name": "Química Geral Experimental A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. ConfiguraçãoEletrônica. Orbital Atômico. Ligações químicas: iônicas, covalentes, metálicas. Leis dos gases. Conceito de Mol. Funções químicas. Misturas. Soluções. Concentração de soluções. Equações químicas. Reações redox. Introdução ao Equilíbrio químico; ácidos ebases; ph. Calor de reação. Introdução á Termoquímica."
+    },
+    {
+      "id": "QMC5138",
+      "code": "QMC5138",
+      "name": "Química Geral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. Orbital atômico. Transformações químicas. Gases, líquidos e pressão de vapor. Estequiometria. Conceito de mol. Termodinâmica. Geometria molecular, Momento dipolar, Solubilidade. Estruturas químicas cristalinas, Elétrons nos sólidos, Defeitos nos sólidos. Soluções e misturas, propriedades coligativas. Cinética e mecanismos de reações. Equilíbrio químico, Equilíbrio ácido-base. Reações de oxi- reduções, eletroquímica, pilhas, corrosão e combustão."
+    },
+    {
+      "id": "EGR5624",
+      "code": "EGR5624",
+      "name": "Desenho Técnico para Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR5213"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR5213"
+      },
+      "syllabus": "Introdução ao Desenho Técnico e instrumentos. Cotas e Escalas. Noções de Projeção Central. Perspectiva Central. Perspectiva Linear e Cônica. Perspectiva de sólidos e sombras. Desenho Topográfico. Desenho Arquitetônico. Desenho de Instalações Elétricas. Convenções de Elementos de Saneamento. Traçado de Linhas Piezométricas. Desenho de Sistemas de Abastecimento de Água Predial e Industrial. Desenho de Instalações Sanitárias Urbanas e Rurais."
+    },
+    {
+      "id": "ENS7100",
+      "code": "ENS7100",
+      "name": "Pesquisa Bibliográfica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS7001"
+      },
+      "syllabus": "Sanitária -Métodos e tecnica de pesquisa bibliográfica; Identificação e uso das fontes de informação; Estudo e aplicação das normas de documentação da ABNT."
+    },
+    {
+      "id": "EQA5117",
+      "code": "EQA5117",
+      "name": "Química Tecnológica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5104",
+        "QMC5138"
+      ],
+      "equivalents": [
+        "EQA5114",
+        "EQA5116",
+        "EQA5117"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5104"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5138"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EQA5114"
+          },
+          {
+            "kind": "course",
+            "code": "EQA5116"
+          },
+          {
+            "kind": "course",
+            "code": "EQA5117"
+          }
+        ]
+      },
+      "syllabus": "Aglomerantes. Polímeros e Impermeabilizantes: classificação e propriedades essenciais, aplicações na engenharia e seus impactos. Combustão e combustíveis. Corrosão metálica."
+    },
+    {
+      "id": "FSC5002",
+      "code": "FSC5002",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "MTM5161",
+        "MTM3110"
+      ],
+      "equivalents": [
+        "FSC5112"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FSC5101"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5161"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FSC5101"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3110"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5112"
+      },
+      "syllabus": "Estudo da Cinemática e Dinâmica da rotação de corpos rígidos. Oscilações e ondas Mecânicas(som). Estática e Dinãmica dos Fluídos. Noções sobre temperatura, calor, princípios da Termodiâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "INE5201",
+      "code": "INE5201",
+      "name": "Introdução à Ciência da Computação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções de sistemas de computação. Formulação de algoritmos e sua representação. Noções sobre linguagem de programação e programas. Implementação prática de algoritmos em uma linguagem de programação. Descrição de algumas aplicações típicas. Métodos computacionais na área científica e tecnológica."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3101",
+        "MTM3110",
+        "MTM5161"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5162"
+          }
+        ]
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3112",
+        "MTM5245"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3112"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5245"
+          }
+        ]
+      },
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "QMC5206",
+      "code": "QMC5206",
+      "name": "Química Orgânica Básica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5104",
+        "QMC5125",
+        "QMC5138"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5104"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "QMC5125"
+              },
+              {
+                "kind": "course",
+                "code": "QMC5138"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Hibridização. Isomeria. Conformações. Grupos Funcionais. Hidrocarbonetos alifáticos e aromáticos. Funções oxigenadas: Alcóois, éteres, esteres, aldeídos, cetonas e ácidos carboxílicos. Hidratos de carbono. Funções nitrogenadas: aminas, amidas, aminoácidos, proteínas. Polímeros e outros compostos de interesse biológico e tecnológico."
+    },
+    {
+      "id": "BQA5125",
+      "code": "BQA5125",
+      "name": "Bioquímica para Engenharia Sanitária e Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5206"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5206"
+      },
+      "syllabus": "Química de aminoácidos, peptídeos, lipídeos, ácidos nucleicos e carboidratos. Enzimas e cofatores. Vitaminas. Bioenergética, cadeia respiratória. Metabolismo de carboidratos, lipídeos e proteínas. Noções de processos fermentativos. Fotossíntese."
+    },
+    {
+      "id": "ECV7131",
+      "code": "ECV7131",
+      "name": "Topografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR5624"
+      ],
+      "equivalents": [
+        "ECV5131"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR5624"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5131"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FSC5113",
+      "code": "FSC5113",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "FSC5112"
+      ],
+      "equivalents": [
+        "FSC5133",
+        "FSC5193"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5112"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5133"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5193"
+          }
+        ]
+      },
+      "syllabus": "Análise dos principais fenômenos da eletricidade e magnetismo abrangendo o estudo de campo elétrico, potencial elétrico, capacitor, corrente elétrica, força eletromotriz, campo magnético e indução eletromagnética."
+    },
+    {
+      "id": "FSC5122",
+      "code": "FSC5122",
+      "name": "Física Experimental I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "syllabus": "Complementação dos conteúdos de mecânica, acústica, termologia. Obtida através de montagem e realização de experiências, em número de 12 (doze), versando sobre os tópicos acima."
+    },
+    {
+      "id": "INE5108",
+      "code": "INE5108",
+      "name": "Estatística e Probabilidade para Ciências",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3102"
+      },
+      "syllabus": "Teoria da probabilidade. Variáveis aleatórias e distribuição de probabilidade. Principais distribuições de probabilidade discretas. Distribuição normal. Outras distribuições de probabilidade contínuas. Estimação de parâmetros. Testes de hipóteses."
+    },
+    {
+      "id": "INE5202",
+      "code": "INE5202",
+      "name": "Cálculo Numérico em Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5201",
+        "MTM3102",
+        "MTM3120",
+        "MTM5162",
+        "MTM3112",
+        "MTM3121",
+        "MTM5245"
+      ],
+      "equivalents": [
+        "INE5232"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5201"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5162"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3112"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3121"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5245"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5232"
+      },
+      "syllabus": "Exatas MTM3120 ou Erros e Sistemas de Numeracão. Solução de equações algébricas e transcendentais. Solução de equações polinomiais. Sistemas de equações lineares e não lineares. Interpolação Ajustamento de curvas. Integração numérica. Solução numérica de equações diferenciais ordinárias e sistemas de equações diferenciais."
+    },
+    {
+      "id": "MTM3103",
+      "code": "MTM3103",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3102",
+        "MTM3120",
+        "MTM5162"
+      ],
+      "equivalents": [
+        "MTM5163"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5162"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5163"
+      },
+      "syllabus": "-Integração múltipla: integrais duplas e triplas. Noções de cálculo vetorial: curvas e superfícies. Campos escalares e vetoriais. Integrais de linha e de superfícies. Teoremas de Green, Stokes e da Divergência."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5163"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5163"
+          }
+        ]
+      },
+      "syllabus": "-Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "ECV7330",
+      "code": "ECV7330",
+      "name": "Materiais de Construção",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5114",
+        "EQA5116",
+        "EQA5117"
+      ],
+      "equivalents": [
+        "ECV5330"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EQA5114"
+          },
+          {
+            "kind": "course",
+            "code": "EQA5116"
+          },
+          {
+            "kind": "course",
+            "code": "EQA5117"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5330"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "EEL5113",
+      "code": "EEL5113",
+      "name": "Eletrotécnica Geral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5113"
+      },
+      "syllabus": "Noções básicas de Eletricidade. Circuitos Elétricos. Transformadores. Motores Elétricos. Medidas Elétricas."
+    },
+    {
+      "id": "EMC5425",
+      "code": "EMC5425",
+      "name": "Fenômenos de Transportes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "FSC5112"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5112"
+          }
+        ]
+      },
+      "syllabus": "Conceitos fundamentais em mecânica dos fluidos; dimensões e unidades; campos escalar, vetorial e tensorial; viscosidade. Hidrostática; pressão em fluido estático, manômetros; forças sobre superfícies planas e curvas submersas. Análise de escoamento; leis básicas para sistemas e volumes de controle; conservação da massa; equação da quantidade de movimento linear; primeira lei da termodinâmica; equação de Bernoulli. Escoamento viscoso incompressível; escoamento em tubos; diagrama de Moody; perdas de carga distribuidas e localizadas. Conceitos fundamentais em transmissão de calor; dimensões e unidades; leis básicas da transmissão de calor; condução, convecção e radiação; mecanismos combinados de transmissão de calor. Condução unidimensional em regime permanente; espessura crítica de isolamento; aletas; estruturas compostas. Difusão molecular e transporte de massa."
+    },
+    {
+      "id": "ENS7006",
+      "code": "ENS7006",
+      "name": "Qualidade de Água I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7100",
+        "EQA5114",
+        "EQA5116",
+        "EQA5117"
+      ],
+      "equivalents": [
+        "ENS5151"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7100"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EQA5114"
+              },
+              {
+                "kind": "course",
+                "code": "EQA5116"
+              },
+              {
+                "kind": "course",
+                "code": "EQA5117"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5151"
+      },
+      "syllabus": "Química das Águas. A influência do CO2 na qualidade das águas e ecossistemas aquáticos. Princípios de espectrometria, nefelometria, condutimetria, titulometria, potenciometria e colimetria. Técnicas de amostragem e preservação de amostras de águas. Procedimentos de Segurança laboratorial. Legislação. Métodos de exames físico-químicos e biológicos das águas naturais, águas de abastecimento e águas residuárias: pH, alcalinidade, acidez, condutividade, cor, turbidez, sólidos, ferro total, cloretos, sulfatos e Coliformes. Indices de qualidade da água. Práticas laboratoriais."
+    },
+    {
+      "id": "FSC5103",
+      "code": "FSC5103",
+      "name": "Estática para Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "FSC5112",
+        "MTM3102",
+        "MTM3120",
+        "MTM5162"
+      ],
+      "equivalents": [
+        "FSC5050"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FSC5002"
+              },
+              {
+                "kind": "course",
+                "code": "FSC5112"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5162"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5050"
+      },
+      "syllabus": "Estudo das condições de equilíbrio de partículas e de corpos rígidos (estruturas, vigas, treliças etc) no plano e no espaço, envolvendo o cálculo das reações em conexões padrão utilizadas em engenharia; cálculo de forças axiais, esforços cortantes e momentos fletores em estruturas e vigas; cálculo de centróides de áreas e de volumes de figuras simples e de figuras compostas; cálculo de momentos de inércia de chapas planas simples e compostas e de sólidos simples e compostos; equilíbrio de cabos."
+    },
+    {
+      "id": "FSC5123",
+      "code": "FSC5123",
+      "name": "Física Experimental II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113",
+        "FSC5122"
+      ],
+      "equivalents": [
+        "FSC5125"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5113"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5122"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5125"
+      },
+      "syllabus": "Complementação dos conteúdos de eletrostática, eletromagnetismo e óptica.Obtida através de montagem e realização de experiências em número de 12 (doze) versando sobre os tópicos acima."
+    },
+    {
+      "id": "MIP5131",
+      "code": "MIP5131",
+      "name": "Microbiologia Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5125"
+      ],
+      "equivalents": [
+        "MIP5109",
+        "MIP5127"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA5125"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP5109"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5127"
+          }
+        ]
+      },
+      "syllabus": "Morfologia, citologia, fisiologia e genética bacteriana. Características gerais de vírus, fungos e leveduras. Noções de bacteriologia aplicada ao Sanitarismo."
+    },
+    {
+      "id": "DGL5319",
+      "code": "DGL5319",
+      "name": "Geologia para Engenharia Sanitária e Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV7131",
+        "ENS7001"
+      ],
+      "equivalents": [
+        "ENS5319",
+        "GCN5319"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV7131"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7001"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5319"
+          },
+          {
+            "kind": "course",
+            "code": "GCN5319"
+          }
+        ]
+      },
+      "syllabus": "Processos geradores de minerais e rochas tanto em nível interno da crosta como aqueles que se desenvolvem na interface crosta/biosfera/atmosfera"
+    },
+    {
+      "id": "DIR7555",
+      "code": "DIR7555",
+      "name": "Direito Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5555"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1800
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5555"
+      },
+      "prerequisiteHours": 1800,
+      "syllabus": ""
+    },
+    {
+      "id": "ECV7331",
+      "code": "ECV7331",
+      "name": "Construção Civil",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV7330"
+      ],
+      "equivalents": [
+        "ECV5331"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV7330"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5331"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "EMC5125",
+      "code": "EMC5125",
+      "name": "Mecanica dos Solidos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5050",
+        "FSC5103",
+        "MTM3103",
+        "MTM5163"
+      ],
+      "equivalents": [
+        "ECV5215"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FSC5050"
+              },
+              {
+                "kind": "course",
+                "code": "FSC5103"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3103"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5163"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5215"
+      },
+      "syllabus": "Solicitações internas. Reações. Diagramas. Tensões e deformações. Estados de tensão. Lei de Hooke. Trabalho de deformação. Solicitações axiais. Flexão simples. Cisalhamento em vigas longas. Torção. Solicitações compostas. Análise de tensões em um ponto. Teorias de colapso."
+    },
+    {
+      "id": "ENS7008",
+      "code": "ENS7008",
+      "name": "Hidráulica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5425"
+      ],
+      "equivalents": [
+        "ENS5101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5425"
+          },
+          {
+            "kind": "hours",
+            "hours": 7008
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5101"
+      },
+      "prerequisiteHours": 7008,
+      "syllabus": "Conceitos básicos. Equações de energia e de movimento. Lei universal de distribuição de velocidade. Leis de resistência no escoamento turbulento. Fórmulas práticas para o escoamento em condutos forçados. Perda de carga distribuída e localizada. Sistemas de tubulações. Sistemas elevatórios. Orifícios e tubos curtos. Aulas de Laboratório de Hidráulica em Condutos Forçados."
+    },
+    {
+      "id": "ENS7009",
+      "code": "ENS7009",
+      "name": "Qualidade de Águas II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7006",
+        "MIP5131"
+      ],
+      "equivalents": [
+        "ENS5153"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7006"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5131"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5153"
+      },
+      "syllabus": "Ciclos biogeoquímicos e suas relações com as características químicas, físicas e biológicas das águas naturais e residuárias. Legislação. Técnicas de amostragem e métodos de exames físico-químicos e biológicos das águas naturais e residuárias: oxigênio dissolvido, demanda bioquímica de oxigênio, demanda química de oxigênio, carbono orgânico total, clorofila-a, respirometria de lodos, polissacarídeos, proteínas, serie nitrogenda, fósforo total, surfactantes, cromatografia de íons e elementos traços. Práticas de laboratório."
+    },
+    {
+      "id": "ECV5104",
+      "code": "ECV5104",
+      "name": "Mecânica dos Solos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL5319",
+        "ENS5319",
+        "GCN5319"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL5319"
+          },
+          {
+            "kind": "course",
+            "code": "ENS5319"
+          },
+          {
+            "kind": "course",
+            "code": "GCN5319"
+          }
+        ]
+      },
+      "syllabus": "Concentração e programa. Orientação. Origem e formação dos solos. Partículas. Índices físicos. Estrutura. Plasticidade e consistência. Compacidade. Classificação. Permeabilidade. Percolação. Pressões dos solos. Compressibilidade. Exploração do subsolo. Ensaios de laboratório."
+    },
+    {
+      "id": "ENS5173",
+      "code": "ENS5173",
+      "name": "Controle da Poluição Atmosférica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5425",
+        "FSC5125",
+        "FSC5123"
+      ],
+      "equivalents": [
+        "ENS5133"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EMC5425"
+              },
+              {
+                "kind": "course",
+                "code": "FSC5125"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EMC5425"
+              },
+              {
+                "kind": "course",
+                "code": "FSC5123"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5133"
+      },
+      "syllabus": "Classificação dos poluentes. Fontes e efeitos da poluição atmosférica. Padrões de qualidade do ar. Ventilação industrial. Métodos de controle da poluição atmosférica; equipamentos de controle. Meteorologia e poluição atmosférica. Estabilidade do ar. Transporte e dispersão de poluentes atmosféricos ."
+    },
+    {
+      "id": "ENS7013",
+      "code": "ENS7013",
+      "name": "Hidrologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7008",
+        "INE5108"
+      ],
+      "equivalents": [
+        "ENS5102",
+        "ENS5105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7008"
+          },
+          {
+            "kind": "course",
+            "code": "INE5108"
+          },
+          {
+            "kind": "hours",
+            "hours": 7013
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5102"
+          },
+          {
+            "kind": "course",
+            "code": "ENS5105"
+          }
+        ]
+      },
+      "prerequisiteHours": 7013,
+      "syllabus": "Ciclo hidrológico. Precipitação. Bacias Hidrológicas. Escoamento superficial. Evapotranspiração. Infiltração. Águas Subterrâneas. Hidrogramas. Balanço hídrico. Cheias. Estimativa de vazões de enchente. Regularização de vazões - Armazenamento. Regionalização de vazões. Produção e transporte de sedimentos."
+    },
+    {
+      "id": "ENS7014",
+      "code": "ENS7014",
+      "name": "Hidráulica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7008"
+      ],
+      "equivalents": [
+        "ENS5103"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7008"
+          },
+          {
+            "kind": "hours",
+            "hours": 7014
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5103"
+      },
+      "prerequisiteHours": 7014,
+      "syllabus": "Introdução à hidráulica de canais. Escoamento Não Permanente e Variado: dedução das equações de Saint-Venant. Escoamento Permanente Uniforme: Formula de Manning; Dimensionamento e calculo de canais em EPU; Curva chave. Escoamento Permanente Variado: Energia especifica e linha de energia; Numero de Froude e altura Crítica; Controle; Classificação e calculo das curvas de remanso. Equação de Bernoulli. Estudo de comportas e transições localizadas. Analise do ressalto hidráulico. Eq. de Belanger. Análise da localização do ressalto. Vertedores. Bacias de dissipação. Escoamento Variável: resolução numérica da onda cinemática. Introdução ao transporte de sedimentos. Aulas de laboratório de hidráulica em superfície livre."
+    },
+    {
+      "id": "ENS7015",
+      "code": "ENS7015",
+      "name": "Modelagem da Qualidade das Águas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7009",
+        "INE5202",
+        "MTM3103",
+        "MTM5163"
+      ],
+      "equivalents": [
+        "ENS5118"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7009"
+          },
+          {
+            "kind": "course",
+            "code": "INE5202"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3103"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5163"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5118"
+      },
+      "syllabus": "Aplicação de modelos matemáticos para estudar a qualidade das águas de rios, lagos e estuários. Estudo da cinética das reações, reatores ideais e não ideais, autodepuração, eutrofização. Análise de sensibilidade, calibração e estimativa de parâmetros para transporte e transformação de contaminantes."
+    },
+    {
+      "id": "ENS7017",
+      "code": "ENS7017",
+      "name": "Tratamento Físico-Químico de Águas e Efluentes",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7008",
+        "ENS7009"
+      ],
+      "equivalents": [
+        "ENS5160"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7008"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7009"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5160"
+      },
+      "syllabus": "Sistemas gerais de tratamento físico-químico de água e efluentes liquidos. Processos de: Sedimentação simples; Aeração; Coagulação; Mistura; Floculação; Flotação; Decantação; Filtração rápida e lenta; Técnicas por membranas; Adsorção; Troca iônica; Oxidação/Desinfecção; Abrandamento por precipitação; Fluoretação."
+    },
+    {
+      "id": "ENS7021",
+      "code": "ENS7021",
+      "name": "Economia Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM5163"
+      ],
+      "equivalents": [
+        "ENS5149"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM5163"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5149"
+      },
+      "syllabus": "Conceitos básicos de economia. Matemática financeira. Análises econômicas dos recursos renováveis e não renováveis. Gestão de Custos e investimentos no controle da poluição. Avaliação sócio-econômica de projetos. Engenharia econômica: comparação de projetos de investimento; efeitos da depreciação e imposto de renda nas análises; tomada de decisão (incluindo análise sob condições de risco e incerteza); análise custo benefício."
+    },
+    {
+      "id": "ARQ5115",
+      "code": "ARQ5115",
+      "name": "Arquitetura I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR5624"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR5624"
+      },
+      "syllabus": "Identificação das condições essenciais para a composição de um projeto arquitetônico. Organização dos espaços arquitetônicos com fundamentos na modulação e no seu interrelacionamento básico. Análise e desenvolvimento do projeto arquitetônico na produção do espaço ambiental, envolvendo tanto a relação interior/exterior , interior/interior bem como a relação do prédio com a cidade."
+    },
+    {
+      "id": "ECV5114",
+      "code": "ECV5114",
+      "name": "Mecânica dos Solos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV5104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5104"
+      },
+      "syllabus": "Generalidades. Compactação dos solos. Índice de suporte Califórnia. Resistência ao Cisalhamento dos solos. Impuxos de terra. Muros de arrimo. Estabilidade de Taludes. Desenvolvimento e Defesa de Trabalho prático de acompanhamento de obra em campo. Ensaios de lab. de compact., índice de suporte Califórnia, densidade 'in sitri', Cisalhamento Direto e Compressão simples."
+    },
+    {
+      "id": "ECV5231",
+      "code": "ECV5231",
+      "name": "Estática das Construções",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMC5125"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5125"
+      },
+      "syllabus": "Generalidades sobre estruturas. Cargas. Grau de Estaticidade. Isostática. Cálculo de deslocamentos. Hiperestática: Método das Forças, Método dos Deslocamentos, Processo de Cross."
+    },
+    {
+      "id": "ENS5159",
+      "code": "ENS5159",
+      "name": "Sistema de Abastecimento de Água",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV7331",
+        "EGR5624",
+        "ENS7014"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV7331"
+          },
+          {
+            "kind": "course",
+            "code": "EGR5624"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7014"
+          }
+        ]
+      },
+      "syllabus": "Manancial. Consumo de água. Captação. Adução. Reservação e Distribuição. Materiais dos condutos. Instalações de recalque."
+    },
+    {
+      "id": "ENS5177",
+      "code": "ENS5177",
+      "name": "Sistemas de Drenagem Urbana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7013",
+        "ENS7014"
+      ],
+      "equivalents": [
+        "ENS5164"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7013"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7014"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5164"
+      },
+      "syllabus": "A problemática das enchentes em áreas urbanas. Histórico das medidas para controle de inundações em áreas urbanas. Dimensionamento de sistemas de drenagem: bases conceituais, hidrologia e hidráulica. Projeto de sistemas de microdrenagem: sarjetas, galerias, parâmetros de projeto, critérios, requisitos e condicionantes. Sistemas de macrodrenagem: cursos d'água e fundos de vale, canais artificiais, elementos de análise e projeto, critérios de controle de inundações."
+    },
+    {
+      "id": "ENS7022",
+      "code": "ENS7022",
+      "name": "Projeto de Sistemas de Tratamento de Água de Abastecimento",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR5624",
+        "ENS7014",
+        "ENS7017"
+      ],
+      "equivalents": [
+        "ENS5160"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR5624"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7014"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7017"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5160"
+      },
+      "syllabus": "Projetos de tratamento de água de abastecimento por ; Filtração lenta; Filtração direta; Tratamento convencional; Casa de Química para ETAs."
+    },
+    {
+      "id": "ENS7024",
+      "code": "ENS7024",
+      "name": "Tratamento de Águas Residuárias",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7015",
+        "ENS7017"
+      ],
+      "equivalents": [
+        "ENS5156"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7015"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7017"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5156"
+      },
+      "syllabus": "Processos Biológicos para degradar a matéria orgânica: anaeróbio e aeróbio. Processos biológicos para a remoção de nutrientes. Fundamentos: Bioquímica, microbiologia, termodinâmica, cinética, modelos matemáticos e fatores ambientais Processos com biomassa fixa e floculenta. Combinações de processos. Transferência de oxigênio em meio líquido integrado a processo biológico. Configurações de reatores biológicos e hidrodinâmica. Aplicações."
+    },
+    {
+      "id": "ECV5228",
+      "code": "ECV5228",
+      "name": "Estruturas de Concreto",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV5231"
+      ],
+      "equivalents": [
+        "ECV5648"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5231"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5648"
+      },
+      "syllabus": "Generalidades. Propriedades do concreto. Aço e concreto armado. Classificações das estruturas de concreto armado. Definição de: cargas e esforços solicitantes. Flexão simples e cisalhamento. Lages maciças, mistas, nervuradas e cogumelos. Escadas. Vigas isoladas e contínuas. Compressão, tração e flexão composta. Pilares e tirantes. Torção."
+    },
+    {
+      "id": "ENS5142",
+      "code": "ENS5142",
+      "name": "Toxicologia Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS5153",
+        "ENS7009"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5153"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7009"
+          }
+        ]
+      },
+      "syllabus": "Conceitos de toxicologia. Metabolismo e biotransformação. Mecanismos de ação tóxica de xenobióticos. Princípios de análise em toxicologia ambiental. Marcadores biológicos. Princípios de ensaios biológicos (bioensaios). Carcinogênicos e mutagenicos. Comportamento de xenobióticos no meio ambiente (biodegradação, bioacumulação, mobilidade e bioamplificação). Mecanismos de bioproteção."
+    },
+    {
+      "id": "ENS5165",
+      "code": "ENS5165",
+      "name": "Planejamento dos Recursos Hídricos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS5177"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS5177"
+      },
+      "syllabus": "Estratégias de conservação da natureza. Os recursos hídricos e sua importância. Distribuição dos R.H. no planeta. Usos múltiplos de água. Planejamento e desenvolvimento. O planejamento dos recursos hídricos. Etapas de planejamento e engenharia. Balanço hídrico. O gerenciamento dos R.H. no Brasil. Aspectos legais e políticos no planejamento dos R.H. Análise benefício custo de projetos de aproveitamento de R.H. Tópicos especiais: o planejamento integral de bacias hidrográficas. Simulação hidrológica: análise de sistemas de R.H."
+    },
+    {
+      "id": "ENS7029",
+      "code": "ENS7029",
+      "name": "Gerenciamento e Tratamento de Resíduos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV5114"
+      ],
+      "equivalents": [
+        "ENS5123"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5114"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5123"
+      },
+      "syllabus": "Noção de resíduos/definições. Ciclo de resíduos e estratégias de gerenciamento. Situação nacional, estadual e local. Legislação em vigor. Normalização. Características dos resíduos urbanos: Composição, umidade, densidade, PCS e PCI, relação C/N. Gerenciamento de resíduos sólidos urbanos. Tipos de modelos (convencional e participativa). Gerenciamento de resíduos sólidos de todas as classes. Atividades técnico operacionais do sistema de gerenciamento de resíduos sólidos urbanos. Limpeza Urbana. Aspectos institucionais e administrativos. Sistema de coleta e transporte de resíduos de todas as classes. Sistema de varrição, capinação de vias e logradouros públicos. Planejamento dos serviços e operações especiais. Projeto de sistemas de coleta e transporte. Aspectos de valorização dos resíduos urbanos. Definições. Objetivos da recuperação de materiais. Técnicas de recuperação: anterior à coleta, coleta seletiva e usinas de triagem. Recuperação de metais, papel, plásticos, vidros, etc. Efeitos da recuperação na economia. Aterro Sanitário. Definições. Estudo de impacto: metodologia. Diferentes tipos de aterro. Resíduos admissíveis. Métodos de execução. Instalações. Teoria da degradação dos resíduos. Geração e produção de efluentes. Coleta e tratamento do biogás e dos líquidos percolados. Monitoramento. Utilizações posteriores das áreas. Projeto de aterro sanitário. Considerações sobre custo. Incineração e pirólise. Princípios gerais da incineração. Poder calorífico - PCS e PCI. Combustão teórica sem excesso de ar. Combustão com excesso de ar. Relação entre poder calorífico e quantidades de ar necessário. Tratamento de fumaça, cinzas e escória. Instalações e fornos. Pirólise : princípios. Compostagem. Definições. Características do composto. Processos de compostagem. Influência dos parâmetros: substrato, temperatura, pH, quantidade de oxigênio. Valorização agrícola do composto. Efeitos da aplicação do composto. Qualidade do composto. Comercialização. Instalações. Projeto de pátios de compostagem e usinas de triagem-compostagem. Resíduos de serviços de saúde. Legislação em vigor. Principais categorias de resíduos. Coleta intra - hospitalar. Operações de triagem. Transporte e estocagem. Pré tratamentos e Tratamento final. Resíduos de Construção e Demolição. Legislação em vigor. Classificação. Coleta e transporte. Plano de gerenciamento. Tratamentos."
+    },
+    {
+      "id": "ENS7030",
+      "code": "ENS7030",
+      "name": "Projetos de Sistemas de Tratamento de Água Residuais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7022",
+        "ENS7024"
+      ],
+      "equivalents": [
+        "ENS5156"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7022"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7024"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5156"
+      },
+      "syllabus": "Sólidos Urbanos ENS5177) Bases de projetos. Planejamento. Normas de elaboração de projetos. Quantidade de esgoto a coletar e tratar. Projetos de unidades de pré tratamento. Tratamentos primário, secundário e terciário. Unidades complementares. Projetos de processos físico, químico e biológico de efluentes líquidos. Projeto integrado. Legislações. Relatório técnico preliminar. Custos. Implantação. Operação. Monitoramento. Manutenção."
+    },
+    {
+      "id": "ENS7031",
+      "code": "ENS7031",
+      "name": "Sistemas de Esgoto Sanitário",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS5159"
+      ],
+      "equivalents": [
+        "ENS5162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS5159"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5162"
+      },
+      "syllabus": "Sistemas de esgotamento. Quantidades de líquidos a coletar. Hidráulica dos condutos de esgotos. Rede coletora. Materiais dos condutos. Seções Especiais. Órgãos acessórios das redes. Interceptores, emissários e estações elevatórias."
+    },
+    {
+      "id": "ENS5107",
+      "code": "ENS5107",
+      "name": "Instalações Hidraulico-Prediais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ5115",
+        "ECV5228",
+        "ENS7014"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ5115"
+          },
+          {
+            "kind": "course",
+            "code": "ECV5228"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7014"
+          }
+        ]
+      },
+      "syllabus": "Instalações prediais de água fria, quente e de combate a incêndio. Instalações prediais de águas pluviais. Instalações prediais de esgotos sanitários, primário e secundário. Cálculo e desenho de instalações. Instalações de gás"
+    },
+    {
+      "id": "ENS7033",
+      "code": "ENS7033",
+      "name": "Tratamento de Efluentes Líquidos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7030"
+      ],
+      "equivalents": [
+        "ENS5157"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS7030"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5157"
+      },
+      "syllabus": "Sistema de Gestão Ambiental. Produção Mais Limpa. Avaliação da carga poluidora. Análise das exigências legais de tratamento. Seleção do tratamento adequado. Elementos para análise e projeto de sistemas de tratamento. Remoção de óleos e graxas. Peneiramento. Equalização. Principais tipos de efluentes industriais. Controle de odores em estações de tratamento"
+    },
+    {
+      "id": "ENS7042",
+      "code": "ENS7042",
+      "name": "Saúde Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS7024",
+        "ENS7029"
+      ],
+      "equivalents": [
+        "ENS5121"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7024"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7029"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5121"
+      },
+      "syllabus": "Industriais Conceitos de saúde, saúde pública, gradiente de sanidade, epidemiologia,ações de saúde, níveis de ações de saúde, SUS, estudo de morbidade e mortalidade, fontes de dados, levantamentos periódicos, coeficientes e índices mais usados em saúde pública, cálculos e interpretações. Estudos Epidemiológicos, fatores relativos às pessoas, tempo e espaço, doenças transmissíveis, conceitos e modos de transmissão. O ambiente e a saúde;tipos de ambientes, a saúde no estudo de impacto ambiental; vigilância em saúde, vig. epidemiológica, vig. sanitária e vig. ambiental; controle de vetores."
+    },
+    {
+      "id": "ENS7043",
+      "code": "ENS7043",
+      "name": "Gestão Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR7555",
+        "ENS7021"
+      ],
+      "equivalents": [
+        "ENS5125"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR7555"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7021"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5125"
+      },
+      "syllabus": "Bases para planejamento e gestão ambiental. Critérios ambientais e métodos avaliação de impactos. Ferramentas de gestão ambiental: SGA, auditoria ambiental, ACV, indicadores ambientais, EIA-RIMA, outras ferramentas. Análise de riscos ambientais. Tomada de decisão."
+    },
+    {
+      "id": "ENS7044",
+      "code": "ENS7044",
+      "name": "Obras Hidráulicas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV5114",
+        "ECV5228",
+        "ENS5165",
+        "ENS7014"
+      ],
+      "equivalents": [
+        "ENS5168"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV5114"
+          },
+          {
+            "kind": "course",
+            "code": "ECV5228"
+          },
+          {
+            "kind": "course",
+            "code": "ENS5165"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7014"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5168"
+      },
+      "syllabus": "Aproveitamentos hidráulicos: finalidades, impactos, descrição de elementos constitutivos. Reservatórios: diagramas cota-área-volume, caudabilidade: curvas de massa e de diferenças totalizadas. Barragens de gravidade de concreto: análise de estabilidade, segurança ao tombamento e deslizamento, tensões no solo. Projeto de seção estável e econômica. Obras de terra, açudes,diques, etc: modalidades, características dos materiais utilizados, princípios gerais de projeto, sistemas de vedação e de drenagem; cálculos de estabilidade, instrumentação de barragens. Vertedores para barragens: especificação do perfil, coeficiente de vazão, método para dimensionamento de vertedor livre: equação do balanço de massa. Bacias de dissipação: análise da localização do ressalto para diferentes situações, dimensionamento duma bacia de dissipação simples. PCH: conceito, implantação, aspectos legais, etc."
+    },
+    {
+      "id": "ENS7045",
+      "code": "ENS7045",
+      "name": "Introdução Estágio Supervisionado e TCC",
+      "credits": 1,
+      "hours": 18,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ENS5165",
+        "ENS7029",
+        "ENS7030"
+      ],
+      "equivalents": [
+        "ENS5170",
+        "ENS5500"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5165"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7029"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7030"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5170"
+          },
+          {
+            "kind": "course",
+            "code": "ENS5500"
+          }
+        ]
+      },
+      "syllabus": "Estágio obrigatório curricular: objetivo no processo pedagógico; relações no ambiente de trabalho, comportamento do aluno no ambiente de trabalho; experiências de estágios; preenchimento da documentação necessária; a escolha do professor orientador; a confecção do relatório de estágios."
+    },
+    {
+      "id": "ENS7046",
+      "code": "ENS7046",
+      "name": "Avaliação de Impacto Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR7555",
+        "ENS5165",
+        "ENS7029"
+      ],
+      "equivalents": [
+        "ENS5144"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR7555"
+          },
+          {
+            "kind": "course",
+            "code": "ENS5165"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7029"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5144"
+      },
+      "syllabus": "Conceituação de impactos ambientais. Impacto ambiental e ciclo de vida. Caracterização dos impactos ambientais nos meios físico, biótico e sócio- econômico. Valoração e qualificação de impactos ambientais: princípios e ferramentas. Medidas mitigadoras e compensatórias. Elaboração e análise de Estudo de Impacto Ambiental/Relatório de Impacto Ambiental (EIA/RIMA) e Relatório Ambiental Preliminar (RAP). Política e legislação dos EIA/RIMA e RAP. Estudo Ambiental Simplificado. Audiências Públicas. Estudos de casos de EIA/RIMA e RAP. Licenciamento Ambiental."
+    },
+    {
+      "id": "ENS5502",
+      "code": "ENS5502",
+      "name": "Estágio Supervisionado em Engenharia",
+      "credits": 20,
+      "hours": 360,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ENS5502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3888
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5502"
+      },
+      "prerequisiteHours": 3888,
+      "syllabus": "Exercício e prática profissional: elaboração e operacionalização do Programa de Atividade de Estágio(PAE). Análise reflexiva da prática. Elaboração do Relatório de Atividade de Estágio (RAENO)."
+    },
+    {
+      "id": "ENS7053",
+      "code": "ENS7053",
+      "name": "Trabalho de Conclusão de Curso de Engenharia Sanitária e Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ENS5171"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3888
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENS5171"
+      },
+      "prerequisiteHours": 3888,
+      "syllabus": "Sanitária e Ambiental Planejamento e execução do Trabalho de Conclusão de Curso."
+    },
+    {
+      "id": "ANT7003",
+      "code": "ANT7003",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplinas Optativas recomendadas para 02ª Fase Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Particularidades históricas e processos de diferenciação. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política."
+    },
+    {
+      "id": "ANT7068",
+      "code": "ANT7068",
+      "name": "Identidades e Diversidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A construção de identidades sociais. Territorialidade, fronteiras simbólicas e etnicidade. Políticas de identidade e minorias como questões sociais e antropológicas."
+    },
+    {
+      "id": "ANT7701",
+      "code": "ANT7701",
+      "name": "Estudos Afro-Brasileiros - PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações raciais e racismo no Brasil. Relações interétnicas e Identidades étnicas. Estudos sobre os negros no Brasil."
+    },
+    {
+      "id": "ENS5150",
+      "code": "ENS5150",
+      "name": "Fundamentos de Educação Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "horas/aula Fundamentos da educação ambiental, princípios e objetivos. O mandato da Educação Ambiental. Educação ambiental e comunicação social."
+    },
+    {
+      "id": "ENS7002",
+      "code": "ENS7002",
+      "name": "Introdução à Pesquisa em Engenharia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Alunos contemplados com bolsas de iniciação científica ou participantes de pesquisas devidamente aprovadas pelo departamento."
+    },
+    {
+      "id": "ENS7003",
+      "code": "ENS7003",
+      "name": "Introdução à Extensão em Engenharia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sanitária en Ambiental I Alunos contemplados com bolsas de extensão ou participantes de extensões devidamente aprovadas pelo departamento."
+    },
+    {
+      "id": "EGC5029",
+      "code": "EGC5029",
+      "name": "Gestão da Sustentabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relação sociedade e meio ambiente; Desenvolvimento Sustentável - conceitos e implicações para a sociedade e organizações; Dimensões da Sustentabilidade: Econômica, Social, Ambiental, Públicas e Privadas no contexto da Sustentabilidade; Elementos de Política Ambiental; Instrumentos de Regulação e Controle x Instrumentos Econômicos; Princípios da Economia Ecológica; Contabilidade Ambiental; Gestão Ambiental; Sistemas de Informação e Indicadores de Sustentabilidade."
+    },
+    {
+      "id": "EGR5634",
+      "code": "EGR5634",
+      "name": "CAD para Engenharia Sanitária e Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Op",
+      "prerequisites": [
+        "EGR5624"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR5624"
+      },
+      "syllabus": "Utilização de Sistema CAD na aplicação desenho. Representação visual digital de objetos aplicados à Engenharia Sanitária. Uso do instrumento da informática na Engenharia Sanitária."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "ENS7007",
+      "code": "ENS7007",
+      "name": "Saneamento Ambiental no Meio Rural",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Op",
+      "prerequisites": [
+        "ECV7131",
+        "EQA5117"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV7131"
+          },
+          {
+            "kind": "course",
+            "code": "EQA5117"
+          }
+        ]
+      },
+      "syllabus": "aula) Disciplinas Optativas recomendadas para 04º Fase Ambiente rural. Fundamentos do desenvolvimento Rural sustentável. Processos rurais e suas fontes de poluição. Poluição do ar, água e solo no ambiente rural. Características dos resíduos. Legislações. Planejamento e Gestão Ambiental Rural. Metodologias e tecnologias de controle da poluição ambiental rural. Saneamento básico. Valorização de resíduos. Manejo do solo. Dejetos de animais. Necessidades hídricas e uso eficiente da águas. Indicadores de sustentabilidade ambiental."
+    },
+    {
+      "id": "MIP5316",
+      "code": "MIP5316",
+      "name": "Parasitologia VII",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos gerais da parasitologia. Estudo geral dos protozoários, dos helmintos, dos artrópodos e sua relação com o meio ambiente."
+    },
+    {
+      "id": "ECV5361",
+      "code": "ECV5361",
+      "name": "Geoprocessamento",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [
+        "ECV7131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV7131"
+      },
+      "syllabus": "Introdução. Formatos de dados. Estrutura e organização de um SIG (Sistema de Informações Geográficas). Entrada, manipulação e saída de dados de um SIG."
+    },
+    {
+      "id": "ENS5180",
+      "code": "ENS5180",
+      "name": "Poluição Sonora",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções sobre acústica. Influência dos níveis de ruído e vibrações na saúde humana. Fontes de geração de ruídos e vibrações. Critérios de avaliação. Técnicas de minimização de ruídos e vibrações. Normas. Aulas práticas. Estudo de casos de ruídos em comunidades."
+    },
+    {
+      "id": "ENS5503",
+      "code": "ENS5503",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ENS7011",
+      "code": "ENS7011",
+      "name": "Climatologia e Meteorologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [
+        "EMC5425"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5425"
+      },
+      "syllabus": "Composição e estrutura da atmosfera Circulação geral da atmosfera. Balanço de calor na atmosfera. Elementos e fatores climáticos. Tipos e classificação de climas. Dinâmica da atmosfera. Fundamentos de previsão meteorológica. Alterações climáticas associadas a poluições. Mudanças climáticas. Bioclimatologia humana. Interação Oceano-atmosfera. Laboratório."
+    },
+    {
+      "id": "ENS7012",
+      "code": "ENS7012",
+      "name": "Energia e Desenvolvimento Sustentável",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desafios do desenvolvimento sustentável. Energia para um desenvolvimento sustentável. Recursos energéticos: petróleo, carvão, energia nuclear, energias renováveis. O setor de energia elétrica. Efeitos locais, regionais e globais da geração e uso de energia. Avaliação de sistemas energéticos e indicadores de sustentabilidade."
+    },
+    {
+      "id": "MIP5121",
+      "code": "MIP5121",
+      "name": "Ecologia Microbiana",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [
+        "MIP5131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP5131"
+      },
+      "syllabus": "Parâmetros ecológicos: determinantes ambientais, número, biomassa e atividade. Habitats e comunidades. Interações microbianas. Controle biológico. Atividade dos micro-organismos nos ciclos biogeoquímicos, no controle dos processos de biofermentação, no solo, água e tratamento de resíduos. Micro- organismos e poluição. Utilização dos micro-organismos na exploração mineral, produção de biomassa e energia."
+    },
+    {
+      "id": "ENS7018",
+      "code": "ENS7018",
+      "name": "Introdução à Pesquisa em Engenharia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Alunos contemplados com bolsas de iniciação científica ou participantes de pesquisas devidamente aprovadas pelo departamento."
+    },
+    {
+      "id": "ENS7019",
+      "code": "ENS7019",
+      "name": "Introdução à Extensão em Engenharia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sanitária e Ambiental II Alunos contemplados com bolsas de extensão ou participantes de extensões devidamente aprovadas pelo departamento."
+    },
+    {
+      "id": "ENS7020",
+      "code": "ENS7020",
+      "name": "Hidráulica Marítima",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7020
+      },
+      "prerequisiteHours": 7020,
+      "syllabus": "Sanitária e Ambiental Bacias oceânicas. Sistema de coordenadas geográficas e cartas náuticas. Radiação solar e balanço energético da Terra. Mudanças climáticas. Circulação atmosférica: brisas, ventos. Circulação atmosférica global: circulação em superfície, em troposfera média e superior; massas de ar; ciclones tropicais; ciclones extra-tropicais. Correntes Oceânicas: correntes superficiais; ressurgência e afundamento; circulação termohalina. Ondas: geração; propagação em água profunda; propagação em água rasa; ondas extremas e tsunami. Variações do nível do mar de longo período. Maré astronômica e maré meteorológica. Processos costeiros. Equipamentos de medição oceanográfica. Apresentação de estudos de caso para Santa Catarina e o Brasil."
+    },
+    {
+      "id": "ENS7028",
+      "code": "ENS7028",
+      "name": "Hidrogeologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [
+        "DGL5319",
+        "ENS5319",
+        "GCN5319"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL5319"
+              },
+              {
+                "kind": "course",
+                "code": "ENS5319"
+              },
+              {
+                "kind": "course",
+                "code": "GCN5319"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 7028
+          }
+        ]
+      },
+      "prerequisiteHours": 7028,
+      "syllabus": "Conceitos básicos de hidrogeologia: fluxo da água subterrânea e mecânica dos poços, lei de Darcy, redes de fluxo, tecnologia de poços e testes de bombeamento. Fontes de contaminação e transporte de poluentes em subsuperfície. Transformação e biodegradação de derivados de petróleo e solventes clorados. Investigação de áreas impactadas, caracterização hidrogeológica. Avaliação de risco à saúde humana. Modelos matemáticos de transporte de contaminantes e de avaliação de risco. Tecnologias de remediação de áreas impactadas."
+    },
+    {
+      "id": "ENS5174",
+      "code": "ENS5174",
+      "name": "Controle da Poluição Atmosférica II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Op",
+      "prerequisites": [
+        "ENS5173"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS5173"
+      },
+      "syllabus": "Tópicos complementares a Meteorologia e dispersão atmosférica. Monitoramento de poluentes atmosféricos; Gestão de odores. Tópicos complementares ao tratamento de gases. Aulas práticas."
+    },
+    {
+      "id": "ENS5176",
+      "code": "ENS5176",
+      "name": "Fundamentos de Engenharia de Segurança",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Op",
+      "prerequisites": [
+        "DIR7555"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR7555"
+      },
+      "syllabus": "Conceituação de segurança na Engenharia. Controle do ambiente. Proteção coletiva e individual. Proteção contra incêndio. Riscos específicos nas várias habilitações da Engenharia. Controle de perdas e produtividade. Segurança no projeto. Análise e estatísticas de acidentes, seleção, treinamento, motivação do pessoal. Normalização e legislação específica. Organização da segurança do trabalho na empresa.Segurança em atividades extra-empresa. Visitas."
+    },
+    {
+      "id": "ENS7037",
+      "code": "ENS7037",
+      "name": "Métodos Computacionais em Hidráulica e Hidrologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Op",
+      "prerequisites": [
+        "ENS7013",
+        "ENS7014"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7013"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7014"
+          }
+        ]
+      },
+      "syllabus": "Aspectos introdutórios e conceituais sobre análise de sistemas. Conceitos de modelagem matemática. Revisão dos métodos numéricos. Estruturação dos modelos lineares. Princípios da otimização. Técnicas de otimização (convencionais e não convencionais). Aplicações em engenharia."
+    },
+    {
+      "id": "GCN7043",
+      "code": "GCN7043",
+      "name": "Interação Oceano Atmosfera",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Op",
+      "prerequisites": [
+        "ENS7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS7013"
+      },
+      "syllabus": "Introdução ao sistema climático: atmosfera, oceano e superfície terrestre. Balanço de energia global. Balanço de radiação na atmosfera. Balanço de energia na superfície. Ciclo hidrológico. Circulação geral da atmosfera e o clima. Circulação geral dos oceanos e o clima. Sistemas Atmosféricos. História e evolução do clima da Terra. Sensibilidade climática e mecanismos de retroalimentação. Modelos globais climáticos. Mudanças climáticas naturais. Mudanças climáticas antrópicas. Clima da América do Sul. Fenômeno El Niño-Oscilação Sul e impactos no clima. Pré requisito: GCN 7041 E MTM 5163."
+    },
+    {
+      "id": "GCN7046",
+      "code": "GCN7046",
+      "name": "Hidrodinâmica Costeira Estuarina",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Op",
+      "prerequisites": [
+        "ENS7014"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7014"
+          },
+          {
+            "kind": "hours",
+            "hours": 7046
+          }
+        ]
+      },
+      "prerequisiteHours": 7046,
+      "syllabus": "Equações hidrodinâmicas: Forma 3-D, Condições de contorno, Formas integradas das equações; Dinâmica de maré: Forçantes gravitacionais, Ondas longas, Ondas de plataforma, Maré oceânica, Maré na plataforma; Maré meteorológica: Forçantes meteorológicas, Resposta à pressão atmosférica, Resposta ao vento, Seiches; Dinâmica em água rasa: Harmônicas superiores, processos hidrodinâmicos, Efeito do atrito do fundo sobre perfis de corrente, Fluxos residuais, Interações não lineares; Classificação de estuários: Geomorfológica, Estratificação de salinidade, Outros sistemas marinhos costeiros; Dinâmica estuarina: Causas da mistura em estuários; Mistura na seção transversal, Dispersão longitudinal, Mistura e circulação em casos estacionários. Pré requisito: GCN 7044."
+    },
+    {
+      "id": "ARQ5535",
+      "code": "ARQ5535",
+      "name": "Introdução ao Planejamento Urbano e Regional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "DIR7555",
+        "ECV5131",
+        "EGR5624",
+        "ENS5177"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR7555"
+          },
+          {
+            "kind": "course",
+            "code": "ECV5131"
+          },
+          {
+            "kind": "course",
+            "code": "EGR5624"
+          },
+          {
+            "kind": "course",
+            "code": "ENS5177"
+          },
+          {
+            "kind": "hours",
+            "hours": 2000
+          }
+        ]
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Introdução às teorias que tratam do processo de desenvolvimento e orientam às práticas de planejamento urbano e regional. Noções básicas da ampliação dos instrumentos do processo de planejamento urbano regional: as instituições de planejamento e gestão territorial, os planos diretores e os planos regionais, os estudos de impacto sócio-ambiental e a legislação. Os sistemas de saneamento, as condicionantes ambientais e as configurações urbano-regionais. Noções sobre redes no processo de planejamento territorial. Introdução ao estudo sobre a expansão urbana e a integração regional. Elementos básicos da metodologia do planejamento: coleta e organização de dados, diagnóstico, análise e proposição de políticas e projetos na escala urbana e regional."
+    },
+    {
+      "id": "ECV5224",
+      "code": "ECV5224",
+      "name": "Estruturas de Madeira",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "ECV5231"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5231"
+      },
+      "syllabus": "Análise da estrutura interna do material. Ortotropia do comportamento mecânico da madeira. Tração, compressão e cisalhamento wazzu paralelo às fibras. Compressão e tração transversal e inclinada às fibras. Flexão simples. Solicitação de peças múltiplas. Ligações."
+    },
+    {
+      "id": "ENS5137",
+      "code": "ENS5137",
+      "name": "Tratamento Anaeróbico de Despejos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "ENS7024"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS7024"
+      },
+      "syllabus": "Biodegradação. Princípios da digestão anaeróbica. Princípios bioquímicos e aspectos microbiológicos. Cinética da fermentação metânica. Fatores ambientais influenciadores do processo. Aplicações no tratamento de despejos. Tecnologia dos reatores: descrição e funcionamento. Processos convencionais. Fossa Séptica."
+    },
+    {
+      "id": "ENS5154",
+      "code": "ENS5154",
+      "name": "Operação e Manutenção de Abastecimento",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "ENS7017"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS7017"
+      },
+      "syllabus": "Operação e manutenção dos sistemas de: captação, adução, recalque. Tratamento da água (Processo de coagulação, decantação, filtração e dosagens de produtos químicos), Reservação e distribuição."
+    },
+    {
+      "id": "ENS5182",
+      "code": "ENS5182",
+      "name": "Produção mais Limpa (P+L)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "ECV7330",
+        "EEL5113",
+        "EMC5425",
+        "ENS7006",
+        "FSC5050",
+        "FSC5120",
+        "MIP5131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV7330"
+          },
+          {
+            "kind": "course",
+            "code": "EEL5113"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5425"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7006"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5050"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5120"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5131"
+          }
+        ]
+      },
+      "syllabus": "de Água Conceitos e abordagens de P+L. O contexto da P+L no Brasil e no mundo. P+L e ISO 14001. Metodologia de implantação de P+L. Estudos de casos. Políticas públicas para a P+L. Produção e consumo sustentáveis. Fundamentos de Ecologia Industrial."
+    },
+    {
+      "id": "ENS7035",
+      "code": "ENS7035",
+      "name": "Gerenciamento da Drenagem Urbana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "ENS5177"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS5177"
+      },
+      "syllabus": "Água no meio urbano: aspectos quantitativos, aspectos qualitativos. Gestão das águas urbanas e sustentabilidade. Ações estruturais e não estruturais. Medidas exemplares de gerenciamento (BMPs). Desenvolvimento de baixo impacto (LID). Projeto urbano sensível à água (WSUD). Plano diretor de drenagem urbana."
+    },
+    {
+      "id": "ENS7040",
+      "code": "ENS7040",
+      "name": "Interação Oceano Atmosfera",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "ENS7017",
+        "ENS7024"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS7017"
+          },
+          {
+            "kind": "course",
+            "code": "ENS7024"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "EPS5240",
+      "code": "EPS5240",
+      "name": "Gerenciamento de Projetos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "O ciclo de vida do projeto. As funções administrativas no projeto. O gerente do projeto. Organização da equipe. Planejamento do projeto. Programação. Cronogramas. Rêdes. Orçamentos. Controle do projeto. Interligação do projeto com a empresa."
+    },
+    {
+      "id": "ECV5223",
+      "code": "ECV5223",
+      "name": "Estruturas de Aço",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "ECV5231"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5231"
+      },
+      "syllabus": "Generalidades. Propriedades. Tração. Compressão simples. Flexão simples. Flexo-compressão normal e oblíqua. Ligações. Ação do vento nas estruturas."
+    },
+    {
+      "id": "ENS5504",
+      "code": "ENS5504",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "ENS5503"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS5503"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ENS7050",
+      "code": "ENS7050",
+      "name": "Modelação Matemáticaem em Hidrologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "ENS5177"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS5177"
+      },
+      "syllabus": "Classificação e aplicação de modelos matemáticos em hidrologia. Modelação de fenômenos hidrológicos no escoamento em bacias urbanas. Metodologias para estabelecimento de chuvas de projeto e estimativas de precipitação efetiva. Obtenção e uso de hidrogramas unitários sintéticos. Hidrogramas de projeto para bacias urbanas. Propagação de ondas de cheia em canais e reservatórios. Modelos matemáticos para análise de eventos discretos."
+    },
+    {
+      "id": "ENS7052",
+      "code": "ENS7052",
+      "name": "Gerenciamento e Tratamento de Resíduos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "ENS7029"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS7029"
+      },
+      "syllabus": "Classificação de resíduos industriais. Normas ABNT 10.004, 10.005, 10.006 e 10.007. Ensaios de lixiviação e solubilização. Amostragem de resíduos. Legislação Ambiental Pertinente; Panorama nacional e estadual relativo aos resíduos sólidos industriais. (inventário de resíduos industriais). Dados internacionais. Gestão e gerenciamento. Manuseio, Segregação, Acondicionamento, Coleta, Transporte e Armazenamento. Principais técnicas de tratamento de resíduos industriais. Tratamentos Físicos, Físico-Químicos e Químicos: Secagem e desidratação de lodos, Neutralização, Precipitação, Oxidação e redução química, Estabilização e solidificação. Tratamentos Biológicos: Compostagem, Tratamento no solo (landfarming), Biorremediação. Tratamentos Térmicos: Co-processamento, Incineração, Pirólise, Tratamento com plasma. Disposição final. Termo de Referência para o Plano de Gerenciamento dos Resíduos Sólidos Industriais - PGRS. Termo de Referência para Aterro de Resíduos Industriais Perigosos - ARIP. Projeto de instalações de tratamento de resíduos industriais."
+    },
+    {
+      "id": "ENS7072",
+      "code": "ENS7072",
+      "name": "Emissários Submarinos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "ENS7031"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS7031"
+      },
+      "syllabus": "Sólidos Industriais Definição de Emissários Submarinos. Legislação ambiental de zonas costeiras brasileiras. Legislação ambiental pertinente a implantação de emissários submarinos. Teoria Linear de Ondas, Conceituação de Marés Astronômica e Meteorológica. Correntes. Processos Litorâneos. Hidráulica Estuarina. Formações Costeiras. Modelagem hidrodinâmica de plumas de emissários Submarinos. Efeito da Maré e Técnicas de Modelação de Obras de Emissários Submarinos. Efeitos ambientais da disposição oceânica de esgotos por meio de emissários submarinos."
+    },
+    {
+      "id": "ENS7051",
+      "code": "ENS7051",
+      "name": "Tratamento de Efluentes Líquidos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "ENS7033"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS7033"
+      },
+      "syllabus": ": Gestão e tratamento de efluentes de suinocultura, setor têxtil, lixiviados de aterros, abatedouros de aves e bovinos, metal-mecânico, galvanoplastia."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ECZ5113",
+      "EGR5213",
+      "ENS7001",
+      "FSC5101",
+      "MTM3110",
+      "QMC5125",
+      "QMC5138",
+      "EGR5624",
+      "ENS7100",
+      "EQA5117",
+      "FSC5002",
+      "INE5201",
+      "MTM3120",
+      "MTM3121",
+      "QMC5206",
+      "BQA5125",
+      "ECV7131",
+      "FSC5113",
+      "FSC5122",
+      "INE5108",
+      "INE5202",
+      "MTM3103",
+      "MTM3131",
+      "ECV7330",
+      "EEL5113",
+      "EMC5425",
+      "ENS7006",
+      "FSC5103",
+      "FSC5123",
+      "MIP5131",
+      "DGL5319",
+      "DIR7555",
+      "ECV7331",
+      "EMC5125",
+      "ENS7008",
+      "ENS7009",
+      "ECV5104",
+      "ENS5173",
+      "ENS7013",
+      "ENS7014",
+      "ENS7015",
+      "ENS7017",
+      "ENS7021",
+      "ARQ5115",
+      "ECV5114",
+      "ECV5231",
+      "ENS5159",
+      "ENS5177",
+      "ENS7022",
+      "ENS7024",
+      "ECV5228",
+      "ENS5142",
+      "ENS5165",
+      "ENS7029",
+      "ENS7030",
+      "ENS7031",
+      "ENS5107",
+      "ENS7033",
+      "ENS7042",
+      "ENS7043",
+      "ENS7044",
+      "ENS7045",
+      "ENS7046",
+      "ENS5502",
+      "ENS7053"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas",
+        "requiredHours": 162,
+        "sources": [
+          {
+            "id": "recommended-electives",
+            "courseIds": [
+              "ANT7003",
+              "ANT7068",
+              "ANT7701",
+              "ENS5150",
+              "ENS7002",
+              "ENS7003",
+              "EGC5029",
+              "EGR5634",
+              "LSB7904",
+              "ENS7007",
+              "MIP5316",
+              "ECV5361",
+              "ENS5180",
+              "ENS5503",
+              "ENS7011",
+              "ENS7012",
+              "MIP5121",
+              "ENS7018",
+              "ENS7019",
+              "ENS7020",
+              "ENS7028",
+              "ENS5174",
+              "ENS5176",
+              "ENS7037",
+              "GCN7043",
+              "GCN7046",
+              "ARQ5535",
+              "ECV5224",
+              "ENS5137",
+              "ENS5154",
+              "ENS5182",
+              "ENS7035",
+              "ENS7040",
+              "EPS5240",
+              "ECV5223",
+              "ENS5504",
+              "ENS7050",
+              "ENS7052",
+              "ENS7072",
+              "ENS7051"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "free-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 54
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "211",
+    "curriculumCode": "20151",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=211&curriculo=20151",
+    "sha256": "35ec6e506dfd4c89365fcc98b39a5961e430748ca771c9c13ccf624d4f9ed0ce",
+    "capturedAt": "2026-07-15"
+  }
+}

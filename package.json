@@ -9,6 +9,7 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
+    "generate:curricula": "tsx scripts/generate-curricula.ts",
     "seed:curricula": "tsx scripts/seed-curricula.ts"
   },
   "engines": {
