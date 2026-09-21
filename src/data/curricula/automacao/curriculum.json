@@ -1,0 +1,2306 @@
+{
+  "program": "Engenharia de Controle e Automação",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2024.1",
+  "totalHours": 4464,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "DAS5334",
+      "code": "DAS5334",
+      "name": "Introdução à Informática para Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios gerais da Informática: princípios gerais de concepção de um programa de computador; técnicas de modularização; linguagens de programação; carcterísticas gerais; aplicação de uma linguagem de alto nível; aplicação da informática à automação industrial."
+    },
+    {
+      "id": "DAS5412",
+      "code": "DAS5412",
+      "name": "Introdução à Engenharia de Controle e Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Conceitos básicos de Engenharia de Controle e Automação. Equipamentos básicos. Metodologias e ferramentas de Engenharia. Experimentos de prototipagem. Apresentação e discussão da profissão de Engenharia de Controle e Automação. Funções do engenheiro no contexto tecnológico, humano e social. Apresentação e discussão do curso de Engenharia de Controle e Automação. Visita a Laboratórios do curso. Desenvolvimento de projeto autoral de engenharia: levantamento de problema relevante; proposta de solução; desenvolvimento de um protótipo funcional para a solução do Problema.",
+      "extensionHours": 36
+    },
+    {
+      "id": "ECZ5102",
+      "code": "ECZ5102",
+      "name": "Conservação de Recursos Naturais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrutura, funcionamento e dinâmica de ecossistemas. Efeito da ação antrópica sobre os ecossistemas. Legislação e Conservação dos recursos naturais."
+    },
+    {
+      "id": "EGR5606",
+      "code": "EGR5606",
+      "name": "Desenho Técnico para Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao desenho técnico a mão livre. Normas para o Desenho Técnico. Técnicas fundamentais de traçado a mão livre. Sistemas de representação: 1º e 3º diedros. Projeção ortogonal de peças simples. Vistas omitidas. Contagem e proporções. Perspectivas axonométricas, isométricas, bimétrica, trimétrica. Perspectiva cavaleira. Esboços cotados. Introdução ao CAD. Contagem. Noções de cortes."
+    },
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3101",
+        "MTM5801"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5801"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "DAS5102",
+      "code": "DAS5102",
+      "name": "Fundamentos da Estrutura da Informação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5334"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5334"
+      },
+      "syllabus": "Estrutura da informação. Vetores; Listas (alocação seqüencial, alocação encadeada); Árvores. Tabelas. Grafos: representações, distâncias, caminho mínimo. Tipos abstratos de dados; programação orientada a objetos."
+    },
+    {
+      "id": "EEL5105",
+      "code": "EEL5105",
+      "name": "Circuitos e Técnicas Digitais",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5334"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5334"
+      },
+      "syllabus": "Sistemas de numeração e códigos numéricos. Álgebra Booleana. Funções e portas lógicas. Portas lógicas CMOS. Síntese e otimização de circuitos lógicos. Circuitos combinacionais. Circuitos sequenciais. Máquinas de estados finitos. Relógio e temporização. Modelo bloco operativo/bloco de controle. Introdução às linguagens de descrição de hardware (HDL). Dispositivos lógicos programáveis."
+    },
+    {
+      "id": "FSC5002",
+      "code": "FSC5002",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "MTM3110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          }
+        ]
+      },
+      "syllabus": "Estudo da Cinemática e Dinâmica da rotação de corpos rígidos. Oscilações e ondas Mecânicas(som). Estática e Dinãmica dos Fluídos. Noções sobre temperatura, calor, princípios da Termodiâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "FSC5122",
+      "code": "FSC5122",
+      "name": "Física Experimental I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "syllabus": "Complementação dos conteúdos de mecânica, acústica, termologia. Obtida através de montagem e realização de experiências, em número de 12 (doze), versando sobre os tópicos acima."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM3111",
+        "MTM5803"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "MTM5803"
+          }
+        ]
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3112",
+        "MTM5812"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3112"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5812"
+          }
+        ]
+      },
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "DAS5210",
+      "code": "DAS5210",
+      "name": "Introdução ao Controle de Processos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5412",
+        "FSC5101",
+        "MTM3110",
+        "MTM3101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DAS5412"
+              },
+              {
+                "kind": "course",
+                "code": "FSC5101"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3110"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DAS5412"
+              },
+              {
+                "kind": "course",
+                "code": "FSC5101"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3101"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-Introdução da problemática de controle de processos: visão intuitiva, motivação prática e exemplos de aplicações. Conceitos básicos: modelos estáticos e dinâmicos, variáveis manipuladas e controladas, perturbações, ponto de operação, sinais de referência, realimentação e pré-alimentação. Revisão e introdução de noções básicas de Física e Cálculo aplicadas ao Controle de Processos; noções de linearidade e linearização, máximos e mínimos de funções. Ações de controle básicas: proporcional, integral e derivativa; ajuste de controladores com métodos empíricos; exemplos práticos e simulações numéricas. Outros conceitos e ferramentas: controle por camadas, escolha de referências e pontos de operação baseada em critérios de custo econômico ou de energia. Laboratório: 18 h.a."
+    },
+    {
+      "id": "DAS5332",
+      "code": "DAS5332",
+      "name": "Arquitetura e Programação de Sistemas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL5105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL5105"
+      },
+      "syllabus": "Arquiteturas de microprocessadores. Programação de microprocessadores: tipos e formatos de instruções, modos de endereçamento, linguagens Assembly ou C. Memória. Entrada/Saída. Dispositivos periféricos, interrupção, acesso direto a memória. Barramento padrões. Ferramentas para análise, desenvolvimento e depuração. Projetos com microprocessadores. Laboratório: 36 h.a. - Programação, uso de ferramentas de análise, desenvolvimento e depuração. Projeto de aplicações com microprocessadores"
+    },
+    {
+      "id": "ECV5215",
+      "code": "ECV5215",
+      "name": "Mecânica dos Sólidos I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          }
+        ]
+      },
+      "syllabus": "Microcontrolados Solicitações internas: vinculação, reações, esforços solicitantes, diagramas. Tensão e deformação em carregamentos axiais. Cisalhamento puro: tensão em ligações, distorção. Torção. Flexão simples: propriedades geométricas de seções transversais de vigas, estudo das tensões. Cisalhamento em vigas longas. Solicitações compostas."
+    },
+    {
+      "id": "FSC5113",
+      "code": "FSC5113",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5002"
+      },
+      "syllabus": "Análise dos principais fenômenos da eletricidade e magnetismo abrangendo o estudo de campo elétrico, potencial elétrico, capacitor, corrente elétrica, força eletromotriz, campo magnético e indução eletromagnética."
+    },
+    {
+      "id": "MTM3103",
+      "code": "MTM3103",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120"
+      ],
+      "equivalents": [
+        "MTM5804"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3120"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5804"
+      },
+      "syllabus": "-Integração múltipla: integrais duplas e triplas. Noções de cálculo vetorial: curvas e superfícies. Campos escalares e vetoriais. Integrais de linha e de superfícies. Teoremas de Green, Stokes e da Divergência."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5814"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5814"
+          }
+        ]
+      },
+      "syllabus": "-Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "DAS5103",
+      "code": "DAS5103",
+      "name": "Cálculo Numérico para Controle e Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5102",
+        "MTM3110",
+        "MTM3121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DAS5102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "syllabus": "Introdução à matemática computacional, erros e aritmética de ponto flutuante.Solução de equações algébricas e transcendentais. Solução de sistemas de equações lineares, métodos diretos e iterativos. Solução de sistemas de equações não-lineares. Métodos dos mínimos quadrados e otimização quadrática. Integração numérica. Solução numérica de equações diferenciais e simulação numérica. Aplicações a problemas de controle e automação envolvendo implementações computacionais."
+    },
+    {
+      "id": "DAS5214",
+      "code": "DAS5214",
+      "name": "Sinais e Sistemas Lineares",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5210",
+        "MTM3131",
+        "MTM3102",
+        "MTM3121",
+        "MTM3112"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DAS5210"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3131"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DAS5210"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3121"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DAS5210"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3112"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Introdução aos sinais e sistemas lineares em tempo contínuo e discreto. Representação matemática de sistemas lineares. Análise no domínio do tempo de sistemas lineares e invariantes no tempo (LIT): resposta total, resposta ao impulso, convolução. Análise de sistemas LIT usando a transformada de Laplace. Função de transferência, polos e zeros. Estabilidade e influência de polos e zeros na resposta temporal. Álgebra de blocos. Resposta em frequência e análise via diagramas de Bode. Aplicações em controle. Transformada de Fourier de sinais em tempo contínuo. Transformada de Fourier de sinais amostrados, aliasing e taxa de amostragem. Equações a diferenças. Transformada Z: definições e propriedades. Análise de sistemas LIT em tempo discreto usando a Transformada Z. Resposta em frequência de sistemas em tempo discreto. Sistemas em tempo contínuo LIT controlados por controladores discretos: equivalente discreto."
+    },
+    {
+      "id": "DAS5307",
+      "code": "DAS5307",
+      "name": "Sistemas de Automação Discreta",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5412",
+        "EEL5105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DAS5412"
+          },
+          {
+            "kind": "course",
+            "code": "EEL5105"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos sistemas de produção automatizados: níveis hierárquicos da automação fabril, visão geral dos equipamentos programáveis utilizados em sistemas automatizados de produção. Sensores e atuadores discretos. Componentes eletromecânicos: chaves, solenóides, relés. Lógica de Relés. Controladores Lógicos Programáveis (CLP): arquitetura, programação em LD, exemplos de aplicação. Projeto de programas de CLP (GRAFCET). Outras linguagens de programação: SFC, FBD, ST, IL. Controle de entradas e saídas analógicas com CLP. Dispositivos de IHM. Sistemas SCADA. Comunicação entre PC e CLP. Redes de CLP. Padrão OPC. Sensores e atuadores inteligentes."
+    },
+    {
+      "id": "DAS5308",
+      "code": "DAS5308",
+      "name": "Programação de Sistemas Automatizados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5102",
+        "DAS5332"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DAS5102"
+          },
+          {
+            "kind": "course",
+            "code": "DAS5332"
+          }
+        ]
+      },
+      "syllabus": "Computadores tipo PC, IC, tablet e sistemas embarcados na Automação: arquitetura, principais componentes e exemplos de aplicação. Plataformas embarcadas microprocessadas voltadas ao projeto de controladores. Arquiteturas de software voltadas ao projeto de controladores tempo real. Interface entre plataformas embarcadas e sensores e atuadores. Programação de comunicação entre sistema embarcado e IHM. Programação orientada a objetos voltada ao desenvolvimento de sistemas de supervisão e IHM. Boas práticas de programação. Laboratório: 36 h.a."
+    },
+    {
+      "id": "EEL7540",
+      "code": "EEL7540",
+      "name": "Circuitos Elétricos para Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113",
+        "MTM3131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5113"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3131"
+          }
+        ]
+      },
+      "syllabus": "Análise de circuitos em corrente contínua: Conceitos básicos (carga, corrente, tensão, potência e energia), elementos de circuito, leis de Kirchhoff (análise por nós e por malhas), linearidade, superposição, transformação de fontes, teoremas de Thévenin e de Norton e máxima transferência de potência. Análise de circuitos monofásicos em regimente permanente senoidal: fasores, impedância, valor eficaz, potência ativa, reativa, aparente e complexa, fator de potência, correção de fator de potência, resposta em frequência e filtros. Análise de circuitos trifásicos em regimente permanente senoidal: sistema trifásico balanceado, sequência de fases, ligações em delta e em estrela e potência em sistemas trifásicos."
+    },
+    {
+      "id": "INE5108",
+      "code": "INE5108",
+      "name": "Estatística e Probabilidade para Ciências",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "syllabus": "Teoria da probabilidade. Variáveis aleatórias e distribuição de probabilidade. Principais distribuições de probabilidade discretas. Distribuição normal. Outras distribuições de probabilidade contínuas. Estimação de parâmetros. Testes de hipóteses."
+    },
+    {
+      "id": "DAS5109",
+      "code": "DAS5109",
+      "name": "Modelagem e Simulação de Processos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5214",
+        "EEL7540"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DAS5214"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7540"
+          }
+        ]
+      },
+      "syllabus": "Processos industriais: modelagem fenomenológica, representação por diagramas de blocos e diagramas de instrumentação. Balanço de massa e energia dos processos de reação química. Processos contínuos e de batelada. Modelagem com parâmetros concentrados e distribuídos. Colunas de destilação. Simulação de processos; uso de simuladores acadêmicos e industriais. Prática: Experimentos em laboratório com plantas piloto e processos simulados em softwares industriais para estudo do comportamento de processos de vários tipos (térmicos, hidráulicos, de fermentação e destilação, etc.)."
+    },
+    {
+      "id": "DAS5203",
+      "code": "DAS5203",
+      "name": "Modelagem e Controle de Sistemas a",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5307"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5307"
+      },
+      "syllabus": "Sistemas a Eventos Discretos(SEDs): conceituação, classificação, propriedades, exemplos; Redes de Petri e Verificação: definições, propriedades, análise, implementação, modelagem; verificação de propriedades; Autômatos e controle supervisório: Autômatos de Estados Finitos: conceituação básica, operações, controle supervisório de SEDs baseado em autômatos; Experiências práticas de uso dos formalismos na resolução de problemas de modelagem, análise e síntese de controladores para SEDs."
+    },
+    {
+      "id": "DAS5320",
+      "code": "DAS5320",
+      "name": "Metodologia para Desenvolvimento de Sistemas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5308"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DAS5308"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Eventos Discretos Requisitos de qualidade de Sistemas e de Software. Metodologias de desenvolvimento de Sistemas e Software Orientadas a Objetos. Criação de Modelos. Ferramentas para análise, projeto e testes. Ambientes de desenvolvimento. Aplicação das metodologias, ferramentas e ambientes a problemas de Automação. Estudo de caso. Laboratório: 18 h-a",
+      "extensionHours": 18
+    },
+    {
+      "id": "EEL7550",
+      "code": "EEL7550",
+      "name": "Eletrônica Aplicada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7540"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7540"
+      },
+      "syllabus": "Circuitos lineares com amplificador operacional: amplificadores e modelos; o amplificador operacional ideal; principais aplicações do amplificador operacional. Não-idealidades do amplificador operacional e suas influências no desempenho de circuitos com amplificador operacional. Diodos: o diodo ideal; diodo de junção e suas características terminais; modelos pequenos sinais; diodos Zener; diodos emissores de luz; optoacopladores e sua aplicação em isolação de circuitos digitais; análise de circuitos com diodo (retificador, roda livre, limitador, detector de pico). Transistores BJT e MOSFET: princípios de operação e características estáticas; modelos pequenos sinais; aplicação como chave, como fonte de corrente e como amplificador de potência."
+    },
+    {
+      "id": "EMC5235",
+      "code": "EMC5235",
+      "name": "Metrologia Industrial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7540"
+      ],
+      "equivalents": [
+        "EMC5236"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7540"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5236"
+      },
+      "syllabus": "-Processo de medição. Vocabulário típico da área de metrologia; características metrológicas. Sistema internacional de unidades. Procedimentos padronizados para avaliação de incertezas de medição. Confiabilidade metrológica; rastreabilidade; calibração. Definição de limites de conformidade em medições. Princípio de funcionamento e especificação dos principais transdutores empregados para automação da medição de temperatura (termopares, termistores, termoresistores), deformação (extensômetros de resistência em circuitos de ponte), força (células de carga extensométricas e piezelétricas), pressão (manômetros com saída em grandezas elétricas), rotação (encoders digitais, tacogeradores, relutância variável), vazão (deprimogênios, deslocamento positivo, turbinas, eletromagnéticos, ultrassônicos, vórtices, Coriolis, térmicos), nível (flutuadores, ultrassônicos, radar, capacitivos, baseados em força ou pressão) e deslocamento (resistivos, capacitivos, indutivos, óticos). Principais transdutores com saída discreta aplicados em automação de processos: detectores de presença, termostatos, pressostatos, chaves de nível. Tecnologias emergentes para automação do processo de medição."
+    },
+    {
+      "id": "EMC5425",
+      "code": "EMC5425",
+      "name": "Fenômenos de Transportes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          }
+        ]
+      },
+      "syllabus": "Conceitos fundamentais em mecânica dos fluidos; dimensões e unidades; campos escalar, vetorial e tensorial; viscosidade. Hidrostática; pressão em fluido estático, manômetros; forças sobre superfícies planas e curvas submersas. Análise de escoamento; leis básicas para sistemas e volumes de controle; conservação da massa; equação da quantidade de movimento linear; primeira lei da termodinâmica; equação de Bernoulli. Escoamento viscoso incompressível; escoamento em tubos; diagrama de Moody; perdas de carga distribuidas e localizadas. Conceitos fundamentais em transmissão de calor; dimensões e unidades; leis básicas da transmissão de calor; condução, convecção e radiação; mecanismos combinados de transmissão de calor. Condução unidimensional em regime permanente; espessura crítica de isolamento; aletas; estruturas compostas. Difusão molecular e transporte de massa."
+    },
+    {
+      "id": "CNM7820",
+      "code": "CNM7820",
+      "name": "Aspectos Econômicos e Sociais da Automação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM5111"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM5111"
+      },
+      "syllabus": "Os processos de inovação: definições, determinantes, impactos. O desenvolvimento tecnológico como processo social. Paradigmas e trajetórias tecnológicas, revoluções tecnológicas e industriais. A relevância das políticas públicas para o desenvolvimento de capacidades tecnológicas. A sociedade do conhecimento e o atual paradigma tecno-produtivo. Dilemas éticos da inteligência artificial e impactos econômicos e sociais da automação. Inovação e automação no Brasil. O sistema nacional de inovação."
+    },
+    {
+      "id": "DAS5120",
+      "code": "DAS5120",
+      "name": "Sistemas de Controle",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5109"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5109"
+      },
+      "syllabus": "Revisão de sinais e sistemas. Estruturas de Controle. Controle realimentado. Estabilidade e resposta no tempo de sistemas realimentados. O método de lugar de raízes (LR) como ferramenta de análise; Interpretação frequencial. Diagramas de Bode e polares e estudo de estabilidade. Projeto de controladores por realimentação com o método LR (contínuo e discreto). O controle com dois graus de liberdade. Diagramas polo-zero e sua relação com a resposta no tempo. Rejeição de perturbações em sistemas de controle. Controle por realimentação e pré-alimentação. Controle cascata. Controle por relação. Outras estruturas e configurações de controle de processos. Controle de tanques pulmão, controle de faixa dividida, Preditor de Smith e Preditor de Smith filtrado. PID industriais: configuração; estruturas; métodos de sintonia; aspectos práticos e operacionais.Implementação de controladores digitais. Código de controle. Introdução ao controle robusto. Laboratório com simulação e experimentos que usam a implementação de controladores em microcontroladores, placas AD/DA e PC e com o uso de PID industriais."
+    },
+    {
+      "id": "DAS5151",
+      "code": "DAS5151",
+      "name": "Instrumentação em Controle",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5109",
+        "EEL7550",
+        "EMC5235"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DAS5109"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7550"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5235"
+          }
+        ]
+      },
+      "syllabus": "Medição: definições básicas envolvidas em sistemas de medição; características estáticas e dinâmicas de sistemas de medição; especificação e análise de sistemas de medição para aplicação em sistemas de controle. Condicionamento de sinais de medição: medição de resistência elétrica a dois, três e quatro fios; ponte de Wheatstone; divisores resistivos e shunts; amplificação; isolação; ajuste de impedâncias de entrada e saída; ruídos e interferências. Aquisição de dados: principais tipos de sistemas de aquisição de dados para instrumentação; sample-and-hold; conversores A/D e D/A. Atuação: revisão das principais estratégias empregadas para acionamento de cargas (transistor como chave, acionamento por PWM, ponte H, amplificadores proporcionais de potência). Controladores digitais: aspectos de implementação, quantização."
+    },
+    {
+      "id": "DAS5314",
+      "code": "DAS5314",
+      "name": "Redes de Computadores para Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5307",
+        "DAS5308"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DAS5307"
+          },
+          {
+            "kind": "course",
+            "code": "DAS5308"
+          }
+        ]
+      },
+      "syllabus": "Redes de Computadores: Aspectos arquiteturais; O modelo de referência para interconexão de sistemas abertos (RM-OSI); Estudo de camadas com exemplos de protocolos; Interconexão de redes: repeaters, bridges, routers, gateways; Concentradores: hubs, switches; Redes locais industriais: redes e os níveis hierárquicos de integração; Requisitos das redes industriais; Padrões em redes industriais: IEEE 802, MAP/TOP; Fieldbus (FIP, PROFIBUS, Foundation Fieldbus); Visão geral de produtos."
+    },
+    {
+      "id": "EEL5193",
+      "code": "EEL5193",
+      "name": "Máquinas e Acionamentos Elétricos para Automação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL7540"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7540"
+      },
+      "syllabus": "CIRCUITOS TRIFÁSICOS: Conceitos básicos, Potências em circuitos trifásicos, Conexão ?Y; PRINCÍPIOS DE FUNCIONAMENTO DE CONVERSORES ESTÁTICOS: Conversores CC básicos, unidirecionais e bidirecionais. Retificadores monofásicos e trifásicos (diodo) e controlados (tiristor), Inversores monofásicos e trifásicos; PRINCÍPIOS DE MÁQUINAS ELÉTRICAS: Geradores, Motores, Características estáticas; O MOTOR CC E SEUS ACIONAMENTOS: Aspectos construtivos, Princípios de operação, Equações de velocidade e torque, Parâmetros; O MOTOR DE INDUÇÃO E SEUS ACIONAMENTOS: Aspectos construtivos, Acionamento direto, Chave ?Y, Soft Starter, Controle V/F, Inversores de frequência; O MOTOR SÍNCRONO E SEUS ACIONAMENTOS: Aspectos construtivos, Princípios de operação; MOTORES ESPECIAIS: Motor-de-passo, Servomotor CC."
+    },
+    {
+      "id": "EMC5467",
+      "code": "EMC5467",
+      "name": "Acionamentos Hidráulicos e Pneumáticos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5214"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5214"
+      },
+      "syllabus": "Acionamento Hidráulico: Princípios de funcionamento e características principais dos sistemas hidráulicos; Circuitos hidráulicos fundamentais: Servoválvulas; Dinâmica dos sistemas hidráulicos; Noções de especificação. Acionamento Pneumático: Princípios de funcionamento e características principais dos sistemas pneumáticos; Circuitos pneumáticos; Dinâmica dos sistemas pneumáticos; Noções de especificação. Laboratório (equivalente a 18 h.): Experiências sobre circuitos hidráulicos e pneumáticos."
+    },
+    {
+      "id": "EPS2351",
+      "code": "EPS2351",
+      "name": "Gerenciamento de Projetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ5102",
+        "INE5108"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ5102"
+          },
+          {
+            "kind": "course",
+            "code": "INE5108"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "para Automação DAS5307 eh Conceito de projeto. Fases e componentes de um projeto. Estruturas organizacionais e o gerenciamento de projetos. Planejamento e controle de projetos. O gerente de projeto e as competências interpessoais. Portfólio em gestão de projetos. Modelos de gerenciamento ágil e tradicional de projetos. Ferramentas computacionais de apoio ao projeto. Tendências e oportunidades em gerenciamento de projetos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "DAS5105",
+      "code": "DAS5105",
+      "name": "Projeto Integrador",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5109",
+        "DAS5203",
+        "DAS5320",
+        "EEL7550",
+        "EPS2351"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DAS5109"
+          },
+          {
+            "kind": "course",
+            "code": "DAS5203"
+          },
+          {
+            "kind": "course",
+            "code": "DAS5320"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7550"
+          },
+          {
+            "kind": "course",
+            "code": "EPS2351"
+          },
+          {
+            "kind": "hours",
+            "hours": 108
+          }
+        ]
+      },
+      "prerequisiteHours": 108,
+      "syllabus": "Estudo da teoria sobre desenvolvimento e gestão de projetos. Revisão sobre metodologias de desenvolvimento de projetos. Projeto de um sistema automatizado: a cada semestre, será discutido um problema a ser tratado por cada grupo de trabalho.",
+      "extensionHours": 108
+    },
+    {
+      "id": "DAS5142",
+      "code": "DAS5142",
+      "name": "Sistemas Dinâmicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5120"
+      },
+      "syllabus": "Sistemas dinâmicos lineares e não lineares. Exemplos em controle de processos, mecatrônica, sistemas biológicos, sistemas de energia. etc. Problemas não lineares na engenharia de controle. Representação matemática por variáveis de estado. Espaço de estados (plano de fase). Análise qualitativa de sistemas dinâmicos (equilíbrios, ciclos limites e comportamento aperiódico). Teorema da linearização de Hartman-Grobman.Estabilidade Estrutural. Bifurcações em sistemas dinâmicos. Diagrama de bifurcações. Não linearidades estáticas em sistemas de controle (saturação, zona morta, histerese, folga, atrito, etc.) Estudo de casos de sistemas de controle com saturação, válvulas de controle industriais não lineares (características estáticas de igual porcentagem e de abertura rápida) e atrito.Métodos de analise no domínio frequêncial para detecção de ciclos limites: método do balanço harmônico (função descritiva) e extensão do critério de Nyquist. Sistemas realimentados com restrições na ação de controle: saturação e métodos de Anti-windup. Análise de estabilidade de sistemas dinâmicos pelo método de Lyapunov. Principais técnicas de projeto de controladores para sistemas dinâmicos: (i) compensação de não linearidades estáticas (folga, quantização, zona morta, atrito); (ii) linearização por realimentação de estado e de saída; (iii) projeto baseado em funções de Lyapunov."
+    },
+    {
+      "id": "DAS5318",
+      "code": "DAS5318",
+      "name": "Avaliação de Desempenho de Processos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5203"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5203"
+      },
+      "syllabus": "Introdução à medição e avaliação de desempenho. Variabilidade de sistemas e distribuições estatísticas. Coleta e tratamento estatístico de dados. Processos organizacionais. Indicadores de desempenho e KPIs. Tipos de Sistemas de Produção e de Manufatura/Industriais. Seleção de indicadores de desempenho. Construção de indicadores de desempenho. Metodologia de construção de modelos de simulação para avaliação de desempenho. Modelagem de Processos. Análise de Impactos sócio-econômico-ambientais e de Riscos de soluções propostas. Modelagem, implementação e avaliação de desempenho por simulação de sistemas a eventos discretos em empresas. Apresentação de resultados de avaliação de desempenho."
+    },
+    {
+      "id": "EEL5354",
+      "code": "EEL5354",
+      "name": "Eletrotécnica para Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL5193",
+        "EEL7540"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL5193"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7540"
+          }
+        ]
+      },
+      "syllabus": "de Sistemas Organizacionais (EXT 36h-a) INE5108) PRINCÍPIOS DE SISTEMAS ELÉTRICOS: Princípios de geração, transmissão e distribuição de energia elétrica, Noções de tarifação, Princípio da compensação de energia reativa, Transformadores de potência; INSTALAÇÕES DE BAIXA TENSÃO: Princípios da proteção contra choques elétricos, Aterramentos, Projeto de instalações elétricas, Equipamentos elétricos para instalação em baixa tensão, Dispositivos de proteção, Diagrama Unifilar; SELEÇÃO E INSTALAÇÃO DE MOTORES ELÉTRICOS: Dimensionamento de potência, Caixa redutora, Aspectos práticos de partida de motores, Dispositivos de manobra (contatores e relés), Projeto de circuitos alimentadores, Proteção. Laboratório: 18 horas-aula."
+    },
+    {
+      "id": "EMC5251",
+      "code": "EMC5251",
+      "name": "Introdução à Robótica Industrial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5214"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5214"
+      },
+      "syllabus": "Componentes dos robôs; Analise de propriedades cinemáticas; Cinemática de robôs; Introdução à estática de robôs; Introdução à dinâmica dos robôs; Geração de trajetórias para robôs; Controle de robôs; Sensores; Programação de robôs; Aplicações de robôs."
+    },
+    {
+      "id": "EMC5258",
+      "code": "EMC5258",
+      "name": "Introdução à Automação da Manufatura",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5307"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5307"
+      },
+      "syllabus": "-Introdução à Manufatura. Automação de Sistemas de Manufatura: Definição, Níveis e Necessidade da Automação. Monitoramento de Segurança, Diagnósticos de Manutenção, Detecção de Erro e Recuperação. Layouts: Funcional, Por Produto, Posicional, Contínuo, Celular. Manufatura Celular: Definição, Tecnologia de Grupo, Formação de Células. Sistemas Flexíveis de Manufatura (FMS). Sistemas Automatizados de Montagem. Sistemas Automatizados de Armazenamento. Veículos Guiados Automaticamente (AGVs). Princípios Básicos de Materiais. Tratamentos Térmicos. Ensaios Mecânicos. Processos de Fabricação: Fundição, Conformação Mecânica, Usinagem, Soldagem. CAD/CAE (produtos): Modelagem Geométrica, Análise de Propriedades de Massa, Verificação de Interferência, Análise de Tolerâncias. Projeto para a Montagem Automatizada. CAPP/CAM (processos): Seleção de Processos de Fabricação, Seleção de Máquinas, Ferramentas e Dispositivos de Fixação, Simulação de Trajetórias."
+    },
+    {
+      "id": "DAS5402",
+      "code": "DAS5402",
+      "name": "Ética e Aspectos de Segurança em Sistemas de Controle e Automação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DAS5401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2300,
+        "courseType": "Ob"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DAS5401"
+      },
+      "prerequisiteHours": 2300,
+      "syllabus": "Ética aplicada a sistemas de engenharia. Segurança em sistemas automatizados. Responsabilidade técnica. Legislação e estatísticas de acidentes de trabalho. Normas regulamentadoras de segurança. Combate a incêndios. Análise probabilística de risco (PRA). Elementos de confiabilidade. Análise de modos de falha (FMEA). Árvore de falhas FTA. Princípios de manutenção baseada no monitoramento (CBM)."
+    },
+    {
+      "id": "DAS5502",
+      "code": "DAS5502",
+      "name": "Estágio em Controle e Automação",
+      "credits": 12,
+      "hours": 216,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5105"
+      ],
+      "equivalents": [
+        "DAS5501"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5105"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DAS5501"
+      },
+      "syllabus": "Acompanhamento e participação em projetos de engenharia que envolvam atividades relacionadas (mas não limitadas) às disciplinas desenvolvidas ao longo do curso. Identificação de problemas de Engenharia e propostas de solução. Projeto de Engenharia de Controle e Automação. Revisão bibliográfica sobre o tema do estágio. Inovação e Atuação Empreendedora em Engenharia. Metodologia de projeto. Desenvolvimento de projeto. Fundamentação teórica. Avaliação crítica dos impactos de soluções de Engenharia nos contextos social, legal, econômico e ambiental. Escrita de relatório técnico."
+    },
+    {
+      "id": "EPS7076",
+      "code": "EPS7076",
+      "name": "Gestão Econômica e de Investimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EPS5211"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 900,
+        "courseType": "Ob"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS5211"
+      },
+      "prerequisiteHours": 900,
+      "syllabus": "Matemática financeira: juros simples e compostos; relações de equivalência; taxas de juros e taxa ajustada à inflação; sistemas de amortização. Análise de investimentos: payback descontado; valor presente líquido; taxa interna de retorno; projeção de fluxo de caixa. Análise de demonstrações financeiras: balanço patrimonial; demonstração de resultado do exercício; indicadores de análise."
+    },
+    {
+      "id": "DAS5512",
+      "code": "DAS5512",
+      "name": "Projeto de Fim de Curso",
+      "credits": 20,
+      "hours": 360,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DAS5502",
+        "DAS5501"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DAS5502"
+              },
+              {
+                "kind": "course",
+                "code": "DAS5501"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Projeto de Engenharia de Controle e Automação. Identificação de problemas de Engenharia. Revisão bibliográfica a respeito do tema de projeto. Inovação e incentivo à atuação empreendedora em Engenharia. Metodologia de projeto. Fundamentação teórica. Desenvolvimento de projeto de automação. Avaliação crítico-reflexiva dos impactos das soluções de engenharia nos contextos social, legal, econômico e ambiental. Defesa de projeto.",
+      "extensionHours": 18
+    },
+    {
+      "id": "DAS5131",
+      "code": "DAS5131",
+      "name": "Controle Multivariável",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5120"
+      },
+      "syllabus": "Rol de Disciplinas Optativas Profissionalizantes Representação por variáveis de estado de sistemas contínuos e amostrados. Metodologia de análise e projeto de sistemas de controle multivariável. Controlabilidade e observabilidade. Decomposição canônica de sistemas lineares. Formas canônicas. Relação entre a representação por variáveis de estado e a matriz função de transferência. Pólos e zeros multivariáveis. Controle com o estado mensurável. Realimentação de estados. Propriedades: caso monovariável, extensão de resultados. Conceito de estimador de estado; Observadores; Controle usando realimentação de estado estimado. Teorema da separação; Introdução ao conceito de compensação dinâmica. Laboratório: (18 hs) - Utilização de ferramentas de análise e projeto de sistemas multivariáveis. (PACSC). Aplicação a processos físicos tipicamente multivariáveis. (coluna de destilação, motores ac., etc)."
+    },
+    {
+      "id": "DAS5306",
+      "code": "DAS5306",
+      "name": "Programação Concorrente e Sistemas de Tempo Real",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5308"
+      ],
+      "equivalents": [
+        "DAS5303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5308"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DAS5303"
+      },
+      "syllabus": "Programação concorrente: motivação, mecanismos de comunicação e de sincronização. Sistemas operacionais: características e uso, gerência do processador, da memória e de outros recursos, estudos de caso. Sistemas com requisitos de tempo real. Políticas de escalonamento de tempo real. Linguagens com características de programação em tempo-real. Projeto de executivo tempo-real. Laboratório: 18 h."
+    },
+    {
+      "id": "DAS5315",
+      "code": "DAS5315",
+      "name": "Sistemas Distribuídos para Automação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5314"
+      ],
+      "equivalents": [
+        "DAS5331"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5314"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DAS5331"
+      },
+      "syllabus": "Sistemas Distribuídos: Modelo Cliente/Servidor; RPC e RMI; Comunicação de Grupo; Servidor de Nomes (DNS, X.500, LDAP); Suportes de Middleware; Estudo de caso: CORBA; Serviço de Arquivos Distribuídos (NFS, Andrews File System); Sincronização em Sistemas Distribuídos (Tempo e Estado Global). Projeto de aplicação distribuída."
+    },
+    {
+      "id": "DAS5319",
+      "code": "DAS5319",
+      "name": "Integração de Sistemas Industriais e Empresariais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5314",
+        "DAS5320"
+      ],
+      "equivalents": [
+        "DAS5316"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DAS5314"
+          },
+          {
+            "kind": "course",
+            "code": "DAS5320"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DAS5316"
+      },
+      "syllabus": "Integração de sistemas e seus requisitos. Integração de empresas, processos, sistemas, pessoas e máquinas. O modelo de referência ISA-95 pirâmide da automação. CIM e Indústria 4.0. Transformação Digital. Principais sistemas envolvidos em integrações empresariais e industriais (ERP, PIMS/MES, BPM, sistemas ciberfísicos, IoT). Abordagens, estratégias e patterns de integração e interoperação de sistemas gerais e legados. Arquiteturas e Modelos de integração. Arquiteturas Orientadas a Serviços. ESB (Enterprise Service Bus)."
+    },
+    {
+      "id": "DAS5341",
+      "code": "DAS5341",
+      "name": "Inteligência Artificial Aplicada a Controle e Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "INE5430"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000,
+        "courseType": "Ob"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5430"
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Algorítmos de procura; árvores de decisão; representação do conhecimento (Sistemas de Produção, Frames). Sistemas Especialistas. Linguagens PROLOG, LISP. Ferramentas de Desenvolvimento de Sistemas Especialistas. Aplicações. Redes Neurais. Laboratório: 36 horas."
+    },
+    {
+      "id": "DAS5520",
+      "code": "DAS5520",
+      "name": "Processamento de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5214"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5214"
+      },
+      "syllabus": "-Série de Fourier; Transformada de Fourier de sinais contínuos, discretos e amostrados; extração de características de sinais; aplicações em projetos de filtros contínuos e discretos, monitoramento e comunicações."
+    },
+    {
+      "id": "DAS5901",
+      "code": "DAS5901",
+      "name": "Tópicos especiais em Controle: Introdução",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5120"
+      ],
+      "equivalents": [
+        "EEL5810"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5120"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL5810"
+      },
+      "syllabus": "Introdução: modelos de processos contínuo e discreto, modelos com perturbação, equação à diferença linear geral, métodos clássicos de identificação nos domínios do tempo e da freqüência. Métodos de identificação \"off-line\" e \"on-line\": mínimos quadrados, mínimos quadrados generalizado, variável instrumental, aproximação estocástica. Determinação de modelos contínuos a partir de dados amostrados. Processos variantes no tempo: fator de esquecimento variável, reinicialização da matriz de covariância, métodos de detecção de ruptura de modelos, fatorização UD, validação de modelos. Controladores adaptativos: alocação de polos, PID, DeadBeat, Dahlin, auto-ajustável de variância mínima, auto-ajustável de variância mínima generalizada: indireto e direto, PID auto-ajustável com estrutura GMV, preditivos: MAC, DMC, GPC."
+    },
+    {
+      "id": "DAS5921",
+      "code": "DAS5921",
+      "name": "Tópicos Especiais em Informática",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5214"
+      ],
+      "equivalents": [
+        "EEL5811"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5214"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EEL5811"
+      },
+      "syllabus": "à Identificação e ao Controle Adaptativo (DAS5121) Instrumentação na indústria de P&G: Sensores e atuadores utilizados nas plantas de extração, produção, transporte e refino. Transmissores \"inteligentes\". Controladores industriais. Redes industriais fieldbus para P&G.:Principais padrões de redes tipo fielbus: CAN, ASi, Fieldbus foundation. Redes para áreas de segurança intrínseca (áreas sujeitas a risco de explosão ou incêndio). Aspectos de segurança intrínseca e tolerância a falhas. Algoritmos de escalonamento em tempo real. Controle e supervisão de instalações de P&G: Sistemas de controle baseados em redes industriais tipo fieldbus. Aulas práticas sobre uma planta piloto de laboratório (planta didática da empresa SMAR)."
+    },
+    {
+      "id": "DAS5931",
+      "code": "DAS5931",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em Programa de Intercâmbio Acadêmico - decorrente de convênio assinado com Instituições de Ensino Superior, Agências de Fomento, Centros de Pesquisa e instituições semelhantes - visando a realização de atividades acadêmicas como cursos, estágios e pesquisas orientados ao aprimoramento da formação do aluno, devidamente aprovadas pelo Colegiado do Curso."
+    },
+    {
+      "id": "DAS5932",
+      "code": "DAS5932",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5931"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5931"
+      },
+      "syllabus": "Continuidade da participação em Programa de Intercâmbio Acadêmico visando a realização de cursos, estágios e pesquisas orientados ao aprimoramento da formação do aluno."
+    },
+    {
+      "id": "DAS5944",
+      "code": "DAS5944",
+      "name": "Tópicos Especiais em Controle: Instrumentação Aplicada à Industria de Petróleo e Gás",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5214",
+        "EEL7550"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DAS5214"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7550"
+          }
+        ]
+      },
+      "syllabus": "Parte Teórica - Terminologia e definições básicas (alcance, amplitude, resolução, etc.) utilizadas no setor de instrumentação. Funções de instrumentos (indicador, transmissor, controlador, registrador, etc.). Classificação e identificação de instrumentos. Diagramas de processo de instrumentação. Sistemas de transmissão em corrente 4-20 mA. Sensores e transmissores para medir: Pressão, Temperatura e Vazão. Medidores para aplicações especiais: para prospecção, multifásicos, para detecção de vazamento, etc. Elemento final de controle. Válvulas. Tipos de válvulas de controle. Válvulas de segurança e reguladoras de pressão auto-operadas. Válvulas para aplicações específicas: gás-lift, check valve, etc. Bombas. Controladores industriais. Parte Prática - serão realizadas práticas sobre plantas piloto de laboratório (plantas didáticas da empresa ARMFIELD existentes no LCP-DAS)."
+    },
+    {
+      "id": "DAS5945",
+      "code": "DAS5945",
+      "name": "Tópicos Especiais em Controle: Técnicas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5120"
+      },
+      "syllabus": "Controle Preditivo: introdução; metodologia; algoritmos específicos; aplicações a processos da indústria de petróleo e gás."
+    },
+    {
+      "id": "DAS5946",
+      "code": "DAS5946",
+      "name": "Tópicos Especiais em Controle e Automação: Introdução à Engenharia do Petróleo e Gás",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5214"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5214"
+      },
+      "syllabus": "de Controle Aplicadas à Indústria de Petróleo e Gás O petróleo: noções de geologia; prospecção; perfuração; avaliação de formações; completação; reservatórios; elevação; processamento primário de fluídos e refino."
+    },
+    {
+      "id": "DAS5947",
+      "code": "DAS5947",
+      "name": "Tópicos Especiais em Controle e Automação: Introdução ao Controle para Indústria do Petróleo e Gás",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5214"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5214"
+      },
+      "syllabus": "Aplicação das principais estratégias de controle aos equipamentos e processos da indústria de petróleo e gás. Estudo de casos: Reatores FCC, Fracionadores, Colunas de Destilação, trocadores de calor."
+    },
+    {
+      "id": "DAS5948",
+      "code": "DAS5948",
+      "name": "Tópicos Especiais em Controle e Automação: Seminário para à Industria do Petróleo e Gás",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5214"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5214"
+      },
+      "syllabus": "Palestras sobre temas selecionados proferidas por especialistas, tratando de temas como: Geologia do Petróleo, Petrofísica, Perfuração/Completação, Recuperação Avançada de Petróleo, Simulação de Reservatórios de Petróleo, Dutos, Refino: Separação de Hidrocarbonetos por Destilação, Produção de Biocatalisadores para utilização em biorrefino e biorremediação de áreas contaminadas com petróleo, Geração Termelétrica e Cogeração com Gás Natural, Gás Natural, Meio Ambiente, Política e Economia. Estruturação de seminário sobre o tema de pesquisa na área de petróleo, gás e biocombustíveis."
+    },
+    {
+      "id": "DAS5951",
+      "code": "DAS5951",
+      "name": "Tópicos Avançados em Controle e Automação I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso."
+    },
+    {
+      "id": "DAS5952",
+      "code": "DAS5952",
+      "name": "Tópicos Avançados em Controle e Automação II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso."
+    },
+    {
+      "id": "DAS5953",
+      "code": "DAS5953",
+      "name": "Tópicos Avançados em Controle e Automação III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso"
+    },
+    {
+      "id": "DAS5954",
+      "code": "DAS5954",
+      "name": "Tópicos Avançados em Controle e Automação IV",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso."
+    },
+    {
+      "id": "DAS5955",
+      "code": "DAS5955",
+      "name": "Tópicos Avançados em Controle e Automação V",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso."
+    },
+    {
+      "id": "DAS5956",
+      "code": "DAS5956",
+      "name": "Tópicos Avançados em Controle e Automação VI",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso."
+    },
+    {
+      "id": "DAS5957",
+      "code": "DAS5957",
+      "name": "Tópicos Avançados em Controle e Automação VII",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso."
+    },
+    {
+      "id": "DAS5958",
+      "code": "DAS5958",
+      "name": "Tópicos Avançados em Controle e Automação VIII",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso."
+    },
+    {
+      "id": "DAS5959",
+      "code": "DAS5959",
+      "name": "Tópicos Avançados em Controle e Automação IX",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso."
+    },
+    {
+      "id": "DAS5960",
+      "code": "DAS5960",
+      "name": "Tópicos Avançados em Controle e Automação X",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso."
+    },
+    {
+      "id": "DAS5961",
+      "code": "DAS5961",
+      "name": "Tópicos Avançados em Controle e Automação XI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso."
+    },
+    {
+      "id": "DAS5962",
+      "code": "DAS5962",
+      "name": "Tópicos Avançados em Controle e Automação XII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Código de disciplina utilizado para fazer reaproveitamento de disciplina cursada em outra instituição, sendo a disciplina cursada não equivalente a outra disciplina do curso de Engenharia de Controle e Automação e considerada como avançada no escopo. Deverá passar por análise do coordenador e colegiado do curso."
+    },
+    {
+      "id": "EEL7125",
+      "code": "EEL7125",
+      "name": "Instrumentação Biomédica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sensores, Transdutores e Visão Geral de Sistemas de Instrumentação. Circuitos Básicos com Amplificador Operacional. Amplificador Operacional Real, Limitações no Desempenho. Amplificadores para Instrumentação. Cálculo de erros em sistemas de aquisição de dados. Instrumentação eletrônica Sistemas de medição e Instrumentação Biomédica. Origem e medição de Biopotencias. Instrumentação de Laboratório Clínico. Instrumentos em geral utilizados em cardiologia. Equipamentos para o sistema respiratório. Sistemas de Imagem Médica. Tomografia computadorizada. Dispositivos Terapêuticos e Protéticos. O Conceito Integrado de Segurança Elétrica. Novos instrumentos e novas tecnologias. Aplicações e estudos de caso; experiência hands-on com sensores e desenvolvimento de sistemas eletrônicos e dispositivos para medição de sinais biomédicos."
+    },
+    {
+      "id": "EEL7307",
+      "code": "EEL7307",
+      "name": "Introdução a Informática Médica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos sistemas de informática médica. Registro eletrônico de saúde. Grandezas e sinais biomédicos (ECG, EEG, PPG, EMG, outros). Processamento de sinais biomédicos: domínios do tempo, frequência e análise conjunta. Processamento de sinais biomédicos: PCA e ICA. Métodos de decisão e aprendizagem de máquina: Thresholding, KNN, árvores, RNA. Técnicas de diagnóstico por imagens: oftalmoscopia, ultrassonografia, tomografia computadorizada."
+    },
+    {
+      "id": "EEL7324",
+      "code": "EEL7324",
+      "name": "Engenharia Clínica para Uso Médico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos de Engenharia Clínica: definição de engenharia clínica, de tecnologias em saúde, de equipamentos médicos-assistenciais, ciclo de vida dos equipamentos; Modelo de gestão e gerenciamento de tecnologias médico-hospitalares: definição do modelo, domínios, impacto no ciclo de vida, conceitos de qualidade; Equipamentos médicos-assistenciais: abordagem sobre equipamentos, funcionalidade, aplicação, diagrama de blocos, ensaios de desempenho e segurança. Principais atividades realizadas pela engenharia clínica: especificação, recebimento, instalação, treinamento, manutenção, substituição dos equipamentos."
+    },
+    {
+      "id": "EEL7885",
+      "code": "EEL7885",
+      "name": "Fundamentos de Engenharia Biomédica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Áreas da engenharia biomédica: instrumentação biomédica, informática médica, bioengenharia e engenharia clínica; Funcionalidade de Sistemas Biológicos: Função dos sistemas e Tecnologias. Introdução processos fisiológicos e aplicações tecnológicas; Aspectos de Segurança Elétrica e Gerenciamento de Riscos, Biossegurança e proteção Radiológica em ambientes com tecnologias na Saúde; Introdução a instrumentação biomédica: Tecnologias e circuitos com aplicação na Engenharia Biomédica; Principais atividades desenvolvidas pela engenharia clínica: gestão e gerenciamento de tecnologia. Equipamentos médicos-assistenciais. Ensaios de desempenho e segurança."
+    },
+    {
+      "id": "EGC5037",
+      "code": "EGC5037",
+      "name": "Felicidade e Bem-Estar no Ambiente",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Bem-estar e felicidade. Fatores que influenciam no bem-estar e na felicidade. Inteligência Emocional. Emoções positivas. Equilíbrio emocional e atenção plena. Autoconhecimento. Relações humanas. Gestão do estresse e da ansiedade. Hábito: desenvolvendo disciplina. Reconhecendo e trabalhando as crenças."
+    },
+    {
+      "id": "EMC5123",
+      "code": "EMC5123",
+      "name": "Mecanismos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Acadêmico Introdução. Conceitos e notações aplicado a mecanismos. Estudo de tipos de mecanismos. Síntese dimensional de mecanismos articulados. Análise e cinemática de cames planos."
+    },
+    {
+      "id": "EMC5219",
+      "code": "EMC5219",
+      "name": "Tecnologia de Comando Numérico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituação de um Sistema de Comando Numérico. Princípios de funcionamento. Sistemas de acionamento. Controle de posição. Armazenamento das informações, etc. Equipamentos que utilizam sistemas de Comando Numérico. Diversos tipos de aplicações. Características peculiares dos componentes mecânicos e eletrônicos. Manutenção. Noções de interligação entre diversos equipamentos e com sistemas de informação. Noções de programação."
+    },
+    {
+      "id": "EMC5227",
+      "code": "EMC5227",
+      "name": "Automação de Processos de Soldagem",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Fundamentos dos processos de soldagem e suas variantes modernas, com ênfase em processos a arco elétrico: revisão dos processos de soldagem clássicos; inovações construtivas e eletrônicas e eletromecânicas dos processos; aplicações dos processos modernos e suas limitações; processos híbridos. Sistemas de mecanização / automação da soldagem e monitoração: fontes de soldagem e acessórios para alimentação de material, panorama geral sobre sistemas de automação da soldagem, programação e funcionalidades especiais de manipuladores para soldagem, integração/ sincronização fonte de energia e manipuladores, aplicações e limitações de diferentes manipuladores e robôs para soldagem, sistemas sensoreados para soldagem adaptativa. Técnicas de monitoração / inspeção da solda, do sistema de soldagem e do movimento: ultrassom, radiografia, e vídeo-termografia, sensor tátil e filmagem de alta velocidade."
+    },
+    {
+      "id": "EMC5246",
+      "code": "EMC5246",
+      "name": "Administração de Operações de Manufatura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EMC5257"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMC5257"
+      },
+      "syllabus": "Visão de engenharia da Gerência Operacional da Produção com ênfase na manufatura. Aspectos de Engenharia de Manufatura. Administração Operacional da Produção. Papel Estratégico e Objetivo da Produção. Apresentação do Jogo da Produção. Projeto da Rede de Operações Produtivas. Arranjo Físico e Fluxo. Tecnologia de Processo. Planejamento e Controle."
+    },
+    {
+      "id": "EMC5301",
+      "code": "EMC5301",
+      "name": "Introdução ao Projeto Manufatura-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Esta disciplina tem como objetivo, fornecer um entendimento geral sobre os conceitos fundamentais que envolvem a área de CAE/CAD/CAM. O aluno deverá usar um software CAD/CAM comercial, aplicando os conceitos aprendidos na área do projeto mecânico em geral. O uso das ferramentas de CAD/CAM e o exercício dos conceitos de projeto mecânico lhe facultará o desenvolvimento de habilidades necessárias nos diversos estágios do projeto e manafatura de um produto."
+    },
+    {
+      "id": "EMC5415",
+      "code": "EMC5415",
+      "name": "Trocadores de Calor",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos trocadores de calor; Conceitos fundamentais; Metodologia de projeto, Projeto termo-hidráulico de trocadores bitubulares, casco-e- tubos, de placas e compactos."
+    },
+    {
+      "id": "EMC5444",
+      "code": "EMC5444",
+      "name": "Projeto de Sistemas Térmicos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Metodologia do projeto. Noções de economia aplicada à análise de investimentos. Ajustes de equações. Modelação. Simulação. Otimização. Técnicas de otimização aplicadas ao projeto de sistemas térmicos."
+    },
+    {
+      "id": "FSC7152",
+      "code": "FSC7152",
+      "name": "Computação Quântica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3121",
+        "MTM3112"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3112"
+          }
+        ]
+      },
+      "syllabus": "Álgebra linear com a notação de Dirac. Postulados da Mecânica Quântica. Conceitos básicos de computação clássica. Portas lógicas clássicas. Portas lógicas quânticas. Circuitos quânticos. Protocolos e algoritmos quânticos."
+    },
+    {
+      "id": "INE5413",
+      "code": "INE5413",
+      "name": "Grafos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Grafos e grafos orientados. Representação de problemas com grafos. Caminhos, ciclos e caminho de custo mínimo. Conexidade e alcançabilidade. Árvores e árvore de custo mínimo. Coloração e planaridade de grafos. Grafos hamiltonianos e eulerianos. Fluxo máximo em redes. Estabilidade e emparelhamento em grafos. Problemas de cobertura e de travessia. Representações computacionais e complexidade de algoritmos em grafos."
+    },
+    {
+      "id": "INE5423",
+      "code": "INE5423",
+      "name": "Banco de Dados I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5102"
+      ],
+      "equivalents": [
+        "INE5613"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5102"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5613"
+      },
+      "syllabus": "Banco de Dados (BD). Sistema de Gerência de BD: funcionalidades, módulos principais, categorias de usuários, dicionário de dados. Modelo relacional: conceitos, restrições de integridade, álgebra relacional, cálculo relacional. Linguagens SQL: DDL, DML, restrições de integridade, visões, autorização de acesso. Modelagem de dados: etapas do projeto de um BD relacional, modelo Entidade-Relacionamento (ER), mapeamento ER-relacional. Teoria da Normalização: objetivo, dependências funcionais, formas normais."
+    },
+    {
+      "id": "INE5443",
+      "code": "INE5443",
+      "name": "Reconhecimento de Padrões",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Considerações iniciais sobre padrões. Técnicas simbólicas. Técnicas sub simbólicas: redes neurais. Raciocínio baseado em caso - estendendo RP com um framework de inteligência artificial. Técnicas estatísticas. Geração de padrões: análise de sinais e imagens. Criação de aplicação de reconhecimento de padrões."
+    },
+    {
+      "id": "INE5448",
+      "code": "INE5448",
+      "name": "Tópicos Especiais em Aplicações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ementa livre para assuntos relevantes na área de Aplicações Tecnológicas."
+    },
+    {
+      "id": "INE5455",
+      "code": "INE5455",
+      "name": "Testes de Software",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5320"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5320"
+      },
+      "syllabus": "Tecnológicas I Conceitos Básicos. Níveis de Testes. Tipos de Testes. Técnicas de Testes. Planejamento e Execução de Testes de Software. Desenvolvimento Orientado a Testes. Automação de Testes. Ferramentas de Testes."
+    },
+    {
+      "id": "INE5600",
+      "code": "INE5600",
+      "name": "Bancos de Dados III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aplicações não-convencionais. Novos desafios de gerenciamento de dados. Bancos de dados pós-relacionais: categorias, conceitos, modelos de dados, manipulação de dados, modelagem"
+    },
+    {
+      "id": "INE5616",
+      "code": "INE5616",
+      "name": "Bancos de Dados II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "INE5432"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5432"
+      },
+      "syllabus": "Etapas do processamento de uma consulta; otimização algébrica de consultas; plano de execução de consultas; fundamentos de transações: definição e propriedades; recuperação de transações na ocorrência de falhas; controle de concorrência de transações; fundamentos de bancos de dados distribuídos: arquiteturas, projeto, processamento de consultas e gerência de transações; tópicos especiais."
+    },
+    {
+      "id": "INE5633",
+      "code": "INE5633",
+      "name": "Sistemas Inteligentes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico e conceitos preliminares. Problemas e espaços de problemas. Métodos de solução de problemas. Representação do conhecimento. Sistemas especialistas. Ferramentas de Inteligência Artificial. Aquisição do conhecimento. Linguagem natural. Jogos. Lógica da Inteligência Artificial. Uso de Lógicas em Sistemas Especialistas."
+    },
+    {
+      "id": "INE5643",
+      "code": "INE5643",
+      "name": "Data Warehouse",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos. Os Ecossistemas de Informação. O Ciclo de Vida do DW: Planejamento e Administração, Levantameto de Requisitos, Modelagem Dimensional, Projeto Físico, o Back-Room e o Froon-Room, Metadados, Arquiteturas, Implementação, Segurança e Internet. Implantação, Suporte e Treinamento."
+    },
+    {
+      "id": "INE5644",
+      "code": "INE5644",
+      "name": "Data Mining",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Considerações iniciais da área e aplicações. Processos de descoberta do conhecimento (KDD) em base de dados. Análise exploratória de dados. Tipos de variáveis, Técnicas de Data Mining para classificação, estimação, predição, análise de agrupamentos, análise de associação: redes neurais, árvores de decisão, regras de decisão, análise discriminante, regressão linear, regressão logística, análise de cluster, análise de componentes principais. Uso de softwares de data mining. Exercícios. Data Mining de caso."
+    },
+    {
+      "id": "INE5649",
+      "code": "INE5649",
+      "name": "Técnicas Estatísticas de Predição",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de correlações. Análise de regressão linear simples: modelo, inferências, análise de resíduos e transformações. Análise de regressão linear múltipla. Modelo com variáveis independentes categóricas. Séries temporais: componentes da série e técnicas previsão. Utilização de planilha eletrônica e/ou pacote computacional de estatística."
+    },
+    {
+      "id": "INE5681",
+      "code": "INE5681",
+      "name": "Modelagem e Automação de Processos de Negócios",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DAS5320"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DAS5320"
+      },
+      "syllabus": "Gestão de negócios pela visão de processos de negócio. Modelagem da arquitetura e de regras de negócio. Ciclo da gestão de processos de negócio. Notações e métodos para modelagem de processos. Tópicos avançados em modelagem de processos, incluindo introdução à automação e indicadores de processos e aos sistemas para gestão de processos, e integração com requisitos de sistema e desenvolvimento de software."
+    },
+    {
+      "id": "ANT7003",
+      "code": "ANT7003",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Disciplinas Optativas Livres Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Particularidades históricas e processos de diferenciação. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política."
+    },
+    {
+      "id": "EGR5037",
+      "code": "EGR5037",
+      "name": "História e Evolução do Design",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5037
+      },
+      "prerequisiteHours": 5037,
+      "syllabus": "Acadêmico Introdução ao Design. Aspectos históricos e origens do Design Design e vanguardas artísticas. As influências dos designers de diferentes países. O design moderno e contemporâneo."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "DAS5200",
+      "code": "DAS5200",
+      "name": "Atividades Complementares",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Esta disciplina (optativa livre) objetiva validar atividades complementares do(a) estudante como Iniciação Científica, monitoria, Presidência da Empresa Júnior ou do Centro Acadêmico do Curso, representações discentes, etc, conforme critérios estabelecidos no Projeto Pedagógico do Curso."
+    },
+    {
+      "id": "DAS5300",
+      "code": "DAS5300",
+      "name": "Ações de Extensão",
+      "credits": 12,
+      "hours": 216,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 216
+      },
+      "prerequisiteHours": 216,
+      "syllabus": "Rol de Ações de Extensão ( Ações de Extensão: I - Projetos , II - Eventos e III - Cursos.",
+      "extensionHours": 216
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "DAS5334",
+      "DAS5412",
+      "ECZ5102",
+      "EGR5606",
+      "FSC5101",
+      "MTM3110",
+      "DAS5102",
+      "EEL5105",
+      "FSC5002",
+      "FSC5122",
+      "MTM3120",
+      "MTM3121",
+      "DAS5210",
+      "DAS5332",
+      "ECV5215",
+      "FSC5113",
+      "MTM3103",
+      "MTM3131",
+      "DAS5103",
+      "DAS5214",
+      "DAS5307",
+      "DAS5308",
+      "EEL7540",
+      "INE5108",
+      "DAS5109",
+      "DAS5203",
+      "DAS5320",
+      "EEL7550",
+      "EMC5235",
+      "EMC5425",
+      "CNM7820",
+      "DAS5120",
+      "DAS5151",
+      "DAS5314",
+      "EEL5193",
+      "EMC5467",
+      "EPS2351",
+      "DAS5105",
+      "DAS5142",
+      "DAS5318",
+      "EEL5354",
+      "EMC5251",
+      "EMC5258",
+      "DAS5402",
+      "DAS5502",
+      "EPS7076",
+      "DAS5512",
+      "DAS5300"
+    ],
+    "requirements": [
+      {
+        "id": "professional-electives",
+        "name": "Optativas profissionalizantes",
+        "requiredHours": 432,
+        "sources": [
+          {
+            "id": "professional-electives-catalogue",
+            "courseIds": [
+              "DAS5131",
+              "DAS5306",
+              "DAS5315",
+              "DAS5319",
+              "DAS5341",
+              "DAS5520",
+              "DAS5901",
+              "DAS5921",
+              "DAS5944",
+              "DAS5945",
+              "DAS5946",
+              "DAS5947",
+              "DAS5948",
+              "DAS5951",
+              "DAS5952",
+              "DAS5953",
+              "DAS5954",
+              "DAS5955",
+              "DAS5956",
+              "DAS5957",
+              "DAS5958",
+              "DAS5959",
+              "DAS5960",
+              "DAS5961",
+              "DAS5962",
+              "EEL7125",
+              "EEL7307",
+              "EEL7324",
+              "EEL7885",
+              "EMC5123",
+              "EMC5219",
+              "EMC5227",
+              "EMC5246",
+              "EMC5301",
+              "EMC5415",
+              "EMC5444",
+              "FSC7152",
+              "INE5413",
+              "INE5423",
+              "INE5443",
+              "INE5448",
+              "INE5455",
+              "INE5600",
+              "INE5616",
+              "INE5633",
+              "INE5643",
+              "INE5644",
+              "INE5649",
+              "INE5681"
+            ],
+            "allowsManualHours": false
+          }
+        ]
+      },
+      {
+        "id": "free-electives",
+        "name": "Optativas livres ou atividades complementares",
+        "requiredHours": 36,
+        "sources": [
+          {
+            "id": "free-electives-catalogue",
+            "courseIds": [
+              "ANT7003",
+              "DAS5931",
+              "DAS5932",
+              "EGC5037",
+              "EGR5037",
+              "LSB7244",
+              "DAS5200"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "free-electives-external",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 36
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "220",
+    "curriculumCode": "20241",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=220&curriculo=20241",
+    "sha256": "aa23494d0f7b1b900fb9b2f5c6a2227b11c0374854f0473e0c67f231bc354f06",
+    "capturedAt": "2026-07-15"
+  }
+}

@@ -18,6 +18,7 @@ interface CourseCardProps {
   onClick: () => void;
   onMouseEnter: () => void;
   onMouseLeave: () => void;
+  onOpenDetails?: (course: Course) => void;
   isOverlay?: boolean;
 }
 
@@ -32,6 +33,7 @@ export function CourseCard({
   onClick,
   onMouseEnter,
   onMouseLeave,
+  onOpenDetails,
   isOverlay = false,
 }: CourseCardProps) {
   const cardRef = useRef<HTMLDivElement | null>(null);
@@ -103,11 +105,17 @@ export function CourseCard({
     if (typeof navigator !== "undefined" && navigator.vibrate) {
       navigator.vibrate(50);
     }
+    const isTouch = typeof window !== "undefined" && window.matchMedia && !window.matchMedia("(hover: hover)").matches;
+    if ((isTouch || computedState === "blocked") && onOpenDetails) {
+      onOpenDetails(course);
+      return;
+    }
     onClick();
   };
 
   const updatePopoverPosition = useCallback(() => {
     if (!cardRef.current || typeof window === "undefined") return;
+    if (window.matchMedia && !window.matchMedia("(hover: hover)").matches) return;
     const rect = cardRef.current.getBoundingClientRect();
     setPopoverPosition(getCoursePopoverPosition(rect, { width: window.innerWidth, height: window.innerHeight }));
   }, []);
@@ -208,7 +216,7 @@ export function CourseCard({
           data-drag-handle="true"
           {...attributes}
           {...listeners}
-          className="absolute right-1.5 top-1/2 flex h-9 w-7 -translate-y-1/2 touch-none items-center justify-center rounded-lg text-[var(--text-faint)] opacity-75 transition hover:bg-[var(--accent-soft)] hover:text-[var(--accent)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
+          className="absolute right-1.5 top-1/2 hidden md:flex h-9 w-7 -translate-y-1/2 touch-none items-center justify-center rounded-lg text-[var(--text-faint)] opacity-75 transition hover:bg-[var(--accent-soft)] hover:text-[var(--accent)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
         >
           <span aria-hidden="true" className="grid grid-cols-2 gap-1">
             {Array.from({ length: 6 }, (_, index) => <span key={index} className="h-1 w-1 rounded-full bg-current" />)}
