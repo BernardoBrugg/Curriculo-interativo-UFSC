@@ -1,0 +1,1563 @@
+{
+  "program": "MEDICINA [Campus Araranguá]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.1",
+  "totalHours": 9144,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 12,
+      "name": "12ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "DCM1101",
+      "code": "DCM1101",
+      "name": "Módulo Sequencial I",
+      "credits": 24,
+      "hours": 432,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DCM8200",
+        "DCS8100",
+        "DCS8101",
+        "DCS8200"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8200"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8100"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8101"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8200"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Educação médica. Modelo pedagógico do curso de Medicina da UFSC Araranguá. Acompanhamento do desenvolvimento integral do ser humano, priorizando a adolescência.",
+      "extensionHours": 18
+    },
+    {
+      "id": "DCM1102",
+      "code": "DCM1102",
+      "name": "Habilidades e Humanidades I",
+      "credits": 8,
+      "hours": 144,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS8111",
+        "DCS8201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1102
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCS8111"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8201"
+          }
+        ]
+      },
+      "prerequisiteHours": 1102,
+      "syllabus": "Introdução à história da Medicina, Antropologia e Sociologia em saúde. Habilidades e atitudes médicas na relação médico paciente. Comunicação em saúde. Abordagem dos aspectos éticos da relação médico paciente. Introdução dos aspectos psicodinâmicos. Psicologia da saúde. Educação em Direitos Humanos. Introdução ao estudo da semiologia médica."
+    },
+    {
+      "id": "DCM1103",
+      "code": "DCM1103",
+      "name": "Saúde Coletiva I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS8121",
+        "DCS8202",
+        "DCS8302"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCS8121"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8202"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8302"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Saúde Pública. Introdução à Saúde Coletiva. Introdução a Políticas Públicas. Introdução aos Sistemas de Saúde"
+    },
+    {
+      "id": "DCM1201",
+      "code": "DCM1201",
+      "name": "Módulo Sequencial II",
+      "credits": 24,
+      "hours": 432,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1101"
+      ],
+      "equivalents": [
+        "DCM8203",
+        "DCS8102",
+        "DCS8110",
+        "DCS8203"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1101"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8203"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8102"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8110"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8203"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano, priorizando a gestação. Diagnóstico e acompanhamento da gravidez por meio da assistência e cuidados pré-natais.",
+      "extensionHours": 36
+    },
+    {
+      "id": "DCM1202",
+      "code": "DCM1202",
+      "name": "Habilidades e Humanidades II",
+      "credits": 8,
+      "hours": 144,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1102"
+      ],
+      "equivalents": [
+        "DCS8112",
+        "DCS8204"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1102"
+          },
+          {
+            "kind": "hours",
+            "hours": 1202
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCS8112"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8204"
+          }
+        ]
+      },
+      "prerequisiteHours": 1202,
+      "syllabus": "Habilidades e atitudes médicas na relação médico-paciente. Comunicação na Medicina. Humanidades como um conjunto de conceitos: filosóficos, históricos, sociológicos, antropológicos e psicológicos; relacionados a situações cotidianas de atenção à saúde individual e coletiva. Psicologia do desenvolvimento humano, possibilitando uma melhor compreensão do ser humano e das principais etapas do ciclo vital. Semiologia médica dos aparelhos e Sistemas."
+    },
+    {
+      "id": "DCM1203",
+      "code": "DCM1203",
+      "name": "Saúde Coletiva II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1103"
+      ],
+      "equivalents": [
+        "DCM8305",
+        "DCS8122",
+        "DCS8205",
+        "DCS8305"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1103"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8305"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8122"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8205"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8305"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Ciências Humanas e Sociais em Saúde, Antropologia da Saúde; Sociologia da Saúde, Filosofia da Saúde.",
+      "extensionHours": 36
+    },
+    {
+      "id": "DCM1301",
+      "code": "DCM1301",
+      "name": "Módulo Sequencial III",
+      "credits": 24,
+      "hours": 432,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1201"
+      ],
+      "equivalents": [
+        "DCS8103",
+        "DCS8120"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1201"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCS8103"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8120"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano, priorizando o recémnascido e a infância. Agravos comuns na infância.",
+      "extensionHours": 36
+    },
+    {
+      "id": "DCM1302",
+      "code": "DCM1302",
+      "name": "Habilidades e Humanidades III",
+      "credits": 8,
+      "hours": 144,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1202"
+      ],
+      "equivalents": [
+        "DCS8113"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1202"
+          },
+          {
+            "kind": "hours",
+            "hours": 1302
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8113"
+      },
+      "prerequisiteHours": 1302,
+      "syllabus": "Habilidades e atitudes médicas na relação médico paciente. Comunicação na Medicina. Humanidades como um conjunto de conceitos: filosóficos, históricos, sociológicos, antropológicos e psicológicos; relacionados a situações cotidianas de atenção à saúde individual e coletiva. Psicologia do desenvolvimento humano, possibilitando uma melhor compreensão do ser humano e das principais etapas do ciclo vital. Semiologia médica dos aparelhos e sistemas."
+    },
+    {
+      "id": "DCM1303",
+      "code": "DCM1303",
+      "name": "Saúde Coletiva III",
+      "credits": 8,
+      "hours": 144,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1203"
+      ],
+      "equivalents": [
+        "DCS8123",
+        "DCS8304",
+        "DCS8323"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1203"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCS8123"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8304"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8323"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Epidemiologia. Vigilância em Saúde . Extensão vinculada ao Programa Saúde Coletiva e Educação em Saúde",
+      "extensionHours": 36
+    },
+    {
+      "id": "DCM1401",
+      "code": "DCM1401",
+      "name": "Módulo Sequencial IV",
+      "credits": 24,
+      "hours": 432,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1301"
+      ],
+      "equivalents": [
+        "DCM8104",
+        "DCS8104",
+        "DCS8130"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1301"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8104"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8104"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8130"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano, priorizando a saúde do homem. Principais problemas relacionados à saúde do homem, bem como as modificações, complicações e cuidados específicos. Extensão vinculada ao Programa Saúde Coletiva e Educação em Saúde.",
+      "extensionHours": 36
+    },
+    {
+      "id": "DCM1402",
+      "code": "DCM1402",
+      "name": "Habilidades e Humanidades IV",
+      "credits": 8,
+      "hours": 144,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1302"
+      ],
+      "equivalents": [
+        "DCS8114"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1302"
+          },
+          {
+            "kind": "hours",
+            "hours": 1402
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8114"
+      },
+      "prerequisiteHours": 1402,
+      "syllabus": "Habilidades e atitudes médicas na relação médico paciente. Comunicação na Medicina. Humanidades como um conjunto de conceitos: filosóficos, históricos, sociológicos, antropológicos e psicológicos; relacionados a deontologia médica e bioética. Semiologia médica dos aparelhos e sistemas."
+    },
+    {
+      "id": "DCM1403",
+      "code": "DCM1403",
+      "name": "Saúde Coletiva IV",
+      "credits": 8,
+      "hours": 144,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1303"
+      ],
+      "equivalents": [
+        "DCM8324",
+        "DCS8124",
+        "DCS8306",
+        "DCS8324"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1303"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8324"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8124"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8306"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8324"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Planejamento em Saúde; Gestão em Saúde; Avaliação em Saúde; Monitoramento em Saúde; Financiamento em Saúde.",
+      "extensionHours": 36
+    },
+    {
+      "id": "DCM1501",
+      "code": "DCM1501",
+      "name": "Módulo Sequencial V (EXT 36-a)",
+      "credits": 24,
+      "hours": 432,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1401"
+      ],
+      "equivalents": [
+        "DCM8105",
+        "DCS8105",
+        "DCS8140"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DCM1401"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8105"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8105"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8140"
+          }
+        ]
+      },
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano, priorizando a saúde da mulher. Principais problemas relacionados à saúde da mulher, bem como as modificações, complicações e cuidados específicos."
+    },
+    {
+      "id": "DCM1502",
+      "code": "DCM1502",
+      "name": "Habilidades e Humanidades V",
+      "credits": 8,
+      "hours": 144,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1402"
+      ],
+      "equivalents": [
+        "DCS8115"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1402"
+          },
+          {
+            "kind": "hours",
+            "hours": 1502
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8115"
+      },
+      "prerequisiteHours": 1502,
+      "syllabus": "Relação médico paciente. Comunicação em saúde. Conceitos e práticas em biossegurança. Interdisciplinaridade e práticas multiprofissionais. Educação em Direitos Humanos. Semiologia médica especial."
+    },
+    {
+      "id": "DCM1503",
+      "code": "DCM1503",
+      "name": "Saúde Coletiva V e Metodologia da Pesquisa I",
+      "credits": 8,
+      "hours": 144,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1403"
+      ],
+      "equivalents": [
+        "DCM8325",
+        "DCS8125",
+        "DCS8307",
+        "DCS8325"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1403"
+          },
+          {
+            "kind": "hours",
+            "hours": 54
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8325"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8125"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8307"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8325"
+          }
+        ]
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "Atenção Primária em Saúde I, Introdução à metodologia científica, Método científico, Projeto de pesquisa, Delineamento de pesquisa.",
+      "extensionHours": 54
+    },
+    {
+      "id": "DCM1601",
+      "code": "DCM1601",
+      "name": "Módulo Sequencial VI",
+      "credits": 24,
+      "hours": 432,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1501"
+      ],
+      "equivalents": [
+        "DCM8106",
+        "DCS8106",
+        "DCS8150"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1501"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8106"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8106"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8150"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano, priorizando o processo de envelhecimento. Principais problemas relacionados ao envelhecimento, bem como as complicações e cuidados relacionados à finitude da vida.",
+      "extensionHours": 36
+    },
+    {
+      "id": "DCM1602",
+      "code": "DCM1602",
+      "name": "Habilidades e Humanidades VI",
+      "credits": 8,
+      "hours": 144,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1502"
+      ],
+      "equivalents": [
+        "DCM8116",
+        "DCS8116",
+        "DCS8119"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1502"
+          },
+          {
+            "kind": "hours",
+            "hours": 1602
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8116"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8116"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8119"
+          }
+        ]
+      },
+      "prerequisiteHours": 1602,
+      "syllabus": "Relação médico paciente. Comunicação em saúde. Interdisciplinaridade e práticas multiprofissionais. Semiologia médica especial e Psicopatologia",
+      "extensionHours": 36
+    },
+    {
+      "id": "DCM1603",
+      "code": "DCM1603",
+      "name": "Medicina de Família e Comunidade I e Metodologia da Pesquisa II",
+      "credits": 8,
+      "hours": 144,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1503"
+      ],
+      "equivalents": [
+        "DCM8326",
+        "DCS8126",
+        "DCS8326"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1503"
+          },
+          {
+            "kind": "hours",
+            "hours": 54
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8326"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8126"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8326"
+          }
+        ]
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "Atenção Primária em Saúde II. Métodos quantitativos. Métodos qualitativos. Produção de dados científicos Análise de dados. Divulgação científica.",
+      "extensionHours": 54
+    },
+    {
+      "id": "DCM1604",
+      "code": "DCM1604",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1501"
+      ],
+      "equivalents": [
+        "DCS8131"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DCM1501"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8131"
+      },
+      "syllabus": "Elaboração, desenvolvimento e apresentação de Trabalho de Conclusão de Curso."
+    },
+    {
+      "id": "DCM1701",
+      "code": "DCM1701",
+      "name": "Módulo Sequencial VII",
+      "credits": 24,
+      "hours": 432,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1601"
+      ],
+      "equivalents": [
+        "DCM8107",
+        "DCS8107",
+        "DCS8160"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1601"
+          },
+          {
+            "kind": "hours",
+            "hours": 126
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8107"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8107"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8160"
+          }
+        ]
+      },
+      "prerequisiteHours": 126,
+      "syllabus": "Acompanhamento do desenvolvimento e cuidados relacionados ao ser humano em todos os ciclos de vida. Abordagem ao paciente com doenças relacionadas aos sistemas do corpo humano.",
+      "extensionHours": 126
+    },
+    {
+      "id": "DCM1702",
+      "code": "DCM1702",
+      "name": "Habilidades e Humanidades VII",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1602"
+      ],
+      "equivalents": [
+        "DCS8117",
+        "DCS8129"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1602"
+          },
+          {
+            "kind": "hours",
+            "hours": 1702
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCS8117"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8129"
+          }
+        ]
+      },
+      "prerequisiteHours": 1702,
+      "syllabus": "Relação médico paciente. Comunicação em saúde. Medicina Legal e forense. Dilemas, problemas e conflitos na ética médica. Interdisciplinaridade e práticas multiprofissionais. O paciente crítico."
+    },
+    {
+      "id": "DCM1703",
+      "code": "DCM1703",
+      "name": "Medicina de Família e Comunidade II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1603"
+      ],
+      "equivalents": [
+        "DCM8329",
+        "DCS8127",
+        "DCS8309",
+        "DCS8327",
+        "DCS8329"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1603"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8329"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8127"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8309"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8327"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8329"
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Atenção Primária em Saúde III",
+      "extensionHours": 72
+    },
+    {
+      "id": "DCM1704",
+      "code": "DCM1704",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 1,
+      "hours": 18,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1604"
+      ],
+      "equivalents": [
+        "DCS8132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DCM1604"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8132"
+      },
+      "syllabus": "Elaboração, desenvolvimento e apresentação de Trabalho de Conclusão de Curso."
+    },
+    {
+      "id": "DCM1801",
+      "code": "DCM1801",
+      "name": "Módulo Sequencial VIII",
+      "credits": 24,
+      "hours": 432,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1701"
+      ],
+      "equivalents": [
+        "DCM8108",
+        "DCS8108",
+        "DCS8170"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1701"
+          },
+          {
+            "kind": "hours",
+            "hours": 126
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8108"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8108"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8170"
+          }
+        ]
+      },
+      "prerequisiteHours": 126,
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano em todos os ciclos de vida. Abordagem ao paciente com doenças e agravos relacionadas aos sistemas do corpo humano.",
+      "extensionHours": 126
+    },
+    {
+      "id": "DCM1802",
+      "code": "DCM1802",
+      "name": "Habilidades e Humanidades VIII",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1702"
+      ],
+      "equivalents": [
+        "DCS8118"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1702"
+          },
+          {
+            "kind": "hours",
+            "hours": 1802
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8118"
+      },
+      "prerequisiteHours": 1802,
+      "syllabus": "Relação médico paciente. Comunicação em saúde. Medicina Legal e forense. Interdisciplinaridade e práticas multiprofissionais. Educação em Direitos Humanos. Técnica cirúrgica"
+    },
+    {
+      "id": "DCM1803",
+      "code": "DCM1803",
+      "name": "Medicina de Família e Comunidade III",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1703"
+      ],
+      "equivalents": [
+        "DCM8328",
+        "DCS8128",
+        "DCS8310",
+        "DCS8328"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1703"
+          },
+          {
+            "kind": "hours",
+            "hours": 144
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM8328"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8128"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8310"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8328"
+          }
+        ]
+      },
+      "prerequisiteHours": 144,
+      "syllabus": "Atenção Primária em Saúde IV.",
+      "extensionHours": 144
+    },
+    {
+      "id": "DCM1804",
+      "code": "DCM1804",
+      "name": "Trabalho de Conclusão de Curso III",
+      "credits": 1,
+      "hours": 18,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1704"
+      ],
+      "equivalents": [
+        "DCS8133"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DCM1704"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8133"
+      },
+      "syllabus": "Elaboração, desenvolvimento e apresentação de Trabalho de Conclusão de Curso."
+    },
+    {
+      "id": "DCM1001",
+      "code": "DCM1001",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 12,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS7001"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS7001"
+      },
+      "syllabus": "Medicina de Família e Comunidade IV, Pediatria II e Ginecologia e Obstetrícia II Bases conceituais da ESF. A Unidade Básica de Saúde, o território e a população adscrita. Assistência à população adscrita na perspectiva individual, familiar e comunitária. Estudo global das patologias clínicas mais comuns. Relação médico-paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica com ênfase na interdisciplinaridade. Propedêutica e terapêutica das doenças prevalentes. Treinamento da prática médica sob supervisão. Promoção e proteção à saúde incluindo aspecto biopsicossocial e ambiental. Prevenção de riscos e agravos. Diagnóstico e tratamento das patologias de demanda em crianças, adultos, idosos e mulher em núcleo urbano diferente da área original de atuação. Saúde da Família. Exame ginecológico. Doenças mais prevalentes do trato genital feminino. Instrumentação dos principais procedimentos cirúrgicos em Ginecologia. Propiciar o atendimento na atenção integral da saúde da criança e do adolescente em suas diferentes fases do desenvolvimento. Desenvolvimento de conhecimentos, habilidades e atitudes para o atendimento na atenção primária em saúde. Trabalho em equipe interprofissional. NASF. Identificação de urgências e emergências, procedimentos de reanimação, indicação de UTI. Transtornos Psiquiátricos mais comuns – Prevenção, Diagnóstico e Tratamento. Classificações. Síndromes. Higiene mental. Psicopatologia forense. Psico-farmacoterapia. Relação médico-paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica. Possibilidades de prevenção do adoecer psíquico em suas três dimensões. Abordagem do paciente psiquiátrico e seus familiares.O estágio propicia ao aluno trabalhar na atenção integral da saúde da criança e do adolescente em suas diferentes fases do desenvolvimento. Promoção e proteção à saúde incluindo aspectos biopsicossocial e ambiental. Prevenção de riscos e agravos. Propedêutica e terapêutica das doenças prevalentes. Desenvolvimento de conhecimentos, habilidades e atitudes para o atendimento. Estimular o desenvolvimento pessoal de princípios éticos, humanístico e relacional com ênfase na interdisciplinaridade. Rol de Disciplinas Optativas Programa de Intercâmbio I"
+    },
+    {
+      "id": "DCM1002",
+      "code": "DCM1002",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 12,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS7002"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS7002"
+      },
+      "syllabus": "Programa de Intercâmbio II"
+    },
+    {
+      "id": "DCM1003",
+      "code": "DCM1003",
+      "name": "Raciocínio Clínico",
+      "credits": 1,
+      "hours": 18,
+      "phase": 12,
+      "type": "Op",
+      "prerequisites": [
+        "DCM1401"
+      ],
+      "equivalents": [
+        "DCS7980"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DCM1401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS7980"
+      },
+      "syllabus": "Bases para o Raciocínio Clínico"
+    },
+    {
+      "id": "DCM1004",
+      "code": "DCM1004",
+      "name": "Emergências Pediátricas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 12,
+      "type": "Op",
+      "prerequisites": [
+        "DCM1301"
+      ],
+      "equivalents": [
+        "DCS7981"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DCM1301"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS7981"
+      },
+      "syllabus": "Principais emergências pediátricas atendidas em Unidades de Pronto Atendimento e Emergências"
+    },
+    {
+      "id": "DCM1008",
+      "code": "DCM1008",
+      "name": "Medicina e educação para as relações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 12,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Educação para as relações étnico raciais. Raça, racismo e saúde mental. Racismo institucional. Racismo Estrutural. Racionalidades médicas. Medicinas africanas, afro brasileiras e indígenas."
+    },
+    {
+      "id": "DCM1009",
+      "code": "DCM1009",
+      "name": "Anatomia Topográfica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 12,
+      "type": "Op",
+      "prerequisites": [
+        "DCM1101",
+        "DCM1201",
+        "DCM1301"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1101"
+          },
+          {
+            "kind": "course",
+            "code": "DCM1201"
+          },
+          {
+            "kind": "course",
+            "code": "DCM1301"
+          }
+        ]
+      },
+      "syllabus": "étnico-raciais Fundamentos da Anatomia Topográfica. Dissecação Regional do corpo humano. Correlação Anatomoclínica. Técnicas de dissecação e utilização de instrumentos cirúrgicos."
+    },
+    {
+      "id": "DCM1010",
+      "code": "DCM1010",
+      "name": "Raciocínio Clínico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 12,
+      "type": "Op",
+      "prerequisites": [
+        "DCM1401"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DCM1401"
+      },
+      "syllabus": "Bases para o Raciocínio Clínico."
+    },
+    {
+      "id": "DFT1105",
+      "code": "DFT1105",
+      "name": "Saúde Coletiva I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 12,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS7405"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS7405"
+      },
+      "syllabus": "Processo Saúde-doença. A Saúde Pública no Brasil: histórico, políticas públicas, implicações e intersetorialidade. Organização dos Serviços de Saúde no Brasil. Sistema Único de Saúde (SUS): princípios, diretrizes e desenvolvimento. Níveis de Atenção em Saúde. Atenção Primária em Saúde: promoção, proteção e recuperação da saúde."
+    },
+    {
+      "id": "DFT1201",
+      "code": "DFT1201",
+      "name": "Saúde Coletiva II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS7429"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS7429"
+      },
+      "syllabus": "Bases conceituais, história e usos da epidemiologia. Epidemiologia Descritiva. Distribuição das doenças relativa à pessoa, lugar e tempo. Medidas de ocorrência de doenças. Medidas de morbidade e mortalidade. Indicadores de Saúde e Sistemas de Informação em Saúde. Vigilância em Saúde. Delineamento da pesquisa epidemiológica."
+    },
+    {
+      "id": "DFT1305",
+      "code": "DFT1305",
+      "name": "Psicologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS7443",
+        "DCS7490"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCS7443"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7490"
+          }
+        ]
+      },
+      "syllabus": "Psicologia da saúde e diversidade; Saúde mental coletiva; Clínica ampliada; Ferramentas e gestão do cuidado; Abordagem e trabalho interdisciplinar e multiprofissional. Relação terapeuta-paciente."
+    },
+    {
+      "id": "DFT1405",
+      "code": "DFT1405",
+      "name": "Metodologia de Pesquisa",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS7437"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS7437"
+      },
+      "syllabus": "Características do conhecimento científico. Tipos de conhecimento. Método científico. Teoria. Conceito e Constructo. Pergunta científica. Definição do problema. Hipóteses. Variáveis. Tipos de delineamento de pesquisa (tipos de estudo). Validade e Reprodutibilidade. Busca em bancos de dados. Elaboração do projeto de pesquisa. Plataforma Brasil. Normas da ABNT."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "DCM1000",
+      "code": "DCM1000",
+      "name": "Atividades Complementares",
+      "credits": 9,
+      "hours": 162,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS8026"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8026"
+      },
+      "syllabus": "18h-a) Rol de Atividades Complementares A disciplina DCM1000 - Atividades Complementares será validada, para efeito de integralização curricular, de acordo com normas estabelecidas pelo Colegiado do Curso."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "DCM1101",
+      "DCM1102",
+      "DCM1103",
+      "DCM1201",
+      "DCM1202",
+      "DCM1203",
+      "DCM1301",
+      "DCM1302",
+      "DCM1303",
+      "DCM1401",
+      "DCM1402",
+      "DCM1403",
+      "DCM1501",
+      "DCM1502",
+      "DCM1503",
+      "DCM1601",
+      "DCM1602",
+      "DCM1603",
+      "DCM1604",
+      "DCM1701",
+      "DCM1702",
+      "DCM1703",
+      "DCM1704",
+      "DCM1801",
+      "DCM1802",
+      "DCM1803",
+      "DCM1804"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 72,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "DCM1001",
+              "DCM1002",
+              "DCM1003",
+              "DCM1004",
+              "DCM1008",
+              "DCM1009",
+              "DCM1010",
+              "DFT1105",
+              "DFT1201",
+              "DFT1305",
+              "DFT1405",
+              "LSB7244",
+              "DCM1000"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 72
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "656",
+    "curriculumCode": "20251",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=656&curriculo=20251",
+    "sha256": "0b9ac2a2832882ec39ba68dfebfcd73f13127562de8e140b8248e748699d652a",
+    "capturedAt": "2026-09-22"
+  }
+}

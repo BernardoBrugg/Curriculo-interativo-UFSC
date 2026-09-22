@@ -1,0 +1,2104 @@
+{
+  "program": "Ciências da Computação",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2007.1",
+  "totalHours": 3840,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EEL5105",
+      "code": "EEL5105",
+      "name": "Circuitos e Técnicas Digitais",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sistemas de numeração e códigos numéricos. Álgebra Booleana. Funções e portas lógicas. Portas lógicas CMOS. Síntese e otimização de circuitos lógicos. Circuitos combinacionais. Circuitos sequenciais. Máquinas de estados finitos. Relógio e temporização. Modelo bloco operativo/bloco de controle. Introdução às linguagens de descrição de hardware (HDL). Dispositivos lógicos programáveis."
+    },
+    {
+      "id": "INE5401",
+      "code": "INE5401",
+      "name": "Introdução à Computação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Uso versus funcionamento interno de computadores. Organização de Computadores. Teoria da Computação. Linguagem de Computador. Sistemas Operacionais. Redes de Computadores. Sistemas Distribuídos. Engenharia de Software. Matemática na Computação. Tecnologias da informação: Bancos de Dados, Computação Gráfica, Segurança, Inteligência Artificial. Computação e Ética."
+    },
+    {
+      "id": "INE5402",
+      "code": "INE5402",
+      "name": "Programação Orientada a Objetos I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "INE5382",
+        "INE5603"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5382"
+          },
+          {
+            "kind": "course",
+            "code": "INE5603"
+          }
+        ]
+      },
+      "syllabus": "Algoritmo. Programação de computador. Resolução de problemas usando computador. Linguagem de Programação. Elementos de programação imperativa: variáveis simples, coleções uni e n dimensionais; tipos das variáveis; comandos; procedimentos e funções. Conceitos fundamentais do paradigma de Programação Orientada a Objetos: objeto, atributo, método, classe. Prática de programação usando alguma linguagem de programação orientada a objetos."
+    },
+    {
+      "id": "INE5403",
+      "code": "INE5403",
+      "name": "Fundamentos de Matemática Discreta para Computação",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "INE5381"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5381"
+      },
+      "syllabus": "Conjuntos, Seqüências e Somas. Lógica Proposicional, Lógica de Primeira Ordem, Lógica Matemática (Prova de Teoremas), Indução e Recursão. Análise Combinatória: Permutações e Combinações, O Princípio do Pombal, Relações de Recorrência. Relações: Propriedades de Relações, Relações de Equivalência, Fecho de Relações. Funções: Definição e Tipos. Composição de Funções, Crescimento de Funções. Relações de Ordenamento: Reticulados, Álgebras Booleanas. Estruturas Algébricas: Semigrupos e Grupos. Elementos de Teoria de Números. Aplicações da Matemática Discreta."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3101",
+        "MTM5115",
+        "MTM5161",
+        "MTM5801"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5115"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5801"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "INE5404",
+      "code": "INE5404",
+      "name": "Programação Orientada a Objetos II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5402"
+      ],
+      "equivalents": [
+        "INE5383",
+        "INE5605"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5402"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5383"
+          },
+          {
+            "kind": "course",
+            "code": "INE5605"
+          }
+        ]
+      },
+      "syllabus": "Herança. Polimorfismo. Reusabilidade de software. Componentes. Criação e uso de bibliotecas de classes. Padrões de projeto. Interface Gráfica com o Usuário. Exceções. Relacionamentos entre classes: agregação, composição e especialização. Persistência de dados e de objetos. Prática de programação com alguma linguagem de programação orientada a objetos."
+    },
+    {
+      "id": "INE5406",
+      "code": "INE5406",
+      "name": "Sistemas Digitais",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EEL5105"
+      ],
+      "equivalents": [
+        "EEL5310",
+        "EEL5340"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL5105"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EEL5310"
+          },
+          {
+            "kind": "course",
+            "code": "EEL5340"
+          }
+        ]
+      },
+      "syllabus": "Máquinas seqüenciais síncronas (Mealy e Moore) e sua representação (diagramas de transição e descrição em HDL). Síntese de circuitos seqüenciais (minimização e codificação de estados). Mapeamento e alternativas de implementação de máquinas de estado (\"hardwired\", PLA, ROM e PLD). Estudos de casos: controladores de memória, de interrupção, de DMA. Simulação de sistemas digitais descritos em HDL no nível de transferência entre registradores. CPU vista como um sistema digital (datapath e unidade de controle). Unidade de controle de uma CPU simples (\"hardwired\" e microprogramada)."
+    },
+    {
+      "id": "INE5407",
+      "code": "INE5407",
+      "name": "Ciência, Tecnologia e Sociedade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo das relações entre ciência, tecnologia e sociedade ao longo da história, com ênfase na atualidade; filosofia da ciência; análise de valores e ideologias envolvendo a produção e divulgação da ciência e da tecnologia; influências das diferenças culturais nas concepções de ciência e tecnologia e de suas relações com as sociedades; a participação da sociedade na definição de políticas relativas às questões científicas, tecnológicas, econômicas e ecológicas. O impacto da informática na sociedade."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5162",
+        "MTM5192",
+        "MTM5802",
+        "MTM7174"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5162"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5192"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5802"
+          },
+          {
+            "kind": "course",
+            "code": "MTM7174"
+          }
+        ]
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3112",
+        "MTM5245",
+        "MTM5812"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3112"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5245"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5812"
+          }
+        ]
+      },
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "INE5202",
+      "code": "INE5202",
+      "name": "Cálculo Numérico em Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5402",
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "INE5409"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5402"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5409"
+      },
+      "syllabus": "Erros e Sistemas de Numeracão. Solução de equações algébricas e transcendentais. Solução de equações polinomiais. Sistemas de equações lineares e não lineares. Interpolação Ajustamento de curvas. Integração numérica. Solução numérica de equações diferenciais ordinárias e sistemas de equações diferenciais."
+    },
+    {
+      "id": "INE5408",
+      "code": "INE5408",
+      "name": "Estruturas de Dados",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5404"
+      ],
+      "equivalents": [
+        "INE5384",
+        "INE5609"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5404"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5384"
+          },
+          {
+            "kind": "course",
+            "code": "INE5609"
+          }
+        ]
+      },
+      "syllabus": "Alocação dinâmica de memória. Variáveis estáticas e dinâmicas. Estruturas lineares. Tabelas de Espalhamento. Árvores. Árvores de Pesquisa. Métodos de ordenação. Métodos de acesso a arquivos. Técnicas de implementações iterativas e recursivas de estruturas de dados. Complexidade dos algoritmos em estruturas de dados."
+    },
+    {
+      "id": "INE5410",
+      "code": "INE5410",
+      "name": "Programação Concorrente",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5404"
+      ],
+      "equivalents": [
+        "INE5356"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5404"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5356"
+      },
+      "syllabus": "Multiprogramação. Multitarefa. Execução concorrente. Recursos compartilhados e exclusão mútua. Regiões críticas. Coordenação de processos e threads. Semáforos. Monitores. Troca de mensagem. Programação concorrente orientada a objeto. Deadlock. Modelos de computação concorrente."
+    },
+    {
+      "id": "INE5411",
+      "code": "INE5411",
+      "name": "Organização de Computadores I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5406"
+      ],
+      "equivalents": [
+        "INE5309",
+        "INE5366"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5406"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5309"
+          },
+          {
+            "kind": "course",
+            "code": "INE5366"
+          }
+        ]
+      },
+      "syllabus": "Tendências tecnológicas na fabricação de CPUs e memórias. CPU: instruções e modos de endereçamento. Formatos de instruções e linguagem de montagem. Simulador e montador. Aritmética. Avaliação de desempenho. Datapath e unidade de controle. Alternativas de implementação (monociclo, multiciclo, pipeline, superescalar). Exceções e interrupções. Hazards estruturais, de dados e de controle. Hierarquia de memória e associatividade (cache e TLB). Dispositivos de entrada e saída: tipos, características e sua conexão à CPU e à memória. Comunicação com a CPU (polling, interrupção, DMA)."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "MTM5192",
+        "MTM5814",
+        "MTM7174"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5192"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5814"
+          },
+          {
+            "kind": "course",
+            "code": "MTM7174"
+          }
+        ]
+      },
+      "syllabus": "-Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "INE5412",
+      "code": "INE5412",
+      "name": "Sistemas Operacionais I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5410",
+        "INE5411"
+      ],
+      "equivalents": [
+        "INE5355"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5410"
+          },
+          {
+            "kind": "course",
+            "code": "INE5411"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5355"
+      },
+      "syllabus": "Programação de Sistemas. Histórico de Sistemas Operacionais. Arquitetura de Sistemas Operacionais. Funcionalidades de Sistemas Operacionais. Gerência de Processos e Threads: Controle e Escalonamento. Impasses: Modelagem e Tratamento. Memória: Alocação, Gerência e Memória Virtual. Entrada e Saída: princípios de hardware e software, dispositivos periféricos. Sistema de Arquivos: Arquivos, Diretórios e Implementação. Proteção e Segurança. Sistemas com Múltiplos Processadores."
+    },
+    {
+      "id": "INE5413",
+      "code": "INE5413",
+      "name": "Grafos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5403",
+        "INE5408"
+      ],
+      "equivalents": [
+        "INE5312"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5403"
+          },
+          {
+            "kind": "course",
+            "code": "INE5408"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5312"
+      },
+      "syllabus": "Grafos e grafos orientados. Representação de problemas com grafos. Caminhos, ciclos e caminho de custo mínimo. Conexidade e alcançabilidade. Árvores e árvore de custo mínimo. Coloração e planaridade de grafos. Grafos hamiltonianos e eulerianos. Fluxo máximo em redes. Estabilidade e emparelhamento em grafos. Problemas de cobertura e de travessia. Representações computacionais e complexidade de algoritmos em grafos."
+    },
+    {
+      "id": "INE5414",
+      "code": "INE5414",
+      "name": "Redes de Computadores I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5404"
+      ],
+      "equivalents": [
+        "INE5324"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5404"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5324"
+      },
+      "syllabus": "Capacidade de canal. Taxa de transmissão. Codificação analógica-digital, digital-digital e digital-analógica. Princípios dos modelos das redes de computadores: OSI e TCP/IP. Meios de transmissão de dados. Serviços e tarefas ofertados na camada de enlace. Estudo de casos de protocolos e tecnologias de enlace de dados. Redes de comutação de circuito e de pacotes."
+    },
+    {
+      "id": "INE5415",
+      "code": "INE5415",
+      "name": "Teoria da Computação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5403",
+        "INE5408"
+      ],
+      "equivalents": [
+        "INE5372"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5403"
+          },
+          {
+            "kind": "course",
+            "code": "INE5408"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5372"
+      },
+      "syllabus": "Programas, Máquinas e Computações. Máquinas de Turing. Funções Recursivas. Computabilidade. Decidibilidade. Análise e Complexidade de Algoritmos. Classes e complexidade de problemas computacionais."
+    },
+    {
+      "id": "INE5416",
+      "code": "INE5416",
+      "name": "Paradigmas de Programação",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5408"
+      ],
+      "equivalents": [
+        "INE5363",
+        "INE5364"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5408"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5363"
+          },
+          {
+            "kind": "course",
+            "code": "INE5364"
+          }
+        ]
+      },
+      "syllabus": "Caracterização e classificações dos paradigmas. Problemas tratáveis pelos paradigmas. Definição e caracterização dos principais paradigmas declarativos e imperativos. Programação em Lógica. Programação Funcional. Prática de programação com os principais paradigmas apresentados."
+    },
+    {
+      "id": "INE5417",
+      "code": "INE5417",
+      "name": "Engenharia de Software I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5408"
+      ],
+      "equivalents": [
+        "INE5319"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5408"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5319"
+      },
+      "syllabus": "Análise de requisitos: requisitos funcionais e requisitos não-funcionais; técnicas para levantamento e representação de requisitos, incluindo casos de uso. Modelagem OO: classe, atributo, associação, agregação e herança. Projeto OO: técnicas para projeto; padrões de projeto, componentes e frameworks; projeto de arquitetura; mapeamento objeto-relacional. Linguagem de especificação orientada a objetos. Métodos de análise e projeto orientados a objetos. Desenvolvimento de um software OO."
+    },
+    {
+      "id": "INE5405",
+      "code": "INE5405",
+      "name": "Probabilidade e Estatística",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [
+        "INE5104",
+        "INE5115"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5104"
+          },
+          {
+            "kind": "course",
+            "code": "INE5115"
+          }
+        ]
+      },
+      "syllabus": "Análise combinatória. Planejamento de uma pesquisa. Análise exploratória de dados. Probabilidade. Variáveis aleatórias discretas e contínuas. Principais modelos teóricos. Estimação de parâmetros. Testes de hipóteses."
+    },
+    {
+      "id": "INE5418",
+      "code": "INE5418",
+      "name": "Computação Distribuída",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5412",
+        "INE5414"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5412"
+          },
+          {
+            "kind": "course",
+            "code": "INE5414"
+          }
+        ]
+      },
+      "syllabus": "Arquitetura de Sistemas Distribuídos. Paradigmas de Computação Distribuída: Troca de Mensagens, Cliente/Servidor, Comunicação em Grupo, Objetos Distribuídos. Comunicação entre Processos. Suporte de SO para Computação Distribuída. Sincronização em Sistemas Distribuídos. Consistência e Replicação de Dados em Sistemas Distribuídos. Sistemas de Arquivo Distribuídos. Computação GRID."
+    },
+    {
+      "id": "INE5419",
+      "code": "INE5419",
+      "name": "Engenharia de Software II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5417"
+      ],
+      "equivalents": [
+        "INE5322",
+        "INE5614"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5417"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5322"
+          },
+          {
+            "kind": "course",
+            "code": "INE5614"
+          }
+        ]
+      },
+      "syllabus": "Evolução da prática de desenvolvimento de software; qualidade de artefatos de software; modularidade e reusabilidade; modelagem estrutural e dinâmica em orientação a objetos, diferentes visões de um sistema; metodologias de análise e projeto orientadas a objetos; teste de software; manutenção de software; modelos de ciclo de vida; engenharia reversa; modelagem formal de sistemas; abordagens voltadas ao reuso de software; gerenciamento do processo de produção de software e técnicas de apoio ao gerenciamento do processo de produção de software; apoio automatizado ao desenvolvimento de software."
+    },
+    {
+      "id": "INE5420",
+      "code": "INE5420",
+      "name": "Computação Gráfica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5408",
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "INE5341"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5408"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5341"
+      },
+      "syllabus": "Computação Gráfica Básica. Sistema Gráfico Interativo. Transformações geométricas 2D e coordenadas homogêneas. Clipping. Curvas paramétricas em 2D e 3D. Estruturas de dados gráficas 3D. Navegação 3D. Projeções, perspectiva e clipping 3D. Superfícies paramétricas bicúbicas. Visualização em 3D contendo, Rayshading, Raycasting e Raytracing. Conversão por varredura e buffer de profundidade. Iluminação de objetos. Implementação de um rayshader. APIs Gráficas e OpenGL. Animação e utilização de modelos hierárquicos. Simulação de movimentação de animais e humanos. Realidade virtual e VRML."
+    },
+    {
+      "id": "INE5421",
+      "code": "INE5421",
+      "name": "Linguagens Formais e Compiladores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5415"
+      ],
+      "equivalents": [
+        "INE5317"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5415"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5317"
+      },
+      "syllabus": "O processo de compilação. Linguagens e suas representações. Gramáticas: definição formal, classificação (Hierarquia de Chomsky), propriedades, problemas de decisão e aplicações. Gramáticas regulares, autômatos finitos, conjuntos regulares e expressões regulares. Gramáticas livres de contexto. Autômatos de pilha. Teoria de Parsing. Análise léxica e sintática."
+    },
+    {
+      "id": "INE5422",
+      "code": "INE5422",
+      "name": "Redes de Computadores II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5414"
+      ],
+      "equivalents": [
+        "INE5344"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5414"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5344"
+      },
+      "syllabus": "Camada de Rede TCP/IP: endereçamento, roteamento, protocolos. Camada de Aplicação: conceitos e protocolos. Aspectos de segurança em redes de computadores. Dispositivos de interconexão, conceito de processores de redes. Protocolos leves. Métodos formais para especificação e verificação de protocolos. Administração de redes de computadores."
+    },
+    {
+      "id": "INE5423",
+      "code": "INE5423",
+      "name": "Banco de Dados I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5408"
+      ],
+      "equivalents": [
+        "INE5323",
+        "INE5613"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5408"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5323"
+          },
+          {
+            "kind": "course",
+            "code": "INE5613"
+          }
+        ]
+      },
+      "syllabus": "Banco de Dados (BD). Sistema de Gerência de BD: funcionalidades, módulos principais, categorias de usuários, dicionário de dados. Modelo relacional: conceitos, restrições de integridade, álgebra relacional, cálculo relacional. Linguagens SQL: DDL, DML, restrições de integridade, visões, autorização de acesso. Modelagem de dados: etapas do projeto de um BD relacional, modelo Entidade-Relacionamento (ER), mapeamento ER-relacional. Teoria da Normalização: objetivo, dependências funcionais, formas normais."
+    },
+    {
+      "id": "INE5424",
+      "code": "INE5424",
+      "name": "Sistemas Operacionais II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5412"
+      ],
+      "equivalents": [
+        "INE5357"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5412"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5357"
+      },
+      "syllabus": "Desenvolvimento de Sistemas Operacionais: projeto lógico, arquitetura, inicialização de Sistemas Computacionais, componentes (processos, threads, escalonador, mecanismos de sincronização, gerenciadores de memória, sistemas de arquivos, drivers de dispositivos de entrada e saída), teste, depuração, estudos de caso."
+    },
+    {
+      "id": "INE5425",
+      "code": "INE5425",
+      "name": "Modelagem e Simulação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5202",
+        "INE5405"
+      ],
+      "equivalents": [
+        "INE5101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5202"
+          },
+          {
+            "kind": "course",
+            "code": "INE5405"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5101"
+      },
+      "syllabus": "Modelagem de sistemas. Modelos analíticos e Modelos de simulação. Processos estocásticos. Introdução à teoria das filas. Redes de filas. Geração de números pseudo-aleatórios. Geração de variáveis aleatórias. Metodologia de projetos de modelagem e simulação de sistemas. Modelos voltados à simulação: definição, taxonomia e desenvolvimento. Validação de modelos de simulação. Praticas de modelagem e simulação. Linguagens de simulação. Estudo de casos."
+    },
+    {
+      "id": "INE5426",
+      "code": "INE5426",
+      "name": "Construção de Compiladores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5421"
+      ],
+      "equivalents": [
+        "INE5318"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5421"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5318"
+      },
+      "syllabus": "Projeto de especificação de linguagens de programação. Implementação das etapas que compreendem o processo de compilação: Análise Léxica, Análise Sintática, Análise Semântica, Geração e Otimização de Código. Evolução e tendências da área de compiladores e linguagens de programação."
+    },
+    {
+      "id": "INE5427",
+      "code": "INE5427",
+      "name": "Planejamento e Gestão de Projetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5417"
+      ],
+      "equivalents": [
+        "INE5617"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5417"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5617"
+      },
+      "syllabus": "Projetos. Metodologias de planejamento e gestão de projetos. Áreas de conhecimento da gerência de projetos: Escopo, Tempo, Risco, Integração, Comunicação, Custo, Recursos Humanos, Aquisição, Qualidade. Grupos de processos: Iniciação, Planejamento, Execução, Controle, Encerramento. Técnicas de acompanhamento de projetos. Ferramentas computacionais de apoio ao planejamento e gerência de projetos. Estudo de casos."
+    },
+    {
+      "id": "INE5430",
+      "code": "INE5430",
+      "name": "Inteligência Artificial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5405",
+        "INE5413",
+        "INE5416"
+      ],
+      "equivalents": [
+        "INE5371"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5405"
+          },
+          {
+            "kind": "course",
+            "code": "INE5413"
+          },
+          {
+            "kind": "course",
+            "code": "INE5416"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5371"
+      },
+      "syllabus": "Histórico, Teoria de Problemas, Paradigma Simbólico da IA, Modelagem de Agentes Inteligentes, Métodos de Busca, Representação de Conhecimento, Métodos de Inferência, Tratamento de Incertezas, Sistemas Especialistas, Lógica Nebulosa, Paradigma Conexionista da IA, Redes Neurais Diretas e Algoritmos de Aprendizado, Paradigma Evolucionário da IA, Algoritmos Genéticos."
+    },
+    {
+      "id": "INE5453",
+      "code": "INE5453",
+      "name": "Introdução ao Trabalho de Conclusão de Curso",
+      "credits": 1,
+      "hours": 18,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5417"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5417"
+      },
+      "syllabus": "-Estrutura de um trabalho de pesquisa. Metodologia para elaboração de proposta e redação de monografia. Técnicas de apresentação e defesa pública. Questões éticas."
+    },
+    {
+      "id": "INE5428",
+      "code": "INE5428",
+      "name": "Informática e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5407"
+      ],
+      "equivalents": [
+        "INE5385"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5407"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5385"
+      },
+      "syllabus": "Ética pessoal, profissional e pública na área da informática. Dilemas éticos do profissional da informática; privacidade, vírus, hacking, uso da internet, direitos autorais, etc. Desemprego e informatização. Responsabilidade social. O profissional e o mercado de trabalho. Trabalho e relações humanas. O empreendedorismo como opção do profissional da informática. Legislação: Política nacional e tendências atuais referentes à regulamentação da profissão."
+    },
+    {
+      "id": "INE5429",
+      "code": "INE5429",
+      "name": "Segurança em Computação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5403",
+        "INE5414"
+      ],
+      "equivalents": [
+        "INE5386"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5403"
+          },
+          {
+            "kind": "course",
+            "code": "INE5414"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5386"
+      },
+      "syllabus": "Segurança em aplicações: programação segura, detecção de falhas, códigos maliciosos (malware). Segurança em sistemas operacionais: princípios de controle de acesso, sistemas confiáveis. Segurança em redes de computadores: ataques e defesas. Princípios de criptografia: criptografia simétrica e assimétrica, integridade de dados. Protocolos de autenticação: princípios, infra-estrutura de chaves públicas e aplicações (X.509, OpenPGP, SPKI, IBE), protocolos criptográficos (S/Mime, IPSec, SSL, OpenSSH, Kerberos, VPNs)."
+    },
+    {
+      "id": "INE5431",
+      "code": "INE5431",
+      "name": "Sistemas Multimídia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5414"
+      ],
+      "equivalents": [
+        "INE5639"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5414"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5639"
+      },
+      "syllabus": "Definição de sistemas multimídia e problemática envolvida. Representação digital de áudio, imagens e vídeos. Técnicas e padrões de compressão. Aplicações multimídia: caracterização e requisitos. Protocolos de transporte de mídia e de controle-sinalização. Qualidade de Serviço."
+    },
+    {
+      "id": "INE5432",
+      "code": "INE5432",
+      "name": "Banco de Dados II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5423"
+      ],
+      "equivalents": [
+        "INE5336",
+        "INE5616"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5423"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5336"
+          },
+          {
+            "kind": "course",
+            "code": "INE5616"
+          }
+        ]
+      },
+      "syllabus": "SQL embutida: instruções estáticas e dinâmicas, cursores. Processamento de consultas: otimização algébrica; plano de execução de uma consulta considerando estimativas sobre os dados, índices, buffers e pipelines. Transações: definição, propriedades, estados. Recuperação de falhas: categorias de falhas, gerência de buffer, técnicas de recuperação. Controle de concorrência: teoria da serializabilidade, escalonadores otimistas e pessimistas, tratamento de deadlock. Noções básicas de bancos de dados distribuídos: arquiteturas, projeto, processamento de consultas, gerência de transações."
+    },
+    {
+      "id": "INE5433",
+      "code": "INE5433",
+      "name": "Trabalho de Conclusão de Curso I (TCC)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5427",
+        "INE5453"
+      ],
+      "equivalents": [
+        "INE5327"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5427"
+          },
+          {
+            "kind": "course",
+            "code": "INE5453"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5327"
+      },
+      "syllabus": "Orientação para o desenvolvimento da fase inicial do projeto em Ciência da Computação. Elaboração de relatórios sobre o andamento dos trabalhos"
+    },
+    {
+      "id": "INE5434",
+      "code": "INE5434",
+      "name": "Trabalho de Conclusão de Curso II (TCC)",
+      "credits": 9,
+      "hours": 162,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5433"
+      ],
+      "equivalents": [
+        "INE5328"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5433"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5328"
+      },
+      "syllabus": "Orientação para o desenvolvimento da fase final do projeto em Ciência da Computação. Defesa final do trabalho perante banca examinador."
+    },
+    {
+      "id": "INE5461",
+      "code": "INE5461",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplinas Optativas"
+    },
+    {
+      "id": "INE5462",
+      "code": "INE5462",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "INE5461"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5461"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "INE5463",
+      "code": "INE5463",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "INE5462"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5462"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CAD5146",
+      "code": "CAD5146",
+      "name": "Marketing Pessoal em Informática",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Marketing Pessoal: aspectos da competitividade e pessoas: contexto e impactos no sucesso profissional. O fator profissional na apresentação do empreendedor: fatores de renovação e posicionamento para a excelência."
+    },
+    {
+      "id": "CAD5240",
+      "code": "CAD5240",
+      "name": "Aspectos Comportamentais do Empreendedor",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de empreendedorismo. A formação da Personalidade. O Processo comportamental. Fatores de sucesso, o perfil do empreendedor. Desenvolvimento de habilidades empreendedoras."
+    },
+    {
+      "id": "CAD5241",
+      "code": "CAD5241",
+      "name": "Recursos Humanos em Informática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Planejamento. Desenvolvimento e controle de recursos humanos. Organização da função de pessoal. Recrutamento. Seleção. Integração. Manutenção e direção de pessoal."
+    },
+    {
+      "id": "EEL7123",
+      "code": "EEL7123",
+      "name": "Tópico Avançado em Sistemas Digitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sistemas de numeração alternativos úteis no projeto de unidades aritméticas; Algoritmos e metodologias para projetar circuitos aritméticos básicos e de elevado desempenho; Aplicação de circuitos aritméticos a funcionalidades práticas; Implementação de processadores baseados em aritmética computacional usando linguagens de descrição de hardware VHDL."
+    },
+    {
+      "id": "INE5435",
+      "code": "INE5435",
+      "name": "Integração Software/Hardware",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "INE5411"
+      ],
+      "equivalents": [
+        "INE5346"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5411"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5346"
+      },
+      "syllabus": "Conceitos, técnicas e metodologias pertinentes ao desenvolvimento de projetos integrados de software e hardware, projeto baseado em plataforma, arquiteturas de software e hardware, componentes de software e hardware, estratégias de implementação, microcontroladores, sistemas em chip único (system-on-a-chip), aplicações de tempo-real, aplicações distribuídas. Estudo de caso: inicialização de sistemas computacionais, firmware, tratadores de dispositivos, projeto integrado de software e hardware."
+    },
+    {
+      "id": "INE5436",
+      "code": "INE5436",
+      "name": "Arquitetura de Computadores I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "INE5411"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5411"
+      },
+      "syllabus": "Fundamentos do projeto de computadores (mercados, custo, preço e desempenho). Arquiteturas de conjuntos de instruções (máquinas baseadas em acumulador, pilha e registradores, máquinas load-store). Arquiteturas RISC, CISC e DSP. Pipelining e emissão múltipla (máquinas superescalares e VLIW). Exploração de paralelismo entre instruções (escalonamento estático e dinâmico, previsão estática e dinâmica de desvios, execução especulativa, software pipelining, trace scheduling). Projeto de hierarquia de memória."
+    },
+    {
+      "id": "INE5437",
+      "code": "INE5437",
+      "name": "Arquitetura de Computadores II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "INE5411"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5411"
+      },
+      "syllabus": "Arquitetura de computadores modernos. Contextualização da taxonomia de Flynn (SISD,SIMD,MISD,MIMD). Redes de Interconexão. Multicomputadores. Multiprocessadores. Máquinas com Acesso Uniforme à Memória (UMA). Multiprocessores simétricos (SMP). Máquinas com Acesso Não Uniforme à Memória (NUMA). Máquinas com Coerência de Cache e Acesso Não Uniforme à Memória (ccNUMA). Processadores Massivamente Paralelos (MPP). Sistemas Distribuídos. Clusters. Grids."
+    },
+    {
+      "id": "INE5438",
+      "code": "INE5438",
+      "name": "Laboratório de Microprocessadores e Lógica Programável",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5411"
+      ],
+      "equivalents": [
+        "INE5349"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5411"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5349"
+      },
+      "syllabus": "Perspectiva histórica, revisão de organização de computadores, microprocessadores e microcontroladores. Princípios de projeto de sistemas embarcados, restrições de tempo-real, técnicas de implementação, teste, emulação e depuração. Entrada e Saída (portas de E/S, tratamento de interrupções, E/S programada, DMA). Temporizadores, contadores e relógios. Interfaceamento analógico (conversores A/D e D/A, sensores e atuadores). Estudo de casos: sistemas embarcados baseados em microcontroladores, prototipação de sistemas embarcados em lógica programável, sistemas embarcados baseados em sistemas operacionais de tempo-real (RTOS)."
+    },
+    {
+      "id": "INE5439",
+      "code": "INE5439",
+      "name": "Sistemas Embarcados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5411"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5411"
+      },
+      "syllabus": "Especificação (requisitos, linguagens, níveis e estilos de descrição). Hardware: entrada e saída (sample-hold, conversores A/D e D/A, sensores e atuadores), unidades de processamento (microprocessadores, DSPs, ASIPs e lógica reconfigurável) e memórias (flash, cache e scratch pad). Eficiência energética: compiladores energeticamente conscientes e gerenciamento de potência (DVS e DPM). Compactação de código. Ferramentas de projeto de hardware e de software (simulador, síntese comportamental e lógica, gerador de código e depurador). Systems-on-Chip e co-projeto de hardware e software."
+    },
+    {
+      "id": "INE5440",
+      "code": "INE5440",
+      "name": "Tópicos Especiais em Arquitetura de Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5411"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5411"
+      },
+      "syllabus": "Ementa livre sobre novas técnicas ou tendências em Arquitetura de Computadores."
+    },
+    {
+      "id": "INE5441",
+      "code": "INE5441",
+      "name": "Sistemas de Tempo Real",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5412"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5412"
+      },
+      "syllabus": "Conceituação básica e Caracterização de um Sistema de Tempo Real. Escalonamento de Tempo Real: modelo de tarefas; abordagens de escalonamento de tempo real. Controle de acesso a recursos: uso de protocolos de acesso a recursos. Comunicação em Tempo Real: requisitos, protocolos. Sistemas Operacionais de Tempo Real: aspectos funcionais, aspectos temporais, estudo de casos. Linguagens de Programação de Tempo Real: características, requisitos, estudo de casos."
+    },
+    {
+      "id": "INE5442",
+      "code": "INE5442",
+      "name": "Circuitos e Sistemas Integrados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5411"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5411"
+      },
+      "syllabus": "Modelagem simplificada de transistores NMOS e PMOS. O inversor CMOS: característica de transferência, atraso, consumo estático e dinâmico. Lógica combinacional, flip-flops e registradores em CMOS. Estruturas regulares: ULA, PLA, ROM. Princípios básicos de processos de fabricação. Regras geométricas e elétricas de projeto. Scaling. Variabilidade em tecnologias submicrométricas. Estilos full e semi-custom, lógica programável pelo usuário. Leiaute. Níveis de abstração, metodologias de projeto e ferramentas de EDA (simuladores, analisadores, extratores, ferramentas de verificação e síntese)."
+    },
+    {
+      "id": "INE5443",
+      "code": "INE5443",
+      "name": "Reconhecimento de Padrões",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5420"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5420"
+      },
+      "syllabus": "Considerações iniciais sobre padrões. Técnicas simbólicas. Técnicas sub simbólicas: redes neurais. Raciocínio baseado em caso - estendendo RP com um framework de inteligência artificial. Técnicas estatísticas. Geração de padrões: análise de sinais e imagens. Criação de aplicação de reconhecimento de padrões."
+    },
+    {
+      "id": "INE5444",
+      "code": "INE5444",
+      "name": "Estágio Supervisionado I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5417"
+      ],
+      "equivalents": [
+        "INE5353"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5417"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5353"
+      },
+      "syllabus": "Estágio supervisionado na área de computação."
+    },
+    {
+      "id": "INE5445",
+      "code": "INE5445",
+      "name": "Estágio Supervisionado II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5417"
+      ],
+      "equivalents": [
+        "INE5354"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5417"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5354"
+      },
+      "syllabus": "Estágio supervisionado na área de computação."
+    },
+    {
+      "id": "INE5446",
+      "code": "INE5446",
+      "name": "Tópicos Especiais em Sistemas de Infra-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5412"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5412"
+      },
+      "syllabus": "Ementa livre para assuntos relevantes na área de Sistemas de Infra-Estrutura."
+    },
+    {
+      "id": "INE5447",
+      "code": "INE5447",
+      "name": "Tópicos Especiais em Sistemas de Infra-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5412"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5412"
+      },
+      "syllabus": "estrutura I Ementa livre para assuntos relevantes na área de Sistemas de Infra-Estrutura."
+    },
+    {
+      "id": "INE5448",
+      "code": "INE5448",
+      "name": "Tópicos Especiais em Aplicações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5417"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5417"
+      },
+      "syllabus": "estrutura II Ementa livre para assuntos relevantes na área de Aplicações Tecnológicas."
+    },
+    {
+      "id": "INE5449",
+      "code": "INE5449",
+      "name": "Tópicos Especiais em Aplicações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5412"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5412"
+      },
+      "syllabus": "Tecnológicas I INE5608) Ementa livre para assuntos relevantes na área de Aplicações Tecnológicas."
+    },
+    {
+      "id": "INE5450",
+      "code": "INE5450",
+      "name": "Tópicos Especiais em Aplicações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5412"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5412"
+      },
+      "syllabus": "Tecnológicas II Ementa livre para assuntos relevantes na área de Aplicações Tecnológicas."
+    },
+    {
+      "id": "INE5451",
+      "code": "INE5451",
+      "name": "Tópicos Especiais em Algoritmos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5403",
+        "INE5408"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5403"
+          },
+          {
+            "kind": "course",
+            "code": "INE5408"
+          }
+        ]
+      },
+      "syllabus": "Tecnológicas III -Ementa livre para assuntos relevantes na área de Algoritmos."
+    },
+    {
+      "id": "INE5452",
+      "code": "INE5452",
+      "name": "Tópicos Especiais em Algoritmos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Ementa Livre para assuntos relevantes na área de Algoritmos"
+    },
+    {
+      "id": "INE5454",
+      "code": "INE5454",
+      "name": "Tópicos Especiais em Gerência de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- A ementa é livre, podendo cobrir quaisquer temas avançados em gerência de dados que não tenham sido ministradas em outras disciplinas da área de Banco de Dados (BD). Os objetivos específicos e tópicos podem variar, conforme a atualidade dos temas na área."
+    },
+    {
+      "id": "INE5455",
+      "code": "INE5455",
+      "name": "Testes de Software",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos Básicos. Níveis de Testes. Tipos de Testes. Técnicas de Testes. Planejamento e Execução de Testes de Software. Desenvolvimento Orientado a Testes. Automação de Testes. Ferramentas de Testes."
+    },
+    {
+      "id": "INE5456",
+      "code": "INE5456",
+      "name": "Desenvolvimento Orientado a",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O paradigma de orientação a componentes; componente; modelo de componente; estudo de um modelo de componente; modelagem de componente e de programa orientado a componentes com UML; prática de desenvolvimento baseada no paradigma de orientação a componentes."
+    },
+    {
+      "id": "INE5457",
+      "code": "INE5457",
+      "name": "Big Data Management and Mining",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Componentes com UML INE5608)"
+    },
+    {
+      "id": "INE5458",
+      "code": "INE5458",
+      "name": "Tecnologias Blockchain e Criptomoedas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Primitivas Criptográficas. Conceitos e protocolos de blockchain. Criptomoedas e aplicativos não financeiros em execução em blockchains. Desenvolvimento de contratos inteligentes."
+    },
+    {
+      "id": "INE5600",
+      "code": "INE5600",
+      "name": "Bancos de Dados III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aplicações não-convencionais. Novos desafios de gerenciamento de dados. Bancos de dados pós-relacionais: categorias, conceitos, modelos de dados, manipulação de dados, modelagem"
+    },
+    {
+      "id": "INE5619",
+      "code": "INE5619",
+      "name": "Administração e Gerência de Redes de Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Administração de Redes (sistemas de administração de redes, fontes, e fluxos de informação para administração e objetivos estratégicos); Administração Inovadora de Redes; Tecnologias e Suporte à Administração de Redes (TMN do ITU-T, OSI/NM da ISO, SNMP da Internet ou assemelhadas); Forças do Mercado de Administração de Redes (gerência proprietária, redes locais, e redes heterogêneas); Tendências em Administração e Gerência de Redes. Avaliação de plataformas de gerência, segurança da gerência de redes."
+    },
+    {
+      "id": "INE5624",
+      "code": "INE5624",
+      "name": "Engenharia de Usabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cognição humana, Semiótica Computacional; Critérios e recomendações ergonômicas; Engenharia de requisitos visando a usabilidade, Técnicas de Análise Ergonômica do Trabalho; Técnicas de Concepção e de Especificação funcional da tarefa interativa; Técnicas de Projeto e Especificação da interface com o usuário; Técnicas de Prototipagem Off-line e On-line; Técnicas de avaliações heurísticas; Técnicas de inspeções ergonômicas, Norma ISO 9241, Técnica de ensaios de interação."
+    },
+    {
+      "id": "INE5628",
+      "code": "INE5628",
+      "name": "Sistemas Multiagentes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Propriedades de agentes. Arquitetura de construção de agentes. Linguagens para programação de agentes. Estudo de casos de agentes implementados"
+    },
+    {
+      "id": "INE5640",
+      "code": "INE5640",
+      "name": "Computação Móvel",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Computação Ubíqua; Sistemas de Comunicação sem Fios; Serviços de Localização e Posicionamento; Transações e Gestão da Informação em Operação Desligada; Interfaces para dispositivos de dimensão muito reduzida; Eng. de Sistemas de Informação para suporte à mobilidade."
+    },
+    {
+      "id": "INE5643",
+      "code": "INE5643",
+      "name": "Data Warehouse",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos. Os Ecossistemas de Informação. O Ciclo de Vida do DW: Planejamento e Administração, Levantameto de Requisitos, Modelagem Dimensional, Projeto Físico, o Back-Room e o Froon-Room, Metadados, Arquiteturas, Implementação, Segurança e Internet. Implantação, Suporte e Treinamento."
+    },
+    {
+      "id": "INE5644",
+      "code": "INE5644",
+      "name": "Data Mining",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Considerações iniciais da área e aplicações. Processos de descoberta do conhecimento (KDD) em base de dados. Análise exploratória de dados. Tipos de variáveis, Técnicas de Data Mining para classificação, estimação, predição, análise de agrupamentos, análise de associação: redes neurais, árvores de decisão, regras de decisão, análise discriminante, regressão linear, regressão logística, análise de cluster, análise de componentes principais. Uso de softwares de data mining. Exercícios. Data Mining de caso."
+    },
+    {
+      "id": "INE5646",
+      "code": "INE5646",
+      "name": "Programação para Web",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5417"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5417"
+      },
+      "syllabus": "Arquiteturas. Serviços. Protocolos de comunicação entre cliente e servidor e entre servidores. Representação de dados no cliente. Acesso a bases de dados. Escalabilidade. Linguagens de modelagem da interface com o usuário. Linguagens de programação no cliente e no servidor. Segurança. Instalação e configuração de servidores. Prática de programação."
+    },
+    {
+      "id": "INE5653",
+      "code": "INE5653",
+      "name": "Introdução à Internacionalização e Localização de Software",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5419"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5419"
+      },
+      "syllabus": "Introdução e sensibilização. Internacionalização de software: codificação de caracteres, sistemas de escrita, locales, algoritmos internacionalizados. Localização de software, de software web e de materiais relacionados. Ferramentas. Tópicos avançados."
+    },
+    {
+      "id": "INE5656",
+      "code": "INE5656",
+      "name": "Introdução à Lógica Simbólica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Escopo e aplicações da Lógica. Cálculos de seqüentes para as lógicas proposicional e quantificacional. Noções de semânticas. Exemplos de representação do conhecimento."
+    },
+    {
+      "id": "INE5658",
+      "code": "INE5658",
+      "name": "Lógica Simbólica II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5656"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5656"
+      },
+      "syllabus": "Tópicos em Lógica Quantificacional. Cálculo de seqüentes para a Lógica Equacional Clássica. Semântica para a Lógica Equacional Clássica. Cálculo de seqüentes para uma Lógica Descritiva. Semântica para a Lógica Descritiva."
+    },
+    {
+      "id": "INE5664",
+      "code": "INE5664",
+      "name": "Aprendizado de Máquina",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5405"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5405"
+      },
+      "syllabus": "Introdução, conceitos iniciais e aplicações. Fluxo de projeto de aprendizado de máquina. Fundamentos de aprendizado de máquina. Aprendizado não supervisionado. Aprendizado Supervisionado. Treinamento, avaliação e seleção de modelos."
+    },
+    {
+      "id": "INE5681",
+      "code": "INE5681",
+      "name": "Modelagem e Automação de Processos de Negócios",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5417"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5417"
+      },
+      "syllabus": "Gestão de negócios pela visão de processos de negócio. Modelagem da arquitetura e de regras de negócio. Ciclo da gestão de processos de negócio. Notações e métodos para modelagem de processos. Tópicos avançados em modelagem de processos, incluindo introdução à automação e indicadores de processos e aos sistemas para gestão de processos, e integração com requisitos de sistema e desenvolvimento de software."
+    },
+    {
+      "id": "INE7006",
+      "code": "INE7006",
+      "name": "Biologia Computacional e Computação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5425"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5425"
+      },
+      "syllabus": "Biologia computacional:: Fundamentos de biologia celular e molecular; Sistemas biológicos e bioengenharia; Métodos de bioinformática e de biotecnologia; Métodos de modelagem, simulação e análise de vias bioquímicas, redes metabólicas e sistemas biológicos. Computação biológica:: processamento bioquímico de informação; Fundamentos de biossensores e bioatuadores; Componentes de computação biológica; Síntese de circuitos digitais em sistemas orgânicos; Estudos de caso e estado da arte."
+    },
+    {
+      "id": "MTM3100",
+      "code": "MTM3100",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Biológica Conjuntos e aritmética básica; Cálculo com expressões algébricas; equações; inequações; funções."
+    },
+    {
+      "id": "INE7011",
+      "code": "INE7011",
+      "name": "Atividades Complementares 1",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Realização de ações paralelas e complementares à formação acadêmica prevista nos demais componentes curriculares do projeto pedagógico do curso."
+    },
+    {
+      "id": "INE7012",
+      "code": "INE7012",
+      "name": "Atividades Complementares 2",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Realização de ações paralelas e complementares à formação acadêmica prevista nos demais componentes curriculares do projeto pedagógico do curso"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EEL5105",
+      "INE5401",
+      "INE5402",
+      "INE5403",
+      "MTM3110",
+      "INE5404",
+      "INE5406",
+      "INE5407",
+      "MTM3120",
+      "MTM3121",
+      "INE5202",
+      "INE5408",
+      "INE5410",
+      "INE5411",
+      "MTM3131",
+      "INE5412",
+      "INE5413",
+      "INE5414",
+      "INE5415",
+      "INE5416",
+      "INE5417",
+      "INE5405",
+      "INE5418",
+      "INE5419",
+      "INE5420",
+      "INE5421",
+      "INE5422",
+      "INE5423",
+      "INE5424",
+      "INE5425",
+      "INE5426",
+      "INE5427",
+      "INE5430",
+      "INE5453",
+      "INE5428",
+      "INE5429",
+      "INE5431",
+      "INE5432",
+      "INE5433",
+      "INE5434",
+      "INE7011"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas",
+        "requiredHours": 672,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "INE5461",
+              "INE5462",
+              "INE5463",
+              "CAD5146",
+              "CAD5240",
+              "CAD5241",
+              "EEL7123",
+              "INE5435",
+              "INE5436",
+              "INE5437",
+              "INE5438",
+              "INE5439",
+              "INE5440",
+              "INE5441",
+              "INE5442",
+              "INE5443",
+              "INE5444",
+              "INE5445",
+              "INE5446",
+              "INE5447",
+              "INE5448",
+              "INE5449",
+              "INE5450",
+              "INE5451",
+              "INE5452",
+              "INE5454",
+              "INE5455",
+              "INE5456",
+              "INE5457",
+              "INE5458",
+              "INE5600",
+              "INE5619",
+              "INE5624",
+              "INE5628",
+              "INE5640",
+              "INE5643",
+              "INE5644",
+              "INE5646",
+              "INE5653",
+              "INE5656",
+              "INE5658",
+              "INE5664",
+              "INE5681",
+              "INE7006",
+              "MTM3100",
+              "INE7012"
+            ],
+            "allowsManualHours": false,
+            "maxHours": 636
+          },
+          {
+            "id": "extracurricular-and-complementary",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 384,
+            "manualLabel": "Atividades complementares ou extracurriculares"
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "208",
+    "curriculumCode": "20071",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=208&curriculo=20071",
+    "sha256": "227cd2e1fbe9d90048ecbc5081b6917890f106c1e656fb75310ca0ce6dbe7f52",
+    "capturedAt": "2026-09-22"
+  }
+}

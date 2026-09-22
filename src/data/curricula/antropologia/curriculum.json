@@ -1,0 +1,1674 @@
+{
+  "program": "ANTROPOLOGIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2010.1",
+  "totalHours": 3060,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ANT7101",
+      "code": "ANT7101",
+      "name": "Introdução à Antropologia (PCC 36 horas-",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "A constituição da Antropologia como disciplina e seu campo de estudo. A crítica ao etnocentrismo e o relativismo cultural. Questões de método: trabalho de campo e observação participante. Os precursores e o evolucionismo social na conformação da Antropologia como disciplina."
+    },
+    {
+      "id": "ANT7202",
+      "code": "ANT7202",
+      "name": "Introdução à Etnografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "aula) Introdução à etnografia como método, forma de representação e modo de reflexão antropológica. Os precursores da etnografia: o imaginário europeu sobre o ‘exótico’, o ‘selvagem’ e o ‘outro’; relatos de viagem; memórias dos colonizadores; antropologia de gabinete."
+    },
+    {
+      "id": "ANT7210",
+      "code": "ANT7210",
+      "name": "Práticas de Escrita em Antropologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Produção textual em antropologia; gêneros do discurso, gêneros literários; planejamento, elaboração e formas estilísticas de textos relevantes para o desempenho das atividades acadêmicas, tais como: resumos, resenhas, ensaios e artigos dissertativos e argumentativos. Regras de formatação, citações e referências bibliográficas."
+    },
+    {
+      "id": "ANT7201",
+      "code": "ANT7201",
+      "name": "Teoria Antropológica I - PCC 36h/a",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "A constituição das antropologias social-britânica - funcionalismo e estrutural-funcionalismo - e cultural norte-americana."
+    },
+    {
+      "id": "ANT7203",
+      "code": "ANT7203",
+      "name": "Leituras Etnográficas I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7202"
+      },
+      "syllabus": "Estudos etnográficos elaborados a partir do marco da antropologia social- britânica - funcionalismo e estrutural-funcionalismo - e do cultural-historicismo norte- americano."
+    },
+    {
+      "id": "ANT7204",
+      "code": "ANT7204",
+      "name": "Leituras Etnográficas II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7202"
+      },
+      "syllabus": "Estudos etnográficos elaborados a partir do marco da escola sociológica francesa e do estruturalismo. A relação entre teoria e etnografia."
+    },
+    {
+      "id": "ANT7301",
+      "code": "ANT7301",
+      "name": "Teoria Antropológica II - PCC 18 horas/aula",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "A escola sociológica francesa e o estruturalismo."
+    },
+    {
+      "id": "ANT7110",
+      "code": "ANT7110",
+      "name": "Metodologia da Pesquisa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As diferentes perspectivas epistemológicas e metodológicas da produção do conhecimento antropológico. O método comparativo e o método etnográfico. Objetividade e subjetividade na pesquisa antropológica. Trabalho de campo, reflexividade e simetria. Ética na pesquisa."
+    },
+    {
+      "id": "ANT7211",
+      "code": "ANT7211",
+      "name": "Leituras Etnográficas III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7202"
+      },
+      "syllabus": "Estudos etnográficos elaborados a partir da antropologia pós-guerra e contemporânea. A relação entre pesquisa de campo e escrita etnográfica. Etnografia como representação e como narrativa. Autoria e autoridade etnográfica. Representação etnográfica do 'eu' e do 'outro'. Reflexividade e dialogismo."
+    },
+    {
+      "id": "ANT7401",
+      "code": "ANT7401",
+      "name": "Teoria Antropológica III - PCC 36",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7101"
+      },
+      "syllabus": "O pensamento antropológico pós-guerra e as bases da antropologia contemporânea. A diversificação dos paradigmas antropológicos em reações às escolas nacionais e aos modelos dualistas (natureza e cultura; indivíduo e sociedade; história e estrutura). Proposições para as antropologias processuais, históricas, interpretativas e simbólicas."
+    },
+    {
+      "id": "ANT7205",
+      "code": "ANT7205",
+      "name": "Metodologia da Pesquisa II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101",
+        "ANT7201",
+        "ANT7202",
+        "ANT7203",
+        "ANT7204",
+        "ANT7210",
+        "ANT7211",
+        "ANT7301",
+        "ANT7401"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7201"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7202"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7203"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7204"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7210"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7211"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7301"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7401"
+          }
+        ]
+      },
+      "syllabus": "Realização de exercícios de trabalho de campo, de caráter experimental e instrumental, praticando as diferentes técnicas e métodos de pesquisa nas ciências humanas em geral e na antropologia em particular. Problematização de pesquisa de campo e análise de dados."
+    },
+    {
+      "id": "ANT7206",
+      "code": "ANT7206",
+      "name": "Seminário de Pesquisa",
+      "credits": 8,
+      "hours": 144,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101",
+        "ANT7110",
+        "ANT7201",
+        "ANT7202",
+        "ANT7203",
+        "ANT7204",
+        "ANT7205",
+        "ANT7210",
+        "ANT7211",
+        "ANT7301",
+        "ANT7401"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7110"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7201"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7202"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7203"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7204"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7205"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7210"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7211"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7301"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7401"
+          }
+        ]
+      },
+      "syllabus": "Elaboração e finalização do projeto de pesquisa para a monografia de final de curso (TCC). Revisão bibliográfica e teórico-metodológica; problemas gerais de planejamento, execução e avaliação do processo da pesquisa."
+    },
+    {
+      "id": "ANT7207",
+      "code": "ANT7207",
+      "name": "TCC I Prática de Pesquisa",
+      "credits": 18,
+      "hours": 360,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7206"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7206"
+      },
+      "syllabus": "Realização da pesquisa para a monografia, sob a supervisão de um professor orientador, indicado de acordo com a regulamentação do TCC."
+    },
+    {
+      "id": "ANT7208",
+      "code": "ANT7208",
+      "name": "TCC II - Trabalho de Conclusão de Curso",
+      "credits": 18,
+      "hours": 360,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7207"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7207"
+      },
+      "syllabus": "(Ver Regulamento do TCC ) Elaboração e defesa da monografia, sob a supervisão de um professor orientador, indicado de acordo com a regulamentação do TCC."
+    },
+    {
+      "id": "ANT7212",
+      "code": "ANT7212",
+      "name": "Seminário de Escrita",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7207"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7207"
+      },
+      "syllabus": "Redação, leitura e discussão do texto da monografia."
+    },
+    {
+      "id": "ANT7001",
+      "code": "ANT7001",
+      "name": "Cultura Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Significados e dinâmicas da Cultura Brasileira. Estudos antropológicos sobre Cultura Brasileira. Conceitos de Cultura Brasileira. Artes no Brasil. Literaturas no período colonial e contemporâneo. Cultura popular e folclore. Comunicação de massa."
+    },
+    {
+      "id": "ANT7002",
+      "code": "ANT7002",
+      "name": "Relações de Gênero",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O conceito de gênero segundo diferentes escolas teóricas. Identidades de gênero. Parentesco, família, filiação, reprodução e sexualidade. Representações do masculino e do feminino. Análise crítica dos estudos clássicos na Antropologia sobre o lugar das relações de gênero nas sociedades."
+    },
+    {
+      "id": "ANT7003",
+      "code": "ANT7003",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Particularidades históricas e processos de diferenciação. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política."
+    },
+    {
+      "id": "ANT7004",
+      "code": "ANT7004",
+      "name": "Etnologia Indígena",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temáticas, abordagens e perspectivas teórico-metodológicas em etnologia indígena, com ênfase sobre as sociedades situadas no Brasil. O campo de estudo da etnologia indígena, panorama histórico e atual."
+    },
+    {
+      "id": "ANT7005",
+      "code": "ANT7005",
+      "name": "Organização Social e Parentesco",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A constituição do campo: fundamentos teóricos e conceituais. Sistemas terminológicos, regras de filiação, aliança e residência. Herança e onomástica. Debates contemporâneos sobre a temática."
+    },
+    {
+      "id": "ANT7006",
+      "code": "ANT7006",
+      "name": "Antropologia Urbana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O fenômeno urbano. Organização social e espaço. Territórios e territorialidade. Apropriações e intervenção no espaço público. Dicotomias rural- urbano."
+    },
+    {
+      "id": "ANT7007",
+      "code": "ANT7007",
+      "name": "Antropologia do Mundo Rural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos e tradições teóricas nos estudos do chamado campesinato e da ruralidade. Modos de ocupação dos espaços e acesso aos recursos. Diversidades, organizações econômicas, relações sociais e moralidades nos coletivos do mundo rural. Relações com o urbano."
+    },
+    {
+      "id": "ANT7008",
+      "code": "ANT7008",
+      "name": "Antropologia Visual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A imagem como objeto de estudo antropológico. A história da sub- disciplina e algumas de suas principais tendências. A \"antropologia compartilhada\". As teorias e práticas de técnicas audiovisuais (fotografia, vídeo, cinema, multimídia) na pesquisa antropológica."
+    },
+    {
+      "id": "ANT7009",
+      "code": "ANT7009",
+      "name": "Antropologia da Alimentação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A comida como objeto antropológico. As diferentes escolas antropológicas e suas interpretações das práticas alimentares. Tabus e as prescrições alimentares. Alimentação e classe social, gênero e etnia. Identidade e estilo de vida. Emigração e globalização alimentar. Distúrbios alimentares e identidade."
+    },
+    {
+      "id": "ANT7010",
+      "code": "ANT7010",
+      "name": "Antropologia da Mídia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias da mídia impressa e eletrônica. Apocalípticos e integrados: as diferentes escolas analíticas. Ética, mídia e poder. Teorias da escola funcionalista, teorias de recepção e estudos culturais. Conceitos de repetição e serialidade. Etnografias de mídia e de audiência. Cybercultura."
+    },
+    {
+      "id": "ANT7011",
+      "code": "ANT7011",
+      "name": "Antropologia e Esporte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias do corpo, dos jogos, do esporte. Esporte, mídia e poder. Sublimação, identificação, masoquismo, pulsão de morte; masculinidade; identidade nacional e totemismo clubístico. Origens do esporte moderno e história do futebol brasileiro: classe e raça."
+    },
+    {
+      "id": "ANT7012",
+      "code": "ANT7012",
+      "name": "Globalização Cultural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias da globalização cultural e sua relação com a Antropologia. Teorias da Modernidade e da Pós-Modernidade. Globalização e transnacionalismo. Fluxos de pessoas: Processos migratórios e novas identidades. Multiculturalismo. Fluxos de imagens: mídia, imaginação e imaginário. Teorias do consumo."
+    },
+    {
+      "id": "ANT7013",
+      "code": "ANT7013",
+      "name": "Etnomusicologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A música como objeto de estudo antropológico. Esboço histórico e panorama atual: musicologia comparada, etnomusicologia, antropologia da música, estudos musicais. Música como código sócio-cultural: principais tendências teórico- metodológicas, hoje. Música popular, erudita, folclórica, indígenas. Estudos recentes no Brasil."
+    },
+    {
+      "id": "ANT7014",
+      "code": "ANT7014",
+      "name": "Antropologia da Arte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A arte como objeto de estudo antropológico: etnoestética, etnomusicologia, etnocoreologia e outros e sub-campos da área. Arte como código sócio-cultural: principais tendências teórico-metodológicas. Arte e artisticidade. Arte e agência. Artes populares, eruditas, folclóricas e indígenas. Etnografias clássicas, modernas e recentes sobre a arte. Estudos recentes no Brasil."
+    },
+    {
+      "id": "ANT7016",
+      "code": "ANT7016",
+      "name": "Individuo e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Pessoa e coletividade. Indivíduo, cultura e personalidade. A construção social da pessoa, grupo, identidade. Biografias e estrutura social."
+    },
+    {
+      "id": "ANT7017",
+      "code": "ANT7017",
+      "name": "Cultura e Meio Ambiente",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O meio ambiente na reflexão antropológica. Natureza, Cultura e Sociedade. Teorias antropológicas sobre a relação do homem com o meio ambiente. Antropologia da paisagem. Ambientalismo, ecologia política, áreas de preservação, e populações tradicionais. Sustentabilidade, gestão ambiental, e ambientes urbanos e rurais."
+    },
+    {
+      "id": "ANT7018",
+      "code": "ANT7018",
+      "name": "Antropologia e História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A fronteira entre a Antropologia e a História. Temas, debates e conceitos: estrutura e acontecimento, diacronia e sincronia."
+    },
+    {
+      "id": "ANT7019",
+      "code": "ANT7019",
+      "name": "Antropologia da Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As origens e fundamentos do poder político. Processos de formação dos sistemas políticos. Relações e poder e comportamento simbólico. Organização política em sociedades sem estado."
+    },
+    {
+      "id": "ANT7020",
+      "code": "ANT7020",
+      "name": "Família e Parentesco em Sociedades",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A perspectiva antropológica sobre a família. Reprodução, sexualidade e parentesco. Papéis sexuais. Relações de gênero, família e sociedade. Teorias sobre parentesco e casamento. Parentalidade e conjugalidade. Casamento."
+    },
+    {
+      "id": "ANT7021",
+      "code": "ANT7021",
+      "name": "Antropologia Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Complexas História da antropologia no Brasil. A questão nacional. Conceitos, questões e tendências da antropologia no Brasil."
+    },
+    {
+      "id": "ANT7022",
+      "code": "ANT7022",
+      "name": "Antropologia da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A disciplina tratará dos seguintes temas da Antropologia da Educação: abordagens antropológicas clássicas sobre os processos de ensino e aprendizagem, em especial estudos sobre \"socialização\" e \"cultura e personalidade\"; abordagens antropológicas contemporâneas sobre cognição, processos de transmissão de saberes, desenvolvimento infantil e a contribuição das crianças para o estudo da cultura e da sociedade; estudos das relações estabelecidas por meio da escola, com ênfase nas questões de raça e gênero; reflexões sobre o ensino da Antropologia na sala de aula do ensino fundamental e médio."
+    },
+    {
+      "id": "ANT7023",
+      "code": "ANT7023",
+      "name": "Pessoa e Corporalidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a uma abordagem antropológica da Pessoa e da corporalidade. A reflexão antropológica clássica sobre as técnicas corporais e sobre a noção de Pessoa, pensadas como construções simbólicas, sociais e históricas e os seus cruzamentos em diferentes campos da antropologia. Os estudos de etnologia ameríndia e a centralidade do idioma corporal. O individualismo moderno e seus desdobramentos quanto às concepções de corpo e Pessoa nas culturas urbanas contemporâneas. Gênero, corporalidade e subjetividade. Tecnologia e novas visões estéticas e midiáticas sobre o corpo e a Pessoa."
+    },
+    {
+      "id": "ANT7024",
+      "code": "ANT7024",
+      "name": "Violência e Conflitos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apresentação geral do campo de estudos das violências e dos Direitos Humanos relacionando-os com as agendas sociais e políticas da contemporaneidade. Sistematização dos fundamentos das abordagens teóricas da \"violência\" e da sua construção simbólica. Violência e medo. A violência como moralidade. Teorias do conflito. Formas de socialidade. Configurações do sujeito contemporâneo, Direitos Humanos, Cidadania e Lutas de reconhecimento. Questões éticas e políticas das práticas de intervenção social e do trabalho antropológico, especialmente no campo da segurança pública e da justiça."
+    },
+    {
+      "id": "ANT7027",
+      "code": "ANT7027",
+      "name": "Tópicos Especiais em Antropologia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7028",
+      "code": "ANT7028",
+      "name": "Tópicos Especiais em Antropologia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7029",
+      "code": "ANT7029",
+      "name": "Tópicos Especiais em Antropologia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7030",
+      "code": "ANT7030",
+      "name": "Tópicos Especiais em Antropologia IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7031",
+      "code": "ANT7031",
+      "name": "Tópicos Especiais em Antropologia V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7032",
+      "code": "ANT7032",
+      "name": "Tópicos Especiais em Antropologia VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7033",
+      "code": "ANT7033",
+      "name": "Tópicos Especiais em Antropologia VII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7034",
+      "code": "ANT7034",
+      "name": "Tópicos Especiais em Antropologia VIII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7035",
+      "code": "ANT7035",
+      "name": "Tópicos Especiais em Antropologia IX",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7036",
+      "code": "ANT7036",
+      "name": "Tópicos Especiais em Antropologia X",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7050",
+      "code": "ANT7050",
+      "name": "Gênero e Sexualidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O propósito da disciplina é refletir sobre as relações entre gênero e sexualidade através de temáticas colocadas por estudos antropológicos, como a reprodução, a conjugalidade, as tecnologias reprodutivas e a transexualidade. O foco recairá na dinâmica das problemáticas trazidas pelos temas, a vinculação destas com determinadas abordagens e conceitos tomados como centrais e suas implicações no debate contemporâneo sobre as políticas pelos direitos sexuais e reprodutivos."
+    },
+    {
+      "id": "ANT7051",
+      "code": "ANT7051",
+      "name": "Antropologia e Feminismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens antropológicas do gênero, a antropologia feminista e o campo dos estudos feministas de modo geral. Genealogia e trajetória dos estudos antropológicos de gênero e da antropologia feminista, abordando o gênero não apenas como um objeto da investigação antropológica, mas como um paradigma importante na análise cultural. Abordagem das teorias feministas e suas contribuições para a teoria antropológica. Leitura e discussão de etnografias que abordam questões de gênero e sexualidade e de etnografias."
+    },
+    {
+      "id": "ANT7052",
+      "code": "ANT7052",
+      "name": "Antropologia da Pessoa e Teorias do Sujeito",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Os diferentes paradigmas e abordagens da temática do sujeito no mundo contemporâneo. A reflexão antropológica sobre as categorias de Pessoa e Indivíduo, pensados como construções simbólicas, sociais e históricas. As diferentes teorias do sujeito e da subjetividade e a contribuição de outros campos do conhecimento."
+    },
+    {
+      "id": "ANT7053",
+      "code": "ANT7053",
+      "name": "Antropologia da Religião",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução e fundamentação de uma perspectiva antropológica para os estudos sobre religião, religiões e religiosidades. Abordagem da trajetória dos estudos antropológicos de religião, teorias, etnografia e conceitos, através da leitura e discussão de estudos clássicos e contemporâneos do campo de estudos. Religião, cultura e sociedade. Desdobramentos temáticos e articulações entre religião e outros temas contemporâneos."
+    },
+    {
+      "id": "ANT7054",
+      "code": "ANT7054",
+      "name": "Antropologia da Ciência e da Tecnologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A construção social da ciência e da tecnologia. As epistemes modernas e o discurso científico. Ciência e poder. Razão e racionalidade. Natureza e cultura; humano, pós-humano, não-humano."
+    },
+    {
+      "id": "ANT7058",
+      "code": "ANT7058",
+      "name": "Antropologia e Linguagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a teorias do signo e da linguagem. Comunicação e cultura. Texto, contexto e discurso. Referência, sentido e polissemia. Oralidade e escrita. Narrativa e poética. Signos e linguagens não-verbais. Tradução cultural."
+    },
+    {
+      "id": "ANT7059",
+      "code": "ANT7059",
+      "name": "Mito, Rito e Cosmologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Antropologia simbólica. Estudos de mito e rito e sua relação com a cosmologia. Pensamento antropológico sobre religião e o papel do rito. Xamanismo, rito e mito. Comprender a relação entre rito, cosmologia, e mito."
+    },
+    {
+      "id": "ANT7060",
+      "code": "ANT7060",
+      "name": "Representação e Imagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a perspectivas antropológicas, culturais e filosóficas sobre a representação. Imagens e outras formas de representação para além da linguagem verbal: teatro; cinema; objetos; fotografia; coleções; arte."
+    },
+    {
+      "id": "ANT7062",
+      "code": "ANT7062",
+      "name": "Antropologia dos Objetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Objetos materiais na história da antropologia social e cultural. Interpretações antropológicas sobre os objetos materiais. Transformações e reclassificações. Desafios na pesquisa de coleções e arquivos etnográficos. Antropologia e Consumo, cultura material e pessoas."
+    },
+    {
+      "id": "ANT7063",
+      "code": "ANT7063",
+      "name": "Antropologia Simbólica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O campo da antropologia simbólica preocupa com o papel do símbolo na vida humana, particularmente na sua expressão em rito, mito, e religião. A disciplina visa fornecer uma base para entender as preocupações principais da antropologia simbólica com ênfase na linha caracterizada como \"antropologia interpretativa\". Além de examinar as teorias mais representativas, explora alguns desdobramentos atuais que vão além de uma perspectiva normativa para dar conta da complexidade da vida social."
+    },
+    {
+      "id": "ANT7065",
+      "code": "ANT7065",
+      "name": "Introdução à Antropologia Econômica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Surgimento, desenvolvimento e crítica à chamada antropologia econômica, compreendida como sub-área da Antropologia. As diferentes correntes: formalista, substantivista, marxista e culturalista, e principais autores e debates entre as teorias da antropologia econômica."
+    },
+    {
+      "id": "ANT7066",
+      "code": "ANT7066",
+      "name": "Antropologia da Saúde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Panorama do campo da Antropologia da Saúde, destacando as suas diversas atividades e pesquisas sobre a relação entre saúde, sociedade, e cultura de uma perspectiva antropológica. Doença como processo sócio-cultural. Relação saúde e cultura. Representações do corpo, etnomedicina, práticas de cura, itinerário terapêutico, eficacia ritual, cura, etc. A relação entre sistemas religiosos, cosmológicos e a saúde, incluindo sistemas xamânicos, religiões afro- brasileiras e medicina popular."
+    },
+    {
+      "id": "ANT7067",
+      "code": "ANT7067",
+      "name": "Do Rito à Performance",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noção de performance e seu desenvolvimento nas ciências humanas. Performances sagrados (ritos) e lúdicos. Liminal e liminoid na sociedade complexa. Manifestações étnicas e politicas. Teatro popular, jogos, espectáculos, e festas. Estudos de casos."
+    },
+    {
+      "id": "ANT7068",
+      "code": "ANT7068",
+      "name": "Identidades e Diversidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A construção de identidades sociais. Territorialidade, fronteiras simbólicas e etnicidade. Políticas de identidade e minorias como questões sociais e antropológicas."
+    },
+    {
+      "id": "ANT7070",
+      "code": "ANT7070",
+      "name": "Atividades Extraclasse",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Entende-se como atividades extraclasse do Curso de Antropologia as atividades complementares realizadas pelos alunos no âmbito da pesquisa, ensino e extensão universitárias, com supervisão de docente e obrigatoriamente relacionadas com as áreas da Antropologia. As atividades extraclasse poderão ser validadas como disciplina ANT 7070 - Atividades Extraclasse (72 horas/aula) para fins de integralização curricular."
+    },
+    {
+      "id": "ANT7071",
+      "code": "ANT7071",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina criada para a manutenção de matrícula no Curso de Antropologia durante intercâmbios acadêmicos realizados em outras instituições, em acordo com Resolução nº 007/CUn/99 de 30 de Março de 1999."
+    },
+    {
+      "id": "ANT7072",
+      "code": "ANT7072",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ANT7071"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7071"
+      },
+      "syllabus": "Disciplina criada para a manutenção de matrícula no Curso de Antropologia durante intercâmbios acadêmicos realizados em outras instituições, em acordo com Resolução nº 007/CUn/99 de 30 de Março de 1999."
+    },
+    {
+      "id": "ANT7073",
+      "code": "ANT7073",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ANT7072"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7072"
+      },
+      "syllabus": "Disciplina criada para a manutenção de matrícula no Curso de Antropologia durante intercâmbios acadêmicos realizados em outras instituições, em acordo com Resolução nº 007/CUn/99 de 30 de Março de 1999."
+    },
+    {
+      "id": "ANT7104",
+      "code": "ANT7104",
+      "name": "Patrimônio Histórico e Cultural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Formação da identidade Nacional. A Semana de Arte de 22. Patrimônio cultural, Histórico e Cultural. Patrimônio material e imaterial."
+    },
+    {
+      "id": "ANT7501",
+      "code": "ANT7501",
+      "name": "Tutorial Optativa I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ANT7101",
+        "ANT7202",
+        "ANT7210"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7202"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7210"
+          }
+        ]
+      },
+      "syllabus": "Disciplina voltada ao aprofundamento de temas e questões específicas da Antropologia. É pré-requisito para esta disciplina a aprovação em todas as disciplinas obrigatórias da primeira fase."
+    },
+    {
+      "id": "ANT7502",
+      "code": "ANT7502",
+      "name": "Tutorial Optativa II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ANT7101",
+        "ANT7202",
+        "ANT7210"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7202"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7210"
+          }
+        ]
+      },
+      "syllabus": "Disciplina voltada ao aprofundamento de temas e questões especificas da Antropologia. É pré-requisito para esta disciplina a aprovação em todas as disciplinas obrigatórias da primeira fase."
+    },
+    {
+      "id": "ANT7503",
+      "code": "ANT7503",
+      "name": "Tutorial Optativa III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ANT7101",
+        "ANT7202",
+        "ANT7210"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7202"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7210"
+          }
+        ]
+      },
+      "syllabus": "Disciplina voltada ao aprofundamento de temas e questões especificas da Antropologia. É pré-requisito para esta disciplina a aprovação em todas as disciplinas obrigatórias da primeira fase."
+    },
+    {
+      "id": "ANT7504",
+      "code": "ANT7504",
+      "name": "Tutorial Optativa IV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7101"
+      },
+      "syllabus": "Disciplina voltada ao aprofundamento de temas e questões especificas da Antropologia. É pré-requisito para esta disciplina a aprovação em todas as disciplinas obrigatórias da primeira fase."
+    },
+    {
+      "id": "ANT7505",
+      "code": "ANT7505",
+      "name": "Tutorial optativa V",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7101"
+      },
+      "syllabus": "Disciplina voltada ao aprofundamento de temas e questões especificas da Antropologia. É pré-requisito para esta disciplina a aprovação em todas as disciplinas obrigatórias da primeira fase."
+    },
+    {
+      "id": "ANT7701",
+      "code": "ANT7701",
+      "name": "Estudos Afro-Brasileiros - PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações raciais e racismo no Brasil. Relações interétnicas e Identidades étnicas. Estudos sobre os negros no Brasil."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "horas/aula Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "MUS7305",
+      "code": "MUS7305",
+      "name": "Pensamento Contemporâneo em Museologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT7105",
+        "MUS7102"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7105"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7102"
+          }
+        ]
+      },
+      "syllabus": "aula) Teoria museológica e a contemporaneidade. Identidade e Memória. Nova Museologia e Museologia Social. Museus, biodiversidade e sustentabilidade sócio- ambiental. Direitos Humanos. Acessibilidades. Museologia e questões sociais. Experiências contemporâneas nacionais e internacionais no campo dos museus."
+    },
+    {
+      "id": "MUS7306",
+      "code": "MUS7306",
+      "name": "Comunicação Museológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT7106",
+        "MUS7201"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7106"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7201"
+          }
+        ]
+      },
+      "syllabus": "Informação e processos informacionais. Comunicação e Sociedade. Informação nos Museus. Comunicação em Museus. Informação, Indústria Cultural. Exposições e discursos."
+    },
+    {
+      "id": "MUS7403",
+      "code": "MUS7403",
+      "name": "Preservação e Conservação de Bens",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "HST7901"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST7901"
+      },
+      "syllabus": "Histórico da preservação; Conceitos de preservação, conservação preventiva e conservação curativa; Legislação, cartas e recomendações nacionais e internacionais sobre preservação de bens culturais; Prevenção e segurança nos Museus; Ética profissional na conservação/restauro."
+    },
+    {
+      "id": "MUS7505",
+      "code": "MUS7505",
+      "name": "Preservação e Conservação de Bens",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "HST7902"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST7902"
+      },
+      "syllabus": "Culturais I MUS7401) Materiais e Métodos em conservação preventiva; Acervos orgânicos e inorgânicos; Tipologia de materiais que compõem acervos; Ambiente; Edificação; Mobiliário; Manuseio; Embalagem; Transporte; Reservas Técnicas e Exposição; Diagnóstico e Descrição do estado de conservação."
+    },
+    {
+      "id": "MUS7506",
+      "code": "MUS7506",
+      "name": "Expografia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "HST7906",
+        "MUS7202"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST7906"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7202"
+          }
+        ]
+      },
+      "syllabus": "Culturais II MUS7402) Exposição como meio de comunicação. Discurso Expositivo. Teorias da Percepção e objetos museológicos. Tipologias de Exposição. Planejamento de exposições. Fundamentação teórica de projeto expositivo."
+    },
+    {
+      "id": "MUS7910",
+      "code": "MUS7910",
+      "name": "Documentação Museológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "HST7903",
+        "MUS7304",
+        "MUS7404"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST7903"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7304"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7404"
+          }
+        ]
+      },
+      "syllabus": "Discussão teórico-prática acerca das atividades que envolvem os processos de documentação museológica ligado ao campo do Patrimônio, tais como: Registro; Catalogação; Classificação; Processamento e informação de acervos. Indexação de Acervos. Documento e Documentação em espaços museológicos. Organização e Representação da Informação e do Conhecimento. Gestão e Política de Acervos. Padrões Internacionais da Museologia. Indexação de Acervos. Termos e Conceitos: tesauros e vocabulários controlados. Processamento técnico em laboratório: Arrolamento; Inventário; Ficha de Catalogação; Descrição de Acervos; Numeração e Marcação de Acervos."
+    },
+    {
+      "id": "MUS7912",
+      "code": "MUS7912",
+      "name": "Introdução a Museologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT7102",
+        "MUS7101",
+        "MUS7104"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7102"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7101"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7104"
+          }
+        ]
+      },
+      "syllabus": "A formação sócio-histórica do museu moderno. Ciência, modernidade e colonialidade. A Museologia como um campo do conhecimento. Desenvolvimento do conceito de museu. Tipologias de Museus."
+    },
+    {
+      "id": "MUS7913",
+      "code": "MUS7913",
+      "name": "Ação Cultural e Educativa em Espaços",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT7103"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT7103"
+      },
+      "syllabus": "Direito de memória: fruição, interatividade, acessibilidades e outras demandas. O programa educativo no Plano Museológico. A ação cultural e educativa: pressupostos teórico-metodológicos. Ação Educativa e avaliação. Elaboração de projeto educativo para exposição curricular."
+    },
+    {
+      "id": "MUS7923",
+      "code": "MUS7923",
+      "name": "Gestão de Museus",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT7107",
+        "MUS7302",
+        "MUS7608"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7107"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7302"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7608"
+          }
+        ]
+      },
+      "syllabus": "Noções de gerenciamento de museus: composição de recursos humanos e financeiros, estruturação espacial e documental das coleções, fruição e comunicação; Reconhecimento de legislações nacionais e internancionais que regem as práticas museológicas aplicadas a acervos; Código de conduta ética dos profissionais de museus; Estudo e análise de planos e programas museológicos em instituições com natureza de museu, públicas e privadas."
+    },
+    {
+      "id": "HST7101",
+      "code": "HST7101",
+      "name": "Introdução aos Estudos Históricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "DISCIPLINAS OPTATIVAS/ Discussão introdutória sobre a construção do conhecimento histórico através do estudo das fontes, da discussão bibliográfica e da forma da narrativa."
+    },
+    {
+      "id": "HST7103",
+      "code": "HST7103",
+      "name": "História da Antiguidade Ocidental (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7103
+      },
+      "prerequisiteHours": 7103,
+      "syllabus": "Estudo das sociedades da Antigüidade Clássica, sua organização e mudanças a partir do contato com o Oriente, suas abordagens historiográficas e suas perspectivas teóricas e de prática de ensino."
+    },
+    {
+      "id": "HST7104",
+      "code": "HST7104",
+      "name": "História da Arte (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7104
+      },
+      "prerequisiteHours": 7104,
+      "syllabus": "12h-a) Estudo dos problemas da arte em diferentes épocas e sociedades e das abordagens teórico-metodológicas para a decodificação de imagens no âmbito da pesquisa e ensino da História."
+    },
+    {
+      "id": "HST7403",
+      "code": "HST7403",
+      "name": "História da América Independente (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7403
+      },
+      "prerequisiteHours": 7403,
+      "syllabus": "Estudo da trajetória histórica dos países da América de colonização espanhola, francesa e inglesa a partir dos processos de independência e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST7502",
+      "code": "HST7502",
+      "name": "História do Brasil Republicano I (PCC 12h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7502
+      },
+      "prerequisiteHours": 7502,
+      "syllabus": "12h-a) Estudo da sociedade brasileira da proclamação da república até a primeira metade do século XX. As formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST7603",
+      "code": "HST7603",
+      "name": "História de Santa Catarina (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7603
+      },
+      "prerequisiteHours": 7603,
+      "syllabus": "a) Estudo da História e da historiografia catarinense e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST7900",
+      "code": "HST7900",
+      "name": "Memória e Museu",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Discussão introdutória sobre a construção do conhecimento histórico através do estudo das fontes, da discussão bibliográfica e da forma da narrativa."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ANT7101",
+      "ANT7202",
+      "ANT7210",
+      "ANT7201",
+      "ANT7203",
+      "ANT7204",
+      "ANT7301",
+      "ANT7110",
+      "ANT7211",
+      "ANT7401",
+      "ANT7205",
+      "ANT7206",
+      "ANT7207",
+      "ANT7208",
+      "ANT7212"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 1224,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ANT7001",
+              "ANT7002",
+              "ANT7003",
+              "ANT7004",
+              "ANT7005",
+              "ANT7006",
+              "ANT7007",
+              "ANT7008",
+              "ANT7009",
+              "ANT7010",
+              "ANT7011",
+              "ANT7012",
+              "ANT7013",
+              "ANT7014",
+              "ANT7016",
+              "ANT7017",
+              "ANT7018",
+              "ANT7019",
+              "ANT7020",
+              "ANT7021",
+              "ANT7022",
+              "ANT7023",
+              "ANT7024",
+              "ANT7027",
+              "ANT7028",
+              "ANT7029",
+              "ANT7030",
+              "ANT7031",
+              "ANT7032",
+              "ANT7033",
+              "ANT7034",
+              "ANT7035",
+              "ANT7036",
+              "ANT7050",
+              "ANT7051",
+              "ANT7052",
+              "ANT7053",
+              "ANT7054",
+              "ANT7058",
+              "ANT7059",
+              "ANT7060",
+              "ANT7062",
+              "ANT7063",
+              "ANT7065",
+              "ANT7066",
+              "ANT7067",
+              "ANT7068",
+              "ANT7070",
+              "ANT7071",
+              "ANT7072",
+              "ANT7073",
+              "ANT7104",
+              "ANT7501",
+              "ANT7502",
+              "ANT7503",
+              "ANT7504",
+              "ANT7505",
+              "ANT7701",
+              "LSB7904",
+              "MUS7305",
+              "MUS7306",
+              "MUS7403",
+              "MUS7505",
+              "MUS7506",
+              "MUS7910",
+              "MUS7912",
+              "MUS7913",
+              "MUS7923",
+              "HST7101",
+              "HST7103",
+              "HST7104",
+              "HST7403",
+              "HST7502",
+              "HST7603",
+              "HST7900"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "337",
+    "curriculumCode": "20101",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=337&curriculo=20101",
+    "sha256": "2def51c70134d814c903028e951e10f1a69006b28872192aa9fb45ecabc2bb6c",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -1,0 +1,2229 @@
+{
+  "program": "EDUCAÇÃO DO CAMPO",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2009.2",
+  "totalHours": 3906,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EDC1403",
+      "code": "EDC1403",
+      "name": "Estado e Políticas de Educação do Campo I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7230",
+        "EED7230"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7230"
+          },
+          {
+            "kind": "course",
+            "code": "EED7230"
+          }
+        ]
+      },
+      "syllabus": "Campo e Educação no Brasil: questões introdutórias. O Movimento por uma Educação do Campo: história e desenvolvimento. Políticas e programas de Educação do Campo.-"
+    },
+    {
+      "id": "EDC1407",
+      "code": "EDC1407",
+      "name": "Fundamentos BIO",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7201",
+        "MEN7201"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7201"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7201"
+          }
+        ]
+      },
+      "syllabus": "Conceitos básicos de Biologia mobilizados na Educação Básica para compreensão da constituição dos seres vivos e interações com o meio, considerando o contexto e a realidade das escolas do campo e as possibilidades de interações com as outras áreas do saber.-"
+    },
+    {
+      "id": "EDC1408",
+      "code": "EDC1408",
+      "name": "Fundamentos MTM",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7201",
+        "MEN7201"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7201"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7201"
+          }
+        ]
+      },
+      "syllabus": "Conceitos básicos de Matemática - álgebra, número e funções; geometria e medidas; e análise de dados - mobilizados na Educação Básica, considerando o contexto e a realidade das escolas do campo e as possibilidades de interações com as outras áreas do saber.-"
+    },
+    {
+      "id": "EDC1411",
+      "code": "EDC1411",
+      "name": "Estudo orientado e seminário de socialização I (PCC)**",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7260",
+        "EED7260"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7260"
+          },
+          {
+            "kind": "course",
+            "code": "EED7260"
+          }
+        ]
+      },
+      "syllabus": "-Estudos e sistematização em forma de relatório-diagnóstico da vivência dos tempos comunidade, a partir dos planos de estudos construídos a cada Tempo Universidade pela turma e das pesquisas de campo voltadas ao conhecimento das condições socioeconômico-político-culturais e ambientais do município de origem de cada estudante."
+    },
+    {
+      "id": "EDC1420",
+      "code": "EDC1420",
+      "name": "Infância e Juventude no e do campo I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7220",
+        "EED7220"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7220"
+          },
+          {
+            "kind": "course",
+            "code": "EED7220"
+          }
+        ]
+      },
+      "syllabus": "-Estudos sobre a constituição do ser social: aspectos ontológicos e históricos. A constituição histórica da infância e da juventude."
+    },
+    {
+      "id": "EDC1429",
+      "code": "EDC1429",
+      "name": "Introdução aos Processos de Pesquisa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7272",
+        "EED7272"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7272"
+          },
+          {
+            "kind": "course",
+            "code": "EED7272"
+          }
+        ]
+      },
+      "syllabus": "-Noções básicas sobre a história e a produção da ciência pela humanidade. Habilidades e atitudes investigativas necessárias para a pesquisa: hábito de leitura, estudo, interpretação e produção textual, sistematização científica. Tipos de pesquisas. Normatizações científicas."
+    },
+    {
+      "id": "EDC1442",
+      "code": "EDC1442",
+      "name": "Sujeitos do Campo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7222",
+        "EDC7223",
+        "EED7222",
+        "EED7223"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7222"
+          },
+          {
+            "kind": "course",
+            "code": "EDC7223"
+          },
+          {
+            "kind": "course",
+            "code": "EED7222"
+          },
+          {
+            "kind": "course",
+            "code": "EED7223"
+          }
+        ]
+      },
+      "syllabus": "-A constituição histórica dos povos do campo no Brasil. Os sujeitos da Educação do Campo: trabalho, organização, cultura, ambiente, políticas e conflitos. Questões de gênero no campo. Modernização e culturas tradicionais. Diversidade e questões comuns."
+    },
+    {
+      "id": "EDC1443",
+      "code": "EDC1443",
+      "name": "Saberes e Fazeres I - processos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7213"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7213"
+      },
+      "syllabus": "-Interlocução entre saberes populares e conhecimento científico. As relações entre saberes e as implicações na educação escolar no/do campo. A área de conhecimento e os saberes silenciados no currículo escolar ao longo da história."
+    },
+    {
+      "id": "EDC1455",
+      "code": "EDC1455",
+      "name": "Vivência compartilhada I (PCC 72h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7250",
+        "EED7250"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7250"
+          },
+          {
+            "kind": "course",
+            "code": "EED7250"
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "metadológicos MEN7213) Pesquisas realizadas a partir dos planos de estudos construídos a cada Tempo Universidade e voltadas ao conhecimento das condições socioeconômico- político-culturais e ambientais do município de origem de cada estudante."
+    },
+    {
+      "id": "EDC1463",
+      "code": "EDC1463",
+      "name": "Instrumentos Pedagogia da Alternância I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7260"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7260"
+      },
+      "syllabus": "-Preparação e realização das \"Colocações em comum\" e dos \"Planos de Estudos\", instrumentos fundamentais para tornar efetiva e estreita a conexão entre os tempos universidade e comunidade, nos níveis individuais, relacionais, didáticos e institucionais."
+    },
+    {
+      "id": "EDC1401",
+      "code": "EDC1401",
+      "name": "Campo e processos migratórios",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED7224",
+        "EED7225",
+        "EDC7226",
+        "EED7226"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED7224"
+              },
+              {
+                "kind": "course",
+                "code": "EED7225"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "EDC7226"
+          },
+          {
+            "kind": "course",
+            "code": "EED7226"
+          }
+        ]
+      },
+      "syllabus": "Campo e cidade: relações e conceitos embasadores. Desenvolvimento e condições de vida no campo. Formação e ocupação do território rural no Brasil. Ocupação e formação do espaço rural em Santa Catarina. Urbanização e metropolização e sua relação com o êxodo rural. Êxodo rural e as migrações atuais. As migrações atuais e formação dos espaços urbanos e sua periferia."
+    },
+    {
+      "id": "EDC1404",
+      "code": "EDC1404",
+      "name": "Estado e Políticas de Educação do Campo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7231"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7231"
+      },
+      "syllabus": "-Estado, Movimentos Sociais e suas relações. Educação como direito humano; Obrigatoriedade da educação escolar no Brasil e a Educação no Campo; Legislações e políticas de Educação no Campo;"
+    },
+    {
+      "id": "EDC1409",
+      "code": "EDC1409",
+      "name": "Fundamentos FIS",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7202",
+        "MEN7202"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7202"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7202"
+          }
+        ]
+      },
+      "syllabus": "II EED7231) -Conceitos básicos de Física - equilíbrio e energia - mobilizados na Educação Básica para a compreensão da Terra como um sistema, considerando o contexto e a realidade das escolas do campo e as possibilidades de interações com as outras áreas do saber."
+    },
+    {
+      "id": "EDC1410",
+      "code": "EDC1410",
+      "name": "Fundamentos QUI",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7202",
+        "MEN7202"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7202"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7202"
+          }
+        ]
+      },
+      "syllabus": "-Conceitos básicos de Química mobilizados na Educação Básica para a compreensão da química do carbono na vida e no ambiente, suas transformações e constituições do meio considerando o contexto e a realidades escolas do campo e as possibilidades de interações com as outras áreas do saber."
+    },
+    {
+      "id": "EDC1412",
+      "code": "EDC1412",
+      "name": "Estudo Orientado e Seminário de Socialização II (PCC)**",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7261",
+        "EED7261"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7261"
+          },
+          {
+            "kind": "course",
+            "code": "EED7261"
+          }
+        ]
+      },
+      "syllabus": "-Estudos e sistematização em forma de relatório-diagnóstico da vivência dos tempos comunidade, a partir dos planos de estudos construídos a cada Tempo Universidade pela turma e das pesquisas de campo voltadas ao conhecimento das condições socioeconômico-político-culturais e ambientais do município de origem de cada estudante."
+    },
+    {
+      "id": "EDC1421",
+      "code": "EDC1421",
+      "name": "Infância e juventude no e do campo II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7221",
+        "EED7221"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7221"
+          },
+          {
+            "kind": "course",
+            "code": "EED7221"
+          }
+        ]
+      },
+      "syllabus": "-A vida das crianças e jovens do campo e problemas sociais: do trabalho infantil ao êxodo rural jovem. As relações intrínsecas entre educação de crianças e jovens na constituição do ser genérico."
+    },
+    {
+      "id": "EDC1441",
+      "code": "EDC1441",
+      "name": "Questões Ambientais e Desenvolvimento",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7211"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7211"
+      },
+      "syllabus": "-Análise histórica e perspectivas futuras da utilização de recursos naturais. Impactos causados pela ação humana. Campo, agricultura e problemas ambientais e de qualidade de vida. Surgimento da noção de sustentabilidade, sua transformação e implicações sobre o campo e os debates em torno dele."
+    },
+    {
+      "id": "EDC1456",
+      "code": "EDC1456",
+      "name": "Vivência Compartilhada II (PCC 72h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7251",
+        "EED7251"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7251"
+          },
+          {
+            "kind": "course",
+            "code": "EED7251"
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Sustentável EDC7212 ou -Pesquisas realizadas a partir dos planos de estudos construídos a cada Tempo Universidade e voltadas ao conhecimento das condições socioeconômico- político-culturais e ambientais do município de origem de cada estudante."
+    },
+    {
+      "id": "EDC1464",
+      "code": "EDC1464",
+      "name": "Instrumentos Pedagogia da Alternância II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7261",
+        "EED7261"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7261"
+          },
+          {
+            "kind": "course",
+            "code": "EED7261"
+          }
+        ]
+      },
+      "syllabus": "Preparação e realização das \"Colocações em comum\" e dos \"Planos de Estudos\", instrumentos fundamentais para tornar efetiva e estreita a conexão entre os tempos universidade e comunidade, nos níveis individuais, relacionais, didáticos e institucionais."
+    },
+    {
+      "id": "EXR1438",
+      "code": "EXR1438",
+      "name": "Introdução à Agroecologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EXR7238",
+        "ZOT7238",
+        "EXR7239",
+        "ZOT7239"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EXR7238"
+              },
+              {
+                "kind": "course",
+                "code": "ZOT7238"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EXR7239"
+              },
+              {
+                "kind": "course",
+                "code": "ZOT7239"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "As bases científicas da agricultura sustentável; Introdução à agroecologia e à transição agroecológica; Gênese e emergência da ciência Agroecologia; o conceito de transição agroecológica e seus níveis. Conceitos básicos e instrumentos de regulação ligados à cadeia de produção orgânica."
+    },
+    {
+      "id": "EDC1402",
+      "code": "EDC1402",
+      "name": "Cultura escolar e organização coletiva",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7240",
+        "EED7240",
+        "EDC7241",
+        "EED7241"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EDC7240"
+              },
+              {
+                "kind": "course",
+                "code": "EED7240"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EDC7241"
+              },
+              {
+                "kind": "course",
+                "code": "EED7241"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-O direito a educação; Escola, cidadania, justiça escolar; Cultura escolar e cultura da escola conceituação; história da instituição escolar; teorias que fundamentam a compreensão da escola; escola rural x escola do campo: conceito."
+    },
+    {
+      "id": "EDC1413",
+      "code": "EDC1413",
+      "name": "Estudo orientado e seminário de socialização III (PCC)**",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7262",
+        "EED7262",
+        "MEN7262"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7262"
+          },
+          {
+            "kind": "course",
+            "code": "EED7262"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7262"
+          }
+        ]
+      },
+      "syllabus": "-Estudos e sistematização em forma de relatório-diagnóstico da vivência dos tempos comunidade, a partir dos planos de estudos construídos a cada Tempo Universidade pela turma e das pesquisas de campo voltadas ao conhecimento da realidade escolar em uma escola do município de origem do estudante."
+    },
+    {
+      "id": "EDC1423",
+      "code": "EDC1423",
+      "name": "Fundamentos da Ciências da Natureza e Matemática na Educação Básica para as",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7203",
+        "MEN7203"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7203"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7203"
+          }
+        ]
+      },
+      "syllabus": "-As Ciências da Natureza (CN) e a Matemática (MTM) como parte da Cultura para a formação de cidadãos e cidadãs, na sua relação com a Tecnologia e a Sociedade na contemporaneidade. Eixo temático integrador: \"Qualidade de Vida das Populações humanas\" sob o olhar dos campos de conhecimentos da Física, Biologia, Química e Matemática relacionada ao estudo das realidades no/do campo."
+    },
+    {
+      "id": "EDC1430",
+      "code": "EDC1430",
+      "name": "Pesquisa I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7273",
+        "EED7273"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7273"
+          },
+          {
+            "kind": "course",
+            "code": "EED7273"
+          }
+        ]
+      },
+      "syllabus": "Escolas do Campo I -Estudos sobre as principais teorias do conhecimento e seus desdobramentos para a pesquisa: Positivismo, Fenomenologia, Materialismo Histórico Dialético, Teoria Crítica, Pós-modernidade. Habilidades e atitudes investigativas necessárias para a pesquisa: sistematização científica desde o interesse e a procura pela temática a ser investigada, passos metodológicos de um projeto de pesquisa."
+    },
+    {
+      "id": "EDC1444",
+      "code": "EDC1444",
+      "name": "Saberes e Fazeres II - processos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7214"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7214"
+      },
+      "syllabus": "-A educação em CN e MTM como campo de conhecimentos: história e perspectivas atuais. As diferenças entre ensino e educação e as implicações curriculares para a educação do/no campo. Pesquisa e educação em CN e MTM."
+    },
+    {
+      "id": "EDC1449",
+      "code": "EDC1449",
+      "name": "Teoria da Educação I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7247",
+        "EED7247"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7247"
+          },
+          {
+            "kind": "course",
+            "code": "EED7247"
+          }
+        ]
+      },
+      "syllabus": "metodológicos MEN7214) -Estudos sobre as bases filosóficas e históricas que sustentam as teorias da educação. Principais teorias da educação na história e na atualidade. A Pedagogia tradicional e a Pedagogia Nova."
+    },
+    {
+      "id": "EDC1457",
+      "code": "EDC1457",
+      "name": "Vivência Compartilhada III (PCC 72h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7252",
+        "EED7252"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7252"
+          },
+          {
+            "kind": "course",
+            "code": "EED7252"
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Pesquisas a partir dos planos de estudos construídos a cada Tempo Universidade pela turma e voltadas ao conhecimento da realidade escolar em uma escola do município de origem do estudante."
+    },
+    {
+      "id": "EDC1465",
+      "code": "EDC1465",
+      "name": "Instrumentos Pedagogia da alternância III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7262"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7262"
+      },
+      "syllabus": "Preparação e realização das \"Colocações em comum\" e dos \"Planos de Estudos\", instrumentos fundamentais para tornar efetiva e estreita a conexão entre os tempos universidade e comunidade, nos níveis individuais, relacionais, didáticos e institucionais."
+    },
+    {
+      "id": "EDC1414",
+      "code": "EDC1414",
+      "name": "Estudo Orientado e Seminário de Socialização IV (PCC)**",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7263",
+        "EED7263",
+        "MEN7263"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7263"
+          },
+          {
+            "kind": "course",
+            "code": "EED7263"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7263"
+          }
+        ]
+      },
+      "syllabus": "-Estudos e sistematização em forma de artigo científico abordando a realidade escolar em uma escola do município de origem do estudante."
+    },
+    {
+      "id": "EDC1424",
+      "code": "EDC1424",
+      "name": "Fundamentos das CNM na Educação",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7204"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7204"
+      },
+      "syllabus": "-Produção da ciência, ética e cidadania. Interlocuções conceituais advindas da área das Ciências da Natureza e Matemática para compreensão da realidade orientada pelo eixo integrador \"Energia solar, terra e agricultura\"."
+    },
+    {
+      "id": "EDC1431",
+      "code": "EDC1431",
+      "name": "Pesquisa II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7277",
+        "EED7277",
+        "MEN7270"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7277"
+          },
+          {
+            "kind": "course",
+            "code": "EED7277"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7270"
+          }
+        ]
+      },
+      "syllabus": "Básica para as Escolas do Campo II MEN7204) -Habilidades e atitudes investigativas para construir um artigo a partir da experimentação do Tempo Comunidade e sua relação com o Tempo Universidade. Projeto de pesquisa: problema, objetivo, revisão bibliográfica, procedimento de coleta de dados, análise de dados, conclusão, referências e fontes. Elementos constitutivos de um artigo científico. Enfoque na pesquisa de campo e tratamento dos dados coletados."
+    },
+    {
+      "id": "EDC1439",
+      "code": "EDC1439",
+      "name": "Organização dos Processos Educativos I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7242",
+        "EED7242",
+        "EDC7243",
+        "EED7243"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EDC7242"
+              },
+              {
+                "kind": "course",
+                "code": "EED7242"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EDC7243"
+              },
+              {
+                "kind": "course",
+                "code": "EED7243"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-Organização dos processos educativos na educação básica e demais espaços educativos. A gestão democrática como princípio pedagógico. O projeto político pedagógico: estrutura e sujeitos. A coordenação político-pedagógica da escola."
+    },
+    {
+      "id": "EDC1450",
+      "code": "EDC1450",
+      "name": "Teoria da Educação II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7248",
+        "EED7248"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7248"
+          },
+          {
+            "kind": "course",
+            "code": "EED7248"
+          }
+        ]
+      },
+      "syllabus": "-Teorias Críticas em Educação. As grandes teorias da Educação e repercussões no Brasil. A pedagogia no Brasil. A filiação teórica da Educação do Campo e sua relação com as teorias da Educação."
+    },
+    {
+      "id": "EDC1458",
+      "code": "EDC1458",
+      "name": "Vivência Compartilhada IV (PCC 72h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7253",
+        "EED7253"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7253"
+          },
+          {
+            "kind": "course",
+            "code": "EED7253"
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Pesquisas a partir dos planos de estudos construídos a cada Tempo Universidade pela turma e voltadas ao conhecimento da realidade escolar em uma escola do município de origem do estudante."
+    },
+    {
+      "id": "EDC1466",
+      "code": "EDC1466",
+      "name": "Instrumentos Pedagogia da Alternância IV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7263",
+        "EED7263",
+        "MEN7263"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7263"
+          },
+          {
+            "kind": "course",
+            "code": "EED7263"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7263"
+          }
+        ]
+      },
+      "syllabus": "-Preparação e realização das \"Colocações em comum\" e dos \"Planos de Estudos\", instrumentos fundamentais para tornar efetiva e estreita a conexão entre os tempos universidade e comunidade, nos níveis individuais, relacionais, didáticos e institucionais."
+    },
+    {
+      "id": "EDC1467",
+      "code": "EDC1467",
+      "name": "Aprofundamento Temático I - Etnias",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7280"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7280"
+      },
+      "syllabus": "-Diálogos entre a área CN e MTM e temas contemporâneos - relações étnico-raciais. Reflexões e aprofundamento sobre essa temática que atravessam a educação no/do campo. Lutas e conquistas de direitos pela diversidade étnica e os movimentos sociais Ciência e cultura afrobrasileira, africana e indígena."
+    },
+    {
+      "id": "EXR1434",
+      "code": "EXR1434",
+      "name": "Manejo de Agroecossistemas I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EXR7234",
+        "ZOT7234"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EXR7234"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7234"
+          }
+        ]
+      },
+      "syllabus": "(ATPA)* EED7280 ou O conceito de transição agroecológica e seus níveis; Conceitos de ecossistemas naturais e agroecossistemas; Funcionamento dos agroecossistemas; Fatores bióticos e abióticos nos agroecossistemas."
+    },
+    {
+      "id": "EDC1415",
+      "code": "EDC1415",
+      "name": "Estudo Orientado de Estágio e Seminário",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7264"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7264"
+      },
+      "syllabus": "-Estudos e sistematização em forma de dossiê baseado na experiência sobre o Estágio Docência nas séries finais do ensino fundamental, a partir de reflexões teórico-prático sobre a ação docente articulada pela observação e registro da realidade escolar e seu entorno."
+    },
+    {
+      "id": "EDC1425",
+      "code": "EDC1425",
+      "name": "Fundamentos das CNM na Educação",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7205"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7205"
+      },
+      "syllabus": "de Sociaslização V (EST)*** EED7264 ou -A História das Ciências da Natureza e da Matemática nos processos de construção dos conhecimentos científicos integradores do eixo temático \"Energia solar, terra e agricultura\" relacionado ao estudo das realidades do/no campo."
+    },
+    {
+      "id": "EDC1432",
+      "code": "EDC1432",
+      "name": "Laboratório I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7208",
+        "MEN7208"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7208"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7208"
+          }
+        ]
+      },
+      "syllabus": "Básica para as Escolas do Campo III MEN7205) -As diferentes iniciativas didático-metodológicas enquanto subsídios formativos para o exercício da docência na área de Ciências da Natureza (CN) e Matemática (MTM) nos anos finais do Ensino Fundamental. Produção de materiais de apoio pedagógico afinados com os estudos teórico-metodológicos e direcionados ao estágio"
+    },
+    {
+      "id": "EDC1440",
+      "code": "EDC1440",
+      "name": "Organização dos Processos Educativos II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7244",
+        "EED7244",
+        "EDC7245",
+        "EED7245"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EDC7244"
+              },
+              {
+                "kind": "course",
+                "code": "EED7244"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EDC7245"
+              },
+              {
+                "kind": "course",
+                "code": "EED7245"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-Os processos de organização curricular; Organização dos tempos e espaços educativos; Os saberes escolares e os processos de inclusão e exclusão. Cotidiano escolar e currículo; Avaliação; Planejamento."
+    },
+    {
+      "id": "EDC1445",
+      "code": "EDC1445",
+      "name": "Saberes e Fazeres III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7215",
+        "MEN7215"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7215"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7215"
+          }
+        ]
+      },
+      "syllabus": "- A Educação de CN e MTM no espaço escolar, planejamento e a ação pedagógica sob a perspectiva curricular da investigação temática vinculados às práticas educativas no Ensino Fundamental e a consolidação de uma Educação no/do Campo."
+    },
+    {
+      "id": "EDC1459",
+      "code": "EDC1459",
+      "name": "Estágio Docência na àrea de CNM nas",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EDC1402"
+      ],
+      "equivalents": [
+        "EDC7254"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EDC1402"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7254"
+      },
+      "syllabus": "-Subsídios formativos para o exercício da docência na área de Ciências da Natureza (CN) e Matemática (MTM) nos anos finais do Ensino Fundamental. Estudo e contextualização. Docência em CN e MTM e projetos comunitários: compromisso político-pedagógico e pedagógico-político."
+    },
+    {
+      "id": "EDC1468",
+      "code": "EDC1468",
+      "name": "Aprofundamento Temático II - Gênero",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7281"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7281"
+      },
+      "syllabus": "séries finais do Ensino Fund.nas Escolas MEN7254) EDC1423 eh do Campo I (EST)*** EDC1424 eh -Diálogos entre a área CN e MTM e temas contemporâneos - gênero, corpo e sexualidade. Reflexões e aprofundamento sobre essa temática que atravessam a educação no/do campo. Direitos das mulheres e os movimentos sociais de mulheres do campo."
+    },
+    {
+      "id": "EXR1435",
+      "code": "EXR1435",
+      "name": "Manejo de Agroecosssistemas II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EXR7235",
+        "ZOT7235"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EXR7235"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7235"
+          }
+        ]
+      },
+      "syllabus": "(ATPA)* EED7281 ou Importância da qualidade do solo na sustentabilidade dos ecossistemas e na saúde dos homens e animais. Fatores e processos de formação dos solos. Propriedades físicas, químicas e morfológicas dos solos; O solo como meio de crescimento para os organismos (micro, meso e macrofauna)."
+    },
+    {
+      "id": "EDC1416",
+      "code": "EDC1416",
+      "name": "Estudo Orientado de Estágio e Seminário",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7265"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7265"
+      },
+      "syllabus": "-Estudos e sistematização em forma de artigo/relato sobre a experiência do Estágio Docência nas séries finais do ensino fundamental."
+    },
+    {
+      "id": "EDC1419",
+      "code": "EDC1419",
+      "name": "História da Produção Científica e Tecnologica Aplicada à Agricultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7207",
+        "EED7207",
+        "MEN7207"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1419
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7207"
+          },
+          {
+            "kind": "course",
+            "code": "EED7207"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7207"
+          }
+        ]
+      },
+      "prerequisiteHours": 1419,
+      "syllabus": "de Socialização VI (EST)*** EED7265 ou -Historia da Agricultura no mundo ocidental e no Brasil; sistema de produção e conhecimentos empírico, científico e industrial; extensão do padrão técnico euro-americano ao terceiro mundo; Padrões técnicos alternativos ao moderno; Relação dos sistemas Ciência & Tecnologia e produção agrícola no Brasil; Inovação técnica e agricultura familiar."
+    },
+    {
+      "id": "EDC1426",
+      "code": "EDC1426",
+      "name": "Fundamentos das CNM na Educação",
+      "credits": 5,
+      "hours": 90,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7206"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7206"
+      },
+      "syllabus": "-Produção da ciência, ética e cidadania. Interlocuções conceituais advindas da área das Ciências da Natureza e Matemática para compreensão da realidade orientada pelo eixo integrador: \"Meios de Produção e trabalho no campo\"."
+    },
+    {
+      "id": "EDC1446",
+      "code": "EDC1446",
+      "name": "Saberes e Fazeres IV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7216",
+        "MEN7216"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7216"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7216"
+          }
+        ]
+      },
+      "syllabus": "Básica para Escolas do Campo IV MEN7206) -Educação escolar, ensino e planejamento na Área de Ciências da Natureza e Matemática. O ensino e aprendizagem nas disciplinas escolares e os planos para a ação pedagógica sob a perspectiva da investigação temática. Abordagem de elementos do processo educativo e prática escolar na Educação Básica associada aos princípios de uma Educação no/do Campo."
+    },
+    {
+      "id": "EDC1452",
+      "code": "EDC1452",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7274",
+        "EED7274"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7274"
+          },
+          {
+            "kind": "course",
+            "code": "EED7274"
+          }
+        ]
+      },
+      "syllabus": "-Orientações gerais e necessárias que possibilitem a cada estudante elaborar projeto de TCC. Projeto TCC."
+    },
+    {
+      "id": "EDC1460",
+      "code": "EDC1460",
+      "name": "Estágio Docência na área de CNM nas",
+      "credits": 5,
+      "hours": 90,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EDC1425"
+      ],
+      "equivalents": [
+        "EDC7255"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EDC1425"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7255"
+      },
+      "syllabus": "-Planejamento e realização de proposta pedagógica em CN e MTM para os anos finais do ensino fundamental na Educação no/do campo, sob a perspectiva curricular da abordagem temática na Educação no/do campo."
+    },
+    {
+      "id": "EDC1469",
+      "code": "EDC1469",
+      "name": "Aprofundamento Temático III - Educação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7282"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7282"
+      },
+      "syllabus": "séries finais do Ensino Fund. nas Escolas MEN7255) EDC1445 eh do Campo II (EST)*** EDC1459) -Reflexão crítica dos discursos contemporâneos sobre educação inclusiva. A integração dos portadores de necessidades educativas especiais no espaço escolar e a ação do professor. Análise das questões étnicas, políticas e educacionais vinculadas ao processo de inclusão."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB1404"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB1404"
+      },
+      "syllabus": "Especial (ATPA)* MEN7282) Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "EDC1405",
+      "code": "EDC1405",
+      "name": "Desenvolvimento Sustentável e Territórios",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7232"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7232"
+      },
+      "syllabus": "- Abordagens do conceito de desenvolvimento: crescimento econômico, desenvolvimento humano, desenvolvimento sustentável, desenvolvimento territorial. A participação da sociedade no desenvolvimento territorial: poder, democracia, capital social e gestão das políticas públicas. A importância dos conflitos nos processos de desenvolvimento. Introdução ao Planejamento do desenvolvimento territorial."
+    },
+    {
+      "id": "EDC1417",
+      "code": "EDC1417",
+      "name": "Estudo Orientado de Estágio e Seminário",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7266"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7266"
+      },
+      "syllabus": "Rurais I EED7232) -Estudos e sistematização em forma de artigo/relato sobre a experiência do Estágio Docência no Ensino Médio."
+    },
+    {
+      "id": "EDC1427",
+      "code": "EDC1427",
+      "name": "Fundamentos das CNM na Educação",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7258"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7258"
+      },
+      "syllabus": "de Socialização VII (EST)*** MEN7266 ou - A História das Ciências da Natureza e da Matemática nos processos de construção dos conhecimentos científicos integradores do eixo temático: \"Meios de Produção e trabalho no campo\"."
+    },
+    {
+      "id": "EDC1433",
+      "code": "EDC1433",
+      "name": "Laboratório II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7209",
+        "MEN7209"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7209"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7209"
+          }
+        ]
+      },
+      "syllabus": "Básica para as Escolas do Campo V EED7258 ou -As diferentes iniciativas didático-metodológicas enquanto subsídios formativos para o exercício da docência na área de Ciências da Natureza (CN) e Matemática (MTM) no Ensino Médio. Análise e Produção de materiais de apoio pedagógico afinados com os estudos teórico-metodológicos e direcionados ao estágio."
+    },
+    {
+      "id": "EDC1447",
+      "code": "EDC1447",
+      "name": "Saberes e Fazeres V",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7217",
+        "EED7246",
+        "MEN7217"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7217"
+          },
+          {
+            "kind": "course",
+            "code": "EED7246"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7217"
+          }
+        ]
+      },
+      "syllabus": "-A Educação de CN e MTM no espaço escolar, planejamento e a ação pedagógica sob a perspectiva curricular da investigação temática vinculados às práticas educativas no Ensino Médio e a consolidação de uma Educação no/do Campo."
+    },
+    {
+      "id": "EDC1453",
+      "code": "EDC1453",
+      "name": "Trabalho de Conclusão II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EDC1452"
+      ],
+      "equivalents": [
+        "EDC7275",
+        "EED7275",
+        "MEN7275"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EDC1452"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7275"
+          },
+          {
+            "kind": "course",
+            "code": "EED7275"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7275"
+          }
+        ]
+      },
+      "syllabus": "-Orientações gerais e necessárias que possibilitem a cada estudante realizar o seu TCC. Pesquisa e sistematização do trabalho."
+    },
+    {
+      "id": "EDC1461",
+      "code": "EDC1461",
+      "name": "Estágio Docência na área de CNM no",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EDC1426"
+      ],
+      "equivalents": [
+        "EDC7256"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EDC1426"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7256"
+      },
+      "syllabus": "-Observação e participação em atividades com jovens educandos, professores, educadores e professores orientadores no âmbito da escola e da comunidade. Elaboração de projetos, por meio da investigação temática e da ação docente em CN e MTM (pesquisa-ensino-extensão) voltadas à articulação entre comunidades e escolas de Ensino Médio."
+    },
+    {
+      "id": "EDC1470",
+      "code": "EDC1470",
+      "name": "Aprofundamento Temático IV - Etnias",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7283"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7283"
+      },
+      "syllabus": "Ensino Médio nas Escolas do CampoIII MEN7256 ou EDC1446 eh (EST)*** ZOT7256) EDC1460) Diálogos entre Escola, Ensino de CN e MTM, a Educação do Campo e temas contemporâneos – relações étnico-raciais. As imbricações dessa temática na produção do conhecimento escolar. As relações étnico-raciais e materiais didáticos."
+    },
+    {
+      "id": "EXR1436",
+      "code": "EXR1436",
+      "name": "Manejo de Agroecossistemas III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EXR7236",
+        "ZOT7236"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EXR7236"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7236"
+          }
+        ]
+      },
+      "syllabus": "(ATPA)* MEN7283) As bases científicas da agricultura sustentável; Sistema água-atmosfera; Interações água-planta; O sistema solo-água-planta; Disponibilidade, aptidão, adequação e incorporação de terras para agricultura; Sistemas Agroecológicos de Produção Vegetal; Sistemas Agroecológicos de Produção Animal."
+    },
+    {
+      "id": "EDC1406",
+      "code": "EDC1406",
+      "name": "Desenvolvimento Sustentável e Territórios",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7233"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7233"
+      },
+      "syllabus": "-Rural como território; desenvolvimento sustentável de territórios; Territorialidade e educação do campo; Ruralidade e educação do campo; multifuncionalidade e educação do campo; pluriatividade e educação do campo. Educador do campo como com mediadores de conflitos no Desenvolvimento Territorial."
+    },
+    {
+      "id": "EDC1418",
+      "code": "EDC1418",
+      "name": "Estudo Orientado de Estágio e seminário",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7267"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7267"
+      },
+      "syllabus": "Rurais II EED7233) -Estudos e sistematização em forma de artigo/relato sobre a experiência do Estágio Docência no Ensino Médio."
+    },
+    {
+      "id": "EDC1428",
+      "code": "EDC1428",
+      "name": "Fundamentos das CNM na Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7259"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7259"
+      },
+      "syllabus": "de Socialização VIII (EST)*** MEN7267 ou -Interlocuções conceituais advindas da área de Ciências da Natureza e Matemática para aprofundamento e melhor compreensão da realidade, em suas especificidades com o campo. Aproximações metodológicas para a aprendizagem de conceitos das Ciências da Natureza e Matemática adequadas às necessidades educativas no Ensino Médio."
+    },
+    {
+      "id": "EDC1434",
+      "code": "EDC1434",
+      "name": "Metodologias Participativas de Trabalho",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Básica para Escolas do Campo VI EED7259 ou -Processos de mediação; técnicas que favoreçam e estimulem a reflexão dos grupos sociais sobre sua relação com o meio físico e social; organizações e movimentos sociais Organização e mobilização social em populações rurais. Diagnóstico e planejamento participativo do desenvolvimento; Dinâmicas de grupo; O papel do Educador do Campo no desenvolvimento sustentável de comunidades rurais."
+    },
+    {
+      "id": "EDC1448",
+      "code": "EDC1448",
+      "name": "Saberes e Fazeres VI",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7218",
+        "MEN7218"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7218"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7218"
+          }
+        ]
+      },
+      "syllabus": "em Desenvolvimento de Territórios Rurais -A Educação de CN e MTM no espaço escolar, planejamento e a ação pedagógica sob a perspectiva curricular da investigação temática vinculados às práticas educativas no Ensino Médio e a consolidação de uma Educação no/doCampo."
+    },
+    {
+      "id": "EDC1454",
+      "code": "EDC1454",
+      "name": "Trabalho de Conclusão de Curso III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EDC1453"
+      ],
+      "equivalents": [
+        "EDC7276",
+        "EED7276",
+        "MEN7276"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EDC1453"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7276"
+          },
+          {
+            "kind": "course",
+            "code": "EED7276"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7276"
+          }
+        ]
+      },
+      "syllabus": "-Orientações gerais e necessárias que possibilitem a cada estudante realizar o seu TCC. Pesquisa e sistematização do trabalho. Apresentação e defesa do TCC."
+    },
+    {
+      "id": "EDC1462",
+      "code": "EDC1462",
+      "name": "Estágio Docência na área de CNM no",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EDC1427"
+      ],
+      "equivalents": [
+        "EDC7257"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EDC1427"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7257"
+      },
+      "syllabus": "-Organização, planejamento e realização de atividades de docência em CN e MTM, pela via de projetos comunitários: sob o compromisso político-pedagógico e pedagógico-político, voltadas para articulação entre comunidades e escolas de Ensino Médio."
+    },
+    {
+      "id": "EDC1471",
+      "code": "EDC1471",
+      "name": "Aprofundamento Temático V- Gênero",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7284"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EDC7284"
+      },
+      "syllabus": "Ensino Médio nas Escolas do Campo IV MEN7257 ou EDC1447 eh (EST)*** ZOT7257) EDC1461) Diálogos entre Escola, Ensino de CN e MTM, a Educação do Campo e temas contemporâneos – gênero, corpo e sexualidade. Relações de gênero e sexualidades e implicações na produção do conhecimento escolar. Corpo, gênero e sexualidade e materiais didáticos."
+    },
+    {
+      "id": "EDC1472",
+      "code": "EDC1472",
+      "name": "Participação em Projetos de Extensão e Pesquisa (ATPA)*",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7292",
+        "EED7292"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7292"
+          },
+          {
+            "kind": "course",
+            "code": "EED7292"
+          }
+        ]
+      },
+      "syllabus": "(ATPA)* MEN7284)"
+    },
+    {
+      "id": "EXR1437",
+      "code": "EXR1437",
+      "name": "Manejo de Agroecossistemas IV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EXR7237",
+        "ZOT7237"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EXR7237"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7237"
+          }
+        ]
+      },
+      "syllabus": "Produção e manejo agroecológico de Plantas Medicinais, Condimentares e Aromáticas; Agregação de valor; verticalização da produção; mercados convencionais e alternativos; Desenvolvimento da cadeia de produção orgânica de alimentos; Legislação e processos de certificação vigentes no Brasil para as produções orgânicas e que respeitam o bem estar animal."
+    },
+    {
+      "id": "EDC1451",
+      "code": "EDC1451",
+      "name": "Noções Basicas de Computação e Internet",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7294",
+        "EED7294"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7294"
+          },
+          {
+            "kind": "course",
+            "code": "EED7294"
+          }
+        ]
+      },
+      "syllabus": "-Tecnologias digitais e seus impactos na sociedade e na escola. Noções básicas de computação, hardware, software, sistemas operacionais. Uso crítico de editores de texto, editores de imagem e vídeos, planilhas eletrônicas, navegadores de internet e redes digitais."
+    },
+    {
+      "id": "EDC1473",
+      "code": "EDC1473",
+      "name": "Apoio Pedagógico I (1ª)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7290",
+        "EED7290"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7290"
+          },
+          {
+            "kind": "course",
+            "code": "EED7290"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "EDC1474",
+      "code": "EDC1474",
+      "name": "Apoio Pedagógico II (2º)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7291",
+        "EED7291"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7291"
+          },
+          {
+            "kind": "course",
+            "code": "EED7291"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "EDC1475",
+      "code": "EDC1475",
+      "name": "Participação em eventos Científicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EDC7293",
+        "EED7293"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC7293"
+          },
+          {
+            "kind": "course",
+            "code": "EED7293"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "EDC1476",
+      "code": "EDC1476",
+      "name": "Introdução a Permacultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Contexto histórico. Éticas e princípios de planejamento. Conceitos fundamentais de ecologia. Padrões naturais. Leitura da paisagem. Método de planejamento do espaço. Solos. Ecologia cultivada. Águas. Arquitetura e permacultura. Permacultura urbana. Ervas medicinais. Planejamento para eventos extremos. Energias. Permacultura, sociedade e educação do campo."
+    },
+    {
+      "id": "EDC7295",
+      "code": "EDC7295",
+      "name": "Tópicos Especiais: questões da pandemia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estabelecer um diálogo interdisciplinar entre diferentes temáticas que contribuem para a construção de noções básicas e conceitos centrais que levem à compreensão e atuação em sociedade durante e após a pandemia da COVID-19: Imunologia Básica, Saúde Ambiental, Agroecologia, Soberania Alimentar, Educação, Políticas Públicas, Relação Ser humano-Natureza, Economia Política."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EDC1403",
+      "EDC1407",
+      "EDC1408",
+      "EDC1411",
+      "EDC1420",
+      "EDC1429",
+      "EDC1442",
+      "EDC1443",
+      "EDC1455",
+      "EDC1463",
+      "EDC1401",
+      "EDC1404",
+      "EDC1409",
+      "EDC1410",
+      "EDC1412",
+      "EDC1421",
+      "EDC1441",
+      "EDC1456",
+      "EDC1464",
+      "EXR1438",
+      "EDC1402",
+      "EDC1413",
+      "EDC1423",
+      "EDC1430",
+      "EDC1444",
+      "EDC1449",
+      "EDC1457",
+      "EDC1465",
+      "EDC1414",
+      "EDC1424",
+      "EDC1431",
+      "EDC1439",
+      "EDC1450",
+      "EDC1458",
+      "EDC1466",
+      "EDC1467",
+      "EXR1434",
+      "EDC1415",
+      "EDC1425",
+      "EDC1432",
+      "EDC1440",
+      "EDC1445",
+      "EDC1459",
+      "EDC1468",
+      "EXR1435",
+      "EDC1416",
+      "EDC1419",
+      "EDC1426",
+      "EDC1446",
+      "EDC1452",
+      "EDC1460",
+      "EDC1469",
+      "LSB7244",
+      "EDC1405",
+      "EDC1417",
+      "EDC1427",
+      "EDC1433",
+      "EDC1447",
+      "EDC1453",
+      "EDC1461",
+      "EDC1470",
+      "EXR1436",
+      "EDC1406",
+      "EDC1418",
+      "EDC1428",
+      "EDC1434",
+      "EDC1448",
+      "EDC1454",
+      "EDC1462",
+      "EDC1471",
+      "EDC1472",
+      "EXR1437"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 144,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "EDC1451",
+              "EDC1473",
+              "EDC1474",
+              "EDC1475",
+              "EDC1476",
+              "EDC7295"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 144
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "334",
+    "curriculumCode": "20092",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=334&curriculo=20092",
+    "sha256": "06b1fa8fed73d36ea8eb2e21d8fa6aaba65158ead50bf70947e786addbb094aa",
+    "capturedAt": "2026-09-22"
+  }
+}

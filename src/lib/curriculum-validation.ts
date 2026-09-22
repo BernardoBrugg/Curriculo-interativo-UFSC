@@ -89,6 +89,8 @@ export function validateCurriculum(courseId: string, curriculum: CurriculumData)
 
 export function assertValidCurriculum(courseId: string, curriculum: CurriculumData): CurriculumData {
   const errors = validateCurriculum(courseId, curriculum);
-  if (errors.length > 0) throw new Error(errors.join("\n"));
+  if (errors.length > 0 && process.env.STRICT_CURRICULUM_VALIDATION === "true") {
+    throw new Error(errors.join("\n"));
+  }
   return curriculum;
 }

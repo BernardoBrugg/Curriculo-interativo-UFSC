@@ -1,0 +1,1971 @@
+{
+  "program": "QUÍMICA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2021.1",
+  "totalHours": 3780,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "GMT5620",
+      "code": "GMT5620",
+      "name": "Desenho Técnico Aplicado a Química",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5620"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5620"
+      },
+      "syllabus": "Normas Técnicas, Noções de técnicas de traçado a mão livre, Sistemas de representação: Perpectiva e Projeções Ortogonais, Vistas omitidas, CAD, Cotagem, Noções de corte."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3101",
+        "MTM5161",
+        "MTM5801",
+        "MTM7136"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5801"
+          },
+          {
+            "kind": "course",
+            "code": "MTM7136"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "QMC5129",
+      "code": "QMC5129",
+      "name": "Tópicos Especiais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Currículo do Curso; legislação universitária; o profissional da Química; segurança da atividade do profissional da Química; História da Química; Educação e Sociedade; Ciência, Tecnologia e Sociedade; empreendedorismo em Química; educação ambiental; direitos humanos; diversidade étnico-racial, de gênero, sexual e religiosa; direitos educacionais de adolescentes e jovens em cumprimento de medidas socioeducativas; formação na área de políticas públicas e gestão da educação, seus fundamentos e metodologias."
+    },
+    {
+      "id": "QMC5517",
+      "code": "QMC5517",
+      "name": "Química Geral I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5115"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5115"
+      },
+      "syllabus": "Introdução à química; propriedades específicas e gerais da matéria; grandeza quantidade de matéria e suas relações com massa e volume; lei dos gases; modelos atômicos, teoria quântica e estrutura eletrônica dos átomos; tabela periódica; reações químicas (lei das proporções, reagente limitante, reações de precipitação, de oxirredução e ácido-base); ligações químicas; hibridização e geometria molecular. Associação desses conteúdos com a história da química, implicações sociais da química e discussões ambientais."
+    },
+    {
+      "id": "QMC5518",
+      "code": "QMC5518",
+      "name": "Química Geral Experimental I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5119"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5119"
+      },
+      "syllabus": "O ambiente laboratorial. Normas de segurança no laboratório. Equipamentos básicos de laboratório. Calibração de instrumentos de medidas. Técnicas básicas em laboratório de química. Levantamento, análise de dados experimentais. Experimentos relacionados aos conteúdos: propriedades específicas e gerais da matéria; grandeza quantidade de matéria e suas relações com massa e volume; lei dos gases; modelos atômicos; teoria quântica e estrutura eletrônica dos átomos; tabela periódica; reações químicas (lei das proporções, reagente limitante, reações de precipitação, de oxirredução e ácido-base); ligações químicas; hibridização e geometria molecular. Procedimentos de descarte e tratamentos dos resíduos de laboratórios de química."
+    },
+    {
+      "id": "QMC5901",
+      "code": "QMC5901",
+      "name": "Segurança no Laboratório e Tratamento de Resíduos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Normas de segurança nos laboratórios de química. Manejo e tratamento de resíduos: parâmetros de segurança e riscos; legislação brasileira; gerenciamento; classificação e rotulagem; acondicionamento e armazenamento; métodos de desativação e tratamento; reutilização e reciclagem; transporte e disposição final. Estudos de caso no Brasil. Elaboração de Projetos de Extensão. Apresentação para outros setores da sociedade.",
+      "extensionHours": 72
+    },
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM3111",
+        "MTM5512",
+        "MTM7137",
+        "MTM5802"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5512"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM5512"
+              },
+              {
+                "kind": "course",
+                "code": "MTM7137"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "MTM5802"
+          }
+        ]
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3111",
+        "MTM3112",
+        "MTM5512",
+        "MTM5812"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3111"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3112"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5512"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5812"
+          }
+        ]
+      },
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "QMC5309",
+      "code": "QMC5309",
+      "name": "Estatística Aplicada à Química",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tratamento e avaliação estatística de dados, amostragem, padronização, calibração e protocolos de validação. Erros em análises químicas. Utilização de planilhas de cálculo em química-"
+    },
+    {
+      "id": "QMC5519",
+      "code": "QMC5519",
+      "name": "Química Geral II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5517"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5517"
+      },
+      "syllabus": "Modelos e a química; sólidos iônicos e metálicos; forças intermoleculares; estequiometria em solução aquosa; ácidos e bases; propriedades de soluções; introdução à termoquímica; eletroquímica; cinética química. Associação desses conteúdos com a história da química, implicações sociais da química e discussões ambientais."
+    },
+    {
+      "id": "QMC5520",
+      "code": "QMC5520",
+      "name": "Química Geral Experimental II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5517",
+        "QMC5518"
+      ],
+      "equivalents": [
+        "QMC5120"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5517"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5518"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5120"
+      },
+      "syllabus": "Experimentos relacionados aos conteúdos: forças intermoleculares; sólidos iônicos e metálicos; estequiometria em solução; ácidos e bases; propriedades das soluções e propriedades coligativas; introdução à termoquímica; eletroquímica; cinética química. Procedimentos de descarte e tratamentos dos resíduos de laboratórios de química. Associação desses conteúdos com a história da química, implicações sociais da química e discussões ambientais."
+    },
+    {
+      "id": "QMC5902",
+      "code": "QMC5902",
+      "name": "Química e Sustentabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Conceito de Sustentabilidade e Desenvolvimento Sustentável. Principais problemas ambientais gerados pela ação antropogênica e globalização. Processos produtivos, recursos renováveis e não renováveis. Química Verde. Nanomateriais. Implicações da nanotecnologia na sustentabilidade. Influência da ciência em políticas públicas. Estudos de caso no Brasil. Elaboração de Projetos de Extensão. Apresentação para outros setores da sociedade.",
+      "extensionHours": 72
+    },
+    {
+      "id": "FSC5121",
+      "code": "FSC5121",
+      "name": "Física IV-B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "syllabus": "Oscilações, Ondas Mecânicas e Eletromagnéticas, Ótica Física e noções de Física Moderna."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "MTM7137"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM7137"
+      },
+      "syllabus": "-Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "QMC5146",
+      "code": "QMC5146",
+      "name": "Fundamentos de Química Inorgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5519"
+      ],
+      "equivalents": [
+        "QMC5127"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5519"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5127"
+      },
+      "syllabus": "Teoria de ligação de valência e do orbital molecular. Teorias ácido/base incluindo teoria de Pearson. Aspectos da química dos metais alcalinos e alcalinos terrosos. Aspectos da química dos não-metais com ênfase aos aspectos da química dos grupos do boro, carbono, nitrogênio, oxigênio e flúor. Metais de transição."
+    },
+    {
+      "id": "QMC5222",
+      "code": "QMC5222",
+      "name": "Química Orgânica Teórica A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5519"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5519"
+      },
+      "syllabus": "Fundamentos: estrutura, ligações, isomeria de compostos orgânicos, estereoquímica. Classificação de reagentes e reações. Métodos de obtenção, propriedades químicas e físicas de alcanos, alcenos, alcadienos, alcinos e cicloalcanos. Efeitos eletrônicos. Ressonância e aromaticidade. Benzeno e compostos aromáticos relacionados."
+    },
+    {
+      "id": "QMC5329",
+      "code": "QMC5329",
+      "name": "Química Analítica Qualitativa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5519",
+        "QMC5520"
+      ],
+      "equivalents": [
+        "QMC5302"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5519"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5520"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5302"
+      },
+      "syllabus": "Introdução à Química Analítica. Equilíbrio ácido-base. Equilíbrio em sistemas heterogêneos. Equilíbrio de complexação. Equilíbrio de oxidação-redução. Separação analítica de cátions e ânions."
+    },
+    {
+      "id": "QMC5413",
+      "code": "QMC5413",
+      "name": "Princípios de Termodinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110",
+        "QMC5519"
+      ],
+      "equivalents": [
+        "QMC5402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5519"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5402"
+      },
+      "syllabus": "Estado gasoso. Princípio dos estados correspondentes. Princípios da Termodinâmica. Ciclo de Carnot. Energia Livre e Equilíbrio Químico. Noções de Termodinâmica estatística: leis de distribuição, funções de partição, entropia estatística, cálculo de funções termodinâmicas."
+    },
+    {
+      "id": "QMC5136",
+      "code": "QMC5136",
+      "name": "Química Inorgânica Experimental I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5146",
+        "QMC5520"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5146"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5520"
+          }
+        ]
+      },
+      "syllabus": "Preparação de compostos ou sais inorgânicos que ilustrem: diferentes tipos de técnicas; tipos de ligações e associações; interação ácido-base; tipos de estruturas e caracterização por métodos químicos."
+    },
+    {
+      "id": "QMC5223",
+      "code": "QMC5223",
+      "name": "Química Orgânica Teórica B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5222"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5222"
+      },
+      "syllabus": "Haletos de alquila. Substituição nucleofílica SN1 e SN2, aspectos cinéticos e estereoquímicos. Efeito de solvente em reações orgânicas. Reagentes organometálicos e aplicações em síntese. Álcoois, obtenção, reações e mecanismos. Éteres. Aldeídos e Cetonas. Adição nucleofílica à carbonila. Ácidos carboxílicos e seus derivados: sais, ésteres, haletos de acila, anidridos, reatividade e mecanismos. Aminas e Sais de Diazônio e suas aplicações em síntese."
+    },
+    {
+      "id": "QMC5330",
+      "code": "QMC5330",
+      "name": "Química Analítica Quantitativa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5329"
+      ],
+      "equivalents": [
+        "QMC5302"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5329"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5302"
+      },
+      "syllabus": "Introdução à análise quantitativa. Análise volumétrica aplicada a sistemas ácido-base, de precipitação, de complexação e de oxidação-redução. Análise gravimétrica."
+    },
+    {
+      "id": "QMC5423",
+      "code": "QMC5423",
+      "name": "Fundamentos de Química Quântica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121",
+        "QMC5519"
+      ],
+      "equivalents": [
+        "QMC5403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5519"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5403"
+      },
+      "syllabus": "Radiação do corpo negro, efeito fotoelétrico, equações de Planck, dualidade onda-partícula, átomos de Bohr, espectro do hidrogênio, fórmula de Rydberg, Princípio da incerteza, equação de Schrödinger, postulados e princípios gerais da mecânica quântica, operadores, equações de autovalor, autofunções, partícula nas caixas 1d e 3D, momento angular, oscilador harmônico, rotor rígido, átomo de hidrogênio, átomos hidrogeniônicos, spin eletrônico e o princípio da exclusão de Pauli, Átomos multieletrônicos, termos símbolo, estrutura eletrônica de moléculas diatômicas, teoria de orbitais moleculares OM, estrutura eletrônica de moléculas poliatômicas, teoria da ligação de valência."
+    },
+    {
+      "id": "QMC5424",
+      "code": "QMC5424",
+      "name": "Equilíbrio de Fases e Soluções",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5413"
+      ],
+      "equivalents": [
+        "QMC5404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5413"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5404"
+      },
+      "syllabus": "Definição e aplicação de potencial químico. Transformações físicas das substâncias puras. Termodinâmica de misturas. Propriedades coligativas. Soluções ideais e não-ideais. Atividades e coeficiente de atividade de soluções não-iônicas e iônicas. Lei limite de Debye-Hückel. Diagramas de fases líquido-vapor, líquido-líquido e sólido-líquido. Diagramas ternários."
+    },
+    {
+      "id": "FSC5123",
+      "code": "FSC5123",
+      "name": "Física Experimental II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5121"
+      },
+      "syllabus": "Complementação dos conteúdos de eletrostática, eletromagnetismo e óptica.Obtida através de montagem e realização de experiências em número de 12 (doze) versando sobre os tópicos acima."
+    },
+    {
+      "id": "QMC5139",
+      "code": "QMC5139",
+      "name": "Química de Compostos de Coordenação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5136",
+        "QMC5423"
+      ],
+      "equivalents": [
+        "QMC5123"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5136"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5423"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5123"
+      },
+      "syllabus": "Introdução à química de coordenação. teoria do campo cristalino e do campo ligante. Teoria dos orbitais moleculares. Simetria molecular. Operações de simetria. grupos pontuais. Isomeria. Estudo de equilíbrio dos complexos. Estrutura e reatividade de metais de transição. Mecanismo de reações inorgânicas. Química bio-inorgânica."
+    },
+    {
+      "id": "QMC5213",
+      "code": "QMC5213",
+      "name": "Análise Orgânica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5223"
+      ],
+      "equivalents": [
+        "QMC5216"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5223"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5216"
+      },
+      "syllabus": "Fornecer ao aluno os princípios teóricos dos métodos instrumentais de identificação usados na química orgânica: Espectroscopia na região do ultravioleta. Espectroscopia na região do infravermelho. Espectroscopia de ressonância magnética nuclear de hidrogênio e carbono-13. Espectrometria de massas."
+    },
+    {
+      "id": "QMC5221",
+      "code": "QMC5221",
+      "name": "Química Orgânica Teórica C",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5223"
+      ],
+      "equivalents": [
+        "QMC5224"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5223"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5224"
+      },
+      "syllabus": "Fenóis. Haletos de arila. Compostos aromáticos polinucleares. Reações de metilenos ativos. Ácidos dicarboxílicos. Cetoácidos e hidroxiácidos. Compostos carbonílicos ?,?-insaturados. Compostos heterocíclicos. Grupos protetores. Síntese Orgânica."
+    },
+    {
+      "id": "QMC5331",
+      "code": "QMC5331",
+      "name": "Química Analítica Experimental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5309",
+        "QMC5330"
+      ],
+      "equivalents": [
+        "QMC5310",
+        "QMC5311"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5309"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5330"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5310"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5311"
+          }
+        ]
+      },
+      "syllabus": "Equilíbrio e volumetria envolvendo ácidos e bases fracos, formação de complexos, precipitação e óxido-redução. Reações analíticas de íons e separações analíticas de Ag+ , Pb2+ e Hg2 2+, (Grupo I) e Cu2+, Cd2+, Bi3+e Hg2+ (Grupo II)."
+    },
+    {
+      "id": "QMC5414",
+      "code": "QMC5414",
+      "name": "Cinética Química e Catálise",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "QMC5413"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5413"
+          }
+        ]
+      },
+      "syllabus": "Leis Elementares de velocidade. Métodos Experimentais de cinética química. Velocidade de reação e efeito da temperatura. Reações elementares, unimoleculares, complexas e em cadeia. Teorias da colisão e do complexo ativado. Aspectos termodinâmicos: parâmetros de ativação. Catálise Ácido- Base.Catálise Homogênea. Catálise Enzimática. Catálise Heterogênea."
+    },
+    {
+      "id": "QMC5418",
+      "code": "QMC5418",
+      "name": "Introdução a Ciência dos Polímeros",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5413",
+        "QMC5424"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5413"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5424"
+          }
+        ]
+      },
+      "syllabus": "-Definição, classificação e aplicações de polímeros. Grau de polimerização. Diferentes maneiras de expressar a massa molar. Termodinâmica de polímeros em solução. Métodos para caracterização e determinação da massa molar. Polímeros no estado sólido: estrutura e propriedades."
+    },
+    {
+      "id": "QMC5124",
+      "code": "QMC5124",
+      "name": "Química Bioinorgânica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5139"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5139"
+      },
+      "syllabus": "Funções biológicas dos íons metálicos. Interação de íons metálicos com aminoácidos, peptídeos e proteínas. Metais de transsição em reações redox em processos biológicos. Fixação de nitrogênio e o ciclo do nitrogênio. Transportadores e armazenadores de oxigênio. Complexos modelos. Compostos de metais de transição como agentes quimioterápicos."
+    },
+    {
+      "id": "QMC5145",
+      "code": "QMC5145",
+      "name": "Mecanismos de Reações Inorgânicas e Compostos Organometálicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5139"
+      ],
+      "equivalents": [
+        "QMC5137"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5139"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5137"
+      },
+      "syllabus": "Mecanismos de reações inorgânicas: substituição de ligantes em complexos octaédricos e quadradoplanares. Reação redox em compostos de coordenação. Química dos compostos organometálicos de metais de transição e dos metais dos blocos s e p. Aspectos da química de coordenação e organometálicos de Lantanóides e actinóides."
+    },
+    {
+      "id": "QMC5230",
+      "code": "QMC5230",
+      "name": "Química Orgânica Experimental I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5213",
+        "QMC5520"
+      ],
+      "equivalents": [
+        "QMC5232"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5213"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5520"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5232"
+      },
+      "syllabus": "Síntese e técnicas de purificação de substâncias orgânicas líquidas: Destilação simples e fracionada. Destilação por arraste de vapor. Síntese e técnicas de purificação de substâncias orgânicas sólidas: Recristalização e uso de carvão ativo. Técnicas de refluxo e utilização de Tubo Dean-Stark. Determinação de pureza de compostos orgânicos através de constantes físicas. Purificação de sólidos por sublimação. Técnicas e extração: líquido-líquido e Soxhlet Cromatografia: Camada delgada e coluna."
+    },
+    {
+      "id": "QMC5238",
+      "code": "QMC5238",
+      "name": "Química Orgânica Biológica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5223"
+      ],
+      "equivalents": [
+        "QMC5217"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5223"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5217"
+      },
+      "syllabus": "Estrutura, propriedades físicas e químicas das principais classes de biomoléculas: Carboidratos, Lipídeos, Ácidos Nuclêicos, Aminoácidos, Peptídeos, Proteínas e Enzimas. Reatividade: Biossíntese e aplicações em síntese orgânica. Reações enzimáticas e ciclos metabólicos de Carboidratos, Lipídeos e Proteínas."
+    },
+    {
+      "id": "QMC5332",
+      "code": "QMC5332",
+      "name": "Técnicas Espectrométricas de Análise",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5331"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5331"
+      },
+      "syllabus": "Introdução aos métodos espectrométricos. Instrumentação básica para espectrômetros. Espectrometria de absorção molecular no UV e visível. Espectrometria de absorção atômica. Espectrometria de emissão atômica. Espectrometria de massa para análise quantitativa inorgânica. Espectrometria de fluorescência atômica. Noções de preparo de amostras para espectrometria atômica."
+    },
+    {
+      "id": "QMC5333",
+      "code": "QMC5333",
+      "name": "Técnicas Cromatográficas e Eletroforéticas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5331"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5331"
+      },
+      "syllabus": "Estudo de métodos analítico de separações, cromatografia a gás, cromatografia a líquido e eletroforese capilar. Métodos de preparo de amostra: extração líquido-líquido, SPE e SPME."
+    },
+    {
+      "id": "QMC5425",
+      "code": "QMC5425",
+      "name": "Físico-Química dos Processos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5424"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5424"
+      },
+      "syllabus": "de Análise Carga elétrica, campo elétrico e potencial elétrico; corrente, resistência e força eletromotriz; campo magnético e indução magnética; noções de circuitos elétricos; introdução à corrosão; termodinâmica e cinética da corrosão; técnicas de medição da corrosão."
+    },
+    {
+      "id": "QMC5429",
+      "code": "QMC5429",
+      "name": "Físico-Química Experimental 1",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5414",
+        "QMC5424"
+      ],
+      "equivalents": [
+        "QMC5411",
+        "QMC5416"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5414"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5424"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5411"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5416"
+          }
+        ]
+      },
+      "syllabus": "Eletroquímicos e Corrosão Calor de Reação. Destilação Fracionada. Destilação de Misturas Azeotrópicas. Medidas de Coeficiente de Repartição. Equilíbrios entre Fases Líquidas. Equilibrio de fases - sistema binário. Sistemas de Três Componentes. Condutância nos Eletrólitos. Cinética Química. Medidas de Velocidade de Reação. Medidas de Ordem de Reação. Energia de ativação. Catálise. Catálise enzimática. Calor de dissolução. Equilíbrio de Solubilidade. Solubilidade e força iônica."
+    },
+    {
+      "id": "QMC5134",
+      "code": "QMC5134",
+      "name": "Química Inorgânica Experimental II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5136",
+        "QMC5139",
+        "QMC5145"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5136"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5139"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5145"
+          }
+        ]
+      },
+      "syllabus": "Síntese de compostos inorgânicos; caraterização por métodos físicos; reatividade de complexos; introdução às espectroscopias eletrônica e infravermelho de complexos. Eletroquímica, aplicada ao estudo de complexos metálicos."
+    },
+    {
+      "id": "QMC5141",
+      "code": "QMC5141",
+      "name": "Química do Estado Sólido e Mineralogia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5139"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5139"
+      },
+      "syllabus": "Conceitos básicos de geologia, cristalografia e mineralogia. Correlação estrutura e propriedades físicoquímicas dos minerais. Tipos e estrutura de sólidos. Células unitárias e tipos de empacotamento. Sólidos cristalinos e não-cristalinos. Defeitos. Teoria de bandas, propriedades dos metais, semicondutores e isolantes. Relação estrutura e propriedades dos sólidos. Métodos de preparação. Métodos físicos de análise de sólidos. Introdução à ciência dos nanomateriais: estrutura, propriedades e aplicações."
+    },
+    {
+      "id": "QMC5239",
+      "code": "QMC5239",
+      "name": "Métodos Sintéticos em Química Orgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5221",
+        "QMC5230"
+      ],
+      "equivalents": [
+        "QMC5236"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5221"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5230"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5236"
+      },
+      "syllabus": "Química verde. Síntese em multietapas. Caracterização física e química de compostos orgânicos. Elaboração e execução de projetos."
+    },
+    {
+      "id": "QMC5317",
+      "code": "QMC5317",
+      "name": "Métodos Eletroanalíticos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5331"
+      ],
+      "equivalents": [
+        "QMC5323"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5331"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5323"
+      },
+      "syllabus": "Introdução aos métodos eletroanalíticos, condutimetria, potenciometria, eletrogravimetria e coulometria, voltametria e eletroforese capilar."
+    },
+    {
+      "id": "QMC5334",
+      "code": "QMC5334",
+      "name": "Laboratório de Análises Espectrométricas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5332"
+      ],
+      "equivalents": [
+        "QMC5320"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5332"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5320"
+      },
+      "syllabus": "Métodos quantitativos de análise na região do UV e visível. Métodos de análise por espectrometria de emissão atômica, espectrometria de absorção atômica, cromatografia a gás, cromatografia líquida de alta eficiência e eletroforese capilar. Noções de preparo de amostras."
+    },
+    {
+      "id": "QMC5415",
+      "code": "QMC5415",
+      "name": "Química de Superfície e Coloides",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5424"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5424"
+      },
+      "syllabus": "e de Separações QMC5333) Estado coloidal e estabilidade de coloides. Emulsões e Espumas. Interfaces entre: líquido/gás, líquido/líquido, sólido/gás e sólido/líquido. Fenômenos eletrocinéticos. Teoria DLVO. Reologia."
+    },
+    {
+      "id": "QMC5430",
+      "code": "QMC5430",
+      "name": "Físico-Química Experimental 2",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5429"
+      ],
+      "equivalents": [
+        "QMC5417"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5429"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5417"
+      },
+      "syllabus": "Espectro do átomo de hidrogênio. Espectro rotacional de HCl. Determinação de viscosidade. Classificação e distribuição de partículas sólidas. Interação da radiação eletromagnética com a matéria. Fenômenos de transporte. Determinação de massa molar de polímeros. Determinação de tensão superficial de tensoativos."
+    },
+    {
+      "id": "QMC5511",
+      "code": "QMC5511",
+      "name": "Estágio I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5136",
+        "QMC5236",
+        "QMC5239",
+        "QMC5311",
+        "QMC5429"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5136"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5236"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5239"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "QMC5311"
+              },
+              {
+                "kind": "course",
+                "code": "QMC5429"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Levantamento bibliográfico sobre um tema selecionado com o professor orientador. Elaboração de um projeto de pesquisa. Apresentação do projeto."
+    },
+    {
+      "id": "QMC5240",
+      "code": "QMC5240",
+      "name": "Química Orgânica Biológica Experimental I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5230",
+        "QMC5238"
+      ],
+      "equivalents": [
+        "QMC5218",
+        "QMC5220"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5230"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5238"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5218"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5220"
+          }
+        ]
+      },
+      "syllabus": "Extração, quantificação e determinação indireta dos principais grupos de biomoléculas: carboidratos, lipídios, aminoácidos e proteínas. Aplicação de técnicas em amostras de produtos naturais e alimentícias. Reações para a identificação de biomoléculas. Emprego de técnicas espectroscópicas de caracterização."
+    },
+    {
+      "id": "QMC5318",
+      "code": "QMC5318",
+      "name": "Laboratório de Métodos Eletroanalíticos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5317"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5317"
+      },
+      "syllabus": "Práticas envolvendo análises condutimétricas, potenciométricas, coulométricas e voltamétricas. Experiências utilizando eletroforese."
+    },
+    {
+      "id": "QMC5532",
+      "code": "QMC5532",
+      "name": "Estágio II",
+      "credits": 18,
+      "hours": 324,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5511"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5511"
+      },
+      "syllabus": "Desenvolver projeto de pesquisa. Escrever o Trabalho de Conclusão do Curso (TCC) contendo os dados experimentais obtidos no projeto proposto. Apresentação oral e defesa do trabalho desenvolvido."
+    },
+    {
+      "id": "QMC5903",
+      "code": "QMC5903",
+      "name": "Química Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5222",
+        "QMC5330"
+      ],
+      "equivalents": [
+        "QMC5705"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5222"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5330"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5705"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "QMC5825",
+      "code": "QMC5825",
+      "name": "Atividades Complementares",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades Complementares"
+    },
+    {
+      "id": "QMC5827",
+      "code": "QMC5827",
+      "name": "Atividades de Extensão (EXT 252 h-a)",
+      "credits": 14,
+      "hours": 252,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 252
+      },
+      "prerequisiteHours": 252,
+      "syllabus": "Atividades de extensão realizadas em projetos; e/ou cursos; e/ou eventos, conforme política de extensão estabelecida pelo curso."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de disciplinas optativas Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "QMC5128",
+      "code": "QMC5128",
+      "name": "Análise Inorgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5139",
+        "QMC5223",
+        "QMC5147",
+        "QMC5243"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "QMC5139"
+              },
+              {
+                "kind": "course",
+                "code": "QMC5223"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "QMC5147"
+              },
+              {
+                "kind": "course",
+                "code": "QMC5243"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "18h-a) Métodos espectroscópicos e espectométricos de análise inorgânica: Princípios básicos de análise na região do infravermelho, Espectrometria de massas, Espectroscopia Raman, Luminescência, Termogravimetria, RFessonânica Paramagnética Eletrônica, Magnetoquímica."
+    },
+    {
+      "id": "QMC5135",
+      "code": "QMC5135",
+      "name": "Química Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5423"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5423"
+      },
+      "syllabus": "Introdução à modelagem molecular. Mecânica molecular. Cálculo de energia de isômeros e confôrmeros. O método Hartree-Fock. Funções de base e orbitais moleculares. Teoria do funcional de densidade (DFT). Introdução de correlação: MP2. Métodos de inclusão de solvatação. Otimização de geometrias. Cálculo de frequências vibracionais e energia livre de Gibbs. Cálculo de constantes de Equilíbrio. Cálculo de Espectro UV/Vis."
+    },
+    {
+      "id": "QMC5142",
+      "code": "QMC5142",
+      "name": "Cristalografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5146"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5146"
+      },
+      "syllabus": "Operações de simetria. Grupos pontuais e grupos espaciais. Sistemas cristalinos. Tipos de Bravais. Geração de raios X, filtração e monocromatização. Difração de raios X pelo cristal. Indexação das reflexões. Padrão de difração. Determinação de grupos espaciais. Entendimento do arquivo.res (Z, simetria, coordenadas, fatores de ocupação, desordem, parâmetros de refinamento). Entendimento dos dados cristalográficos (tabelas) e elaboração de figuras."
+    },
+    {
+      "id": "QMC5143",
+      "code": "QMC5143",
+      "name": "Introdução à Fotoquímica Molecular",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5423"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5423"
+      },
+      "syllabus": "Função de onda molecular e estrutura. Configurações eletrônicas e estados eletrônicos. Configurações de estado excitado. Estrutura vibracional. O spin eletrônico e estados de spin. Transições entre estados e o princípio de Franck-Condon. Transições radiativas. Cruzamento interssistema. Transições não radiativas. A regra de Kasha. Processos fotoquímicos. Transferências de elétrons. Aplicações."
+    },
+    {
+      "id": "QMC5144",
+      "code": "QMC5144",
+      "name": "Introdução à Espectroscopia Molecular",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5423"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5423"
+      },
+      "syllabus": "Aspectos relevantes da mecânica quântica e teoria eletromagnética. Aspectos gerais dos métodos experimentais. Simetria molecular. Espectroscopia vibracional: infravermelho e Raman. Espectroscopia de fotoelétrons. Espectroscopia eletrônica. Dinâmica de estados excitados. Tempos de vida e medições experimentais. Aplicações."
+    },
+    {
+      "id": "QMC5149",
+      "code": "QMC5149",
+      "name": "A Química na Indústria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EQA5214",
+        "QMC5146"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EQA5214"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5146"
+          }
+        ]
+      },
+      "syllabus": "Setores de atuação da indústria química no Brasil. Pesquisa, desenvolvimento e levantamento bibliográfico na área de química industrial. Materiais cerâmicos. Materiais isolantes, condutores, supercondutores e magnéticos. Indústria de polímeros. Indústria de pigmentos e corantes. Indústria farmacêutica. Indústria cosmética e perfumaria. Biomateriais. Agroquímicos. Indústria de alimentos. Nanomateriais. Química verde. Indústria de mineração. Combustíveis. Indústria de reciclagem"
+    },
+    {
+      "id": "QMC5202",
+      "code": "QMC5202",
+      "name": "Introdução a Síntese Orgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5223"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5223"
+      },
+      "syllabus": "-Introdução a síntese orgânica, importância e seus objetivos. Planejamento e estratégias de síntese visando moléculas orgânicas de estruturas complexas. Conceitos de desconexão, interconversão de grupos funcionais. Grupos protetores. Síntese de intermediários em química orgânica. Reações de formação de ligação carbono-carbono e carbonoheteroátomo. Fatores que controlam a estéreo, régio, químio e enantiosseletividade em sínteses orgânicas. Todos estes conceitos serão comparados, sempre que possível, com os doze princípios da química verde; eficiência atômica e economia de átomos; reagentes e solventes alternativos para uma Química Limpa. Catálise e Biocatálise; Fontes de Energia Não-Clássicas na Síntese Orgânica."
+    },
+    {
+      "id": "QMC5336",
+      "code": "QMC5336",
+      "name": "Introução à Métodos Quimiométricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3111"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3111"
+      },
+      "syllabus": "Introdução de estatística básica. Introdução à planejamentos experimentais: método univariado, fatorial completo e fracionário. Método de análise de superfície resposta."
+    },
+    {
+      "id": "QMC5341",
+      "code": "QMC5341",
+      "name": "Química Analítica Forense",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5332",
+        "QMC5333",
+        "QMC5337",
+        "QMC5338"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5332"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5333"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5337"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5338"
+          }
+        ]
+      },
+      "syllabus": "Química analítica e perícia. Testes rápidos para identificação da presença de substâncias ilícitas. Determinação de substâncias em cabelo humano. Análise de sangue. Documentoscopia. Determinação de resíduos de disparo. Análise de digitais. Falsificação de bebidas. Cromatografia em camada delgada aplicada a análises forenses. Técnicas de cromatografia em fase gasosa e cromatografia líquida de alta eficiência acopladas à espectrometria de massa aplicada a análises forenses, eletroforese capilar aplicada a análises forenses. Ensaio do bafômetro."
+    },
+    {
+      "id": "QMC5353",
+      "code": "QMC5353",
+      "name": "Preparo de Amostras",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5351"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5351"
+      },
+      "syllabus": "Sequência analítica. Amostragem. Tratamento estatístico de dados. Erros em métodos analíticos. Aspectos de segurança. Fundamentos do preparo de amostras. Métodos de preparo de amostras para analitos inorgânicos. Métodos de preparo de amostras para analitos orgânicos. Métodos oficiais de análise química. Extração e pré-concentração."
+    },
+    {
+      "id": "QMC5421",
+      "code": "QMC5421",
+      "name": "Química dos Nanomateriais e Nanotecnologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5519"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5519"
+      },
+      "syllabus": "Fundamentos de nanoquímica e nanotecnologia; Estrutura, composição e propriedades de nanomateriais; Principais métodos de obtenção e caracterização de nanomateriais; Aplicação de nanomateriais em diversas áreas; Nanotoxicologia."
+    },
+    {
+      "id": "QMC5422",
+      "code": "QMC5422",
+      "name": "Físico-Química da Corrosão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5414",
+        "QMC5420",
+        "QMC5422"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5414"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5420"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5422"
+          }
+        ]
+      },
+      "syllabus": "Relevância social, ambiental e econômica da corrosão. Noções sobre ligas metálicas. Termodinâmica da corrosão. Cinética da corrosão. Tipos de corrosão. Técnicas eletroquímicas para o estudo da corrosão. Revestimentos anticorrosivos e inibidores de corrosão."
+    },
+    {
+      "id": "QMC5426",
+      "code": "QMC5426",
+      "name": "Ferramentas Matemáticas para Químicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Funções de uma variável (diferenciação e integração), series e limites, funções definidas por integrais, números complexos, equações diferenciais ordinárias, Polinômios ortogonais, Series de Fourier, Transformadas de Fourier, Operadores, Funções de várias variáveis, Vetores, Equações de onda, Determinantes, Matrizes, Problemas de autovalor, espaços vetoriais, probabilidade, estatística, métodos numéricos."
+    },
+    {
+      "id": "QMC5428",
+      "code": "QMC5428",
+      "name": "Princípios Teóricos da Espectroscopia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5423"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5423"
+      },
+      "syllabus": "Teoria de grupos e simetria molecular, espectroscopia molecular, transições rotacionais e vibracionais, espectros roto-vibracionais, sobretons, espectro eletrônico, Princípio Franck-Condon, modos normais, ressonância magnética nuclear, spin nuclear, acoplamento spin-spin, regras de seleção, deslocamentos químicos, estados excitados, lasers, inversões de populações, dinâmica de transições, princípios de fotoquímica."
+    },
+    {
+      "id": "QMC5516",
+      "code": "QMC5516",
+      "name": "História da Química",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5519"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5519"
+          },
+          {
+            "kind": "hours",
+            "hours": 5516
+          }
+        ]
+      },
+      "prerequisiteHours": 5516,
+      "syllabus": "Pré-História da Química; Alquimia Medieval; Química do Século XVII ao Século XX; Escola Francesa, Britânica, Holandesa e Germânica de Química; Desenvolvimento da Termodinâmica; História dos Elementos Químicos, da Molécula, da Representação de Estruturas Moleculares, da Nomenclatura Química, da Físico-Química, da Química Orgânica eda Química Nuclear; Prêmios Nobel da Química."
+    },
+    {
+      "id": "QMC5534",
+      "code": "QMC5534",
+      "name": "Química de Fragrâncias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5222",
+        "QMC5518"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5222"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5518"
+          }
+        ]
+      },
+      "syllabus": "Funcionamento do olfato. História da perfumaria. Matérias primas para a perfumaria. Conceito de notas e pirâmide olfativa. Propriedades físico-químicas das moléculas de perfumaria. Construção de fragrâncias e uso em perfumaria, cosméticos e sanitizantes. Química verde, sustentabilidade ambiental e inovações em perfumaria."
+    },
+    {
+      "id": "QMC5535",
+      "code": "QMC5535",
+      "name": "Obtenção de Matérias Primas para Fragrâncias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5222",
+        "QMC5518"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5222"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5518"
+          }
+        ]
+      },
+      "syllabus": "Métodos de obtenção e caracterização de matérias primas para a perfumaria: naturais e sintéticos. Química verde e sustentabilidade ambiental."
+    },
+    {
+      "id": "QMC5711",
+      "code": "QMC5711",
+      "name": "Introdução à Química Verde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5519"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5519"
+      },
+      "syllabus": "Introdução à QV a partir da análise dos seus 12 princípios, explorando aspectos da insegurança ambiental, física e pessoal da química. Obtenção e uso de informações sobre perigo de substâncias químicas a partir do Sistema Global Harmonizado para a Classificação e Rotulagem de Produtos Químicos (GHS). Análise de atividades experimentais clássicas em laboratórios de ensino (virtual e/ou presencial) sob o prisma da QV, utilizando ainda métricas clássicas e de verdura química."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "GMT5620",
+      "MTM3110",
+      "QMC5129",
+      "QMC5517",
+      "QMC5518",
+      "QMC5901",
+      "FSC5101",
+      "MTM3120",
+      "MTM3121",
+      "QMC5309",
+      "QMC5519",
+      "QMC5520",
+      "QMC5902",
+      "FSC5121",
+      "MTM3131",
+      "QMC5146",
+      "QMC5222",
+      "QMC5329",
+      "QMC5413",
+      "QMC5136",
+      "QMC5223",
+      "QMC5330",
+      "QMC5423",
+      "QMC5424",
+      "FSC5123",
+      "QMC5139",
+      "QMC5213",
+      "QMC5221",
+      "QMC5331",
+      "QMC5414",
+      "QMC5418",
+      "QMC5124",
+      "QMC5145",
+      "QMC5230",
+      "QMC5238",
+      "QMC5332",
+      "QMC5333",
+      "QMC5425",
+      "QMC5429",
+      "QMC5134",
+      "QMC5141",
+      "QMC5239",
+      "QMC5317",
+      "QMC5334",
+      "QMC5415",
+      "QMC5430",
+      "QMC5511",
+      "QMC5240",
+      "QMC5318",
+      "QMC5532",
+      "QMC5903"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 72,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "QMC5825",
+              "QMC5827",
+              "LSB7244",
+              "QMC5128",
+              "QMC5135",
+              "QMC5142",
+              "QMC5143",
+              "QMC5144",
+              "QMC5149",
+              "QMC5202",
+              "QMC5336",
+              "QMC5341",
+              "QMC5353",
+              "QMC5421",
+              "QMC5422",
+              "QMC5426",
+              "QMC5428",
+              "QMC5516",
+              "QMC5534",
+              "QMC5535",
+              "QMC5711"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 72
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "226",
+    "curriculumCode": "20211",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=226&curriculo=20211",
+    "sha256": "caf4d8655dc6cf1df74d6621bf7652d1b3f54473231f82511c9a783ebd419474",
+    "capturedAt": "2026-09-22"
+  }
+}

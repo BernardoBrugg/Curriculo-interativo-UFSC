@@ -1,0 +1,2066 @@
+{
+  "program": "ENGENHARIA NAVAL [Campus Joinville]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.1",
+  "totalHours": 4464,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EMB5001",
+      "code": "EMB5001",
+      "name": "Cálculo Diferencial e Integral I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções sobre funções de uma variável real. Limite e continuidade. Derivada. Aplicações de Derivada. Integral definida e indefinida - Método da substituição e Integração por partes."
+    },
+    {
+      "id": "EMB5005",
+      "code": "EMB5005",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matrizes. Determinantes. Sistemas lineares. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies."
+    },
+    {
+      "id": "EMB5036",
+      "code": "EMB5036",
+      "name": "Química para engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5006"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5006"
+      },
+      "syllabus": "Sistema internacional de unidades. Átomos e moléculas. Ligações químicas e estrutura molecular. Equações químicas. Estequiometria. Soluções aquosas. Termoquímica. Eletroquímica: oxidaçãoredução, células eletroquímicas, equação de Nernst, eletrólise. Siderurgia: Obtenção do ferro gusa e do aço. Aços especiais. Polímeros: estrutura química, propriedades, aplicações. Cerâmicas: cerâmicas tradicionais e avançadas, propriedades, aplicações. Compósitos. Corrosão metálica: tipos e formas, meios corrosivos, mecanismos de proteção, monitoramento. Combustíveis e combustão. Química Ambiental. Atividades Laboratoriais."
+    },
+    {
+      "id": "EMB5055",
+      "code": "EMB5055",
+      "name": "Representação Gráfica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5035"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5035"
+      },
+      "syllabus": "Noções fundamentais para elaboração e interpretação de esboços e desenhos técnicos. Fundamentos de Desenho Geométrico. Desenho Projetivo. Normas para desenho (ABNT). Cotagem. Escalas. Desenho de objetos no 1º e 3º diedros. Perspectiva Isométrica. Aplicação das projeções nos desenhos de engenharia por meio manual e computacional."
+    },
+    {
+      "id": "EMB5062",
+      "code": "EMB5062",
+      "name": "Comunicação e Expressão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5037"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5037"
+      },
+      "syllabus": "Leitura e interpretação de textos técnicos e científicos da área da Engenharia. Estudo teórico e prático de textos técnicos e científicos relevantes à execução de atividades acadêmicas, como: fichamento, resumo, resenha, artigo, seminário. Normas da ABNT relevantes à produção/elaboração de textos acadêmicos. Linguagem técnica e científica. Normas gramaticais vigentes. Exercício de apropriação de textos da área da Engenharia."
+    },
+    {
+      "id": "EMB5648",
+      "code": "EMB5648",
+      "name": "Programação I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5600"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5600"
+      },
+      "syllabus": "Introdução a arquitetura de computadores. Lógica de programação: formalização de problemas com representação em pseudocódigo (algoritmos) e fluxograma, tipos de dados, estruturas de seleção e repetição, fluxo de execução, modularização (funções e procedimentos), estruturas de dados homogêneas (vetores e matrizes). Introdução a apontadores. Arquivos. Implementação prática de algoritmos em uma linguagem de alto nível."
+    },
+    {
+      "id": "EMB5729",
+      "code": "EMB5729",
+      "name": "Introdução à Engenharia Naval",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5731"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5731"
+      },
+      "syllabus": "Apresentar aos alunos a primeira visão do que é engenharia fazendo os alunos participarem de atividades que são o cotidiano da engenharia. Introduzir os alunos aos problemas de engenharia, ao conceito de engenharia, às funções do engenheiro e ao papel do engenheiro na sociedade. Enfatizar o trabalho em equipe na atividade do engenheiro. Valorizar a comunicação na atividade do engenheiro: preparação de relatórios, exposição e defesa oral do trabalho. Ética profissional, formação e exercício da cidadania. Apresentar aos alunos as áreas de pesquisa e atuação profissional de um Engenheiro Naval. Prevenção e combate a incêndio e a desastres em estabelecimentos, edificações e áreas de reunião de público."
+    },
+    {
+      "id": "EMB5007",
+      "code": "EMB5007",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5005"
+      },
+      "syllabus": "Espaços vetoriais. Transformações lineares. Mudança de base. Produto interno. Transformações ortogonais. Autovalores e autovetores de um operador. Diagonalização."
+    },
+    {
+      "id": "EMB5022",
+      "code": "EMB5022",
+      "name": "Ciência dos Materiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001",
+        "EMB5036"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5001"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5036"
+          }
+        ]
+      },
+      "syllabus": "Introdução a Ciência e Engenharia dos Materiais – materiais aplicados na engenharia. Tipos, classificação e aplicações dos diversos materiais. Estrutura atômica e ligações inter-atômicas. Materiais cristalinos e não cristalinos. Imperfeições nos sólidos. Difusão. Processos metalográficos. Diagramas de equilíbrio. Comportamento mecânico e dinâmico dos materiais. Falhas, fratura, fadiga e fluência. Estrutura e propriedades dos materiais metálicos, cerâmicos e poliméricos. Introdução a compósitos."
+    },
+    {
+      "id": "EMB5029",
+      "code": "EMB5029",
+      "name": "Cálculo Diferencial e Integral II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5001"
+      },
+      "syllabus": "Métodos de integração. Aplicações da integral definida. Integrais impróprias. Funções de várias variáveis. Derivadas parciais. Aplicações das derivadas parciais. Integração múltipla."
+    },
+    {
+      "id": "EMB5048",
+      "code": "EMB5048",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5034"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5034"
+      },
+      "syllabus": "Unidades de medidas e vetores. Cinemática. Leis de Newton e aplicações. Trabalho e energia potencial. Conservação da energia. Conservação do momento linear e angular. Rotação de corpos rígidos e rolamento. Atividades Laboratoriais."
+    },
+    {
+      "id": "EMB5063",
+      "code": "EMB5063",
+      "name": "Ciência, Tecnologia e Sociedade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5038"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5038"
+      },
+      "syllabus": "Definições de ciência, tecnologia e técnica. Desenvolvimento tecnológico e social. Relações entre ciência, tecnologia e sociedade. Desafios para o perfil do engenheiro contemporâneo. Funções do engenheiro no contexto tecnológico e social. Ética, moral, valores e ética profissional. O Código de ética como ferramenta para o fortalecimento da cultura organizacional. Disciplina consciente. A igualdade étnico racial na engenharia.História e cultura Afro-Brasileira e Africana. Direitos humanos."
+    },
+    {
+      "id": "EMB5730",
+      "code": "EMB5730",
+      "name": "Laboratório de Engenharia Naval I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5011",
+        "EMB5732"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5011"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5732"
+          }
+        ]
+      },
+      "syllabus": "Caracterização dimensional de embarcações, considerando técnicas de medição direta e indireta, bem como a análise de incertezas. Introdução do conceito de grandeza vetorial e de equilíbrio de corpos no cenário da análise de pesos e centros da embarcação. Apresentação dos cálculos de centro de volume, centro de massa, momento de inércia de área e momento de inércia de massa, todos aplicados na caracterização da embarcação. Apresentação de experimentos típicos da mecânica geral, hidrostática, hidrodinâmica e/ou estruturas, que explorem os conceitos e métodos de caracterização aprendidos. Introdução uma ferramenta matemática de análise aplicada aos experimentos voltados ao estudo de problemas e/ou fenômenos da Engenharia Naval."
+    },
+    {
+      "id": "EMB5797",
+      "code": "EMB5797",
+      "name": "Modelagem Geométrica Aplicada a",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Linhas e polilinhas no auxílio à geração de superfícies e modelos sólidos. Comandos automatizados para geração de superfícies e sólidos. Modelagens em 3D. Uso de pontos de controle para alteração de geometrias. Utilização de imagens (pano de fundo) como orientação a modelagens de embarcações. Geração de cascos de embarcações assistido por programas computacionais. Expansão de chapas e perfis. Análises hidrostáticas e hidrodinâmicas assistidas por programas computacionais. Renderizações."
+    },
+    {
+      "id": "EMB5016",
+      "code": "EMB5016",
+      "name": "Cálculo Numérico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001",
+        "EMB5005",
+        "EMB5648"
+      ],
+      "equivalents": [
+        "EMB5010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5001"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5005"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5648"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5010"
+      },
+      "syllabus": "Introdução à matemática computacional, erros e aritmética de ponto flutuante. Solução de equações algébricas e transcendentais. Solução de sistemas de equações lineares, métodos diretos e iterativos. Solução de sistemas de equações não-lineares. Interpolação. Ajuste de curvas. Integração numérica."
+    },
+    {
+      "id": "EMB5030",
+      "code": "EMB5030",
+      "name": "Cálculo Vetorial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5005",
+        "EMB5029"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5005"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5029"
+          }
+        ]
+      },
+      "syllabus": "Funções vetoriais. Limites, derivadas e integrais de funções vetoriais. Parametrização de curvas e superfícies. Campos vetoriais. Gradiente, divergente e rotacional. Integrais de linha. Integrais de superfície. Teorema de Green. Teorema de Stokes. Teorema de Gauss."
+    },
+    {
+      "id": "EMB5039",
+      "code": "EMB5039",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001",
+        "EMB5048"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5001"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5048"
+          }
+        ]
+      },
+      "syllabus": "Gravitação. Estática e dinâmica de fluidos. Oscilações. Ondas mecânicas e acústicas. Temperatura. Calor. Teoria cinética dos gases. Leis da termodinâmica. Máquinas térmicas. Refrigeradores. Entropia. Atividades Laboratoriais."
+    },
+    {
+      "id": "EMB5057",
+      "code": "EMB5057",
+      "name": "Estatística I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001"
+      ],
+      "equivalents": [
+        "EMB5010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5001"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5010"
+      },
+      "syllabus": "Estatística descritiva e análise exploratória de dados. Teoria da probabilidade. Variáveis aleatórias discretas e contínuas, e suas principais distribuições de probabilidade. Estimação de parâmetros. Teste de hipóteses para parâmetros: média, proporção e variância. Comparação entre dois tratamentos."
+    },
+    {
+      "id": "EMB5700",
+      "code": "EMB5700",
+      "name": "Estruturas Navais I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001"
+      ],
+      "equivalents": [
+        "EMB5011",
+        "EMB5765"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5001"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5011"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5765"
+          }
+        ]
+      },
+      "syllabus": "Estudo do equilíbrio de partículas e corpos rígidos no plano e no espaço. Determinação das reações em apoios padrão utilizados na Engenharia. Análise de Treliças. Conceito de estruturas leves. Conceito de estruturas primária, secundária e terciária. Modelo de viga navio.. Colocação do navio na onda. Forças agindo sobre o navio. Análise de forças distribuídas como cargas concentradas. Determinação de forças axiais, forças cortantes e momentos fletores em estruturas e vigas. Construção de diagramas de força cortante e momento fletor. Introdução ao conceito de tensão. Campos de Tensão Primária. Critérios de projeto: Carregamento, modelo de cálculo e tensões admissíveis. Princípios de projeto e análise de estruturas navais e oceânicas, incluindo utilização de regras de Sociedade Classificadoras. Introdução a flambagem de estruturas navais."
+    },
+    {
+      "id": "EMB5736",
+      "code": "EMB5736",
+      "name": "Laboratório de Engenharia Naval II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apresentação da teoria sobre semelhança e redução de escala no contexto da Engenharia Naval. Introdução ou uso de materiais e métodos experimentais para a monitoração, registro e análise de grandezas variantes no tempo e/ou na posição. Introdução sobre a técnica de tratamento de sinais. Execução de experimentos importantes para a investigação de problemas e/ou fenômenos que afetam os sistemas navais, particularmente os hidrostáticos, hidrodinâmicos e estruturais. Aprofundamento no uso da ferramenta matemática de análise aplicada aos experimentos navais."
+    },
+    {
+      "id": "EMB5009",
+      "code": "EMB5009",
+      "name": "Termodinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5029",
+        "EMB5039"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5029"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5039"
+          }
+        ]
+      },
+      "syllabus": "Introdução e conceitos básicos. Trabalho e calor. Propriedades de substâncias puras. Primeira lei da termodinâmica. Primeira lei da termodinâmica aplicada a volumes de controle. Segunda lei da termodinâmica. Entropia e a segunda lei da termodinâmica."
+    },
+    {
+      "id": "EMB5014",
+      "code": "EMB5014",
+      "name": "Séries e Equações Diferenciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5007",
+        "EMB5016",
+        "EMB5029"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5007"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5016"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5029"
+          }
+        ]
+      },
+      "syllabus": "Sequências e séries infinitas. Séries de potências. Séries de Taylor. Série de Fourier. Equações diferenciais de 1ª ordem. Equações diferenciais lineares de ordem n. Noções sobre transformada de Laplace. Noções sobre equações diferenciais parciais. Soluções em séries para equações diferencias lineares. Noções sobre métodos numéricos para solução de equações diferenciais."
+    },
+    {
+      "id": "EMB5021",
+      "code": "EMB5021",
+      "name": "Mecânica dos Sólidos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5700",
+        "EMB5730"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5700"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5730"
+          }
+        ]
+      },
+      "syllabus": "Análise de Tensão – Conceitos e Definições, Tensão normal média; Tensão cisalhante média; Cisalhamento puro e duplo, Tensão admissível. Análise de Deformação – Conceitos e Definições; Deformação específica; Deformação por cisalhamento. Relação entre Tensão e Deformação – Equações Constitutivas; Lei de Hooke; Razão de Poisson; Carga Axial – Deformação térmica; membros estaticamente indeterminados, Equações de Compatibilidade, concentração de tensão. Torção – Deformação por torção; fórmula da torção; deflexão torcional; concentração de tensão. Flexão – Diagrama de Força Cortante (Cisalhamento) e Momento fletor; deformação por flexão, Flexão simples plana, oblíqua, seções assimétricas"
+    },
+    {
+      "id": "EMB5041",
+      "code": "EMB5041",
+      "name": "Dinâmica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5700",
+        "EMB5730"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5700"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5730"
+          }
+        ]
+      },
+      "syllabus": "Cinemática dos corpos rígidos. Dinâmica dos corpos rígidos. Princípio do trabalho e energia, quantidade de movimento, impulso linear e angular para corpos rígidos."
+    },
+    {
+      "id": "EMB5102",
+      "code": "EMB5102",
+      "name": "Processo de Fabricação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5022"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5022"
+      },
+      "syllabus": "Classificação e descrição sumária dos diversos processos de fabricação. Fundamento dos processos de fundição contínua e em moldes: principais parâmetros, ferramentas, máquinas e equipamentos, campo de aplicações. Fundamento dos processos de conformação de materiais metálicos (laminação, forjamento, trefilação, extrusão e estampagem): principais parâmetros, ferramentas, máquinas e equipamentos, campo de aplicações. Fundamentos de metalurgia do pó: sinterização. Fundamentos dos processos de usinagem: torneamento, furação, fresamento, retificação, eletroerosão. Principais parâmetros dos processos de usinagem. Ferramentas de corte: materiais, revestimentos e geometrias, desgaste. Qualidade de superfícies após processo específico de fabricação, erros dimensionais. Máquinas e equipamentos. Introdução ao Comando Numérico Computadorizado (CNC). Introdução a programação e simulação da usinagem CNC e integração entre sistemas CAD\\CAM\\CNC."
+    },
+    {
+      "id": "EMB5733",
+      "code": "EMB5733",
+      "name": "Arquitetura Naval I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tipos de embarcações e sistemas oceânicos, funções, características principais, formas de propulsão, descrição da estrutura, materiais utilizados na construção. Sociedades Classificadoras, regulamentações e normas técnicas. Geometria do casco, dimensões principais, coeficientes de forma, plano de linhas, desenho do casco. Deslocamento, peso leve, deadweight e arqueação. Introdução á visão sistêmica e a metodologia clássica de projeto naval. Modelos computacionais, curvas e superfícies paramétricas, variação geométrica. Modelagem computacional do casco e convés utilizando ferramentas CAD."
+    },
+    {
+      "id": "EMB5017",
+      "code": "EMB5017",
+      "name": "Mecânica dos Fluidos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5009",
+        "EMB5030"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5009"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5030"
+          }
+        ]
+      },
+      "syllabus": "Conceitos fundamentais. Estática dos fluidos. Formulação integral e diferencial das leis de conservação. Escoamento invíscido incompressível. Análise dimensional e semelhança. Escoamento interno viscoso incompressível: escoamento laminar completamente desenvolvido e escoamento em tubos e dutos. Escoamento externo viscoso incompressível: teoria da camada limite e forças de arrasto e sustentação sobre corpos imersos."
+    },
+    {
+      "id": "EMB5059",
+      "code": "EMB5059",
+      "name": "Metodologia de Projeto",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Introdução: contexto e importância do projeto de produtos. Modelos do processo e planejamento do projeto de produtos/serviços. Métodos e ferramentas para a especificação de problemas de projeto e de concepção de produtos/serviços. Projeto preliminar: modelagem, análise e simulação de soluções de projeto. Projeto detalhado. Técnicas de prototipagem. Desenvolvimento de projetos com a Comunidade. Técnicas e conceitos de Desenho Universal em projetos de engenharia.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMB5061",
+      "code": "EMB5061",
+      "name": "Metrologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [
+        "EMB5033"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5057"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5033"
+      },
+      "syllabus": "Conceitos fundamentais da metrologia científica e industrial; Sistema Internacional de Unidades; Medições diretas e Indiretas; Erros de medição; Características dos sistemas de medição; Calibração e rastreabilidade metrológica;Estimativa de incerteza de medição; Comprovação metrológica;Práticas em laboratório (grandezas mecânicas e elétricas)."
+    },
+    {
+      "id": "EMB5104",
+      "code": "EMB5104",
+      "name": "Mecânica dos Sólidos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5021"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5021"
+      },
+      "syllabus": "Cisalhamento em Vigas Longas – tensões de cisalhamento em vigas; cisalhamento em estruturas compostas. Cargas Combinadas - Campos de tensão em cascas cilíndricas e esféricas delgadas. Vasos de Pressão. Transformação de Tensão – Estado Plano de Tensão, Tensões Principais, Círculo de Mohr. Deflexão Transversal em Vigas – Linha Elástica, Equações de Equilíbrio, Vigas estaticamente indeterminadas. Flambagem de Colunas – Carga Crítica; Flambagem elástica e inelástica de vigas. Critérios de Falhas Estáticas para Materiais Dúcteis – Teoria da Tensão Cisalhante Máxima; Teoria da Energia de Distorção, Tensão Equivalente de von Mises, Fator de segurança. Critério de Falha Estática para Materiais Frágeis – Teoria da Tensão Normal Máxima. Métodos de Energia."
+    },
+    {
+      "id": "EMB5121",
+      "code": "EMB5121",
+      "name": "Eletricidade Aplicada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5030"
+      ],
+      "equivalents": [
+        "EMB5043",
+        "EMB5643"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5030"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5043"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5643"
+          }
+        ]
+      },
+      "syllabus": "Carga elétrica, Campos elétricos e Lei de Gauss; Potencial elétrico e capacitância. Circuitos em Corrente Contínua e Corrente Alternada. Noções sobre geração, transmissão e distribuição de energia elétrica. Circuitos Trifásicos. Segurança em instalações elétricas e serviços com eletricidade. Instrumentos e Medidas elétricas."
+    },
+    {
+      "id": "EMB5726",
+      "code": "EMB5726",
+      "name": "Arquitetura Naval II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5733"
+      ],
+      "equivalents": [
+        "EMB5734"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5733"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5734"
+      },
+      "syllabus": "Revisão sobre os conceitos básicos de: deslocamento e centro de gravidade; momentos de inércia de massa e raio de giração; pressão hidrostática e empuxo; equilíbrio hidrostático; e condições de equilíbrio. Curvas hidrostáticas. Estabilidade intacta e avariada. Comprimento alagável e compartimentagem. Conceitos de estabilidade dinâmica. Normas, regulamentos e critérios de estabilidade."
+    },
+    {
+      "id": "EMB5115",
+      "code": "EMB5115",
+      "name": "Vibrações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5014",
+        "EMB5041"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5014"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5041"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos problemas de vibração em engenharia. Terminologia. Princípios Básicos. Sistemas com um grau de liberdade: vibração livre, métodos de energia, amortecimento e vibração forçada. Sistemas com dois graus de liberdade: vibração livre e forçada. Sistemas com múltiplos graus de liberdade. Introdução aos sistemas contínuos. Introdução aos sistemas de medição de vibrações."
+    },
+    {
+      "id": "EMB5119",
+      "code": "EMB5119",
+      "name": "Elementos de Máquinas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5104"
+      ],
+      "equivalents": [
+        "EMB5110"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5104"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5110"
+      },
+      "syllabus": "Estudo de uniões por parafusos. Molas helicoidais. Eixos e árvores. Ligações entre cubo e eixo. Mancais de rolamento e escorregamento. Engrenagens cilíndricas. Redutores. Acoplamentos. Elementos mecânicos flexíveis."
+    },
+    {
+      "id": "EMB5120",
+      "code": "EMB5120",
+      "name": "Gestão e Organização",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1400,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 1400,
+      "syllabus": "Histórico da teoria geral da administração. Abordagens básicas e evolução do pensamento administrativo. Conceito de Administração e funções administrativas. Gestão da Produção e Operações. Estratégia de Produção e Operações. Noções de Planejamento e Controle da Produção. Just in Time e Operações Enxutas. Gestão da Qualidade. Gestão de Pessoas. Noções de Empreendedorismo."
+    },
+    {
+      "id": "EMB5727",
+      "code": "EMB5727",
+      "name": "Hidrodinâmica Aplicada I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5017"
+      ],
+      "equivalents": [
+        "EMB5710"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5017"
+          },
+          {
+            "kind": "hours",
+            "hours": 5727
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5710"
+      },
+      "prerequisiteHours": 5727,
+      "syllabus": "Resistência ao avanço: natureza de resistência e determinação da resistência. Métodos teóricos, experimentais e estatísticos. Propulsores: tipos de propulsores, propulsor tipo hélice, geometria do hélice, análise de propulsores, diagramas Kt, Kq, J, séries sistemáticas, interação casco propulsor, cavitação e seleção de propulsores."
+    },
+    {
+      "id": "EMB5728",
+      "code": "EMB5728",
+      "name": "Máquinas Marítimas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5009"
+      ],
+      "equivalents": [
+        "EMB5707"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5009"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5707"
+      },
+      "syllabus": "Mecanismos básicos de transmissão de calor: condução e convecção. Sistemas térmicos a bordo de embarcações. Ciclos básicos de operação de máquinas térmicas. Ciclo Otto, Diesel, Rankine, Brayton. Ciclos combinados de cogeração. Ciclos reais. Combustíveis. Motores de combustão interna e Turbinas a gás: princípios de funcionamento, tipos e aplicações (embarcações pequeno e grande porte). Trocadores de calor. Turbinas a vapor. Caldeiras"
+    },
+    {
+      "id": "EMB5780",
+      "code": "EMB5780",
+      "name": "Transporte Marítimo e de Cabotagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5057"
+      },
+      "syllabus": "- Inserção do transporte aquaviário na cadeia logística. Transporte marítimo. Evolução do comércio internacional e do transporte de longo curso. Transporte de cabotagem (noções de intermodalidade de transportes, características dos outros modais de transporte). Tipos de navios e cargas associadas. Tipos de operações de navios (tramp, liner, industrial e passageiros). Características físicas, operacionais, econômicas e de mercado do transporte aquaviário. Aspectos legais pertinentes ao transporte marítimo e aos portos. Caracterização de portos públicos e terminais privados"
+    },
+    {
+      "id": "EMB5725",
+      "code": "EMB5725",
+      "name": "Processos de Soldagem para Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5022"
+      ],
+      "equivalents": [
+        "EMB5724"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5022"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5724"
+      },
+      "syllabus": "Classificação dos processos de união. Fundamentos dos processos de união: terminologia, tipos de juntas e chanfros, posição de soldagem. Fundamentos de metalurgia da soldagem. Física do arco voltaico e fontes de energia para soldagem. Processos de soldagem a arco: Eletrodo Revestido, MIG/MAG, TIG, Plasma, Arco submerso e Eletrogás. Soldagem por Eletroescória. Soldagem oxiacetilênica e Oxicorte. Soldagem a laser. Brasagem. Aplicações no âmbito da engenharia naval."
+    },
+    {
+      "id": "EMB5737",
+      "code": "EMB5737",
+      "name": "Projetos de Navio",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5700",
+        "EMB5726",
+        "EMB5727"
+      ],
+      "equivalents": [
+        "EMB5707",
+        "EMB5735"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5700"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5726"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5727"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5707"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5735"
+          }
+        ]
+      },
+      "syllabus": "Naval EMB5121) Por meio da elaboração de um projeto, os alunos exercitam de maneira interdisciplinar os conceitos de metodologia de projeto e projeto conceitual de embarcações. Entre os sistemas estudados, destacam-se: dimensões principais, desenho de casco, pesos e centros, resistência ao avanço, instalação propulsora (tipos, seleção e dimensionamento), estabilidade (inicial e a grandes ângulos), projeto estrutural da seção mestra etc. Formulações, modelos matemáticos e ferramentas disponíveis para o projeto naval. Exercitam-se ainda o trabalho em grupo, o planejamento, a ética e a conduta profissional, além da capacidade de comunicação oral e escrita. Formulações, modelos matemáticos e ferramentas disponíveis para o projeto naval. Exercitam-se ainda o trabalho em grupo, o planejamento, a ética e a conduta profissional, além da capacidade de comunicação oral e escrita."
+    },
+    {
+      "id": "EMB5738",
+      "code": "EMB5738",
+      "name": "Controle e Manobra de Sistemas navais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5115"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5115"
+      },
+      "syllabus": "Introdução à manobrabilidade. Equações lineares do movimento de manobra de um navio de superfície. Estabilidade direcional para embarcações de superfície. Fundamentos de teoria de controle. Controle de manobras. Manobras padronizadas. Critérios IMO para manobras. Manobras de sistemas subaquáticos."
+    },
+    {
+      "id": "EMB5753",
+      "code": "EMB5753",
+      "name": "Hidrodinâmica Aplicada II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5014"
+      ],
+      "equivalents": [
+        "EMB5716"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5014"
+          },
+          {
+            "kind": "hours",
+            "hours": 5753
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5716"
+      },
+      "prerequisiteHours": 5753,
+      "syllabus": "Estudar a teoria de ondas de gravidade. Caracterizar os comportamentos dinâmicos, introduzindo os conceitos de estacionariedade e ergodicidade. Caracterizar a excitação aleatória das ondas e definir hipóteses para a sua consideração determinística aproximada. Obter o espectro de mar, seus momentos espectrais e seus parâmetros característicos. Apresentar os espectros padronizados. Aplicações de funções de transferência no contexto da engenharia naval e oceânica. Estudar o cruzamento espectral e a obtenção da resposta do sistema à excitação de onda. Critérios para comportamento em ondas.Capacitar o aluno a analisar problemas de comportamento no mar por intermédio de técnicas analíticas, numéricas e/ou experimentais apropriadas."
+    },
+    {
+      "id": "EMB5764",
+      "code": "EMB5764",
+      "name": "Estruturas Navais II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5104"
+      },
+      "syllabus": "Estrutura secundária. Longitudinais leves e pesados. Estrutura terciária. Anéis e cavernas transversais. Composição de tensões locais e globais. Análise computacional de estruturas navais. Vibração da viga navio e de estruturas locais. Análise computacional de vibração de embarcações. Fundamentos sobre a fadiga de estruturas oceânicas."
+    },
+    {
+      "id": "EMB5772",
+      "code": "EMB5772",
+      "name": "Materiais de Construção Naval",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5022"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5022"
+      },
+      "syllabus": "Materiais metálicos: Características e propriedades físicas. Materiais não ferrosos. Principais materiais metálicos empregados no setor naval. Corrosão. Conceitos gerais. Aspectos físicos e químicos dos diversos tipos de corrosão. Formas de proteção contra corrosão. Introdução sobre materiais compósitos; principais tipos de reforços e matrizes e suas propriedades; núcleos inerciais: materiais e propriedades; Processo de laminação manual, processo de laminação a vácuo, processo de laminação por infusão."
+    },
+    {
+      "id": "EMB5064",
+      "code": "EMB5064",
+      "name": "Avaliação de Impactos Ambientais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5032"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5032"
+      },
+      "syllabus": "Poluição Ambiental. Controle de Poluição do Solo, Água e Ar, Impactos Ambientais, Gestão Ambiental. Produção mais Limpa. Riscos e Impactos Tecnológicos."
+    },
+    {
+      "id": "EMB5117",
+      "code": "EMB5117",
+      "name": "Introdução ao Método de Elementos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5104"
+      },
+      "syllabus": "Sistemas CAE (Computer Aided Engineering). Matriz de rigidez e montagem do sistema de equações. Problemas lineares unidimensionais e bidimensionais. Graus de liberdade e funções de interpolação dos elementos. Modelo constitutivo do material. Análise de tensões e curva de convergência. Elementos isoparamétricos. Integração numérica. Aplicação em softwares comerciais."
+    },
+    {
+      "id": "EMB5717",
+      "code": "EMB5717",
+      "name": "Processo de Construção Naval",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5120",
+        "EMB5772"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5120"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5772"
+          }
+        ]
+      },
+      "syllabus": "Finitos A indústria de construção naval. Características do Produto. Os estaleiros. Processo de Projeto usando sistemas CAE/CAD/CAM. Modelagem Geométrica Tridimensional. Desenhos para a Linha de Produção. Troca e Comunicação de Dados. Seleção e Gerenciamento de Sistema CAE/CAD/CAM. A sequência típica de fabricação. O estoque de chapas e perfis. Pré-tratamento. Marcação, corte e conformação. Sistemas de prevenção e combate a incêncio. Vias de escape. Transporte de cargas perigosas. Controle de qualidade. Planejamento e programação da produção. O planejamento geral do estaleiro. O plano mestre de construção do navio. A sequência de fabricação e montagem. Principais eventos. Plano de suprimentos. Planejamento do trabalho. Sistemas de informação e controle."
+    },
+    {
+      "id": "EMB5766",
+      "code": "EMB5766",
+      "name": "Projeto Final de Curso",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5737"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5737"
+      },
+      "syllabus": "Por meio do desenvolvimento de um projeto integrador, os alunos consolidam a formação de Bacharéis em Engenharia Naval. O trabalho deverá contemplar de maneira interdisciplinar as diversas áreas associadas a Engenharia Naval, entre elas:metodologia de projeto, transporte marítimo, dimensões principais e coeficientes de forma, desenho do casco, arranjo, pesos e centros, análise de estabilidade (inicial e grandes ângulos), resistência ao avanço, instalação propulsora, projeto estrutural, estabilidade avariada e compartimentagem, comportamento no mar, construção, manobra, sistemas elétricos, impacto ambiental e custos. Exercitam-se ainda o trabalho em grupo, o planejamento, a ética e a conduta profissional, além da capacidade de comunicação oral e escrita."
+    },
+    {
+      "id": "EMB5770",
+      "code": "EMB5770",
+      "name": "Mecânica dos Fluidos Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5016"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5016"
+      },
+      "syllabus": "Introduzir a mecânica dos fluidos computacional no cenário da engenharia naval. Rever as equações fundamentais que governam o escoamento fluido. Apresentar os principais métodos de determinação numérica das forças e dos momentos causados pelo escoamento fluido no casco do navio. Solução numérica de problemas típicos, que motivam discussões principalmente em relação às hipóteses e simplificações, às discretizações, e às condições de contorno adotadas. Introduzir a metodologia de verificação e validação dos resultados numéricos, a partir da análise de erros e incertezas."
+    },
+    {
+      "id": "EMB5961",
+      "code": "EMB5961",
+      "name": "Engenharia Econômica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5057"
+          },
+          {
+            "kind": "hours",
+            "hours": 1400,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 1400,
+      "syllabus": "Naval EMB5017) Fundamentos de economia. Princípios básicos de Engenharia Econômica. Matemática financeira. Investimento e modalidades de financiamento. Bases para comparação de alternativas de investimento. Impostos e depreciação. Análise da relação: custo x volume x lucro (ACVL). Análise de sensibilidade. Análise de substituição de equipamentos. Análise de alternativas sob condições de risco e incerteza. Tópicos de Finanças e investimentos. Utilização de simulação na Engenharia Econômica em estudo de caso."
+    },
+    {
+      "id": "EMB5790",
+      "code": "EMB5790",
+      "name": "Estágio Curricular Obrigatório",
+      "credits": 12,
+      "hours": 216,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 3000,
+      "syllabus": "núcleo de aperfeiçoamento Vivência em indústrias, ou em instituições de pesquisa, ou em empresas, que se utilizam dos conteúdos técnicos que compõe o curso; Treinamento prático a partir da aplicação dos 103 conhecimentos técnicos adquiridos no curso; Desenvolvimento ou aperfeiçoamento do relacionamento profissional e humano."
+    },
+    {
+      "id": "EMB5058",
+      "code": "EMB5058",
+      "name": "Estatística II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5057"
+          },
+          {
+            "kind": "hours",
+            "hours": 2500,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "Rol de Disciplinas Optativas Estimação de parâmetros pelo método da máxima verossimilhança. Regressão linear simples e múltipla: estimação de parâmetros e teste de hipóteses, predição para novas observações, analise da adequação do modelo, correlação. Introdução a Modelos Lineares Generalizados (MLG): família exponencial de distribuições, elementos básicos, principais MLGs para dados discretos, Estimação de parâmetros e teste de hipóteses, avaliação do ajuste do modelo. Aplicações com uso de ferramentas computacionais."
+    },
+    {
+      "id": "EMB5067",
+      "code": "EMB5067",
+      "name": "Gestão da Qualidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "A Evolução do conceito e as dimensões da qualidade; Fundamentos e princípios da gestão da qualidade; Abordagem de risco no planejamento estratégico e operacional; Normas de Sistemas de Gestão da Qualidade e o processo de certificação; Auditorias de sistema, de processo e de produto; Manutenção e Melhoria Contínua na gestão da qualidade; Normas setoriais de sistemas de gestão da qualidade."
+    },
+    {
+      "id": "EMB5095",
+      "code": "EMB5095",
+      "name": "Intercâmbio IV",
+      "credits": 0,
+      "hours": 0,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5096"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5096"
+      },
+      "syllabus": "Intercâmbio acadêmico efetuado em instituição parceira da UFSC, para desenvolvimento de atividades técnico-científicas em instituições nacionais ou internacionais."
+    },
+    {
+      "id": "EMB5096",
+      "code": "EMB5096",
+      "name": "Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5098"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5098"
+      },
+      "syllabus": "-Intercâmbio acadêmico efetuado em instituição parceira da UFSC, para desenvolvimento de atividades técnico-científicas em instituições nacionais ou internacionais."
+    },
+    {
+      "id": "EMB5097",
+      "code": "EMB5097",
+      "name": "Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Intercâmbio acadêmico efetuado em instituição parceira da UFSC, para desenvolvimento de atividades técnico-científicas em instituições nacionais ou internacionais."
+    },
+    {
+      "id": "EMB5098",
+      "code": "EMB5098",
+      "name": "Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5097"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5097"
+      },
+      "syllabus": "-Intercâmbio acadêmico efetuado em instituição parceira da UFSC, para desenvolvimento de atividades técnico-científicas em instituições nacionais ou internacionais."
+    },
+    {
+      "id": "EMB5100",
+      "code": "EMB5100",
+      "name": "Projeto Empreender e Inovar",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5320"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5320"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Processo de concepção de produtos, serviços e negócios. Aplicação de conceitos e ferramentas de gestão. Aplicação de modelos para desenvolvimento de novos negócios",
+      "extensionHours": 72
+    },
+    {
+      "id": "EMB5320",
+      "code": "EMB5320",
+      "name": "Empreendedorismo e Inovação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5059",
+        "EMB5120",
+        "EMB5961"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5059"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5120"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5961"
+          }
+        ]
+      },
+      "syllabus": "Conceito de inovação. Tipos de inovação. Estratégias de Inovação. A inovação como um processo organizacional. Mecanismos de fomento e cooperação em pesquisa e desenvolvimento. Empreendedorismo. Características, tipos e habilidades do empreendedor. Plano de Negócios: etapas, processos e elaboração."
+    },
+    {
+      "id": "EMB5350",
+      "code": "EMB5350",
+      "name": "Controle Estatístico da Qualidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5057"
+          },
+          {
+            "kind": "hours",
+            "hours": 2500,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "Fundamentos e métodos estatísticos aplicáveis ao controle da qualidade e à melhoria continua. Controle estatístico do processo e análise da capacidade: compreensão da variação, gráficos de controle para variáveis e para atributos, índices de capacidade, gráficos de controle para aplicações específicas. Análise dos sistemas de medição: impacto da variação do sistema de medição na inspeção do produto e no controle do processo, medidas de posição e de variação, avaliação gráfica. Planos de amostragem na inspeção por atributo. Planejamento de experimentos: diretrizes gerais, planejamento fatorial, análise estatística; análise dos resíduos."
+    },
+    {
+      "id": "EMB5742",
+      "code": "EMB5742",
+      "name": "Materiais Metálicos para Construção Naval",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5022"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5022"
+          },
+          {
+            "kind": "hours",
+            "hours": 2500,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "Classificação e propriedades físicas dos principais materiais metálicos empregados nos diferentes segmentos da engenharia naval: ligas ferrosas e não ferrosas. Tratamentos térmicos. Importância econômica da corrosão no setor naval. Processos de Corrosão. Controle de Corrosão. Introdução à pintura de embarcações. Camadas anticorrosivas."
+    },
+    {
+      "id": "EMB5743",
+      "code": "EMB5743",
+      "name": "Processo de Construção Naval II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "Sistemas de abastecimento de água e tratamento de esgoto. Tubulações, sistemas e componentes. Descarte de água de lastro. Bombas de porão. Mecanismos de manobra, navegação e controle de movimento. Preservação do casco. Sistemas de segurança e combate a incêndio. Estruturação do casco e costado. Sistemas de ventilação, refrigeração e isolamentos. Sistemas de ancoragem e atracação."
+    },
+    {
+      "id": "EMB5744",
+      "code": "EMB5744",
+      "name": "Materiais Compósitos Fibrados",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5772"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5772"
+          },
+          {
+            "kind": "hours",
+            "hours": 2500
+          }
+        ]
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "Tipos de resinas e sua obtenção: resina de poliéster, estervinilica, fenólica, epóxi; tipos de fibras e sua obtenção: fibra de vidro, fibra de carbono, fibra de aramida, fibras naturais. Polimerização/Cura e técnicas de análises; Gelcoat e suas propriedades; atividade práticas de laminação manual, laminação a vácuo e laminação por infusão; Outras rotas de processamento de materiais compósitos fibrados"
+    },
+    {
+      "id": "EMB5750",
+      "code": "EMB5750",
+      "name": "Projeto de Embarcações de Serviço",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5700",
+        "EMB5737"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5700"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5737"
+          },
+          {
+            "kind": "hours",
+            "hours": 2500,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "- Caracterização dos tipos de rebocadores/tratores (trabalho e salvamento) e dos tipos de embarcações de pesca oceânica comercial. Desenvolvimento projetual de embarcações destinadas à pesca oceânica comercial e de rebocadores/tratores, considerando aspectos normativos e os requisitos funcionais. Serão vistas questões relativas a geometria de forma, estabilidade, arrasto, motorização e propulsão, bem como a funcionalidade operacional."
+    },
+    {
+      "id": "EMB5751",
+      "code": "EMB5751",
+      "name": "Projeto de Veleiros",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5727"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5727"
+          },
+          {
+            "kind": "hours",
+            "hours": 2500,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "Caracterização de embarcações monocascos e multicascos movidas a vela. Desenvolvimento projetual de embarcações movidas a vela com motorização auxiliar, considerando aspectos normativos e os requisitos funcionais. Serão vistas questões relativas a geração de formas, dimensionamento estrutural, estabilidade, arrasto, mastreação, estaiamento, motorização e propulsão, dinâmica de manobras, aero e hidrodinâmica bem como a funcionalidade operacional."
+    },
+    {
+      "id": "EMB5752",
+      "code": "EMB5752",
+      "name": "Projetos de Lancha",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5727"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5727"
+          },
+          {
+            "kind": "hours",
+            "hours": 2500,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "- Mercado nacional e internacional. Geometria das Lanchas. Nomenclatura Básica e Geometria do Casco. Representação da Geometria do Casco. As Diferentes Formas do Casco. Os Principais Sistemas (Sistema de Combate a Incêndio, Controle, Propulsão,Elétrico, Navegação, Drenagem, Esgoto, Sistema de Segurança, Amarração e Fundeio, Acomodações, Água e Combustível). Tipos e Classificação das Lanchas. O Estaleiro Náutico. Cadeia de suprimentos na indústria náutica. Construção náutica (materiais e processos). Setores presentes dentro da produção de uma lancha. Testes de performance. Regulamentos, normas e órgãos do setor náutico no Brasil e no mundo."
+    },
+    {
+      "id": "EMB5757",
+      "code": "EMB5757",
+      "name": "Disciplina de Pós-Graduação P1",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "-A disciplina não possui ementa pré-definida. Sendo passível de validação disciplina cursada em programas de pós-graduação com conteúdo pertinente à Área de Concentração."
+    },
+    {
+      "id": "EMB5758",
+      "code": "EMB5758",
+      "name": "Disciplina de Pós-Graduação P2",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "-A disciplina não possui ementa pré-definida. Sendo passível de validação disciplina cursada em programas de pós-graduação com conteúdo pertinente à Área de Concentração."
+    },
+    {
+      "id": "EMB5759",
+      "code": "EMB5759",
+      "name": "Disciplina de Pós-Graduação P3",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "-A disciplina não possui ementa pré-definida. Sendo passível de validação disciplina cursada em programas de pós-graduação com conteúdo pertinente à Área de Concentração."
+    },
+    {
+      "id": "EMB5760",
+      "code": "EMB5760",
+      "name": "Tópicos Especiais em Ciências Navais I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "A disciplina não possui ementa pré-definida. O conteúdo a ser abordado versará assuntos visando o aprofundamento de temas relacionados à área de Ciências Navais."
+    },
+    {
+      "id": "EMB5761",
+      "code": "EMB5761",
+      "name": "Tópicos Especiais em Ciências Navais II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "A disciplina não possui ementa pré-definida. O conteúdo a ser abordado versará assuntos visando o aprofundamento de temas relacionados à área de Ciências Navais."
+    },
+    {
+      "id": "EMB5762",
+      "code": "EMB5762",
+      "name": "Tópicos Especiaisd em Ciências Navais III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "A disciplina não possui ementa pré-definida. O conteúdo a ser abordado versará assuntos visando o aprofundamento de temas relacionados à área de Ciências Navais."
+    },
+    {
+      "id": "EMB5767",
+      "code": "EMB5767",
+      "name": "Disciplina de Pós-Graduação N1",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "-A disciplina não possui ementa pré-definida. Sendo passível de validação disciplina cursada em programas de pós-graduação com conteúdo pertinente à Área de Concentração."
+    },
+    {
+      "id": "EMB5768",
+      "code": "EMB5768",
+      "name": "Disciplina de Pós-Graduação N2",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "-A disciplina não possui ementa pré-definida. Sendo passível de validação disciplina cursada em programas de pós-graduação com conteúdo pertinente à Área de Concentração."
+    },
+    {
+      "id": "EMB5769",
+      "code": "EMB5769",
+      "name": "Disciplina de Pós-Graduação N3",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "-A disciplina não possui ementa pré-definida. Sendo passível de validação disciplina cursada em programas de pós-graduação com conteúdo pertinente à Área de Concentração."
+    },
+    {
+      "id": "EMB5781",
+      "code": "EMB5781",
+      "name": "Tópicos Especiais em Transporte Marítimo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "- A disciplina não possui ementa pré-definida. O conteúdo a ser abordado versará assuntos visando o aprofundamento de temas relacionados à área de Ciências Navais."
+    },
+    {
+      "id": "EMB5784",
+      "code": "EMB5784",
+      "name": "Tópicos especiais em Construção Naval I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "I A disciplina versará sobre assuntos visando o aprofundamento de temas relacionados à área de Construção Naval"
+    },
+    {
+      "id": "EMB5785",
+      "code": "EMB5785",
+      "name": "Tópicos especiais em Construção Naval II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "A disciplina versará sobre assuntos visando o aprofundamento de temas relacionados à área de Construção Naval."
+    },
+    {
+      "id": "EMB5786",
+      "code": "EMB5786",
+      "name": "Projeto final de curso II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "Consolidação dos conhecimentos obtidos no Curso com o objetivo de desenvolver a capacitação do aluno na concepção, implementação e ou avaliação de soluções em situações de diferentes áreas da engenharia."
+    },
+    {
+      "id": "EMB5787",
+      "code": "EMB5787",
+      "name": "Disciplina de Pós-Graduação T1",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "-A disciplina não possui ementa pré-definida. Sendo passível de validação disciplina cursada em programas de pós-graduação com conteúdo pertinente à Área de Concentração."
+    },
+    {
+      "id": "EMB5788",
+      "code": "EMB5788",
+      "name": "Disciplina de Pós-Graduação T2",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "-A disciplina não possui ementa pré-definida. Sendo passível de validação disciplina cursada em programas de pós-graduação com conteúdo pertinente à Área de Concentração."
+    },
+    {
+      "id": "EMB5789",
+      "code": "EMB5789",
+      "name": "Disciplina de Pós-Graduação T3",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "-A disciplina não possui ementa pré-definida. Sendo passível de validação disciplina cursada em programas de pós-graduação com conteúdo pertinente à Área de Concentração."
+    },
+    {
+      "id": "EMB5792",
+      "code": "EMB5792",
+      "name": "Disciplina de Pós-Graduação L1",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "-A disciplina não possui ementa pré-definida. Sendo passível de validação disciplina cursada em programas de pós-graduação com conteúdo de interesse do(a) discente."
+    },
+    {
+      "id": "EMB5793",
+      "code": "EMB5793",
+      "name": "Disciplina de Pós-Graduação L2",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2500,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2500,
+      "syllabus": "-A disciplina não possui ementa pré-definida. Sendo passível de validação disciplina cursada em programas de pós-graduação com conteúdo de interesse do(a) discente."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "EMB5796",
+      "code": "EMB5796",
+      "name": "Atividades Complementares",
+      "credits": 10,
+      "hours": 180,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades Complementares"
+    },
+    {
+      "id": "EMB5798",
+      "code": "EMB5798",
+      "name": "Atividades de Extensão",
+      "credits": 24,
+      "hours": 432,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Ações de Extensão Atividades de extensão"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EMB5001",
+      "EMB5005",
+      "EMB5036",
+      "EMB5055",
+      "EMB5062",
+      "EMB5648",
+      "EMB5729",
+      "EMB5007",
+      "EMB5022",
+      "EMB5029",
+      "EMB5048",
+      "EMB5063",
+      "EMB5730",
+      "EMB5797",
+      "EMB5016",
+      "EMB5030",
+      "EMB5039",
+      "EMB5057",
+      "EMB5700",
+      "EMB5736",
+      "EMB5009",
+      "EMB5014",
+      "EMB5021",
+      "EMB5041",
+      "EMB5102",
+      "EMB5733",
+      "EMB5017",
+      "EMB5059",
+      "EMB5061",
+      "EMB5104",
+      "EMB5121",
+      "EMB5726",
+      "EMB5115",
+      "EMB5119",
+      "EMB5120",
+      "EMB5727",
+      "EMB5728",
+      "EMB5780",
+      "EMB5725",
+      "EMB5737",
+      "EMB5738",
+      "EMB5753",
+      "EMB5764",
+      "EMB5772",
+      "EMB5064",
+      "EMB5117",
+      "EMB5717",
+      "EMB5766",
+      "EMB5770",
+      "EMB5961",
+      "EMB5790",
+      "EMB5796",
+      "EMB5798"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 288,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "EMB5058",
+              "EMB5067",
+              "EMB5095",
+              "EMB5096",
+              "EMB5097",
+              "EMB5098",
+              "EMB5100",
+              "EMB5320",
+              "EMB5350",
+              "EMB5742",
+              "EMB5743",
+              "EMB5744",
+              "EMB5750",
+              "EMB5751",
+              "EMB5752",
+              "EMB5757",
+              "EMB5758",
+              "EMB5759",
+              "EMB5760",
+              "EMB5761",
+              "EMB5762",
+              "EMB5767",
+              "EMB5768",
+              "EMB5769",
+              "EMB5781",
+              "EMB5784",
+              "EMB5785",
+              "EMB5786",
+              "EMB5787",
+              "EMB5788",
+              "EMB5789",
+              "EMB5792",
+              "EMB5793",
+              "LSB7244"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "606",
+    "curriculumCode": "20251",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=606&curriculo=20251",
+    "sha256": "c25bdeab391204ac7e16cef1ed8165e4196cde706d4038754064fde085057bd7",
+    "capturedAt": "2026-09-22"
+  }
+}

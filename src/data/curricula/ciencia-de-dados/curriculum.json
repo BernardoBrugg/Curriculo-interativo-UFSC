@@ -1,0 +1,976 @@
+{
+  "program": "CIÊNCIA DE DADOS",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2026.1",
+  "totalHours": 2520,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CIN8000",
+      "code": "CIN8000",
+      "name": "Introdução a Engenharia e Ciência de Dados",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos da área de Engenharia de Dados e Ciência de Dados. Aspectos sobre Integração de Dados e Análise de Dados."
+    },
+    {
+      "id": "CIN8001",
+      "code": "CIN8001",
+      "name": "Programação I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à programação. Algoritmos. Lógica de programação e conceitos básicos. Decomposição e estruturação de problemas lógicos. Proposição e construção de soluções algorítmicas."
+    },
+    {
+      "id": "CIN8002",
+      "code": "CIN8002",
+      "name": "LES I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Disciplina de natureza teórico-prático-reflexiva que desenvolve atividades de integração entre academia e a sociedade civil onde se possa estabelecer uma relação dialógica e contribuir para a implantação da meta 12.7 do Plano Nacional de educação. Desenvolver atividades de concepção, planejamento e execução de programas, projetos e ações de extensão em diferentes realidades sociais e a partir de um referencial sócio- cultural.",
+      "extensionHours": 36
+    },
+    {
+      "id": "EGC5300",
+      "code": "EGC5300",
+      "name": "Matemática Discreta",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "TeoriadosConjuntos,SequênciaseSomas.LógicaProposicional,LógicadePrimeiraOrdem,ProvadeTeoremas.Análise Combinatória: Permutaçõese Combinações. Relações de Recorrência. Relações: Propriedades de Relações, Relações de Equivalência. Funções: Definição e Tipos. Composição deFunções, Crescimento de Funções. Relações de Ordenamento. Reticulados, Álgebras Booleanas. IntroduçãoaEstruturasAlgébricas:SemigruposeGrupos"
+    },
+    {
+      "id": "INE5111",
+      "code": "INE5111",
+      "name": "Estatística Aplicada I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estatística descritiva. Elaboração de instrumentos de pesquisa. Noções de probabilidade. Uso das principais distribuições de probabilidade. Tópicos de inferência de estatística."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "CIN8003",
+      "code": "CIN8003",
+      "name": "Bancos de Dados e Aplicações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sistemas Gerenciadores de Bancos de Dados. Projeto de Banco de Dados. Linguagem de definição de dados. Linguagem de manipulação de dados. Implementação e uso de Banco de Dados."
+    },
+    {
+      "id": "CIN8004",
+      "code": "CIN8004",
+      "name": "Análise Exploratória de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8001",
+        "INE5111"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN8001"
+          },
+          {
+            "kind": "course",
+            "code": "INE5111"
+          }
+        ]
+      },
+      "syllabus": "Estudo dos fundamentos, técnicas e ferramentas da Análise Exploratória de Dados. Estatísticas descritivas e exploratórias aplicadas a conjuntos de dados reais. Técnicas de exploração multivariada. Processos de coleta, preparação e limpeza de dados. Ferramentas computacionais para análise e visualização de dados. Desenvolvimento de projetos práticos aplicando métodos de análise exploratória a dados complexos e de grande volume."
+    },
+    {
+      "id": "CIN8005",
+      "code": "CIN8005",
+      "name": "LES II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN8002"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Disciplina de natureza teórico-prático-reflexiva que desenvolve atividades de integração entre academia e a sociedade civil onde se possa estabelecer uma relação dialógica e contribuir para a implantação da meta 12.7 do Plano Nacional de educação . Desenvolver atividades de concepção, planejamento e execução de programas, projetos e ações de extensão em diferentes realidades sociais e a partir de um referencial sociocultural.",
+      "extensionHours": 72
+    },
+    {
+      "id": "EGC5301",
+      "code": "EGC5301",
+      "name": "Programação II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN8001"
+      },
+      "syllabus": "Introdução à programação orientada a objetos. Fundamentos da orientação a objetos: herança,herançamúltipla,polimorfismo,encapsulamento,construtorese destrutores,associação.Sobrecargadeoperadores.Introduçãoàsestruturasdedados.Pilhas, filas,listas,árvores, tuplas,dicionáriose sets.Algoritmosdeordenaçãoe busca."
+    },
+    {
+      "id": "EGC5302",
+      "code": "EGC5302",
+      "name": "Álgebra Linear para Ciência de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "syllabus": "Espaços vetoriais. Transformações lineares. Mudança de base. Produto interno. Transformações Lineares.Autovaloreseautovetoresdeumoperador.Diagonalização.AplicaçãodaÁlgebralinear."
+    },
+    {
+      "id": "CIN8006",
+      "code": "CIN8006",
+      "name": "Aprendizado de Máquina I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8004",
+        "EGC5302"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN8004"
+          },
+          {
+            "kind": "course",
+            "code": "EGC5302"
+          }
+        ]
+      },
+      "syllabus": "Conceitos básicos do aprendizado de máquina. Algoritmos de Aprendizagem supervisionada, regressão e classificação. Algoritmos de Aprendizagem não- supervisionada, clusterização."
+    },
+    {
+      "id": "CIN8007",
+      "code": "CIN8007",
+      "name": "Arquitetura de Sistemas Distribuídos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN8003"
+      },
+      "syllabus": "Fundamentos de Sistemas Distribuídos. Armazenamento de Dados Distribuídos. Bancos de Dados Distribuídos. Desenvolvimento de Arquiteturas."
+    },
+    {
+      "id": "CIN8008",
+      "code": "CIN8008",
+      "name": "LGPD e Marco Civil da Internet",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções Gerais de Ética. Introdução aos conceitos de ordenamento jurídico, Poder Judiciário e Marco Civil da Internet. Conceitos Básicos da Lei Geral de Proteção de Dados. O Tratamento de Dados Pessoais. Os Direitos do Titular. A Transferência Internacional de Dados. Os Agentes de Tratamento de Dados Pessoais. A Segurança e as Boas Práticas. Ressarcimento de Danos e Sanções Administrativas."
+    },
+    {
+      "id": "CIN8009",
+      "code": "CIN8009",
+      "name": "LES III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN8002"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Disciplina de natureza teórico-prático-reflexiva que desenvolve atividades de integração entre academia e a sociedade civil onde se possa estabelecer uma relação dialógica e contribuir para a implantação da meta 12.7 do Plano Nacional de Educação. Desenvolver atividades de concepção, planejamento e execução de programas, projetos e ações de extensão em diferentes realidades sociais e a partir de um referencial sociocultural.",
+      "extensionHours": 72
+    },
+    {
+      "id": "EGC5303",
+      "code": "EGC5303",
+      "name": "Inteligência Artificial Aplicada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGC5301"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGC5301"
+      },
+      "syllabus": "Introdução à Inteligência Artificial (IA). Complexidade de algoritmos. Busca e funções heurísticas.Redesneuraisartificiais.Algoritmosevolucionários.Lógica difusa.Aplicaçõeseimplementação."
+    },
+    {
+      "id": "EGC5304",
+      "code": "EGC5304",
+      "name": "Banco de Dados e Aplicações II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN8003"
+      },
+      "syllabus": "Aplicações não-convencionais.Novos desafios de gerenciamento de dados. Bancos de dados pós-relacionais: categoria, conceitos, modelos de dados, manipulação de dados, modelagem."
+    },
+    {
+      "id": "CIN8010",
+      "code": "CIN8010",
+      "name": "Engenharia de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8007"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN8007"
+      },
+      "syllabus": "Fundamentos da área de Engenharia de Dados. Armazenamento de dados. Bancos de Dados Distribuídos. Computação em Nuvem. Desenvolvimento de Arquiteturas."
+    },
+    {
+      "id": "CIN8011",
+      "code": "CIN8011",
+      "name": "Mineração Textual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8006",
+        "EGC5301"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN8006"
+          },
+          {
+            "kind": "course",
+            "code": "EGC5301"
+          }
+        ]
+      },
+      "syllabus": "Corpora textuais. Raspagem de dados. Expressões regulares. Normalização e higienização textual. Técnicas e ferramentas de mineração de texto. Métricas de avaliação. Pré-processamento, processamento e pós-processamento textual."
+    },
+    {
+      "id": "CIN8012",
+      "code": "CIN8012",
+      "name": "LES IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN8002"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Disciplina de natureza teórico-prático-reflexiva que desenvolve atividades de integração entre academia e a sociedade civil onde se possa estabelecer uma relação dialógica e contribuir para a implantação da meta 12.7 do Plano Nacional de educação . Desenvolver atividades de concepção, planejamento e execução de programas, projetos e ações de extensão em diferentes realidades sociais e a partir de um referencial sociocultural.",
+      "extensionHours": 72
+    },
+    {
+      "id": "EGC5305",
+      "code": "EGC5305",
+      "name": "Visualização de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGC5301"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGC5301"
+      },
+      "syllabus": "Introdução a visualização de dados. Fundamentos em visualização da informação. Processo de Visualização.Representaçõesvisuaisdedadosmultivariados.Representaçõesvisuaisdehierarquiaseárvores.Representaçõesvisuaisdegrafoseredes. Representaçõesvisuaisdetextosedocumentos.Práticadidáticacomdesenvolvimentodesistemaseferramentasdevisualização."
+    },
+    {
+      "id": "EGC5306",
+      "code": "EGC5306",
+      "name": "Desenvolvimento Full-Stack",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8003",
+        "EGC5301"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN8003"
+          },
+          {
+            "kind": "course",
+            "code": "EGC5301"
+          }
+        ]
+      },
+      "syllabus": "Arquiteturas de um sistema Web. Separação de responsabilidades. Padrão Model-View-Control (MVC). Protocolo HTTP. Implementação de uma API. Front-end com HTML, CSS e JavaScript.Frameworks para Front-end e Back-end. Desenvolvimento de Sistema Full Stack. Ambientes dedesenvolvimento, teste, homologação e produção. Projeto Final com Arquitetura Tecnológica emCamadas."
+    },
+    {
+      "id": "CIN8013",
+      "code": "CIN8013",
+      "name": "Dados, Inovação e Ordenamento Jurídico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aborda a relação entre o ordenamento jurídico, tratamento de dados, o processo de inovação em quatro dimensões normativas específicas. A Primeira dimensão normativa são os marcos legais do Sistema Nacional de Inovação, destacando-se a Emenda Constitucional n° 85/2015, a Lei 13.243/16 (Novo Marco Legal da Ciência, Tecnologia e Inovação) e o Decreto 9.283/18. A Segunda dimensão normativa refere-se ao Instituto da Propriedade Intelectual, mais especificamente o instituto jurídico da Propriedade Industrial (Patentes e Registro) e os Direitos Intelectuais sui generis (Software, topografia dos circuitos integrados e cultivares). A terceira dimensão refere-se ao Novo Marco Legal das Startups (Lei Complementar n°. 182/2021) e sua relação com o empreendedorismo inovador. Por fim, a quarta dimensão traz o Marco Civil da Internet e a Lei Geral de Proteção de Dados e sua interface com a inovação. 2 OBJETIVO"
+    },
+    {
+      "id": "CIN8014",
+      "code": "CIN8014",
+      "name": "Segurança de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Nacional Segurança de dados versus privacidade. Segurança física. Metodologia de avaliação de riscos. Controle de acessos. Criptografia. Métodos de identificação. Segurança de dados e estudo de casos. Cibersegurança de arquiteturas computacionais."
+    },
+    {
+      "id": "CIN8015",
+      "code": "CIN8015",
+      "name": "Estágio Obrigatório Supervisionado",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Plano de atividades práticas desenvolvidas e supervisionadas para resolução de problemas reais empresas, órgãos ou instituições públicas e privadas. Relatório de estágio"
+    },
+    {
+      "id": "CIN8016",
+      "code": "CIN8016",
+      "name": "Trabalho de Conclusão de Curso (TCC)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Estágio (TCE) assinado. Desenvolvimento de trabalhos que envolvam a criação de modelos, processos, produtos e/ou serviços, através da utilização de métodos, técnicas e/ou ferramentas computacionais, em contextos que envolvam soluções orientadas a dados."
+    },
+    {
+      "id": "EGC5307",
+      "code": "EGC5307",
+      "name": "Aprendizado de Máquinas II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN8006"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN8006"
+      },
+      "syllabus": "CIN8015 Estágio Obrigatório Supervisionado. Conceitos básicos do aprendizado de máquina profunda. Redes Neurais Artificiais, Redes NeuraisArtificiais Profundas, Redes Neurais Recorrentes, Redes Neurais Convolucionais, Large LanguageModelseAuto-Encoders."
+    },
+    {
+      "id": "CIN8017",
+      "code": "CIN8017",
+      "name": "Soft Skills",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Comunicação pessoal e profissional. Desenvolvimento da personalidade. Colaboração e adaptabilidade. Etiqueta profissional. Trabalho em equipe. Inteligência emocional"
+    },
+    {
+      "id": "CIN8018",
+      "code": "CIN8018",
+      "name": "Engenharia de Dados II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIN8010"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN8010"
+      },
+      "syllabus": "Aspectos avançados da área de Engenharia de Dados. Estratégias de Armazenamento de Dados Distribuídos. Desenvolvimento de Arquiteturas Especializadas."
+    },
+    {
+      "id": "CIN8019",
+      "code": "CIN8019",
+      "name": "Mineração Textual II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIN8011"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN8011"
+      },
+      "syllabus": "Técnicas avançadas de mineração de texto. Aprendizagem profunda aplicada ao processamento textual. Modelos neurais de linguagem. Transformers. Large language models."
+    },
+    {
+      "id": "CIN8020",
+      "code": "CIN8020",
+      "name": "Linguística Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIN8001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN8001"
+      },
+      "syllabus": "Fundamentos da Linguagem Natural. Morfossintaxe e semântica da linguagem. Interpretação e compreensão textual. Análise de conteúdo. Regras de inferência. Extração e descoberta da informação."
+    },
+    {
+      "id": "CIN8021",
+      "code": "CIN8021",
+      "name": "Automação de Infraestruturas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Esta disciplina aborda os conceitos e práticas fundamentais de DevOps (Desenvolvimento e Operações) e MLOps (Operações de Machine Learning). Os alunos serão introduzidos à integração contínua, entrega contínua, automação de processos e boas práticas para a implantação eficiente de sistemas de software e modelos de Machine Learning."
+    },
+    {
+      "id": "CIN8022",
+      "code": "CIN8022",
+      "name": "Sistemas de Recomendação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIN8011"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN8011"
+      },
+      "syllabus": "Esta disciplina explora os fundamentos teóricos e práticos dos sistemas de recomendação, abordando diferentes técnicas e algoritmos para a geração de recomendações personalizadas em diversos domínios. Os alunos aprenderão sobre coleta de dados, modelos de recomendação e avaliação de desempenho."
+    },
+    {
+      "id": "CIN8023",
+      "code": "CIN8023",
+      "name": "Tecnologias para Big Data",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Evolução tecnológica dos dados. Tecnologias para Arquitetura de Dados. Arquiteturas Distribuídas. Centros de Dados."
+    },
+    {
+      "id": "CIN8024",
+      "code": "CIN8024",
+      "name": "Tópicos Especiais em Ciência de Dados I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens de temas avançados e emergentes na área de ciência de dados."
+    },
+    {
+      "id": "CIN8025",
+      "code": "CIN8025",
+      "name": "Tópicos Especiais em Ciência de Dados II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens de temas avançados e emergentes na área de ciência de dados."
+    },
+    {
+      "id": "CIN8026",
+      "code": "CIN8026",
+      "name": "Tópicos Especiais em Ciência de Dados III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens de temas avançados e emergentes na área de ciência de dados."
+    },
+    {
+      "id": "CIN8027",
+      "code": "CIN8027",
+      "name": "Tópicos Especiais em Ciência de Dados IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens de temas avançados e emergentes na área de ciência de dados."
+    },
+    {
+      "id": "CIN8028",
+      "code": "CIN8028",
+      "name": "Tópicos Especiais em Ciência de Dados V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens de temas avançados e emergentes na área de ciência de dados."
+    },
+    {
+      "id": "EGC5013",
+      "code": "EGC5013",
+      "name": "Gestão do Conhecimento nas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos, histórico (dados, informação e conhecimento). Diretrizes e recomendações básicas e principais abordagens utilizadas na gestão do conhecimento. Criação do conhecimento: formatos e conversões. Facilitadores do trabalho com o formato tácito e explícito do conhecimento. Aplicações da tecnologia da informação na gestão do conhecimento. Aplicação da gestão do conhecimento na organização por meio de seus processos empresariais."
+    },
+    {
+      "id": "EGC5027",
+      "code": "EGC5027",
+      "name": "Criatividade e Inovação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Organizações Conceitos; Teorias da Criatividade; características das pessoas criativas; o processo criativo na abordagem cognitivista; bloqueios e desbloqueadores da Criatividade; técnicas e exercícios de estímulo à Criatividade; a Criatividade voltada a Inovação."
+    },
+    {
+      "id": "EGC5036",
+      "code": "EGC5036",
+      "name": "Marketing Pessoal e Empreendedorismo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Marketing no século XXI. O profissional de sistemas de informação. Comportamento e relações humanas. Comunicação. Marketing pessoal para o profissional de sistemas de informação."
+    },
+    {
+      "id": "EGC5310",
+      "code": "EGC5310",
+      "name": "Tópicos Especiais em Ciência de Dados VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens de temas avançados e emergentes na área de ciência de dados."
+    },
+    {
+      "id": "EGC5311",
+      "code": "EGC5311",
+      "name": "Tópicos Especiais em Ciência de Dados VII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens de temas avançados e emergentes na área de ciência de dados."
+    },
+    {
+      "id": "EGC5312",
+      "code": "EGC5312",
+      "name": "Business Intelligence",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EGC5301",
+        "EGC5304"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGC5301"
+          },
+          {
+            "kind": "course",
+            "code": "EGC5304"
+          }
+        ]
+      },
+      "syllabus": "Introdução ao Business Intelligence. Fundamentos de Dados para BI. Ferramentas de BI. Transformação e Modelagem de Dados. Visualização de Dados e Dashboards. Análise Avançada em BI. Implementação e Gestão de Projetos de BI. Tendências em BI"
+    },
+    {
+      "id": "EGC5313",
+      "code": "EGC5313",
+      "name": "Técnicas de Engenharia do Conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Contexto e fundamentos da Engenharia do Conhecimento (EC). Identificação e representação de sistemas de conhecimento. Aplicações de EC em organizações e integração com Ciência de Dados. Técnicas e metodologias de modelagem de sistemas de gestão do conhecimento (CommonKADS, Desire, Protégé, MIKE). Sistemas de Gestão do Conhecimento (SGCon) e ferramentas de apoio. Modelagem do conhecimento: ontologias, regras e raciocínio automatizado. Casos práticos de implementação em organizações, incluindo mineração de dados e aprendizado de máquina aplicados à EC."
+    },
+    {
+      "id": "EGC5314",
+      "code": "EGC5314",
+      "name": "Equidade,Diversidade,Inclusãoe",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos de equidade, diversidade, inclusão e acessibilidade em dados. Desafios do contexto digital. Diversidade, representatividade e inclusão em dados. Regulamentação no acesso e uso dedados:códigosdecondutaeética.Estudosdecaso."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "AcessibilidadeemCiênciadeDados Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "CIN8029",
+      "code": "CIN8029",
+      "name": "Ações de Extensão: Cursos, Projetos e Eventos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Atividade voluntária de colaboração, concepção, planejamento e execução de projetos, cursos e eventos da área de Ciência de Dados",
+      "extensionHours": 72
+    },
+    {
+      "id": "CIN8030",
+      "code": "CIN8030",
+      "name": "Acções de Extensão: Cursos, Projetos e Eventos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 54
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "Atividade voluntária de colaboração, concepção, planejamento e execução de projetos, cursos e eventos da área de Ciência de Dados",
+      "extensionHours": 54
+    },
+    {
+      "id": "CIN8031",
+      "code": "CIN8031",
+      "name": "Ações de Extensâo: Cursos, Projetos e Eventos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Atividade voluntária de colaboração, concepção, planejamento e execução de projetos, cursos e eventos da área de Ciência de Dados",
+      "extensionHours": 36
+    },
+    {
+      "id": "CIN8032",
+      "code": "CIN8032",
+      "name": "Ações de Extensão: Cursos, Projetos e Eventos",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Atividade voluntária de colaboração, concepção, planejamento e execução de projetos, cursos e eventos da área de Ciência de Dados",
+      "extensionHours": 18
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "CIN8000",
+      "CIN8001",
+      "CIN8002",
+      "EGC5300",
+      "INE5111",
+      "MTM3110",
+      "CIN8003",
+      "CIN8004",
+      "CIN8005",
+      "EGC5301",
+      "EGC5302",
+      "CIN8006",
+      "CIN8007",
+      "CIN8008",
+      "CIN8009",
+      "EGC5303",
+      "EGC5304",
+      "CIN8010",
+      "CIN8011",
+      "CIN8012",
+      "EGC5305",
+      "EGC5306",
+      "CIN8013",
+      "CIN8014",
+      "CIN8015",
+      "CIN8016",
+      "EGC5307"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 540,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CIN8017",
+              "CIN8018",
+              "CIN8019",
+              "CIN8020",
+              "CIN8021",
+              "CIN8022",
+              "CIN8023",
+              "CIN8024",
+              "CIN8025",
+              "CIN8026",
+              "CIN8027",
+              "CIN8028",
+              "EGC5013",
+              "EGC5027",
+              "EGC5036",
+              "EGC5310",
+              "EGC5311",
+              "EGC5312",
+              "EGC5313",
+              "EGC5314",
+              "LSB7244",
+              "CIN8029",
+              "CIN8030",
+              "CIN8031",
+              "CIN8032"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "349",
+    "curriculumCode": "20261",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=349&curriculo=20261",
+    "sha256": "d0fade087d8e146e5e534142096d1a963c0bc4d4451b9422703b606431421473",
+    "capturedAt": "2026-09-22"
+  }
+}

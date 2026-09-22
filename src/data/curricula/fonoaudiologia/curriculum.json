@@ -1,0 +1,1474 @@
+{
+  "program": "FONOAUDIOLOGIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2024.2",
+  "totalHours": 3978,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "FON7100",
+      "code": "FON7100",
+      "name": "Módulo I: Caracterização do Ser Humano",
+      "credits": 8,
+      "hours": 144,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FON7101"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7101"
+      },
+      "syllabus": "Célula eucarionte. Estrutura química de aminoácidos, proteínas, carboidratos e lipídios em constituintes celulares. Membrana celular e citoesqueleto. Metabolismo de carboidratos e glicogênio. Ciclo de Krebs e cadeia respiratória. Metabolismo de lipídios e aminoácidos. Organelas e núcleo. Processos de Gametogênese e Fecundação. Metabolismo dos tecidos e Integração metabólica. Caracterização dos períodos do desenvolvimento humano. Desenvolvimento da Placenta. Mecanismos celulares envolvidos na morfogênese e organogênese. Tecidos epitelial e conjuntivo. Tecido cartilaginoso, tecido ósseo e osteogênese. Osteologia e Artrologia. Tecido muscular. Miologia."
+    },
+    {
+      "id": "FON7102",
+      "code": "FON7102",
+      "name": "Módulo II: Introdução ao Estudo da Fonoaudiologia I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Saudável I História da Fonoaudiologia no Brasil. Áreas da Fonoaudiologia. Campos de atuação e vinculação com áreas afins. A linguística como ciência e suas contribuições para a Fonoaudiologia. Teorias linguísticas. As contribuições da psicologia para os estudos fonoaudiológicos."
+    },
+    {
+      "id": "FON7103",
+      "code": "FON7103",
+      "name": "Contexto Social e Saúde Coletiva I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Saúde e Doença. Atenção à saúde. Políticas públicas de saúde. Sistema Único de Saúde. Promoção e recuperação da saúde. Principais programas do Ministério da Saúde."
+    },
+    {
+      "id": "FON7104",
+      "code": "FON7104",
+      "name": "Habilidades Auditiva, Vocal e Articulatória",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7104
+      },
+      "prerequisiteHours": 7104,
+      "syllabus": "Percepção dos processos vocais, de audição e de fala presentes na comunicação humana."
+    },
+    {
+      "id": "FON7115",
+      "code": "FON7115",
+      "name": "Módulo III: Aspectos Morfofuncionais do Sistema Nervoso",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FON7101",
+        "FON7205"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7101"
+          },
+          {
+            "kind": "course",
+            "code": "FON7205"
+          }
+        ]
+      },
+      "syllabus": "Introdução ao estudo da anatomia humana, da anatomia do aparelho locomotor e da neuroanatomia. Anatomia dos sistemas nervoso central e periférico. Desenvolvimento do sistema nervoso. Histofisiologia dos sistemas nervoso central e periférico. Fisiologia dos sistemas nervoso somatossensorial, somatomotor e autonômico. Homeostase e potenciais de membrana e de ação. Transmissão sináptica. Fisiologia da contração muscular. Desenvolvimento do aparelho faríngeo. Desenvolvimento, anatomia, histologia e fisiologia de órgãos dos sentidos."
+    },
+    {
+      "id": "FON7203",
+      "code": "FON7203",
+      "name": "Métodos e Técnica de Pesquisa I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ciência e Método. Bases do raciocínio científico: teoria, hipótese, dedução. Diferentes gêneros discursivos: resenhas, resumos, relatórios, e artigos. Busca nas bases indexadas na Biblioteca. Elaboração de Ficha Catalográfica. Evidência e Recomendação científica."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "FON7208",
+      "code": "FON7208",
+      "name": "Módulo VI: Introdução ao Estudo da Fonoaudiologia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FON7206"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7206"
+      },
+      "syllabus": "Fundamentos teóricos de Acústica e Psicoacústica. Bases de Fonética Acústica. Transcrição fonética e fonológica. Descrição acústico-articulatória da produção de segmentos vocálicos e consonantais. Processos e regras fonológicas no desenvolvimento normal."
+    },
+    {
+      "id": "FON7209",
+      "code": "FON7209",
+      "name": "Contexto Social e Saúde Coletiva II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Epidemiologia descritiva, medidas de frequência de doenças, indicadores de saúde, sistemas de informação em saúde, noções de vigilância em saúde. Introdução à Bioestatística."
+    },
+    {
+      "id": "FON7230",
+      "code": "FON7230",
+      "name": "Módulo IV: Ser humano Saudável I",
+      "credits": 10,
+      "hours": 180,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7100",
+        "FON7102"
+      ],
+      "equivalents": [
+        "FON7200",
+        "FON7201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7100"
+          },
+          {
+            "kind": "course",
+            "code": "FON7102"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7200"
+          },
+          {
+            "kind": "course",
+            "code": "FON7201"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Teorias de aquisição e desenvolvimento da linguagem oral e escrita. Relações da linguagem com a cognição. Desenvolvimento do sistema auditivo e das habilidades auditivas. Desenvolvimento neuropsicomotor. A Psicologia do Desenvolvimento e suas contribuições à Fonoaudiologia.",
+      "extensionHours": 18
+    },
+    {
+      "id": "FON7807",
+      "code": "FON7807",
+      "name": "Módulo V: Caracterização do Ser Humano",
+      "credits": 7,
+      "hours": 126,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7115"
+      ],
+      "equivalents": [
+        "FON7205"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7115"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7205"
+      },
+      "syllabus": "Desenvolvimento da face e da cabeça. Anatomia da cabeça óssea. Anatomia da articulação temporomandibular. Anatomia dos músculos da expressão facial, da mastigação e supra e infra-hioideos. Desenvolvimento, anatomia histologia e fisiologia dos sistemas cardiovascular e linfático. Desenvolvimento, anatomia, histologia e fisiologia do sistema respiratório. Desenvolvimento, anatomia, histologia e fisiologia do sistema digestório. Anatomia histologia e fisiologia de glândulas endócrinas."
+    },
+    {
+      "id": "FON7300",
+      "code": "FON7300",
+      "name": "Módulo VII: O Ser Humano e as Alterações",
+      "credits": 8,
+      "hours": 144,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7807"
+      ],
+      "equivalents": [
+        "FON7301"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7807"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7301"
+      },
+      "syllabus": "Teratologia e Períodos críticos do desenvolvimento. Fatores ambientais e principais teratógenos humanos causadores de anomalias congênitas. Modalidades de erros no desenvolvimento. Exemplos das modalidades de erros nos diferentes sistemas. Bases Genéticas para conhecimentos científicos e aplicações práticas na área da Fonoaudiologia. Mecanismos genéticos e sua relação com o desenvolvimento de doenças de importância para Fonoaudiologia. Aconselhamento genético e bioética, contexto histórico, social e cultural. Alterações da linguagem oral, audição, leitura e escrita. As alterações neurológicas e psicoafetivas e suas implicações para as alterações fonoaudiológicas. As contribuições da Psicologia e Saúde nos estudos da Deficiência e normalidade na sociedade."
+    },
+    {
+      "id": "FON7305",
+      "code": "FON7305",
+      "name": "Investigação em Audiologia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7115",
+        "FON7208"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7115"
+          },
+          {
+            "kind": "course",
+            "code": "FON7208"
+          }
+        ]
+      },
+      "syllabus": "em Fonoaudiologia I Avaliação audiológica básica no adulto. Testes supraliminares. Testes acumétricos."
+    },
+    {
+      "id": "FON7306",
+      "code": "FON7306",
+      "name": "Ética em Saúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções históricas sobre ética. O código de ética do profissional da Fonoaudiologia. Construção da identidade profissional. Lei 6965/81."
+    },
+    {
+      "id": "FON7307",
+      "code": "FON7307",
+      "name": "Módulo VIII: Ser Humano Saudável II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7100"
+      ],
+      "equivalents": [
+        "FON7304"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7100"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7304"
+      },
+      "syllabus": "Desenvolvimento das funções de deglutição, respiração, sucção, mastigação, musculatura orofacial e voz. Desenvolvimento do sistema estomatognático e crescimento craniofacial."
+    },
+    {
+      "id": "FON7720",
+      "code": "FON7720",
+      "name": "Métodos e Técnicas de Pesquisa II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7209"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7209"
+      },
+      "syllabus": "Epidemiologia analítica. Tipos de estudos epidemiológicos, revisão sistemática e metanálise. Introdução a Bioestatística inferencial. Pesquisa Qualitativa. Técnicas e formas de análise de dados da pesquisa qualitativa."
+    },
+    {
+      "id": "FON7808",
+      "code": "FON7808",
+      "name": "Biossegurança para Fonoaudiologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FON7308",
+        "NFR7004"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7308"
+          },
+          {
+            "kind": "course",
+            "code": "NFR7004"
+          }
+        ]
+      },
+      "syllabus": "Histórico e legislação, internacional e nacional, sobre Biossegurança. Riscos Químicos e Riscos de Acidentes. Riscos Biológicos. Equipamentos de Proteção Individual: uso de óculos, protetores faciais, jaleco, avental e outros. Métodos de Limpeza, Desinfecção e Esterilização de Materiais Laboratoriais e Hospitalares. Biossegurança e medidas de precaução padrão para fonoaudiólogos."
+    },
+    {
+      "id": "FON7302",
+      "code": "FON7302",
+      "name": "Contexto Social e Saúde Coletiva III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7103",
+        "FON7209",
+        "FON7720"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7103"
+          },
+          {
+            "kind": "course",
+            "code": "FON7209"
+          },
+          {
+            "kind": "course",
+            "code": "FON7720"
+          }
+        ]
+      },
+      "syllabus": "Redes de atenção à saúde. Noções básicas de planejamento e gestão em saúde para o SUS. Gestão local em saúde."
+    },
+    {
+      "id": "FON7403",
+      "code": "FON7403",
+      "name": "Contexto Social e Saúde Coletiva IV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7103"
+      },
+      "syllabus": "Saúde Auditiva (políticas, programas, organização de serviços, TAN, TAE). Saúde Vocal. Saúde do trabalhador. Saúde ambiental. Programa Saúde na Escola."
+    },
+    {
+      "id": "FON7430",
+      "code": "FON7430",
+      "name": "Módulo IX: O Ser Humano e as Alterações",
+      "credits": 11,
+      "hours": 198,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7307"
+      ],
+      "equivalents": [
+        "FON7400"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7307"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7400"
+      },
+      "syllabus": "Alterações relacionadas aos transtornos da fala, do Sistema estomatognático, da deglutição e da voz, decorrentes de diversas etiologias."
+    },
+    {
+      "id": "FON7431",
+      "code": "FON7431",
+      "name": "Módulo X: O Processo de Investigação",
+      "credits": 11,
+      "hours": 198,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7230"
+      ],
+      "equivalents": [
+        "FON7402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7230"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7402"
+      },
+      "syllabus": "em Fonoaudiologia II (EXT 36h-a) FON7401) FON7808) Abordagens teóricas de investigação para o diagnóstico das alterações da linguagem oral, escrita, leitura e distúrbios da audição. Avaliação Audiológica básica infantil. Avaliação audiológica complementar. Achados audiológicos nas doenças que acometem o sistema auditivo na criança e no adulto."
+    },
+    {
+      "id": "FON7530",
+      "code": "FON7530",
+      "name": "Módulo XI: O Processo de Investigação",
+      "credits": 10,
+      "hours": 180,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7307"
+      ],
+      "equivalents": [
+        "FON7500"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7307"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7500"
+      },
+      "syllabus": "Métodos de investigação para o diagnóstico dos distúrbios de motricidade orofacial, voz e deglutição."
+    },
+    {
+      "id": "FON7531",
+      "code": "FON7531",
+      "name": "Módulo XII: O Processo Terapêutico I",
+      "credits": 14,
+      "hours": 252,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7431"
+      ],
+      "equivalents": [
+        "FON7507"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7431"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7507"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Diagnóstica Aplicado à Fonoaudiologia II FON7501) FON7808) (EXT 72h-a) Diferentes abordagens terapêuticas no atendimento fonoaudiológico voltado às alterações da linguagem oral, escrita e da audição. Características eletroacústicas das próteses auditivas. Seleção, indicação e adaptação de próteses auditivas. Implante Coclear",
+      "extensionHours": 36
+    },
+    {
+      "id": "FON7532",
+      "code": "FON7532",
+      "name": "Atuação Fonoaudiológica na Comunidade I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7300"
+      ],
+      "equivalents": [
+        "FON7606"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7300"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7606"
+      },
+      "syllabus": "Políticas de Educação. Parâmetros Curriculares Nacionais. Educação Regular. Educação Inclusiva e interface com a Fonoaudiologia. Ações do fonoaudiólogo na comunidade e\\ou instituições relacionadas à criança, ao adolescente e ao adulto na área educacional."
+    },
+    {
+      "id": "FON7533",
+      "code": "FON7533",
+      "name": "Projeto de Pesquisa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7430",
+        "FON7531",
+        "FON7530",
+        "FON7720"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FON7430"
+              },
+              {
+                "kind": "course",
+                "code": "FON7531"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FON7530"
+              },
+              {
+                "kind": "course",
+                "code": "FON7720"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "(EXT 36h-a) FON7307) Estruturação de projeto de pesquisa."
+    },
+    {
+      "id": "FON7614",
+      "code": "FON7614",
+      "name": "Estágio em Fonoaudiologia Ambulatorial I",
+      "credits": 7,
+      "hours": 126,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7431",
+        "FON7530",
+        "FON7305",
+        "FON7306"
+      ],
+      "equivalents": [
+        "FON7610"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FON7431"
+              },
+              {
+                "kind": "course",
+                "code": "FON7530"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FON7305"
+              },
+              {
+                "kind": "course",
+                "code": "FON7306"
+              },
+              {
+                "kind": "course",
+                "code": "FON7431"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7610"
+      },
+      "syllabus": "Avaliação e Diagnóstico Fonoaudiológico."
+    },
+    {
+      "id": "FON7619",
+      "code": "FON7619",
+      "name": "Otoneurologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7305"
+      ],
+      "equivalents": [
+        "FON7708"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7305"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7708"
+      },
+      "syllabus": "Avaliação e Diagnóstico Diferencial em Otoneurologia. Doenças do Sistema Vestibular. Reabilitação vestibular."
+    },
+    {
+      "id": "FON7630",
+      "code": "FON7630",
+      "name": "Módulo XIII: O Processo Terapêutico Il",
+      "credits": 10,
+      "hours": 180,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7430"
+      ],
+      "equivalents": [
+        "FON7600"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7430"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7600"
+      },
+      "syllabus": "Diferentes abordagens terapêuticas no atendimento fonoaudiológico voltado às alterações da motricidade orofacial, voz, deglutição do lactente ao idoso."
+    },
+    {
+      "id": "FON7631",
+      "code": "FON7631",
+      "name": "Atuação Fonoaudiológica na Comunidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7430"
+      ],
+      "equivalents": [
+        "FON7608"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7430"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7608"
+      },
+      "syllabus": "(EXT 72h-a) FON7601) FON7530) Ações do fonoaudiólogo relacionadas à manutenção da saúde e prevenção de doenças em instituições e\\ou na comunidade."
+    },
+    {
+      "id": "FON7804",
+      "code": "FON7804",
+      "name": "Gestão Profissional em Fonoaudiologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "II (EXT 36h-a) FON7808) ou Planejamento e gestão na carreira fonoaudiológica."
+    },
+    {
+      "id": "FON7505",
+      "code": "FON7505",
+      "name": "Trabalho de Conclusão de Curso I (TCC)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7530",
+        "FON7533"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FON7530"
+              },
+              {
+                "kind": "course",
+                "code": "FON7533"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "FON7530"
+          }
+        ]
+      },
+      "syllabus": "Elaboração e qualificação do Projeto de pesquisa para realização do TCC. Submissão do projeto de pesquisa ao Comitê de Ética em Pesquisa."
+    },
+    {
+      "id": "FON7700",
+      "code": "FON7700",
+      "name": "Reunião Clínica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7531",
+        "FON7630"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7531"
+          },
+          {
+            "kind": "course",
+            "code": "FON7630"
+          }
+        ]
+      },
+      "syllabus": "Raciocínio teórico-prático com base nos critérios e métodos atuais de intervenção fonoaudiológica."
+    },
+    {
+      "id": "FON7709",
+      "code": "FON7709",
+      "name": "Estágio Hospitalar I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7306",
+        "FON7531",
+        "FON7630"
+      ],
+      "equivalents": [
+        "FON7701"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7306"
+          },
+          {
+            "kind": "course",
+            "code": "FON7531"
+          },
+          {
+            "kind": "course",
+            "code": "FON7630"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7701"
+      },
+      "syllabus": "Competências relacionadas aos cuidados de pacientes atendidos no hospital: ambulatório, leito, cuidados semi-intensivos e intensivos. Caracterização de prioridades no atendimento fonoaudiológico na rotina hospitalar."
+    },
+    {
+      "id": "FON7710",
+      "code": "FON7710",
+      "name": "Estágio em Saúde Coletiva I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7631"
+      ],
+      "equivalents": [
+        "FON7703"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7631"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7703"
+      },
+      "syllabus": "Atuação Fonoaudiológica na Comunidade. Ações no Centro de Saúde com enfoque em atenção primária (baixa complexidade) junto com a equipe saúde da família."
+    },
+    {
+      "id": "FON7711",
+      "code": "FON7711",
+      "name": "Estágio em Intervenção Fonoaudiológica I",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7531",
+        "FON7614",
+        "FON7630"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7531"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FON7614"
+              },
+              {
+                "kind": "course",
+                "code": "FON7630"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Diagnóstico e intervenção fonoaudiológica individual e/ou em grupo. Orientação fonoaudiológica à família e comunidade."
+    },
+    {
+      "id": "FON7713",
+      "code": "FON7713",
+      "name": "Estágio em Fonoaudiologia Ambulatorial II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7531",
+        "FON7630",
+        "FON7614"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FON7531"
+              },
+              {
+                "kind": "course",
+                "code": "FON7630"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FON7614"
+              },
+              {
+                "kind": "course",
+                "code": "FON7630"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Diagnóstico e intervenção fonoaudiológica."
+    },
+    {
+      "id": "FON7718",
+      "code": "FON7718",
+      "name": "Estágio em Procedimentos Audiológicos I",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7531",
+        "FON7614"
+      ],
+      "equivalents": [
+        "FON7712"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7531"
+          },
+          {
+            "kind": "course",
+            "code": "FON7614"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7712"
+      },
+      "syllabus": "Avaliação audiológica básica, avaliação do processamento auditivo central e treinamento auditivo formal em cabina acústica nas diferentes faixas etárias"
+    },
+    {
+      "id": "FON7604",
+      "code": "FON7604",
+      "name": "Seminários Interdisciplinares",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atualização de conteúdos interdisciplinares e Fonoaudiologia."
+    },
+    {
+      "id": "FON7716",
+      "code": "FON7716",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 1,
+      "hours": 18,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7505"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7505"
+      },
+      "syllabus": "Finalização da pesquisa científica. Defesa do TCC."
+    },
+    {
+      "id": "FON7809",
+      "code": "FON7809",
+      "name": "Estágio Hospitalar II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7709"
+      ],
+      "equivalents": [
+        "FON7701"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7709"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7701"
+      },
+      "syllabus": "Competências relacionadas aos cuidados de pacientes atendidos no hospital: ambulatório, leito, cuidados semi-intensivos e intensivos. Caracterização de prioridades no atendimento fonoaudiológico na rotina hospitalar."
+    },
+    {
+      "id": "FON7810",
+      "code": "FON7810",
+      "name": "Estágio em Saúde Coletiva II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7710"
+      ],
+      "equivalents": [
+        "FON7703"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7710"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7703"
+      },
+      "syllabus": "Atuação fonoaudiológica com enfoque em atenção primária e secundária. Atuação com atendimento individual e/ou grupos."
+    },
+    {
+      "id": "FON7811",
+      "code": "FON7811",
+      "name": "Estágio em Intervenção Fonoaudiológica II",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7711",
+        "FON7713"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7711"
+          },
+          {
+            "kind": "course",
+            "code": "FON7713"
+          }
+        ]
+      },
+      "syllabus": "Diagnóstico e intervenção fonoaudiológica voltada ao atendimento em todos os ciclos da vida."
+    },
+    {
+      "id": "FON7818",
+      "code": "FON7818",
+      "name": "Estágio em Procedimentos Audiológicos II",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FON7718"
+      ],
+      "equivalents": [
+        "FON7812"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7718"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7812"
+      },
+      "syllabus": "Avaliação audiológica básica, avaliação eletroacústica e eletrofisiológica da audição, seleção e adaptação de prótese auditiva nas diferentes faixas etárias."
+    },
+    {
+      "id": "FON7409",
+      "code": "FON7409",
+      "name": "Atuação Fonaudiológica com Cantores: Clínica e Assessoria",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FON7530"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FON7530"
+      },
+      "syllabus": "Especificidades do trabalho do fonoaudiológo voltado para a voz de cantores."
+    },
+    {
+      "id": "FON7813",
+      "code": "FON7813",
+      "name": "Atuação nas Práticas Profissionais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desafios contemporâneos no mundo do trabalho. Interdisciplinaridade. Formação interprofissional em saúde. Postura ética profissional. Carreira profissional em saúde."
+    },
+    {
+      "id": "FON7814",
+      "code": "FON7814",
+      "name": "Fonoaudiologia e Saúde Mental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FON7103",
+        "FON7306"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7103"
+          },
+          {
+            "kind": "course",
+            "code": "FON7306"
+          }
+        ]
+      },
+      "syllabus": "História da loucura. Reforma psiquiátrica brasileira. Rede de atenção à saúde mental. Transtornos mentais nos diferentes ciclos de vida. Atuação fonoaudiológica na saúde mental. Integralidade, intersetorialidade e interdisciplinaridade."
+    },
+    {
+      "id": "FON7910",
+      "code": "FON7910",
+      "name": "Habilidades Auditiva, Vocal e Articulatória",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FON7104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7104"
+          },
+          {
+            "kind": "hours",
+            "hours": 7910
+          }
+        ]
+      },
+      "prerequisiteHours": 7910,
+      "syllabus": "Aprimoramento vocal nas relações sociais, acadêmicas e profissionais"
+    },
+    {
+      "id": "FON7911",
+      "code": "FON7911",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "II Não há ementa, por se tratar de disciplina complementar."
+    },
+    {
+      "id": "FON7912",
+      "code": "FON7912",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Não há ementa, por se tratar de disciplina complementar."
+    },
+    {
+      "id": "FON7913",
+      "code": "FON7913",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Não há ementa, por se tratar de disciplina complementar."
+    },
+    {
+      "id": "FON7915",
+      "code": "FON7915",
+      "name": "Gerontologia e Saúde Pública",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LSB7269",
+      "code": "LSB7269",
+      "name": "Língua Brasileira de Sinais - Libras II (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LSB7244"
+      ],
+      "equivalents": [
+        "LSB7910"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7244"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7910"
+      },
+      "syllabus": "-A relação da história da surdez com a Língua de Sinais. A Língua Brasileira de Sinais. Ascomunidades que usam a Língua Brasileira de Sinais. Noções intermediárias da Língua Brasileirade Sinais: o espaço de sinalização, os elementos que constituem os sinais, noções sobre aestrutura da língua, a língua em uso em contextos triviais de comunicação. Reconhecendo a utilização de três diferentes usos do espaço: o espaço sub-rogado, o espaço real e o espaço token."
+    },
+    {
+      "id": "NFR5128",
+      "code": "NFR5128",
+      "name": "Enfermagem em Primeiros Socorros",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) Princípios gerais de primeiros socorros. Medidas de acidentes. Ações imediatas e mediatas do socorrista em situações de emergência e/ou urgência. Primeiros socorros em situações de emergência e/ou urgência."
+    },
+    {
+      "id": "PTL7006",
+      "code": "PTL7006",
+      "name": "Patologia Geral Aplicada à Fonoaudiologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FON7100",
+        "FON7115",
+        "FON7230"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FON7100"
+          },
+          {
+            "kind": "course",
+            "code": "FON7115"
+          },
+          {
+            "kind": "course",
+            "code": "FON7230"
+          }
+        ]
+      },
+      "syllabus": "Noções gerais sobre os principais processos patológicos envolvendo alterações celulares e teciduais, abordando desde as suas etiologias, mecanismos de desenvolvimento, repercussões clínicas, manifestações macro e microscópicas e possíveis desfechos."
+    },
+    {
+      "id": "FON7908",
+      "code": "FON7908",
+      "name": "Atividades Complementares",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FON7901"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FON7901"
+      },
+      "syllabus": "Atividades Complementares"
+    },
+    {
+      "id": "FON7900",
+      "code": "FON7900",
+      "name": "Ações de Extensão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Rol de Ações de Extensão Ações de extensão",
+      "extensionHours": 72
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "FON7100",
+      "FON7102",
+      "FON7103",
+      "FON7104",
+      "FON7115",
+      "FON7203",
+      "LSB7244",
+      "FON7208",
+      "FON7209",
+      "FON7230",
+      "FON7807",
+      "FON7300",
+      "FON7305",
+      "FON7306",
+      "FON7307",
+      "FON7720",
+      "FON7808",
+      "FON7302",
+      "FON7403",
+      "FON7430",
+      "FON7431",
+      "FON7530",
+      "FON7531",
+      "FON7532",
+      "FON7533",
+      "FON7614",
+      "FON7619",
+      "FON7630",
+      "FON7631",
+      "FON7804",
+      "FON7505",
+      "FON7700",
+      "FON7709",
+      "FON7710",
+      "FON7711",
+      "FON7713",
+      "FON7718",
+      "FON7604",
+      "FON7716",
+      "FON7809",
+      "FON7810",
+      "FON7811",
+      "FON7818"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 180,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "FON7409",
+              "FON7813",
+              "FON7814",
+              "FON7910",
+              "FON7911",
+              "FON7912",
+              "FON7913",
+              "FON7915",
+              "LSB7269",
+              "NFR5128",
+              "PTL7006",
+              "FON7908",
+              "FON7900"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "109",
+    "curriculumCode": "20242",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=109&curriculo=20242",
+    "sha256": "a141ee4b5ebbc6c8f22d398877f20ec468b4065d926c1039232e6ca2f31fe5f9",
+    "capturedAt": "2026-09-22"
+  }
+}

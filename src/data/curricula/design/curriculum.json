@@ -1,0 +1,1920 @@
+{
+  "program": "DESIGN",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2022.1",
+  "totalHours": 2880,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EGR0001",
+      "code": "EGR0001",
+      "name": "Criatividade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5141",
+        "EGR7104",
+        "EGR7701"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR5141"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7104"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7701"
+          }
+        ]
+      },
+      "syllabus": "Conceituação. Bloqueios mentais, perceptivos, emocionais, culturais e ambientais, intelectuais e de expressão. Desbloqueadores. Técnicas de geração, sistematização e avaliação de ideias."
+    },
+    {
+      "id": "EGR0002",
+      "code": "EGR0002",
+      "name": "Fotografia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo dos principais aspectos históricos, técnicos e estéticos da fotografia, desde seu surgimento até a era digital. Introdução à fotografia como linguagem visual: poética, imagem e significação. Apresentação dos elementos básicos da câmera e seus ajustes: ISO, diafragma, obturador e distância focal. Análise dos usos e funções da fotografia em diferentes contextos, com ênfase na sua aplicação no Design."
+    },
+    {
+      "id": "EGR7107",
+      "code": "EGR7107",
+      "name": "História da Arte",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5035"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7107
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5035"
+      },
+      "prerequisiteHours": 7107,
+      "syllabus": "Estudos dos diferentes movimentos artísticos ocidentais. Artes visuais no Brasil. Estudo comparativo entre os vários movimentos artísticos com ênfase na cultura ocidental e contemporânea."
+    },
+    {
+      "id": "EGR7510",
+      "code": "EGR7510",
+      "name": "Modelagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5041",
+        "EGR5170",
+        "EGR7110",
+        "EGR7706"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR5041"
+          },
+          {
+            "kind": "course",
+            "code": "EGR5170"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7110"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7706"
+          }
+        ]
+      },
+      "syllabus": "Modelagem"
+    },
+    {
+      "id": "EGR7511",
+      "code": "EGR7511",
+      "name": "Introdução ao Design",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5031",
+        "EGR5052",
+        "EGR5119",
+        "EGR7111"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR5031"
+          },
+          {
+            "kind": "course",
+            "code": "EGR5052"
+          },
+          {
+            "kind": "course",
+            "code": "EGR5119"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7111"
+          }
+        ]
+      },
+      "syllabus": "Design; Conceito. Características da profissão. O exercício da profissão; as diferentes áreas de abrangência do Design."
+    },
+    {
+      "id": "EGR7703",
+      "code": "EGR7703",
+      "name": "Fundamentos da Cor",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7109"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7109"
+      },
+      "syllabus": "Cor e conceituação. Processos perceptivos. Cor-Luz e cor-pigmento. Composição cromática: harmonias e contrastes. Sistemas de cores: características e usos. Cor de processo e cor especial. Psicodinâmica das cores. O uso da cor no design. A cor no processo de projeto. Ferramentas de apoio à tomada de decisão."
+    },
+    {
+      "id": "EGR7704",
+      "code": "EGR7704",
+      "name": "Desenho de Observação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5034",
+        "EGR5120",
+        "EGR7105"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR5034"
+          },
+          {
+            "kind": "course",
+            "code": "EGR5120"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7105"
+          }
+        ]
+      },
+      "syllabus": "Desenvolvimento da expressão gráfica e da gramática visual. Ferramentas do desenho, materiais e técnicas. Representação visual através do uso de modelos. Percepção e composição de estruturas formais. Estudos de perspectiva, luz e sombra."
+    },
+    {
+      "id": "EGR7713",
+      "code": "EGR7713",
+      "name": "Desenho Técnico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Construções geométricas fundamentais. Projeções ortogonais de sólidos; Estudo das vistas ortográficas. Perspectiva cavaleira e isométrica."
+    },
+    {
+      "id": "EGR0003",
+      "code": "EGR0003",
+      "name": "Ergonomia I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7107"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR7107"
+      },
+      "syllabus": "Introdução a Ergonomia. Fundamentação da Ergonomia. Conceitos de Ergonomia Física e Informacional. Fundamentos de Antropometria e Biomecânica. Controles e Manejos. Dispositivos de informação. Problemas de usabilidade. Critérios ergonômicos."
+    },
+    {
+      "id": "EGR0004",
+      "code": "EGR0004",
+      "name": "História do Design I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Introdução ao design. Aspectos históricos e origens do Design. A formação do Design. Design e vanguardas artísticas. Os primeiros movimentos de Design no Brasil"
+    },
+    {
+      "id": "EGR0005",
+      "code": "EGR0005",
+      "name": "Materiais e Processos Gráficos I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo introdutório dos fundamentos da produção gráfica com ênfase em suportes em papel e nos processos básicos de impressão. Abordagem histórica dos sistemas gráficos e suas transformações ao longo do tempo. Introdução aos principais sistemas de impressão (planográfico, relevográfico, encavográfico e permeográfico) com foco em aplicações artesanais e manuais. Estudo das características dos papeis e cartonagens, bem como o uso de tintas convencionais. Exploração dos princípios da impressão em monocromia e policromia, das cores especiais e das escalas comerciais."
+    },
+    {
+      "id": "EGR7513",
+      "code": "EGR7513",
+      "name": "Semiótica Aplicada",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Significação, simbologia e Design. Introdução aos estudos semióticos dos processos cognitivo-interpretativos: sensorialidade, afetividade e cognição em linguagens verbais e não verbais. Estudos dos conceitos básicos de teorias semióticas e sua aplicação na interpretação de processos e produtos."
+    },
+    {
+      "id": "EGR7702",
+      "code": "EGR7702",
+      "name": "Forma",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos sintáticos do alfabetismo visual. Princípios do design na composição da forma. Elementos formais da comunicação visual. Princípios da teoria da forma. Proporção e padrões de crescimento. Gestalt. Elementos do Design Tridimensional."
+    },
+    {
+      "id": "EGR7705",
+      "code": "EGR7705",
+      "name": "Metodologia de Projeto",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituação. Estudo analítico de metodologias como suporte lógico formal para a prática projetual."
+    },
+    {
+      "id": "EGR7710",
+      "code": "EGR7710",
+      "name": "Computação Gráfica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7192"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7192"
+      },
+      "syllabus": "Conceituação, criação, aquisição, manipulação, aplicação e fechamento de imagem digital raster e vetorial. Recursos tecnológicos: softwares profissionais para a criação e edição de imagem."
+    },
+    {
+      "id": "EGR7714",
+      "code": "EGR7714",
+      "name": "Microtipografia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7234"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7234"
+      },
+      "syllabus": "História da tipografia. Anatomia e Classificação Tipográfica. Criação e desenvolvimento de fonte tipográfica."
+    },
+    {
+      "id": "EGR0006",
+      "code": "EGR0006",
+      "name": "Design da Informação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7710"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR7710"
+      },
+      "syllabus": "Fundamentos do design informacional. Sequências pictóricas de procedimento. Visualização de dados. Infografia."
+    },
+    {
+      "id": "EGR0007",
+      "code": "EGR0007",
+      "name": "Ergonomia II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR0003"
+      },
+      "syllabus": "Conceitos de Ergonomia Cognitiva e de Interface. Fundamentos da Psicologia Cognitiva. Processos Cognitivos. Memórias: sensorial, operacional, de curto prazo e de longo prazo. Ativação das memórias. Processamento e armazenamento de informações. Raciocínio e Inferências. Tomada de decisão. Ergonomia de Interfaces. Problemas de usabilidade. Critérios ergonômicos. Card sorting. Técnicas de Avaliação"
+    },
+    {
+      "id": "EGR0008",
+      "code": "EGR0008",
+      "name": "Materiais e Processos Gráficos II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR0005"
+      },
+      "syllabus": "Estudo avançado dos materiais, processos e aplicações industriais na produção gráfica contemporânea. Análise das propriedades técnicas e funcionais de diversos materiais utilizados em design gráfico e comunicação visual, incluindo substratos sintéticos, metálicos, têxteis, plásticos e recicláveis. Exploração dos sistemas industriais de impressão (offset, rotogravura, serigrafia, flexografia, impressão digital, entre outros) e sua aplicação em escala comercial. Introdução aos conceitos de impressão sob demanda, personalização e impressão híbrida. Estudo dos acabamentos gráficos industriais e dos requisitos técnicos e criativos envolvidos na produção em larga escala."
+    },
+    {
+      "id": "EGR0009",
+      "code": "EGR0009",
+      "name": "Macrotipografia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7714"
+      ],
+      "equivalents": [
+        "EGR7139",
+        "EGR7721"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR7714"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7139"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7721"
+          }
+        ]
+      },
+      "syllabus": "Uso dos tipos em projetos de Design. Legibilidade em textos de imersão. Seleção e combinação de fontes tipográficas. Ortotipografia e tratamento do texto."
+    },
+    {
+      "id": "EGR0010",
+      "code": "EGR0010",
+      "name": "Planejamento Gráfico Editorial",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0005",
+        "EGR7705",
+        "EGR7710"
+      ],
+      "equivalents": [
+        "EGR7138",
+        "EGR7720"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0005"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7705"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7710"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7138"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7720"
+          }
+        ]
+      },
+      "syllabus": "Planejamento de elementos gráfico-editoriais e recursos gráfico-visuais em publicações impressas, considerando aspectos visuais, técnicos e estratégicos. Bases conceituais e construtivas do projeto gráfico, princípios da linguagem visual para diagramação e estruturação de projetos gráficos, software para editoração, formatos de saída para impressões e viabilidade produtiva para diferentes tipos de publicações."
+    },
+    {
+      "id": "EGR0011",
+      "code": "EGR0011",
+      "name": "História do Design II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0004"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0004"
+          },
+          {
+            "kind": "hours",
+            "hours": 11
+          }
+        ]
+      },
+      "prerequisiteHours": 11,
+      "syllabus": "Consolidação e crises do Design funcionalista. Movimentos contra-culturais. Estruturação e crescimento do Design brasileiro. Design contemporâneo."
+    },
+    {
+      "id": "EGR0012",
+      "code": "EGR0012",
+      "name": "Projeto Editorial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0005",
+        "EGR7705",
+        "EGR7710"
+      ],
+      "equivalents": [
+        "EGR7136",
+        "EGR7719"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0005"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7705"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7710"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7136"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7719"
+          }
+        ]
+      },
+      "syllabus": "Projeto gráfico-editorial aplicado a publicações impressas, seguindo o método apropriado. Briefing, problematização, pesquisas, bases conceituais e construtivas de projeto gráfico, tipografia, estruturação, geração de alternativas, viabilidade tecnológica, diagramação, identidade visual e processos e especificações de produção gráfica."
+    },
+    {
+      "id": "EGR7717",
+      "code": "EGR7717",
+      "name": "Ilustração Digital",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7710"
+      ],
+      "equivalents": [
+        "EGR7190"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR7710"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7190"
+      },
+      "syllabus": "Formação de olhar estético e competências para o desenvolvimento de ilustração como técnica de expressão gráfica voltada para projetos de Design: editorial, interfaces gráficas e digitais, peças de comunicação, associada a produtos e superfícies. Conceitos, estilos e técnicas de ilustração vetorial e pintura digital."
+    },
+    {
+      "id": "EGR0013",
+      "code": "EGR0013",
+      "name": "Design Emocional e de Experiência",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0007"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR0007"
+      },
+      "syllabus": "Teorias das Emoções. Introdução aos conceitos de Estados Afetivos. Design Emocional - o componente emocional em um projeto com foco na experiência. Design de Experiência: conceito e origens. Design centrado na atividade. Níveis de experiência: estética, significado e emocional. Categorias das experiências: relacionadas aos sentidos; relacionadas aos sentimentos; sociais; cognitivas; de uso; e de motivação. A teoria do Flow aplicada no projeto de experiência."
+    },
+    {
+      "id": "EGR0014",
+      "code": "EGR0014",
+      "name": "Projeto Branding",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0012"
+      ],
+      "equivalents": [
+        "EGR7132",
+        "EGR7725"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR0012"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7132"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7725"
+          }
+        ]
+      },
+      "syllabus": "Projeto de Criação e Gestão de Marcas. Conceito de Marca. Experiência de marca. Sistema de Identidade de Marca (SIM). Estratégia de Marca."
+    },
+    {
+      "id": "EGR0015",
+      "code": "EGR0015",
+      "name": "Design Inclusivo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0007"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR0007"
+      },
+      "syllabus": "Princípios do Design Universal. Conceitos e diretrizes de Acessibilidade. Técnicas de projeto e avaliação. Tecnologias Assistivas."
+    },
+    {
+      "id": "EGR0016",
+      "code": "EGR0016",
+      "name": "Tecnologia Aplicada ao Design I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7716"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7716"
+      },
+      "syllabus": "Introdução ao desenvolvimento web para designers. Uso de ferramenta de design de interface para a web. Código HTML para a estruturação de documentos. CSS básico para a estilização de páginas."
+    },
+    {
+      "id": "EGR7118",
+      "code": "EGR7118",
+      "name": "Design e Cultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituações e discussão sobre a relação entre design, cultura e sociedade, com base em princípios antropológicos, políticos, sociológicos, históricos e comunicativos (relações étnico-raciais, cultura e direitos humanos) e ênfase no processo de composição e desenvolvimento da atual cultura de mercado na sociedade de consumo."
+    },
+    {
+      "id": "EGR7205",
+      "code": "EGR7205",
+      "name": "Design de Superfície",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0008",
+        "EGR7710"
+      ],
+      "equivalents": [
+        "EGR5015",
+        "EGR7747"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0008"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7710"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR5015"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7747"
+          }
+        ]
+      },
+      "syllabus": "Conceitos e características do Design de Superfície. Aplicações. Noção de módulo. Pesquisa de referências visuais. Técnicas de repetição. Projeto de padronagem (têxtil, cerâmica e/ou gráfico)."
+    },
+    {
+      "id": "EGR7709",
+      "code": "EGR7709",
+      "name": "Design e Sustentabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5040",
+        "EGR5167",
+        "EGR7186"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR5040"
+          },
+          {
+            "kind": "course",
+            "code": "EGR5167"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7186"
+          }
+        ]
+      },
+      "syllabus": "Design baseado no princípio das três ecologias. Lucro, qualidade de vida e respeito ao meio ambiente. Princípios da sustentabilidade aplicados ao Design."
+    },
+    {
+      "id": "DIR5999",
+      "code": "DIR5999",
+      "name": "Ética Profissional e Legislação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ética Profissional e Legislação"
+    },
+    {
+      "id": "EGR0017",
+      "code": "EGR0017",
+      "name": "Projeto Digital",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0009",
+        "EGR0013",
+        "EGR0016",
+        "EGR7705"
+      ],
+      "equivalents": [
+        "EGR7731",
+        "EGR7776"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0009"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0013"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0016"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7705"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7731"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7776"
+          }
+        ]
+      },
+      "syllabus": "Projeto de objeto digital a partir da adoção de uma abordagem iterativa, colaborativa e multidisciplinar sob a ótica da experiência do usuário. Métodos e técnicas de pesquisa com foco no humano e no contexto. Arquitetura da Informação. Design de Navegação. Design de Interação. Design de Interface. Métodos e ferramentas para avaliação da experiência do usuário em contexto de projeto. Prototipagem."
+    },
+    {
+      "id": "EGR0018",
+      "code": "EGR0018",
+      "name": "Comunicação Integrada de Marketing",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7191",
+        "EGR7724",
+        "GMT7191"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7191"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7724"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7191"
+          }
+        ]
+      },
+      "syllabus": "Conceituação de Fundamentos Básicos de Marketing. Explanação de Compostos de Marketing norteadores (4P', 4C's, 4E's) com ênfase em Comportamento do Consumidor. Abordagem geral sobre tipos de Marketing (Societal, Esportivo, Cultural, Guerrilha, Político, Gamificação, Digital, Inboudmarketing ) Conceito de Comunicação Integrada de Marketing. Desenvolvimento de Plano de Comunicação e uso de técnicas de Comunicação Publicitária."
+    },
+    {
+      "id": "EGR0019",
+      "code": "EGR0019",
+      "name": "Inteligências Aplicadas ao Design",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR0013"
+      },
+      "syllabus": "Introdução aos conceitos de Novas Tecnologias, Inteligência Artificial, IoT (Internet das Coisas) e IoB (Internet do Comportamento). As novas tecnologias utilizadas para a detecção de estados afetivos durante a interação e experiência do usuário."
+    },
+    {
+      "id": "EGR0020",
+      "code": "EGR0020",
+      "name": "Tecnologia Aplicada ao Design II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0008"
+      ],
+      "equivalents": [
+        "EGR7726"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR0008"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7726"
+      },
+      "syllabus": "Modelos e protótipos. Conceitos de prototipagem rápida, ferramental rápido e manufatura rápida. Tecnologias de materialização digital: sistemas aditivos, subtrativos e formativos. Técnicas e tecnologias de materialização por subtração e adição de material. Corte a laser. Impressão 3D."
+    },
+    {
+      "id": "EGR0021",
+      "code": "EGR0021",
+      "name": "Design de Embalagem",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0008",
+        "EGR0014",
+        "EGR7717"
+      ],
+      "equivalents": [
+        "EGR7745",
+        "EGR7751",
+        "EGR7752",
+        "EGR7780"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0008"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0014"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7717"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7745"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EGR7751"
+              },
+              {
+                "kind": "course",
+                "code": "EGR7752"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "EGR7780"
+          }
+        ]
+      },
+      "syllabus": "Design de embalagens.Fundamentos conceituais e funcionais de embalagem. Teoria e prática sobre mercado e ponto de venda. Materiais. Rotulagens. Modelos e Protótipos."
+    },
+    {
+      "id": "EGR0022",
+      "code": "EGR0022",
+      "name": "Tendência",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7723"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7723"
+      },
+      "syllabus": "Pesquisa de Tendência e Inovação. Desenvolvimento de artefatos de divulgação de tendências e inovação."
+    },
+    {
+      "id": "EGR0023",
+      "code": "EGR0023",
+      "name": "Design Orientado por Dados",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0017",
+        "EGR0018"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0017"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0018"
+          }
+        ]
+      },
+      "syllabus": "Explora os fundamentos e aplicações do uso de dados no desenvolvimento de negócios e soluções. Apresenta técnicas de Data Discovery, Data-Driven Design, análise de comportamento de clientes e usuários e definição de métricas de sucesso. Desenvolve a capacidade de interpretação e utilização de dados quantitativos e qualitativos para apoiar o processo de design, validação de hipóteses e tomada de decisão estratégica em produtos digitais. Inclui práticas de Web e Data Analytics, Business Intelligence e aplicação de indicadores de desempenho para produtos e negócios digitais."
+    },
+    {
+      "id": "EGR0024",
+      "code": "EGR0024",
+      "name": "Projeto de Inovação Digital",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0017",
+        "EGR0018"
+      ],
+      "equivalents": [
+        "EGR7737",
+        "EGR7778"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0017"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0018"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7737"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7778"
+          }
+        ]
+      },
+      "syllabus": "Aborda os princípios e práticas para o desenvolvimento de soluções digitais, combinando inovação, experiência do cliente, transformação digital a partir de métodos e técnicas de desenvolvimento ágil. Introduz conceitos de Product Design, CX, UX e demais estratégias de desenvolvimento de soluções inovadoras no digital. Explora de forma prática a utilização de dados para tomada de decisão em marketing e vendas digitais e também em negócios e soluções digitais."
+    },
+    {
+      "id": "EGR0025",
+      "code": "EGR0025",
+      "name": "Produção de Publicação Digital",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0010",
+        "EGR0017"
+      ],
+      "equivalents": [
+        "EGR7744",
+        "EGR7779"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0010"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0017"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7744"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7779"
+          }
+        ]
+      },
+      "syllabus": "Formatos, gêneros e classificações de publicações digitais. Recursos de multimodalidade, interatividade, hipertextualidade, responsividade e acessibilidade. Plataformas, softwares e ferramentas para prototipagem, produção e distribuição."
+    },
+    {
+      "id": "EGR0026",
+      "code": "EGR0026",
+      "name": "Motion Design",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7717"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR7717"
+      },
+      "syllabus": "Fundamentos do videografismo: aspectos históricos, técnicos, estéticos e narrativos. Princípios e técnicas de composição, edição, montagem, sonoplastia e animação aplicados a motion graphics. Processos e ferramentas computacionais para produção em motion design."
+    },
+    {
+      "id": "EGR7189",
+      "code": "EGR7189",
+      "name": "Gestão do Design",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0018"
+      ],
+      "equivalents": [
+        "EGR5043",
+        "EGR5158",
+        "EGR7729"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR0018"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR5043"
+          },
+          {
+            "kind": "course",
+            "code": "EGR5158"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7729"
+          }
+        ]
+      },
+      "syllabus": "Conceitos e definições. Design como diferencial competitivo. Design Thinking. Gestão estratégica x gestão operacional. Designer como gestor de projetos. Liderança x chefia."
+    },
+    {
+      "id": "EGR7193",
+      "code": "EGR7193",
+      "name": "Pesquisa em Design",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fases do Método Estatístico; Estatística Descritiva; Estatística Indutiva."
+    },
+    {
+      "id": "EGR0027",
+      "code": "EGR0027",
+      "name": "Sistemas de Sinalização",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0006",
+        "EGR0008",
+        "EGR0009",
+        "EGR0015"
+      ],
+      "equivalents": [
+        "EGR7777"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0006"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0008"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0009"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0015"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7777"
+      },
+      "syllabus": "Planejamento dos elementos gráficos e aplicação da marca no espaço,com o intuito de sinalizar, ambientar e orientar. Conceito de Wayfinding. Definição dos Sistemas de conteúdos informacionais, considerando aspectos de acessibilidade; gráficos, integrando elementos textuais e não textuais; e de suportes, aplicando estratégias de coleta de informações nos ambientes."
+    },
+    {
+      "id": "EGR0028",
+      "code": "EGR0028",
+      "name": "Projeto de Audiovisual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0026"
+      ],
+      "equivalents": [
+        "EGR7746"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR0026"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7746"
+      },
+      "syllabus": "Fundamentos do videografismo: aspectos históricos, técnicos, estéticos e narrativos. Princípios e técnicas de composição, edição, montagem, sonoplastia e animação aplicados a motion graphics. Processos e ferramentas computacionais para produção em motion design."
+    },
+    {
+      "id": "EGR0029",
+      "code": "EGR0029",
+      "name": "Pré-PCC (Projeto de Conclusão de Curso)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0014",
+        "EGR0017",
+        "EGR0024",
+        "EGR7193"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0014"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0017"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0024"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7193"
+          }
+        ]
+      },
+      "syllabus": "PCC - Projeto de Conclusão de Curso. Questão de projeto, Estado da Arte e referências, proposta de projeto, método e estrutura do Memorial de Projeto."
+    },
+    {
+      "id": "EGR7734",
+      "code": "EGR7734",
+      "name": "Empreendedorismo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Empreendedorismo. Conceitos e breve histórico. Profissional empreendedor. O empreendedor nas organizações. Design e empreendedorismo. Noções de Administração do seu próprio negócio. Plano de Negócios."
+    },
+    {
+      "id": "EGR0036",
+      "code": "EGR0036",
+      "name": "PCC (Projeto de Conclusão de Curso)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR0028",
+        "EGR0029"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR0028"
+          },
+          {
+            "kind": "course",
+            "code": "EGR0029"
+          }
+        ]
+      },
+      "syllabus": "PCC (Projeto de Conclusão de Curso)"
+    },
+    {
+      "id": "EGR0031",
+      "code": "EGR0031",
+      "name": "Atividades de Extensão em ações",
+      "credits": 16,
+      "hours": 288,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades de Estágio Cumprimento do programa de atividades de estágio (PAE) em conformidade com as normas da UFSC, do Curso de Design/EGR e com a legislação federal e estadual. Rol de Atividades de Extensão Cumprimento das 288 horas-aula com atividades de Extensão, em acordo com a \"Política de Extensão do Curso\""
+    },
+    {
+      "id": "EGR0032",
+      "code": "EGR0032",
+      "name": "Atividades Complementares",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades de escolha livre pelo estudante. Pode ser cumprida com disciplinas (unidades curriculares) ou com outras atividades (tais como palestras, cursos, estágio não obrigatório, serviço voluntário ou outros que estejam em acordo com a Regulamentação de Atividades complementares do Curso de Design."
+    },
+    {
+      "id": "EGR7605",
+      "code": "EGR7605",
+      "name": "Atividade Complementar-Representação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades de representação discente em órgãos de colegiado ou Entidades estudantis (Centro Acadêmico de Design e Design de Produto ou Diretório Central dos estudantes) - para representantes titulares"
+    },
+    {
+      "id": "EGR7606",
+      "code": "EGR7606",
+      "name": "Atividade Complementar-Representação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Discente Atividades de representação discente em órgãos de colegiado ou Entidades estudantis (Centro Acadêmico de Design e Design de Produto ou Diretório Central dos estudantes) - para representantes suplentes"
+    },
+    {
+      "id": "EGR7756",
+      "code": "EGR7756",
+      "name": "Extensão Design 2 (Extt = 180h-a)",
+      "credits": 10,
+      "hours": 180,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 180
+      },
+      "prerequisiteHours": 180,
+      "syllabus": "Discente"
+    },
+    {
+      "id": "EGR7759",
+      "code": "EGR7759",
+      "name": "Orientação e Planejamento de Carreira",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5910"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5910"
+      },
+      "syllabus": "Experiência universitária e transição para o mundo do trabalho. Orientação e planejamento de carreira. Mercado de trabalho. Empregabilidade e capacitação profissional. Instrumentalização para busca de emprego ou estágio."
+    },
+    {
+      "id": "EGR7782",
+      "code": "EGR7782",
+      "name": "Atividade Complementar - ALADA",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades de representação discente junto à ALADA (Atlética Lendária dos Design's e Animação)."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "EGC5000",
+      "code": "EGC5000",
+      "name": "Inteligência Artificial Generativa: uso, aplicações e implicações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos da Inteligência Artificial. Inteligência Artificial Generativa e Engenharia de Prompt. Ferramentas de IA aplicadas à educação e à prática profissional em diferentes áreas do conhecimento. Interação humano-máquina e autoria. Questões éticas e sociais no uso da IA. Tendências emergentes e impactos da IA na sociedade, na educação e no mundo do trabalho. Análise de estudos de caso."
+    },
+    {
+      "id": "EGR0033",
+      "code": "EGR0033",
+      "name": "Serigrafia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos e introdução ao processo permeográfico de serigrafia; Aspectos históricos; Procedimentos básicos: materiais e equipamentos, técnicas de gravação e impressão em serigrafia e execução de projetos"
+    },
+    {
+      "id": "EGR0034",
+      "code": "EGR0034",
+      "name": "Estudo Complementar para Projeto",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar para Projeto Branding"
+    },
+    {
+      "id": "EGR0035",
+      "code": "EGR0035",
+      "name": "Estudo Complementar para Projeto Digital",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Branding Estudo Complementar para Projeto Digital"
+    },
+    {
+      "id": "EGR0037",
+      "code": "EGR0037",
+      "name": "Estudo Complementar para Projeto",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar para Projeto Sinalização"
+    },
+    {
+      "id": "EGR0038",
+      "code": "EGR0038",
+      "name": "Estudo Complementar para Projeto de Inovação Digital",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sinalização Estudo Complementar para Projeto de Inovação Digital"
+    },
+    {
+      "id": "EGR0039",
+      "code": "EGR0039",
+      "name": "Estudo Complementar para Projeto de Publicação Digital",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar para Projeto de Publicação Digital"
+    },
+    {
+      "id": "EGR0040",
+      "code": "EGR0040",
+      "name": "Estudo Complementar para Projeto de Embalagem",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar para Projeto de Embalagem"
+    },
+    {
+      "id": "EGR0041",
+      "code": "EGR0041",
+      "name": "Estudo Complementar para Projeto",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar para Projeto Audiovisual"
+    },
+    {
+      "id": "EGR0042",
+      "code": "EGR0042",
+      "name": "Estudo Complementar para Projeto de Design de Superfície",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Audiovisual Estudo Complementar para Projeto de Design de Superfície"
+    },
+    {
+      "id": "EGR0043",
+      "code": "EGR0043",
+      "name": "Tecnologia Aplicada ao Design III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Experimentação de linguagens e tecnologias digitais para criação, desenvolvimento e prototipagem. Exploração de tecnologias emergentes."
+    },
+    {
+      "id": "EGR0044",
+      "code": "EGR0044",
+      "name": "Estudo Complementar para Design da Informação",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar para Design da Informação"
+    },
+    {
+      "id": "EGR7758",
+      "code": "EGR7758",
+      "name": "Modelagem 3D Digital",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Discente Modelagem 3D digital com uso de ferramenta CAD com curvas e superfícies NURBS (software Rhino 3D). Desenho técnico com auxílio do CAD. Fundamentos da prototipagem rápida."
+    },
+    {
+      "id": "EGR7761",
+      "code": "EGR7761",
+      "name": "Estudo Complementares em Criativdade",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementares em Criativdade"
+    },
+    {
+      "id": "EGR7762",
+      "code": "EGR7762",
+      "name": "Estudo Complementar em Desenho de Observação",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar em Desenho de Observação"
+    },
+    {
+      "id": "EGR7763",
+      "code": "EGR7763",
+      "name": "Estudo Complementar em Fundamentos da Cor",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar em Fundamentos da Cor"
+    },
+    {
+      "id": "EGR7764",
+      "code": "EGR7764",
+      "name": "Estudo Complementar em Desenho",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar em Desenho Técnico"
+    },
+    {
+      "id": "EGR7765",
+      "code": "EGR7765",
+      "name": "Estudo Complementar em Design e Sustentabilidade",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Técnico Estudo Complementar em Design e Sustentabilidade"
+    },
+    {
+      "id": "EGR7766",
+      "code": "EGR7766",
+      "name": "Estudo Complementar em Ilustração Digital",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar em Ilustração Digital"
+    },
+    {
+      "id": "EGR7767",
+      "code": "EGR7767",
+      "name": "Estudo Complementar em Forma",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar em Forma"
+    },
+    {
+      "id": "EGR7768",
+      "code": "EGR7768",
+      "name": "Estudo Complementar em Metodologia de Projeto",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar em Metodologia de Projeto"
+    },
+    {
+      "id": "EGR7769",
+      "code": "EGR7769",
+      "name": "Estudo Complementar em Micro Tipografia",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar em Micro Tipografia"
+    },
+    {
+      "id": "EGR7770",
+      "code": "EGR7770",
+      "name": "Estudo Complementar em Fundamentos de Ergonomia",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar em Fundamentos de Ergonomia"
+    },
+    {
+      "id": "EGR7771",
+      "code": "EGR7771",
+      "name": "Estudo Complementar em Projeto",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar em Projeto Branding"
+    },
+    {
+      "id": "EGR7772",
+      "code": "EGR7772",
+      "name": "Estudo Complementar em Projeto Editorial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Branding Estudo Complementar em Projeto Editorial Impresso"
+    },
+    {
+      "id": "EGR7773",
+      "code": "EGR7773",
+      "name": "Estudo Complementar em Projeto de Design para Inovação Digital",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Impresso Estudo Complementar em Projeto de Design para Inovação Digital"
+    },
+    {
+      "id": "EGR7774",
+      "code": "EGR7774",
+      "name": "Estudo Complementar em Projeto de Sinalização",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar em Projeto de Sinalização"
+    },
+    {
+      "id": "EGR7775",
+      "code": "EGR7775",
+      "name": "Estudo Complementar em Empreendedorismo",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Complementar em Empreendedorismo"
+    },
+    {
+      "id": "EGR7781",
+      "code": "EGR7781",
+      "name": "História do Design no Brasil",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7781
+      },
+      "prerequisiteHours": 7781,
+      "syllabus": "Primeiros registros do Design no Brasil. Design e industrialização. O ensino do Design brasileiro. Consolidação do Design e utopias modernistas. Design e contracultura. Design e pós-modernidade. O Design brasileiro no contexto Latino-americano."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EGR0001",
+      "EGR0002",
+      "EGR7107",
+      "EGR7510",
+      "EGR7511",
+      "EGR7703",
+      "EGR7704",
+      "EGR7713",
+      "EGR0003",
+      "EGR0004",
+      "EGR0005",
+      "EGR7513",
+      "EGR7702",
+      "EGR7705",
+      "EGR7710",
+      "EGR7714",
+      "EGR0006",
+      "EGR0007",
+      "EGR0008",
+      "EGR0009",
+      "EGR0010",
+      "EGR0011",
+      "EGR0012",
+      "EGR7717",
+      "EGR0013",
+      "EGR0014",
+      "EGR0015",
+      "EGR0016",
+      "EGR7118",
+      "EGR7205",
+      "EGR7709",
+      "DIR5999",
+      "EGR0017",
+      "EGR0018",
+      "EGR0019",
+      "EGR0020",
+      "EGR0021",
+      "EGR0022",
+      "EGR0023",
+      "EGR0024",
+      "EGR0025",
+      "EGR0026",
+      "EGR7189",
+      "EGR7193",
+      "EGR0027",
+      "EGR0028",
+      "EGR0029",
+      "EGR7734",
+      "EGR0036",
+      "EGR0031",
+      "EGR0032"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 162,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "EGR7605",
+              "EGR7606",
+              "EGR7756",
+              "EGR7759",
+              "EGR7782",
+              "LSB7244",
+              "EGC5000",
+              "EGR0033",
+              "EGR0034",
+              "EGR0035",
+              "EGR0037",
+              "EGR0038",
+              "EGR0039",
+              "EGR0040",
+              "EGR0041",
+              "EGR0042",
+              "EGR0043",
+              "EGR0044",
+              "EGR7758",
+              "EGR7761",
+              "EGR7762",
+              "EGR7763",
+              "EGR7764",
+              "EGR7765",
+              "EGR7766",
+              "EGR7767",
+              "EGR7768",
+              "EGR7769",
+              "EGR7770",
+              "EGR7771",
+              "EGR7772",
+              "EGR7773",
+              "EGR7774",
+              "EGR7775",
+              "EGR7781"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 162
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "454",
+    "curriculumCode": "20221",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=454&curriculo=20221",
+    "sha256": "cb49e2945cba5f6ea0741fbff0d72d6aab69da1d8f2606a3b399f44f1d41a469",
+    "capturedAt": "2026-09-22"
+  }
+}

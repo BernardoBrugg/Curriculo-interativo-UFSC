@@ -1,0 +1,744 @@
+{
+  "program": "Design",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2019.1",
+  "totalHours": 3456,
+  "phases": [
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EGR7104",
+      "code": "EGR7104",
+      "name": "Criatividade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituação. Bloqueios mentais, perceptivos, emocionais, culturais e ambientais, intelectuais e de expressão. Desbloqueadores. Técnicas de geração, sistematização e avaliação de ideias."
+    },
+    {
+      "id": "EGR7106",
+      "code": "EGR7106",
+      "name": "Representação Gráfica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Projeções ortogonais de sólidos, de figuras planas, de retas e de pontos; Estudo das vistas ortográficas. Perspectiva cavaleira e isométrica; Perspectiva cônica exata; Sombras em épura e em perspectiva."
+    },
+    {
+      "id": "EGR7107",
+      "code": "EGR7107",
+      "name": "História da Arte",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7107
+      },
+      "prerequisiteHours": 7107,
+      "syllabus": "Estudos dos diferentes movimentos artísticos ocidentais. Artes visuais no Brasil. Estudo comparativo entre os vários movimentos artísticos com ênfase na cultura ocidental e contemporânea."
+    },
+    {
+      "id": "EGR7109",
+      "code": "EGR7109",
+      "name": "Teoria da Cor",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cor e percepção visual. Processos fisiológicos. Princípios básicos da física da cor. Cor-Luz e cor-pigmento. Esquemas de composição cromática: harmonias e contrastes. Sistemas de cores: CMYK, RGB, HSB, PANTONE características e usos. A cor em displays. Cor de processo e cor especial. O uso da cor no Design Gráfico. A cor no processo de projeto: conceituação x especificação"
+    },
+    {
+      "id": "EGR7110",
+      "code": "EGR7110",
+      "name": "Plástica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Malhas e padrões para construções gráficas. Texturas. Dobraduras e modelagens em materiais diversos."
+    },
+    {
+      "id": "EGR7118",
+      "code": "EGR7118",
+      "name": "Design e Cultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituações e discussão sobre a relação entre design, cultura e sociedade, com base em princípios antropológicos, políticos, sociológicos, históricos e comunicativos (relações étnico-raciais, cultura e direitos humanos) e ênfase no processo de composição e desenvolvimento da atual cultura de mercado na sociedade de consumo."
+    },
+    {
+      "id": "GMT7105",
+      "code": "GMT7105",
+      "name": "Desenho de Observação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7105"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7105"
+      },
+      "syllabus": "Desenvolvimento da expressão gráfica e da gramática visual. Ferramentas do desenho, materiais e técnicas. Representação visual através do uso de modelos. Percepção e composição de estruturas formais. Estudos de perspectiva, luz e sombra."
+    },
+    {
+      "id": "EGR7115",
+      "code": "EGR7115",
+      "name": "História e Evolução do Design",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7115
+      },
+      "prerequisiteHours": 7115,
+      "syllabus": "Introdução ao Design. Aspectos históricos e origens do Design e vanguardas artísticas. As influências dos designers de diferentes países. O design moderno e contemporâneo."
+    },
+    {
+      "id": "EGR7116",
+      "code": "EGR7116",
+      "name": "Teoria da Forma",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios de teoria da forma; diferentes modelos de ordenamento formal na natureza e nos produtos da cultura humana. Estruturas formais e sistemas de proporção em organizações bidimensionais. Gestalt. Metamorfose e padrões de crescimento; analogias formais; dimensões simbólicas da forma."
+    },
+    {
+      "id": "EGR7190",
+      "code": "EGR7190",
+      "name": "Ilustração Digital",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ilustração como técnica de comunicação visual, representação de produtos, personagens e cenários. Ilustração realizada em meio digital. Ilustração Vetorial e Pintura digital."
+    },
+    {
+      "id": "EGR7800",
+      "code": "EGR7800",
+      "name": "Metodologia de Projeto",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EGR7801",
+      "code": "EGR7801",
+      "name": "Teoria e Prática do Design Social",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EGR7802",
+      "code": "EGR7802",
+      "name": "Sketch e Rendering",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EGR7803",
+      "code": "EGR7803",
+      "name": "Modelagem 3D",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao Desenho técnico à mão livre. Normas para o desenho. Técnicas fundamentais de traçado a mão livre. Sistemas de representação: 1º e 3º diedros. Projeção ortogonal de peças simples. Vistas omitidas. Cotagem e proporções. Perspectivas axonométricas, isométricas, bimétrica, trimétrca. Perspectiva cavaleira. Esboços cotados. Sombras próprias. Esboços sombreados. Cortes e Seções. Uso de ferramentas CAD para elaboração de desenhos técnicos."
+    },
+    {
+      "id": "EGR5101",
+      "code": "EGR5101",
+      "name": "Semiótica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Teoria da Comunicação aplicada ao Design. Introdução a semiologia, definição de termos, considerações históricas, divisão dos signos, textos narrativos, objeto-signo, signo-imagem, teoria dos signos de Peirce, significado e aplicação, dimensão sintática, dimensão semântica e dimensão pragmática, monosemia, polisemia, transição da semiótica a hermenêutica, grafismo, estado da arte."
+    },
+    {
+      "id": "EGR7151",
+      "code": "EGR7151",
+      "name": "Materiais e Processos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de materiais utilizados em produtos de design: madeiras (naturais e transformadas), cerâmicas (comuns e avançadas), metais (ferrosos e não ferrosos). Estudo comparativo de propriedades, características, pontos fortes, limitações, características ambientais, econômicas, estéticas e fabris dos materiais. Processos fabris dos materiais (conformação mecânica, usinagem, soldagem, fundição, metalurgia do pó, processos modernos de fabricação)."
+    },
+    {
+      "id": "EGR7257",
+      "code": "EGR7257",
+      "name": "Ergonomia do Produto I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos da ergonomia aplicada ao design de produtos/serviços; antropometria e biomecânica aplicada a produtos e sistemas - medidas do corpo como parâmetros para projeto; dispositivos de informação e comando."
+    },
+    {
+      "id": "EGR7258",
+      "code": "EGR7258",
+      "name": "Oficina de Modelos e Protótipos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Técnicas de modelagem e prototipagem física; modelos e protótipos volumétricos; técnicas e materiais de acabamento superficial; escalas."
+    },
+    {
+      "id": "EGR7291",
+      "code": "EGR7291",
+      "name": "Fotografia e Tratamento de Imagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fotografia e linguagem. Usos e funções da fotografia. Fotografia e Design. Prática fotográfica. Imagem Digital: conceito e aplicações. Técnicas básicas de edição de imagem - efeitos."
+    },
+    {
+      "id": "EGR7804",
+      "code": "EGR7804",
+      "name": "Projeto de Produto 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EGR7114",
+      "code": "EGR7114",
+      "name": "Comportamento do Consumidor e Economia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Comportamento do consumidor. Perfil de consumidor. Processo de compra. Segmentação e posicionamento de mercado. Posicionamento e mix de comunicação."
+    },
+    {
+      "id": "EGR7153",
+      "code": "EGR7153",
+      "name": "Materiais e Processos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de diferentes materiais utilizados na indústria (gessos, papel, polímeros e compósitos). Estudo da estrutura, características, propriedades, aplicações e processos industriais para transformação desses materiais (conformação, usinagem, soldadura, fundição)."
+    },
+    {
+      "id": "EGR7261",
+      "code": "EGR7261",
+      "name": "Ergonomia do Produto II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ergonomia aplicada ao design de produtos/serviços; antropometria e biomecânica aplicada a produtos e sistemas com o uso de instrumentação; design universal e design inclusivo"
+    },
+    {
+      "id": "EGR7262",
+      "code": "EGR7262",
+      "name": "Oficina de Modelos e Protótipos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Normas de segurança. Exercícios de criação de modelos e protótipos em gesso, argila, polímeros. Elaboração de maquetes e modelos funcionais de complexidade alta. O uso de materiais diversificados e alternativos na criação de maquetes e modelos. Introdução à fabricação digital."
+    },
+    {
+      "id": "EGR7280",
+      "code": "EGR7280",
+      "name": "Gestão de Projetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A importância do projeto como forma de organização de ação administrativa; Conceituação geral de projeto e seus elementos básicos; Conceitos de gerenciamento de projetos; Áreas do conhecimento PM-BoK/PMI; Perfil do gestor de projetos; Avaliação e seleção de projetos; Critérios de análise de viabilidade econômica de um projeto; Programas de apoio ao gerenciamento do projeto."
+    },
+    {
+      "id": "EGR7805",
+      "code": "EGR7805",
+      "name": "Projeto de Produto 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EGR7186",
+      "code": "EGR7186",
+      "name": "Design e Sustentabilidade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Design baseado no princípio das três ecologias. Lucro, Qualidade de Vida e Respeito ao Meio Ambiente. Princípios da Sustentabilidade aplicados ao Design."
+    },
+    {
+      "id": "EGR7193",
+      "code": "EGR7193",
+      "name": "Pesquisa em Design",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fases do Método Estatístico; Estatística Descritiva; Estatística Indutiva."
+    },
+    {
+      "id": "EGR7265",
+      "code": "EGR7265",
+      "name": "Prototipagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Modelo, maquete e protótipo, engenharia reversa. Conceitos de prototipagem rápida, ferramental rápido e manufatura rápida. Tecnologias de materialização digital: sistemas aditivos, subtrativos e formativos. Corte a laser.Tecnologias de digitalização 3D"
+    },
+    {
+      "id": "EGR7266",
+      "code": "EGR7266",
+      "name": "Modelagem 3D Avançada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Técnicas de modelagem e prototipagem física; modelos e protótipos volumétricos; técnicas e materiais de acabamento superficial; escalas."
+    },
+    {
+      "id": "EGR7267",
+      "code": "EGR7267",
+      "name": "Design e Inovação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relação da inovação com a tecnologia e o significado. Ferramentas para pesquisas e desenvovimento de produtos inovadores."
+    },
+    {
+      "id": "EGR7806",
+      "code": "EGR7806",
+      "name": "Projeto de Produto 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de produtos de alta complexidade com ênfase na inovação."
+    },
+    {
+      "id": "GMT7191",
+      "code": "GMT7191",
+      "name": "Marketing",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7191"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7191"
+      },
+      "syllabus": "Introdução ao Marketing. Marketing e Design. Comportamento e satisfação do consumidor. Pesquisa de mercado. Análise SWOT. Segmentação e Posicionamento. Concorrência, planejamento e estratégias. O Composto mercadológico. Marketing Mix. Estudo de casos."
+    },
+    {
+      "id": "EGR7269",
+      "code": "EGR7269",
+      "name": "Materialização",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Materialização da forma. Técnicas e tecnologias de materialização por subtração e adição de material."
+    },
+    {
+      "id": "EGR7270",
+      "code": "EGR7270",
+      "name": "Design de Interação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Design de Interação. Design centrado no usuário. Cognição humana e distribuída. Princípios do design de interação. Metas de usabilidade. Estudo de casos."
+    },
+    {
+      "id": "EGR7271",
+      "code": "EGR7271",
+      "name": "Design e Inteligência (Smart Design)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tecnologias envolvidas em produtos interativos e \"inteligentes\" (robótica, programação, sensores, atuadores, controladores, automação, IoT). Estudo dos princípios e características dos produtos interativos, \"inteligentes\" e Internet das Coisas. Estudo de novas tecnologias e sua aplicação em projetos de design. Introdução aos artefatos digitais e programação."
+    },
+    {
+      "id": "EGR7807",
+      "code": "EGR7807",
+      "name": "Projeto de Produto 4",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GMT7195",
+      "code": "GMT7195",
+      "name": "Empreendedorismo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7195"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7195"
+      },
+      "syllabus": "Empreendedorismo. Conceitos e breve histórico. Profissional empreendedor. O empreendedor nas organizações. Design e empreendedorismo. Noções de Administração do seu próprio negócio. Plano de Negócios."
+    },
+    {
+      "id": "EGR7196",
+      "code": "EGR7196",
+      "name": "PCC 1",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O Projeto de Conclusão de Curso: normas e procedimentos, documentação, determinação do orientador, montagem da proposta de projeto, etc."
+    },
+    {
+      "id": "EGR7198",
+      "code": "EGR7198",
+      "name": "Estágio",
+      "credits": 20,
+      "hours": 360,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cumprimento do programa de atividades de estágio (PAE) em conformidade com as normas da UFSC, do Curso de Design/EGR e com a legislação federal e estadual."
+    },
+    {
+      "id": "EGR7197",
+      "code": "EGR7197",
+      "name": "PCC 2",
+      "credits": 25,
+      "hours": 450,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de Projeto de conclusão de curso [projeto / pesquisa]."
+    },
+    {
+      "id": "EGR5801",
+      "code": "EGR5801",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplinas Optativas Participação em Programa de Intercâmbio Acadêmico visando a realização de cursos, estágios e pesquisas orientados ao aprimoramento da formação do aluno."
+    },
+    {
+      "id": "EGR5802",
+      "code": "EGR5802",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Continuidade da participação em Programa de Intercâmbio Acadêmico visando a realização de cursos, estágios e pesquisas orientados ao aprimoramento da formação do aluno."
+    },
+    {
+      "id": "EGR5803",
+      "code": "EGR5803",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Continuidade da participação em Programa de Intercâmbio Acadêmico visando a realização de cursos, estágios e pesquisas orientados ao aprimoramento da formação do aluno."
+    },
+    {
+      "id": "EGR7808",
+      "code": "EGR7808",
+      "name": "Prototipagem Digital com Corte Laser",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos de materialização automatizada por meio de corte laser. Testes e aplicações de materiais em equipamento de corte laser visando a produção de um produto em escala."
+    },
+    {
+      "id": "EGR7809",
+      "code": "EGR7809",
+      "name": "Introdução à Programação para Designer",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a Programação para artefatos digitais simples e interfaces de dispositivos móveis. Programação básica para o desenvolvimento de protótipos funcionais dentro do Design."
+    },
+    {
+      "id": "EGR7810",
+      "code": "EGR7810",
+      "name": "Modelagem Nurbs",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LSB7409",
+      "code": "LSB7409",
+      "name": "Língua Brasileira de Sinais (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "EGR7811",
+      "code": "EGR7811",
+      "name": "Atividades Complementares",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Módulo de Disciplinas Eletivas/Atividades Complementares"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EGR7104",
+      "EGR7106",
+      "EGR7107",
+      "EGR7109",
+      "EGR7110",
+      "EGR7118",
+      "GMT7105",
+      "EGR7115",
+      "EGR7116",
+      "EGR7190",
+      "EGR7800",
+      "EGR7801",
+      "EGR7802",
+      "EGR7803",
+      "EGR5101",
+      "EGR7151",
+      "EGR7257",
+      "EGR7258",
+      "EGR7291",
+      "EGR7804",
+      "EGR7114",
+      "EGR7153",
+      "EGR7261",
+      "EGR7262",
+      "EGR7280",
+      "EGR7805",
+      "EGR7186",
+      "EGR7193",
+      "EGR7265",
+      "EGR7266",
+      "EGR7267",
+      "EGR7806",
+      "GMT7191",
+      "EGR7269",
+      "EGR7270",
+      "EGR7271",
+      "EGR7807",
+      "GMT7195",
+      "EGR7196",
+      "EGR7198",
+      "EGR7197",
+      "EGR5801",
+      "EGR5802",
+      "EGR5803",
+      "EGR7808",
+      "EGR7809",
+      "EGR7810",
+      "LSB7409",
+      "EGR7811"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 180,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "452",
+    "curriculumCode": "20191",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=452&curriculo=20191",
+    "sha256": "011440742bd052452fc089a39646678dddc8eb76ca670d8b9fecd7bea0857009",
+    "capturedAt": "2026-09-22"
+  }
+}

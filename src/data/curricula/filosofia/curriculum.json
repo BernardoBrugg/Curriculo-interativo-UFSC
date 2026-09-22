@@ -1,0 +1,2259 @@
+{
+  "program": "FILOSOFIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2006.1",
+  "totalHours": 2940,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "FIL7205",
+      "code": "FIL7205",
+      "name": "Filosofia e Literatura",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Filosofia nos níveis Fundamental, Médio e Superior, bem como para a pesquisa e a produção genuinamente filosóficas. Além disso, tem como objetivos específicos: formar pessoas com espírito compreensivo e crítico da realidade; articular as atividades de ensino, pesquisa e extensão na atividade docente; propiciar a socialização e apropriação da cultura e do conhecimento filosófico, atendendo às urgências da contemporaneidade."
+    },
+    {
+      "id": "FIL5600",
+      "code": "FIL5600",
+      "name": "Teoria do Conhecimento (PCC - 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5122"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5122"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5601",
+      "code": "FIL5601",
+      "name": "História da Filosofia I (PCC 36h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5601
+      },
+      "prerequisiteHours": 5601,
+      "syllabus": "horas/aula)"
+    },
+    {
+      "id": "FIL5611",
+      "code": "FIL5611",
+      "name": "Ética I (PCC - 18 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5175"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5175"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5631",
+      "code": "FIL5631",
+      "name": "Lógica I (PCC - 18 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5165"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5165"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5602",
+      "code": "FIL5602",
+      "name": "História da Filosofia II (PCC 36h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5602
+      },
+      "prerequisiteHours": 5602,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5621",
+      "code": "FIL5621",
+      "name": "Ontologia I (PCC - 18 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5401",
+        "FIL5406"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5401"
+          },
+          {
+            "kind": "course",
+            "code": "FIL5406"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5632",
+      "code": "FIL5632",
+      "name": "Lógica II (PCC - 18 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "FIL5631"
+      ],
+      "equivalents": [
+        "FIL5166"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5631"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5166"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5641",
+      "code": "FIL5641",
+      "name": "Filosofia Política I (PCC - 18horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5179"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5179"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5603",
+      "code": "FIL5603",
+      "name": "História da Filosofia III (PCC 36h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5603
+      },
+      "prerequisiteHours": 5603,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5622",
+      "code": "FIL5622",
+      "name": "Ontologia II (PCC - 18 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FIL5621"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5621"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5642",
+      "code": "FIL5642",
+      "name": "Filosofia Política II (PCC 18 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FIL5641"
+      ],
+      "equivalents": [
+        "FIL5181"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5641"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5181"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5650",
+      "code": "FIL5650",
+      "name": "Estética (PCC - 18 horas-aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5170"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5170"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5604",
+      "code": "FIL5604",
+      "name": "História da Filosofia IV (PCC - 36",
+      "credits": 5,
+      "hours": 90,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FIL5603"
+      ],
+      "equivalents": [
+        "FIL5241"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5603"
+          },
+          {
+            "kind": "hours",
+            "hours": 5604
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5241"
+      },
+      "prerequisiteHours": 5604,
+      "syllabus": "_ Curricular"
+    },
+    {
+      "id": "FIL5612",
+      "code": "FIL5612",
+      "name": "Ética II (PCC - 18 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FIL5611"
+      ],
+      "equivalents": [
+        "FIL5176"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5611"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5176"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "horas/aula) FIL5242)"
+    },
+    {
+      "id": "FIL5651",
+      "code": "FIL5651",
+      "name": "Filosofia da Linguagem (PCC - 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5306"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5306"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5652",
+      "code": "FIL5652",
+      "name": "Filosofia da Ciência (PCC - 18 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5310",
+        "FIL5311"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5310"
+          },
+          {
+            "kind": "course",
+            "code": "FIL5311"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "horas/aula)"
+    },
+    {
+      "id": "FIL5660",
+      "code": "FIL5660",
+      "name": "Seminário de Ensino da Filosofia (PCC 60",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Filosofia nos níveis Fundamental, Médio e Superior, bem como para a pesquisa e a produção genuinamente filosóficas. Além disso, tem como objetivos específicos: formar pessoas com espírito compreensivo e crítico da realidade; articular as atividades de ensino, pesquisa e extensão na atividade docente; propiciar a socialização e apropriação da cultura e do conhecimento filosófico, atendendo às urgências da contemporaneidade."
+    },
+    {
+      "id": "EED5186",
+      "code": "EED5186",
+      "name": "Organização Escolar II (PCC - 18 horas)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "horas/aula) Disciplinas Optativas Filosóficas (Bacharelado e Licenciatura)"
+    },
+    {
+      "id": "EED5331",
+      "code": "EED5331",
+      "name": "Teorias da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de educação: elaborações e práticas em torno da formação moral, intelectual e estética do homem. Conceito de pedagogia: pedagogia da essência e pedagogia da existência - referências clássicas, modernas e contemporâneas. Pensamento pedagógico brasileiro."
+    },
+    {
+      "id": "FIL5125",
+      "code": "FIL5125",
+      "name": "Teoria do Conhecimento I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Problemas de metaepistemologia: fundacionalismo, ceticismo, coerentismo, análise do conhecimento."
+    },
+    {
+      "id": "FIL5126",
+      "code": "FIL5126",
+      "name": "Teoria do Conhecimento II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Epistemologias naturalizadas."
+    },
+    {
+      "id": "FIL5142",
+      "code": "FIL5142",
+      "name": "Antropologia Filosófica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos Especiais de Antropologia Filosófica"
+    },
+    {
+      "id": "FIL5171",
+      "code": "FIL5171",
+      "name": "Estética I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de Estética clássica."
+    },
+    {
+      "id": "FIL5172",
+      "code": "FIL5172",
+      "name": "Estética II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de Estética contemporânea."
+    },
+    {
+      "id": "FIL5187",
+      "code": "FIL5187",
+      "name": "Filosofia Política III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5182"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5182"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5213",
+      "code": "FIL5213",
+      "name": "Filosofia Antiga",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos da Filosofia Antiga."
+    },
+    {
+      "id": "FIL5214",
+      "code": "FIL5214",
+      "name": "Pensamento Oriental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos do pensamento oriental e suas relacões com as filosofias orientais."
+    },
+    {
+      "id": "FIL5215",
+      "code": "FIL5215",
+      "name": "Filosofia Antiga I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aprofundamento das questões da filosofia antiga."
+    },
+    {
+      "id": "FIL5223",
+      "code": "FIL5223",
+      "name": "Filosofia Medieval",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de Filosofia Medieval."
+    },
+    {
+      "id": "FIL5224",
+      "code": "FIL5224",
+      "name": "Filosofia Medieval I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aprofundamento das questões da filosofia medieval."
+    },
+    {
+      "id": "FIL5233",
+      "code": "FIL5233",
+      "name": "Filosofia Moderna I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos da filosofia nos séculos XVII e XVIII."
+    },
+    {
+      "id": "FIL5234",
+      "code": "FIL5234",
+      "name": "Filosofia Moderna II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos da Filosofia no século XIX."
+    },
+    {
+      "id": "FIL5243",
+      "code": "FIL5243",
+      "name": "Filosofia Contemporânea I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos do neo-positivismo, filosofia analítica e outros filósofos contemporâneos."
+    },
+    {
+      "id": "FIL5244",
+      "code": "FIL5244",
+      "name": "Filosofia Contemporânea II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos da Fenomenologia, existencialismo, marxismo e historicismo."
+    },
+    {
+      "id": "FIL5308",
+      "code": "FIL5308",
+      "name": "Filosofia da História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Problemas gerais da investigação em Filosofia da História."
+    },
+    {
+      "id": "FIL5309",
+      "code": "FIL5309",
+      "name": "Filosofia na América Latina",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História das idéias filosóficas na América Latina."
+    },
+    {
+      "id": "FIL5312",
+      "code": "FIL5312",
+      "name": "Filosofia no Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História das Idéias filosóficas no Brasil. Possibilidade de uma 'filosofia brasileira'."
+    },
+    {
+      "id": "FIL5314",
+      "code": "FIL5314",
+      "name": "Filosofia da Religião",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A religião como objeto da reflexão filosófica. Clássicos da Filosofia da Religião."
+    },
+    {
+      "id": "FIL5316",
+      "code": "FIL5316",
+      "name": "Filosofia da Ciência I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de filosofia da ciência com ênfase nas ciências naturais."
+    },
+    {
+      "id": "FIL5317",
+      "code": "FIL5317",
+      "name": "Filosofia da Ciência II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de filosofia da ciência com ênfase nas ciências humanas."
+    },
+    {
+      "id": "FIL5320",
+      "code": "FIL5320",
+      "name": "Filosofia da Mente",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de filosofia da mente."
+    },
+    {
+      "id": "FIL5368",
+      "code": "FIL5368",
+      "name": "Monitoria em Filosofia I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5400",
+      "code": "FIL5400",
+      "name": "Metafísica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Análise dos problemas metafísicos clássicos nas discussões contemporâneas."
+    },
+    {
+      "id": "FIL5468",
+      "code": "FIL5468",
+      "name": "Monitoria em Filosofia II",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5568",
+      "code": "FIL5568",
+      "name": "Pesquisa em Filosofia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5569",
+      "code": "FIL5569",
+      "name": "Pesquisa em Filosofia II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5580",
+      "code": "FIL5580",
+      "name": "Seminário de Interpretação de Textos I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Leitura e interpretação em caráter monográfico de um texto filosófico clássico."
+    },
+    {
+      "id": "FIL5581",
+      "code": "FIL5581",
+      "name": "Seminário de Interpretação Textos II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Leitura e interpretação em caráter monográfico de um texto filosófico clássico."
+    },
+    {
+      "id": "FIL5582",
+      "code": "FIL5582",
+      "name": "Seminário de Interpretação Textos III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Leitura e interpretação em caráter monográfico de um texto filosófico clássico."
+    },
+    {
+      "id": "FIL5583",
+      "code": "FIL5583",
+      "name": "Seminário de Interpretação Textos IV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Leitura e interpretação em caráter monográfico de um texto filosófico clássico."
+    },
+    {
+      "id": "FIL5605",
+      "code": "FIL5605",
+      "name": "Idealismo Alemão I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5606",
+      "code": "FIL5606",
+      "name": "Idealismo Alemão II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5613",
+      "code": "FIL5613",
+      "name": "Ética III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5614",
+      "code": "FIL5614",
+      "name": "Ética IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5615",
+      "code": "FIL5615",
+      "name": "Ética V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5653",
+      "code": "FIL5653",
+      "name": "Filosofia da Arte I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5654",
+      "code": "FIL5654",
+      "name": "Filosofia da Arte II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5655",
+      "code": "FIL5655",
+      "name": "Filosofia da Arte III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5668",
+      "code": "FIL5668",
+      "name": "Atividade de Extensão em Filosofia",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5701",
+      "code": "FIL5701",
+      "name": "Teorias da Justiça I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5702",
+      "code": "FIL5702",
+      "name": "Teorias da Justiça II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5705",
+      "code": "FIL5705",
+      "name": "Teoria dos Conjuntos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5632"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5632"
+      },
+      "syllabus": "Introdução aos fundamentos da teoria dos conjuntos."
+    },
+    {
+      "id": "FIL5706",
+      "code": "FIL5706",
+      "name": "Teoria da Ciência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5632",
+        "FIL5652"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5632"
+          },
+          {
+            "kind": "course",
+            "code": "FIL5652"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5707",
+      "code": "FIL5707",
+      "name": "Teorias da Democracia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5708",
+      "code": "FIL5708",
+      "name": "Teorias Políticas Medievais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5709",
+      "code": "FIL5709",
+      "name": "Teoria do Objeto e da Propriedade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5710",
+      "code": "FIL5710",
+      "name": "Teoria das Modalidades",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5711",
+      "code": "FIL5711",
+      "name": "Ética Política I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5712",
+      "code": "FIL5712",
+      "name": "Ética Política II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5715",
+      "code": "FIL5715",
+      "name": "Ética e Ciência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5716",
+      "code": "FIL5716",
+      "name": "Meta-Ética",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5721",
+      "code": "FIL5721",
+      "name": "Ética Global I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5722",
+      "code": "FIL5722",
+      "name": "Ética Global II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5723",
+      "code": "FIL5723",
+      "name": "Ética Global III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5731",
+      "code": "FIL5731",
+      "name": "Tópicos Especiais da História da Ética I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5732",
+      "code": "FIL5732",
+      "name": "Tópicos Especiais da História da Ética II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5733",
+      "code": "FIL5733",
+      "name": "Tópicos Especiais da História da Ética III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5735",
+      "code": "FIL5735",
+      "name": "Tópicos de Filosofia Política do Século XX",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5736",
+      "code": "FIL5736",
+      "name": "Tópicos Especiais de Filosofia da Linguagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5737",
+      "code": "FIL5737",
+      "name": "Tópicos Especiais de teoria do Conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5600"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5600"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5740",
+      "code": "FIL5740",
+      "name": "Filosofia do Renascimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5741",
+      "code": "FIL5741",
+      "name": "Seminário de Interpretação de Textos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5742",
+      "code": "FIL5742",
+      "name": "Seminário de Interpretação de Textos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Filosóficos I"
+    },
+    {
+      "id": "FIL5743",
+      "code": "FIL5743",
+      "name": "Seminário de Interpretação de Textos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Filosóficos II"
+    },
+    {
+      "id": "FIL5751",
+      "code": "FIL5751",
+      "name": "História da Filosofia Chinesa I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5751
+      },
+      "prerequisiteHours": 5751,
+      "syllabus": "Filosóficos III"
+    },
+    {
+      "id": "FIL5752",
+      "code": "FIL5752",
+      "name": "História da Filosofia Chinesa II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5752
+      },
+      "prerequisiteHours": 5752,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5753",
+      "code": "FIL5753",
+      "name": "Filosofia e Economia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5761",
+      "code": "FIL5761",
+      "name": "História da Filosofia Indiana I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5761
+      },
+      "prerequisiteHours": 5761,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5762",
+      "code": "FIL5762",
+      "name": "História da Filosofia Indiana II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5762
+      },
+      "prerequisiteHours": 5762,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5770",
+      "code": "FIL5770",
+      "name": "Filosofia das Ciências Biológicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5771",
+      "code": "FIL5771",
+      "name": "Filosofia Especulativa da História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5772",
+      "code": "FIL5772",
+      "name": "Filosofia Crítica da História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5773",
+      "code": "FIL5773",
+      "name": "Filosofia da Matemática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5632"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5632"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5774",
+      "code": "FIL5774",
+      "name": "Filosofia da Lógica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5632"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5632"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5775",
+      "code": "FIL5775",
+      "name": "Filosofia da Física",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5632",
+        "FIL5652"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5632"
+          },
+          {
+            "kind": "course",
+            "code": "FIL5652"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5776",
+      "code": "FIL5776",
+      "name": "Filosofia da Tecnologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5777",
+      "code": "FIL5777",
+      "name": "Filosofia Política: Herança e Modernidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5778",
+      "code": "FIL5778",
+      "name": "Filosofia Política: Herança e Contemporaneidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5779",
+      "code": "FIL5779",
+      "name": "Filosofia da Psicanálise",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5780",
+      "code": "FIL5780",
+      "name": "Filosofia Hermenêutica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5781",
+      "code": "FIL5781",
+      "name": "Filosofia da Educação I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas e autores clássicos da Filosofia da Educação."
+    },
+    {
+      "id": "FIL5785",
+      "code": "FIL5785",
+      "name": "Filosofia da Psicologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5786",
+      "code": "FIL5786",
+      "name": "Filosofia da Ação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5787",
+      "code": "FIL5787",
+      "name": "Filosofia Grega I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5788",
+      "code": "FIL5788",
+      "name": "Filosofia da Música",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5789",
+      "code": "FIL5789",
+      "name": "Introdução à Escrita e à Leitura de Textos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5790",
+      "code": "FIL5790",
+      "name": "Antropologia Filosófica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5791",
+      "code": "FIL5791",
+      "name": "Epistemologia Das Ciências Humanas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sobre os fundamentos epistemológicos das ciências humanas."
+    },
+    {
+      "id": "FIL5792",
+      "code": "FIL5792",
+      "name": "Ciência e Natureza",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas-aula)"
+    },
+    {
+      "id": "FIL5793",
+      "code": "FIL5793",
+      "name": "Lógicas Não-Clássicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIL5632"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIL5632"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5794",
+      "code": "FIL5794",
+      "name": "História da Lógica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIL5632"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5632"
+          },
+          {
+            "kind": "hours",
+            "hours": 5794
+          }
+        ]
+      },
+      "prerequisiteHours": 5794,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5795",
+      "code": "FIL5795",
+      "name": "Metalógica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIL5632"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIL5632"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5796",
+      "code": "FIL5796",
+      "name": "Mereologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIL5632"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIL5632"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5797",
+      "code": "FIL5797",
+      "name": "Lógica Tradicional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A noção informal de validade. Silogística aristotélica. Falácias formais e não formais."
+    },
+    {
+      "id": "FIL5798",
+      "code": "FIL5798",
+      "name": "Fundamentos Filosóficos da Justiça",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5799",
+      "code": "FIL5799",
+      "name": "Fundamentos Filosóficos da Bioética",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5811",
+      "code": "FIL5811",
+      "name": "Análise de Textos Filosóficos em Grego I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5572"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5572"
+      },
+      "syllabus": "Estudo de grego antigo voltado para análise e compreensão de textos."
+    },
+    {
+      "id": "FIL5812",
+      "code": "FIL5812",
+      "name": "Análise de Textos Filosóficos em Grego II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5584"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5584"
+      },
+      "syllabus": "(PCC 18 horas/aula) FIL5573) Estudo de grego antigo voltado para análise e compreensão de textos."
+    },
+    {
+      "id": "FIL5813",
+      "code": "FIL5813",
+      "name": "Análise de Textos Filosóficos em Grego III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5586"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5586"
+      },
+      "syllabus": "(PCC 18 horas/aula) FIL5585) Estudo de grego antigo voltado para análise e compreensão de textos."
+    },
+    {
+      "id": "FIL5814",
+      "code": "FIL5814",
+      "name": "Análise de Textos Filosóficos em Grego IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas/aula) FIL5587) Estudo de grego antigo voltado para análise e compreensão de textos."
+    },
+    {
+      "id": "FIL5821",
+      "code": "FIL5821",
+      "name": "Fenomenologia e Existencialismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas/aula)"
+    },
+    {
+      "id": "MEN5602",
+      "code": "MEN5602",
+      "name": "Didática B (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN5121",
+        "MEN5604"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN5121"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5604"
+          }
+        ]
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "horas/aula) - Educação escolar como fenômeno histórico-social. Currículo e trabalho pedagógico no contexto escolar. As relações de ensino-aprendizagem em contexto escolar. Mediações pedagógicas e suas relações com o ensino da área específica do curso."
+    },
+    {
+      "id": "PSI5137",
+      "code": "PSI5137",
+      "name": "Psicologia Educacional: Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5107"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5107"
+      },
+      "syllabus": "Introdução à Psicologia como ciência: histórico, objetivo e métodos. Interações sociais no contexto educacional e o lugar do professor. Introdução ao estudo do desenvolvimento e de aprendizagem - infância, adolescência, idade adulta. Contribuições da Psicologia na prática escolar cotidiana e na compreensão do fracasso escolar. Prática como componente curricular."
+    },
+    {
+      "id": "EED5185",
+      "code": "EED5185",
+      "name": "Organização Escolar I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5129"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED5129"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5680",
+      "code": "FIL5680",
+      "name": "Filosofia da Educação (PCC - 54",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN5142",
+      "code": "MEN5142",
+      "name": "Metodologia de Ensino de Filosofia - PCC -",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN5602"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN5602"
+      },
+      "syllabus": "horas/aula) - As formas de representação do funcionamento do pensamento filosófico numa perspectiva histórica. Questões de método e formação cultural na investigação, na produção e no ensino filosófico. A Filosofia e seu exercício no ensino médio. Funcionamento e organização do ensino escolar. O exercício da Filosofia através de aulas simuladas."
+    },
+    {
+      "id": "MEN5315",
+      "code": "MEN5315",
+      "name": "Estágio Supervisionado de Ensino de Filosofia I",
+      "credits": 14,
+      "hours": 252,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN5142",
+        "MEN5602"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN5142"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5602"
+          }
+        ]
+      },
+      "syllabus": "Discussão sobre ensino de filosofia na escola, cadastro SIARE, observação e atividade de docência em filosofia, participação em atividades da escola, elaboração de relatórios de observação e acompanhamento, elaboração e apresentação de ensaio crítico sobre a experiência de estágio docente."
+    },
+    {
+      "id": "FIL5690",
+      "code": "FIL5690",
+      "name": "Atividades Acadêmico-científico-culturais",
+      "credits": 13,
+      "hours": 240,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "_ _"
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE7881"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE7881"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "MEN5316",
+      "code": "MEN5316",
+      "name": "Estágio Supervisionado de Ensino de Filosofia II",
+      "credits": 14,
+      "hours": 252,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN5315"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN5315"
+      },
+      "syllabus": "18h-a) LSB7904) Discussão sobre filosofia e possibilidades de aprendê-la e ensiná-la, docência em filosofia e participação em atividades da escola, elaboração de cronograma docente com base no plano de ensino do professor supervisor da escola, planos de aula e relato de docência, gravação de aulas em vídeo, elaboração e apresentação dos ensaios pedagógicos."
+    },
+    {
+      "id": "FIL5661",
+      "code": "FIL5661",
+      "name": "Seminário de Pesquisa Filosófica (PCC - 36 horas/aula)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 6
+      },
+      "prerequisiteHours": 6,
+      "syllabus": "Filosofia nos níveis Fundamental, Médio e Superior, bem como para a pesquisa e a produção genuinamente filosóficas. Além disso, tem como objetivos específicos: formar pessoas com espírito compreensivo e crítico da realidade; articular as atividades de ensino, pesquisa e extensão na atividade docente; propiciar a socialização e apropriação da cultura e do conhecimento filosófico, atendendo às urgências da contemporaneidade."
+    },
+    {
+      "id": "FIL5671",
+      "code": "FIL5671",
+      "name": "Trabalho de Conclusão de Curso I (TCC)",
+      "credits": 12,
+      "hours": 144,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FIL5661"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5661"
+          },
+          {
+            "kind": "hours",
+            "hours": 1500
+          }
+        ]
+      },
+      "prerequisiteHours": 1500,
+      "syllabus": "_ _ _"
+    },
+    {
+      "id": "FIL5672",
+      "code": "FIL5672",
+      "name": "Trabalho de Conclusão de Curso II (TCC)",
+      "credits": 12,
+      "hours": 216,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FIL5671"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIL5671"
+      },
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "FIL5600",
+      "FIL5601",
+      "FIL5611",
+      "FIL5631",
+      "FIL5602",
+      "FIL5621",
+      "FIL5632",
+      "FIL5641",
+      "FIL5603",
+      "FIL5622",
+      "FIL5642",
+      "FIL5650",
+      "FIL5604",
+      "FIL5612",
+      "FIL5651",
+      "FIL5652",
+      "FIL5660",
+      "MEN5602",
+      "PSI5137",
+      "EED5185",
+      "FIL5680",
+      "MEN5142",
+      "MEN5315",
+      "FIL5690",
+      "LSB7244",
+      "MEN5316",
+      "FIL5661",
+      "FIL5671",
+      "FIL5672"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 900,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "FIL7205",
+              "EED5186",
+              "EED5331",
+              "FIL5125",
+              "FIL5126",
+              "FIL5142",
+              "FIL5171",
+              "FIL5172",
+              "FIL5187",
+              "FIL5213",
+              "FIL5214",
+              "FIL5215",
+              "FIL5223",
+              "FIL5224",
+              "FIL5233",
+              "FIL5234",
+              "FIL5243",
+              "FIL5244",
+              "FIL5308",
+              "FIL5309",
+              "FIL5312",
+              "FIL5314",
+              "FIL5316",
+              "FIL5317",
+              "FIL5320",
+              "FIL5368",
+              "FIL5400",
+              "FIL5468",
+              "FIL5568",
+              "FIL5569",
+              "FIL5580",
+              "FIL5581",
+              "FIL5582",
+              "FIL5583",
+              "FIL5605",
+              "FIL5606",
+              "FIL5613",
+              "FIL5614",
+              "FIL5615",
+              "FIL5653",
+              "FIL5654",
+              "FIL5655",
+              "FIL5668",
+              "FIL5701",
+              "FIL5702",
+              "FIL5705",
+              "FIL5706",
+              "FIL5707",
+              "FIL5708",
+              "FIL5709",
+              "FIL5710",
+              "FIL5711",
+              "FIL5712",
+              "FIL5715",
+              "FIL5716",
+              "FIL5721",
+              "FIL5722",
+              "FIL5723",
+              "FIL5731",
+              "FIL5732",
+              "FIL5733",
+              "FIL5735",
+              "FIL5736",
+              "FIL5737",
+              "FIL5740",
+              "FIL5741",
+              "FIL5742",
+              "FIL5743",
+              "FIL5751",
+              "FIL5752",
+              "FIL5753",
+              "FIL5761",
+              "FIL5762",
+              "FIL5770",
+              "FIL5771",
+              "FIL5772",
+              "FIL5773",
+              "FIL5774",
+              "FIL5775",
+              "FIL5776",
+              "FIL5777",
+              "FIL5778",
+              "FIL5779",
+              "FIL5780",
+              "FIL5781",
+              "FIL5785",
+              "FIL5786",
+              "FIL5787",
+              "FIL5788",
+              "FIL5789",
+              "FIL5790",
+              "FIL5791",
+              "FIL5792",
+              "FIL5793",
+              "FIL5794",
+              "FIL5795",
+              "FIL5796",
+              "FIL5797",
+              "FIL5798",
+              "FIL5799",
+              "FIL5811",
+              "FIL5812",
+              "FIL5813",
+              "FIL5814",
+              "FIL5821"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "328",
+    "curriculumCode": "20061",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=328&curriculo=20061",
+    "sha256": "a5ce8afea4c8ab991b6e3726f44b6ae7224b082b0a6239bc99065b5d2bfbefc6",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -1,0 +1,826 @@
+{
+  "program": "Letras - Língua Portuguesa e Literaturas de Língua Portuguesa",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2017.1",
+  "totalHours": 3354,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    }
+  ],
+  "courses": [
+    {
+      "id": "LLV9139",
+      "code": "LLV9139",
+      "name": "Tecnologias na Educação",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As Tecnologias Digitais de Comunicação e Informação (TDIC) e os processos de ensino aprendizagem (presencial e a distância). Implicações do uso das TDIC na Educação. Educação e Tecnologias: evolução histórica e perspectiva. O ensino da língua portuguesa mediado pelas tecnologias."
+    },
+    {
+      "id": "LLV9140",
+      "code": "LLV9140",
+      "name": "Leitura e Produção Textual Acadêmica",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos fundantes: letramento acadêmico e gêneros textuais/discursivos da esfera acadêmica. Dimensões intrassubjetivas e intersubjetivas dos atos de ler e de escrever. Implicações entre práticas de leitura e práticas de produção textual na universidade. Vivência de interações acadêmicas mediadas pelos gêneros fichamento, resumo, resenha, seminário projeto de pesquisa e artigo."
+    },
+    {
+      "id": "LLV9421",
+      "code": "LLV9421",
+      "name": "Estudos de Teoria da Literatura I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos Estudos Literários, abordando os seguintes aspectos: debates sobre teoria, literatura e cânone; poéticas clássicas (mimese e níveis de representação; a poética de Aristóteles; uma tragédia grega); poéticas modernas (mescla e hibridismo; uma peça de Shakespeare); poéticas contemporâneas (a crise da representação)."
+    },
+    {
+      "id": "LLV9861",
+      "code": "LLV9861",
+      "name": "Língua Latina",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A Língua Latina em seu contexto de produção. Sistema nominal: as declinações e os casos latinos; as funções sintáticas correspondentes. Sistema verbal: voz ativa, modo indicativo e imperativo, aspectos do infectum e do perfectum.Categorias gramaticais: proposições, adjetivos e pronomes. Subsistência de traços da Língua Latina na Língua Portuguesa.Literatura Latina: prosa; poesia dramática; poesia lírica; poesia épica."
+    },
+    {
+      "id": "EED9502",
+      "code": "EED9502",
+      "name": "Organização Escolar - PCC 12 horas/aula",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "Teorias que norteiam o tema organização escolar e o currículo. Estrutura organizacional do sistema nacional de educação. Níveis e modalidades de ensino da Educação Básica. Projeto Político Pedagógico. A teoria curricular e os aspectos da ideologia, da cultura e do poder. O currículo e os ritos de exclusão. PCNs; Propostas curriculares : estadual e municipais. A avaliação curricular. O currículo e as identidades sociais."
+    },
+    {
+      "id": "LLV9141",
+      "code": "LLV9141",
+      "name": "Gramática do Português I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9122",
+        "LLV9123"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV9122"
+          },
+          {
+            "kind": "course",
+            "code": "LLV9123"
+          }
+        ]
+      },
+      "syllabus": "Introdução à fonética articulatória. Conceitos fundantes da fonologia e da morfologia. Fenômenos fonético-fonológicos e morfofonológicos do português. Transcrição fonética e fonológica."
+    },
+    {
+      "id": "LLV9321",
+      "code": "LLV9321",
+      "name": "Literatura de Expressão em Língua",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9311"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9311"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9422",
+      "code": "LLV9422",
+      "name": "Estudos de Teoria da Literatura II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Portuguesa I Estudo da narrativa ficcional e da poesia em seus aspectos históricos e formais. Gêneros e subgêneros; a estrutura narrativa: história, personagem, foco narrativo, tempo e espaço; as fronteiras do ficcional (história e ficção); análise e crítica textual; poéticas clássicas e modernas; o poético enquanto forma e enquanto função; análise e interpretação do texto poético."
+    },
+    {
+      "id": "LLV9142",
+      "code": "LLV9142",
+      "name": "Gramática do Português II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9123",
+        "LLV9124"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV9123"
+          },
+          {
+            "kind": "course",
+            "code": "LLV9124"
+          }
+        ]
+      },
+      "syllabus": "Estrutura interna das palavras: flexão e derivação. Fatos gramaticais na interface entre sintaxe e morfologia: concordância. Noção de “caso” nos domínios morfológicos e sintáticos. Estrutura interna das palavras: flexão e derivação. Categorias gramaticais: uniformidade da organização hierárquica de nomes, verbos, adjetivos, advérbios e preposições, como resultado da projeção das propriedades lexicais. Relações sintáticas fundamentais: predicação, complementação e adjunção."
+    },
+    {
+      "id": "LLV9221",
+      "code": "LLV9221",
+      "name": "Literatura Brasileira I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9211"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9211"
+      },
+      "syllabus": "Da colônia ao romantismo - construção da identidade nacional a partir do mapeamento territorial: a colonização jesuítica; o barroco e a internacionalização da cultura; neoclassicismo e ilustração: a poesia nativista e a prosa dos publicistas; a lírica romântica: o subjetivismo de Álvares de Azevedo, o indianismo de Gonçalves Dias e a poesia social de Castro Alves; Alencar e as ficções fundacionais."
+    },
+    {
+      "id": "LLV9322",
+      "code": "LLV9322",
+      "name": "Literatura de Expressão em Língua",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9312"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9312"
+      },
+      "syllabus": "O oitocentos português –a construção da identidade nacional e os entraves à modernização: da história ao romance, Almeida Garrett e Alexandre Herculano; Eça de Queirós; subjetividade e crítica da razão: Cesário Verde, António Nobre, Camilo Pessanha."
+    },
+    {
+      "id": "PSI9403",
+      "code": "PSI9403",
+      "name": "Psicologia Educacional: Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Portuguesa II Introdução à Psicologia como ciência: histórico, objetos e métodos. Interações sociais no contexto educacional e o lugar do professor. Introdução ao estudo de desenvolvimento e de aprendizagem _ infância, adolescência, idade adulta. Contribuições da Psicologia na prática escolar cotidiana e na compreensão do fracasso escolar. Atividade de prática de ensino: uso de questionário, entrevista ou observação direta para investigação dos fenômenos psicológicos estudados e elaboração de relatório"
+    },
+    {
+      "id": "LLV9143",
+      "code": "LLV9143",
+      "name": "Gramática do Português III",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9124",
+        "LLV9127"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV9124"
+          },
+          {
+            "kind": "course",
+            "code": "LLV9127"
+          }
+        ]
+      },
+      "syllabus": "Fatos gramaticais na interface sintaxe/semântica/pragmática. Fatos sintáticos e a composição de sentido. A noção de \"papéis temáticos\" nos domínios sintático e semântico. Sentenças complexas: subordinação. A interface entre gramática e discurso: ordem de constituintes e estrutura informacional. Tipologia linguística e propriedades gramaticais."
+    },
+    {
+      "id": "LLV9222",
+      "code": "LLV9222",
+      "name": "Literatura Brasileira II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9212"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9212"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9323",
+      "code": "LLV9323",
+      "name": "Literatura de Expressão em Língua",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9313"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9313"
+      },
+      "syllabus": "Modernidade e pós-modernidade nas literaturas de expressão portuguesa: séculos XX e XXI. Metáforas da modernidade, vanguardas, modernismo: Fernando Pessoa e a geração de Orpheu; o grupo presencista; subjetividade lírica em Florbela Espanca; o programa neo-realista; o romance contemporâneo: metaficção, intertexto, paródia; ficções de expressão portuguesa contemporâneas. Literatura africana de expressão portuguesa."
+    },
+    {
+      "id": "MEN9102",
+      "code": "MEN9102",
+      "name": "Didática do Ensino de Língua Portuguesa e Literatura - PCC 12 horas/aula",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "Portuguesa III Configuração histórica da área da Didática. Atividades de ensino como prática político-social e formativa do professor. Ensino-aprendizagem e questões político-pedagógicas e sociais da educação escolar. Concepção de conhecimento, de aprendizagem e as teorias pedagógicas. Organização do processo ensino-aprendizagem e o projeto pedagógico na escola. Modalidades de planejamento para a mediação pedagógica e sua relação com especificidade no campo de conhecimento do ensino de Letras."
+    },
+    {
+      "id": "LLV9144",
+      "code": "LLV9144",
+      "name": "Aquisição da Língua Oral e Escrita",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9129"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9129"
+      },
+      "syllabus": "Estágios de desenvolvimento linguístico na criança. Teorias de aquisição da linguagem. Fenômenos da aquisição do português como língua materna. Aprendizagem da língua escrita. Relações entre fonologia e ortografia do português."
+    },
+    {
+      "id": "LLV9145",
+      "code": "LLV9145",
+      "name": "Lingüística Textual",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9125"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9125"
+      },
+      "syllabus": "Fundamentação epistemológica. O texto como objeto de pesquisa: conceitos de texto, princípios de textualização, condições de produção, organização/tessitura textual, a construção do sentido, processamento textual, tipologias textuais."
+    },
+    {
+      "id": "LLV9223",
+      "code": "LLV9223",
+      "name": "Literatura Brasileira III",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9213"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9213"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "MEN9120",
+      "code": "MEN9120",
+      "name": "Metodologia do Ensino de Língua",
+      "credits": 7,
+      "hours": 126,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN9103"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN9103"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9146",
+      "code": "LLV9146",
+      "name": "Lingüística Aplicada:Ensino e Apredizagem de Língua Materna I (PCC 50)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9131"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9131"
+      },
+      "syllabus": "portuguesa e Literatura (PCC 36)"
+    },
+    {
+      "id": "LLV9151",
+      "code": "LLV9151",
+      "name": "Língua e Ensino I (PCC-90)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apredizagem de Língua Materna I (PCC 50)"
+    },
+    {
+      "id": "LLV9511",
+      "code": "LLV9511",
+      "name": "Literatura e Ensino I (PCC 60)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A literatura ensina-se? Literatura e ensino e suas questões centrais. Políticas de leitura. Formação de leitores. Os PCNs e a leitura. A leitura e o quotidiano escolar. Os livros didáticos. Palavras e imagens. Literatura e mídia. História em quadrinhos (HQ). As adaptações de textos clássicos. Novas tecnologias e novas linguagens. A cultura indígena. Questões teóricas e críticas."
+    },
+    {
+      "id": "MEN9121",
+      "code": "MEN9121",
+      "name": "Estágio Supervisionado em Língua",
+      "credits": 5,
+      "hours": 100,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1080
+      },
+      "prerequisiteHours": 1080,
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9147",
+      "code": "LLV9147",
+      "name": "Lingüística Aplicada:Ensino e Aprendizagem de Língua Materna II (PCC",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9132"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9132"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9148",
+      "code": "LLV9148",
+      "name": "Sociolinguística",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9126"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9126"
+      },
+      "syllabus": "50)"
+    },
+    {
+      "id": "LLV9149",
+      "code": "LLV9149",
+      "name": "História da Língua e Norma Linguística",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9128",
+        "LLV9134"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9149
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV9128"
+          },
+          {
+            "kind": "course",
+            "code": "LLV9134"
+          }
+        ]
+      },
+      "prerequisiteHours": 9149,
+      "syllabus": ""
+    },
+    {
+      "id": "MEN9122",
+      "code": "MEN9122",
+      "name": "Estágio Supervisionado em Língua",
+      "credits": 5,
+      "hours": 100,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN9121"
+      ],
+      "equivalents": [
+        "MEN9104"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN9121"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN9104"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9150",
+      "code": "LLV9150",
+      "name": "Análise do Discurso",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9133"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9133"
+      },
+      "syllabus": "Portuguesa II"
+    },
+    {
+      "id": "LLV9152",
+      "code": "LLV9152",
+      "name": "Língua e Ensino II (PCC 90)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9130"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9130"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9522",
+      "code": "LLV9522",
+      "name": "Literatura e Ensino II (PCC 90)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9512"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV9512"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "MEN9123",
+      "code": "MEN9123",
+      "name": "Estágio Supervisionado em Língua",
+      "credits": 5,
+      "hours": 100,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN9122"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN9122"
+          },
+          {
+            "kind": "hours",
+            "hours": 1800
+          }
+        ]
+      },
+      "prerequisiteHours": 1800,
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9153",
+      "code": "LLV9153",
+      "name": "Estudos Linguísticos e Literários",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LSB9904",
+      "code": "LSB9904",
+      "name": "Língua Brasileira de Sinais I (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sianis: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar ionformações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "MEN9124",
+      "code": "MEN9124",
+      "name": "Estágio Supervisionado em Língua",
+      "credits": 5,
+      "hours": 100,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN9123"
+      ],
+      "equivalents": [
+        "MEN9105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN9123"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN9105"
+      },
+      "syllabus": "horas-aula)"
+    },
+    {
+      "id": "LLV9030",
+      "code": "LLV9030",
+      "name": "Ensino em Letras I",
+      "credits": 3,
+      "hours": 50,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Portuguesa IV Atividades Acadêmico-Científico-Culturais Atividades de caráter científico, cultural e acadêmico ligadas ao Ensino de Língua e/ou Literatura."
+    },
+    {
+      "id": "LLV9031",
+      "code": "LLV9031",
+      "name": "Ensino em Letras II",
+      "credits": 3,
+      "hours": 50,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades de caráter científico, cultural e acadêmico ligadas ao Ensino de Língua e/ou Literatura."
+    },
+    {
+      "id": "LLV9036",
+      "code": "LLV9036",
+      "name": "Pesquisa Extensão I",
+      "credits": 3,
+      "hours": 50,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9037",
+      "code": "LLV9037",
+      "name": "Pesquisa Extensão II",
+      "credits": 3,
+      "hours": 50,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9038",
+      "code": "LLV9038",
+      "name": "Pesquisa Extensão III",
+      "credits": 3,
+      "hours": 50,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9039",
+      "code": "LLV9039",
+      "name": "Pesquisa Extensão IV",
+      "credits": 3,
+      "hours": 50,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9040",
+      "code": "LLV9040",
+      "name": "Oficina de Educação Especial",
+      "credits": 1,
+      "hours": 20,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9041",
+      "code": "LLV9041",
+      "name": "Oficina de Cultura Africana",
+      "credits": 1,
+      "hours": 20,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9042",
+      "code": "LLV9042",
+      "name": "Oficina da Cultura Indígena",
+      "credits": 1,
+      "hours": 20,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLV9043",
+      "code": "LLV9043",
+      "name": "Oficna de Educação Ambiental",
+      "credits": 1,
+      "hours": 20,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "LLV9139",
+      "LLV9140",
+      "LLV9421",
+      "LLV9861",
+      "EED9502",
+      "LLV9141",
+      "LLV9321",
+      "LLV9422",
+      "LLV9142",
+      "LLV9221",
+      "LLV9322",
+      "PSI9403",
+      "LLV9143",
+      "LLV9222",
+      "LLV9323",
+      "MEN9102",
+      "LLV9144",
+      "LLV9145",
+      "LLV9223",
+      "MEN9120",
+      "LLV9146",
+      "LLV9151",
+      "LLV9511",
+      "MEN9121",
+      "LLV9147",
+      "LLV9148",
+      "LLV9149",
+      "MEN9122",
+      "LLV9150",
+      "LLV9152",
+      "LLV9522",
+      "MEN9123",
+      "LLV9153",
+      "LSB9904",
+      "MEN9124",
+      "LLV9030",
+      "LLV9031",
+      "LLV9036",
+      "LLV9037",
+      "LLV9038",
+      "LLV9039",
+      "LLV9040",
+      "LLV9041",
+      "LLV9042",
+      "LLV9043"
+    ],
+    "requirements": []
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "710",
+    "curriculumCode": "20171",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=710&curriculo=20171",
+    "sha256": "aa83340ee43f0297b02026386dd3fb8a8d398a3eebf27e4c1e4cd02a758444af",
+    "capturedAt": "2026-09-22"
+  }
+}

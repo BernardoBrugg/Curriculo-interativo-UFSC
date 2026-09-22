@@ -32,12 +32,12 @@ export function SiteFooter() {
           <div className="flex flex-wrap items-center gap-3">
             <span>Desenvolvido por Bernardo Bruggemann.</span>
             <a
-              href="https://www.linkedin.com/in/bernardobruggemann"
+              href="https://bebrugg.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="font-semibold text-[var(--text-muted)] transition hover:text-[var(--text-strong)]"
             >
-              LinkedIn
+              Portfólio
             </a>
             <a
               href="https://github.com/BernardoBrugg"
@@ -46,6 +46,14 @@ export function SiteFooter() {
               className="font-semibold text-[var(--text-muted)] transition hover:text-[var(--text-strong)]"
             >
               GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/bernardobruggemann"
+              target="_blank"
+              rel="noreferrer"
+              className="font-semibold text-[var(--text-muted)] transition hover:text-[var(--text-strong)]"
+            >
+              LinkedIn
             </a>
           </div>
         </div>

@@ -1,0 +1,1991 @@
+{
+  "program": "MATEMÁTICA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2024.1",
+  "totalHours": 2970,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "MTM3400",
+      "code": "MTM3400",
+      "name": "Introdução ao Cálculo",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conjuntos, funções, construção dos números inteiros e racionais, números reais, funções reais de uma variável real, funções elementares, progressões aritméticas e geométricas."
+    },
+    {
+      "id": "MTM3411",
+      "code": "MTM3411",
+      "name": "Laboratório de Matemática I (PCC 72h-a)*",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Estratégia de resolução de problemas: resolução por árvores, algoritmos, equações, construções geométricas. Problemas olímpicos, Raciocínio dedutivo: conectivos, condicionais, quantificadores, regras de inferência, deduções. Problemas lógicos. Prática como componente curricular."
+    },
+    {
+      "id": "MTM3450",
+      "code": "MTM3450",
+      "name": "Fundamentos de Aritmética",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conjunto dos números naturais: operações, ordem, divisibilidade, princípios de indução e boa ordem, números primos e sistemas de numeração. Conjunto dos números inteiros: operações, ordem, divisibilidade, equações diofantinas lineares, números primos e congruências. Conjunto dos números racionais: operações, ordem e representação decimal."
+    },
+    {
+      "id": "MTM3475",
+      "code": "MTM3475",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3476"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3476"
+      },
+      "syllabus": "Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies."
+    },
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3400"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3400"
+      },
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "MTM3401",
+      "code": "MTM3401",
+      "name": "Cálculo I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3400"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3400"
+      },
+      "syllabus": "Sequências de números reais. Limites e continuidade de funções de uma variável. Derivação de funções de uma variável real. Integração de funções de uma variável real."
+    },
+    {
+      "id": "MTM3421",
+      "code": "MTM3421",
+      "name": "Álgebra Linear I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3475"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3475"
+      },
+      "syllabus": "Matrizes, sistemas de equações lineares, decomposição PA=LU, determinantes, desenvolvimento de Laplace, regra de Cramer, método de Gauss-Jordan. Espaços vetoriais sobre o corpo dos números reais, subespaços vetoriais, base e dimensão, transformações lineares, teorema da dimensão, matrizes de uma transformação linear, espaços duais."
+    },
+    {
+      "id": "MTM3510",
+      "code": "MTM3510",
+      "name": "Introdução à Combinatória e Probabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3411"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3411"
+      },
+      "syllabus": "Análise Combinatória: princípio fundamental da contagem, arranjo, permutação e combinação. Binômio de Newton e polinômio de Leibniz. Introdução à Teoria de Probabilidade: espaço amostral, adição e multiplicação de probabilidades"
+    },
+    {
+      "id": "FSC5002",
+      "code": "FSC5002",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "MTM3401"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3401"
+          }
+        ]
+      },
+      "syllabus": "Estudo da Cinemática e Dinâmica da rotação de corpos rígidos. Oscilações e ondas Mecânicas(som). Estática e Dinãmica dos Fluídos. Noções sobre temperatura, calor, princípios da Termodiâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "MTM3402",
+      "code": "MTM3402",
+      "name": "Cálculo II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3401",
+        "MTM3475"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3401"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3475"
+          }
+        ]
+      },
+      "syllabus": "Técnicas de integração. Aplicações de integral. Séries numéricas e de potências. Funções reais de várias variáveis: limite, continuidade e diferenciação."
+    },
+    {
+      "id": "MTM3422",
+      "code": "MTM3422",
+      "name": "Álgebra Linear II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3421"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3421"
+      },
+      "syllabus": "Espaços vetoriais sobre C, espaços com produto interno, Gram-Schmidt e a decomposição QR, método dos mínimos quadrados, Teorema de representação de Riesz. Operadores especiais em espaços com produto interno: operadores unitários e isometrias, 23 operadores auto-adjuntos. Autovalores e autovetores, operadores e matrizes diagonalizáveis, Teorema de Cayley-Hamilton, forma canônica de Jordan. Teorema de Schur, Teorema espectral, decomposição em valores singulares."
+    },
+    {
+      "id": "FSC5113",
+      "code": "FSC5113",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3402"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3402"
+          }
+        ]
+      },
+      "syllabus": "Análise dos principais fenômenos da eletricidade e magnetismo abrangendo o estudo de campo elétrico, potencial elétrico, capacitor, corrente elétrica, força eletromotriz, campo magnético e indução eletromagnética."
+    },
+    {
+      "id": "MTM3403",
+      "code": "MTM3403",
+      "name": "Cálculo III",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3402"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3402"
+      },
+      "syllabus": "Funções vetoriais: curvas e caminhos, derivadas direcionais, diferenciação. Máximos e mínimos em funções de várias variáveis. Integrais múltiplas: definição, teorema de Fubini, mudança de variáveis, integrais duplas e triplas e regiões mais gerais, aplicações. Integrais de linha e superfície: definições, campos conservativos, teoremas de Green, Gauss e Stokes."
+    },
+    {
+      "id": "MTM3430",
+      "code": "MTM3430",
+      "name": "Análise na Reta",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3402"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3402"
+      },
+      "syllabus": "Números reais. Noções topológicas na reta. Sequências e séries numéricas do ponto de vista da análise. Formalização dos conceitos de limites, continuidade e diferenciação para funções reais de uma variável."
+    },
+    {
+      "id": "MTM3451",
+      "code": "MTM3451",
+      "name": "Álgebra I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3450"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3450"
+      },
+      "syllabus": "Anéis, subanéis, homomorfismos entre anéis, ideais, anéis quocientes. Teoremas do isomorfismo. Domínios e corpos. Corpos de frações. Anéis de inteiros módulo n. Congruências lineares. Teorema chinês dos restos. Corpo dos números complexos. Anéis de polinômios. Divisibilidade, fatoração única e máximo divisor comum em domínios."
+    },
+    {
+      "id": "MTM3452",
+      "code": "MTM3452",
+      "name": "Álgebra II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3450"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3450"
+      },
+      "syllabus": "Grupos, subgrupos, classes laterais, Teorema de Lagrange, subgrupos normais, grupos quociente, homomorfismos entre grupos, Teorema de Cayley, teoremas do isomorfismo, grupos Sn, Teorema de Cauchy."
+    },
+    {
+      "id": "MTM3490",
+      "code": "MTM3490",
+      "name": "Introdução à Topologia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3430"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3430"
+      },
+      "syllabus": "Métrica. Espaços métricos: noções topológicas, sequências, espaços métricos completos, continuidade, continuidade uniforme, compacidade, conexidade."
+    },
+    {
+      "id": "MTM3501",
+      "code": "MTM3501",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3402"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3402"
+      },
+      "syllabus": "Métodos de resolução para algumas equações de primeira ordem. Existência, unicidade e dependência contínua com relação a dados iniciais. Métodos para equações de segunda ordem. Sistemas lineares de equações diferenciais. Transformada de Laplace."
+    },
+    {
+      "id": "MTM3520",
+      "code": "MTM3520",
+      "name": "Laboratório de Matemática Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3422"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3422"
+      },
+      "syllabus": "Noções de Hardware e Software. Representação, técnicas de elaboração, estruturas de dados e implementação de programas em linguagem de alto nível. Analisar problemas e elaborar algoritmos para sua solução de forma clara e precisa, usando programação estruturada em linguagem de alto nível. Resolução de problemas relacionados à Álgebra Linear. Introdução ao LATEX."
+    },
+    {
+      "id": "INE5405",
+      "code": "INE5405",
+      "name": "Probabilidade e Estatística",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3402"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3402"
+      },
+      "syllabus": "Análise combinatória. Planejamento de uma pesquisa. Análise exploratória de dados. Probabilidade. Variáveis aleatórias discretas e contínuas. Principais modelos teóricos. Estimação de parâmetros. Testes de hipóteses."
+    },
+    {
+      "id": "MTM3431",
+      "code": "MTM3431",
+      "name": "Análise I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3490"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3490"
+      },
+      "syllabus": "Espaços euclidianos. Limites, continuidade e diferenciação em Rn do ponto de vista da análise. Sequências e séries de funções em Rn."
+    },
+    {
+      "id": "MTM3435",
+      "code": "MTM3435",
+      "name": "Variável Complexa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3403"
+      ],
+      "equivalents": [
+        "MTM3436"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3403"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3436"
+      },
+      "syllabus": "Números complexos. Sequências no plano complexo. Funções de uma variável complexa. Equações de Cauchy-Riemann. Integração de funções complexas. Teorema de Cauchy. Fórmula integral de Cauchy. Teorema de Cauchy-Goursat. Funções analíticas e séries de potências. Séries de Taylor e Laurent. Teorema dos Resíduos. Cálculo de integrais com resíduos."
+    },
+    {
+      "id": "MTM3521",
+      "code": "MTM3521",
+      "name": "Métodos Numéricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3501",
+        "MTM3520"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3501"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3520"
+          }
+        ]
+      },
+      "syllabus": "Aritmética de ponto flutuante. Zeros de funções reais. Sistemas Lineares. Interpolação Polinomial. Integração Numérica. Quadrados Mínimos lineares. Tratamento Numérico de Equações diferenciais ordinárias."
+    },
+    {
+      "id": "MTM3432",
+      "code": "MTM3432",
+      "name": "Análise II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3431"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3431"
+      },
+      "syllabus": "Integral de Riemann de funções de várias variáveis. Medida de Lebesgue. Teoremas de convergência para integrais de Lebesgue. Espaços L^p."
+    },
+    {
+      "id": "MTM3503",
+      "code": "MTM3503",
+      "name": "Equações Diferenciais Parciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3431",
+        "MTM3501"
+      ],
+      "equivalents": [
+        "MTM3506"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3431"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3501"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3506"
+      },
+      "syllabus": "Conceitos gerais. Equações lineares com coeficientes constantes. Classificação. EDPs de primeira ordem e método de características. Séries de Fourier (convergência pontual e uniforme). Método de Separação de Variáveis e expansão em autofunções. Equação do calor. Núcleo do Calor. Equação da onda. Velocidade de propagação. Regularidade de soluções. Problemas em domínios não-limitados. A transformada em L1 (Rn) do operador de Laplace. Método de Variação de Parâmetros e Fórmula de Duhamel. Equação de Laplace. Solução Fundamental. Funções de Green para o operador de Laplace. Fórmula de Poisson."
+    },
+    {
+      "id": "MTM3597",
+      "code": "MTM3597",
+      "name": "TCC I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1800,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 1800,
+      "syllabus": "Elaboração e análise do projeto de pesquisa; Orientação teórico-metodológica para execução da pesquisa."
+    },
+    {
+      "id": "MTM3482",
+      "code": "MTM3482",
+      "name": "Geometria Diferencial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3403"
+      ],
+      "equivalents": [
+        "MTM3581"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3403"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3581"
+      },
+      "syllabus": "Curvas em R^2 e R^3. Teorema Fundamental das Curvas. Superfícies em R^3. Aplicação Normal de Gauss. Primeira e Segunda Formas Fundamentais. Teorema Egregium de Gauss. Teorema de Gauss-Bonnet e aplicações."
+    },
+    {
+      "id": "MTM3524",
+      "code": "MTM3524",
+      "name": "Álgebra Linear Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3422",
+        "MTM3521"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3422"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3521"
+          }
+        ]
+      },
+      "syllabus": "Análise matricial. Decomposição em valores singulares. Sensibilidade de sistemas de equações lineares. Decomposição QR. Métodos para problemas de quadrados mínimos lineares. Métodos iterativos para sistemas lineares."
+    },
+    {
+      "id": "MTM3598",
+      "code": "MTM3598",
+      "name": "TCC II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3597"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3597"
+      },
+      "syllabus": "Elaboração e análise do projeto de pesquisa; Orientação teórico-metodológica para execução da pesquisa."
+    },
+    {
+      "id": "ANT7701",
+      "code": "ANT7701",
+      "name": "Estudos Afro-Brasileiros - PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações raciais e racismo no Brasil. Relações interétnicas e Identidades étnicas. Estudos sobre os negros no Brasil."
+    },
+    {
+      "id": "BEG7012",
+      "code": "BEG7012",
+      "name": "Biologia Celular (PCC 4 horas/aula)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "horas/aula Diversidade celular. Organização da célula procariota e eucariota. Evolução celular. Aspectos morfológicos, bioquímicos e funcionais da célula, de seus revestimentos e de seus compartimentos e componentes sub-celulares. Integração morfofuncional dos componentes celulares. Métodos de estudo em biologia celular."
+    },
+    {
+      "id": "DAS5102",
+      "code": "DAS5102",
+      "name": "Fundamentos da Estrutura da Informação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3520"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3520"
+      },
+      "syllabus": "Estrutura da informação. Vetores; Listas (alocação seqüencial, alocação encadeada); Árvores. Tabelas. Grafos: representações, distâncias, caminho mínimo. Tipos abstratos de dados; programação orientada a objetos."
+    },
+    {
+      "id": "DIR5933",
+      "code": "DIR5933",
+      "name": "Direitos Humanos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos e desenvolvimento histórico da construção dos direitos humanos. Cidadania enquanto fenômeno jurídico direitos humanos e Constituição. Cidadania, direitos humanos e democracia. Cidadania na sociedade contemporânea. Ética e cidadania. Cidadania e meio ambiente. Pluralismo, tolerância e cidadania."
+    },
+    {
+      "id": "ECZ5102",
+      "code": "ECZ5102",
+      "name": "Conservação de Recursos Naturais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrutura, funcionamento e dinâmica de ecossistemas. Efeito da ação antrópica sobre os ecossistemas. Legislação e Conservação dos recursos naturais."
+    },
+    {
+      "id": "EMC5407",
+      "code": "EMC5407",
+      "name": "Mecânica dos Fluidos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5131"
+      },
+      "syllabus": "Conceitos Fundamentais; Estática dos Fluidos; Formulações Integral e Diferencial de Leis de Conservação; Escoamento Invíscido Incompressível; Análise Dimensional e Semelhança; Escoamento Interno Viscoso Incompressível."
+    },
+    {
+      "id": "EMC5419",
+      "code": "EMC5419",
+      "name": "Mecânica de Fluidos II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMC5407",
+        "MTM3503"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5407"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3503"
+          }
+        ]
+      },
+      "syllabus": "-Escoamentos Turbulentos; Escoamento Externo Viscoso Incompressível; Máquinas de Fluxo; Escoamento Compressível."
+    },
+    {
+      "id": "EPS7005",
+      "code": "EPS7005",
+      "name": "Pesquisa Operacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EPS7009",
+        "MTM3520"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS7009"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3520"
+          }
+        ]
+      },
+      "syllabus": "Introdução: histórico e objetivos. Modelagem de Problemas. Programação Linear: método simplex; dualidade em programação linear; algoritmo simplex primal-dual; análise de sensibilidade e pós-otimalidade. Problemas Lineares Especiais: problema de atribuição; problema de transportes; problemas de fluxo em redes. Programação Inteira e Mista: branch-and-bound; cortes de Gomory; relaxação lagrangeana; algoritmo de Balas. Programação Dinâmica: condições de otimalidade e separabilidade; programação dinâmica determinística; programação dinâmica estocástica. Programação Não-linear: condições de otimalidade de Karush-Kuhn-Tucker; otimização multivariada sem restrições; otimização multivariada com restrições."
+    },
+    {
+      "id": "EPS7009",
+      "code": "EPS7009",
+      "name": "Teoria de Decisão",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5405"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5405"
+      },
+      "syllabus": "- Introdução: Teoria Normativa e a Teoria Descritiva. Estruturação de problemas de decisão: modelagem de alternativas, modelagem das influências do ambiente e modelagem de preferências. Matriz e árvore de decisão. Princípio da Dominância. Decisão sob incerteza. Decisão sob risco. Princípio de Bernoulli. Avaliação e levantamento da informação. Noções sobre decisão com múltiplos objetivos: função de valor, método AHP, métodos outranking."
+    },
+    {
+      "id": "FIL6021",
+      "code": "FIL6021",
+      "name": "Lógica I (PCC18h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Noções introdutórias de lógica. Lógica proposicional clássica: sintaxe e semântica. Noções de metalógica. Noções de lógicas proposicionais não clássicas. Familiarizar o estudante com noções fundamentais acerca de argumentação e da noção de validade de argumentos. Propiciar à/ao estudante conhecimento da linguagem básica da lógica proposicional clássica, bem como das definições semântica e sintática de consequência lógica. Fornecer ao estudante ferramentas para reconhecer argumentos válidos do ponto de vista da lógica clássica. Atividades práticas de ensino, pesquisa e extensão em lógica."
+    },
+    {
+      "id": "FIL6025",
+      "code": "FIL6025",
+      "name": "Lógica II (PCC 18h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIL6021"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL6021"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Cálculo clássico de primeira ordem. Teorias formalizadas. Procedimentos de prova. Noções sobre lógicas de ordem superior. Propiciar ao estudante familiaridade com a lógica clássica de primeira ordem e com procedimentos de prova, bem como a compreensão de alguns resultados fundamentais sobre a lógica clássica e teorias elementares. Atividades práticas de ensino, pesquisa e extensão em lógica."
+    },
+    {
+      "id": "FIL7017",
+      "code": "FIL7017",
+      "name": "Filosofia da Matemática (PCC 18h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Exame das principais investigações da tradição acerca dos problemas filosóficos suscitados pela matemática."
+    },
+    {
+      "id": "FIL7029",
+      "code": "FIL7029",
+      "name": "Teoria dos Conjuntos",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento elementar de teoria dos conjuntos básica. Discussão de problemas filosóficos relacionados com os fundamentos das teorias de conjunto. Importância dessas teorias para as discussões atuais em filosofia a ciência."
+    },
+    {
+      "id": "FSC5114",
+      "code": "FSC5114",
+      "name": "Física IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5113"
+      },
+      "syllabus": "Indutância e suas aplicações; as propriedades magnéticas da matéria: materiais diamagnéticos, paramagnéticos e ferromagnéticos, as leis que os regem. Equações de Maxwell: interpretação física e aplicações. Solução de circuitos em série (RLC) de corrente alternada e transformadores. Luz: natureza, propagação e fenômenos ópticos (interferência, difração e polarização). Física Moderna: introdução à Mecânica Quântica, Física Atômica e Nuclear. Relatividade Especial: Leis e aplicações."
+    },
+    {
+      "id": "FSC5131",
+      "code": "FSC5131",
+      "name": "Termodinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3402"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3402"
+          }
+        ]
+      },
+      "syllabus": "Natureza da termodinâmica. Equilíbrio termodinâmico. Equações de Estado. Parâmetros extensivos e intensivos. Condições de equilíbrio. Relações de Euler e Gibbs-duhem. Processos quasiestáticos, reversíveis e irreversíveis. Máquinas térmicas e ciclo de Carnot. Escala absoluta de temperaturas. Potenciais termodinâmicos. Relações de Maxwell. Estabilidade dos sistemas termodinâmicos. Postulado de Nerst. Aplicações. Equilíbrio químico, sistemas magnéticos e mecânicos. Introdução à termodinâmica fora do equilíbrio."
+    },
+    {
+      "id": "FSC5218",
+      "code": "FSC5218",
+      "name": "Mecânica Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3403",
+        "MTM3501"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3403"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3501"
+          }
+        ]
+      },
+      "syllabus": "Leis de Newton. Oscilações lineares e não lineares. Forças centrais. Sistemas de muitas partículas. sistemas de coordenadas não inerciais."
+    },
+    {
+      "id": "FSC5219",
+      "code": "FSC5219",
+      "name": "Mecânica Analítica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5218"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5218"
+      },
+      "syllabus": "Formalismo Lagrangeano. Princípio de Hamilton. Teoremas de conservação e simetrias. Pequenas oscilações. Corpo rígido. Formalismo Hamiltoniano. Transformações canônicas. Teoria de Hamilton-Jacobi."
+    },
+    {
+      "id": "FSC5290",
+      "code": "FSC5290",
+      "name": "Relatividade Restrita",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5114"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5114"
+      },
+      "syllabus": "Histórico. Referenciais inerciais. Postulados da teoria da relatividade. Cinemática e dinâmica relativistas. Teoria da relatividade e o eletromagnetismo."
+    },
+    {
+      "id": "FSC5302",
+      "code": "FSC5302",
+      "name": "Mecânica Estatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5131"
+      },
+      "syllabus": "Revisão de termodinâmica. Teoria cinética. Funções de probabilidade e distribuições. Distribuições de velocidade e distribuições no espaço de fase. Funções de distribuições e ensembles. Entropia e ensembles. Ensemble micricanônico. Mecânica estatística e gases. Ensemble gran-canônico. Mecânica estatística quântica."
+    },
+    {
+      "id": "FSC5506",
+      "code": "FSC5506",
+      "name": "Estrutura da Matéria I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5114"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5114"
+      },
+      "syllabus": "Estudo das evidências que levaram ao surgimento da Física Moderna. Estrutura atômica da matéria e radiação. Modelos atômicos de Rutherford e Bohr. Dualidade onda-partícula. Teoria de Schrödinger. Soluções da equação de Schrödinger para problemas unidimensionais. Átomo de hidrigênio."
+    },
+    {
+      "id": "FSC5511",
+      "code": "FSC5511",
+      "name": "Mecânica Quântica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5506",
+        "MTM3422"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5506"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3422"
+          }
+        ]
+      },
+      "syllabus": "Formalismo de operadores e relações de comutação. Autovalores e autofunções. Medida em mecânica quântica. Princípio da correspondência. Relações de incerteza. Momento angular orbital e momento angular total. Solução da equação de Schrödinger para problemas de forças centrais: átomo de hidrogênio e oscilador harmônico. Representações (Schrödinger, Heisenberg e interação) e álgebra matricial. Spin. representação matricial dos operadores de momento angular. Sistemas de spin 1/2: precessão do spin eletrônico e ressonância paramagnética."
+    },
+    {
+      "id": "FSC5512",
+      "code": "FSC5512",
+      "name": "Mecânica Quântica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5511"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5511"
+      },
+      "syllabus": "Transformação de representações. Propriedades de grupo das transformações unitárias. Métodos de aproximação: teoria de perturbação dependente e independente do tempo, método variacional, método WKB. Interação de elétrons com campos eletromagnéticos: efeitos Zeeman e Stark. Espalhamento: aproximação de Born. Partículas idênticas. Princípio de exclusão de Pauli."
+    },
+    {
+      "id": "FSC5515",
+      "code": "FSC5515",
+      "name": "Física das Mudanças Climáticas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História das Mudanças Climáticas, o Sistema Climático: Circulação Geral da Atmosfera e Oceanos; Balanço de Radiação; Variabilidade Climática de Grande Escala: El Niño, La Niña, Clima Regional e Desastres Naturais; Modelos Climáticos; Sensibilidade do Clima: Mecanismo de Retro-alimentação do Clima. Emissão de gases de efeito estufa naturais e antrópicos. Aquecimento global antropogênico; A Física dos Gases de Efeito Estufa; Papel da superfície da Terra no sistema climático. Cenários de Mudanças Climáticas; Impactos das Mudanças Globais no Clima Regional; Mudanças Globais e Biodiversidade; Economia Verde e Sustentabilidade."
+    },
+    {
+      "id": "FSC5909",
+      "code": "FSC5909",
+      "name": "Introdução à Astronomia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O sistema solar, noções básicas de sua estrutura. Noções de astronomia de posição. As estrelas, estrutura interna e evolução. Galáxias, estrutura e evolução. Cosmologia, a Lei de Hubble o modelo do Big Bang e o futuro do Universo."
+    },
+    {
+      "id": "FSC7105",
+      "code": "FSC7105",
+      "name": "Meteorologia Dinâmica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5002"
+      },
+      "syllabus": "Análise de Escala; Forças Fundamentais; Sistemas de referência; Leis Básicas de Conservação; Aplicações Elementares das Leis Básicas; Circulação e Vorticidade; Camada Limite Planetária."
+    },
+    {
+      "id": "FSC7108",
+      "code": "FSC7108",
+      "name": "Meteorologia Dinâmica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC7105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7105"
+      },
+      "syllabus": "Dinâmica dos Movimentos de Escala Sinótica em Latitudes Médias; Oscilações Atmosféricas; Teoria da Perturbação Linear; Previsão Numérica; Desenvolvimento e Movimento dos Sistemas Sinóticos de Latitudes Médias; Circulação Geral."
+    },
+    {
+      "id": "FSC7115",
+      "code": "FSC7115",
+      "name": "Modelagem Numérica da Atmosfera",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC7105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7105"
+      },
+      "syllabus": "Métodos numéricos fundamentais. Parametrizações físicas em modelos meteorológicos. Previsão numérica de tempo. Modelagem climática."
+    },
+    {
+      "id": "INE5118",
+      "code": "INE5118",
+      "name": "Probabilidade Estatística e Processos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3402"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3402"
+      },
+      "syllabus": "Teoria de probabilidade; variáveis aleatórias; distribuição de probabilidades; funções de variáveis aleatórias; geração de variáveis aleatórias; teoria de probabilidades para múltiplas variáveis; distribuição de probabilidade conjunta; soma de variáveis aleatórias; estimação de parâmetros; teste de hipóteses; introdução aos processos estocásticos; introdução às cadeias de Markov."
+    },
+    {
+      "id": "INE5201",
+      "code": "INE5201",
+      "name": "Introdução à Ciência da Computação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estocásticos Noções de sistemas de computação. Formulação de algoritmos e sua representação. Noções sobre linguagem de programação e programas. Implementação prática de algoritmos em uma linguagem de programação. Descrição de algumas aplicações típicas. Métodos computacionais na área científica e tecnológica."
+    },
+    {
+      "id": "INE5402",
+      "code": "INE5402",
+      "name": "Programação Orientada a Objetos I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Algoritmo. Programação de computador. Resolução de problemas usando computador. Linguagem de Programação. Elementos de programação imperativa: variáveis simples, coleções uni e n dimensionais; tipos das variáveis; comandos; procedimentos e funções. Conceitos fundamentais do paradigma de Programação Orientada a Objetos: objeto, atributo, método, classe. Prática de programação usando alguma linguagem de programação orientada a objetos."
+    },
+    {
+      "id": "INE5404",
+      "code": "INE5404",
+      "name": "Programação Orientada a Objetos II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5402"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5402"
+      },
+      "syllabus": "Herança. Polimorfismo. Reusabilidade de software. Componentes. Criação e uso de bibliotecas de classes. Padrões de projeto. Interface Gráfica com o Usuário. Exceções. Relacionamentos entre classes: agregação, composição e especialização. Persistência de dados e de objetos. Prática de programação com alguma linguagem de programação orientada a objetos."
+    },
+    {
+      "id": "INE5408",
+      "code": "INE5408",
+      "name": "Estruturas de Dados",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5404"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5404"
+      },
+      "syllabus": "Alocação dinâmica de memória. Variáveis estáticas e dinâmicas. Estruturas lineares. Tabelas de Espalhamento. Árvores. Árvores de Pesquisa. Métodos de ordenação. Métodos de acesso a arquivos. Técnicas de implementações iterativas e recursivas de estruturas de dados. Complexidade dos algoritmos em estruturas de dados."
+    },
+    {
+      "id": "INE5413",
+      "code": "INE5413",
+      "name": "Grafos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5408",
+        "MTM3510"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5408"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3510"
+          }
+        ]
+      },
+      "syllabus": "Grafos e grafos orientados. Representação de problemas com grafos. Caminhos, ciclos e caminho de custo mínimo. Conexidade e alcançabilidade. Árvores e árvore de custo mínimo. Coloração e planaridade de grafos. Grafos hamiltonianos e eulerianos. Fluxo máximo em redes. Estabilidade e emparelhamento em grafos. Problemas de cobertura e de travessia. Representações computacionais e complexidade de algoritmos em grafos."
+    },
+    {
+      "id": "INE5420",
+      "code": "INE5420",
+      "name": "Computação Gráfica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5408",
+        "MTM3422"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5408"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3422"
+          }
+        ]
+      },
+      "syllabus": "Computação Gráfica Básica. Sistema Gráfico Interativo. Transformações geométricas 2D e coordenadas homogêneas. Clipping. Curvas paramétricas em 2D e 3D. Estruturas de dados gráficas 3D. Navegação 3D. Projeções, perspectiva e clipping 3D. Superfícies paramétricas bicúbicas. Visualização em 3D contendo, Rayshading, Raycasting e Raytracing. Conversão por varredura e buffer de profundidade. Iluminação de objetos. Implementação de um rayshader. APIs Gráficas e OpenGL. Animação e utilização de modelos hierárquicos. Simulação de movimentação de animais e humanos. Realidade virtual e VRML."
+    },
+    {
+      "id": "INE5423",
+      "code": "INE5423",
+      "name": "Banco de Dados I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5408"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5408"
+      },
+      "syllabus": "Banco de Dados (BD). Sistema de Gerência de BD: funcionalidades, módulos principais, categorias de usuários, dicionário de dados. Modelo relacional: conceitos, restrições de integridade, álgebra relacional, cálculo relacional. Linguagens SQL: DDL, DML, restrições de integridade, visões, autorização de acesso. Modelagem de dados: etapas do projeto de um BD relacional, modelo Entidade-Relacionamento (ER), mapeamento ER-relacional. Teoria da Normalização: objetivo, dependências funcionais, formas normais."
+    },
+    {
+      "id": "INE5425",
+      "code": "INE5425",
+      "name": "Modelagem e Simulação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE5405",
+        "MTM3521"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5405"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3521"
+          }
+        ]
+      },
+      "syllabus": "Modelagem de sistemas. Modelos analíticos e Modelos de simulação. Processos estocásticos. Introdução à teoria das filas. Redes de filas. Geração de números pseudo-aleatórios. Geração de variáveis aleatórias. Metodologia de projetos de modelagem e simulação de sistemas. Modelos voltados à simulação: definição, taxonomia e desenvolvimento. Validação de modelos de simulação. Praticas de modelagem e simulação. Linguagens de simulação. Estudo de casos."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "MTM3441",
+      "code": "MTM3441",
+      "name": "Medida e Integração",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3432"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3432"
+      },
+      "syllabus": "18h-a) Funções mensuráveis, medidas, integral, funções integráveis, espaços Lp, formas de convergência, decomposição de medidas, geração de medidas, medidas produto, medida de Lebesgue."
+    },
+    {
+      "id": "MTM3453",
+      "code": "MTM3453",
+      "name": "Introdução à Teoria de Galois",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3421",
+        "MTM3451",
+        "MTM3452"
+      ],
+      "equivalents": [
+        "MTM5263"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3421"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3451"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3452"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5263"
+      },
+      "syllabus": "Extensões de corpos. Corpos finitos. Extensões ciclotômicas. Construções por régua e compasso. Grupos de automorfismos. Extensões Galoisianas. A correspondência de Galois. Grupos solúveis. Solubilidade por meio de radicais."
+    },
+    {
+      "id": "MTM3454",
+      "code": "MTM3454",
+      "name": "Estruturas Algébricas",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3421",
+        "MTM3451",
+        "MTM3452"
+      ],
+      "equivalents": [
+        "MTM5264"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3421"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3451"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3452"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5264"
+      },
+      "syllabus": "Categorias. Módulos. Módulos projetivos e injetivos. Módulos sobre domínios principais. Produto tensorial."
+    },
+    {
+      "id": "MTM3455",
+      "code": "MTM3455",
+      "name": "Introdução à Teoria de Galois",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3452"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3452"
+      },
+      "syllabus": "Extensões de corpos. Corpos finitos. Extensões ciclotômicas. Construções por régua e compasso. Grupos de automorfismos. Extensões Galoisianas. A correspondência de Galois."
+    },
+    {
+      "id": "MTM3456",
+      "code": "MTM3456",
+      "name": "Estruturas Algébricas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3452"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3452"
+      },
+      "syllabus": "Módulos. Módulos projetivos e injetivos. Módulos sobre domínios principais."
+    },
+    {
+      "id": "MTM3474",
+      "code": "MTM3474",
+      "name": "Geometria Euclidiana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3475"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3475"
+      },
+      "syllabus": "Postulados de Euclides. Axiomas de incidência. Axiomas de ordem. Axiomas de congruência. Geometria neutra. Axioma das paralelas. Axiomas de continuidade."
+    },
+    {
+      "id": "MTM3491",
+      "code": "MTM3491",
+      "name": "Topologia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3490"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3490"
+      },
+      "syllabus": "Revisão de espaços métricos. Espaços topológicos. Funções contínuas. Base e sub-base de uma topologia. Redes. Espaço produto e quociente. Conexidade. Compacidade. Lema de Urysohn. Teoremas de Tietze, Tychonov e Arzela-Ascoli."
+    },
+    {
+      "id": "MTM3525",
+      "code": "MTM3525",
+      "name": "Computação Científica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3521"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3521"
+      },
+      "syllabus": "Métodos numéricos para problemas de valor inicial. Métodos numéricos para problemas com valor na fronteira. Os métodos de colocação e de Ritz e Galerkin. Introdução ao método das diferenças finitas para equações diferenciais parciais. Introdução ao método dos elementos finitos."
+    },
+    {
+      "id": "MTM3533",
+      "code": "MTM3533",
+      "name": "Programação Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3402",
+        "MTM3422"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3402"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3422"
+          }
+        ]
+      },
+      "syllabus": "Formulação de problemas de otimização irrestritos e restritos. Condições necessárias de otimalidade para minimização suave sobre conjuntos convexos. Problema de programação linear, método simplex, teoria de dualidade e análise de sensibilidade. Noções de métodos de pontos interiores."
+    },
+    {
+      "id": "MTM3534",
+      "code": "MTM3534",
+      "name": "Programação Não Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3402",
+        "MTM3422"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3402"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3422"
+          }
+        ]
+      },
+      "syllabus": "Condições de otimalidade e métodos para otimização irrestrita. Métodos de busca linear e região de confiança. Otimização restrita: condições de otimalidade de Karush-Kuhn-Tucker, métodos das barreiras e das penalidades. Programação quadrática sequencial"
+    },
+    {
+      "id": "MTM3561",
+      "code": "MTM3561",
+      "name": "Matemática Financeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Juros e Descontos: Simples e Composto. Taxas. Rendas. Amortização de dívidas."
+    },
+    {
+      "id": "MTM3587",
+      "code": "MTM3587",
+      "name": "Aprendizado da Máquina",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3422"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3422"
+      },
+      "syllabus": "Conceitos fundamentais e resultados clássicos em aprendizado de máquina. Técnicas de regressão, classificação, redução de dimensionalidade e de clusterização e suas aplicações. Implantação de modelos de aprendizado de máquina na nuvem. Projeto de aprendizado de máquina de ponta a ponta."
+    },
+    {
+      "id": "MTM4101",
+      "code": "MTM4101",
+      "name": "Tutoria em Matemática Anos 1-5 (EXT 72h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Tutoria em números naturais, inteiros e racionais; frações e porcentagem; operações de adição, subtração, multiplicação e divisão; formas geométricas básicas e suas propriedades; introdução às noções de perímetro, área e volume; grandezas e medidas (massa, volume, comprimento, tempo, temperatura); gráficos de barras, linhas ou tabela."
+    },
+    {
+      "id": "MTM4102",
+      "code": "MTM4102",
+      "name": "Tutoria em Matemática Anos 6-9 (EXT 72h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "a) Tutoria em números naturais e sistemas de numeração, números inteiros, racionais e reais; múltiplos, divisores e frações; operações de adição, subtração, multiplicação e divisão com números reais; proporcionalidade e juros; semelhança, vistas ortogonais e perspectiva; relações métricas nos triângulos retângulos; ângulos e polígonos; circunferências e círculos; comprimento, perímetro, área e volume; grandezas e medidas (massa, volume, comprimento, tempo, temperatura); expressões algébricas; sistemas de equações do primeiro grau com duas incógnitas; produtos notáveis, fatoração e equações do segundo grau; introdução à noção de função; introdução às noções de estatística, combinatória e probabilidade."
+    },
+    {
+      "id": "MTM4103",
+      "code": "MTM4103",
+      "name": "Tutoria em Matemática (Ensino Médio)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tutoria em funções reais; função afim; função quadrática; função exponencial; função logarítmica; progressões aritmética e geométrica; trigonometria, funções seno, cosseno, tangente, cotangente, secante, cossecante; matrizes; sistemas lineares; área de regiões planas; introdução à geometria espacial, prismas, pirâmides, cilindro, cone e esfera; análise combinatória; probabilidade; números naturais e sistemas de numeração, números inteiros, racionais e reais; múltiplos, divisores e frações; operações de adição, subtração, multiplicação e divisão com números reais; proporcionalidade e juros; grandezas e medidas (massa, volume, comprimento, tempo, temperatura); expressões algébricas; sistemas de equações do primeiro grau com duas incógnitas; produtos notáveis, fatoração e equações do segundo grau; introdução às noções de estatística e matemática financeira."
+    },
+    {
+      "id": "MTM4111",
+      "code": "MTM4111",
+      "name": "Círculo Matemático I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "(EXT 72h-a) Combinatória; aritmética; teoria dos grafos; transformações geométricas; sequências recursivas; lógica; teoria dos conjuntos; funções multiplicativas; simetria; o princípio da classificação; divisibilidade; contagem, probabilidade; invariantes; gráficos; indução; geometria plana e espacial.",
+      "extensionHours": 72
+    },
+    {
+      "id": "MTM4112",
+      "code": "MTM4112",
+      "name": "Círculo Matemático II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Combinatória; teoria dos números elementar; teoria dos grafos; álgebra linear; transformações geométricas; sequências recursivas; lógica; teoria dos conjuntos; funções multiplicativas; simetria; o princípio da classificação; divisibilidade; contagem, probabilidade; invariantes; gráficos; indução; geometria plana e espacial.",
+      "extensionHours": 72
+    },
+    {
+      "id": "MTM4113",
+      "code": "MTM4113",
+      "name": "Círculo Matemático III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Combinatória; teoria dos números elementar; teoria dos grafos; álgebra linear; análise de funções reais e complexas; álgebra modular; sequências e limites; transformações geométricas; sequências recursivas; lógica; teoria dos conjuntos; funções multiplicativas; simetria; o princípio da classificação; divisibilidade; contagem, probabilidade; invariantes; gráficos; indução; geometria plana e espacial; números complexos.",
+      "extensionHours": 72
+    },
+    {
+      "id": "MTM4121",
+      "code": "MTM4121",
+      "name": "Treinamento para as Olimpíadas de Matemática (Nível 1)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Iniciação à aritmética; números naturais; representação dos números naturais; números inteiros e suas propriedades; aritmética dos restos; métodos de contagem e probabilidade; teorema de Pitágoras e áreas; indução matemática; introdução aos grafos; uma introdução às construções geométricas.",
+      "extensionHours": 72
+    },
+    {
+      "id": "MTM4122",
+      "code": "MTM4122",
+      "name": "Treinamento para as Olimpíadas de Matemática (Nível 2)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Resolução de problemas do banco de questões do nível 2 da OBMEP; números naturais; representação dos números naturais; números inteiros e suas propriedades; aritmética dos modular; inversos modulares; algoritmo chinês do resto; métodos de contagem e probabilidade; teorema de Pitágoras e áreas; indução matemática; introdução aos grafos; ciclos, caminhos e árvores num grafo; grafos planares; uma introdução às construções geométricas.",
+      "extensionHours": 72
+    },
+    {
+      "id": "MTM4123",
+      "code": "MTM4123",
+      "name": "Treinamento para as Olimpíadas de Matemática (Nível 3)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Resolução de problemas do banco de questões do nível 3 da OBMEP; números naturais; representação dos números naturais; números inteiros e suas propriedades; aritmética dos modular; inversos modulares; algoritmo chinês do resto; métodos de contagem e probabilidade; teorema de Pitágoras e áreas; indução matemática; introdução aos grafos; ciclos, caminhos e árvores num grafo; grafos planares; uma introdução às construções geométricas.",
+      "extensionHours": 72
+    },
+    {
+      "id": "MTM7305",
+      "code": "MTM7305",
+      "name": "História da Matemática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3430",
+        "MTM3452"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3430"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3452"
+          },
+          {
+            "kind": "hours",
+            "hours": 7305
+          }
+        ]
+      },
+      "prerequisiteHours": 7305,
+      "syllabus": "Origens primitivas. Primórdios da Matemática grega. A era de ouro da Matemática em Alexandria. Matemática na idade média. A Matemática nos séculos XVI e XVII, equações algébricas e a geometria analítica. As origens do cálculo infinitesimal. A Matemática no século XVIII. A Matemática pura no século XIX. O surgimento das geometrias não-euclidianas. Das equações às estruturas algébricas. A aritmetização da análise e as origens da teoria de conjuntos. As crises de fundamentos. O triunfo da abstração no século XX."
+    },
+    {
+      "id": "OCN7041",
+      "code": "OCN7041",
+      "name": "Oceanografia Física Descritiva",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3400"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3400"
+      },
+      "syllabus": "Noções básica sobre a circulação atmosférica. Circulação oceânica. Calor e Temperatura: Espectro da Radiação Solar, Balanço de Calor na Superfície da Terra, Balanço de Calor nos Oceanos, Distribuições Horizontais e Verticais de Temperatura, Termoclinas, Variações Temporais do Campo de Temperatura. Água e Salinidade: Conservação de volume, Ciclo Hidrológico, Conservação de Sal, Salinidade Distribuições Horizontais e Verticais de Salinidade, Haloclinas, Variações Temporais do Campo de Salinidade. Pressão e Densidade: Conceitos, Efeitos da Temperatura da Salinidade, da Pressão sobre a Densidade, Equação do Estado da Água do Mar, Volume Específico, Distribuições Horizontais e Verticais de Densidade, Picnoclinas, Estabilidade Vertical. Massas de Água, Fundamentos da Termodinâmica da Água do Mar, Diagramas T-S, Métodos de Análises de Massas de Água. Circulação Termo-halina e distribuição de Massas de Água nos Oceanos. Acústica Submarina, Propagação do Som na Água do Mar, Diagramas de Raio, Instrumentos."
+    },
+    {
+      "id": "OCN7043",
+      "code": "OCN7043",
+      "name": "Interação Oceano Atmosfera",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "OCN7041"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "OCN7041"
+      },
+      "syllabus": "Introdução ao sistema climático: atmosfera, oceano e superfície terrestre. Balanço de energia global. Balanço de radiação na atmosfera. Balanço de energia na superfície. Ciclo hidrológico. Circulação geral da atmosfera e o clima. Circulação geral dos oceanos e o clima. Sistemas Atmosféricos. História e evolução do clima da Terra. Sensibilidade climática e mecanismos de retroalimentação. Modelos globais climáticos. Mudanças climáticas naturais. Mudanças climáticas antrópicas. Clima da América do Sul. Fenômeno El NiñoOscilação Sul e impactos no clima."
+    },
+    {
+      "id": "OCN7044",
+      "code": "OCN7044",
+      "name": "Oceanografia Dinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A estrutura geofísica dos oceanos: a importância dinâmica da estratificação e da rotação; o efeito de Coriolis. Equações da continuidade e do movimento nos oceanos: conservação da massa e continuidade de volume; as equações de Navier-Stokes num sistema referencial não inercial. Elementos de análise de escalas: as aproximações do plano f, beta e tradicional; aproximação de Boussinesq. O movimento geostrófico: o número de Rossby; as equações da corrente geostrófica; componentes barotrópicas e baroclínicas das correntes geostróficas; a equação do vento térmico; pressão e geopotencial; o método dinâmico. Vorticidade: vorticidade relativa, planetária e conservação da vorticidade potencial. Teoria de Ekman: forças de atrito em um oceano turbulento; bombeamento de Ekman; ressurgência e subsidência. Modelos oceânicos de circulação: Modelos de Sverdrup, Stommel e Munk; a intensificação das correntes de contorno oeste. Circulação termohalina dos oceanos: circulação do oceano profundo; modelo de Stommel e Arons."
+    },
+    {
+      "id": "QMC5427",
+      "code": "QMC5427",
+      "name": "Introdução à Programação com Python",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à lógica de programação. Informações gerais sobre Python. Variáveis. Operadores lógicos e relacionais. Loops e condições. Vetores e Matrizes. Classes e Objetos. Funções. Otimização de código. Uso de bibliotecas externas SciPy e Matlibplot."
+    },
+    {
+      "id": "QMC5517",
+      "code": "QMC5517",
+      "name": "Química Geral I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à química; propriedades específicas e gerais da matéria; grandeza quantidade de matéria e suas relações com massa e volume; lei dos gases; modelos atômicos, teoria quântica e estrutura eletrônica dos átomos; tabela periódica; reações químicas (lei das proporções, reagente limitante, reações de precipitação, de oxirredução e ácido-base); ligações químicas; hibridização e geometria molecular. Associação desses conteúdos com a história da química, implicações sociais da química e discussões ambientais."
+    },
+    {
+      "id": "QMC5519",
+      "code": "QMC5519",
+      "name": "Química Geral II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Modelos e a química; sólidos iônicos e metálicos; forças intermoleculares; estequiometria em solução aquosa; ácidos e bases; propriedades de soluções; introdução à termoquímica; eletroquímica; cinética química. Associação desses conteúdos com a história da química, implicações sociais da química e discussões ambientais."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "MTM3400",
+      "MTM3411",
+      "MTM3450",
+      "MTM3475",
+      "FSC5101",
+      "MTM3401",
+      "MTM3421",
+      "MTM3510",
+      "FSC5002",
+      "MTM3402",
+      "MTM3422",
+      "FSC5113",
+      "MTM3403",
+      "MTM3430",
+      "MTM3451",
+      "MTM3452",
+      "MTM3490",
+      "MTM3501",
+      "MTM3520",
+      "INE5405",
+      "MTM3431",
+      "MTM3435",
+      "MTM3521",
+      "MTM3432",
+      "MTM3503",
+      "MTM3597",
+      "MTM3482",
+      "MTM3524",
+      "MTM3598"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 666,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ANT7701",
+              "BEG7012",
+              "DAS5102",
+              "DIR5933",
+              "ECZ5102",
+              "EMC5407",
+              "EMC5419",
+              "EPS7005",
+              "EPS7009",
+              "FIL6021",
+              "FIL6025",
+              "FIL7017",
+              "FIL7029",
+              "FSC5114",
+              "FSC5131",
+              "FSC5218",
+              "FSC5219",
+              "FSC5290",
+              "FSC5302",
+              "FSC5506",
+              "FSC5511",
+              "FSC5512",
+              "FSC5515",
+              "FSC5909",
+              "FSC7105",
+              "FSC7108",
+              "FSC7115",
+              "INE5118",
+              "INE5201",
+              "INE5402",
+              "INE5404",
+              "INE5408",
+              "INE5413",
+              "INE5420",
+              "INE5423",
+              "INE5425",
+              "LSB7244",
+              "MTM3441",
+              "MTM3453",
+              "MTM3454",
+              "MTM3455",
+              "MTM3456",
+              "MTM3474",
+              "MTM3491",
+              "MTM3525",
+              "MTM3533",
+              "MTM3534",
+              "MTM3561",
+              "MTM3587",
+              "MTM4101",
+              "MTM4102",
+              "MTM4103",
+              "MTM4111",
+              "MTM4112",
+              "MTM4113",
+              "MTM4121",
+              "MTM4122",
+              "MTM4123",
+              "MTM7305",
+              "OCN7041",
+              "OCN7043",
+              "OCN7044",
+              "QMC5427",
+              "QMC5517",
+              "QMC5519"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "222",
+    "curriculumCode": "20241",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=222&curriculo=20241",
+    "sha256": "3d27d47b0bfa1ebfeb7e3731386336f5e9101d901c4b34271ea1f24afad5a667",
+    "capturedAt": "2026-09-22"
+  }
+}

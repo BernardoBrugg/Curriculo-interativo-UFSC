@@ -1,0 +1,2634 @@
+{
+  "program": "ENGENHARIA DE CONTROLE E AUTOMAÇÃO [Campus Blumenau]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2023.2",
+  "totalHours": 4680,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CAC3100",
+      "code": "CAC3100",
+      "name": "Introdução à Engenharia de Controle e Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3100"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3100"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Palestras sobre Engenharia de Controle e Automação. Funções do engenheiro no contexto tecnológico e social. Palestras sobre o Curso de Engenharia de Controle e Automação. Visita a laboratórios. Equipamentos básicos. Conceitos básicos de Controle e Automação. Metodologias e ferramentas da engenharia",
+      "extensionHours": 36
+    },
+    {
+      "id": "CAC3101",
+      "code": "CAC3101",
+      "name": "Introdução à Informática para Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3101",
+        "BLU6000",
+        "CAC6000"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU3101"
+          },
+          {
+            "kind": "course",
+            "code": "BLU6000"
+          },
+          {
+            "kind": "course",
+            "code": "CAC6000"
+          }
+        ]
+      },
+      "syllabus": "Noções de algoritmos, programas e linguagens de programação; tipos de dados e variáveis; expressões lógicas, estruturas de controle; vetores e matrizes; modularização."
+    },
+    {
+      "id": "CAC6002",
+      "code": "CAC6002",
+      "name": "Desenho Técnico para Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6002"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6002"
+      },
+      "syllabus": "Introdução ao Desenho Técnico. Normas fundamentais para o Desenho Técnico. Sistemas de representação nos diedros. Projeções ortogonais de peças simples. Sistema de cotagem e proporções. Perspectivas. Introdução a software para expressão gráfica"
+    },
+    {
+      "id": "CEE6106",
+      "code": "CEE6106",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6106"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6106"
+      },
+      "syllabus": "Grandezas físicas, sistemas de unidades e representação vetorial. Movimento em uma dimensão. Movimento em duas dimensões. Leis de Newton. Aplicações das Leis de Newton. Trabalho e energia. Quantidade de movimento, impulso e colisões. Cinemática da rotação. Dinâmica da rotação."
+    },
+    {
+      "id": "CEE6206",
+      "code": "CEE6206",
+      "name": "Física Experimental I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6206"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6206"
+      },
+      "syllabus": "Algarismos Significativos. Erros. Gráficos. Força e movimento. Momento. Trabalho e Energia."
+    },
+    {
+      "id": "MAT2101",
+      "code": "MAT2101",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6001"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6001"
+      },
+      "syllabus": "Conjuntos e aritmética básica. Cálculo com expressões algébricas. Equações. Inequações. Funções."
+    },
+    {
+      "id": "MAT2111",
+      "code": "MAT2111",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6905"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6905"
+      },
+      "syllabus": "Matrizes. Determinantes. Sistemas lineares. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies."
+    },
+    {
+      "id": "MAT2201",
+      "code": "MAT2201",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6001"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6001"
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos, esboço de gráficos, aproximações lineares e quadráticas); integral definida e indefinida; áreas entre curvas; técnicas de integração (substituição, por partes, substituição trigonométrica, frações parciais). Integral imprópria"
+    },
+    {
+      "id": "CAC3201",
+      "code": "CAC3201",
+      "name": "Sistemas Digitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3201"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3201"
+      },
+      "syllabus": "Conceitos introdutórios. Códigos e sistemas de números. Portas lógicas e álgebra booleana. Circuitos lógicos combinacionais. Flip-flop e dispositivos relacionados. Aritmética digital. Operações e circuitos. Contadores e registradores. Famílias lógicas. Circuitos lógicos MSI. Memórias. Dispositivos lógicos programáveis."
+    },
+    {
+      "id": "CAC3202",
+      "code": "CAC3202",
+      "name": "Algoritmos e Estruturas de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3101"
+      ],
+      "equivalents": [
+        "BLU3202"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3202"
+      },
+      "syllabus": "Estruturas de Dados e de Tipos Abstratos de Dados; Alocação Dinâmica de Memória; Algoritmos Recursivos; Estruturas de Dados em Memória Principal; Algoritmos de Pesquisa em Memória Principal; Pesquisa Digital, Algoritmos de Ordenação Interna. Análise de algoritmos."
+    },
+    {
+      "id": "CEE6109",
+      "code": "CEE6109",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6106",
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU6109"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2201"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6109"
+      },
+      "syllabus": "Estática de fluidos; Dinâmica de fluídos; Oscilações mecânicas; Ondas; Som; Temperatura; Calor e primeira lei da termodinâmica; Gás ideal; Entropia e segunda lei da termodinâmica."
+    },
+    {
+      "id": "CEE6209",
+      "code": "CEE6209",
+      "name": "Física Experimental II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6106",
+        "CEE6206"
+      ],
+      "equivalents": [
+        "BLU6209"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6206"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6209"
+      },
+      "syllabus": "Fluídos. Oscilações. Ondas e Som. Termodinâmica."
+    },
+    {
+      "id": "MAT2211",
+      "code": "MAT2211",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2111"
+      ],
+      "equivalents": [
+        "BLU6004",
+        "BLU6905"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2111"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6004"
+          },
+          {
+            "kind": "course",
+            "code": "BLU6905"
+          }
+        ]
+      },
+      "syllabus": "Espaço vetorial. Transformações lineares. Mudança de base. Produto interno. Transformações ortogonais. Autovalores e autovetores de um operador. Diagonalização."
+    },
+    {
+      "id": "MAT2301",
+      "code": "MAT2301",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU6004"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6004"
+      },
+      "syllabus": "Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis. Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace."
+    },
+    {
+      "id": "CAC3302",
+      "code": "CAC3302",
+      "name": "Microprocessadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3201"
+      ],
+      "equivalents": [
+        "BLU3302"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3302"
+      },
+      "syllabus": "Arquiteturas de microprocessadores. Programação de microprocessadores: tipos e formatos de instruções, modos de endereçamento, linguagens assembly ou C. Memória. Entrada/Saída. Dispositivos periféricos, interrupção, acesso direto a memória. Barramentos padrões. Ferramentas para análise, desenvolvimento e depuração. Projetos com microprocessadores. Laboratório: Programação, uso de ferramentas de análise, desenvolvimento e depuração. Projeto de aplicações com microprocessadores."
+    },
+    {
+      "id": "CAC6011",
+      "code": "CAC6011",
+      "name": "Mecânica dos Sólidos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6106",
+        "CEE6206",
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU6011"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6206"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6011"
+      },
+      "syllabus": "Introdução. Esforços internos em componentes estruturais. Tensão. Deformação. Propriedades mecânicas dos materiais. Esforço axial. Torção. Flexão. Flexão em vigas com dois ou mais materiais. Cisalhamento. Solicitações compostas. Análise das máximas tensões. Critérios de falha."
+    },
+    {
+      "id": "CAC7008",
+      "code": "CAC7008",
+      "name": "Ciência, Tecnologia e Sociedade (EXT 36h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU7000"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7000"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Noções dos estudos de CTS. Implicações sociais das ciências e das tecnologias. Relações entre mudança tecnológica e mudança social. Impactos científico e tecnológico e riscos. Progresso técnico e marginalização social. Questões de gênero e étnico-raciais em ciência e tecnologia. Tecnologias para inclusão social. Sistemas sociotecnológicos e democracia sociotécnica. Estudos de controvérsias científicas e tecnológicas. Participação nas políticas públicas de CT. Desafios atuais para a América Latina. Ética e Direitos Humanos e Engenharia."
+    },
+    {
+      "id": "CEE6110",
+      "code": "CEE6110",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU6110"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6110"
+      },
+      "syllabus": "a) Carga Elétrica. Lei de Coulomb. Princípio da Superposição. O campo elétrico. A lei de Gauss. Potencial elétrico. Capacitância. Associação de Capacitores. Corrente Elétrica. Resistência e Resistividade. Lei de Ohm. Potência em circuitos elétricos. Associação de resistores. Circuitos elétricos. Circuitos RC. Campo Magnético. Lei de Biot-Savart. Lei de Ampére. Lei da indução de Faraday. Lei de Lenz. Indutância. Oscilações Eletromagnéticas. Circuito LC. Circuito RLC. Geração de energia e transmissão. Transformadores. As equações de Maxwell."
+    },
+    {
+      "id": "CEE6210",
+      "code": "CEE6210",
+      "name": "Física Experimental III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "CEE6209"
+      ],
+      "equivalents": [
+        "BLU6210"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6209"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6210"
+      },
+      "syllabus": "Medidas Elétricas. Eletrostática. Circuitos elétricos. Magnetismo. Indução eletromagnética. Transformadores."
+    },
+    {
+      "id": "DET3301",
+      "code": "DET3301",
+      "name": "Química Tecnológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3301"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3301"
+      },
+      "syllabus": "Combustão, Combustíveis sólidos, líquidos e gasosos. Materiais cerâmicos. Polímeros. Óleos isolantes. Esmaltes e vernizes. Corrosão metálica. Acumuladores."
+    },
+    {
+      "id": "MAT2401",
+      "code": "MAT2401",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU6008"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2301"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6008"
+      },
+      "syllabus": "Integrais Múltiplas. Integral de linha. Integrais de superfície."
+    },
+    {
+      "id": "CAC3401",
+      "code": "CAC3401",
+      "name": "Sinais e Sistemas Lineares",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2211",
+        "MAT2401"
+      ],
+      "equivalents": [
+        "BLU3401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT2211"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2401"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3401"
+      },
+      "syllabus": "Introdução ao estudo de sinais e sistemas. Exemplos de sistemas de controle. Os sinais no domínio do tempo: sinais contínuos discretos e amostrados. Representação matemática de sistemas dinâmicos usando equações diferenciais e a diferenças. Transformada de Laplace e Transformada Z."
+    },
+    {
+      "id": "CAC3402",
+      "code": "CAC3402",
+      "name": "Circuitos Elétricos",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6110",
+        "CEE6210",
+        "MAT2401"
+      ],
+      "equivalents": [
+        "BLU3402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6110"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6210"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2401"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3402"
+      },
+      "syllabus": "Conceitos básicos: carga, corrente, tensão, potência, energia e elementos de circuito. Análise de circuitos em corrente contínua: leis de Kirchhoff (análise por nós e por malhas), linearidade, superposição, transformação de fontes, teoremas de Thévenin e de Norton e máxima transferência de potência. Análise de circuitos de primeira ordem e de segunda ordem. Análise de circuitos monofásicos em regimente manente senoidal: fasores, impedância, valor eficaz, potência ativa, reativa, aparente e complexa, fator de potência, correção de fator de potência, resposta em frequência e filtros. Análise de circuitos trifásicos em regimente permanente senoidal: sistema trifásico balanceado, sequência de fases, ligações em delta e em estrela e potência em sistemas trifásicos. Circuitos com acoplamento magnéticos. Transformada de Laplace aplicadas em circuitos. Laboratório: Instrumentos analógicos e digitais. Osciloscópio. Gerador de Funções e Fontes."
+    },
+    {
+      "id": "CAC3403",
+      "code": "CAC3403",
+      "name": "Sistemas de Automação",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3302"
+      ],
+      "equivalents": [
+        "BLU3403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3302"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3403"
+      },
+      "syllabus": "Introdução aos Sistemas de Produção Automatizados: níveis hierárquicos, atividades, equipamentos. Computadores industriais: arquitetura, programação. Controladores Lógicos Programáveis (CLP): arquitetura, programação (SFC, IL, Ladder, Blocos Funcionais e Texto Estruturado). Softwares de supervisão. Sistemas SCADA. Sistemas Digitais de Controle Distribuídos (SDCD's)."
+    },
+    {
+      "id": "CAC6013",
+      "code": "CAC6013",
+      "name": "Estatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2111",
+        "MAT2401"
+      ],
+      "equivalents": [
+        "BLU6013"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT2111"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2401"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6013"
+      },
+      "syllabus": "Estatística Descritiva. Axiomas de Probabilidade. Probabilidade Condicional. Independência. Teorema de Bayes. Variáveis aleatórias Discretas e Contínuas. Modelos de Probabilidade para variáveis aleatórias Discretas: Bernoulli, Binomial e Poisson. Modelos de Probabilidade para Variáveis Contínuas: Uniforme, Normal, Exponencial e Gamma. Inferência Estatística: Distribuições Amostrais, Intervalos de Confiança e Testes de Hipóteses."
+    },
+    {
+      "id": "DET6014",
+      "code": "DET6014",
+      "name": "Fenômenos de Transporte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "CEE6209",
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU6014"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6209"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6014"
+      },
+      "syllabus": "Definições e conceitos fundamentais de Fenômenos de Transporte. Equações básicas dos processos de transporte molecular unidimensional: Quantidade de movimento, calor e massa. Estática dos fluidos: características fenomenológicas dos escoamentos, equações básicas da dinâmica dos fluidos. Transferência de calor: condução, convecção e radiação. Fundamentos de Transferência de Massa."
+    },
+    {
+      "id": "CAC3501",
+      "code": "CAC3501",
+      "name": "Modelagem e Simulação de Sistemas",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3101"
+      ],
+      "equivalents": [
+        "BLU3501"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3501"
+      },
+      "syllabus": "Estudo de processos físicos de diferentes áreas (elétricos, químicos, mecânicos, etc). Principais propriedades e características de funcionamento. Comportamento linear e não linear. Representação sistêmica. Modelagem por blocos. Modelagem por Variáveis de Estado. Importância do controle: noções de Malha Aberta e Malha Fechada. Estudo de métodos de integração numérica. Estudo de simuladores de sistemas dinâmicos. Laboratório: Simulação numérica de sistemas."
+    },
+    {
+      "id": "CAC3502",
+      "code": "CAC3502",
+      "name": "Eletricidade Industrial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3402"
+      ],
+      "equivalents": [
+        "BLU3502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3402"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3502"
+      },
+      "syllabus": "Dinâmicos CAC3401 eh Noções de Máquinas Elétricas (transformadores, geradores, motores); Problemas de Distribuição de Energia (Média-Baixa Tensão); Alimentação de Sistemas Computacionais, Estabilizadores, No-Breaks; Interferência."
+    },
+    {
+      "id": "CAC3503",
+      "code": "CAC3503",
+      "name": "Eletrônica Aplicada",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3402"
+      ],
+      "equivalents": [
+        "BLU3503"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3402"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3503"
+      },
+      "syllabus": "Introdução. Circuitos lineares. Diodos: modelos e circuitos. Transistores de efeito de campo e bipolares: modelos e circuitos. Amplificadores operacionais. Amplificadores de potência. Aplicações."
+    },
+    {
+      "id": "CAC3504",
+      "code": "CAC3504",
+      "name": "Sistemas a Eventos Discretos",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC6013"
+      ],
+      "equivalents": [
+        "BLU3504"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC6013"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3504"
+      },
+      "syllabus": "Sistemas a Eventos Discretos: conceituação, classificação, propriedades, exemplos. Redes de Petri: definições, propriedades, análise, implementação, Redes de Petri no controle de SEDs. Modelos autômatos de estado. Controle Supervisório: Teoria de controle para SEDs, baseada em autômatos. Sistemas de Supervisão: conceituação e aplicações em sistemas de automação. Metodologia para construção de modelos de simulação. Simulação computacional. Variabilidade dos sistemas. Testes de verificação e validação. Medidas de avaliação de desempenho."
+    },
+    {
+      "id": "CAC3505",
+      "code": "CAC3505",
+      "name": "Redes Industriais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3403"
+      ],
+      "equivalents": [
+        "BLU3505"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3403"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3505"
+      },
+      "syllabus": "Redes de Computadores: Aspectos Arquiteturais, modelo de referência para interconexão de sistemas abertos (RM-OSI); Estudos de camadas com exemplos de protocolos; Interconexão de redes: Repetidores, Bridges, routers e gateways; concentradores: Hubs, switches; Redes locais industriais: redes e os níveis hierárquicos de integração; Requisitos das redes industriais; Padrões em redes industriais: IEEE 802, MAP/TOP; Fieldbus (FIP, PROFIBUS, Foundation Fieldbus); Visão geral dos produtos."
+    },
+    {
+      "id": "CAC3506",
+      "code": "CAC3506",
+      "name": "Redes de Computadores para Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3403"
+      ],
+      "equivalents": [
+        "BLU3505",
+        "CAC3505"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3403"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU3505"
+          },
+          {
+            "kind": "course",
+            "code": "CAC3505"
+          }
+        ]
+      },
+      "syllabus": "Redes de Computadores: Aspectos arquiteturais; O modelo de referência para interconexão de sistemas abertos (RM-OSI); Estudo de camadas com exemplos de protocolos; Interconexão de redes: repeaters, bridges, routers, gateways; Concentradores: hubs, switches; Aspectos básicos de conectividade IP. Redes IP. Segurança de redes IP. Gerência e Qualidade de serviços de redes IP. Virtualização em redes IP. Internet das coisas. Orquestração. SDN. Redes locais industriais: redes e os níveis hierárquicos de integração; Requisitos das redes industriais; Padrões em redes industriais: IEEE 802, MAP/TOP; Fieldbus (FIP, PROFIBUS, Foundation Fieldbus); Padrões de Comunicação Aplicados a Indústria 4.0 e IoT; Visão geral de produtos."
+    },
+    {
+      "id": "CAC8003",
+      "code": "CAC8003",
+      "name": "Modelagem e Simulação de Sistemas",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3401"
+      ],
+      "equivalents": [
+        "CAC3501"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAC3501"
+      },
+      "syllabus": "Aspectos gerais de modelagem e simulação de processos. Modelagem de sistemas mecânicos translacionais. Modelagem de sistemas elétricos. Modelagem por funções de transferência. Modelagem por espaço de estados. Respostas de sistemas. Simulação de sistemas. Solução numérica de EDOS: Métodos de Euler, Métodos de Runge-Kutta de segunda e quarta ordem. Modelagem de sistemas mecânicos rotacionais. Modelagem de sistemas eletromecânicos. Técnicas de linearização de sistemas. Modelagem de sistemas térmicos. Modelagem de sistemas fluídicos;"
+    },
+    {
+      "id": "CAC2505",
+      "code": "CAC2505",
+      "name": "Metodologia Científica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU2505",
+        "BLU7006"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2505"
+          },
+          {
+            "kind": "course",
+            "code": "BLU7006"
+          }
+        ]
+      },
+      "syllabus": "A natureza do conhecimento científico e outras formas de conhecimento. Tipos de pesquisa. Métodos, técnicas e instrumentos de pesquisa. Elementos e etapas da pesquisa científica e tecnológica. Modalidades de trabalhos acadêmicos e científicos e sua normalização (ABNT). Análise e elaboração de trabalhos acadêmicos e científicos."
+    },
+    {
+      "id": "CAC3602",
+      "code": "CAC3602",
+      "name": "Sistemas de Controle",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3501",
+        "CAC8003"
+      ],
+      "equivalents": [
+        "BLU3602"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC3501"
+          },
+          {
+            "kind": "course",
+            "code": "CAC8003"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3602"
+      },
+      "syllabus": "Sistemas contínuos e discretos em malha fechada; Diagramas de blocos de um Sistema de Controle. Especificações de um sistema de controle. Estruturas de controle por realimentação e pré-alimentação. Estabilidade de sistemas em malha fechada. Ferramentas para o estudo de estabilidade com parâmetros variáveis. Lugar das Raízes, Bode e Nyquist. Conceitos de Margem de fase e ganho. Exemplos e casos especiais. Estabilidade robusta. Conceitos e aplicações. Funcionamento de sistemas em regime permanente. Os problemas de seguimento de referências e de rejeição de perturbações. Alocação de pólos e medidas no domínio da frequência real (margem de fase, frequência de corte, etc). Relação de especificações entre o plano S e o plano Z. Ferramentas para projeto de Sistemas de controle Contínuos e Discretos. Projeto de controladores PID. Compensação de Atraso de transporte: preditor de smith e variações. Laboratório: identificação de sistemas (temporal e frequencial). Análise e projeto de sistemas contínuos e discretos em processos reais (químicos, mecânicos, elétricos, etc); utilização de pacotes de projeto assistido por computador."
+    },
+    {
+      "id": "CAC3603",
+      "code": "CAC3603",
+      "name": "Acionamentos Hidráulicos e Pneumáticos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3403",
+        "DET6014"
+      ],
+      "equivalents": [
+        "BLU3603"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC3403"
+          },
+          {
+            "kind": "course",
+            "code": "DET6014"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3603"
+      },
+      "syllabus": "Pneumática: Conceitos e Princípios Básicos; Vantagens e Desvantagens da Pneumática; Produção e Distribuição do Ar Comprimido, Atuadores e Válvulas Pneumáticas, Projeto, Seleção e Manutenção de Elementos Pneumáticos; Funções Lógicas, Controladores Lógicos Programáveis (CLPs), Hidráulica: Conceitos e Princípios Básicos, Vantagens e Desvantagens da Hidráulica, Fluidos Hidráulicos, Dimensionamento de Atuadores Hidráulicos, Dimensionamento de Bombas e de Motores Hidráulicos, Dimensionamento de tubulações, Dimensionamento de reservatórios, Dimensionamento de Acumuladores Hidráulicos, Aplicações Práticas."
+    },
+    {
+      "id": "CAC3604",
+      "code": "CAC3604",
+      "name": "Acionamentos Elétricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3502",
+        "CAC3503"
+      ],
+      "equivalents": [
+        "BLU3604"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC3502"
+          },
+          {
+            "kind": "course",
+            "code": "CAC3503"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3604"
+      },
+      "syllabus": "Características gerais de motores, dispositivos elétricos, fusíveis, comando elétricos, partida de motores, chaves de partida eletrônicas, máquinas de corrente contínua, máquinas de corrente alternada, servomotores, noções de controle de máquinas CC e CA."
+    },
+    {
+      "id": "CAC7009",
+      "code": "CAC7009",
+      "name": "Tecnologia, Inovação, Desenvolvimento e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU7001"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7001"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Inovação e Desenvolvimento. As modelizações dos processos de produção de conhecimentos tecnológicos. Argumentações deterministas: determinismo tecnológico, determinismo social. Economia da inovação e mudança social. Grandes sistemas tecnológicos e redes tecno-econômicas. Tecnologias apropriadas, tecnologias alternativas e tecnologias sociais. Revisão da relação tecnologia, desenvolvimento e democracia. Políticas Públicas em Ciência, Tecnologia e Inovação. Desafios em CT&amp;I no Brasil, América Latina e Caribe.",
+      "extensionHours": 36
+    },
+    {
+      "id": "DET1812",
+      "code": "DET1812",
+      "name": "Administração",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1812",
+        "BLU8000"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU1812"
+          },
+          {
+            "kind": "course",
+            "code": "BLU8000"
+          }
+        ]
+      },
+      "syllabus": "Escolas clássicas de Administração: Taylor, Ford, Fayol. Teoria da Burocracia, Relações Humanas. Processo decisório nas organizações. Desenvolvimento Organizacional, Cultura Organizacional. Relações de Poder. Estratégias Competitivas"
+    },
+    {
+      "id": "DET1814",
+      "code": "DET1814",
+      "name": "Economia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Agregados macroeconômicos. Sistema de contas nacionais do Brasil. Modelo de insumo-produto. Contabilidade a preços correntes e a preços constantes: índices de preços e quantidades, deflacionamento de séries. Balanço de pagamentos, indicadores fiscais, externos e sociais."
+    },
+    {
+      "id": "CAC3700",
+      "code": "CAC3700",
+      "name": "Metrologia e Instrumentação",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3503"
+      ],
+      "equivalents": [
+        "BLU3700"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3503"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3700"
+      },
+      "syllabus": "Processo de medição. Sistema internacional de unidades. Procedimentos padronizados para avaliação de incertezas de medição, propagação de incertezas. Confiabilidade metrológica; rastreabilidade; calibração. Especificação e análise de dispositivos de medição de variáveis típicas de processo. Condicionamento de sinais de medição: medição de resistência elétrica a dois, três e quatro fios; ponte de Wheatstone; divisores resistivos e shunts; amplificação; isolação; ajuste de impedâncias de entrada e saída; ruídos e interferências. Princípio de funcionamento e especificação dos principais transdutores empregados para automação da medição de temperatura, deformação, força, pressão, rotação, vazão, nível e deslocamento. Principais transdutores com saída discreta aplicados em automação de processos: detectores de presença, termostatos, pressostatos, chaves de nível. Aquisição de dados: principais tipos de sistemas de aquisição de dados para instrumentação; sample-and-hold; conversores A/D e D/A. Transmissão e tratamento de sinais em instrumentação. Revisão de acionamentos, válvulas de regulação. Revisão das principais estratégias empregadas para acionamento de cargas (transistor como chave, acionamento por PWM, ponte H, amplificadores proporcionais de potência)."
+    },
+    {
+      "id": "CAC3702",
+      "code": "CAC3702",
+      "name": "Projeto Integrador",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3702"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3702"
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Detalhamento e apresentação do projeto. Elaboração ou construção de sistema ou protótipo, integrando os conhecimentos adquiridos no curso, nas diferentes linhas de formação.",
+      "extensionHours": 72
+    },
+    {
+      "id": "CAC3704",
+      "code": "CAC3704",
+      "name": "Introdução à Robótica Industrial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3202",
+        "CAC3401",
+        "CAC3403",
+        "CEE6106",
+        "CEE6206"
+      ],
+      "equivalents": [
+        "BLU3704"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC3202"
+          },
+          {
+            "kind": "course",
+            "code": "CAC3401"
+          },
+          {
+            "kind": "course",
+            "code": "CAC3403"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6206"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3704"
+      },
+      "syllabus": "Introdução à robótica: definições, conceitos básicos, histórico e aplicações. Estudo dos principais componentes construtivos de robôs manipuladores. Fundamentos Matemáticos. Cinemática direta e inversa. Introdução à dinâmica e ao controle de robôs. Geração de trajetórias para robôs manipuladores. Programação de robôs manipuladores."
+    },
+    {
+      "id": "CAC3705",
+      "code": "CAC3705",
+      "name": "Automação da Manufatura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3603"
+      ],
+      "equivalents": [
+        "BLU3705"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC3603"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3705"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Processos de fabricação no setor metal mecânico. Descrição dos diversos equipamentos utilizados; Soluções adotadas para automatizar o processo; Noções de interligação com outros setores (projeto, planejamento e montagem, etc.) Visão de engenharia da Gerência Operacional da Produção com ênfase na manufatura. Aspectos de Engenharia de Manufatura. Administração Operacional da Produção. Projeto da Rede de Operações Produtivas. Arranjo Físico e Fluxo.",
+      "extensionHours": 18
+    },
+    {
+      "id": "DET3706",
+      "code": "DET3706",
+      "name": "Gestão de Projetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3706"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3706"
+      },
+      "syllabus": "Fases e componentes de um projeto, o ciclo de vida de um projeto; Processos de gerência de um projeto; Gerência de integração do projeto; Gerência de escopo do projeto, do tempo do projeto e das redes de precedências, cronogramas, histograma de recursos, nivelamento de recursos, ferramentas computacionais de apoio ao planejamento de projetos; Gerência do custo, da qualidade, dos recursos humanos, das comunicações, dos riscos e das aquisições do projeto; administração de contratos e projeto de uma fábrica."
+    },
+    {
+      "id": "DET3800",
+      "code": "DET3800",
+      "name": "Gestão Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3800"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3800"
+      },
+      "syllabus": "Conceitos de natureza. Degradação ambiental. Políticas de desenvolvimento integrado. Instrumentos de gestão. Base legal e institucional para a gestão ambiental. Auditoria Ambiental. Sistemas de gestão ambiental."
+    },
+    {
+      "id": "CAC3900",
+      "code": "CAC3900",
+      "name": "Projeto Especializado",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3702"
+      ],
+      "equivalents": [
+        "BLU3900"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC3702"
+          },
+          {
+            "kind": "hours",
+            "hours": 108
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3900"
+      },
+      "prerequisiteHours": 108,
+      "syllabus": "Detalhamento e apresentação do projeto. Elaboração ou construção de sistema ou protótipo, integrando os conhecimentos adquiridos no curso, nas diferentes linhas de formação. Projeto de conclusão de curso: elaboração de anteprojeto de TCC.",
+      "extensionHours": 108
+    },
+    {
+      "id": "DET1525",
+      "code": "DET1525",
+      "name": "Segurança do Trabalho",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU7025",
+        "DET7025"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 720,
+        "courseType": "Ob"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU7025"
+          },
+          {
+            "kind": "course",
+            "code": "DET7025"
+          }
+        ]
+      },
+      "prerequisiteHours": 720,
+      "syllabus": "especializadas. Segurança do trabalho. Aplicação de Segurança do Trabalho em ambientes industriais: Controles e dispositivos de informação, gerenciamento de riscos. Equipamentos de proteção individual. Sinalização de segurança. Higiene do trabalho. Normatização e legislação. Primeiros Socorros e Prevenção a Incêndios."
+    },
+    {
+      "id": "CAC7210",
+      "code": "CAC7210",
+      "name": "Projeto Fim de Curso - TCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC3900"
+      ],
+      "equivalents": [
+        "BLU7210"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3900"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7210"
+      },
+      "syllabus": "Elaboração de trabalho científico e/ou tecnológico envolvendo as áreas abrangidos pelo curso. Defesa final do trabalho perante banca examinadora"
+    },
+    {
+      "id": "CAC7215",
+      "code": "CAC7215",
+      "name": "Projeto Fim de Curso - Estágio Curricular",
+      "credits": 18,
+      "hours": 324,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU7215"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3276,
+        "courseType": "Ob"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7215"
+      },
+      "prerequisiteHours": 3276,
+      "syllabus": "Estágio curricular obrigatório."
+    },
+    {
+      "id": "CAC3013",
+      "code": "CAC3013",
+      "name": "Mecanismos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "CEE6106",
+        "MAT2111",
+        "MAT2401"
+      ],
+      "equivalents": [
+        "BLU3013"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2111"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2401"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3013"
+      },
+      "syllabus": "Obrigatório Rol de Disciplinas Optativas Especializadas em Mecatrônica Introdução. Conceitos e notações aplicadas a mecanismos. Estudo de tipos de mecanismos. Conceitos elementares de síntese dimensional de mecanismos articulados. Análise cinemática de cames planos. Análise cinemática de engrenagens cilíndricas."
+    },
+    {
+      "id": "CAC3014",
+      "code": "CAC3014",
+      "name": "Eletrônica de Potência",
+      "credits": 6,
+      "hours": 108,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3503"
+      ],
+      "equivalents": [
+        "BLU3014"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3503"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3014"
+      },
+      "syllabus": "Dispositivos semicondutores de potência; componentes harmônicas; retificadores; conversores CC-CC; inversores; cálculo térmico de dispositivos semicondutores; projeto de elementos magnéticos."
+    },
+    {
+      "id": "CAC3015",
+      "code": "CAC3015",
+      "name": "Processamento Digital de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3401"
+      ],
+      "equivalents": [
+        "BLU3015"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3015"
+      },
+      "syllabus": "Revisão da Série de Fourier. Revisão da transformada de Fourier. Sistemas e sequências discretos. Amostragem periódica. Transformada Discreta de Fourier. Transformada Rápida de Fourier Discreta. Filtros com Resposta Finita ao impulso. Filtros com Resposta Infinita ao impulso."
+    },
+    {
+      "id": "CAC3040",
+      "code": "CAC3040",
+      "name": "Visão Computacional em Robótica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3201",
+        "CAC3202",
+        "CAC3401",
+        "CEE6106",
+        "CEE6206"
+      ],
+      "equivalents": [
+        "BLU3040"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC3201"
+          },
+          {
+            "kind": "course",
+            "code": "CAC3202"
+          },
+          {
+            "kind": "course",
+            "code": "CAC3401"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6206"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3040"
+      },
+      "syllabus": "Introdução à visão computacional. Formação de imagens e modelos de câmera. Fundamentos de obtenção e processamento de imagens. Extração de características visuais e segmentação de imagem. Visão 3D: Introdução à múltiplas vistas, calibração de câmeras, visão estéreo. Movimento e rastreamento de objetos."
+    },
+    {
+      "id": "CAC3041",
+      "code": "CAC3041",
+      "name": "Robótica Móvel",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3704"
+      ],
+      "equivalents": [
+        "BLU3041"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3704"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3041"
+      },
+      "syllabus": "Aplicação de conhecimentos de cinemática, dinâmica, eletrônica e controle em sistemas robóticos móveis através do desenvolvimento de projetos. Os conteúdos abordados incluem: Introdução à Robótica Móvel, Histórico, Perspectivas de Pesquisa na Área; Locomoção, Robôs com Rodas, Robôs com Pernas, Outras Formas de Locomoção; Cinemática, Modelos e Restrições, Manobrabilidade, Espaço de Trabalho, Controle de Movimento; Percepção, Sensores, Modos de Representar Incertezas, Extração de Características do Ambiente; Localização, Desafios da Localização, Representações de Conhecimento, Tipos de Mapas, Localização Probabilística, Outros Tipos de Localização, Construção de Mapas; Planejamento e Navegação, Planejamento de Trajetórias, Desvio de Obstáculos, Arquiteturas para Navegação"
+    },
+    {
+      "id": "CAC3042",
+      "code": "CAC3042",
+      "name": "Eletrônica Avançada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3503"
+      ],
+      "equivalents": [
+        "BLU3042"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3503"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3042"
+      },
+      "syllabus": "Amplificadores multiestágio. Estrutura Geral da Realimentação. Realimentação Negativa. Estabilidade de Amplificadores com Realimentação Negativa. Amplificadores realimentados. Osciladores. Amplificadores de potência. Amplificadores de RF. Projeto de Filtros Analógicos."
+    },
+    {
+      "id": "CAC3048",
+      "code": "CAC3048",
+      "name": "Tópicos Especiais em Mecatrônica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3048"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3048"
+      },
+      "syllabus": "Disciplina na área de Mecatrônica com ementa variável definida ao ser ofertada."
+    },
+    {
+      "id": "CAC3051",
+      "code": "CAC3051",
+      "name": "Filtros Analógicos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3503"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3503"
+      },
+      "syllabus": "Filtros passivos e ativos. Resposta em frequência. Filtros passa-baixa. passa-alta, passa-faixa e rejeita-faixa. Técnicas de síntese e análise de filtros analógicos. Projeto de filtros analógicos."
+    },
+    {
+      "id": "CAC3052",
+      "code": "CAC3052",
+      "name": "Eletrônica Avançada",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CAC3503"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAC3503"
+      },
+      "syllabus": "Amplificadores multiestágio. Estrutura Geral da Realimentação. Realimentação Negativa. Estabilidade de Amplificadores com Realimentação Negativa. Amplificadores realimentados. Osciladores. Amplificadores de potência."
+    },
+    {
+      "id": "CAC3055",
+      "code": "CAC3055",
+      "name": "CAC3055 - Tópicos Especiais em Mecatrônica II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ementa variável abordando conteúdo avançado na área de mecatrônica."
+    },
+    {
+      "id": "CAC3056",
+      "code": "CAC3056",
+      "name": "Tópicos Especiais em Mecatrônica III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ementa variável abordando conteúdo avançado na área de mecatrônica."
+    },
+    {
+      "id": "CAC3059",
+      "code": "CAC3059",
+      "name": "Sistemas de comunicação móvel de nova",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CAC3505"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAC3505"
+      },
+      "syllabus": "Padrões e sistemas celulares, canal rádio móvel, predição e planejamento de cobertura e planejamento de capacidade para sistemas celulares, Ruído e Interferência, Propagação Rádio-Móvel, Modelagem de canal sem fio, Capacidade de canais sem fio, técnicas de modulação, diversidade e equalização, Transmissão em ondas milimétricas, Transmissão em THz, MIMO Massivo, Redes ultradensas, Comunicação Device-to-Device (D2D), Novas técnicas de modulação (5G e 6G), Técnicas de múltiplo acesso não-ortogonal, SDN (Software Defined Networks) e NFV (Network Function Virtualization), Cloud RAN (Radio Access Network),Network Slicing."
+    },
+    {
+      "id": "CAC3060",
+      "code": "CAC3060",
+      "name": "Robótica Móvel: Planejamento e Navegação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CAC3704"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAC3704"
+      },
+      "syllabus": "geração CAC3506) Introdução ao planejamento de trajetórias: algoritmos de Bug, métodos baseados em grafos, método de campo potencial. Planejamento de movimento: controle de colisão, otimização de trajetórias, planejamento baseado em comportamento. Navegação autônoma: algoritmos de navegação local e global. Navegação em ambientes dinâmicos e desconhecidos. Aplicações de planejamento e navegação em robótica terrestre, aérea e subaquática."
+    },
+    {
+      "id": "CAC3061",
+      "code": "CAC3061",
+      "name": "Robótica Móvel: Percepção, Localização e Mapeamento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CAC3704"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAC3704"
+      },
+      "syllabus": "Introdução à percepção em robótica: sensores, técnicas de processamento de imagem e visão computacional. Métodos de localização: odometria, baseada em visão computacional, baseadas em filtragem Bayesiana (Filtro de Kalman, Filtro de Partículas). Algoritmos de mapeamento: mapeamento baseado em grade, mapeamento baseado em características, mapeamento semântico. Técnicas de mapeamento e localização simultânea e mapeamento (SLAM). Fusão sensorial para robustez na percepção e localização. Aplicações de PLM em robótica móvel e manipuladores."
+    },
+    {
+      "id": "CAC3063",
+      "code": "CAC3063",
+      "name": "Robótica Inteligente: Aplicações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CAC3704"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAC3704"
+      },
+      "syllabus": "Fundamentos de robótica. Aplicação de técnicas de IA em robótica: Redes Neurais Artificiais (RNA); Algoritmos Genéticos (AG); Computação Evolutiva (CE); Otimização por enxame de particulas (PSO); Aprendizado por reforço (RL); Simulated Annealing (SA); Lógica Fuzzy; Sistemas Multiagentes; Aprendizado por Imitação e Transferência; Redes Bayesianas; Algoritmos de Otimização Convexa e Não-Convexa; Processamento de Linguagem Natural para Robótica; Robótica Evolutiva; Algoritmos Meta-heurísticos; Sistemas Híbridos inteligentes."
+    },
+    {
+      "id": "CAC3064",
+      "code": "CAC3064",
+      "name": "Instrumentação Biomédica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3700"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3700"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CAC3023",
+      "code": "CAC3023",
+      "name": "Programação Orientada de Objetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3202"
+      ],
+      "equivalents": [
+        "BLU3023"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3202"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3023"
+      },
+      "syllabus": "Rol de Disciplinas Optativas Especializadas em Sistemas Computacionais Introdução à programação orientada a objetos. Classes, objetos, encapsulamento e agregação. Interfaces, polimorfismo. Herança. UML: interpretação de diagramas de classes. Noções de padrões de projetos orientados a objetos. Prática em programação orientada a objetos."
+    },
+    {
+      "id": "CAC3024",
+      "code": "CAC3024",
+      "name": "Integração de Sistemas para Automação",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3202",
+        "CAC3505",
+        "CAC3506"
+      ],
+      "equivalents": [
+        "BLU3024"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CAC3202"
+              },
+              {
+                "kind": "course",
+                "code": "CAC3505"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "CAC3506"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3024"
+      },
+      "syllabus": "Sistemas distribuídos: nuvens computacionais, servidores de aplicação, webservers e webservices. Bancos de Dados: modelo E-R, noções de SQL, Big Data, No-SQL. Sistemas SCADA."
+    },
+    {
+      "id": "CAC3033",
+      "code": "CAC3033",
+      "name": "Introdução à Otimização",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3033"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3033"
+      },
+      "syllabus": "Introdução a problemas de otimização e suas propriedades básicas: problemas de otimização irrestritos e com restrição. Programação Linear, formulação, resolução geométrica, o método simplex, dualidade e interpretação econômica. Modelos de fluxo em rede, problemas de transporte, caminho mínimo e fluxo máximo. Programação inteira. Programação por restrições. Uso de software especializado."
+    },
+    {
+      "id": "CAC3044",
+      "code": "CAC3044",
+      "name": "Tópicos Avançados em Redes de Telecomunicações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3505",
+        "CAC3506"
+      ],
+      "equivalents": [
+        "BLU3044"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC3505"
+          },
+          {
+            "kind": "course",
+            "code": "CAC3506"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3044"
+      },
+      "syllabus": "Disciplina na área de Redes de Telecomunicações com ementa variável definida ao ser ofertada."
+    },
+    {
+      "id": "CAC3045",
+      "code": "CAC3045",
+      "name": "Engenharia de Software",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3023"
+      ],
+      "equivalents": [
+        "BLU3045"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3023"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3045"
+      },
+      "syllabus": "Requisitos de qualidade de Sistemas e de Software. Modelos: ciclo de vida, prototipagem, híbrido. Metodologias (Abordagens Top-Down, Bottom-up, Objetos). Ferramentas para análise, projeto e teste. Ambientes de desenvolvimento de Sistemas e Software. Aplicação das metodologias, ferramentas e ambientes a problemas de Automação. Estudo de caso."
+    },
+    {
+      "id": "CAC3046",
+      "code": "CAC3046",
+      "name": "Sistemas Embarcados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3302"
+      ],
+      "equivalents": [
+        "BLU3046"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3302"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3046"
+      },
+      "syllabus": "Sistemas embarcados na Automação: arquitetura, principais componentes e exemplos de aplicação. Abordagem Ciberfísica para modelagem. Integração de software em plataformas de hardware embarcadas. Customização de sistemas operacionais para plataformas dedicadas (drivers de dispositivos, bibliotecas e aplicações). Ferramentas de modelagem de sistemas embarcados. Arquiteturas de software voltadas ao projeto de controladores de tempo real. Ferramentas de simulação de arquiteturas. Técnicas de controle, gerência e armazenamento de código-fonte. Visão geral sobre licenças de software."
+    },
+    {
+      "id": "CAC3047",
+      "code": "CAC3047",
+      "name": "Tópicos Especiais em Sistemas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3047"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3047"
+      },
+      "syllabus": "Disciplina na área de Sistemas Computacionais com ementa variável definida ao ser ofertada."
+    },
+    {
+      "id": "CAC3050",
+      "code": "CAC3050",
+      "name": "Sistemas Digitais II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3302"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3302"
+      },
+      "syllabus": "Computacionais I Introdução aos dispositivos lógicos programáveis. Linguagem de descrição de hardware VHDL: estrutura do código VHDL; tipos de dados; sinais e variáveis; componentes; comandos concorrentes básicos; comandos sequenciais básicos; máquina de estados em VHDL; esquemas de iteração; bibliotecas e pacotes. Projeto de sistemas digitais segundo abordagem RTL: máquina de estados de alto nível; bloco operativo; bloco de controle; projeto envolvendo uso de memória; projeto envolvendo temporização."
+    },
+    {
+      "id": "CAC3053",
+      "code": "CAC3053",
+      "name": "Tópicos Especiais em Sistemas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ementa variável abordando conteúdo avançado em sistemas computacionais."
+    },
+    {
+      "id": "CAC3054",
+      "code": "CAC3054",
+      "name": "Tópicos Especiais em Sistemas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Computacionais II Ementa variável abordando conteúdo avançado em sistemas computacionais."
+    },
+    {
+      "id": "CAC8002",
+      "code": "CAC8002",
+      "name": "Inteligência Artificial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3202",
+        "CAC6013"
+      ],
+      "equivalents": [
+        "BLU8002"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC3202"
+          },
+          {
+            "kind": "course",
+            "code": "CAC6013"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU8002"
+      },
+      "syllabus": "Computacionais III Lógica nebulosa. Conexionismo: redes neurais. Raciocínio incerto e probabilístico: redes bayesianas. Aprendizado por reforço."
+    },
+    {
+      "id": "CAC8005",
+      "code": "CAC8005",
+      "name": "Sistemas Computacionais para Controle e Automação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3302"
+      ],
+      "equivalents": [
+        "CAC3020"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3302"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAC3020"
+      },
+      "syllabus": "Programação concorrente motivação, mecanismos de comunicação e de sincronização. Sistemas operacionais: características e uso, gerência do processador, da memória, gerência de arquivos, segurança e de outros recursos. Políticas de escalonamento clássicas. Estudos de caso."
+    },
+    {
+      "id": "CAC3002",
+      "code": "CAC3002",
+      "name": "Identificação e Controle Adaptativo de Sistemas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3602"
+      ],
+      "equivalents": [
+        "BLU3002"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3602"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3002"
+      },
+      "syllabus": "Rol de Disciplinas Optativas Especializadas em Controle de Processos Modelos de processos contínuo e discreto, modelos com perturbação, equação à diferença linear geral, métodos clássicos de identificação nos domínios do tempo e da frequência. Métodos de identificação \"off-line\" e \"on-line\": mínimos quadrados, mínimos quadrados generalizado, variável instrumental, aproximação estocástica. Determinação de modelos contínuos a partir de dados amostrados. Processos variantes no tempo: fator de esquecimento variável, reinicialização da matriz de covariância, métodos de detecção de ruptura de modelos, fatorização UD, validação de modelos. Controle adaptativo, alocação de pólos, PID, DeadBeat, Dahlin, auto-ajustável de variância mínima, auto-ajustável de variância mínima generalizada: indireto e direto, PID auto-ajustável com estrutura GMV."
+    },
+    {
+      "id": "CAC3003",
+      "code": "CAC3003",
+      "name": "Controle no Espaço de Estados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3602"
+      ],
+      "equivalents": [
+        "BLU3003"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3602"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3003"
+      },
+      "syllabus": "Representação por variáveis de estado de sistemas contínuos e amostrados. Metodologia de análise e projeto de sistemas de controle multivariável. Controlabilidade e Observabilidade. Decomposição canônica de sistemas lineares; Formas canônicas. Relação entre a representação por variáveis de estado e a Matriz Função de Transferência; Pólos e Zeros Multivariáveis. Controle com o estado mensurável; Realimentação de estados. Propriedades: caso monovariável, extensão de resultados. Conceito de estimador de estado; Observadores; Controle usando realimentação do estado estimado. Teorema da separação."
+    },
+    {
+      "id": "CAC3004",
+      "code": "CAC3004",
+      "name": "Introdução ao Controle Preditivo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3602"
+      ],
+      "equivalents": [
+        "BLU3004"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3602"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3004"
+      },
+      "syllabus": "Introdução ao conceito de predição. Preditores em controladores básicos. Conceitos de controle preditivo (model predictive control - MPC). Revisão do controlador GPC (Generalized Predictive Control) e DMC (Dynamic Matrix Control). Revisão dos conceitos de compensação de atraso, Preditor de Smith e Preditor de Smith Filtrado. Análise de robustez e rejeição de perturbações. O controlador DTC-GPC. Controle feed-forward no GPC. GPC com perturbações medíveis. GPC com restrições. Formulação do problema e tratamento de restrições. Algoritmos para solução do problema de otimização com programação quadrática. Casos de estudo simulados e experimentais."
+    },
+    {
+      "id": "CAC3008",
+      "code": "CAC3008",
+      "name": "Processos Industriais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3602"
+      ],
+      "equivalents": [
+        "BLU3008"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3602"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3008"
+      },
+      "syllabus": "Revisão de técnicas de projeto de controladores no domínio da frequência: alocação de pólos e regras de sintonia. Revisão de preditor de Smith. Fluxograma de engenharia, normas para descrever estratégias de controle de processos industriais. Interligações das etapas e suas variáveis de projeto, operação e controle. Principais estratégias de controle utilizadas. Principais processos encontrados em diferentes áreas da industria de processos, especialmente químicos, petroquímicos e energias renováveis. Principais operações envolvidas e seus equipamentos. Aplicações de sistemas de controle em áreas inovadoras."
+    },
+    {
+      "id": "CAC3043",
+      "code": "CAC3043",
+      "name": "Sistemas Não-Lineares",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3602"
+      ],
+      "equivalents": [
+        "BLU3043"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3602"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3043"
+      },
+      "syllabus": "Modelagem e análise de sistemas não-lineares. Estudo de estabilidade: estabilidade via Lyapunov. Projeto de controladores não lineares: Controle por realimentação, Controle Backstepping, Controle por Modos Deslizantes."
+    },
+    {
+      "id": "CAC3049",
+      "code": "CAC3049",
+      "name": "Tópicos Especiais em Controle de Processos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3602"
+      ],
+      "equivalents": [
+        "BLU3049"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3602"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3049"
+      },
+      "syllabus": "Disciplina na área de Controle de Processos com ementa variável definida ao ser ofertada."
+    },
+    {
+      "id": "CAC3057",
+      "code": "CAC3057",
+      "name": "Tópicos Especiais em Controle de Processos II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3602"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3602"
+      },
+      "syllabus": "Ementa variável abordando conteúdo avançado na área de controle de processos."
+    },
+    {
+      "id": "CAC3058",
+      "code": "CAC3058",
+      "name": "Tópicos Especiais em Controle de Processos III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3602"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3602"
+      },
+      "syllabus": "Ementa variável abordando conteúdo avançado na área de controle de processos."
+    },
+    {
+      "id": "CAC3062",
+      "code": "CAC3062",
+      "name": "Modelagem e Controle de Sistemas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3704"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3704"
+      },
+      "syllabus": "A equação de Euler Lagrange e a equação de movimento. Controle de juntas independentes de manipuladores. Controle de robôs no espaço de estados: controle de dinâmica inversa, controle adaptativo, controle por modos deslizantes, etc. Estudo de robôs manipuladores, e robôs móveis terrestres e aéreos."
+    },
+    {
+      "id": "CAC8004",
+      "code": "CAC8004",
+      "name": "Controle de Conversores CC CC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3602"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC3602"
+      },
+      "syllabus": "Introdução aos conversores CC CC; Modulação por largura de pulso PWM; Projeto e operação em regime permanente: Buck, Boost e Buck Boost; Modos de operação: modos de condução contínua e descontínua; Modelo de cada etapa de funcionamento no domínio do tempo; Modelo médio; Modelo linearizado em espaço de estados; Modelo linearizado em função de fransferência; Circuito equivalente de pequenos sinais; Análise de distúrbios e robustez: impedância de saída, suscetibilidade de áudio e margens de estabilidade; Técnicas de controle no domínio da frequência: avanço, atraso e avanço atraso de fase; Projeto de controladores analógicos para conversores CC CC; Controle por modo de tensão; Controle por modo de corrente;"
+    },
+    {
+      "id": "DET1803",
+      "code": "DET1803",
+      "name": "Planejamento e Controle da Produção",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Rol de Disciplinas Optativas Especializadas em Engenharias PCP e sistemas produtivos, Previsão de Demanda, Planejamento Estratégico da Produção, Planejamento Mestre da Produção, Programação da produção, Modelos de Controle de Estoques, Sequenciamento da Programação da produção, Programação Puxada da Produção, Emissão, liberação, Acompanhamento e Controle da Produção."
+    },
+    {
+      "id": "DET7000",
+      "code": "DET7000",
+      "name": "Engenharia da Qualidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC6013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC6013"
+      },
+      "syllabus": "Sistemas de gerenciamento da qualidade; Normas Técnicas; Certificação, avaliação de sistemas da qualidade e Auditoria, Ferramentas da qualidade e Controle Estatístico de processo."
+    },
+    {
+      "id": "CAC7010",
+      "code": "CAC7010",
+      "name": "Teoria do Conhecimento para Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU7003"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7003"
+      },
+      "syllabus": "Origem e evolução da tecnologia. Distinção entre ciência e tecnologia, técnica e tecnologia, e engenharia e tecnologia. Definição de tecnologia. Classificação das Tecnologias. Pesquisa tecnológica. Lógica da pesquisa tecnológica. Conceito de verdade na pesquisa tecnológica. Questões epistemológicas da tecnologia."
+    },
+    {
+      "id": "CAC7011",
+      "code": "CAC7011",
+      "name": "Tecnologias para o Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU7004"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7004"
+      },
+      "syllabus": "Tecnologias para o desenvolvimento inclusivo: desenvolvimento de tecnologias para a resolução de problemas sociais e ambientais. Políticas públicas, estratégias institucionais, desenho de artefatos e sistemas. Mudança tecnológica e mudança social; Economia solidária e desenvolvimento local; Articulação e gestão de conhecimentos; Política, Gestão e Planificação Estratégica; Desenho de estratégias de inclusão e desenvolvimento. Componente de extensão: O aluno deve ir a campo conhecer as dificuldades enfrentadas por pessoas sujeitas a exclusão e propor formas de melhoria da sua inserção na sociedade a partir da interação e ou intervenções com esses sujeitos desenvolvendo projetos com foco na coprodução e experiência do usuário."
+    },
+    {
+      "id": "CAC7012",
+      "code": "CAC7012",
+      "name": "Sociedade, Tecnologia e História (EXT 18h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU7005"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7005"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Inclusivo (EXT 36h-a) Noções sobre História, Cultura Material, Técnica, Ciência, Tecnologia e Sociedade. Transformações da técnica e da tecnologia nos diferentes tempos históricos. Técnica, sociedade e transformação dos processos socioculturais. Relações do homem com a matéria e com o objeto técnico no processo histórico. Tecnologia, Saberes Tradicionais e Inovação na História africana, afro-brasileira e dos povos de matriz indígena."
+    },
+    {
+      "id": "CAC7995",
+      "code": "CAC7995",
+      "name": "Introdução aos Sistemas de Controle",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAC3101",
+        "MAT2211"
+      ],
+      "equivalents": [
+        "BLU7995"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC3101"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2211"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7995"
+      },
+      "syllabus": "a) Conceitos básicos de controle de processos: variável manipulada, controlada e perturbações. Modelos como representação de processos. Conceitos de sistema e sinal. Modelos estáticos e dinâmicos, ponto de operação. Introdução, através de problemas otivadores e de conceitos de cálculo básico e física básica, de noções de realimentação, pré-alimentação, controle proporcional e integral. Introdução das ideias de controle por camadas, pontos ótimos econômicos, uso de funções, máximos e mínimos."
+    },
+    {
+      "id": "CEE6310",
+      "code": "CEE6310",
+      "name": "Ótica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CEE6110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE6110"
+      },
+      "syllabus": "- Ondas eletromagnéticas. Ondas luminosas. Óptica geométrica. Interferência. Difração. Polarização. Instrumentos ópticos. Espectroscopia."
+    },
+    {
+      "id": "CEE7923",
+      "code": "CEE7923",
+      "name": "Língua Brasileira de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aquisição básica da Língua Brasileira de Sinais LIBRAS como segunda língua (L2). Introdução de conceitos da área de surdez. Cultura surda e identidade surda. Gramática básica. Internalização de vocabulário básico geral."
+    },
+    {
+      "id": "DET1813",
+      "code": "DET1813",
+      "name": "Microeconomia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU1813",
+        "BLU8001"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2301"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU1813"
+          },
+          {
+            "kind": "course",
+            "code": "BLU8001"
+          }
+        ]
+      },
+      "syllabus": "Mercado: oferta e demanda. Teoria do consumidor. Teoria da firma. Estruturas de mercados e formação de preços. Monopólios, Oligopólios, Externalidades e bens públicos"
+    },
+    {
+      "id": "MAT4741",
+      "code": "MAT4741",
+      "name": "Métodos Numéricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT2301"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2301"
+      },
+      "syllabus": "Métodos para resolução de sistemas lineares. Solução numérica de equações nãolineares. Problemas de ajuste de dados e interpolação. Integração Numérica. Métodos numéricos para Equações Diferenciais Ordinárias."
+    },
+    {
+      "id": "CAC3001",
+      "code": "CAC3001",
+      "name": "Atividades Acadêmico-Científico-Culturais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Complementação de conteúdos ministrados e/ou atualização permanente dos alunos acerca de temas emergentes relacionados à sua formação. Atividades que preveem o aproveitamento, para fins de integralização curricular, de prática extraclasse relevante para o saber e as habilidades necessárias à formação do aluno de Engenharia de Controle e Automação"
+    },
+    {
+      "id": "CAC3005",
+      "code": "CAC3005",
+      "name": "Atividades de Extensão",
+      "credits": 9,
+      "hours": 162,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 162
+      },
+      "prerequisiteHours": 162,
+      "syllabus": "Rol de Ações de Extensão Ações de extensão em projetos, eventos e cursos reconhecidas para fins de integralização curricular.",
+      "extensionHours": 162
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "CAC3100",
+      "CAC3101",
+      "CAC6002",
+      "CEE6106",
+      "CEE6206",
+      "MAT2101",
+      "MAT2111",
+      "MAT2201",
+      "CAC3201",
+      "CAC3202",
+      "CEE6109",
+      "CEE6209",
+      "MAT2211",
+      "MAT2301",
+      "CAC3302",
+      "CAC6011",
+      "CAC7008",
+      "CEE6110",
+      "CEE6210",
+      "DET3301",
+      "MAT2401",
+      "CAC3401",
+      "CAC3402",
+      "CAC3403",
+      "CAC6013",
+      "DET6014",
+      "CAC3501",
+      "CAC3502",
+      "CAC3503",
+      "CAC3504",
+      "CAC3505",
+      "CAC3506",
+      "CAC8003",
+      "CAC2505",
+      "CAC3602",
+      "CAC3603",
+      "CAC3604",
+      "CAC7009",
+      "DET1812",
+      "DET1814",
+      "CAC3700",
+      "CAC3702",
+      "CAC3704",
+      "CAC3705",
+      "DET3706",
+      "DET3800",
+      "CAC3900",
+      "DET1525",
+      "CAC7210",
+      "CAC7215"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 792,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CAC3013",
+              "CAC3014",
+              "CAC3015",
+              "CAC3040",
+              "CAC3041",
+              "CAC3042",
+              "CAC3048",
+              "CAC3051",
+              "CAC3052",
+              "CAC3055",
+              "CAC3056",
+              "CAC3059",
+              "CAC3060",
+              "CAC3061",
+              "CAC3063",
+              "CAC3064",
+              "CAC3023",
+              "CAC3024",
+              "CAC3033",
+              "CAC3044",
+              "CAC3045",
+              "CAC3046",
+              "CAC3047",
+              "CAC3050",
+              "CAC3053",
+              "CAC3054",
+              "CAC8002",
+              "CAC8005",
+              "CAC3002",
+              "CAC3003",
+              "CAC3004",
+              "CAC3008",
+              "CAC3043",
+              "CAC3049",
+              "CAC3057",
+              "CAC3058",
+              "CAC3062",
+              "CAC8004",
+              "DET1803",
+              "DET7000",
+              "CAC7010",
+              "CAC7011",
+              "CAC7012",
+              "CAC7995",
+              "CEE6310",
+              "CEE7923",
+              "DET1813",
+              "MAT4741",
+              "CAC3001",
+              "CAC3005"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "754",
+    "curriculumCode": "20232",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=754&curriculo=20232",
+    "sha256": "8c1546eef4ba792e7ebc973f6a2b7a456802264a1bb1852081e29fb3fbe15700",
+    "capturedAt": "2026-09-22"
+  }
+}

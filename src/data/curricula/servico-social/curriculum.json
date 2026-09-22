@@ -1,0 +1,1641 @@
+{
+  "program": "SERVIÇO SOCIAL",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2013.2",
+  "totalHours": 3600,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "DSS7101",
+      "code": "DSS7101",
+      "name": "Serviço Social e Realidade Social I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DSS5110"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5110"
+      },
+      "syllabus": "A construção social da realidade. Elementos da análise de conjuntura. Realidade social catarinense. Processo constitutivo da profissão. Institucionalização da profissão e divisão social do trabalho. Teórica."
+    },
+    {
+      "id": "DSS7103",
+      "code": "DSS7103",
+      "name": "Oficina Introdução à Vida Acadêmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Inserção na Universidade e vida acadêmica. Compreensão da estrutura, serviços acadêmico-administrativos e organização curricular do Curso de Serviço Social da UFSC. Projetos de pesquisa e extensão do Departamento de Serviço Social e da UFSC. A universidade pública brasileira. Teórico-prática."
+    },
+    {
+      "id": "DSS7107",
+      "code": "DSS7107",
+      "name": "Introdução ao Conhecimento Científico e Serviço Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DSS5605"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5605"
+      },
+      "syllabus": "Senso comum, conhecimento científico e ideologia. Metodologia do trabalho científico. O processo de construção do conhecimento científico. A dimensão investigativa do Serviço Social. O Serviço Social como área de conhecimento. Teórica."
+    },
+    {
+      "id": "HST7105",
+      "code": "HST7105",
+      "name": "Formação Sócio-histórico do Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5222"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5222"
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "A formação social do Brasil, do processo colonial à constituição do Brasil moderno; escravismo, movimentos sociais, governos autoritários e as lutas pela democracia."
+    },
+    {
+      "id": "SPO7104",
+      "code": "SPO7104",
+      "name": "Introdução à Teoria Sociológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5150"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5150"
+      },
+      "syllabus": "O contexto histórico de surgimento da Sociologia, concepção de homem e sociedade nas matrizes clássicas do pesamento sociológico. Comte, Dukheim, Weber e Marx."
+    },
+    {
+      "id": "DSS7102",
+      "code": "DSS7102",
+      "name": "Serviço social e Realidade Social II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7101"
+      ],
+      "equivalents": [
+        "DSS5101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5101"
+      },
+      "syllabus": "O exercício profissional e os espaços sócio ocupacionais. Marco regulatório da profissão de Serviço Social. Atribuições e competências do assistente social. Mercado de trabalho, áreas de atuação e demandas para a profissão. Indicadores sociais. Teórica."
+    },
+    {
+      "id": "DSS7104",
+      "code": "DSS7104",
+      "name": "Oficina Serviço Social e Produção Textual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Leitura e interpretação de textos. Elaboração de resumos, resenhas e artigos científicos. Relatórios técnicos e científicos na área do Serviço Social. Normas de apresentação de trabalhos científicos e pesquisa em base de dados. Teórico-prática"
+    },
+    {
+      "id": "PSI7150",
+      "code": "PSI7150",
+      "name": "Psicologia Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5122"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5122"
+      },
+      "syllabus": "Fundamentos de psicologia social crítica. Conciência, subjetividade, indentidade, afetividade. Constituição do sujeito. Persepção social. Formação de impressões. Atitudes. Influências social e bases de poder. Relações intergrupais e conflitos. Esteriótipos, etgma e Preconceito. Teórica."
+    },
+    {
+      "id": "SPO5236",
+      "code": "SPO5236",
+      "name": "Ciência Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CSO5236"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CSO5236"
+      },
+      "syllabus": "Política e Ciência Política. Conceitos fundamentais da Ciência Política. O Estado moderno e a transformação da política clássica."
+    },
+    {
+      "id": "ANT7100",
+      "code": "ANT7100",
+      "name": "Antropologia Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5315"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5315"
+      },
+      "syllabus": "Antropologia social e cultural. Cultura popular. Identidade e expressões culturais, regionais e multiculturais."
+    },
+    {
+      "id": "DSS7110",
+      "code": "DSS7110",
+      "name": "FHTM SSI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7101"
+      ],
+      "equivalents": [
+        "DSS5125"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5125"
+      },
+      "syllabus": "Capitalismo monopolista, questão social e Serviço Social. Gênese do Serviço Social. As condições histórico-sociais da emergência, da institucionalização e desenvolvimento do Serviço Social na América Latina e Brasil. Teórica."
+    },
+    {
+      "id": "DSS7113",
+      "code": "DSS7113",
+      "name": "Serviço Social e Economia Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM5124"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM5124"
+      },
+      "syllabus": "Economia política clássica e a teoria do valor-trabalho. Crítica da economia política. Mercadoria, valor e dinheiro. Produção da mais-valia absoluta e relativa. A lei geral da acumulação capitalista. Economia política e os fundamentos do Serviço Social. Teórica."
+    },
+    {
+      "id": "DSS7114",
+      "code": "DSS7114",
+      "name": "Classes Sociais e Movimentos Sociais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DSS5135"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5135"
+      },
+      "syllabus": "Estado e sociedade civil. Democracia, participação popular e luta de classes. Classes sociais e sujeitos coletivos: partidos, sindicatos, movimentos e organizações populares. Concepções teóricas dos movimentos sociais. Identidade e subjetividade na construção dos movimentos sociais. O Serviço Social na relação com os movimentos sociais. Movimentos Sociais em Santa Catarina. Teórica."
+    },
+    {
+      "id": "DSS7120",
+      "code": "DSS7120",
+      "name": "Serviço Social, Direito e Cidadania",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5973"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5973"
+      },
+      "syllabus": "Sociedade, Estado e Direito. Constituição: origem e significado. República, federação e estado democrático de direito. Direitos fundamentais, cidadania e Serviço Social. A Ordem Social na Constituição Brasileira de 1988. Organização dos poderes no Estado brasileiro. Teórica."
+    },
+    {
+      "id": "DSS7105",
+      "code": "DSS7105",
+      "name": "Oficina Preparação ao Estágio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7110"
+      ],
+      "equivalents": [
+        "DSS5165"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7110"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5165"
+      },
+      "syllabus": "O estágio curricular na formação do assistente social. As dimensões investigativa e interventiva da profissão nas Diretrizes Curriculares. Normatização do Estágio. Campos de estágio de Serviço Social credenciados na UFSC. Estudo de produções referentes aos campos de estágio. Conhecimento de experiências de estágio. Teórico-prática"
+    },
+    {
+      "id": "DSS7111",
+      "code": "DSS7111",
+      "name": "FHTM SSII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7110"
+      ],
+      "equivalents": [
+        "DSS5130"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7110"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5130"
+      },
+      "syllabus": "O processo de renovação do Serviço Social latino-americano e brasileiro. A produção teórico-metodológica do Serviço Social do período de renovação e a aproximação ao marxismo. A crise da autocracia burguesa e a redemocratização brasileira. A construção do Projeto Ético Político profissional. Teórica."
+    },
+    {
+      "id": "DSS7115",
+      "code": "DSS7115",
+      "name": "Método Crítico Dialético",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7113"
+      },
+      "syllabus": "Idealismo e materialismo. Ser Social, Trabalho e Ontologia. Método crítico-dialético e suas categorias fundamentais. Totalidade e História. As categorias de mediação e a apreensão da universalidade, singularidade e particularidade. Trabalho e produção social. Método Crítico dialético e Serviço Social. Teórica."
+    },
+    {
+      "id": "DSS7121",
+      "code": "DSS7121",
+      "name": "Política Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7120"
+      ],
+      "equivalents": [
+        "DSS5123"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7120"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5123"
+      },
+      "syllabus": "Determinações sócio históricas das políticas sociais. Perspectivas conceituais da política social. A construção das políticas sociais no século XX. A Constituição de 1988 e a Seguridade Social. O Estado brasileiro e a regulamentação e implementação dos direitos sociais. A conjuntura de contra-reformas do Estado e (novo) desenvolvimentismo. Teórica."
+    },
+    {
+      "id": "FIL7100",
+      "code": "FIL7100",
+      "name": "Introdução a Ética",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5195",
+        "FIL5600"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5195"
+          },
+          {
+            "kind": "course",
+            "code": "FIL5600"
+          }
+        ]
+      },
+      "syllabus": "Desemvolvimentos clássicos e comtentoránios da refleção ética. Virtude e Dever. Téorias da Justiça. Utilitarismo. Teórica."
+    },
+    {
+      "id": "DSS7112",
+      "code": "DSS7112",
+      "name": "FHTM SS III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7111"
+      ],
+      "equivalents": [
+        "DSS5800"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7111"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5800"
+      },
+      "syllabus": "O Serviço Social no contexto da democratização brasileira. Transformações do capitalismo contemporâneo. Trabalho, Questão Social e Serviço Social. Modernidade, Neoconservadorismo e o projeto ético-político profissional. O Serviço Social no mundo. A produção teórico-metodológica, espaços sócio- ocupacionais e exercício profissional do Serviço Social a partir dos anos 1990. Teórica."
+    },
+    {
+      "id": "DSS7117",
+      "code": "DSS7117",
+      "name": "Ética Profissional do Serviço Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FIL7100"
+      ],
+      "equivalents": [
+        "DSS5321"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIL7100"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5321"
+      },
+      "syllabus": "O processo de construção do ethos profissional. Fundamentos filosóficos nos diferentes códigos de ética dos assistentes sociais brasileiros: neotomismo, personalismo e ontologia social. Análise crítica dos valores na sociabilidade burguesa. O Código de Ética Profissional, seus valores e princípios. Os dilemas éticos contemporâneos no cotidiano da profissão. Teórica."
+    },
+    {
+      "id": "DSS7118",
+      "code": "DSS7118",
+      "name": "Instrumentalidade e Competências",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7111"
+      ],
+      "equivalents": [
+        "DSS5168"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7111"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5168"
+      },
+      "syllabus": "Instrumentalidade, competências e intervenção profissional. As perspectivas teóricas e metodológicas na construção dos instrumentos de intervenção. Instrumentos e técnicas nos diferentes espaços de atuação profissional. Teórica."
+    },
+    {
+      "id": "DSS7122",
+      "code": "DSS7122",
+      "name": "Serviço Social e Previdência Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7121"
+      ],
+      "equivalents": [
+        "DSS5145"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7121"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5145"
+      },
+      "syllabus": "Profissionais em Serviço Social O Estado Brasileiro e a construção do Sistema Previdenciário Público. A Seguridade Social na Constituição de 1988. A relação previdência pública e privada. Gerenciamento, financiamento e controle da previdência social. O Instituto Nacional de Seguro Social, estruturação, operacionalização, plano de benefícios, categorias de segurados e dependentes. A política previdenciária e a contrarreforma do Estado. O exercício profissional do Assistente Social no setor previdenciário. A particularidade dos segmentos especiais. Interface da política previdenciária com as políticas de Assistência Social, Saúde e Trabalho. Teórica."
+    },
+    {
+      "id": "DSS7106",
+      "code": "DSS7106",
+      "name": "Oficina Análise Institucional e Serviço",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7100"
+      ],
+      "equivalents": [
+        "DSS5167"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7100"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5167"
+      },
+      "syllabus": "Diferentes concepções de análise institucional. Formas de organização institucional. A relação público - privado. A instituição e seus sistemas de poder e de correlação de forças. Requisições institucionais e demandas da população. Identificação e análise das necessidades sociais. Sistemas de informação e indicadores sociais. Exercícios de análise institucional. Teórico-prática."
+    },
+    {
+      "id": "DSS7123",
+      "code": "DSS7123",
+      "name": "Serviço social e Assistência Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7121"
+      ],
+      "equivalents": [
+        "DSS5148"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7121"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5148"
+      },
+      "syllabus": "Social DSS7105 eh O Estado brasileiro e a política de assistência social. A assistência social como direito social. Marco legal da política de Assistência Social. Financiamento, gestão e controle social da política de assistência social. O Sistema Único da Assistência Social. O exercício profissional do assistente social no âmbito da política de assistência social. Serviços direcionados a segmentos especiais. Indicadores sociais. Teórica."
+    },
+    {
+      "id": "DSS7125",
+      "code": "DSS7125",
+      "name": "Pesquisa em Serviço social I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DSS5146"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5146"
+      },
+      "syllabus": "A pesquisa na produção do conhecimento científico. Métodos de conhecimento da realidade social. Metodologias de pesquisa. Ética e pesquisa. Tipos de pesquisa. Elementos constitutivos do projeto de pesquisa. Experiência de elaboração de projeto de pesquisa. Teórica."
+    },
+    {
+      "id": "DSS7131",
+      "code": "DSS7131",
+      "name": "Supervisão Acadêmica de Estágio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7100"
+      ],
+      "equivalents": [
+        "DSS5126"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7100"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5126"
+      },
+      "syllabus": "Reconhecimento e análise do espaço sócio ocupacional. O assistente social como trabalhador assalariado. Mercado de trabalho e as condições de trabalho. Conhecimento do exercício profissional e suas dimensões ético-política, técnico-operativa e teórico-metodológica. Orientação para elaboração de plano de estágio. Teórico-prática"
+    },
+    {
+      "id": "DSS7141",
+      "code": "DSS7141",
+      "name": "Estágio Supervisionado em Serviço Social",
+      "credits": 12,
+      "hours": 216,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7100"
+      ],
+      "equivalents": [
+        "DSS5631"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7100"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5631"
+      },
+      "syllabus": "Obrigatório I DSS7112 eh Inserção no espaço sócio ocupacional. Identificação da organização e sua dinâmica de funcionamento, demandas, serviços oferecidos, perfil dos usuários e política social a que se vincula. Conhecimento do exercício profissional na Instituição em suas dimensões ético-política, técnico-operativa e teórico- metodológica. Conhecimento das condições de trabalho na Instituição. Elaboração de plano de estágio. Desenvolvimento de atividades teórico-práticas em espaço sócio ocupacional com supervisão sistemática no campo de estágio e na Unidade de Ensino. Prática."
+    },
+    {
+      "id": "DSS7124",
+      "code": "DSS7124",
+      "name": "Serviço Social e Saúde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7121"
+      ],
+      "equivalents": [
+        "DSS5144"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7121"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5144"
+      },
+      "syllabus": "A saúde como direito social e o conceito ampliado de saúde. O Estado brasileiro e a política de saúde. O Movimento de Reforma Sanitária. O marco legal e a implementação do Sistema Único de Saúde. Modelo de atenção, financiamento e participação popular. Perspectivas e a tensão entre os fundamentos do SUS e o projeto privatista da saúde. As políticas setoriais e transversais no SUS. Indicadores de saúde. A prática profissional do assistente social na saúde. Teórica."
+    },
+    {
+      "id": "DSS7126",
+      "code": "DSS7126",
+      "name": "Pesquisa em Serviço Social II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7125"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7125"
+      },
+      "syllabus": "Revisão da literatura do tema da pesquisa. Coleta e organização dos dados quantitativos e qualitativos. Sistematização e análise dos dados. Elementos constitutivos do relatório de pesquisa. Devolução e socialização dos resultados da pesquisa. Experiência de execução de pesquisa. Teórica."
+    },
+    {
+      "id": "DSS7127",
+      "code": "DSS7127",
+      "name": "Gestão e Planejamento em serviço Social I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7121"
+      ],
+      "equivalents": [
+        "DSS5332"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7121"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5332"
+      },
+      "syllabus": "Planejamento social e a relação público/privado/filantrópico na história do Estado e da sociedade brasileira. Metodologias de planejamento. Planejamento de políticas sociais e instrumentos de gestão. Planos Plurianuais e Relatórios de Gestão das políticas sociais. Projetos sociais no terceiro setor e das empresas. Elaboração de um projeto social. Funções, atribuições e competências dos assistentes sociais no planejamento nas esferas pública e privada. Teórica."
+    },
+    {
+      "id": "DSS7132",
+      "code": "DSS7132",
+      "name": "Supervisão Acadêmica de Estágio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7131"
+      ],
+      "equivalents": [
+        "DSS5127"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7131"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5127"
+      },
+      "syllabus": "O exercício profissional, as demandas, os serviços oferecidos, a interface com as políticas setoriais e o modelo de gestão institucional. Problematização e orientação do exercício profissional em face do Projeto Ético Político profissional. Orientação para elaboração de projeto de intervenção profissional. Teórico- prática"
+    },
+    {
+      "id": "DSS7142",
+      "code": "DSS7142",
+      "name": "Estágio Superv.em Serv. Social Obrigatório",
+      "credits": 12,
+      "hours": 216,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7131"
+      ],
+      "equivalents": [
+        "DSS5632"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7131"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5632"
+      },
+      "syllabus": "Obrigatório II DSS7141) Aprofundamento do conhecimento das demandas, serviços oferecidos, caracterização dos usuários, modelo de gestão institucional e a ação profissional. Elaboração e implementação de projeto de intervenção profissional. Desenvolvimento de atividades teórico práticas em espaço sócio ocupacional com supervisão sistemática no campo de estágio e na unidade de ensino. Prática."
+    },
+    {
+      "id": "DSS7128",
+      "code": "DSS7128",
+      "name": "Gestão e Planejamento em serviço Social II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7127"
+      ],
+      "equivalents": [
+        "DSS5333"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7127"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5333"
+      },
+      "syllabus": "Financiamento e gestão das políticas sociais e nas instituições público-privadas. O financiamento público e a filantropia. Metodologias de avaliação de políticas sociais. O uso dos indicadores sociais. O assistente social na elaboração, coordenação, execução e avaliação de programas e políticas sociais."
+    },
+    {
+      "id": "DSS7133",
+      "code": "DSS7133",
+      "name": "Supervisão Acadêmica de Estágio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7132"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7132"
+      },
+      "syllabus": "Orientação e avaliação da experiência de estágio. Proposição de alternativas à intervenção profissional e proposição de alternativas. Exercício profissional e supervisão de estágio. Elaboração de relatório final de estágio. Teórico-prática."
+    },
+    {
+      "id": "DSS7143",
+      "code": "DSS7143",
+      "name": "Estágio Supervisionado em serviço Social",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7132"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7132"
+      },
+      "syllabus": "Obrigatório III DSS7142) Execução e avaliação do projeto de intervenção e da experiência do estágio. Sistematização e síntese do exercício profissional na Instituição. Elaboração do relatório final de estágio. Desenvolvimento de atividades teórico práticas em espaço sócio-ocupacional, com supervisão sistemática no campo de estágio e na Unidade de Ensino. Prática."
+    },
+    {
+      "id": "DSS7151",
+      "code": "DSS7151",
+      "name": "Trabalho de conclusão de Curso I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7132",
+        "DSS7142"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DSS7132"
+          },
+          {
+            "kind": "course",
+            "code": "DSS7142"
+          }
+        ]
+      },
+      "syllabus": "Obrigatório III DSS7142) Regulamento do TCC /DSS/UFSC. Elaboração do projeto de pesquisa para o Trabalho de Conclusão de Curso. Apresentação dos projetos. Articulação com os orientadores individuais. Teórica."
+    },
+    {
+      "id": "DSS7152",
+      "code": "DSS7152",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7151"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7151"
+      },
+      "syllabus": "Elaboração do Trabalho de Conclusão de Curso. Preparação para a banca de avaliação. Defesa do Trabalho de Conclusão do Curso. Teórica."
+    },
+    {
+      "id": "DSS7153",
+      "code": "DSS7153",
+      "name": "Serviço Social e Desafios Profissionais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DSS7151"
+      ],
+      "equivalents": [
+        "DSS5169"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DSS7151"
+          },
+          {
+            "kind": "hours",
+            "hours": 72,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DSS5169"
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Formação profissional e mercado de trabalho do assistente social. Análise da experiência de estágio na relação com a conjuntura e com o debate profissional. Polêmicas conjunturais do Serviço Social. Questões emergentes no campo teórico e prático."
+    },
+    {
+      "id": "ANT7003",
+      "code": "ANT7003",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7150"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7150"
+      },
+      "syllabus": "Contemporâneos Disciplinas Optativas. Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Particularidades históricas e processos de diferenciação. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política."
+    },
+    {
+      "id": "DSS5710",
+      "code": "DSS5710",
+      "name": "Atividade Extraclasse: Monitoria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "ANT7100"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7100"
+      },
+      "syllabus": "Resolução. No. 19/ CEPE/ 93, de 22 de Abril de 1993"
+    },
+    {
+      "id": "DSS5801",
+      "code": "DSS5801",
+      "name": "Programa de Intercâmbio em Serviço",
+      "credits": 0,
+      "hours": 0,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "ANT7100"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7100"
+      },
+      "syllabus": "Participação em Programa de Intercâmbio Acadêmico, decorrente de convênio assinado com Instituições de Ensino Superior, Agências de Fomento e Centros de Pesquisa, visando a realização de atividades acadêmicas de aprimoramento da formação do estudante. Participação em atividades de ensino, pesquisa e/ou extensão em universidades de âmbito nacional ou internacional conveniadas com a UFSC a partir da 4ª fase do curso."
+    },
+    {
+      "id": "DSS7134",
+      "code": "DSS7134",
+      "name": "Supervisão Acadêmica de Estágio não",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "ANT7100"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7100"
+      },
+      "syllabus": "Social I DSS7105 eh Preparação para o Estágio Obrigatório. Contextualização e observação da realidade social produtora das demandas do Serviço Social. Aproximação empírica dos diferentes espaços institucionais nos quais se exerce o Serviço Social. O processo de supervisão de estágios. Desenvolvimento de habilidades para registro das atividades do Serviço Social."
+    },
+    {
+      "id": "DSS7135",
+      "code": "DSS7135",
+      "name": "Supervisão Acadêmica de Estágio não",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "DSS7133"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS7133"
+      },
+      "syllabus": "Obrigatório I DSS7105 eh Mercado de trabalho e espaços institucionais do exercício profissional do Serviço Social. O desenvolvimento de habilidades no planejamento para a intervenção e avaliação do exercício profissional. Registro e sistematização do exercício profissional."
+    },
+    {
+      "id": "DSS7162",
+      "code": "DSS7162",
+      "name": "Metodologia da Supervisão de Estágio em Serviço Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DSS5631",
+        "DSS7131",
+        "DSS5126",
+        "DSS7141"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DSS5631"
+              },
+              {
+                "kind": "course",
+                "code": "DSS7131"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DSS5126"
+              },
+              {
+                "kind": "course",
+                "code": "DSS7141"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Concepções de supervisão. Determinantes históricos e perspectivas de supervisão em Serviço Social. O exercício profissional do assistente social e a supervisão. Relação teoria-prática e o processo de ensino aprendizagem. Sujeitos da supervisão. Marco legal da supervisão de estágio. Metodologia da supervisão em Serviço Social. Plano de estágio e plano de supervisão de estágio."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "DSS7144",
+      "code": "DSS7144",
+      "name": "Estágio Curricular Não Obrigatório I",
+      "credits": 12,
+      "hours": 225,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ANT7100",
+        "DSS7105",
+        "DSS7111",
+        "DSS7114",
+        "DSS7115",
+        "DSS7121",
+        "FIL7100",
+        "HST7105",
+        "PSI7150",
+        "SPO5236",
+        "SPO7104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7100"
+          },
+          {
+            "kind": "course",
+            "code": "DSS7105"
+          },
+          {
+            "kind": "course",
+            "code": "DSS7111"
+          },
+          {
+            "kind": "course",
+            "code": "DSS7114"
+          },
+          {
+            "kind": "course",
+            "code": "DSS7115"
+          },
+          {
+            "kind": "course",
+            "code": "DSS7121"
+          },
+          {
+            "kind": "course",
+            "code": "FIL7100"
+          },
+          {
+            "kind": "course",
+            "code": "HST7105"
+          },
+          {
+            "kind": "course",
+            "code": "PSI7150"
+          },
+          {
+            "kind": "course",
+            "code": "SPO5236"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7104"
+          }
+        ]
+      },
+      "syllabus": "18h-a) Disciplinas de Atividades Extra-Curriculares"
+    },
+    {
+      "id": "DSS7145",
+      "code": "DSS7145",
+      "name": "Estágio Curricular Não Obrigatório II",
+      "credits": 12,
+      "hours": 225,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DSS7133",
+        "DSS7143"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DSS7133"
+          },
+          {
+            "kind": "course",
+            "code": "DSS7143"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "DSS5802",
+      "code": "DSS5802",
+      "name": "Programa de Intercâmbio em Serviço",
+      "credits": 0,
+      "hours": 0,
+      "phase": 4,
+      "type": "Op",
+      "prerequisites": [
+        "DSS5801"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DSS5801"
+      },
+      "syllabus": "Social I DSS7105 eh Continuidade da participação em Programa de Intercâmbio Acadêmico, decorrente de convênio assinado com Instituições de Ensino Superior, Agências de Fomento e Centros de Pesquisa, visando a realização de atividades acadêmicas de aprimoramento da formação do estudante, participação em atividades de ensino, pesquisa e/ou extensão em universidades de âmbito nacional ou internacional conveniadas com a UFSC a partir da 4ª fase do curso."
+    },
+    {
+      "id": "DSS7160",
+      "code": "DSS7160",
+      "name": "Assessoria em Serviço Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Obrigatório II DSS7143) Assessoria e consultoria no trabalho do assistente social. Assessoria para movimentos sociais, organizações sem fins lucrativos e setor filantrópico. Assessoria da gestão pública estatal dos serviços públicos. Contribuições para o Sistema Único de Saúde, Sistema Único de Assistência Social e demais políticas setoriais. A articulação ensino-pesquisa-extensão e a prática de assessoria."
+    },
+    {
+      "id": "DSS7161",
+      "code": "DSS7161",
+      "name": "Lutas Sociais na América Latina",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Imperialismo. Capitalismo Dependente. Superexploração do trabalho. Estado e lutas sociais na América Latina."
+    },
+    {
+      "id": "DSS7163",
+      "code": "DSS7163",
+      "name": "Política Social e Família",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Família e Sociedade. As concepções de família, as políticas sociais e o Estado Brasileiro. A contradição e a interface entre o espaço público e espaço privado. Transição demográfica, envelhecimento populacional e as novas configurações familiares. Os aspectos ético-políticos no trabalho com famílias. Intersetorialidade, políticas sociais setoriais, necessidades sociais e o Serviço Social."
+    },
+    {
+      "id": "DSS7164",
+      "code": "DSS7164",
+      "name": "Serviço Social e Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Educação, Estado e Sociedade. Política Educacional Brasileira: fundamentos históricos e bases legais. Dimensão social da Política Educacional. Interfaces entre Educação e Serviço Social. O exercício profissional do assistente social na área da educação."
+    },
+    {
+      "id": "DSS7165",
+      "code": "DSS7165",
+      "name": "Serviço Social e Envelhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A construção histórica do processo de envelhecimento. Transição demográfica, envelhecimento populacional e mudanças na estruturação e composição das famílias. O envelhecimento na sociedade brasileira e as demandas para as políticas sociais. Estatuto do Idoso. Políticas, controle social, serviços e programas de atendimento a pessoa idosa. Exercício profissional do Assistente Social nas questões do envelhecimento."
+    },
+    {
+      "id": "DSS7166",
+      "code": "DSS7166",
+      "name": "Serviço Social e Gênero",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Construção social das relações de gênero. História do movimento feminista. Perspectivas teóricas presentes na construção dos conceitos de gênero. Sexualidade, raça e etnia e classe social. Serviço Social e relações de gênero. Gênero e Políticas Públicas."
+    },
+    {
+      "id": "DSS7167",
+      "code": "DSS7167",
+      "name": "Serviço Social e os Direitos da Criança e do Adolescente",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Construção histórica da concepção de infância e adolescência. Sistema de direitos da infância e da adolescência. Medidas socioeducativas e de proteção especial. Intersetorialidade das políticas sociais e o Serviço Social na atenção a criança e ao adolescente. Fóruns. Conselhos de Direitos. Conselhos Tutelares. Fundo da Infância e da Adolescência. Protagonismo juvenil e Cultura."
+    },
+    {
+      "id": "DSS7168",
+      "code": "DSS7168",
+      "name": "Serviço Social e Questão Agrária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Questão Agrária e lutas camponesas no Brasil. Latifúndio e monocultura. Fome, pobreza e políticas públicas. Reforma agrária. Políticas Públicas no meio rural. Agronegócio e Desenvolvimento Rural Sustentável. O debate da questão agrária no Serviço Social e a intervenção nos espaços sócio-ocupacionais rurais."
+    },
+    {
+      "id": "DSS7169",
+      "code": "DSS7169",
+      "name": "Serviço Social e Questão Urbana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Questão urbana e direito à cidade. Teorias da cidade e pensamento crítico. Marcos legais do direito a cidade. Políticas Urbanas. Espaços de participação e controle democrático na política urbana. Inserção e possibilidades de atuação do Serviço Social na política urbana."
+    },
+    {
+      "id": "DSS7170",
+      "code": "DSS7170",
+      "name": "Serviço Social e Saúde Mental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico das práticas assistenciais no campo da saúde mental. Movimento de Reforma Psiquiátrica. Movimento antimanicomial. O Sistema Único de Saúde e a Política Nacional de Saúde Mental. Rede de serviços ao portador de sofrimento mental e aos usuários de substancias psicoativas. Exercício profissional do assistente social na área da saúde mental. Atuação em equipes multiprofissionais de saúde mental."
+    },
+    {
+      "id": "DSS7171",
+      "code": "DSS7171",
+      "name": "Serviço Social e Instituições Público-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Instituições público-privadas, setor filantrópico e práticas assistenciais no Estado e na sociedade brasileira. Os requisitos para atuação profissional. Gerencia e formulação de projetos sociais. O setor filantrópico e a cidadania. Responsabilidade social e voluntariado. Captação de recursos. A critica do Serviço Social as instituições público-privadas. O exercício profissional dos assistentes sociais nas instituições privadas e público-privadas."
+    },
+    {
+      "id": "DSS7172",
+      "code": "DSS7172",
+      "name": "Serviço Social em Meio Ambiente",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Privadas Capitalismo e a questão ambiental. As múltiplas concepções de desenvolvimento. Gestão pública do meio ambiente e Serviço Social. A particularidade de Santa Catarina na prevenção e atenção às situações de desastres."
+    },
+    {
+      "id": "DSS7173",
+      "code": "DSS7173",
+      "name": "Serviço Social na Área Sócio Jurídica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O acesso à justiça como direito social. A questão social e suas refrações no sistema sócio jurídico. O papel do Poder Judiciário, da Segurança Pública e do Ministério Público. Trajetória e particularidade da inserção do Serviço Social no sistema sócio jurídico. O exercício profissional do assistente social no Poder Judiciário e na segurança pública. Demandas, formas de abordagem e instrumentos técnicos."
+    },
+    {
+      "id": "DSS7174",
+      "code": "DSS7174",
+      "name": "Violência, Criminalização da Probreza e Serviço Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A sociedade brasileira e a reprodução da desigualdade. O significado social da violência. Os números da violência no Brasil. Violência e pobreza. Formas de criminalização da pobreza. Criminalização da pobreza e direitos humanos. A transversalidade da violência e da criminalização da pobreza no exercício profissional do assistente social."
+    },
+    {
+      "id": "DSS7180",
+      "code": "DSS7180",
+      "name": "Tópicos Especiais em Movimentos Sociais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temas emergentes em movimentos sociais"
+    },
+    {
+      "id": "DSS7181",
+      "code": "DSS7181",
+      "name": "Tópicos Especiais em Pesquisa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conteúdos complementares da pesquisa em Serviço Social"
+    },
+    {
+      "id": "DSS7182",
+      "code": "DSS7182",
+      "name": "Tópicos Especiais em Políticas Sociais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temas emergentes em política social"
+    },
+    {
+      "id": "DSS7183",
+      "code": "DSS7183",
+      "name": "Tópicos Especiais em Serviço Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desafios profissionais emergentes. Questões contemporâneas no Serviço Social."
+    },
+    {
+      "id": "DSS7201",
+      "code": "DSS7201",
+      "name": "Tópicos Especiais em Políticas Sociais I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temas emergentes em política social: Estatuto da Criança e Adolescente (ECA) como marco normativo delimitador do reconhecimento do conceito de criança e adolescente: princípios e fundamentos. Os trinta anos de sua promulgação: avanços, permanências e os risco de volta do \"antigo\" na atual conjuntura conservadora. Sistema de Garantia dos Direitos (SGD). Elementos centrais do Sistema de Garantia de Direitos (SGD) e ações voltadas à garantia dos direitos. As fragilidades do sistema de atenção explicitadas pelo contexto da pandemia do novo coronavírus COVID-19. Questões emergentes acerca da situação da infância e adolescência no contexto da pandemia do novo coronavírus COVID-19."
+    },
+    {
+      "id": "DSS7202",
+      "code": "DSS7202",
+      "name": "Tópicos Especiais em Políticas Sociais II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "DSS7203",
+      "code": "DSS7203",
+      "name": "Tópicos Especiais em Políticas Sociais III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "DSS7301",
+      "code": "DSS7301",
+      "name": "Tópicos Especiais em Serviço Social I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "DSS7302",
+      "code": "DSS7302",
+      "name": "Tópicos Especiais em Serviço II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "DSS7303",
+      "code": "DSS7303",
+      "name": "Tópicos Especiais em Serviço Social III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "INE5116",
+      "code": "INE5116",
+      "name": "Introdução à Estatística",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estatística descritiva: representação tabular e gráfica; medidas de tendência central e dispersão. Noções de amostragem. Probabilidade: definições e teoremas. Distribuições de probabilidade - esperança matemática. Variáveis aleatórias discretas e contínuas. Estimação pontual e intervalar. Testes de hipóteses."
+    },
+    {
+      "id": "LLV5603",
+      "code": "LLV5603",
+      "name": "Produção Textual Acadêmica I",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo e produção de textos técnico-científicos relevantes para o desempenho das atividades acadêmicas, tais como: resumo, resenha, artigo e seminário."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "SPO7105",
+      "code": "SPO7105",
+      "name": "Teoria Sociológica Contemporânea",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "aula) Pensamento social contemporâneo. A praxeologia de Pierre Bourdieu. A Escola de Frankfurt. Pós-modernismo. Michel Foucault, Boaventura de Sousa Santos, Latour, Anthony Giddens e Edgar Morin."
+    },
+    {
+      "id": "DSS7190",
+      "code": "DSS7190",
+      "name": "Atividade Complementares",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DSS5705",
+        "DSS5706"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DSS5705"
+          },
+          {
+            "kind": "course",
+            "code": "DSS5706"
+          }
+        ]
+      },
+      "syllabus": "Atividades de pesquisa e extensão, produção científica, visitas monitoradas, monitoria, participação em encontros, seminários e congressos com apresentação de trabalho. Conforme Regulamento aprovado pelo Colegiado do Curso."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "DSS7101",
+      "DSS7103",
+      "DSS7107",
+      "HST7105",
+      "SPO7104",
+      "DSS7102",
+      "DSS7104",
+      "PSI7150",
+      "SPO5236",
+      "ANT7100",
+      "DSS7110",
+      "DSS7113",
+      "DSS7114",
+      "DSS7120",
+      "DSS7105",
+      "DSS7111",
+      "DSS7115",
+      "DSS7121",
+      "FIL7100",
+      "DSS7112",
+      "DSS7117",
+      "DSS7118",
+      "DSS7122",
+      "DSS7106",
+      "DSS7123",
+      "DSS7125",
+      "DSS7131",
+      "DSS7141",
+      "DSS7124",
+      "DSS7126",
+      "DSS7127",
+      "DSS7132",
+      "DSS7142",
+      "DSS7128",
+      "DSS7133",
+      "DSS7143",
+      "DSS7151",
+      "DSS7152",
+      "DSS7153",
+      "DSS7190"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 288,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ANT7003",
+              "DSS5710",
+              "DSS5801",
+              "DSS7134",
+              "DSS7135",
+              "DSS7162",
+              "LSB7244",
+              "DSS7144",
+              "DSS7145",
+              "DSS5802",
+              "DSS7160",
+              "DSS7161",
+              "DSS7163",
+              "DSS7164",
+              "DSS7165",
+              "DSS7166",
+              "DSS7167",
+              "DSS7168",
+              "DSS7169",
+              "DSS7170",
+              "DSS7171",
+              "DSS7172",
+              "DSS7173",
+              "DSS7174",
+              "DSS7180",
+              "DSS7181",
+              "DSS7182",
+              "DSS7183",
+              "DSS7201",
+              "DSS7202",
+              "DSS7203",
+              "DSS7301",
+              "DSS7302",
+              "DSS7303",
+              "INE5116",
+              "LLV5603",
+              "LSB7904",
+              "SPO7105"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "309",
+    "curriculumCode": "20132",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=309&curriculo=20132",
+    "sha256": "76fd7450f138bbd2868500746fe9b33b4bb8e7a5f79f2b5bcc58665d11bd6060",
+    "capturedAt": "2026-09-22"
+  }
+}

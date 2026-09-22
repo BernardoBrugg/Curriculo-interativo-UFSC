@@ -1,0 +1,2034 @@
+{
+  "program": "ARQUITETURA E URBANISMO",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2026.1",
+  "totalHours": 4572,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ARQ2101",
+      "code": "ARQ2101",
+      "name": "ATELIÊ INTEGRADO DE ARQUITETURA E URBANISMO I",
+      "credits": 8,
+      "hours": 144,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARQ5631"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5631"
+      },
+      "syllabus": "Atuação profissional e função social da arquitetura e do urbanismo. A dimensão da arte na arquitetura. Introdução à análise crítica de contextos e dinâmicas urbanas e ambientais. Construção de relações entre corpo, arquitetura e cidade. Experimentação construtiva de modelos tridimensionais e princípios de expressão gráfica como instrumentos de concepção e operação projetual."
+    },
+    {
+      "id": "ARQ2102",
+      "code": "ARQ2102",
+      "name": "PERSPECTIVAS HISTÓRICO-CRÍTICAS DA ARQUITETURA E DO URBANISMO",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARQ5621"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5621"
+      },
+      "syllabus": "A teoria, a história e a perspectiva crítico-humanista na formação de profissionais de arquitetura e urbanismo. Consciência histórica da arquitetura e do urbanismo. Teorias da história e métodos historiográficos e de pesquisa em arquitetura e urbanismo."
+    },
+    {
+      "id": "ARQ2103",
+      "code": "ARQ2103",
+      "name": "ESPAÇO E SOCIEDADE",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Fundamentos éticos e sociais da arquitetura e do urbanismo. Compreensão crítica e função social da atuação de profissionais de arquitetura e urbanismo. Interseccionalidades e questões de arquitetura e urbanismo. Cenários possíveis para as cidades do século XXI.",
+      "extensionHours": 72
+    },
+    {
+      "id": "ARQ2104",
+      "code": "ARQ2104",
+      "name": "CANTEIRO EXPERIMENTAL 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARQ5641"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5641"
+      },
+      "syllabus": "Compreensão de fenômenos e sistemas estruturais, diferentes materiais e técnicas construtivas, por meio de atividades e experimentações práticas utilizando protótipos, modelos em escala reduzida ou real. Aproximação às práticas construtivas e ao canteiro de obras."
+    },
+    {
+      "id": "EGR2105",
+      "code": "EGR2105",
+      "name": "GEOMETRIA DESCRITIVA APLICADA À",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5605"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5605"
+      },
+      "syllabus": "Leitura, princípios e técnicas de representação gráfica de objetos arquitetônicos e seu entorno. Perspectivas e sombras, axonométricas e cônicas. Introdução à geometria descritiva aplicada à arquitetura e urbanismo. Elementos e métodos descritivos."
+    },
+    {
+      "id": "EGR2106",
+      "code": "EGR2106",
+      "name": "DESENHO LIVRE E ARQUITETÔNICO",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5611"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5611"
+      },
+      "syllabus": "ARQUITETURA Desenho de observação, abstração e técnicas de representação a mão livre em Arquitetura e Urbanismo."
+    },
+    {
+      "id": "ARQ2201",
+      "code": "ARQ2201",
+      "name": "ATELIÊ INTEGRADO DE ARQUITETURA E URBANISMO II",
+      "credits": 8,
+      "hours": 144,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2101"
+      ],
+      "equivalents": [
+        "ARQ5633"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5633"
+      },
+      "syllabus": "O contexto urbano e o projeto arquitetônico. Materialização e espacialização da cultura e da história na cidade: identidade e memória coletiva. Relações entre concepção, materialidade e representação gráfica no projeto de arquitetura e urbanismo. imensionamento dos ambientes a partir de critérios de funcionalidade, acessibilidade e de desenho universal."
+    },
+    {
+      "id": "ARQ2202",
+      "code": "ARQ2202",
+      "name": "FUNDAMENTOS DA ARQUITETURA, DO URBANISMO E DA CIDADE",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARQ5618"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5618"
+      },
+      "syllabus": "As formas de experiência da arquitetura, da cidade e do espaço na história. Dimensões críticas do debate em arte, arquitetura, urbanismo e urbanização. Arquitetura e cidade na história em categorias fundamentais de análise."
+    },
+    {
+      "id": "ARQ2204",
+      "code": "ARQ2204",
+      "name": "CANTEIRO EXPERIMENTAL II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2104"
+      },
+      "syllabus": "Análise qualitativa de fenômenos estruturais por meio de diferentes materiais e técnicas construtivas aplicadas às atividades práticas e experimentações, utilizando protótipos ou modelos em escala reduzida. Entendimento da forma como protagonista nos sistemas estruturais."
+    },
+    {
+      "id": "ARQ2205",
+      "code": "ARQ2205",
+      "name": "SISTEMAS ESTRUTURAIS I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2104"
+      ],
+      "equivalents": [
+        "ARQ5640"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2104"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5640"
+      },
+      "syllabus": "Introdução à concepção estrutural e aos sistemas estruturais aplicados ao projeto arquitetônico. Lançamento estrutural, estimativa de cargas e comportamento global dos materiais. Análise estrutural dos fenômenos em elementos estruturais. Simulações do comportamento estrutural com ferramentas computacionais."
+    },
+    {
+      "id": "ECV3203",
+      "code": "ECV3203",
+      "name": "TOPOGRAFIA APLICADA À ARQUITETURA",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ECV5631"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5631"
+      },
+      "syllabus": "Introdução à topografia aplicada à arquitetura e urbanismo. Compreensão e representação do relevo por meio de curvas de nível, perfis e modelos tridimensionais. Aplicação de técnicas básicas de levantamento planialtimétrico e sua integração ao processo de implantação de projetos. Relação entre a morfologia do terreno e as decisões de projeto."
+    },
+    {
+      "id": "EGR2206",
+      "code": "EGR2206",
+      "name": "OFICINA DE DESENHO E MAQUETES",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR2106"
+      ],
+      "equivalents": [
+        "EGR5612"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR2106"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5612"
+      },
+      "syllabus": "E URBANISMO Representação das formas no espaço, croquis e desenho técnico. Modelos tridimensionais na arquitetura e urbanismo. A maquete como instrumento de apoio na concepção e representação de projetos arquitetônicos e urbanísticos. Normatização de representação gráfica e técnicas de maquetes."
+    },
+    {
+      "id": "ARQ2301",
+      "code": "ARQ2301",
+      "name": "ATELIÊ INTEGRADO DE ARQUITETURA E URBANISMO III",
+      "credits": 12,
+      "hours": 216,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2201",
+        "EGR2105"
+      ],
+      "equivalents": [
+        "ARQ5634"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ2201"
+          },
+          {
+            "kind": "course",
+            "code": "EGR2105"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5634"
+      },
+      "syllabus": "Concepção arquitetônica, estrutura e linguagem. A linguagem arquitetônica a partir de princípios de coordenação modular e de racionalidade construtiva. Parâmetros legais e índices urbanísticos. A concepção estrutural integrada ao projeto arquitetônico."
+    },
+    {
+      "id": "ARQ2302",
+      "code": "ARQ2302",
+      "name": "ARQUITETURA E CIDADE BRASILEIRA I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2102",
+        "ARQ2103"
+      ],
+      "equivalents": [
+        "ARQ5624"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ2102"
+          },
+          {
+            "kind": "course",
+            "code": "ARQ2103"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5624"
+      },
+      "syllabus": "Matrizes da cultura brasileira: originária, portuguesa, africana. Teorias do Brasil. A concepção de cidade entre os séculos XVI e XIX. Visões históricas da arte, da arquitetura e da urbanização. Arte e arquitetura originárias. História da arte luso-brasileira. A arquitetura luso-brasileira entre os séculos XVI e XIX. Técnicas construtivas. Arquitetura da imigração."
+    },
+    {
+      "id": "ARQ2304",
+      "code": "ARQ2304",
+      "name": "SISTEMAS CONSTRUTIVOS I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2204"
+      ],
+      "equivalents": [
+        "ARQ5661"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2204"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5661"
+      },
+      "syllabus": "Visão sistêmica da edificação considerando os sistemas construtivos e seus elementos - das fundações à cobertura. A concepção do projeto a partir dos processos construtivos e materialidade. Aproximação às práticas ferroconstrutivas e ao canteiro de obras."
+    },
+    {
+      "id": "ECV3305",
+      "code": "ECV3305",
+      "name": "SISTEMAS ESTRUTURAIS II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2205"
+      ],
+      "equivalents": [
+        "ECV5647"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2205"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5647"
+      },
+      "syllabus": "Sistemas estruturais aplicados ao projeto arquitetônico. Comportamento e resistência dos diferentes sistemas para a estabilidade dos elementos estruturais das edificações. Compreensão, análise e simulação das condições de equilíbrio e estabilidade das estruturas e resistência dos materiais. Desenvolvimento da concepção e análise estrutural integrados ao projeto de arquitetura."
+    },
+    {
+      "id": "EGR2306",
+      "code": "EGR2306",
+      "name": "REPRESENTAÇÃO GRÁFICA DIGITAL",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR2206"
+      ],
+      "equivalents": [
+        "EGR5607"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR2206"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5607"
+      },
+      "syllabus": "Introdução a representação gráfica digital de projetos arquitetônicos e urbanísticos em duas e três dimensões."
+    },
+    {
+      "id": "ARQ2401",
+      "code": "ARQ2401",
+      "name": "ATELIÊ INTEGRADO DE ARQUITETURA E URBANISMO IV",
+      "credits": 12,
+      "hours": 216,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2301"
+      ],
+      "equivalents": [
+        "ARQ5603",
+        "ARQ5635"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2301"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ5603"
+          },
+          {
+            "kind": "course",
+            "code": "ARQ5635"
+          }
+        ]
+      },
+      "syllabus": "Problematização da relação entre cidade e natureza, entre arquitetura e meio ambiente. Sistemas de espaços livres e infraestrutura da paisagem. Paisagismo e projeto de espaços verdes públicos. Concepção arquitetônica a partir das condicionantes do ambiente e princípios de conforto ambiental. Relações recíprocas entre o detalhe e a completude do edifício."
+    },
+    {
+      "id": "ARQ2402",
+      "code": "ARQ2402",
+      "name": "ARQUITETURA E CIDADE BRASILEIRA II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2302"
+      ],
+      "equivalents": [
+        "ARQ5625"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2302"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5625"
+      },
+      "syllabus": "As transformações urbanas do final do século XIX e início do XX. Movimentos artísticos e culturais de princípios do século XX e sua expressão na arquitetura. O 'projeto moderno' dos anos 1930-1960. Novos debates no campo artístico a partir dos anos 1950. Urbanização acelerada e habitação social. Dispersão e crítica ao 'projeto moderno'. Novas poéticas na arquitetura e no desenho urbano a partir dos anos 1970."
+    },
+    {
+      "id": "ARQ2403",
+      "code": "ARQ2403",
+      "name": "GEOPROCESSAMENTO APLICADO AO",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV3203"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV3203"
+      },
+      "syllabus": "Conceitos de geotecnologia, geoprocessamento e georreferenciamento. Fundamentos de cartografia e mapas temáticos. Introdução aos Sistemas de Informações Geográficas (SIG). Produção, aquisição, processamento, armazenamento e fontes de dados georreferenciados. Análises espaciais aplicadas ao planejamento urbano e regional."
+    },
+    {
+      "id": "ARQ2404",
+      "code": "ARQ2404",
+      "name": "SISTEMAS CONSTRUTIVOS II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2304"
+      ],
+      "equivalents": [
+        "ARQ5662"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2304"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5662"
+      },
+      "syllabus": "PLANEJAMENTO URBANO E REGIONAL Visão sistêmica da edificação considerando os sistemas construtivos e sua relação com o meio-ambiente. Processos e técnicas construtivas fundamentadas na leitura da arquitetura vernacular. A concepção do projeto a partir dos processos construtivos, considerando materiais locais e/ou de baixo impacto ambiental. Aproximação às práticas construtivas e aocanteiro de obras"
+    },
+    {
+      "id": "ARQ2406",
+      "code": "ARQ2406",
+      "name": "INTRODUÇÃO AO CONFORTO AMBIENTAL",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARQ5654"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5654"
+      },
+      "syllabus": "Introdução à sustentabilidade no ambiente construído. Estudo da climatologia e de estratégias bioclimáticas para o ambiente urbano e edificações. O edifício e as condicionantes ambientais do seu entorno. Introdução ao conforto ambiental: térmico, lumínico e acústico. Experimentação e medições de variáveis ambientais."
+    },
+    {
+      "id": "ECV3405",
+      "code": "ECV3405",
+      "name": "SISTEMAS ESTRUTURAIS PARA ARQUITETURA: MADEIRA",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV3305"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV3305"
+      },
+      "syllabus": "Considerações básicas para o desenvolvimento de projeto arquitetônico com estruturas em madeira. Concepção e lançamento do partido estrutural em madeira. Dimensionamento de elementos estruturais em madeira."
+    },
+    {
+      "id": "ARQ2501",
+      "code": "ARQ2501",
+      "name": "ATELIÊ INTEGRADO DE ARQUITETURA E URBANISMO V",
+      "credits": 12,
+      "hours": 216,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2401"
+      ],
+      "equivalents": [
+        "ARQ5605",
+        "ARQ5606"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2401"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ5605"
+          },
+          {
+            "kind": "course",
+            "code": "ARQ5606"
+          }
+        ]
+      },
+      "syllabus": "Planejamento do espaço urbano mediante o parcelamento do solo e aplicação de legislação urbanística. A produção social do espaço urbano, das dinâmicas imobiliárias, da segregação socioespacial e da função social da propriedade e da cidade. Estudo de tipologias e volumetrias arquitetônicas como elementos do espaço urbano."
+    },
+    {
+      "id": "ARQ2502",
+      "code": "ARQ2502",
+      "name": "TEORIA URBANA",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2202",
+        "ARQ2402"
+      ],
+      "equivalents": [
+        "ARQ5615",
+        "ARQ5616"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ2202"
+          },
+          {
+            "kind": "course",
+            "code": "ARQ2402"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ5615"
+          },
+          {
+            "kind": "course",
+            "code": "ARQ5616"
+          }
+        ]
+      },
+      "syllabus": "A cidade e sua função social. Produção do espaço e seus agentes fundamentais. Elementos da estrutura urbana e processos socioespaciais. Teorias sobre desenvolvimento e planejamento urbano. Instrumentos de planejamento territorial, políticas e práticas de uso e ocupação do solo."
+    },
+    {
+      "id": "ARQ2503",
+      "code": "ARQ2503",
+      "name": "ARQUITETURA E CIDADE NA AMÉRICA",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2102"
+      ],
+      "equivalents": [
+        "ARQ5626"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2102"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5626"
+      },
+      "syllabus": "Concepções teórico-históricas da América Latina. Práticas socioespaciais pré-colombianas. As matrizes do espaço urbano colonial. Arquitetura e urbanismo na América Latina nos séculos XIX e XX. Projeto e planejamento na arquitetura e no urbanismo contemporâneos."
+    },
+    {
+      "id": "ARQ2504",
+      "code": "ARQ2504",
+      "name": "SISTEMAS CONSTRUTIVOS III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2404"
+      ],
+      "equivalents": [
+        "ARQ5663"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2404"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5663"
+      },
+      "syllabus": "LATINA ARQ2103) Visão sistêmica da edificação considerando os sistemas construtivos e seus elementos. A concepção do projeto a partir dos processos construtivos e materialidade. Racionalização, industrialização e pré-fabricação relacionadas ao projeto e montagem de sistemas construtivos modulares. O detalhe construtivo como elemento gerador do projeto arquitetônico e sua relação com o projeto executivo e a obra. Aproximação às práticas construtivas e ao canteiro de obras."
+    },
+    {
+      "id": "ARQ2506",
+      "code": "ARQ2506",
+      "name": "CONFORTO TÉRMICO",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2406"
+      ],
+      "equivalents": [
+        "ARQ5655"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2406"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5655"
+      },
+      "syllabus": "Aprofundamento teórico e prático de conforto térmico. Modelos e índices de avaliação de conforto térmico. Integração de estratégias bioclimáticas na elaboração do projeto arquitetônico com ênfase no desempenho térmico."
+    },
+    {
+      "id": "ECV3505",
+      "code": "ECV3505",
+      "name": "SISTEMAS ESTRUTURAIS PARA ARQUITETURA - CONCRETO",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV3305"
+      ],
+      "equivalents": [
+        "ECV5648"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV3305"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5648"
+      },
+      "syllabus": "Considerações básicas para o desenvolvimento de projeto arquitetônico com estruturas em concreto armado: lajes, vigas, pilares, fundações superficiais e pré-dimensionamento de escadas. Concepção e lançamento do partido estrutural em concreto armado. Dimensionamento de elementos estruturais."
+    },
+    {
+      "id": "ARQ2601",
+      "code": "ARQ2601",
+      "name": "ATELIÊ INTEGRADO DE ARQUITETURA E URBANISMO VI",
+      "credits": 12,
+      "hours": 216,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2501"
+      ],
+      "equivalents": [
+        "ARQ5610",
+        "ARQ5636"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2501"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ5610"
+          },
+          {
+            "kind": "course",
+            "code": "ARQ5636"
+          }
+        ]
+      },
+      "syllabus": "O edifício como um elemento estratégico para a transformação urbana, concebido a partir do espaço público e do entorno urbano."
+    },
+    {
+      "id": "ARQ2602",
+      "code": "ARQ2602",
+      "name": "TEORIA DA ARQUITETURA",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2202",
+        "ARQ2402"
+      ],
+      "equivalents": [
+        "ARQ5623"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ2202"
+          },
+          {
+            "kind": "course",
+            "code": "ARQ2402"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5623"
+      },
+      "syllabus": "Teoria e crítica da arquitetura, definições e problematização. Principais teorias e preceptivas de arquitetura na história. Teoria, crítica e projeto. A crítica como modo de conhecimento. Teoria e crítica na experiência de ensino-aprendizagem da arquitetura."
+    },
+    {
+      "id": "ARQ2603",
+      "code": "ARQ2603",
+      "name": "PROJETO ARQUITETÔNICO DIGITAL",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR2306"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR2306"
+      },
+      "syllabus": "Desenvolvimento de projeto de arquitetura e urbanismo por meio de ferramentas digitais."
+    },
+    {
+      "id": "ARQ2606",
+      "code": "ARQ2606",
+      "name": "CONFORTO VISUAL",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2406"
+      ],
+      "equivalents": [
+        "ARQ5656"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2406"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5656"
+      },
+      "syllabus": "A relação entre iluminação e cor como parte integrante do projeto arquitetônico. Características humanas quanto ao conforto visual aplicado ao ambiente urbano e edificado."
+    },
+    {
+      "id": "ECV3604",
+      "code": "ECV3604",
+      "name": "SISTEMAS PREDIAIS I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2304"
+      ],
+      "equivalents": [
+        "ECV5643"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2304"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5643"
+      },
+      "syllabus": "Projeto, dimensionamento e compatibilização de instalações prediais de água fria, água quente, esgoto, águas pluviais, instalações de gás e gestão de resíduos. Sistemas alternativos de captação de água, aquecimento solar e tratamento de esgoto. Sistemas preventivos contra incêndio."
+    },
+    {
+      "id": "ECV3605",
+      "code": "ECV3605",
+      "name": "SISTEMAS ESTRUTURAIS PARA ARQUITETURA: AÇO E MISTAS",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ECV3305"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV3305"
+      },
+      "syllabus": "Considerações básicas para o desenvolvimento de projeto arquitetônico com estruturas em aço e/ou sistemas mistos. Concepção e lançamento do partido estrutural em aço. Dimensionamento de elementos estruturais em aço."
+    },
+    {
+      "id": "ARQ2701",
+      "code": "ARQ2701",
+      "name": "ATELIÊ DE ARQUITETURA",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2601"
+      ],
+      "equivalents": [
+        "ARQ5638"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2601"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5638"
+      },
+      "syllabus": "Relações entre a concepção arquitetônica e os sistemas de infraestrutura de edifícios multifuncionais. O projeto arquitetônico orientado pelo saber construtivo e pela interlocução com a obra."
+    },
+    {
+      "id": "ARQ2702",
+      "code": "ARQ2702",
+      "name": "ATELIÊ DE URBANISMO",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2601"
+      ],
+      "equivalents": [
+        "ARQ5607"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2601"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5607"
+      },
+      "syllabus": "Planejamento do espaço regional. A urbanização, o meio ambiente e as dinâmicas de expansão urbana no espaço regional. Conurbação, metropolização, bacias hidrográficas e rede urbana. O espaço urbano, periurbano e rural na escala regional."
+    },
+    {
+      "id": "ARQ2703",
+      "code": "ARQ2703",
+      "name": "ARQUITETURA, PATRIMÔNIO E MEMÓRIA",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2202",
+        "ARQ2402"
+      ],
+      "equivalents": [
+        "ARQ5627"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ2202"
+          },
+          {
+            "kind": "course",
+            "code": "ARQ2402"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5627"
+      },
+      "syllabus": "Patrimônio, memória e identidade cultural. Evolução do conceito de patrimônio cultural. Preservação de bens no mundo e no Brasil. Legislação, instituições e políticas de preservação. Técnicas retrospectivas. Restauração, conservação e metodologias de intervenção em edificações e conjuntos urbanos de interesse histórico. Patrimônio e cidade contemporânea."
+    },
+    {
+      "id": "ARQ2706",
+      "code": "ARQ2706",
+      "name": "CONFORTO ACÚSTICO E DESEMPENHO",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2406"
+      ],
+      "equivalents": [
+        "ARQ5658"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2406"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5658"
+      },
+      "syllabus": "Introdução aos conceitos, propriedades e comportamento do som aplicados ao projeto de arquitetura. Características humanas quanto ao conforto acústico aplicado ao ambiente urbano e edificado. Análise do consumo e uso final de energia em edificações"
+    },
+    {
+      "id": "ECV3704",
+      "code": "ECV3704",
+      "name": "SISTEMAS PREDIAIS II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2304"
+      ],
+      "equivalents": [
+        "ECV5644"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2304"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECV5644"
+      },
+      "syllabus": "DE EDIFICAÇÕES Projeto e dimensionamento de instalações prediais elétricas de baixa tensão e de comunicação. Introdução aos sistemas de produção de energia fotovoltaica e climatização. Aplicação e compatibilização dos sistemas prediais com o projeto de arquitetura."
+    },
+    {
+      "id": "EGR2703",
+      "code": "EGR2703",
+      "name": "LINGUAGENS GRÁFICAS",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR2306"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR2306"
+      },
+      "syllabus": "Comunicação visual como expressão de ideias. Linguagens gráficas. Expressão gráfica e visual aplicados ao campo da arquitetura e urbanismo."
+    },
+    {
+      "id": "ARQ2801",
+      "code": "ARQ2801",
+      "name": "ATELIÊ E SOCIEDADE 1",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2702"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ2702"
+          },
+          {
+            "kind": "hours",
+            "hours": 144
+          }
+        ]
+      },
+      "prerequisiteHours": 144,
+      "syllabus": "A cooperação entre universidade e sociedade. Prática de extensão com enfoque no direito à cidade, à moradia, à memória, à justiça social e à sustentabilidade ambiental. A contribuição da arquitetura e do urbanismo na sociedade.",
+      "extensionHours": 144
+    },
+    {
+      "id": "ARQ2802",
+      "code": "ARQ2802",
+      "name": "ESTÉTICA",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2402"
+      ],
+      "equivalents": [
+        "ARQ5622"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2402"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5622"
+      },
+      "syllabus": "Estética, a ideia de beleza, mímesis e o conceito de sublime na arquitetura e na arte. Modernidade e autonomia estética. Principais correntes filosóficas do século XX e suas relações com a arquitetura, arte e cidade. Manifestações estéticas contemporâneas."
+    },
+    {
+      "id": "ARQ2803",
+      "code": "ARQ2803",
+      "name": "ATIVIDADE ESPECIAL DE CAMPO",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2402",
+        "ARQ2501"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ2402"
+          },
+          {
+            "kind": "course",
+            "code": "ARQ2501"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Atividade de Campo voltada ao estudo de cidades e obras de arquitetura e urbanismo.",
+      "extensionHours": 36
+    },
+    {
+      "id": "ARQ2804",
+      "code": "ARQ2804",
+      "name": "SISTEMAS CONSTRUTIVOS IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2504"
+      ],
+      "equivalents": [
+        "ARQ5664"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2504"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5664"
+      },
+      "syllabus": "Introdução à gestão aplicada à construção civil a partir da visão sistêmica da edificação. Planejamento e controle, quantificação e orçamentação de projetos de arquitetura e complementares para o gerenciamento e execução de obras"
+    },
+    {
+      "id": "ARQ2805",
+      "code": "ARQ2805",
+      "name": "ESTÁGIO CURRICULAR",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2501"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2501"
+      },
+      "syllabus": "O estágio curricular supervisionado obrigatório consiste em uma atividade educativa desenvolvida no ambiente profissional, com acompanhamento pedagógico do Curso."
+    },
+    {
+      "id": "ARQ2901",
+      "code": "ARQ2901",
+      "name": "ATELIÊ E SOCIEDADE II",
+      "credits": 8,
+      "hours": 144,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2801"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ2801"
+          },
+          {
+            "kind": "hours",
+            "hours": 144
+          }
+        ]
+      },
+      "prerequisiteHours": 144,
+      "syllabus": "Intercâmbio de saberes entre a universidade e a sociedade. Agentes sociais na produção do espaço. Reflexão e prática de extensão nos âmbitos no direito à cidade, à moradia, à memória, à justiça social e à sustentabilidade ambiental.",
+      "extensionHours": 144
+    },
+    {
+      "id": "ARQ2911",
+      "code": "ARQ2911",
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ARQ2801"
+      ],
+      "equivalents": [
+        "ARQ5680"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2801"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5680"
+      },
+      "syllabus": "Introdução ao desenvolvimento de trabalho acadêmico que expresse uma consistente articulação dos conhecimentos apreendidos no decorrer da graduação em Arquitetura e Urbanismo."
+    },
+    {
+      "id": "ARQ2100",
+      "code": "ARQ2100",
+      "name": "TRABALHO DE CONCLUSÃO DE CURSO II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARQ5692"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5692"
+      },
+      "syllabus": "Desenvolvimento de trabalho acadêmico que expresse uma consistente articulação dos conhecimentos apreendidos no decorrer da graduação em Arquitetura e Urbanismo, por meio da análise, síntese, crítica e proposição."
+    },
+    {
+      "id": "ARQ2001",
+      "code": "ARQ2001",
+      "name": "TÓPICOS ESPECIAIS EM PRÁTICAS",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos conhecimentos de Arquitetura e tecnologia da construção, por meio de estudos e atividades práticas construtivas, possibilitando a articulação com a pesquisa e a extensão."
+    },
+    {
+      "id": "ARQ2002",
+      "code": "ARQ2002",
+      "name": "TÓPICOS ESPECIAIS EM PRÁTICAS",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARQ5639"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5639"
+      },
+      "syllabus": "CONSTRUTIVAS I Desenvolvimento dos conhecimentos de Arquitetura e tecnologia da construção, por meio de estudos e atividades práticas construtivas, possibilitando a articulação com a pesquisa e a extensão."
+    },
+    {
+      "id": "ARQ2003",
+      "code": "ARQ2003",
+      "name": "TÓPICOS ESPECIAIS EM PRÁTICAS",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARQ5637"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5637"
+      },
+      "syllabus": "CONSTRUTIVAS II Aprofundamento dos conhecimentos de Arquitetura e tecnologia da construção, por meio de estudos e atividades práticas construtivas, possibilitando a articulação com a pesquisa e a extensão."
+    },
+    {
+      "id": "ARQ2004",
+      "code": "ARQ2004",
+      "name": "TÓPICOS ESPECIAIS EM ARQUITETURA E URBANISMO I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "CONSTRUTIVAS III Introdução aos conhecimentos de Arquitetura e Urbanismo, por meio de estudos e atividades práticas, possibilitando a articulação com a pesquisa e a extensão.",
+      "extensionHours": 36
+    },
+    {
+      "id": "ARQ2005",
+      "code": "ARQ2005",
+      "name": "TÓPICOS ESPECIAIS EM ARQUITETURA E URBANISMO II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 54
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "Desenvolvimento dos conhecimentos de Arquitetura e Urbanismo, por meio de estudos e atividades práticas, possibilitando a articulação com a pesquisa e a extensão.",
+      "extensionHours": 54
+    },
+    {
+      "id": "ARQ2006",
+      "code": "ARQ2006",
+      "name": "TÓPICOS ESPECIAIS EM ARQUITETURA E URBANISMO III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Aprofundamento dos conhecimentos de Arquitetura e Urbanismo, por meio de estudos e atividades práticas, possibilitando a articulação com a pesquisa e a extensão.",
+      "extensionHours": 72
+    },
+    {
+      "id": "ARQ2007",
+      "code": "ARQ2007",
+      "name": "ATELIÊ LIVRE DE ARQUITETURA E URBANISMO I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos conhecimentos de Arquitetura e Urbanismo, por meio de projetos, planos ou outras atividades práticas, possibilitando a articulação com a pesquisa e a extensão."
+    },
+    {
+      "id": "ARQ2008",
+      "code": "ARQ2008",
+      "name": "ATELIÊ LIVRE DE ARQUITETURA E URBANISMO II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARQ5639"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5639"
+      },
+      "syllabus": "Desenvolvimento dos conhecimentos de Arquitetura e Urbanismo, por meio de projetos, planos ou outras atividades práticas, possibilitando a articulação com a pesquisa e a extensão."
+    },
+    {
+      "id": "ARQ2009",
+      "code": "ARQ2009",
+      "name": "ATELIÊ LIVRE DE ARQUITETURA E URBANISMO III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARQ5637"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5637"
+      },
+      "syllabus": "Aprofundamento dos conhecimentos de Arquitetura e Urbanismo, por meio de projetos, planos ou outras atividades práticas, possibilitando a articulação com a pesquisa e a extensão."
+    },
+    {
+      "id": "ARQ2010",
+      "code": "ARQ2010",
+      "name": "RESTAURAÇÃO ARQUITETÔNICA E INTERVENÇÕES CONTEMPORÂNEAS",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias contemporâneas da restauração; Níveis de conservação, metodologias de projeto de restauração e intervenção em edificações e sítios de interesse cultural."
+    },
+    {
+      "id": "ARQ2011",
+      "code": "ARQ2011",
+      "name": "PSICOLOGIA AMBIENTAL",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos e métodos em Psicologia Ambiental. Pesquisa e aplicação da Psicologia Ambiental. Planejamento orientado pela psicologia ambiental."
+    },
+    {
+      "id": "ARQ2012",
+      "code": "ARQ2012",
+      "name": "PROJETO REGENERATIVO",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos relacionados à urbanização e ao meio ambiente. A cidade como um sistema complexo e as sinergias entre os diferentes setores e áreas do conhecimento. O projeto como instrumento de regeneração ambiental vinculada à prosperidade das comunidades. Resiliência dos espaços urbanos e das atividades humanas."
+    },
+    {
+      "id": "ARQ2013",
+      "code": "ARQ2013",
+      "name": "PROJETO DE INTERIORES",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Projeto dos espaços interiores tendo em vista as necessidades ambientais e os equipamentos específicos a fim de adequar os espaços interiores para o desenvolvimento das atividades humanas nos seus aspectos físicos, psíquicos e sociais."
+    },
+    {
+      "id": "ARQ2014",
+      "code": "ARQ2014",
+      "name": "PROCESSOS ARTÍSTICOS",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A relação arquitetura, corpo e cidade por meio da experiência estética e urbana. A experiência corporal nas cidades enquanto prática cotidiana, estética e artística no mundo contemporâneo. A cidade lida pelo corpo. Micropráticas cotidianas do espaço vivido."
+    },
+    {
+      "id": "ARQ2015",
+      "code": "ARQ2015",
+      "name": "MAQUETES PARA ARQUITETURA E URBANISMO",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECV3203",
+        "EGR2105",
+        "EGR2106",
+        "EGR2206"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV3203"
+          },
+          {
+            "kind": "course",
+            "code": "EGR2105"
+          },
+          {
+            "kind": "course",
+            "code": "EGR2106"
+          },
+          {
+            "kind": "course",
+            "code": "EGR2206"
+          }
+        ]
+      },
+      "syllabus": "CONTEMPORÂNEOS NA EXPERIÊNCIA CORPORAL DA ARQUITETURA E DA CIDADE Maquetes físicas aplicadas ao ensino de projeto de Arquitetura e Urbanismo. A maquete de estudos como ferramenta de projeto. Tipos de maquetes, aplicações e escolha de materiais e técnicas adequadas à confecção, à representação e à apresentação de projetos."
+    },
+    {
+      "id": "ARQ2016",
+      "code": "ARQ2016",
+      "name": "ESBOÇOS PELA CIDADE",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenho de observação de arquitetura e urbanismo. Esboços rápidos de edifícios e da cidade. Expressão de ideias arquitetônicas através de esboços. Desenho à mão livre. Desenho pela cidade."
+    },
+    {
+      "id": "ARQ2017",
+      "code": "ARQ2017",
+      "name": "COMPUTAÇÃO CRIATIVA",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estratégias e métodos de computação aplicados à resolução de problemas de arquitetura e urbanismo."
+    },
+    {
+      "id": "ARQ2018",
+      "code": "ARQ2018",
+      "name": "PLANEJAMENTO AMBIENTAL URBANO I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Problemática ambiental urbana. Planejamento e gestão sócio-ambiental das cidades. Noções de Ecossistemas. Eco-desenho urbano."
+    },
+    {
+      "id": "ARQ2019",
+      "code": "ARQ2019",
+      "name": "PLANEJAMENTO AMBIENTAL URBANO II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Multi, inter e transdisciplinaridade. Noções de ecossistemas. Problemática urbana. Planejamento e gestão socioambiental das cidades. Qualidade de vida. Saúde, comportamento e saneamento no espaço urbano. Tecnologias ambientais. Educação ambiental. Ecodesenho urbano."
+    },
+    {
+      "id": "ARQ2020",
+      "code": "ARQ2020",
+      "name": "PESQUISA APLICADA AO",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(EXT 18h-a) Contribuição de diferentes métodos e ferramentas de pesquisa para o planejamento urbano. As etapas do processo de pesquisa. Leituras e análise urbana e escalas de abrangência. A contribuição de diferentes disciplinas. A formulação de projetos de pesquisa. Comunicação de resultados de pesquisa."
+    },
+    {
+      "id": "ARQ2021",
+      "code": "ARQ2021",
+      "name": "PAISAGISMO",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "PLANEJAMENTO URBANO Paisagem urbana. Espaços Livres, tipologias paisagísticas e inserção na estrutura urbana. Relações ambientais e a intervenção em espaços livres urbanos. Clima e microclima urbanos. Projetos paisagísticos para micro-climas específicos."
+    },
+    {
+      "id": "ARQ2022",
+      "code": "ARQ2022",
+      "name": "INTRODUÇÃO À PERMACULTURA",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Contexto Histórico. Ética e princípios da Permacultura. Conceitos fundamentais, padrões e paisagem. Métodos de planejamento do espaço. Bioarquitetura. Agricultura ecológica, água e solos. Sustentabilidade, energias e fluxos. Relações socioambientais."
+    },
+    {
+      "id": "ARQ2023",
+      "code": "ARQ2023",
+      "name": "CIDADE E CINEMA",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A história e a experiência urbanas apreendidas através da arte cinematográfica. Estudo da cidade no cinema, a partir de reflexões sobre as vinculações histórico-sociais na imagem poética. Formação de sensibilidades e imaginários urbanos a partir do cinema. A cidade brasileira, a vida social e a produção cinematográfica."
+    },
+    {
+      "id": "ARQ2024",
+      "code": "ARQ2024",
+      "name": "VIDROS NA CONSTRUÇÃO CIVIL",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ARQ2506",
+        "ARQ2606"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ2506"
+          },
+          {
+            "kind": "course",
+            "code": "ARQ2606"
+          }
+        ]
+      },
+      "syllabus": "Visão sistêmica da aplicação de vidros nas edificações: propriedades, especificações e desempenho"
+    },
+    {
+      "id": "ARQ2025",
+      "code": "ARQ2025",
+      "name": "SUSTENTABILIDADE E INOVAÇÃO NA",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ARQ2504"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2504"
+      },
+      "syllabus": "Fundamentos, tecnologias e conceitos da sustentabilidade para avaliação e aplicação em edificações e cidades frente às mudanças climáticas."
+    },
+    {
+      "id": "ARQ2026",
+      "code": "ARQ2026",
+      "name": "PROJETOS INTEGRADOS EM BIM",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ARQ2504"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2504"
+      },
+      "syllabus": "CONSTRUÇÃO CIVIL Processos, tecnologias e políticas para adoção de Modelagem da Informação da Construção (BIM) no desenvolvimento de projetos integrados."
+    },
+    {
+      "id": "ARQ2027",
+      "code": "ARQ2027",
+      "name": "EDIFICAÇÕES AUTOSSUFICIENTES EM ENERGIA",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ARQ2504",
+        "ARQ2506"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARQ2504"
+          },
+          {
+            "kind": "course",
+            "code": "ARQ2506"
+          }
+        ]
+      },
+      "syllabus": "Estudar e aplicar conceitos, técnicas e estratégias visando uma edificação autossuficiente em energia."
+    },
+    {
+      "id": "ARQ2028",
+      "code": "ARQ2028",
+      "name": "TÓPICOS ESPECIAIS EM TEORIA E HISTÓRIA URBANA",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARQ5614"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5614
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARQ5614"
+      },
+      "prerequisiteHours": 5614,
+      "syllabus": "Estudo, debate e análises de tópicos especiais em teoria e história urbana."
+    },
+    {
+      "id": "ARQ2029",
+      "code": "ARQ2029",
+      "name": "TÓPICOS ESPECIAIS EM TEORIA E HISTÓRIA DA ARTE",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Estudo, debate e análises de tópicos especiais em teoria e história da arte."
+    },
+    {
+      "id": "ARQ2030",
+      "code": "ARQ2030",
+      "name": "TÓPICOS ESPECIAIS EM TEORIA E HISTÓRIA DA ARQUITETURA",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Estudos dirigidos para temáticas específicas da teoria e história da arquitetura."
+    },
+    {
+      "id": "ARQ2031",
+      "code": "ARQ2031",
+      "name": "MODOS DE MORAR",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ARQ2202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2202"
+      },
+      "syllabus": "Habitação e direito à cidade. A habitação a partir da arquitetura e do urbanismo: análises, interpretações, formações conceituais, propostas e políticas. Perspectivas na arquitetura habitacional e na sua relação com o espaço urbano."
+    },
+    {
+      "id": "ARQ2032",
+      "code": "ARQ2032",
+      "name": "METODOLOGIA CIENTÍFICA EM CIÊNCIAS",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O conhecimento científico para as ciências sociais aplicadas. Revisão de literatura. Pesquisa empírica nos estudos urbanos: métodos quantitativos, qualitativos e mistos. Interdisciplinaridade, consistência e rigor científico. Pressupostos éticos e políticos da pesquisa científica em ciências sociais. Métodos e técnicas de escrita dissertativa-argumentativa."
+    },
+    {
+      "id": "ARQ2033",
+      "code": "ARQ2033",
+      "name": "HORIZONTES UTÓPICOS E PRÁTICAS",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2033
+      },
+      "prerequisiteHours": 2033,
+      "syllabus": "SOCIAIS Compreensão crítica e propositiva da urbanização brasileira, de modo a identificar lugares sociais a partir dos quais arquitetos/as e urbanistas podem atuar na transformação da realidade urbana."
+    },
+    {
+      "id": "ARQ2034",
+      "code": "ARQ2034",
+      "name": "HISTÓRIA DA ARTE",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2034
+      },
+      "prerequisiteHours": 2034,
+      "syllabus": "EXPERIMENTAIS A arte na história. Teorias da arte. Preceptivas artísticas. Arte, arquitetura e cidade. Processos, práticas, ideários, trajetórias coletivas e individuais. O fazer artístico."
+    },
+    {
+      "id": "ARQ2035",
+      "code": "ARQ2035",
+      "name": "HISTÓRIA URBANA DE FLORIANÓPOLIS",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2035
+      },
+      "prerequisiteHours": 2035,
+      "syllabus": "Formação espacial e ocupação do território de Florianópolis. História da urbanização e do planejamento urbano de Florianópolis. Debates contemporâneos e dinâmicas socioespaciais locais."
+    },
+    {
+      "id": "ARQ2036",
+      "code": "ARQ2036",
+      "name": "ESTÉTICA E POLÍTICA: DAS VANGUARDAS AO CONTEMPORÂNEO",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações entre estética e política, desde as formulações das vanguardas do início do século XX até as primeiras décadas do século XXI. Produção artística e cultural brasileiras em seus diálogos internacionais"
+    },
+    {
+      "id": "ARQ2037",
+      "code": "ARQ2037",
+      "name": "ARQUITETURA CONTEMPORÂNEA NO",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ARQ2402"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2402"
+      },
+      "syllabus": "Críticas contemporâneas à arquitetura e ao urbanismo modernos. Dispersão de posturas. Teorias que alimentam as novas expressões na arquitetura e no urbanismo. Arquitetos e coletivos no século XXI. A diversidade da atuação do arquiteto na atualidade brasileira, seus problemas e desafios."
+    },
+    {
+      "id": "ARQ2038",
+      "code": "ARQ2038",
+      "name": "ARQUITETURA E CIDADE",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ARQ2202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ARQ2202"
+      },
+      "syllabus": "BRASIL Reestruturação produtiva e seus impactos urbanos. A hegemonia de políticas neoliberais. A cultura na produção da cidade. Pragmatismo e pós-crítica na arquitetura. Novos modos de desigualdade e segregação urbana. Horizontes pós-neoliberais."
+    },
+    {
+      "id": "ARQ2039",
+      "code": "ARQ2039",
+      "name": "ARQUITETURA CATARINENSE",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "CONTEMPORÂNEAS Arquitetura e cidade em Santa Catarina. Pluralidade cultural e étnica. Regionalismos. Movimentos culturais e artísticos."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "ARQ2040",
+      "code": "ARQ2040",
+      "name": "Atividades Complementares",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) Rol de Atividades Complementares Complementares, incluindo projetos de pesquisa, monitoria, iniciação científica, projetos de extensão, módulos temáticos, seminários, simpósios, congressos e conferências."
+    },
+    {
+      "id": "ARQ2000",
+      "code": "ARQ2000",
+      "name": "Atividades de extensão: Ações de Extensão em Cursos, Projetos e Eventos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Atividades de Extensão Ações de extensão em cursos, projetos e eventos."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ARQ2101",
+      "ARQ2102",
+      "ARQ2103",
+      "ARQ2104",
+      "EGR2105",
+      "EGR2106",
+      "ARQ2201",
+      "ARQ2202",
+      "ARQ2204",
+      "ARQ2205",
+      "ECV3203",
+      "EGR2206",
+      "ARQ2301",
+      "ARQ2302",
+      "ARQ2304",
+      "ECV3305",
+      "EGR2306",
+      "ARQ2401",
+      "ARQ2402",
+      "ARQ2403",
+      "ARQ2404",
+      "ARQ2406",
+      "ECV3405",
+      "ARQ2501",
+      "ARQ2502",
+      "ARQ2503",
+      "ARQ2504",
+      "ARQ2506",
+      "ECV3505",
+      "ARQ2601",
+      "ARQ2602",
+      "ARQ2603",
+      "ARQ2606",
+      "ECV3604",
+      "ECV3605",
+      "ARQ2701",
+      "ARQ2702",
+      "ARQ2703",
+      "ARQ2706",
+      "ECV3704",
+      "EGR2703",
+      "ARQ2801",
+      "ARQ2802",
+      "ARQ2803",
+      "ARQ2804",
+      "ARQ2805",
+      "ARQ2901",
+      "ARQ2911",
+      "ARQ2100"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 162,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ARQ2001",
+              "ARQ2002",
+              "ARQ2003",
+              "ARQ2004",
+              "ARQ2005",
+              "ARQ2006",
+              "ARQ2007",
+              "ARQ2008",
+              "ARQ2009",
+              "ARQ2010",
+              "ARQ2011",
+              "ARQ2012",
+              "ARQ2013",
+              "ARQ2014",
+              "ARQ2015",
+              "ARQ2016",
+              "ARQ2017",
+              "ARQ2018",
+              "ARQ2019",
+              "ARQ2020",
+              "ARQ2021",
+              "ARQ2022",
+              "ARQ2023",
+              "ARQ2024",
+              "ARQ2025",
+              "ARQ2026",
+              "ARQ2027",
+              "ARQ2028",
+              "ARQ2029",
+              "ARQ2030",
+              "ARQ2031",
+              "ARQ2032",
+              "ARQ2033",
+              "ARQ2034",
+              "ARQ2035",
+              "ARQ2036",
+              "ARQ2037",
+              "ARQ2038",
+              "ARQ2039",
+              "LSB7244",
+              "ARQ2040",
+              "ARQ2000"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 162
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "207",
+    "curriculumCode": "20261",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=207&curriculo=20261",
+    "sha256": "1ecd2f0bfbc130e95d0ca646ece5a4d001cab387dbcfa9e1c22118900851c8d1",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -1,0 +1,1936 @@
+{
+  "program": "CINEMA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2015.1",
+  "totalHours": 3384,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ART5111",
+      "code": "ART5111",
+      "name": "Fotografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5102"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5102"
+      },
+      "syllabus": "-A fotografia como elemento fundador da imagem cinematográfica. Panorama histórico e crítico do desenvolvimento da fotografia e seus desdobramentos artísticos."
+    },
+    {
+      "id": "ART5112",
+      "code": "ART5112",
+      "name": "Teoria da Literatura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5113",
+        "LLV5930"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA5113"
+          },
+          {
+            "kind": "course",
+            "code": "LLV5930"
+          }
+        ]
+      },
+      "syllabus": "Teoria da Literatura como instrumento avaliativo da ficção. Estudo de mito e narrativa. Reflexões sobre os objetos da crítica literária. Leitura e análise de obras literárias. Estudos de literatura e sua relação com outras artes."
+    },
+    {
+      "id": "ART5113",
+      "code": "ART5113",
+      "name": "Universos da Arte I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5811"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5811"
+      },
+      "syllabus": "Revisão crítica da historiografia tradicional da Arte. Vanguardas: principais movimentos artísticos dos séculos XX e XXI. Estética e filosofia. Estética e teorias críticas. Arte e tecnologias. Arte moderna e contemporânea no Brasil."
+    },
+    {
+      "id": "ART5114",
+      "code": "ART5114",
+      "name": "Expressões Cinematográficas I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5812"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5812"
+      },
+      "syllabus": "Os elementos constitutivos da expressão cinematográfica e suas diversas manifestações ao longo do tempo. Iniciação à realização fílmica."
+    },
+    {
+      "id": "HST5341",
+      "code": "HST5341",
+      "name": "História do Cinema I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5341
+      },
+      "prerequisiteHours": 5341,
+      "syllabus": "Os primórdios do cinema. O estabelecimento do cinema como técnica, indústria e forma artística. O cinema do período mudo; suas escolas estilísticas. As vanguardas cinematográficas na Europa. O cinema norte-americano e o cinema latino-americano no período anterior à Segunda Guerra Mundial."
+    },
+    {
+      "id": "ART5211",
+      "code": "ART5211",
+      "name": "Montagem Cinematográfica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5114",
+        "CMA5812"
+      ],
+      "equivalents": [
+        "CMA5103"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5114"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5812"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5103"
+      },
+      "syllabus": "A montagem como princípio técnico e estético da linguagem e narrativa cinematográficas. Panorama histórico, com perspectiva teórica e prática dos princípios, estilos e técnicas de montagem da imagem e do som no cinema e no audiovisual."
+    },
+    {
+      "id": "ART5212",
+      "code": "ART5212",
+      "name": "Fotografia Cinematográfica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5111",
+        "CMA5102"
+      ],
+      "equivalents": [
+        "CMA5104"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5111"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5102"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5104"
+      },
+      "syllabus": "A imagem cinematográfica como matéria prima da composição fílmica. Possibilidades de construção criativa através das intersecções estéticas e técnicas."
+    },
+    {
+      "id": "ART5213",
+      "code": "ART5213",
+      "name": "Som I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5211"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5211"
+      },
+      "syllabus": "Aspectos técnicos da captação e reprodução de som no cinema. Propriedades físicas do som. Fisiologia da escuta. Som analógico e digital. Microfones. Síntese e edição de sons."
+    },
+    {
+      "id": "ART5215",
+      "code": "ART5215",
+      "name": "Cinema Brasileiro I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5504",
+        "CMA5822"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA5504"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5822"
+          }
+        ]
+      },
+      "syllabus": "História do cinema no Brasil: os primórdios, os ciclos regionais até 1930, a chanchada e o cinema paulistano até os 1950, o Cinema Novo, o cinema marginal, o ciclo Embrafilme."
+    },
+    {
+      "id": "ART5216",
+      "code": "ART5216",
+      "name": "Escrita Criativa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ART5214",
+        "CMA5821"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5214"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5821"
+          }
+        ]
+      },
+      "syllabus": "Introdução à escrita criativa. Caracterização dos gêneros literários. Análise de elementos ficcionais. Estúdio de criação."
+    },
+    {
+      "id": "HST5342",
+      "code": "HST5342",
+      "name": "História do Cinema II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "HST5341"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST5341"
+          },
+          {
+            "kind": "hours",
+            "hours": 5342
+          }
+        ]
+      },
+      "prerequisiteHours": 5342,
+      "syllabus": "O neo-realismo italiano; a nouvelle vague; a tendência mundial de renovação do cinema nos anos 60. O cinema frente à televisão: novas tecnologias; o surgimento do filme evento. Situação do cinema contemporâneo; a afirmação de novas cinematografias."
+    },
+    {
+      "id": "ART5311",
+      "code": "ART5311",
+      "name": "Montagem Cinematográfica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5211",
+        "CMA5103"
+      ],
+      "equivalents": [
+        "CMA5832"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5211"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5103"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5832"
+      },
+      "syllabus": "A montagem como princípio técnico e estético. O processo da montagem e as tecnologias do audiovisual. A montagem na ficção e no documentário. A montagem e as possibilidades no processo de finalização: efeitos visuais e edição/mixagem de som. A montagem para diferentes formatos e plataformas audiovisuais."
+    },
+    {
+      "id": "ART5312",
+      "code": "ART5312",
+      "name": "Direção de Produção",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5313"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5313"
+      },
+      "syllabus": "Entendimento do papel da equipe de produção nas etapas de préprodução, filmagem e pós-produção de uma obra audiovisual. Organização operacional dessas etapas. Produção audiovisual e o meio-ambiente"
+    },
+    {
+      "id": "ART5313",
+      "code": "ART5313",
+      "name": "Som II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5213",
+        "CMA5211"
+      ],
+      "equivalents": [
+        "CMA5311"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5213"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5211"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5311"
+      },
+      "syllabus": "A representação do som no cinema. A sincronização som/imagem. Elementos da trilha sonora: voz, ruídos, música. As principais correntes de pensamento acerca do som no audiovisual e nas artes em geral. Sound Studies. Sound Art. Novas mídias. Glitch."
+    },
+    {
+      "id": "ART5314",
+      "code": "ART5314",
+      "name": "Gêneros Cinematográficos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5214",
+        "ART5216",
+        "CMA5821"
+      ],
+      "equivalents": [
+        "CMA5109"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5214"
+          },
+          {
+            "kind": "course",
+            "code": "ART5216"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5821"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5109"
+      },
+      "syllabus": "Estudo de perspectivas críticas e criativas sobre os gêneros audiovisuais. Investigação teórica da morfologia e da ontologia das narrativas de gênero. Análise da dinâmica dos gêneros cinematográficos em diferentes cinematografias. Estúdio de criação."
+    },
+    {
+      "id": "ART5315",
+      "code": "ART5315",
+      "name": "Cinema Brasileiro II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5215",
+        "CMA5822"
+      ],
+      "equivalents": [
+        "CMA5831"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5215"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5822"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5831"
+      },
+      "syllabus": "Aspectos do cinema brasileiro contemporâneo."
+    },
+    {
+      "id": "ART5411",
+      "code": "ART5411",
+      "name": "Cinema Documentário",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5315",
+        "CMA5831"
+      ],
+      "equivalents": [
+        "CMA5108"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5315"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5831"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5108"
+      },
+      "syllabus": "Natureza do documentário. História do cinema documentário. O projeto do documentário. Especificidade e captação da imagem e som no documentário. Aspectos éticos da filmagem."
+    },
+    {
+      "id": "ART5412",
+      "code": "ART5412",
+      "name": "Teoria do Cinema I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5121"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5121"
+      },
+      "syllabus": "Primeiras teorias do cinema. A fenomenologia husserliana e o funcionalismo (Arnheim) como substituição da teorização pela normatização. Buscas por teorias estéticas heterodoxas a partir do cinema."
+    },
+    {
+      "id": "ART5413",
+      "code": "ART5413",
+      "name": "Universos da Arte II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5113",
+        "CMA5811"
+      ],
+      "equivalents": [
+        "CMA5842"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5113"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5811"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5842"
+      },
+      "syllabus": "Ontologia da arte. Leitura crítica de elementos do cânone das artes visuais. Regimes artísticos. Declínio da arte."
+    },
+    {
+      "id": "ART5414",
+      "code": "ART5414",
+      "name": "Roteirização I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5314",
+        "CMA5109"
+      ],
+      "equivalents": [
+        "CMA5841"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5314"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5109"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5841"
+      },
+      "syllabus": "Roteiro de ficção. Etapas da roteirização ficcional (ideia, story line, argumento, escaleta e roteiro final). Elementos narrativos e seus usos: personagens, diálogos, descrições de cena, ações, ordenação dos fatos compositores da trama."
+    },
+    {
+      "id": "ART5511",
+      "code": "ART5511",
+      "name": "Direção Cinematográfica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5414",
+        "CMA5841"
+      ],
+      "equivalents": [
+        "CMA5851"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5414"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5841"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5851"
+      },
+      "syllabus": "O filme narrativo/ficcional. Elaboração cênico/narrativa das informações cognitivas, afetivas e sensoriais presentes no filme através da decupagem. Técnicas de direção de elenco. Técnicas de decupagem. Práticas de direção."
+    },
+    {
+      "id": "ART5512",
+      "code": "ART5512",
+      "name": "Teoria do Cinema II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5412",
+        "CMA5121"
+      ],
+      "equivalents": [
+        "CMA5522"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5412"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5522"
+      },
+      "syllabus": "Teorias contemporâneas do cinema, teorias temporais da imagem. Anacronismo. A imagem como montagem. Politização da imagem. Desautonomização. Fantasmagorias. Imaginação."
+    },
+    {
+      "id": "ART5513",
+      "code": "ART5513",
+      "name": "Pós-Cinemas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5413",
+        "CMA5842"
+      ],
+      "equivalents": [
+        "CMA5853"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5413"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5842"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5853"
+      },
+      "syllabus": "O cinema enquanto possibilidade de expressão para além dos paradigmas da indústria (feature film), do realismo e da narrativa."
+    },
+    {
+      "id": "ART5514",
+      "code": "ART5514",
+      "name": "Roteirização II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5414",
+        "CMA5841"
+      ],
+      "equivalents": [
+        "CMA5512",
+        "CMA5852"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5414"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5841"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA5512"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5852"
+          }
+        ]
+      },
+      "syllabus": "Roteiros não ficcionais. Roteiros ficcionais fora do paradigma do cinema narrativo clássico: roteiro de documentário e roteiro de videoclipe."
+    },
+    {
+      "id": "ART5611",
+      "code": "ART5611",
+      "name": "Direção Cinematográfica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CMA5851",
+        "ART5511",
+        "CMA5852",
+        "ART5514"
+      ],
+      "equivalents": [
+        "CMA5861"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA5851"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART5511"
+              },
+              {
+                "kind": "course",
+                "code": "CMA5852"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ART5514"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5861"
+      },
+      "syllabus": "O cinema não narrativo ou não ficcional. Cinema experimental, videoarte, performance, videoclipe, documentários, documentários poéticos e híbridos em geral. Práticas de direção."
+    },
+    {
+      "id": "ART5612",
+      "code": "ART5612",
+      "name": "Produção Executiva",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5312",
+        "CMA5313"
+      ],
+      "equivalents": [
+        "CMA5611"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5312"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5313"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5611"
+      },
+      "syllabus": "Capacitação dos alunos para os aspectos relativos à produção executiva de projetos audiovisuais."
+    },
+    {
+      "id": "ART5613",
+      "code": "ART5613",
+      "name": "Análise Fílmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5512",
+        "CMA5522"
+      ],
+      "equivalents": [
+        "CMA5602"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5512"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5522"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5602"
+      },
+      "syllabus": "Discurso imagético e produção de sentido. Definição e análise dos principais elementos do texto fílmico e suas implicações semânticas, incluindo elementos como montagem, mise en scène, iluminação, estrutura narrativa."
+    },
+    {
+      "id": "ART5711",
+      "code": "ART5711",
+      "name": "Técnicas de Projetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5212",
+        "CMA5104",
+        "ART5313",
+        "CMA5311",
+        "ART5613",
+        "CMA5602",
+        "ART5612",
+        "CMA5611",
+        "ART5311",
+        "CMA5832",
+        "ART5514",
+        "CMA5852",
+        "ART5513",
+        "ART5611",
+        "CMA5861"
+      ],
+      "equivalents": [
+        "CMA5872"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART5212"
+              },
+              {
+                "kind": "course",
+                "code": "CMA5104"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART5313"
+              },
+              {
+                "kind": "course",
+                "code": "CMA5311"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART5613"
+              },
+              {
+                "kind": "course",
+                "code": "CMA5602"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART5612"
+              },
+              {
+                "kind": "course",
+                "code": "CMA5611"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART5311"
+              },
+              {
+                "kind": "course",
+                "code": "CMA5832"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART5514"
+              },
+              {
+                "kind": "course",
+                "code": "CMA5852"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART5513"
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "ART5611"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "CMA5861"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5872"
+      },
+      "syllabus": "Elaboração de projetos de pesquisa científica na área das Artes. Estruturação de um projeto para ser executado na disciplina TCC - Trabalho de Conclusão de Curso."
+    },
+    {
+      "id": "ART5712",
+      "code": "ART5712",
+      "name": "Expressões Cinematográficas II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5114",
+        "CMA5812"
+      ],
+      "equivalents": [
+        "CMA5871"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5114"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5812"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5871"
+      },
+      "syllabus": "As possibilidades dentro da realização cinematográfica no ato de sua criação."
+    },
+    {
+      "id": "ART5811",
+      "code": "ART5811",
+      "name": "Trabalho de Conclusão de Curso",
+      "credits": 20,
+      "hours": 360,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ART5711",
+        "CMA5872"
+      ],
+      "equivalents": [
+        "CMA5881"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5711"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5872"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5881"
+      },
+      "syllabus": "Produção dos trabalhos de conclusão de curso."
+    },
+    {
+      "id": "ART5000",
+      "code": "ART5000",
+      "name": "Escrita Criativa Avançada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplinas Optativas Estudo do fluxo informacional na narrativa. Análise de diferentes focos narrativos. Criação ficcional em diferentes formatos. Estúdio de criação."
+    },
+    {
+      "id": "ART5001",
+      "code": "ART5001",
+      "name": "Antropologia da Imagerm",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5001"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5001"
+      },
+      "syllabus": "Abordagens antropológicas da imagem. Elementos para uma etnografia do cinema e outras linguagens audiovisuais."
+    },
+    {
+      "id": "ART5002",
+      "code": "ART5002",
+      "name": "Comunicação e Cultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5003"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5003"
+      },
+      "syllabus": "Múltiplas mídias e o letramento digital. Novas mídias e o conhecimento crítico e criativo. Cinema no contexto da comunicação e da cultura."
+    },
+    {
+      "id": "ART5003",
+      "code": "ART5003",
+      "name": "Corpo e Cinema",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5004"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5004"
+      },
+      "syllabus": "A representação do corpo como eixo de transversalidades (gênero, etnia e sexualidade) e sua inserção no imaginário social através do estudo de filmes."
+    },
+    {
+      "id": "ART5004",
+      "code": "ART5004",
+      "name": "Crítica Cinematografica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5005"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5005"
+      },
+      "syllabus": "O campo da crítica de cinema, o campo da crítica de arte. Conceitos de crítica. Diferentes formas de inserção das obras cinematográficas e da própria crítica na cultura. Mecanismos de poder na construção do cânone cultural. Produção crítica."
+    },
+    {
+      "id": "ART5005",
+      "code": "ART5005",
+      "name": "Direção de Arte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5006"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5006"
+      },
+      "syllabus": "A ocupação do espaço pictórico: sombras, texturas, planos diferenciados. O espaço tridimensional: o corpo como medida; escalas. Produção de maquetes. Equipe e funções: cenotécnicos, pintores, costureiras etc. Produção de objetos, roupas e acessórios. Contrarregragem. Organização da produção de cenografia e figurino conforme decupagem do roteiro."
+    },
+    {
+      "id": "ART5006",
+      "code": "ART5006",
+      "name": "Direção de Atores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5007"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5007"
+      },
+      "syllabus": "As possibilidades da interpretação para Cinema dentro da perspectiva realista. A criação da personagem cinematográfica frente à câmera."
+    },
+    {
+      "id": "ART5007",
+      "code": "ART5007",
+      "name": "Estética do Cinema",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5008"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5008"
+      },
+      "syllabus": "O cinema como arte, como indústria e como representação ideológica. O trabalho do diretor cinematográfico. O espaço fílmico e a representação sonora. O cinema ficcional. Realismo e impressão de realidade. O espectador de cinema"
+    },
+    {
+      "id": "ART5008",
+      "code": "ART5008",
+      "name": "Iluminação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5009"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5009"
+      },
+      "syllabus": "A luz como elemento determinante da imagem cinematográfica. Construção espacial e apoio à atuação. Questões estéticas e domínio técnico."
+    },
+    {
+      "id": "ART5009",
+      "code": "ART5009",
+      "name": "Trilha Sonora",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Técnicas de acompanhamento musical de filmes e demais produtos audiovisuais. Análise de modelos de composição para cinema. Trilha sonora para novas mídias."
+    },
+    {
+      "id": "ART5010",
+      "code": "ART5010",
+      "name": "Tecnologias do Audiovisual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Os recursos tecnológicos utilizados na produção audiovisual. Evolução histórica dos equipamentos, o estado atual da tecnologia e seu emprego."
+    },
+    {
+      "id": "ART5011",
+      "code": "ART5011",
+      "name": "Semiótica dos Meios Audiovisuais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Os processos de comunicação humana. Estudo do signo. Semiótica como ciência. Contribuições interdisciplinares para a Teoria da Comunicação. O mundo e sua imagem. As simbologias das linguagens audiovisuais. O Cinema e os estudos semióticos."
+    },
+    {
+      "id": "ART5012",
+      "code": "ART5012",
+      "name": "Laboratório Fotográfico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Técnicas de manipulação da imagem fotográfica. Processos fotoquímicos e digitais de intervenção artística."
+    },
+    {
+      "id": "ART5013",
+      "code": "ART5013",
+      "name": "Dramaturgia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de história do teatro, do surgimento na Grécia ao período elisabetano. Evolução das formas de representação e da estrutura cênica. Noções fundamentais: personagem, ação dramática, conflito. Texto teatral e encenação. O teatro épico."
+    },
+    {
+      "id": "ART5014",
+      "code": "ART5014",
+      "name": "Estudos Culturais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Os múltiplos espaços e sentidos do termo cultura. A cultura como processo ativo de representações sociais. Cultura como local de construção de subjetividades. Relações étnico-raciais dentro da história e cultura afro-brasileiras, africanas e indígenas. Estudos Culturais e direitos humanos. Estudos Culturais e o Cinema."
+    },
+    {
+      "id": "ART5015",
+      "code": "ART5015",
+      "name": "Narrativa Cinematográfica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos de experiência. O inenarrável. Imagem. Narrativa na imagem. Narrativa e tempo. Narrativa e experiência. Narrativa e infância. Narrativa e horror. Personagem. Focalização."
+    },
+    {
+      "id": "ART5016",
+      "code": "ART5016",
+      "name": "Cinema e Literatura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O literário e o fílmico como indizíveis, irredutíveis à linguagem – equiparação ao poético. A impossibilidade das adaptações. Leituras (não fenomenológicas) de filmes, contos e romances por fora de qualquer conceito de adaptação. Adoção. Conceitos de ficção. O literário e o fílmico enquanto resistência política. Cinema e poesia. Cinema, literatura e identidade nacional."
+    },
+    {
+      "id": "ART5017",
+      "code": "ART5017",
+      "name": "Cinema e Literatura Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O problema da identidade nacional. Questionamento dos pressupostos segundo os quais um cinema e uma literatura são ditos “brasileiros”. Relações entre produções de cinema e de literatura no Brasil, por fora da restritividade do conceito de adaptação. O ensaísmo de construção da identidade nacional brasileira: projetos (estéticos) de nação. Sertões, cidades, mares, favelas. Regionalismo. Inserções do Brasil."
+    },
+    {
+      "id": "ART5018",
+      "code": "ART5018",
+      "name": "Cinema e Teorias do Sujeito",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5503"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5503"
+      },
+      "syllabus": "Diferentes paradigmas sobre o sujeito e a personalidade humana. Modernidade e processos de subjetivação nas obras cinematográficas. Teorias do sujeito e criação de personagens para dramaturgia audiovisual."
+    },
+    {
+      "id": "ART5019",
+      "code": "ART5019",
+      "name": "Análise dos Meios Audiovisuais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias e métodos para a análise de produções audiovisuais. O campo específico do cinema, da televisão e das novas mídias e sua interrelação."
+    },
+    {
+      "id": "ART5021",
+      "code": "ART5021",
+      "name": "Práticas de Documentário",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O filme documentário. Relação com a ficção, videoarte e com o jornalismo. Oficina de realização documental."
+    },
+    {
+      "id": "ART5022",
+      "code": "ART5022",
+      "name": "Audiovisual e Processo Educativo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Breve história do cinema educativo no Brasil e no mundo. Planejamento e roteirização de produtos audiovisuais educativos. Bases teóricas e técnicas do audiovisual para o contexto de ensino e aprendizagem."
+    },
+    {
+      "id": "ART5023",
+      "code": "ART5023",
+      "name": "Laboratório de Percepção e Invenção",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Arte, mídia e poéticas contemporâneas. Interações entre arte e tecnologia. Estúdio de criação."
+    },
+    {
+      "id": "ART5024",
+      "code": "ART5024",
+      "name": "Roteirização III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ART5514",
+        "CMA5852"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5514"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5852"
+          }
+        ]
+      },
+      "syllabus": "Aprofundamento e desenvolvimento do roteiro em tratamentos sucessivos com ênfase na redação de diálogos. Ênfase no argumento e roteiro de longa metragem."
+    },
+    {
+      "id": "ART5025",
+      "code": "ART5025",
+      "name": "Corpo e Câmera",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O papel da câmera nas mais diversas expressões audiovisuais e a dança entre os corpos que filmam e os que são filmados."
+    },
+    {
+      "id": "ART5026",
+      "code": "ART5026",
+      "name": "Live Cinema",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens experimentais entre os elementos fundamentais do cinema (imagem e som) colididos entre si numa performance ao vivo. O live cinema enquanto mistura de mídias para além dos paradigmas do cinema de ficção. Da síntese imagética dos VJs à videoinstalação passando por diversos softwares, aplicativos e plataformas."
+    },
+    {
+      "id": "ART5027",
+      "code": "ART5027",
+      "name": "Tópicos Especiais de Cinema I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5028",
+      "code": "ART5028",
+      "name": "Tópicos Especiais de Cinema II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5029",
+      "code": "ART5029",
+      "name": "Tópicos Especiais de Cinema III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5030",
+      "code": "ART5030",
+      "name": "Tópicos Especiais de Cinema IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5031",
+      "code": "ART5031",
+      "name": "Tópicos Especiais de Cinema V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5032",
+      "code": "ART5032",
+      "name": "Tópicos Especiais de Cinema VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5033",
+      "code": "ART5033",
+      "name": "Tópicos Especiais de Cinema VII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5034",
+      "code": "ART5034",
+      "name": "Tópicos Especiais de Cinema VIII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5035",
+      "code": "ART5035",
+      "name": "Tópicos Especiais de Cinema IX",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5036",
+      "code": "ART5036",
+      "name": "Tópicos Especiais de Cinema X",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5037",
+      "code": "ART5037",
+      "name": "Tópicos Especiais de Cinema XI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5921"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5921"
+      },
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5038",
+      "code": "ART5038",
+      "name": "Tópicos Especiais de Cinema XII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5922"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5922"
+      },
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5039",
+      "code": "ART5039",
+      "name": "Tópicos Especiais de Cinema XIII",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5040",
+      "code": "ART5040",
+      "name": "Tópicos Especiais de Cinema XIV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5041",
+      "code": "ART5041",
+      "name": "Tópicos Especiais de Cinema XV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5042",
+      "code": "ART5042",
+      "name": "Tópicos Especiais de Cinema XVI",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5043",
+      "code": "ART5043",
+      "name": "Tópicos Especiais de Cinema XVII",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5044",
+      "code": "ART5044",
+      "name": "Tópicos Especiais de Cinema XVIII",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tema de interesse atual em cinema"
+    },
+    {
+      "id": "ART5090",
+      "code": "ART5090",
+      "name": "Programa de Intercâmbio I",
+      "credits": 12,
+      "hours": 216,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA5803"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5803"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART5091",
+      "code": "ART5091",
+      "name": "Programa de Intercâmbio II",
+      "credits": 12,
+      "hours": 216,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ART5090",
+        "CMA5803"
+      ],
+      "equivalents": [
+        "CMA5804"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5090"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5803"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5804"
+      },
+      "syllabus": "A disciplina tem como pré-requisito o cumprimento do disposto na Resolução 007/Cun/99, datada de 30/03/1999"
+    },
+    {
+      "id": "ART5092",
+      "code": "ART5092",
+      "name": "Programa de Intercâmbio III",
+      "credits": 12,
+      "hours": 216,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ART5091",
+        "CMA5804"
+      ],
+      "equivalents": [
+        "CMA5805"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5091"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5804"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5805"
+      },
+      "syllabus": "A disciplina tem como pré-requisito o cumprimento do disposto na Resolução 007/Cun/99, datada de 30/03/1999."
+    },
+    {
+      "id": "ART5093",
+      "code": "ART5093",
+      "name": "Programa de Intercâmbio IV",
+      "credits": 12,
+      "hours": 216,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ART5092",
+        "CMA5805"
+      ],
+      "equivalents": [
+        "CMA5806"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5092"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5805"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5806"
+      },
+      "syllabus": "A disciplina tem como pré-requisito o cumprimento do disposto na Resolução 007/Cun/99, datada de 30/03/1999."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "ART5099",
+      "code": "ART5099",
+      "name": "Atividades Complementares",
+      "credits": 20,
+      "hours": 360,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conjunto de diferentes atividades desenvolvidas pelos alunos de acordo com seus interesses e consideradas pertinentes em sua formação."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ART5111",
+      "ART5112",
+      "ART5113",
+      "ART5114",
+      "HST5341",
+      "ART5211",
+      "ART5212",
+      "ART5213",
+      "ART5215",
+      "ART5216",
+      "HST5342",
+      "ART5311",
+      "ART5312",
+      "ART5313",
+      "ART5314",
+      "ART5315",
+      "ART5411",
+      "ART5412",
+      "ART5413",
+      "ART5414",
+      "ART5511",
+      "ART5512",
+      "ART5513",
+      "ART5514",
+      "ART5611",
+      "ART5612",
+      "ART5613",
+      "ART5711",
+      "ART5712",
+      "ART5811",
+      "ART5099"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 576,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ART5000",
+              "ART5001",
+              "ART5002",
+              "ART5003",
+              "ART5004",
+              "ART5005",
+              "ART5006",
+              "ART5007",
+              "ART5008",
+              "ART5009",
+              "ART5010",
+              "ART5011",
+              "ART5012",
+              "ART5013",
+              "ART5014",
+              "ART5015",
+              "ART5016",
+              "ART5017",
+              "ART5018",
+              "ART5019",
+              "ART5021",
+              "ART5022",
+              "ART5023",
+              "ART5024",
+              "ART5025",
+              "ART5026",
+              "ART5027",
+              "ART5028",
+              "ART5029",
+              "ART5030",
+              "ART5031",
+              "ART5032",
+              "ART5033",
+              "ART5034",
+              "ART5035",
+              "ART5036",
+              "ART5037",
+              "ART5038",
+              "ART5039",
+              "ART5040",
+              "ART5041",
+              "ART5042",
+              "ART5043",
+              "ART5044",
+              "ART5090",
+              "ART5091",
+              "ART5092",
+              "ART5093",
+              "LSB7904"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "450",
+    "curriculumCode": "20151",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=450&curriculo=20151",
+    "sha256": "a0ee261d3b64b116fc9e7a26e1272b17a64ac01d3d5ad5072f6ade1f981c4e7a",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -1,0 +1,877 @@
+{
+  "program": "Licenciatura em Educação Escolar Quilombola",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.1",
+  "totalHours": 4266,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ANT9001",
+      "code": "ANT9001",
+      "name": "Saberes e Fazeres Quilombolas I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Saberes e fazeres tradicionais das comunidades quilombolas de Santa Catarina. Saberes e fazeres tradicionais do Quilombo Invernada dos Negros. Conhecimentos ancestrais das comunidades quilombolas, as tecnologias tradicionais e sua história de produção. Aprendizagem com os conhecedores, griôs, mestres e portadores de saberes."
+    },
+    {
+      "id": "ANT9002",
+      "code": "ANT9002",
+      "name": "Seminário de diagnóstico da comunidade e conhecimentos ancestrais I",
+      "credits": 7,
+      "hours": 126,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 126
+      },
+      "prerequisiteHours": 126,
+      "syllabus": "Estudo e sistematização em forma de relatório-diagnóstico da vivência no tempo comunidade, a partir dos planos de estudos construídos na primeira fase do curso pela turma e das pesquisas de campo voltadas ao conhecimento das condições socioculturais do Quilombo Invernada dos Negros e seu entorno. Tópico especial: Pedagogia da Alternância.",
+      "extensionHours": 126
+    },
+    {
+      "id": "EED9001",
+      "code": "EED9001",
+      "name": "Educação para as Relações Étnico Raciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Educação e diversidade cultural. Cultura afro-brasileira, indígenas e africanidades. As Diretrizes Curriculares para a Educação das Relações Étnico-raciais. Educação Antirracista e os Marcos Normativos e Legais. Ações implementadas pelo Movimento Social Negro contemporâneo, para a igualdade de direitos no campo educacional. Racismo, preconceito, discriminação racial e suas manifestações no currículo da escola. O papel da educação e da Educação Escolar Quilombola na luta por uma educação antirracista e no combate ao racismo em suas diversas formas de manifestações e espaços."
+    },
+    {
+      "id": "LLV9050",
+      "code": "LLV9050",
+      "name": "Leitura e Produção Textual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A leitura e a produção de textos na prática de letramento acadêmico. Gêneros discursivos diversos que circulam na esfera acadêmica."
+    },
+    {
+      "id": "MEN9001",
+      "code": "MEN9001",
+      "name": "Introdução à História da Educação no",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História da Educação: conceitos e abordagens. Estudo das raízes históricas da educação no Brasil até a contemporaneidade, destacando temas relevantes para a compreensão da educação para a população negra e quilombola. A História e a sociedade contemporânea. Movimento historiográfico contemporâneo e questões epistemológicas acerca do conhecimento histórico. Teoria da história para a formação histórica do professor. História da Educação nas diferentes sociedades e períodos. Fontes históricas e História da Educação."
+    },
+    {
+      "id": "MEN9002",
+      "code": "MEN9002",
+      "name": "Didática: fundamentos da Pedagogia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Brasil Teorias Pedagógicas. História da Didática e o processo de escolarização. A constituição da didática nas práticas de ensino no contexto da Educação Escolar Quilombola. Teorias do ensino na educação brasileira. O conhecimento escolar e a prática pedagógica."
+    },
+    {
+      "id": "MEN9003",
+      "code": "MEN9003",
+      "name": "Etnomatemática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Escolar Quilombola e suas teorias Conceituação da Etnomatemática. Articulações entre a Educação Escolar Quilombola e a Etnomatemática. Estudos etnomatemáticos para as pesquisas que tenham como foco os conhecimentos científicos e tecnológicos presentes nas culturas africanas, afro-diaspóricas. Práticas socioculturais quilombolas e Educação Matemática."
+    },
+    {
+      "id": "ANT9003",
+      "code": "ANT9003",
+      "name": "Direitos Quilombolas e Movimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A disciplina aborda os paradigmas de análise relacionados à ação coletiva e aos movimentos sociais, destacando a autonomia e a dimensão política inerentes a esses movimentos, as relações entre o Estado e os movimentos sociais no contexto brasileiro, com foco especial no movimento social negro. O curso também investiga as características dos quilombos, assim como o movimento quilombola, analisando temas como territorialidade, cultura, religiosidade e identidade quilombola."
+    },
+    {
+      "id": "ANT9004",
+      "code": "ANT9004",
+      "name": "Etnia e Território",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sociais Etnia, Estado e Nação. Comunidades étnicas e etnicidades contemporâneas. Identidades nacionais e fronteiras territoriais. Terra, território e territorialidade. Terras tradicionalmente ocupadas. Terras de uso comum, usos sociais da terra e direitos coletivos. Conflitos territoriais e o papel do Estado."
+    },
+    {
+      "id": "ANT9005",
+      "code": "ANT9005",
+      "name": "Antropologia dos Povos e Comunidades",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Serão explorados os fundamentos da Antropologia aplicados ao estudo dos povos e comunidades quilombolas. Identidade cultural, organização social, sistemas de parentesco, religiosidade, economia, territorialidade e resistência. Ainda serão discutidas as teorias antropológicas relevantes para a compreensão das dinâmicas culturais e sociais presentes nas comunidades quilombolas, destacando-se as contribuições da Antropologia decolonial e da Antropologia da diáspora africana."
+    },
+    {
+      "id": "ANT9006",
+      "code": "ANT9006",
+      "name": "Saberes e Fazeres Quilombolas II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "quilombolas SSaberes e fazeres tradicionais das comunidades quilombolas de Santa Catarina. Saberes e fazeres tradicionais do Quilombo Invernada dos Negros. Aprendizagem com os conhecedores, griôs, mestres e portadores de saberes."
+    },
+    {
+      "id": "ANT9007",
+      "code": "ANT9007",
+      "name": "Seminário de diagnóstico da comunidade e conhecimentos ancestrais II",
+      "credits": 7,
+      "hours": 126,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT9002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT9002"
+          },
+          {
+            "kind": "hours",
+            "hours": 126
+          }
+        ]
+      },
+      "prerequisiteHours": 126,
+      "syllabus": "Identificação de problemáticas relacionadas às condições históricas, sociais, culturais, políticas, educacionais, econômicas, ambientais e produtivas. Planejamento de ações coletivas junto às comunidades do território onde está sendo desenvolvido o Tempo Comunidade. Tópico especial: Territorialidades",
+      "extensionHours": 126
+    },
+    {
+      "id": "GCN9001",
+      "code": "GCN9001",
+      "name": "Geografia: Brasil e África dinâmica de uma",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A despeito do processo de invisibilidade e desmerecimento afrodescendente no contexto social. Nisto se inclui todo um debate sobre a formação e dinâmica socioespacial das comunidades quilombolas no país, suas formas de organização, produção, e interrelações com o meio ambiente e sociedade."
+    },
+    {
+      "id": "LLV9051",
+      "code": "LLV9051",
+      "name": "Língua portuguesa, afrobrasileira e oralidades",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "relação A disciplina tratará de temas relacionados à diversidade linguística e cultural, inclusão educacional, capacitação de professores e políticas linguísticas, visando preparar os futuros educadores para atuarem de maneira reflexiva e crítica no ensino de línguas. Além disso, reconhecerá e valorizará a contribuição do povo negro na formação da cultura afro-brasileira, com foco na oralidade e letramentos críticos, sempre vinculadas a contextos reais de comunicação. A expressão oral e a produção de textos serão direcionadas às práticas narrativas dos alunos e sua comunidade, explorando suas manifestações orais, letramentos e contos baseados na literatura afro-brasileira."
+    },
+    {
+      "id": "MEN9004",
+      "code": "MEN9004",
+      "name": "Metodologia do Ensino de Ciências e Biologia para Educação Escolar",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Práticas socioculturais quilombolas e o Ensino de Ciências e de Biologia. Ancestralidade, cultura e vivências das comunidades quilombolas integrados à sala de aula e que contemple a especificidade dos saberes quilombolas. Caminhos e possibilidades para o Ensino de Ciências e de Biologia voltado para a Educação Escolar Quilombola e desenvolvimento de intervenções pedagógicas que estabelecem um elo entre conhecimentos ancestrais e o conhecimento escolar. Intersecção entre conhecimentos científicos e ancestrais quilombolas nas práticas de ensino."
+    },
+    {
+      "id": "ANT9008",
+      "code": "ANT9008",
+      "name": "Saberes e Fazeres Quilombolas III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Saberes e fazeres tradicionais das comunidades quilombolas de Santa Catarina. Saberes e fazeres tradicionais do Quilombo Invernada dos Negros. Aprendizagem com os conhecedores, griôs, mestres e portadores de saberes."
+    },
+    {
+      "id": "ANT9009",
+      "code": "ANT9009",
+      "name": "Seminário de diagnóstico da comunidade e conhecimentos ancestrais III",
+      "credits": 7,
+      "hours": 126,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT9007"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT9007"
+          },
+          {
+            "kind": "hours",
+            "hours": 126
+          }
+        ]
+      },
+      "prerequisiteHours": 126,
+      "syllabus": "Estudo e sistematização em forma de relatório-diagnóstico da vivência do tempo na comunidade a partir dos planos de estudos construídos na terceira fase do curso pela turma e das pesquisas de campo voltadas ao conhecimento das condições socioculturais do Quilombo Invernada dos Negros e seu entorno. Tópico especial: Saúde da População Quilombola",
+      "extensionHours": 126
+    },
+    {
+      "id": "EDC9001",
+      "code": "EDC9001",
+      "name": "Metodologia do Ensino de Química para Educação Escolar Quilombola",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O ensino de Química fundamentado na realidade dos sujeitos quilombolas, valorizando suas vivências e práticas culturais. Aborda temas como vida e energia, com foco em sistemas produtivos e agrícolas, agroalimentares e industriais. Explora os conceitos essenciais da Química através de uma abordagem inclusiva, que considera a diversidade cultural e as relações étnico-raciais. Além disso, a disciplina articula a Educação Escolar Quilombola com uma visão crítica e emancipatória, fundamentada na cosmovisão quilombola e em um ensino de Química que dialoga com o contexto local e cultural dos estudantes."
+    },
+    {
+      "id": "EED9002",
+      "code": "EED9002",
+      "name": "Gestão Educacional em Territórios",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagem dos princípios, desafios e práticas da gestão educacional e escolar em territórios quilombolas. Será realizado um estudo das políticas públicas educacionais voltadas para essas comunidades, incluindo diretrizes específicas para a gestão escolar em territórios quilombolas."
+    },
+    {
+      "id": "HST9001",
+      "code": "HST9001",
+      "name": "História afrocentrada: protagonismos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9001
+      },
+      "prerequisiteHours": 9001,
+      "syllabus": "Quilombolas A disciplina tem como objetivo promover reflexões e subsidiar aos estudantes aspectos fundamentais da história dos diferentes grupos africanos e afrodescendentes na formação da sociedade brasileira. Serão analisadas as contribuições históricas, econômicas, culturais e sociais dos afro-brasileiros, destacando suas manifestações culturais e políticas que moldaram a identidade nacional, tais como, às línguas, religiões, símbolos, organização social, expressões artísticas e literárias. Por meio de uma abordagem crítica e reflexiva, serão exploradas as formas de resistência, personalidades, lutas e conquistas da população negra ao longo da história brasileira, bem como os desafios contemporâneos relacionados à promoção da igualdade racial e ao enfrentamento do racismo estrutural."
+    },
+    {
+      "id": "LLV9052",
+      "code": "LLV9052",
+      "name": "Literatura afrobrasileira, africana e afrodiaspórica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "negros A literatura afro-brasileira contemporânea, periferias e resistência na autoria de mulheres negras. As literaturas africanas em língua portuguesa, autorias, obras e temas. O pensamento afro diaspórico nas literaturas pós-coloniais. Reflexões sobre o ensino das literaturas afro-brasileira e africana na Educação Básica."
+    },
+    {
+      "id": "LSB9244",
+      "code": "LSB9244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Desmistificação de ideias recebidas relativamente às línguas de sinais; aspectos gramaticais básicos à língua de sinais; usar a língua de sinais em contexto que exigem comunicação básica com atividades práticas; conhecer os conceitos básicos da Língua Brasileira de Sinais e aspectos culturais específicos da comunidade surda brasileira e o papel do intérprete de libras na educação."
+    },
+    {
+      "id": "PSI9001",
+      "code": "PSI9001",
+      "name": "Psicologia e Educação Quilombola",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "contemporâneas na perspectiva da educação inclusiva."
+    },
+    {
+      "id": "ANT9010",
+      "code": "ANT9010",
+      "name": "Saberes e Fazeres Quilombolas I V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Saberes e fazeres tradicionais das comunidades quilombolas de Santa Catarina. Saberes e fazeres tradicionais do Quilombo Invernada dos Negros. Aprendizagem com os conhecedores, griôs, mestres e portadores de saberes."
+    },
+    {
+      "id": "ANT9011",
+      "code": "ANT9011",
+      "name": "Seminário de diagnóstico da comunidade e conhecimentos ancestrais IV",
+      "credits": 7,
+      "hours": 126,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT9009"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT9009"
+          },
+          {
+            "kind": "hours",
+            "hours": 126
+          }
+        ]
+      },
+      "prerequisiteHours": 126,
+      "syllabus": "Estudo e sistematização em forma de relatório-diagnóstico da vivência do tempo comunidade, a partir dos planos de estudos construídos na quarta fase do curso pela turma e das pesquisas de campo voltadas ao conhecimento das condições socioculturais do Quilombo Invernada dos Negros e seu entorno. Planejamento de ações coletivas junto à comunidade no território onde está sendo desenvolvido o Tempo Comunidade. Tópico especial: Racismo Ambiental.",
+      "extensionHours": 126
+    },
+    {
+      "id": "EDC9002",
+      "code": "EDC9002",
+      "name": "Metodologia do Ensino de Física para Educação Escolar Quilombola",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A disciplina Metodologia do Ensino da Física para a Educação Escolar Quilombola propõe metodologias e práticas pedagógicas que conectem o ensino de Física à realidade dos estudantes quilombolas, valorizando seus conhecimentos locais, culturais e históricos. Explora conceitos fundamentais, como movimento, força, energia, eletricidade, calor, som e luz, a partir de uma perspectiva contextualizada nas vivências e no cotidiano dessas comunidades. A disciplina enfatiza a aplicação desses conceitos em sistemas produtivos, agrícolas, ecológicos e tecnológicos característicos das comunidades quilombolas, promovendo uma abordagem crítica que respeite e integre a cosmovisão e os saberes tradicionais locais. Busca também articular o ensino de Física com a identidade cultural dos estudantes, abordando questões étnico raciais e promovendo uma prática pedagógica emancipatória."
+    },
+    {
+      "id": "EED9007",
+      "code": "EED9007",
+      "name": "Organização Escolar",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Organização da Educação Brasileira e Legislação Educacional. Políticas Públicas Educacionais na atualidade. Objetivo social da escola: direito à educação e a produção da exclusão. Currículo: teorias curriculares, propostas estatais e não estatais. A escola: sujeitos, cotidiano, trabalho docente e Projeto Político Pedagógico."
+    },
+    {
+      "id": "LLV9053",
+      "code": "LLV9053",
+      "name": "Educação Especial e Inclusiva",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios e práticas da educação especial na perspectiva da educação inclusiva. Identificação, planejamento e implementação de estratégias pedagógicas que promovam a inclusão e a acessibilidade efetiva de alunos com deficiência e condições neurodiversas no ambiente escolar, garantindo a equidade e o respeito à diversidade."
+    },
+    {
+      "id": "MEN9005",
+      "code": "MEN9005",
+      "name": "Educação de Jovens e Adultos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos sócio-históricos do atendimento escolar a jovens e adultos, no Brasil. Políticas públicas de Educação de Jovens e Adultos. Concepções socioeducativas de Educação de Jovens e Adultos. O conceito freiriano de alfabetização de adultos e a educação popular. Formação inicial e continuada do educador da Educação de Jovens e Adultos. Educação de Jovens e Adultos e mundo do trabalho."
+    },
+    {
+      "id": "MEN9006",
+      "code": "MEN9006",
+      "name": "Planejamento, currículo e Avaliação na",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Este curso aborda o planejamento coletivo, currículo e a avaliação processual, conforme a resolução 86 CEE, como pilares de uma educação libertadora, fundamentada na coletividade e na formação de sujeitos autônomos e críticos. Explora o papel dos professores como agentes ativos no planejamento das atividades pedagógicas, destacando a importância de um planejamento eficaz na organização, direção e avaliação do ensinoaprendizagem. Compreender as principais vertentes teóricas que discutem o campo do currículo. Discutir sobre o caráter político, ideológico e filosófico do currículo."
+    },
+    {
+      "id": "ANT9012",
+      "code": "ANT9012",
+      "name": "Cartografia Social e Territorialidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Mapeamento situacional. O trabalho de mapeamento social etnográfico, uso de técnicas de observação direta, critérios de seleção de informação como instrumentos de planejamento, formas de mobilização dos povos e comunidades tradicionais. Mapeamento social e identidades coletivas e biodiversidades. Conflitos sociais e os mapas. Monopólios da arte de mapear. Censo e mapas como instrumentos de dominação. Direitos territoriais. Técnicas cartográficas participativas e colaborativas, envolvendo as comunidades tradicionais no mapeamento de seus territórios e na expressão de suas identidades culturais e territoriais. A aplicação da cartografia social como ferramenta para compreensão e representação de territorialidades quilombolas."
+    },
+    {
+      "id": "ANT9013",
+      "code": "ANT9013",
+      "name": "Sociologia das Relações Étnico - Raciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "quilombola Usos e sentidos da categoria raça nas Ciências Sociais. Movimento Social negro. Políticas públicas e ações afirmativas. Racialização da experiência negra."
+    },
+    {
+      "id": "ANT9014",
+      "code": "ANT9014",
+      "name": "Comunidades afro -diaspóricas na América",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A presença e permanência dos afrodescendentes na América Latina e Caribe. Panorama das lutas políticas, sociais e culturais das comunidades afrodescendentes na América Latina e no Caribe. Análise política das insurgências negras: Quilombos Palenque, Raizales, Cumbes, Bush Negroes. Cosmopecerpções das comunidades afro diaspóricas nas Améfricas. Práticas cotidianas da Etnoeducação em territórios negros."
+    },
+    {
+      "id": "ANT9015",
+      "code": "ANT9015",
+      "name": "Expressões Artísticas, Corpo, e Movimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Latina e Caribe Introdução a uma abordagem de corpo a partir da perspectiva afro-indígena. Abordagem da noção de diáspora. Compreender as expressões artísticas afro-diaspóricas."
+    },
+    {
+      "id": "EDC9003",
+      "code": "EDC9003",
+      "name": "Estágio Supervisionado I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo e contextualização da Educação Escolar Quilombola. Estudo do Projeto Político-Pedagógico da escola e da Educação Escolar Quilombola. Estágio de Observação."
+    },
+    {
+      "id": "LLV9054",
+      "code": "LLV9054",
+      "name": "Introdução à Linguísticas e suas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A disciplina oferece uma introdução aos principais conceitos e teorias da Linguística, explorando suas epistemologias e abordagens metodológicas. Serão discutidos temas como a natureza da linguagem, estrutura linguística, variação linguística, e as relações entre linguagem e sociedade"
+    },
+    {
+      "id": "MUS9001",
+      "code": "MUS9001",
+      "name": "Memória e Patrimônio Cultural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "epistemologias Memória Social, memória e identidade. Patrimônio histórico, artístico e cultural. Patrimônio material e imaterial. Memória e identidade negra e quilombola. Território e identidade. Inventário participativo e patrimônio negro. Museologia social e redes de memória."
+    },
+    {
+      "id": "ANT9016",
+      "code": "ANT9016",
+      "name": "Artes Visuais Afro brasileiras",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Imagens representativas no universo das artes plásticas que perfazem narrativas sobre identidades configuradas na atualidade como arte afro-brasileira. Modos diversos de abordagens de África em meios plásticos, caminhos e passagens do modernismo à contemporaneidade nas artes no Brasil. Arte experiência, reflexão e contestação, desde a percepção da plasticidade das culturas africanas, arte que busca dialogar, interferir, afirmar, conciliar ou contestar noções e definições de arte brasileira."
+    },
+    {
+      "id": "ANT9017",
+      "code": "ANT9017",
+      "name": "Etnodesenvolvimento e Etnossustentabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Recursos naturais. Racismo ambiental, monocultura e agrotóxico. Autonomias territoriais, gestão ambiental e políticas referidas a formas de uso e múltiplas territorialidades específicas. Política Nacional de Gestão Territorial e Etnodesenvolvimento e Gestão do Território. Território e conflitos socioambientais. Dimensão fundiária e territorial. Etnossustentabilidade. Racismo e antirracismo institucional sob a perspectiva dos conflitos socioambientais. Múltiplas territorialidades e especificas e coalizão desenvolvimentista objetivada em estratégias empresariais e políticas governamentais, apropriação e mercadorização Ambiental Quilombola (PNGTAQ) e organização social para a gestão territorial e ambiental."
+    },
+    {
+      "id": "ANT9018",
+      "code": "ANT9018",
+      "name": "História e Formação dos Quilombos no",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT9005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT9005"
+          },
+          {
+            "kind": "hours",
+            "hours": 9018
+          }
+        ]
+      },
+      "prerequisiteHours": 9018,
+      "syllabus": "A disciplina aborda os aspectos históricos, culturais, políticos e territoriais da formação quilombola em Santa Catarina e no Brasil, analisando suas origens, desenvolvimento e a resistência das comunidades quilombolas ao longo do tempo, as contribuições dos quilombos para a identidade nacional e a luta contínua pela igualdade e justiça social no Brasil. Quilombos rurais e urbanos."
+    },
+    {
+      "id": "ANT9019",
+      "code": "ANT9019",
+      "name": "Estudos de gênero, mulheres negras e interseccionalidades",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Brasil e em Santa Catarina Feminismo Negro. Feminismo afrodiaspórico. Agenciamentos sociopolíticos das mulheres. Aquilombamentos e agenciamentos femininos no interior do movimento étnico situado em um sistema de dominação. Mulheres Negras e Quilombolas. Resistências afrocentradas. Interrelações de gênero, raça/etnia e classe social como interseccionalidades."
+    },
+    {
+      "id": "EDC9004",
+      "code": "EDC9004",
+      "name": "Estágio Supervisionado II - Ciências",
+      "credits": 8,
+      "hours": 144,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EDC9003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EDC9003"
+      },
+      "syllabus": "Problematização, investigação e reflexão sobre a docência e práticas escolares no Ensino Fundamental e/ou no Médio e/ou na Modalidade EJA voltado para estudantes quilombolas. O planejamento, a observação e a regência nas áreas de Ciências Humanas e Sociais (História, Geografia, Sociologia e Filosofia)."
+    },
+    {
+      "id": "FIL9001",
+      "code": "FIL9001",
+      "name": "Filosofia e Epistemologias Africanas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Humanas e Sociais Aplicadas Conceituação de filosofias africanas e afrodiaspóricas, seus pontos de conexão e suas singularidades. O debate sobre etnofilosofia e literatura filosófica africana. Distinção entre estudos africanistas e estudos africanos. As filosofias africanas nas diferentes áreas da filosofia : ontologia, metafísica, ética, política, estética e epistemologias africanas. As ciências brasileiras e os estudos da diáspora africana: psiquiatria, antropologia, história e sociologia. Textos fundadores do africanismo brasileiro."
+    },
+    {
+      "id": "ANT9020",
+      "code": "ANT9020",
+      "name": "Trabalho de Conclusão de Curso",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Orientações gerais e necessárias que possibilitem a cada estudante elaborar projeto de TCC a partir das pesquisas de campo e os estágios supervisionados realizados no Tempo Comunidade."
+    },
+    {
+      "id": "ANT9021",
+      "code": "ANT9021",
+      "name": "Estudos pós-coloniais e contra-coloniais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Serão explorados os estudos pós-coloniais e contracoloniais como perspectivas teóricas e metodológicas para compreender as relações de poder, identidade e conhecimento na contemporaneidade. O discurso pós-colonial sobre identidade e diferença. Pós- colonialismo e opressões de raça, classe e gênero. A colonialidade do poder e a revisão do pós-colonialismo. A educação no contexto pós colonial."
+    },
+    {
+      "id": "ANT9022",
+      "code": "ANT9022",
+      "name": "Estudos de Família Quilombola e Parentesco",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudos de Família Quilombola e Parentesco"
+    },
+    {
+      "id": "ANT9023",
+      "code": "ANT9023",
+      "name": "Pensamento social afro-brasileiro: Intérpretes do Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Retrospectiva e tendências teóricas e temáticas do pensamento social afro-brasileiro dos estudos antropológicos, sociológicos e demais, situados no campo das Ciências Humanas que tratam da população negra no Brasil. Linhas interpretativas e os embates entre militância e academias científicas."
+    },
+    {
+      "id": "LLV9055",
+      "code": "LLV9055",
+      "name": "Falares e Línguas africanas no Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Busca-se explorar as relações entre língua e discurso, e língua e poder. Tais temas serão discutidos à luz de contextos africanos e brasileiro, em que a língua portuguesa, na sua relação com línguas africanas, desempenha um papel relevante e influente. Adota-se uma perspectiva crítica, que considera a língua como uma construção político-discursiva."
+    },
+    {
+      "id": "ANT9024",
+      "code": "ANT9024",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT9020"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT9020"
+      },
+      "syllabus": "Seminários temáticos e discussões teórico-metodológicas. Elaboração de um texto em formato de artigo científico como trabalho final de conclusão de curso levando em consideração as pesquisas do tempo comunidade e a prática docente dos estágios."
+    },
+    {
+      "id": "LLV9056",
+      "code": "LLV9056",
+      "name": "Estágio Supervisionado III- Linguagens e suas tecnologias",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EDC9003",
+        "EDC9004"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC9003"
+          },
+          {
+            "kind": "course",
+            "code": "EDC9004"
+          }
+        ]
+      },
+      "syllabus": "O estágio de docência e a formação de professores. Estudos conjunturais do campo de estágio: os anos finais do ensino fundamental, o ensino médio, a educação profissionalizante, a educação de jovens e adultos, as instâncias não formais de educação. Inserção no campo de estágio: observação analítica do espaço escolar e de fenômenos administrativos e pedagógicos, acompanhamento do trabalho docência, envolvimento nas atividades da comunidade escolar. Análise crítica das ações vivenciadas. Problematização, investigação e reflexão sobre a docência e práticas escolares no Ensino Fundamental e/ou no Médio e/ou na Modalidade EJA voltado para estudantes quilombolas. O planejamento, a observação e a regência na área de Linguagens (Língua Portuguesa e suas literaturas, Línguas Remanescentes e expressões artísticas e culturais da cultura quilombola) e suas tecnologias."
+    },
+    {
+      "id": "MEN9007",
+      "code": "MEN9007",
+      "name": "Estágio Supervisionado IV- Ciências da Natureza e Matemática",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EDC9003",
+        "EDC9004"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EDC9003"
+          },
+          {
+            "kind": "course",
+            "code": "EDC9004"
+          }
+        ]
+      },
+      "syllabus": "Planejamento e realização de proposta pedagógica em Ciências da Natureza e Matemática para os anos finais do ensino fundamental e /ou Ensino Médio e/ou EJA nas escolas quilombolas ou que em escolas que tenham estudantes quilombolas, sob a perspectiva curricular da abordagem temática na Educação quilombola."
+    },
+    {
+      "id": "ANT9025",
+      "code": "ANT9025",
+      "name": "Atividades Complementares",
+      "credits": 9,
+      "hours": 162,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades Complementares"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ANT9001",
+      "ANT9002",
+      "EED9001",
+      "LLV9050",
+      "MEN9001",
+      "MEN9002",
+      "MEN9003",
+      "ANT9003",
+      "ANT9005",
+      "ANT9006",
+      "ANT9007",
+      "GCN9001",
+      "LLV9051",
+      "MEN9004",
+      "ANT9008",
+      "ANT9009",
+      "EDC9001",
+      "EED9002",
+      "HST9001",
+      "LSB9244",
+      "PSI9001",
+      "ANT9010",
+      "ANT9011",
+      "EDC9002",
+      "EED9007",
+      "LLV9053",
+      "MEN9005",
+      "MEN9006",
+      "ANT9012",
+      "ANT9013",
+      "ANT9014",
+      "EDC9003",
+      "LLV9054",
+      "MUS9001",
+      "ANT9016",
+      "ANT9018",
+      "ANT9019",
+      "EDC9004",
+      "FIL9001",
+      "ANT9020",
+      "ANT9022",
+      "ANT9023",
+      "LLV9055",
+      "ANT9024",
+      "LLV9056",
+      "MEN9007",
+      "ANT9025"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 360,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ANT9004",
+              "LLV9052",
+              "ANT9015",
+              "ANT9017",
+              "ANT9021"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "717",
+    "curriculumCode": "20251",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=717&curriculo=20251",
+    "sha256": "320c897418a9d1b6fd8a020b6b20493a28b90ec1d26feff986ca005d04ad1288",
+    "capturedAt": "2026-09-22"
+  }
+}

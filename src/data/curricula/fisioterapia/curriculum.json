@@ -1,0 +1,3111 @@
+{
+  "program": "FISIOTERAPIA [Campus Araranguá]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2016.1",
+  "totalHours": 4824,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "DFT1100",
+      "code": "DFT1100",
+      "name": "Anatomia I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7417",
+        "DCS7417"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7417"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7417"
+          }
+        ]
+      },
+      "syllabus": "Estudo da anatomia: conceitos, histórico, métodos de estudo, planos e eixos de construção do corpo humano. Estudo de identificação teórico-prática dos órgãos que constituem os sistemas orgânicos macroscópicos: ósseo, articular e muscular. Relação das estruturas anatômicas, sua localização e a prática profissional do fisioterapeuta."
+    },
+    {
+      "id": "DFT1101",
+      "code": "DFT1101",
+      "name": "Biologia Celular e Molecular",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7412",
+        "DCS7412"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7412"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7412"
+          }
+        ]
+      },
+      "syllabus": "Estudo de modelos celulares, composição química da célula e ciclo celular. Interações da célula como unidade fundamental do ser vivo, mecanismo de produção e utilização de energia e processo de armazenamento da informação genética."
+    },
+    {
+      "id": "DFT1102",
+      "code": "DFT1102",
+      "name": "Biossegurança",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7406",
+        "DCS7406"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7406"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7406"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Biossegurança e Bioproteção. Noções de segurança química e biológica em laboratório. Conduta em laboratório. Proteção (individual e coletiva) e prevenção de acidentes. Manuseio, armazenamento e descarte de agentes químicos e biológicos potencialmente patogênicos. Impacto ambiental. Normas de segurança em áreas de manipulação de materiais contagiosos, químicos e radioativos."
+    },
+    {
+      "id": "DFT1103",
+      "code": "DFT1103",
+      "name": "Introdução à Fisioterapia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7418",
+        "DCS7418"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7418"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7418"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos históricos, teóricos e metodológicos da fisioterapia. Definição do perfil profissional do fisioterapeuta, suas áreas de atuação e integração nas áreas de saúde. Atuação enquanto membro de uma equipe multiprofissional, em todos os níveis de atenção à saúde. Graduação e pós-graduação em fisioterapia."
+    },
+    {
+      "id": "DFT1104",
+      "code": "DFT1104",
+      "name": "Genética",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7416",
+        "DCS7416"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7416"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7416"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos da genética molecular. O dogma central da biologia molecular (Replicação, transcrição e tradução). Erros Inatos do Metabolismo ou Mutações: sua origem e efeitos sobre o ser vivo e população. Os cromossomos e o material genético. Multiplicação celular e mitose, gametogênese e meiose. Herança mendeliana e interações gênicas. Interação com o meio ambiente (Fenótipo = Genótipo + Meio Ambiente). Fatores que influência nos padrões mendelianos. Herança citoplasmática e efeitos do genitor de origem. Citogenética e alterações cromossômicas numéricas e estruturais. Padrões de herança complexa. Genética de Populações. Tópicos Especiais. A base bioquímica e molecular das doenças genéticas. Farmacogenética e princípios de Genética Clínica. O mapa do genoma humano."
+    },
+    {
+      "id": "DFT1105",
+      "code": "DFT1105",
+      "name": "Saúde Coletiva I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7405",
+        "DCS7405"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7405"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7405"
+          }
+        ]
+      },
+      "syllabus": "Processo Saúde-doença. A Saúde Pública no Brasil: histórico, políticas públicas, implicações e intersetorialidade. Organização dos Serviços de Saúde no Brasil. Sistema Único de Saúde (SUS): princípios, diretrizes e desenvolvimento. Níveis de Atenção em Saúde. Atenção Primária em Saúde: promoção, proteção e recuperação da saúde."
+    },
+    {
+      "id": "FQM7414",
+      "code": "FQM7414",
+      "name": "Biofísica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7414"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7414"
+      },
+      "syllabus": "Biomecânica, funcionamento dos músculos, músculos como motores elétricos. Bioenergia, energia cinética, energia potencial, energia nos sistemas biológicos. Conceitos de campo elétrico e campo magnético, ondas eletromagnéticas, interações de campo com a matéria, biomagnetismo. Origens, tipos e efeitos biológicos das radiações. Utilização das radiações na saúde. Ondas mecânicas, ondas sonoras. Mecânica de fluídos e biofísica da água."
+    },
+    {
+      "id": "DFT1200",
+      "code": "DFT1200",
+      "name": "Anatomia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1100"
+      ],
+      "equivalents": [
+        "ARA7427",
+        "DCS7427"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1100"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7427"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7427"
+          }
+        ]
+      },
+      "syllabus": "Estudo de identificação teórico-prática dos órgãos que constituem os sistemas orgânicos macroscópicos: cardiovascular, respiratório, digestório, endócrino, genital, urinário e tegumentar. Relação das estruturas anatômicas, sua localização e a prática profissional do fisioterapeuta."
+    },
+    {
+      "id": "DFT1201",
+      "code": "DFT1201",
+      "name": "Saúde Coletiva II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1105"
+      ],
+      "equivalents": [
+        "ARA7429",
+        "DCS7429"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1105"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7429"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7429"
+          }
+        ]
+      },
+      "syllabus": "Bases conceituais, história e usos da epidemiologia. Epidemiologia Descritiva. Distribuição das doenças relativa à pessoa, lugar e tempo. Medidas de ocorrência de doenças. Medidas de morbidade e mortalidade. Indicadores de Saúde e Sistemas de Informação em Saúde. Vigilância em Saúde. Delineamento da pesquisa epidemiológica."
+    },
+    {
+      "id": "DFT1202",
+      "code": "DFT1202",
+      "name": "Fisioterapia Preventiva",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1105"
+      ],
+      "equivalents": [
+        "ARA7439",
+        "DCS7439"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1105"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7439"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7439"
+          }
+        ]
+      },
+      "syllabus": "Planejamento de ações preventivas e de promoção da saúde em diferentes populações: saúde da mulher, saúde da criança, saúde do adolescente, saúde do adulto, saúde do idoso, saúde do trabalhador e saúde de pessoas com necessidades especiais. Prevenção de acidentes. Inserção da fisioterapia nesse contexto."
+    },
+    {
+      "id": "DFT1203",
+      "code": "DFT1203",
+      "name": "Histologia e Embriologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7426",
+        "DCS7426"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1203
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7426"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7426"
+          }
+        ]
+      },
+      "prerequisiteHours": 1203,
+      "syllabus": "Introdução a Histologia e Embriologia. Histologia dos tecidos: tecido epitelial, conjuntivo, muscular e nervoso. Histologia dos sistemas: Sistemas circulatório, linfático, digestivo, respiratório, urinário e tegumentar. Desenvolvimento do embrião, do feto, dos anexos embrionários e da placenta."
+    },
+    {
+      "id": "DFT1204",
+      "code": "DFT1204",
+      "name": "Neurofisiologia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7408",
+        "DCS7408"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7408"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7408"
+          }
+        ]
+      },
+      "syllabus": "Estrutura e função do sistema nervoso, somático e autonômico. Componentes celulares, organização anatomomorfofuncional do Sistema Nervoso, sinalização celular, potenciais de membrana de repouso e ação, transmissão sináptica, neurotransmissores. Contração muscular, controle do movimento espinhal e controle superior do movimento."
+    },
+    {
+      "id": "FQM7420",
+      "code": "FQM7420",
+      "name": "Bioquímica Básica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7420"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7420"
+      },
+      "syllabus": "Metabolismo celular, aspectos bioquímicos necessários à compreensão do funcionamento normal dos diferentes tecidos, órgãos e sistemas correlacionados com aspectos clínicos. Biomoléculas. Bases biomoleculares, bioenergéticas e metabólicas do funcionamento orgânico. Princípios de regulação do metabolismo. Cinética enzimática, organização bioquímica da célula e processos de transporte. Química e metabolismo dos carboidratos, lipídeos, aminoácidos, nucleotídeos e das proteínas."
+    },
+    {
+      "id": "DFT1300",
+      "code": "DFT1300",
+      "name": "Bioética",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7415",
+        "DCS7415"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7415"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7415"
+          }
+        ]
+      },
+      "syllabus": "Estudo das interrelações existentes entre ética, moral e direito. Caracterização da bioética como ética inserida na prática. Comparação entre os diferentes modelos explicativos utilizados na bioética. Reflexão sobre os aspectos éticos envolvidos nas questões relativas à privacidade e confidencialidade, problemas de início e final da vida, alocação de recursos escassos, respeito à pessoa e tomada de decisão e pesquisa."
+    },
+    {
+      "id": "DFT1301",
+      "code": "DFT1301",
+      "name": "Cinesiologia I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1200"
+      ],
+      "equivalents": [
+        "ARA7409",
+        "DCS7409"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1200"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7409"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7409"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Cinesiologia. As bases biomecânicas do movimento humano: cinemática e cinética. A relação entre as propriedades fisiológicas e cinesiológicas do sistema musculoesquelético para o movimento humano. Estudo do movimento humano: a postura, a marcha, a corrida e o salto."
+    },
+    {
+      "id": "DFT1302",
+      "code": "DFT1302",
+      "name": "Fisiologia Humana",
+      "credits": 5,
+      "hours": 90,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1200",
+        "DFT1204"
+      ],
+      "equivalents": [
+        "ARA7428",
+        "ARA8000",
+        "DCS7428",
+        "DCS8000"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1200"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1204"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7428"
+          },
+          {
+            "kind": "course",
+            "code": "ARA8000"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7428"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8000"
+          }
+        ]
+      },
+      "syllabus": "Fisiologia dos sistemas cardiovascular, renal, respiratório, digestório, endócrino e reprodutor. Estabelecer relações e/ou integração entre os sistemas fisiológicos."
+    },
+    {
+      "id": "DFT1303",
+      "code": "DFT1303",
+      "name": "Imunologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7420"
+      ],
+      "equivalents": [
+        "ARA7433",
+        "DCS7433"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7420"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7433"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7433"
+          }
+        ]
+      },
+      "syllabus": "Estudo dos mecanismos de defesa gerais e específicos do hospedeiro nas inter-relações com o parasito. Células responsáveis pela resposta imune inata e adaptativa. Funções do sistema imune."
+    },
+    {
+      "id": "DFT1304",
+      "code": "DFT1304",
+      "name": "Patologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1101"
+      ],
+      "equivalents": [
+        "ARA7407",
+        "DCS7407"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1101"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7407"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7407"
+          }
+        ]
+      },
+      "syllabus": "Edema. Hemorragias. Neoplasia. Líquido cefalorraquidiano. Líquidos cavitários. Líquido sinovial. Outros líquidos biológicos. Doenças infecciosas e parasitárias. Inflamação. Cicatrização e Reparo Tecidual. Doenças dos sistemas musculo-cardiovascular, respiratório e endócrino. Exames clínicos como diagnóstico."
+    },
+    {
+      "id": "DFT1305",
+      "code": "DFT1305",
+      "name": "Psicologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS7443",
+        "DCS7490"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCS7443"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7490"
+          }
+        ]
+      },
+      "syllabus": "Psicologia da saúde e diversidade; Saúde mental coletiva; Clínica ampliada; Ferramentas e gestão do cuidado; Abordagem e trabalho interdisciplinar e multiprofissional. Relação terapeuta-paciente."
+    },
+    {
+      "id": "DFT1400",
+      "code": "DFT1400",
+      "name": "Bases, Métodos e Técnicas de Avaliação",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1200"
+      ],
+      "equivalents": [
+        "ARA7404",
+        "DCS7404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1200"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7404"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7404"
+          }
+        ]
+      },
+      "syllabus": "Avaliação do movimento humano normal: avaliação funcional, envolvendo técnicas de avaliação de amplitude de movimento, movimento articular, força muscular, contratura, flexibilidade e circunferência. Noções de anatomia palpatória."
+    },
+    {
+      "id": "DFT1401",
+      "code": "DFT1401",
+      "name": "Cinesiologia II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1301"
+      ],
+      "equivalents": [
+        "ARA7419",
+        "DCS7419"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1301"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7419"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7419"
+          }
+        ]
+      },
+      "syllabus": "Aprofundamento da Cinesiologia articular e muscular dos apêndices e membros. Cinesiologia articular e muscular dos complexos articulares dos membros superiores e inferiores. O papel do sistema musculoesquelético na marcha."
+    },
+    {
+      "id": "DFT1402",
+      "code": "DFT1402",
+      "name": "Desenvolvimento Humano",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1203",
+        "DFT1302"
+      ],
+      "equivalents": [
+        "ARA7449",
+        "DCS7449"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1203"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1302"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7449"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7449"
+          }
+        ]
+      },
+      "syllabus": "Teorias, concepções e aspectos do desenvolvimento humano direcionados ao ciclo de vida. Estudo do desenvolvimento psicomotor típico ao longo da infância: processos motores, sensoriais, cognitivos, afetivos, linguísticos e sociais. Desenvolvimento atípico e a prática fisioterapêutica."
+    },
+    {
+      "id": "DFT1403",
+      "code": "DFT1403",
+      "name": "Farmacologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1303"
+      ],
+      "equivalents": [
+        "ARA7478",
+        "DCS7478"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1303"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7478"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7478"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Farmacologia. Conceitos básicos de Farmacocinética e Farmacodinâmica. Antiinflamatórios Não-esteróides e Esteroidais. Farmacologia da dor. Fármacos que atuam no Sistema Cardiovascular, Digestivo, Renal, Pulmonar, Sistema Nervoso Autônomo (SNA). Farmacologia do Diabetes e das Dislipidemias. Antidepressivos, ansiolíticos, anticonvulsivantes e antipsicóticos. Farmacologia dos Quimioterápicos e das Doenças Neurodegenerativas."
+    },
+    {
+      "id": "DFT1404",
+      "code": "DFT1404",
+      "name": "Legislação Profissional e Administração",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1103"
+      ],
+      "equivalents": [
+        "ARA7403",
+        "DCS7403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1103"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7403"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7403"
+          }
+        ]
+      },
+      "syllabus": "Aspectos éticos, morais e legais da profissão e da legislação profissional. Responsabilidade civil e penal do fisioterapeuta frente à imperícia, imprudência e negligência. Relação do fisioterapeuta com o paciente e as instituições de saúde. Conselhos Federal e Regionais de Fisioterapia e Terapia Ocupacional. Administração aplicada à fisioterapia: princípios e instrumentos básicos. Técnicas específicas de planejamento, organização e administração de serviços. Montagem do serviço: aspecto físico, equipamentos, biossegurança, espaço terapêutico e suas considerações técnicas."
+    },
+    {
+      "id": "DFT1405",
+      "code": "DFT1405",
+      "name": "Metodologia de Pesquisa",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1201"
+      ],
+      "equivalents": [
+        "ARA7437",
+        "DCS7437"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1201"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7437"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7437"
+          }
+        ]
+      },
+      "syllabus": "Características do conhecimento científico. Tipos de conhecimento. Método científico. Teoria. Conceito e Constructo. Pergunta científica. Definição do problema. Hipóteses. Variáveis. Tipos de delineamento de pesquisa (tipos de estudo). Validade e Reprodutibilidade. Busca em bancos de dados. Elaboração do projeto de pesquisa. Plataforma Brasil. Normas da ABNT."
+    },
+    {
+      "id": "DFT1500",
+      "code": "DFT1500",
+      "name": "Cinesioterapia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1400",
+        "DFT1401"
+      ],
+      "equivalents": [
+        "ARA7458",
+        "DCS7458"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1400"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1401"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7458"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7458"
+          }
+        ]
+      },
+      "syllabus": "Noções de mecanoterapia. Definição, classificação, princípios e técnicas de aplicação, com respectivos efeitos fisiológicos e terapêuticos dos exercícios passivo, ativo livre, ativo assistido, alongamentos, propriocepção e fortalecimento."
+    },
+    {
+      "id": "DFT1501",
+      "code": "DFT1501",
+      "name": "Biologia Integrativa do Exercício",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1302"
+      ],
+      "equivalents": [
+        "ARA7496",
+        "DCS7496"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1302"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7496"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7496"
+          }
+        ]
+      },
+      "syllabus": "Introdução à fisiologia do exercício. As respostas moleculares e fisiológicas ao exercício agudo e ao treinamento físico: os mecanismos da excitação- contração e excitação-transcrição. O papel dos metabolismos energéticos aeróbio-anaeróbio para a realização do exercício físico. Exercício, estresse térmico e termoregulação. Aplicação do exercício físico para populações especiais."
+    },
+    {
+      "id": "DFT1502",
+      "code": "DFT1502",
+      "name": "Agentes Eletrofísicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1302",
+        "DFT1304"
+      ],
+      "equivalents": [
+        "ARA7438",
+        "ARA8001",
+        "DCS7438",
+        "DCS8001"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1302"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1304"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7438"
+          },
+          {
+            "kind": "course",
+            "code": "ARA8001"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7438"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8001"
+          }
+        ]
+      },
+      "syllabus": "Efeitos físicos, fisiológicos e terapêuticos, métodos de aplicação, indicações e contraindicações dos recursos eletrotermofototerapêuticos."
+    },
+    {
+      "id": "DFT1503",
+      "code": "DFT1503",
+      "name": "Imagenologia Aplicada à Fisioterapia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1302",
+        "FQM7414"
+      ],
+      "equivalents": [
+        "ARA7468",
+        "DCS7468"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1302"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7414"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7468"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7468"
+          }
+        ]
+      },
+      "syllabus": "Apresentação dos exames de imagem e indicações relacionadas a doenças frequentes da prática fisioterapêutica: abordagem de imagens musculoesqueléticas, cardiorrespiratórias e neurológicas."
+    },
+    {
+      "id": "DFT1504",
+      "code": "DFT1504",
+      "name": "Prótese e Órtese",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1401"
+      ],
+      "equivalents": [
+        "ARA7466",
+        "ARA8003",
+        "DCS7466",
+        "DCS8003"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1401"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7466"
+          },
+          {
+            "kind": "course",
+            "code": "ARA8003"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7466"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8003"
+          }
+        ]
+      },
+      "syllabus": "Estudo dos fundamentos da utilização das próteses e órteses e suas indicações, tratamento global pré e pós protetização e ortetização. Aspectos gerais das principais órteses e próteses, suas indicações, confecção e materiais empregados, nas diversas áreas de conhecimento da fisioterapia."
+    },
+    {
+      "id": "DFT1505",
+      "code": "DFT1505",
+      "name": "Recursos Terapêuticos Manuais e Fisiterapia Aquática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1401"
+      ],
+      "equivalents": [
+        "ARA7448",
+        "ARA8002",
+        "DCS7448",
+        "DCS8002"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1401"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7448"
+          },
+          {
+            "kind": "course",
+            "code": "ARA8002"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7448"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8002"
+          }
+        ]
+      },
+      "syllabus": "Estudo dos princípios fisiológicos e biofísicos dos recursos terapêuticos manuais: massoterapia, mobilizações, trações, manipulações articulares e outras modalidades de terapia manual. Fisioterapia aquática: métodos de aplicação, indicações e contraindicações."
+    },
+    {
+      "id": "DFT1600",
+      "code": "DFT1600",
+      "name": "Fisioterapia em Ginecologia, Obstetrícia e Urologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1502"
+      ],
+      "equivalents": [
+        "ARA7494",
+        "ARA8004",
+        "DCS7494",
+        "DCS8004"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1502"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7494"
+          },
+          {
+            "kind": "course",
+            "code": "ARA8004"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7494"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8004"
+          }
+        ]
+      },
+      "syllabus": "Fisioterapia nos distúrbios uroginecológicos: avaliação e tratamento. Fisioterapia obstétrica: intervenção precoce no preparo do parto e recuperação pós-natal. Abordagem fisioterapêutica em mastologia."
+    },
+    {
+      "id": "DFT1601",
+      "code": "DFT1601",
+      "name": "Fisioterapia Dermatofuncional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1302",
+        "DFT1502"
+      ],
+      "equivalents": [
+        "ARA8005",
+        "DCS8005"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1302"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1502"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA8005"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8005"
+          }
+        ]
+      },
+      "syllabus": "Revisão da morfofisiologia da pele e de seus anexos, alterações dermatológicas e estéticas: flacidez, rugas, edemas, quelóides, queimaduras e cirurgias reparadoras. Avaliação e tratamento fisioterapêutico."
+    },
+    {
+      "id": "DFT1602",
+      "code": "DFT1602",
+      "name": "Fisioterapia em Neurologia I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1302"
+      ],
+      "equivalents": [
+        "ARA7485",
+        "DCS7485"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1302"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7485"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7485"
+          }
+        ]
+      },
+      "syllabus": "Teorias do controle motor. Avaliação neurológica. Síndromes motoras (síndrome do neurônio motor superior e inferior); alterações em tônus muscular; desordens do movimento; síndromes sensitivas; neuropatias periféricas. Adaptações em outros sistemas corporais decorrentes de alterações neurológicas."
+    },
+    {
+      "id": "DFT1603",
+      "code": "DFT1603",
+      "name": "Fisioterapia em Pediatria I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1402"
+      ],
+      "equivalents": [
+        "ARA7469",
+        "ARA7480",
+        "DCS7469",
+        "DCS7480"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1402"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7469"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7480"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7469"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7480"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Fisioterapia Pediátrica: atenção à saúde nos diferentes níveis de complexidade do cuidado. Abordagem das características anatômicas, fisiológicas, fisiopatológicas e avaliação do sistema musculoesquelético e cardiorrespiratório de acordo com a faixa etária. Estudo das principais doenças ortopédicas, respiratórias e cardíacas em neonatologia e pediatria e a atuação da fisioterapia infantil nos três níveis de atenção à saúde, com foco na atuação ambulatorial e hospitalar nos setores de terapia intensiva, enfermaria e pronto atendimento."
+    },
+    {
+      "id": "DFT1604",
+      "code": "DFT1604",
+      "name": "Fisioterapia em Reumatologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1303"
+      ],
+      "equivalents": [
+        "ARA7459",
+        "DCS7459"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1303"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7459"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7459"
+          }
+        ]
+      },
+      "syllabus": "Etiologia, semiologia, patogênese, diagnóstico, avaliação dos exames complementares, tratamento clínico e evolução das doenças reumatológicas. Avaliação e tratamento fisioterápico nas doenças reumatológicas."
+    },
+    {
+      "id": "DFT1700",
+      "code": "DFT1700",
+      "name": "Fisioterapia em Cardiologia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1302",
+        "DFT1403"
+      ],
+      "equivalents": [
+        "ARA7461",
+        "DCS7461"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1302"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1403"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7461"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7461"
+          }
+        ]
+      },
+      "syllabus": "Revisão da anatomia e fisiologia do sistema cardiovascular. Semiologia Cardiovascular. Doenças do sistema cardiovascular e seus fatores de risco: Avaliação e condutas terapêuticas."
+    },
+    {
+      "id": "DFT1701",
+      "code": "DFT1701",
+      "name": "Fisioterapia em Neurologia II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1602"
+      ],
+      "equivalents": [
+        "ARA7487",
+        "DCS7487"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1602"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7487"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7487"
+          }
+        ]
+      },
+      "syllabus": "Principais condições patológicas traumáticas, desmielinizantes, degenerativas e vasculares na neurologia relevantes no contexto da reabilitação. Embasamento teórico/prático sobre técnicas de abordagem fisioterapêutica nas condições neurológicas em suas diferentes fases de evolução."
+    },
+    {
+      "id": "DFT1702",
+      "code": "DFT1702",
+      "name": "Fisioterapia em Pedriatria II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1603"
+      ],
+      "equivalents": [
+        "ARA7479",
+        "DCS7479"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1603"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7479"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7479"
+          }
+        ]
+      },
+      "syllabus": "Etiopatogenia, fisiopatologia, avaliação e diagnóstico fisioterapêutico das disfunções neuromotoras em crianças. Tratamento, prognóstico e prevenção de distúrbios em crianças com doenças congênitas e/ou adquiridas com repercussão motora, funcional e suas deficiências, limitações e 93 restrições sociais. Tratamento fisioterapêutico nas doenças neurológicas pediátricas e abordagens contemporâneas."
+    },
+    {
+      "id": "DFT1703",
+      "code": "DFT1703",
+      "name": "Fisioterapia Aplicada às Disfunções",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1302"
+      ],
+      "equivalents": [
+        "ARA7486"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1302"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7486"
+      },
+      "syllabus": "Fisiopatologia do sistema respiratório. Avaliação em fisioterapia respiratória ambulatorial e hospitalar. Recursos manuais e instrumentais em fisioterapia respiratória. Prática de avaliação e técnicas e recursos instrumentais. Aerossolterapia. Reabilitação pulmonar."
+    },
+    {
+      "id": "DFT1704",
+      "code": "DFT1704",
+      "name": "Fisioterapia em Traumato-Ortopedia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1500",
+        "DFT1502",
+        "DFT1505"
+      ],
+      "equivalents": [
+        "ARA7464",
+        "DCS7464"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1500"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1502"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1505"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7464"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7464"
+          }
+        ]
+      },
+      "syllabus": "Respeitórias ARA8006 ou DFT1403) Lesões traumáticas do aparelho locomotor, inter-relação com a anatomia, biomecânica, fisiologia articular e fisiopatologia. Abordagem fisioterapêutica: prevenção, avaliação, tratamento e reabilitação."
+    },
+    {
+      "id": "DFT1800",
+      "code": "DFT1800",
+      "name": "Fisioterapia na Pessoa Idosa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1500",
+        "DFT1502"
+      ],
+      "equivalents": [
+        "ARA7457",
+        "DCS7457"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1500"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1502"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7457"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7457"
+          }
+        ]
+      },
+      "syllabus": "Estudo das alterações fisiológicas ocasionadas pelo envelhecimento e suas manifestações nos órgãos e sistemas. Principais doenças que acometem os idosos: método, técnicas e recursos fisioterapêuticos empregados no tratamento."
+    },
+    {
+      "id": "DFT1801",
+      "code": "DFT1801",
+      "name": "Fisioterapia Aplicada às Disfunções",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1501"
+      ],
+      "equivalents": [
+        "ARA7489"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1501"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7489"
+      },
+      "syllabus": "Principais métodos diagnósticos em cardiologia. Fisioterapia aplicada às disfunções cardiovasculares: avaliação, condutas, técnicas e reabilitação cardíaca."
+    },
+    {
+      "id": "DFT1802",
+      "code": "DFT1802",
+      "name": "Fisioterapia Hospitalar na Saúde do Adulto",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1703"
+      ],
+      "equivalents": [
+        "ARA7488",
+        "ARA8007",
+        "DCS7488",
+        "DCS8007"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1703"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7488"
+          },
+          {
+            "kind": "course",
+            "code": "ARA8007"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7488"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8007"
+          }
+        ]
+      },
+      "syllabus": "Cardiovasculares ARA8008 ou DFT1700) Avaliação em terapia intensiva: distúrbios da oxigenação arterial e tissular, ventilação alveolar, equilíbrio ácido-básico e gasometria arterial. Aspectos clínicos do paciente crítico e exames laboratoriais. Monitorização respiratória: clínica, das trocas gasosas e da mecânica ventilatória. Via aérea artificial. Ventilação mecânica invasiva e não invasiva: modos ventilatórios básicos e avançados. Desmame e extubação. Métodos e técnicas de tratamento fisioterápico em terapia intensiva."
+    },
+    {
+      "id": "DFT1803",
+      "code": "DFT1803",
+      "name": "Fisioterapia em Traumo-Ortopedia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1704"
+      ],
+      "equivalents": [
+        "ARA7488",
+        "ARA8007",
+        "DCS7488",
+        "DCS8007"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1704"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7488"
+          },
+          {
+            "kind": "course",
+            "code": "ARA8007"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7488"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8007"
+          }
+        ]
+      },
+      "syllabus": "Doenças ortopédicas, inter-relação com a anatomia, biomecânica, fisiologia articular e fisiopatologia. Pediatria ortopédica. Abordagem fisioterapêutica: prevenção, avaliação, tratamento e reabilitação."
+    },
+    {
+      "id": "DFT1804",
+      "code": "DFT1804",
+      "name": "Estágio de Observação Clínica",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1102",
+        "DFT1104",
+        "DFT1201",
+        "DFT1202",
+        "DFT1300",
+        "DFT1305",
+        "DFT1404",
+        "DFT1405",
+        "DFT1501",
+        "DFT1504",
+        "DFT1600",
+        "DFT1601",
+        "DFT1604",
+        "DFT1700",
+        "DFT1701",
+        "DFT1702",
+        "DFT1703",
+        "DFT1704"
+      ],
+      "equivalents": [
+        "ARA8010",
+        "DCS8010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1102"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1104"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1201"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1202"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1300"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1305"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1404"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1405"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1501"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1504"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1600"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1601"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1604"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1700"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1701"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1702"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1703"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1704"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA8010"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8010"
+          }
+        ]
+      },
+      "syllabus": "Observação de atendimentos fisioterapêuticos realizados nas diferentes áreas de conhecimento: saúde coletiva/saúde da mulher, atenção a pessoa com necessidades especiais, traumato-ortopedia/reumatologia, geriatria/gerontologia, pediatria, cardiologia, pneumologia e neurologia."
+    },
+    {
+      "id": "DFT1900",
+      "code": "DFT1900",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1201",
+        "DFT1300",
+        "DFT1405"
+      ],
+      "equivalents": [
+        "ARA7481",
+        "ARA7821",
+        "DCS7481",
+        "DCS7821"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1201"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1300"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1405"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7481"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7821"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7481"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7821"
+          }
+        ]
+      },
+      "syllabus": "Elaboração, desenvolvimento e apresentação de um projeto de pesquisa ou artigo científico."
+    },
+    {
+      "id": "DFT1901",
+      "code": "DFT1901",
+      "name": "Estágio Supervisionado em Fisioterapia em Traumatologia, Ortopedia e Reumatologia",
+      "credits": 25,
+      "hours": 100,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1800",
+        "DFT1801",
+        "DFT1802",
+        "DFT1803",
+        "DFT1804"
+      ],
+      "equivalents": [
+        "ARA8012",
+        "DCS8012"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1800"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1801"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1802"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1803"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1804"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA8012"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8012"
+          }
+        ]
+      },
+      "syllabus": "Avaliação, planejamento e execução da assistência fisioterapêutica voltada ao paciente com disfunções traumatológicas, ortopédicas e reumatológicas. Conhecimento e vivência no contexto ambulatorial, integrando o fisioterapeuta à equipe multiprofissional."
+    },
+    {
+      "id": "DFT1902",
+      "code": "DFT1902",
+      "name": "Estágio Supervisionado em Fisioterapia em Pessoas com Deficiência (PCD)",
+      "credits": 25,
+      "hours": 100,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1800",
+        "DFT1801",
+        "DFT1802",
+        "DFT1803",
+        "DFT1804"
+      ],
+      "equivalents": [
+        "ARA8013",
+        "DCS8013"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1800"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1801"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1802"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1803"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1804"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA8013"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8013"
+          }
+        ]
+      },
+      "syllabus": "Avaliação, planejamento e execução da assistência fisioterapêutica voltada à criança, ao adolescente e ao adulto com deficiência múltipla. Conhecimento e vivência em diferentes ambientes de atuação, integrando o fisioterapeuta à equipe multiprofissional."
+    },
+    {
+      "id": "DFT1903",
+      "code": "DFT1903",
+      "name": "Estágio Supervisionado em Fisioterapia em Saúde Coletiva e Saúde da Mulher",
+      "credits": 25,
+      "hours": 100,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1800",
+        "DFT1801",
+        "DFT1802",
+        "DFT1803",
+        "DFT1804"
+      ],
+      "equivalents": [
+        "ARA8014",
+        "DCS8014"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1800"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1801"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1802"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1803"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1804"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA8014"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8014"
+          }
+        ]
+      },
+      "syllabus": "Avaliação, planejamento e execução da assistência fisioterapêutica em saúde coletiva e saúde da mulher. Conhecimento e vivência nas Unidades Básicas de Saúde e atuação na equipe de saúde, integrando o fisioterapeuta à equipe multiprofissional."
+    },
+    {
+      "id": "DFT1904",
+      "code": "DFT1904",
+      "name": "Estágio Supervisionado em Fisioterapia na",
+      "credits": 25,
+      "hours": 100,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1800"
+      ],
+      "equivalents": [
+        "ARA8015"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1800"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA8015"
+      },
+      "syllabus": "Avaliação, planejamento e execução da assistência fisioterapêutica voltada ao idoso. Conhecimento e vivência em diferentes ambientes de atuação, integrando o fisioterapeuta à equipe multiprofissional."
+    },
+    {
+      "id": "DFT1905",
+      "code": "DFT1905",
+      "name": "Introdução ao Estágio I",
+      "credits": 1,
+      "hours": 14,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1800",
+        "DFT1801",
+        "DFT1802",
+        "DFT1803",
+        "DFT1804"
+      ],
+      "equivalents": [
+        "ARA7811",
+        "ARA8011",
+        "DCS7811",
+        "DCS8011"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1800"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1801"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1802"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1803"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1804"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7811"
+          },
+          {
+            "kind": "course",
+            "code": "ARA8011"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7811"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8011"
+          }
+        ]
+      },
+      "syllabus": "Pessoa Idosa DCS8015) DFT1801 eh Introdução ao estágio. Apresentação do regimento do estágio. Reconhecimento das instalações, das normas e das rotinas de cada local. Conceitos importantes da prática clínica fisioterapêutica nas áreas de saúde coletiva/saúde da mulher, atenção a pessoa com necessidades especiais, traumato-ortopedia/reumatologia e geriatria/gerontologia."
+    },
+    {
+      "id": "DFT1000",
+      "code": "DFT1000",
+      "name": "Estágio Supervisionado em Fisioterapia em Neurologia",
+      "credits": 30,
+      "hours": 120,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1900",
+        "DFT1901",
+        "DFT1902",
+        "DFT1903",
+        "DFT1904"
+      ],
+      "equivalents": [
+        "ARA7905",
+        "ARA8019",
+        "DCS7905",
+        "DCS8019"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1900"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1901"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1902"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1903"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1904"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7905"
+          },
+          {
+            "kind": "course",
+            "code": "ARA8019"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7905"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8019"
+          }
+        ]
+      },
+      "syllabus": "Avaliação, planejamento e execução da assistência fisioterapêutica voltada ao paciente com disfunções neurológicas. Conhecimento e vivência no contexto ambulatorial, integrando o fisioterapeuta à equipe multiprofissional."
+    },
+    {
+      "id": "DFT1001",
+      "code": "DFT1001",
+      "name": "Estágio Supervisionado em Fisioterapia",
+      "credits": 30,
+      "hours": 120,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1900"
+      ],
+      "equivalents": [
+        "ARA7904"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1900"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7904"
+      },
+      "syllabus": "Avaliação, planejamento e execução da assistência fisioterapêutica voltada ao paciente com disfunções cardiorrespiratórias em nível hospitalar. Conhecimento e vivência no contexto hospitalar, integrando o fisioterapeuta à equipe multiprofissional."
+    },
+    {
+      "id": "DFT1002",
+      "code": "DFT1002",
+      "name": "Estágio Supervisionado em Fisioterapia",
+      "credits": 30,
+      "hours": 120,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1900"
+      ],
+      "equivalents": [
+        "ARA7903"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1900"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7903"
+      },
+      "syllabus": "Hospitalar ARA8017 ou DFT1901 eh Avaliação, planejamento e execução da assistência fisioterapêutica voltada à criança. Conhecimento e vivência no contexto ambulatorial e hospitalar, integrando o fisioterapeuta à equipe multiprofissional."
+    },
+    {
+      "id": "DFT1003",
+      "code": "DFT1003",
+      "name": "Estágio Supervisionado em Fisioterapia",
+      "credits": 30,
+      "hours": 120,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1900"
+      ],
+      "equivalents": [
+        "ARA7902"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1900"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7902"
+      },
+      "syllabus": "Pediátrica ARA8018 ou DFT1901 eh Avaliação, planejamento e execução da assistência fisioterapêutica voltada ao paciente com disfunções traumato-ortopédicas e dermatofuncionais. Conhecimento e vivência no contexto ambulatorial e hospitalar, integrando o fisioterapeuta à equipe multiprofissional."
+    },
+    {
+      "id": "DFT1004",
+      "code": "DFT1004",
+      "name": "Introdução ao Estágio II",
+      "credits": 4,
+      "hours": 60,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1900",
+        "DFT1901",
+        "DFT1902",
+        "DFT1903",
+        "DFT1904"
+      ],
+      "equivalents": [
+        "ARA7901",
+        "ARA8016",
+        "DCS7901",
+        "DCS8016"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DFT1900"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1901"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1902"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1903"
+          },
+          {
+            "kind": "course",
+            "code": "DFT1904"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7901"
+          },
+          {
+            "kind": "course",
+            "code": "ARA8016"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7901"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8016"
+          }
+        ]
+      },
+      "syllabus": "Traumato-Ortopédica ARA8020 ou DFT1901 eh Introdução ao estágio. Apresentação do regimento do estágio. Reconhecimento das instalações, das normas e das rotinas de cada local. Conceitos importantes da prática clínica fisioterapêutica nas áreas de traumato-ortopedia/reumatologia, pediatria, neurologia e cardiologia/pneumologia."
+    },
+    {
+      "id": "DFT1005",
+      "code": "DFT1005",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DFT1905"
+      ],
+      "equivalents": [
+        "ARA7491",
+        "ARA7822",
+        "DCS7491",
+        "DCS7822"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1905"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7491"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7822"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7491"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7822"
+          }
+        ]
+      },
+      "syllabus": "Elaboração, desenvolvimento e apresentação de monografia ou artigo científico."
+    },
+    {
+      "id": "DFT2100",
+      "code": "DFT2100",
+      "name": "Atividades Complementares",
+      "credits": 9,
+      "hours": 162,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA8025",
+        "DCS8025"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA8025"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8025"
+          }
+        ]
+      },
+      "syllabus": "As atividades a serem aproveitadas para o curso de Fisioterapia abrangem várias modalidades, expressas em horas, devendo ser validadas conforme Regimento Interno das Atividades Complementares. Podem ser consideradas atividades como: participação em trabalhos de iniciação científica; participação em projetos de extensão; apresentação de trabalhos em eventos científicos; participação como ouvinte em eventos científicos, atividade de monitoria."
+    },
+    {
+      "id": "CIT7137",
+      "code": "CIT7137",
+      "name": "Ciência, Tecnologia e Sociedade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7137"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7137"
+      },
+      "syllabus": "Rol de Disciplinas Optativas Estudo das relações entre ciência, tecnologia e sociedade ao longo da história, com ênfase na atualidade; filosofia da ciência; análise de valores e ideologias envolvendo a produção e divulgação da ciência e da tecnologia; influências das diferenças culturais, ou diferenças etnológicas, nas concepções de ciência e tecnologia e de suas relações com as sociedades; a participação da sociedade na definição de políticas relativas às questões científicas, tecnológicas, econômicas e ecológicas. O impacto da informática na sociedade. Clima e Projetos de Mecanismos de Desenvolvimento Limpo."
+    },
+    {
+      "id": "CIT7201",
+      "code": "CIT7201",
+      "name": "Inovação e Criatividade na Era do Conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7201"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7201"
+      },
+      "syllabus": "Origens Econômica e Sociológica do Processo de Inovação (Pensamento de Schumpeter). Visões da Inovação e da Evolução Tecnológica. Métodos e estratégias de Gestão de Inovação. Conceito em criatividade, o papel da criatividade nas modernas organizações, bloqueios, técnicas do desenvolvimento da criatividade."
+    },
+    {
+      "id": "CIT7203",
+      "code": "CIT7203",
+      "name": "Informática na Educação I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7203"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7203"
+      },
+      "syllabus": "História da Informática na Educação. Conceitos das teorias de aprendizagem. Uso de tecnologias de Informação e Comunicação aplicadas as teorias de aprendizagem. Exemplos de softwares educacionais. Avaliação de Software Educacional. Redes sociais na educação. Recursos multimídia como recurso didático. Informática na Educação Especial."
+    },
+    {
+      "id": "CIT7204",
+      "code": "CIT7204",
+      "name": "Introdução à Administração",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7204"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7204"
+      },
+      "syllabus": "Organização como sistema social. Processo de gestão estratégica. Estrutura organizacional. Estilo de gestão, poder, autoridade, delegação e tomada de decisão. Planejamento estratégico e ambiente externo. Controle estratégico. Administração de Recursos Digitais."
+    },
+    {
+      "id": "CIT7212",
+      "code": "CIT7212",
+      "name": "Empreendedorismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7212"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7212"
+      },
+      "syllabus": "Empreendedorismo: fundamentos e conceitos. Perfil do empreendedor. Processo empreendedor. Ambientes da inovação: pré-incubadoras, incubadoras e parques tecnológicos. Geração de ideias e análise de oportunidades. Fundamentos e componentes do Plano de Negócios. Mecanismos e procedimentos para criação de empresas. Planejamento de um empreendimento a partir do Modelo Canvas."
+    },
+    {
+      "id": "CIT7224",
+      "code": "CIT7224",
+      "name": "Gestão do Conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7224"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7224"
+      },
+      "syllabus": "Evolução histórica da Gestão do Conhecimento. Modelos de Gestão do Conhecimento. Organizações Intensivas em Conhecimento. Princípios e Processos da Gestão do Conhecimento. Cultura organizacional para a gestão do conhecimento. Estratégias de Gestão do Conhecimento. Auditoria de conhecimento. Memória organizacional. Métodos, Técnicas e tecnologias de apoio a gestão do conhecimento nas organizações."
+    },
+    {
+      "id": "CIT7581",
+      "code": "CIT7581",
+      "name": "Gestão Estratégica Orientada ao Mercado",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7204"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7204"
+      },
+      "syllabus": "Fundamentos e Critérios da Excelência da Gestão pela Qualidade. O Processo de gestão estratégica. Planejamento estratégico orientado ao Mercado. Controle estratégico. Estrutura organizacional e Gestão de processos. Estilo de gestão. Modelos de gestão e de organização de negócios digitais."
+    },
+    {
+      "id": "CIT7583",
+      "code": "CIT7583",
+      "name": "Gestão do Capital Intelectual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7201"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7201"
+      },
+      "syllabus": "Gestão de pessoas para a inovação e competitividade. Os processos de gestão de pessoas. A gestão de Pessoas na Era Digital. Modelos de Negócios Digitais para integração e relacionamento com stakeholders. Gestão do capital intelectual. Gestão dos profissionais do conhecimento. Gestão da sustentabilidade e inovação."
+    },
+    {
+      "id": "CIT7590",
+      "code": "CIT7590",
+      "name": "Ciências, Tecnologia e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7137"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7137"
+      },
+      "syllabus": "Estudo das relações entre ciência, tecnologia e sociedade ao longo da história, com ênfase na atualidade; filosofia da ciência; análise de valores e ideologias envolvendo a produção e divulgação da ciência e da tecnologia; influências das diferenças culturais, ou diferenças etnológicas, nas concepções de ciência e tecnologia e de suas relações com as sociedades; a participação da sociedade na definição de políticas relativas às questões científicas, tecnológicas, econômicas e ecológicas. O impacto da informática na sociedade. Clima e Projetos de Mecanismos de Desenvolvimento Limpo."
+    },
+    {
+      "id": "DCM1008",
+      "code": "DCM1008",
+      "name": "Medicina e educação para as relações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Educação para as relações étnico raciais. Raça, racismo e saúde mental. Racismo institucional. Racismo Estrutural. Racionalidades médicas. Medicinas africanas, afro brasileiras e indígenas."
+    },
+    {
+      "id": "DFT2201",
+      "code": "DFT2201",
+      "name": "Aplicações Clínicas dos Agentes",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DFT1502"
+      ],
+      "equivalents": [
+        "ARA8021"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1502"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA8021"
+      },
+      "syllabus": "étnico-raciais Integrar os agentes físicos ideais e os parâmetros de intervenção dentro de um programa completo de reabilitação para promover o melhor resultado para o paciente."
+    },
+    {
+      "id": "DFT2202",
+      "code": "DFT2202",
+      "name": "Atenção à Pessoa com Deficiência",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7019",
+        "DCS7019"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7019"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7019"
+          }
+        ]
+      },
+      "syllabus": "Eletrofísicos DCS8021) Histórico do desenvolvimento da Educação Especial, conceitos, concepções, reapresentações e classificações da deficiência na atualidade. Descrição dos aspectos históricos da relação sociedade/deficiência. Paradigmas de atenção educacional. Aspectos filosóficos e psicológicos da deficiência e legislação vigente."
+    },
+    {
+      "id": "DFT2203",
+      "code": "DFT2203",
+      "name": "Atualidades em Fisioterapia: Prática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DFT1405"
+      ],
+      "equivalents": [
+        "ARA8022"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1405"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA8022"
+      },
+      "syllabus": "Seminários e discussões de temas atuais na prevenção e reabilitação nas diferentes áreas de atuação da fisioterapia: musculoesquelética, cardiorrespiratória, pediátrica, neurológica, ginecológica, obstétrica, dermato-funcional e recursos terapêuticos."
+    },
+    {
+      "id": "DFT2204",
+      "code": "DFT2204",
+      "name": "Avaliação do Desenvolvimento Infantil",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DFT1402"
+      ],
+      "equivalents": [
+        "ARA7035",
+        "DCS7035"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1402"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7035"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7035"
+          }
+        ]
+      },
+      "syllabus": "Baseada em Evidências DCS8022) Avaliação em Pediatria com ênfase no uso de Testes Padronizados de Desenvolvimento e Desempenho Infantil. Noções de Psicometria; Teoria Neuromaturacional e Abordagem dos Sistemas Dinâmicos. Noções dos principais instrumentos de Avaliação do Desenvolvimento Global, Motor Grosso e Fino, Desempenho Funcional e avaliação do ambiente."
+    },
+    {
+      "id": "DFT2205",
+      "code": "DFT2205",
+      "name": "Ergonomia e Fisioterapia do Trabalho",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7018",
+        "DCS7018"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7018"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7018"
+          }
+        ]
+      },
+      "syllabus": "Conceito de Ergonomia. Histórico de Ergonomia. Principais estudiosos sobre a organização do trabalho: Taylor, Ford e Elton Mayo. Posturas para o trabalho. Biomecânica Ocupacional. Transporte e levantamento de cargas. Fundamentos de biomecânica e fisiologia do trabalho."
+    },
+    {
+      "id": "DFT2208",
+      "code": "DFT2208",
+      "name": "Filosofia",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7013",
+        "DCS7013"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7013"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7013"
+          }
+        ]
+      },
+      "syllabus": "Filosofia antiga e sua implicação no processo de formação do ser humano. Princípios e conceitos éticos, políticos e a educação da antiguidade aos tempos atuais. Relação entre o conceito de ser humano e sua formação na Paidéia grega. A filosofia moderna e contemporânea e sua implicação no processo de formação do ser humano. Democracia e Educação."
+    },
+    {
+      "id": "DFT2209",
+      "code": "DFT2209",
+      "name": "Fisiologia Integrada à Clínica em Fisioterapia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DFT1302"
+      ],
+      "equivalents": [
+        "ARA8023",
+        "DCS8023"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1302"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA8023"
+          },
+          {
+            "kind": "course",
+            "code": "DCS8023"
+          }
+        ]
+      },
+      "syllabus": "Tópicos especiais em Fisiologia e Anatomia dos sistemas Neurológico, Cardiovascular, Respiratório e Renal. Integração clínica na Assistência em Fisioterapia"
+    },
+    {
+      "id": "DFT2210",
+      "code": "DFT2210",
+      "name": "Fisioterapia Desportiva",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DFT1401"
+      ],
+      "equivalents": [
+        "ARA7015",
+        "DCS7015"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1401"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7015"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7015"
+          }
+        ]
+      },
+      "syllabus": "Principais lesões causadas pelo esporte: Atualidades nas avaliações, prescrição adequada de exercícios e prevenção."
+    },
+    {
+      "id": "DFT2211",
+      "code": "DFT2211",
+      "name": "Fisioterapia em Procedimentos Pré e Pós",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DFT1703"
+      ],
+      "equivalents": [
+        "ARA8024"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1703"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA8024"
+      },
+      "syllabus": "Noções sobre requisitos básicos de um centro cirúrgico, tipos de cirurgias, risco cirúrgico, complicações cirúrgicas mais frequentes, avaliação e tratamento fisioterápico no pré e pós-operatório de cirurgias torácicas e abdominais, refletir sobre a equipe multidisciplinar."
+    },
+    {
+      "id": "DFT2212",
+      "code": "DFT2212",
+      "name": "Fundamentos de Ortopedia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DFT1200"
+      ],
+      "equivalents": [
+        "ARA7024",
+        "DCS7024"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1200"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7024"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7024"
+          }
+        ]
+      },
+      "syllabus": "Operatórios de Cirurgia Torácicas e DCS8024) Abdominais Fundamentar, através da biomecânica e da avaliação fisioterapêutica a base do tratamento em fisioterapia traumato-ortopédica."
+    },
+    {
+      "id": "DFT2214",
+      "code": "DFT2214",
+      "name": "Microscopia Óptica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7028",
+        "DCS7028"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7028"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7028"
+          }
+        ]
+      },
+      "syllabus": "Microscopia óptica: princípios de funcionamento, metodologias empregadas e aplicação biológica. Observação e análise (contagem global e diferencial) de células sanguíneas ao microscópio convencional. Técnicas hematológicas."
+    },
+    {
+      "id": "DFT2215",
+      "code": "DFT2215",
+      "name": "Monitoria I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS7834"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS7834"
+      },
+      "syllabus": "O Colegiado do Curso de Fisioterapia aprovou, na 31ª Reunião Extraordinária do Colegiado do Curso de Graduação em Fisioterapia, realizada no dia 02 de setembro de 2015 que para cada semestre de monitoria (12 horas/semana) serão atribuídas 54 horas de optativas com um teto de 108 horas ou outra forma que possa atender o definido na 31ª reunião extraordinária."
+    },
+    {
+      "id": "DFT2216",
+      "code": "DFT2216",
+      "name": "Monitoria II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS7835"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS7835"
+      },
+      "syllabus": "O Colegiado do Curso de Fisioterapia aprovou, na 31ª Reunião Extraordinária do Colegiado do Curso de Graduação em Fisioterapia, realizada no dia 02 de setembro de 2015 que para cada semestre de monitoria (12 horas/semana) serão atribuídas 54 horas de optativas com um teto de 108 horas ou outra forma que possa atender o definido na 31ª reunião extraordinária."
+    },
+    {
+      "id": "DFT2217",
+      "code": "DFT2217",
+      "name": "Psicomotricidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "DFT1200"
+      ],
+      "equivalents": [
+        "ARA7017",
+        "DCS7017"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1200"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7017"
+          },
+          {
+            "kind": "course",
+            "code": "DCS7017"
+          }
+        ]
+      },
+      "syllabus": "Epistemologia, abordagens teóricas e metodológicas em Psicomotricidade. Aspectos da neurociência do comportamento em psicomotricidade. Estruturas psicomotoras, conceitos e aplicações do desenvolvimento psicomotor. Aprendizagem motora na infância, adolescência, idade adulta e idosa. Educação e reeducação psicomotora."
+    },
+    {
+      "id": "FQM7020",
+      "code": "FQM7020",
+      "name": "Bioestatística",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "DFT1405"
+      ],
+      "equivalents": [
+        "ARA7020"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DFT1405"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7020"
+      },
+      "syllabus": "Noções Básicas. Amostragem. Estatística Descritiva. Apresentação de dados em tabela e gráficos. Medidas de tendência central e dispersão. Probabilidade. Variáveis aleatórias e suas distribuições. Distribuição binomial e distribuição normal. Inferência estatística. Intervalos de confiança e testes de hipóteses."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "DFT1100",
+      "DFT1101",
+      "DFT1102",
+      "DFT1103",
+      "DFT1104",
+      "DFT1105",
+      "FQM7414",
+      "DFT1200",
+      "DFT1201",
+      "DFT1202",
+      "DFT1203",
+      "DFT1204",
+      "FQM7420",
+      "DFT1300",
+      "DFT1301",
+      "DFT1302",
+      "DFT1303",
+      "DFT1304",
+      "DFT1305",
+      "DFT1400",
+      "DFT1401",
+      "DFT1402",
+      "DFT1403",
+      "DFT1404",
+      "DFT1405",
+      "DFT1500",
+      "DFT1501",
+      "DFT1502",
+      "DFT1503",
+      "DFT1504",
+      "DFT1505",
+      "DFT1600",
+      "DFT1601",
+      "DFT1602",
+      "DFT1603",
+      "DFT1604",
+      "DFT1700",
+      "DFT1701",
+      "DFT1702",
+      "DFT1703",
+      "DFT1704",
+      "DFT1800",
+      "DFT1801",
+      "DFT1802",
+      "DFT1803",
+      "DFT1804",
+      "DFT1900",
+      "DFT1901",
+      "DFT1902",
+      "DFT1903",
+      "DFT1904",
+      "DFT1905",
+      "DFT1000",
+      "DFT1001",
+      "DFT1002",
+      "DFT1003",
+      "DFT1004",
+      "DFT1005"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 234,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "DFT2100",
+              "CIT7137",
+              "CIT7201",
+              "CIT7203",
+              "CIT7204",
+              "CIT7212",
+              "CIT7224",
+              "CIT7581",
+              "CIT7583",
+              "CIT7590",
+              "DCM1008",
+              "DFT2201",
+              "DFT2202",
+              "DFT2203",
+              "DFT2204",
+              "DFT2205",
+              "DFT2208",
+              "DFT2209",
+              "DFT2210",
+              "DFT2211",
+              "DFT2212",
+              "DFT2214",
+              "DFT2215",
+              "DFT2216",
+              "DFT2217",
+              "FQM7020",
+              "LSB7244"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "654",
+    "curriculumCode": "20161",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=654&curriculo=20161",
+    "sha256": "af0b8ca0d81bfce810e98a422ffc2d00645c698679c24bcb53819ea382d728b5",
+    "capturedAt": "2026-09-22"
+  }
+}

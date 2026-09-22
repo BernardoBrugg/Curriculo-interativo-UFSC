@@ -1,0 +1,2872 @@
+{
+  "program": "ENGENHARIA DE ALIMENTOS",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 1991.1",
+  "totalHours": 4368,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EGR5617",
+      "code": "EGR5617",
+      "name": "Desenho Técnico para Engenharia Química",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5616"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5616"
+      },
+      "syllabus": "Introdução, Normalização, Técnicas de traçado a mão livre, Sistemas de Representação em Desenho Técnico, Cotagem, Cortes e Seções, Desenho de Equipamentos, Desenho de Lay-Out, Desenho de Fluxograma, Desenho de Tubulações Industriais, Introdução ao CAD."
+    },
+    {
+      "id": "EQA5105",
+      "code": "EQA5105",
+      "name": "Introdução a Engenharia de Alimentos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ENQ1105",
+        "ENQ5105"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1105"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5105"
+          }
+        ]
+      },
+      "syllabus": "e de Alimentos O caráter interdisciplinar do currículo do curso de Engenharia de Alimentos. O papel do Engenheiro de Alimentos na Indústria e Instituições de Pesquisa. Mercado de trabalho. Atuação do Engenheiro de Alimentos na preservação dos recursos naturais. Efeito da tecnologia sobre o equilíbrio ecológico."
+    },
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC1101"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC1101"
+      },
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "GMT5617",
+      "code": "GMT5617",
+      "name": "Desenho Técnico para Engenharia Química",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5616"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5616"
+      },
+      "syllabus": "Normas Técnicas, Noções de técnicas de traçado a mão livre, Sistemas de representação: Perpectiva e Projeções Ortogonais, Vistas omitidas, CAD, Cotagem, Noções de corte."
+    },
+    {
+      "id": "INE5201",
+      "code": "INE5201",
+      "name": "Introdução à Ciência da Computação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEC1128",
+        "CEC5201"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEC1128"
+          },
+          {
+            "kind": "course",
+            "code": "CEC5201"
+          }
+        ]
+      },
+      "syllabus": "e de Alimentos EGR5617) Noções de sistemas de computação. Formulação de algoritmos e sua representação. Noções sobre linguagem de programação e programas. Implementação prática de algoritmos em uma linguagem de programação. Descrição de algumas aplicações típicas. Métodos computacionais na área científica e tecnológica."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3101",
+        "MTM5115",
+        "MTM5161",
+        "MTM5183"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5115"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5183"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "QMC5152",
+      "code": "QMC5152",
+      "name": "Química Geral e Inorgânica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5150"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5150"
+      },
+      "syllabus": "Estrutura Atômica e Tabela Periódica. Propriedades Periódicas. Ligações Químicas. Reações Químicas e Estequiometria. Teoria Ácido-Base. Soluções. Compostos de Coordenação."
+    },
+    {
+      "id": "FSC5002",
+      "code": "FSC5002",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101"
+      ],
+      "equivalents": [
+        "FSC5112",
+        "FSC5132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5112"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5132"
+          }
+        ]
+      },
+      "syllabus": "Estudo da Cinemática e Dinâmica da rotação de corpos rígidos. Oscilações e ondas Mecânicas(som). Estática e Dinãmica dos Fluídos. Noções sobre temperatura, calor, princípios da Termodiâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "FSC5122",
+      "code": "FSC5122",
+      "name": "Física Experimental I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101"
+      ],
+      "equivalents": [
+        "FSC1122"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC1122"
+      },
+      "syllabus": "Complementação dos conteúdos de mecânica, acústica, termologia. Obtida através de montagem e realização de experiências, em número de 12 (doze), versando sobre os tópicos acima."
+    },
+    {
+      "id": "MIP5102",
+      "code": "MIP5102",
+      "name": "Microbiologia Básica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MIP1502"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MIP1502"
+      },
+      "syllabus": "Morfologia e citologia das bactérias. Características gerais de fungos e leveduras. Características gerais dos vírus e bacteriófagos. Metabolismo, nutrição e crescimento de microorganismos. Genética e ecologia microbiana. Doenças veiculadas pelos alimentos. Produção de alimentos por microorganismos e avaliação da qualidade microbiológica dos alimentos."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3101",
+        "MTM3110",
+        "MTM5161"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM3111",
+        "MTM5162",
+        "MTM5512"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5162"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5512"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM5162"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5512"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3112",
+        "MTM5245"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3112"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5245"
+          }
+        ]
+      },
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "QMC5222",
+      "code": "QMC5222",
+      "name": "Química Orgânica Teórica A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5152"
+      ],
+      "equivalents": [
+        "QMC1222"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5152"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC1222"
+      },
+      "syllabus": "Fundamentos: estrutura, ligações, isomeria de compostos orgânicos, estereoquímica. Classificação de reagentes e reações. Métodos de obtenção, propriedades químicas e físicas de alcanos, alcenos, alcadienos, alcinos e cicloalcanos. Efeitos eletrônicos. Ressonância e aromaticidade. Benzeno e compostos aromáticos relacionados."
+    },
+    {
+      "id": "QMC5350",
+      "code": "QMC5350",
+      "name": "Fundamentos da Química Analítica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5152"
+      ],
+      "equivalents": [
+        "QMC5312"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5152"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5312"
+      },
+      "syllabus": "Equilíbrio químico ácido-base. Equilíbrio químico em sistemas heterogêneos. Equilíbrios químico de óxido-redução. Equilíbrio químico de complexação. Princípios da gravimétrica e volumétrica."
+    },
+    {
+      "id": "EMC5131",
+      "code": "EMC5131",
+      "name": "Estática e Introdução à Mecânica dos Sólidos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3102",
+        "MTM3120"
+      ],
+      "equivalents": [
+        "EMC5125",
+        "FSC5050"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FSC5002"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FSC5002"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5125"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5050"
+          }
+        ]
+      },
+      "syllabus": "Operações básicas com vetores (forças). Definição de momento de uma força. Equivalência entre conjuntos de forças. Equilíbrio de ponto material e de corpo rígido, no plano e no espaço. Definição, cálculo e representação gráfica das cargas internas em vigas no plano. Definição de deformações e de tensões. Relações entre deformações e tensões (Lei de Hooke). Análise dos efeitos individuais das cargas internas em vigas: cargas axiais, torques, momentos fletores e esforços cortantes. Superposição de tensões normais. Transformação de tensões (Círculo de Mohr)."
+    },
+    {
+      "id": "FSC5113",
+      "code": "FSC5113",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "FSC5112",
+        "FSC5132"
+      ],
+      "equivalents": [
+        "FSC5133"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5112"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5132"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5133"
+      },
+      "syllabus": "Análise dos principais fenômenos da eletricidade e magnetismo abrangendo o estudo de campo elétrico, potencial elétrico, capacitor, corrente elétrica, força eletromotriz, campo magnético e indução eletromagnética."
+    },
+    {
+      "id": "MTM3103",
+      "code": "MTM3103",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3102",
+        "MTM3120",
+        "MTM5162"
+      ],
+      "equivalents": [
+        "MTM1163",
+        "MTM5163"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5162"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM1163"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5163"
+          }
+        ]
+      },
+      "syllabus": "-Integração múltipla: integrais duplas e triplas. Noções de cálculo vetorial: curvas e superfícies. Campos escalares e vetoriais. Integrais de linha e de superfícies. Teoremas de Green, Stokes e da Divergência."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5117",
+        "MTM5163",
+        "MTM5185"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5117"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5163"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5185"
+          }
+        ]
+      },
+      "syllabus": "-Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "QMC5229",
+      "code": "QMC5229",
+      "name": "Química Orgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5222"
+      ],
+      "equivalents": [
+        "QMC1229"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5222"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC1229"
+      },
+      "syllabus": "Haletos de alquila e arila. Compostos organometálicos. Compostos orgânicos oxigenados. Compostos orgânicos nitrogenados. Compostos orgânicos sulfurados. Compostos polifuncionais carbonilados. Heterocíclicos. Compostos de interesse biológico. Compostos orgânicos de interesse tecnológico."
+    },
+    {
+      "id": "QMC5411",
+      "code": "QMC5411",
+      "name": "Físico-Química Experimental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "FSC5112"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5112"
+          }
+        ]
+      },
+      "syllabus": "Calor de Reação. Destilação fracionada. Destilação de misturas azeotrópicas. Equilíbrios entre fases líquidas. Sistemas de três componentes. Tensão superficial de Líquidos. Coeficiente de viscosidade. Condutância nos eletrolitos. Cinética química. Medidas de velocidade reações. Medida de ordem de reação. Criometria. Células eletroquímicas. Medidas de superfície de sólidos."
+    },
+    {
+      "id": "QMC5450",
+      "code": "QMC5450",
+      "name": "Fundamentos da Cinética Química",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3102",
+        "QMC5152",
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "QMC5152"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              },
+              {
+                "kind": "course",
+                "code": "QMC5152"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Cinética química e noções de dinâmica química."
+    },
+    {
+      "id": "CAL5403",
+      "code": "CAL5403",
+      "name": "Microbiologia de Alimentos",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MIP5102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP5102"
+      },
+      "syllabus": "O Controle Microbiológico na Indústria de alimentos. Métodos de controle: dinâmico e estático. Microorganismos das toxinfecções alimentares. Noções básicas sobre a aplicação do sistema de análise de risco de ponto de controle (hazard analysis critical control point - HACCP)."
+    },
+    {
+      "id": "EQA5318",
+      "code": "EQA5318",
+      "name": "Introdução aos Processos Químicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "FSC5112"
+      ],
+      "equivalents": [
+        "ENQ1318",
+        "ENQ5318"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5112"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1318"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5318"
+          }
+        ]
+      },
+      "syllabus": "Sistemas de unidade e análise dimensional. Balanços materiais. Balanços energéticos. Balanços material e energético combinados. Balanços em processos no estado não-estacionário."
+    },
+    {
+      "id": "FSC5114",
+      "code": "FSC5114",
+      "name": "Física IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113"
+      ],
+      "equivalents": [
+        "FSC5120"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5113"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5120"
+      },
+      "syllabus": "Indutância e suas aplicações; as propriedades magnéticas da matéria: materiais diamagnéticos, paramagnéticos e ferromagnéticos, as leis que os regem. Equações de Maxwell: interpretação física e aplicações. Solução de circuitos em série (RLC) de corrente alternada e transformadores. Luz: natureza, propagação e fenômenos ópticos (interferência, difração e polarização). Física Moderna: introdução à Mecânica Quântica, Física Atômica e Nuclear. Relatividade Especial: Leis e aplicações."
+    },
+    {
+      "id": "FSC5123",
+      "code": "FSC5123",
+      "name": "Física Experimental II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113"
+      ],
+      "equivalents": [
+        "FSC5125"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5113"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5125"
+      },
+      "syllabus": "Complementação dos conteúdos de eletrostática, eletromagnetismo e óptica.Obtida através de montagem e realização de experiências em número de 12 (doze) versando sobre os tópicos acima."
+    },
+    {
+      "id": "INE5108",
+      "code": "INE5108",
+      "name": "Estatística e Probabilidade para Ciências",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3102"
+      },
+      "syllabus": "Teoria da probabilidade. Variáveis aleatórias e distribuição de probabilidade. Principais distribuições de probabilidade discretas. Distribuição normal. Outras distribuições de probabilidade contínuas. Estimação de parâmetros. Testes de hipóteses."
+    },
+    {
+      "id": "MTM3104",
+      "code": "MTM3104",
+      "name": "Cálculo 4",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3102",
+        "MTM3131",
+        "MTM5162"
+      ],
+      "equivalents": [
+        "MTM5164",
+        "MTM5166"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3131"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5162"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5164"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5166"
+          }
+        ]
+      },
+      "syllabus": "Exatas MTM3120) Sequências e séries numéricas. Sequências e séries de funções: séries de potências e séries de Fourier. Equações diferenciais parciais: método da separação de variáveis nas equações clássicas da onda, do calor e de Laplace."
+    },
+    {
+      "id": "QMC5220",
+      "code": "QMC5220",
+      "name": "Química Orgânica e Biológica A",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5229"
+      ],
+      "equivalents": [
+        "QMC1219",
+        "QMC5219"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5229"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC1219"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5219"
+          }
+        ]
+      },
+      "syllabus": "Estudo das principais classes de compostos de interesse biológico, mostrando sua ação nos sistemas vivos, visando proporcionar uma compreensão básica da dinâmica do metabolismo."
+    },
+    {
+      "id": "CAL5401",
+      "code": "CAL5401",
+      "name": "Bioquímica de Alimentos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5220"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5220"
+      },
+      "syllabus": "Proteínas nos alimentos. Corantes. Água. Carboidratos nos alimentos. Vitaminas hidrossolúveis. Alimentos de origem animal e vegetal."
+    },
+    {
+      "id": "EQA5341",
+      "code": "EQA5341",
+      "name": "Termodinâmica para Engenharia Química I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5318",
+        "MTM3102",
+        "MTM3120"
+      ],
+      "equivalents": [
+        "ENQ1341",
+        "ENQ5341"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EQA5318"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EQA5318"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1341"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5341"
+          }
+        ]
+      },
+      "syllabus": "Primeira Lei da Termodinâmica e o balanço de energia; Entropia e a Segunda Lei da Termodinâmica; Máquinas Térmicas; Equações de estado; Propriedades termodinâmicas de substâncias reais; Equilíbrio, estabilidade e mudanças de fase de substâncias puras; Fugacidade."
+    },
+    {
+      "id": "EQA5415",
+      "code": "EQA5415",
+      "name": "Fenômenos de Transferência I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5318",
+        "MTM3102",
+        "MTM3120"
+      ],
+      "equivalents": [
+        "ENQ1415",
+        "ENQ5415"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EQA5318"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EQA5318"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1415"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5415"
+          }
+        ]
+      },
+      "syllabus": "Estática dos fluidos. Balanços globais e diferenciais de massa, energia e quantidade de movimento. Análise dimensional e similaridade."
+    },
+    {
+      "id": "FIT5301",
+      "code": "FIT5301",
+      "name": "Matéria Primas Agropecuárias I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5220"
+      ],
+      "equivalents": [
+        "ENR5301"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5220"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5301"
+      },
+      "syllabus": "Nomenclatura dos produtos agropecuários; Fontes de produção e mercados de consumo; Características agronômicas das culturas; Principais pragas e moléstias dos produtos; Princípios de fisiologia; Criação de animais; Economia e planejamento da produção agropecuária; Morfologia e classificação comercial; Embalagens e transporte de matérias-primas."
+    },
+    {
+      "id": "INE5202",
+      "code": "INE5202",
+      "name": "Cálculo Numérico em Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5201",
+        "MTM5163",
+        "MTM3103"
+      ],
+      "equivalents": [
+        "CEC1103",
+        "CEC5202"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "INE5201"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5163"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "INE5201"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3103"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEC1103"
+          },
+          {
+            "kind": "course",
+            "code": "CEC5202"
+          }
+        ]
+      },
+      "syllabus": "Erros e Sistemas de Numeracão. Solução de equações algébricas e transcendentais. Solução de equações polinomiais. Sistemas de equações lineares e não lineares. Interpolação Ajustamento de curvas. Integração numérica. Solução numérica de equações diferenciais ordinárias e sistemas de equações diferenciais."
+    },
+    {
+      "id": "NTR5106",
+      "code": "NTR5106",
+      "name": "Nutrição Básica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5220"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5220"
+      },
+      "syllabus": "Conceitos básicos de Nutrição. Calorimetria. Valor nutricional dos alimentos: (proteínas, carboidratos, lipídios, vitaminas, minerais e água). Alterações nutricionais em alimentos industrializados. Necessidades e recomendações nutricionais. Principais doenças de origem nutricional no Brasil. Causas e Efeitos."
+    },
+    {
+      "id": "QMC5351",
+      "code": "QMC5351",
+      "name": "Química Analítica Instrumental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5350"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5350"
+      },
+      "syllabus": "Condutimetria.Potenciometria. Espectroscopia de absorção mlecular no ultravioleta e visível. Espectrometria de absorção atômica. Espectrometria de emissão óptica por plasma indutivamente acoplado (ICP OES) e espectrometria de masssa com plasma indutivamente acoplado (ICP-MS). Fotometria de chama. Cromatografia gasosa. Cromatografia líquida de alta eficiência. Métodos térmicos de análise."
+    },
+    {
+      "id": "CAL5402",
+      "code": "CAL5402",
+      "name": "Bioquímica de Alimentos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5220"
+      ],
+      "equivalents": [
+        "CAL1402",
+        "CAL5122"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5220"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL1402"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5122"
+          }
+        ]
+      },
+      "syllabus": "Lipídios, oxidação, antioxidantes. Emulsões alimentares. Óleos e frituras, alterações. Vitaminas lipossolúveis. Enzimas em alimentos. Fermentação. Aditivos alimentares."
+    },
+    {
+      "id": "CAL5404",
+      "code": "CAL5404",
+      "name": "Análise de Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5220"
+      ],
+      "equivalents": [
+        "CAL1230"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5220"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL1230"
+      },
+      "syllabus": "Métodos analíticos e microanalíticos. Amostragem. Composição básica dos produtos alimentícios e seu valor nutritivo. Glicídios e alimentos glicídicos (mel, cereais e derivados). Proteínas a alimentos protéicos (carne, leite, ovos, pescados e derivados). Água. Minerais, fibra, vitaminas, aditivos, aspectos gerais sobre legislação de alimentos. Análises físico - químicas de mel, cereais, carne, leite, pescados, ovos, bebidas alcoólicas, bebidas estimulantes, especiarias. (60 horas aula práticas e 12 horas-aula teóricas)"
+    },
+    {
+      "id": "EQA5221",
+      "code": "EQA5221",
+      "name": "Higiene e Legislação de Alimentos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5403"
+      ],
+      "equivalents": [
+        "ENQ1221",
+        "ENQ5221"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5403"
+          },
+          {
+            "kind": "hours",
+            "hours": 5221
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1221"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5221"
+          }
+        ]
+      },
+      "prerequisiteHours": 5221,
+      "syllabus": "Higiene industrial. Agentes e processos de limpeza e sanitização. Contaminação dos alimentos. Construção de prédios. Legislação de alimentos e aditivos."
+    },
+    {
+      "id": "EQA5313",
+      "code": "EQA5313",
+      "name": "Operações Unitárias de Transferência de Quantidade de Movimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5415"
+      ],
+      "equivalents": [
+        "ENQ5313",
+        "ENQ1303",
+        "ENQ1304"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5415"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ5313"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ENQ1303"
+              },
+              {
+                "kind": "course",
+                "code": "ENQ1304"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Operações unitárias da indústria química e de alimentos utilizados para o transporte de fluídos; agitação e mistura, fragmentação, separação, classificação e transporte de sólidos, fluidização, separação, gás-sólido e líquido-sólido: filtração, sedimentação, centrifugação."
+    },
+    {
+      "id": "EQA5322",
+      "code": "EQA5322",
+      "name": "Processos da Industria de Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5401"
+      ],
+      "equivalents": [
+        "ENQ1322",
+        "ENQ5322"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5401"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1322"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5322"
+          }
+        ]
+      },
+      "syllabus": "Principais processos utilizados na indústria de alimentos: Emulsificação, carbonatação, irradiacão, hidrogenação, geleificação. Reações físico-químicas envolvidas na conservação e processamento dos alimentos. Cálculo do tempo de destruição térmica (TDT) dos microorganismos. Processamento térmico dos alimentos: branqueamento, pasteurização e esterilização. Equipamentos. Cálculo do tempo de retencão e processamento total. Processos de separação por membranas, na concentração e esterilização de alimentos."
+    },
+    {
+      "id": "EQA5342",
+      "code": "EQA5342",
+      "name": "Termodinâmica para Engenharia Química II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5341"
+      ],
+      "equivalents": [
+        "ENQ5342"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5341"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENQ5342"
+      },
+      "syllabus": "Propriedades termodinâmicas das misturas homogêneas. Propriedade molar parcial. Propriedade em excesso. Coeficiente de atividade. Equilíbrio de fase. Coeficientes de atividades obtido experimentalmente. Equilíbrio químico. Equilíbrio multireacional."
+    },
+    {
+      "id": "EQA5416",
+      "code": "EQA5416",
+      "name": "Fenômenos de Transferência II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5415"
+      ],
+      "equivalents": [
+        "ENQ1416",
+        "ENQ5416"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5415"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1416"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5416"
+          }
+        ]
+      },
+      "syllabus": "Transferência de calor por condução. Transferência de calor por convecção. Radiação térmica."
+    },
+    {
+      "id": "EPS5211",
+      "code": "EPS5211",
+      "name": "Programação Econômica e Financeira",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EPS1211"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS1211"
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Sistema Econômico: juros simples e compostos; taxa nominal e efetiva; método valor atual; balanço e princípios contábeis básicos. Plano de cotas. Patrimônio líquido. Demonstração de lucros e perdas. Sistema tributário. Estoques. Classificação ABC. Introdução à administração financeira."
+    },
+    {
+      "id": "EQA5218",
+      "code": "EQA5218",
+      "name": "Industria de Produtos Vegetais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5322"
+      ],
+      "equivalents": [
+        "ENQ1218",
+        "ENQ5218"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5322"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1218"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5218"
+          }
+        ]
+      },
+      "syllabus": "Transporte. Pré-processamentos. Processos produtivos de derivados de frutas e hortaliças - sucos, concentrados, conservas, doces, desidratados. Cálculo do binômio tempo x temperatura na pasteurização e esterilização. Embalagens. Equipamentos, instalações industriais. Secagem e beneficiamento de grãos, secadores, armazenagem e unidades armazenadoras. Tratamento de resíduos e seu aproveitamento."
+    },
+    {
+      "id": "EQA5316",
+      "code": "EQA5316",
+      "name": "Engenharia Bioquímica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5318"
+      ],
+      "equivalents": [
+        "ENQ1316",
+        "ENQ5316"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5318"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1316"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5316"
+          }
+        ]
+      },
+      "syllabus": "Engenharia Bioquímica. Cinética enzimática. Reatores ideais, reatores reais. Estequiometria e cinética microbiana. Biorreatores. Tecnologia dos biorreatores. Reatores com enzimas e células imobilizadas."
+    },
+    {
+      "id": "EQA5332",
+      "code": "EQA5332",
+      "name": "Operações Unitárias de Transferências de Calor II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5416"
+      ],
+      "equivalents": [
+        "ENQ1332",
+        "ENQ5332"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5416"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1332"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5332"
+          }
+        ]
+      },
+      "syllabus": "Operações unitárias da indústria de alimentos envolvendo fenômenos de transferência de calor (trocadores de calor, evaporação, refrigeração)."
+    },
+    {
+      "id": "EQA5417",
+      "code": "EQA5417",
+      "name": "Fenômenos de Transferência III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5342",
+        "EQA5416"
+      ],
+      "equivalents": [
+        "ENQ1417",
+        "ENQ5417"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EQA5342"
+          },
+          {
+            "kind": "course",
+            "code": "EQA5416"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1417"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5417"
+          }
+        ]
+      },
+      "syllabus": "Transferência de massa por difusão. Transferência de massa por convecção. Correlações para o cálculo dos coeficientes de transferência de massa."
+    },
+    {
+      "id": "EQA5520",
+      "code": "EQA5520",
+      "name": "Controle de Qualidade na Industria de Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5322",
+        "INE5108"
+      ],
+      "equivalents": [
+        "ENQ1520",
+        "ENQ5520"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EQA5322"
+          },
+          {
+            "kind": "course",
+            "code": "INE5108"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1520"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5520"
+          }
+        ]
+      },
+      "syllabus": "Importância. Situação atual. Organização do sistema de controle de qualidade na industria de alimentos. Medidas objetivas e subjetivas. Planos de amostragem. Mapas de controle. Análise e interpretação dos resultados. Especificações para matéria-prima, alimentos processados e embalagens."
+    },
+    {
+      "id": "PSI5112",
+      "code": "PSI5112",
+      "name": "Relações Humanas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A personalidade humana. Os grupos e sua dinâmica, a comunicação e seus problemas."
+    },
+    {
+      "id": "EQA5216",
+      "code": "EQA5216",
+      "name": "Industria de Laticínios",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5322"
+      ],
+      "equivalents": [
+        "ENQ1216",
+        "ENQ5216"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5322"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1216"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5216"
+          }
+        ]
+      },
+      "syllabus": "Transporte, recepção e análises. Processos produtivos dos derivados do leite: desidratados, concentrados e fermentados. Cálculo do binômio tempo x temperatura da pasteurização e esterilização. Equipamentos, instalações, indústrias e serviços de suporte. Balanços materiais, cálculo dos rendimentos e custos industriais. Aproveitamento de sub-produtos e tratamento de resíduos."
+    },
+    {
+      "id": "EQA5217",
+      "code": "EQA5217",
+      "name": "Industria de Carnes, Pescados e Derivados",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5322"
+      ],
+      "equivalents": [
+        "ENQ1217",
+        "ENQ5217"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5322"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1217"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5217"
+          }
+        ]
+      },
+      "syllabus": "Transporte de matéria-prima. Abatedouros: aspectos de construção. Processos produtivos de derivados de carnes vermelhas, brancas e de pescado. Equipamentos, instalações industriais e serviços de suporte. Cálculo dos rendimentos e custos industriais. Especificações de câmara frigoríficas. Congelamento e estocagem. Aproveitamento de sub-produtos e tratamento dos resíduos."
+    },
+    {
+      "id": "EQA5225",
+      "code": "EQA5225",
+      "name": "Acondicionamento e Embalagem para Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5402"
+      ],
+      "equivalents": [
+        "ENQ1225",
+        "ENQ5225"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5402"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1225"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5225"
+          }
+        ]
+      },
+      "syllabus": "Tipos de embalagens, composição, custo, propriedades, funções, técnicas de fabricação e fechamento de embalagens flexíveis, metálicas e vidro. Testes de laboratórios, identificação de vernizes e seleção de embalagens. Embalagem para transporte. Reciclagem de embalagens. Corrosão. Desenvolvimento de novas embalagens."
+    },
+    {
+      "id": "EQA5312",
+      "code": "EQA5312",
+      "name": "Análise e Simulação de Processos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5416",
+        "INE5202"
+      ],
+      "equivalents": [
+        "ENQ1312",
+        "ENQ5312"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EQA5416"
+          },
+          {
+            "kind": "course",
+            "code": "INE5202"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1312"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5312"
+          }
+        ]
+      },
+      "syllabus": "Modelos matemáticos para sistemas de Engenharia Química. Resolução numérica a parâmetros concentrados. Resolução numérica a parâmetros distribuídos. Noções de balanço de massa e energia de plantas químicas em computador."
+    },
+    {
+      "id": "EQA5333",
+      "code": "EQA5333",
+      "name": "Operações Unitárias de Transferência de Calor e Massa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5416"
+      ],
+      "equivalents": [
+        "ENQ1333",
+        "ENQ5333"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5416"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1333"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5333"
+          }
+        ]
+      },
+      "syllabus": "Operações unitárias da indústria química e de alimentos envolvendo fenômenos de transferência simultânea de calor e massa: destilação, absorção, extração, secagem."
+    },
+    {
+      "id": "EQA5613",
+      "code": "EQA5613",
+      "name": "Proposta de Trabalho de Conclusão de Curso",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2800
+      },
+      "prerequisiteHours": 2800,
+      "syllabus": "Elaboração de uma proposta de trabalho de conclusão de curso (TCC) contendo a justificativa, o cronograma e os objetivos do projeto a ser desenvolvido."
+    },
+    {
+      "id": "CAL5405",
+      "code": "CAL5405",
+      "name": "Análise Sensorial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5401"
+      ],
+      "equivalents": [
+        "CAL1231"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL1231"
+      },
+      "syllabus": "Objetivos. Equipamentos. Amostragem. Seleção e treinamento de degustadores. Organização do painel de testes. Testes mais comuns. Técnicas especiais. Apresentação dos resultados. Análise estatística dos testes."
+    },
+    {
+      "id": "EQA5309",
+      "code": "EQA5309",
+      "name": "Engenharia Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5313"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5313"
+      },
+      "syllabus": "Ciência do ambiente. Tratamento de água para uso industrial. Tratamento de efluentes. Poluentes atmosféricos e seu tratamento. Instrumentação e análise no controle da poluição ambiental."
+    },
+    {
+      "id": "EQA5509",
+      "code": "EQA5509",
+      "name": "Projetos da Indústria de Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5333"
+      ],
+      "equivalents": [
+        "ENQ1509",
+        "ENQ5509"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5333"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1509"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5509"
+          }
+        ]
+      },
+      "syllabus": "Introdução. Análise de mercado. Definição do produto. Escolha de um processo industrial. Engenharia do projeto. Tamanho do projeto. Análise de localização. Seleção dos materiais e equipamentos para o processo. Estudo do arranjo físico. Estimativa do investimento. Estimativas do custo. Análise econômica. Sensibilidade e risco. Conclusões e decisões. Elaboração e apresentação de um anteprojeto de uma indústria de alimentos."
+    },
+    {
+      "id": "EQA5521",
+      "code": "EQA5521",
+      "name": "Controle de Processos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5417",
+        "MTM3104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EQA5417"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3104"
+          }
+        ]
+      },
+      "syllabus": "Controle automático de processos: características estáticas e dinâmicas do processo, do controlador e do elemento final. Função de transferência. Atuação do controlador. Estudo frequencial."
+    },
+    {
+      "id": "EQA5533",
+      "code": "EQA5533",
+      "name": "Laboratório de Fenômenos de Transporte e Operações Unitárias para Engenharia de Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5417"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5417"
+      },
+      "syllabus": "Realizações de práticas de laboratório envolvendo conceitos de fenômenos de transferência e operações unitárias de transferência de calor, massa e quantidade de movimento, com medição e análise dos resultados."
+    },
+    {
+      "id": "EQA5616",
+      "code": "EQA5616",
+      "name": "Trabalho de Conclusão de Curso para Engenharia de Alimentos (TCC)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EQA5333",
+        "EQA5613"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EQA5333"
+          },
+          {
+            "kind": "course",
+            "code": "EQA5613"
+          }
+        ]
+      },
+      "syllabus": "Elaboração de Monografia resultante de revisão bibliográfica e/ou de trabalho prético sob orientação docente, versanso sobre processos utilizados nas indústrias de alimentos ou sobre tema relevante à Engenharia de Alimentos."
+    },
+    {
+      "id": "EQA5611",
+      "code": "EQA5611",
+      "name": "Estágio Supervisionado em Indústria de Alimentos I",
+      "credits": 16,
+      "hours": 300,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ENQ1611",
+        "ENQ5611"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2800
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1611"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5611"
+          }
+        ]
+      },
+      "prerequisiteHours": 2800,
+      "syllabus": "Estágio supervisionado em indústria ou instituição de ensino e pesquisa, relacionados a área de alimentos. Atividade individual orientada por um docente da instituição."
+    },
+    {
+      "id": "EQA5621",
+      "code": "EQA5621",
+      "name": "Atividades Complementares",
+      "credits": 5,
+      "hours": 90,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades Complementares"
+    },
+    {
+      "id": "EGC5013",
+      "code": "EGC5013",
+      "name": "Gestão do Conhecimento nas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplinas Optativas Conceitos, histórico (dados, informação e conhecimento). Diretrizes e recomendações básicas e principais abordagens utilizadas na gestão do conhecimento. Criação do conhecimento: formatos e conversões. Facilitadores do trabalho com o formato tácito e explícito do conhecimento. Aplicações da tecnologia da informação na gestão do conhecimento. Aplicação da gestão do conhecimento na organização por meio de seus processos empresariais."
+    },
+    {
+      "id": "EQA5219",
+      "code": "EQA5219",
+      "name": "Indústrias de Óleos, Gorduras e Bebidas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EQA5322"
+      ],
+      "equivalents": [
+        "ENQ1219",
+        "ENQ5219"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5322"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1219"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5219"
+          }
+        ]
+      },
+      "syllabus": "Organizações Reações e propriedades dos óleos e gorduras. Transporte e armazenamento das matérias primas oleaginosas. Extração de óleos e gorduras. Refinação e hidrogenação. Equipamentos, instalações industriais e serviços de suporte. Cálculo dos rendimentos e custos industriais. Aproveitamento de sub-produtos e tratamento de resíduos. Recepção e controle da matéria prima para produção de bebidas. Estocagem. Processamento de bebidas não alcoolicas fermentadas e destiladas."
+    },
+    {
+      "id": "EQA5220",
+      "code": "EQA5220",
+      "name": "Alimentos, Tecnologia e Sociedade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1500
+      },
+      "prerequisiteHours": 1500,
+      "syllabus": "Relações da Ciência e Tecnologia com a Sociedade. Desenvolvimento da sociedade contemporânea. Aspectos econômicos, éticos, sociais, ambientais e políticos do desenvolvimento científico e tecnológico. Desenvolvimento tecnológico e a segurança alimentar. Produção de alimentos. Recursos naturais e as demandas da sociedade. Alimentos e sustentabilidade."
+    },
+    {
+      "id": "EQA5226",
+      "code": "EQA5226",
+      "name": "Fermentações Industriais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução. Processos fermentativos. Producão de biomassa. Produção de alcóois. Produção de solventes. Produção de ácidos. Produção de polissacarídeos. Produção de antibióticos. Produção de vitaminas. Produção de enzimas. Transformações de esteróides."
+    },
+    {
+      "id": "EQA5230",
+      "code": "EQA5230",
+      "name": "Segurança em Indústria",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Acidentes em plantas. Segurança no transporte de substâncias químicas. Equipamentos de proteção individual e coletivo. Prevenções de acidentes com líquidos combustíveis e inflamáveis. Requisitos básicos em projetos para prevenções de acidentes. Normas e legislação básica sobre segurança. Algumas propriedades dos produtos químicos."
+    },
+    {
+      "id": "EQA5323",
+      "code": "EQA5323",
+      "name": "Desenvolvimento de Produtos Alimentícios",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo do desenvolvimento de novos produtos: matéria-prima, composição, operações unitárias, resíduos, embalagem e estimativa de rendimento e custo. Desenvolvimento de um produto por equipes de estudantes."
+    },
+    {
+      "id": "EQA5408",
+      "code": "EQA5408",
+      "name": "Cálculo de Reatores I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EQA5318"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5318"
+      },
+      "syllabus": "Cinética das reações homogêneas. Introdução ao Cálculo de Reatores. Equações básicas dos reatores. Comparação de reatores de mistura e tubular. Combinação de reator tubular e de mistura. Reatores ideais não isotérmicos. Reatores não ideais."
+    },
+    {
+      "id": "EQA5425",
+      "code": "EQA5425",
+      "name": "Tópicos Especiais em Fenômenos de Transferência e Operações Unitárias",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aprofundamento e desdobramento de matéria na área de operações unitárias e fenômenos de transferência."
+    },
+    {
+      "id": "EQA5426",
+      "code": "EQA5426",
+      "name": "Tópicos Especiais em Engenharia Química",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Biocombustíveis: Histórico; Combustíveis Convencionais; Conceitos, Mercado de Créditos de Carbono; Biocombustíveis Sólidos, Líquidos e Gasosos; Matérias Primas; Biodiesel; Etanol; Tecnologias de Produção; Sustentabilidade; Desafios e Potencialidades."
+    },
+    {
+      "id": "EQA5427",
+      "code": "EQA5427",
+      "name": "Tópicos Especiais em Engenharia de Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "I Estudo do desenvolvimento de novos produtos: matéria-prima, composição, operações unitárias, resíduos, embalagem e estimativa de rendimento e custo. Desenvolvimento de um produto por equipes de estudantes."
+    },
+    {
+      "id": "EQA5428",
+      "code": "EQA5428",
+      "name": "Tópicos Especiais em Química e Engenharia de Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EQA5510",
+      "code": "EQA5510",
+      "name": "Estágio Curricular (não obrigatório)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2400
+      },
+      "prerequisiteHours": 2400,
+      "syllabus": "Estágio supervisionado com carga horária miníma de 180 horas, em indústria ou instituição de pesquisa relacionados a área de Engenharia Química. Atividade individual orientada por um docente do departamento. Entrega de relatório das atividades desenvolvidas."
+    },
+    {
+      "id": "EQA5511",
+      "code": "EQA5511",
+      "name": "Iniciação Científica em Engenharia de Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2400
+      },
+      "prerequisiteHours": 2400,
+      "syllabus": ""
+    },
+    {
+      "id": "EQA5561",
+      "code": "EQA5561",
+      "name": "Introdução à Engenharia Genômica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5220"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5220"
+      },
+      "syllabus": "Fundamentos de bioquímica. Biologia molecular e Biologia celular. Conceitos e ferramentas de bioinformática. Análise de dados de sequenciamento genômico, genomica, proteômica e metabolômica. Fundamentos de engenharia metabólica. Regulação gênica. Análise de vias matabólicas e regulatórias. Conceitos e aplicações de engenharia genômica."
+    },
+    {
+      "id": "EQA5562",
+      "code": "EQA5562",
+      "name": "Aplicação de Ferramentas Computacionais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EQA5415"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5415"
+      },
+      "syllabus": "O papel dos métodos numéricos na engenharia química. Ferramentas computacionais disponíveis e sua utilização na área de engenharia. Resolução de modelos não lineares físico-químicos e biológicos empregando-se métodos numéricos e ferramentas computacionais."
+    },
+    {
+      "id": "EQA5612",
+      "code": "EQA5612",
+      "name": "Estágio Supervisionado em Industria de Alimentos II",
+      "credits": 10,
+      "hours": 150,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ENQ1612",
+        "ENQ5612"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2800
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENQ1612"
+          },
+          {
+            "kind": "course",
+            "code": "ENQ5612"
+          }
+        ]
+      },
+      "prerequisiteHours": 2800,
+      "syllabus": "na Solução de Problemas de Eng. Química INE5202 eh Estágio supervisionado em indústria ou instituição de ensino e pesquisa, relacionadas a área de alimentos. Atividade individual orientada por um docente da instituição."
+    },
+    {
+      "id": "EQA5801",
+      "code": "EQA5801",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Programa de Intercâmbio O aluno interessado em participar do Programa de Intercâmbio, nos termos da Resolução n°007/CUn/1999 deverá encaminhar requerimento do Colegiado do Curso."
+    },
+    {
+      "id": "EQA5802",
+      "code": "EQA5802",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EQA5801"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5801"
+      },
+      "syllabus": "_"
+    },
+    {
+      "id": "EQA5803",
+      "code": "EQA5803",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EQA5802"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5802"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE7881"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE7881"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "EQA5325",
+      "code": "EQA5325",
+      "name": "Físico-Química da Água nos Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EQA5318"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5318"
+      },
+      "syllabus": "A molécula de água. Interação da água com os constituintes e com a estrutura dos alimentos. Atividade de água, isotermas de sorção de umidade, diagramas de fase. Efeito da água sobre as cinéticas das transformações. Mobilidade da água nos alimentos. Influência da água na textura dos alimentos. A água durante os processos de transformação dos alimentos."
+    },
+    {
+      "id": "MTM5801",
+      "code": "MTM5801",
+      "name": "H Cálculo I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM5161"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5801
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5161"
+      },
+      "prerequisiteHours": 5801,
+      "syllabus": "PAM - Programa Avançado de Matemática Números: propriedades básicas, valor absoluto, desigualdades, números naturais, inteiros, racionais e reais. Funções reais de uma variável real: gráficos, limites, continuidade, ínfimo e supremo, existência de máximo de uma função contínua em um intervalo fechado. Derivada: diferenciação, significado da derivada, convexidade, derivada da função inversa. Integral: somas de Riemann, Teorema fundamental do cálculo. Funções trigonométricas, logarítmica e exponencial. Aplicações numéricas. Uso de pacotes."
+    },
+    {
+      "id": "MTM5802",
+      "code": "MTM5802",
+      "name": "H Cálculo II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM3102",
+        "MTM3120",
+        "MTM5162",
+        "MTM5801"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5162"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5801"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 5802
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5162"
+          }
+        ]
+      },
+      "prerequisiteHours": 5802,
+      "syllabus": "Integral, Técnicas de Integração, Aproximações por Polinômios, Seqüências e Séries, Convergência Uniforme."
+    },
+    {
+      "id": "MTM5803",
+      "code": "MTM5803",
+      "name": "H Cálculo III",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM5802"
+      ],
+      "equivalents": [
+        "MTM3103",
+        "MTM5163"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5802"
+          },
+          {
+            "kind": "hours",
+            "hours": 5803
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5163"
+          }
+        ]
+      },
+      "prerequisiteHours": 5803,
+      "syllabus": "Sistemas de coordenadas: cartesianas, polares, cilíndricas, esféricas, mudança de coordenadas. Funções reais de várias variáveis: gráficos, limite, continuidade, derivação, gradiente, derivada direcional. Funções vetoriais: campos de vetores, divergente, rotacional, cálculo diferencial vetorial. Derivadas de ordem superior: teorema de Taylor, extremos de funções reais, multiplicadores de Lagrange, teorema da função implícita. Integrais duplas: integração sobre diversos tipos de regiões, mudança na ordem de integração. Uso de pacotes. Aplicações numéricas."
+    },
+    {
+      "id": "MTM5804",
+      "code": "MTM5804",
+      "name": "H-Cálculo IV",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM5803"
+      ],
+      "equivalents": [
+        "MTM5166"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5803"
+          },
+          {
+            "kind": "hours",
+            "hours": 5804
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5166"
+      },
+      "prerequisiteHours": 5804,
+      "syllabus": "Integrais de Curva e Superfícies, Teoremas de Integração da Análise Vetorial, Aplicações."
+    },
+    {
+      "id": "MTM5811",
+      "code": "MTM5811",
+      "name": "H-Álgebra I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM5512"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5811
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5512"
+      },
+      "prerequisiteHours": 5811,
+      "syllabus": "Vetores em R2 e R3. Produto interno. Produto vetorial no R3. Retas no R2 e R3. Planos no R3. Produtos mistos no R3. Sistemas lineares. Matrizes. Determinantes. Uso de pacotes. Aplicações numéricas."
+    },
+    {
+      "id": "MTM5812",
+      "code": "MTM5812",
+      "name": "H-Álgebra II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM5811"
+      ],
+      "equivalents": [
+        "MTM5245"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5811"
+          },
+          {
+            "kind": "hours",
+            "hours": 5812
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5245"
+      },
+      "prerequisiteHours": 5812,
+      "syllabus": "Espaços vetoriais. Bases e dimensão. Transformações lineares. Produto interno. Bases ortonormais. Decomposição QR. Autovalores e autovetores de um operador linear. Métodos numéricos para cálculo de autovalores e autovetores. Matrizes autoadjuntas e o teorema espectral. Identificação de cônicas em R2 e quádricas em R3. Uso de pacotes. Aplicações numéricas."
+    },
+    {
+      "id": "MTM5813",
+      "code": "MTM5813",
+      "name": "H-Álgebra III",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM5812"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5812"
+          },
+          {
+            "kind": "hours",
+            "hours": 5813
+          }
+        ]
+      },
+      "prerequisiteHours": 5813,
+      "syllabus": "Autovalores e autovetores: aplicações, Matrizes definidas positivas, Computação com matrizes, Programação linear , Uso de pacotes computacionais"
+    },
+    {
+      "id": "MTM5814",
+      "code": "MTM5814",
+      "name": "H-Análise Linear",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM5813"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5813"
+          },
+          {
+            "kind": "hours",
+            "hours": 5814
+          }
+        ]
+      },
+      "prerequisiteHours": 5814,
+      "syllabus": "Convergência em Espaços Euclidianos. Teoria Geral das EDO. Transformada de Laplace. Séries de Fourier. Problemas de fronteira para EDO e EDP. Uso de Pacotes."
+    },
+    {
+      "id": "QMC5406",
+      "code": "QMC5406",
+      "name": "Físico-Química Teórica B",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Soluções. Azeótropos. Regra da alavanca. Lei de Henry. Lei de Raoult. Equilíbrio entre fases. Conceito de atividade. Condutância nos eletrólitos. Eletroquímica. Células eletroquímica. Fenômenos de superfície. Noções de cinética química."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EGR5617",
+      "EQA5105",
+      "FSC5101",
+      "GMT5617",
+      "INE5201",
+      "MTM3110",
+      "QMC5152",
+      "FSC5002",
+      "FSC5122",
+      "MIP5102",
+      "MTM3120",
+      "MTM3121",
+      "QMC5222",
+      "QMC5350",
+      "EMC5131",
+      "FSC5113",
+      "MTM3103",
+      "MTM3131",
+      "QMC5229",
+      "QMC5411",
+      "QMC5450",
+      "CAL5403",
+      "EQA5318",
+      "FSC5114",
+      "FSC5123",
+      "INE5108",
+      "MTM3104",
+      "QMC5220",
+      "CAL5401",
+      "EQA5341",
+      "EQA5415",
+      "FIT5301",
+      "INE5202",
+      "NTR5106",
+      "QMC5351",
+      "CAL5402",
+      "CAL5404",
+      "EQA5221",
+      "EQA5313",
+      "EQA5322",
+      "EQA5342",
+      "EQA5416",
+      "EPS5211",
+      "EQA5218",
+      "EQA5316",
+      "EQA5332",
+      "EQA5417",
+      "EQA5520",
+      "PSI5112",
+      "EQA5216",
+      "EQA5217",
+      "EQA5225",
+      "EQA5312",
+      "EQA5333",
+      "EQA5613",
+      "CAL5405",
+      "EQA5309",
+      "EQA5509",
+      "EQA5521",
+      "EQA5533",
+      "EQA5616",
+      "EQA5611",
+      "EQA5621",
+      "QMC5406"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 108,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "EGC5013",
+              "EQA5219",
+              "EQA5220",
+              "EQA5226",
+              "EQA5230",
+              "EQA5323",
+              "EQA5408",
+              "EQA5425",
+              "EQA5426",
+              "EQA5427",
+              "EQA5428",
+              "EQA5510",
+              "EQA5511",
+              "EQA5561",
+              "EQA5562",
+              "EQA5612",
+              "EQA5801",
+              "EQA5802",
+              "EQA5803",
+              "LSB7244",
+              "EQA5325",
+              "MTM5801",
+              "MTM5802",
+              "MTM5803",
+              "MTM5804",
+              "MTM5811",
+              "MTM5812",
+              "MTM5813",
+              "MTM5814"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 108
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "215",
+    "curriculumCode": "19911",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=215&curriculo=19911",
+    "sha256": "0b6176304e5f6908288a8a52dd74fd83fa7f51029d51e760aa036fab2e452e91",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -1,0 +1,839 @@
+{
+  "program": "CIÊNCIA E TECNOLOGIA [Campus de Joinville]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.1",
+  "totalHours": 2880,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EMB5001",
+      "code": "EMB5001",
+      "name": "Cálculo Diferencial e Integral I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções sobre funções de uma variável real. Limite e continuidade. Derivada. Aplicações de Derivada. Integral definida e indefinida - Método da substituição e Integração por partes."
+    },
+    {
+      "id": "EMB5005",
+      "code": "EMB5005",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matrizes. Determinantes. Sistemas lineares. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies."
+    },
+    {
+      "id": "EMB5036",
+      "code": "EMB5036",
+      "name": "Química para engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5006"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5006"
+      },
+      "syllabus": "Sistema internacional de unidades. Átomos e moléculas. Ligações químicas e estrutura molecular. Equações químicas. Estequiometria. Soluções aquosas. Termoquímica. Eletroquímica: oxidaçãoredução, células eletroquímicas, equação de Nernst, eletrólise. Siderurgia: Obtenção do ferro gusa e do aço. Aços especiais. Polímeros: estrutura química, propriedades, aplicações. Cerâmicas: cerâmicas tradicionais e avançadas, propriedades, aplicações. Compósitos. Corrosão metálica: tipos e formas, meios corrosivos, mecanismos de proteção, monitoramento. Combustíveis e combustão. Química Ambiental. Atividades Laboratoriais."
+    },
+    {
+      "id": "EMB5055",
+      "code": "EMB5055",
+      "name": "Representação Gráfica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5035"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5035"
+      },
+      "syllabus": "Noções fundamentais para elaboração e interpretação de esboços e desenhos técnicos. Fundamentos de Desenho Geométrico. Desenho Projetivo. Normas para desenho (ABNT). Cotagem. Escalas. Desenho de objetos no 1º e 3º diedros. Perspectiva Isométrica. Aplicação das projeções nos desenhos de engenharia por meio manual e computacional."
+    },
+    {
+      "id": "EMB5060",
+      "code": "EMB5060",
+      "name": "Projeto Conhecer e Integrar",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Contextualização à vida acadêmica: a universidade, o curso, o currículo, os serviços de apoio, os laboratórios, prevenção e combate a incêndios e desastres. Métodos científicos na resolução de problemas envolvendo a ciência, tecnologia e sociedade. Valorizar a cidadania, meio ambiente e o desenvolvimento da autoestima. Introdução à atividade profissional: especificação, projeto, construção de protótipos e testes. Redação de relatórios técnicos, exposição oral e interface acadêmica com o sistema de ensino fundamental e médio.",
+      "extensionHours": 72
+    },
+    {
+      "id": "EMB5648",
+      "code": "EMB5648",
+      "name": "Programação I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5600"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5600"
+      },
+      "syllabus": "Introdução a arquitetura de computadores. Lógica de programação: formalização de problemas com representação em pseudocódigo (algoritmos) e fluxograma, tipos de dados, estruturas de seleção e repetição, fluxo de execução, modularização (funções e procedimentos), estruturas de dados homogêneas (vetores e matrizes). Introdução a apontadores. Arquivos. Implementação prática de algoritmos em uma linguagem de alto nível."
+    },
+    {
+      "id": "EMB5012",
+      "code": "EMB5012",
+      "name": "Desenho e Modelagem Geométrica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5055"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5055"
+      },
+      "syllabus": "Sistemas CAD, metodologia para modelamento de produtos tridimensionais. Práticas com software CAD. Técnicas de modelamento sólido. Modelamento de produtos, geração de desenho de engenharia, normas de desenho técnico, desenho de conjunto, montagem, lista de materiais."
+    },
+    {
+      "id": "EMB5022",
+      "code": "EMB5022",
+      "name": "Ciência dos Materiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001",
+        "EMB5036"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5001"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5036"
+          }
+        ]
+      },
+      "syllabus": "Introdução a Ciência e Engenharia dos Materiais – materiais aplicados na engenharia. Tipos, classificação e aplicações dos diversos materiais. Estrutura atômica e ligações inter-atômicas. Materiais cristalinos e não cristalinos. Imperfeições nos sólidos. Difusão. Processos metalográficos. Diagramas de equilíbrio. Comportamento mecânico e dinâmico dos materiais. Falhas, fratura, fadiga e fluência. Estrutura e propriedades dos materiais metálicos, cerâmicos e poliméricos. Introdução a compósitos."
+    },
+    {
+      "id": "EMB5029",
+      "code": "EMB5029",
+      "name": "Cálculo Diferencial e Integral II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5001"
+      },
+      "syllabus": "Métodos de integração. Aplicações da integral definida. Integrais impróprias. Funções de várias variáveis. Derivadas parciais. Aplicações das derivadas parciais. Integração múltipla."
+    },
+    {
+      "id": "EMB5048",
+      "code": "EMB5048",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5034"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5034"
+      },
+      "syllabus": "Unidades de medidas e vetores. Cinemática. Leis de Newton e aplicações. Trabalho e energia potencial. Conservação da energia. Conservação do momento linear e angular. Rotação de corpos rígidos e rolamento. Atividades Laboratoriais."
+    },
+    {
+      "id": "EMB5070",
+      "code": "EMB5070",
+      "name": "Projeto Relacionar e Promover",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 54
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "O autoconhecimento e a inteligência emocional nas intervenções com forças de caráter. Ética, moral, valores e as relações com a sociedade. Desenho universal. Riscos e impactos tecnológicos na construção dos papeis sociais. Sensibilidade e expressão cultural. Aprender a aprender.",
+      "extensionHours": 54
+    },
+    {
+      "id": "EMB5039",
+      "code": "EMB5039",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001",
+        "EMB5048"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5001"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5048"
+          }
+        ]
+      },
+      "syllabus": "Gravitação. Estática e dinâmica de fluidos. Oscilações. Ondas mecânicas e acústicas. Temperatura. Calor. Teoria cinética dos gases. Leis da termodinâmica. Máquinas térmicas. Refrigeradores. Entropia. Atividades Laboratoriais."
+    },
+    {
+      "id": "EMB5056",
+      "code": "EMB5056",
+      "name": "Ergonomia e Segurança",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5026"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5026"
+      },
+      "syllabus": "Conceitos básicos. Fisiologia do trabalho. Antropometria e Biomecânica. Processos Cognitivos. Dispositivos de informação. Percepção e processamento da informação. Manejo e controles. Metodologias de análise ergonômica. Ergonomia do produto. Variáveis ambientais: iluminação, ruído, vibrações, temperatura. Análise ergonômica do trabalho. Segurança do trabalho."
+    },
+    {
+      "id": "EMB5057",
+      "code": "EMB5057",
+      "name": "Estatística I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001"
+      ],
+      "equivalents": [
+        "EMB5010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5001"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5010"
+      },
+      "syllabus": "Estatística descritiva e análise exploratória de dados. Teoria da probabilidade. Variáveis aleatórias discretas e contínuas, e suas principais distribuições de probabilidade. Estimação de parâmetros. Teste de hipóteses para parâmetros: média, proporção e variância. Comparação entre dois tratamentos."
+    },
+    {
+      "id": "EMB5102",
+      "code": "EMB5102",
+      "name": "Processo de Fabricação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5022"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5022"
+      },
+      "syllabus": "Classificação e descrição sumária dos diversos processos de fabricação. Fundamento dos processos de fundição contínua e em moldes: principais parâmetros, ferramentas, máquinas e equipamentos, campo de aplicações. Fundamento dos processos de conformação de materiais metálicos (laminação, forjamento, trefilação, extrusão e estampagem): principais parâmetros, ferramentas, máquinas e equipamentos, campo de aplicações. Fundamentos de metalurgia do pó: sinterização. Fundamentos dos processos de usinagem: torneamento, furação, fresamento, retificação, eletroerosão. Principais parâmetros dos processos de usinagem. Ferramentas de corte: materiais, revestimentos e geometrias, desgaste. Qualidade de superfícies após processo específico de fabricação, erros dimensionais. Máquinas e equipamentos. Introdução ao Comando Numérico Computadorizado (CNC). Introdução a programação e simulação da usinagem CNC e integração entre sistemas CAD\\CAM\\CNC."
+    },
+    {
+      "id": "EMB5049",
+      "code": "EMB5049",
+      "name": "Física Experimental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5039"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5039"
+      },
+      "syllabus": "Realização e análise de experimentos compreendendo os seguintes tópicos: Mecânica, ondas, oscilações, termodinâmica, eletricidade e magnetismo."
+    },
+    {
+      "id": "EMB5058",
+      "code": "EMB5058",
+      "name": "Estatística II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5057"
+      },
+      "syllabus": "Estimação de parâmetros pelo método da máxima verossimilhança. Regressão linear simples e múltipla: estimação de parâmetros e teste de hipóteses, predição para novas observações, analise da adequação do modelo, correlação. Introdução a Modelos Lineares Generalizados (MLG): família exponencial de distribuições, elementos básicos, principais MLGs para dados discretos, Estimação de parâmetros e teste de hipóteses, avaliação do ajuste do modelo. Aplicações com uso de ferramentas computacionais."
+    },
+    {
+      "id": "EMB5059",
+      "code": "EMB5059",
+      "name": "Metodologia de Projeto",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Introdução: contexto e importância do projeto de produtos. Modelos do processo e planejamento do projeto de produtos/serviços. Métodos e ferramentas para a especificação de problemas de projeto e de concepção de produtos/serviços. Projeto preliminar: modelagem, análise e simulação de soluções de projeto. Projeto detalhado. Técnicas de prototipagem. Desenvolvimento de projetos com a Comunidade. Técnicas e conceitos de Desenho Universal em projetos de engenharia.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMB5113",
+      "code": "EMB5113",
+      "name": "Modelagem de Sistemas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 800,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 800,
+      "syllabus": "Introdução à engenharia de sistemas. Formalismos de modelagem de sistemas discretos. Formalismos de modelagem de software (UML)."
+    },
+    {
+      "id": "EMB5120",
+      "code": "EMB5120",
+      "name": "Gestão e Organização",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 800
+      },
+      "prerequisiteHours": 800,
+      "syllabus": "Histórico da teoria geral da administração. Abordagens básicas e evolução do pensamento administrativo. Conceito de Administração e funções administrativas. Gestão da Produção e Operações. Estratégia de Produção e Operações. Noções de Planejamento e Controle da Produção. Just in Time e Operações Enxutas. Gestão da Qualidade. Gestão de Pessoas. Noções de Empreendedorismo."
+    },
+    {
+      "id": "EMB5054",
+      "code": "EMB5054",
+      "name": "Relações Interpessoais nas Organizações",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5120"
+      },
+      "syllabus": "Formação da personalidade e dos papéis organizacionais. A importância do autoconhecimento na dinâmica cognitiva e emocional das relações interpessoais. Inteligência emocional. Historicidade, contemporaneidade e características sociais na construção do eu. As atividades laborais e os papéis sociais. A importância da comunicação na constituição dos indivíduos e dentro das organizações. Relações interpessoais e dinâmica organizacional. Ética e Moralidade. Líderes e Liderança."
+    },
+    {
+      "id": "EMB5061",
+      "code": "EMB5061",
+      "name": "Metrologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5033"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5033"
+      },
+      "syllabus": "Conceitos fundamentais da metrologia científica e industrial; Sistema Internacional de Unidades; Medições diretas e Indiretas; Erros de medição; Características dos sistemas de medição; Calibração e rastreabilidade metrológica;Estimativa de incerteza de medição; Comprovação metrológica;Práticas em laboratório (grandezas mecânicas e elétricas)."
+    },
+    {
+      "id": "EMB5067",
+      "code": "EMB5067",
+      "name": "Gestão da Qualidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5120"
+      ],
+      "equivalents": [
+        "EMB5357"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5120"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5357"
+      },
+      "syllabus": "A Evolução do conceito e as dimensões da qualidade; Fundamentos e princípios da gestão da qualidade; Abordagem de risco no planejamento estratégico e operacional; Normas de Sistemas de Gestão da Qualidade e o processo de certificação; Auditorias de sistema, de processo e de produto; Manutenção e Melhoria Contínua na gestão da qualidade; Normas setoriais de sistemas de gestão da qualidade."
+    },
+    {
+      "id": "EMB5961",
+      "code": "EMB5961",
+      "name": "Engenharia Econômica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5057"
+          },
+          {
+            "kind": "hours",
+            "hours": 800,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 800,
+      "syllabus": "Fundamentos de economia. Princípios básicos de Engenharia Econômica. Matemática financeira. Investimento e modalidades de financiamento. Bases para comparação de alternativas de investimento. Impostos e depreciação. Análise da relação: custo x volume x lucro (ACVL). Análise de sensibilidade. Análise de substituição de equipamentos. Análise de alternativas sob condições de risco e incerteza. Tópicos de Finanças e investimentos. Utilização de simulação na Engenharia Econômica em estudo de caso."
+    },
+    {
+      "id": "EMB5974",
+      "code": "EMB5974",
+      "name": "Pesquisa Operacional I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5005"
+      ],
+      "equivalents": [
+        "EMB5905"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5005"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5905"
+      },
+      "syllabus": "Introdução: histórico, objetivos, restrições e modelos. Formulação de modelos de programação linear. Solução gráfica. Solução algébrica. Método simplex. Dualidade. Análise de sensibilidade. Problemas lineares especiais: Problema de transportes; Problema de atribuição; Problema de caminho mínimo; Problema de fluxo máximo. Ferramentas computacionais para solução de problemas."
+    },
+    {
+      "id": "EMB5977",
+      "code": "EMB5977",
+      "name": "Logística I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5120"
+      ],
+      "equivalents": [
+        "EMB5215"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5120"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5215"
+      },
+      "syllabus": "Conceitos: Logística, Logística de Suprimentos, Logística de Distribuição e Logística Integrada. Logística reversa. Cadeia de Suprimentos. Processos da Cadeia de Suprimentos. Gestão da Cadeia de Suprimentos. Nível de Serviço Logístico. Indicadores de Desempenho. Tecnologias e Processos da Cadeia de Suprimentos."
+    },
+    {
+      "id": "EMB5080",
+      "code": "EMB5080",
+      "name": "Projeto Comunicar e Gerar",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Experiência universitária e a transição para o mercado profissional. A representação da criatividade e suas funções sociais para ciência, tecnologia e sociedade. Riscos e Impactos tecnológicos e ambientais. Vivência em produtos e/ou processos com demanda real para propositiva de soluções. Entender a formação interdisciplinar aplicada à atividade de final de curso.",
+      "extensionHours": 72
+    },
+    {
+      "id": "EMB5320",
+      "code": "EMB5320",
+      "name": "Empreendedorismo e Inovação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5120"
+      },
+      "syllabus": "Conceito de inovação. Tipos de inovação. Estratégias de Inovação. A inovação como um processo organizacional. Mecanismos de fomento e cooperação em pesquisa e desenvolvimento. Empreendedorismo. Características, tipos e habilidades do empreendedor. Plano de Negócios: etapas, processos e elaboração."
+    },
+    {
+      "id": "EMB5350",
+      "code": "EMB5350",
+      "name": "Controle Estatístico da Qualidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [
+        "EMB5385"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5057"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5385"
+      },
+      "syllabus": "Fundamentos e métodos estatísticos aplicáveis ao controle da qualidade e à melhoria continua. Controle estatístico do processo e análise da capacidade: compreensão da variação, gráficos de controle para variáveis e para atributos, índices de capacidade, gráficos de controle para aplicações específicas. Análise dos sistemas de medição: impacto da variação do sistema de medição na inspeção do produto e no controle do processo, medidas de posição e de variação, avaliação gráfica. Planos de amostragem na inspeção por atributo. Planejamento de experimentos: diretrizes gerais, planejamento fatorial, análise estatística; análise dos resíduos."
+    },
+    {
+      "id": "EMB5978",
+      "code": "EMB5978",
+      "name": "Logística II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5058",
+        "EMB5977"
+      ],
+      "equivalents": [
+        "EMB5932"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5058"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5977"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5932"
+      },
+      "syllabus": "Gestão de materiais. Previsão de Demanda. Introdução ao Planejamento de Vendas e operações. Planejamento e controle da produção. Noções de Teoria das restrições. Dimensionamento e controle de estoques. Custos relacionados aos Estoques. Desenvolvimento e avaliação de fornecedores."
+    },
+    {
+      "id": "EMB5984",
+      "code": "EMB5984",
+      "name": "Processos Estocásticos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5057",
+        "EMB5974"
+      ],
+      "equivalents": [
+        "EMB5940"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5057"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5974"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5940"
+      },
+      "syllabus": "Processos Estocásticos: definição, cadeias de Markov e matriz de transição. Teoria de Filas: sistemas M/M/1, M/M/c e M/M/c/k. Simulação: geração de números pseudoaleatórios; formulação de modelos de simulação; validação de modelos; ferramentas de simulação. Ferramentas computacionais para solução de problemas."
+    },
+    {
+      "id": "EMB5992",
+      "code": "EMB5992",
+      "name": "Planejamento Estratégico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5120"
+      },
+      "syllabus": "Contextualização e definição de Estratégia. Teorias de Estratégia. Planejamento Estratégico, Tático e Operacional. Modelos para a formulação, implementação e avaliação do Planejamento Estratégico."
+    },
+    {
+      "id": "EMB5096",
+      "code": "EMB5096",
+      "name": "Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Intercâmbio acadêmico efetuado em instituição parceira da UFSC, para desenvolvimento de atividades técnico-científicas em instituições nacionais ou internacionais."
+    },
+    {
+      "id": "EMB5097",
+      "code": "EMB5097",
+      "name": "Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Intercâmbio acadêmico efetuado em instituição parceira da UFSC, para desenvolvimento de atividades técnico-científicas em instituições nacionais ou internacionais."
+    },
+    {
+      "id": "EMB5098",
+      "code": "EMB5098",
+      "name": "Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Intercâmbio acadêmico efetuado em instituição parceira da UFSC, para desenvolvimento de atividades técnico-científicas em instituições nacionais ou internacionais."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "EMB5000",
+      "code": "EMB5000",
+      "name": "Atividades Complementares",
+      "credits": 16,
+      "hours": 288,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades complementares"
+    },
+    {
+      "id": "EMB5122",
+      "code": "EMB5122",
+      "name": "Atividades de Extensão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Ações de Extensão Atividades de Extensão"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EMB5001",
+      "EMB5005",
+      "EMB5036",
+      "EMB5055",
+      "EMB5060",
+      "EMB5648",
+      "EMB5012",
+      "EMB5022",
+      "EMB5029",
+      "EMB5048",
+      "EMB5070",
+      "EMB5039",
+      "EMB5056",
+      "EMB5057",
+      "EMB5102",
+      "EMB5049",
+      "EMB5058",
+      "EMB5059",
+      "EMB5113",
+      "EMB5120",
+      "EMB5054",
+      "EMB5061",
+      "EMB5067",
+      "EMB5961",
+      "EMB5974",
+      "EMB5977",
+      "EMB5080",
+      "EMB5320",
+      "EMB5350",
+      "EMB5978",
+      "EMB5984",
+      "EMB5992"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 936,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "EMB5096",
+              "EMB5097",
+              "EMB5098",
+              "LSB7244",
+              "EMB5000",
+              "EMB5122"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "601",
+    "curriculumCode": "20251",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=601&curriculo=20251",
+    "sha256": "2a34cab131ca74426e1c5a974d9091195019413e238a8fc9934305de29a1ef24",
+    "capturedAt": "2026-09-22"
+  }
+}

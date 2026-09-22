@@ -1,0 +1,2455 @@
+{
+  "program": "OCEANOGRAFIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2008.1",
+  "totalHours": 3966,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "BEG7004",
+      "code": "BEG7004",
+      "name": "Biologia Celular",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG7002",
+        "OCN7002"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7002"
+          },
+          {
+            "kind": "course",
+            "code": "OCN7002"
+          }
+        ]
+      },
+      "syllabus": "Diversidade celular. Organização da célula procarionte e eucarionte. Evolução celular. Aspectos morfológicos, bioquímicos e funcionais da célula e de seus revestimentos e de seus compartilhamentos subcelulares. Integração morfofuncional dos diferentes componentes celulares. Métodos de estudo em biologia celular."
+    },
+    {
+      "id": "BEG7005",
+      "code": "BEG7005",
+      "name": "Genética Básica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG7002",
+        "OCN7002"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7002"
+          },
+          {
+            "kind": "course",
+            "code": "OCN7002"
+          }
+        ]
+      },
+      "syllabus": "Base cromossômica da hereditariedade. Transmissão do material genético. Interações genéticas. Determinação gênica do sexo e herança ligada ao sexo. Ligação e recombinação. Noções de herança quantitativa."
+    },
+    {
+      "id": "DGL8005",
+      "code": "DGL8005",
+      "name": "Geologia Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7028",
+        "GCN8005"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7028"
+          },
+          {
+            "kind": "course",
+            "code": "GCN8005"
+          }
+        ]
+      },
+      "syllabus": "Processos geradores de minerais e rochas tanto a nível interno da crosta como aqueles que se desenvolvem na interface crosta/biosfera/atmosfera."
+    },
+    {
+      "id": "ECZ7110",
+      "code": "ECZ7110",
+      "name": "Fundamentos de Zoologia Marinha",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ECZ7001"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ7001"
+      },
+      "syllabus": "- Introdução à Zoologia. Noções de embriologia. Morfologia e anatomia (estruturas, adaptações e funções), distribuição, ciclos de vida, aspectos comportamentais e ecológicos, e sistemáticos da fauna de ambientes aquáticos."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3101",
+        "MTM5161"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "OCN7027",
+      "code": "OCN7027",
+      "name": "Introdução à Oceanografia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7000",
+        "GCN7027"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7000"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7027"
+          }
+        ]
+      },
+      "syllabus": "Organização do curso de Bacharelado em Oceanografia na UFSC. Ciências do Mar na UFSC. Conceituação e divisões da Oceanografia. História da Oceanografia. Meios flutuantes e instrumentação. Panorama da Oceanografia no Brasil e mercado de trabalho. Pesquisa oceanográfica (fontes bibliográficas e redação técnica)."
+    },
+    {
+      "id": "QMC5125",
+      "code": "QMC5125",
+      "name": "Química Geral Experimental A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. ConfiguraçãoEletrônica. Orbital Atômico. Ligações químicas: iônicas, covalentes, metálicas. Leis dos gases. Conceito de Mol. Funções químicas. Misturas. Soluções. Concentração de soluções. Equações químicas. Reações redox. Introdução ao Equilíbrio químico; ácidos ebases; ph. Calor de reação. Introdução á Termoquímica."
+    },
+    {
+      "id": "QMC5151",
+      "code": "QMC5151",
+      "name": "Química Básica para Oceanografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrutura da matéria. Estrutura atômica e molecular. Estequiometria. Propriedades dos gases. Termoquímica. Ligações químicas. Compostos iônicos e covalentes. Termodinâmica. Forças intermoleculares. Equilíbrio Químico. Soluções, solubilidade e concentração. Reações de oxi-redução. Sais em água. Introdução à Cinética Química."
+    },
+    {
+      "id": "BOT5150",
+      "code": "BOT5150",
+      "name": "Fundamentos da Botânica",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7004"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7004"
+      },
+      "syllabus": "Conceitos e definições em Botânica. Noções sobre taxonomia. O âmbito da Botânica Marinha. Principais grupos de produtores primários marinhos. Origem, evolução, caracterização e ecofisiologia dos produtores primários marinhos. Importância econômica de produtores primários marinhos. Reconhecimento morfológico e taxonômico de cianobactérias, algas e fanerógamas marinhas.-"
+    },
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC5064"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5064"
+      },
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "MIP7100",
+      "code": "MIP7100",
+      "name": "Microbiologia Marinha",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7004"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7004"
+      },
+      "syllabus": "-Introdução à microbiologia. Nutrição,crescimento e controle de microrganismos.Virus Marinhos - histórico,propriedades gerais,mecanismos de ação dos virus, técnicas de identificação e quantificação de virus marinhos para patógenos e no ambiente pelágico,interação dos vírus com bactérias e protistas na cadeias marinhas - ciclos biogeoquímicos:Bactéria e Arcahaea marinhas - caracterização estrutural,fisiológica e genética, técnica de quantificação,microrganismos extremófilos,papel nas cadeias alimentares e ciclos biogeoquímicos;Alça microbiana e alça viral em ecossistemas marinhos.Tipos metabólicos de microrganismo marinhos,importância sanitária e bioctecnológica dos microrganismos.Avaliação de qualidade microbiológica da água do mar."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3112",
+        "MTM5245"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3112"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5245"
+          }
+        ]
+      },
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "MTM5245",
+      "code": "MTM5245",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3111"
+      ],
+      "equivalents": [
+        "MTM5245"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3111"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5245"
+      },
+      "syllabus": "Espaço vetorial. Transformações lineares. Mudança de base. Produto interno. Transformações ortogonais. Autovalores e autovetores de um operador. Diagonalização. Aplicação da Álgebra linear às ciências."
+    },
+    {
+      "id": "OCN7010",
+      "code": "OCN7010",
+      "name": "Navegação e Marinharia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7010"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7010"
+      },
+      "syllabus": "Tipos e métodos de navegação; precisão requerida e intervalo de tempo entre posições. Distâncias na superfície da terra; a milha náutica; loxodromia e ortodromia. a direção do mar; rumos e marcações. A velocidade no mar. Outras unidades de medida utilizadas em navegação. Mapas e cartas; o problema da representação da Terra sobre uma superfície plana. Seleção do sistema de projeção; condições desejáveis em uma representação da superfície da terra sobre um plano. Classificação dos sistemas de projeções; designação dos sistemas de projeções. Projeções utilizadas em cartografia náutica; a projeção de Mercator. A carta náutica; utilização e interpretação de uma carta náutica na projeção de Mercator . O plano cartográfico náutico brasileiro. Planejamento e traçado da derrota. Determinação da posição no mar. Técnicas da navegação costeira. Noções básicas de marinharia."
+    },
+    {
+      "id": "OCN7029",
+      "code": "OCN7029",
+      "name": "Fisiografia e Evolução dos Fundos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL8005"
+      ],
+      "equivalents": [
+        "GCN7002"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL8005"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7002"
+      },
+      "syllabus": "Caracterização da litosfera e diferenças entre a crosta oceânica e continental. Tectonismo. Espalhamento do fundo oceânico. Deriva continental. Ciclo dos oceanos. Formação das bacias oceânicas. Províncias fisiográficas dos oceanos. Margem Continental brasileira."
+    },
+    {
+      "id": "QMC5327",
+      "code": "QMC5327",
+      "name": "Química Analítica Teórica para Oceanografia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5125",
+        "QMC5151"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5125"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5151"
+          }
+        ]
+      },
+      "syllabus": "Oceânicos GCN7029) GCN7028 ou Introdução à análise química. Equilíbrio químico em sistemas homogêneos. Fundamentos da análise volumétrica. Volumetria de neutralização. Equilíbrio químico em sistemas heterogêneos. Volumetria de precipitação. Equilíbrio e volumetria de óxido-redução. Equilíbrio e volumetria de complexação. Fundamentos da análise gravimétrica."
+    },
+    {
+      "id": "ECZ7002",
+      "code": "ECZ7002",
+      "name": "Ecologia Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "BOT5150",
+        "ECZ7001",
+        "ECZ7110"
+      ],
+      "equivalents": [
+        "OCN7005"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BOT5150"
+              },
+              {
+                "kind": "course",
+                "code": "ECZ7001"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BOT5150"
+              },
+              {
+                "kind": "course",
+                "code": "ECZ7110"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "OCN7005"
+      },
+      "syllabus": "Introdução à Zoologia. Noções de embriologia. Morfologia e anatomia (estruturas, adaptações e funções), distribuição, ciclos de vida, aspectos comportamentais e ecológicos, e sistemáticos da fauna de ambientes aquáticos."
+    },
+    {
+      "id": "FSC5002",
+      "code": "FSC5002",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC5064",
+        "FSC5112"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5064"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5112"
+          }
+        ]
+      },
+      "syllabus": "Estudo da Cinemática e Dinâmica da rotação de corpos rígidos. Oscilações e ondas Mecânicas(som). Estática e Dinãmica dos Fluídos. Noções sobre temperatura, calor, princípios da Termodiâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3101",
+        "MTM3110",
+        "MTM5161"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM3111",
+        "MTM5512",
+        "MTM5162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5512"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM5162"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5512"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5162"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "OCN7041",
+      "code": "OCN7041",
+      "name": "Oceanografia Física Descritiva",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3100",
+        "MTM3110"
+      ],
+      "equivalents": [
+        "GCN7041"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3100"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7041"
+      },
+      "syllabus": "Noções básica sobre a circulação atmosférica. Circulação oceânica. Calor e Temperatura: Espectro da Radiação Solar, Balanço de Calor na Superfície da Terra, Balanço de Calor nos Oceanos, Distribuições Horizontais e Verticais de Temperatura, Termoclinas, Variações Temporais do Campo de Temperatura. Água e Salinidade: Conservação de volume, Ciclo Hidrológico, Conservação de Sal, Salinidade Distribuições Horizontais e Verticais de Salinidade, Haloclinas, Variações Temporais do Campo de Salinidade. Pressão e Densidade: Conceitos, Efeitos da Temperatura da Salinidade, da Pressão sobre a Densidade, Equação do Estado da Água do Mar, Volume Específico, Distribuições Horizontais e Verticais de Densidade, Picnoclinas, Estabilidade Vertical. Massas de Água, Fundamentos da Termodinâmica da Água do Mar, Diagramas T-S, Métodos de Análises de Massas de Água. Circulação Termo-halina e distribuição de Massas de Água nos Oceanos. Acústica Submarina, Propagação do Som na Água do Mar, Diagramas de Raio, Instrumentos."
+    },
+    {
+      "id": "OCN7108",
+      "code": "OCN7108",
+      "name": "Análise de Dados Oceanográficos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3101",
+        "MTM3110",
+        "MTM5161"
+      ],
+      "equivalents": [
+        "GCN7008"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7008"
+      },
+      "syllabus": "Conceitos e métodos aplicados a aquisição, análise e interpretação de dados oceanográficos. População e amostra. Níveis de mensuração de variáveis. Amostragem. Organização e apresentação dos dados: tabelas e gráficos. Estatística Descritiva. Distribuições de Probabilidade. Testes de Hipóteses. Análise de Variância. Correlação e regressão lineares."
+    },
+    {
+      "id": "QMC5206",
+      "code": "QMC5206",
+      "name": "Química Orgânica Básica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Hibridização. Isomeria. Conformações. Grupos Funcionais. Hidrocarbonetos alifáticos e aromáticos. Funções oxigenadas: Alcóois, éteres, esteres, aldeídos, cetonas e ácidos carboxílicos. Hidratos de carbono. Funções nitrogenadas: aminas, amidas, aminoácidos, proteínas. Polímeros e outros compostos de interesse biológico e tecnológico."
+    },
+    {
+      "id": "QMC5328",
+      "code": "QMC5328",
+      "name": "Química Análitica Experimental para Oceanografia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5327"
+      ],
+      "equivalents": [
+        "QMC5313"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5327"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5313"
+      },
+      "syllabus": "Equilíbrio químico em sistemas homogêneos. Introdução a análise volumétrica. Volumetria de neutralização. Volumetria de precipitação. Volumetria de óxido- redução. Volumetria de complexação. Análise gravimétrica. Noções de análise instrumental: técnicas aplicadas à análise de águas."
+    },
+    {
+      "id": "BOT7009",
+      "code": "BOT7009",
+      "name": "Fitoplâncton",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "BOT5150",
+        "ECZ7110"
+      ],
+      "equivalents": [
+        "BOT7010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5150"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7110"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BOT7010"
+      },
+      "syllabus": "Organismos autótrofos (fotossintéticos e quimiossintéticos) e heterótrofos. Fotossíntese, produção primária e fatores limitantes. Diversidade do fitoplâncton marinho. Classificação ecológica do zooplâncton, diversidade e adaptações. Distribuição espaço-temporal do zooplâncton, migração vertical, cadeias alimentares pelágicas, camada de dispersão profunda. As relações fito-zooplâncton e massas de água. Métodos de estudo do fitoplâncton e zooplâncton."
+    },
+    {
+      "id": "BQA7007",
+      "code": "BQA7007",
+      "name": "Bioquímica Marinha",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7004",
+        "MIP7100"
+      ],
+      "equivalents": [
+        "BQA7004",
+        "BQA7009"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7004"
+          },
+          {
+            "kind": "course",
+            "code": "MIP7100"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA7004"
+          },
+          {
+            "kind": "course",
+            "code": "BQA7009"
+          }
+        ]
+      },
+      "syllabus": "Química e importância biológica de aminoácidos, proteínas, carboidratos e lipídeos. Enzimas: cinética e inibição. Coenzimas e Vitaminas. Energética bioquímica e visão geral do metabolismo de organismos marinhos. Metabolismo de carboidratos, lipídeos, aminoácidos e proteínas em organismos marinhos. Interrelações e regulação metabólica. Bioquímica da fotossíntese: fotofosforilação e fixação de carbono em organismos marinhos. Estratégias alternativas de metabolismo e obtenção de energia em organismos marinhos."
+    },
+    {
+      "id": "ECZ7010",
+      "code": "ECZ7010",
+      "name": "Zooplâncton",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECZ7002"
+      },
+      "syllabus": "-Classificação ecológica do zooplâncton, diversidade e adaptações. Distribuição espaçotemporal do zooplâncton, migração vertical e cadeias alimentares pelágicas. As relações fitozooplâncton e massas de água. Zooplâncton e mudanças globais. Zooplâncton ao largo da costa brasileira. Métodos de estudo do zooplâncton: amostragem no campo a bordo de embarcação e processamento de amostras em laboratório."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5163"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5163"
+          }
+        ]
+      },
+      "syllabus": "-Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "OCN7011",
+      "code": "OCN7011",
+      "name": "Biogeoquímica Marinha",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7002",
+        "QMC5328"
+      ],
+      "equivalents": [
+        "GCN7011"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7002"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5328"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7011"
+      },
+      "syllabus": "Entradas, transformações e distribuição da matéria inorgânica na água do mar: carbono, fósforo, nitrogênio e metais; produção, distribuição e oxidação da matéria orgânica no oceano; os fluxos na interface atmosfera-oceano e terra-oceano; acoplamento água-sedimento em áreas rasa e profundas, Isótopos estáveis e radiativos. Métodos de estudos."
+    },
+    {
+      "id": "OCN7015",
+      "code": "OCN7015",
+      "name": "Geomática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7008",
+        "OCN7108"
+      ],
+      "equivalents": [
+        "GCN7015"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7008"
+          },
+          {
+            "kind": "course",
+            "code": "OCN7108"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7015"
+      },
+      "syllabus": "Conceituação e evolução das Geotecnologias. Fontes de Dados. Elementos de Cartografia. Sistemas de Aquisição de Dados (GPS e Sensoriamento Remoto). Visualização de dados espaciais. Interpolação de dados Oceanográficos. Sistemas de Informação Geográfica."
+    },
+    {
+      "id": "OCN7019",
+      "code": "OCN7019",
+      "name": "Métodos em Oceanografia Geológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7008",
+        "OCN7108"
+      ],
+      "equivalents": [
+        "GCN7019"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7008"
+          },
+          {
+            "kind": "course",
+            "code": "OCN7108"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7019"
+      },
+      "syllabus": "Instrumentos, métodos e aquisição de dados em oceanografia geológica discutidos em trabalho de campo embarcado. Análise composicional, física e estrutural dos sedimentos marinhos. Estatísticas e propostas de classificações associadas à distribuição das classes granulométricas e energia do agente de transporte. Métodos de datação e determinação das taxas de sedimentação. Paleoindicadores de processos sedimentares e oceanográficos."
+    },
+    {
+      "id": "BOT7011",
+      "code": "BOT7011",
+      "name": "Fitobentos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECZ7002"
+      },
+      "syllabus": "-Componentes/Adaptações. Importância do substrato-sedimento. Associação de espécies em comunidades/Diversidade. História de vida: reprodução/ estratégias r e k. Métodos de estudo do bentos. Distribuição espacial: Bentos estuarino/ Marisma/ Manguezal. Zona entre marés. Plataforma continental. Ambientes vegetados da plataforma continental. Recifes de coral. Bentos na Antártica. Influência do homem sobre o ambiente marinho. Processos biológicos: produção primária no bentos."
+    },
+    {
+      "id": "ECZ7020",
+      "code": "ECZ7020",
+      "name": "Zoobentos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECZ7002"
+      },
+      "syllabus": "Características do relevo submarino: origem e configuração atual; tipos de substratos disponíveis: consolidados, inconsolidados, biológicos e antrópicos. Diversidade e categorias ecológicas dos invertebrados bentônicos marinhos: modos de alimentação e tipos de relações dos organismos comos substratos. Ciclos de vida de espécies representativas da fauna bentônica. Associação de espécies em comunidades/associações e taxocenoses; distribuição espacial: variações nos gradientes de profundidade e latitudinais. Recifes de corais e estuários, formações vegetadas sublitorais e da região entre marés. Características físico-químicas dos sedimentos. Granulometria. Métodos, técnicas e padronizações de estudos em ecologia bentônica. Impactos antropogênicos sobre os ecossistemas bentônicos e atividades produtivas como pesca e maricultura."
+    },
+    {
+      "id": "ECZ7037",
+      "code": "ECZ7037",
+      "name": "Fisiologia dos Animais Marinhos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ECZ7036",
+        "ECZ7203"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7036"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7203"
+          }
+        ]
+      },
+      "syllabus": "-Conhecimentos teóricos e práticos acerca da fisiologia de organismos marinhos de modo comparativo em termos evolutivos e filogenéticos. Mecanismos e estratégias fisiológicas de organismos marinhos. Aspectos da correlação dos mecanismos e estratégias com a ecologia dos organismos marinhos. Aspectos homeostáticos, sistêmicos, regulatórios e efetores dos organismos marinhos como um todo."
+    },
+    {
+      "id": "OCN7012",
+      "code": "OCN7012",
+      "name": "Geoquímica Orgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7011",
+        "OCN7011"
+      ],
+      "equivalents": [
+        "GCN7012"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7011"
+          },
+          {
+            "kind": "course",
+            "code": "OCN7011"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7012"
+      },
+      "syllabus": "Composição Química da Atmosfera Primitiva. Produção Primária. Matéria Orgânica na Geosfera. Diagênese. Catagênese. Formação do Petróleo. Carvão. Biomarcadores Geoquímicos. Técnicas Analíticas de Separação e Análise. Ciclo do Carbono. Variações Paleoclimáticas. Composição Isotópica. Poluentes Orgânicos. Técnicas Analíticas de Separação e Análise de petróleo."
+    },
+    {
+      "id": "OCN7042",
+      "code": "OCN7042",
+      "name": "Fenômeno de Transporte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "MTM3103",
+        "MTM3120"
+      ],
+      "equivalents": [
+        "ENS5104",
+        "GCN7042"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3103"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5104"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7042"
+          }
+        ]
+      },
+      "syllabus": "Definição de sólidos e gases. A hipótese do contínuo. Fenômeno do transporte. Hidrostática. Pressão em fluido estático. Tensão superficial. Noções de termodinâmica e compressibilidade. Primeira e segunda leis da termodinâmica. Cinética de fluidos. Especificações lagrangiana e euleriana. Derivada material. Linhas de corrente. Trajetórias e streaklines. Vorticidade e circulação. Escoamentos. Função de corrente e potencial de velocidade. Noções de tensores cartesianos. Leis de conservação: Conservação da massa; Conservação do momento linear; As equações de Navier-Stokes; Equações de Conservação Complementares: Conservação de Sal e Calor; Equação de Bernoulli."
+    },
+    {
+      "id": "OCN7043",
+      "code": "OCN7043",
+      "name": "Interação Oceano Atmosfera",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "OCN7041"
+      ],
+      "equivalents": [
+        "ENS5321",
+        "GCN7043"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "OCN7041"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5321"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7043"
+          }
+        ]
+      },
+      "syllabus": "Introdução ao sistema climático: atmosfera, oceano e superfície terrestre. Balanço de energia global. Balanço de radiação na atmosfera. Balanço de energia na superfície. Ciclo hidrológico. Circulação geral da atmosfera e o clima. Circulação geral dos oceanos e o clima. Sistemas Atmosféricos. História e evolução do clima da Terra. Sensibilidade climática e mecanismos de retroalimentação. Modelos globais climáticos. Mudanças climáticas naturais. Mudanças climáticas antrópicas. Clima da América do Sul. Fenômeno El NiñoOscilação Sul e impactos no clima."
+    },
+    {
+      "id": "OCN7103",
+      "code": "OCN7103",
+      "name": "Sedimentologia Marinha",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7019",
+        "OCN7019"
+      ],
+      "equivalents": [
+        "GCN7003"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7019"
+          },
+          {
+            "kind": "course",
+            "code": "OCN7019"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7003"
+      },
+      "syllabus": "Intemperismo e ciclo sedimentar. Tipos de sedimentos e suas possíveis classificações. Influência da evolução tectônica e dos eventos trans-regressivos do nível relativo do mar nos processos sedimentares. Processos dinâmicos no meio marinho. Sistemas deposicionais oceânicos e transicionais. Atividade prática (saída de campo) de reconhecimento de ambientes deposicionais da Ilha de Santa Catarina. Elementos de estratigrafia. Bacias sedimentares."
+    },
+    {
+      "id": "ECZ7004",
+      "code": "ECZ7004",
+      "name": "Ecossistemas Marinhos e Conservação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Ecossistemas marinhos como sistemas complexos, propriedades. Introdução aos principais ecossistemas oceânicos e costeiros. Características físicas e biológicas. Estrutura e função (biodiversidade, produtividade, teias tróficas, ciclagem). Serviços Ecossistêmicos. Impactos ambientais locais e globais. Mudanças de fase, espécies invasoras, crise da biodiversidade, resiliência. Valores e estratégias para a conservação: de espécies ao Manejo Baseado em Ecossistemas (EBM). Unidades de Conservação e SNUC. Abordagem de exemplos práticos relacionados a problemáticas de conservação na região."
+    },
+    {
+      "id": "ECZ7030",
+      "code": "ECZ7030",
+      "name": "Necton",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECZ7002"
+      },
+      "syllabus": "Caracterização dos cefalópodas e dos principais grupos de vertebrados marinhos. Caracterização dos principais habitats ocupados pelos cefalópodas e vertebrados marinhos. Sistemática e evolução de cefalópodas, peixes e tetrápodas marinhos. Noções de embriologia anatomia e fisiologia (respiração, circulação, metabolismo, excreção, osmorregulação, órgãos dos sentidos, movimento, controle e integração). As comunidades nectônicas. Alimentação, crescimento e mortalidade de vertebrados marinhos. Fases iniciais do ciclo de vida de peixes e tetrápodas marinhos. Migração. Distribuição zoogeográfica. Adaptações ao ambiente. Funções ecológicas. Conservação. Métodos de estudo das comunidades nectônicas."
+    },
+    {
+      "id": "OCN7013",
+      "code": "OCN7013",
+      "name": "Poluição Marinha",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "OCN7011"
+      ],
+      "equivalents": [
+        "GCN7013"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "OCN7011"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7013"
+      },
+      "syllabus": "Definição de poluição. Caracterização de poluentes. Efeitos biológicos e não-biológicos da poluição. Poluição na água. Poluição e recursos naturais, população. Necessidade de controle. Medidas preventivas e corretivas. Alterações físico-químicas do ambiente. Monitoramento."
+    },
+    {
+      "id": "OCN7044",
+      "code": "OCN7044",
+      "name": "Oceanografia Dinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7042",
+        "OCN7042"
+      ],
+      "equivalents": [
+        "ENS5322",
+        "GCN7044"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7042"
+          },
+          {
+            "kind": "course",
+            "code": "OCN7042"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5322"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7044"
+          }
+        ]
+      },
+      "syllabus": "A estrutura geofísica dos oceanos: a importância dinâmica da estratificação e da rotação; o efeito de Coriolis. Equações da continuidade e do movimento nos oceanos: conservação da massa e continuidade de volume; as equações de Navier-Stokes num sistema referencial não inercial. Elementos de análise de escalas: as aproximações do plano f, beta e tradicional; aproximação de Boussinesq. O movimento geostrófico: o número de Rossby; as equações da corrente geostrófica; componentes barotrópicas e baroclínicas das correntes geostróficas; a equação do vento térmico; pressão e geopotencial; o método dinâmico. Vorticidade: vorticidade relativa, planetária e conservação da vorticidade potencial. Teoria de Ekman: forças de atrito em um oceano turbulento; bombeamento de Ekman; ressurgência e subsidência. Modelos oceânicos de circulação: Modelos de Sverdrup, Stommel e Munk; a intensificação das correntes de contorno oeste. Circulação termohalina dos oceanos: circulação do oceano profundo; modelo de Stommel e Arons."
+    },
+    {
+      "id": "OCN7104",
+      "code": "OCN7104",
+      "name": "Geofísica Marinha",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7004"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7004"
+      },
+      "syllabus": "Histórico do desenvolvimento da geofísica marinha. Noções de estrutura interna da Terra e propriedades físicas dos minerais e rochas. Ondas sísmicas nos oceanos. Ecossondagem e sonar de varredura lateral. Reflexão e refração. Noções de magnetometria e gravimetria."
+    },
+    {
+      "id": "BEG7000",
+      "code": "BEG7000",
+      "name": "Genética de Populações e Processos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG7003"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2000
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG7003"
+      },
+      "prerequisiteHours": 2000,
+      "syllabus": "Estrutura genética de populações; Equilíbrio de Hardy-Weinberg; Efeito de gargalo, deriva genética e princípio fundador; População efetiva; Metapopulações Filogeografia e Filogenia; Especiação e Espécies crípticas; Barreiras biogeográficas e sua influência na especiação e estrutura das populações de organismos marinhos. Migração e conectividade de organismos marinhos."
+    },
+    {
+      "id": "ECZ7005",
+      "code": "ECZ7005",
+      "name": "Ecologia Pesqueira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7030",
+        "MTM3101",
+        "MTM3110",
+        "MTM5161",
+        "GCN7008",
+        "OCN7108"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7030"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3101"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3110"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5161"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "GCN7008"
+              },
+              {
+                "kind": "course",
+                "code": "OCN7108"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Evolutivos nos Oceanos Principais grupos de interesse para a pesca; produtividade do ambiente e pesca; fenômenos atmosféricos e pesca. Equipamentos e métodos de pesca: principais artes de pesca; atratores. Exploração dos recursos pesqueiros: atividades internacionais de pesca; produção pesqueira. Dinâmica de população: distribuição e abundância (unidade de estoque; migração; métodos de avaliação de estoque); relações de tamanho (regressão linear, relação peso- comprimento; fator de condição); seletividade do aparelho; crescimento (curva de von Bertalanffy; análise de frequência de comprimento; método de Walford); reprodução e recrutamento para a pesca; mortalidade; padrões do ciclo de vida. Diagnóstico da população: Modelo de sobra de rendimento; Modelo de rendimento por recruta; Modelos de biomassa. Avaliação de estoque e monitoramento: coleta e análise de dados; estimativa de rendimento potencial; monitoramento e manejo da pesca."
+    },
+    {
+      "id": "OCN7014",
+      "code": "OCN7014",
+      "name": "Recursos Minerais Marinhos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7014"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7014"
+      },
+      "syllabus": "Introdução aos recursos minerais marinhos. Técnicas de exploração e explotação dos recursos minerais do mar. Recursos minerais superficiais e de sub-superfície associados aos ambientes da margem continental e bacia oceânica. Recursos minerais na água do mar. Explotação de hidrocarbonetos nas bacias sedimentares oceânicas. Impacto antropogênico da mineração no ambiente marinho. Aspectos legais e econômicos da explotação de recursos minerais em ambiente marinho. Recursos energéticos dos oceanos (energia renováveis)."
+    },
+    {
+      "id": "OCN7016",
+      "code": "OCN7016",
+      "name": "Prática de Extensão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7016"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1800,
+        "courseType": "Ob"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7016"
+      },
+      "prerequisiteHours": 1800,
+      "syllabus": "A política de extensão universitária e o papel da universidade pública na inserção social. Relações étnico-raciais, cultura afro-brasileira e indígena na zona costeira brasileira (Lei Federal 11645/2008; Parecer CNE 03/2004). A relação da Educação Ambiental com as Políticas de Educação Ambiental (Lei nº 9795/1999 e Decreto nº 4.281/2002). Atividade supervisionada por um professor para acompanhamento de projeto de Extensão voltado para a Oceanografia."
+    },
+    {
+      "id": "OCN7045",
+      "code": "OCN7045",
+      "name": "Ondas e Marés",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "OCN7042"
+      ],
+      "equivalents": [
+        "ENS5323",
+        "GCN7045"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "OCN7042"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5323"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7045"
+          }
+        ]
+      },
+      "syllabus": "Ondas de gravidade superficiais: relação de dispersão, aproximações de águas rasas e de águas profundas, geração pelo vento, vagas, marulhos, refração, arrebentação, métodos de análise e de previsão. Ondas de gravidade internas: relação de dispersão, propagação vertical. Ondas influenciadas pela rotação da Terra: Ondas de Poincaré, ondas de Kelvin, ondas de Rossby. Marés: geração, teoria estática, teoria dinâmica, métodos de análise e de previsão."
+    },
+    {
+      "id": "OCN7017",
+      "code": "OCN7017",
+      "name": "Gestão Costeira Integrada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7017"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1800
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7017"
+      },
+      "prerequisiteHours": 1800,
+      "syllabus": "Análise da Zona Costeira como um sistema físico-natural, socioeconômico, jurídico-administrativo e seus principais problemas socioambientais. Análise do histórico da ocupação da zona costeira no Brasil, incluindo o histórico das populações indígenas e afrodescendentes (Lei Federal 11645/2008; Parecer CNE 03/2004). Apresentação e análise da gestão costeira integrada a partir de conceitos, objetivos, princípios, características, processos e instrumentos, fomentando a discussão sobre as políticas públicas para a gestão e conservação da zona costeira, o uso que o homem faz desses recursos e dos espaços costeiros; os conflitos de uso gerados, bem como, as formas de planejar e gerenciar os usos e conflitos. A gestão costeira em outros países, no Brasil, em Santa Catarina e municípios costeiros."
+    },
+    {
+      "id": "OCN7018",
+      "code": "OCN7018",
+      "name": "Metodologia Científica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7004",
+        "GCN7003",
+        "OCN7103",
+        "GCN7013",
+        "OCN7013",
+        "GCN7042",
+        "OCN7042"
+      ],
+      "equivalents": [
+        "GCN7018"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7004"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "GCN7003"
+              },
+              {
+                "kind": "course",
+                "code": "OCN7103"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "GCN7013"
+              },
+              {
+                "kind": "course",
+                "code": "OCN7013"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "GCN7042"
+              },
+              {
+                "kind": "course",
+                "code": "OCN7042"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 2300
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7018"
+      },
+      "prerequisiteHours": 2300,
+      "syllabus": "Filosofia e História da Ciência. Tipos de conhecimento. Procedimentos científicos. Estrutura e normas para a redação de projetos de Pesquisa Científica. Elaboração do projeto de Trabalho de Conclusão de Curso (TCC)."
+    },
+    {
+      "id": "OCN7020",
+      "code": "OCN7020",
+      "name": "Evolução Morfodinâmica de Ambientes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7020"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2300
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7020"
+      },
+      "prerequisiteHours": 2300,
+      "syllabus": "Sistemas Costeiros e Classificação de Costas. Consequências das variações do nível do mar. Noções de ondas e marés. Princípios de transporte de sedimentos e balanço sedimentar. Barreiras arenosas (antepraia, praia e dunas). Costas Rochosas. Gestão de erosão e inundação costeira."
+    },
+    {
+      "id": "OCN7046",
+      "code": "OCN7046",
+      "name": "Hidrodinâmica Costeira e Estuarina",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3131",
+        "OCN7042"
+      ],
+      "equivalents": [
+        "ENS5324",
+        "GCN7046"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3131"
+              },
+              {
+                "kind": "course",
+                "code": "OCN7042"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 7046
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5324"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7046"
+          }
+        ]
+      },
+      "prerequisiteHours": 7046,
+      "syllabus": "Costeiros Equações hidrodinâmicas: Forma 3-D, Condições de contorno, Formas integradas das equações; Dinâmica de maré: Forçantes gravitacionais, Ondas longas, Ondas de plataforma, Maré oceânica, Maré na plataforma; Maré meteorológica: Forçantes meteorológicas, Resposta à pressão atmosférica, Resposta ao vento, Seiches; Dinâmica em água rasa: Harmônicas superiores, processos hidrodinâmicos, Efeito do atrito do fundo sobre perfis de corrente, Fluxos residuais, Interações não lineares; Classificação de estuários: Geomorfológica, Estratificação de salinidade, Outros sistemas marinhos costeiros; Dinâmica estuarina: Causas da mistura em estuários; Mistura na seção transversal, Dispersão longitudinal, Mistura e circulação em casos estacionários."
+    },
+    {
+      "id": "OCN7021",
+      "code": "OCN7021",
+      "name": "Trabalho de Conclusão do Curso I",
+      "credits": 10,
+      "hours": 180,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7018",
+        "OCN7018"
+      ],
+      "equivalents": [
+        "GCN7021"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7018"
+          },
+          {
+            "kind": "course",
+            "code": "OCN7018"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7021"
+      },
+      "syllabus": "Atividade supervisionada por um professor para acompanhamento de projeto de Pesquisa voltado para a Oceanografia."
+    },
+    {
+      "id": "OCN7022",
+      "code": "OCN7022",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 10,
+      "hours": 180,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7021",
+        "OCN7021"
+      ],
+      "equivalents": [
+        "GCN7022"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7021"
+          },
+          {
+            "kind": "course",
+            "code": "OCN7021"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7022"
+      },
+      "syllabus": "Atividade supervisionada por um professor para acompanhamento de projeto de Pesquisa voltado para a Oceanografia."
+    },
+    {
+      "id": "ANT7003",
+      "code": "ANT7003",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplinas Optativas Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Particularidades históricas e processos de diferenciação. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política."
+    },
+    {
+      "id": "AQI7003",
+      "code": "AQI7003",
+      "name": "Fundamentos de Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico e status da Aqüicultura. Noções básicas de anatomia e fisiologia de organismos aquáticos. Qualidade de Água (comportamento e interação dos fatores físicos, químicos). Instalação para aqüicultura. Alimentação natural. Nutrição. Sistemas de cultivo."
+    },
+    {
+      "id": "BEG7006",
+      "code": "BEG7006",
+      "name": "Embriologia de Animais Marinhos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7004"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7004"
+      },
+      "syllabus": "-Modos de reprodução assexuada e sexuada. Estratégias reprodutivas de animais marinhos. Estrutura das gônadas e diversidade dos gametas masculinos e femininos. Tipos de ovos e envelopes ovulares. Fecundação externa e interna. Modos de desenvolvimento externo-interno e direto-indireto. Modelos de clivagem holoblástica e meroblástica. Dinâmica das etapas básicas do desenvolvimento: clivagem, gastrulação, morfogênese e organogênese. Formação e diferenciação dos folhetos embrionários em organismos diblásticos e triblásticos. Eventos da morfogênese e organogênese em animais marinhos invertebrados e vertebrados. Organização morfofuncional dos anexos embrionários."
+    },
+    {
+      "id": "BOT7023",
+      "code": "BOT7023",
+      "name": "Ecotoxicologia e Biorremediação",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT5150",
+        "QMC5327"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5150"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5327"
+          }
+        ]
+      },
+      "syllabus": "-Conceitos Básicos em ecotoxicologia e toxicologia aquática. Agentes químicos: fatores que afetam a concentração ambiental de agentes tóxicos e fatores que influenciam a toxicidade. Aspectos legais dos testes de toxicidade. Técnicas em testes de toxicidades. Testes letais, testes sub-letais. Aplicação dos testes de toxicidade em estudos ambientais. Testes de inibição do crescimento algal. Conceitos básicos em remediação da poluição. Caracterização qualitativa e quantitativa de efluentes. Microbiologia da Biorremediação. Bioindicadores e Sistemas de Sapróbios. Transformação, acumulação e detoxificação de poluentes. Processos convencionais de tratamento de efluentes. Processos de biorremediação in situ e ex situ. Fitorremediação e Ficorremediação."
+    },
+    {
+      "id": "ECZ5110",
+      "code": "ECZ5110",
+      "name": "Ecologia de Ecossistemas Marinhos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução: conceituação e importância dos ecossistemas costeiros marinhos. Tópicos básicos em ecologia. Principais tipos de ecossistemas costeiros marinhos: lagoas, lagunas costeiras, estuário manguezais e marismas, dunas, restingas, praias, recifes de corais e outros ecossistemas. Classificação. Características físicas e biológicas. Estrutura e função(produtividade, ciclagem, etc.).Interações biológicas. Evolução natural. Degradação. Impactos ambientais. Planejamento. Gerenciamento."
+    },
+    {
+      "id": "ECZ7003",
+      "code": "ECZ7003",
+      "name": "Oceanografia por Satélite",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7000"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7000"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7058",
+      "code": "GCN7058",
+      "name": "Geologia Costeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7001",
+        "GCN7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7001"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7002"
+          }
+        ]
+      },
+      "syllabus": "Caracterização geológica, geomorfológica e sedimentológica das unidades litoestratigráficas da planície costeira e análise do potencial de recursos minerais costeiros. Pré-Requisito: GCN 7001 e GCN 7002."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "OCN7047",
+      "code": "OCN7047",
+      "name": "Modelagem Numérica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7042",
+        "OCN7042",
+        "MTM3103",
+        "MTM3120"
+      ],
+      "equivalents": [
+        "ENS5330",
+        "GCN7047"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "GCN7042"
+              },
+              {
+                "kind": "course",
+                "code": "OCN7042"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3103"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5330"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7047"
+          }
+        ]
+      },
+      "syllabus": "aula) Introdução e aspectos gerais da modelagem numérica. Conceitos básicos: estabilidade, consistência e convergência. Esquemas de diferenças finitas. Sistemas de grades alternadas e alinhamento de grades. Condições de contorno computacionais. Instabilidade não linear. Métodos de iniciação de modelos numéricos hidrodinâmicos bi e tridimensionais, lineares e não lineares. Separação dos modos de oscilação internos e externos. Soluções na vertical. O método dos elementos finitos."
+    },
+    {
+      "id": "OCN7048",
+      "code": "OCN7048",
+      "name": "Análise de Séries Temporais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7008",
+        "OCN7108",
+        "MTM3121",
+        "MTM5245"
+      ],
+      "equivalents": [
+        "ENS5332",
+        "GCN7048"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "GCN7008"
+              },
+              {
+                "kind": "course",
+                "code": "OCN7108"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3121"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5245"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENS5332"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7048"
+          }
+        ]
+      },
+      "syllabus": "Conceitos de programação. Introdução ao Matlab. Revisão de álgebra linear. Controle de qualidade de dados. Decomposição de valores singulares. Funções ortogonais empíricas. Regressão linear multivariada. Análise harmônica. O ciclo sazonal. Modos acoplados de variabilidade."
+    },
+    {
+      "id": "OCN7051",
+      "code": "OCN7051",
+      "name": "Energias Renováveis Geofísicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5101"
+      ],
+      "equivalents": [
+        "GCN7051"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7051"
+      },
+      "syllabus": "Introdução sobre as Energias Renováveis. Conceitos de força, energia, potência, conservação de energia e termodinâmica. Conhecimentos gerais sobre estrutura da Atmosfera e Oceanos. Estudo da história, definição, recursos teóricos e técnicos, variabilidade e tecnologias de aproveitamento. Módulos específicos: Energia Hídrica, Energia Eólica, Energia de Marés, Energia de Correntes de Larga Escala, Energia de Ondas e Energia Térmica Oceânica."
+    },
+    {
+      "id": "OCN7052",
+      "code": "OCN7052",
+      "name": "Paleoceanografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7003",
+        "OCN7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7003"
+          },
+          {
+            "kind": "course",
+            "code": "OCN7103"
+          }
+        ]
+      },
+      "syllabus": "Aspectos gerais da paleoceanografia. Métodos e técnicas de datação nos oceanos. Paleoindicadores de processos oceanográficos e as principais mudanças registradas nos sedimentos ao longo do tempo geológico. Evolução geológica e ambiental do Oceano Atlântico Sul."
+    },
+    {
+      "id": "OCN7053",
+      "code": "OCN7053",
+      "name": "Geotecnia Submarina",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7004",
+        "OCN7104"
+      ],
+      "equivalents": [
+        "GCN7053"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7004"
+          },
+          {
+            "kind": "course",
+            "code": "OCN7104"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7053"
+      },
+      "syllabus": "Introdução. Conceitos básicos de Geotecnia Submarina. Análises de Risco Geotécnicos. Papel da Geofísica em projetos de Engenharia Submarina."
+    },
+    {
+      "id": "OCN7054",
+      "code": "OCN7054",
+      "name": "Análise de dados não paramétricos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "OCN7108"
+      ],
+      "equivalents": [
+        "GCN7054"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "OCN7108"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7054"
+      },
+      "syllabus": "Métodos de re-amostragem. Testes de comparação entre amostras. Medidas de associação. Coeficientes de Concordância. Testes de Aderência. Coeficiente de correlação de Spearman. Regressão não paramétrica."
+    },
+    {
+      "id": "OCN7055",
+      "code": "OCN7055",
+      "name": "Princípios de Transporte de Sedimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7020"
+      ],
+      "equivalents": [
+        "GCN7055"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7020"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7055"
+      },
+      "syllabus": "Mecanismos físicos do transporte de sedimentos não-coesivos. Velocidade de sedimentação e seu efeito na concentração de sedimentos. Movimento incipiente dos sedimentos. Transporte de fundo. Formas de fundo e seus efeitos na rugosidade. Transporte de sedimentos em suspensão. Métodos para medição e modelagem numérica do transporte de sedimentos não coesivos."
+    },
+    {
+      "id": "OCN7056",
+      "code": "OCN7056",
+      "name": "Instrumentos de Planejamento de Gestão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7056"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7056"
+      },
+      "syllabus": "Não-Coesivos OCN7020)"
+    },
+    {
+      "id": "OCN7057",
+      "code": "OCN7057",
+      "name": "Gestão de Praias e Turismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7057"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7057"
+      },
+      "syllabus": "Costeira Histórico, fundamentos e características da Gestão de Praias e do Turismo de Sol e Praia. Caráter público e o uso das praias. Instrumentos, normas e certificações de gestão de praias no mundo e no Brasil. Métodos de classificação de praias. Estudos de caso práticos em gestão de praia."
+    },
+    {
+      "id": "OCN7901",
+      "code": "OCN7901",
+      "name": "Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1644
+      },
+      "prerequisiteHours": 1644,
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7902",
+      "code": "OCN7902",
+      "name": "Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "OCN7901"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "OCN7901"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7903",
+      "code": "OCN7903",
+      "name": "Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "OCN7902"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "OCN7902"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7904",
+      "code": "OCN7904",
+      "name": "Intercâmbio IV",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "OCN7903"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "OCN7903"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7940",
+      "code": "OCN7940",
+      "name": "Tópicos Especiais em Oceanografia I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7940"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7940"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7941",
+      "code": "OCN7941",
+      "name": "Tópicos Especiais em Oceanografia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7941"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7941"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7942",
+      "code": "OCN7942",
+      "name": "Tópicos Especiais em Oceanografia III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7943",
+      "code": "OCN7943",
+      "name": "Tópicos Especiais em Oceanografia IV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7944",
+      "code": "OCN7944",
+      "name": "Tópicos Especiais em Oceanografia VI",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7945",
+      "code": "OCN7945",
+      "name": "Tópicos Especiais em Oceanografia VII",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7946",
+      "code": "OCN7946",
+      "name": "Tópicos Especiais em Oceanografia VIII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7947",
+      "code": "OCN7947",
+      "name": "Tópicos Especiais em Oceanografia IX",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "OCN7948",
+      "code": "OCN7948",
+      "name": "Tópicos Especiais em Oceanografia X",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito construindo com a natureza. Princípios de balanço sedimentar. Regra de Bruun. Perfil de equilíbrio. Perfil de equilíbrio em planta. Métodos de análise de risco a erosão e inundação costeira. Classificação de obras costeiras. Medidas de adaptação a erosão e inundação costeira. Método de eliminação de áreas aplicadas a busca de jazidas. Pré-requisito: OCN7020 Evolução Morfodinâmica de Ambientes Costeiros."
+    },
+    {
+      "id": "QMC5351",
+      "code": "QMC5351",
+      "name": "Química Analítica Instrumental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Condutimetria.Potenciometria. Espectroscopia de absorção mlecular no ultravioleta e visível. Espectrometria de absorção atômica. Espectrometria de emissão óptica por plasma indutivamente acoplado (ICP OES) e espectrometria de masssa com plasma indutivamente acoplado (ICP-MS). Fotometria de chama. Cromatografia gasosa. Cromatografia líquida de alta eficiência. Métodos térmicos de análise."
+    },
+    {
+      "id": "OCN7031",
+      "code": "OCN7031",
+      "name": "Embarque Obrigatório",
+      "credits": 6,
+      "hours": 120,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7031"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7031"
+      },
+      "syllabus": "As atividades de Embarque encontram-se fundamentadas pelas de Diretrizes Curriculares para o Curso de Oceanografia, definidas pelo Conselho Nacional de Educação/Câmara de Ensino Superior - CNE/CES, da Secretaria de Educação Superior do Ministério da Educação - SESU/MEC e pelo Projeto Pedagógico do Curso de Oceanografia da UFSC."
+    },
+    {
+      "id": "OCN7032",
+      "code": "OCN7032",
+      "name": "Atividades Técnico-Científico-Culturais",
+      "credits": 6,
+      "hours": 120,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7032"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7032"
+      },
+      "syllabus": "A carga horária em Atividades Técnico-Científico-Culturais é contabilizada avaliando o envolvimento do aluno com atividades extra-aula relacionadas à práticas de ensino, pesquisa e extensão, assim como cursos de curta duração transversais a formação de Oceanógrafo, mas que contribuam para o aprimoramento das suas habilidades profissionais e ampliem sua inserção no mercado de trabalho."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "BEG7004",
+      "BEG7005",
+      "DGL8005",
+      "ECZ7110",
+      "MTM3110",
+      "OCN7027",
+      "QMC5125",
+      "QMC5151",
+      "BOT5150",
+      "FSC5101",
+      "MIP7100",
+      "MTM3121",
+      "MTM5245",
+      "OCN7010",
+      "OCN7029",
+      "QMC5327",
+      "ECZ7002",
+      "FSC5002",
+      "MTM3120",
+      "OCN7041",
+      "OCN7108",
+      "QMC5206",
+      "QMC5328",
+      "BOT7009",
+      "BQA7007",
+      "ECZ7010",
+      "MTM3131",
+      "OCN7011",
+      "OCN7015",
+      "OCN7019",
+      "BOT7011",
+      "ECZ7020",
+      "ECZ7037",
+      "OCN7012",
+      "OCN7042",
+      "OCN7043",
+      "OCN7103",
+      "ECZ7004",
+      "ECZ7030",
+      "OCN7013",
+      "OCN7044",
+      "OCN7104",
+      "BEG7000",
+      "ECZ7005",
+      "OCN7014",
+      "OCN7016",
+      "OCN7045",
+      "OCN7017",
+      "OCN7018",
+      "OCN7020",
+      "OCN7046",
+      "OCN7021",
+      "OCN7022",
+      "OCN7031",
+      "OCN7032"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 144,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ANT7003",
+              "AQI7003",
+              "BEG7006",
+              "BOT7023",
+              "ECZ5110",
+              "ECZ7003",
+              "GCN7058",
+              "LSB7904",
+              "OCN7047",
+              "OCN7048",
+              "OCN7051",
+              "OCN7052",
+              "OCN7053",
+              "OCN7054",
+              "OCN7055",
+              "OCN7056",
+              "OCN7057",
+              "OCN7901",
+              "OCN7902",
+              "OCN7903",
+              "OCN7904",
+              "OCN7940",
+              "OCN7941",
+              "OCN7942",
+              "OCN7943",
+              "OCN7944",
+              "OCN7945",
+              "OCN7946",
+              "OCN7947",
+              "OCN7948",
+              "QMC5351"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 144
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "333",
+    "curriculumCode": "20081",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=333&curriculo=20081",
+    "sha256": "9636de0e10ca98ff42bd3dccc4f0c82707fd66ad6895188cb13bd50edc29c357",
+    "capturedAt": "2026-09-22"
+  }
+}

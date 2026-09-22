@@ -1,0 +1,2885 @@
+{
+  "program": "ODONTOLOGIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2007.1",
+  "totalHours": 5274,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "BEG7001",
+      "code": "BEG7001",
+      "name": "Biologia Celular",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG5102"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5102"
+      },
+      "syllabus": "Níveis de organização da estrutura biológica. Noções básicas de microscopia de luz e eletrônica. Teoria celular. Organização geral de células procarióticas e eucarióticas. Organização estrutural e funcional das células eucarióticas animais. Ciclo celular."
+    },
+    {
+      "id": "BEG7200",
+      "code": "BEG7200",
+      "name": "Introdução à Genética Humana",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Genética Humana: histórico e conceitos. Estrutura e função do material genético. Fundamentos de Genética Humana. Fundamentos de genética molecular. Padrões de herança de caracteres monogênicos: herança autossômica e ligada ao sexo. Variações na expressão dos genes. Padrões não- clássicos de herança."
+    },
+    {
+      "id": "MOR7002",
+      "code": "MOR7002",
+      "name": "Anatomia Humana",
+      "credits": 7,
+      "hours": 126,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MOR5213",
+        "MOR5214"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MOR5213"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5214"
+          }
+        ]
+      },
+      "syllabus": "Introdução ao Estudo da Anatomia. Osteologia geral e especial; Artrologia geral e especial; Miologia geral e especial; Neuroanatomia geral e especial; Sistema Circulatório e vascularização da cabeça; Sistema Respiratório e seios da face; Sistema Digestório; Cavidade bucal e glândulas salivares; Sistema Urinário; Sistema Genital Masculino e Feminino; Sistema Endócrino."
+    },
+    {
+      "id": "MOR7101",
+      "code": "MOR7101",
+      "name": "Histologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MOR5111",
+        "MOR5113",
+        "MOR5116",
+        "MOR5118",
+        "MOR5316",
+        "MOR5317",
+        "MOR7003",
+        "MOR7101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7101
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MOR5111"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5113"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5116"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5118"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5316"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5317"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7003"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7101"
+          }
+        ]
+      },
+      "prerequisiteHours": 7101,
+      "syllabus": "Noções de Técnica Histológica e Microscopia. Tecido Epitelial. Tecido Conjuntivo. Tecido Ósseo e Cartilaginoso. Tecido Muscular. Tecido Nervoso. Sangue. Sistema Circulatório. Sistema Linfático. Sistema Digestivo. Sistema Respiratório. Sistema Urinário. Sistema Endócrino. Sistema Reprodutor Masculino e Feminino."
+    },
+    {
+      "id": "ODT7017",
+      "code": "ODT7017",
+      "name": "Bioética",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao estudo da Bioética. Fundamentos Filosóficos. Modelos de Bioética. Cidadania, Saúde e Ética. Ética na prática cotidiana. Ética na Saúde Coletiva. Ética em Pesquisa."
+    },
+    {
+      "id": "SPO7110",
+      "code": "SPO7110",
+      "name": "Sociologia da Saúde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO7101"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO7101"
+      },
+      "syllabus": "O contexto histórico no surgimento da Sociologia. As abordagens clássicas da Sociologia: Durkheim, Marx e Weber. Sociedade, indivíduo e cultura. Diversidade cultural e relativismo. Relações étnico-raciais. Educação em direitos humanos. Ciências sociais e saúde bucal. O processo saúde-doença. A prática social na Odontologia."
+    },
+    {
+      "id": "BEG7101",
+      "code": "BEG7101",
+      "name": "Embriologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7001",
+        "MOR7002",
+        "MOR7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7001"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7002"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7101"
+          }
+        ]
+      },
+      "syllabus": "Processos de gametogênese e de fecundação. Caracterização dos Períodos do Desenvolvimento Humano. Diferenciação das três camadas germinativas e organização dos sistemas derivados do ectoderma, mesoderma e endoderma. Organização morfo-funcional dos anexos embrionários. Morfogênese do crânio e da face. Desenvolvimento da cavidade oral e dos dentes. Principais malformações buco-maxilo-faciais e estudo dos agentes teratogênicos."
+    },
+    {
+      "id": "BQA7006",
+      "code": "BQA7006",
+      "name": "Bioquímica Aplicada à Odontologia",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7001"
+      ],
+      "equivalents": [
+        "BQA7001",
+        "BQA7003"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7001"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA7001"
+          },
+          {
+            "kind": "course",
+            "code": "BQA7003"
+          }
+        ]
+      },
+      "syllabus": "-Química e importância biológica d as biomoléculas relevantes para a área de odontologia . Bioenergética. Metabolismo dos carboidratos, lipídios e proteínas. Inter - relação metabólica e regulação do metabolismo. Bioquímica da saliva. Bioquímica da placa bacteriana e a cárie dental. Relação entre o metabolismo de carboidratos e aminoácidos dos microorganismos an aeróbicos do meio bucal com o processo da desmineralização e remineralização do dente . Ação bioquímica do fluoreto"
+    },
+    {
+      "id": "CFS7101",
+      "code": "CFS7101",
+      "name": "Fisiologia Humana I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MOR7002",
+        "MOR7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MOR7002"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7101"
+          }
+        ]
+      },
+      "syllabus": "Homeostase; Compartimentos hídricos, dinâmica capilar e edema; organização geral do sistema nervoso; Funcionamento dos neurônios; Funcionamento das sinapses e dos circuitos; Tato, propriocepção geral e oral; Nocicepção e controle da dor; Gustação; Olfato; Audição; Visão; Contração da musculatura lisa e esquelética; Controle voluntário e reflexo do movimento da musculatura esquelética e de articulações; Controle da função viceral (Sistema Nervoso Autônomo); Hipotálamo e sistema líbico; Eixo hipotálamo - hipófise (neurohipófise e adenihipófise) Regulação endócrina do metabolismo basal (hormônio da tireóide); Regulação endócrina do metabolismo energético ( hormônios do pâncreas, das adrenais e hormônio do crescimento); Regulação endócrina das funções reprodutoras (hormônios sexuais) Fisiologia óssea e regulação endócrina da calcemia (paratormômio, calcitonina, vitamina D); Endocrinofisiologia do desenvolvimento e crescimento (tema integrador)."
+    },
+    {
+      "id": "MIP7103",
+      "code": "MIP7103",
+      "name": "Microbiologia Aplicada à Odontologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7001"
+      },
+      "syllabus": "-Morfologia, fisiologia e genética das bactérias e vírus patogênicos ao homem. Principais patologias humanas de origem bacteriano e viral de interesse para Odontologia. Microbiologia do biofilme dentário, da cárie dental, da doença periodontal e endodôntica."
+    },
+    {
+      "id": "MOR7004",
+      "code": "MOR7004",
+      "name": "Anatomia Dentária",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MOR7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MOR7002"
+      },
+      "syllabus": "Introdução ao estudo dos dentes. Dentes permanentes. Dentes decíduos. Anatomia interna dos dentes."
+    },
+    {
+      "id": "MOR7102",
+      "code": "MOR7102",
+      "name": "Histologia Buco-Dental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MOR7002",
+        "MOR7101"
+      ],
+      "equivalents": [
+        "MOR5106"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MOR7002"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7101"
+          },
+          {
+            "kind": "hours",
+            "hours": 7102
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MOR5106"
+      },
+      "prerequisiteHours": 7102,
+      "syllabus": "Embriologia da Face. Odontogênese. Dentinogênese. Amelogênese. Esmalte. Dentina. Polpa Dental. Cemento Dental. Ligamento Periodontal. Osso Alveolar. Mucosa Oral. Movimentos Dentários Fisiológicos. Esfoliação Dental. Articulação Têmporo-Mandibular."
+    },
+    {
+      "id": "ODT7000",
+      "code": "ODT7000",
+      "name": "Biossegurança Aplicada á Odontologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "SPO7101",
+        "SPO7110"
+      ],
+      "equivalents": [
+        "NFR5121",
+        "NFR7003",
+        "STM7000"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPO7101"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7110"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "NFR5121"
+              },
+              {
+                "kind": "course",
+                "code": "NFR7003"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "STM7000"
+          }
+        ]
+      },
+      "syllabus": "Riscos biológicos. Acidentes de trabalho frente à exposição de materiais biológicos. Controle da infecção em artigos e superfícies. Higienização das mãos. Equipamentos de proteção individual. Gerenciamento de resíduos em serviços odontológicos."
+    },
+    {
+      "id": "SPB7111",
+      "code": "SPB7111",
+      "name": "Políticas e Sistemas de Saúde",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "SPO7101",
+        "SPO7110"
+      ],
+      "equivalents": [
+        "SPB7102"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPO7101"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7110"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPB7102"
+      },
+      "syllabus": "História da saúde pública e da odontologia. O SUS (Sistema Único de saúde) - princípios e diretrizes, financiamento e estruturas de funcionamento. Promoção da saúde e educação em saúde. Atenção primária em saúde."
+    },
+    {
+      "id": "BEG7201",
+      "code": "BEG7201",
+      "name": "Genética Humana Aplicada à odontologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7200"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7200"
+      },
+      "syllabus": "Variabilidade genética e doenças. Análises de padrões de transmissão de caracteres monogênicos e multifatoriais. Doenças hereditárias que afetam o complexo oro-crânio-facial. Interações genético-ambientais. Imunogenética. Farmacogenética. Genética na odontologia forense. Testes e aconselhamento genético."
+    },
+    {
+      "id": "CFS7102",
+      "code": "CFS7102",
+      "name": "Fisiologia Humana II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CFS7101"
+      },
+      "syllabus": "Fisiologia do Sistema Digestório: sistemas de regulação de suas funções. Fisiologia da mastigação, deglutição e da motilidade do tubo digestório. Secreções: salivar, gástrica, hepática, pancreática e intestinais: funções e regulação. Processos envolvidos na digestão e absorção de nutrientes. Absorção de água, eletrólitos e de Vitaminas. Fisiologia do Sistema Cardiovascular: propriedades elétricas do coração e débito cardíaco. Hemodinâmica. Regulação da Pressão Arterial no curto e longo prazo. Fisiologia Renal: filtração glomerular e sua regulação. As principais funções de reabsorção e secreção tubulares renais. Regulação renal do equilíbrio hidrossalino e do volume do extracelular. Regulação renal do pH sangüíneo. Fisiologia do Sistema Respiratório: funções e regulação das vias aéreas. Mecânica ventilatória. Troca gasosa e transporte de gases. Regulação da Respiração."
+    },
+    {
+      "id": "FMC7001",
+      "code": "FMC7001",
+      "name": "Farmacologia Aplicada à Odontologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA7006",
+        "CFS7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA7006"
+          },
+          {
+            "kind": "course",
+            "code": "CFS7101"
+          }
+        ]
+      },
+      "syllabus": "Estudo das bases da farmacologia geral, farmacocinética, farmacodinâmica para aplicação prática em odontologia."
+    },
+    {
+      "id": "MIP7004",
+      "code": "MIP7004",
+      "name": "Imunologia Aplicada à Odontologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7001",
+        "MOR7002",
+        "MOR7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7001"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7002"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7101"
+          }
+        ]
+      },
+      "syllabus": "-Propriedades gerais do sistema imune; tecidos e órgãos linfóides; imunidade inata e adaptativa; complemento (vias e função); imunidade humoral; imunidade celular; imunoensaios para fins diagnósticos; hipersensibilidades; autoimunidade; transplantes; soros e vacinas; imunodeficiências; imunologia da cárie e doenças periodontais."
+    },
+    {
+      "id": "ODT7101",
+      "code": "ODT7101",
+      "name": "Materiais Dentários I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS7101",
+        "ODT7000"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS7101"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          }
+        ]
+      },
+      "syllabus": "Plano de ensino. Introdução ao estudo dos Materiais Dentários. Estrutura da matéria e princípios da adesão. Propriedades dos Materiais Dentários. Biocompatibilidade dos Materiais Dentários. Hidrocolóides para moldagem. Gessos odontológicos. Cimentos odontológicos (forramento, restauração e cimentação). Cimentos de Ionômero de vidro e correlatos. Produtos à base de Hidróxido de cálcio. Sistemas adesivos. Resinas compostas. Amálgama dental. Materiais para acabamento e polimento. Materiais para clareamento dental. Materiais para higiene bucal e prevenção."
+    },
+    {
+      "id": "PTL7002",
+      "code": "PTL7002",
+      "name": "Patologia Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS7101"
+      ],
+      "equivalents": [
+        "PTL5129"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CFS7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PTL5129"
+      },
+      "syllabus": "Generalidades sobre Patologia. Manifestações celulares à agressão. Patologia do meio ambiente. O processo inflamatório. Distúrbios da hemodinâmica e dos mecanismos hídricos. Processos proliferativos e da diferenciação."
+    },
+    {
+      "id": "SPB7112",
+      "code": "SPB7112",
+      "name": "Introdução à Epidemiologia e Bioestatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "SPB7102",
+        "SPB7111"
+      ],
+      "equivalents": [
+        "SPB7103"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPB7102"
+          },
+          {
+            "kind": "course",
+            "code": "SPB7111"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPB7103"
+      },
+      "syllabus": "Breve histórico, conceitos básicos e aplicações da epidemiologia; Tipos de estudos epidemiológicos; Epidemiologia descritiva; Metodologia de inquéritos populacionais; Trabalho de campo; Tipos de variáveis; Organização dos dados; Apresentação tabular e gráfica; Medidas de tendência central; Medidas de dispersão; Noções de amostragem; Distribuição normal; Intervalo de confiança; Diferenças entre médias; Diferenças entre proporções."
+    },
+    {
+      "id": "ODT7002",
+      "code": "ODT7002",
+      "name": "Estomatologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7201",
+        "FMC7001",
+        "MIP7103",
+        "MOR7004",
+        "PTL7002"
+      ],
+      "equivalents": [
+        "STM5135",
+        "STM7002"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7201"
+          },
+          {
+            "kind": "course",
+            "code": "FMC7001"
+          },
+          {
+            "kind": "course",
+            "code": "MIP7103"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7004"
+          },
+          {
+            "kind": "course",
+            "code": "PTL7002"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "STM5135"
+          },
+          {
+            "kind": "course",
+            "code": "STM7002"
+          }
+        ]
+      },
+      "syllabus": "Anamnese; Exame físico; Sinais vitais; Exames complementares; Lesões fundamentais; Semiologia da síndrome da imunodeficiência adquirida; Estudo da saliva; Semiologia do hálito e da face. Avaliação da saúde do paciente de forma integral e suas repercussões diretas ou indiretas na Odontologia. Semiotécnica do exame clínico do paciente. Compreendendo anamnese, exame físico extra e intra-bucal. Solicitação e interpretação de exames complementares radiográficos, histopatológicos, citológic e laboratoriais. Diagnóstico clínico, diferencial e definitivo de enfermidades. Avaliação dos riscos e cuidados especiais durante os procedimentos odontológicos. Tratamento e proservação de lesões bucais. Controle de enfermidades sistêmicas. Prevenção e diagnóstico precoce do câncer bucal."
+    },
+    {
+      "id": "ODT7004",
+      "code": "ODT7004",
+      "name": "Ergonomia Aplicada à Odontologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS7102",
+        "ODT7000"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS7102"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Ergonomia . Doenças de Caráter Ocupacional. Segurança e Saúde do Trabalhador"
+    },
+    {
+      "id": "ODT7021",
+      "code": "ODT7021",
+      "name": "Radiologia I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MOR7002",
+        "MOR7004",
+        "ODT7000",
+        "PTL7002"
+      ],
+      "equivalents": [
+        "ODT7003"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MOR7002"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7004"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "PTL7002"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ODT7003"
+      },
+      "syllabus": "Introdução à Radiologia Odontológica; Técnicas radiográficas intrabucais; Processamento radiográfico; Produção, natureza e propriedades dos raios-X; Fatores que interferem na produção da imagem radiográfica; Técnicas radiográficas extrabucais; Técnicas radiográficas especiais com filmes convencionais; Efeitos biológicos dos raio-X; Proteção contra os raios-X; Radiografia Digital; Tomografia Computadorizada, Tomografia de Feixe Cônico; Ressonância Magnética."
+    },
+    {
+      "id": "ODT7102",
+      "code": "ODT7102",
+      "name": "Materiais Dentários II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7101"
+          }
+        ]
+      },
+      "syllabus": "Plano de ensino. Godivas. Pastas de óxido de zinco e eugenol para moldagem. Resinas sintéticas. Elastômeros para moldagem (mercaptana ou polissulfeto, poliéter, silicona por condensação e silicona por adição). Ceras odontológicas. Revestimentos para fundição odontológica. Procedimentos de fundição em Odontologia. Procedimentos de soldagem em Odontologia. Ligas metálicas para fundição odontológica. Cerâmicas odontológicas. Materiais para implantes dentários."
+    },
+    {
+      "id": "ODT7111",
+      "code": "ODT7111",
+      "name": "Terapêutica Medicamentosa I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS7102",
+        "FMC7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS7102"
+          },
+          {
+            "kind": "course",
+            "code": "FMC7001"
+          }
+        ]
+      },
+      "syllabus": "Introdução à farmacologia clínica. Conceitos básicos. Formas farmacêuticas. Prescrição medicamentosa (receituário e receita). Vias de administração (enterais e parenterais). Processos farmacocinéticos e farmacodinâmicos. Anestésicos locais. Farmacologia da dor e inflamação (fisiopatologia). Princípios gerais do uso dos analgésicos, antiinflamatórios e antibióticos: Aplicação dos analgésicos não opióides, antiinflamatórios não esteroidais e antibióticos em clínicas odontológicas."
+    },
+    {
+      "id": "PTL7003",
+      "code": "PTL7003",
+      "name": "Patologia Bucal",
+      "credits": 7,
+      "hours": 126,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MIP7103",
+        "MOR7004",
+        "MOR7102",
+        "PTL7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP7103"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7004"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7102"
+          },
+          {
+            "kind": "course",
+            "code": "PTL7002"
+          }
+        ]
+      },
+      "syllabus": "Métodos de diagnóstico em Patologia. Principais processos de destruição dos tecidos dentais duros. Erosão dental e cárie dental. Pulpopatias. Periapicopatias. Cistos e pseudocistos da cavidade bucal. Tumores benignos dos maxilares. Tumores de tecido mole. Doenças infecciosas. Doenças epiteliais. Lesões fibro-ósseas. Osteomielites dos maxilares. Doenças imunomediadas. Doenças das glândulas salivares. Lesões pigmentadas. Neoplasias malignas dos maxilares."
+    },
+    {
+      "id": "SPB7113",
+      "code": "SPB7113",
+      "name": "Planejamento e Programação em Saúde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "SPB7103",
+        "SPB7112"
+      ],
+      "equivalents": [
+        "SPB7104"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPB7103"
+          },
+          {
+            "kind": "course",
+            "code": "SPB7112"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPB7104"
+      },
+      "syllabus": "Planejamento, programação e avaliação de saúde. Planejamento, programação e avaliação de saúde bucal."
+    },
+    {
+      "id": "ODT7005",
+      "code": "ODT7005",
+      "name": "Endodontia Pré-Clínica",
+      "credits": 8,
+      "hours": 144,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7002",
+        "ODT7021",
+        "ODT7101",
+        "PTL7003"
+      ],
+      "equivalents": [
+        "STM5127",
+        "STM7005"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7002"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7021"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7101"
+          },
+          {
+            "kind": "course",
+            "code": "PTL7003"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "STM5127"
+          },
+          {
+            "kind": "course",
+            "code": "STM7005"
+          }
+        ]
+      },
+      "syllabus": "Introdução ao estudo da Endodontia. Anatomia dental interna. Esterilização e Desinfecção em Endodontia. Isolamento do campo operatório. Instrumental endodôntico. Acesso ao canal radicular. Preparo do canal radicular em dentes com polpa viva. Preparo do canal radicular em dentes despolpados. Preparo mecânico escalonado. Irrigação dos canais radiculares. Produtos químicos auxiliares do preparo mecânico. Medicação intracanal. Obturação dos canais radiculares. Tratamentos conservadores da polpa dental."
+    },
+    {
+      "id": "ODT7006",
+      "code": "ODT7006",
+      "name": "Dentística Pré-Clínica",
+      "credits": 8,
+      "hours": 144,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7101"
+      ],
+      "equivalents": [
+        "STM5110",
+        "STM7006"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7101"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "STM5110"
+          },
+          {
+            "kind": "course",
+            "code": "STM7006"
+          }
+        ]
+      },
+      "syllabus": "Introdução a Dentística. Diagnóstico e planejamento. Preparo cavitário. Instrumentos. Campo de Trabalho. Proteção do complexo dentina-polpa. Adesão. Restaurações com Resina Composta. Colagem de Fragmento. Preparo e restaurações em dente natural. Clareamento. Fotografia. Restaurações indiretas."
+    },
+    {
+      "id": "ODT7022",
+      "code": "ODT7022",
+      "name": "Radiologia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7002",
+        "ODT7021",
+        "PTL7003"
+      ],
+      "equivalents": [
+        "ODT7003"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7002"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7021"
+          },
+          {
+            "kind": "course",
+            "code": "PTL7003"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ODT7003"
+      },
+      "syllabus": "Anatomia radiográfica intra-bucal; Anatomia radiográfica extra-bucal; Alterações radiográficas dentárias; Alterações radiográficas periapicais; Alterações radiográficas periodontais; Lesões radiolúcidas dos maxilares; Lesões radiopacas e mistas dos maxilares."
+    },
+    {
+      "id": "ODT7121",
+      "code": "ODT7121",
+      "name": "Cirurgia e Traumatologia Bucomaxilofacial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000"
+      ],
+      "equivalents": [
+        "STM7121"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7000"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "STM7121"
+      },
+      "syllabus": "Introdução ao estudo da Cirurgia e Traumatologia Bucomaxilofacial. Anestesiologia bucal: histórico dos anestésicos e da anestesia. Conceito dos anestésicos, instrumental para anestesiologia, acidntes e complicações nas anestesiologias locais: como evitar e como proceder. Revisão da anatomia óssea, nervosa e muscular. Classificação das anestesias e indicações. Protocolo de realização (técnicas), posição de trabalho - cirurgião e paciente, aula prática em clínica para execução das técnicas. Avaliação pré-operatória. Cuidados: pacientes saudáveis e portadores de doença que possam provocar intercorrências, protocolo de atendimento. Cirurgia e traumatologiabucomaxilofacial I (Exodontia): Condutas cirúrgicas nos pacientes sadios e com doença sistêmica. Planejamento das exodontias. Instrumental e material para exodontia. Da necessidade das exodontias (indicações). Exodontia a fórceps, a alavancas, por retalho e/ou ostectomia/odontosecção. Tratamento pós exodôntico dos alvéolos. Síntese dos tecidos. Princípios de anestesia geral e exodontia em ambiente hospitalar. Controle pós-operatório. Contra-indicações em exodontia. Preservação alveolar na exodontia. Complicações trans e pós- operatórias em exodontia, tratamento terapêutico das complicações de origem exodôntica. Protocolo para exodontia para no atendimento clínico de pacientes para os próximos semestres."
+    },
+    {
+      "id": "ODT7131",
+      "code": "ODT7131",
+      "name": "Oclusão I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS7102",
+        "ODT7000",
+        "ODT7101",
+        "PTL7003"
+      ],
+      "equivalents": [
+        "STM5108",
+        "STM7131"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS7102"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7101"
+          },
+          {
+            "kind": "course",
+            "code": "PTL7003"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "STM5108"
+          },
+          {
+            "kind": "course",
+            "code": "STM7131"
+          }
+        ]
+      },
+      "syllabus": "I ODT7002 eh Introdução o ao estudo da oclusão. Anatomia funcional e Biomecânica do Sistema Mastigatório. Neuromanatomia Funcional e Fisiologia do Sistema Mastigatótio. Posicionamento e Oclusão da Dentição. Mecânica do Movimento Mandibular.Efeitos da Sobrecarga Oclusal na Dentição. Interação Reabilitação Oral e Oclusão. Articuladores semi ajustáveis."
+    },
+    {
+      "id": "ODT7141",
+      "code": "ODT7141",
+      "name": "Periodontia I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "PTL7003"
+      ],
+      "equivalents": [
+        "STM7141"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "PTL7003"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "STM7141"
+      },
+      "syllabus": "Introdução a Periodontia. Diagnóstico das doenças periodontais."
+    },
+    {
+      "id": "SPB7114",
+      "code": "SPB7114",
+      "name": "Epidemiologia Aplicada à Saúde Bucal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "SPB7104",
+        "SPB7113"
+      ],
+      "equivalents": [
+        "SPB7105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPB7104"
+          },
+          {
+            "kind": "course",
+            "code": "SPB7113"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPB7105"
+      },
+      "syllabus": "Epidemiologia das principais doenças e agravos bucais e fatores associados. Metodologia de levantamentos epidemiológicos em saúde bucal. Coleta de dados epidemiológicos em saúde bucal. Análise de dados epidemiológicos em saúde bucal. Utilização de dados epidemiológicos no planejamento das ações de saúde bucal."
+    },
+    {
+      "id": "ACL7100",
+      "code": "ACL7100",
+      "name": "Análises Clínicas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7002",
+        "ODT7111",
+        "ODT7121",
+        "PTL7003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7002"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7111"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7121"
+          },
+          {
+            "kind": "course",
+            "code": "PTL7003"
+          }
+        ]
+      },
+      "syllabus": "Hemograma. Hemostasia e seus distúrbios. Bioquímica do sangue (perfil hepático, renal lipídico e glicídico). Doenças infecciosas, autoimunes e parasitárias (HIV, hepatites, sífilis, micologia, parasitologia, infecção do trato urinário, pesquisa de cristais de colesterol, e abscessos buco-faciais."
+    },
+    {
+      "id": "ODT7007",
+      "code": "ODT7007",
+      "name": "Prótese Total - Pré-Clínica",
+      "credits": 5,
+      "hours": 90,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7102",
+        "ODT7131"
+      ],
+      "equivalents": [
+        "ODT5210",
+        "STM7007"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7102"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7131"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT5210"
+          },
+          {
+            "kind": "course",
+            "code": "STM7007"
+          }
+        ]
+      },
+      "syllabus": "Introdução ao Estudo da Prótese Total. Diagnóstico e Planejamento em Prótese Total. Princípios Físicos relacionados às Próteses Totais Moldagem preliminar. Moldagem funcional. Placa de articulação. Relações maxilo-mandibulares (verticais e Horizontais). Articuladores comuns e semi-ajustáveis. Dentes artificiais (seleção). Montagem dos dentes artificiais. Fundamentos de oclusão protética. Prova de dentes. Ceroplastia. Inclusão e polimerização."
+    },
+    {
+      "id": "ODT7008",
+      "code": "ODT7008",
+      "name": "Prótese Parcial - Pré-Clínica",
+      "credits": 7,
+      "hours": 126,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7005",
+        "ODT7006",
+        "ODT7102",
+        "ODT7131"
+      ],
+      "equivalents": [
+        "STM7008"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7005"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7006"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7102"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7131"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "STM7008"
+      },
+      "syllabus": "Introdução a Prótese Parcial Fixa. Tipos de coroas. Preparos protéticos. Próteses adesivas indiretas. Retentores intra-radiculares. Coroas provisórias e pônticos. Cimentação provisória e definitiva. Moldagem em Prótese Parcial Fixa. Modelos e troquéis em Prótese Parcial Fixa. Etapas laboratoriais, provas clínicas, soldagem e moldagem de transferência. Estética em Prótese Dentária. Introdução ao estudo das Próteses Parciais Removíveis. Preparo de boca em Prótese Parcial Removível. Moldagem e prova da Prótese Parcial Removível. Desenho em Prótese Parcial Removível. Controle e proservação em Prótese Dentária. Planejamento em Prótese Dentária."
+    },
+    {
+      "id": "ODT7009",
+      "code": "ODT7009",
+      "name": "Clínica I",
+      "credits": 12,
+      "hours": 216,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7005",
+        "ODT7006",
+        "ODT7022",
+        "ODT7111",
+        "ODT7121",
+        "ODT7141"
+      ],
+      "equivalents": [
+        "ODT5111",
+        "STM7009"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7005"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7006"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7022"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7111"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7121"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7141"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT5111"
+          },
+          {
+            "kind": "course",
+            "code": "STM7009"
+          }
+        ]
+      },
+      "syllabus": "Introdução a disciplina, grau de complexidade, risco à doença, procedimentos clínicos de baixa complexidade: exame clínico, exames complementares (biópsia, exames laboratoriais, sialometria), diagnóstico, plano de tratamento, encaminhamentos, proservação, prevenção do câncer de boca, técnicas radiográficas intra-bucais, métodos especiais de localização radiográfica, interpretação de lesões ósseas alveolares, critérios de seleção de exames radiográficos, exame periodontal, índice PSR, definição de risco, profilaxia, raspagem supra e sub gengival, orientação de higiene oral, drenagem intra-oral, exodontias por técnica fechada, restaurações de amálgama, restaurações de resina composta, clareamento de dentes vitais, testes semiológicos, tratamentos conservadores da polpa, tratamentos de emergências, reconstruções prévias, tratamentos endodônticos de dentes anteriores e pré-molares com um canal."
+    },
+    {
+      "id": "ODT7112",
+      "code": "ODT7112",
+      "name": "Terapêutica Medicamentosa II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7005",
+        "ODT7111",
+        "ODT7121",
+        "ODT7141"
+      ],
+      "equivalents": [
+        "STM7112"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7005"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7111"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7121"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7141"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "STM7112"
+      },
+      "syllabus": "Prescrição medicamentosa (receituário e receita de fármacos controlados). Anestésicos locais em pacientes em situações especiais. Tratamento medicamentoso da ansiedade no paciente odontológico. Tratamento medicamentoso da dor crônica facial. Aprofundamento nos conhecimentos e aplicações terapêuticas dos analgésicos (não opióides e opióides), antiinflamatórios (não esteroidais e esteroidais) e antibióticos. Profilaxia antimicrobiana. Medicamentos em odontopediatria. Interações medicamentosas. Hemostáticos e coagulantes. Antivirais. Fármacos que afetam os tecidos"
+    },
+    {
+      "id": "ODT7122",
+      "code": "ODT7122",
+      "name": "Cirurgia e Traumatologia Bucomaxilofacial",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7111"
+      ],
+      "equivalents": [
+        "ODT5132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7111"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ODT5132"
+      },
+      "syllabus": "Manobras cirúrgicas fundamentais, Cirurgia dos dentes impactados, Cirurgia Pré-Protética, Tratamento das Infecções Odontogênicas, Cirurgia Radiculares, Tratamento Cirúrgico dos Cistos do complexo maxilomandibular, Tratamento cirúrgico de Patologias Ósseas Maxilo Mandibulares de maior incidência, Técnicas de Biópsia e Cirurgia de Tecido mole."
+    },
+    {
+      "id": "ODT7142",
+      "code": "ODT7142",
+      "name": "Periodontia II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7141"
+      ],
+      "equivalents": [
+        "ODT5125",
+        "STM7142"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7141"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT5125"
+          },
+          {
+            "kind": "course",
+            "code": "STM7142"
+          }
+        ]
+      },
+      "syllabus": "II STM7122) ODT7121) Plano de tratamento, Gengivectomia, Raspagem a campo aberto, Cunhas distais e interproximais, Aumento de coroa clínica, Cirurgias mucogengivais e Técnicas regenerativas."
+    },
+    {
+      "id": "ODT7190",
+      "code": "ODT7190",
+      "name": "Odontologia em Saúde Coletiva",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "SPB7105",
+        "SPB7114"
+      ],
+      "equivalents": [
+        "ODT7106"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "SPB7105"
+              },
+              {
+                "kind": "course",
+                "code": "SPB7114"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ODT7106"
+      },
+      "syllabus": "O processo de trabalho do cirurgião dentista na atenção básica. O Programa de Saúde na Escola. O desenvolvimento de ações de promoção, educação e prevenção em saúde bucal coletiva em espaços institucionais de abrangência dos CS."
+    },
+    {
+      "id": "ODT7010",
+      "code": "ODT7010",
+      "name": "Ortodontia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7009",
+        "ODT7106",
+        "ODT7190"
+      ],
+      "equivalents": [
+        "ODT5331",
+        "ODT5332",
+        "STM7010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ODT7000"
+              },
+              {
+                "kind": "course",
+                "code": "ODT7009"
+              },
+              {
+                "kind": "course",
+                "code": "ODT7106"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ODT7000"
+              },
+              {
+                "kind": "course",
+                "code": "ODT7009"
+              },
+              {
+                "kind": "course",
+                "code": "ODT7190"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT5331"
+          },
+          {
+            "kind": "course",
+            "code": "ODT5332"
+          },
+          {
+            "kind": "course",
+            "code": "STM7010"
+          }
+        ]
+      },
+      "syllabus": "A disciplina de Ortodontia trabalha o conhecimento dos temas: - Crescimento e desenvolvimento craniofacial - Desenvolvimento normal da oclusão - Classificação das maloclusões - Diagnóstico ortodôntico - Etiologia das maloclusões - Prevenção e interceptação das maloclusões - Habilitação prática para confecção de dispositivos ortodônticos removíveis - Noções práticas sobre prevenção e interceptação d as maloclusões - Pratica laboratorial na construção de aparelhos ortodônticos removíveis"
+    },
+    {
+      "id": "ODT7011",
+      "code": "ODT7011",
+      "name": "Clínica II",
+      "credits": 12,
+      "hours": 216,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7007",
+        "ODT7008",
+        "ODT7009",
+        "ODT7122",
+        "ODT7142"
+      ],
+      "equivalents": [
+        "ODT5112",
+        "ODT5129",
+        "STM7011"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7007"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7008"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7009"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7122"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7142"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT5112"
+          },
+          {
+            "kind": "course",
+            "code": "ODT5129"
+          },
+          {
+            "kind": "course",
+            "code": "STM7011"
+          }
+        ]
+      },
+      "syllabus": "Fundamentar o aluno quanto ao atendimento das necessidades odontológicas dos pacientes adultos, no que diz respeito aos procedimentos preventivos e curativos dos problemas bucais mais prevalentes e de complexidade média: raspagens supra e sub gengivais, procedimentos cirúrgicos periodontais, exodontias por técnica aberta, dentes retidos, cirurgias pré-protéticas de tecido mole e duro, cirurgias radiculares, aumentos de coroa clínica, cirurgias de tecido mole e biópsias, infecções odontogênicas, drenagens extrabucais, tratamentos endodônticos radicais em pré-molares com um ou dois canais, tratamentos de dentes traumatizados, tratamentos de dentes com rizogênese incompleta, diagnóstico de hábitos para-funcionais, confecção de placas totais e anteriores, procedimentos restauradores diretos, clareamentos dentais, reconstruções radiculares com núcleos e pinos, próteses totais únicas, próteses totais duplas, reembasamentos de próteses, próteses provisórias imediatas, adequação de espaço para próteses e implantes, e técnicas radiográficas de apoio aos procedimentos listados."
+    },
+    {
+      "id": "ODT7012",
+      "code": "ODT7012",
+      "name": "Odontogeriatria",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7007",
+        "ODT7008",
+        "ODT7009",
+        "ODT7122",
+        "ODT7142"
+      ],
+      "equivalents": [
+        "STM7012"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7007"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7008"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7009"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7122"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7142"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "STM7012"
+      },
+      "syllabus": "Conceitos básicos aplicados na Geriatria e Gerontologia. Demografia e Sociologia do envelhecimento. Nutrição e saúde bucal. Envelhecimento fisiológico. Envelhecimento ativo, Estomatologia: semiotécnica (métodos semiológicos), enfermidades bucais mais prevalentes no idoso, enfermidades sistêmicas e suas repercussões na clínica odontológica. Saliva, hipossalivação, xerostomia. Síndrome de ardência bucal. Cárie radicular. Enfermidade periodontal. Farmacologia: alterações farmacocinéticas e farmacodinâmicas no idoso, enfermidades que influenciam na administração de fármacos, interação medicamentosa e outros. Plano de tratamento."
+    },
+    {
+      "id": "ODT7100",
+      "code": "ODT7100",
+      "name": "Metodologia da Pesquisa /TCC",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7009"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7009"
+      },
+      "syllabus": "Introdução à metodologia da pesquisa científica. Pesquisa bibliográfica. Pesquisa quantitativa. Pesquisa qualitativa. Diretrizes para elaboração de projetos de pesquisa, trabalhos científicos e de Conclusão de Curso.-"
+    },
+    {
+      "id": "ODT7132",
+      "code": "ODT7132",
+      "name": "Oclusão II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7007",
+        "ODT7008",
+        "ODT7009",
+        "ODT7131"
+      ],
+      "equivalents": [
+        "ODT5109",
+        "STM7132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7007"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7008"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7009"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7131"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT5109"
+          },
+          {
+            "kind": "course",
+            "code": "STM7132"
+          }
+        ]
+      },
+      "syllabus": "Conceitos Básicos da Dor. Semiologia Aplicada à Dor Orofacial. Anamnese, exame físico e exames complementares. Mecanismos Neurais da Dor Orofacial. Diagnóstico Diferencial das Dores Orofaciais. Distúrbios do Sono e Bruxismo. Disfunções Temporomandibulares. Tratamento não-invasivo e baseado em evidências."
+    },
+    {
+      "id": "ODT7191",
+      "code": "ODT7191",
+      "name": "Processo de Trabalho na Atenção Primária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7106"
+      ],
+      "equivalents": [
+        "ODT7107"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7106"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ODT7107"
+      },
+      "syllabus": "O processo de trabalho em saúde na atenção básica. O Programa de Saúde na Escola. O desenvolvimento de ações de promoção, educação e prevenção em saúde bucal coletiva em espaços institucionais de abrangência dos CS."
+    },
+    {
+      "id": "CLM7007",
+      "code": "CLM7007",
+      "name": "Emergências Médicas",
+      "credits": 1,
+      "hours": 18,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FMC7001",
+        "ODT7000",
+        "PTL7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FMC7001"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "PTL7002"
+          }
+        ]
+      },
+      "syllabus": "em Saúde ODT7190) eh Auxiliar na atualização e no aperfeiçoamento do aluno de odontologia, tornando-o capaz de tomar decisões imediatas diante do paciente agudamente enfermo. Capacitar tecnicamente os alunos de odontologia no Suporte Básico de Vida."
+    },
+    {
+      "id": "ODT7001",
+      "code": "ODT7001",
+      "name": "Odontologia para Pacientes com",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7002"
+      ],
+      "equivalents": [
+        "STM7001"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7002"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "STM7001"
+      },
+      "syllabus": "Avaliação de pacientes com necessidades especiais. Programas e políticas de atenção a pacientes com necessidades especiais. Distúrbios neuro-psico- motores. Distúrbios sensoriais. Autismo. Doenças onco-hematológicas. Doenças infecto-contagiosas. Doenças sistêmicas crônicas. Gestação."
+    },
+    {
+      "id": "ODT7013",
+      "code": "ODT7013",
+      "name": "Odontopediatria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7011",
+        "ODT7022",
+        "ODT7112",
+        "ODT7132"
+      ],
+      "equivalents": [
+        "ODT5303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7011"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7022"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7112"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7132"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ODT5303"
+      },
+      "syllabus": "Necessidades Especiais ODT7011) Fundamentar o aluno quanto ao desenvolvimento físico e emocional do bebê, criança e adolescente, relacionados com o desenvolvimento buco-dentário; estabelecer medidas educativas e preventivas, para as doenças bucais mais prevalente na faixa etária atendida e fornecer embasamentosobre medidas para tratar e limitar o dano causado por estas mesmas doenças. Para tanto serão ministrados conteúdos quanto comportamento da criança relacionado ao tratamento odontológico, sobre promoção de saúde, prevenção, tratamento minimamente invasivo e invasivo, que vão desde a orientação dos hábitos alimentares, de higiene e noções de cariologia até a aplicação de técnicas anestésicas, tratamentos endodônticos, restauradores e cirúrgicosFundamentar o aluno quanto ao desenvolvimento fisico e emocional do bebê, criança e adolescente, relacioandos com o desenvolvimento buco-dentário; estabelecer medidas educativas e preventivas, para as doenças bucais mais prevalente na faixa etária atendida e fornecer embasamento sobre medidas para tratar e limitar o dano causado por estas mesmas doenças. Para tanto serão ministradas conteúdos quanto comportamento da criança relacionado ao tratamento odontológico, sobre promoção de saúde, prevenção, tratamento minimamente invsivo e invasivo, que vão desde a orientação dos hábitos alimentares, de higiene e noções de cariologia até aplicação de técnicas anestésicas, tratamentos endodônticos, restauradores e cirurgicos."
+    },
+    {
+      "id": "ODT7014",
+      "code": "ODT7014",
+      "name": "Implantodontia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7008",
+        "ODT7011",
+        "ODT7122",
+        "ODT7142"
+      ],
+      "equivalents": [
+        "STM7014"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7008"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7011"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7122"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7142"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "STM7014"
+      },
+      "syllabus": "Introdução a Osseointegração; Tratamento Cirúrgico; Reabilitação Oral sobre Implante; Aplicação Prática dos Tratamentos Reabilitadores com Implantes Dentários."
+    },
+    {
+      "id": "ODT7016",
+      "code": "ODT7016",
+      "name": "Clínica III",
+      "credits": 12,
+      "hours": 216,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7010",
+        "ODT7011",
+        "ODT7112",
+        "ODT7132"
+      ],
+      "equivalents": [
+        "ODT5211",
+        "ODT5216",
+        "STM7016"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7010"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7011"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7112"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7132"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT5211"
+          },
+          {
+            "kind": "course",
+            "code": "ODT5216"
+          },
+          {
+            "kind": "course",
+            "code": "STM7016"
+          }
+        ]
+      },
+      "syllabus": "Introdução à disciplina, aprendizagem baseada em problemas, procedimentos clínicos de alta complexidade (casos cirúrgicos, restaurações de resina composta, facetas, clareamento dental vital e não vital, tratamento endodôntico de dentes monorradiculados, diagnóstico e tratamento das DTMs, retentores intrarradiculares, próteses fixas, próteses parciais removíveis, próteses unitárias implanto-suportadas, prótese total imediata, overdentures)."
+    },
+    {
+      "id": "ODT7123",
+      "code": "ODT7123",
+      "name": "Cirurgia e Traumatologia Bucomaxilofacial",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7011"
+      ],
+      "equivalents": [
+        "ODT5133"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7011"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ODT5133"
+      },
+      "syllabus": "Traumatologia bucomaxilofacial, Fraturas Le Fort I e de Processo Alveolar, Fraturas Le Fort II e de Nariz, Fraturas Le Fort III, Fraturas do Complexo zigomático-orbitário, Fraturas complexas e panfaciais, trauma dento-alveolar, Fraturas de mandíbula, Cirurgia das Deformidades Dentofacias, Cirurgia das patologias da ATM, Odontossínteses."
+    },
+    {
+      "id": "ODT7181",
+      "code": "ODT7181",
+      "name": "TCC I - Trabalho de Conclusão de Curso",
+      "credits": 1,
+      "hours": 18,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7011",
+        "ODT7100"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7011"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7100"
+          }
+        ]
+      },
+      "syllabus": "Definição do professor orientador e elaboração do projeto de Trabalho de Conclusão de Curso (TCC).-"
+    },
+    {
+      "id": "ODT7192",
+      "code": "ODT7192",
+      "name": "Clínica Ampliada em Saúde Bucal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7107",
+        "ODT7191",
+        "ODT7011"
+      ],
+      "equivalents": [
+        "ODT7108"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ODT7107"
+              },
+              {
+                "kind": "course",
+                "code": "ODT7191"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ODT7011"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ODT7108"
+      },
+      "syllabus": "O processo de trabalho em saúde bucal nos diferentes níveis de atenção do SUS. Saúde bucal na atenção básica: O consultório odontológico, seus recursos materiais e equipe profissional. Ações de promoção, educação, prevenção e recuperação da saúde bucal."
+    },
+    {
+      "id": "ODT7151",
+      "code": "ODT7151",
+      "name": "Estágio Supervisionado em Clínica Int. do Adulto e do Idoso I",
+      "credits": 14,
+      "hours": 252,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "CLM7007",
+        "ODT7000",
+        "ODT7016"
+      ],
+      "equivalents": [
+        "ODT5313",
+        "STM7151"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CLM7007"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7016"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT5313"
+          },
+          {
+            "kind": "course",
+            "code": "STM7151"
+          }
+        ]
+      },
+      "syllabus": "Integração da realidade social e econômica. Atendimento em clínica. Simulação de vida e trabalho. Prevenção, promoção, reabilitação."
+    },
+    {
+      "id": "ODT7161",
+      "code": "ODT7161",
+      "name": "Estágio Supervisionado da Criança e do Adolescente I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7013",
+        "ODT7016"
+      ],
+      "equivalents": [
+        "ODT5304",
+        "STM7161"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7013"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7016"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT5304"
+          },
+          {
+            "kind": "course",
+            "code": "STM7161"
+          }
+        ]
+      },
+      "syllabus": "Protocolo de atendimento clínico. Remoção de hábitos de sucção. Afecções estomatológicas em crianças. Diagnóstico ortodôntico, elaboração do plano de tratamento. Atendimento nos níveis preventivo e interceptativo de maloclusões nos estágios da dentadura decídua, mista e permanente jovem. Estruturação e apresentação dos planos de tratamento. Atendimento clínico.-"
+    },
+    {
+      "id": "ODT7171",
+      "code": "ODT7171",
+      "name": "Estágio Supervisionado Interdisciplinar I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7001",
+        "ODT7016"
+      ],
+      "equivalents": [
+        "STM7171"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7001"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7016"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "STM7171"
+      },
+      "syllabus": "Atuar como instrumento de integração do aluno com a realidade social e econômica da comunidade. Atendimento em serviço de pronto atendimento Odontológico nas diversas áreas odontológicas (dentística, endodontia, periodontia, cirurgias pequenas, próteses dentárias, ortodontia), além de orientações referentes a aspectos preventivos da saúde bucal e encaminhamentos. Estágio intramuros de forma interdisciplinar. Atenção interdisciplinar a pacientes, inclusive com necessidades especiais, envolvendo atendimento clínico e encaminhamentos. Estudo dirigido para elaboração de diagnóstico e plano de tratamento interdisciplinar visando aprimorar múltiplas competências."
+    },
+    {
+      "id": "ODT7182",
+      "code": "ODT7182",
+      "name": "TCC II - Trabalho de Conclusão de Curso",
+      "credits": 1,
+      "hours": 18,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7181"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7181"
+      },
+      "syllabus": "Execução da pesquisa do Trabalho de Conclusão de Curso (TCC) e elaboração do relatório parcial da pesquisa.-"
+    },
+    {
+      "id": "ODT7018",
+      "code": "ODT7018",
+      "name": "Odontologia Legal",
+      "credits": 1,
+      "hours": 18,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7151",
+        "ODT7161"
+      ],
+      "equivalents": [
+        "STM7018"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7151"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7161"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "STM7018"
+      },
+      "syllabus": "Odontologia legal: conceito, importância e finalidades. Importância das perícias dontolegais. Lesões corporais na área odontológica. Exercício legal e da profissão. Deontologia e Diceologia Odontológica. Organização de consultório. Código de Ética Odontológica. O Cirurgião-Dentista frente às relações de trabalho."
+    },
+    {
+      "id": "ODT7152",
+      "code": "ODT7152",
+      "name": "Estágio Supervisionado em Clínica Int. do Adulto e do Idoso II",
+      "credits": 14,
+      "hours": 252,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7151"
+      ],
+      "equivalents": [
+        "ODT5313",
+        "STM7152"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7151"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT5313"
+          },
+          {
+            "kind": "course",
+            "code": "STM7152"
+          }
+        ]
+      },
+      "syllabus": "Fundamentar o aluno quanto ao atendimento das necessidades odontológicas da criança e do adolescente no que diz respeito aos procedimentos clínicos preventivos e curativos dos problemas bucais mais prevalentes: doença cárie dentária, gengivite e maloclusões."
+    },
+    {
+      "id": "ODT7162",
+      "code": "ODT7162",
+      "name": "Estágio Supervisionado da Criança e do Adolescente II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7161"
+      ],
+      "equivalents": [
+        "ODT5304",
+        "STM7162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7161"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT5304"
+          },
+          {
+            "kind": "course",
+            "code": "STM7162"
+          }
+        ]
+      },
+      "syllabus": "Fundamentar o aluno quanto ao atendimento das necessidades odontológicas da criança e do adolescente no que diz respeito aos procedimentos clínicos preventivos e curativos dos problemas bucais mais prevalentes: doença cárie dentária, gengivite e maloclusões"
+    },
+    {
+      "id": "ODT7172",
+      "code": "ODT7172",
+      "name": "Estágio Supervisionado Interdisciplinar II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7000",
+        "ODT7171"
+      ],
+      "equivalents": [
+        "STM7172"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ODT7000"
+          },
+          {
+            "kind": "course",
+            "code": "ODT7171"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "STM7172"
+      },
+      "syllabus": "Atuar como instrumento de integração do aluno com a realidade social e econômica da comunidade. Atendimento em serviço de pronto atendimento Odontológico nas diversas áreas odontológicas (dentística, endodontia, periodontia, cirurgias pequenas, próteses dentárias, ortodontia), além de orientações referentes a aspectos preventivos da saúde bucal e encaminhamentos. Estágio intramuros de forma interdisciplinar. Atenção interdisciplinar a pacientes, inclusive com necessidades especiais, envolvendo atendimento clínico e encaminhamentos. Estudo dirigido para elaboração de diagnóstico e plano de tratamento interdisciplinar visando aprimorar múltiplas competências. Preparo pré-operatório dos pacientes, Cirurgia dos dentes impactados, dos cistos e tumores odontogênicos, das sequelas de traumas, cirurgias reconstrutivas alveolares, cirurgias de lesões de tecidos moles, Biópsias, Cirurgias paraendodonticas, Artrocentese da ATM. Cirurgias para auxilio à movimentações ortodônticas, pós-operatórios."
+    },
+    {
+      "id": "ODT7183",
+      "code": "ODT7183",
+      "name": "TCC III - Trabalho de Conclusão de Curso",
+      "credits": 1,
+      "hours": 18,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "ODT7182"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7182"
+      },
+      "syllabus": "Redação final e defesa pública do Trabalho de Conclusão de Curso-"
+    },
+    {
+      "id": "FMC7002",
+      "code": "FMC7002",
+      "name": "Uso, Abuso e Dependências de Drogas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apresentar e discutir os aspectos biológicos, psicológicos e sociais relacionados ao comportamento de uso abusivo de drogas, incluindo medicamentos"
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "MIP5213",
+      "code": "MIP5213",
+      "name": "Virologia Básica e Clínica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) Introdução aos vírus, suas naturezas, estruturas, genética e classificação; principais eventos envolvidos na replicação viral: principais estratégias de replicação dos vírus de genoma DNA e RNA; vírus que causam câncer e os mecanismos utilizados para este fim (polioma, herpes, papiloma, hepatite, adenovírus); vírus de RNA que causam câncer (retrovírus); biologia do HIV; medicamentos com ação antiviral; vírus de genoma RNA de transmissão fecal- oral causadores de infecções, incluindo norovírus, rotavírus, astrovírus, enterovírus, vírus da hepatite A e E; vírus do trato respiratório superior (rinovírus) e vírus da síndrome respiratória aguda (SARS). Estrutura dos vírus herpéticos: as doenças causadas pelos vírus herpes simplex tipos 1 e 2, citomegalovírus, vírus da varicella zoster, vírus Epstein-barr e outros vírus herpéticos; defesas específicas e não específicas do hospedeiro envolvidas na resistência e na recuperação das infecções virais; estrutura e propriedades dos vírus do sarampo, caxumba, influenza e rubéola: patogênese e doença, prevenção e tratamento; estrutura e replicação dos vírus causadores das hepatites B e C; rabdovírus e raiva; arbovírus e hantavírus causadores de encefalites febris, hemorrágicas; doenças hemorrágicas com síndromes renal e pulmonar."
+    },
+    {
+      "id": "ODT5113",
+      "code": "ODT5113",
+      "name": "Dentística Clínica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ODT7009"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7009"
+      },
+      "syllabus": "Restaurações de Dentes Fraturados: Colagem de Fragmentos. Restaurações Preventivas. Selamentos. Remineralização de Lesões Cariosas Incipientes. Restaurações Complexas com Amálgama. Restauração Tipo Túnel. Restaurações com Resina para Dentes Posteriores. Facetas Estéticas."
+    },
+    {
+      "id": "ODT7015",
+      "code": "ODT7015",
+      "name": "Gestão e Marketing Aplicado à Odontologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ODT7017"
+      ],
+      "equivalents": [
+        "STM7015"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7017"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "STM7015"
+      },
+      "syllabus": "Legislação. Finanças do consultório Odontológico. Recursos Humanos. Marketing na Odontologia."
+    },
+    {
+      "id": "ODT7019",
+      "code": "ODT7019",
+      "name": "Cariologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PTL7003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PTL7003"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ODT7020",
+      "code": "ODT7020",
+      "name": "Endodontia Clínica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ODT7016"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ODT7016"
+      },
+      "syllabus": "Atualização de Temas Endodônticos (estudo dirigido). Introdução a Tópicos Avançados em Endodontia (estudo dirigido). Tratamentos endodônticos em dentes anteriores e pré-molares. Atendimento ambulatorial / clínico para tratamento de pacientes-"
+    },
+    {
+      "id": "ODT7023",
+      "code": "ODT7023",
+      "name": "Odontologia do Esporte",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Odontologia do esporte. Saúde bucal do atleta. Traumatismo. Protetores. Diagnóstico e tratamento. Dopping. Ética em Odontologia."
+    },
+    {
+      "id": "ODT7024",
+      "code": "ODT7024",
+      "name": "Tópicos Especiais em Clínica Integrada",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Adquirir conhecimentos essenciais para o planejamento e resolução dos diversos casos clínicos. Aprender a prevenir e diagnosticar doenças, planejando e executando tratamentos multidisciplinares, promovendo saúde e prevenção. Adquirir conceitos que permitam estabelecer uma sequência lógica de execução de procedimentos. Relacionar os conhecimentos adquiridos nas diversas áreas"
+    },
+    {
+      "id": "ODT7025",
+      "code": "ODT7025",
+      "name": "Textual Analysis of Dentistry Abstracts in",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Compreensão da língua inglesa dentro do campo da Odontologia-"
+    },
+    {
+      "id": "ODT7026",
+      "code": "ODT7026",
+      "name": "Textual Analysis of Dentistry Texts in",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "English - Basic Level Compreensão da língua inglesa dentro do campo da Odontologia-"
+    },
+    {
+      "id": "ODT7027",
+      "code": "ODT7027",
+      "name": "Textual Analysis of Dentistry Texts in",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "English - Intermediate Level Compreensão da língua inglesa dentro do campo da Odontologia-"
+    },
+    {
+      "id": "ODT7911",
+      "code": "ODT7911",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ODT7912",
+      "code": "ODT7912",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ODT7911"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ODT7911"
+      },
+      "syllabus": "(*) A disciplina STM 7911 tem como pré-requisito o cumprimento do disposto na Resolução 007/CUn/1999, de 30/03/1999."
+    },
+    {
+      "id": "ODT7913",
+      "code": "ODT7913",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ODT7912"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ODT7912"
+      },
+      "syllabus": "(*) A disciplina STM 7912 tem como pré-requisito a matrícula em STM 7911 no semestre imediatamente anterior."
+    },
+    {
+      "id": "PTL7010",
+      "code": "PTL7010",
+      "name": "Práticas em Estomatologia Ambulatorial",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ODT7002"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ODT7002"
+      },
+      "syllabus": "Anamnese. Exame físico e clínico. Exames laboratoriais mais importantes para o diagnóstico bucal. Hiperplasias dos tecidos moles bucais. Tumores benignos dos tecidos moles bucais. Lesões císticas ou tumorais intraósseas. Lesões cancerizáveis. Câncer de boca e carcinoma espinocelular. Estratégias na comunicação de más-notícias aos pacientes. Manejo odontológico das sequelas do tratamento do câncer de boca. Reabilitação oral de pacientes oncológicos com prótese bucomaxilofacial. Outras neoplasias malignas de interesse odontológico. Infecções de origem bacteriana, virais e fúngicas de interesse estomatológico. Manifestações estomatológicas de doenças sistêmicas. Patologias das glândulas salivares. Infecção pelo HIV e suas manifestações de interesse estomatológico."
+    },
+    {
+      "id": "PTL7012",
+      "code": "PTL7012",
+      "name": "Introdução à Saúde Digital",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPB7104",
+        "SPB7113"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPB7104"
+          },
+          {
+            "kind": "course",
+            "code": "SPB7113"
+          }
+        ]
+      },
+      "syllabus": "em Ambiente Hospitalar ODT7021 eh Impacto da transformação digital na saúde e na educação. Histórico e fundamentos da Saúde Digital. Saúde digital no mundo e no Brasil. Sistemas de Informação em Saúde. Aspectos éticos e legais associados ao uso da informação eletrônica em saúde. Aspectos práticos na utilização de plataformas de telessaúde e na interação remota com pacientes e outros profissionais."
+    },
+    {
+      "id": "ODT7905",
+      "code": "ODT7905",
+      "name": "Atividades Complementares: Eventos",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ODT7906",
+      "code": "ODT7906",
+      "name": "Atividades ComplemeNtares Pesquisa, Extensão, Monitoria e/ou Estágio não",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "BEG7001",
+      "BEG7200",
+      "MOR7002",
+      "MOR7101",
+      "ODT7017",
+      "SPO7110",
+      "BEG7101",
+      "BQA7006",
+      "CFS7101",
+      "MIP7103",
+      "MOR7004",
+      "MOR7102",
+      "ODT7000",
+      "SPB7111",
+      "BEG7201",
+      "CFS7102",
+      "FMC7001",
+      "MIP7004",
+      "ODT7101",
+      "PTL7002",
+      "SPB7112",
+      "ODT7002",
+      "ODT7004",
+      "ODT7021",
+      "ODT7102",
+      "ODT7111",
+      "PTL7003",
+      "SPB7113",
+      "ODT7005",
+      "ODT7006",
+      "ODT7022",
+      "ODT7121",
+      "ODT7131",
+      "ODT7141",
+      "SPB7114",
+      "ACL7100",
+      "ODT7007",
+      "ODT7008",
+      "ODT7009",
+      "ODT7112",
+      "ODT7122",
+      "ODT7142",
+      "ODT7190",
+      "ODT7010",
+      "ODT7011",
+      "ODT7012",
+      "ODT7100",
+      "ODT7132",
+      "ODT7191",
+      "CLM7007",
+      "ODT7001",
+      "ODT7013",
+      "ODT7014",
+      "ODT7016",
+      "ODT7123",
+      "ODT7181",
+      "ODT7192",
+      "ODT7151",
+      "ODT7161",
+      "ODT7171",
+      "ODT7182",
+      "ODT7018",
+      "ODT7152",
+      "ODT7162",
+      "ODT7172",
+      "ODT7183"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 198,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "FMC7002",
+              "LSB7244",
+              "MIP5213",
+              "ODT5113",
+              "ODT7015",
+              "ODT7019",
+              "ODT7020",
+              "ODT7023",
+              "ODT7024",
+              "ODT7025",
+              "ODT7026",
+              "ODT7027",
+              "ODT7911",
+              "ODT7912",
+              "ODT7913",
+              "PTL7010",
+              "PTL7012",
+              "ODT7905",
+              "ODT7906"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "104",
+    "curriculumCode": "20071",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=104&curriculo=20071",
+    "sha256": "40417d9d2e8ce631019c13b2e168b7985b4b882a78a716c057cdc9f21e8ea3ce",
+    "capturedAt": "2026-09-22"
+  }
+}

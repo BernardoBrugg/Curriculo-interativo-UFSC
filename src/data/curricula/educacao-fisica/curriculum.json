@@ -1,0 +1,1718 @@
+{
+  "program": "EDUCAÇÃO FÍSICA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2006.1",
+  "totalHours": 3840,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "DEF5805",
+      "code": "DEF5805",
+      "name": "Introdução à Educação Física A (PCC 18",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5115"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5115"
+      },
+      "syllabus": "Formação profissional e mercado de trabalho. Educação Física como área de conhecimento: níveis de abordagem pedagógico e biológico. Educação Física como prática profissional: conteúdos técnicos (ginástica, esporte, jogo, lutas e dança)."
+    },
+    {
+      "id": "DEF5809",
+      "code": "DEF5809",
+      "name": "Fundamentos Didáticos-Pedagógicos do Esporte (PCC 18 horas)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "horas) Concepções e perspectivas pedagógicas que orientam o processo de ensino-aprendizagem-treinamento esportivo. Abordagens didático-pedagógicas, orientações conceituais e estilos de ensino. Planejamento e estruturação de atividades e tarefas pedagógicas."
+    },
+    {
+      "id": "DEF5829",
+      "code": "DEF5829",
+      "name": "Teoria e Metodologia do Atletismo I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5214"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5214"
+      },
+      "syllabus": "Histórico e evolução do atletismo. Corridas, marchas atléticas, saltos horizontais e arremessos: fundamentos técnicos básicos, noções de regras e arbitragem. Elementos básicos e aspectos metodológicos do ensino do atletismo. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5835",
+      "code": "DEF5835",
+      "name": "Teoria e Metodologia da Ginástica (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5416"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5416"
+      },
+      "syllabus": "18 horas) DEF5215) Histórico e evolução da ginástica. Fundamentos básicos e estruturação de exercícios. Capacidades motoras e qualidades físicas dos movimentos ginásticos. Aspectos metodológicos do processo de ensino-aprendizagem da ginástica. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5843",
+      "code": "DEF5843",
+      "name": "Teoria e Metodologia do Futebol (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5123"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5123"
+      },
+      "syllabus": "horas) DEF5417) Histórico e evolução do futebol. Fundamentação técnica e tática: sistemas de jogo. Elementos básicos e aspectos metodológicos do ensino do futebol. Noções de regras. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5844",
+      "code": "DEF5844",
+      "name": "Teoria e Metodologia do Handebol (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5118"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5118"
+      },
+      "syllabus": "horas) (*) Histórico e evolução do handebol. Fundamentação técnica e tática: sistemas ofensivos e defensivos. Elementos básicos e aspectos metodológicos do ensino do handebol. Noções de regras. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5892",
+      "code": "DEF5892",
+      "name": "Crescimento e Desenvolvimento Humano",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5121"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5121"
+      },
+      "syllabus": "horas) (*) Conceitos de crescimento, desenvolvimento e maturação. Teorias de desenvolvimento humano: aspectos motores, cognitivos, afetivos e sociais. Estágios de crescimento e desenvolvimento físico e motor. Crescimento somático e a composição corporal. Maturação biológica. A desnutrição e o processo de crescimento e desenvolvimento."
+    },
+    {
+      "id": "MOR5219",
+      "code": "MOR5219",
+      "name": "Anatomia Aplicada à Educação Física (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MOR5203"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MOR5203"
+      },
+      "syllabus": "(PCC 18 horas) DEF5122) Introdução ao Estudo da Anatomia, Osteologia, Artrologia, Miologia, Sistema Respiratório, Sistema Digestório, Sistema Urinário, Sistemas Genital Masculino e Feminino, Sistema Circulatório, Sistema Nervoso Central e Periférico."
+    },
+    {
+      "id": "CFS5148",
+      "code": "CFS5148",
+      "name": "Fisiologia Humana (PCC 18 horas)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MOR5219"
+      ],
+      "equivalents": [
+        "CFS5147"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MOR5219"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CFS5147"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Homeostasia. Sangue e líquidos corporais. Fisiologia neuronal e das células musculares. Sistema Sensorial. Controle do movimento. Fisiologia dos sistemas cardiovascular, respiratório e renal. Digestão e absorção de alimentos. Sistema endócrino."
+    },
+    {
+      "id": "DEF5806",
+      "code": "DEF5806",
+      "name": "Fundamentos Históricos - Filosóficos da Educação Física (PCC 18 horas)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5805"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEF5805"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "A cultura das atividades físicas em diferentes períodos históricos. O esporte na Grécia clássica. Os jogos olímpicos antigos e o movimento olímpico. História da Educação Física no Brasil. O pensamento filosófico na Educação Física brasileira: paradigmas filosóficos e concepções de corpo"
+    },
+    {
+      "id": "DEF5830",
+      "code": "DEF5830",
+      "name": "Teoria e Metodologia do Atletismo II (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5829"
+      ],
+      "equivalents": [
+        "DEF5216"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5829"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5216"
+      },
+      "syllabus": "Provas combinadas, corridas com barreiras e obstáculos, saltos verticais e lançamentos: fundamentos técnicos básicos, noções de regras e arbitragem. Elementos básicos e aspectos metodológicos do ensino do atletismo. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5836",
+      "code": "DEF5836",
+      "name": "Teoria e Metodologia da Ginástica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5835"
+      ],
+      "equivalents": [
+        "DEF5418"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5835"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5418"
+      },
+      "syllabus": "18 horas) Histórico e evolução da ginástica esportiva. Fundamentos básicos e aspectos metodológicos do ensino da ginástica artística e ginástica rítmica desportiva. Séries elementares. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5845",
+      "code": "DEF5845",
+      "name": "Teoria e Metodologia do Basquetebol (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5108"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5108"
+      },
+      "syllabus": "Esportiva (PCC 18 horas) Histórico e evolução do basquetebol. Fundamentação técnica e tática: sistemas ofensivos e defensivos. Elementos básicos e aspectos metodológicos do ensino do basquetebol. Noções de regras. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5846",
+      "code": "DEF5846",
+      "name": "Teoria e Metodologia do Futsal (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5125"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5125"
+      },
+      "syllabus": "18 horas) (**) Histórico e evolução do futsal. Fundamentação técnica e tática: sistemas de jogo. Elementos básicos e aspectos metodológicos do ensino do futsal. Noções de regras. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5893",
+      "code": "DEF5893",
+      "name": "Aprendizagem e Controle Motor (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5310"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5310"
+      },
+      "syllabus": "horas) (**) Introdução ao domínio motor e a aprendizagem de habilidades motoras. Conhecimento do resultado e 'feedback'. Ambiente de aprendizagem de habilidades motoras. Variabilidade e processo adaptativo. Teoria de esquema. Sistemas abertos hierárquicos."
+    },
+    {
+      "id": "DEF5894",
+      "code": "DEF5894",
+      "name": "Metodologia do Trabalho Acadêmico (PCC",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5233"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5233"
+      },
+      "syllabus": "horas) Tipos de trabalhos científicos. Fontes de pesquisa. Normatização dos trabalhos científicos."
+    },
+    {
+      "id": "DEF5807",
+      "code": "DEF5807",
+      "name": "Fundamentos Sócio-Antropológicos da Educação Física",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5805"
+      ],
+      "equivalents": [
+        "DEF5702"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5805"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5702"
+      },
+      "syllabus": "Educação Física e humanidades. Concepções antropológicas na cultura das atividades físicas. Constituição e significado da Educação Física: dimensão sócio-antropológica do Esporte. Dimensão política da socialização na Educação Física e nos Esportes. Socialização e aprendizagem social na Educação Física e Esportes: papéis sociais, representações, atitudes e interesses."
+    },
+    {
+      "id": "DEF5831",
+      "code": "DEF5831",
+      "name": "Teoria e Metodologia da Natação I (PCC 18",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5311"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5311"
+      },
+      "syllabus": "Histórico e evolução da natação. Adaptação ao meio líquido. Noções de flutuabilidade, propulsão, respiração e mergulhos. Elementos básicos e aspectos metodológicos do ensino da natação. Nados crawl e costa: fundamentação técnica, saídas e viradas, regras e arbitragem. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5837",
+      "code": "DEF5837",
+      "name": "Teoria e Metodologia da Dança (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5140"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5140"
+      },
+      "syllabus": "horas) DEF5896) Concepções, estilos e técnicas de dança: contexto histórico e metodológico. Danças atuais, contemporâneas e improvisação: análise e prática. Apreciações críticas da dança: introdução às linguagens estéticas. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5838",
+      "code": "DEF5838",
+      "name": "Teoria e Metodologia da Recreação e Lazer",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5425"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5425"
+      },
+      "syllabus": "horas) DEF5887) O lazer, a educação e o trabalho na sociedade. Caracterização e conceituação de lazer e recreação. Teorias e aspectos metodológicos da recreação e lazer. O jogo no processo de socialização. Espaços públicos de recreação e lazer. O recreacionista e sua função nos diversos campos de intervenção profissional. Planejamento, preparação, execução e avaliação de atividades de recreação. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5847",
+      "code": "DEF5847",
+      "name": "Teoria- Metodologia- Voleibol (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5119"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5119"
+      },
+      "syllabus": "(PCC 18 horas) Histórico e evolução do voleibol. Fundamentação técnica e tática: sistemas ofensivos e defensivos. Elementos básicos e aspectos metodológicos do ensino do voleibol. Noções de regras. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5848",
+      "code": "DEF5848",
+      "name": "Teoria e Metodologia do Tênis (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5221"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5221"
+      },
+      "syllabus": "horas) (***) Histórico e evolução do tênis. Fundamentação técnica e tática: sistemas ofensivos e defensivos. Elementos básicos e aspectos metodológicos do ensino do tênis. Noções de regras. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5897",
+      "code": "DEF5897",
+      "name": "Adaptações Orgânicas ao Exercício A (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS5148"
+      ],
+      "equivalents": [
+        "DEF5128"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CFS5148"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5128"
+      },
+      "syllabus": "horas) (***) Energia para atividade física. Efeitos agudos e crônicos do exercício físico nos diversos sistemas orgânicos. Exercício físico e meio ambiente. Recursos ergogênicos e desempenho humano."
+    },
+    {
+      "id": "DEF5898",
+      "code": "DEF5898",
+      "name": "Biomecânica (PCC 18 horas)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MOR5219"
+      ],
+      "equivalents": [
+        "DEF5314"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MOR5219"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5314"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "18 horas) Aspectos históricos, conceitos, definições e áreas de atuação. Terminologia básica dos movimentos. Considerações músculoesqueléticas e neuromecânicas sobre o movimento. Princípios básicos de mecânica. Torque e sistemas de alavancas. Tipos de Força. Equilíbrio e centro de gravidade. Momento de inércia e os segmentos corporais. Introdução à análise biomecânica das atividades físicas e esportivas."
+    },
+    {
+      "id": "DEF5808",
+      "code": "DEF5808",
+      "name": "Princípios de Conduta Profissional A (PCC",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5805"
+      ],
+      "equivalents": [
+        "DEF5701"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5805"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5701"
+      },
+      "syllabus": "Conceitos básicos da Ética filosófica. Noções de teoria dos valores. Noções de deontologia e de bioética. Questões morais selecionadas. Caracterização e problemática das éticas profissionais. Conduta profissional em Educação Física. Código de Ética e Deontologia da Educação Física."
+    },
+    {
+      "id": "DEF5815",
+      "code": "DEF5815",
+      "name": "Atividade Física, Saúde e Qualidade de Vida (PCC 18 horas)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5890"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5890"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "18 horas) Saúde e qualidade de vida no mundo contemporâneo. Estilo de vida e saúde: o Modelo do Pentáculo do Bem-estar. Evidências epidemiológicas da associação da atividade física regular com doenças e agravos não transmissíveis (DANT) e mortalidade por todas as causas. Indicações e contra indicações à prática de exercícios físicos. Medidas da atividade física habitual. Programas de promoção da atividade física: individual, nas organizações (escolas, empresas) e na comunidade."
+    },
+    {
+      "id": "DEF5820",
+      "code": "DEF5820",
+      "name": "Teoria e Metodologia do Condicionamento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5897"
+      ],
+      "equivalents": [
+        "DEF5126"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5897"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5126"
+      },
+      "syllabus": "Princípios gerais do condicionamento físico. Efeitos agudos e crônicos do exercício físico. Aptidão física: conceitos e tendências. Desenvolvimento das qualidades físicas básicas (força, resistência e flexibilidade) e complementares (velocidade, agilidade, coordenação e equilíbrio). Sistemas e métodos de desenvolvimento da condição física. Lesões musculoesqueléticas no condicionamento físico: riscos, prevenção e cuidados."
+    },
+    {
+      "id": "DEF5821",
+      "code": "DEF5821",
+      "name": "Medidas e Avaliações em Educação Física",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5132"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5132"
+      },
+      "syllabus": "Físico A (PCC 18 horas) Teste, medida e avaliação em Educação Física: conceitos e princípios básicos. Tipos de testes utilizados em Educação Física. Características dos testes: validade e reprodutibilidade. Escalas de medidas. Áreas de avaliação na Educação Física: cineantropométrica, neuromotora, metabólica, cognitiva e afetiva. Princípios da avaliação de habilidades esportivas. Construção e uso de Baterias de testes. Medidas da atividade física."
+    },
+    {
+      "id": "DEF5832",
+      "code": "DEF5832",
+      "name": "Teoria e Metodologia da Natação II (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5831"
+      ],
+      "equivalents": [
+        "DEF5312"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5831"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5312"
+      },
+      "syllabus": "A (PCC 18horas) Nados peito e borboleta: fundamentação técnica, saídas e viradas, regras e arbitragem. Noções de salvamento em natação. Teoria e prática do nado medley individual e equipe. Aspectos metodológicos do ensino da natação. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5895",
+      "code": "DEF5895",
+      "name": "Emergências em Educação Física A (PCC",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5325"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5325"
+      },
+      "syllabus": "horas) Concepções e princípios de atendimento de emergência. Técnicas de primeiros socorros em diferentes situações do quotidiano profissional em Educação Física. Prevenção de lesões."
+    },
+    {
+      "id": "PSI5415",
+      "code": "PSI5415",
+      "name": "Psicologia do Esporte (PCC 18 horas)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5706",
+        "PSI5414"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEF5706"
+          },
+          {
+            "kind": "course",
+            "code": "PSI5414"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "18 horas) Conhecimento geral sobre a Psicologia do/no esporte. Neurociências aplicadas á Psicologia do esporte e exercício. Últimos avanços em psicologia do esporte como ciência do esporte."
+    },
+    {
+      "id": "DEF5810",
+      "code": "DEF5810",
+      "name": "Planejamento e Organização de Eventos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5223"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5223"
+      },
+      "syllabus": "Estrutura administrativa da Educação Física e do Esporte. Planejamento de eventos esportivos e recreativos. Competições esportivas: modelos organizacionais e sistemas de disputas."
+    },
+    {
+      "id": "DEF5816",
+      "code": "DEF5816",
+      "name": "Atividade Física para Grupos Especiais A",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5136"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5136"
+      },
+      "syllabus": "(PCC 18 horas) Benefícios e riscos do exercício físico O exercício como fator de prevenção e coadjuvante terapêutico em doenças cardiovasculares, obesidade, diabetes mellitus, asma, hipertensão arterial, dislipidemias, doenças reumáticas, nefropatias, alterações neurológicas e desvios posturais. Avaliação e prescrição de exercícios para pessoas com necessidades especiais. Bases da reabilitação cardiovascular."
+    },
+    {
+      "id": "DEF5822",
+      "code": "DEF5822",
+      "name": "Avaliação e Prescrição de Exercícios (PCC",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas) Princípios gerais na avaliação e prescrição de exercícios. Avaliação da aptidão física: testes de campo e de laboratório; máximos e submáximos; diretos e indiretos. Avaliação preliminar de saúde e classificação de risco. Avaliação e prescrição de exercícios para aptidão cardiorrespiratória, força e resistência muscular, flexibilidade e composição corporal. Programas (softwares) de avaliação e prescrição de exercícios. Aderência em programas de exercícios."
+    },
+    {
+      "id": "DEF5823",
+      "code": "DEF5823",
+      "name": "Atividade Física em Academia (PCC 18",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18 horas) Bases teórico-metodológicas de atividades físicas em academias. Planejamento e execução de programas de ginástica: aeróbica, localizada, alongamento, hidroginástica e musculação. Programas especiais de exercícios em academias. Orientação personalizada. Montagem de sequências e blocos coreográficos de ginástica aeróbica e localizada."
+    },
+    {
+      "id": "DEF5826",
+      "code": "DEF5826",
+      "name": "Metodologia da Pesquisa em Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5235"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5235"
+      },
+      "syllabus": "horas) Natureza da ciência e do espírito científico. Pesquisa em Educação Física: abordagens quantitativas e qualitativas. Tipos, estratégias e etapas de investigação. Construção e testagem de instrumentos. Preparação de projetos e relatórios."
+    },
+    {
+      "id": "DEF5849",
+      "code": "DEF5849",
+      "name": "Teoria e Metodologia do Judô (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5210"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5210"
+      },
+      "syllabus": "Física (PCC 18 horas) Histórico e evolução do judô. Fundamentação básica das técnicas de projeção e de solo. Elementos básicos e aspectos metodológicos do ensino do judô. Noções de regras. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5850",
+      "code": "DEF5850",
+      "name": "Teoria e Metodologia da Capoeira (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5225"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5225"
+      },
+      "syllabus": "horas) (****) Histórico e evolução da capoeira. Fundamentos ritualísticos, musicais e formas de jogo. Elementos básicos e aspectos metodológicos do ensino da capoeira. Noções de regras. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5812",
+      "code": "DEF5812",
+      "name": "Teoria e Metodologia do Treinamento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5897"
+      ],
+      "equivalents": [
+        "DEF5133"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5897"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5133"
+      },
+      "syllabus": "Bases gerais da teoria do treinamento esportivo: princípios básicos, componentes, planejamento e controle. Fatores influenciadores da performance esportiva. Estruturação do processo de treinamento: preparação física, técnico-tática e psicológica. Princípios gerais do treinamento da criança, adolescente e adulto. Ciclos e periodização do treinamento."
+    },
+    {
+      "id": "DEF5817",
+      "code": "DEF5817",
+      "name": "Envelhecimento, Atividade Física e Saúde (PCC 18 horas)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Esportivo (PCC 18 horas) Envelhecimento humano: definições, teorias, aspectos demográficos e biopsicossociais. Envelhecimento, atividade física e qualidade de vida. Programas de atividade física na promoção da saúde de idosos. Testes e exercícios físicos em programas de atividade física. Motivação para prática de atividades físicas em idades avançadas."
+    },
+    {
+      "id": "DEF5818",
+      "code": "DEF5818",
+      "name": "Educação Física Adaptada (PCC 18 horas)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5141"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5141"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Caracterização das pessoas com necessidades especiais. Atividades físicas e as deficiências: deficiências mentais, deficiências físicas, deficiências sensoriais. Processos inclusivos e metodologias da atividade motora adaptada. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino"
+    },
+    {
+      "id": "DEF5824",
+      "code": "DEF5824",
+      "name": "Estágio Supervisionado em Avaliação e Prescrição de Exercícios",
+      "credits": 10,
+      "hours": 180,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5820",
+        "DEF5821",
+        "DEF5822",
+        "DEF5823"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEF5820"
+          },
+          {
+            "kind": "course",
+            "code": "DEF5821"
+          },
+          {
+            "kind": "course",
+            "code": "DEF5822"
+          },
+          {
+            "kind": "course",
+            "code": "DEF5823"
+          }
+        ]
+      },
+      "syllabus": "Estágio de prática profissional em Educação Física, sob orientação e supervisão docente, na avaliação e prescrição de exercícios. Planejamento, ministração de sessões e relatório de estágio."
+    },
+    {
+      "id": "INE5119",
+      "code": "INE5119",
+      "name": "Introdução à Bioestatística (PCC 18 horas)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Descrição e exploração de dados. Modelos binomial e normal. Levantamentos por amostragem e estimação de parâmetros. Testes de hipóteses. Comparação de duas médias. Testes não-paramétricos. Estudo de correlações."
+    },
+    {
+      "id": "DEF5811",
+      "code": "DEF5811",
+      "name": "Gestão Esportiva (PCC 18 horas)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5124"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5124"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Teorias administrativas aplicadas à gestão esportiva. Empreendedorismo e mercado de trabalho. Marketing esportivo. Planejamento e elaboração de projetos. Legislação da Educação Física e Esporte."
+    },
+    {
+      "id": "DEF5819",
+      "code": "DEF5819",
+      "name": "Estágio Supervisionado em Atividade",
+      "credits": 10,
+      "hours": 180,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5815"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5815"
+      },
+      "syllabus": "Estágio de prática profissional em Educação Física, sob orientação e supervisão docente, em instituições e/ou programas de atividades físicas relacionadas à saúde. Planejamento, ministração de sessões e relatório de estágio"
+    },
+    {
+      "id": "DEF5827",
+      "code": "DEF5827",
+      "name": "Trabalho de Conclusão de Curso I (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5826"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5826"
+      },
+      "syllabus": "Física e Saúde DEF5816 eh Projetos de pesquisa em Educação Física: etapas e elementos constitutivos. Revisão dos conteúdos de metodologia da investigação científica. Elaboração do projeto de monografia de conclusão de curso."
+    },
+    {
+      "id": "DEF5840",
+      "code": "DEF5840",
+      "name": "Teoria e Metodologia dos Esportes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5818"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5818"
+      },
+      "syllabus": "horas) INE5119) Histórico e evolução dos esportes adaptados: caracterização, aplicação, regulamentação e benefícios aos participantes. Contribuições no processo de inclusão das pessoas com deficiência nos vários setores da sociedade. Elementos básicos e aspectos metodológicos do ensino dos esportes adaptados. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5814",
+      "code": "DEF5814",
+      "name": "Estágio Supervisionado em Treinamento e Gestão Esportiva",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5809",
+        "DEF5810",
+        "DEF5811",
+        "DEF5812"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEF5809"
+          },
+          {
+            "kind": "course",
+            "code": "DEF5810"
+          },
+          {
+            "kind": "course",
+            "code": "DEF5811"
+          },
+          {
+            "kind": "course",
+            "code": "DEF5812"
+          }
+        ]
+      },
+      "syllabus": "Estágio de prática profissional em Educação Física, sob orientação e supervisão docente, em instituições esportivas e/ou de gestão dos esportes. Planejamento, ministração de sessões e relatório de estágio."
+    },
+    {
+      "id": "DEF5828",
+      "code": "DEF5828",
+      "name": "Trabalho de Conclusão de Curso II (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DEF5827"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5827"
+      },
+      "syllabus": "Relatórios de pesquisa em Educação Física. Elaboração e defesa da monografia de conclusão de curso em Educação Física."
+    },
+    {
+      "id": "DEF5841",
+      "code": "DEF5841",
+      "name": "Teoria e Metodologia dos Esportes de Aventura (PCC 18 horas)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "horas) Atividades físicas na natureza, de aventura e de equilíbrio na educação ambiental: classificação e perspectivas de intervenção. Fundamentação básica e vivência prática de diferentes atividades físicas ao ar livre. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "NTR5107",
+      "code": "NTR5107",
+      "name": "Nutrição e Atividade Física (PCC 18 horas)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS5148",
+        "DEF5815",
+        "DEF5892"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS5148"
+          },
+          {
+            "kind": "course",
+            "code": "DEF5815"
+          },
+          {
+            "kind": "course",
+            "code": "DEF5892"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Estimativa do gasto energético em praticantes de atividade física. A importância dos macros e micronutrientes na atividade física. A importância da água e eletrólitos na atividade física. Avaliação do consumo alimentar. Ergogênicos nutricionais. Alimentação para antes, durante e após a atividade física."
+    },
+    {
+      "id": "DEF5170",
+      "code": "DEF5170",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "DEF5171",
+      "code": "DEF5171",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DEF5170"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5170"
+      },
+      "syllabus": "(*) o pré-requisito desta disciplina é o cumpimento do disposto na Resolução 007/Cun/99, de 30 de março de 1999."
+    },
+    {
+      "id": "DEF5172",
+      "code": "DEF5172",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "DEF5173",
+      "code": "DEF5173",
+      "name": "Programa de Intercâmbio IV",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "DEF5899",
+      "code": "DEF5899",
+      "name": "Atividades Acadêmico-Científico-Culturais",
+      "credits": 16,
+      "hours": 240,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) Atividades Complementares O estudante deverá desenvolver 240 horas de atividades acadêmico - científico culturais, durante o curso, que será regulamentado pelo Colegiado do Curso."
+    },
+    {
+      "id": "DEF5813",
+      "code": "DEF5813",
+      "name": "Cineantropometria (PCC 18 horas)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Introdução a cineantropometria. Medidas antropométricas. Avaliação da composição corporal. Somatotipia. Proporcionalidade corporal."
+    },
+    {
+      "id": "DEF5833",
+      "code": "DEF5833",
+      "name": "Atividades Rítmicas e Expressão (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A criança e a escola. Corpo, cultura e comunicação. Atividades rítmicas e a criança. Valor educativo das atividades rítmicas na pré-escola e ensino fundamental. Aspectos sócio-culturais das danças folclóricas regionais. Processo ensino-aprendizagem das danças folclóricas. Música. Instrumentos. Aspectos coreográficos. Significado pedagógico da dança folclórica"
+    },
+    {
+      "id": "DEF5834",
+      "code": "DEF5834",
+      "name": "Informática Aplicada à Educação Física",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "horas) Introdução ao uso de micro computadores. Noções e recursos básicos de sistemas operacionais. Elaboração e editoração de textos. Pacotes estatísticos. Manuseio de dados. Planilha eletrônica."
+    },
+    {
+      "id": "DEF5839",
+      "code": "DEF5839",
+      "name": "Seminário de Aprofundamento em Avaliação e Prescrição de Exercícios (PCC",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas) Abordagem de temas avançados na área de Avaliação e Prescrição de Exercícios, sugeridos pelos alunos e apresentados por pesquisadores ou docentes convidados."
+    },
+    {
+      "id": "DEF5842",
+      "code": "DEF5842",
+      "name": "Seminário de Aprofundamento em Treinamento e Gestão Esportiva (PCC 18",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18 h/a) Abordagem de temas avançados na área de Treinamento e Gestão Esportiva, sugeridos pelos alunos e apresentados por pesquisadores ou docentes convidados."
+    },
+    {
+      "id": "DEF5851",
+      "code": "DEF5851",
+      "name": "Tópicos Avançados em Biomecânica (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "horas) (****) Biomecânica externa: estudo das forças externas ao corpo humano. Biomecânica interna: estudo das forças internas ao corpo humano. Princípios biomecânicos da locomoção humana. Metodologia de avaliação em biomecânica. Análise e quantificação do movimento humano."
+    },
+    {
+      "id": "DEF5852",
+      "code": "DEF5852",
+      "name": "Teoria e Metodologia da Ginástica Rítmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18 horas) Histórico e evolução da ginástica rítmica desportiva. Elementos corporais fundamentais e secundários. Manejo de aparelhos oficiais e materiais alternativos. Noções das regras básicas e arbitragem. Aspectos metodológicos do ensino da ginástica rítmica desportiva. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5853",
+      "code": "DEF5853",
+      "name": "Teoria e Metodologia da Ginástica Artística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Esportiva (PCC 18 horas) Histórico e evolução da ginástica artística. Solo: exercícios básicos e combinações, composição de séries e ajudas. Iniciação aos aparelhos oficiais e materiais alternativos. Noções das regras básicas e arbitragem. Aspectos metodológicos do ensino da ginástica artística. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5854",
+      "code": "DEF5854",
+      "name": "Estudos Avançados em Esportes - Futebol",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DEF5843"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5843"
+      },
+      "syllabus": "(PCC 18 horas) Organização e escolas de futebol mundial. Planejamento e métodos de treinamento: preparação física, técnica, tática e psicológica. Sistemas e estratégias de jogo. Informática no futebol: métodos de avaliação e sistemas de observação. Equipe de futebol: fatores de rendimento e formação do treinador. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5855",
+      "code": "DEF5855",
+      "name": "Estudos Avançados em Esportes -",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas) Organização e escolas de handebol mundial. Planejamento e métodos de treinamento: preparação física, técnica, tática e psicológica. Sistemas e estratégias de jogo. Informática no handebol: métodos de avaliação e sistemas de observação. Equipe de handebol: fatores de rendimento e formação do treinador. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5856",
+      "code": "DEF5856",
+      "name": "Estudos Avançados em Esportes -",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Handebol (PCC 18 horas) Organização e escolas de basquetebol mundial. Planejamento e métodos de treinamento: preparação física, técnica, tática e psicológica. Sistemas e estratégias de jogo. Informática no basquetebol: métodos de avaliação e sistemas de observação. Equipe de basquetebol: fatores de rendimento e formação do treinador. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5857",
+      "code": "DEF5857",
+      "name": "Estudos Avançados em Esportes - Futsal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Basquetebol (PCC 18 horas) Organização e escolas de futsal mundial. Planejamento e métodos de treinamento: preparação física, técnica, tática e psicológica. Sistemas e estratégias de jogo. Informática no futsal: métodos de avaliação e sistemas de observação. Equipe de futsal: fatores de rendimento e formação do treinador. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5858",
+      "code": "DEF5858",
+      "name": "Estudos Avançados em Esportes - Voleibol",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas) Organização e escolas de voleibol mundial. Planejamento e métodos de treinamento: preparação física, técnica, tática e psicológica. Sistemas e estratégias de jogo. Informática no voleibol: métodos de avaliação e sistemas de observação. Equipe de voleibol: fatores de rendimento e formação do treinador. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5859",
+      "code": "DEF5859",
+      "name": "Estudos Avançados em Esportes - Tênis",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas) Organização e escolas de tênis mundial. Planejamento e métodos de treinamento: preparação física, técnica, tática e psicológica. Sistemas e estratégias de jogo. Informática no tênis: métodos de avaliação e sistemas de observação. Equipe de tênis: fatores de rendimento e formação do treinador. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5860",
+      "code": "DEF5860",
+      "name": "Estudos Avançados em Esportes -",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas) Organização e escolas de atletismo mundial. Planejamento e métodos de treinamento: preparação física, técnica, tática e psicológica. Informática no atletismo: métodos de avaliação e sistemas de observação. Equipe de atletismo: fatores de rendimento e formação do treinador. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5861",
+      "code": "DEF5861",
+      "name": "Estudos Avançados em Esportes - Natação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Organização e escolas de natação mundial. Planejamento e métodos de treinamento: preparação física, técnica, tática e psicológica. Informática na natação: métodos de avaliação e sistemas de observação. Equipe de natação: fatores de rendimento e formação do treinador. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5862",
+      "code": "DEF5862",
+      "name": "Estudos Avançados em Esportes - Judô",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas) Organização e escolas de judô mundial. Planejamento e métodos de treinamento: preparação física, técnica e psicológica. Informática no judô: métodos de avaliação e sistemas de observação. Equipe de judô: fatores de rendimento e formação do treinador. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5863",
+      "code": "DEF5863",
+      "name": "Estudos Avançados em Esportes -",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas) Organização e escolas de ginástica artística mundial. Planejamento e métodos de treinamento: preparação física, técnica e psicológica. Informática na ginástica artística: métodos de avaliação e sistemas de observação. Equipe de ginástica artística: fatores de rendimento e formação do treinador. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5864",
+      "code": "DEF5864",
+      "name": "Estudos Avançados em Esportes -",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ginástica Artística (PCC 18 horas) Organização e escolas de ginástica rítmica desportiva. Planejamento e métodos de treinamento: preparação física, técnica e psicológica. Informática na ginástica rítmica desportiva: métodos de avaliação e sistemas de observação. Equipe de ginástica rítmica desportiva: fatores de rendimento e formação do treinador. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5865",
+      "code": "DEF5865",
+      "name": "Seminário de Aprofundamento em Atividade Física e Saúde (PCC 18 horas)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Ginástica Rítmica Desportiva (PCC 18 horas) Abordagem de temas avançados na área de Atividade Física na Promoção da Saúde, sugeridos pelos alunos e apresentados por pesquisadores ou docentes convidados."
+    },
+    {
+      "id": "DEF5867",
+      "code": "DEF5867",
+      "name": "Corporeidade (PCC 18 horas)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Concepções históricas de corpo. Consciência corporal e os usos sociais do corpo. A corporeidade enquanto modo de ser do homem."
+    },
+    {
+      "id": "DEF5868",
+      "code": "DEF5868",
+      "name": "Esporte, Comunicação e Mídia (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DEF5881"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEF5881"
+      },
+      "syllabus": "Manifestações da Educação Física relacionada à mídia: interfaces, confrontos e complementaridade. O esporte mediatizado na sociedade globalizada: possibilidades de análise/intervenção a partir da Educação Física."
+    },
+    {
+      "id": "DEF5869",
+      "code": "DEF5869",
+      "name": "Jogos e Brinquedos da Cultura Popular",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "horas) Contextualização histórica do brincar infantil. Teorias e classificações do jogo. O jogo e suas possibilidades pedagógicas de desenvolvimento infantil. Resgate e preservação da cultura lúdica infantil. Construção de brinquedos tradicionais e contemporâneos. Processo de ensino-aprendizagem do jogo infantil. Prática pedagógica de atividades lúdicas, sob orientação e supervisão docente, compreendendo atividades de observação dirigida ou experiências de ensino."
+    },
+    {
+      "id": "DEF5876",
+      "code": "DEF5876",
+      "name": "Tópicos Avançados em Atividade Motora",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas) Metodologia de avaliação em atividade motora adaptada. Jogos e adaptações: metodologia e aplicação. Prática pedagógica, sob orientação e supervisão docente, compreendendo atividades de observação dirigida e experiências de ensino."
+    },
+    {
+      "id": "DEF5885",
+      "code": "DEF5885",
+      "name": "Educação Física na Infância (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Adaptada (PCC 18 horas) Conceitos de criança e infância. Características, necessidades e prioridades da criança. Natureza, propósitos, significados da Educação Física na infância. Abordagens teórico-metodológicas da Educação Física na Infância. Análise dos espaços e da cultura lúdica com ênfase nas possibilidades participativas, críticas e expressivas. Planejamento, orientação, organização, desenvolvimento e avaliação dos componentes curriculares da Educação Física na Infância."
+    },
+    {
+      "id": "DEF5900",
+      "code": "DEF5900",
+      "name": "Adaptações Orgânicas ao Exercício B (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DEF5897"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEF5897"
+      },
+      "syllabus": "horas) Energia para atividade física. Efeitos agudos e crônicos do exercício físico nos diversos sistemas orgânicos. Exercício físico e meio ambiente. Recursos ergogênicos e desempenho humano."
+    },
+    {
+      "id": "DEF5901",
+      "code": "DEF5901",
+      "name": "Método Pilates I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18 horas-aula) A busca da Consciência corporal. O conhecimento do corpo articulado ao processo social e histórico. Sentimentos e expressões humanas, estresse e equilíbrio. Técnicas de exercitação corporal e relaxação."
+    },
+    {
+      "id": "DEF5903",
+      "code": "DEF5903",
+      "name": "Teoria e Metodologia do Xadrez",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "xadrez."
+    },
+    {
+      "id": "DEF5910",
+      "code": "DEF5910",
+      "name": "Cinesiologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "MOR5219"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MOR5219"
+      },
+      "syllabus": "Importância do estudo da Cinesiologia e sua aplicação na Educação Física, esportes e nas atividades da vida diária. Análise de exercícios de membros superiores, inferiores e do tronco. Implicações cinesiológicas em exercícios que envolvem a coluna vertebral e seus reflexos na postura."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "DEF5805",
+      "DEF5809",
+      "DEF5829",
+      "DEF5835",
+      "DEF5843",
+      "DEF5844",
+      "DEF5892",
+      "MOR5219",
+      "CFS5148",
+      "DEF5806",
+      "DEF5830",
+      "DEF5836",
+      "DEF5845",
+      "DEF5846",
+      "DEF5893",
+      "DEF5894",
+      "DEF5807",
+      "DEF5831",
+      "DEF5837",
+      "DEF5838",
+      "DEF5847",
+      "DEF5848",
+      "DEF5897",
+      "DEF5898",
+      "DEF5808",
+      "DEF5815",
+      "DEF5820",
+      "DEF5821",
+      "DEF5832",
+      "DEF5895",
+      "PSI5415",
+      "DEF5810",
+      "DEF5816",
+      "DEF5822",
+      "DEF5823",
+      "DEF5826",
+      "DEF5849",
+      "DEF5850",
+      "DEF5812",
+      "DEF5817",
+      "DEF5818",
+      "DEF5824",
+      "INE5119",
+      "DEF5811",
+      "DEF5819",
+      "DEF5827",
+      "DEF5840",
+      "DEF5814",
+      "DEF5828",
+      "DEF5841",
+      "NTR5107",
+      "DEF5899"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 216,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "DEF5170",
+              "DEF5171",
+              "DEF5172",
+              "DEF5173",
+              "LSB7244",
+              "DEF5813",
+              "DEF5833",
+              "DEF5834",
+              "DEF5839",
+              "DEF5842",
+              "DEF5851",
+              "DEF5852",
+              "DEF5853",
+              "DEF5854",
+              "DEF5855",
+              "DEF5856",
+              "DEF5857",
+              "DEF5858",
+              "DEF5859",
+              "DEF5860",
+              "DEF5861",
+              "DEF5862",
+              "DEF5863",
+              "DEF5864",
+              "DEF5865",
+              "DEF5867",
+              "DEF5868",
+              "DEF5869",
+              "DEF5876",
+              "DEF5885",
+              "DEF5900",
+              "DEF5901",
+              "DEF5903",
+              "DEF5910"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "444",
+    "curriculumCode": "20061",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=444&curriculo=20061",
+    "sha256": "30986bbeaacf24a31d5a1abe3172113ce7c69154319e6173c20601c6c58df2cb",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -1,0 +1,2396 @@
+{
+  "program": "CIÊNCIAS ECONÔMICAS",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2019.1",
+  "totalHours": 3600,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CNM6000",
+      "code": "CNM6000",
+      "name": "Introdução à Macroeconomia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7149",
+        "CNM7150"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM7149"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7150"
+          }
+        ]
+      },
+      "syllabus": "Conceito de Economia, curva de possibilidade de produção, custo de oportunidade, fluxo circular da renda, divisão do estudo econômico. Introdução aos agregados macroeconômicos: renda, produto, poupança, investimento e mensuração destes, valores reais, nominais e deflacionamento. Exemplos de agregados da economia brasileira. Política fiscal: funções consumo, poupança, investimento, gastos do governo e a demanda agregada, renda nacional de equilíbrio e o efeito multiplicador. Política monetária: moeda, sua evolução histórica e características, relação entre moeda, preços e renda. Setor externo: taxa de câmbio, política cambial e a estrutura do balanço de pagamentos."
+    },
+    {
+      "id": "CNM6001",
+      "code": "CNM6001",
+      "name": "Informática para Economistas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao uso de planilhas eletrônicas: construção e aplicação de fórmulas, testes lógicos, gráficos, formatação condicional e tabelas dinâmicas. Utilização do solver. Planilhas de fluxo de caixa e cálculo de valor presente, valor futuro, valor presente líquido e taxa interna de retorno. Planilhas de correção monetária. Análise do comportamento temporal (linhas de tendência) de indicadores econômicos brasileiros. Cálculo de estatísticas descritivas de dados e sua representação gráfica."
+    },
+    {
+      "id": "CNM6002",
+      "code": "CNM6002",
+      "name": "Introdução ao Pensamento Econômico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7103",
+        "CNM7211"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM7103"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7211"
+          }
+        ]
+      },
+      "syllabus": "Apresentação da Economia como ciência social com múltiplas escolas de pensamento. Histórico introdutório das escolas de pensamento clássica, marxista, neoclássica, schumpeteriana e keynesiana. Apresentação do objeto, principais conceitos e noção de sistema econômico em cada uma das escolas."
+    },
+    {
+      "id": "DIR6011",
+      "code": "DIR6011",
+      "name": "Instituições de Direito Público e Privado",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR7103"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR7103"
+      },
+      "syllabus": "I) Introdução ao Direito. II) Direito Constitucional. III) Direito Administrativo. IV) Direito Civil."
+    },
+    {
+      "id": "INE5113",
+      "code": "INE5113",
+      "name": "Introdução à Estatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "INE5111"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5111"
+      },
+      "syllabus": "Estatística descritiva (distribuição de frequência, medidas de tendência central, de dispersão, etc). Probabilidade e distribuições de probabilidade. Inferência Estatística: amostragem e estimação. Inferência estatística: teste de hipóteses e intervalo de confiança."
+    },
+    {
+      "id": "MTM3561",
+      "code": "MTM3561",
+      "name": "Matemática Financeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Juros e Descontos: Simples e Composto. Taxas. Rendas. Amortização de dívidas."
+    },
+    {
+      "id": "CNM6003",
+      "code": "CNM6003",
+      "name": "Introdução à Microeconomia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7160",
+        "CNM7161"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM7160"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7161"
+          }
+        ]
+      },
+      "syllabus": "Equilíbrio de mercado: demanda e oferta. Elasticidades. Intervenções: imposto, subsídio, preço mínimo e máximo. Exemplos de intervenções de mercado. Excedentes do consumidor e do produtor. Utilidade total e marginal, cesta de bens, curvas de indiferença, restrição orçamentária e TMS. Função de produção, fatores de produção, produtividade total, média e marginal. Custos fixos e variáveis, médio e marginal. Custo de oportunidade versus custo contábil. Poder de mercado, monopólio e oligopólio. Externalidades, bens público e recursos comuns."
+    },
+    {
+      "id": "CNM6004",
+      "code": "CNM6004",
+      "name": "Contabilidade Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6000"
+      ],
+      "equivalents": [
+        "CNM7148"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6000"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7148"
+      },
+      "syllabus": "Números índices simples e compostos. Identidades básicas das contas nacionais sob a ótica da produção, dispêndio e renda. PIB real versus nominal e o deflator implícito do PIB. Índice de preços ao consumidor. Indicadores econômicos: PIB per capita, índice de Gini, IDH. Balanço de pagamentos, transações correntes, conta de capital, conta financeira e variação das reservas internacionais. Saldo em conta corrente e o ciclo da dívida. Estrutura das contas nacionais: o SCN e seus indicadores, contas econômicas integradas, tabelas de recursos e usos."
+    },
+    {
+      "id": "MTM3101",
+      "code": "MTM3101",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM6035",
+        "MTM5126"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM6035"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5126"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos, esboço de gráficos, aproximações lineares e quadráticas); integral definida e indefinida; áreas entre curvas; técnicas de integração (substituição, por partes, substituição trigonométrica, frações parciais); integral imprópria."
+    },
+    {
+      "id": "MTM3111",
+      "code": "MTM3111",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7802",
+        "MTM5512"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM7802"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5512"
+          }
+        ]
+      },
+      "syllabus": "Matrizes. Determinantes. Sistemas lineares. Algebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies."
+    },
+    {
+      "id": "SPO7890",
+      "code": "SPO7890",
+      "name": "Sociologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5111"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5111"
+      },
+      "syllabus": "Aspectos históricos do desenvolvimento do pensamento sociológico. A sociologia como ciência. Sociologia clássica e contemporânea."
+    },
+    {
+      "id": "CNM6005",
+      "code": "CNM6005",
+      "name": "Economia Política I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7115",
+        "CNM7126"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM7115"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7126"
+          }
+        ]
+      },
+      "syllabus": "Oikonomos x crematística. Da ideia de riqueza ao valor. Milenarismo, utopia e pensamento humanista. Direito natural, direitos humanos, guerra justa e justo preço. Mercantilismo e fisiocracia. A formação do Estado nacional moderno: propriedade, contrato e poder. Absolutismo, república, soberania. Mercado, utilitarismo e ideal liberal democrático. Paixão, interesse, simpatia. Ação econômica e sentimentos morais. Divisão do trabalho e riqueza das nações. População, escassez e ideologia. Teoria ricardiana. Informe sobre as manufaturas. Economia cosmopolítica. Anarquismo, romantismo e liberalismo social"
+    },
+    {
+      "id": "CNM6007",
+      "code": "CNM6007",
+      "name": "Economia Matemática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3101"
+      ],
+      "equivalents": [
+        "CNM7135"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7135"
+      },
+      "syllabus": "Cálculo de várias variáveis: derivada total, regra da cadeia, gradiente, derivadas de ordem superior. Aplicações à análise de estática comparativa: modelo de mercado; modelo de renda nacional. Otimização: formas quadráticas, concavidade, convexidade, otimização não condicionada, condições de 1a ordem, condições de 2a ordem, máximos e mínimos. Aplicações: firma maximizadora de lucro; o problema de mínimos quadrados. Otimização com restrições: restrições de igualdade, restrições de desigualdade e a formulação de Kuhn-Tucker. Aplicações: maximização de utilidade s.a. restrição orçamentária. Funções homogêneas e homotéticas. Autovalores, dinâmica e equações a diferença."
+    },
+    {
+      "id": "CNM6008",
+      "code": "CNM6008",
+      "name": "Macroeconomia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6004"
+      ],
+      "equivalents": [
+        "CNM7149"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6004"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7149"
+      },
+      "syllabus": "O modelo IS-LM: impactos de políticas fiscais e monetárias, a armadilha da liquidez. Discussão de temas atuais sobre políticas fiscal e monetária. Inflação e desemprego: mercado de trabalho e a taxa natural de desemprego, curva de Phillips, expectativas adaptativas e racionais. Rigidez nominal e o modelos novo- keynesiano básico."
+    },
+    {
+      "id": "CNM6011",
+      "code": "CNM6011",
+      "name": "Estatística Econômica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5113"
+      ],
+      "equivalents": [
+        "CNM7331"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5113"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7331"
+      },
+      "syllabus": "Revisão de probabilidade. Esperança condicional, variância e covariância. Parâmetro e estimador. Conceito de estimador não tendencioso. Estimador de variância mínima. Estimador de mínimos quadrados. Propriedades assintóticas de estimadores. Análise de correlação. Modelo de regressão simples. Derivação do estimador de MQO. Hipóteses do modelo linear clássico, intervalos de confiança e testes de hipótese para os parâmetros. Modelo de regressão linear múltipla. Derivação do estimador de MQO. Introdução ao teorema de Gauss-Markov."
+    },
+    {
+      "id": "SPO7895",
+      "code": "SPO7895",
+      "name": "Ciência Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5234"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5234"
+      },
+      "syllabus": "Emergência da Ciência Política como campo científico. Conceitos fundamentais da Ciência Política: Poder, Dominação, Povo, Cidadania, Liberdade, Igualdade. O Estado Moderno: soberania, governo, sociedade civil. Democracia, Representação e Partidos Políticos."
+    },
+    {
+      "id": "CNM6006",
+      "code": "CNM6006",
+      "name": "Economia Política II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6005"
+      ],
+      "equivalents": [
+        "CNM7417"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6005"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7417"
+      },
+      "syllabus": "A crítica de Marx à economia política. Fundamentos do materialismo histórico e dialético. O processo de produção do capital: mercadoria e dinheiro, a transformação do dinheiro em capital, a produção da mais valia absoluta, a produção da mais valia relativa, o salário, o processo de acumulação do capital. A subsunção formal e a subsunção real do trabalho ao capital. Fetichismo e reificação. Reprodução e as condições históricas da acumulação."
+    },
+    {
+      "id": "CNM6009",
+      "code": "CNM6009",
+      "name": "Macroeconomia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6008"
+      ],
+      "equivalents": [
+        "CNM7150"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6008"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7150"
+      },
+      "syllabus": "Modelo de Solow: contabilidade do crescimento e a regra de ouro. Crescimento endógeno: modelos com capital humano, modelo AK. Teoria da renda permanente e teoria do ciclo de vida. Economia aberta: modelo IS-LM para uma economia aberta, balanço de pagamentos, taxa de câmbio real e nominal. Políticas econômicas em economias abertas. Regimes cambiais. Paridade de juros e de preços."
+    },
+    {
+      "id": "CNM6012",
+      "code": "CNM6012",
+      "name": "Microeconomia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6003",
+        "CNM6007"
+      ],
+      "equivalents": [
+        "CNM7160"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM6003"
+          },
+          {
+            "kind": "course",
+            "code": "CNM6007"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7160"
+      },
+      "syllabus": "Teoria do consumidor: restrição orçamentária, preferências, utilidade, escolha ótima e a taxa marginal de substituição. Demanda, efeito renda, efeito substituição e a equação de Slutsky. Escolha sob incerteza. Excedente do consumidor, demanda de mercado e equilíbrio. Teoria da firma: tecnologia, conjunto de possibilidades de produção, insumos, retornos de escala, taxa marginal de substituição técnica, isoquantas. Maximização de lucros. Custos de curto e longo prazo. Minimização de custos e a combinação ótima de insumos. Oferta da firma e da indústria."
+    },
+    {
+      "id": "CNM6015",
+      "code": "CNM6015",
+      "name": "Econometria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM7331",
+        "CNM6011"
+      ],
+      "equivalents": [
+        "CNM7241"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM7331"
+          },
+          {
+            "kind": "course",
+            "code": "CNM6011"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7241"
+      },
+      "syllabus": "Tipos de dados econômicos, causalidade e a noção de ceteris paribus na Econometria. Regressão múltipla: mecânica e interpretação das estimativas de MQO; valor esperado e variância dos estimadores de MQO; eficiência e o teorema de Gauss-Markov; distribuições amostrais dos estimadores de MQO, testes de hipóteses e intervalos de confiança sobre um único parâmetro e sobre combinações lineares destes – os testes t e F. Consistência, eficiência e normalidade assintótica do estimador de MQO. Inferência em grandes amostras. Heterocedasticidade, autocorrelação e suas consequências para o método MQO. Inferência robusta. Modelos para escolha discreta. Introdução a séries temporais."
+    },
+    {
+      "id": "HST5147",
+      "code": "HST5147",
+      "name": "Historia Econômica Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5147
+      },
+      "prerequisiteHours": 5147,
+      "syllabus": "Teorias da história econômica, materialismo histórico e conceitos de modo de produção. Formações econômicosociais: escravista, feudal, capitalista e socialista. Capitalismo periférico e imperialismo."
+    },
+    {
+      "id": "CCN6118",
+      "code": "CCN6118",
+      "name": "Contabilidade e Análise Financeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CCN5190"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5190"
+      },
+      "syllabus": "Introdução às atividades empresariais e visão geral das Demonstrações Financeiras. Reconhecimento, mensuração e avaliação de Ativos, Passivos, Patrimônio Líquido, Receitas e Despesas. Regulamentação e Processamento da Informação Contábil. Divulgação, transparência e Governança Corporativa. Lucro Contábil. Demonstrações Financeiras Padronizadas. Análise das Demonstrações Financeiras."
+    },
+    {
+      "id": "CNM6010",
+      "code": "CNM6010",
+      "name": "Macroeconomia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6009"
+      ],
+      "equivalents": [
+        "CNM7154"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6009"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7154"
+      },
+      "syllabus": "Instabilidade nas economias capitalistas: abordagens das teorias macroeconômicas. Schumpeter e a teoria do desenvolvimento econômico. Keynes e a instabilidade em uma economia monetária da produção. Pós-keynesianos e a instabilidade em uma economia com sistema financeiro desenvolvido. Controvérsias entre teorias macroeconômicas: comparação das teorias abordadas nas disciplinas de macroeconomia e a classificação entre ortodoxia e heterodoxia."
+    },
+    {
+      "id": "CNM6013",
+      "code": "CNM6013",
+      "name": "Microeconomia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6012"
+      ],
+      "equivalents": [
+        "CNM7161"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6012"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7161"
+      },
+      "syllabus": "Monopólio, discriminação de preços, monopsônio, mercado de trabalho, concorrência monopolística, oligopólio. Teoria dos jogos. Equilíbrio geral na troca e na produção. Economia do bem estar. Bens públicos. Informação assimétrica."
+    },
+    {
+      "id": "CNM6016",
+      "code": "CNM6016",
+      "name": "Formação Econômica do Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7119",
+        "CNM7240"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM7119"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7240"
+          }
+        ]
+      },
+      "syllabus": "A colonização do Brasil, a escravidão e as atividades econômicas: produção de açúcar e extração do ouro. Relações étnico-raciais na formação econômica do Brasil. A crise do sistema colonial e o Brasil independente. A economia brasileira perante as transformações econômicas, políticas e sociais do final do século XIX. A economia cafeeira: expansão e crise. Nascimento da estrutura industrial e o processo de substituição das importações. Nova forma de Estado pós 30 e industrialização restringida."
+    },
+    {
+      "id": "CNM6017",
+      "code": "CNM6017",
+      "name": "Desenvolvimento Socioeconômico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6009",
+        "CNM7150"
+      ],
+      "equivalents": [
+        "CNM7338"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM6009"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7150"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7338"
+      },
+      "syllabus": "Determinantes e conceitos básicos do desenvolvimento socioeconômico. Indicadores econômicos e sociais. Relações étnico-raciais e desenvolvimento. Modelos tradicionais de crescimento e divergência de renda. Subdesenvolvimento e armadilhas de pobreza. Estruturalismo. Desenvolvimento como liberdade humana. Determinantes do desenvolvimento comparado. Meio ambiente e o desenvolvimento sustentável."
+    },
+    {
+      "id": "CNM6014",
+      "code": "CNM6014",
+      "name": "Microeconomia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6013"
+      ],
+      "equivalents": [
+        "CNM7162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6013"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7162"
+      },
+      "syllabus": "O processo de concentração industrial no Século XX. Tópicos em organização industrial: medidas de concentração, barreiras à entrada, paradigma estruturaconduta- desempenho, mercados contestáveis, custos de transação. Tópicos em economia da tecnologia: conhecimento e aprendizagem, inovação e difusão, paradigmas e regimes tecnológicos. A firma industrial: teorias da firma, padrões setoriais de concorrência e de crescimento, diversificação e internacionalização, redes de firmas, arranjos produtivos locais. Política industrial: regulação, defesa da concorrência, política científica e tecnológica, estrutura industrial e política industrial no Brasil."
+    },
+    {
+      "id": "CNM6019",
+      "code": "CNM6019",
+      "name": "Economia Brasileira Contemporânea I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6016"
+      ],
+      "equivalents": [
+        "CNM7120",
+        "CNM7251"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6016"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM7120"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7251"
+          }
+        ]
+      },
+      "syllabus": "A internacionalização da economia brasileira e a estruturação do novo padrão de industrialização a partir do Plano de Metas. O desenvolvimento e as crises econômica e política no limiar dos anos 60. Afirmação do projeto desenvolvimentista internacionalizante sob governo militar: estratégias, reformas institucionais e política econômica. O ciclo de crescimento expansivo e suas contradições. A estratégia de desenvolvimento do II PND e as características da política econômica. A década perdida – anos 80 – e o padrão dos investimentos. O setor externo da economia. Dívida externa e a ruptura do padrão de financiamento. A crise financeira do Estado. Inflação e os planos econômicos de estabilização."
+    },
+    {
+      "id": "CNM6020",
+      "code": "CNM6020",
+      "name": "Economia Brasileira Contemporânea II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6019"
+      ],
+      "equivalents": [
+        "CNM7263",
+        "CNM7353"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6019"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM7263"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7353"
+          }
+        ]
+      },
+      "syllabus": "Reformas econômicas dos anos 1990: abertura de mercado, desregulamentação econômica e privatização de empresas estatais. Inflação e o plano real de estabilização econômica: fundamentos e características. Comportamento das contas do balanço de pagamentos. Dinâmica dos investimentos externos financeiros e produtivos. Dívida externa: configuração e tratamento. Finanças públicas brasileira. Indústria e desenvolvimento: desindustrialização. Política de Estado nos anos 2000: investimentos públicos e políticas sociais. Avaliação dos principais agregados macroeconômicos brasileiros recentes."
+    },
+    {
+      "id": "CNM6021",
+      "code": "CNM6021",
+      "name": "Técnicas de Pesquisa em Economia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7105"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7105"
+      },
+      "syllabus": "Métodos de abordagem científica. Ética científica e profissional. Pesquisa qualitativa e quantitativa em economia. Delimitação do tema. Construção do problema de pesquisa econômica. Referencial teórico. Fontes de informação. Formas de coleta de dados econômicos. Formas de apresentação dos resultados da pesquisa. Fases de execução da pesquisa. Normas da ABNT. Trabalhos acadêmicos: tipos, características e composição estrutural."
+    },
+    {
+      "id": "CNM6022",
+      "code": "CNM6022",
+      "name": "Monografia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7105"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7105"
+      },
+      "syllabus": "Preparação para elaborar e produzir o trabalho de graduação (TCC) em área de escolha. Definição, em conjunto com o professor orientador, do tema do estudo e sua delimitação. Definição da pergunta de pesquisa, objetivos e justificativas. Revisão bibliográfica relacionada ao tema escolhido."
+    },
+    {
+      "id": "CNM6023",
+      "code": "CNM6023",
+      "name": "Monografia II",
+      "credits": 16,
+      "hours": 288,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM6021",
+        "CNM6022"
+      ],
+      "equivalents": [
+        "CNM7107"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM6021"
+          },
+          {
+            "kind": "course",
+            "code": "CNM6022"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7107"
+      },
+      "syllabus": "Elaboração da monografia ou trabalho de conclusão de curso. Execução do trabalho. Coleta de dados e análise de resultados. Estudos complementares à realização do trabalho. Apresentação e defesa da monografia."
+    },
+    {
+      "id": "CNM7611",
+      "code": "CNM7611",
+      "name": "Atividades Complementares: Estágio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7612",
+      "code": "CNM7612",
+      "name": "Atividades Complementares: Estágio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Supervisionado I"
+    },
+    {
+      "id": "CNM7619",
+      "code": "CNM7619",
+      "name": "Atividades Complementares: Atividades",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Supervisionado II"
+    },
+    {
+      "id": "CNM7620",
+      "code": "CNM7620",
+      "name": "Atividades Complementares: Atividades",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Extraclasse I"
+    },
+    {
+      "id": "CNM7621",
+      "code": "CNM7621",
+      "name": "Atividades Complementares: Atividades",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Extraclasse II"
+    },
+    {
+      "id": "CNM7622",
+      "code": "CNM7622",
+      "name": "Atividades Complementares: Atividades",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Extraclasse III"
+    },
+    {
+      "id": "CNM8007",
+      "code": "CNM8007",
+      "name": "Atividades Complementares",
+      "credits": 32,
+      "hours": 576,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Extraclasse IV"
+    },
+    {
+      "id": "CNM5360",
+      "code": "CNM5360",
+      "name": "Economia Política Internacional",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "compreensão das relações entre a economia e a política; a formação do mercado mundial e do sistema de Estados; as teorias da globalização; trajetórias comparadas de desenvolvimento; relações entre poder, dinheiro e as organizações internacionais"
+    },
+    {
+      "id": "CNM6024",
+      "code": "CNM6024",
+      "name": "Economia Monetária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Moeda, Sistema Monetário e Teorias monetárias: Teoria Quantitativa da Moeda, Teoria da Preferência pela Liquidez em Keynes, Modelo de Tobin de escolha de ativos. Operacionalidade da Política Monetária: teoria monetária no modelo de Keynes, teoria monetária novo-keynesiana, noções de política monetária ótima, regra de Taylor e metas do Banco Central. Bancos Comerciais: balanço dos bancos comerciais, criação de moeda e multiplicador monetário, reservas fracionárias. Banco Central, balanço do Banco Central. Sistemas Financeiros, sistema de pagamentos e regulação do sistema financeiro, regras de Basileia. Crises Financeiras e a hipótese de fragilidade financeira de Minsky"
+    },
+    {
+      "id": "CNM6025",
+      "code": "CNM6025",
+      "name": "Análise de Séies Temporais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6015"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6015"
+      },
+      "syllabus": "Séries Temporais e conceito de estacionariedade; identificação de modelos, correlogramas, testes de raiz unitária e remoção de tendências; modelos autorregressivos e médias móveis: AR(p), MA(q), ARMA(p, q) e ARIMA (p,d,q); modelos generalizados autorregressivos com heteroscedasticidade condicional: ARCH(p), GARCH(p,q); vetor autorregressivo (VAR) e vetor de correção de erros (VEC)."
+    },
+    {
+      "id": "CNM6026",
+      "code": "CNM6026",
+      "name": "Métodos de Previsão de Séries Temporais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Modelos Autorregressivos com Defasagens Distribuídas e com Variáveis Dummy, Modelos de Suavização/Alisamento Exponencial, Modelos Box-Jenkins Mensuração de Medidas de Erro de Previsão, Técnicas de Monitoramento de Erros de Previsão, Métodos Ingênuos de Previsão, Modelos de Decomposição Clássica, Combinação e Integração de Previsões e Técnica Delphi."
+    },
+    {
+      "id": "CNM6027",
+      "code": "CNM6027",
+      "name": "Teoria dos Jogos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6013"
+      },
+      "syllabus": "Representação de jogos simultâneos. Estratégia dominante, maxi-min e equilíbrio de Nash. Equilíbrio de Nash e eficiência no sentido de Pareto. Eliminação iterativa de estratégias estritamente dominadas e racionabilidade. Conhecimento comum. Equilíbrios múltiplos: estratégia mista, pontos focais e a coordenação em jogos. Jogos sequenciais e a representação na forma estendida. Jogos repetidos. Jogos de informação incompleta, sinalização, seleção adversa e perigo moral."
+    },
+    {
+      "id": "CNM6028",
+      "code": "CNM6028",
+      "name": "Resolução de Problemas em Economia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Alunos são apresentados a problemas econômicos reais, casos e situações específicas e, trabalhando em grupos, devem desenvolver soluções e respostas satisfatórias utilizando conhecimentos prévios à disciplina, mas também conteúdos que serão apresentados e aprendidos na própria disciplina."
+    },
+    {
+      "id": "CNM6029",
+      "code": "CNM6029",
+      "name": "Economia Agroindustrial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Questão agrária e Questão agrícola. A Revolução Verde e o papel da agricultura no desenvolvimento do país. Intervenção do Estado no setor agropecuário. Mudanças no padrão de acumulação de capital no campo e as novas relações de produção. Formação das cadeias agroindustriais. Reestruturação do setor agroindustrial após abertura 40 comercial. Competitividade das commodities agroindustriais no comércio internacional. Aplicação prática das diferentes abordagens teóricas sobre competitividade agroindustrial."
+    },
+    {
+      "id": "CNM6030",
+      "code": "CNM6030",
+      "name": "Economia do Agronegócio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A inovação tecnológica no agronegócio, mudança no ambiente de negócios e impactos sobre o agronegócio, relações comerciais e agronegócio, tendências para o agronegócio, ações de governo e agronegócio."
+    },
+    {
+      "id": "CNM6031",
+      "code": "CNM6031",
+      "name": "Tópicos Especiais em Macroeconomia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temas adicionais da área de Macroeconomia não tratados em outras disciplinas que sejam de interesse do corpo docente e discente."
+    },
+    {
+      "id": "CNM6032",
+      "code": "CNM6032",
+      "name": "Tópicos Especiais em Microeconomia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temas adicionais da área de Microeconomia não tratados em outras disciplinas que sejam de interesse do corpo docente e discente."
+    },
+    {
+      "id": "CNM6033",
+      "code": "CNM6033",
+      "name": "Tópicos Especiais em Econometria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temas adicionais da área de Econometria não tratados em outras disciplinas que sejam de interesse do corpo docente e discente."
+    },
+    {
+      "id": "CNM6034",
+      "code": "CNM6034",
+      "name": "Tópicos Especiais em Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos, indicadores, determinantes e efeitos da desigualdade e pobreza. Análise de redes e sua relevância na análise de desigualdade. Estratificação e mobilidade social. Relações entre desenvolvimento econômico, desigualdade e pobreza. Conceitos e medições básicos da análise da diversidade. Migração, diversidade cultural e inovação. Interseccionalidade. Políticas de redução de pobreza, desigualdade e exclusão social. Estratégias de crescimento inclusivo. Desigualdade, diversidade e redes no Brasil."
+    },
+    {
+      "id": "CNM6035",
+      "code": "CNM6035",
+      "name": "Tópicos Especiais em Economia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM5126"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5126"
+      },
+      "syllabus": "Econômico Temas adicionais da área de Economia Matemática não tratados em outras disciplinas que sejam de interesse do corpo docente e discente"
+    },
+    {
+      "id": "CNM6036",
+      "code": "CNM6036",
+      "name": "Optativa PPGECO I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matemática"
+    },
+    {
+      "id": "CNM6037",
+      "code": "CNM6037",
+      "name": "Optativa PPGECO II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM6038",
+      "code": "CNM6038",
+      "name": "Optativa PPGECO III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM6039",
+      "code": "CNM6039",
+      "name": "Optativa PPGECO IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM6040",
+      "code": "CNM6040",
+      "name": "Optativa PPGECO V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7104",
+      "code": "CNM7104",
+      "name": "Metodologia Econômica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Filosofia e Ética e ética profissional. Relações da Economia com outras Ciências Sociais e Humanas. Princípios Epistemológicos nas Ciências em geral e na Economia em particular. Pluralidade metodológica na Economia - Principais escolas (positivismo, holismo, estruturalismo, marxismo) e suas limitações."
+    },
+    {
+      "id": "CNM7106",
+      "code": "CNM7106",
+      "name": "Evolução do Pensamento Econômico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Questões morais e sociais diante da emergência da economia mercantil- da Grécia antiga a Europa da idade media. Paradigma mercantilista e emergência do liberalismo - Século XV - XVIII. Desenvolvimento da Economia Clássica - Séculos XVIII e XIX. Critica do capitalismo e emergência da Economia Marxista - do Século XIX aos dias de hoje. Economia neoclássica - do Século XIX aos dias de hoje. Economia Keynesiana e seus desdobramentos - do Século XX aos dias de hoje. Pensamento econômico latino americano. Grandes correntes de pensamento contemporâneas."
+    },
+    {
+      "id": "CNM7136",
+      "code": "CNM7136",
+      "name": "Economia Internacional II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sistema financeiro internacional: evolução histórica e papel dos organismos internacionais. Moedas internacionais. Dívida externa. Negociações internacionais. Relações econômicas internacionais: vulnerabilidade externa. Estado e nacionalidade. A internacionalização da produção e dos serviços. Globalização, relações de trabalho e meio ambiente."
+    },
+    {
+      "id": "CNM7137",
+      "code": "CNM7137",
+      "name": "Economia Matemática II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sistemas dinâmicos discretos unidimensionais: métodos de solução de equações de diferenças finitas de primeira e segunda ordem, autônomas e lineares; análise qualitativa de equações de diferenças finitas de primeira ordem, autônomas e não-lineares. Sistemas dinâmicos contínuos unidimensionais: métodos de solução de equações diferenciais ordinárias de primeira e segunda ordem, autônomas e lineares; análise qualitativa de equações diferenciais ordinárias de primeira ordem, autônomas e não-lineares. Sistemas dinâmicos contínuos bidimensionais: métodos de solução de sistemas de equações diferenciais ordinárias de primeira ordem, autônomas e lineares; análise qualitativa de sistemas de equações diferenciais ordinárias de primeira ordem, autônomas e não- lineares. Aplicações econômicas: dinâmicas de crescimento populacional, dinâmicas de ajustamento de mercado (teia de aranha e outros processos de formação de expectativas), dinâmicas keynesianas (multiplicador, acelerador, IS-LM), dinâmicas de ciclos e crescimento econômicos."
+    },
+    {
+      "id": "CNM7138",
+      "code": "CNM7138",
+      "name": "Transformações Recentes do Capitalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Acumulação primitiva \"nacional\" e \"internacional\"; Gênese do Estado Moderno; Periodização da Globalização; Globalização Financeira; Crise dos subprimes; Moeda; moeda conversível; Hierarquia internacional das moedas"
+    },
+    {
+      "id": "CNM7163",
+      "code": "CNM7163",
+      "name": "Custos Industriais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Contemporâneo -Custos fixos e variáveis. Custos diretos e indiretos. Custeio por absorção. Custeio baseado em atividades (ABC). Método das unidades de esforço de produção. Análise custo - volume - lucro. Ponto de equilíbrio. Formação de preço de venda. Gestão estratégica de custos."
+    },
+    {
+      "id": "CNM7164",
+      "code": "CNM7164",
+      "name": "Teoria do Crescimento Econômico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6009"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6009"
+      },
+      "syllabus": "Fatos estilizados do crescimento econômico. O modelo de Harrod-Domar e de Kaldor. Modelo de Solow-Swan e desenvolvimentos recentes: Modelos com Capital Humano e com Tecnologia Endógena. Infra-estrutura e desempenho de longo prazo. Modelos de Crescimento Endógeno e Modelos AK."
+    },
+    {
+      "id": "CNM7206",
+      "code": "CNM7206",
+      "name": "Economia Regional e Urbana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Espaço, região e economia: a dialética sócio espacial. Enfoques teóricos sobre localização e desenvolvimento regional e urbano: da teorização sobre pólos de crescimento à abordagem das aglomerações produtivas especializadas. Globalização da economia e dinâmicas territoriais. Urbanização e economia urbana. Aspectos da questão urbana e regional no Brasil. Introdução ao planejamento do desenvolvimento urbano e regional e à problemática das políticas de promoção."
+    },
+    {
+      "id": "CNM7208",
+      "code": "CNM7208",
+      "name": "Economia do Setor Público",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6009",
+        "CNM6013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM6009"
+          },
+          {
+            "kind": "course",
+            "code": "CNM6013"
+          }
+        ]
+      },
+      "syllabus": "O tamanho relativo do setor público e do setor privado: bens públicos e externalidades. O setor público como produtor e regulador da atividade privada. Orçamento: tributação, despesas e sua incidência. Seguridade social. Déficit público, dívida pública e seu impacto sobre o crescimento econômico. Federalismo fiscal."
+    },
+    {
+      "id": "CNM7212",
+      "code": "CNM7212",
+      "name": "Geoagrafia Econômica Internacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM7223"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7223"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7220",
+      "code": "CNM7220",
+      "name": "Comércio Exterior",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teoria e Políticas de Comércio Exterior, Globalização e Integração Econômica; Integração Latino-Americana e Mercosul; Técnicas e Procedimentos em Comércio Exterior; Mercado de Câmbio, Balanço de Pagamentos; Financiamento das Exportações e Importações."
+    },
+    {
+      "id": "CNM7222",
+      "code": "CNM7222",
+      "name": "Economia de Empresas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Definições e níveis de estratégias. As escolas da estratégia. Análise do Ambiente geral. Análise setorial. Análise da concorrência. As estratégias genéricas. Outras opções estratégicas. Estudos de caso-"
+    },
+    {
+      "id": "CNM7223",
+      "code": "CNM7223",
+      "name": "Economia Internacional I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6013"
+      },
+      "syllabus": "Teorias do comércio internacional: vantagens comparativas. Modelo Heckscher-Ohlin. Modelo geral de comércio. Concorrência imperfeita. Economia de escala e comércio. Barreiras tarifárias e não-tarifárias. Integração regional e multilateralismo. Finanças internacionais: balanço de pagamentos. A relação entre cambio e juros. Investimento direto e de portfólio internacional. Ativos internacionais: papel dos bancos e das bolsas."
+    },
+    {
+      "id": "CNM7237",
+      "code": "CNM7237",
+      "name": "Economia Popular e Solidária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Solidariedade e eficiência: as diversas racionalidades econômicas. Alcances e limites do Econômico. O problema conceitual. Ethos barroco e as raízes histórico-culturais da sócio-economia solidária. A sócio-economia solidária no marco das mutações contemporâneas. A emergência da rede de sócio- economia solidária e popular e sua dinâmica paradoxal.-"
+    },
+    {
+      "id": "CNM7238",
+      "code": "CNM7238",
+      "name": "Economia Ecológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos e definições básicas. A questão ambiental na teoria econômica. As diferentes abordagens sobre meio ambiente (economia neoclássica e economia ecológica). Crescimento, desenvolvimento e sustentabilidade. Valoração ambiental na perspectiva da Economia Ecológica. Métodos de análise de valoração econômica-ecológica. Política ambiental e instrumentos econômicos de política ambiental-ecológica. Desenvolvimento Sustentável na visão econômica- ecológica."
+    },
+    {
+      "id": "CNM7273",
+      "code": "CNM7273",
+      "name": "Caio Prado e o Desenvolvimento Brasileiro",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7307",
+      "code": "CNM7307",
+      "name": "Mercado de Capitais I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos usuais do mercado de capitais. Bolsa de valores. Ação. Direitos do acionista. Avaliação de investimento. Características dos investimentos. O investidor. Simulação de investimentos. Outras aplicações financeiras. Sociedades anônimas. Lançamento público de ações. Novo mercado e governança corporativa. Mercado de capitais e desenvolvimento econômico."
+    },
+    {
+      "id": "CNM7312",
+      "code": "CNM7312",
+      "name": "Análise de Investimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-A empresa e a decisão de investimentos. Princípios de matemática financeira. Amortização de dividas. Métodos de análise e seleção de investimentos. Depreciação e imposto de renda. Substituição de equipamentos. Múltiplas alternativas de investimento. Risco e incerteza. Flexibilidade da gestão e opções reais."
+    },
+    {
+      "id": "CNM7313",
+      "code": "CNM7313",
+      "name": "Custos e Preços nos Negócios",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Concepção dos negócios. Sistema de custos na indústria, no comércio e na prestação de serviços. Determinação dos custos e da formação de preços e seus impactos nas estratégias de negócios das empresas privadas. Reflexos da estrutura tributária nos custos e preços. Logística e dimensionamento econômico dos canais de comercialização e vendas. Estratégia de preço e seu impacto nas decisões econômicas de compra, produção, estocagem, venda, logística, marketing e pós-vendas.-"
+    },
+    {
+      "id": "CNM7320",
+      "code": "CNM7320",
+      "name": "Economia do Trabalho",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Economia do trabalho. Trabalho e sociedade. Principais conceitos e características do trabalho. Produção e reprodução da força de trabalho. Padrão de acumulação capitalista e modificações nos processos de trabalho. Taylorismo, Fordismo e Toyotismo. Globalização, novas tecnologias e impactos sobre o nível do emprego e dos salários. Mercado de trabalho e relações trabalhistas. Indicadores de emprego e desemprego. Políticas trabalhistas"
+    },
+    {
+      "id": "CNM7321",
+      "code": "CNM7321",
+      "name": "Mercado de Capitais II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Bolsas Internacionais. Índices das Bolsas. Bolsas de Mercadorias e Futuros. Mercado de Derivativos. Mercado de Títulos Públicos. Avaliação de Investimentos: Índice de Shape, Índice de Gordon, Teoria de Markowitz, Coeficientes Beta, Alfa, Fluxo de Caixa Descontado, CAPM, Análise Técnica, e outros. Produtos do Mercado Financeiro: CDI, Recebíveis e outros. Investidores Institucionais. Legislação e Tributação do Mercado de Capitais. Simulação de Investimento. Mercado de Capitais e Desenvolvimento Econômico.-"
+    },
+    {
+      "id": "CNM7322",
+      "code": "CNM7322",
+      "name": "Finanças Empresariais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O ambiente financeiro. Formas básicas de organização empresarial. Fundamentos da moderna teoria de finanças. Demonstrações financeiras e fluxo de caixa. Risco e retorno. Orçamento de capital. Custo de capital. Estrutura de capital e alavancagem. Fontes de financiamento empresarial. Administração do capital de giro.-"
+    },
+    {
+      "id": "CNM7324",
+      "code": "CNM7324",
+      "name": "Economia da Inovação e Tecnologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Inovação, tecnologia e teoria econômica. Os enfoques ortodoxo e evolucionário. Padrões de inovação, seus determinantes, e a direção da mudança técnica. Processo de Inovação e estruturas de mercado. Padrões setoriais de inovações, estratégia das empresas e processos de aprendizagem. A noção de sistema de inovação, delimitação de sistemas e questões analíticas. Sistemas setoriais, sistemas tecnológicos, sistemas regionais e sistemas nacionais. Tecnologia e competitividade na era do conhecimento. -"
+    },
+    {
+      "id": "CNM7332",
+      "code": "CNM7332",
+      "name": "Gestão Financeira Empresarial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Gestão Financeira - histórico e a globalização; Enunciados da Gestão Financeira; A Função Financeira na Organização; Os conceitos de Risco e Retorno; Gestão das disponibilidades: das contas a Receber e a Pagar; Fluxo de Caixa. Alavancagem: Operacional e Financeira; Análise das Relações: custo/ benefício; Análise do Ponto de Equilíbrio.-"
+    },
+    {
+      "id": "CNM7334",
+      "code": "CNM7334",
+      "name": "Economia Comportamental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Modelo psicológico de tomada de decisão: sistema lento e criterioso versus sistema rápido. Vieses e heurísticas na tomada de decisão. Excesso de confiança. Escolhas: teoria da utilidade esperada, teoria do prospecto e outras-"
+    },
+    {
+      "id": "CNM7335",
+      "code": "CNM7335",
+      "name": "Cooperativismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A organização cooperativa; doutrina; movimento cooperativo; economia cooperativa; administração cooperativa; sociedades cooperativas e a teoria cooperativa-"
+    },
+    {
+      "id": "CNM7339",
+      "code": "CNM7339",
+      "name": "Economia da Energia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6012"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6012"
+      },
+      "syllabus": "Conceito de energia. Tipos de energia. Fontes alternativas de energia. Eficiência energética. Composição das fontes de energia na matriz energética. Desenvolvimento sustentável energético. Políticas de energia. Efeitos do aquecimento no mercado de créditos de carbono. Preços de energia e impactos na economia. Tarifas de energia elétrica. Modelos de custos e preços nos segmentos de energia."
+    },
+    {
+      "id": "CNM7354",
+      "code": "CNM7354",
+      "name": "Economia da América Latina",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Do sistema colonial a formação dos estados nacionais. América Latina e as relações com a Inglaterra: a dominação ao capital bancário e comercial. Os dados exportadores latino-americanos. América Latina sob domínio das relações econômicas e políticas dos Estados Unidos: a exportação de capital produtivo para a América Latina. Dependência produtiva, financeira e tecnológica. Endividamento Externo. América Latina: alternativas para o desenvolvimento: inserção na restruturação industrial capitalista e a integração regional-"
+    },
+    {
+      "id": "CNM7358",
+      "code": "CNM7358",
+      "name": "Economia Catarinense",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Evolução histórico-econômico. Regionalização e contrates urbano-rurais regionais. Estruturas produtivas e dinâmicas regionais. Reestruturação produtiva recente e reflexos regionais. Inserção nacional e internacional de uma economia regionalizada. Dinâmicas demográficas e ocupacionais. Indicadores socioeconômicos e tendências do desenvolvimento catarinense. Descentralização administrativa e política: pontos fortes, pontos fracos e desempenho recente ao setor público. Cenários e perspectivas da socioeconômica catarinense.-"
+    },
+    {
+      "id": "CNM7360",
+      "code": "CNM7360",
+      "name": "Gestão de Qualidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Dimensão da qualidade, histórico, cultura e conceituação da qualidade. Métodos e estilos gerenciais. Sistema de qualidade - clientes, produtos/serviços, controle do processo. Desenvolvimento do potencial humano - o homem na empresa: abordagens; aspectos motivacionais; educação e treinamento. Programa de qualidade. Garantia e certificação da qualidade.-"
+    },
+    {
+      "id": "CNM7361",
+      "code": "CNM7361",
+      "name": "Análise de Conjuntura Internacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "análise da inserção estratégica internacional dos países em desenvolvimento, em especial Brasil. Análise das tendências globais do desenvolvimento econômico, demográfico, tecnológico, social e do meio ambiente"
+    },
+    {
+      "id": "CNM7413",
+      "code": "CNM7413",
+      "name": "Elaboração e Análise de Projetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O projeto. Estudo de mercado. Tamanho e localização. Engenharia do projeto. Investimentos. Custos e receitas. Financiamentos. Avaliação econômica e financeira-"
+    },
+    {
+      "id": "CNM7414",
+      "code": "CNM7414",
+      "name": "Avaliação Econômica de Políticas Públicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6015"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6015"
+      },
+      "syllabus": "-Políticas públicas brasileiras e responsabilidades governamentais pós Constituição Federal de 1988; orçamento público para políticas sociais e de infraestrutura; conceitos de \"factuais\" e \"contra factuais\"; modelo de resultados potenciais de Neyman-Rubin; noções de tratamento e controle; conceitos de eficiência, eficácia e efetividade; situação atual do planejamento, monitoramento e avaliação das políticas públicas no Brasil; conceitos de indicadores de oferta, demanda, resultado e impacto; definição de micro dados; principais bases de micro dados no Brasil; noções de máscaras de tabulação; projetos piloto e avaliação aleatorizada; aplicação de regressão linear e modelos de diferenças-em-diferenças; noções de dados de painel; modelos Probit e Logit e pareamento por escore de propensão; modelos de variáveis instrumentais; noções de regressões em descontinuidade; o conceito de avaliação por \"controle sintético\" para séries macroeconômicas; fluxo de caixa social; taxa interna de retorno e valor presente líquido social; narrativas políticas e tomada de decisão; a Lei 8.666 (planalto.gov.br/ccivil_03/leis/L8666cons.htm) e sua relação com as políticas sociais e de infraestrutura; o papel do Terceiro Setor."
+    },
+    {
+      "id": "CNM7418",
+      "code": "CNM7418",
+      "name": "Economia Política III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6006"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6006"
+      },
+      "syllabus": "O processo global da produção capitalista: lei da tendência a queda da taxa de lucro e os fatores contrários a lei. Função do crédito na acumulação de capital. Capital fictício. Teoria das crises econômicas: superprodução e subconsumo. Capital financeiro. O debate sobre o imperialismo no Século XX. Desenvolvimento e troca desigual. Capital monopolista e tecnoestrutura. Hegemonia dos EUA, internacionalização da produção e industrialização das periferias. Tradições não marxistas em economia política."
+    },
+    {
+      "id": "CNM7425",
+      "code": "CNM7425",
+      "name": "Econofísica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Física na história da economia; Leis de potência; Caos, log-periodicidade e memória longa; Eficiência relativa e complexidade algorítmica dos mercados financeiros; Entropia; Propriedades estatísticas do passeio aleatório; Processos estocásticos de Lévy e teoremas de limite; Distribuições estáveis; Scaling e Autossimilaridade; Paradoxo de São Petersburgo; Evidência empírica do comportamento dos índices de bolsa (S&P 500, Bovespa e DJIA); Flash crashes; Voo de Lévy truncado; ARCH e GARCH; Lei de potência nas caudas; Regulação financeira de mercados complexos e uso de robôs; Comportamento coletivo de animais."
+    },
+    {
+      "id": "CNM7702",
+      "code": "CNM7702",
+      "name": "Programa de Intercâmbio em Ciências",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM5701"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM5701"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7801",
+      "code": "CNM7801",
+      "name": "Tópicos Especiais - Área de Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Econômicas II CNM7701) Desenvolvimento como ideologia e fundamento de práxis e política: controvérsias. A dimensão espacial do desenvolvimento. Processos industriais globais e reflexos no desenvolvimento em escala regional. Desenvolvimento em meio urbano na era da globalização. O mundo rural em foco: contribuições das abordagens na perspectiva do desenvolvimento territorial, com ênfase na sustentabilidade."
+    },
+    {
+      "id": "CNM7802",
+      "code": "CNM7802",
+      "name": "Tópicos Especiais - Área de Empresas e Finanças",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Visão geral da essência da criação dos negócios, Modelos de negócios - Business Model, fundamentos econômicos, financeiros e de management dos negócios, custos: conceitos, sistemas e modelos de cálculos, concepção da elaboração e análise de projetos. mercado Imobiliário, orçamento: instrumento de controle das decisões, demonstrações financeiras: Modelo FASB, sistemas e ferramentas de suporte às decisões empresariais, marketing: fundamentos e importância, logística empresarial, impactos nos estudos de viabilidade econômica."
+    },
+    {
+      "id": "CNM7803",
+      "code": "CNM7803",
+      "name": "Tópicos Especiais - Integração e Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Regionalismo e desenvolvimento. Integração regional na Europa e na América do Sul. Desenvolvimento e Coesão social nos processos de integração regional. As relações entre a União Européia e a América do Sul."
+    },
+    {
+      "id": "CNM7804",
+      "code": "CNM7804",
+      "name": "Tópicos Especiais - Área de Relações",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7805",
+      "code": "CNM7805",
+      "name": "Teoria Econômica - Pós-Keynesiana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Internacionais Bases teóricas da análise econômica pós-keynesiana: o conceito de economia monetária de produção, incerteza estrutural (Knight/Keynes) e formação de expectativas, teoria da preferência pela liquidez e escolha de ativos em Keynes. Fragilidade financeira, flutuações cíclicas e crises (abordagem de Minsky). Principais autores pós-keynesianos. Introdução ao método Stock-Flow Consistent Analysis (SFCA)."
+    },
+    {
+      "id": "CNM7806",
+      "code": "CNM7806",
+      "name": "Tópicos Especiais em Meio Ambiente",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução. Ferramentas analíticas. Análise ambiental. Análise de políticas ambientais. Questões ambientais internacionais"
+    },
+    {
+      "id": "CNM7810",
+      "code": "CNM7810",
+      "name": "Análise de Insumo Produto e de Equilíbrio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções matriciais; Contabilidade Nacional no formato matricial; Teoria do insumoproduto, agregação setorial e análise de políticas econômicas; Modelos de equilíbrio geral; Estruturas objetivos; Uso de softwares na resolução de problemas de otimização; Aplicações e desafios do analista."
+    },
+    {
+      "id": "CNM7812",
+      "code": "CNM7812",
+      "name": "Dinheiro e Magia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O mito do escambo. Dívidas primordiais.Juros: anatocismo, pinhagem e jubileu. Crédito, crenças e mercados. Financeirização e racionalidade mimétrica. Fiat money. Estado, soberania e moeda. Reis, alquimistas e economistas: a mágica financeira. Dinheiro, linguagem e instituições. Hegemmoneu. Dívida, reciprocidade, poder. Pós-fordismo e império. Geurera, geopolítica e finanças. \"In god we Trust\" x \"Trust us\". Mutualismo, finanças solidárias e bitcon na era das redes."
+    },
+    {
+      "id": "CNM7815",
+      "code": "CNM7815",
+      "name": "Ética e Economia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A Ética em perspectiva filosófica: ética e moral, fundamentação filosófica da reflexão sobre ética. Racionalidade, utilitarismo, ética e limites da teoria econômica positiva. Ética econômica e economia normativa. Temas em ética e economia: racionalidade, eficiência, liberdade, política econômica, justiça distributiva, bem-estar, desigualdade, desenvolvimento, mercados."
+    },
+    {
+      "id": "CNM7818",
+      "code": "CNM7818",
+      "name": "Liberalismo Econômico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Caracterização do liberalismo como ideologia econômica. Contraste entre as grandes correntes ideológicas em Economia: socialismo e liberalismo. Debate ideológico brasileiro. Ideologias e política econômica."
+    },
+    {
+      "id": "CNM8003",
+      "code": "CNM8003",
+      "name": "Economia Feminista",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos metodológicos, epistemológicos e teóricos da crítica feminista ao mainstream da economia; Definição do campo de estudos e de exemplos da economia feminista na prática; Trabalho invisível; Segregação por gênero no mercado de trabalho; Macroeconomia e gênero; Gênero e Pluralismo."
+    },
+    {
+      "id": "CNM8004",
+      "code": "CNM8004",
+      "name": "Desenvolvimento, Desigualdade e Pobreza",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ética econômica e social. Conceitos de desenvolvimento, desigualdade e pobreza. Medidas de desigualdade e de pobreza. Abordagem das capacitações e desenvolvimento humano. Trabalho com base de dados sobre desigualdade, pobreza e relatórios de desenvolvimento humano"
+    },
+    {
+      "id": "CNM8005",
+      "code": "CNM8005",
+      "name": "Pensamento Social Brasileiro",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Revisão crítica do pensamento político, econômico e social de autores decisivos para entender a realidade brasileira ao longo do século XIX e XX. Identificação das raízes do pensamento social brasileiro, responsáveis pelas teorias da Revolução Brasileira."
+    },
+    {
+      "id": "CNM8006",
+      "code": "CNM8006",
+      "name": "Tópicos Especiais em Economia Monetária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6009"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6009"
+      },
+      "syllabus": "A Ementa do curso será proposta a cada oferta da disciplina pelo professor. O professor tem mais graus de liberdade em selecionar assuntos, tais como: tratamentos mais avançados em teoria monetária, regimes de metas de inflação, teoria monetária moderna, teoria fiscal do nível de preços, política monetária, regulação bancaria e financeira, etc., não vistos de maneira mais aprofundada em Economia Monetária."
+    },
+    {
+      "id": "CNM8010",
+      "code": "CNM8010",
+      "name": "Economia e Filosofia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Pensamento econômico e pensamento filosófico a respeito de problemas e questões tratadas na ciência econômica, numa perspectiva de debate, diálogo e complementaridade."
+    },
+    {
+      "id": "CNM8011",
+      "code": "CNM8011",
+      "name": "História do Pensamento Econômico e Mulheres",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8011
+      },
+      "prerequisiteHours": 8011,
+      "syllabus": "HPE e mulheres. Discussões metodológicas, epistemológicas e de filosofia da ciência no âmbito da economia feminista. Paradigma clássico e as primeiras economistas. Economia Marxista, feminismo marxista e mulheres marxistas. Paradigma do individualismo metodológico, economia neoclássica, as pensadoras austríacas e a crítica feminista. Paradigma da economia institucional e feminismo. Economia Keynesiana, feminismo e macroeconomia e a contribuição de Joan Robinson. Pensamento econômico feminino latinoamericano e brasileiro e a quarta onda do feminismo. Prêmio Nobel de Economia e mulheres."
+    },
+    {
+      "id": "CNM8012",
+      "code": "CNM8012",
+      "name": "Ciência de Dados para Economista",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estruturas de big data e microdados. Principais fontes de microdados socioeconômicos do Brasil: IBGE (Censo, PNAD, PME, POF e INPC/IPCA), INEP (Censo Escolar, Enem, Enad e SAEB), Ministério do Trabalho (RAIS, CAGED e MEI), Ministério da Justiça (Infopen e Sisnarm), Ministério do Desenvolvimento (ComexStat), Ministério da Saúde (DataSUS), TSE (Eleições), Defesa Civil (S2ID), Tesouro Nacional (FINBra), ANP (SLP), BCB (DadosAbertos), Registros Civil e Comercial (nascimentos, casamentos, óbitos, abertura e fechamento de empresas etc.) e outras. Algoritmos de extração em big data. Leitura de dicionários de microdados. Principais ambientes de tabulação (R, Stata e Phyton). Identificadores transversais e longitudinais e conexão de big data. Identificação e correção de inconsistências. Interpolação de informação. Análise descritiva. Ferramentas de microeconometria e de machine-learning para a interpretação de big data de microdados socioeconômicos."
+    },
+    {
+      "id": "CNM8013",
+      "code": "CNM8013",
+      "name": "Economia Informal e Subdesenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Discussões introdutórias acerca de diferentes contribuições acerca do fenômeno na economia. Explorar as diversidades presentes na literatura acerca da abordagem conceitual do fenômeno no âmbito econômico. Ampliar o debate acerca da relação entre informalidade e subdesenvolvimento. Focar as abordagens em torno da discussão sobre Economia Informal nas sociedades Latino-americanas."
+    },
+    {
+      "id": "CNM8014",
+      "code": "CNM8014",
+      "name": "Problemas Contemporâneos da Economia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Discutir e aprofundar temas contemporâneos relevantes da economia brasileira, relacionados ao processo de mudança estrutural, à política econômica interna, à economia mundial e ao desenvolvimento econômico e social do país."
+    },
+    {
+      "id": "CNM8015",
+      "code": "CNM8015",
+      "name": "Análise de Conjuntura Econômica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6009"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6009"
+      },
+      "syllabus": "Brasileira Variáveis de análise, fontes de dados, tratamento de dados, setores da economia, construção de cenários, política econômica, contexto político, economia mundial."
+    },
+    {
+      "id": "CNM8016",
+      "code": "CNM8016",
+      "name": "Economia da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6008",
+        "CNM6012"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM6008"
+          },
+          {
+            "kind": "course",
+            "code": "CNM6012"
+          }
+        ]
+      },
+      "syllabus": "A importância da educação. A equação de Mincer. Formação de capital humano e sinalização. Insumos e processos associados à educação. Financiamento da educação: noções teóricas e aplicações no Brasil. Organização do sistema educacional. Os efeitos da educação no bem-estar social. Efeitos sobre a sociedade."
+    },
+    {
+      "id": "CNM8017",
+      "code": "CNM8017",
+      "name": "Inovação, Economia e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CNM6003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM6003"
+      },
+      "syllabus": "Inovações recentes e mudanças tecnológicas em difusão: automação radical na indústria; inteligência artificial nos serviços. Bio e nano tecnologia e computação e alto desempenho. Os efeitos múltiplos e interconectados: no trabalho e emprego, na distribuição de renda, no comércio internacional, na regulação e defesa da concorrência, no meio ambiente."
+    },
+    {
+      "id": "CNM8018",
+      "code": "CNM8018",
+      "name": "Gênero e Políticas Públicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Economia Feminista: uma introdução; Gênero e Políticas Públicas; Política Tributária Fiscal e seus impactos na desigualdade de gênero; Estado, Desenvolvimento e Combate à Pobreza ; Fenômeno da Feminização da Pobreza; Interseccionalidade; Previdência e Mulheres; Orçamentos Sensíveis ao Gênero."
+    },
+    {
+      "id": "CNM8019",
+      "code": "CNM8019",
+      "name": "Análise de Eficiência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Medidas de eficiência, modelos não paramétricos e paramétricos de análise de eficiência, análise envoltória de dados e suas extensões, eficiência intertemporal, análise de fronteira estocástica, aplicações da análise de eficiência a problemas reais."
+    },
+    {
+      "id": "CNM8020",
+      "code": "CNM8020",
+      "name": "Estatística Multivariada para Economia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à análise multivariada e suas técnicas; revisão de álgebra matricial; análise de componentes principais; análise fatorial exploratória; correlação canônica; análise de agrupamentos (clusters); análise discriminante; análise de correspondência simples e múltipla; análise fatorial confirmatória e modelagem de equações estruturais (SEM)."
+    },
+    {
+      "id": "CNM8021",
+      "code": "CNM8021",
+      "name": "Políticas Industriais, de Inovação e de Comércio Exterior",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Inovação e apropriabilidade; inovação e produtividade; sistemas de inovação, indústria 4.0 e a repactuação da relação Estado-mercado; políticas industriais, de inovação e comércio exterior; interação entre as políticas industrial, de inovação e comércio exterior; e as inicia-tivas no Brasil, América Latina, EUA, China, Europa e Ásia."
+    },
+    {
+      "id": "CAD7131",
+      "code": "CAD7131",
+      "name": "Administração Financeira I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MTM5150"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM5150"
+      },
+      "syllabus": "Disciplinas Optativas Restritas -Administração Financeira e a Globalização. Os postulados da Administração Financeira. A função financeira na empresa. Os conceitos de risco e retorno. A gestão do capital de giro. Administração das disponibilidades, das contas a receber e dos estoques. Análise de índices financeiros. Alavancagem operacional e financeira. Análise das relações: custo-volume lucro."
+    },
+    {
+      "id": "DIR5933",
+      "code": "DIR5933",
+      "name": "Direitos Humanos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos e desenvolvimento histórico da construção dos direitos humanos. Cidadania enquanto fenômeno jurídico direitos humanos e Constituição. Cidadania, direitos humanos e democracia. Cidadania na sociedade contemporânea. Ética e cidadania. Cidadania e meio ambiente. Pluralismo, tolerância e cidadania."
+    },
+    {
+      "id": "DIR5950",
+      "code": "DIR5950",
+      "name": "Análise Econômica do Direito",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A Teoria Econômica e o Direito. A Escola Law and Economics. O Direito Econômico e a Constitucionalização Econômica Brasileira sob o enfoque da Análise Econômica do Direito. Análise da Ordem Econômica na Constituição Brasileira de 1988."
+    },
+    {
+      "id": "DIR7105",
+      "code": "DIR7105",
+      "name": "Direito Econômico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Direito civil. Conceito e princípios do Direito Econômico. Princípios constitucionais. Legislação nacional referente ao tema. Livre mercado e intervenção estatal na economia. Agências regulatórias. CADE e Direito de Concorrência."
+    },
+    {
+      "id": "EED7173",
+      "code": "EED7173",
+      "name": "NADE -Práticas Educativas e Relações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EGC5013",
+      "code": "EGC5013",
+      "name": "Gestão do Conhecimento nas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Étnico-Raciais Conceitos, histórico (dados, informação e conhecimento). Diretrizes e recomendações básicas e principais abordagens utilizadas na gestão do conhecimento. Criação do conhecimento: formatos e conversões. Facilitadores do trabalho com o formato tácito e explícito do conhecimento. Aplicações da tecnologia da informação na gestão do conhecimento. Aplicação da gestão do conhecimento na organização por meio de seus processos empresariais."
+    },
+    {
+      "id": "EGC5017",
+      "code": "EGC5017",
+      "name": "Comércio Eletrônico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Organizações Modelos de Comércio Eletrônico; Comércio Eletrônico e o Ambiente Empresarial; Aspectos de Comércio Eletrônico; Linguagens e Ambientes apropriados; Estrutura de Análise de Comércio Eletrônico; Situação Atual e Tendências."
+    },
+    {
+      "id": "EGC5018",
+      "code": "EGC5018",
+      "name": "Introdução a Gestão da Inovação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos, tipos e metodologias de inovação. Gestão de mudanças e planejamento estratégico da inovação. Cultura e liderança para inovação. A tecnologia da inovação. Gestão integrada da inovação. Conhecimento como fator de inovação. Metodologias e ferramentas da gestão. Da idéia à inovação. Modelos de negócio para inovação. Conceitos básicos de gerenciamento de projetos. Planejamento e estruturação de um projeto. Análise da viabilidade de um projeto. Agências de fomento. Cases"
+    },
+    {
+      "id": "EGC5019",
+      "code": "EGC5019",
+      "name": "Ambientes Virtuais de Aprendizagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao Ambientes Virtuais de Aprendizagem (AVA). Processo de ensino e aprendizagem em um AVA em diferentes contextos. Tecnologia em AVAs. Análise e prática didática com as ferramentas de um AVA. Avaliação de usabilidade de um AVA. Novas tendências em e-learning e e-training corporativos. Análise, modelagem e desenvolvimento de protótipo de um AVA."
+    },
+    {
+      "id": "EGC5020",
+      "code": "EGC5020",
+      "name": "Redes Sociais e Virtuais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Definição de Redes sociais e suas influências culturais, organizacionais e tecnológicas. Tipologia de redes. Noções de comunidade de prática. Análise e avaliação de redes sociais virtuais e comunidades de prática. Estudos de caso e ou análise de recursos e ferramentas tecnológicas de análise de redes."
+    },
+    {
+      "id": "EGC5028",
+      "code": "EGC5028",
+      "name": "Habitats de Inovação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5028
+      },
+      "prerequisiteHours": 5028,
+      "syllabus": "Sistemas de ciência, tecnologia e inovação. A tríplice hélice. Cooperação universidade empresa. Redes de cooperação. Habitats de inovação."
+    },
+    {
+      "id": "EGC5263",
+      "code": "EGC5263",
+      "name": "Finanças Pessoais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Planejamento financeiro; processo de planejamento financeiro pessoal, objetivos, necessidades e prioridades do cliente; nível de tolerância ao risco; coleta de dados; relacionamento com o mercado e instituições; desenvolvimento e apresentação de um plano financeiro; implementação e monitoramento. PROGRAMA 1. Comportamento humano: personalidade e resistências a mudanças; perfis psicológicos; fatores restritivos da personalidade; administrando as emoções e os conflitos. 2. Valores culturais e a personalidade, stress, mudanças e plano de ação. 3. Operações de Crédito; Conceitos básicos de crédito. 4. Análise e seleção de seguros e previdência privada; conceitos básicos de seguros; riscos e exposição ao risco; seguros de pessoas; seguro de vida; seguro saúde. 5. Fundamentos de previdência privada; benefícios; previdência social e previdência privada; órgãos regulatórios; características específicas; perfil do investidor. 6. Investimento imobiliário. 7. Investimento e gestão de risco; Intermediação financeira; eficiência dos mercados e instituições financeiras; Alocação patrimonial (asset allocation). Avaliação dos principais produtos financeiros negociados no mercado; fundos de investimentos; mercado de títulos de renda fixa e de renda variável no Brasil. 8. Investimento em Tesouro Direto. 9. Investimento em Renda Variável – ações. 10. Comportamento do investidor perante o risco; teoria de carteiras; diversificação; opções; derivativos; riscos com derivativos."
+    },
+    {
+      "id": "HST7202",
+      "code": "HST7202",
+      "name": "História da África ( PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7202
+      },
+      "prerequisiteHours": 7202,
+      "syllabus": "Estudo das diferentes estruturas sócio-políticas da África entre os séculos XVI e XX, os processos de constituição dos sistemas coloniais e de descolonização e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST7304",
+      "code": "HST7304",
+      "name": "História Indígena (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7304
+      },
+      "prerequisiteHours": 7304,
+      "syllabus": "Estudo das populações indígenas no Brasil e das políticas indigenistas, bem como sobre as diferentes abordagens historiográficas relativas à representação dessas populações entre os séculos XVI e XXI e suas perspectivas teóricas e de ensino."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "LSB7910",
+      "code": "LSB7910",
+      "name": "Língua Brasileira de Sinais II (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "aula) -Apropriação do espaço de sinalização. As questões gramaticais na localização espacial. Diferenciação do espaço topográfico dos pontos estabelecidos. Contrastar pontos espaciais através da apontação e do uso de corpo. Descrição das pessoas e objetos usando Classificadores. Desenvolver estruturas narrativas. Desenvolver habilidades de leitura de sinais soletrados lexicalizados e não-lexicalizados. Interação e aspectos sociais, história e política da comunidade Surda. Interação em sinais em diferentes contextos cotidianos."
+    },
+    {
+      "id": "MTM5150",
+      "code": "MTM5150",
+      "name": "Matemática Financeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "horas-aula) Juros e descontos simples. Juros e descontos compostos. Taxas. Rendas."
+    },
+    {
+      "id": "PSI7610",
+      "code": "PSI7610",
+      "name": "Psicologia e Relações Étnico-Raciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos Iniciais sobre raça e etnia. O olhar da Psicologia sobre Relações Étnico-Raciais. Racismo, História e Ideologia. Identidade e Identificações (Negritude, Branquitude, Indianismo e Mestiçagem). Epistemologias Afrocentradas e Descoloniais. Movimentos sociais e políticas públicas de ações afirmativas. Efeitos Psicossociais do Racismo. Intervenção Psicossocial para promoção da igualdade étnico-racial. Sustentabilidade e populações tradicionais"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "CNM6000",
+      "CNM6001",
+      "CNM6002",
+      "DIR6011",
+      "INE5113",
+      "MTM3561",
+      "CNM6003",
+      "CNM6004",
+      "MTM3101",
+      "MTM3111",
+      "SPO7890",
+      "CNM6005",
+      "CNM6007",
+      "CNM6008",
+      "CNM6011",
+      "SPO7895",
+      "CNM6006",
+      "CNM6009",
+      "CNM6012",
+      "CNM6015",
+      "HST5147",
+      "CCN6118",
+      "CNM6010",
+      "CNM6013",
+      "CNM6016",
+      "CNM6017",
+      "CNM6014",
+      "CNM6019",
+      "CNM6020",
+      "CNM6021",
+      "CNM6022",
+      "CNM6023"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 300,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CNM7611",
+              "CNM7612",
+              "CNM7619",
+              "CNM7620",
+              "CNM7621",
+              "CNM7622",
+              "CNM8007",
+              "CNM5360",
+              "CNM6024",
+              "CNM6025",
+              "CNM6026",
+              "CNM6027",
+              "CNM6028",
+              "CNM6029",
+              "CNM6030",
+              "CNM6031",
+              "CNM6032",
+              "CNM6033",
+              "CNM6034",
+              "CNM6035",
+              "CNM6036",
+              "CNM6037",
+              "CNM6038",
+              "CNM6039",
+              "CNM6040",
+              "CNM7104",
+              "CNM7106",
+              "CNM7136",
+              "CNM7137",
+              "CNM7138",
+              "CNM7163",
+              "CNM7164",
+              "CNM7206",
+              "CNM7208",
+              "CNM7212",
+              "CNM7220",
+              "CNM7222",
+              "CNM7223",
+              "CNM7237",
+              "CNM7238",
+              "CNM7273",
+              "CNM7307",
+              "CNM7312",
+              "CNM7313",
+              "CNM7320",
+              "CNM7321",
+              "CNM7322",
+              "CNM7324",
+              "CNM7332",
+              "CNM7334",
+              "CNM7335",
+              "CNM7339",
+              "CNM7354",
+              "CNM7358",
+              "CNM7360",
+              "CNM7361",
+              "CNM7413",
+              "CNM7414",
+              "CNM7418",
+              "CNM7425",
+              "CNM7702",
+              "CNM7801",
+              "CNM7802",
+              "CNM7803",
+              "CNM7804",
+              "CNM7805",
+              "CNM7806",
+              "CNM7810",
+              "CNM7812",
+              "CNM7815",
+              "CNM7818",
+              "CNM8003",
+              "CNM8004",
+              "CNM8005",
+              "CNM8006",
+              "CNM8010",
+              "CNM8011",
+              "CNM8012",
+              "CNM8013",
+              "CNM8014",
+              "CNM8015",
+              "CNM8016",
+              "CNM8017",
+              "CNM8018",
+              "CNM8019",
+              "CNM8020",
+              "CNM8021",
+              "CAD7131",
+              "DIR5933",
+              "DIR5950",
+              "DIR7105",
+              "EED7173",
+              "EGC5013",
+              "EGC5017",
+              "EGC5018",
+              "EGC5019",
+              "EGC5020",
+              "EGC5028",
+              "EGC5263",
+              "HST7202",
+              "HST7304",
+              "LSB7904",
+              "LSB7910",
+              "MTM5150",
+              "PSI7610"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "304",
+    "curriculumCode": "20191",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=304&curriculo=20191",
+    "sha256": "4eb3eab7f9d284cb95c51528d0b78bc6ef1c921634dcfca0d0c8efb9ddf9e58f",
+    "capturedAt": "2026-09-22"
+  }
+}

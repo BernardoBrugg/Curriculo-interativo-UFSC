@@ -1,0 +1,4510 @@
+{
+  "program": "Letras, habilitação em Língua Portuguesa e Literaturas de Língua Portuguesa",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2007.1",
+  "totalHours": 3852,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "LLV8000",
+      "code": "LLV8000",
+      "name": "História dos Estudos Linguísticos (PCC 8h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8000
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5101"
+      },
+      "prerequisiteHours": 8000,
+      "syllabus": "Fundamentos históricos e filosóficos da gramática tradicional. Reflexões sobre a prática pedagógica no Ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8001",
+      "code": "LLV8001",
+      "name": "Estudos Gramaticais (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5101",
+        "LLV7002"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5101"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7002"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "a) LLV7001) Iniciação aos conceitos e métodos da descrição gramatical segundo as abordagens da Linguística Moderna. Problemas e limites das teorias gramaticais. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8002",
+      "code": "LLV8002",
+      "name": "Produção Textual Acadêmica I (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5603",
+        "LLV7003"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5603"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7003"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Estudo e produção de textos técnico-científicos relevantes para o desempenho das atividades acadêmicas, tais como: resumo, resenha, artigo e seminário. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8003",
+      "code": "LLV8003",
+      "name": "Literatura Brasileira I (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5271",
+        "LLV7201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5271"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7201"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Da colônia ao romantismo - construção da identidade nacional a partir do mapeamento territorial: a colonização jesuítica; o barroco e a internacionalização da cultura; neoclassicismo e ilustração: a poesia nativista e a prosa dos publicistas; a lírica romântica: o subjetivismo de Álvares de Azevedo, o indianismo de Gonçalves Dias e a poesia social de Castro Alves; Alencar e as ficções fundacionais. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8004",
+      "code": "LLV8004",
+      "name": "Literatura Portuguesa I (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5281",
+        "LLV7301"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5281"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7301"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "A literatura e a construção da nacionalidade portuguesa; a lírica trovadoresca: cantigas de amigo, amor, de escárnio; a ficção cavaleiresca; o teatro de Gil Vicente; tensão entre renovações cosmopolitas e tradições locais : tradição e renovação, o paradigma do escritor clássico - Camões; barroco: norma e transgressão; releituras do lírico e do satírico: Bocage. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8005",
+      "code": "LLV8005",
+      "name": "Teoria Literária I (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5931",
+        "LLV7401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5931"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7401"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Leitura intensiva de clássicos da literatura ocidental, abordando as seguintes questões : teoria, literatura e cânone; poéticas clássicas (mimese e níveis de representação; a épica de Homero; a tragédia e a comédia gregas; Platão e a poesia; a poética de Aristóteles); poéticas modernas (mescla e hibridismo; o drama shakespeareano); poéticas contemporâneas (Baudelaire e a modernidade; o realismo e a crise da representação; a literatura no século XX). Reflexões sobre a prática pedagógica no ensino fundamental e médio (os clássicos na escola e o problema das adaptações)."
+    },
+    {
+      "id": "LLV8006",
+      "code": "LLV8006",
+      "name": "Fonética e Fonologia do Português(PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5601"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5601"
+      },
+      "syllabus": "Introdução aos princípios gerais da Fonética Articulatória. Transcrição fonética. Relação entre fonética e fonologia. Introdução às premissas da descrição e análise fonológica. Processos fonológicos básicos. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8007",
+      "code": "LLV8007",
+      "name": "Morfologia do Português (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5602",
+        "LLV7005"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5602"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7005"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "8h-a) LLV7004) As palavras e sua estrutura. Morfemas: conceito, tipologia e análise morfológica. Composição e derivação. Flexão e categorias gramaticais. Classificação de palavras. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8008",
+      "code": "LLV8008",
+      "name": "Língua Latina I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5821",
+        "LLV7101"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5821"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7101"
+          }
+        ]
+      },
+      "syllabus": "As funções sintáticas e os casos latinos. Sistema nominal (declinações). Sistema verbal (conjugações). Introdução às classes de palavras. Orações coordenadas. Tradução de textos latinos. Subsistência de traços latinos no português."
+    },
+    {
+      "id": "LLV8009",
+      "code": "LLV8009",
+      "name": "Literatura Brasileira II (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7201",
+        "LLV8003"
+      ],
+      "equivalents": [
+        "LLV5272",
+        "LLV7202"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7201"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8003"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 8
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5272"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7202"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Do oitocentos ao modernismo - literatura e cultura pós-romântica : do Império à República Velha : naturalismo, parnasianismo, simbolismo, decadentismo, impressionismo; Euclides da Cunha e Raul Pompéia; a ficção moderna de Machado de Assis. A Semana de Arte Moderna e a poética modernista; Mario e Oswald de Andrade; o lirismo moderno : Bandeira e Drummond; a tensão vanguarda/regionalismo - os narradores não-alinhados: Lima Barreto, Monteiro Lobato; os regionalistas: José Lins do Rego e Graciliano Ramos; os ensaístas de interpretação nacional : Paulo Prado, Gilberto Freyre, Sérgio Buarque. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8010",
+      "code": "LLV8010",
+      "name": "Literatura Portuguesa II (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7301",
+        "LLV8004"
+      ],
+      "equivalents": [
+        "LLV5282",
+        "LLV7302"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7301"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8004"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 8
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5282"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7302"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "O oitocentos português. A construção da identidade nacional e os entraves à modernização. Da história ao romance, Almeida Garrett e Alexandre Herculano; Eça de Queirós; subjetividade e crítica da razão: Cesário Verde, Antonio Nobre, Camilo Pessanha. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8011",
+      "code": "LLV8011",
+      "name": "Teoria Literária II (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV5933",
+        "LLV7402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7401"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8005"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 8
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5933"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7402"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Estudo da narrativa ficcional em seus aspectos históricos e formais; gêneros canônicos e subgêneros narrativos; a estrutura narrativa: texto, personagem, foco narrativo, tempo e espaço; as fronteiras do ficcional (história e ficção); análise textual; crítica textual. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8012",
+      "code": "LLV8012",
+      "name": "Sintaxe do Português (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5104",
+        "LLV7006"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5104"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7006"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Os constituintes. A relação núcleo e argumentos. A estrutura das sentenças simples e complexas do português. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8013",
+      "code": "LLV8013",
+      "name": "Língua Latina II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7101",
+        "LLV8008"
+      ],
+      "equivalents": [
+        "LLV5822",
+        "LLV7102"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7101"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8008"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5822"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7102"
+          }
+        ]
+      },
+      "syllabus": "Sistema verbal: vozes; tempo. Verbos irregulares e depoentes. Classes de palavras. Tradução de textos latinos. Subsistência de traços latinos no português."
+    },
+    {
+      "id": "LLV8014",
+      "code": "LLV8014",
+      "name": "Literatura Brasileira III (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7201",
+        "LLV8003"
+      ],
+      "equivalents": [
+        "LLV5273",
+        "LLV7203"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7201"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8003"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 8
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5273"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7203"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Literatura Contemporânea. Permanência e transformação do regional. Guimarães Rosa; as narrativas de introspecção subjetiva: Clarice Lispector; a poesia experimental: João Cabral, Murilo Mendes, Haroldo de Campos. O pós-moderno. Produção ficcional recente. Prática Pedagógica."
+    },
+    {
+      "id": "LLV8015",
+      "code": "LLV8015",
+      "name": "Literatura Portuguesa III (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7301",
+        "LLV8004"
+      ],
+      "equivalents": [
+        "LLV5283",
+        "LLV7303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7301"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8004"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 8
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5283"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7303"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Modernidade e pós-modernidade nas literaturas de expressão portuguesa: séculos XX e XXI. Metáforas da modernidade, vanguardas, modernismo: Fernando Pessoa e a geração de Orpheu; o grupo presencista; subjetividade lírica em Florbela Espanca; o programa neo-realista; o romance contemporâneo: metaficção, intertexto, paródia; ficções de expressão portuguesa contemporâneas. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8016",
+      "code": "LLV8016",
+      "name": "Teoria Literária III (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV5932",
+        "LLV7403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7401"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8005"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 8
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5932"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7403"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Estudo da poesia em seus aspectos históricos e formais; poéticas clássicas e modernas; a poesia enquanto forma; o verso e a prosa; as funções da poesia; o poeta enquanto crítico; análise e interpretação do texto poético. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8017",
+      "code": "LLV8017",
+      "name": "Semântica (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5102",
+        "LLV7007"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5102"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7007"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Noções básicas: sentido e referência, acarretamento, anáfora, pressuposição, tempo, aspecto, evento, modalidade, operadores, quantificadores, a partir da análise do Português Brasileiro. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8018",
+      "code": "LLV8018",
+      "name": "Teoria da Enunciação (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5103",
+        "LLV7008"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5103"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7008"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Introdução à Teoria da Enunciação de Emile Benveniste. Aparelho formal da enunciação. Linguagem e subjetividade. Relações enunciado/enunciação; sentido do enunciado/da enunciação; léxico no enunciado/ na enunciação. O sistema pronominal e temporal no quadro da enunciação. Fronteiras do oral/ escrito segundo o aparelho formal da enunciação. Abordagens textuais com base na enunciação. Plano embreado e não embreado da textualização. Aquisição de linguagem a partir dos operadores de enunciação. Índices formais e enunciativos. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8019",
+      "code": "LLV8019",
+      "name": "Linguística Textual (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5103",
+        "LLV5657",
+        "LLV7009"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5103"
+          },
+          {
+            "kind": "course",
+            "code": "LLV5657"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7009"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Fundamentação epistemológica. O texto como objeto de pesquisa: conceitos de texto, princípios de textualização, condições de produção, organização/ tessitura textual, a construção do sentido, processamento textual, tipologias textuais. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8020",
+      "code": "LLV8020",
+      "name": "Língua Latina III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7102",
+        "LLV8013"
+      ],
+      "equivalents": [
+        "LLV5823",
+        "LLV7103"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7102"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8013"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5823"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7103"
+          }
+        ]
+      },
+      "syllabus": "Emprego dos tempos verbais e suas formas nominais. Sintaxe dos casos. Orações coordenadas e subordinadas. Flexão e grau dos adjetivos. Tradução de textos latinos. Subsistência de traços latinos no português."
+    },
+    {
+      "id": "LLV8021",
+      "code": "LLV8021",
+      "name": "Teoria Literária IV (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV5934",
+        "LLV7404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7401"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8005"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 8
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5934"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7404"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Correntes críticas - século XX, abordagens intrínsecas do texto literário: explicação de texto e estilística; formalismo russo, estruturalismo tcheco, new criticism; estruturalismo francês e pós-estruturalismo. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8022",
+      "code": "LLV8022",
+      "name": "Estudos Literários I: Viagens, Natureza -",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7201"
+      ],
+      "equivalents": [
+        "LLV7501"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7501"
+      },
+      "syllabus": "Renascimento europeu, expansão ultramarina portuguesa. As imagens do outro: conquistas, colonização e representações do colonizado. Visões do paraíso: imagens do Novo Mundo. Viagens para dentro, \"viagem na minha terra\". O imaginário da viagem na poesia moderna: splee, belle époque, decadentismo. Oriente. Diáspora, migrações e exílio. Errâncias do sujeito pós-moderno. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8023",
+      "code": "LLV8023",
+      "name": "Estudos Literários I: História-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A historiografia e os seus mecanismos de inclusão; a crítica como instância legitimadora; instituições literárias e os processos de consagração; memória e políticas culturais; história da literatura e história das mentalidades: o desafio da longa duração; história da literatura e o construtivismo radical; mapeamento de invisibilidades. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8024",
+      "code": "LLV8024",
+      "name": "Estudos Literários I: Campo, Sertão-Cidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Literatura/Invisibilidades (PCC 8h-a) LLV7301 eh A presença da natureza na lírica amorosa. A tensão campo e cidade. O processo de modernização e a emergência da cidade moderna no século XIX. A cena bucólica e os temas urbanos na poesia. O campo e o sertão como espaços de conflito. O surgimento do romance urbano. Poéticas urbanas. Novas cartografias na cidade pós-moderna. Reflexões sobre a prática pedagógica."
+    },
+    {
+      "id": "LLV8040",
+      "code": "LLV8040",
+      "name": "Análise do Discurso (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Teorias e análises do discurso de diferentes vertentes. Conceitos de discurso. Para uma teoria de Gênero de Discurso. Para uma teoria de Análise Crítica do Discurso. Para uma Análise de Discurso como dispositivo teóricoanalítico da interpretação. Para uma Análise de Discurso atravessada pela Psicanálise. Para uma abordagem arqueológica do discurso. Relações língua/ discurso, texto/discurso. Análise de conteúdo vs. análise de discurso. A questão do sujeito e da autoria. Prática de análise. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8049",
+      "code": "LLV8049",
+      "name": "Ensino em Letras I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7910",
+        "LTR5011"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7910"
+          },
+          {
+            "kind": "course",
+            "code": "LTR5011"
+          }
+        ]
+      },
+      "syllabus": "Atividades Acadêmico-Científico-Culturais"
+    },
+    {
+      "id": "LLV8050",
+      "code": "LLV8050",
+      "name": "Ensino de Letras II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7911",
+        "LTR5012"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7911"
+          },
+          {
+            "kind": "course",
+            "code": "LTR5012"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8051",
+      "code": "LLV8051",
+      "name": "Pesquisa em Letra I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7912",
+        "LTR5013"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7912"
+          },
+          {
+            "kind": "course",
+            "code": "LTR5013"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8052",
+      "code": "LLV8052",
+      "name": "Pesquisa em Letras II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7913",
+        "LTR5014"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7913"
+          },
+          {
+            "kind": "course",
+            "code": "LTR5014"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8053",
+      "code": "LLV8053",
+      "name": "Extensão em Letras I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7914",
+        "LTR5014"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7914"
+          },
+          {
+            "kind": "course",
+            "code": "LTR5014"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8054",
+      "code": "LLV8054",
+      "name": "Extensão em Letras II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7915",
+        "LTR5016"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7915"
+          },
+          {
+            "kind": "course",
+            "code": "LTR5016"
+          }
+        ]
+      },
+      "syllabus": "Atividades de caráter científico, cultural e acadêmico ligadas a Projetos de Extensão em Língua e/ou Literatura."
+    },
+    {
+      "id": "LLV8150",
+      "code": "LLV8150",
+      "name": "Pesquisa Extensão I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7916"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7916"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8151",
+      "code": "LLV8151",
+      "name": "Pesquisa Extensão II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7917"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7917"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8152",
+      "code": "LLV8152",
+      "name": "Pesquisa Extensão III",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7918"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7918"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8153",
+      "code": "LLV8153",
+      "name": "Pesquisa Extensão IV",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7919"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7919"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "EED5301",
+      "code": "EED5301",
+      "name": "Fundamentos da Língua de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Constituição do sujeito surdo. A relação da história da surdez com a língua de sinais. Noções básicas da língua de sinais brasileira: o espaço de sinalização, os elementos que constituem os sinais, noções sobre a estrutura da língua, a língua em uso em contextos triviais de comunicação."
+    },
+    {
+      "id": "EED5331",
+      "code": "EED5331",
+      "name": "Teorias da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Brasileira Conceito de educação: elaborações e práticas em torno da formação moral, intelectual e estética do homem. Conceito de pedagogia: pedagogia da essência e pedagogia da existência - referências clássicas, modernas e contemporâneas. Pensamento pedagógico brasileiro."
+    },
+    {
+      "id": "LLV8055",
+      "code": "LLV8055",
+      "name": "Norma Padrão Escrita II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5122"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5122"
+      },
+      "syllabus": "Aspectos do sistema ortográfico. Emprego de palavras."
+    },
+    {
+      "id": "LLV8056",
+      "code": "LLV8056",
+      "name": "Redação Oficial Empresarial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5214"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5214"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8057",
+      "code": "LLV8057",
+      "name": "Filologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5110",
+        "LLV7600"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5110"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7600"
+          }
+        ]
+      },
+      "syllabus": "A escrita como prática cultural e histórica. Edótica do período moderno. O método de Lachmann. Noções de paleografia e diplomática. Os arquivos e a filologia. A filologia e a composição de corpora lingüísticos. Prática de edição de manuscritos."
+    },
+    {
+      "id": "LLV8058",
+      "code": "LLV8058",
+      "name": "Tópicos Especiais em Sociolinguística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7012"
+      ],
+      "equivalents": [
+        "LLV5112"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7012"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5112"
+      },
+      "syllabus": "Língua e sociedade. A pesquisa sociolinguística. Estudo de aspectos da variação e mudança no português falado e escrito."
+    },
+    {
+      "id": "LLV8059",
+      "code": "LLV8059",
+      "name": "Variação e Ensino de Língua (PCC 30h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5113",
+        "LLV7602"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 30
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5113"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7602"
+          }
+        ]
+      },
+      "prerequisiteHours": 30,
+      "syllabus": "(PCC 8h-a) LLV7601) LLV8027) As diferentes instâncias de uso da língua e o ensino. Conceitos de norma. O ensino da norma na formação do sujeito social. Aspectos da heterogeneidade dialetal e o ensino do português."
+    },
+    {
+      "id": "LLV8060",
+      "code": "LLV8060",
+      "name": "Norma Padrão Escrita (PCC 30h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5121",
+        "LLV7603"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 30
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5121"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7603"
+          }
+        ]
+      },
+      "prerequisiteHours": 30,
+      "syllabus": "Aspectos do uso da língua padrão escrita - estrutura frasal"
+    },
+    {
+      "id": "LLV8061",
+      "code": "LLV8061",
+      "name": "Produção Textual Acadêmica I (PCC 30h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5610",
+        "LLV7605"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 30
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5610"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7605"
+          }
+        ]
+      },
+      "prerequisiteHours": 30,
+      "syllabus": "Estudo e produção de textos técnico-científicos relevantes para o desempenho das atividades acadêmicas, tais como: resumo, resenha, artigo e seminário. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "LLV8062",
+      "code": "LLV8062",
+      "name": "Revisão de Textos I (PCC 30h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5131",
+        "LLV7607"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 30
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5131"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7607"
+          }
+        ]
+      },
+      "prerequisiteHours": 30,
+      "syllabus": "Reconhecimento dos diversos níveis de linguagem. Níveis de linguagem adequados ao texto literário e ao texto técnico/científico. Grau de formalidade e/ou informalidade dos textos técnicos/científicos. Normas gramaticais vigentes. Coesão e coerência textuais."
+    },
+    {
+      "id": "LLV8063",
+      "code": "LLV8063",
+      "name": "Revisão de Textos II (PCC 30h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7607",
+        "LLV8062"
+      ],
+      "equivalents": [
+        "LLV5132",
+        "LLV7608"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7607"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8062"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 30
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5132"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7608"
+          }
+        ]
+      },
+      "prerequisiteHours": 30,
+      "syllabus": "Normas da ABNT relacionadas à produção científica e aos constituintes do livro. Normas gramaticais vigentes."
+    },
+    {
+      "id": "LLV8064",
+      "code": "LLV8064",
+      "name": "Revisão de Textos III (PCC 30h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7607",
+        "LLV8062"
+      ],
+      "equivalents": [
+        "LLV5133",
+        "LLV7609"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7607"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8062"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 30
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5133"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7609"
+          }
+        ]
+      },
+      "prerequisiteHours": 30,
+      "syllabus": "Textos normativos e prescritivos. Normas gramaticais vigentes."
+    },
+    {
+      "id": "LLV8065",
+      "code": "LLV8065",
+      "name": "Revisão de Textos IV (PCC 30h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7607",
+        "LLV8062"
+      ],
+      "equivalents": [
+        "LLV5134",
+        "LLV7610"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7607"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8062"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 30
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5134"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7610"
+          }
+        ]
+      },
+      "prerequisiteHours": 30,
+      "syllabus": "Texto jornalístico e texto publicitário. Normas gramaticais vigentes."
+    },
+    {
+      "id": "LLV8066",
+      "code": "LLV8066",
+      "name": "Linguística Computacional I (PCC 30h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5611",
+        "LLV7611"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 30
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5611"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7611"
+          }
+        ]
+      },
+      "prerequisiteHours": 30,
+      "syllabus": "Objetivos da Linguística Computacional. A relação entre Linguística Teórica e Computacional. Linguística Computacional como produto e como processo. Possíveis arquiteturas para o processamento automático de línguas naturais. Representações linguísticas e 'modelos mentais'."
+    },
+    {
+      "id": "LLV8067",
+      "code": "LLV8067",
+      "name": "Linguística Computacional II (PCC 30h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7611",
+        "LLV8066"
+      ],
+      "equivalents": [
+        "LLV5612",
+        "LLV7612"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7611"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8066"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 30
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5612"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7612"
+          }
+        ]
+      },
+      "prerequisiteHours": 30,
+      "syllabus": "Analisadores sintáticos e semânticos."
+    },
+    {
+      "id": "LLV8068",
+      "code": "LLV8068",
+      "name": "Tópicos-Fonética-Fonologia I: Variação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7004"
+      ],
+      "equivalents": [
+        "LLV5643"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7004"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5643"
+      },
+      "syllabus": "Variação lingüística: processos fonológicos do português, analisados segundo teoria fonológica específica, nos níveis segmental, silábico, prosódico, dentro do contexto frasal e discursivo."
+    },
+    {
+      "id": "LLV8069",
+      "code": "LLV8069",
+      "name": "Tópicos-Fonética-Fonologia II: Teorias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7004"
+      ],
+      "equivalents": [
+        "LLV5613"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7004"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5613"
+      },
+      "syllabus": "Linguística (PCC 30h-a) LLV7613) LLV8006) Estudo de uma ou mais teoria fonológica: Estruturalismo, Gerativismo, Multilinear, Lexical, Otimilidade, etc.."
+    },
+    {
+      "id": "LLV8070",
+      "code": "LLV8070",
+      "name": "Tópicos-Fonética-Fonologia III: Aplicação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7004"
+      ],
+      "equivalents": [
+        "LLV5644"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7004"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5644"
+      },
+      "syllabus": "Fonológicas LLV7614) LLV8006) Ensino/aprendizagem da língua portuguesa, sob o enfoque de uma teoria fonológica específica."
+    },
+    {
+      "id": "LLV8071",
+      "code": "LLV8071",
+      "name": "Tópicos em Sintaxe",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7006",
+        "LLV8012"
+      ],
+      "equivalents": [
+        "LLV5608",
+        "LLV7616",
+        "LLV8071"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7006"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8012"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5608"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7616"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8071"
+          }
+        ]
+      },
+      "syllabus": "ao Ensino (PCC 30h-a) LLV7615) LLV8006) Princípios Sintáticos. Parâmetros sintáticos. Fenômenos sintáticos. Comparação entre línguas. Comparação entre o português e outras línguas. Ensino da Sintaxe."
+    },
+    {
+      "id": "LLV8072",
+      "code": "LLV8072",
+      "name": "Tópicos em Sintaxe de Português",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7006",
+        "LLV8012"
+      ],
+      "equivalents": [
+        "LLV5646",
+        "LLV7617"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7006"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8012"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5646"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7617"
+          }
+        ]
+      },
+      "syllabus": "Sintaxe do português. Ordem das palavras. Marcação de Caso. Deslocamento sintático. Ilhas."
+    },
+    {
+      "id": "LLV8073",
+      "code": "LLV8073",
+      "name": "Tópicos em Sintaxe I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7006",
+        "LLV8012"
+      ],
+      "equivalents": [
+        "LLV5663",
+        "LLV7618"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7006"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8012"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5663"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7618"
+          }
+        ]
+      },
+      "syllabus": "Sujeito Nulo. Objeto nulo. Inversão do sujeito. Concordância. Ordem das palavras. A periferia esquerda das sentenças. A periferia direita da sentença."
+    },
+    {
+      "id": "LLV8074",
+      "code": "LLV8074",
+      "name": "Tópicos em Sintaxe II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7006",
+        "LLV8012"
+      ],
+      "equivalents": [
+        "LLV5664",
+        "LLV7619"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7006"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8012"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5664"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7619"
+          }
+        ]
+      },
+      "syllabus": "Sentenças interrogativas e relativas. Foco. Tópico. A periferia esquerda da sentença. Subordinação. Coordenação."
+    },
+    {
+      "id": "LLV8075",
+      "code": "LLV8075",
+      "name": "Sintaxe Tradicional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5210",
+        "LLV7620"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5210"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7620"
+          }
+        ]
+      },
+      "syllabus": "Descrição da sintaxe do português a partir da visão da tradição gramatical."
+    },
+    {
+      "id": "LLV8076",
+      "code": "LLV8076",
+      "name": "Tópicos em Gramática Funcional (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5631"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5631"
+      },
+      "syllabus": "Concepção funcional de gramática. Estruturas sintáticas e sua correlação com funções discursivas. Construções de topicalização. Aspectos de gramaticalização em português."
+    },
+    {
+      "id": "LLV8077",
+      "code": "LLV8077",
+      "name": "Tópicos em Morfologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5645",
+        "LLV7622"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5645"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7622"
+          }
+        ]
+      },
+      "syllabus": "30h-a) LLV7621) Introdução à morfologia gerativa: derivação e flexão."
+    },
+    {
+      "id": "LLV8078",
+      "code": "LLV8078",
+      "name": "Tópicos Especiais de Morfologia I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à morfologia gerativa: derivação."
+    },
+    {
+      "id": "LLV8079",
+      "code": "LLV8079",
+      "name": "Tópicos Especiais de Morfologia II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à morfologia gerativa: flexão."
+    },
+    {
+      "id": "LLV8080",
+      "code": "LLV8080",
+      "name": "Tópicos em Semântica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à semântica formal no estudo das línguas naturais."
+    },
+    {
+      "id": "LLV8081",
+      "code": "LLV8081",
+      "name": "Tópicos em Semântica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Descrição e análise de um fenômeno específico dentro do quadro formal de análise das línguas naturais."
+    },
+    {
+      "id": "LLV8082",
+      "code": "LLV8082",
+      "name": "Tópicos em Aquisição da Linguagem I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Métodos em aquisição da linguagem."
+    },
+    {
+      "id": "LLV8083",
+      "code": "LLV8083",
+      "name": "Tópicos em Aquisição da Linguagem II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Questões específicas sobre a aquisição do Português Brasileiro, comparativamente a outras línguas."
+    },
+    {
+      "id": "LLV8084",
+      "code": "LLV8084",
+      "name": "Experiência de Ensino de Língua",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Experiência com atuação em sala de aula."
+    },
+    {
+      "id": "LLV8085",
+      "code": "LLV8085",
+      "name": "Língua Latina IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Portuguesa (PCC 72h-a) LLV7629) Estudo aprofundado do sistema verbal e nominal latino. Prática de leitura e tradução dos clássicos. Verbos: formas nominais; subjuntivo; voz passiva. Usos específicos dos casos. Pronomes e conjunções. Subsistência de traços latinos no português."
+    },
+    {
+      "id": "LLV8086",
+      "code": "LLV8086",
+      "name": "Língua Latina V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sintaxe das orações consecutivas, finais, infinitivas, comparativas, imperativas (subjuntivas), completivas, condicionais. Verbos impessoais; gerundivos. Números cardinais. Subsistência de traços latinos no português."
+    },
+    {
+      "id": "LLV8087",
+      "code": "LLV8087",
+      "name": "Tópicos em Linguística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8088",
+      "code": "LLV8088",
+      "name": "Tópicos em Semântica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à semântica formal no estudo das línguas naturais."
+    },
+    {
+      "id": "LLV8089",
+      "code": "LLV8089",
+      "name": "Língua Latina VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8090",
+      "code": "LLV8090",
+      "name": "Tópicos Especiais: O Sobrenatural na",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1000
+      },
+      "prerequisiteHours": 1000,
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8091",
+      "code": "LLV8091",
+      "name": "Tópicos em Sintaxe do Português II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Literatura Sentenças interrogativas e relativas. Foco. Tópico. A periferia esquerda da sentença. Subordinação. Coordenação."
+    },
+    {
+      "id": "LLV8092",
+      "code": "LLV8092",
+      "name": "Teopoética: Estudos Comparados entre",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7700"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7700"
+      },
+      "syllabus": "As relações entre Literatura e Teologia; as incursões recíprocas entre o Teológico e o Literário; a intertextualidade, o imbricamento, da interface, o diálogo possível entre Teologia e Literatura, Teologia e Cinema, Teologia e Pintura, Teologia e Poesia, Teologia e Mitologia, Teologia e Música; a análise literária da Bíblia; a influência da Bíblia na literatura ocidental; a interpretação literária de Deus efetivada pelos escritores de Literatura"
+    },
+    {
+      "id": "LLV8093",
+      "code": "LLV8093",
+      "name": "Literatura em Santa Catarina (PCC 5h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5247",
+        "LLV7701"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5247"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7701"
+          }
+        ]
+      },
+      "prerequisiteHours": 5,
+      "syllabus": "Teologia e Literatura Manifestações literárias no período Romântico e Realista. O grupo 'Ideia Nova' e Cruz e Sousa. A geração da Academia Catarinense de Letras. O Grupo Sul. Manifestações atuais."
+    },
+    {
+      "id": "LLV8094",
+      "code": "LLV8094",
+      "name": "Experiência de Criação Literária I - Poesia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5343"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5343"
+      },
+      "syllabus": "Natureza da literatura. Estrutura de obra literária. A linguagem literária. O estilo. A criatividade. A criação do poema."
+    },
+    {
+      "id": "LLV8095",
+      "code": "LLV8095",
+      "name": "Experiência de Criação Literária II - Conto",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5357"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5357"
+      },
+      "syllabus": "(PCC 54h-a) LLV7702) Criação e desenvolvimento de narrativas curtas : o conto."
+    },
+    {
+      "id": "LLV8096",
+      "code": "LLV8096",
+      "name": "Experiência de Criação Literária III - Oficina",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7703"
+      ],
+      "equivalents": [
+        "LLV5358"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7703"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5358"
+      },
+      "syllabus": "(PCC 54h-a) LLV7703) Oficina de contos, exercícios práticos de criação literária, escrituras e reescrituras de contos clássicos e contemporâneos."
+    },
+    {
+      "id": "LLV8097",
+      "code": "LLV8097",
+      "name": "Memória, Identidade e Representação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5609",
+        "LLV7705"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5609"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7705"
+          }
+        ]
+      },
+      "syllabus": "de Conto (PCC 54h-a) LLV7704) LLV8095) A constituição do sujeito através de gêneros literários considerados 'menores' (como autobiografia, histórias de vida, diários), com ênfase nas questões epistemológicas e políticas sobre linguagem e representação."
+    },
+    {
+      "id": "LLV8098",
+      "code": "LLV8098",
+      "name": "Textualidades Contemporâneas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5571",
+        "LLV7706"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5571"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7706"
+          }
+        ]
+      },
+      "syllabus": "A produção cultural contemporânea: manifestações e intertextualidades. Invenção dos paradigmas teóricos da interpretação da cultura contemporânea."
+    },
+    {
+      "id": "LLV8099",
+      "code": "LLV8099",
+      "name": "Literatura e Memória",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5572",
+        "LLV7708"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5572"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7708"
+          }
+        ]
+      },
+      "syllabus": "Relação entre literatura e registros de memória: gêneros autobiográficos e confessionais, retratos de época, marcas da história."
+    },
+    {
+      "id": "LLV8100",
+      "code": "LLV8100",
+      "name": "Literatura e Mulher",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5573",
+        "LLV7709"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5573"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7709"
+          }
+        ]
+      },
+      "syllabus": "Estudo da produção literária feminina. Resgate de textos e autoras, teorias feministas e estudo de gênero."
+    },
+    {
+      "id": "LLV8101",
+      "code": "LLV8101",
+      "name": "Filosofia e Ciência da Literatura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5574",
+        "LLV7710"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5574"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7710"
+          }
+        ]
+      },
+      "syllabus": "Estudos das relações entre filosofia e literatura. Visão da leitura sob um viés epistemológico. As tecnologias do texto literário."
+    },
+    {
+      "id": "LLV8102",
+      "code": "LLV8102",
+      "name": "Filosofia e Estudos Literários",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5574",
+        "LLV7711"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5574"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7711"
+          }
+        ]
+      },
+      "syllabus": "Discutir a importância da literatura para a reflexão da filosofia clássica e moderna, analisando as respostas de pensadores como Schlegel, Nietszche, Heidegger, Blanchot, Foucault, entre outros."
+    },
+    {
+      "id": "LLV8103",
+      "code": "LLV8103",
+      "name": "Noções de Versificação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7712"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7712"
+      },
+      "syllabus": "Estudo da versificação e da metrificação, das tradições grega e latina, chegando até a poesia de língua portuguesa, explorando fenômenos fonéticos e prosódicos, assim como a estrutura rítmica de nossa poesia."
+    },
+    {
+      "id": "LLV8104",
+      "code": "LLV8104",
+      "name": "Literatura Infatil I (PCC 5h-a)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5383",
+        "LLV7713"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5383"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7713"
+          }
+        ]
+      },
+      "prerequisiteHours": 5,
+      "syllabus": "Estudo das legendas celtas, dos clássicos da Literatura Infantil (Andersen, Grim e Perrauld), chegando até a Literatura Infantil Contemporânea no Brasil, passando pela adaptação dos clássicos pelo cinema norte-americano e terminando com o estudo da Literatura Infantil no teatro e a arte dos contadores de estórias."
+    },
+    {
+      "id": "LLV8105",
+      "code": "LLV8105",
+      "name": "Literatura Latina: Leituras/Reescrituras",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5318",
+        "LLV7714"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5318"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7714"
+          }
+        ]
+      },
+      "syllabus": "Releitura e reescritura de textos clássicos de literatura latina."
+    },
+    {
+      "id": "LLV8106",
+      "code": "LLV8106",
+      "name": "Literatura Latina: Tradução",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5319",
+        "LLV7715"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5319"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7715"
+          }
+        ]
+      },
+      "syllabus": "Teoria da tradução de textos: a literatura latina como objeto de investigação e prática."
+    },
+    {
+      "id": "LLV8107",
+      "code": "LLV8107",
+      "name": "Teoria Literária: Pós-Estruturalismo e seus",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5937"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5937"
+      },
+      "syllabus": "Avaliar o significado da crise das oposições binárias para o estudo da literatura na época o pensamento da diferença e do pós-modernismo, levando em consideração teóricos e críticos iterários europeus, norte-americanos e latinoamericanos, como Jacques Derrida, Roland Barthes, Fredric Jameson, Paul de Man, Leyla Perrone-Moysés, entre outros."
+    },
+    {
+      "id": "LLV8108",
+      "code": "LLV8108",
+      "name": "Análise do Texto Literário (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV5936",
+        "LLV7717"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7401"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8005"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 8
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5936"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7717"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Desdobramentos LLV7716) Problemas de análise e interpretação de textos literários (poesia e prosa); questões metodológicas e teóricas implicadas no exercício da leitura crítica do texto literário. Prática de análise."
+    },
+    {
+      "id": "LLV8109",
+      "code": "LLV8109",
+      "name": "Teoria Literária: O Pós- Estruturalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV5937",
+        "LLV7718"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7401"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8005"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5937"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7718"
+          }
+        ]
+      },
+      "syllabus": "Teoria do texto. Da obra ao texto. Como des(d)obrar um texto. O conceito de dobra. A disseminação. O neutro. O des-oeuvrement ou inoperância. A indecidibilidade."
+    },
+    {
+      "id": "LLV8110",
+      "code": "LLV8110",
+      "name": "Leitura, Instituições Literárias e as",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLV7401"
+      ],
+      "equivalents": [
+        "LLV7719"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7719"
+      },
+      "syllabus": "Literatura como instituição. As redes da crítica. Debates recentes sobre leitura e construção de cânones e contra- cânones e sua importância para a reflexão teórica contemporânea."
+    },
+    {
+      "id": "LLV8111",
+      "code": "LLV8111",
+      "name": "Teoria Literária e Crítica Cultural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV5947",
+        "LLV7720"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7401"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8005"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5947"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7720"
+          }
+        ]
+      },
+      "syllabus": "Margens da Crítica LLV8005) Os impasses da teoria literária e seus desdobramentos em direção à crítica cultural; os fenômenos da globalização da cultura."
+    },
+    {
+      "id": "LLV8112",
+      "code": "LLV8112",
+      "name": "Teoria Literária: Teoria da Modernidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV5570",
+        "LLV7721"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7401"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8005"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5570"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7721"
+          }
+        ]
+      },
+      "syllabus": "Estudo e discussão do conceito de 'modernidade' e de alguns de seus desdobramentos. Estudo e discussão do conceito de pós-modernidade e de alguns de seus desdobramentos. Análise e discussão de práticas culturais modernas e pós-modernas (literatura, cinema, artes plásticas)."
+    },
+    {
+      "id": "LLV8113",
+      "code": "LLV8113",
+      "name": "A Questão da História Literária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV7722"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7401"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8005"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7722"
+      },
+      "syllabus": "História da literatura, crítica literária e teoria. História literária e história cultural. Tradição, evolução e valor. Os impasses do fazer historiográfico tradicional diante da revisão de conceitos (nacionalismo, língua materna, autor, autoridade, etc.) propostos pela teoria contemporânea. História literária e ensino da literatura."
+    },
+    {
+      "id": "LLV8114",
+      "code": "LLV8114",
+      "name": "Tópicos Especiais de Teoria da Literatura I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7723"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7723"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8115",
+      "code": "LLV8115",
+      "name": "Tópicos Especiais de Teoria da Literatura II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7724"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7724"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8116",
+      "code": "LLV8116",
+      "name": "Tópicos Especiais de Teoria da Literatura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7725"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7725"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8117",
+      "code": "LLV8117",
+      "name": "Épica Ameríndia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV7726"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7401"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8005"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7726"
+      },
+      "syllabus": "III As cosmologias indígenas: os deuses e suas criações; as aventuras dos heróis fundadores e legisladores; a lógica do concreto e a bricolagem mítica; a narrativa dos xamãs (rito e performance) e o diálogo com o outro (espíritos, animais, plantas), nos cantos e poemas ameríndios."
+    },
+    {
+      "id": "LLV8118",
+      "code": "LLV8118",
+      "name": "Literatura e Cosmogonia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV7727"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7401"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8005"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7727"
+      },
+      "syllabus": "A representação da origem; deuses e heróis: diálogo e conflito; o homem e os animais: as fronteiras ontológicas e imaginárias; as metamorfoses míticas; a crise do humanismo e a noção de personagem; a representação do fim."
+    },
+    {
+      "id": "LLV8119",
+      "code": "LLV8119",
+      "name": "Poesia Visual e Sonora",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV7728"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7401"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8005"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7728"
+      },
+      "syllabus": "O poema: objeto e voz; manipulações eletrônicas: novas possibilidades da imagem e do som - das criações eletroacústicas ao hipertexto; o poema vivo: performance; o poema habitável: instalações."
+    },
+    {
+      "id": "LLV8120",
+      "code": "LLV8120",
+      "name": "Análise Cultural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5947",
+        "LLV7729"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5947"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7729"
+          }
+        ]
+      },
+      "syllabus": "Leitura crítica dos diversos 'textos' culturais (televisão, cinema, propaganda, etc.) e de seus 'subtextos' de gênero, raça e classe. Análise da intertextualidade e polissemia dos textos culturais. A cultura como processo ativo de produção e disseminação de significados: os momentos da codificação e decodificação."
+    },
+    {
+      "id": "LLV8121",
+      "code": "LLV8121",
+      "name": "História da Música Popular Brasileira I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5948",
+        "LLV7730"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8121
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5948"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7730"
+          }
+        ]
+      },
+      "prerequisiteHours": 8121,
+      "syllabus": "Estudo da história da música popular brasileira das origens até o tropicalismo, a partir de sua contextualização histórica no que diz respeito ao cenário político e ao estabelecimento da indústria cultural no Brasil."
+    },
+    {
+      "id": "LLV8122",
+      "code": "LLV8122",
+      "name": "História da Música Popular Braileira II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7731"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8122
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7731"
+      },
+      "prerequisiteHours": 8122,
+      "syllabus": "Estudo da história da música popular brasileira da era do rádio ao contexto contemporâneo a partir de sua contextualização histórica no que diz respeito ao cenário político e ao estabelecimento da indústria cultural no Brasil."
+    },
+    {
+      "id": "LLV8123",
+      "code": "LLV8123",
+      "name": "Letras e Informática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5950",
+        "LLV7732"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5950"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7732"
+          }
+        ]
+      },
+      "syllabus": "Noções básicas de computadores e de redes. Noções básicas de computação associadas à Letras. Criação e leitura hipertextual."
+    },
+    {
+      "id": "LLV8124",
+      "code": "LLV8124",
+      "name": "Literatura e Cinema",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7733"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7733"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8125",
+      "code": "LLV8125",
+      "name": "Dramaturgia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7734"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7734"
+      },
+      "syllabus": "História do teatro. O teatro poético e dramático em suas épocas mais representativa. Dramaturgos brasileiros. Textos teatrais."
+    },
+    {
+      "id": "LLV8126",
+      "code": "LLV8126",
+      "name": "Tópicos em Literatura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7735"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7735"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8127",
+      "code": "LLV8127",
+      "name": "Literaturas Africanas de Língua",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7736"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7736"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8128",
+      "code": "LLV8128",
+      "name": "Prática de Tradução de Textos Latinos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7301",
+        "LLV8020"
+      ],
+      "equivalents": [
+        "LLV7737"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7301"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8020"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7737"
+      },
+      "syllabus": "Portuguesa Tradução de textos em latim."
+    },
+    {
+      "id": "LLV8129",
+      "code": "LLV8129",
+      "name": "O Diabo na Literatura Infanto Juvenil",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7738"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7738"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8130",
+      "code": "LLV8130",
+      "name": "Pesquisas Qualitativas Aplicadas a Área da Linguagem",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7635"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7635"
+      },
+      "syllabus": "Estudo das diferentes metodologias de pesquisa qualitativa que subsidiem a investigação na área da linguagem."
+    },
+    {
+      "id": "LTR5009",
+      "code": "LTR5009",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LTR5010",
+      "code": "LTR5010",
+      "name": "Programa de Intercâmbio IV",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7100",
+      "code": "MEN7100",
+      "name": "Processos e Métodos de Alfabetização",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8025",
+      "code": "LLV8025",
+      "name": "Aquisição da Linguagem (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5109",
+        "LLV7010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5109"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7010"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Decreto Criação = 46266 de 26/06/1959 Renovação de Reconhecimento - Portaria nº 365 de 29/07/2026 e Publicada no D.O.U em 30/07/2026."
+    },
+    {
+      "id": "LLV8026",
+      "code": "LLV8026",
+      "name": "Psicolinguística (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5109",
+        "LLV7011"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5109"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7011"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8027",
+      "code": "LLV8027",
+      "name": "Sociolinguística (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5106",
+        "LLV7012"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5106"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7012"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8028",
+      "code": "LLV8028",
+      "name": "Dialetologia (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7013"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7013"
+      },
+      "prerequisiteHours": 8,
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8029",
+      "code": "LLV8029",
+      "name": "Teoria Literária V",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7401",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV5935",
+        "LLV7405"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7401"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8005"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5935"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7405"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8030",
+      "code": "LLV8030",
+      "name": "Estudos Literários II: Literatura, Política- Ideologia (PCC 5h-a)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7201",
+        "LLV7301",
+        "LLV7401",
+        "LLV8003",
+        "LLV8004",
+        "LLV8005"
+      ],
+      "equivalents": [
+        "LLV7504"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV7201"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7301"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7401"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV8003"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV8004"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV8005"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV7201"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7301"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV8005"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV7301"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7401"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV8003"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV7301"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV8003"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV8005"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV7401"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV8003"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV8004"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 5
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7504"
+      },
+      "prerequisiteHours": 5,
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8031",
+      "code": "LLV8031",
+      "name": "Estudos Literários II: Gênero/Identidade/EtniasRepresentação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7201",
+        "LLV7301"
+      ],
+      "equivalents": [
+        "LLV7505"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7201"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7505"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8032",
+      "code": "LLV8032",
+      "name": "Estudos Literários II: Literatura, Imaginário e Construções de Nacionalidade (PCC 5h-",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7506"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7506"
+          },
+          {
+            "kind": "hours",
+            "hours": 5
+          }
+        ]
+      },
+      "prerequisiteHours": 5,
+      "syllabus": "Gênero/Identidade/EtniasRepresentação LLV7301 eh (PCC5h-a) LLV7401) ou"
+    },
+    {
+      "id": "LLV8033",
+      "code": "LLV8033",
+      "name": "Literatura e Ensino (PCC 72h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7500"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV7500"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "a) LLV7401) eh"
+    },
+    {
+      "id": "PSI5137",
+      "code": "PSI5137",
+      "name": "Psicologia Educacional: Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI5107"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI5107"
+      },
+      "syllabus": "Introdução à Psicologia como ciência: histórico, objetivo e métodos. Interações sociais no contexto educacional e o lugar do professor. Introdução ao estudo do desenvolvimento e de aprendizagem - infância, adolescência, idade adulta. Contribuições da Psicologia na prática escolar cotidiana e na compreensão do fracasso escolar. Prática como componente curricular."
+    },
+    {
+      "id": "EED5187",
+      "code": "EED5187",
+      "name": "Organização Escolar (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5129"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED5129"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "-O papel social da escola. O direito à educação. A democratização da educação. Currículo e organização da escola. LDB: a organização da educação nacional e níveis e modalidades de ensino. Projeto Político Pedagógico: a gestão democrática da escola. Parâmetros Curriculares Nacionais. Propostas Curriculares estadual e municipal."
+    },
+    {
+      "id": "LLV8034",
+      "code": "LLV8034",
+      "name": "História da Língua (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5108",
+        "LLV7015"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8034
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5108"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7015"
+          }
+        ]
+      },
+      "prerequisiteHours": 8034,
+      "syllabus": "e Construções de Nacionalidade (PCC 5h- LLV7301 eh a) LLV7401) ou"
+    },
+    {
+      "id": "LLV8035",
+      "code": "LLV8035",
+      "name": "Política Linguística (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5650",
+        "LLV7016"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5650"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7016"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8036",
+      "code": "LLV8036",
+      "name": "Estudos de Teoria Literária I: Vertentes",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7401"
+      ],
+      "equivalents": [
+        "LLV7406"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7406"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8037",
+      "code": "LLV8037",
+      "name": "Estudos Literários III - Literatura Latina: Gêneros Diversos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5810",
+        "LLV7507"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5810"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7507"
+          }
+        ]
+      },
+      "syllabus": "Críticas no Século XX LLV8005)"
+    },
+    {
+      "id": "LLV8038",
+      "code": "LLV8038",
+      "name": "Estudos Literários III: A Metalinguagem na",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7201"
+      ],
+      "equivalents": [
+        "LLV7508"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7508"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8039",
+      "code": "LLV8039",
+      "name": "Estudos Literários III: Memória-",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7201"
+      ],
+      "equivalents": [
+        "LLV7509"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7509"
+      },
+      "syllabus": "Literatura de Expressão Portuguesa (PCC LLV7301 eh 6h-a) LLV7401) ou"
+    },
+    {
+      "id": "LLV8131",
+      "code": "LLV8131",
+      "name": "Linguística Aplicada: Ensino de Língua",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5107"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1000
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5107"
+      },
+      "prerequisiteHours": 1000,
+      "syllabus": ""
+    },
+    {
+      "id": "MEN5604",
+      "code": "MEN5604",
+      "name": "Didática D - (PCC 12 h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN5131"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5131"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "Materna (PCC 108) LLV5654 ou - Educação escolar como fenômeno histórico-social. Currículo e trabalho pedagógico no contexto escolar. As relações de ensino-aprendizagem em contexto escolar. Mediações pedagógicas e suas relações com o ensino da área específica do curso."
+    },
+    {
+      "id": "LLV8041",
+      "code": "LLV8041",
+      "name": "Pragmática (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7018"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7018"
+      },
+      "prerequisiteHours": 8,
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8042",
+      "code": "LLV8042",
+      "name": "Modelos de Análise Linguística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7019"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1000
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7019"
+      },
+      "prerequisiteHours": 1000,
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8043",
+      "code": "LLV8043",
+      "name": "Filosofia da Linguística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7020"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1000
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7020"
+      },
+      "prerequisiteHours": 1000,
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8044",
+      "code": "LLV8044",
+      "name": "Estudos de Teoria Literária II: Vertentes",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7401"
+      ],
+      "equivalents": [
+        "LLV7407"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7407"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLV8045",
+      "code": "LLV8045",
+      "name": "Estudos Literários IV - Literatura Latina: Textos Fundacionais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5810",
+        "LLV7510"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5810"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7510"
+          }
+        ]
+      },
+      "syllabus": "Críticas Contemporâneas LLV8005)"
+    },
+    {
+      "id": "LLV8046",
+      "code": "LLV8046",
+      "name": "Estudos Literários IV: Literaturas de Expressão Portuguesa e outras",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV7511"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7511"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7000",
+      "code": "MEN7000",
+      "name": "Metodologia Ensino Língua Portuguesa e Literatura (PCC 36 h/a)",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EED5187",
+        "LLV8000",
+        "LLV8001",
+        "LLV8006",
+        "LLV8007",
+        "LLV8009",
+        "LLV8011",
+        "LLV8012",
+        "LLV8014"
+      ],
+      "equivalents": [
+        "MEN5171"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5187"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8000"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8001"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8006"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8007"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8009"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8011"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8012"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8014"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5171"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Linguagens (PCC 5h-a)"
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE7881"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE7881"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "MEN7001",
+      "code": "MEN7001",
+      "name": "Estágio Ensino Língua Portuguesa",
+      "credits": 14,
+      "hours": 252,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7014"
+      ],
+      "equivalents": [
+        "MEN5237"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7014"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5237"
+      },
+      "syllabus": "18h-a) LSB7904) Educação Básica: estudos conjunturais do campo de estágio, preferencialmente, no ensino fundamental. Atividades de pesquisa bibliográfica, propostas de ações de extensão e definição do objeto de ensino. Atividades de vivência escolar: acompanhamento do professor da escola na função de monitoria; participação nas atividades pedagógicas da escola; estabelecimento de interações possíveis com outros projetos em curso e com estagiários/professores de outras áreas. Organização das atividades por equipes e preparação do projeto de trabalho. Observação analítica dos fenômenos didáticos. Seminários de acompanhamento e produção de pequenos ensaios. Preparação orientada dos planos de aula. Regência de classe. Seminário final, com mostra das atividades das atividades de pesquisa, ensino e extensão e produção da monografia, ensaio ou artigo."
+    },
+    {
+      "id": "MEN7002",
+      "code": "MEN7002",
+      "name": "Estágio de Ensino de Língua Portuguesa e Literatura",
+      "credits": 14,
+      "hours": 252,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN7001"
+      ],
+      "equivalents": [
+        "MEN5238"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN7001"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5238"
+      },
+      "syllabus": "O ensino médio: estudos conjunturais do campo de estágio. Atividades de pesquisa bibliográfica, propostas de ações de extensão e definição do objeto de ensino. Atividades de vivência escolar: acompanhamento do professor da escola na função de monitoria (dois meses); participação nas atividades pedagógicas da escola; estabelecimento de interações possíveis com outros projetos em curso e com estagiários/professores de outras áreas. Organização das atividades por equipes e preparação do projeto de trabalho. Observação analítica dos fenômenos didáticos. Seminários de acompanhamento e produção de pequenos ensaios. Preparação orientada dos planos de aula. Regência de classe (dois meses). Seminário final, com mostra das atividades de pesquisa, ensino e extensão e produção da monografia, ensaio ou artigo."
+    },
+    {
+      "id": "LLV8047",
+      "code": "LLV8047",
+      "name": "Orientação do Trabalho de Conclusão de Curso I (PCC 144h-a)",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5951",
+        "LLV7901"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1700
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5951"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7901"
+          }
+        ]
+      },
+      "prerequisiteHours": 1700,
+      "syllabus": "Linguagens (PCC 5h-a)"
+    },
+    {
+      "id": "LLV8048",
+      "code": "LLV8048",
+      "name": "Orientação do Trabalho de Conclusão de Curso II (PCC 144h-a)",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7901",
+        "LLV8047"
+      ],
+      "equivalents": [
+        "LLV5952",
+        "LLV7902"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7901"
+              },
+              {
+                "kind": "course",
+                "code": "LLV8047"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 144
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5952"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7902"
+          }
+        ]
+      },
+      "prerequisiteHours": 144,
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "LLV8000",
+      "LLV8001",
+      "LLV8002",
+      "LLV8003",
+      "LLV8004",
+      "LLV8005",
+      "LLV8006",
+      "LLV8007",
+      "LLV8008",
+      "LLV8009",
+      "LLV8010",
+      "LLV8011",
+      "LLV8012",
+      "LLV8013",
+      "LLV8014",
+      "LLV8015",
+      "LLV8016",
+      "LLV8017",
+      "LLV8018",
+      "LLV8019",
+      "LLV8020",
+      "LLV8021",
+      "LLV8022",
+      "LLV8023",
+      "LLV8024",
+      "LLV8040",
+      "LLV8049",
+      "LLV8050",
+      "LLV8051",
+      "LLV8052",
+      "LLV8053",
+      "LLV8054",
+      "LLV8150",
+      "LLV8151",
+      "LLV8152",
+      "LLV8153",
+      "LLV8055",
+      "LLV8056",
+      "LLV8057",
+      "LLV8058",
+      "LLV8059",
+      "LLV8060",
+      "LLV8061",
+      "LLV8062",
+      "LLV8063",
+      "LLV8064",
+      "LLV8065",
+      "LLV8066",
+      "LLV8067",
+      "LLV8068",
+      "LLV8069",
+      "LLV8070",
+      "LLV8071",
+      "LLV8072",
+      "LLV8073",
+      "LLV8074",
+      "LLV8075",
+      "LLV8076",
+      "LLV8077",
+      "LLV8078",
+      "LLV8079",
+      "LLV8080",
+      "LLV8081",
+      "LLV8082",
+      "LLV8083",
+      "LLV8084",
+      "LLV8085",
+      "LLV8086",
+      "LLV8087",
+      "LLV8088",
+      "LLV8089",
+      "LLV8090",
+      "LLV8092",
+      "LLV8096",
+      "LLV8128",
+      "LLV8130",
+      "LLV8025",
+      "LLV8026",
+      "LLV8027",
+      "LLV8028",
+      "LLV8029",
+      "LLV8030",
+      "LLV8031",
+      "LLV8032",
+      "LLV8033",
+      "PSI5137",
+      "EED5187",
+      "LLV8034",
+      "LLV8035",
+      "LLV8036",
+      "LLV8037",
+      "LLV8038",
+      "LLV8039",
+      "LLV8131",
+      "MEN5604",
+      "LLV8041",
+      "LLV8042",
+      "LLV8043",
+      "LLV8044",
+      "LLV8045",
+      "LLV8046",
+      "MEN7000",
+      "LSB7244",
+      "MEN7001",
+      "MEN7002",
+      "LLV8047",
+      "LLV8048"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 198,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "EED5301",
+              "EED5331",
+              "LLV8091",
+              "LLV8093",
+              "LLV8094",
+              "LLV8095",
+              "LLV8097",
+              "LLV8098",
+              "LLV8099",
+              "LLV8100",
+              "LLV8101",
+              "LLV8102",
+              "LLV8103",
+              "LLV8104",
+              "LLV8105",
+              "LLV8106",
+              "LLV8107",
+              "LLV8108",
+              "LLV8109",
+              "LLV8110",
+              "LLV8111",
+              "LLV8112",
+              "LLV8113",
+              "LLV8114",
+              "LLV8115",
+              "LLV8116",
+              "LLV8117",
+              "LLV8118",
+              "LLV8119",
+              "LLV8120",
+              "LLV8121",
+              "LLV8122",
+              "LLV8123",
+              "LLV8124",
+              "LLV8125",
+              "LLV8126",
+              "LLV8127",
+              "LLV8129",
+              "LTR5009",
+              "LTR5010",
+              "MEN7100"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "428",
+    "curriculumCode": "20071",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=428&curriculo=20071",
+    "sha256": "b0f9de769c0dc842c5e809de56b8b4bf037aa013f25d253846ecc0371bf6254f",
+    "capturedAt": "2026-09-22"
+  }
+}

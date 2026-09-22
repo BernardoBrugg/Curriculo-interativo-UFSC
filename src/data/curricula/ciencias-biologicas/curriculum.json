@@ -1,0 +1,4354 @@
+{
+  "program": "CIÊNCIAS BIOLÓGICAS",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2006.1",
+  "totalHours": 4806,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "BIO7003",
+      "code": "BIO7003",
+      "name": "Introdução a Ciência - PCC 10 horas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ECZ5109"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 10
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5109"
+      },
+      "prerequisiteHours": 10,
+      "syllabus": "A Ciência como conhecimento, método e instituição. Iniciação científica. Condições de trabalho em Ciência. Publicações científicas. Comunidade científica."
+    },
+    {
+      "id": "BIO7240",
+      "code": "BIO7240",
+      "name": "Ciências Biológicas: Formação e Profissão",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BIO7005"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BIO7005"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CFS7001",
+      "code": "CFS7001",
+      "name": "Biofísica Instrumental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Biofísica da água, Tensiometria, pH-metria, Soluções-Tampão, Diálise. Radiações eletromagnéticas: luz visível, UV, raios X e raios gama. Espectrofotometria, Fluorimetria, Cromatografia e Eletroforese."
+    },
+    {
+      "id": "ECZ7011",
+      "code": "ECZ7011",
+      "name": "Zoologia de Invertebrados I - PCC 06 horas",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ECZ5311"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 6
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5311"
+      },
+      "prerequisiteHours": 6,
+      "syllabus": "Introdução à Zoologia. Classificação dos seres vivos. Origem dos eucariontes e dos aniamais. Arquitetura e Sistemática de Protista e Animalia: mesozoários (Placozoa, Monoblastozoa, Rhombozoa, Orthonectida), parazoários (Porifera), radiados (Cnidaria, Ctenophora), acelomados (Platyhelminthes), introdução aos eucelomados (Nemertea), blastocelomados (Rotifera, Gastrotricha, Kinorhyncha, Nematoda, Nematomorpha, Priapula, Acanthocephala, Entoprocta, Gnathostomulida, Loricifera, Cycliophora, Micrognathozoa), grupo insertae sedis (Chaetognatha). Prática pedagógica como componente curricular (vivências de práticas pedagógicas com conteúdos da disciplina)."
+    },
+    {
+      "id": "ECZ7021",
+      "code": "ECZ7021",
+      "name": "Introdução à Ecologia - PCC 10 horas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ECZ5103"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 10
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5103"
+      },
+      "prerequisiteHours": 10,
+      "syllabus": "Histórico e áreas de estudo em Ecologia. Níveis de organização. Ecologia e o novo paradigma. Fatores do ambiente fisico e biótico. Introdução à elaboração de hipóteses e investigação em Ecologia. Reflexões sobre educação ambiental no ensino básico."
+    },
+    {
+      "id": "MIP7011",
+      "code": "MIP7011",
+      "name": "Tópicos de Biossegurança - PCC 05 horas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5
+      },
+      "prerequisiteHours": 5,
+      "syllabus": "Biossegurança. Biossegurança legal, praticada e não praticada. Legislação em biossegurança. Fontes de informação em biossegurança. Organismos geneticamente modificados (OGM). Níveis de biossegurança. Ética e Bioética."
+    },
+    {
+      "id": "MOR7001",
+      "code": "MOR7001",
+      "name": "Anatomia Aplicada a Ciências Biológicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MOR5215",
+        "MOR9103",
+        "MOR9104"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MOR5215"
+              },
+              {
+                "kind": "course",
+                "code": "MOR9103"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "MOR9104"
+          }
+        ]
+      },
+      "syllabus": "Introdução ao Estudo da Anatomia Humana. Aparelho Locomotor (Osteologia, Artrologia, Miologia). Sistema Cardiovascular. Sistema Respiratório. Sistema Digestório. Sistema Urinário. Sistemas Genitais Masculino e Feminino. Sistema Nervoso."
+    },
+    {
+      "id": "QMC5235",
+      "code": "QMC5235",
+      "name": "Fundamentos de Química Geral e Orgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5225"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5225"
+      },
+      "syllabus": "Ligações químicas. Propriedades físicas e químicas dos sais, óxidos, ácidos e bases. Cálculos estequimétricos. Noções de reações de óxido-redução. As forças de interações intermoleculares. Hibridização de C, N, O. Noções de estereoquímica. O átomo de carbono e as funções orgânicas, grupos funcionais das moléculas orgânicas e suas principais propriedades físicas e químicas."
+    },
+    {
+      "id": "BEG7012",
+      "code": "BEG7012",
+      "name": "Biologia Celular (PCC 4 horas/aula)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG7205",
+        "BIO7205"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7205"
+          },
+          {
+            "kind": "course",
+            "code": "BIO7205"
+          }
+        ]
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Diversidade celular. Organização da célula procariota e eucariota. Evolução celular. Aspectos morfológicos, bioquímicos e funcionais da célula, de seus revestimentos e de seus compartimentos e componentes sub-celulares. Integração morfofuncional dos componentes celulares. Métodos de estudo em biologia celular."
+    },
+    {
+      "id": "BQA7002",
+      "code": "BQA7002",
+      "name": "Bioquímica Básica - PCC 18 Horas",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS7001",
+        "QMC5235"
+      ],
+      "equivalents": [
+        "BQA5116",
+        "BQA5121"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS7001"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5235"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5116"
+          },
+          {
+            "kind": "course",
+            "code": "BQA5121"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Estrutura e importância biológica de aminoácidos, proteínas, carboidratos, ácidos nucléicos e lipídeos. Enzimas: química, cinética e inibição. Coenzimas e Vitaminas. Energética bioquímica e visão geral do metabolismo. Metabolismo de carboidratos, lipídeos, aminoácidos, proteínas e nucleotídeos. Bases moleculares da expressão gênica. Ciclo do nitrogênio, fixação e assimilação. Fotossíntese. Inter-relação e regulação metabólica."
+    },
+    {
+      "id": "CFS7002",
+      "code": "CFS7002",
+      "name": "Biofísica Celular e das Radiações - PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrutura, características e função das membranas biológicas. Bioeletrogênese, geração, propagação e transmissão de potenciais de ação. Mecanismos moleculares da contração muscular. Princípios de radiações: origem e suas interações com a matéria biológica."
+    },
+    {
+      "id": "ECZ7012",
+      "code": "ECZ7012",
+      "name": "Zoologia de Invertebrados II - PCC 06 horas",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7011"
+      ],
+      "equivalents": [
+        "ECZ5312"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7011"
+          },
+          {
+            "kind": "hours",
+            "hours": 6
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5312"
+      },
+      "prerequisiteHours": 6,
+      "syllabus": "horas Introdução aos Eumetazoários celomados. Origem da cavidade celomática: enteroceloma e esquizoceloma. Morfologia externa e interna, fisiologia, ecologia, filogenia e introdução à sistemática de vermes celomados não segmentados: Filo Echiura e Filo Sipuncula. Morfologia externa e interna, fisiologia, ecologia, filogenia e sistemática de vermes celomados segmentados: Filo Annelida. Morfologia externa e interna, fisiologia, ecologia, filogenia e introdução à sistemática de Polychaeta e Clitellata. Introdução aos Panarthropoda. Morfologia externa e interna, fisiologia, ecologia, filogenia e introdução à sistemática de Crustácea, Miriapoda e Arachnida e Insecta."
+    },
+    {
+      "id": "MTM3100",
+      "code": "MTM3100",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM7002"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM7002"
+      },
+      "syllabus": "Conjuntos e aritmética básica; Cálculo com expressões algébricas; equações; inequações; funções."
+    },
+    {
+      "id": "BEG7013",
+      "code": "BEG7013",
+      "name": "Biologia Molecular I - PCC 04 horas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7012",
+        "BQA7002"
+      ],
+      "equivalents": [
+        "BEG5427"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7012"
+          },
+          {
+            "kind": "course",
+            "code": "BQA7002"
+          },
+          {
+            "kind": "hours",
+            "hours": 4
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5427"
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Material genético; replicação do DNA e síntese de RNA; código genético; síntese de proteínas; mutação e reparo do DNA; recombinação e transposição."
+    },
+    {
+      "id": "BEG7225",
+      "code": "BEG7225",
+      "name": "Evolução (PCC 9 horas)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7012",
+        "BQA7002"
+      ],
+      "equivalents": [
+        "BEG7033"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7012"
+          },
+          {
+            "kind": "course",
+            "code": "BQA7002"
+          },
+          {
+            "kind": "hours",
+            "hours": 9
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG7033"
+      },
+      "prerequisiteHours": 9,
+      "syllabus": ""
+    },
+    {
+      "id": "BOT1617",
+      "code": "BOT1617",
+      "name": "Ficologia (PCC 8h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7012"
+      ],
+      "equivalents": [
+        "BIO7212",
+        "BOT7013",
+        "BOT7025"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7012"
+          },
+          {
+            "kind": "hours",
+            "hours": 8
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BIO7212"
+          },
+          {
+            "kind": "course",
+            "code": "BOT7013"
+          },
+          {
+            "kind": "course",
+            "code": "BOT7025"
+          }
+        ]
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Diversidade, importância biológica, aplicações e evolução de grupos com clorofila “a” na Árvore da vida. Endossimbioses. Morfologia, reprodução e ciclos de vida das algas. Correlações entre morfologia, ecologia, fisiologia de algas e possíveis aplicações. Sistemática de algas. Conquista do ambiente terrestre. Morfologia, reprodução e ciclos de vida das Briófitas. Prática como Componente Curricular em algas."
+    },
+    {
+      "id": "BOT5152",
+      "code": "BOT5152",
+      "name": "Micologia (PCC 7h-a)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7012"
+      ],
+      "equivalents": [
+        "BIO7212",
+        "BOT7013",
+        "BOT7025"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7012"
+          },
+          {
+            "kind": "hours",
+            "hours": 7
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BIO7212"
+          },
+          {
+            "kind": "course",
+            "code": "BOT7013"
+          },
+          {
+            "kind": "course",
+            "code": "BOT7025"
+          }
+        ]
+      },
+      "prerequisiteHours": 7,
+      "syllabus": "Introdução à sistemática, classificação e evolução em fungos. Delimitação do Reino Fungi. Estruturas somáticas e reprodutivas. Aspectos da biologia, fisiologia e genética. Diversidade e caracterização dos grupos de fungos. Importância ecológica, econômica e biotecnológica dos fungos. Prática como componente curricular em fungos.-"
+    },
+    {
+      "id": "ECZ7013",
+      "code": "ECZ7013",
+      "name": "Zoologia de Invertebrados III - PCC 20",
+      "credits": 5,
+      "hours": 90,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7012"
+      ],
+      "equivalents": [
+        "ECZ5313"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECZ7012"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5313"
+      },
+      "syllabus": "Anatomia, distribuição, comportamento e sistemática de Mollusca, Lophophorata e Deuterostomia invertebrados."
+    },
+    {
+      "id": "INE7003",
+      "code": "INE7003",
+      "name": "Bioestatística",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3100",
+        "MTM7002"
+      ],
+      "equivalents": [
+        "BIO7230",
+        "INE5117"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3100"
+          },
+          {
+            "kind": "course",
+            "code": "MTM7002"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BIO7230"
+          },
+          {
+            "kind": "course",
+            "code": "INE5117"
+          }
+        ]
+      },
+      "syllabus": "horas Análise Exploratória de Dados. Teoria Básica de Probabilidade. Modelos de Distribuição de probabilidades mais usuais. Inferência Estatística. Estimação Testes Paramétricos e Não-Paramétricos."
+    },
+    {
+      "id": "MIP7013",
+      "code": "MIP7013",
+      "name": "Microbiologia Geral - PCC 14 horas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7012",
+        "BQA7002",
+        "BEG7205",
+        "BQA7008"
+      ],
+      "equivalents": [
+        "MIP5125"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "BEG7012"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "BQA7002"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "BEG7205"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "BQA7008"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 14
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MIP5125"
+      },
+      "prerequisiteHours": 14,
+      "syllabus": "Morfologia, citologia, fisiologia e genética de microrganismos. Ecologia microbiana. Microbiologiado solo, da água, do ar e dos alimentos. Microrganismos patogênicos. Controle de microrganismos.Microrganismos em Biotecnologia."
+    },
+    {
+      "id": "MOR7003",
+      "code": "MOR7003",
+      "name": "Histologia Aplicada às Ciências Biológicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7012"
+      ],
+      "equivalents": [
+        "MOR5116"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7012"
+          },
+          {
+            "kind": "hours",
+            "hours": 7003
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MOR5116"
+      },
+      "prerequisiteHours": 7003,
+      "syllabus": "Tecidos Básicos: Epitelial, Conjuntivo, Cartilaginoso, Ósseo, Sangue, Linfóide, Muscular e Nervoso. Histologia dos Sistemas: Circulatório, Digestório, Urinário, Respiratório, Reprodutor Masculino e Feminino. Histologia das Glândulas Endócrinas."
+    },
+    {
+      "id": "BEG7024",
+      "code": "BEG7024",
+      "name": "Embriologia Animal - PCC 10 horas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7012"
+      ],
+      "equivalents": [
+        "BEG5215"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7012"
+          },
+          {
+            "kind": "hours",
+            "hours": 10
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5215"
+      },
+      "prerequisiteHours": 10,
+      "syllabus": "Métodos e estratégias de estudo em embriologia animal. Estrutura das gônadas e estabelecimento da linhagem germinativa. Tipos de ovos e envelopes ovulares. Fecundação e ativação do ovócito. Modelos de clivagem. Gastrulação e movimentos morfogenéticos. Eixos corporais e diferenciação dos folhetos embrionários. Processos de morfogênese e organogênese. Formação e organização dos anexos embrionários na escala animal."
+    },
+    {
+      "id": "BEG7034",
+      "code": "BEG7034",
+      "name": "Citogenética - PCC 12 horas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7013"
+      ],
+      "equivalents": [
+        "BEG5426"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7013"
+          },
+          {
+            "kind": "hours",
+            "hours": 12
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5426"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "Caracterização cromossômica dos Eucariotos: morfologia, estrutura, ploidia, sistemas cromossômicos variantes. Mecanismos de divisão celular. Determinação cromossômica do sexo. Mutações cromossômicas. Aplicabilidade da citogenética. Evolução dos cariótipos."
+    },
+    {
+      "id": "BIO7011",
+      "code": "BIO7011",
+      "name": "Vivência em Pesquisa I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BIO7005",
+        "BIO7240",
+        "BIO7003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BIO7005"
+              },
+              {
+                "kind": "course",
+                "code": "BIO7240"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "BIO7003"
+          },
+          {
+            "kind": "hours",
+            "hours": 1300
+          }
+        ]
+      },
+      "prerequisiteHours": 1300,
+      "syllabus": "Contato inicial com atividades de pesquisa. Introdução à consulta bibliográfica."
+    },
+    {
+      "id": "BOT7014",
+      "code": "BOT7014",
+      "name": "Sistemática de Plantas Vasculares - PCC",
+      "credits": 7,
+      "hours": 126,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BOT7013"
+      ],
+      "equivalents": [
+        "BIO7214"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT7013"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BIO7214"
+      },
+      "syllabus": "Introdução às plantas vasculares. Pteridófitas, gimnospermas e angiospermas: características gerais, sistemas de classificação, morfologia, ciclos de vida, características dos principais táxons e importância econômica. Principais tipos de vegetação de Santa Catarina"
+    },
+    {
+      "id": "ECZ7024",
+      "code": "ECZ7024",
+      "name": "Ecologia de Populações - PCC 18 horas",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7011",
+        "INE7003"
+      ],
+      "equivalents": [
+        "ECZ5106"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7011"
+          },
+          {
+            "kind": "course",
+            "code": "INE7003"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5106"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "10 horas BOT7026) (BOT1617 eh Conceito de individuo e população. Limites de tolerância e adaptação. Distribuição espacial de populações. Processos demográficos. Fatores e processos determinantes de densidade. Modelos de crescimento populacional. Regulação populacional. Estratégias bionômicas."
+    },
+    {
+      "id": "MEN7004",
+      "code": "MEN7004",
+      "name": "Tópicos em Biologia e Educação - PCC 18",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN5182"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5182"
+      },
+      "syllabus": "-As relações entre cultura, linguagem e biologia no trabalho pedagógico. Os estudos culturais da ciência e a educação em biologia. A dimensão pedagógica das mídias (televisão, cinema, vídeo, revista, jornal e internet) e a educação em biologia. A pesquisa sobre cultura, discurso e educação em biologia."
+    },
+    {
+      "id": "MIP7003",
+      "code": "MIP7003",
+      "name": "Biologia Parasitária - PCC 10 horas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA7002",
+        "ECZ7012"
+      ],
+      "equivalents": [
+        "MIP5318"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA7002"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7012"
+          },
+          {
+            "kind": "hours",
+            "hours": 10
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MIP5318"
+      },
+      "prerequisiteHours": 10,
+      "syllabus": "horas/aula MEN5183) Biologia de Parasitos. Sistemática em parasitologia. Estudo teórico e prático dos principais grupos de protozoários, metazoários e artrópodes transmissores e causadores de doenças ao homem. Coleta, preparação, análise e preservação de material biológico."
+    },
+    {
+      "id": "ANT5308",
+      "code": "ANT5308",
+      "name": "Antropologia Cultural A",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Antropologia. Cultura e Sociedade. Processos Evolutivos."
+    },
+    {
+      "id": "AQI5105",
+      "code": "AQI5105",
+      "name": "Aquicultura e a Preservação Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico e situação atual do uso da aquicultura na preservação ambiental. Princípios e conceitos básicos de desenvolvimento sustentável aplicado à aquicultura. Processos de reciclagem de efluentes através da aquicultura. Controle biológico de pragas através de organismos aquáticos. Integração da aquicultura com atividades rurais causadoras de impacto ambiental. Repovoamento de ambients naturais com espécies autóctones."
+    },
+    {
+      "id": "ARQ5685",
+      "code": "ARQ5685",
+      "name": "Planejamento Ambiental e Urbano",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT5116"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT5116"
+      },
+      "syllabus": "Multi, inter e transdisciplinaridade. Noções e ecossistema. Problemática ambiental urbana. Planejamento e gestão sócio-ambiental das cidades. Qualidade de vida, saúde e saneamento no espaço urbano. Tecnologias ambientais. Educação ambiental. Ecodesenho urbano."
+    },
+    {
+      "id": "BEG7030",
+      "code": "BEG7030",
+      "name": "Embriologia Clínica aplicada à",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7025"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7025"
+      },
+      "syllabus": "Estudo dos princípios em reprodução humana, como morfofisiologia e endocrinologia reprodutiva, causas de infertilidade, gametogênese, fecundação e desenvolvimento embrionário humano. Abordagem nas principais técnicas de Reprodução Assistida envolvidas na rotina do embriologista clínico. Princípios éticos e regulamentares na atuação em Reprodução Humana Assistida no Brasil e no exterior."
+    },
+    {
+      "id": "BEG7040",
+      "code": "BEG7040",
+      "name": "Modelagem, Jogos Pedagógicos e Apresentações teatrais em Biologia Celular",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7012",
+        "BEG7034"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7012"
+          },
+          {
+            "kind": "course",
+            "code": "BEG7034"
+          }
+        ]
+      },
+      "syllabus": "Reprodução Humana Assistida"
+    },
+    {
+      "id": "BEG7041",
+      "code": "BEG7041",
+      "name": "Tópicos em Biologia dos Processos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7034"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7034"
+      },
+      "syllabus": "Aspectos históricos da biologia do processo neoplásico. Abordagens tradicionais e novas abordagens na genética do câncer. Prediposição hereditária ao câncer. Oncogêneses e supressores tumorais. Carcinógenos e transformação in vivo e in vitro. Polimorfismos e câncer."
+    },
+    {
+      "id": "BEG7050",
+      "code": "BEG7050",
+      "name": "Embriologia e Histologia Comparada",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7024",
+        "MOR7003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7024"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7003"
+          }
+        ]
+      },
+      "syllabus": "Neoplásicos"
+    },
+    {
+      "id": "BEG7051",
+      "code": "BEG7051",
+      "name": "Tópicos Avançados em Biologia do Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BEG7061",
+      "code": "BEG7061",
+      "name": "Citogenética Humana",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7013",
+        "BEG7034"
+      ],
+      "equivalents": [
+        "BEG5429"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7013"
+          },
+          {
+            "kind": "course",
+            "code": "BEG7034"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5429"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BEG7062",
+      "code": "BEG7062",
+      "name": "Tópicos Especiais em Genética do Comportamento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7013",
+        "BEG7211"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7013"
+          },
+          {
+            "kind": "course",
+            "code": "BEG7211"
+          }
+        ]
+      },
+      "syllabus": "Abordagens tradicionais e novas abordagens na genética do comportamento. Caráter quantitativo e poligênico das características comportamentais. Padrões não mendelianos de herança. Bases biológicas e comportamentais da sexualidade. Fatores genéticos e não genéticos que influenciam as emoções. Fatores genéticos e não genéticos que influenciam distúrbios comportamentais e psiquiátricos. Aspectos evolutivos das doenças de ordem afetiva. Genética e cognição. Genética e gênero. Aconselhamento genético. Genética e ética."
+    },
+    {
+      "id": "BEG7063",
+      "code": "BEG7063",
+      "name": "Genética Humana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7013"
+      },
+      "syllabus": "Importância da Genética Humana. Análise de Herodogramas. Variação na expressão dos genes. Mapeamento do genoma humano e suas aplicações. Análise do cariótipo e sua relação com anomalias. Diferenciação sexual normal e anormal (estudo de casos). Aplicação prática do estudo de sistemas sanguíneos eritrocitários, de imunogenética e complexo HLA. Malformações congênitas. Importância e diagnóstico das hemoglobinas humanas e hemoglobinopatias. Erros Inatos do Metabolismo. Farmacogenética, importância e risco. Tópicos Recentes de Genética Humana e/ou Médica. Aconselhamento Genético."
+    },
+    {
+      "id": "BEG7064",
+      "code": "BEG7064",
+      "name": "Evolução Humana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7015"
+      ],
+      "equivalents": [
+        "BEG5536"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECZ7015"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5536"
+      },
+      "syllabus": "Fundamentos de evolução. Biologia comparada e história evolutiva dos primatas. Adaptações evolutivas morfológicas e comportamentais nos hominíneos. Registro fóssil dos ancestrais humanos. Evolução em populações modernas."
+    },
+    {
+      "id": "BEG7065",
+      "code": "BEG7065",
+      "name": "Genética Ecológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7035"
+      ],
+      "equivalents": [
+        "BEG5538"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7035"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5538"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BEG7070",
+      "code": "BEG7070",
+      "name": "Células-Tronco",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG5107",
+        "BEG7012",
+        "BEG7205"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5107"
+          },
+          {
+            "kind": "course",
+            "code": "BEG7012"
+          },
+          {
+            "kind": "course",
+            "code": "BEG7205"
+          }
+        ]
+      },
+      "syllabus": "Definições e características. Célula-tronco embrionária. Células-tronco pluripotentes induzidas. Reprogramação de células-tronco. Célula-tronco pós-natal. Divisão celular e senescência de células-tronco. Célula-tronco tumoral. Nichos de células-tronco. Célula-tronco hematopoétia e mesenquimal. Célula-tronco neural. Célula-tronco e Medicina Regenerativa. Marcadores para identificação das células-tronco."
+    },
+    {
+      "id": "BEG7222",
+      "code": "BEG7222",
+      "name": "Popularização Científica e Genética",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7013"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BEG7223",
+      "code": "BEG7223",
+      "name": "Mecanismos de Defesa em Invertebrados",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MIP7035",
+        "MIP7202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP7035"
+          },
+          {
+            "kind": "course",
+            "code": "MIP7202"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BIO5100",
+      "code": "BIO5100",
+      "name": "Atividades Extraclasse: monitoria",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7002",
+      "code": "BIO7002",
+      "name": "Ciências Biológicas: Ciência e Profissão II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Áreas de ensino, pesquisa e extensão do Curso de Graduação em Ciências Biológicas da UFSC. Áreas e linhas de pesquisa em andamento. Características e áreas de atuação dos laboratórios e outros espaços vinculados ao Curso. Atuação profissional de egressos: dificuldades e possibilidades. Empresa Júnior - Simbiosis. Programa Especial de Treinamento - PET. Atuação das Comissões de Estágio e de Orientação dos Trabalhos de Conclusão de Curso."
+    },
+    {
+      "id": "BIO7010",
+      "code": "BIO7010",
+      "name": "Tópicos em História da Biologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIL7007"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIL7007"
+      },
+      "syllabus": "Evolução de uma ou algumas concepções hegemônicas em um período determinado da história da biologia, que permita discutir conceitos, teorias, implicações na atividade científica e na educação científica."
+    },
+    {
+      "id": "BIO7021",
+      "code": "BIO7021",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7022",
+      "code": "BIO7022",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BIO7021"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BIO7021"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7247",
+      "code": "BIO7247",
+      "name": "Introdução à Extensão Universitaria",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BOT7018",
+      "code": "BOT7018",
+      "name": "Algas e Plantas Aquáticas em Avaliações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT1617"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT1617"
+      },
+      "syllabus": "Coleta e análise qualitativa e quantitativa de fitoplâncton e fitobentos. Métodos de fixação e preservação de material vegetal. Métodos de identificação de algas e plantas aquáticas. Análise de dados colaterais de ecossistemas costeiros e límnicos. Morfometria de algas e plantas. Bioindicadores. Monitoramento do estado fisiológico de algas. Preparação de saída de campo e embarques."
+    },
+    {
+      "id": "BOT7019",
+      "code": "BOT7019",
+      "name": "Botânica Lúdica: Uso de Jogos de Tabuleiro no Ensino",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ambientais Representatividade botânica nos jogos de tabuleiro modernos. O que são e avanço dos jogos de tabuleiro modernos. Componentes dos jogos de tabuleiro. Mecânicas utilizadas em jogos de tabuleiro. Apresentação de jogos de tabuleiro com temáticas botânicas. Elaborando regras e manual dos jogos de tabuleiro. Classificação dos jogos de tabuleiro modernos. Jogos de tabuleiro didáticos para o ensino de botânica. Utilização de jogos de tabuleiro modernos em sala de aula para o ensino de botânica."
+    },
+    {
+      "id": "BOT7020",
+      "code": "BOT7020",
+      "name": "Micologia de Campo - Macromicetes",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT7013",
+        "BOT1617",
+        "BOT5152"
+      ],
+      "equivalents": [
+        "BOT5118"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT7013"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BOT1617"
+              },
+              {
+                "kind": "course",
+                "code": "BOT5152"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BOT5118"
+      },
+      "syllabus": "Reino FUNGI: introdução e aspectos gerais. Características morfológicas: somáticas e esporuladoras (reprodutivas). Relações tróficas e ecológicas. Diversidade de macromicetes (Ascomycota e Basidiomycota) em Santa Catarina: coleta e identificação de espécimes. A disciplina contará de uma parte teórica introdutória e uma semana de curso prático intensivo em Reserva Biológica (manhã, tarde e noite)*."
+    },
+    {
+      "id": "BOT7021",
+      "code": "BOT7021",
+      "name": "Biotecnologia Vegetal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BOT5131"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BOT5131"
+      },
+      "syllabus": "-Propagação: micropropagação, cultura de meristemas, microenxertia, embriogênese somática, sementes artificiais, criopreservação, limitação do crescimento, estoque de germoplasma. Melhoramento genético: cultura de antera e polén, resgate de embriões, fusão de protoplastos, transformação genética, métodos de transferência de genes. Produção industrial de compostos vegetais; potencial, estratégias de cultura, scaling up, estabilidade de produção, uso de sistemas de imobilização."
+    },
+    {
+      "id": "BOT7022",
+      "code": "BOT7022",
+      "name": "Botânica de Campo",
+      "credits": 7,
+      "hours": 126,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT7014",
+        "BOT7017",
+        "BOT7202"
+      ],
+      "equivalents": [
+        "BOT5130"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BOT7014"
+              },
+              {
+                "kind": "course",
+                "code": "BOT7017"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "BOT7202"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BOT5130"
+      },
+      "syllabus": "Observação e análise, em campo, dos principais tipos de vegetação catarinenses, identificando os táxons mais importantes e verificando as principais características ambientais. Leitura de bibliografia sobre uma destas formações vegetacionais e redação de um trabalho sobre ela."
+    },
+    {
+      "id": "BOT7027",
+      "code": "BOT7027",
+      "name": "Diversidade e Conservação de Macrofungos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Diversidade de macrofungos: histórico da classificação e os principais grupos taxonômicos recentes. Ferramentas (tradicionais e inovadoras) para registro e estudo de estruturas reprodutivas macroscópicas. Inventários e monitoramento da funga. Boas práticas: coleta, processamento, preservação e estudo macro e micromorfológico e do status de conservação. Taxonomia de macrofungos. Conservação de espécies. Da pesquisa às práticas inovadoras com ciência cidadã sobre diversidade e conservação de macrofungos.-"
+    },
+    {
+      "id": "BOT7030",
+      "code": "BOT7030",
+      "name": "Fitogeografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Fitogeografia: definição, história, divisão e relações com outras ciências. Padrões e processos fitogeográficos. Distribuições geográficas de táxons vegetais e de comunidades de plantas. Outros tipos de distribuição fitogeográfica. Padrões de distribuição: estabelecimento e interpretação; fatores e processos determinantes. Classificações da vegetação brasileira e catarinense. Principais tipos de vegetação catarinenses e suas características ambientais. Aplicações da Fitogeografia à conservação da Natureza."
+    },
+    {
+      "id": "BOT7031",
+      "code": "BOT7031",
+      "name": "Bioprospecção Vegetal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Compostos bioativos de organismos fotossintetizantes. Processos de extração, fracionamento e caracterização de biomoléculas com atividade biológica e interesse biotecnológico."
+    },
+    {
+      "id": "BOT7204",
+      "code": "BOT7204",
+      "name": "Micologia Aplicada",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos macrofungos e nomenclatura micológica. Papel ecológico e uso do micélio e dos fungos. Aspectos do crescimento do micélio, fisiologia, ecologia e utilização de substratos pelo micélio. Experimentos com macrofungos e substratos. Discussão de textos (livros, artigos e blogs) sobre aplicabilidade de fungos nas áreas: 1. Alimentação (cogumelos comestíveis); 2. Alimentação (fermentação - pão, cerveja, tempeh); 3. Alimentação (uso no desenvolvimento de outros produtos); 4. Arte (ilustrando fungos ou usando fungos); 5. Cosméticos; 6. Etnomicologia; 7. Literatura, música e jogos; 8. Meio ambiente e agricultura (conservação, reflorestamento, controle de pragas, escudo biológico, micoturismo); 9. Micorremediação; 10. Micorrizas; 11. Micopigmentos; 12. Potencial medicinal (suplementos proteicos, nutra ou nutricêuticos); 13. Psicotrópicos e religião; 14. Utilidades (\"micopor\", tecido fúngico, \"couro amadou\"); 15. Elaboração de projetos micológicos aplicados. -"
+    },
+    {
+      "id": "BQA7010",
+      "code": "BQA7010",
+      "name": "Biologia Molecular III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7013"
+      ],
+      "equivalents": [
+        "BQA5122"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7013"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BQA5122"
+      },
+      "syllabus": "Teoria da evolução. Ácidos nucléicos e clonagem molecular. Processos de replicação, transcrição e tradução. Genoma, transcroptoma e proteoma. Métodos em Biologia Molecular e suas aplicações. Noções de Bioinformática."
+    },
+    {
+      "id": "BQA7011",
+      "code": "BQA7011",
+      "name": "Bioquímica Médica para Ciências",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BQA7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA7002"
+      },
+      "syllabus": "Especificidade metabólica dos tecidos hepático e adiposo e suas inter-relações com os demais tecidos. Aspectos bioquímicos da nutrição. Metabolismo de carboidratos e lipídios. Metabolismo energético. Bases moleculares de doenças metabólicas. Aspectos bioquímicos relacionados à evolução da nossa espécie."
+    },
+    {
+      "id": "BQA7015",
+      "code": "BQA7015",
+      "name": "Introdução à Neurociência",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Biológicas"
+    },
+    {
+      "id": "BQA7016",
+      "code": "BQA7016",
+      "name": "Métodos Moléculares e Analíticos em Bioquímica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Vivência em atividades práticas relacionadas à métodos analíticos empregados em áreas correlatas a Bioquímica, os quais darão suporte e formação básica, especialmente para as disciplinas Biologia Celular; Bioquímica, Biologia molecular, Biofísica, Fisiologia e Farmacologia."
+    },
+    {
+      "id": "BQA7017",
+      "code": "BQA7017",
+      "name": "Processos Oxidativos e Mecanismos de Defesa Antioxidante",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "DIR5555",
+      "code": "DIR5555",
+      "name": "Direito Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Defesa Antioxidante, da PPG em Para Matrícula na BQA7017 o aluno deve ter conhecimento da Língua Inglesa - Portaria nº363/preg/2010 Ecologia e Meio Ambiente - A crise ambiental - O movimento ecológico - Ecodesenvolvimento e desenvolvimento sustentável - Direito Ambiental - Conceito - Fontes - Princípios - Campos de Avaliação - O Direito e os recursos ambientais - Direito Ambiental Brasileiro - Direito Ambiental Comparado - As conferência internacionais sobre meio ambiente e ecologia - O Programa das Nações Unidas para o Meio Ambiente - Princípios legais supranacionais para a proteção ambiental e o desenvolvimento sustentável."
+    },
+    {
+      "id": "ECZ5114",
+      "code": "ECZ5114",
+      "name": "Redação Científica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BIO7004",
+        "BIO7011"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BIO7004"
+          },
+          {
+            "kind": "course",
+            "code": "BIO7011"
+          }
+        ]
+      },
+      "syllabus": "Estudo das bases teóricas e metodológicas da redação de textos científicos e do processo de produção de conhecimento científico. Ferramentas para produção de manuscritos científicos. Redação e revisão do texto científico na prática."
+    },
+    {
+      "id": "ECZ5205",
+      "code": "ECZ5205",
+      "name": "Ecologia de Campo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Planejamento, execução e avaliação de experimentos de campo, na área de Ecologia"
+    },
+    {
+      "id": "ECZ5208",
+      "code": "ECZ5208",
+      "name": "Ecossistemas de Águas Continentais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Caracterização de ambientes lóticos e lênticos. Tipos e origem lênticas. Propriedades da água. Principais fatores físicos, gases e substâncias dissolvidas na água. Comunidades e Produtividade dos ecossistemas lóticos e lênticos. Conservação dos Ecossistemas de águas continentais."
+    },
+    {
+      "id": "ECZ5209",
+      "code": "ECZ5209",
+      "name": "Ecossistemas Costeiros de Santa Catarina",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7025",
+        "ECZ7033"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7025"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7033"
+          }
+        ]
+      },
+      "syllabus": "A costa catarinense. Diversidade ecológica. Processos Biológicos, físicos e químicos nos ecossistemas. Recursos vivos. Utilização humana e seus efeitos. Tendências nos ecossistemas."
+    },
+    {
+      "id": "ECZ7060",
+      "code": "ECZ7060",
+      "name": "Biologia da Fauna Marinha",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7011",
+        "ECZ7031"
+      ],
+      "equivalents": [
+        "ECZ5412"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7011"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7031"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5412"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ECZ7061",
+      "code": "ECZ7061",
+      "name": "Introdução aos Mamíferos Aquáticos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7016"
+      ],
+      "equivalents": [
+        "ECZ5411"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECZ7016"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5411"
+      },
+      "syllabus": "Origem, evolução, sistemática e distribuição dos sirênios, cetáceos, pinípedes e mustelídeos (Mammalia: Sirenia, Cetacea e Carnivora), assim como suas adaptações estruturais e fisiológicas ao ambiente aquático. Estudo da ecologia, comportamento e conservação das espécies que ocorrem no Brasil."
+    },
+    {
+      "id": "ECZ7062",
+      "code": "ECZ7062",
+      "name": "Distribuição de Vertebrados",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7012"
+      ],
+      "equivalents": [
+        "ECZ5406"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECZ7012"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5406"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ECZ7063",
+      "code": "ECZ7063",
+      "name": "Filogenia Animal",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7035"
+      ],
+      "equivalents": [
+        "ECZ5404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7035"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5404"
+      },
+      "syllabus": "Introdução: conceitos, históricos e processos básicos. Sistemática e filogenia: Escolas atuais. Deriva continental. Padrões de evolução: dados geológicos e paleontológicos. Redação e extinção de grupos. História evolutiva de Protistas e Animalia. História evolutiva de vertebrados, particularmente de primatas e humanos."
+    },
+    {
+      "id": "ECZ7064",
+      "code": "ECZ7064",
+      "name": "Entomologia",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7012"
+      ],
+      "equivalents": [
+        "ECZ5407"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECZ7012"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5407"
+      },
+      "syllabus": "Introdução: Arthropoda e Hexapoda. Anatomia, filogenia e sistemática de Hexapoda. Fisiologia, ecologia e comportamento de Hexapoda. Coleta, conservação e identificação de insetos."
+    },
+    {
+      "id": "ECZ7065",
+      "code": "ECZ7065",
+      "name": "Bioacústica Ornitológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sistemática de Aves e a ornitofauna da Ilha de Santa Catarina. Observação e Identificação visual em campo; determinação taxonômica. Bioacústica: vocalização\"sons instrumentais\"; acústica do ambiente; registro sonoro; \"play back\"; digitalização dos sinais sonoros; sonografia. Bioacústica e comportamento: comunicação. Bioacústica e filogenia. Bioacústica e diagnose ambiental."
+    },
+    {
+      "id": "ECZ7070",
+      "code": "ECZ7070",
+      "name": "Meio Ambiente e Desenvolvimento",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ECZ5201"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5201"
+      },
+      "syllabus": "Fundamentos históricos dos conceitos hegemônicos de meio ambiente, ciência e tecnologia na cultura ocidental e suas relações com o desenvolvimento sustentável e a nova ordem econômica mundial. Problemas e impactos ambientais. Empresas e meio ambiente. Ecologia, populações e qualidade de vida. Educação ambiental e epistemológica."
+    },
+    {
+      "id": "ECZ7071",
+      "code": "ECZ7071",
+      "name": "Ecologia Humana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7021",
+        "ECZ7033"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7021"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7033"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos da ecologia humana. Antropologia cultural e ecologia cultural. Adaptabilidade humana. Etnobiologia e etnoecologia. Transmissão cultural."
+    },
+    {
+      "id": "ECZ7072",
+      "code": "ECZ7072",
+      "name": "Ecologia Comportamental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7024",
+        "ECZ7033"
+      ],
+      "equivalents": [
+        "ECZ5107"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7024"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7033"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5107"
+      },
+      "syllabus": "Ecologia do comportamento alimentar, reprodutivo, de ocupação do espaço, da vida em grupos. Comportamento de indivíduos nas relações interespecíficas (predação e mutualismo)."
+    },
+    {
+      "id": "ECZ7073",
+      "code": "ECZ7073",
+      "name": "Educação e Problemática Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ECZ5211"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5211"
+      },
+      "syllabus": "Caracterização, origens e enfrentamento da Problemática Ambiental. Educação e Problemática Ambiental, uma visão crítica: as diversas correntes de pensamento. Discussão de propostas e experiências: fundamentação teórica, metodologia e efetividade."
+    },
+    {
+      "id": "ECZ7074",
+      "code": "ECZ7074",
+      "name": "Ecologia Vegetal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT7017"
+      ],
+      "equivalents": [
+        "ECZ5108"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT7017"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5108"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ECZ7075",
+      "code": "ECZ7075",
+      "name": "Ecossistemas Marinhos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ECZ5207"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5207"
+      },
+      "syllabus": "O ecossistema marinho: Conceito. Comportamento estruturais. Transferências de matéria e energia. Eficiência. Províncias litoral, nerítica e pilágica e suas comunidades. Recursos marinhos. Uso do mar pelo homem."
+    },
+    {
+      "id": "ECZ7218",
+      "code": "ECZ7218",
+      "name": "Organização Biológica: da auto-",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a organização biológica e conceito de sistema. Auto-organização, autopoiese e simbiose na organização biológica. Implicações em ecossistemas e evolução."
+    },
+    {
+      "id": "EED5188",
+      "code": "EED5188",
+      "name": "Seminário Temático/Educação/Processos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1800
+      },
+      "prerequisiteHours": 1800,
+      "syllabus": "organização à simbiose O processo de aprendizagem dos portadores de necessidades educacionais especiais. As diferentes linguagens possíveis/necessárias na educação inclusiva. Organização didático-pedagógica dos sistemas de ensino para a educação inclusiva."
+    },
+    {
+      "id": "EED5189",
+      "code": "EED5189",
+      "name": "Seminário Temático - Educação Étnica e Multirracial",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1800
+      },
+      "prerequisiteHours": 1800,
+      "syllabus": "Inclusivos - PCC 18 h/a"
+    },
+    {
+      "id": "EGR5630",
+      "code": "EGR5630",
+      "name": "Desenho de Observação para Ciências",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Materiais técnicos de suporte e de expressão para a investigação através do desenho. Técnicas de sensibilização dos sentidos para a investigação - o olhar. Perspectiva intuitiva. Técnicas de desenho a tinta. Técnicas de desenho a lápis. Técnicas com materiais expressivos diversos. Apresentação e acabamento de desenhos."
+    },
+    {
+      "id": "ENR5406",
+      "code": "ENR5406",
+      "name": "Sensoriamento Remoto",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Biológicas Princípios físicos aplicados ao sensoriamento remoto. Levantamentos aerofotográficos e fotointerpretação. Sensoriamento remoto orbital. Processamento digital de imagens de sensoriamento remoto. Aplicações do sensoriamento remoto na agricultura."
+    },
+    {
+      "id": "FIL7010",
+      "code": "FIL7010",
+      "name": "Filosofia das Ciências Biológicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3200
+      },
+      "prerequisiteHours": 3200,
+      "syllabus": "Análise Epistemológica dos modelos explicativos, dos princípios metodológicos e dos conceitos fundamentais das ciências da vida."
+    },
+    {
+      "id": "FIT5109",
+      "code": "FIT5109",
+      "name": "Tópicos Especiais em Fruticultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT7014"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT7014"
+      },
+      "syllabus": "Aspectos gerais e específicos de culturas frutíferas de importância potencial para o estado de SC, com ênfase especial ao maracujazeiro, figueira, kiwi, acerola, caju, caquizeiro, manga, moranguinho, framboesa, goiaba e mirtáceas nativas."
+    },
+    {
+      "id": "FIT5126",
+      "code": "FIT5126",
+      "name": "Fisiologia da Semente",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT7014",
+        "BQA7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT7014"
+          },
+          {
+            "kind": "course",
+            "code": "BQA7002"
+          }
+        ]
+      },
+      "syllabus": "Fisiologia da germinação; bioquimica da germinação e crescimento; mobilização de reservas, relações hidricas; fotoblastismo; estresse e germinação da semente; qualidade da semente e germinação; viabilidade; modelo da dormência da semente e fatores de controle; fisiologia e bioquimica da deterioração das sementes."
+    },
+    {
+      "id": "FIT5505",
+      "code": "FIT5505",
+      "name": "Entomologia Agrícola",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios de sistemática zoológica. Arthropoda. Técnicas entomológicas. Biologia, anatomia, fisiologia, morfologia externa de Arthropoda e Insecta. Autoecologia e sinecologia. Danos e utilidades de Arthropoda e Insecta. Principais ordens e famílias de insetos de importância agrícola."
+    },
+    {
+      "id": "FIT5811",
+      "code": "FIT5811",
+      "name": "Plantas Medicinais: Metabolismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Origem, histórico, produção in vivo e in vitro de biofármacos, importância econômica, social e aspectos de mercado, quimiotaxonomia, classes de metabólitos secundários, vias biossintéticas, ensaios de atividade biológica, `screening` molecular, metabólitos secundários de origem marinha, oligo/polissacarídeos bioativos, métodos de análise estrutural de metabólitos secundários."
+    },
+    {
+      "id": "FIT5812",
+      "code": "FIT5812",
+      "name": "Floricultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "secundário vegetais superiores e algas marinhas Histórico e evolução da floricultura, importância econômica e social. Pólos de produção no Brasil e mundo. Substratos e embalagens. Propagação de plantas. Exigências climáticas e microambiente de cultivo comercial. Nutrição mineral e fertirrigação. Manejo integrado de pragas e moléstias. Fisiologia e conservação de flores pós-colheita. Comercialização, transporte e embalagens."
+    },
+    {
+      "id": "FIT5911",
+      "code": "FIT5911",
+      "name": "Prática de Laboratório de Cultura de Tecidos Vegetais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Equipamentos básicos de um laboratório de cultura de tecidos vegetais. Técnicaas de desinfestação e desinfecção. Obtenção dos diferentes tipos de explantes. Composição e elaboração de meios de cultura. Inoculação de explantes em câmara de fluxo laminar. Indução de culturas organogenéticas e embriogenéticas. Indução e manipulação de linhagens celulares calogenéticas, embriogenéticas e produtoras de metabólitos secundários. Técnicas de plaqueamento. Obtenção de sementes sintéticas. Obtenção de protoplastos. Avaliações citoquímicas e citológicas de linhagens celulares. Haplóides e duplo- haplóides. Crioconservação."
+    },
+    {
+      "id": "FIT5915",
+      "code": "FIT5915",
+      "name": "Culturas Promissoras e Alternativas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT7014"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT7014"
+      },
+      "syllabus": "Serão abordada as seguintes culturas: Girassol, Linho, Amendoim, Sorgo e Algodão."
+    },
+    {
+      "id": "FMC7002",
+      "code": "FMC7002",
+      "name": "Uso, Abuso e Dependências de Drogas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apresentar e discutir os aspectos biológicos, psicológicos e sociais relacionados ao comportamento de uso abusivo de drogas, incluindo medicamentos"
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "MEN5910",
+      "code": "MEN5910",
+      "name": "Educação à Distância",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "aula) -A evolução da Educação à Distância. Tecnologias da informação e comunicação para Educação à Distância. Metodologias educacionais em ambientes virtuais de aprendizagem. As funções/papéis do professor na Educação à Distância. Software/Plataformas para Educação à Distância. Recursos e critérios de avaliação para Educação à Distância"
+    },
+    {
+      "id": "MEN5911",
+      "code": "MEN5911",
+      "name": "Introdução ao Uso de Tecnologias da Informação e Comunicação na Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Educação e Comunicação. Tecnologias de Informação e Comunicação (TIC). Mídiaeducação. As modalidades de educação (presencial, semi-presencial e a distância): conceitos, histórico, características, regulamentação. Formação de professores e as TIC. A mediação pedagógica no ensino-aprendizagem através das TIC."
+    },
+    {
+      "id": "MEN7141",
+      "code": "MEN7141",
+      "name": "Eduação de Jovens e Adultos (PCC20h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 20
+      },
+      "prerequisiteHours": 20,
+      "syllabus": ""
+    },
+    {
+      "id": "MIP5213",
+      "code": "MIP5213",
+      "name": "Virologia Básica e Clínica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MIP5125",
+        "MIP7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP5125"
+          },
+          {
+            "kind": "course",
+            "code": "MIP7013"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos vírus, suas naturezas, estruturas, genética e classificação; principais eventos envolvidos na replicação viral: principais estratégias de replicação dos vírus de genoma DNA e RNA; vírus que causam câncer e os mecanismos utilizados para este fim (polioma, herpes, papiloma, hepatite, adenovírus); vírus de RNA que causam câncer (retrovírus); biologia do HIV; medicamentos com ação antiviral; vírus de genoma RNA de transmissão fecal- oral causadores de infecções, incluindo norovírus, rotavírus, astrovírus, enterovírus, vírus da hepatite A e E; vírus do trato respiratório superior (rinovírus) e vírus da síndrome respiratória aguda (SARS). Estrutura dos vírus herpéticos: as doenças causadas pelos vírus herpes simplex tipos 1 e 2, citomegalovírus, vírus da varicella zoster, vírus Epstein-barr e outros vírus herpéticos; defesas específicas e não específicas do hospedeiro envolvidas na resistência e na recuperação das infecções virais; estrutura e propriedades dos vírus do sarampo, caxumba, influenza e rubéola: patogênese e doença, prevenção e tratamento; estrutura e replicação dos vírus causadores das hepatites B e C; rabdovírus e raiva; arbovírus e hantavírus causadores de encefalites febris, hemorrágicas; doenças hemorrágicas com síndromes renal e pulmonar."
+    },
+    {
+      "id": "MIP5310",
+      "code": "MIP5310",
+      "name": "Entomologia Medica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Insetos e outros artrópodos de importância médica - coleta, preparação e identificação; importância na transmissão de parasitas e como causa de doenças; manejo e controle químico e biológico; necessidades de pesquisa e estudo."
+    },
+    {
+      "id": "MIP5312",
+      "code": "MIP5312",
+      "name": "Diagnóstico Imunomolecular em Parasitologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MIP7035"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP7035"
+      },
+      "syllabus": "Estudo de métodos indiretos de diagnóstico de parasitoses. Coleta, preparação e conservação do material biológico. Aplicação de técnicas imunológicas e moleculares para o diagnóstico de parasitos de importância para humanos e veterinária."
+    },
+    {
+      "id": "MIP7036",
+      "code": "MIP7036",
+      "name": "Imunologia Avançada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MIP7035"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP7035"
+      },
+      "syllabus": "Historia da Imunologia. Os elementos envolvidos na resposta Imune. Imunologia das doenças infecciosas.Imunodeficiências primarias e secundárias. As reações de hipersensibilidade. Os transplantes.Doenças auto-imunes.Intervenções imunológicas.imunodiágnostico.Desafios da Imunologia. Imunologia de sistemas.Interação do SI com a microbiota."
+    },
+    {
+      "id": "MIP7110",
+      "code": "MIP7110",
+      "name": "Ecologia Microbiana",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MIP5117",
+        "MIP5131",
+        "MIP7013",
+        "MIP7100"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP5117"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5131"
+          },
+          {
+            "kind": "course",
+            "code": "MIP7013"
+          },
+          {
+            "kind": "course",
+            "code": "MIP7100"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "PTL5111",
+      "code": "PTL5111",
+      "name": "Toxicologia II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BQA7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA7002"
+      },
+      "syllabus": "Conceitos propriedades, origem, uso, toxicocinética e toxicodinâmica de substâncias tóxicas encontradas naturalmente e introduzidas nos alimentos tais como: micotixinas, metais, aditivos alimentares, praguicidas. Princípios de avaliação toxicológica e padrões, normas de segurança e legislação para o uso de substâncias tóxicas e aditivos em alimentos. Técnicas analíticas para extração, identificação e quantificação de toxicantes em alimentos. Tratamento estatístico e representação gráfica e numérica adequada aos resultados de análises toxicológicas."
+    },
+    {
+      "id": "ZOT5116",
+      "code": "ZOT5116",
+      "name": "Apicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Biologia e evolução das abelhas. Interação abelhas e o ambiente. Formação e manejo de apiários para produção e extração de produtos apícolas. A polinização de culturas de interesse. Instalações, equipamentos, e indumentárias usadas na apicultura. Cuidados, higiene e profilaxia apícola. Planejamento do agronegócio apícola. Comercialização de produtos apícolas."
+    },
+    {
+      "id": "ANT7701",
+      "code": "ANT7701",
+      "name": "Estudos Afro-Brasileiros - PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações raciais e racismo no Brasil. Relações interétnicas e Identidades étnicas. Estudos sobre os negros no Brasil."
+    },
+    {
+      "id": "BEG7215",
+      "code": "BEG7215",
+      "name": "Genética Toxicológica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7013",
+        "BEG7211"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7013"
+          },
+          {
+            "kind": "course",
+            "code": "BEG7211"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7017",
+      "code": "BIO7017",
+      "name": "Introdução ao Manejo e Ciências de Animais em Pesquisa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7018",
+      "code": "BIO7018",
+      "name": "Bioinformática e Biologia Computacional",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7013",
+        "BEG7211"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7013"
+          },
+          {
+            "kind": "course",
+            "code": "BEG7211"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7242",
+      "code": "BIO7242",
+      "name": "Biologia Forense",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7013",
+        "BEG7211",
+        "BQA7002",
+        "BQA7008"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BEG7013"
+              },
+              {
+                "kind": "course",
+                "code": "BEG7211"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BQA7002"
+              },
+              {
+                "kind": "course",
+                "code": "BQA7008"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BOT1166",
+      "code": "BOT1166",
+      "name": "Biogeografia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BIO7203",
+        "ECZ7011"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BIO7203"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7011"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Sistemática, Evolução e Biogeografia. Bases da distribuição geográfica dos seres vivos. Distribuição de comunidades e Fitogeografia da América do Sul. Padrões e processos biogeográficos. Deriva Continental e Tectônica de Placas. Áreas de endemismo e regionalização biogeográfica. Fósseis, moléculas e tempo na Biogeografia. Métodos de Biogeografia Histórica. Mudanças climáticas e Filogeografia. Biogeografia de Ilhas. Macroecologia e Biogeografia da Conservação. História biogeográfica da América do Sul."
+    },
+    {
+      "id": "BOT1618",
+      "code": "BOT1618",
+      "name": "Flora da Ilha de Santa Catarina",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT7014",
+        "BOT7026"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT7014"
+          },
+          {
+            "kind": "course",
+            "code": "BOT7026"
+          }
+        ]
+      },
+      "syllabus": "Métodos de coleta e preservação de material vegetal. Estratégias para identificação de plantas. Elaboração de estudos taxonômicos. Diversidade morfológica. Famílias de Angiospermas mais ricas do Brasil e da Ilha de Santa Catarina. Espécies mais típicas dos ecossistemas da Ilha de Santa Catarina-"
+    },
+    {
+      "id": "BOT7028",
+      "code": "BOT7028",
+      "name": "Atualidades e Aplicações em Anatomia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT7015"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT7015"
+      },
+      "syllabus": "-Análise crítica das diversas áreas de atuação/aplicação da anatomia vegetal. Importância da anatomia vegetal na formação do biólogo e aplicabilidades. Anatomia vegetal como linha de pesquisa. Anatomia vegetal no cotidiano. Ensinando anatomia vegetal."
+    },
+    {
+      "id": "BOT7029",
+      "code": "BOT7029",
+      "name": "Anatomia da Madeira",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT7015",
+        "BOT7201"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT7015"
+          },
+          {
+            "kind": "course",
+            "code": "BOT7201"
+          }
+        ]
+      },
+      "syllabus": "Vegetal BOT7201) -Introdução, definição e importância da anatomia da madeira. Características organolépticas da madeira. Características macroscópicas da madeira de Gimnospermas e Angiospermas. Características microscópicas da madeira de Gimnospermas e Angiospermas. Estruturas especiais que podem ocorrer na madeira. Chaves de identificação com característica macro e microscópicas da madeira. Aplicações da anatomia da madeira."
+    },
+    {
+      "id": "BOT7203",
+      "code": "BOT7203",
+      "name": "Inventário Quali-Quantitativo de Vegetação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT7014"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT7014"
+      },
+      "syllabus": "Identificação e reconhecimento das principais famílias e espécies componentes das formações campestres do Sul do Brasil. Estudo a campo das metodologias de levantamento de vegetação campestre. Organização e análise de dados para elaboração de relatório/laudo técnico"
+    },
+    {
+      "id": "BQA7018",
+      "code": "BQA7018",
+      "name": "Efeitos Bioquímicos e Ambientais das Radiações (PCC36h/a) - 72 horas-aula",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Nesta disciplina serão abordados diversos aspectos dos efeitos biológicos das radiações, com ênfase nos efeitos da radiação ultravioleta (UV) sobre a pele. A maneira como a célula responde aos danos no DNA e o seu reparo. Fontes de radiação e prevenção. Relação entre radiação e câncer. Uso da radiação em medicina e em pesquisa na biologia. Noções de legislação sobre o uso de radiação."
+    },
+    {
+      "id": "ECZ7130",
+      "code": "ECZ7130",
+      "name": "Ecologia de Paisagens Sustentáveis",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico da Ecologia da Paisagem (EP) e Escolas de Planejamento do Território. Abordagens da EP - Geográfica e Bioecológica. Usos da terra, perda de biodiversidade e serviços ecossistêmicos. Análise dos elementos da paisagem, matriz, corredores e manchas. Classificação das paisagens em graus de hemerobia. Estrutura e funcionamento de paisagens naturais e alteradas. As mudanças de uso da terra e as alterações nos padrões e funções ecológicas em paisagens dominadas por humanos. Modificação da estrutura da paisagem, fragmentação, efeito de borda e consequências para a biodiversidade. Corredores ecológicos, trampolins e outras configurações de habitats para realçar a conectividade. Configurações multiuso em paisagens terrestres e aquáticas e conservação da biodiversidade e serviços ecossistêmicos. Planejamento de Paisagens Sustentáveis."
+    },
+    {
+      "id": "GCN7938",
+      "code": "GCN7938",
+      "name": "Introdução à Permacultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7075",
+      "code": "MEN7075",
+      "name": "Linguagem e Comunicação Científica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Leitura, análise e produção de textos técnico-científicos e de divulgação científica relacionados com a área de ciências da natureza, relevantes para o desempenho das atividades acadêmicas, tais como: resumo, resenha, artigo e seminário, e para a educação científica formal e não-formal. Gêneros textuais, divulgação e comunicação científica; aspectos retóricos de textos científicos; modelos de comunicação científica. Leitura e uso de textos na educação científica e tecnológica."
+    },
+    {
+      "id": "MEN7156",
+      "code": "MEN7156",
+      "name": "Nade-Práticas Educativas e Relações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MIP1516",
+      "code": "MIP1516",
+      "name": "Aspectos Éticos em Pesquisa e ensino",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Étnico-Raciais A disciplina será dividida em 3 módulos temáticos: 1 - Aspectos históricos e filosóficos; 2 - Uso de animais no ensino; 3 - Uso de animais na pesquisa. Serão abordados os seguintes tópicos: As diferentes visões culturais sobre o status dos animais; A história da experimentação animal; O que dizem os filósofos - Moral x Ética; As vozes dissidentes; Implicações éticas, pedagógicas, legais e de risco biológico, relacionados à utilização de animais no ensino e na pesquisa; A questionável abordagem da vivissecção e os interesses não declarados; Direito dos Animais; Perspectivas de evolução da Ciência sem uso de animais."
+    },
+    {
+      "id": "MIP7210",
+      "code": "MIP7210",
+      "name": "Bioinformática e Biologia Computacional",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BIO7018"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BIO7018"
+      },
+      "syllabus": "com Animais"
+    },
+    {
+      "id": "NFR5167",
+      "code": "NFR5167",
+      "name": "Plantas Medicinais nas Práticas de Saúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As plantas medicinais na história do cuidado humano. O rito do chá. Plantas medicinais e o meio ambiente. Espécies do repertório popular. Cuidados com o cultivo, coleta, secagem, acondicionamento e preparação populares. Noções sobre substâncias bioativas. Interações planta/medicamento e plantas tóxicas. Legislação que regulamenta o uso de plantas medicinais e políticas públicas para implementações de farmácias vivas"
+    },
+    {
+      "id": "BEG7236",
+      "code": "BEG7236",
+      "name": "Biologia de Abelhas Sociais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BOT1619",
+      "code": "BOT1619",
+      "name": "Comunicação em Plantas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ECZ7205",
+      "code": "ECZ7205",
+      "name": "Ecologia de Invasões Biológicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7025",
+        "ECZ7202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7025"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7202"
+          }
+        ]
+      },
+      "syllabus": "Rotas e vetores de introdução e disseminação de espécies exóticas invasoras. Fatores-chave em processos de invasões biológicas. Características biológicas e ecológicas de espécies exóticas invasoras. Impactos provocados por espécies exóticas invasoras. Ferramentas para gestão e manejo de espécies exóticas invasoras. Manejo adaptativo. Políticas públicas."
+    },
+    {
+      "id": "ECZ8010",
+      "code": "ECZ8010",
+      "name": "Anatomia Comparativa de Vertebrados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7015",
+        "ECZ7201"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7015"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7201"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7012",
+      "code": "BIO7012",
+      "name": "Vivência em Pesquisa II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BIO7011"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BIO7011"
+      },
+      "syllabus": "Aprofundamento na vivência em atividade de pesquisa. Elaboração, sob supervisão, de material para participação em encontros científicos. Participação em atividades de pesquisa e em projetos piloto. Produção de relatório científico."
+    },
+    {
+      "id": "BOT7015",
+      "code": "BOT7015",
+      "name": "Anatomia e Embriologia Vegetal - PCC 10",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7012"
+      ],
+      "equivalents": [
+        "BOT5115"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7012"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BOT5115"
+      },
+      "syllabus": "Microtécnica vegetal; Histologia das plantas vasculares (Pteridófitas, gimnospermas e angiospermas): meristemas, parênquimas, tecidos de sustentação, tecidos de revestimento, tecidos de condução e estruturas secretoras. Estruturação dos órgãos vegetais: raiz, caule, folha, flor, fruto e semente. Estrutura dos rudimentos seminais e do gametófito feminino; tipologia do saco embrionário. Microsporângio, microsporogênese e gametófito masculino. Embriogênese."
+    },
+    {
+      "id": "ECZ7015",
+      "code": "ECZ7015",
+      "name": "Zoologia de Vertebrados I - PCC 04 horas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7013"
+      ],
+      "equivalents": [
+        "ECZ5314"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7013"
+          },
+          {
+            "kind": "hours",
+            "hours": 4
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5314"
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "horas BOT7201) BOT7014) Caracterização, origem e história evolutiva dos Vertebrata. Diversidade e sistemática. Os primeiros vertebrados. Agnatha fósseis e recentes. Desenvolvimento e vantagens adaptativas do surgimento da mandibula articulada e dos apêndices pares (nadadeiras). Aparecimento e irradiação dos Placodermit e Chondrichthyes. Surgimento e dominância dos Teleostomi, Acanthodii e Osteichthyes. A vida no meio aquatico. O Devoniano e a invasão terrestre. Origem e Irradiação dos Tetrapoda não-amniotas: Amphibia. Morfo-anatomia, adaptações estruturais, hábitos e distribuição geográfica de peixes e anfibios."
+    },
+    {
+      "id": "ECZ7025",
+      "code": "ECZ7025",
+      "name": "Ecologia de Comunidades - PCC 18 horas",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7024"
+      ],
+      "equivalents": [
+        "ECZ5104",
+        "ECZ5105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7024"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ5104"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ5105"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Conceito de ecossistema e comunidade. Principais biomas e ecossistemas. Componentes estruturais e funcionais. Fluxo de energia e ciclos biogeoquímicos. Descrição de comunidades. Sucessão ecológica. Conceito de nicho. Influência da competição, predação e perturbação na estrutura de comunidades. Complexidade e estabilidade de comunidades. Padrões de diversidade."
+    },
+    {
+      "id": "EED5331",
+      "code": "EED5331",
+      "name": "Teorias da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de educação: elaborações e práticas em torno da formação moral, intelectual e estética do homem. Conceito de pedagogia: pedagogia da essência e pedagogia da existência - referências clássicas, modernas e contemporâneas. Pensamento pedagógico brasileiro."
+    },
+    {
+      "id": "MIP7035",
+      "code": "MIP7035",
+      "name": "Imunologia - PCC 04 horas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MIP7013",
+        "MOR7001"
+      ],
+      "equivalents": [
+        "MIP5211"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP7013"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7001"
+          },
+          {
+            "kind": "hours",
+            "hours": 4
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MIP5211"
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "O curso será dividido em 4 blocos temáticos: 1-Imunidade Inata e Inflamação; 2-Estrutura e diversidade do sistema imune adaptativo; 3-Biologia dos linfócitos e 4-Sistema imune na saúde e na doença. Serão abordados os seguintes tópicos: Introdução à Imunologia: as respostas específicas e inespecíficas. Os elementos envolvidos na resposta imune. Substâncias imunogênicas e antígenos. Os anticorpos ou imunoglobulinas. As interações antígeno-anticorpo. Biologia dos linfócitos T e dos linfócitos B. O complexo principal de histocompatibilidade. Os antígenos e a ativação de linfócitos. O sistema complemento. As reações de hipersensibilidade. Auto-imunidade. Imunologia dos tumores. Imunodeficiências - HIV/AIDS."
+    },
+    {
+      "id": "PSI5137",
+      "code": "PSI5137",
+      "name": "Psicologia Educacional: Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Psicologia como ciência: histórico, objetivo e métodos. Interações sociais no contexto educacional e o lugar do professor. Introdução ao estudo do desenvolvimento e de aprendizagem - infância, adolescência, idade adulta. Contribuições da Psicologia na prática escolar cotidiana e na compreensão do fracasso escolar. Prática como componente curricular."
+    },
+    {
+      "id": "BEG7025",
+      "code": "BEG7025",
+      "name": "Desenvolvimento Humano - PCC 10 horas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7024"
+      ],
+      "equivalents": [
+        "BEG5216"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7024"
+          },
+          {
+            "kind": "hours",
+            "hours": 10
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5216"
+      },
+      "prerequisiteHours": 10,
+      "syllabus": "Sistema reprodutor e gametogênese humana. Fecundação e contracepção. Caracterização dos períodos do desenvolvimento humano. Aspectos moleculares da embriogênese. Desenvolvimento normal e anormal dos sistemas orgânicos derivados dos folhetos embrionários. Membranas fetais e placenta. Formação de gêmeos. Temas atuais em embriologia humana."
+    },
+    {
+      "id": "BEG7227",
+      "code": "BEG7227",
+      "name": "Genética Clássica (PCC 12 horas)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7034"
+      ],
+      "equivalents": [
+        "BEG7035"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7034"
+          },
+          {
+            "kind": "hours",
+            "hours": 12
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG7035"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": ""
+    },
+    {
+      "id": "CFS7006",
+      "code": "CFS7006",
+      "name": "Fisiologia Humana - PCC 20 horas",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA7002",
+        "MOR7003"
+      ],
+      "equivalents": [
+        "CFS5142"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA7002"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7003"
+          },
+          {
+            "kind": "hours",
+            "hours": 20
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CFS5142"
+      },
+      "prerequisiteHours": 20,
+      "syllabus": "Funções dos sistemas sensorial, neuromuscular, neurovegetativo, límbico, cardiovascular, renal, respiratório, digestório e endócrino."
+    },
+    {
+      "id": "DGL7006",
+      "code": "DGL7006",
+      "name": "Geologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7006"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1000
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7006"
+      },
+      "prerequisiteHours": 1000,
+      "syllabus": "Processos geradores de minerais e rochas tanto em nível interno da crosta como aqueles que se desenvolvem na interface crosta/biosfera/atmosfera."
+    },
+    {
+      "id": "ECZ7016",
+      "code": "ECZ7016",
+      "name": "Zoologia de Vertebrados II - PCC 04 horas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ECZ7015"
+      ],
+      "equivalents": [
+        "ECZ5315"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7015"
+          },
+          {
+            "kind": "hours",
+            "hours": 4
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ECZ5315"
+      },
+      "prerequisiteHours": 4,
+      "syllabus": ""
+    },
+    {
+      "id": "MEN5601",
+      "code": "MEN5601",
+      "name": "Didática A - PCC 12 horas-aula",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN5132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5132"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "- Educação escolar como fenômeno histórico-social. Currículo e trabalho pedagógico no contexto escolar. As relações de ensino-aprendizagem em contexto escolar. Mediações pedagógicas e suas relações com o ensino da área específica do curso."
+    },
+    {
+      "id": "BIO7004",
+      "code": "BIO7004",
+      "name": "Metodologia da Pesquisa - PCC 10 horas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "BIO7012"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BIO7012"
+          },
+          {
+            "kind": "hours",
+            "hours": 10
+          }
+        ]
+      },
+      "prerequisiteHours": 10,
+      "syllabus": "Estrutura do conhecimento científico. Procedimentos científicos. Projetos de Pesquisa Científica. Projetos de Trabalho de Conclusão de Curso (TCC)."
+    },
+    {
+      "id": "BIO7013",
+      "code": "BIO7013",
+      "name": "Projeto de Trabalho de Conclusão de Curso (TCC)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "BIO7012"
+      ],
+      "equivalents": [
+        "BIO5155"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BIO7012"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BIO5155"
+      },
+      "syllabus": "Elaboração, sob supervisão, de um projeto de pesquisa."
+    },
+    {
+      "id": "DGL7007",
+      "code": "DGL7007",
+      "name": "Paleontologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "BOT7014",
+        "ECZ7015",
+        "DGL7006",
+        "GCN7006"
+      ],
+      "equivalents": [
+        "GCN7007"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT7014"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7015"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7006"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7006"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7007"
+      },
+      "syllabus": "Conceitos básicos e histórico. Tafonomia: agentes e processos de fossilização. Técnicas e métodos de estudo. Sistemática paleontológica. Paleogeografia e biologia do Pré-Cambriano e Fanerozóico. Paleontologia brasileira."
+    },
+    {
+      "id": "ECZ7036",
+      "code": "ECZ7036",
+      "name": "Fisiologia Animal Comparada",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7012",
+        "BQA7002"
+      ],
+      "equivalents": [
+        "ECZ5501",
+        "ECZ7203"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7012"
+          },
+          {
+            "kind": "course",
+            "code": "BQA7002"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ5501"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7203"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos de nutrição, digestão, metabolismo e reprodução. Coordenação, interação dos organismos animais."
+    },
+    {
+      "id": "ECZ7050",
+      "code": "ECZ7050",
+      "name": "Educação, Meio Ambiente e Sustentabilidade - PCC 04 horas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1400
+      },
+      "prerequisiteHours": 1400,
+      "syllabus": "Raizes históricas do conceito de meio ambiente. Educação, epistemologia e sustentabilidade ambiental. Ética conservacionista, processos produtivos e sustentabilidade global. Ciência, tecnologia e sociedade."
+    },
+    {
+      "id": "EED8005",
+      "code": "EED8005",
+      "name": "Organização Escolar I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Organização da Educação Brasileira e Legislação Educacional. Políticas Públicas Educacionais na atualidade. Gestão Democrática da Educação. A escola: sujeitos, cotidiano e trabalho docente. Objetivo social da escola: direito à educação e a produção da exclusão."
+    },
+    {
+      "id": "FIL7007",
+      "code": "FIL7007",
+      "name": "Filosofia da Ciência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5135"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1980
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5135"
+      },
+      "prerequisiteHours": 1980,
+      "syllabus": "Conhecimento ordinário e científico. Ciência formal e ciência empírica. A linguagem científica. O método científico: formulação, hipóteses, leis e teorias. Tipos de explicações científicas. Ciências e ideologia. As aplicações funcionais. Mecanismo e organicismo."
+    },
+    {
+      "id": "BIO7015",
+      "code": "BIO7015",
+      "name": "Trabalho de Conclusão de Curso I (TCC)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "BIO7013",
+        "BIO7246"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BIO7013"
+          },
+          {
+            "kind": "course",
+            "code": "BIO7246"
+          }
+        ]
+      },
+      "syllabus": "Biológicas"
+    },
+    {
+      "id": "BOT7017",
+      "code": "BOT7017",
+      "name": "Fisiologia Vegetal - PCC 10 horas",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "BOT7015"
+      ],
+      "equivalents": [
+        "BOT5117",
+        "BOT7202"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT7015"
+          },
+          {
+            "kind": "hours",
+            "hours": 10
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5117"
+          },
+          {
+            "kind": "course",
+            "code": "BOT7202"
+          }
+        ]
+      },
+      "prerequisiteHours": 10,
+      "syllabus": "Metabolismo: absorção e transporte de água, nutrição mineral, absorção de sais minerais, transporte pelo floema, fotossíntese e assimilação do nitrogênio. Crescimento e desenvolvimento: Estrutura, transdução de sinais e principais efeitos fisiológicos de hormônios e reguladores de crescimento; fotomorfogênese, fotoperiodismo, floração e germinação de sementes)."
+    },
+    {
+      "id": "EED8006",
+      "code": "EED8006",
+      "name": "Organização Escolar II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Organização do Trabalho Escolar e sua relação com a elaboração do Projeto Político Pedagógico. Concepções de currículo. A teoria curricular e os aspectos da ideologia, da cultura e do poder. A escola e as diferenças: ritos de exclusão e possibilidades de superação. O currículo estatal e não estatal. A avaliação curricular."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE7881"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE7881"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "MEN7008",
+      "code": "MEN7008",
+      "name": "Metodologia do Ensino de Ciências e Biologia - PCC 54 horas/aula",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN5601"
+      ],
+      "equivalents": [
+        "MEN5382",
+        "MEN5899"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN5601"
+          },
+          {
+            "kind": "hours",
+            "hours": 54
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN5382"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5899"
+          }
+        ]
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "18h-a) LSB7904) -As diferentes perspectivas sobre a produção do conhecimento científico. A história do ensino de ciências e biologia no Brasil. As propostas curriculares e os materiais didáticos para o ensino de ciências e biologia. As pesquisas sobre o ensino de ciências e biologia no Brasil. As dimensões epistemológico-culturais do ensino de ciências e biologia. A aplicabilidade dos conhecimentos em educação à metodologia dos processos de ensino-aprendizagem. Atividades de prática de ensino: planejamento, avaliação e ensaios pedagógicos."
+    },
+    {
+      "id": "MEN7341",
+      "code": "MEN7341",
+      "name": "Física para o Ensino de Ciências",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1800
+      },
+      "prerequisiteHours": 1800,
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7016",
+      "code": "BIO7016",
+      "name": "Trabalho de Conclusão de Curso II (TCC)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "BIO7015"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BIO7015"
+      },
+      "syllabus": "Execução, sob supervisão, de um projeto de pesquisa."
+    },
+    {
+      "id": "MEN7009",
+      "code": "MEN7009",
+      "name": "Estágio Supervisionado no Ensino de Ciências",
+      "credits": 14,
+      "hours": 252,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EED5186",
+        "MEN7008",
+        "PSI5137",
+        "EED8006"
+      ],
+      "equivalents": [
+        "MEN5378"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED5186"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7008"
+              },
+              {
+                "kind": "course",
+                "code": "PSI5137"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED8006"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7008"
+              },
+              {
+                "kind": "course",
+                "code": "PSI5137"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5378"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7009",
+      "code": "BIO7009",
+      "name": "Legislação Profissional Aplicada - PCC 04",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1800
+      },
+      "prerequisiteHours": 1800,
+      "syllabus": "Aspectos históricos da Biologia, dos Cursos de Biologia e da formação de profissionais Biólogos no Brasil. Características das áreas de atuação profissional. Aperfeiçoamento profissional e mercado de trabalho. Re gulamentação e Exercício da profissão: decretos, leis e resoluções. Características e funcionamento dos Conselhos Profissionais. Código de Ética Profissional. Biologia e ética: questões contemporâneas nas áreas de atuação do profissional Biólogo."
+    },
+    {
+      "id": "MEN7010",
+      "code": "MEN7010",
+      "name": "Estágio Supervisionado no Ensino de Biologia",
+      "credits": 14,
+      "hours": 252,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN7009"
+      ],
+      "equivalents": [
+        "MEN5390"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN7009"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5390"
+      },
+      "syllabus": "horas"
+    },
+    {
+      "id": "BIO7023",
+      "code": "BIO7023",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BIO7022"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BIO7022"
+      },
+      "syllabus": "Portaria nº378/preg/2010 de 21/12/2010."
+    },
+    {
+      "id": "BIO7024",
+      "code": "BIO7024",
+      "name": "Programa de Intercâmbio IV",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BIO7023"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BIO7023"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7051",
+      "code": "BIO7051",
+      "name": "Conteúdo Variável I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7052",
+      "code": "BIO7052",
+      "name": "Conteúdo Variável II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7053",
+      "code": "BIO7053",
+      "name": "Conteúdo Variável III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7054",
+      "code": "BIO7054",
+      "name": "Conteúdo Variável IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7055",
+      "code": "BIO7055",
+      "name": "Conteúdo Variável V",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Biológicas"
+    },
+    {
+      "id": "PTL7004",
+      "code": "PTL7004",
+      "name": "Patologia Geral VI",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CFS7006",
+        "MOR7001",
+        "MOR7003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS7006"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7001"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7003"
+          }
+        ]
+      },
+      "syllabus": "Generalidades sobre Patologia: estudo da etiologia, patogenia, alterações celulares, tissulares e orgânicas, bem como das repercussões funcionais dos principais processos patológicos decorrentes de agravos específicos à saúde."
+    },
+    {
+      "id": "BEG7017",
+      "code": "BEG7017",
+      "name": "Biologia Molecular II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG7013"
+      },
+      "syllabus": "Mecanismos de controle gênico em eucariotos e procariotos. Genes estruturais e reguladores. Tecnologia do DNA recombinante. Bibliotecas genômicas. Sistemas de transferência gênica."
+    },
+    {
+      "id": "BEG7029",
+      "code": "BEG7029",
+      "name": "Línguas da Ciência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7006",
+      "code": "BIO7006",
+      "name": "Informática Aplicada às Ciências",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INE7003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE7003"
+      },
+      "syllabus": "Linux. Pesquisa bibliográfica via internet. Uso de programas estatísticos e de bancos de dados. Comparação de sequências de DNA/RNA, fonte de informações e de análise de sequências nucleotídicas e proteicas. Introdução a Bioinformática. Banco de dados biológicos, Utilização e aplicação de softwares para filogenia."
+    },
+    {
+      "id": "ECZ7028",
+      "code": "ECZ7028",
+      "name": "Conservação Biológica - PCC 10 horas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7025",
+        "ECZ7202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ECZ7025"
+              },
+              {
+                "kind": "course",
+                "code": "ECZ7202"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 10
+          }
+        ]
+      },
+      "prerequisiteHours": 10,
+      "syllabus": "Valores para a conservação. Estratégias de conservação. Viabilidade de populações. Biogeografia de ilhas e desenho de áreas protegidas. Fragmentação, efeito de borda e corredores ecológicos. Comportamento animal e conservação. Populações humanas e conservação."
+    },
+    {
+      "id": "ECZ7038",
+      "code": "ECZ7038",
+      "name": "Introdução ao Estudo de Impacto",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico dos EIA/RIMA. Legislação ambiental. Competências, Aplicabilidade e unidisciplinariedade do EIA/RIMA. Custos e orçamentos. Licenciamento. Medidas compensatórias e mitigadoras. Estudo de casos."
+    },
+    {
+      "id": "FMC7008",
+      "code": "FMC7008",
+      "name": "Farmacologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BQA7002",
+        "CFS7006"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA7002"
+          },
+          {
+            "kind": "course",
+            "code": "CFS7006"
+          }
+        ]
+      },
+      "syllabus": "Conceitos e princípios básicos em Farmacologia. Farmacocinética: vias de administração, absorção, distribuição, metabolização e eliminação de drogas no organismo. Farmacodinâmica: mecanismo de ação de drogas no organismo (Teoria dos receptores), agonistas e antagonistas. Comunicação celular (transmissão química, hormônios e mediadores da inflamação). A Natureza como fonte para obtenção de fármacos. Os riscos da automedicação (efeitos terapêuticos x tóxicos). Fármacos que interferem com a dor e a inflamação (antiinflamatórios não esteroidais, corticoides e hipnoanalgésicos). Fármacos que atuam no sistema cardiovascular (anti-hipertensivos e diuréticos) e sistema endócrino. Fármacos que atuam no sistema nervoso central (drogas de abuso, ansiolíticos, antidepressivos, fármacos usados em doenças neurodegenerativas)."
+    },
+    {
+      "id": "MIP5214",
+      "code": "MIP5214",
+      "name": "Imunologia Comparada",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MIP7013",
+        "MIP7035",
+        "MIP7202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP7013"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MIP7035"
+              },
+              {
+                "kind": "course",
+                "code": "MIP7202"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7031",
+      "code": "BIO7031",
+      "name": "Atividades Científico-Culturais I",
+      "credits": 13,
+      "hours": 240,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades Científico-Culturais e de Extensão"
+    },
+    {
+      "id": "BIO7033",
+      "code": "BIO7033",
+      "name": "Atividades de Extensão I",
+      "credits": 10,
+      "hours": 199,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7034",
+      "code": "BIO7034",
+      "name": "Atividades de Extensão II",
+      "credits": 10,
+      "hours": 200,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BIO7035",
+      "code": "BIO7035",
+      "name": "Atividades de Extensão III",
+      "credits": 4,
+      "hours": 74,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BEG7226",
+      "code": "BEG7226",
+      "name": "Genética Evolutiva",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG7035",
+        "BEG7227"
+      ],
+      "equivalents": [
+        "BEG7037"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG7035"
+          },
+          {
+            "kind": "course",
+            "code": "BEG7227"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG7037"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ECZ7215",
+      "code": "ECZ7215",
+      "name": "Malacologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ECZ7013",
+        "ECZ7032"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ7013"
+          },
+          {
+            "kind": "course",
+            "code": "ECZ7032"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos moluscos. Vista geral e Sistemática do filo, suas classes, ordens e Famílias. Introdução à conquiliologia. Exercícios de identificação de gastrópodes e Bivalvos marinhos."
+    },
+    {
+      "id": "MIP7005",
+      "code": "MIP7005",
+      "name": "Biologia de Vírus",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-1) Introdução a virologia; Origem dos vírus e da virologia; Famílias virais (principais famílias virais); Evolução e ecologia viral; Vírus de vertebrados,Vírus de invertebrados, Vírus de plantas, Interação vírus-hospedeiro, Vírus contaminantes do ambiente aquático, Vírus como ferramentas na biotecnologia, Diagnóstico de infecções virais, Epidemiologia viral e impacto na saúde publica; Importância econômica dos vírus; Titulação viral por técnicas de cultura celular: formação de placas de lise e Imunofluorescência indireta"
+    },
+    {
+      "id": "EED7149",
+      "code": "EED7149",
+      "name": "Educação Especial na Educação Básica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Introdução à educação especial: história, abordagens teóricas e terminologia. A política de educação especial. O trabalho pedagógico com os estudantes da educação especial na Educação Básica."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "BIO7003",
+      "BIO7240",
+      "CFS7001",
+      "ECZ7011",
+      "ECZ7021",
+      "MIP7011",
+      "MOR7001",
+      "QMC5235",
+      "BEG7012",
+      "BQA7002",
+      "CFS7002",
+      "ECZ7012",
+      "MTM3100",
+      "BEG7013",
+      "BEG7225",
+      "BOT1617",
+      "BOT5152",
+      "ECZ7013",
+      "INE7003",
+      "MIP7013",
+      "MOR7003",
+      "BEG7024",
+      "BEG7034",
+      "BIO7011",
+      "BOT7014",
+      "ECZ7024",
+      "MEN7004",
+      "MIP7003",
+      "BIO7012",
+      "BOT7015",
+      "ECZ7015",
+      "ECZ7025",
+      "EED5331",
+      "MIP7035",
+      "PSI5137",
+      "BEG7025",
+      "BEG7227",
+      "CFS7006",
+      "DGL7006",
+      "ECZ7016",
+      "MEN5601",
+      "BIO7004",
+      "BIO7013",
+      "DGL7007",
+      "ECZ7036",
+      "ECZ7050",
+      "EED8005",
+      "FIL7007",
+      "BIO7015",
+      "BOT7017",
+      "EED8006",
+      "LSB7244",
+      "MEN7008",
+      "MEN7341",
+      "BIO7016",
+      "MEN7009",
+      "BIO7009",
+      "MEN7010",
+      "BIO7031",
+      "BIO7033",
+      "BIO7034",
+      "BIO7035",
+      "BEG7226"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 360,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ANT5308",
+              "AQI5105",
+              "ARQ5685",
+              "BEG7030",
+              "BEG7040",
+              "BEG7041",
+              "BEG7050",
+              "BEG7051",
+              "BEG7061",
+              "BEG7062",
+              "BEG7063",
+              "BEG7064",
+              "BEG7065",
+              "BEG7070",
+              "BEG7222",
+              "BEG7223",
+              "BIO5100",
+              "BIO7002",
+              "BIO7010",
+              "BIO7021",
+              "BIO7022",
+              "BIO7247",
+              "BOT7018",
+              "BOT7019",
+              "BOT7020",
+              "BOT7021",
+              "BOT7022",
+              "BOT7027",
+              "BOT7030",
+              "BOT7031",
+              "BOT7204",
+              "BQA7010",
+              "BQA7011",
+              "BQA7015",
+              "BQA7016",
+              "BQA7017",
+              "DIR5555",
+              "ECZ5114",
+              "ECZ5205",
+              "ECZ5208",
+              "ECZ5209",
+              "ECZ7060",
+              "ECZ7061",
+              "ECZ7062",
+              "ECZ7063",
+              "ECZ7064",
+              "ECZ7065",
+              "ECZ7070",
+              "ECZ7071",
+              "ECZ7072",
+              "ECZ7073",
+              "ECZ7074",
+              "ECZ7075",
+              "ECZ7218",
+              "EED5188",
+              "EED5189",
+              "EGR5630",
+              "ENR5406",
+              "FIL7010",
+              "FIT5109",
+              "FIT5126",
+              "FIT5505",
+              "FIT5811",
+              "FIT5812",
+              "FIT5911",
+              "FIT5915",
+              "FMC7002",
+              "LSB7904",
+              "MEN5910",
+              "MEN5911",
+              "MEN7141",
+              "MIP5213",
+              "MIP5310",
+              "MIP5312",
+              "MIP7036",
+              "MIP7110",
+              "PTL5111",
+              "ZOT5116",
+              "ANT7701",
+              "BEG7215",
+              "BIO7017",
+              "BIO7018",
+              "BIO7242",
+              "BOT1166",
+              "BOT1618",
+              "BOT7028",
+              "BOT7029",
+              "BOT7203",
+              "BQA7018",
+              "ECZ7130",
+              "GCN7938",
+              "MEN7075",
+              "MEN7156",
+              "MIP1516",
+              "MIP7210",
+              "NFR5167",
+              "BEG7236",
+              "BOT1619",
+              "ECZ7205",
+              "ECZ8010",
+              "BIO7023",
+              "BIO7024",
+              "BIO7051",
+              "BIO7052",
+              "BIO7053",
+              "BIO7054",
+              "BIO7055",
+              "PTL7004",
+              "BEG7017",
+              "BEG7029",
+              "BIO7006",
+              "ECZ7028",
+              "ECZ7038",
+              "FMC7008",
+              "MIP5214",
+              "ECZ7215",
+              "MIP7005",
+              "EED7149"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "108",
+    "curriculumCode": "20061",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=108&curriculo=20061",
+    "sha256": "5b7b03ab8c690b56c902b3fe06aa11cd24a4f9ac9367dfbcb216f277111606f3",
+    "capturedAt": "2026-09-22"
+  }
+}

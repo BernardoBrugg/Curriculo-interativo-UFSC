@@ -1,0 +1,1296 @@
+{
+  "program": "ANIMAÇÃO",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2016.1",
+  "totalHours": 3348,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EGR7107",
+      "code": "EGR7107",
+      "name": "História da Arte",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7107
+      },
+      "prerequisiteHours": 7107,
+      "syllabus": "Estudos dos diferentes movimentos artísticos ocidentais. Artes visuais no Brasil. Estudo comparativo entre os vários movimentos artísticos com ênfase na cultura ocidental e contemporânea."
+    },
+    {
+      "id": "EGR7109",
+      "code": "EGR7109",
+      "name": "Teoria da Cor",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cor e percepção visual. Processos fisiológicos. Princípios básicos da física da cor. Cor-Luz e cor-pigmento. Esquemas de composição cromática: harmonias e contrastes. Sistemas de cores: CMYK, RGB, HSB, PANTONE características e usos. A cor em displays. Cor de processo e cor especial. O uso da cor no Design Gráfico. A cor no processo de projeto: conceituação x especificação"
+    },
+    {
+      "id": "EGR7110",
+      "code": "EGR7110",
+      "name": "Plástica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7706"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7706"
+      },
+      "syllabus": "Malhas e padrões para construções gráficas. Texturas. Dobraduras e modelagens em materiais diversos."
+    },
+    {
+      "id": "EGR7113",
+      "code": "EGR7113",
+      "name": "Semiótica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Teoria da Comunicação aplicada ao Design. Introdução a semiologia, definição de termos, considerações históricas, divisão dos signos, textos narrativos, objeto-signo, signo-imagem. Teoria dos signos de Peirce, significado e aplicação, dimensões: sintática, semântica e pragmática. As triconomias e as tríades dos signos"
+    },
+    {
+      "id": "EGR7192",
+      "code": "EGR7192",
+      "name": "Tratamento de Imagem I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Imagem Digital: conceito e aplicações. Técnicas de edição de imagem - efeitos. Recursos tecnológicos: softwares para tratamento de imagem e extensões (sufixos) e suas aplicações."
+    },
+    {
+      "id": "GMT7105",
+      "code": "GMT7105",
+      "name": "Desenho de Observação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7105"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7105"
+      },
+      "syllabus": "Desenvolvimento da expressão gráfica e da gramática visual. Ferramentas do desenho, materiais e técnicas. Representação visual através do uso de modelos. Percepção e composição de estruturas formais. Estudos de perspectiva, luz e sombra."
+    },
+    {
+      "id": "GMT7212",
+      "code": "GMT7212",
+      "name": "Animação e Cinema",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7212"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7212"
+      },
+      "syllabus": "Definições e conceitos de cinema e de animação; introdução à história do cinema e da animação; evolução das tecnologias audiovisuais; estudo dos grandes mestres - dos pioneiros aos atuais; áreas envolvidas na produção cinematográfica; estrutura e processos da produção audiovisual; como funciona um estúdio de animação tradicional e de animação 3D."
+    },
+    {
+      "id": "EGR7108",
+      "code": "EGR7108",
+      "name": "Desenho Aplicado",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenho aplicado à Animação. Estratégias estéticas para necessidades e características narrativas. Formas, volumes e espaços. Possibilidades gráficas e definições de público ou demanda para estabelecimento de estilo. Diferenças e semelhanças de abordagens visuais entre animação (TV, cinema e internet), jogos eletrônicos e histórias em quadrinhos."
+    },
+    {
+      "id": "EGR7190",
+      "code": "EGR7190",
+      "name": "Ilustração Digital",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ilustração como técnica de comunicação visual, representação de produtos, personagens e cenários. Ilustração realizada em meio digital. Ilustração Vetorial e Pintura digital."
+    },
+    {
+      "id": "EGR7424",
+      "code": "EGR7424",
+      "name": "Roteiro e Direção",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Narrativa e roteiro: conceito, criação/adaptação e desenvolvimento. Tipos de roteiro. Construção de storyboard. Animatic. Expressividade e linguagem. Cenas, planos e enquadramentos de câmera. Desenvolvimento de roteiros e storyboards em animação."
+    },
+    {
+      "id": "GMT7411",
+      "code": "GMT7411",
+      "name": "Narrativa e Linguagem Visual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR5101",
+        "EGR7113"
+      ],
+      "equivalents": [
+        "EGR7411"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR5101"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7113"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7411"
+      },
+      "syllabus": "Planejamento visual para estratégias narrativas apoiadas em imagem em som; gêneros audiovisuais e respectivos modelos de representação da ação; significante visual da cinematografia, cores e contrastes; impactos da trilha sonora na interpretação imagética; transmissão de sensações e emoções; sinestesias na obra audiovisual; componentes visuais para determinação de ritmo e movimento; padronização de recursos visuais para propósitos narrativos."
+    },
+    {
+      "id": "GMT7434",
+      "code": "GMT7434",
+      "name": "Princípios de Animação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7434"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7434"
+      },
+      "syllabus": "Técnica e tecnologias de animação 2D; Princípios de Animação."
+    },
+    {
+      "id": "EGR7422",
+      "code": "EGR7422",
+      "name": "Edição de Som",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7411",
+        "GMT7411"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7411"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7411"
+          }
+        ]
+      },
+      "syllabus": "Som - Conceito, especificações e técnicas; Equipamentos e estúdio; Som em animação - captura, efeitos, e sincronia. Trilha sonora - criação, gravação e edição. Softwares de edição de som - tipos, técnica e aplicação prática"
+    },
+    {
+      "id": "EGR7423",
+      "code": "EGR7423",
+      "name": "Edição e Composição de Vídeo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7192"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR7192"
+      },
+      "syllabus": "Edição e composição de elementos visuais animados. Timing e tipos de montagem (métrica e rítmica). Ferramentas de corte e transição. Impactos narrativos e tipos de mensagem de acordo com tipo de edição."
+    },
+    {
+      "id": "GMT5014",
+      "code": "GMT5014",
+      "name": "Gestão de Projetos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5014"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5014"
+      },
+      "syllabus": "Concepção de um projeto: da teoria à prática. Organização de etapas, prioridades, fluxogramas e estabelecimento de prazos e metas. Métodos voltados ao tipo de produção. Processo de decisão e liderança. Ética na condução de assuntos corporativos."
+    },
+    {
+      "id": "GMT5026",
+      "code": "GMT5026",
+      "name": "Design de Personagens e Concept Art",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7108"
+      ],
+      "equivalents": [
+        "EGR5026"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR7108"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5026"
+      },
+      "syllabus": "Características do desenho de personagens, contrastes e exageros na anatomia do desenho de humor e estilizado. Desenvolvimento de personagens animadas para mídias digitais. Tipos e normatização de desenhos, a estética, proporções e estilos. O estudo dos arquétipos e estereótipos. A dinâmica e movimento. Criação de arte para produção de animações, arte para modelagem, arte para direção de cinematografia, storyboard e animatic."
+    },
+    {
+      "id": "GMT7425",
+      "code": "GMT7425",
+      "name": "Projeto 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7411",
+        "GMT7411"
+      ],
+      "equivalents": [
+        "EGR7425"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7411"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7411"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7425"
+      },
+      "syllabus": "Projeto interdisciplinar; Animação - personagem, cenários, animação; Roteiro e Storyboard, Criação e desenvolvimento de animação 2D - Conceito e prática. Universo da animação - comercial, educação, lazer e entretenimento, jogos, música e instrução."
+    },
+    {
+      "id": "GMT7431",
+      "code": "GMT7431",
+      "name": "Design de Cenários",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7108"
+      ],
+      "equivalents": [
+        "EGR7431"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR7108"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7431"
+      },
+      "syllabus": "Conceituação. Tipos de cenários. Princípios de desenho de cenários em animação. A narrativa do personagem e linguagem dos cenários. Planos e Enquadramento de Câmera - movimento e angulação. Luz e sombra; Linguagem e expressividade. Variações de cenário em animação."
+    },
+    {
+      "id": "GMT5030",
+      "code": "GMT5030",
+      "name": "Laboratório de Animação",
+      "credits": 8,
+      "hours": 144,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7425",
+        "GMT7425"
+      ],
+      "equivalents": [
+        "EGR5030"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7425"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7425"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5030"
+      },
+      "syllabus": "Orientação sobre a prática de produção audiovisual. Coerência estética e narrativa da produção de animação 2D. Participação em produção de cenários e objetos de cena com padrão visual. Prática em técnicas de animação para composição de curta obra audiovisual."
+    },
+    {
+      "id": "GMT7129",
+      "code": "GMT7129",
+      "name": "Stop-motion",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7129"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7129"
+      },
+      "syllabus": "Conceito; Tipos de stop motion - técnicas; a narrativa e o desenvolvimento de personagens; Roteiro e Storyboard; Direção de Arte e adequações estéticas; Linguagem; Iluminação; Materiais; Cenários; Técnicas de filmagem; Processo de produção; Mapa Mental."
+    },
+    {
+      "id": "GMT7435",
+      "code": "GMT7435",
+      "name": "Projeto 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7425",
+        "GMT7425"
+      ],
+      "equivalents": [
+        "EGR7435"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7425"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7425"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7435"
+      },
+      "syllabus": "Desenvolver a Animação 2D e Stop Motion Avançada com os conteúdos das disciplinas de Concept de Personagem, Animação Avançada e Pesquisa Semântica e Cenário."
+    },
+    {
+      "id": "GMT7481",
+      "code": "GMT7481",
+      "name": "Animação de Personagens",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7434",
+        "GMT7434"
+      ],
+      "equivalents": [
+        "EGR7481"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7434"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7434"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7481"
+      },
+      "syllabus": "Tipos de Personagens e técnicas de animação. Princípios aplicados da animação para características de personagens. Prática de movimentos e cálculo de tempo para ações determinadas."
+    },
+    {
+      "id": "GMT7251",
+      "code": "GMT7251",
+      "name": "Modelagem de Personagens",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7435",
+        "GMT7435"
+      ],
+      "equivalents": [
+        "EGR7251"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7435"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7435"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7251"
+      },
+      "syllabus": "5ª Fase-Sugestão Modelagem de personagens - 3D conceito, tipos e técnicas; Modelagem e a narrativa - personagens; objetos; cenários. Desenvolvimento prático."
+    },
+    {
+      "id": "GMT7441",
+      "code": "GMT7441",
+      "name": "Animação 3D",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7435",
+        "GMT7435"
+      ],
+      "equivalents": [
+        "EGR7441"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7435"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7435"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7441"
+      },
+      "syllabus": "Animação 3D; Roteiro e storyboard; Planos e enquadramentos de câmera; Animatic; Tipos de softwares de animação 3D - conceito, dinâmica de criação e modelagem, visualização e aplicação; Prática de animação nos softwares."
+    },
+    {
+      "id": "GMT7443",
+      "code": "GMT7443",
+      "name": "Modelagem 3D",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7435",
+        "GMT7435"
+      ],
+      "equivalents": [
+        "EGR7443"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7435"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7435"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7443"
+      },
+      "syllabus": "Modelagem 3D para animação. Fundamentos da modelagem poligonal 3D: conceitos, tipos e técnicas. Modelagem low-poly com subdivisão. Modelagem 3D a partir de splines."
+    },
+    {
+      "id": "GMT7444",
+      "code": "GMT7444",
+      "name": "Rendering de Animação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7435",
+        "GMT7435"
+      ],
+      "equivalents": [
+        "EGR7444"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7435"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7435"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7444"
+      },
+      "syllabus": "Iluminação, texturização e renderização de animações 3d."
+    },
+    {
+      "id": "GMT7445",
+      "code": "GMT7445",
+      "name": "Projeto 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7435",
+        "GMT7435"
+      ],
+      "equivalents": [
+        "EGR7445"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7435"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7435"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7445"
+      },
+      "syllabus": "Projeto interdisciplinar; Animação 3D - personagem, cenários, objetos; Roteiro e Storyboard; Animatic; Criação e pré-produção de animação 3D - Conceito e prática. Gerenciamento de produção. Universo da animação 3D - comercial, educação, lazer e entretenimento, jogos, música e simulações."
+    },
+    {
+      "id": "GMT7224",
+      "code": "GMT7224",
+      "name": "Caricatura e Charge Animada",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EGR7435",
+        "GMT7435"
+      ],
+      "equivalents": [
+        "EGR7224"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7435"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7435"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7224"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "EGR7104",
+      "code": "EGR7104",
+      "name": "Criatividade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituação. Bloqueios mentais, perceptivos, emocionais, culturais e ambientais, intelectuais e de expressão. Desbloqueadores. Técnicas de geração, sistematização e avaliação de ideias."
+    },
+    {
+      "id": "EGR7118",
+      "code": "EGR7118",
+      "name": "Design e Cultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituações e discussão sobre a relação entre design, cultura e sociedade, com base em princípios antropológicos, políticos, sociológicos, históricos e comunicativos (relações étnico-raciais, cultura e direitos humanos) e ênfase no processo de composição e desenvolvimento da atual cultura de mercado na sociedade de consumo."
+    },
+    {
+      "id": "EGR7516",
+      "code": "EGR7516",
+      "name": "Teoria da Forma e Composição",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios de teoria da forma; diferentes modelos de ordenamento formal na natureza e nos produtos da cultura humana. Estruturas formais e sistemas de proporção em organizações bidimensionais. Gestalt. Metamorfose e padrões de crescimento, analogias formais; dimensões simbólicas da forma. As possibilidades de modulação do espaço. Sistemas de ordenação espacial bidimensional e tridimensional. Composições: bidimensional e tridimensional."
+    },
+    {
+      "id": "GMT5801",
+      "code": "GMT5801",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5801"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5801"
+      },
+      "syllabus": "Participação em Programa de Intercâmbio Acadêmico visando a realização de cursos, estágios e pesquisas orientados ao aprimoramento da formação do aluno."
+    },
+    {
+      "id": "GMT5802",
+      "code": "GMT5802",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5802"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5802"
+      },
+      "syllabus": "Participação em Programa de Intercâmbio Acadêmico visando a realização de cursos, estágios e pesquisas orientados ao aprimoramento da formação do aluno."
+    },
+    {
+      "id": "GMT7191",
+      "code": "GMT7191",
+      "name": "Marketing",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7191"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7191"
+      },
+      "syllabus": "Introdução ao Marketing. Marketing e Design. Comportamento e satisfação do consumidor. Pesquisa de mercado. Análise SWOT. Segmentação e Posicionamento. Concorrência, planejamento e estratégias. O Composto mercadológico. Marketing Mix. Estudo de casos."
+    },
+    {
+      "id": "GMT7195",
+      "code": "GMT7195",
+      "name": "Empreendedorismo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7195"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7195"
+      },
+      "syllabus": "Empreendedorismo. Conceitos e breve histórico. Profissional empreendedor. O empreendedor nas organizações. Design e empreendedorismo. Noções de Administração do seu próprio negócio. Plano de Negócios."
+    },
+    {
+      "id": "GMT7471",
+      "code": "GMT7471",
+      "name": "Arte para Games",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EGR7445",
+        "GMT7445"
+      ],
+      "equivalents": [
+        "EGR7471"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7445"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7445"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7471"
+      },
+      "syllabus": "Criação de arte para jogos e suas implicações projetuais, conceituais e tecnológicas. Contagem de polígonos, texturas e plataformas de renderização em tempo real."
+    },
+    {
+      "id": "GMT7482",
+      "code": "GMT7482",
+      "name": "Criação de Série Animada",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EGR7425",
+        "GMT7425"
+      ],
+      "equivalents": [
+        "EGR7482"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7425"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7425"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7482"
+      },
+      "syllabus": "Desenvolver a Animação 2D Avançada com os conteúdos das disciplinas de Concept de Personagem, Animação Avançada e Pesquisa Semântica e Cenário."
+    },
+    {
+      "id": "GMT7483",
+      "code": "GMT7483",
+      "name": "Gestão de Entretenimento",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7483"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7483"
+      },
+      "syllabus": "Conceitos e definições. Entretenimento como diferencial competitivo. Licenciamentos e aplicação multimeios. Transmidia versus Crossmidia."
+    },
+    {
+      "id": "GMT7484",
+      "code": "GMT7484",
+      "name": "Motion Design",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EGR7423"
+      ],
+      "equivalents": [
+        "EGR7484"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR7423"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7484"
+      },
+      "syllabus": "Movimentação de elementos gráficos com vistas aos princípios da animação, letreiros animados, infográficos animados e outras aplicações de motion design."
+    },
+    {
+      "id": "GMT7485",
+      "code": "GMT7485",
+      "name": "Tópicos Especiais em Animação 1",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7485"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7485"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GMT7486",
+      "code": "GMT7486",
+      "name": "Tópicos Especiais em Animação 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7486"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7486"
+      },
+      "syllabus": "Disciplina prática em Animação, adaptada a cada semestre que for ofertada."
+    },
+    {
+      "id": "GMT7487",
+      "code": "GMT7487",
+      "name": "Tópicos Especiais em Animação 3",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7487"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7487"
+      },
+      "syllabus": "Disciplina teórica em Animação, adaptada a cada semestre que for ofertada."
+    },
+    {
+      "id": "GMT7488",
+      "code": "GMT7488",
+      "name": "Tópicos Especiais em Animação 4",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7488"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7488"
+      },
+      "syllabus": "Disciplina teórica em Animação, adaptada a cada semestre que for ofertada."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "GMT7455",
+      "code": "GMT7455",
+      "name": "Estágio Curricular Obrigatório",
+      "credits": 20,
+      "hours": 360,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "GMT7445"
+      ],
+      "equivalents": [
+        "EGR7455"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GMT7445"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7455"
+      },
+      "syllabus": "18h-a) 6ª Fase-Sugestão"
+    },
+    {
+      "id": "GMT7467",
+      "code": "GMT7467",
+      "name": "Pré-Projeto 4 - TCC",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7435",
+        "GMT7445"
+      ],
+      "equivalents": [
+        "EGR7196",
+        "EGR7467"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7435"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7445"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7196"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7467"
+          }
+        ]
+      },
+      "syllabus": "Pré-produção do Trabalho de Conclusão do Curso em Animação, com vistas à gestão, metodologia, domínio das técnicas e ferramentas correntes e domínio da utilização do meio como instrumento comunicacional."
+    },
+    {
+      "id": "GMT7468",
+      "code": "GMT7468",
+      "name": "Projeto 4 - TCC",
+      "credits": 22,
+      "hours": 396,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7467",
+        "GMT7467"
+      ],
+      "equivalents": [
+        "EGR7465",
+        "EGR7466",
+        "EGR7468"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7467"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7467"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7465"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7466"
+          },
+          {
+            "kind": "course",
+            "code": "EGR7468"
+          }
+        ]
+      },
+      "syllabus": "7ª Fase-Sugestão Prática de produção em Animação, com vistas à gestão, metodologia, domínio das técnicas e ferramentas correntes e domínio da utilização do meio como instrumento comunicacional."
+    },
+    {
+      "id": "EGR7188",
+      "code": "EGR7188",
+      "name": "Fotografia Digital",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos históricos, técnicos e estéticos da Fotografia, de seu surgimento à fotografia digital. Fotografia e linguagem: poética, imagem e significação. Usos e funções da fotografia. Fotografia e Design. A câmera fotográfica: elementos componentes ajustes e utilização: ISO, diafragma, obturador e distância focal. Prática fotográfica: fotografia ambiental. Iluminação natural e artificial, estúdio fotográfico."
+    },
+    {
+      "id": "GMT5315",
+      "code": "GMT5315",
+      "name": "Captura de Movimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7441",
+        "GMT7441"
+      ],
+      "equivalents": [
+        "EGR5315"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGR7441"
+          },
+          {
+            "kind": "course",
+            "code": "GMT7441"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5315"
+      },
+      "syllabus": "Técnica e tecnologias de captura de movimento; Princípios da captura de movimento de personagens aplicada na animação 3D."
+    },
+    {
+      "id": "GMT7186",
+      "code": "GMT7186",
+      "name": "Sustentabilidade e Animação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR7186"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7186"
+      },
+      "syllabus": "Design baseado no princípio das três ecologias. Lucro, qualidade de Vida e Respeito ao Meio Ambiente. Princípios da Sustentabilidade aplicados a projetos de Animação."
+    },
+    {
+      "id": "GMT7472",
+      "code": "GMT7472",
+      "name": "Efeitos Especiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR7423"
+      ],
+      "equivalents": [
+        "EGR7472"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR7423"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR7472"
+      },
+      "syllabus": "Composição avançada de elementos visuais animados: extensão de cenários, simulação atmosférica, tracking."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EGR7107",
+      "EGR7110",
+      "EGR7113",
+      "EGR7192",
+      "GMT7105",
+      "GMT7212",
+      "EGR7108",
+      "EGR7190",
+      "EGR7424",
+      "GMT7411",
+      "GMT7434",
+      "EGR7422",
+      "EGR7423",
+      "GMT5014",
+      "GMT5026",
+      "GMT7425",
+      "GMT7431",
+      "GMT5030",
+      "GMT7129",
+      "GMT7435",
+      "GMT7481",
+      "GMT7251",
+      "GMT7441",
+      "GMT7443",
+      "GMT7444",
+      "GMT7445",
+      "GMT7455",
+      "GMT7467",
+      "GMT7468",
+      "EGR7188",
+      "GMT5315",
+      "GMT7186",
+      "GMT7472"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 378,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "EGR7109",
+              "GMT7224",
+              "EGR7104",
+              "EGR7118",
+              "EGR7516",
+              "GMT5801",
+              "GMT5802",
+              "GMT7191",
+              "GMT7195",
+              "GMT7471",
+              "GMT7482",
+              "GMT7483",
+              "GMT7484",
+              "GMT7485",
+              "GMT7486",
+              "GMT7487",
+              "GMT7488",
+              "LSB7244"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "455",
+    "curriculumCode": "20161",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=455&curriculo=20161",
+    "sha256": "af09cb3a5e86417c63c9b9f603fbb39b3e51ad4e51bade2301330eaf1ed60bb1",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -76,4 +76,26 @@ describe("CurriculumGrid", () => {
     expect(markup).toContain("11ª Fase");
     expect(markup).toContain("13ª Fase");
   });
+
+  it("renders desktop drag attributes and instructions", () => {
+    const markup = renderToStaticMarkup(
+      <CurriculumGrid
+        phases={phases}
+        courses={sampleCourses}
+        statuses={{}}
+        selectedId={null}
+        searchQuery=""
+        prerequisites={new Set()}
+        dependents={new Set()}
+        customPhases={{}}
+        onSelectCourse={() => undefined}
+        onToggleStatus={() => undefined}
+        onMoveCourse={() => undefined}
+      />
+    );
+
+    expect(markup).toContain("data-card-draggable=\"true\"");
+    expect(markup).toContain("data-drag-handle=\"true\"");
+    expect(markup).toContain("Clique no cartão para atualizar o status ou arraste para outro semestre.");
+  });
 });

@@ -1,0 +1,1557 @@
+{
+  "program": "ENFERMAGEM",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2022.1",
+  "totalHours": 4980,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "BEG5303",
+      "code": "BEG5303",
+      "name": "Biologia Celular Básica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "AGC7101",
+        "BEG5101",
+        "BEG5103",
+        "BEG5109",
+        "BEG7001"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AGC7101"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5101"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5103"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5109"
+          },
+          {
+            "kind": "course",
+            "code": "BEG7001"
+          }
+        ]
+      },
+      "syllabus": "Níveis de organização da estrutura biológica. Noções básicas de microscopia de luz e eletrônica. Teoria celular. Organização geral das células procarióticas e eucarióticas. Organização estrutural e funcional das células eucarióticas animais. Ciclo celular."
+    },
+    {
+      "id": "BQA5124",
+      "code": "BQA5124",
+      "name": "Bioquímica Aplicada a Enfermagem",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BQA5114",
+        "CBV7104"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5114"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7104"
+          }
+        ]
+      },
+      "syllabus": "Importância química e biológica dos carbohidratos, lipídeos, proteínas, enzimas , vitaminas e coenzimas. Metabolismo dos carbohidratos, lipídeos e proteínas. Inter-relações e regulação metabólica do organismo. Energética Bioquímica do metabolismo."
+    },
+    {
+      "id": "CFS5153",
+      "code": "CFS5153",
+      "name": "Fisiologia I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Espectros eletromagnéticos, ultravioletas e infravermelhos. Radiobiologia: uso e higiene das radiações ionizantes e não ionizantes. Biofísica da água. Equilíbrio ácido básico. Homeostasia orgânica. Compartimentos líquidos corporais e edema. Estrutura da membrana, potenciais elétricos transmembrana. Propagação e transmissão sináptica de potenciais de ação. Junção Neuromuscular. Músculo esquelético e Músculo liso."
+    },
+    {
+      "id": "INT5221",
+      "code": "INT5221",
+      "name": "Processo de Viver Humano I - Sociedade, Ambiente e Saúde",
+      "credits": 8,
+      "hours": 144,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "INT5201",
+        "NFR5101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INT5201"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5101"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "O ser humano como ser multidimensional, em seu processo de viver histórico, social e culturalmente contextualizado, compreendido a partir de conceitos fundamentais e do reconhecimento das expressões e representações dos próprios indivíduos, grupos, raças e etnias. Os diferentes espaços deste viver na sociedade, especialmente a família, a escola, o trabalho e a comunidade. Determinação sócio ambiental e cultural do processo de viver humano. O processo saúde doença como componente deste viver histórico em suas múltiplas dimensões e em sua relação com o ambiente, raça, cultura e etnia, bem como em modos específicos de compreensão e explicação. O acadêmico na UFSC e no Curso de Enfermagem",
+      "extensionHours": 18
+    },
+    {
+      "id": "MOR5231",
+      "code": "MOR5231",
+      "name": "Anatomia Aplicada a Enfermagem",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao Estudo da Anatomia Humana. Anatomia sistêmica e descritiva. Sistema tegumentar. Sistema esquelético. Sistema articular. Sistema muscular. Sistema nervoso. Sistema endócrino. Sistema circulatório. Sistema respiratório. Sistema digestório. Sistema urinário. Sistema reprodutor masculino e feminino."
+    },
+    {
+      "id": "MOR5315",
+      "code": "MOR5315",
+      "name": "Histologia",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CBV7604",
+        "CBV7605",
+        "MOR5317"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5315
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CBV7604"
+              },
+              {
+                "kind": "course",
+                "code": "CBV7605"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "MOR5317"
+          }
+        ]
+      },
+      "prerequisiteHours": 5315,
+      "syllabus": "Noções Básicas sobre Técnicas Histológicas de Rotina. Tipos de Tecidos Fundamentais. Estrutura e Funções Básicas dos Tecidos: Epitelial, Conjuntivo, Ósseo, Sangüíneo, Muscular e Nervoso, Processos de Ossificação. Histofisiologia dos Sistemas: Circulatório, Linfático, Digestório, Respiratório, Urinário, Endócrino, Reprodutor Masculino e Feminino."
+    },
+    {
+      "id": "NFR5111",
+      "code": "NFR5111",
+      "name": "Aprendizagem Vivencial I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Dinâmicas de autoconhecimento, desenvolvimento de autopercepção com resgate da sua própria sensibilidade, ressignificando suas emoções e vivências."
+    },
+    {
+      "id": "CFS5154",
+      "code": "CFS5154",
+      "name": "Fisiologia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS5153"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CFS5153"
+      },
+      "syllabus": "Funções do Sistema Nervoso Central e Periférico, Sistema Somatossensorial, Somatomotor e Autônomo, Sistema Endócrino e Reprodutor; Funções do Sistema Cardiovascular, Sistema Respiratório, Sistema Urinário e Sistema Digestório."
+    },
+    {
+      "id": "FMC5103",
+      "code": "FMC5103",
+      "name": "Farmacologia I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5124",
+        "CFS5153"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5124"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5153"
+          }
+        ]
+      },
+      "syllabus": "Conceitos e princípios básicos em Farmacologia. Farmacocinética: Vias de administração, absorção, distribuição, metabolização e eliminação de drogas no organismo. Farmacodinâmica: mecanismo de ação de drogas no organismo (Teoria dos receptores), agonistas e antagonistas. Farmacologia do sistema nervoso autônomo: bloqueadores neuromusculares, drogas colinérgicas e adrenérgicas. Fármacos que interferem com a dor e a inflamação. Fármacos que atuam no sistema cardiovascular. Fármacos Antineoplásicos. Fármacos Antimicrobianos. Fármacos que atuam no sistema gastrointestinal;"
+    },
+    {
+      "id": "INT5222",
+      "code": "INT5222",
+      "name": "Processo de Viver Humano II - as práticas",
+      "credits": 12,
+      "hours": 216,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "INT5201"
+      ],
+      "equivalents": [
+        "INT5141"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INT5201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INT5141"
+      },
+      "syllabus": "-Elementos para a compreensão das políticas de saúde em seus aspectos históricos e conceituais e para o desenvolvimentodas profissões de saúde nesta evolução e histórica. Elementos para a compreensão do Sistema Único de Saúde e os serviços de saúde em sua configuração atual, no Brasil e em Santa Catarina. O trabalho da enfermagem nos diferentes campos de atuação e no contexto interdisciplinar. Diferentes paradigmas modos de intervenção sobre a saúde: a relação entre sistemas profissionais e não profissionais de atenção à saúde; fundamentos da educação e sua relação com a área da saúde; as bases da epidemiologia e da informação em saúde e sua aplicação no reconhecimento da situação de saúde-doença de grupos etnico-raciais, sociais e comunidade. Educação em saúde, educação ambiental, educação para as relações etnico-raciais"
+    },
+    {
+      "id": "MIP5128",
+      "code": "MIP5128",
+      "name": "Microbiologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5124"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA5124"
+      },
+      "syllabus": "de saúde (Ext=36h-a) INT5202) INT5221) Morfologia, fisiologia e genética das bactérias. Microbiota indígena. Antimicrobianos. Resistência bacteriana aos antibióticos. Infecções hospitalares. Características gerais dos vírus. Patogenia, isolamento, identificação, classificação, prevenção e controle das doenças infecciosas."
+    },
+    {
+      "id": "MIP5200",
+      "code": "MIP5200",
+      "name": "Imunologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5124"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA5124"
+      },
+      "syllabus": "Propriedades gerais do sistema imune, tecidos e órgão linfóides, imunidade inata e adaptativa, anticorpos (estrutura e função) complemento (vias e função), interações antígeno-anticorpo, imunoensaios para fins diagnósticos, complexo principal de histocompatibilidade e apresentação de antígeno, imunidade medida por células T, citocinas, hipersensibilidades, tumores, autoimunidade, transplante, resistência e imunização às doenças infecciosas."
+    },
+    {
+      "id": "MIP5311",
+      "code": "MIP5311",
+      "name": "Parasitologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5124",
+        "CFS5153"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5124"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5153"
+          }
+        ]
+      },
+      "syllabus": "Sistemática em parasitologia. Estudo geral dos protozoários, helmintos e fungos parasitas humanos e artrópodes causadores e transmissores de doenças ao homem."
+    },
+    {
+      "id": "BEG5409",
+      "code": "BEG5409",
+      "name": "Genética",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS5153",
+        "MOR5231"
+      ],
+      "equivalents": [
+        "FIT5303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS5153"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5231"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIT5303"
+      },
+      "syllabus": "A enfermagem e os conhecimentos científicos atuais na área de genética humana, no seu contexto histórico, social, cultural e ético. O papel da genética humana no entendimento dos processos de saúde-doença. Doenças genéticas e doenças com componentes genéticos: etiologia, diagnóstico, tratamento, aconselhamento genético, aspectos evolutivos, aspectos éticos. Novas tecnologias em genética: repercussões na profissão de enfermagem."
+    },
+    {
+      "id": "FMC5105",
+      "code": "FMC5105",
+      "name": "Farmacologia II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FMC5103"
+      ],
+      "equivalents": [
+        "FMC5104"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FMC5103"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FMC5104"
+      },
+      "syllabus": ": Discutir, de forma aplicada ao uso clínico e suas implicações para o cuidado de enfermagem, a farmacologia dos medicamentos utilizados para tratamento dos principais problemas de saúde, considerando as ações e efeitos e implicações (efeitos colaterais, indesejados e tóxicos)relacionadas a escolha ou contra- indicações de fármacos para o tratamento do idoso, da criança, do lactante e da gestante; fármacos utilizados nas dislipidemias; antiparasitários e antivirais; tratamento do diabetes mellitus com insulina e hipoglicemiantes orais e injetáveis; fármacos usados no hipo- e hiper-tireoidismo; agentes contraceptivos e sistema reprodutivo; fármacos que atuam no sistema nervoso central (ansiolíticos, antidepressivos, anticonvulsivantes, hipnosedativos, substâncias usadas em doenças neurodegenerativas e distúrbios psiquiátricos, anestésicos gerais, relaxantes musculares e analgésicos opióides)"
+    },
+    {
+      "id": "NFR5102",
+      "code": "NFR5102",
+      "name": "Fundamentos para o Cuidado Profissional",
+      "credits": 21,
+      "hours": 378,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS5154"
+      ],
+      "equivalents": [
+        "NFR5105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CFS5154"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NFR5105"
+      },
+      "syllabus": "O conhecimento na história humana, em especial o conhecimento e o método científico. As bases e habilidades para a ação investigativa e sua vinculação com a formação e a prática profissional. O trabalho da enfermagem em seus aspectos históricos, conformação e determinantes atuais. As concepções teóricas metodológicas do trabalho de enfermagem nas especificidades do cuidar, gerenciar e educar. O cuidado profissional de enfermagem sob o olhar de diferentes teorias e compreendido a partir de referências sociológicas, psicológicas, antropológicas e históricas. O desenvolvimento de metodologias de cuidado de enfermagem. Semiologia e semiotécnica aplicadas ao cuidado de enfermagem. O desenvolvimento de procedimentos básicos para o cuidar. A ética e a bioética como exigência interdisciplinar no trabalho em saúde"
+    },
+    {
+      "id": "NFR5112",
+      "code": "NFR5112",
+      "name": "Aprendizagem Vivencial II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "NFR5111"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NFR5111"
+      },
+      "syllabus": "(Ext = 72h-a) FMC5103 eh Grupo de reflexão como espaço de elaboração de tensões. Relações interpessoais. Comunicação: fundamentos, comunicação verbal e não-verbal, barreiras da comunicação, a comunicação como instrumento terapêutico"
+    },
+    {
+      "id": "BEG5203",
+      "code": "BEG5203",
+      "name": "Embriologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS5153",
+        "MOR5231",
+        "MOR5315"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS5153"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5231"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5315"
+          }
+        ]
+      },
+      "syllabus": "Processos de gametogênese e de fecundação. Caracterização dos períodos do desenvolvimento humano: pré-embrionário, embrionário e fetal. Organização morfofuncional dos anexos embrionários. Estudo de malformações e de agentes teratogênicos. Morfogênese da face e membros. Desenvolvimento normal e anormal dos sistemas tegumentar, nervoso, locomotor, cardiovascular, digestivo, respiratório, urogenital e endócrino."
+    },
+    {
+      "id": "INT5223",
+      "code": "INT5223",
+      "name": "O Cuidado do Processo de Viver Humano I",
+      "credits": 14,
+      "hours": 252,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "NFR5102"
+      ],
+      "equivalents": [
+        "INT5203"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NFR5102"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INT5203"
+      },
+      "syllabus": "O cuidado de Enfermagem ao cliente adulto e idoso nas intercorrências clínicas, agudas e crônicas do processo de viver, considerando o contexto institucional, familiar e o itinerário terapêutico. Planejamento, implementação e avaliação do cuidado, em ações de promoção e recuperação da saúde, com o desenvolvimento de habilidades relacionadas a este cuidado"
+    },
+    {
+      "id": "NFR5160",
+      "code": "NFR5160",
+      "name": "Sociedade, Saúde e Violência",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "INT5202",
+        "INT5222"
+      ],
+      "equivalents": [
+        "NFR5161"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INT5202"
+          },
+          {
+            "kind": "course",
+            "code": "INT5222"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NFR5161"
+      },
+      "syllabus": "- Condição Clínica de Saúde (Ext=72h-a) NFR5106) NFR5105) Direitos humanos e saúde. Expressões da violência na sociedade: cultura, gênero, raça e etnia. Repercussões da violência na saúde, na vida cotidiana. Necessidades e possibilidades de intervenção profissional nos casos de violência"
+    },
+    {
+      "id": "NFR5170",
+      "code": "NFR5170",
+      "name": "Informática em Saúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "NFR5171"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NFR5171"
+      },
+      "syllabus": "Informática aplicada ao cuidado e a educação em saúde e enfermagem. Tecnologias emergentes aplicadas à Enfermagem. Sistemas Nacionais de Informação em Saúde e avaliação da informação. Padrões da Informação"
+    },
+    {
+      "id": "PTL5117",
+      "code": "PTL5117",
+      "name": "Patologia Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS5153",
+        "MOR5231",
+        "MOR5315"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS5153"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5231"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5315"
+          }
+        ]
+      },
+      "syllabus": "Generalidades sobre Patologia: conceito saúde/doença. Os grandes processos mórbidos (alterações celulares e extracelulares, distúrbios vasculares, processo inflamatório, distúrbios de crescimento e diferenciação)"
+    },
+    {
+      "id": "INT5224",
+      "code": "INT5224",
+      "name": "O Cuidado no Processo de Viver Humano II",
+      "credits": 12,
+      "hours": 216,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INT5203"
+      ],
+      "equivalents": [
+        "INT5204"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INT5203"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INT5204"
+      },
+      "syllabus": "O cuidado de enfermagem ao adulto e idoso nas intercorrências cirúrgicas, agudas e crônicas do processo de viver considerando o contexto institucional e familiar, bem como o itinerário terapêutico como o desenvolvimento de habilidades relacionadas a este cuidado. Sistematização da assistência de enfermagem em ações de promoção, recuperação e reabilitação da saúde. Aspectos éticos e bioéticos no cuidado a pessoas em condição cirúrgica. Segurança do paciente"
+    },
+    {
+      "id": "INT5225",
+      "code": "INT5225",
+      "name": "O Cuidado no Processo III - Condição",
+      "credits": 12,
+      "hours": 216,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INT5203"
+      ],
+      "equivalents": [
+        "INT5205"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INT5203"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INT5205"
+      },
+      "syllabus": "- Condição Cirúrgica de Saúde (Ext=18h-a) NFR5106) INT5223) O cuidado de enfermagem ao adulto e idoso em condição grave de saúde, considerando o contexto institucional e familiar, em ambiente pré-hospitalar, de emergência e intensivo. Ética e bioética. Processo investigativo. Gestão do cuidado de enfermagem. Sistematização da assistência de enfermagem. Segurança do paciente"
+    },
+    {
+      "id": "NFR5113",
+      "code": "NFR5113",
+      "name": "Aprendizagem Vivencial III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "NFR5112"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NFR5112"
+      },
+      "syllabus": "Crítica de Saúde (Ext=18h-a) PTL5117) ou Grupo de reflexão como espaço de elaboração de tensões. Dilemas e conflitos gerados pelas atividades do curso. Enfrentamento de diversos limites e condições do trabalho profissional: finitude/morte, eutanásia, doenças crônico-degenerativas. O cuidado de si – o profissional que cuida"
+    },
+    {
+      "id": "INT5226",
+      "code": "INT5226",
+      "name": "O Cuidado no Processo de Viver Humano",
+      "credits": 24,
+      "hours": 432,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INT5203"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INT5203"
+      },
+      "syllabus": "O cuidado de Enfermagem no contexto das políticas de atenção à saúde da criança, do adolescente, da mulher e da família, incluindo as perspectivas étnico- raciais e de gênero. A compreensão do nascimento como processo individual e social e o cuidado de enfermagem à família neste processo. O cuidado à criança, adolescente e sua família no processo de viver nas intercorrências clínicas agudas, prolongadas e crônicas, no contexto da atenção básica domiciliar e hospitalar, em ações de promoção, prevenção das intercorrências e recuperação da saúde. Ocuidado integral à mulher na atenção básica, domiciliar e hospitalar, em sua saúde reprodutiva. Ética e bioética. Processo investigativo. Gestão do cuidado de enfermagem. Sistematização da assistência de enfermagem. Segurança do paciente"
+    },
+    {
+      "id": "NFR5173",
+      "code": "NFR5173",
+      "name": "Corpo Gênero e Sexualidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "INT5203",
+        "INT5223"
+      ],
+      "equivalents": [
+        "NFR5163"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INT5203"
+          },
+          {
+            "kind": "course",
+            "code": "INT5223"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NFR5163"
+      },
+      "syllabus": "IV-Saúde da Mulher,do Neonato,da Criança INT5223) eh e do Adolescente (INT5204 ou O Corpo: dos gregos até a era pós-moderna; corpo e miscigenação no Brasil; História da Sexualidade; Da diferença sexual ao paradigma de gênero; Gênero e Sexualidade; Aspectos Multidimensionais da Sexualidade humana; Sexualidades: Construção do paradigma heterossexual, homossexualidade, Noções de aconselhamento sexual na consulta de Enfermagem"
+    },
+    {
+      "id": "INT5227",
+      "code": "INT5227",
+      "name": "O Cuidado no Processo de Viver V -",
+      "credits": 24,
+      "hours": 432,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "INT5206"
+      ],
+      "equivalents": [
+        "INT5131"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INT5206"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INT5131"
+      },
+      "syllabus": "O Sistema Único de Saúde em seus modelos de gestão e assistência. A epidemiologia como base para o processo de planejamento local de saúde. O processo de distritalização da saúde. Determinação socioambiental e cultural do processo saúde-doença. Atenção Básica à saúde do indivíduo, família e comunidade considerando os aspectos étnicos-raciais e as questões dos direitos humanos. A educação popular e saúde e o controle social. Saúde mental e reforma psiquiátrica. O cuidado ao indivíduo, família e comunidade em ações de promoção e recuperação da saúde mental. Ética e bioética. Processo investigativo. Gestão do cuidado de enfermagem. Sistematização da assistência de enfermagem. Segurança do paciente"
+    },
+    {
+      "id": "NFR5174",
+      "code": "NFR5174",
+      "name": "Fenômeno Drogas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "NFR5102",
+        "NFR5105"
+      ],
+      "equivalents": [
+        "NFR5164"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NFR5102"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5105"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NFR5164"
+      },
+      "syllabus": "Atenção Básica e Saúde Mental (Ext= 90h- INT5132 ou INT5226) a) INT5145 ou Direitos humanos e saúde. Globalização e o fenômeno da violência e das drogas. Políticas sociais no campo da violência e drogas: internacional e nacional. Fatores relacionados ao consumo de drogas. Estereótipos, imagens e respostas sociais frente ao fenômeno das drogas. Drogas mais utilizadas em nosso meio. Uso e abuso de drogas. Álcool e comunidades indígenas. Segurança e drogas no campus."
+    },
+    {
+      "id": "INT5228",
+      "code": "INT5228",
+      "name": "Gestão em Saúde e Enfermagem (Ext =",
+      "credits": 23,
+      "hours": 414,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "INT5207"
+      ],
+      "equivalents": [
+        "INT5120"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INT5207"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INT5120"
+      },
+      "syllabus": "Fundamentos teórico-filosóficos da gestão/administração e aplicação na organização da enfermagem e saúde. A gestão no contexto do SUS e no setor privado. O planejamento, a organização, a liderança e a avaliação em enfermagem e saúde. Gestão de sistemas e de organizações e gerência de unidades e serviços de enfermagem e saúde nos diferentes níveis de complexidade. Gestão de recursos e do processo de trabalho em enfermagem e saúde. A construção de modelos e processos gerenciais em enfermagem. Práticas inovadoras em gerência de enfermagem. O processo investigativo em administração da saúde e enfermagem"
+    },
+    {
+      "id": "NFR5175",
+      "code": "NFR5175",
+      "name": "Projetos de Investigação e Intervenção",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "INT5207",
+        "INT5227"
+      ],
+      "equivalents": [
+        "NFR5166",
+        "NFR5412"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INT5207"
+          },
+          {
+            "kind": "course",
+            "code": "INT5227"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NFR5166"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5412"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "NFR5166"
+              },
+              {
+                "kind": "course",
+                "code": "NFR5412"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "144h-a) INT5132 ou INT5227) Elementos e etapas para a proposição e desenvolvimento de projetos de pesquisa e/ou intervenção. A produção de conhecimentos e suas tendências atuais na área da saúde, em especial da enfermagem, no contexto técnico, ético, político e social do Brasil nos diferentes cenários assistenciais."
+    },
+    {
+      "id": "INT5211",
+      "code": "INT5211",
+      "name": "Estágio Supervisionado I",
+      "credits": 27,
+      "hours": 486,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5203",
+        "BEG5303",
+        "BEG5409",
+        "BQA5124",
+        "CFS5153",
+        "CFS5154",
+        "FMC5103",
+        "FMC5105",
+        "INT5201",
+        "INT5202",
+        "INT5203",
+        "INT5204",
+        "INT5205",
+        "INT5206",
+        "INT5207",
+        "INT5208",
+        "INT5227",
+        "INT5228",
+        "MIP5128",
+        "MIP5200",
+        "MIP5311",
+        "MOR5231",
+        "MOR5315",
+        "NFR5105",
+        "NFR5111",
+        "NFR5112",
+        "NFR5113",
+        "NFR5160",
+        "NFR5170",
+        "NFR5173"
+      ],
+      "equivalents": [
+        "INT5161"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5203"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5303"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5409"
+          },
+          {
+            "kind": "course",
+            "code": "BQA5124"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5153"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5154"
+          },
+          {
+            "kind": "course",
+            "code": "FMC5103"
+          },
+          {
+            "kind": "course",
+            "code": "FMC5105"
+          },
+          {
+            "kind": "course",
+            "code": "INT5201"
+          },
+          {
+            "kind": "course",
+            "code": "INT5202"
+          },
+          {
+            "kind": "course",
+            "code": "INT5203"
+          },
+          {
+            "kind": "course",
+            "code": "INT5204"
+          },
+          {
+            "kind": "course",
+            "code": "INT5205"
+          },
+          {
+            "kind": "course",
+            "code": "INT5206"
+          },
+          {
+            "kind": "course",
+            "code": "INT5207"
+          },
+          {
+            "kind": "course",
+            "code": "INT5208"
+          },
+          {
+            "kind": "course",
+            "code": "INT5227"
+          },
+          {
+            "kind": "course",
+            "code": "INT5228"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5128"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5200"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5311"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5231"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5315"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5105"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5111"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5112"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5113"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5160"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5170"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5173"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INT5161"
+      },
+      "syllabus": "Planejamento, execução e avaliação de projeto assistencial envolvendo as dimensões do cuidado, gerência e educação em enfermagem no processo de viver humano, a indivíduos, famílias, grupos e comunidades, sob orientação de um docente, comsupervisão do enfermeiro em Instituição de atenção básica. Ética e bioética. Processo investigativo. Gestão do cuidado de enfermagem. Segurança do paciente"
+    },
+    {
+      "id": "NFR5181",
+      "code": "NFR5181",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG5203",
+        "BEG5303",
+        "BEG5409",
+        "BQA5124",
+        "CFS5153",
+        "CFS5154",
+        "FMC5103",
+        "FMC5105",
+        "INT5201",
+        "INT5202",
+        "INT5203",
+        "INT5204",
+        "INT5205",
+        "INT5206",
+        "INT5207",
+        "INT5208",
+        "MIP5128",
+        "MIP5200",
+        "MIP5311",
+        "MOR5231",
+        "MOR5315",
+        "NFR5105",
+        "NFR5111",
+        "NFR5112",
+        "NFR5113"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5203"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5303"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5409"
+          },
+          {
+            "kind": "course",
+            "code": "BQA5124"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5153"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5154"
+          },
+          {
+            "kind": "course",
+            "code": "FMC5103"
+          },
+          {
+            "kind": "course",
+            "code": "FMC5105"
+          },
+          {
+            "kind": "course",
+            "code": "INT5201"
+          },
+          {
+            "kind": "course",
+            "code": "INT5202"
+          },
+          {
+            "kind": "course",
+            "code": "INT5203"
+          },
+          {
+            "kind": "course",
+            "code": "INT5204"
+          },
+          {
+            "kind": "course",
+            "code": "INT5205"
+          },
+          {
+            "kind": "course",
+            "code": "INT5206"
+          },
+          {
+            "kind": "course",
+            "code": "INT5207"
+          },
+          {
+            "kind": "course",
+            "code": "INT5208"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5128"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5200"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5311"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5231"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5315"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5105"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5111"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5112"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5113"
+          }
+        ]
+      },
+      "syllabus": "Desenvolvimento de projetos de pesquisa e/ou intervenção: coleta e análise de dados.."
+    },
+    {
+      "id": "INT5212",
+      "code": "INT5212",
+      "name": "Estágio Supervisionado II",
+      "credits": 27,
+      "hours": 486,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "INT5211",
+        "NFR5181"
+      ],
+      "equivalents": [
+        "INT5162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INT5211"
+          },
+          {
+            "kind": "course",
+            "code": "NFR5181"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INT5162"
+      },
+      "syllabus": "Planejamento, execução e avaliação de plano de atividades envolvendo as dimensões do cuidado, gerência e educação em enfermagem no processo de viver humano, a indivíduos, famílias, grupos e comunidades, sob orientação de um docente, com supervisão de enfermeiros em instituição conveniada hospitalar. Gestão do cuidado de enfermagem. Sistematização da assistência de enfermagem. Segurança do paciente"
+    },
+    {
+      "id": "NFR5182",
+      "code": "NFR5182",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "NFR5181"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NFR5181"
+      },
+      "syllabus": "Desenvolvimento de projetos de pesquisa e/ou intervenções: elaboração de relatório final e divulgação dos resultados."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7409"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7409"
+      },
+      "syllabus": "Disciplinas Optativas Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "MIP5213",
+      "code": "MIP5213",
+      "name": "Virologia Básica e Clínica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) Introdução aos vírus, suas naturezas, estruturas, genética e classificação; principais eventos envolvidos na replicação viral: principais estratégias de replicação dos vírus de genoma DNA e RNA; vírus que causam câncer e os mecanismos utilizados para este fim (polioma, herpes, papiloma, hepatite, adenovírus); vírus de RNA que causam câncer (retrovírus); biologia do HIV; medicamentos com ação antiviral; vírus de genoma RNA de transmissão fecal- oral causadores de infecções, incluindo norovírus, rotavírus, astrovírus, enterovírus, vírus da hepatite A e E; vírus do trato respiratório superior (rinovírus) e vírus da síndrome respiratória aguda (SARS). Estrutura dos vírus herpéticos: as doenças causadas pelos vírus herpes simplex tipos 1 e 2, citomegalovírus, vírus da varicella zoster, vírus Epstein-barr e outros vírus herpéticos; defesas específicas e não específicas do hospedeiro envolvidas na resistência e na recuperação das infecções virais; estrutura e propriedades dos vírus do sarampo, caxumba, influenza e rubéola: patogênese e doença, prevenção e tratamento; estrutura e replicação dos vírus causadores das hepatites B e C; rabdovírus e raiva; arbovírus e hantavírus causadores de encefalites febris, hemorrágicas; doenças hemorrágicas com síndromes renal e pulmonar."
+    },
+    {
+      "id": "MIP9108",
+      "code": "MIP9108",
+      "name": "Diagnóstico Imuno-Molecular em Parasitologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "MIP5311"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP5311"
+      },
+      "syllabus": "Estudo de métodos indiretos de diagnóstico de parasitoses. Coleta, preparação e conservação do material biológico. Aplicação de técnicas imunológicas e moleculares para o diagnóstico de parasitos de importância para humanos e veterinária."
+    },
+    {
+      "id": "NFR5128",
+      "code": "NFR5128",
+      "name": "Enfermagem em Primeiros Socorros",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios gerais de primeiros socorros. Medidas de acidentes. Ações imediatas e mediatas do socorrista em situações de emergência e/ou urgência. Primeiros socorros em situações de emergência e/ou urgência."
+    },
+    {
+      "id": "NFR5167",
+      "code": "NFR5167",
+      "name": "Plantas Medicinais nas Práticas de Saúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPB7010"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPB7010"
+      },
+      "syllabus": "As plantas medicinais na história do cuidado humano. O rito do chá. Plantas medicinais e o meio ambiente. Espécies do repertório popular. Cuidados com o cultivo, coleta, secagem, acondicionamento e preparação populares. Noções sobre substâncias bioativas. Interações planta/medicamento e plantas tóxicas. Legislação que regulamenta o uso de plantas medicinais e políticas públicas para implementações de farmácias vivas"
+    },
+    {
+      "id": "NFR5168",
+      "code": "NFR5168",
+      "name": "Terapias Corporais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O corpo como espelho da mente. Principais tiposde massagens terapêuticas. A dança como técnica de equilíbrio mente-corpo; relaxamento físico-mental; terapia reflexológica; artes marciais e yoga."
+    },
+    {
+      "id": "NFR5169",
+      "code": "NFR5169",
+      "name": "Mercado de Trabalho em Enfermagem e Novas Modalidades de Prestação de Serviço",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos teóricos e metodológicos sobre estudos e pesquisas de mercado de trabalho. O mercado de Trabalho na Enfermagem e na Saúde. Caracterização de serviços e novas modalidades de organização dos serviços em saúde e enfermagem. Noções de empreendedorismo em saúde. Noções de custos em Saúde. As cooperativas em saúde. As seguradoras em saúde. Controle financeiro e da qualidade da prestação dos serviços de saúde. Aspectos legais e organizacionais de projetos de criação e implementação de uma empresa prestadora de serviços."
+    },
+    {
+      "id": "NFR5307",
+      "code": "NFR5307",
+      "name": "Enfermagem Gerontogeriatrica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O processo de envelhecimento humano no contexto da transição demográfica /epidemiológica e suas consequências para a sociedade. Fundamentação Gerontogeriátrica. Aspectos bio-psicossocial cultural do envelhecimento humano. A especificidade da assistência de enfermagem gerontogeriátrica. Políticas públicas de saúde, serviços, programas e tecnologias para a assistência ao idoso e sua família no contexto comunitário e institucional."
+    },
+    {
+      "id": "NFR5308",
+      "code": "NFR5308",
+      "name": "Enfermagem em Oncologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INT5203",
+        "INT5223"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INT5203"
+          },
+          {
+            "kind": "course",
+            "code": "INT5223"
+          }
+        ]
+      },
+      "syllabus": "Considerações gerais em oncologia; Epidemiologia; Prevenção, promoção, tratamento, reabilitação e cuidados de enfermagem na atenção oncológica. Políticas de saúde. O cuidado ao cliente adulto e pediátrico e família no contexto da oncologia. Cuidando do cuidador em oncologia. Os sobreviventes em oncologia"
+    },
+    {
+      "id": "NFR7005",
+      "code": "NFR7005",
+      "name": "Enfermagem Dermatológica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "INT5203",
+        "INT5223"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INT5203"
+          },
+          {
+            "kind": "course",
+            "code": "INT5223"
+          }
+        ]
+      },
+      "syllabus": "Bases teóricas e práticas para o cuidado com a pele, no adulto e idoso em condição crônica. Aprimoramento do conhecimento do estudante de graduação em enfermagem para a assistência à pessoa considerando a prevenção de lesões, os cuidados na recuperação tecidual e a reabilitação nos distintos espaços da rede de atenção do Sistema Único de Saúde (SUS), tendo como base a aplicação do conhecimento para a utilização de tecnologias leve e duras. Discussão de aspectos éticos no cuidado, na documentação fotográfica e divulgação/utilização dessas informações. Aplicação das etapas do processo de enfermagem na prevenção, recuperação tecidual e reabilitação da pele humana."
+    },
+    {
+      "id": "NFR5421",
+      "code": "NFR5421",
+      "name": "Atividade Extracurricular: Monitoria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades Complementares"
+    },
+    {
+      "id": "NFR5422",
+      "code": "NFR5422",
+      "name": "Atividade Extracurricular: Estágio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "NFR5423",
+      "code": "NFR5423",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em programa de Intercâmbio Acadêmico decorrente de convênio assinado com Instituições de Ensino Superior, Agências de Fometo, Centros de Pesquisa, e instituições semelhantes, visando a realização de atividades acadêmicas como cursos, estágios e pesquisas orientadas ao aprimoramento da formação do aluno, devidamente aprovadas pelo Colegiado do Curso."
+    },
+    {
+      "id": "NFR5424",
+      "code": "NFR5424",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "NFR5423"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NFR5423"
+      },
+      "syllabus": "Continuidade da participação em Programa de Intercâmbio Acadêmico visando a realização de cursos, estágios e pesquisas orientados ao aprimoramento da formação do aluno."
+    },
+    {
+      "id": "NFR5428",
+      "code": "NFR5428",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "NFR5424"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NFR5424"
+      },
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "BEG5303",
+      "BQA5124",
+      "CFS5153",
+      "INT5221",
+      "MOR5231",
+      "MOR5315",
+      "NFR5111",
+      "CFS5154",
+      "FMC5103",
+      "INT5222",
+      "MIP5128",
+      "MIP5200",
+      "MIP5311",
+      "BEG5409",
+      "FMC5105",
+      "NFR5102",
+      "NFR5112",
+      "BEG5203",
+      "INT5223",
+      "NFR5160",
+      "NFR5170",
+      "PTL5117",
+      "INT5224",
+      "INT5225",
+      "NFR5113",
+      "INT5226",
+      "NFR5173",
+      "INT5227",
+      "NFR5174",
+      "INT5228",
+      "NFR5175",
+      "INT5211",
+      "NFR5181",
+      "INT5212",
+      "NFR5182"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 72,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "LSB7244",
+              "MIP5213",
+              "MIP9108",
+              "NFR5128",
+              "NFR5167",
+              "NFR5168",
+              "NFR5169",
+              "NFR5307",
+              "NFR5308",
+              "NFR7005",
+              "NFR5421",
+              "NFR5422",
+              "NFR5423",
+              "NFR5424",
+              "NFR5428"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 72
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "101",
+    "curriculumCode": "20221",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=101&curriculo=20221",
+    "sha256": "8272a01600b8d3767e2e9cdb8f63571c8e4c085c62e139822c5463c9a52adc8d",
+    "capturedAt": "2026-09-22"
+  }
+}

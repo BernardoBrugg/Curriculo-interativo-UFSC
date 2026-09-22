@@ -1,0 +1,2163 @@
+{
+  "program": "FÍSICA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2024.1",
+  "totalHours": 3222,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "FSC5106",
+      "code": "FSC5106",
+      "name": "Introdução à Física Moderna",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções de mecânica quântica. Relatividade. Partículas elementares: modelo padrão. Caos. Tópicos de Física contemporânea."
+    },
+    {
+      "id": "FSC5107",
+      "code": "FSC5107",
+      "name": "Física Geral - I-A",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática e dinâmica. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "FSC5141",
+      "code": "FSC5141",
+      "name": "Laboratório de Física I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Medidas, instrumentos de medidas, erros e gráficos, experimentos envolvendo conceitos de cinemática e leis de Newton, energia e momento linear."
+    },
+    {
+      "id": "FSC5911",
+      "code": "FSC5911",
+      "name": "Tópicos de Matemática Básica para Física",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3100"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3100"
+      },
+      "syllabus": "Conteúdos de Matemática básica para Física geral."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3101",
+        "MTM5115"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5115"
+          }
+        ]
+      },
+      "syllabus": "Geral Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "FSC5142",
+      "code": "FSC5142",
+      "name": "Laboratório de Física II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5107",
+        "FSC5141"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5107"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5141"
+          }
+        ]
+      },
+      "syllabus": "Experimentos sobre tópicos de oscilações, termologia, hidrologia, e ondas mecânicas."
+    },
+    {
+      "id": "FSC5165",
+      "code": "FSC5165",
+      "name": "Física Geral II-A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5107",
+        "MTM3110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5107"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          }
+        ]
+      },
+      "syllabus": "Rotação de corpos rígidos. Dinâmica do movimento de rotação. Gravitação. Equilíbrio e elasticidade. Movimento periódico. Ondas mecânicas. Interferência de ondas e modos normais. Som."
+    },
+    {
+      "id": "FSC5166",
+      "code": "FSC5166",
+      "name": "Física Geral II-B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5107",
+        "MTM3110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5107"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          }
+        ]
+      },
+      "syllabus": "Mecânica dos fluidos. Temperatura e calor. Propriedades térmicas da matéria. Primeira lei da termodinâmica. Segunda lei da termodinâmica. Teoria cinética dos gases."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5512",
+        "MTM5116"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5512"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM5116"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5512"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM5245"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5245"
+      },
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "FSC2143",
+      "code": "FSC2143",
+      "name": "Laboratório de Física III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5141",
+        "FSC5165",
+        "FSC5166"
+      ],
+      "equivalents": [
+        "FSC5143"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5141"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5165"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5166"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5143"
+      },
+      "syllabus": "-Montagem de circuitos e medição de grandezas elétricas com multímetros. Experimentos envolvendo conceitos de eletrostática, eletrodinâmica e eletromagnetismo."
+    },
+    {
+      "id": "FSC2193",
+      "code": "FSC2193",
+      "name": "Física Geral III",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5165",
+        "MTM3120"
+      ],
+      "equivalents": [
+        "FSC5193"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5165"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5193"
+      },
+      "syllabus": "-Introdução histórica ao Eletromagnetismo. Carga elétrica e Lei de Coulomb. Campo elétrico. Lei de Gauss. Potencial elétrico. Dielétricos e capacitores. Lei de Ohm. Circuitos Elétricos de corrente contínua. Campo magnético. Leis de Ampère e Faraday. Indutância. Propriedades magnéticas da matéria. Circuitos elétricos de corrente alternada. Equações de Maxwell."
+    },
+    {
+      "id": "FSC7114",
+      "code": "FSC7114",
+      "name": "Introdução à Fisica Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5165",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "INE5201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5165"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5201"
+      },
+      "syllabus": "Explicitação de conceitos físicos e matemáticos em forma de algoritmos computacionais e sua implementação em alguma linguagem de alto nível compilável (C. Fortran, etc) ou de script (JavaScript, Python, Perl, Matlab, Matemática, Maple, etc) com ênfase no paradigma estruturado (não orientado a objeto) mediante a utilização e definição de variáveis numéricas e \"string\", comandos de entrada e saída, estrutura de decisão, estruturas de repetição, matrizes e subprogramas."
+    },
+    {
+      "id": "MTM3103",
+      "code": "MTM3103",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "MTM5117"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5117"
+      },
+      "syllabus": "-Integração múltipla: integrais duplas e triplas. Noções de cálculo vetorial: curvas e superfícies. Campos escalares e vetoriais. Integrais de linha e de superfícies. Teoremas de Green, Stokes e da Divergência."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5117"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5117"
+          }
+        ]
+      },
+      "syllabus": "-Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "FSC2144",
+      "code": "FSC2144",
+      "name": "Laboratório de Física IV",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC2143",
+        "FSC2193"
+      ],
+      "equivalents": [
+        "FSC5144"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC2143"
+          },
+          {
+            "kind": "course",
+            "code": "FSC2193"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5144"
+      },
+      "syllabus": "-Experimentos envolvendo conceitos de óptica."
+    },
+    {
+      "id": "FSC2312",
+      "code": "FSC2312",
+      "name": "Física Geral IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC2193"
+      ],
+      "equivalents": [
+        "FSC2194",
+        "FSC5194"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2193"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC2194"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5194"
+          }
+        ]
+      },
+      "syllabus": "-Física Geral IV"
+    },
+    {
+      "id": "FSC5218",
+      "code": "FSC5218",
+      "name": "Mecânica Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5165",
+        "MTM3103",
+        "MTM3131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5165"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3131"
+          }
+        ]
+      },
+      "syllabus": "Leis de Newton. Oscilações lineares e não lineares. Forças centrais. Sistemas de muitas partículas. sistemas de coordenadas não inerciais."
+    },
+    {
+      "id": "FSC5705",
+      "code": "FSC5705",
+      "name": "Física Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7114"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7114"
+      },
+      "syllabus": "Introdução a ferramentas computacionais em Física: editoração e processamento de textos científicos, programas de confecção de gráficos, bibliotecas livres, programas de manipulação algébrica, e linguagens de programação. Resolução de problemas físicos utilizando métodos computacionais."
+    },
+    {
+      "id": "MTM3104",
+      "code": "MTM3104",
+      "name": "Cálculo 4",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3131"
+      ],
+      "equivalents": [
+        "MTM5118"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3131"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5118"
+      },
+      "syllabus": "Sequências e séries numéricas. Sequências e séries de funções: séries de potências e séries de Fourier. Equações diferenciais parciais: método da separação de variáveis nas equações clássicas da onda, do calor e de Laplace."
+    },
+    {
+      "id": "FSC5131",
+      "code": "FSC5131",
+      "name": "Termodinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5166",
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5166"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          }
+        ]
+      },
+      "syllabus": "Natureza da termodinâmica. Equilíbrio termodinâmico. Equações de Estado. Parâmetros extensivos e intensivos. Condições de equilíbrio. Relações de Euler e Gibbs-duhem. Processos quasiestáticos, reversíveis e irreversíveis. Máquinas térmicas e ciclo de Carnot. Escala absoluta de temperaturas. Potenciais termodinâmicos. Relações de Maxwell. Estabilidade dos sistemas termodinâmicos. Postulado de Nerst. Aplicações. Equilíbrio químico, sistemas magnéticos e mecânicos. Introdução à termodinâmica fora do equilíbrio."
+    },
+    {
+      "id": "FSC5219",
+      "code": "FSC5219",
+      "name": "Mecânica Analítica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5218"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5218"
+      },
+      "syllabus": "Formalismo Lagrangeano. Princípio de Hamilton. Teoremas de conservação e simetrias. Pequenas oscilações. Corpo rígido. Formalismo Hamiltoniano. Transformações canônicas. Teoria de Hamilton-Jacobi."
+    },
+    {
+      "id": "FSC5428",
+      "code": "FSC5428",
+      "name": "Métodos de Física-Matemática I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3104",
+        "MTM3131"
+      ],
+      "equivalents": [
+        "FSC5425",
+        "MTM5116",
+        "MTM5117"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3104"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3131"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FSC5425"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5116"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "FSC5425"
+              },
+              {
+                "kind": "course",
+                "code": "MTM5117"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-Vetores e tensores cartesianos, coordenadas curvilíneas. Campos vetoriais e operadores diferenciais. Variáveis complexas, séries de Laurent e o teorema do resíduo. A função Gama. Equações diferenciais na física. Equações diferenciais lineares de segunda ordem. O método de Frobenius. Função Delta de Dirac."
+    },
+    {
+      "id": "FSC5506",
+      "code": "FSC5506",
+      "name": "Estrutura da Matéria I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC2312"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2312"
+      },
+      "syllabus": "Estudo das evidências que levaram ao surgimento da Física Moderna. Estrutura atômica da matéria e radiação. Modelos atômicos de Rutherford e Bohr. Dualidade onda-partícula. Teoria de Schrödinger. Soluções da equação de Schrödinger para problemas unidimensionais. Átomo de hidrigênio."
+    },
+    {
+      "id": "FSC5421",
+      "code": "FSC5421",
+      "name": "Teoria Eletromagnética I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC2312",
+        "FSC5428"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC2312"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5428"
+          }
+        ]
+      },
+      "syllabus": "Estudo dos campos eletrostáticos no vácuo e em meios dielétricos. Equações de Laplace e Poisson e suas aplicações em problemas de contorno. Campo magnético produzido por correntes estacionárias em meios não magnéticos. Estudo de campos elétricos e magnéticos induzidos. Campo magnético devido a meio magnetizado, energia elétrica e magnética. Equações de Maxwell."
+    },
+    {
+      "id": "FSC5429",
+      "code": "FSC5429",
+      "name": "Métodos de Física-Matemática II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5428"
+      ],
+      "equivalents": [
+        "FSC5426"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5428"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5426"
+      },
+      "syllabus": "-Séries de Fourier. Funções ortogonais. Funções especiais. Funções de Bessel. Funções de Legendre. Transformações integrais. Funções de Green."
+    },
+    {
+      "id": "FSC5511",
+      "code": "FSC5511",
+      "name": "Mecânica Quântica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5506"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5506"
+      },
+      "syllabus": "Formalismo de operadores e relações de comutação. Autovalores e autofunções. Medida em mecânica quântica. Princípio da correspondência. Relações de incerteza. Momento angular orbital e momento angular total. Solução da equação de Schrödinger para problemas de forças centrais: átomo de hidrogênio e oscilador harmônico. Representações (Schrödinger, Heisenberg e interação) e álgebra matricial. Spin. representação matricial dos operadores de momento angular. Sistemas de spin 1/2: precessão do spin eletrônico e ressonância paramagnética."
+    },
+    {
+      "id": "FSC2474",
+      "code": "FSC2474",
+      "name": "Pré-TCC",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5511"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5511"
+      },
+      "syllabus": "Pré-TCC"
+    },
+    {
+      "id": "FSC5151",
+      "code": "FSC5151",
+      "name": "Laboratório de Física Moderna I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5506"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5506"
+      },
+      "syllabus": "Número de Avogrado e constante de Faraday. Espectros de hidrogênio e do hélio; diagramas de Grotrian. Carga específica e carga fundamental. Efeito fotoelétrico e quantização da energia. Dia e paramagnetismo. Decaimentos radioativos e a absorção da radiação pela matéria."
+    },
+    {
+      "id": "FSC5302",
+      "code": "FSC5302",
+      "name": "Mecânica Estatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5131"
+      },
+      "syllabus": "Revisão de termodinâmica. Teoria cinética. Funções de probabilidade e distribuições. Distribuições de velocidade e distribuições no espaço de fase. Funções de distribuições e ensembles. Entropia e ensembles. Ensemble micricanônico. Mecânica estatística e gases. Ensemble gran-canônico. Mecânica estatística quântica."
+    },
+    {
+      "id": "FSC5422",
+      "code": "FSC5422",
+      "name": "Teoria Eletromagnética II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC2312",
+        "FSC5428"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC2312"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5428"
+          }
+        ]
+      },
+      "syllabus": "Equações de Maxwell. Propagação de ondas eletromagnéticas, aplicações das equações de Maxwell em guias de onda. Ressonadores de cavidade. Reflexão, transmissão, refração etc. Emissão de radiação, eletrodinâmica, teoria especial da relatividade."
+    },
+    {
+      "id": "FSC5512",
+      "code": "FSC5512",
+      "name": "Mecânica Quântica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5219",
+        "FSC5511"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5219"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5511"
+          }
+        ]
+      },
+      "syllabus": "Transformação de representações. Propriedades de grupo das transformações unitárias. Métodos de aproximação: teoria de perturbação dependente e independente do tempo, método variacional, método WKB. Interação de elétrons com campos eletromagnéticos: efeitos Zeeman e Stark. Espalhamento: aproximação de Born. Partículas idênticas. Princípio de exclusão de Pauli."
+    },
+    {
+      "id": "FSC5174",
+      "code": "FSC5174",
+      "name": "Orientação TCC",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC2474"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2474"
+      },
+      "syllabus": "Orientação TCC"
+    },
+    {
+      "id": "FSC5527",
+      "code": "FSC5527",
+      "name": "Estado Sólido",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5511"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5511"
+      },
+      "syllabus": "Estrutura cristalina. Difração e rede recíproca. Forças interatômicas e intermoleculares. Constantes elásticas e ondas. Fónons e vibrações da rede. Propriedades térmicas de isoladores. Estatística de Fermi e o gás de elétrons. Bandas de energia. Semicondutores. Tópicos livres: dielétricos, ferroeletricidade, dia e paramagnetismo, supercondutividade."
+    },
+    {
+      "id": "FSC5528",
+      "code": "FSC5528",
+      "name": "Física Nuclear e de Partículas Elementares",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5511"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5511"
+      },
+      "syllabus": "Introdução aos conceitos básicos de Física nuclear e de partículas elementares. Estudo de propriedades fundamentais do núcleo e de modelos nucleares de baixa energia. Introdução à fenomenologia da interação nucleon-nucleon e a modelos hadrônicos, envolvendo mésons e/ou quarks."
+    },
+    {
+      "id": "FSC5602",
+      "code": "FSC5602",
+      "name": "Evolução dos Conceitos da Física",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5506"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5506"
+      },
+      "syllabus": "Análise histórica e epistemiológica dos desenvolvimentos conceituais das teorias físicas, desde os gregos até o nosso século. Tópicos sobre as relações ciência e sociedade."
+    },
+    {
+      "id": "CFS7001",
+      "code": "CFS7001",
+      "name": "Biofísica Instrumental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Disciplinas Optativas Biofísica da água, Tensiometria, pH-metria, Soluções-Tampão, Diálise. Radiações eletromagnéticas: luz visível, UV, raios X e raios gama. Espectrofotometria, Fluorimetria, Cromatografia e Eletroforese."
+    },
+    {
+      "id": "ECZ5102",
+      "code": "ECZ5102",
+      "name": "Conservação de Recursos Naturais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrutura, funcionamento e dinâmica de ecossistemas. Efeito da ação antrópica sobre os ecossistemas. Legislação e Conservação dos recursos naturais."
+    },
+    {
+      "id": "EED8007",
+      "code": "EED8007",
+      "name": "Organização Escolar (PCC 18h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Organização da Educação Brasileira e Legislação Educacional. Políticas Públicas Educacionais na atualidade. Objetivo social da escola: direito à educação e a produção da exclusão. Currículo: teorias curriculares, propostas estatais e não estatais. Gestão Democrática da Educação. A escola: sujeitos, cotidiano, trabalho docente e Projeto Político Pedagógico."
+    },
+    {
+      "id": "EEL7061",
+      "code": "EEL7061",
+      "name": "Eletrônica I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "FSC2312"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2312"
+      },
+      "syllabus": "Introdução à eletrônica; amplificadores operacionais; diodos; o transistor de junção bipolar; transistores de efeito de campo; componentes optoeletrônicos."
+    },
+    {
+      "id": "FIL6004",
+      "code": "FIL6004",
+      "name": "Teoria do Conhecimento (PCC 18h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Questões clássicas da Teoria do Conhecimento"
+    },
+    {
+      "id": "FIL6023",
+      "code": "FIL6023",
+      "name": "Filosofia da Ciência (PC 18h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Abordagem filosófica da ciência. Apresentar os principais temas da análise filosófica da ciência. Atividades práticas de ensino, pesquisa e extensão nesse tema."
+    },
+    {
+      "id": "FIL6090",
+      "code": "FIL6090",
+      "name": "Filosofia da Educação (PCC 18h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "A educação como objeto da reflexão filosófica. Clássicos da Filosofia da Educação. Atividades práticas de ensino, pesquisa e extensão nesse tema."
+    },
+    {
+      "id": "FSC2310",
+      "code": "FSC2310",
+      "name": "Integração com o Curso",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Integração com o Curso"
+    },
+    {
+      "id": "FSC2314",
+      "code": "FSC2314",
+      "name": "Extensão em Astronomia",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5909"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5909"
+          },
+          {
+            "kind": "hours",
+            "hours": 90
+          }
+        ]
+      },
+      "prerequisiteHours": 90,
+      "syllabus": "O sistema solar, noções básicas de sua estrutura. As estrelas, estrutura interna e evolução. Galáxias, estrutura e evolução. Cosmologia, a lei de Hubble o modelo do Big Bang e o futuro do Universo.",
+      "extensionHours": 90
+    },
+    {
+      "id": "FSC2316",
+      "code": "FSC2316",
+      "name": "Instrumentação para o Ensino de Física C",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Elaboração de Projeto de Extensão. Aplicação do projeto na forma de uma Unidade de Ensino de Física (Projeto Temático) em turmas piloto da comunidade. Elaboração de instrumentos para acompanhamento e avaliação da Unidade de Ensino com objetivos de reformulação. Seminários de apresentação de resultados"
+    },
+    {
+      "id": "FSC5000",
+      "code": "FSC5000",
+      "name": "Eletrônica Orgânica: Teoria e Prática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(Ext 72h-a) Semicondutores orgânicos e sistemas eletrônicos orgânicos. Fotofísica de moléculas eletrônicas. Filmes finos orgânicos. Dispositivos eletrônicos orgânicos. Atividade prática em laboratório de pesquisa."
+    },
+    {
+      "id": "FSC5117",
+      "code": "FSC5117",
+      "name": "Instrumentação para o Ensino de Física A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O processo de ensino aprendizagem da Física. O papel e a influência das concepções alternativas, história da Física, transposição didática e modelização no ensino de Física. As relações CTS e o ensino de Física. Retrospectiva histórica do ensino de Física no Brasil. O estudo dos projetos de ensino de Física (nacionais e estrangeiros) da década de 60 (PSSC, Harvard, Nuffiel, Piloto, FAI, PEF, PBEF) e suas influências no ensino de Física no Brasil."
+    },
+    {
+      "id": "FSC5118",
+      "code": "FSC5118",
+      "name": "Instrumentação para o Ensino de Física B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5117"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5117"
+      },
+      "syllabus": "(PCC 72h/a) A função e o papel das atividades experimentais no ensino de Física. Discussão sobre o uso de demonstrações no ensino de Física: conteúdo versus motivação, utilizando do acervo do LABIDEX. Análise e discussões sobre o uso de multimídia no ensino da Física. Planejamento e elaboração de uma unidade de ensino de Física (teoria e experimental) fundamentada nos processos de ensino-aprendizagem e de suas várias concepções."
+    },
+    {
+      "id": "FSC5152",
+      "code": "FSC5152",
+      "name": "Laboratório de Física Moderna II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 72h/a) FSC5506) Desenvolvimento e realização de experimentos sobre tópicos avançados de Física atômica, molecular e nuclear."
+    },
+    {
+      "id": "FSC5171",
+      "code": "FSC5171",
+      "name": "Prática de Ensino de Física I(PCC 54 horas-",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 54
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "Elaboração e apresentação, pelos alunos, de módulos de ensino envolvendo conceitos tratados nas disciplinas Física Geral I-A (FSC 5107), Física Geral II-A (FSC 5165) e Física Geral II-B (FSC 5166). Nestes módulos os mesmos devem procurar utilizar experimentos ou demonstrações experimentais."
+    },
+    {
+      "id": "FSC5172",
+      "code": "FSC5172",
+      "name": "Prática de Ensino de Física II (PCC 36",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5166"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5166"
+      },
+      "syllabus": "aula) Elaboração e apresentação, pelos alunos, de módulos de ensino envolvendo conceitos tratados nas disciplinas Física Geral III. Nestes módulos os mesmos devem procurar utilizar experimentos ou demonstrações experimentais."
+    },
+    {
+      "id": "FSC5173",
+      "code": "FSC5173",
+      "name": "Prática de Ensino de Física Moderna (PCC",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5511"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5511"
+      },
+      "syllabus": "horas-aula) FSC5171) -Elaboração e apresentação pelos alunos de módulos de ensino envolvendo conceitos de Física Moderna e Contemporânea. Nestes módulos os mesmos devem procurar utilizar a história da ciência, modelização ou simulações."
+    },
+    {
+      "id": "FSC5290",
+      "code": "FSC5290",
+      "name": "Relatividade Restrita",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "36 horas - aula) FSC5539) Histórico. Referenciais inerciais. Postulados da teoria da relatividade. Cinemática e dinâmica relativistas. Teoria da relatividade e o eletromagnetismo."
+    },
+    {
+      "id": "FSC5291",
+      "code": "FSC5291",
+      "name": "Relatividade Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC2312"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2312"
+      },
+      "syllabus": "Conceitos fundamentais da teoria da relatividade geral; tópicos de matemática aplicada à relatividade geral; aplicações de relatividade geral na Física, Astrofísica e Cosmologia."
+    },
+    {
+      "id": "FSC5514",
+      "code": "FSC5514",
+      "name": "Mecânica Ondulatória",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Linearidade e princípios de superposição; pulsos; equação de onda; análise de Fourier; relação de dispersão; oscilação forçada e ressonância com muitos graus de liberdade; índice de refração, reflexão, difração e polarização; ondas moduladas; pacotes de ondas em duas e três dimensões; aplicação a ondas eletromagnéticas; Ondas mecânicas e ondas de Broglie."
+    },
+    {
+      "id": "FSC5515",
+      "code": "FSC5515",
+      "name": "Física das Mudanças Climáticas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História das Mudanças Climáticas, o Sistema Climático: Circulação Geral da Atmosfera e Oceanos; Balanço de Radiação; Variabilidade Climática de Grande Escala: El Niño, La Niña, Clima Regional e Desastres Naturais; Modelos Climáticos; Sensibilidade do Clima: Mecanismo de Retro-alimentação do Clima. Emissão de gases de efeito estufa naturais e antrópicos. Aquecimento global antropogênico; A Física dos Gases de Efeito Estufa; Papel da superfície da Terra no sistema climático. Cenários de Mudanças Climáticas; Impactos das Mudanças Globais no Clima Regional; Mudanças Globais e Biodiversidade; Economia Verde e Sustentabilidade."
+    },
+    {
+      "id": "FSC5517",
+      "code": "FSC5517",
+      "name": "Introdução à Mecânica dos Fluidos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5166"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5166"
+      },
+      "syllabus": "Fluidos e tensões. Fluidos estáticos. Fluxos de energia e momento. Escoamento potencial. Ondas sonoras. Ondas na superfície de fluidos. Escoamentos laminares. Vórtices e Turbulência. Noções de fluidos complexos. Aplicações."
+    },
+    {
+      "id": "FSC5530",
+      "code": "FSC5530",
+      "name": "Caos em Sistemas Dinâmicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estuda-se o aparecimento de caos determinístico em sistemas dinâmicos definidos por mapas, equações diferenciais ordinárias não-lineares e equações diferenciais parciais. Discutem-se vários critérios para caracterizar-se caos numa série temporal genérica. Estudam-se ainda várias rotas para o caos, com especial ênfase na rota por dobramento do período (cascata de Feingenbaum)."
+    },
+    {
+      "id": "FSC5531",
+      "code": "FSC5531",
+      "name": "Introdução a Física das Nanoestruturas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5218"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5218"
+      },
+      "syllabus": "Nanoestruturas, aplicações, diferentes tipos, preparação, caracterização e descrição teórica."
+    },
+    {
+      "id": "FSC5539",
+      "code": "FSC5539",
+      "name": "Estrutura da Matéria II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Experimento de Stern-Gerlach. Spin. Átomo de hélio. Introdução à estatística quântica. Teoria do campo medio. Átomos multieletrônicos. Moléculas, espectro rotacional, vibracional e eletrônico."
+    },
+    {
+      "id": "FSC5540",
+      "code": "FSC5540",
+      "name": "Estrutura da Matéria III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aplicações das estatísticas quânticas. Física do estado sólido. Física nuclear e de partículas elementares."
+    },
+    {
+      "id": "FSC5610",
+      "code": "FSC5610",
+      "name": "Introdução à Teoria de Campo",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5219"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5219"
+      },
+      "syllabus": "Grupos de Lorentz e Poincaré e as equações de onda relativísticas. Formalismo Lagrangiano para campos. Quantização canônica. Teorias de gauge não-Abelianas e a cromodinâmica. Quebra espontânea de simetrias globais e o teorema de Goldstone. Mecanismo de Higgs. Teoria de Weinberg-Salam e Teorias de Grande Unificação. Soluções topológicas em diferentes dimensões"
+    },
+    {
+      "id": "FSC5803",
+      "code": "FSC5803",
+      "name": "Astrofísica I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Radiação eletromagnética. Telescópios e detetores. O sol e o sistema solar. Estrelas: magnitude, brilho, espectro e classificação. Estrelas binárias, variáveis e explosivas. Objetos compactos: anãs-brancas, estrelas de neutrons e buracos negros. Aglomerados estelares. Evolução estelar. Desenvolvimento e realização de práticas computacionais e observacionais sobre técnicas de observação e análise de dados astrônomicos e tópicos de astrofísica estelar."
+    },
+    {
+      "id": "FSC5804",
+      "code": "FSC5804",
+      "name": "Astrofísica II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A galáxia: componentes e evolução. Meio interestelar. Evolução da galáxia. Outras galáxias. Galáxias ativas e quasares. Estrutura do universo. Cosmologia. Desenvolvimento e realização de práticas computacionais e observacionais sobre tópicos de astrofísica galáctica, extragaláctica e cosmologia."
+    },
+    {
+      "id": "FSC5901",
+      "code": "FSC5901",
+      "name": "Projeto de Pesquisa",
+      "credits": 6,
+      "hours": 120,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC2312"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2312"
+      },
+      "syllabus": "Projeto de Pesquisa"
+    },
+    {
+      "id": "FSC5902",
+      "code": "FSC5902",
+      "name": "Seminário de Física",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Seminário de Física"
+    },
+    {
+      "id": "FSC5906",
+      "code": "FSC5906",
+      "name": "Origens Históricas da Teoria da Relatividade Restrita",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A relatividade na cosmologia galileana. A relatividade e o espaço absoluto de Newton. Os fenômenos ópticos, o éter e a detecção de movimentos absolutos. O éter eletromagnético e a Física dos corpos em movimento. O princípio de relatividade nos programas de pesquisa de Poincaré, Lorentz e Einstein."
+    },
+    {
+      "id": "FSC5907",
+      "code": "FSC5907",
+      "name": "Interações Fundamentais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O conceito de simetria e a teoria de grupos em Física. O cálculo de Feynman. Teorias de calibre para as interações fundamentais. Eletrodinâmica Quântica. Cromodinâmica Quântica. Teoria Eletrofaca de Weinberg-Salam. Unificação das teorias fundamentais."
+    },
+    {
+      "id": "FSC5908",
+      "code": "FSC5908",
+      "name": "Física Médica e Proteção Radiológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à interação da radiação com matéria, à Física da formação de imagens em diagnóstico médico (radiologia, tomografia, medicina nuclear, ultrassonografia, ressonância magnética) e à Física da radioterapia (teleterapia, braquiterapia e medicina nuclear). Introdução à proteção radiológica e legislação pertinente."
+    },
+    {
+      "id": "FSC5909",
+      "code": "FSC5909",
+      "name": "Introdução à Astronomia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O sistema solar, noções básicas de sua estrutura. Noções de astronomia de posição. As estrelas, estrutura interna e evolução. Galáxias, estrutura e evolução. Cosmologia, a Lei de Hubble o modelo do Big Bang e o futuro do Universo."
+    },
+    {
+      "id": "FSC5910",
+      "code": "FSC5910",
+      "name": "Física com Java Script",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5165"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5165"
+      },
+      "syllabus": "Introdução ao modelo de objetos de documentos (DOM - document objecto model), introdução à linguagem de marcação para hipertextos (HTML - hypertext markup language) e introdução a JavaScript (JS). Elaboração de conteúdo digital interativo para o ensino de Física utilizando DOM/HTML/JS: textos, fórmulas, cálculos, tabelas, gráficos, questionários e formulários."
+    },
+    {
+      "id": "FSC5912",
+      "code": "FSC5912",
+      "name": "Solução de Problemas Físicos em Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao uso de computadores na solução de problemas em Física. Aplicação a problemas encontrados pelos alunos no curso de Física. Desenvolvimento de algorítimos e programas."
+    },
+    {
+      "id": "FSC5913",
+      "code": "FSC5913",
+      "name": "Dinâmica de Fluidos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Escoamentos invíscidos, Equação de Navier-Stokes, Ondas, Instabilidades e Turbulência."
+    },
+    {
+      "id": "FSC5914",
+      "code": "FSC5914",
+      "name": "Dinâmica Não-linear Aplicada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à análise geométrica de equações diferenciais ordinárias não-lineares de tempo contínuo e equações de tempo discreto com aplicações em física, biologia, química, engenharia e meteorologia, com prática computacional e teórica. Espaço de fase e soluções assintóticas, pontos fixos, ciclos-limites, estabilidade e diagramas de bifurcação. Introdução ao caos, atratores estranhos, fractais e quasiperiodicidade."
+    },
+    {
+      "id": "FSC5915",
+      "code": "FSC5915",
+      "name": "Fundamentos do Magnetismo e Materiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Definições e unidades, Origem do magnetismo nos materiais, Anisotropia magnética, Domínios magnéticos, Paredes de domínio, Processos reversíveis de magnetização, Materiais magnéticos duros e macios, métodos experimentais de medida e aplicações."
+    },
+    {
+      "id": "FSC5921",
+      "code": "FSC5921",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Magnéticos FSC5141)"
+    },
+    {
+      "id": "FSC5922",
+      "code": "FSC5922",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FSC5923",
+      "code": "FSC5923",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FSC5924",
+      "code": "FSC5924",
+      "name": "Programa de Intercâmbio IV",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FSC7103",
+      "code": "FSC7103",
+      "name": "Meteorologia Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Constituição da atmosfera; Tempo e Clima; Energia e Radiação eletromagnética; Transformação e transferência de energia; Propriedades emissivas dos corpos negros; As leis da radiação; Interações da radiação com a matéria; Espalhamento radiativo. Radiação solar, Natureza e distribuição espectral, geográfica e sazonal da radiação solar; Esmaecimento e disposição média da radiação solar. Radiação terrestre; Características, absorção e transmissão da radiação terrestre. O balanço médio da energia."
+    },
+    {
+      "id": "FSC7107",
+      "code": "FSC7107",
+      "name": "Meteorologia Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Equilíbrio Hidrostático; Variáveis Úmidas e Processos Adiabáticos; Diagramas Termodinâmicos; Uso Prático dos Diagramas Termodinâmicos; Estabilidade Vertical da Atmosfera; Nuvens e Precipitação; Ótica Atmosférica, Eletricidade Atmosférica."
+    },
+    {
+      "id": "FSC7150",
+      "code": "FSC7150",
+      "name": "Mecânica Estatística Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Revisão de termodinâmica. Introdução à mecânica estatística. Método de Monte Carlo. Algoritmo de Metropolis. Modelo de Ising. Outros Algoritmos. Dinâmica molecular clássica. Potencial de Lennard-Jones. Outros ensembles."
+    },
+    {
+      "id": "FSC7152",
+      "code": "FSC7152",
+      "name": "Computação Quântica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Álgebra linear com a notação de Dirac. Postulados da Mecânica Quântica. Conceitos básicos de computação clássica. Portas lógicas clássicas. Portas lógicas quânticas. Circuitos quânticos. Protocolos e algoritmos quânticos."
+    },
+    {
+      "id": "FSC9904",
+      "code": "FSC9904",
+      "name": "Modelos Relativísticos e Aplicações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Formalismo grã-canônico e aplicações, formulação covariante relativística, apresentação e solução das equações de Klein-Gordon, Dirac, Maxwell, Proca e Rarita-Schwinger, modelo da hadrodinâmica quântica e aplicações."
+    },
+    {
+      "id": "INE5108",
+      "code": "INE5108",
+      "name": "Estatística e Probabilidade para Ciências",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teoria da probabilidade. Variáveis aleatórias e distribuição de probabilidade. Principais distribuições de probabilidade discretas. Distribuição normal. Outras distribuições de probabilidade contínuas. Estimação de parâmetros. Testes de hipóteses."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "MEN5601",
+      "code": "MEN5601",
+      "name": "Didática A - PCC 12 horas-aula",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "18h-a) - Educação escolar como fenômeno histórico-social. Currículo e trabalho pedagógico no contexto escolar. As relações de ensino-aprendizagem em contexto escolar. Mediações pedagógicas e suas relações com o ensino da área específica do curso."
+    },
+    {
+      "id": "MEN5911",
+      "code": "MEN5911",
+      "name": "Introdução ao Uso de Tecnologias da Informação e Comunicação na Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Educação e Comunicação. Tecnologias de Informação e Comunicação (TIC). Mídiaeducação. As modalidades de educação (presencial, semi-presencial e a distância): conceitos, histórico, características, regulamentação. Formação de professores e as TIC. A mediação pedagógica no ensino-aprendizagem através das TIC."
+    },
+    {
+      "id": "MEN7075",
+      "code": "MEN7075",
+      "name": "Linguagem e Comunicação Científica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Leitura, análise e produção de textos técnico-científicos e de divulgação científica relacionados com a área de ciências da natureza, relevantes para o desempenho das atividades acadêmicas, tais como: resumo, resenha, artigo e seminário, e para a educação científica formal e não-formal. Gêneros textuais, divulgação e comunicação científica; aspectos retóricos de textos científicos; modelos de comunicação científica. Leitura e uso de textos na educação científica e tecnológica."
+    },
+    {
+      "id": "MTM3422",
+      "code": "MTM3422",
+      "name": "Álgebra Linear II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Espaços vetoriais sobre C, espaços com produto interno, Gram-Schmidt e a decomposição QR, método dos mínimos quadrados, Teorema de representação de Riesz. Operadores especiais em espaços com produto interno: operadores unitários e isometrias, 23 operadores auto-adjuntos. Autovalores e autovetores, operadores e matrizes diagonalizáveis, Teorema de Cayley-Hamilton, forma canônica de Jordan. Teorema de Schur, Teorema espectral, decomposição em valores singulares."
+    },
+    {
+      "id": "MTM3430",
+      "code": "MTM3430",
+      "name": "Análise na Reta",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Números reais. Noções topológicas na reta. Sequências e séries numéricas do ponto de vista da análise. Formalização dos conceitos de limites, continuidade e diferenciação para funções reais de uma variável."
+    },
+    {
+      "id": "MTM3431",
+      "code": "MTM3431",
+      "name": "Análise I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Espaços euclidianos. Limites, continuidade e diferenciação em Rn do ponto de vista da análise. Sequências e séries de funções em Rn."
+    },
+    {
+      "id": "MTM3432",
+      "code": "MTM3432",
+      "name": "Análise II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Integral de Riemann de funções de várias variáveis. Medida de Lebesgue. Teoremas de convergência para integrais de Lebesgue. Espaços L^p."
+    },
+    {
+      "id": "MTM3436",
+      "code": "MTM3436",
+      "name": "Variável Complexa",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Números complexos. Seqüências no plano complexo. A esfera de Riemann. Funções de uma variável complexa. Condições de Cauchy-Riemann. Integração de funções complexas. Teorema de Cauchy. Fórmula integral de Cauchy. Teorema de Goursat. Funções analíticas e séries de potências. Séries de Laurent. Cálculos de integrais com resíduos. Transformações conformes e suas aplicações. Continuação analítica. Introdução às superfícies de Riemann."
+    },
+    {
+      "id": "MTM3451",
+      "code": "MTM3451",
+      "name": "Álgebra I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Anéis, subanéis, homomorfismos entre anéis, ideais, anéis quocientes. Teoremas do isomorfismo. Domínios e corpos. Corpos de frações. Anéis de inteiros módulo n. Congruências lineares. Teorema chinês dos restos. Corpo dos números complexos. Anéis de polinômios. Divisibilidade, fatoração única e máximo divisor comum em domínios."
+    },
+    {
+      "id": "MTM3452",
+      "code": "MTM3452",
+      "name": "Álgebra II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Grupos, subgrupos, classes laterais, Teorema de Lagrange, subgrupos normais, grupos quociente, homomorfismos entre grupos, Teorema de Cayley, teoremas do isomorfismo, grupos Sn, Teorema de Cauchy."
+    },
+    {
+      "id": "MTM3481",
+      "code": "MTM3481",
+      "name": "Geometria Diferencial",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Curvas em R3. Curvas em Rn. Curvas planas. Teoria Global. Superfícies em R3. Aplicação de Gauss (Segunda Forma Fundamental). Geometria Esférica. Geometria Hiperbólica."
+    },
+    {
+      "id": "MTM3490",
+      "code": "MTM3490",
+      "name": "Introdução à Topologia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Métrica. Espaços métricos: noções topológicas, sequências, espaços métricos completos, continuidade, continuidade uniforme, compacidade, conexidade."
+    },
+    {
+      "id": "MTM3491",
+      "code": "MTM3491",
+      "name": "Topologia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Revisão de espaços métricos. Espaços topológicos. Funções contínuas. Base e sub-base de uma topologia. Redes. Espaço produto e quociente. Conexidade. Compacidade. Lema de Urysohn. Teoremas de Tietze, Tychonov e Arzela-Ascoli."
+    },
+    {
+      "id": "MTM3501",
+      "code": "MTM3501",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Métodos de resolução para algumas equações de primeira ordem. Existência, unicidade e dependência contínua com relação a dados iniciais. Métodos para equações de segunda ordem. Sistemas lineares de equações diferenciais. Transformada de Laplace."
+    },
+    {
+      "id": "MTM3506",
+      "code": "MTM3506",
+      "name": "Equações Diferenciais Parciais",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos gerais. Equações lineares com coeficientes constantes. Classificação. Equação do calor. Método de expansão em autofunções. Problemas não- homogêneos. Séries de Fourier. Equação da corda vibrante. Problemas em intervalos infinitos e semiinfinitos: Fórmulas integrais de Fourier. Problemas em duas ou mais variáveis espaciais. Equação de Laplace: problemas de Dirichlet e Neumann em dimensão 2. Fórmula de Poisson. Princípio do Máximo."
+    },
+    {
+      "id": "MTM3510",
+      "code": "MTM3510",
+      "name": "Introdução à Combinatória e Probabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Análise Combinatória: princípio fundamental da contagem, arranjo, permutação e combinação. Binômio de Newton e polinômio de Leibniz. Introdução à Teoria de Probabilidade: espaço amostral, adição e multiplicação de probabilidades"
+    },
+    {
+      "id": "MTM3525",
+      "code": "MTM3525",
+      "name": "Computação Científica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Métodos numéricos para problemas de valor inicial. Métodos numéricos para problemas com valor na fronteira. Os métodos de colocação e de Ritz e Galerkin. Introdução ao método das diferenças finitas para equações diferenciais parciais. Introdução ao método dos elementos finitos."
+    },
+    {
+      "id": "MTM3531",
+      "code": "MTM3531",
+      "name": "Programação Linear",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Formulação de problemas de otimização irrestritos e restritos. Condições necessárias de otimalidade para problemas irrestritos. Métodos de busca unidirecional, algoritmos básicos de otimização não linear irrestrita. Condições de otimalidade para problemas não lineares com restrições lineares. Problema de programação linear, método simplex, teoria de dualidade e análise de sensibilidade. Algoritmos de pontos interiores."
+    },
+    {
+      "id": "MTM3532",
+      "code": "MTM3532",
+      "name": "Programação Não Linear",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos de análise convexa. Condições de otimalidade. Métodos de otimização irrestrita. Métodos de busca unidimensional e multidimensional para funções diferenciáveis e não diferenciáveis. Otimização restrita: condições de otimalidade de Kuhntucker, métodos das barreiras e das penalidades. Programação quadrática."
+    },
+    {
+      "id": "MTM7305",
+      "code": "MTM7305",
+      "name": "História da Matemática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7305
+      },
+      "prerequisiteHours": 7305,
+      "syllabus": "Origens primitivas. Primórdios da Matemática grega. A era de ouro da Matemática em Alexandria. Matemática na idade média. A Matemática nos séculos XVI e XVII, equações algébricas e a geometria analítica. As origens do cálculo infinitesimal. A Matemática no século XVIII. A Matemática pura no século XIX. O surgimento das geometrias não-euclidianas. Das equações às estruturas algébricas. A aritmetização da análise e as origens da teoria de conjuntos. As crises de fundamentos. O triunfo da abstração no século XX."
+    },
+    {
+      "id": "QMC5125",
+      "code": "QMC5125",
+      "name": "Química Geral Experimental A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. ConfiguraçãoEletrônica. Orbital Atômico. Ligações químicas: iônicas, covalentes, metálicas. Leis dos gases. Conceito de Mol. Funções químicas. Misturas. Soluções. Concentração de soluções. Equações químicas. Reações redox. Introdução ao Equilíbrio químico; ácidos ebases; ph. Calor de reação. Introdução á Termoquímica."
+    },
+    {
+      "id": "QMC5138",
+      "code": "QMC5138",
+      "name": "Química Geral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. Orbital atômico. Transformações químicas. Gases, líquidos e pressão de vapor. Estequiometria. Conceito de mol. Termodinâmica. Geometria molecular, Momento dipolar, Solubilidade. Estruturas químicas cristalinas, Elétrons nos sólidos, Defeitos nos sólidos. Soluções e misturas, propriedades coligativas. Cinética e mecanismos de reações. Equilíbrio químico, Equilíbrio ácido-base. Reações de oxi- reduções, eletroquímica, pilhas, corrosão e combustão."
+    },
+    {
+      "id": "QMC5901",
+      "code": "QMC5901",
+      "name": "Segurança no Laboratório e Tratamento de Resíduos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Normas de segurança nos laboratórios de química. Manejo e tratamento de resíduos: parâmetros de segurança e riscos; legislação brasileira; gerenciamento; classificação e rotulagem; acondicionamento e armazenamento; métodos de desativação e tratamento; reutilização e reciclagem; transporte e disposição final. Estudos de caso no Brasil. Elaboração de Projetos de Extensão. Apresentação para outros setores da sociedade.",
+      "extensionHours": 72
+    },
+    {
+      "id": "QMC5902",
+      "code": "QMC5902",
+      "name": "Química e Sustentabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Conceito de Sustentabilidade e Desenvolvimento Sustentável. Principais problemas ambientais gerados pela ação antropogênica e globalização. Processos produtivos, recursos renováveis e não renováveis. Química Verde. Nanomateriais. Implicações da nanotecnologia na sustentabilidade. Influência da ciência em políticas públicas. Estudos de caso no Brasil. Elaboração de Projetos de Extensão. Apresentação para outros setores da sociedade.",
+      "extensionHours": 72
+    },
+    {
+      "id": "FSC2024",
+      "code": "FSC2024",
+      "name": "Ações de Extensão",
+      "credits": 18,
+      "hours": 324,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ações de Extensão"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "FSC5106",
+      "FSC5107",
+      "FSC5141",
+      "FSC5911",
+      "MTM3110",
+      "FSC5142",
+      "FSC5165",
+      "FSC5166",
+      "MTM3120",
+      "MTM3121",
+      "FSC2143",
+      "FSC2193",
+      "FSC7114",
+      "MTM3103",
+      "MTM3131",
+      "FSC2144",
+      "FSC2312",
+      "FSC5218",
+      "FSC5705",
+      "MTM3104",
+      "FSC5131",
+      "FSC5219",
+      "FSC5428",
+      "FSC5506",
+      "FSC5421",
+      "FSC5429",
+      "FSC5511",
+      "FSC2474",
+      "FSC5151",
+      "FSC5302",
+      "FSC5422",
+      "FSC5512",
+      "FSC5174",
+      "FSC5527",
+      "FSC5528",
+      "FSC5602"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 540,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CFS7001",
+              "ECZ5102",
+              "EED8007",
+              "EEL7061",
+              "FIL6004",
+              "FIL6023",
+              "FIL6090",
+              "FSC2310",
+              "FSC2314",
+              "FSC2316",
+              "FSC5000",
+              "FSC5117",
+              "FSC5118",
+              "FSC5152",
+              "FSC5171",
+              "FSC5172",
+              "FSC5173",
+              "FSC5290",
+              "FSC5291",
+              "FSC5514",
+              "FSC5515",
+              "FSC5517",
+              "FSC5530",
+              "FSC5531",
+              "FSC5539",
+              "FSC5540",
+              "FSC5610",
+              "FSC5803",
+              "FSC5804",
+              "FSC5901",
+              "FSC5902",
+              "FSC5906",
+              "FSC5907",
+              "FSC5908",
+              "FSC5909",
+              "FSC5910",
+              "FSC5912",
+              "FSC5913",
+              "FSC5914",
+              "FSC5915",
+              "FSC5921",
+              "FSC5922",
+              "FSC5923",
+              "FSC5924",
+              "FSC7103",
+              "FSC7107",
+              "FSC7150",
+              "FSC7152",
+              "FSC9904",
+              "INE5108",
+              "LSB7244",
+              "MEN5601",
+              "MEN5911",
+              "MEN7075",
+              "MTM3422",
+              "MTM3430",
+              "MTM3431",
+              "MTM3432",
+              "MTM3436",
+              "MTM3451",
+              "MTM3452",
+              "MTM3481",
+              "MTM3490",
+              "MTM3491",
+              "MTM3501",
+              "MTM3506",
+              "MTM3510",
+              "MTM3525",
+              "MTM3531",
+              "MTM3532",
+              "MTM7305",
+              "QMC5125",
+              "QMC5138",
+              "QMC5901",
+              "QMC5902",
+              "FSC2024"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "2",
+    "curriculumCode": "20241",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=2&curriculo=20241",
+    "sha256": "e231c0efe4329170e5743d01838d91031083e3fec9a6ac6944db0f6c99b2e3c4",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -1,0 +1,1410 @@
+{
+  "program": "MEDICINA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2024.1",
+  "totalHours": 8640,
+  "phases": [
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    },
+    {
+      "number": 11,
+      "name": "11ª Fase"
+    },
+    {
+      "number": 12,
+      "name": "12ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "MED7001",
+      "code": "MED7001",
+      "name": "Introdução ao Estudo da Medicina I",
+      "credits": 28,
+      "hours": 504,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conteúdos: Anatomia, Fisiologia, Bioquímica, Histologia, Embriologia, Biologia Celular, Narrativas comparadas: história e prática na biomedicina, homeopatia, medicina popular, medicina afrobrasileira, medicina indígena e medicina tradicional chinesa (Lei 9394/96 e demais), Ética, Metodologia Científica, Habilidades de Comunicação, Saúde e Sociedade. Ementa: Inserção do estudante de medicina na comunidade universitária e no sistema de saúde. Introdução ao estudo bio-psico-social do processo saúde-doença e sua relação com a família e comunidade. Organização comunitária, organização dos serviços de saúde. Fundamentação teórica dos aspectos morfofuncionais do ser humano, necessários às ações básicas de saúde. História da medicina e relações étnico-raciais, com ênfase na cultura Afro-brasileira. Medicina baseada em narrativas e medicina baseada em evidências. Correlação morfofuncional clínica do corpo humano. Humanidades e medicina. Princípios de ética médica."
+    },
+    {
+      "id": "MED7101",
+      "code": "MED7101",
+      "name": "Interação Comunitária I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conteúdo: Medicina da Família e Comunidade. Ementa: Conhecimento inicial da área de abrangência por meio de contato com atores sociais da comunidade e trabalhadores do Centro de saúde. Territorialização na área de abrangência do Centro de saúde e dados referentes a equipamentos sociais e infraestrutura local."
+    },
+    {
+      "id": "MED7002",
+      "code": "MED7002",
+      "name": "Introdução ao Estudo da Medicina II",
+      "credits": 28,
+      "hours": 504,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7001"
+      },
+      "syllabus": "Conteúdos: Anatomia, Bioética e Direitos Humanos (Resolução CNE/CP 1/2012), Bioquímica, Embriologia, Fisiologia, Genética, Histologia, Imunologia, Clínica Médica, Saúde e Sociedade. Ementa: Estudo integrado dos aspectos bio-psico-sociais, morfofuncionais, promoção da saúde e prevenção da doença. Correlação morfofuncional clínica do corpo humano. Fundamentação teórica e prática dos aspectos morfofuncionais do ser humano necessárias às ações básicas de saúde. Caracterização bio-psico-social do ser humano saudável. Epidemiologia descritiva. Indicadores sócio-econômicos e de saúde, Datasus, Epi data. Introdução Clínica à hemostasia, coagulação e trombos. Eletrocardiografia: noções clínicas e anatomia orientada à clínica. Estudo de casos clínicos. Bases fisiopatológicas dos sistemas circulatório, respiratório, urinário, digestório. Envelhecimento normal."
+    },
+    {
+      "id": "MED7102",
+      "code": "MED7102",
+      "name": "Interação Comunitária II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7101"
+      },
+      "syllabus": "Conteúdo: Medicina da Família e Comunidade. Ementa: Introdução dos sistemas de informação e sua instrumentalização na atenção básica à saúde e relacioná-la com a realidade local social local. Identificação dos indicadores socioeconômicos e demográficos. Territorialização na área de abrangência do Centro de saúde e dados referentes a equipamentos sociais e infraestrutura local."
+    },
+    {
+      "id": "MED7003",
+      "code": "MED7003",
+      "name": "Saúde da Criança I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7002"
+      },
+      "syllabus": "Conteúdo: Pediatria. Ementa: Introdução à Saúde da Criança. Ecopediatria. Promoção da Saúde. Prevenção dos agravos à saúde e educação familiar. O nascimento e o recém-nascido (RN) normal. Introdução às ações básicas de saúde em pediatria: aleitamento materno, alimentação monitorização do crescimento e do desenvolvimento e segurança infantil, do recém-nascido ao adolescente. Aspectos teóricos e Práticos. Puericultura. Bioética."
+    },
+    {
+      "id": "MED7004",
+      "code": "MED7004",
+      "name": "Saúde da Mulher I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7002"
+      },
+      "syllabus": "Conteúdos: Ginecologia, Anatomia, Embriologia, Histologia, Fisiologia. Ementa: Biologia do ciclo celular. Aspectos morfofuncionais femininos. Anatomia da pelve feminina e mama. Determinismo e desenvolvimento sexual. Anatomia e histologia do sistema reprodutor (masculino e feminino). Fisiologia do ciclo menstrual, da puberdade e da lactação. Hormônios de crescimento e tireoidianos no crescimento e desenvolvimento pos natal. Fatores intervenientes no desenvolvimento e saúde da mulher: puberdade, adolescência, menacme, gestação e climatério. Microbiota do trato genito-urinário. Imunidade celular e humoral."
+    },
+    {
+      "id": "MED7005",
+      "code": "MED7005",
+      "name": "Saúde do Adulto I",
+      "credits": 16,
+      "hours": 288,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7002"
+      },
+      "syllabus": "Conteúdos: Semiologia Médica, Psicologia Médica, Microbiologia, Imunologia, Parasitologia, Patologia, Farmacologia. Ementa: Bases e fundamentos da propedêutica médica, cirúrgica, psicologia medica, e diagnóstico complementar, desenvolvendo uma atitude reflexiva, ética e humanística da relação médico paciente. Correlação morfofuncional do ser humano nos processos de saúde e doença. Fundamentos da patologia, microbiologia, e imunologia, farmacologia necessárias ao conhecimento do processo de saúde e doença do adulto. A bioética e a prática humanizada da medicina."
+    },
+    {
+      "id": "MED7006",
+      "code": "MED7006",
+      "name": "Saúde e Sociedade I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7002"
+      },
+      "syllabus": "Conteúdo: Saúde Pública. Ementa: A organização política da saúde no Brasil e no mundo. Financiamento e alocação de recursos de saúde no Brasil. Sistemas comparados e reformas de sistemas de saúde. Atenção Primária. Atenção Secundária. Atenção Terciária."
+    },
+    {
+      "id": "MED7103",
+      "code": "MED7103",
+      "name": "Interação Comunitária III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7102"
+      },
+      "syllabus": "Conteúdo: Medicina da Família e Comunidade. Ementa: Correlação teórico-prática na comunidade do conhecimento construído nos módulos da Saúde do Adulto, Saúde da Criança, Saúde da Mulher e Saúde e Sociedade. Desenvolvimento da relação médico paciente embasado nos fundamentos éticos nas unidades básicas de saúde. Desenvolvimento de atividades educativas em saúde na comunidade."
+    },
+    {
+      "id": "MED7007",
+      "code": "MED7007",
+      "name": "Saúde da Criança II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7003"
+      },
+      "syllabus": "Conteúdo: Pediatria. Ementa: Promoção da saúde. Prevenção dos agravos à saúde e educação familiar. Consulta pediátrica pré-natal. Saúde bucal. Fatores intervenientes no crescimento e desenvolvimento da criança e do adolescente. Ações de saúde em Pediatria: Imunização e segurança infantil. Monitorização do crescimento. Distúrbios nutricionais. Anamnese e Exame Físico. Puericultura. Bioética."
+    },
+    {
+      "id": "MED7008",
+      "code": "MED7008",
+      "name": "Saúde da Mulher II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7004"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7004"
+      },
+      "syllabus": "Conteúdos: Ginecologia e Obstetrícia, Fisiologia, Farmacologia, Patologia, Microbiologia, Imunologia. Ementa: Afecções prevalentes da mulher no nível da atenção primária: Doença benigna da vulva, Doença benigna do colo e da vagina. Planejamento familiar. Pré-natal, gravidez e puerpério normais A Placenta: anatomia patológica e desenvolvimento. Citogenética. Alterações morfofuncionais da mulher, alterações patológicas das doenças prevalentes (doenças sexualmente transmissíveis, vaginites e colpites). Conteúdos específicos e correlacionados de fisiologia, microbiologia e parasitologia e genética. Relação Médico-paciente. Higiene e dietética da gravidez."
+    },
+    {
+      "id": "MED7009",
+      "code": "MED7009",
+      "name": "Saúde do Adulto II",
+      "credits": 14,
+      "hours": 252,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7005"
+      },
+      "syllabus": "Conteúdos: Raciocínio Clínico, Técnica Operatória, Psiquiatria, Patologia, Anatomia, Infectologia, Microbiologia. Ementa: Síndromes clínicas. Fisiopatologia das doenças com o objetivo de interpretar sinais e sintomas. Conhecimentos necessários sobre etiologia, modos de transmissão, epidemiologia clínica, patogenia, terapêutica e profilaxia das principais doenças transmissíveis. Aspectos relativos à conduta frente a casos individuais e a surtos epidêmicos. Correlação morfofuncional do ser humano e dos mecanismos de agressão e defesa nos processos de saúde e doença. Fundamentos da patologia, microbiologia, e imunologia, farmacologia necessárias ao conhecimento do processo de saúde e doença do adulto. Princípios de anestesiologia, técnica operatória e bases da clínica cirúrgica. A bioética e a prática humanizada da medicina."
+    },
+    {
+      "id": "MED7010",
+      "code": "MED7010",
+      "name": "Saúde e Sociedade II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7006"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7006"
+      },
+      "syllabus": "Conteúdo: Saúde Pública. Ementa: Vigilância epidemiológica; Distribuição normal; Testes de hipóteses: teste de médias e proporções; intervalos de confiança; Análise e interpretação de dados epidemiológicos."
+    },
+    {
+      "id": "MED7041",
+      "code": "MED7041",
+      "name": "Raciocínio Clínico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7005"
+      },
+      "syllabus": "Revisar o conteúdo do exame clínico, base fundamental para o raciocínio médico. Estudar alguns dos principais sintomas, sinais e síndromes clínicas com vistas a estabelecer hipóteses diagnósticas. Fundamentar e diferenciar as hipóteses diagnósticas entre si objetivando estabelecer um diagnóstico provisório, com base no raciocínio clínico-epidemiológico. Utilizar a autoeducação como instrumento fundamental na construção do conhecimento. Identificar os principais sintomas e sinais nos pacientes examinados ou nos casos clínicos apresentados. Raciocinar, baseado nos sintomas e sinais, visando estabelecer diagnósticos sindrômicos, quando for o caso, hipóteses diagnósticas e diagnósticos provisórios. Aprender, como aluno, o papel do médico como responsável pelo bem-estar de cada paciente sob sua responsabilidade, sendo este o objetivo principal da ação médica; Entender que cada paciente analisado necessita fundamentalmente ser assistido e que o aprendizado deve ser decorrência da assistência médica de qualidade; Aceitar o paciente como integrante do processo de aprendizagem, respeitando-o como ser humano, com suas crenças e valores."
+    },
+    {
+      "id": "MED7104",
+      "code": "MED7104",
+      "name": "Interação Comunitária IV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7103"
+      },
+      "syllabus": "Conteúdo: Medicina da Família e Comunidade. Ementa: Desenvolvimento de atividades educativas em saúde na comunidade. Aplicação teórico-prática na comunidade do conhecimento construído nos módulos da Saúde do Adulto, Saúde da Criança, Saúde da Mulher e Saúde e Sociedade. Desenvolvimento da relação médico-paciente embasados nos fundamentos éticos."
+    },
+    {
+      "id": "MED7011",
+      "code": "MED7011",
+      "name": "Saúde da Criança III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7007"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7007"
+      },
+      "syllabus": "Conteúdo: Pediatria. Ementa: Promoção da saúde. Prevenção dos agravos à saúde e educação familiar. A criança e sua relação com o meio. Fatores intervenientes no crescimento e desenvolvimento da criança e do adolescente. Sinais e sintomas prevalentes em Pediatria. Doenças prevalentes em pediatria. Anamnese e Exame Físico. Puericultura. Bioética."
+    },
+    {
+      "id": "MED7012",
+      "code": "MED7012",
+      "name": "Saúde da Mulher III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7008"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7008"
+      },
+      "syllabus": "Conteúdo: Ginecologia e Obstetrícia. Ementa: Propedêutica em ginecologia: Colposcopia e sua inter-relação com colpocitologia oncótica, Videohisterola- paroscopia, ultra-sonografia, ressonância magnética e tomografia computadorizada, dosagens hormonais. Noções de hormonioterapia. Diagnóstico e conduta em estados intersexuais, puberdade precoce e tardia, sangramentos anormais e alterações do ciclo menstrual. Em obstetrícia: infecções congênitas, drogas e gravidez, ABO - cosanguinidade, abortamento e gravidez ectópica, infecções maternas de interesse na gestação, AIDS e malformações fetais."
+    },
+    {
+      "id": "MED7013",
+      "code": "MED7013",
+      "name": "Saúde do Adulto III",
+      "credits": 20,
+      "hours": 360,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7009"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7009"
+      },
+      "syllabus": "Conteúdos: Cardiologia, Pneumologia, Hematologia, Reumatologia, Anatomia, Fisiologia, Farmacologia, Patologia, Radiologia. Ementa: Diagnóstico, prognóstico, conduta terapêutica, procedimentos cirúrgicos, reabilitação e prevenção de problemas encontrados nas afecções cardio-vasculares, pulmonares, torácicas, reumatológicas e hematológicas prevalentes, que acometem o indivíduo na fase adulta, considerando-se os critérios de incidência, prevalência, letalidade, potencial de prevenção e importância pedagógica. Correlação morfofuncional do ser humano e dos mecanismos de agressão e defesa nos processos de saúde e doença. Anatomia patológica. Farmacologia clínica. Correlação das indicações, limitações e complicações dos métodos diagnósticos e terapêuticos complementares. A bioética e a prática humanizada da medicina."
+    },
+    {
+      "id": "MED7014",
+      "code": "MED7014",
+      "name": "Saúde e Sociedade III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7010"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7010"
+      },
+      "syllabus": "Conteúdo: Saúde Pública. Ementa: Princípios de educação de saúde. Educação de saúde em uma abordagem crítica. Princípios de promoção de saúde. A promoção de saúde em diferentes escolas de pensamento. Produção intelectual em educação e em promoção de saúde. Aplicação de ações educativas e de promoção de saúde no contexto do SUS. Leitura critica da produção intelectual sobre os temas educação e promoção de saúde."
+    },
+    {
+      "id": "MED7105",
+      "code": "MED7105",
+      "name": "Interação Comunitária V",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7104"
+      },
+      "syllabus": "Conteúdo: Medicina da Família e Comunidade. Ementa: Correlação teórico-prática na comunidade do conhecimento construído nos módulos da Saúde do Adulto, Saúde da Criança, Saúde da Mulher e Saúde e Sociedade. Desenvolvimento da relação médico paciente embasado nos fundamentos éticos nas unidades básicas de saúde."
+    },
+    {
+      "id": "MED7015",
+      "code": "MED7015",
+      "name": "Saúde da Criança IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7011"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7011"
+      },
+      "syllabus": "Conteúdo: Pediatria. Ementa: Agravos à Saúde: doenças respiratórias, gastrointestinais, dermatológicas e infectocontagiosas prevalentes em pediatria. Promoção da saúde. Prevenção dos agravos à saúde e educação familiar. Anamnese e Exame Físico. Puericultura. Bioética."
+    },
+    {
+      "id": "MED7016",
+      "code": "MED7016",
+      "name": "Saúde da Mulher IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7012"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7012"
+      },
+      "syllabus": "Conteúdo: Ginecologia e Obstetrícia. Ementa: Síndromes e doenças não neoplásicas em ginecologia: Dismenorréia e Síndrome pré-menstrual, síndromes anovulatórias, síndrome do climatério, endometriose, doença inflamatória pélvica, dor pélvica crônica, doenças benignas da vulva e vagina, cervicites. Em obstetrícia: O parto, estudando a contração uterina, o trajeto e objeto, a assistência ao parto. A operação Cesariana. O puerpério normal e patológico. Avaliação da maturidade e vitalidade fetal. Estudo de doenças próprias da gestação: toxemia gravídica, coriomas e hiperemese (Gestoses). Diagnóstico e causas de retardo do crescimento intrauterino."
+    },
+    {
+      "id": "MED7017",
+      "code": "MED7017",
+      "name": "Saúde do Adulto IV",
+      "credits": 22,
+      "hours": 396,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7013"
+      },
+      "syllabus": "Conteúdos: Gastroenterologia, Endocrinologia e Metabologia, Imunologia, Microbiologia, Proctologia, Radiologia, Cirurgia Geral, Cirugia Plástica, Farmacologia, Fisiologia, Anatomia, Patologia. Ementa: Diagnóstico, prognóstico, conduta terapêutica, procedimentos cirúrgicos, reabilitação e prevenção de problemas mais frequentes encontrados nas afecções gastrointestinais e endocrino-metabólicas prevalentes, que acometem o indivíduo na fase adulta; considerando-se os critérios de incidência, prevalência, letalidade, potencial de prevenção e importância pedagógica. Correlação morfofuncional do ser humano e dos mecanismos de agressão e defesa nos processos de saúde e doença. Anatomia patológica. Farmacologia clínica. Correlação das indicações, limitações e complicações dos métodos diagnósticos e terapêuticos complementares. A bioética e a prática humanizada da medicina."
+    },
+    {
+      "id": "MED7018",
+      "code": "MED7018",
+      "name": "Saúde e Sociedade IV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7014"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7014"
+      },
+      "syllabus": "Conteúdo: Saúde Pública. Ementa: Tipos de estudos epidemiológicos (observacionais e de intervenção); Causalidade; Medidas de associação; Noções de amostragem; Princípios de rastreamento, testes diagnósticos e valores preditivos; Análise e interpretação de estudos científicos"
+    },
+    {
+      "id": "MED7106",
+      "code": "MED7106",
+      "name": "Interação Comunitária VI",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7105"
+      },
+      "syllabus": "Conteúdo: Medicina da Família e Comunidade. Ementa: Correlação teórico-prática na comunidade do conhecimento construído nos módulos da Saúde do Adulto, Saúde da Criança, Saúde da Mulher e Saúde e Sociedade. Desenvolvimento da relação médico paciente embasado nos fundamentos éticos nas unidades básicas de saúde."
+    },
+    {
+      "id": "MED7019",
+      "code": "MED7019",
+      "name": "Saúde da Criança V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7015"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7015"
+      },
+      "syllabus": "Conteúdo: Pediatria. Ementa: Atendimento ao recém-nascido normal e de risco. Agravos à Saúde: doenças neonatais, cardiológicas e neurológicas prevalentes em pediatria. Promoção da saúde. Prevenção dos agravos à saúde e educação familiar. Anamnese e Exame Físico. Puericultura. Bioética."
+    },
+    {
+      "id": "MED7020",
+      "code": "MED7020",
+      "name": "Saúde da Mulher V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7016"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7016"
+      },
+      "syllabus": "Conteúdo: Ginecologia e Obstetrícia. Ementa: Em ginecologia as patologias tumorais: papiloma vírus humano, métodos de biópsia do colo e corpo uterino, revisão de tópicos de anatomia pélvica, miomas e tumores benignos do útero, tumores benignos e malignos de vulva e vagina, tumores malignos do corpo e colo uterino, tumores benignos e malignos do ovário. Em obstetrícia: Complicações no trabalho de parto, parto pélvico e fórceps. Sofrimento fetal agudo e crônico. Hemorragias na gravidez: descolamento prematuro de placenta, placenta prévia. Prematuridade e o parto prematuro. Rotura prematura de membranas. O sofrimento fetal agudo e crônico."
+    },
+    {
+      "id": "MED7021",
+      "code": "MED7021",
+      "name": "Saúde do Adulto V",
+      "credits": 24,
+      "hours": 432,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7017"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7017"
+      },
+      "syllabus": "Conteúdos: Neurologia e Neurocirurgia, Oftalmologia, Otorrinolaringologia, Ortopedia e Traumatologia Ortopédica, Psiquiatria, Cirurgia Vascular, Anatomia, Fisiologia, Radiologia, Educação Ambiental (Lei 9795/1999) e Educação Inclusiva da pessoa com transtornos de autismo (Lei 12764/2012) e dislexia. Ementa: Diagnóstico, prognóstico, conduta terapêutica, procedimentos cirúrgicos, reabilitação e prevenção de problemas mais frequentemente encontrados em afecções psiquiátricas, neurológicas, dos órgãos dos sentidos, comunicação e expressão; afecções degenerativas, geriátricas, ortopédicas e vasculares, que acometem o indivíduo na fase adulta, considerando-se os critérios de incidência, prevalência, letalidade, potencial de prevenção e importância pedagógica. Correlação morfofuncional do ser humano e dos mecanismos de agressão e defesa nos processos de saúde e doença. Correlação das indicações, limitações e complicações dos métodos diagnósticos e terapêuticos complementares. A bioética e a prática humanizada da medicina. Educação ambiental. Distúrbios do aprendizado, autismo e dislexia."
+    },
+    {
+      "id": "MED7022",
+      "code": "MED7022",
+      "name": "Saúde e Sociedade V",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7018"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7018"
+      },
+      "syllabus": "Conteúdo: Saúde Pública. Ementa: Aspectos conceituais e políticos do planejamento. Instrumental metodológico para o planejamento e programação em saúde. Modelos de gestão de serviços de saúde. Avaliação de serviços de saúde."
+    },
+    {
+      "id": "MED7107",
+      "code": "MED7107",
+      "name": "Interação Comunitária VII",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7106"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7106"
+      },
+      "syllabus": "Conteúdo: Medicina da Família e Comunidade. Ementa: Correlação teórico-prática na comunidade do conhecimento construído nos módulos da Saúde do Adulto, Saúde da Criança, Saúde da Mulher e Saúde e Sociedade. Desenvolvimento da relação médico paciente embasado nos fundamentos éticos nas unidades básicas de saúde."
+    },
+    {
+      "id": "MED7023",
+      "code": "MED7023",
+      "name": "Saúde da Criança VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7019"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7019"
+      },
+      "syllabus": "Conteúdo: Pediatria. Ementa: Agravos à Saúde: doenças genitourinárias, endócrino-metabólicas e onco-hematológicas prevalentes em pediatria. Promoção da saúde. Prevenção dos agravos à saúde e educação familiar. Anamnese e Exame Físico. Puericultura. Bioética. Estratégias de busca e seleção de informações."
+    },
+    {
+      "id": "MED7024",
+      "code": "MED7024",
+      "name": "Saúde da Mulher VI",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7020"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7020"
+      },
+      "syllabus": "Conteúdo: Ginecologia e Obstetrícia. Ementa: Em ginecologia: As distopias genitais, a incontinência urinária de esforço. As doenças disfuncionais e inflamatórias das mamas. A ginecomastia. Os tumores benignos e malignos da mama. Em obstetrícia: A gravidez prolongada, a gemelaridade. Analgesia e anestesia. Aspectos médicos legais na gestação. Doenças intercorrentes na gravidez: diabetes, cardiopatia, doenças da tireoide, DPOC, nefropatias, coagulopatias. Câncer e gravidez. Abdome agudo no ciclo grávido puerperal. Propedêutica e terapêutica fetal."
+    },
+    {
+      "id": "MED7025",
+      "code": "MED7025",
+      "name": "Saúde do Adulto VI",
+      "credits": 26,
+      "hours": 468,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7021"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7021"
+      },
+      "syllabus": "Conteúdos: Urologia, Nefrologia, Infectologia, Medicina de Urgência, Traumatologia, Psiquiatria, Dermatologia, Radiologia e Patologia. Ementa: Diagnóstico, prognóstico, conduta terapêutica, procedimentos cirúrgicos, reabilitação e prevenção de problemas mais frequentemente encontrados nas afecções psiquiátricas e geniturinárias; afecções de tecidos moles e de revestimento, afecções infecciosas e infecto-contagiosas, que acometem o indivíduo na fase adulta; primeiro atendimento a urgências e emergências, queimaduras e trauma, considerando-se os critérios de prevalência, letalidade, potencial de prevenção e importância pedagógica. Correlação morfofuncional do ser humano e dos mecanismos de agressão e defesa nos processos de saúde e doença. Anatomia patológica. Correlação das indicações, limitações e complicações dos métodos diagnósticos e terapêuticos complementares. A bioética e a prática humanizada da medicina."
+    },
+    {
+      "id": "MED7026",
+      "code": "MED7026",
+      "name": "Saúde e Sociedade VI",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7022"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7022"
+      },
+      "syllabus": "Conteúdo: Saúde Pública. Ementa: Saúde do Trabalhador no contexto da Saúde Coletiva. Saúde do Trabalhador no SUS. Política Nacional de Saúde do Trabalhador e da Trabalhadora. Normas Regulamentadoras. Organização dos serviços públicos e privados em saúde do trabalhador. Doenças do Trabalho. Acidentes de Trabalho. Vigilância em Saúde do Trabalhador. Aspectos da legislação trabalhista aplicada à saúde do trabalhador."
+    },
+    {
+      "id": "MED7108",
+      "code": "MED7108",
+      "name": "Interação Comunitária VIII",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7107"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7107"
+      },
+      "syllabus": "Conteúdo: Medicina da Família e Comunidade. Ementa: Correlação teórico-prática na comunidade do conhecimento construído nos módulos da Saúde do Adulto, Saúde da Criança, Saúde da Mulher e Saúde e Sociedade. Desenvolvimento da relação médico-paciente embasados nos fundamentos éticos nas unidades básicas de saúde."
+    },
+    {
+      "id": "MED7301",
+      "code": "MED7301",
+      "name": "Trabalho de Conclusão de Curso (TCC)",
+      "credits": 10,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7107"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7107"
+      },
+      "syllabus": "Refere-se a realização e apresentaçã do Trabalho de Conclusão de Curso (TCC) do Curso de Graduação em Medicina. É incluída no histórico de cada acadêmico para fins de registro de realização com a sua nota final obtida."
+    },
+    {
+      "id": "MED8027",
+      "code": "MED8027",
+      "name": "Internato Médico I - Saúde da Criança 1",
+      "credits": 16,
+      "hours": 368,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7023"
+      ],
+      "equivalents": [
+        "MED7027"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7023"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MED7027"
+      },
+      "syllabus": "O internato em Saúde da Criança (9ª fase) será desenvolvido em 8 semanas no Hospital Universitário, Durante o período referente ao internato em Saúde da Criança os alunos permanecerão integralmente na Divisão de Pediatria do Hospital Universitário (Serviço de Pediatria), sendo em tempo integral no período matutino e vespertino. Os alunos também realizarão atividades de plantão na emergência pediátrica do Hospital Universitário, conforme escala, totalizando horas de atividades relacionadas à Saúde da Criança. Na Divisão de Pediatria do Hospital Universitário serão realizadas atividades práticas e teóricas, conforme escala (em grupos de 4 a 8 alunos), envolvendo os seguintes setores: emergência pediátrica, enfermaria, e ambulatório. As atividades teóricas serão desenvolvidas com a realização de seminários e discussão de casos clínicos nas enfermarias durante o período matutino e vespertino. Nas quarta e sextas-feiras, das 11h00min as 12h00min, haverá aula de revisão teórica e discussão de casos clínicos nas terças-feiras das 15h00min as 16h00minh para todos os alunos na sala de aula da divisão de pediatria do Hospital Universitário, conforme escala geral da programação do internato. Nas terças, quartas e quintas-feiras das 13h00min as 15h00min os alunos do estágio da enfermaria realizarão discussão e avaliação do DNPM, discussão clínica dos casos internados e revisão e discussão de pacientes graves respectivamente. As atividades teóricas e práticas serão desenvolvidas no Hospital Universitário em 3 cenários da Divisão de Pediatria (Serviço de Pediatria) do Hospital Universitário. O aluno desenvolverá principalmente atividades relacionadas ao atendimento da criança em pediatria geral, na emergência pediátrica, enfermaria e ambulatório. A dinâmica da realização das atividades nos dois hospitais está detalhada na seqüência. Conforme escala os alunos da 9ª, 11ª e 12ª fases desenvolverão atividades supervisionadas de plantão na emergência pediátrica do Hospital Universitário."
+    },
+    {
+      "id": "MED8028",
+      "code": "MED8028",
+      "name": "Internato Médico I - Saúde da Mulher 1",
+      "credits": 16,
+      "hours": 368,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7023"
+      ],
+      "equivalents": [
+        "MED7028"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7023"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MED7028"
+      },
+      "syllabus": "(EXT 90h-a) MED7024 eh Estágio curricular obrigatório, na forma de treinamento em serviço sob supervisão, com autonomia e complexidade progressivas. Através de atendimentos clínicos e cirúrgicos, discussão de casos, simulações, preenchimento de prontuários referentes à saúde da mulher em enfermarias, ambulatórios, centro obstétrico e emergência em ginecologia e obstetrícia."
+    },
+    {
+      "id": "MED8029",
+      "code": "MED8029",
+      "name": "Internato Médico I - Medicina de Família e Comunidade 1",
+      "credits": 16,
+      "hours": 368,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "MED7023",
+        "MED7024",
+        "MED7025",
+        "MED7026",
+        "MED7108"
+      ],
+      "equivalents": [
+        "MED7029"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MED7023"
+          },
+          {
+            "kind": "course",
+            "code": "MED7024"
+          },
+          {
+            "kind": "course",
+            "code": "MED7025"
+          },
+          {
+            "kind": "course",
+            "code": "MED7026"
+          },
+          {
+            "kind": "course",
+            "code": "MED7108"
+          },
+          {
+            "kind": "hours",
+            "hours": 90
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MED7029"
+      },
+      "prerequisiteHours": 90,
+      "syllabus": "(EXT 90h-a) MED7024 eh Atividades de correlação teórico-prática na comunidade e Atenção Primária à Saúde do conhecimento construído nos módulos da Saúde da Criança, Saúde da Mulher, Saúde do Adulto e Saúde e Sociedade. Aprofundar o desenvolvimento da relação médico paciente embasado nos fundamentos da atenção primária à saúde no contexto do Sistema Único de Saúde (SUS).",
+      "extensionHours": 90
+    },
+    {
+      "id": "MED8030",
+      "code": "MED8030",
+      "name": "Internato Médico II - Saúde do Adulto -",
+      "credits": 16,
+      "hours": 368,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "MED8027"
+      ],
+      "equivalents": [
+        "MED7030"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED8027"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MED7030"
+      },
+      "syllabus": "Domínio do conteúdo prático do atendimento de pacientes das especialidades de Medicina de família e comunidade, Alergia e Imunologia Infectologia, Pneumologia, Cardiologia, Toxicologia, Gastroenterologia, Hematologia, Dermatologia, Reumatologia, Endocrinologia, Neurologia, Psiquiatria, Radiologia e Nefrologia que busquem ou necessitem atendimento nas Unidades de Emergência e de Terapia Intensiva."
+    },
+    {
+      "id": "MED8031",
+      "code": "MED8031",
+      "name": "Internato Médico II - Saúde do Adulto -",
+      "credits": 16,
+      "hours": 368,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "MED8027"
+      ],
+      "equivalents": [
+        "MED7031"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED8027"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MED7031"
+      },
+      "syllabus": "Clínico 1 (EXT 90h-a) MED8028 eh Enfermaria de Cirurgia Geral do HU: - Casos cirúrgicos internados na enfermaria do HU. Evolução dos pacientes e acompanhamento de cirurgias. Cirurgia Ambulatorial do HU: Realização sob supervisão de procedimentos cirúrgicos de baixa complexidade. RADIOLOGIA no HU: Realização dos exames radiológicos simples e contrastados, Leitura de laudos radiológicos, Participação em exames ultrassonográficos. UTI – HGCR: Grupos de alunos, durante 2 semanas, conhecimento dos aparelhos de ventilação, conhecimento de procedimentos cirúrgicos – punção veia subclávia, traqueostomia, PVC, Swan-Ganz, Manuseio de pacientes pós operatório, clínicos graves, queimados."
+    },
+    {
+      "id": "MED8032",
+      "code": "MED8032",
+      "name": "Internato Médico II - Medicina de Família e Comunidade 2",
+      "credits": 16,
+      "hours": 368,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "MED8027",
+        "MED8028",
+        "MED8029"
+      ],
+      "equivalents": [
+        "MED7032"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MED8027"
+          },
+          {
+            "kind": "course",
+            "code": "MED8028"
+          },
+          {
+            "kind": "course",
+            "code": "MED8029"
+          },
+          {
+            "kind": "hours",
+            "hours": 90
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MED7032"
+      },
+      "prerequisiteHours": 90,
+      "syllabus": "Cirúrgico 1 (EXT 90h-a) MED8028 eh Atividades de correlação teórico-prática na comunidade e atenção primária à saúde do conhecimento construído nos módulos da Saúde da Criança, Saúde da Mulher, Saúde do Adulto e Saúde e Sociedade. Aprofundar o desenvolvimento da relação médico paciente embasado nos fundamentos da Atenção Primária à Saúde no contexto do Sistema Único de Saúde (SUS).",
+      "extensionHours": 90
+    },
+    {
+      "id": "MED7039",
+      "code": "MED7039",
+      "name": "Internato Médico III - Estágio Eletivo",
+      "credits": 16,
+      "hours": 368,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [
+        "MED8030",
+        "MED8031",
+        "MED8032"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MED8030"
+          },
+          {
+            "kind": "course",
+            "code": "MED8031"
+          },
+          {
+            "kind": "course",
+            "code": "MED8032"
+          }
+        ]
+      },
+      "syllabus": "Neste módulo o aluno pode escolher seu estágio dentre as diversas instituições de assistência e ensino cadastradas junto à UFSC."
+    },
+    {
+      "id": "MED8033",
+      "code": "MED8033",
+      "name": "Internato Médico III - Saúde da Criança 2",
+      "credits": 16,
+      "hours": 368,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [
+        "MED8027"
+      ],
+      "equivalents": [
+        "MED7033"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED8027"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MED7033"
+      },
+      "syllabus": "O internato em Saúde da Criança (11ª Fase) será desenvolvido em 8 semanas distribuídas no Hospital Universitário e Hospital Infantil Joana de Gusmão. Durante o período referente ao internato em Saúde da Criança os alunos permanecerão 1/2 do período na Divisão de Pediatria do Hospital Universitário e 1/2 no Hospital Infantil Joana de Gusmão, sendo em tempo integral no período matutino e vespertino. Os alunos também realizarão atividades de plantão na emergência pediátrica do Hospital Universitário, conforme escala. Na Divisão de Pediatria do Hospital Universitário serão realizadas atividades práticas e teóricas, conforme escala anexa (em grupos de 2 alunos), envolvendo o setor de neonatologia. O grupo que estiver desenvolvendo suas atividades no Hospital Infantil Joana de Gusmão será reagrupado e divido em duplas, realizando atividades práticas nos estágios de cirurgia pediátrica, gastroenterologia pediátrica, infectologia e nutrologia pediátrica, conforme escala anexa. As atividades teóricas serão desenvolvidas com a realização de seminários e discussão de casos clínicos nas enfermarias durante o período matutino."
+    },
+    {
+      "id": "MED8034",
+      "code": "MED8034",
+      "name": "Internato Médico III - Saúde da Mulher 2",
+      "credits": 16,
+      "hours": 368,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [
+        "MED8028"
+      ],
+      "equivalents": [
+        "MED7034"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED8028"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MED7034"
+      },
+      "syllabus": "(EXT 90h-a) Em Ginecologia: Patologia cervical, Reprodução humana, Endocrinologia ginecológica, Patologias benignas e malignas da Mama, Patologias benignas e malignas do útero e dos ovários. Em Obstetrícia: Puerpério normal e patológico, Assistência ao Trabalho de parto, Assistência ao Parto Normal e operação Cesariana, Abortamento, Hemorragias no terceiro trimestre da gravidez, Trabalho de parto prematuro, distúrbios do líquido amniótico e rotura prematura de membranas, Doença hipertensiva na gestação, Diabetes, Hiperemese gravídica, Gestação múltipla, Isoimunização, Infecções na gravidez."
+    },
+    {
+      "id": "MED8036",
+      "code": "MED8036",
+      "name": "Internato Médico IV - Saúde do Adulto -",
+      "credits": 16,
+      "hours": 368,
+      "phase": 12,
+      "type": "Ob",
+      "prerequisites": [
+        "MED8030"
+      ],
+      "equivalents": [
+        "MED7036"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED8030"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MED7036"
+      },
+      "syllabus": "A proposta didático-pedagógica no Internato Médico é a do treinamento em serviço e do raciocínio baseado em casos. As atividades são abordadas, sempre observando a imagem espelho referente às doenças mais prevalentes e as necessidades de saúde da população, utilizando recursos construtivistas de aprendizagem. Há reuniões diárias para discussão de casos clínicos e condutas (2 vezes por semana, apresentação de casos pelos alunos, com discussão por grupo de professores) e três vezes por semana, apresentados pelos professores. Nas atividades práticas, o grupo de alunos se divide em 4 estágios de Clínica Médica, cada um com duração de 2 semanas. MED 7036: Dermatologia, Endocrinologia, Hematologia/Reumatologia, Terapia Intensiva."
+    },
+    {
+      "id": "MED8037",
+      "code": "MED8037",
+      "name": "Internato Médico IV - Saúde do Adulto -",
+      "credits": 16,
+      "hours": 368,
+      "phase": 12,
+      "type": "Ob",
+      "prerequisites": [
+        "MED8031"
+      ],
+      "equivalents": [
+        "MED7037"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED8031"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MED7037"
+      },
+      "syllabus": "Clínico 2A (EXT 90h-a) O Internato Médico IV - Saúde do Adulto - Cirúrgico - oferece ao aluno de graduação em Medicina a oportunidade de aplicar os conhecimentos teóricos absorvidos durante todo o curso de Medicina na prática clínica diária. Este período de treinamento é monitorado de forma integral por Professores do Departamento de Cirurgia, profissionais na área da saúde em plena atividade e por médicos residentes em fase de especialização. Esta integração permite que o aluno tenha noção do mundo real e o prepara para o mercado de trabalho ou para seguir uma pós-graduação."
+    },
+    {
+      "id": "MED8040",
+      "code": "MED8040",
+      "name": "Internato Médico IV - Saúde do Adulto -",
+      "credits": 16,
+      "hours": 368,
+      "phase": 12,
+      "type": "Ob",
+      "prerequisites": [
+        "MED8030"
+      ],
+      "equivalents": [
+        "MED7040"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED8030"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MED7040"
+      },
+      "syllabus": "Cirúrgico 2 (EXT 90h-a) A proposta didático-pedagógica no Internato Médico é a do treinamento em serviço e do raciocínio baseado em casos. As atividades são abordadas, sempre observando a imagem espelho referente às doenças mais prevalentes e as necessidades de saúde da população, utilizando recursos construtivistas de aprendizagem. Há reuniões diárias para discussão de casos clínicos e condutas (2 vezes por semana, apresentação de casos pelos alunos, com discussão por grupo de professores) e três vezes por semana, apresentados pelos professores. Nas atividades práticas, o grupo de alunos se divide em 4 estágios de Clínica Médica, cada um com duração de 2 semanas. MED 7036: Dermatologia, Endocrinologia, Hematologia/Reumatologia, Terapia Intensiva. MED 7040: Cardiologia/toxicologia, Neurologia, Psiquiatria e Emergência Clínica"
+    },
+    {
+      "id": "BEG7030",
+      "code": "BEG7030",
+      "name": "Embriologia Clínica aplicada à",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [
+        "MED7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7002"
+      },
+      "syllabus": "Estudo dos princípios em reprodução humana, como morfofisiologia e endocrinologia reprodutiva, causas de infertilidade, gametogênese, fecundação e desenvolvimento embrionário humano. Abordagem nas principais técnicas de Reprodução Assistida envolvidas na rotina do embriologista clínico. Princípios éticos e regulamentares na atuação em Reprodução Humana Assistida no Brasil e no exterior."
+    },
+    {
+      "id": "CLC5701",
+      "code": "CLC5701",
+      "name": "Anestesiologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [
+        "MED7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7013"
+      },
+      "syllabus": "Reprodução Humana Assistida Situações de emergência concernentes a Anestesiologia: Obstrução respiratória e reanimação cardiorespiratória; Bases da anestesia regional e da anestesia geral: Avaliação pré-anestésica, controle da ansiedade pré-operatória, administração de sangue e líquidos, bloqueios anestésicos do membro superior e bloqueio sub-aracnoideo, controle da dor pós-operatória.27"
+    },
+    {
+      "id": "EGC5263",
+      "code": "EGC5263",
+      "name": "Finanças Pessoais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Planejamento financeiro; processo de planejamento financeiro pessoal, objetivos, necessidades e prioridades do cliente; nível de tolerância ao risco; coleta de dados; relacionamento com o mercado e instituições; desenvolvimento e apresentação de um plano financeiro; implementação e monitoramento. PROGRAMA 1. Comportamento humano: personalidade e resistências a mudanças; perfis psicológicos; fatores restritivos da personalidade; administrando as emoções e os conflitos. 2. Valores culturais e a personalidade, stress, mudanças e plano de ação. 3. Operações de Crédito; Conceitos básicos de crédito. 4. Análise e seleção de seguros e previdência privada; conceitos básicos de seguros; riscos e exposição ao risco; seguros de pessoas; seguro de vida; seguro saúde. 5. Fundamentos de previdência privada; benefícios; previdência social e previdência privada; órgãos regulatórios; características específicas; perfil do investidor. 6. Investimento imobiliário. 7. Investimento e gestão de risco; Intermediação financeira; eficiência dos mercados e instituições financeiras; Alocação patrimonial (asset allocation). Avaliação dos principais produtos financeiros negociados no mercado; fundos de investimentos; mercado de títulos de renda fixa e de renda variável no Brasil. 8. Investimento em Tesouro Direto. 9. Investimento em Renda Variável – ações. 10. Comportamento do investidor perante o risco; teoria de carteiras; diversificação; opções; derivativos; riscos com derivativos."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "MED7201",
+      "code": "MED7201",
+      "name": "Acupuntura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [
+        "MED7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7005"
+      },
+      "syllabus": "18h-a) Apresentação, evolução histórica e contextualização da Acupuntura; Evidências e indicações clínicas da Acupuntura; Teorias básicas, de Meridianos e dos Órgãos Internos da Medicina Tradicional Chinesa (MTC); Diagnóstico sindrômico da MTC; Pontos básicos da Acupuntura; Acupuntura auricular; Uso clínico dos pontos básicos; Técnica e aplicação de agulha; Possíveis complicações de Agulhamento: prevenir, reconhecer e tratar; Mecanismo neurofisiológico da dor; Mensuração da dor; Dor crônica; Mecanismos fisiológicos e bioquímicos de modulação da dor; Síndrome dolorosa miofascial; Correlações anátomo- funcionais"
+    },
+    {
+      "id": "MED7211",
+      "code": "MED7211",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MED7212",
+      "code": "MED7212",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [
+        "MED7211"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7211"
+      },
+      "syllabus": "(*) Esta disciplina tem como pré-requisito o cumprimento do disposto da Resolução 007/Cun/99, de 30/03/1999"
+    },
+    {
+      "id": "MED7215",
+      "code": "MED7215",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 6,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MED7216",
+      "code": "MED7216",
+      "name": "Geriatria",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Com o rápido envelhecimento da população brasileira, a Geriatria tornou-se especialidade fundamental na formação do médico. O ensino de Geriatria difere das demais especialidade clínicas por compreender uma fase da vida e não um órgão ou sistema específico. O paradigma da saúde do idoso baseia-se na funcionalidade global e na otimização da sua qualidade de vida. O reconhecimento dos grandes problemas de saúde do idoso e a abordagem correta das doenças mais frequentes nesta faixa etária, associado ao manejo adequado de medicamento, é essencial para a preservação da autonomia e independência desta população mais vulnerável."
+    },
+    {
+      "id": "MED7223",
+      "code": "MED7223",
+      "name": "Teste de progresso",
+      "credits": 1,
+      "hours": 18,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Refere-se à realização do Teste de Progresso, que é uma avaliação interinstitucional e longitudinal do desenvolvimento cognitivo dos estudantes aplicado durante o curso de graduação, realizado pelo Núcleo de Apoio Pedagógico Interinstitucional II (NAPISUL II), do qual o Curso de Graduação em Medicina da UFSC é membro. Ela é incluída no histórico para registrar a participação do aluno no teste (que é realizado em um dia do segundo semestre de cada ano)."
+    },
+    {
+      "id": "MED7224",
+      "code": "MED7224",
+      "name": "Intercâmbio CLEV",
+      "credits": 8,
+      "hours": 144,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Comitê Local de Estágios e Vivências (CLEV). Disciplina criada para registrar os estudantes que realizam intercâmbios acadêmicos por meio do CLEV."
+    },
+    {
+      "id": "MED7400",
+      "code": "MED7400",
+      "name": "Estudo Complementar",
+      "credits": 0,
+      "hours": 0,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conhecimento adquiridos pelo estudante mediante estudos e práticas independentes, presenciais ou a distância, como estágios voluntários, programas de iniciação científica, programas de extensão, estudos complementares e cursos realizados em áreas afins"
+    },
+    {
+      "id": "MED7401",
+      "code": "MED7401",
+      "name": "Vivência em Medicina 1",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conhecimento adquiridos pelo estudante mediante estudos e práticas independentes, presenciais ou a distância, como estágios voluntários, programas de iniciação científica, programas de extensão, estudos complementares e cursos realizados em áreas afins."
+    },
+    {
+      "id": "MED7402",
+      "code": "MED7402",
+      "name": "Vivência em Medicina 2",
+      "credits": 8,
+      "hours": 144,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conhecimento adquiridos pelo estudante mediante estudos e práticas independentes, presenciais ou a distância, como estágios voluntários, programas de iniciação científica, programas de extensão, estudos complementares e cursos realizados em áreas afins."
+    },
+    {
+      "id": "NFR7010",
+      "code": "NFR7010",
+      "name": "Biossegurança na Assistência em Saúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "NFR5125"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NFR5125"
+      },
+      "syllabus": "Biossegurança na assistência em saúde; Legislação da Biossegurança no Brasil; Normatização da Biossegurança no Brasil; Normas universais de Biossegurança; Segurança do Paciente; Procedimentos padrão para acidentes biológicos; Gestão de resíduos nos serviços de saúde."
+    },
+    {
+      "id": "PTL5319",
+      "code": "PTL5319",
+      "name": "Medicina Legal II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [
+        "MED7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7013"
+      },
+      "syllabus": "Generalidades sobre a medicina legal: conceitos, ramos da medicina legal e sua correlação com o direito. Introdução à medicina legal, documentos médico- legais, perícia e peritos. Estudo da antropologia forense, traumatologia forense, sexologia forense, psiquiatria forense, toxicologia forense, tanatologia e infortunística. Confecção de laudos e realização de exames periciais."
+    },
+    {
+      "id": "SPB5128",
+      "code": "SPB5128",
+      "name": "Gênero Diversidade Sexual e Saúde",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O debate histórico e teórico sobre gênero e sexualidade. A construção social das relações de gênero. Temáticas contemporâneas em gênero e sexualidade. As relações entre corpo, saúde e prática profissional na temática de gênero e diversidade sexual. Políticas públicas e direitos em gênero e sexualidade."
+    },
+    {
+      "id": "SPB5135",
+      "code": "SPB5135",
+      "name": "Saúde Mental e Atenção Psicossocial",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Fundamentos filosóficos, percurso histórico, construções sociais, panorama atual e perspectivas, princípios e paradigmas que orientam o campo dà saúde mental e da atenção psicossocial e a política de saúde mental no Brasil e sua contextualização no Sistema Único de Saúde"
+    },
+    {
+      "id": "SPB7010",
+      "code": "SPB7010",
+      "name": "Introdução ao Estudo das Plantas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades teórico práticas relacionadas ao uso de plantas Medicinais e noções básicas de fitoterapia (definições, conceitos básicos, cuidados com a planta do cultivo ao uso, aspectos toxicológicos e efeitos colaterais, usos em diferentes contextos terapêuticos, legislação e recomendações da OMS) para alunos do curso de medicina a partir da 6a fase do curso."
+    },
+    {
+      "id": "SPB7011",
+      "code": "SPB7011",
+      "name": "Saúde Digital e Telessaúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Op",
+      "prerequisites": [
+        "MED7006"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MED7006"
+      },
+      "syllabus": "Aspectos históricos, conceituais e regulatórios do uso de TIC no Brasil e no mundo; Habilidades de comunicação interpessoal mediada por TIC em saúde; Serviços de Telessaúde no SUS: ferramentas, desafios e oportunidades."
+    },
+    {
+      "id": "MED7110",
+      "code": "MED7110",
+      "name": "Alergia e Imunologia Clínica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [
+        "MED7009",
+        "MED7041"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MED7009"
+          },
+          {
+            "kind": "course",
+            "code": "MED7041"
+          }
+        ]
+      },
+      "syllabus": "Epidemiologia, aspectos clínicos, fisiopatologia e tratamento de doenças alérgicas mais prevalentes: asma, rinite, dermatite, reação adversa às drogas, urticária, angioedema e alergias alimentares. Além disso, visão geral sobre os principais testes alérgicos e sobre doenças imunológicas raras tais como erros inatos da imunidade e angioedema hereditário."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "MED7001",
+      "MED7101",
+      "MED7002",
+      "MED7102",
+      "MED7003",
+      "MED7004",
+      "MED7005",
+      "MED7006",
+      "MED7103",
+      "MED7007",
+      "MED7008",
+      "MED7009",
+      "MED7010",
+      "MED7041",
+      "MED7104",
+      "MED7011",
+      "MED7012",
+      "MED7013",
+      "MED7014",
+      "MED7105",
+      "MED7015",
+      "MED7016",
+      "MED7017",
+      "MED7018",
+      "MED7106",
+      "MED7019",
+      "MED7020",
+      "MED7021",
+      "MED7022",
+      "MED7107",
+      "MED7023",
+      "MED7024",
+      "MED7025",
+      "MED7026",
+      "MED7108",
+      "MED7301",
+      "MED8027",
+      "MED8028",
+      "MED8029",
+      "MED8030",
+      "MED8031",
+      "MED8032",
+      "MED7039",
+      "MED8033",
+      "MED8034",
+      "MED8036",
+      "MED8037",
+      "MED8040"
+    ],
+    "requirements": []
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "103",
+    "curriculumCode": "20241",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=103&curriculo=20241",
+    "sha256": "92db6141f87025b6465b68752e1c75758c18df932febe28facc51fb5d988030c",
+    "capturedAt": "2026-09-22"
+  }
+}

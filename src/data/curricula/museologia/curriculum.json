@@ -1,0 +1,1273 @@
+{
+  "program": "MUSEOLOGIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2016.1",
+  "totalHours": 3060,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ANT7101",
+      "code": "ANT7101",
+      "name": "Introdução à Antropologia (PCC 36 horas-",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "A constituição da Antropologia como disciplina e seu campo de estudo. A crítica ao etnocentrismo e o relativismo cultural. Questões de método: trabalho de campo e observação participante. Os precursores e o evolucionismo social na conformação da Antropologia como disciplina."
+    },
+    {
+      "id": "MUS7105",
+      "code": "MUS7105",
+      "name": "Metodologia Científica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "aula) Metodologia, métodos e teorias do conhecimento; universidade e sociedade; redação de textos científicos: resumos, resenhas e fichamento; normas técnicas; ética e pesquisa científica."
+    },
+    {
+      "id": "MUS7912",
+      "code": "MUS7912",
+      "name": "Introdução a Museologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MUS7101",
+        "MUS7104"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MUS7101"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7104"
+          }
+        ]
+      },
+      "syllabus": "A formação sócio-histórica do museu moderno. Ciência, modernidade e colonialidade. A Museologia como um campo do conhecimento. Desenvolvimento do conceito de museu. Tipologias de Museus."
+    },
+    {
+      "id": "SPO7106",
+      "code": "SPO7106",
+      "name": "Sociologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5129",
+        "SPO7890"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPO5129"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7890"
+          }
+        ]
+      },
+      "syllabus": "Origens e definição de Sociologia. As correntes clássicas: Marx, Durkheim e Weber. Estratificação Social. A reflexão sociológica sobre as transformações da modernidade: globalização, segunda modernidade, pós-modernidade, sociedade informacional e de redes e outras abordagens. As transformações sociais do Brasil contemporâneo: globalização, democracia, reforma do Estado, cultura e movimentos sociais."
+    },
+    {
+      "id": "ANT7104",
+      "code": "ANT7104",
+      "name": "Patrimônio Histórico e Cultural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Formação da identidade Nacional. A Semana de Arte de 22. Patrimônio cultural, Histórico e Cultural. Patrimônio material e imaterial."
+    },
+    {
+      "id": "CIN7138",
+      "code": "CIN7138",
+      "name": "Introdução à Ciência da Informação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Busca identificar a perspectiva histórico/social da Ciência da Informação no mundo e no Brasil. Compreender os aportes teóricos e seus pioneiros. Inserção da Ciência da Informação nas Ciências Sociais Aplicadas segundo seu objeto de estudo, suas teorias e sua interdisciplinaridade."
+    },
+    {
+      "id": "FIL7201",
+      "code": "FIL7201",
+      "name": "Filosofia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7900",
+      "code": "HST7900",
+      "name": "Memória e Museu",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Discussão introdutória sobre a construção do conhecimento histórico através do estudo das fontes, da discussão bibliográfica e da forma da narrativa."
+    },
+    {
+      "id": "MUS7203",
+      "code": "MUS7203",
+      "name": "Teoria Museológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MUS7101",
+        "MUS7104",
+        "MUS7912"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MUS7101"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7104"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7912"
+          }
+        ]
+      },
+      "syllabus": "A formação da teoria museológica e seus diferentes caminhos epistemológicos no século XX. Museologia e interdisciplinaridade. Fato museal. Processos de musealização. Patrimonialização. O olhar museológico sobre a realidade."
+    },
+    {
+      "id": "GCN7950",
+      "code": "GCN7950",
+      "name": "Biogeografia e Patrimônio Natural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7401"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7401"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "HST7305",
+      "code": "HST7305",
+      "name": "História da Arte I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST7104"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7305
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST7104"
+      },
+      "prerequisiteHours": 7305,
+      "syllabus": ""
+    },
+    {
+      "id": "HST7928",
+      "code": "HST7928",
+      "name": "Acervos como fonte e objeto da pesquisa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST7101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST7101"
+      },
+      "prerequisiteHours": 4,
+      "syllabus": ""
+    },
+    {
+      "id": "MUS7305",
+      "code": "MUS7305",
+      "name": "Pensamento Contemporâneo em Museologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MUS7101",
+        "MUS7104",
+        "MUS7912"
+      ],
+      "equivalents": [
+        "MUS7102"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MUS7101"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7104"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7912"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MUS7102"
+      },
+      "syllabus": "histórica Teoria museológica e a contemporaneidade. Identidade e Memória. Nova Museologia e Museologia Social. Museus, biodiversidade e sustentabilidade sócio- ambiental. Direitos Humanos. Acessibilidades. Museologia e questões sociais. Experiências contemporâneas nacionais e internacionais no campo dos museus."
+    },
+    {
+      "id": "MUS7306",
+      "code": "MUS7306",
+      "name": "Comunicação Museológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN7138"
+      ],
+      "equivalents": [
+        "MUS7201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN7138"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MUS7201"
+      },
+      "syllabus": "Informação e processos informacionais. Comunicação e Sociedade. Informação nos Museus. Comunicação em Museus. Informação, Indústria Cultural. Exposições e discursos."
+    },
+    {
+      "id": "HST7405",
+      "code": "HST7405",
+      "name": "História da Arte II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "HST7305"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST7305"
+          },
+          {
+            "kind": "hours",
+            "hours": 7405
+          }
+        ]
+      },
+      "prerequisiteHours": 7405,
+      "syllabus": "Estudo das diversas manifestações artístico-culturais na América Latina, do período colonial à contemporaneidade. Influência das matrizes ibéricas, indígenas e africanas na formação artístico-cultural brasileira: manifestações culturais e artísticas do movimento modernista brasileiro até a contemporaneidade."
+    },
+    {
+      "id": "MUS7403",
+      "code": "MUS7403",
+      "name": "Preservação e Conservação de Bens",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MUS7401"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MUS7401"
+      },
+      "syllabus": "Histórico da preservação; Conceitos de preservação, conservação preventiva e conservação curativa; Legislação, cartas e recomendações nacionais e internacionais sobre preservação de bens culturais; Prevenção e segurança nos Museus; Ética profissional na conservação/restauro."
+    },
+    {
+      "id": "MUS7910",
+      "code": "MUS7910",
+      "name": "Documentação Museológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Op",
+      "prerequisites": [
+        "CIN7138"
+      ],
+      "equivalents": [
+        "MUS7304",
+        "MUS7404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN7138"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MUS7304"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7404"
+          }
+        ]
+      },
+      "syllabus": "Culturais I Discussão teórico-prática acerca das atividades que envolvem os processos de documentação museológica ligado ao campo do Patrimônio, tais como: Registro; Catalogação; Classificação; Processamento e informação de acervos. Indexação de Acervos. Documento e Documentação em espaços museológicos. Organização e Representação da Informação e do Conhecimento. Gestão e Política de Acervos. Padrões Internacionais da Museologia. Indexação de Acervos. Termos e Conceitos: tesauros e vocabulários controlados. Processamento técnico em laboratório: Arrolamento; Inventário; Ficha de Catalogação; Descrição de Acervos; Numeração e Marcação de Acervos."
+    },
+    {
+      "id": "MUS7922",
+      "code": "MUS7922",
+      "name": "Educação Museal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MUS7301",
+        "MUS7405"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MUS7301"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7405"
+          }
+        ]
+      },
+      "syllabus": "Educação museal: conceitos e métodos. Os projetos político, poético e pedagógico. A função educacional dos museus. Educação para o patrimônio e educação museal: diálogos possíveis. A interação e a mediação na pedagogia museal. Metas, estratégia e objetivos da educação museal. Projeto pedagógico nos museus: aspectos da pedagogia museal. Interdisciplinaridade, transdisciplinaridade e multidisciplinaridade no pensamento educativo-museal."
+    },
+    {
+      "id": "ANT7014",
+      "code": "ANT7014",
+      "name": "Antropologia da Arte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A arte como objeto de estudo antropológico: etnoestética, etnomusicologia, etnocoreologia e outros e sub-campos da área. Arte como código sócio-cultural: principais tendências teórico-metodológicas. Arte e artisticidade. Arte e agência. Artes populares, eruditas, folclóricas e indígenas. Etnografias clássicas, modernas e recentes sobre a arte. Estudos recentes no Brasil."
+    },
+    {
+      "id": "HST5838",
+      "code": "HST5838",
+      "name": "Tópico Especial - Introdução á Arqueologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Arqueologia brasileira. Natureza e objetivos da Arqueologia. Sítios arqueológicos brasileiros e evidenciação das estruturas arqueológicas. Populações pré- históricas do Brasil."
+    },
+    {
+      "id": "HST7403",
+      "code": "HST7403",
+      "name": "História da América Independente (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7403
+      },
+      "prerequisiteHours": 7403,
+      "syllabus": "Estudo da trajetória histórica dos países da América de colonização espanhola, francesa e inglesa a partir dos processos de independência e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "MUS7505",
+      "code": "MUS7505",
+      "name": "Preservação e Conservação de Bens",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MUS7403"
+      ],
+      "equivalents": [
+        "MUS7402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MUS7403"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MUS7402"
+      },
+      "syllabus": "12h-a) Materiais e Métodos em conservação preventiva; Acervos orgânicos e inorgânicos; Tipologia de materiais que compõem acervos; Ambiente; Edificação; Mobiliário; Manuseio; Embalagem; Transporte; Reservas Técnicas e Exposição; Diagnóstico e Descrição do estado de conservação."
+    },
+    {
+      "id": "MUS7506",
+      "code": "MUS7506",
+      "name": "Expografia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MUS7202"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MUS7202"
+      },
+      "syllabus": "Culturais II Exposição como meio de comunicação. Discurso Expositivo. Teorias da Percepção e objetos museológicos. Tipologias de Exposição. Planejamento de exposições. Fundamentação teórica de projeto expositivo."
+    },
+    {
+      "id": "HST7604",
+      "code": "HST7604",
+      "name": "História do Brasil Contemporâneo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST7502",
+        "HST7921"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7604
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST7502"
+          },
+          {
+            "kind": "course",
+            "code": "HST7921"
+          }
+        ]
+      },
+      "prerequisiteHours": 7604,
+      "syllabus": ""
+    },
+    {
+      "id": "MUS7913",
+      "code": "MUS7913",
+      "name": "Ação Cultural e Educativa em Espaços",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MUS7405"
+      ],
+      "equivalents": [
+        "MUS7301"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MUS7405"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MUS7301"
+      },
+      "syllabus": "Direito de memória: fruição, interatividade, acessibilidades e outras demandas. O programa educativo no Plano Museológico. A ação cultural e educativa: pressupostos teórico-metodológicos. Ação Educativa e avaliação. Elaboração de projeto educativo para exposição curricular."
+    },
+    {
+      "id": "MUS7921",
+      "code": "MUS7921",
+      "name": "Expografia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MUS7506"
+      ],
+      "equivalents": [
+        "MUS7202",
+        "MUS7606"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MUS7506"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MUS7202"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7606"
+          }
+        ]
+      },
+      "syllabus": "Museológicos MUS7607) MUS7922) Planejamento de exposições. Projeto Expositivo. Expografia e Público. Estudo de elementos expositivos: Desenho de exposições, espaço e organização, iluminação, circulação, estudos de cor, textos e elementos auxiliares, materiais. Divulgação de Exposições. Cronograma e Orçamento."
+    },
+    {
+      "id": "MUS7923",
+      "code": "MUS7923",
+      "name": "Gestão de Museus",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MUS7302",
+        "MUS7608"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MUS7302"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7608"
+          }
+        ]
+      },
+      "syllabus": "Noções de gerenciamento de museus: composição de recursos humanos e financeiros, estruturação espacial e documental das coleções, fruição e comunicação; Reconhecimento de legislações nacionais e internancionais que regem as práticas museológicas aplicadas a acervos; Código de conduta ética dos profissionais de museus; Estudo e análise de planos e programas museológicos em instituições com natureza de museu, públicas e privadas."
+    },
+    {
+      "id": "MUS7702",
+      "code": "MUS7702",
+      "name": "Metodologia da Pesquisa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MUS7105"
+      ],
+      "equivalents": [
+        "MUS7503"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MUS7105"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MUS7503"
+      },
+      "syllabus": "Pesquisa aplicada à Museologia. Código de Ética para museus e a Pesquisa Museológica. Elaboração do projeto do Trabalho de Conclusão do Curso."
+    },
+    {
+      "id": "MUS7911",
+      "code": "MUS7911",
+      "name": "Prática de Exposição",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MUS7606",
+        "MUS7607",
+        "MUS7913",
+        "MUS7921"
+      ],
+      "equivalents": [
+        "MUS7303",
+        "MUS7701"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MUS7606"
+              },
+              {
+                "kind": "course",
+                "code": "MUS7607"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MUS7606"
+              },
+              {
+                "kind": "course",
+                "code": "MUS7913"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MUS7607"
+              },
+              {
+                "kind": "course",
+                "code": "MUS7921"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MUS7913"
+              },
+              {
+                "kind": "course",
+                "code": "MUS7921"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MUS7303"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7701"
+          }
+        ]
+      },
+      "syllabus": "Montagem, Desmontagem - aplicando os projetos elaborados nas disciplinas Expografia II e Ação Cultural e Educativa em Espaços Museológicos - e Avaliação - de acordo com os projetos: Circulação, Guia de Montagem, Cronograma Geral, Segurança, Orçamento, Educativo, Acessibilidade, Avaliação, Paleta de Cores, Iluminação, Textos e Legendas, Divulgação e Inauguração - de uma Exposição Museológica."
+    },
+    {
+      "id": "MUS7801",
+      "code": "MUS7801",
+      "name": "Estágio Curricular Obrigatório",
+      "credits": 10,
+      "hours": 180,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MUS7203",
+        "MUS7305",
+        "MUS7404",
+        "MUS7405",
+        "MUS7505",
+        "MUS7506",
+        "MUS7608"
+      ],
+      "equivalents": [
+        "MUS7501"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MUS7203"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7305"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7404"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7405"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7505"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7506"
+          },
+          {
+            "kind": "course",
+            "code": "MUS7608"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MUS7501"
+      },
+      "syllabus": "Estágio curricular supervisionado por um professor que ministre aulas no Curso de Graduação em Museologia e por um profissional da instituição museológica concedente do estágio, constando de atividades em áreas de atuação compatíveis com as atribuições dos profissionais museólogos e do campo da Museologia."
+    },
+    {
+      "id": "MUS7802",
+      "code": "MUS7802",
+      "name": "Trabalho de Conclusão de Curso",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MUS7702"
+      ],
+      "equivalents": [
+        "MUS7502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MUS7702"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MUS7502"
+      },
+      "syllabus": "Desenvolvimento e apresentação de trabalho monográfico."
+    },
+    {
+      "id": "MUS7900",
+      "code": "MUS7900",
+      "name": "Atividades Complementares",
+      "credits": 10,
+      "hours": 180,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ANT7001",
+      "code": "ANT7001",
+      "name": "Cultura Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Significados e dinâmicas da Cultura Brasileira. Estudos antropológicos sobre Cultura Brasileira. Conceitos de Cultura Brasileira. Artes no Brasil. Literaturas no período colonial e contemporâneo. Cultura popular e folclore. Comunicação de massa."
+    },
+    {
+      "id": "ANT7003",
+      "code": "ANT7003",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Particularidades históricas e processos de diferenciação. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política."
+    },
+    {
+      "id": "ANT7021",
+      "code": "ANT7021",
+      "name": "Antropologia Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História da antropologia no Brasil. A questão nacional. Conceitos, questões e tendências da antropologia no Brasil."
+    },
+    {
+      "id": "ANT7062",
+      "code": "ANT7062",
+      "name": "Antropologia dos Objetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Objetos materiais na história da antropologia social e cultural. Interpretações antropológicas sobre os objetos materiais. Transformações e reclassificações. Desafios na pesquisa de coleções e arquivos etnográficos. Antropologia e Consumo, cultura material e pessoas."
+    },
+    {
+      "id": "ANT7068",
+      "code": "ANT7068",
+      "name": "Identidades e Diversidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A construção de identidades sociais. Territorialidade, fronteiras simbólicas e etnicidade. Políticas de identidade e minorias como questões sociais e antropológicas."
+    },
+    {
+      "id": "ANT7701",
+      "code": "ANT7701",
+      "name": "Estudos Afro-Brasileiros - PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações raciais e racismo no Brasil. Relações interétnicas e Identidades étnicas. Estudos sobre os negros no Brasil."
+    },
+    {
+      "id": "HST5114",
+      "code": "HST5114",
+      "name": "História da Cultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5114
+      },
+      "prerequisiteHours": 5114,
+      "syllabus": "horas/aula Evolução cultural da humanidade: aspectos filosóficos, científicos, artísticos e literários."
+    },
+    {
+      "id": "HST5921",
+      "code": "HST5921",
+      "name": "Tópicos Especiais: História, Patrimônio, Cultura e Memória",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7006",
+      "code": "HST7006",
+      "name": "Laboratório de Ensino de História Oral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de uma reflexão sobre a pesquisa histórica através da utilização da metodologia da \"História Oral\" de maneira a habilitar os alunos para a realização de projetos de ensino utilizando essa metodologia nos vários níveis de atuação."
+    },
+    {
+      "id": "HST7101",
+      "code": "HST7101",
+      "name": "Introdução aos Estudos Históricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 72horas aula) Discussão introdutória sobre a construção do conhecimento histórico através do estudo das fontes, da discussão bibliográfica e da forma da narrativa."
+    },
+    {
+      "id": "HST7304",
+      "code": "HST7304",
+      "name": "História Indígena (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7304
+      },
+      "prerequisiteHours": 7304,
+      "syllabus": "Estudo das populações indígenas no Brasil e das políticas indigenistas, bem como sobre as diferentes abordagens historiográficas relativas à representação dessas populações entre os séculos XVI e XXI e suas perspectivas teóricas e de ensino."
+    },
+    {
+      "id": "HST7603",
+      "code": "HST7603",
+      "name": "História de Santa Catarina (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7603
+      },
+      "prerequisiteHours": 7603,
+      "syllabus": "Estudo da História e da historiografia catarinense e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "MUS7901",
+      "code": "MUS7901",
+      "name": "Museologia e Colecionismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "aula) Práticas de colecionamento. A coleção como patrimônio. Os objetos, materialidade, intencionalidade e historicidade; seu valor social e ritual, suas significações e re-significações nos diversos espaços/lugares/instituições de memória. Tipologias das coleções e dos objetos. O colecionador como guardião de memória."
+    },
+    {
+      "id": "MUS7902",
+      "code": "MUS7902",
+      "name": "Patrimônio Imaterial e Museologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A construção de uma ecologia do conhecimento (espaço, ambiente para produção e apropriação de conhecimento) na ambiência do patrimônio imaterial. Tangibilidade e intangibilidade: Políticas públicas de salvaguarda do patrimônio cultural de natureza imaterial e a análise holística do patrimônio cultural. IPHAN, IBRAM e UNESCO e as políticas públicas de proteção, fortalecimento e fruição do patrimônio cultural de natureza imaterial. O patrimônio imaterial nos museus: musealização do intangível. Tesouros humanos vivos: valorização e fruição dos saberes e fazeres dos povos."
+    },
+    {
+      "id": "MUS7903",
+      "code": "MUS7903",
+      "name": "Museu, Estado e Ideologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Formação do Museu Moderno. Estado, forma política e dominação. Museus e ideologia. Exposições, ideologia e representações sociais."
+    },
+    {
+      "id": "MUS7908",
+      "code": "MUS7908",
+      "name": "Museologia Social e Processos Museais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Jornada conceitual: museologia social, processos museais, cidadania cultural e inventário participativo. Estatuto de Museus e o interesse público: contexto político, jurídico e técnico. Uso social da memória no fortalecimento do sentimento de pertença, a partir do protagonismo social em projetos museais. Programa Pontos de Memória: contexto histórico. Prêmio Pontos de Memória (OEI e IBRAM): Iniciativas pioneiras e contemporâneas, gestão compartilhada, impacto sociocultural e sustentabilidade das ações. Pontos de Memória e a articulação em rede. Museu como processo: discussão das demandas sociais. Estudos de caso - iniciativas comunitárias em memória e museologia social: Ponto de Memória, Museu Comunitário e Ecomuseu."
+    },
+    {
+      "id": "MUS7909",
+      "code": "MUS7909",
+      "name": "Museus e Biodiversidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Museus e Sustentabilidade; Correntes do ovimento ambientalista; Educação ambiental e Educação museal."
+    },
+    {
+      "id": "MUS7914",
+      "code": "MUS7914",
+      "name": "Segurança e acessibilidade em Museus",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios de segurança física para as instituições museológicas; plano de segurança e plano de emergência. Noções básicas de acessibilidade para os mais diversos públicos."
+    },
+    {
+      "id": "MUS7915",
+      "code": "MUS7915",
+      "name": "Fomento de Projetos Culturais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ferramentas de gestão de instituições culturais. Natureza e particularidades de projetos de fomento. Leis de incentivo a cultura e sua aplicação. Políticas públicas e impactos no campo museológico."
+    },
+    {
+      "id": "MUS7916",
+      "code": "MUS7916",
+      "name": "Pesquisa Aplicada a Acervos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudos Aplicados a Pesquisa Museológica - recepção, documentação e preservação."
+    },
+    {
+      "id": "MUS7917",
+      "code": "MUS7917",
+      "name": "Pesquisa Aplicada a Acervos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Museológicos I Estudos Aplicados a Pesquisa Museológica - investigação, comunicação, conservação."
+    },
+    {
+      "id": "MUS7918",
+      "code": "MUS7918",
+      "name": "Museologia E Gênero",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Museológicos II Refletir sobre as relações entre gênero, representação e museologia através de temáticas colocadas por estudos de teoria museológica, análises expográficas e novas metodologias museográficas aplicadas a museus e espaços museais; Estudos culturais e políticas de património sob o viés da discussão de gênero."
+    },
+    {
+      "id": "MUS7919",
+      "code": "MUS7919",
+      "name": "Museus e as Tecnologias da Informação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As formas de proteção e promoção do património cultural no séc. XXI. Organização e disponibilização dos acervos museológicos no ambiente web. Sociedade da Informação e do Conhecimento. Cultura Digital. Ciberespaço e Cibercultura. Patrimônio Digital. Museu Virtual. Exposição Virtual. Museus e Mídias Sociais. Curadoria Digital. Tecnologias de Informação e Comunicação. Plataformas de Comunicação no ambiente web."
+    },
+    {
+      "id": "MUS7920",
+      "code": "MUS7920",
+      "name": "Organização e Representação em Museus",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos da Organização e Representação da Informação e do Conhecimento pela perspectiva dos Museus e da Museologia. Museu como espaço de pesquisa. O acervo museológico como fonte de informação. Reflexões teóricas sobre documentação e comunicação museológica."
+    },
+    {
+      "id": "MUS7950",
+      "code": "MUS7950",
+      "name": "Intercâmbio",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ANT7101",
+      "MUS7105",
+      "MUS7912",
+      "SPO7106",
+      "ANT7104",
+      "CIN7138",
+      "FIL7201",
+      "HST7900",
+      "MUS7203",
+      "GCN7950",
+      "HST7305",
+      "HST7928",
+      "MUS7305",
+      "MUS7306",
+      "HST7405",
+      "MUS7403",
+      "MUS7922",
+      "ANT7014",
+      "HST5838",
+      "HST7403",
+      "MUS7505",
+      "MUS7506",
+      "HST7604",
+      "MUS7913",
+      "MUS7921",
+      "MUS7923",
+      "MUS7702",
+      "MUS7911",
+      "MUS7801",
+      "MUS7802",
+      "MUS7900"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 432,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "MUS7910",
+              "ANT7001",
+              "ANT7003",
+              "ANT7021",
+              "ANT7062",
+              "ANT7068",
+              "ANT7701",
+              "HST5114",
+              "HST5921",
+              "HST7006",
+              "HST7101",
+              "HST7304",
+              "HST7603",
+              "LSB7904",
+              "MUS7901",
+              "MUS7902",
+              "MUS7903",
+              "MUS7908",
+              "MUS7909",
+              "MUS7914",
+              "MUS7915",
+              "MUS7916",
+              "MUS7917",
+              "MUS7918",
+              "MUS7919",
+              "MUS7920",
+              "MUS7950"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "338",
+    "curriculumCode": "20161",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=338&curriculo=20161",
+    "sha256": "2297f68f4864e819c87f463972872eb3bb84a022c070de83f4326a238cd293e9",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -60,10 +60,7 @@ function cleanCampusName(rawCampus: string): string {
 
 function generateSlug(rawCourseName: string, campus: string, courseCode: string, assignedSlugs: Set<string>): string {
   const existing = existingCourseSlugsByCode[courseCode];
-  if (existing) {
-    assignedSlugs.add(existing);
-    return existing;
-  }
+  if (existing) return existing;
 
   const cleanedCourse = cleanCourseName(rawCourseName);
   const baseSlug = normalizeString(cleanedCourse);
@@ -213,7 +210,7 @@ export async function crawlCagrCatalog(): Promise<CagrCatalogEntry[]> {
   const initial = await establishSession();
   const campusCount = parseCampusNodes(initial.rootHtml).length;
   const catalog: CagrCatalogEntry[] = [];
-  const assignedSlugs = new Set<string>();
+  const assignedSlugs = new Set<string>(Object.values(existingCourseSlugsByCode));
   const processedCourses = new Set<string>();
 
   for (let campusIndex = 0; campusIndex < campusCount; campusIndex += 1) {
@@ -249,7 +246,7 @@ export async function crawlCagrCatalog(): Promise<CagrCatalogEntry[]> {
         availableCurriculumCodes: curriculumCodes,
         url: `${cagrReportBaseUrl}?curso=${courseCode}&curriculo=${latestCurriculumCode}`,
       });
-      process.stdout.write(`  + [${courseCode}] ${courseName} (Matriz ${latestCurriculumCode})\n`);
+      process.stdout.write(`  + [${courseCode}] ${courseName} -> id: ${id} (Matriz ${latestCurriculumCode})\n`);
     }
   }
 

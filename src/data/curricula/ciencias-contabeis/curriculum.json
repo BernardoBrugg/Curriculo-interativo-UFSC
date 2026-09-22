@@ -1,0 +1,1772 @@
+{
+  "program": "CIÊNCIAS CONTÁBEIS",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2019.1",
+  "totalHours": 3624,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CAD5103",
+      "code": "CAD5103",
+      "name": "Administração I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CAD5151",
+        "CAD7001"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAD5151"
+          },
+          {
+            "kind": "course",
+            "code": "CAD7001"
+          }
+        ]
+      },
+      "syllabus": "Origem da administração como ciência. As funções administrativas: planejamento, organização, coordenação, comando e controle."
+    },
+    {
+      "id": "CCN6000",
+      "code": "CCN6000",
+      "name": "Contabilidade Introdutória I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CCN5115"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5115"
+      },
+      "syllabus": "História da Contabilidade. A empresa e a Contabilidade. Objetivos da Contabilidade. Estrutura conceitual: abordagem inicial. Patrimônio e Patrimônio líquido. Imobilizado: depreciação. Demonstrações Contábeis Obrigatórias pela Lei das S.A.: apresentação, finalidades e elaboração (Balanço Patrimonial, Demonstração do Resultado do Exercício, Demonstração dos Lucros ou Prejuízos Acumulados, Demonstração das Mutações do Patrimônio Líquido e Demonstração do Fluxo de Caixa, pelo método direto). Entendimento das mutações patrimoniais por meio da didática de \"balanços sucessivos\". Despesas Antecipadas. Registros contábeis através do método das \"partidas dobradas\"."
+    },
+    {
+      "id": "DIR6010",
+      "code": "DIR6010",
+      "name": "Direito Empresarial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5966",
+        "DIR7002"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5966"
+          },
+          {
+            "kind": "course",
+            "code": "DIR7002"
+          }
+        ]
+      },
+      "syllabus": "Introdução ao Direito Empresarial. Relação entre Direito, moral e justiça; norma jurídica; fontes do Direito; Direito Público: Constituição de 1988; Impactos do Dir Empresarial no Direito Administrativo e no Direito do Trabalho. Novo Código Civil; Código do Consumidor. Constituição Federal. Legislação Ambiental. Sujeitos de direito; Teoria da empresa; Código de Ética Profissional . A atividade empresarial e a ordem jurídica. O empresário. Propriedade intelectual e signos distintivos. Sociedades. Responsabilidade empresarial. Função social da empresa. Responsabilidade civil dos sócios e dos administradores. Personalidade jurídica e teoria da desconsideração da personalidade jurídica."
+    },
+    {
+      "id": "FIL5109",
+      "code": "FIL5109",
+      "name": "Ética e Filosofia Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos da Eticidade e escolas filosóficas que os interpretam. Questões éticas numa organização. O caráter ético e político da conduta profissional."
+    },
+    {
+      "id": "MTM3100",
+      "code": "MTM3100",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM5134",
+        "MTM7003"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5134"
+          },
+          {
+            "kind": "course",
+            "code": "MTM7003"
+          }
+        ]
+      },
+      "syllabus": "Conjuntos e aritmética básica; Cálculo com expressões algébricas; equações; inequações; funções."
+    },
+    {
+      "id": "CCN6001",
+      "code": "CCN6001",
+      "name": "Contabilidade Introdutória II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6000"
+      ],
+      "equivalents": [
+        "CCN5116"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6000"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5116"
+      },
+      "syllabus": "Estrutura Conceitual de Contabilidade. Contas a receber. Estoques (em empresas comerciais). Ativo Realizável a Longo Prazo. Imobilizado: registros contábeis na sua venda. Passivo Circulante e Passivo Não Circulante. Reservas de Lucros. Dividendo Obrigatório. Demonstração do Resultado do Exercício. Balanço Patrimonial. Políticas Contábeis, Mudanças nas Estimativas Contábeis e Retificação de Erros."
+    },
+    {
+      "id": "CNM5145",
+      "code": "CNM5145",
+      "name": "Teoria Econômica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos. Funções de demanda e oferta. Elasticidade: preço e renda. As teorias de demanda cardinal e ordinal. A teoria da firma. As funções de produção e de custos. O mercado perfeito e os mercados imperfeitos na formação do preço. As contas nacionais. As funções consumo e poupança. A função investimento. A demanda e a oferta monetária. O equilíbrio nos mercados real e monetário."
+    },
+    {
+      "id": "DIR5991",
+      "code": "DIR5991",
+      "name": "Legislação Tributária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Finanças Públicas e Direito Financeiro. Direito Tributário. Classificação jurídica dos tributos. Sistema Tributário Nacional. Normas gerais de Direito Tributário. Processo Administrativo Tributário. Tributos Federais, Tributos Estaduais e Tributos Municipais."
+    },
+    {
+      "id": "INE6010",
+      "code": "INE6010",
+      "name": "Métodos Estatísticos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "INE5113",
+        "INE5126"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5113"
+          },
+          {
+            "kind": "course",
+            "code": "INE5126"
+          }
+        ]
+      },
+      "syllabus": "Estatística descritiva (distribuições de frequências, apresentações em tabelas e gráficos, medidas de posição central, dispersão e assimetria). Probabilidade e distribuições de probabilidade. Amostragem. Inferência Estatística: amostragem e estimação. Inferência estatística: testes de hipóteses e intervalos de confiança. Análise de correlação e regressão linear simples."
+    },
+    {
+      "id": "MTM3561",
+      "code": "MTM3561",
+      "name": "Matemática Financeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM5151",
+        "MTM7004"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM5151"
+          },
+          {
+            "kind": "course",
+            "code": "MTM7004"
+          }
+        ]
+      },
+      "syllabus": "Juros e Descontos: Simples e Composto. Taxas. Rendas. Amortização de dívidas."
+    },
+    {
+      "id": "CCN6002",
+      "code": "CCN6002",
+      "name": "Contabilidade Intermediária I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6001"
+      ],
+      "equivalents": [
+        "CCN5117"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6001"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5117"
+      },
+      "syllabus": "Ativo não Circulante: Investimentos, Imobilizado, Intangível. Passivo Circulante e não Circulante: Provisões e Contingências, Empréstimos e financiamentos, debêntures. Patrimônio Líquido: Capital Social, Reserva de Capital, Ajustes de Avaliação Patrimonial, Ações em Tesouraria. Aprofundamento do Balanço Patrimonial e da Demonstração do Resultado do Exercício."
+    },
+    {
+      "id": "CCN6004",
+      "code": "CCN6004",
+      "name": "Matemática Financeira aplicada a",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3561"
+      ],
+      "equivalents": [
+        "MTM5152"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3561"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5152"
+      },
+      "syllabus": "Juros simples e compostos e sua aplicação na contabilidade com HP12c e Excel. Sistemas de amortização de dívida. Custo de empréstimos e cálculo da taxa efetiva de juros. Métodos de depreciação. Ajuste a valor presente. Métodos de análise de investimentos. Custo de oportunidade e custo de capital. Estimativas de perdas em clientes e estoques."
+    },
+    {
+      "id": "CCN6005",
+      "code": "CCN6005",
+      "name": "Contabilometria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "INE6010"
+      ],
+      "equivalents": [
+        "CCN5120"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE6010"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5120"
+      },
+      "syllabus": "Contabilidade Introdução à Contabilometria. Amostragem e distribuição de probabilidades. Bancos de dados. Teste de Hipóteses. Ferramentas de análise multivariada para tomada de decisão. Técnicas de Interdependência: Análise de clusters; Análise de correspondência; Análise de homogeneidade. Técnica de Dependência: Regressão simples e múltipla; Introdução à regressão logística e modelagem em painel."
+    },
+    {
+      "id": "CNM5305",
+      "code": "CNM5305",
+      "name": "Mercado de Capitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7102",
+        "CNM7307"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM7102"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7307"
+          }
+        ]
+      },
+      "syllabus": "Poupança. Ativos Financeiros. Sistemas Financeiro Nacional. Sociedades Anônimas. Investimento no Mercado de Capitais. Análise de balanço. Desenvolvimento econômico e mercado de capitais"
+    },
+    {
+      "id": "DIR5972",
+      "code": "DIR5972",
+      "name": "Legislação Social e Previdenciária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "1. Noções gerais sobre o Direito do trabalho. 2. Empregado. 3. Empregador. 4. Contrato do trabalho e relações de trabalho. 5. Salário e remuneração. 6. Estabilidade e garantias de emprego. 7. Extinção do contrato de trabalho. 8. Acidente de trabalho. 9. Direito processual do trabalho. 10. Direito Previdenciário"
+    },
+    {
+      "id": "CCN6003",
+      "code": "CCN6003",
+      "name": "Contabilidade Intermediária II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6002"
+      ],
+      "equivalents": [
+        "CCN5119"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6002"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5119"
+      },
+      "syllabus": "Demonstração das Mutações do Patrimônio Líquido (DMPL). Demonstração de Lucros e Prejuízos Acumulados (DLPA). Demonstração do Resultado Abrangente (DRA). Origens e Aplicações de Recursos que afetaram o Capital Circulante Líquida (CCL). Demonstração dos Fluxos de Caixa (DFC) pelos métodos Direto e Indireto. Demonstração do Valor Adicionado (DVA). Informação por Segmentos. Evento Subsequente. Notas Explicativas. Relatório da Administração. Relatórios de Sustentabilidade."
+    },
+    {
+      "id": "CCN6006",
+      "code": "CCN6006",
+      "name": "Contabilidade de Custos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6002"
+      ],
+      "equivalents": [
+        "CCN5137"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6002"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5137"
+      },
+      "syllabus": "Natureza da contabilidade de custos e conceitos básicos. Classificação dos custos. Departamentalização. Rateio dos custos indiretos. Custos diretos. Mão de obra. Sistemas de acumulação de custos. Produção conjunta."
+    },
+    {
+      "id": "CCN6007",
+      "code": "CCN6007",
+      "name": "Teoria da Contabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6002"
+      ],
+      "equivalents": [
+        "CCN5186"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6002"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5186"
+      },
+      "syllabus": "O desenvolvimento do pensamento contábil. Escolas do pensamento contábil. A evolução contábil no Brasil. Contabilidade objeto e objetivos. O Direito Romano e o Direito Consuetudinário. Teoria de Agência. Essência e Forma no Processo Contábil. Estrutura Conceitual Básica da Contabilidade. Conceituação, caracterização, avaliação e mensuração: Ativos, Passivos, Patrimônio Líquido, Receitas, Despesas, Ganhos, Perdas. Evidenciação contábil. Governança Corporativa"
+    },
+    {
+      "id": "CCN6008",
+      "code": "CCN6008",
+      "name": "Tributação das Empresas Comerciais e Industriais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5991"
+      ],
+      "equivalents": [
+        "CCN5321"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5991"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5321"
+      },
+      "syllabus": "A tributação das empresas comerciais e industriais. O ICMS e o IPI no Sistema Tributário Nacional. Cálculo e prática contábil envolvendo o ICMS e IPI."
+    },
+    {
+      "id": "CCN6009",
+      "code": "CCN6009",
+      "name": "Contabilidade e Responsabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6001"
+      },
+      "syllabus": "Políticas de Educação Ambiental. Responsabilidade Socioambiental e Sustentabilidade. Instrumentos de Gestão Ambiental. Logística reversa. Indicadores de Sustentabilidade. Balanço Social (Recursos Humanos, Ambiental, Demonstração do Valor Adicionado e Prestação de Serviços à Comunidade). Relatório de Sustentabilidade. Relato Integrado. Diligências Ambientais. Passivos Ambientais."
+    },
+    {
+      "id": "LLV7801",
+      "code": "LLV7801",
+      "name": "Produção Textual Acadêmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5603",
+        "LLV7003"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5603"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7003"
+          }
+        ]
+      },
+      "syllabus": "Socioambiental Estudo e produção de textos técnico-científicos relevantes para o desempenho das atividades acadêmicas, tais como: resumo, resenha, artigo e seminário. Prática pedagógica."
+    },
+    {
+      "id": "CCN6010",
+      "code": "CCN6010",
+      "name": "Contabilidade e Finanças",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6003"
+      ],
+      "equivalents": [
+        "CCN5180"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6003"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5180"
+      },
+      "syllabus": "Visão geral de finanças corporativas. Demonstrações contábeis e planejamento financeiro. Projeções das Demonstrações Financeiras. Orçamento de Capital, Retorno e Risco. Métodos de Avaliação de Empresas. Derivativos. Custo de Capital. Aplicações dos conceitos de finanças na contabilidade."
+    },
+    {
+      "id": "CCN6011",
+      "code": "CCN6011",
+      "name": "Análise de Custos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6006"
+      ],
+      "equivalents": [
+        "CCN5139"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6006"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5139"
+      },
+      "syllabus": "Custeio Variável. Relação Custo-Volume-Lucro. Formação do preço de venda. Custos imputados e custos perdidos. Custos para controle. Custeio baseado em atividades e método das unidades de esforço de produção."
+    },
+    {
+      "id": "CCN6012",
+      "code": "CCN6012",
+      "name": "Contabilidade Tributária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5991"
+      ],
+      "equivalents": [
+        "CCN5322"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5991"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5322"
+      },
+      "syllabus": "Os impostos e contribuições incidentes sobre a Receita e sobre o Resultado: IRPJ, CSLL, PIS/PASEP e COFINS. A tributação das Pessoas Jurídicas e o Sistema Público de Escrituração Digital (SPED). Os sistemas simplificados de tributação das Pessoas Jurídicas."
+    },
+    {
+      "id": "CCN6013",
+      "code": "CCN6013",
+      "name": "Análise das Demonstrações Contábeis",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6003"
+      ],
+      "equivalents": [
+        "CCN5303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6003"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5303"
+      },
+      "syllabus": "Conceito, objetivo, objeto e usuários da análise das demonstrações contábeis. Preparação das demonstrações para análise. Análises econômica e financeira empresarial. Técnicas de análise - análises vertical e horizontal, por meio de índices e outras. Análises de rentabilidade, lucratividade (margem), giro, imobilização, liquidez e endividamento. Indicadores de ciclos e prazos médios. Parâmetros para comparações. Estrutura de capital e alavancagem financeira. Indicadores para gestão do capital de giro. Apuração e análise do EBITDA."
+    },
+    {
+      "id": "CCN6014",
+      "code": "CCN6014",
+      "name": "Tributação na Prestação de Serviços",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5991"
+      ],
+      "equivalents": [
+        "CCN5321"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5991"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5321"
+      },
+      "syllabus": "A tributação das empresas prestadoras de serviços. A tributação dos prestadores de serviço Pessoa Física. O ISS/ISSQN em face do Sistema Tributário Nacional e a sua prática contábil. A sistemática da Retenção na contratação de serviços."
+    },
+    {
+      "id": "CCN6015",
+      "code": "CCN6015",
+      "name": "Contabilidade Avançada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6010"
+      ],
+      "equivalents": [
+        "CCN5184"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6010"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5184"
+      },
+      "syllabus": "Método de Equivalência Patrimonial. Combinação de Negócios. Conversão de Demonstrações Contábeis. Consolidação das Demonstrações Contábeis. Reorganização Societária: Fusões, Incorporações e Cisões."
+    },
+    {
+      "id": "CCN6016",
+      "code": "CCN6016",
+      "name": "Contabilidade Gerencial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6011"
+      ],
+      "equivalents": [
+        "CCN5140"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6011"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5140"
+      },
+      "syllabus": "Natureza da contabilidade gerencial e conceitos. Gestão estratégica de custos. Contabilidade por responsabilidade. Formação estratégica de preços. Controle gerencial. Estudos de casos relacionados a instrumentos da contabilidade gerencial."
+    },
+    {
+      "id": "CCN6017",
+      "code": "CCN6017",
+      "name": "Laboratório de Prática Contábil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6012"
+      ],
+      "equivalents": [
+        "CCN5121",
+        "CCN5124"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6012"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CCN5121"
+          },
+          {
+            "kind": "course",
+            "code": "CCN5124"
+          }
+        ]
+      },
+      "syllabus": "Prática contábil com aplicação de técnicas e recursos convencionais e informatizados. Rotinas de funcionamento dos vários setores de empresas comerciais e o preenchimento de documentos e formulários relacionados com a atividade empresarial."
+    },
+    {
+      "id": "CCN6018",
+      "code": "CCN6018",
+      "name": "Contabilidade Pública I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6013"
+      ],
+      "equivalents": [
+        "CCN5171"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6013"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5171"
+      },
+      "syllabus": "Bases normativas e conceituais da Contabilidade Aplicada ao Setor Público. Campo de aplicação. Noções de Estado e administração pública no Brasil. Atividade financeira do Estado. Planejamento e orçamento público. Princípios orçamentários. Plano Plurianual. Lei de Diretrizes Orçamentárias. Lei Orçamentária Anual. Receita pública. Despesa pública. Operações extraorçamentárias. Exercício financeiro e regimes contábeis. Créditos adicionais. Despesas de exercícios anteriores. Restos a pagar. Consolidação das contas públicas. Demonstrativos contábeis de natureza orçamentária. Balanço orçamentário. Plano de Contas. Escrituração contábil orçamentária."
+    },
+    {
+      "id": "CCN6020",
+      "code": "CCN6020",
+      "name": "Metodologia da Pesquisa Aplicada à",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "LLV7801"
+      ],
+      "equivalents": [
+        "CCN5141"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7801"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5141"
+      },
+      "syllabus": "Ciência e senso comum, métodos do conhecimento, objetivos da ciência, a explicação científica e teoria. Pesquisa científica: problemas e hipóteses. Conceitos, constructos, variáveis. Abordagem experimental e não experimental. Delineamentos das pesquisas: critérios. Tipos de pesquisa: classificação, critérios de avaliação. Pesquisa científica na área social: tipologia e características. Pesquisas Qualitativas e Pesquisas Quantitativas. Pesquisa amostral: tipos, metodologia e validade. Mensuração: conceituação e níveis. Teoria da fidedignidade. Teoria da validade. Métodos de observação e coleta de dados. A aplicação de métodos matemáticos e estatísticos na pesquisa em contabilidade."
+    },
+    {
+      "id": "CCN6019",
+      "code": "CCN6019",
+      "name": "Contabilidade Pública II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6018"
+      ],
+      "equivalents": [
+        "CCN5172"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6018"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5172"
+      },
+      "syllabus": "Bases normativas e conceituais da Contabilidade Aplicada ao Setor Público. Transparência governamental e acesso à informação. Instrumentalização do controle social. Patrimônio público. Bens públicos. Avaliação e mensuração de ativos e passivos. Revisão sobre receita e despesa pública. Regimes contábeis sob o enfoque patrimonial. Lei de Responsabilidade Fiscal. Relatórios e demonstrativos contábeis estatais. Elaboração e análise dos balanços públicos. Dívida pública. Operações de crédito. Controles e auditoria na administração pública. Plano de contas. Escrituração contábil."
+    },
+    {
+      "id": "CCN6021",
+      "code": "CCN6021",
+      "name": "Auditoria Contábil I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6015"
+      ],
+      "equivalents": [
+        "CCN5318"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6015"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5318"
+      },
+      "syllabus": "Conceitos de auditoria. Formas de Auditoria. Formação Técnico-Comportamental (normas profissionais do auditor, qualificação técnica, educação continuada, normas técnicas de auditoria e normas éticas). Planejamento da auditoria. Risco de auditoria. Relevância em Auditoria. Amostragem de Auditoria. Evidência em auditoria. Tendências e Evoluções da Auditoria."
+    },
+    {
+      "id": "CCN6023",
+      "code": "CCN6023",
+      "name": "Simulação Gerencial I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6016"
+      ],
+      "equivalents": [
+        "CCN5181"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6016"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5181"
+      },
+      "syllabus": "Jogos de empresas. Administração geral. Administração de vendas. Administração de compras. Administração de recursos humanos. Administração financeira."
+    },
+    {
+      "id": "CCN6025",
+      "code": "CCN6025",
+      "name": "Sistema de Informação Contábil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6017"
+      ],
+      "equivalents": [
+        "CCN5185"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6017"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5185"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN6026",
+      "code": "CCN6026",
+      "name": "Técnicas de Elaboração de Projeto de Pesquisa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6020"
+      ],
+      "equivalents": [
+        "CCN5141"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6020"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5141"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN6022",
+      "code": "CCN6022",
+      "name": "Auditoria Contábil II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6021"
+      ],
+      "equivalents": [
+        "CCN5320"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6021"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5320"
+      },
+      "syllabus": "Avaliação de Evidências. Procedimentos/Técnicas de auditorias. Definição, Tipos, Projeto e Avaliação de Sistemas de Controles Internos. Controle de Qualidade. Revisão da Qualidade pelos Pares. Transações com Partes Relacionadas. Contingências. Eventos Subsequentes. Carta de Responsabilidade da Administração. Continuidade Normal das Atividades. Erro e Fraude. Estimativas Contábeis. Documentação de Auditoria ou Papéis de Trabalhos. Relatório de Auditoria. Auditoria de Contas Patrimoniais (públicas e privadas). Auditoria de Contas de Resultado (públicas e privadas)."
+    },
+    {
+      "id": "CCN6024",
+      "code": "CCN6024",
+      "name": "Simulação Gerencial II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6023"
+      ],
+      "equivalents": [
+        "CCN5182"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6023"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5182"
+      },
+      "syllabus": "Jogos de empresas. Administração geral. Administração de vendas. Administração da produção. Administração de recursos humanos. Administração financeira."
+    },
+    {
+      "id": "CCN6027",
+      "code": "CCN6027",
+      "name": "Planejamento Tributário",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6008",
+        "CCN6012",
+        "CCN6014"
+      ],
+      "equivalents": [
+        "CCN5323"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CCN6008"
+          },
+          {
+            "kind": "course",
+            "code": "CCN6012"
+          },
+          {
+            "kind": "course",
+            "code": "CCN6014"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5323"
+      },
+      "syllabus": "Fundamentos de planejamento tributário. Responsabilidade social da empresa e as obrigações tributárias; buscando a elisão fiscal. Ponto de equilíbrio em tributos. Racionalização de procedimentos fiscais e contábeis em relação ao planejamento tributário."
+    },
+    {
+      "id": "CCN6028",
+      "code": "CCN6028",
+      "name": "Controladoria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6016"
+      ],
+      "equivalents": [
+        "CCN5325"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6016"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5325"
+      },
+      "syllabus": "Histórico e conceito. Funções básicas da controladoria. Planejamento estratégico e Controle de gestão estratégico e operacional. Orçamento empresarial e orçamento de capital. Remuneração como forma de incentivo. Avaliação de desempenho empresarial. Balanced Scorecard (BSC)."
+    },
+    {
+      "id": "CCN6029",
+      "code": "CCN6029",
+      "name": "Perícia Contábil",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6003"
+      ],
+      "equivalents": [
+        "CCN5147"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6003"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5147"
+      },
+      "syllabus": "A perícia como prova judicial. O Perito Contador e o Perito Contador Assistente e campos de atividade. Norma Profissional e Técnica. Ética profissional. Prova Pericial. Honorários. Plano de trabalho. Quesitos. Diligências O laudo e Noções de Prática Pericial."
+    },
+    {
+      "id": "CCN6030",
+      "code": "CCN6030",
+      "name": "Trabalho de Conclusão de Curso - TCC",
+      "credits": 12,
+      "hours": 216,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CCN6026"
+      ],
+      "equivalents": [
+        "CCN5404",
+        "CCN5405"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6026"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CCN5404"
+          },
+          {
+            "kind": "course",
+            "code": "CCN5405"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN5301",
+      "code": "CCN5301",
+      "name": "Atividades Complementares",
+      "credits": 0,
+      "hours": 0,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "_ Atividades Complementares"
+    },
+    {
+      "id": "CCN5166",
+      "code": "CCN5166",
+      "name": "Contabilidade Rural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6006"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6006"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN5167",
+      "code": "CCN5167",
+      "name": "Contabilidade Hotelaria Turismo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6006"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6006"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN5231",
+      "code": "CCN5231",
+      "name": "Tópicos Especiais de Contabilidade I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6002"
+      },
+      "syllabus": "Os tópicos Especiais de Contabilidade serão previamente programados pelo Departamento, constarão do plano de ensino da disciplina quando for oferecida no semestre e abrangerão estudos, debates, seminários, painéis, viagens, visitas, etc. de assuntos os mais diversos relacionados com o ensino das ciências contábeis."
+    },
+    {
+      "id": "CCN5241",
+      "code": "CCN5241",
+      "name": "Tópicos Especiais de Contabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6016"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6016"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN5242",
+      "code": "CCN5242",
+      "name": "Tópicos Especiais de Contabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6016"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6016"
+      },
+      "syllabus": "Gerencial I"
+    },
+    {
+      "id": "CCN5243",
+      "code": "CCN5243",
+      "name": "Tópicos Especiais de Contabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6016"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6016"
+      },
+      "syllabus": "Gerencial II"
+    },
+    {
+      "id": "CCN5246",
+      "code": "CCN5246",
+      "name": "Tópicos Especiais de Contabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6003"
+      },
+      "syllabus": "Gerencial III"
+    },
+    {
+      "id": "CCN5247",
+      "code": "CCN5247",
+      "name": "Contabilidade e Responsabilidade Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6002"
+      },
+      "syllabus": "Societária"
+    },
+    {
+      "id": "CCN5248",
+      "code": "CCN5248",
+      "name": "Controle Interno na Administração Pública",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6018"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6018"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN5249",
+      "code": "CCN5249",
+      "name": "Contabilidade de Ativos Intangíveis",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6002"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN5250",
+      "code": "CCN5250",
+      "name": "Contabilidade e Avaliação Multicriterial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6005"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN5251",
+      "code": "CCN5251",
+      "name": "Tópicos Especiais de Contabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6019"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6019"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN5252",
+      "code": "CCN5252",
+      "name": "Tópicos Especiais de Contabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6019"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6019"
+      },
+      "syllabus": "Pública I"
+    },
+    {
+      "id": "CCN5254",
+      "code": "CCN5254",
+      "name": "Sistemas de Informações Gerenciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6016"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6016"
+      },
+      "syllabus": "Pública II"
+    },
+    {
+      "id": "CCN5255",
+      "code": "CCN5255",
+      "name": "Perícia Societária",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6029"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6029"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN5259",
+      "code": "CCN5259",
+      "name": "Normas Internacionais de Contabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6003"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN5261",
+      "code": "CCN5261",
+      "name": "Contabilidade de Empresas Imobiliárias",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6002"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN5262",
+      "code": "CCN5262",
+      "name": "Contabilidade de Cooperativas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6002"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN6100",
+      "code": "CCN6100",
+      "name": "Tópicos Especiais de Contabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6003"
+      },
+      "syllabus": "Os tópicos Especiais de Contabilidade Societária serão previamente programados pelo Departamento, constarão do plano de ensino da disciplina quando for oferecida no semestre e abrangerão estudos, debates, seminários, painéis, viagens, visitas, etc. de assuntos os mais diversos relacionados com a área da Contabilidade Societária."
+    },
+    {
+      "id": "CCN6101",
+      "code": "CCN6101",
+      "name": "Tópicos Especiais de Contabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6003"
+      },
+      "syllabus": "Societária II Os tópicos Especiais de Contabilidade Societária serão previamente programados pelo Departamento, constarão do plano de ensino da disciplina quando for oferecida no semestre e abrangerão estudos, debates, seminários, painéis, viagens, visitas, etc. de assuntos os mais diversos relacionados com a área da Contabilidade Societária."
+    },
+    {
+      "id": "CCN6102",
+      "code": "CCN6102",
+      "name": "Contabilidade Avançada II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6015"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6015"
+      },
+      "syllabus": "Os assuntos de Contabilidade Avançada II serão previamente programados pelo Departamento e constarão do plano de ensino da disciplina quando for oferecida no semestre e abrangerão temas de contabilidade."
+    },
+    {
+      "id": "CCN6103",
+      "code": "CCN6103",
+      "name": "Governança nas Organizações",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6002"
+      ],
+      "equivalents": [
+        "CCN9501"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6002"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN9501"
+      },
+      "syllabus": "Governança corporativa. Códigos de governança corporativa. Divulgação de informações e governança. Fatores de influência sobre a governança corporativa. Práticas de governança."
+    },
+    {
+      "id": "CCN6104",
+      "code": "CCN6104",
+      "name": "Contabilidade do Terceiro Setor",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6002"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CCN6105",
+      "code": "CCN6105",
+      "name": "Noções de Atuária",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6005"
+      ],
+      "equivalents": [
+        "CCN5183"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6005"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CCN5183"
+      },
+      "syllabus": "Planos de Benefícios das Entidades de Previdência. Plano de Benefícios. Entidades de Previdência Complementar. Noções de Contabilidade de Seguros."
+    },
+    {
+      "id": "CCN6106",
+      "code": "CCN6106",
+      "name": "Tópicos Especiais de Contabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CCN6016"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CCN6016"
+      },
+      "syllabus": "Estudos e debates de tópicos especiais de contabilidade gerencial, previamente selecionados e programados pelo Departamento de acordo com a relevância e atualidade dos temas de interesse da gestão empresarial."
+    },
+    {
+      "id": "EGC5028",
+      "code": "EGC5028",
+      "name": "Habitats de Inovação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5028
+      },
+      "prerequisiteHours": 5028,
+      "syllabus": "Gerencial IV Sistemas de ciência, tecnologia e inovação. A tríplice hélice. Cooperação universidade empresa. Redes de cooperação. Habitats de inovação."
+    },
+    {
+      "id": "EGC5029",
+      "code": "EGC5029",
+      "name": "Gestão da Sustentabilidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relação sociedade e meio ambiente; Desenvolvimento Sustentável - conceitos e implicações para a sociedade e organizações; Dimensões da Sustentabilidade: Econômica, Social, Ambiental, Públicas e Privadas no contexto da Sustentabilidade; Elementos de Política Ambiental; Instrumentos de Regulação e Controle x Instrumentos Econômicos; Princípios da Economia Ecológica; Contabilidade Ambiental; Gestão Ambiental; Sistemas de Informação e Indicadores de Sustentabilidade."
+    },
+    {
+      "id": "EGC5263",
+      "code": "EGC5263",
+      "name": "Finanças Pessoais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Planejamento financeiro; processo de planejamento financeiro pessoal, objetivos, necessidades e prioridades do cliente; nível de tolerância ao risco; coleta de dados; relacionamento com o mercado e instituições; desenvolvimento e apresentação de um plano financeiro; implementação e monitoramento. PROGRAMA 1. Comportamento humano: personalidade e resistências a mudanças; perfis psicológicos; fatores restritivos da personalidade; administrando as emoções e os conflitos. 2. Valores culturais e a personalidade, stress, mudanças e plano de ação. 3. Operações de Crédito; Conceitos básicos de crédito. 4. Análise e seleção de seguros e previdência privada; conceitos básicos de seguros; riscos e exposição ao risco; seguros de pessoas; seguro de vida; seguro saúde. 5. Fundamentos de previdência privada; benefícios; previdência social e previdência privada; órgãos regulatórios; características específicas; perfil do investidor. 6. Investimento imobiliário. 7. Investimento e gestão de risco; Intermediação financeira; eficiência dos mercados e instituições financeiras; Alocação patrimonial (asset allocation). Avaliação dos principais produtos financeiros negociados no mercado; fundos de investimentos; mercado de títulos de renda fixa e de renda variável no Brasil. 8. Investimento em Tesouro Direto. 9. Investimento em Renda Variável – ações. 10. Comportamento do investidor perante o risco; teoria de carteiras; diversificação; opções; derivativos; riscos com derivativos."
+    },
+    {
+      "id": "HST7202",
+      "code": "HST7202",
+      "name": "História da África ( PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7202
+      },
+      "prerequisiteHours": 7202,
+      "syllabus": "Estudo das diferentes estruturas sócio-políticas da África entre os séculos XVI e XX, os processos de constituição dos sistemas coloniais e de descolonização e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST7304",
+      "code": "HST7304",
+      "name": "História Indígena (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7304
+      },
+      "prerequisiteHours": 7304,
+      "syllabus": "Estudo das populações indígenas no Brasil e das políticas indigenistas, bem como sobre as diferentes abordagens historiográficas relativas à representação dessas populações entre os séculos XVI e XXI e suas perspectivas teóricas e de ensino."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7244"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7244"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "LSB7910",
+      "code": "LSB7910",
+      "name": "Língua Brasileira de Sinais II (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7269"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7269"
+      },
+      "syllabus": "aula) -Apropriação do espaço de sinalização. As questões gramaticais na localização espacial. Diferenciação do espaço topográfico dos pontos estabelecidos. Contrastar pontos espaciais através da apontação e do uso de corpo. Descrição das pessoas e objetos usando Classificadores. Desenvolver estruturas narrativas. Desenvolver habilidades de leitura de sinais soletrados lexicalizados e não-lexicalizados. Interação e aspectos sociais, história e política da comunidade Surda. Interação em sinais em diferentes contextos cotidianos."
+    },
+    {
+      "id": "PSI7610",
+      "code": "PSI7610",
+      "name": "Psicologia e Relações Étnico-Raciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos Iniciais sobre raça e etnia. O olhar da Psicologia sobre Relações Étnico-Raciais. Racismo, História e Ideologia. Identidade e Identificações (Negritude, Branquitude, Indianismo e Mestiçagem). Epistemologias Afrocentradas e Descoloniais. Movimentos sociais e políticas públicas de ações afirmativas. Efeitos Psicossociais do Racismo. Intervenção Psicossocial para promoção da igualdade étnico-racial. Sustentabilidade e populações tradicionais"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "CAD5103",
+      "CCN6000",
+      "DIR6010",
+      "FIL5109",
+      "MTM3100",
+      "CCN6001",
+      "CNM5145",
+      "DIR5991",
+      "INE6010",
+      "MTM3561",
+      "CCN6002",
+      "CCN6004",
+      "CCN6005",
+      "CNM5305",
+      "DIR5972",
+      "CCN6003",
+      "CCN6006",
+      "CCN6007",
+      "CCN6008",
+      "CCN6009",
+      "LLV7801",
+      "CCN6010",
+      "CCN6011",
+      "CCN6012",
+      "CCN6013",
+      "CCN6014",
+      "CCN6015",
+      "CCN6016",
+      "CCN6017",
+      "CCN6018",
+      "CCN6020",
+      "CCN6019",
+      "CCN6021",
+      "CCN6023",
+      "CCN6025",
+      "CCN6026",
+      "CCN6022",
+      "CCN6024",
+      "CCN6027",
+      "CCN6028",
+      "CCN6029",
+      "CCN6030",
+      "CCN5301"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 288,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CCN5166",
+              "CCN5167",
+              "CCN5231",
+              "CCN5241",
+              "CCN5242",
+              "CCN5243",
+              "CCN5246",
+              "CCN5247",
+              "CCN5248",
+              "CCN5249",
+              "CCN5250",
+              "CCN5251",
+              "CCN5252",
+              "CCN5254",
+              "CCN5255",
+              "CCN5259",
+              "CCN5261",
+              "CCN5262",
+              "CCN6100",
+              "CCN6101",
+              "CCN6102",
+              "CCN6103",
+              "CCN6104",
+              "CCN6105",
+              "CCN6106",
+              "EGC5028",
+              "EGC5029",
+              "EGC5263",
+              "HST7202",
+              "HST7304",
+              "LSB7904",
+              "LSB7910",
+              "PSI7610"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "302",
+    "curriculumCode": "20191",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=302&curriculo=20191",
+    "sha256": "d754ac91be565789c8e435bc1f1a4402ec9b2e15b9bb09d54c36bbb366bc43eb",
+    "capturedAt": "2026-09-22"
+  }
+}

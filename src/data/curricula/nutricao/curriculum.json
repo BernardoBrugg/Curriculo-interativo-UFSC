@@ -1,0 +1,1846 @@
+{
+  "program": "NUTRIÇÃO",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.1",
+  "totalHours": 4302,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "BEG5101",
+      "code": "BEG5101",
+      "name": "Fundamentos da Biologia Celular",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG5106",
+        "BEG5112"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5106"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5112"
+          }
+        ]
+      },
+      "syllabus": "Noções de microscopia de luz e eletrônica. Comparação entre células procarióticas e eucarióticas. Biomoléculas. Organização molecular, ultraestrutural e funcional das células eucarióticas animais e vegetais. Interações metabólicas entre células animais e vegetais. Processos reprodutivos celulares."
+    },
+    {
+      "id": "MOR5210",
+      "code": "MOR5210",
+      "name": "Anatomia Humana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MOR5219",
+        "MOR5231",
+        "MOR7001"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MOR5219"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5231"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7001"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Anatomia. Sistema Tegumentar. Osteologia. Artrologia. Miologia. Sistema Circulatório. Sistema Digestivo. Sistema Respiratório. Aparelho Genito- Urinário. Sistema Endócrino. Sistema Nervoso."
+    },
+    {
+      "id": "NTR7000",
+      "code": "NTR7000",
+      "name": "Cultura, Consumo e Padrões Alimentares",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cultura, Alimentação e Nutrição. Fatores que influenciam o consumo, hábitos e práticas alimentares. Influência de diferentes grupos étnicos nos hábitos e padrões alimentares da população brasileira, destacando-se a cultura afro-brasileira, africana, indígena e da imigração. Processo de mudanças nos hábitos e padrões de alimentação da população brasileira"
+    },
+    {
+      "id": "NTR7001",
+      "code": "NTR7001",
+      "name": "Introdução à Segurança Alimentar e Nutricional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "NTR5624"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5624"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "(EXT 18h-a) Contextualização histórica de território em alimentação e nutrição. Relação entre áreas de conhecimento em nutrição e território. Relação entre o conceito de saúde e o Direito Humano. Histórico dos direitos humanos, enfocando na garantia do direito humano à alimentação adequada e o histórico da segurança alimentar e nutricional com enfoque no Brasil. Direito humano à alimentação adequada para a promoção da Saúde e Segurança alimentar. Conceito, compreensão e significado de território e territorialização. O território em saúde, alimentação e nutrição",
+      "extensionHours": 36
+    },
+    {
+      "id": "SPB5200",
+      "code": "SPB5200",
+      "name": "Políticas Públicas em Saúde",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "SPB5100",
+        "SPB5218"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPB5100"
+          },
+          {
+            "kind": "course",
+            "code": "SPB5218"
+          }
+        ]
+      },
+      "syllabus": "Aspectos históricos e socioeconômicos do desenvolvimento e da organização política da saúde no Brasil e no mundo. Reforma sanitária no Brasil. Princípios e diretrizes do Sistema Único de Saúde. Financiamento e alocação de recursos de saúde no Brasil. Sistemas comparados e reformas de sistemas de saúde. Âmbito de organização do sistema de atenção. Redes de Atenção à Saúde."
+    },
+    {
+      "id": "SPO5114",
+      "code": "SPO5114",
+      "name": "Sociologia e Saúde",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Evolução do pensamento sociológico. Contexto histórico do surgimento da Sociologia. Correntes do pensamento social: estruturalismo, funcionalismo e materialismo. Classes urbanas e rurais. Classes, poder e Estado no Brasil. Marginalidade social e luta de classes."
+    },
+    {
+      "id": "BQA5123",
+      "code": "BQA5123",
+      "name": "Bioquímica 03 - Básica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BQA5124"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BQA5124"
+      },
+      "syllabus": "Química e importãncia biológica de carboidratos, lipídios e proteínas. Enzimas. Coenzimas e Vitaminas. Bioenergética. Metabolismo de carboidratos, lipídios, aminoácidos e proteínas. Interrelação e regulação metabólica.7"
+    },
+    {
+      "id": "MIP5306",
+      "code": "MIP5306",
+      "name": "Parasitologia VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG5101"
+      },
+      "syllabus": "Protozoários, helmintos e artrópodos de interesse médico: Morfologia e biologia. Micologia: fungos de interesse médico. Animais peçonhentos, araneismo, escorpionismo, ofidismo. Noções de parasitologia e micologia aplicadas à Nutrição."
+    },
+    {
+      "id": "MOR5118",
+      "code": "MOR5118",
+      "name": "Histologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5101",
+        "MOR5210"
+      ],
+      "equivalents": [
+        "MOR5120",
+        "MOR7003"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5101"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5210"
+          },
+          {
+            "kind": "hours",
+            "hours": 5118
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MOR5120"
+          },
+          {
+            "kind": "course",
+            "code": "MOR7003"
+          }
+        ]
+      },
+      "prerequisiteHours": 5118,
+      "syllabus": "Métodos de Estudo em Histologia. Tecido Epitelial. Tecidos Conjuntivos. Tecidos Cartilaginoso e Ósseo. Tecidos Musculares. Tecido Nervoso. Sangue. Sistema Circulatório. Sistema Linfático. Sistema Digestivo. Sistema Urinário. Sistema Endócrino. Sistema Reprodutor."
+    },
+    {
+      "id": "NTR7003",
+      "code": "NTR7003",
+      "name": "Políticas Públicas de Alimentação e Nutrição",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "NTR5602",
+        "NTR5625"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR5602"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5625"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Introdução às Políticas Públicas de Alimentação e Nutrição. O Sistema de Segurança Alimentar e Nutricional (SISAN) nas distintas esferas administrativas: municipal, estadual e federal. Identificação dos programas de alimentação e nutrição nos distintos territórios de prática",
+      "extensionHours": 36
+    },
+    {
+      "id": "NTR7004",
+      "code": "NTR7004",
+      "name": "Sistema Alimentar",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR7000",
+        "NTR7001"
+      ],
+      "equivalents": [
+        "NTR5626"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR7000"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7001"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5626"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Políticas federais, estaduais e municipais promotoras da Agricultura familiar, com ênfase na priorização da compra de alimentos de comunidades tradicionais indígenas e de remanescentes de quilombos. Modelos produtivos de alimentos e as possíveis implicações dos contaminantes químicos introduzidos nos alimentos para a saúde humana, saúde ambiental e saúde social. Identificar alimentos e respectivos grupos alimentares. Analisar dados sobre abastecimento de alimentos nos distintos territórios de prática",
+      "extensionHours": 18
+    },
+    {
+      "id": "SPB5210",
+      "code": "SPB5210",
+      "name": "Epidemiologia e Bioestatística",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "SPB5112",
+        "SPB5127"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPB5112"
+          },
+          {
+            "kind": "course",
+            "code": "SPB5127"
+          }
+        ]
+      },
+      "syllabus": "Aspectos históricos da epidemiologia e historicidade dos conceitos e uso. Conceituação de saúde e doença. Causalidade e determinação do processo saúde/doença. Medidas de mortalidade e morbidade. Delineamentos epidemiológicos. Conceito de risco. Introdução à bioestatística, coleta e análise descritiva de dados em saúde, noções de probabilidade, distribuição Normal e escore-Z, distribuição binomial, introdução à estatística inferencial."
+    },
+    {
+      "id": "BQA5104",
+      "code": "BQA5104",
+      "name": "Bioquímica 04 - Fisiológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5123"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA5123"
+      },
+      "syllabus": "Aspectos bioquímicos dos processos de digestão e absorção de nutrientes. Composição e funções do sangue. Composição e funções do suco digestivo. Aspectos bioquímico-fisiológicos de doenças com implicações nutricionais."
+    },
+    {
+      "id": "CFS5146",
+      "code": "CFS5146",
+      "name": "Fisiologia Humana I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5123",
+        "MOR5118",
+        "MOR5210"
+      ],
+      "equivalents": [
+        "CFS7100"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5123"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5118"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5210"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CFS7100"
+      },
+      "syllabus": "Homeostase e potenciais de membrana, fisiologia neuromuscular e neurovegetativa, fisiologia endócrina, fisiologia digestória, fisiologia cardiovascular, fisiologia respiratória e fisiologia renal."
+    },
+    {
+      "id": "CIN5105",
+      "code": "CIN5105",
+      "name": "Metodologia Científica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Técnicas de pesquisas bibliográficas. Normalização do trabalho científico."
+    },
+    {
+      "id": "MIP5118",
+      "code": "MIP5118",
+      "name": "Microbiologia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5101"
+      ],
+      "equivalents": [
+        "MIP7013"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG5101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MIP7013"
+      },
+      "syllabus": "Morfologia, citologia, fisiologia e genética das bactérias. Características gerais de vírus, fungos e leveduras. Toxinfecções alimentares. Diagnóstico bacteriológico de alimentos. Noções de microbiologia aplicadas à Nutrição."
+    },
+    {
+      "id": "NTR1119",
+      "code": "NTR1119",
+      "name": "Introdução a Trabalhos Acadêmicos em Nutrição",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "NTR5623"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5623"
+      },
+      "syllabus": "Processo de elaboração de projetos e relatórios acadêmicos em nutrição e formas de apresentação de trabalhos acadêmcios"
+    },
+    {
+      "id": "NTR5604",
+      "code": "NTR5604",
+      "name": "Avaliação Nutricional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "NTR5102",
+        "NTR5109"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR5102"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5109"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos métodos de diagnóstico nutricional individual e coletivo: métodos diretos e indiretos. Avaliação antropométrica nos diferentes ciclos de vida (gestante, criança, adolescente, adulto e idoso). Avaliação da composição corporal."
+    },
+    {
+      "id": "NTR7006",
+      "code": "NTR7006",
+      "name": "Epidemiologia Nutricional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "SPB5210"
+      ],
+      "equivalents": [
+        "NTR5120"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPB5210"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5120"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Magnitude dos distúrbios nutricionais em nível mundial e no Brasil. Epidemiologia dos distúrbios nutricionais: carências nutricionais específicas e doenças por excesso. Transição epidemiológica e nutricional. Estudo e aplicação dos métodos de inquéritos de consumo alimentar e sócio econômico. Sistema de Vigilância Alimentar e Nutricional como conceito ampliado de vigilância em saúde (consumo alimentar, sócio econômico, dados antropométricos, demográficos, epidemiológicos e sanitários).",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5301",
+      "code": "CAL5301",
+      "name": "Tecnologia de Alimentos III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA5104"
+      },
+      "syllabus": "Generalidades. Conservação de alimentos através de: calor, eliminação de água, frio, fermentação. Importância do controle de qualidade. Processos de industrialização de produtos de origem vegetal e animal."
+    },
+    {
+      "id": "CAL5305",
+      "code": "CAL5305",
+      "name": "Microbiologia, Higiene e Controle dos Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MIP5118"
+      ],
+      "equivalents": [
+        "CAL5403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP5118"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5403"
+      },
+      "syllabus": "Higiene e controle microbiológico de alimentos. Mircroorganismos deteriorantes, patogênicos e indicadores. Análise microbiológica de alimentos: plano de amostragem, procedimentos de coleta e de transporte de amostras. Legislação: padrões microbiológicos para alimentos. Novos métodos para análise microbiológica de alimentos."
+    },
+    {
+      "id": "CAL5309",
+      "code": "CAL5309",
+      "name": "Bromatologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5104"
+      ],
+      "equivalents": [
+        "CAL5304",
+        "CAL5404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA5104"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5304"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5404"
+          }
+        ]
+      },
+      "syllabus": "Conceito. Relação com as demais ciências básicas e aplicadas. Classificação e campo de ação. Conceito de alimentos e produtos alimentícios e seu valor nutritivo. Digestão dos alimentos. Composição básica de produtos alimentícios. Alimentos glicídicos, protéicos e lipídicos de origem vegetal e animal: seu papel na alimentação. Bebidas não alcoólicas ou estimulantes - Análise físico-química e legislação. Análise dos produtos alimentícios, especiarias, conservas vegetais, vitaminas e aditivos."
+    },
+    {
+      "id": "NTR5606",
+      "code": "NTR5606",
+      "name": "Nutrição Humana",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5104",
+        "CFS5146"
+      ],
+      "equivalents": [
+        "NTR5105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5104"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5146"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5105"
+      },
+      "syllabus": "Alimento, Alimentação, Nutrição. Energia: conceito, necessidades e recomendações. Equilíbrio energético, valor energético dos alimentos. Métodos para estimativa das necessidades energéticas. Macronutrientes, micronutrientes e água: propriedades, fontes, funções, digestão, absorção, metabolismo, biodisponibilidade, necessidades e recomendações nutricionais. Guias alimentares."
+    },
+    {
+      "id": "NTR7007",
+      "code": "NTR7007",
+      "name": "Vigilância Sanitária Alimentar",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MIP5118",
+        "NTR7003",
+        "NTR7004"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP5118"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7003"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7004"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Interfaces entre políticas públicas em alimentação e nutrição e a vigilância sanitária de alimentos. Responsabilidade dos serviços municipal, estadual e federal de Vigilância Sanitária de Alimentos. Atuação de nutricionistas em relação à qualidade dos alimentos disponíveis para aquisição e consumo pela população, considerando a saúde coletiva.",
+      "extensionHours": 18
+    },
+    {
+      "id": "NTR7008",
+      "code": "NTR7008",
+      "name": "Planejamento e Programação de Ações em Alimentação e Nutrição",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR7001",
+        "NTR7003",
+        "NTR7004",
+        "NTR7006"
+      ],
+      "equivalents": [
+        "NTR5607"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR7001"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7003"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7004"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7006"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5607"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Diagnóstico em saúde. Caracterização do planejamento: normativo e estratégico situacional. Elaboração de um planejamento estratégico situacional do território em saúde: definição da Imagem-objetivo, identificação dos problemas, priorização dos problemas e planificação de ações de intervenção em alimentação e nutrição. Execução de uma ação de promoção da saúde.",
+      "extensionHours": 18
+    },
+    {
+      "id": "NTR7009",
+      "code": "NTR7009",
+      "name": "Técnica Dietética",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MIP5118"
+      ],
+      "equivalents": [
+        "NTR5608"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP5118"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5608"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Importância e objetivos da Técnica Dietética e culinária para o nutricionista. Estudo dos grupos de alimentos: qualidade, seleção, aquisição (sazonalidade), pré-preparo, preparo e conservação de alimentos. Aspectos sensoriais. Ficha técnica. Propriedades e modificações físico-químicas dos alimentos e preparações. Prática culinária de receitas tradicionais regionais simples",
+      "extensionHours": 18
+    },
+    {
+      "id": "BEG5204",
+      "code": "BEG5204",
+      "name": "Embriologia Humana",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MOR5118"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MOR5118"
+      },
+      "syllabus": "Processos de gametogênese e de fecundação. Caracterização dos Períodos do Desenvolvimento Humano: Pré-embrionário, Embrionário e Fetal. Períodos críticos do desenvolvimento e malformações. Modelagem externa (face e membros). Anexos embrionários e circulação fetal. Desenvolvimento dos sistemas derivados do ectoderma, mesoderma e endoderma. O papel da nutrição no desenvolvimento humano."
+    },
+    {
+      "id": "BEG5406",
+      "code": "BEG5406",
+      "name": "Genética Humana",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG5101"
+      },
+      "syllabus": "Bases físicas e moleculares da herança. Mutação e mutagênese. Citogenética humana. Padrões de herança. Variação na expressão dos genes. Herança multifatorial. Erros inatos do metabolismo. Imunogenética. Farmacogenética. Biotecnologia na produção de alimentos e drogas."
+    },
+    {
+      "id": "MIP5202",
+      "code": "MIP5202",
+      "name": "Imunologia II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5123",
+        "MOR5118"
+      ],
+      "equivalents": [
+        "MIP7004"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5123"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5118"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MIP7004"
+      },
+      "syllabus": "Respostas imunes específicas. Antígenos. Preparo de antígenos. Imunoglobulinas. Complemento.Preparo de antissoros. Reações antígeno-anticorpo. Hipersensibilidade."
+    },
+    {
+      "id": "NTR7010",
+      "code": "NTR7010",
+      "name": "Gestão em Unidades de Alimentação e Nutrição I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5305",
+        "NTR5606",
+        "NTR7007",
+        "NTR7009"
+      ],
+      "equivalents": [
+        "NTR5611"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5305"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5606"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7007"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7009"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5611"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Conhecimento e aplicação de instrumentos para assegurar a qualidade na produção de refeições, buscando promoção de saúde, intervindo no fluxo do processo produtivo de uma unidade de alimentação e nutrição.",
+      "extensionHours": 36
+    },
+    {
+      "id": "NTR7011",
+      "code": "NTR7011",
+      "name": "Nutrição e Cálculo de Dietas nos Ciclos de Vida I (18h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR5604",
+        "NTR5606",
+        "NTR7009"
+      ],
+      "equivalents": [
+        "NTR5609",
+        "NTR5610",
+        "NTR5627"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR5604"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5606"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7009"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "NTR5609"
+              },
+              {
+                "kind": "course",
+                "code": "NTR5610"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "NTR5627"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Necessidades e recomendações de energia e nutrientes para adulto, idoso, gestante e nutriz sadios a nível individual e coletivo. Cálculo e análise do consumo alimentar, planejamento e cálculo de dietas para adultos, idosos, gestante e nutriz sadios a nível individual e coletivo. Análise do Programa de Alimentação do Trabalhador. Práticas culinárias para a execução de preparações e cardápios para as referidas populações"
+    },
+    {
+      "id": "CFS1102",
+      "code": "CFS1102",
+      "name": "Fisiologia Humana II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS5146"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CFS5146"
+      },
+      "syllabus": "Fisiologia dos sistemas endócrino, cardiovascular, digestório, respiratório e renal."
+    },
+    {
+      "id": "NTR7012",
+      "code": "NTR7012",
+      "name": "Nutrição em Saúde Pública",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR7008"
+      ],
+      "equivalents": [
+        "NTR5613"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR7008"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5613"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Histórico da atuação do nutricionista em saúde pública e sua atuação nos diferentes níveis de organização dos serviços de saúde; promoção e prevenção em alimentação e nutrição nos níveis de atenção em saúde; concepções de educação e a prática de educação alimentar e nutricional; intervenção em alimentação e nutrição em saúde pública.",
+      "extensionHours": 36
+    },
+    {
+      "id": "NTR7013",
+      "code": "NTR7013",
+      "name": "Gestão em Unidades de Alimentação e Nutrição II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR7010"
+      ],
+      "equivalents": [
+        "NTR5614"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR7010"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5614"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Avaliação da qualidade alimentar, nutricional, sensorial, higiênico-sanitária e simbólica da alimentação oferecida nas diferentes unidades produtoras de refeições. Planejamento de ações de intervenção para promoção e prevenção de saúde. Controle social para garantia da qualidade da alimentação e do espaço produtivo.",
+      "extensionHours": 36
+    },
+    {
+      "id": "NTR7014",
+      "code": "NTR7014",
+      "name": "Nutrição e Cálculo de dietas nos Ciclos de Vida II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR7011"
+      ],
+      "equivalents": [
+        "NTR5628"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR7011"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5628"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Necessidades e recomendações de energia e nutrientes para lactente, pré-escolar, escolar e adolescentes sadios a nível individual e coletivo. Cálculo e análise do consumo alimentar, planejamento e cálculo de dietas para lactente, pré-escolar, escolar e adolescentes sadios a nível individual e coletivo. Práticas culinárias para a execução de preparações e cardápios para as referidas populações.",
+      "extensionHours": 18
+    },
+    {
+      "id": "PTL5121",
+      "code": "PTL5121",
+      "name": "Patologia Geral V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5104",
+        "CFS5146",
+        "MIP5202"
+      ],
+      "equivalents": [
+        "PTL5117",
+        "PTL7002"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5104"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5146"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5202"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "PTL5117"
+          },
+          {
+            "kind": "course",
+            "code": "PTL7002"
+          }
+        ]
+      },
+      "syllabus": "Generalidades sobre Patologia: conceitos de saúde/doença. Os grandes processos mórbidos (alterações celulares e extracelulares, processo inflamatório, distúrbios vasculares, distúrbios de crescimento e diferenciação). Patologia do meio ambiente. Prática de macroscopia dos processos patológicos gerais."
+    },
+    {
+      "id": "SPB1118",
+      "code": "SPB1118",
+      "name": "Promoção e Educação em Saúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR7008"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NTR7008"
+      },
+      "syllabus": "Concepção de educação, promoção de saúde, sociedade, e cidadania, a partir das perspectivas educacionais existentes na saúde coletiva. A educação em saúde no processo de trabalho como geradora de um ser saudável e comprometido com o autocuidado individual e coletivo. Abordagens contemporâneas da Educação para a Saúde."
+    },
+    {
+      "id": "NTR5617",
+      "code": "NTR5617",
+      "name": "Dietoterapia I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR7014",
+        "PTL5121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR7014"
+          },
+          {
+            "kind": "course",
+            "code": "PTL5121"
+          }
+        ]
+      },
+      "syllabus": "Modificações físico-químicas dos alimentos na prescrição dietoterápica. Terapêutica nutricional de doenças gastrointestinais, renais, cardiovasculares e síndrome metabólica. Suporte nutricional. Histórico clínico nutricional e acompanhamento. Prescrição e elaboração de dietas. Orientação alimentar."
+    },
+    {
+      "id": "NTR5619",
+      "code": "NTR5619",
+      "name": "Nutrição Experimental I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR5606",
+        "PTL5121"
+      ],
+      "equivalents": [
+        "NTR5111"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR5606"
+          },
+          {
+            "kind": "course",
+            "code": "PTL5121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5111"
+      },
+      "syllabus": "Histórico de estudos em nutrição experimental, bases teóricas e metodológicas. Modelos de estudos experimentais, avanços recentes e perspectivas de nutrição molecular. Protocolos legais exigidos pelos comitês de ética CEUA e CEPSH."
+    },
+    {
+      "id": "NTR5629",
+      "code": "NTR5629",
+      "name": "Fisiopatologia da Nutrição I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR7014",
+        "PTL5121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR7014"
+          },
+          {
+            "kind": "course",
+            "code": "PTL5121"
+          }
+        ]
+      },
+      "syllabus": "Doenças gastrointestinais, renais, cardiovasculares e síndrome metabólica: etiologia, quadro clínico, fisiopatologia de sinais e sintomas, evolução e terapêutica. Suporte nutricional: aplicação e técnicas."
+    },
+    {
+      "id": "NTR5631",
+      "code": "NTR5631",
+      "name": "Desenvolvimento do Trabalho de Conclusão de Curso I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR1119"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NTR1119"
+      },
+      "syllabus": "Execução do projeto de trabalho acadêmico sob orientação docente."
+    },
+    {
+      "id": "NTR7015",
+      "code": "NTR7015",
+      "name": "Extensão em Saúde, Alimentação e Nutrição (54h-a)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "NTR5612",
+        "NTR5615",
+        "NTR5618"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 54
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR5612"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5615"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5618"
+          }
+        ]
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "Ações de promoção e recuperação da saúde de indivíduos e coletividades com enfoque na Nutrição nos diferentes níveis de atenção e assistência."
+    },
+    {
+      "id": "PSI5608",
+      "code": "PSI5608",
+      "name": "Psicologia e Nutrição",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5125"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5125"
+      },
+      "syllabus": "Conhecimentos básicos em psicologia. História da Psicologia. Psicologia e Território em Saúde Mental. O modelo CAPS. Concepções do normal versus patológico. Aspectos biopsicossociais envolvidos no comportamento alimentar. Transtornos alimentares. Psicologia Social: uma visão de prevenção e promoção da saúde. Interação humana e relações interpessoais: aspectos interatuantes na relação do nutricionista com o paciente (cliente e família)."
+    },
+    {
+      "id": "NTR5620",
+      "code": "NTR5620",
+      "name": "Ética e Bioética",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito e interpretações de ética, bioética e moral. Bases bioéticas da discussão na política de educação ambiental e saúde. Ética na produção de alimentos de origem animal e vegetal: modos de produção tradicionais e humanizados. Ética e temas ligados a cidadania. Ética nas pesquisas com seres vivos. Deontologia: ética nas profissões. Código de ética do nutricionista: deveres, direitos e responsabilidade social."
+    },
+    {
+      "id": "NTR5621",
+      "code": "NTR5621",
+      "name": "Atenção e Assistência Alimentar e Nutricional",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR5617",
+        "NTR7010"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR5617"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7010"
+          }
+        ]
+      },
+      "syllabus": "Humanização da Atenção na Alimentação e Nutrição Hospitalar e Domiciliar"
+    },
+    {
+      "id": "NTR5622",
+      "code": "NTR5622",
+      "name": "Dietoterapia II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR7014",
+        "PTL5121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR7014"
+          },
+          {
+            "kind": "course",
+            "code": "PTL5121"
+          }
+        ]
+      },
+      "syllabus": "Terapêutica nutricional de doenças tais como: oncológicas, infecciosas (AIDS) e paciente critico (trauma e queimados), doenças pulmonares. Terapêutica nutricional de doenças que afetam o grupo materno-infantil. Prescrição e elaboração de dietas. Orientação alimentar."
+    },
+    {
+      "id": "NTR5630",
+      "code": "NTR5630",
+      "name": "Fisiopatologia da Nutrição II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR7014",
+        "PTL5121"
+      ],
+      "equivalents": [
+        "NTR5616"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR7014"
+          },
+          {
+            "kind": "course",
+            "code": "PTL5121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5616"
+      },
+      "syllabus": "Doenças oncológicas, infecciosas (AIDS) e paciente crítico (trauma e queimados), doenças pulmonares. Doenças que afetam o grupo materno-infantil: etiologia, quadro clínico, fisiopatologia de sinais e sintomas, evolução e terapêutica."
+    },
+    {
+      "id": "NTR5632",
+      "code": "NTR5632",
+      "name": "Desenvolvimento do Trabalho de Conclusão de Curso II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "NTR5631"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NTR5631"
+      },
+      "syllabus": "Conclusão de projeto de trabalho acadêmico sob orientação docente."
+    },
+    {
+      "id": "NTR5412",
+      "code": "NTR5412",
+      "name": "Estágio Supervisionado em Nutrição",
+      "credits": 18,
+      "hours": 324,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG5101"
+      },
+      "syllabus": "Atividades orientadas na área de nutrição clínica, no âmbito hospitalar e ambulatorial, aplicando conhecimentos de maneira a orientar condutas dietoterápicas, individualmente ou em equipes multidisciplinares."
+    },
+    {
+      "id": "NTR5414",
+      "code": "NTR5414",
+      "name": "Estágio Supervisionado de Nutrição em Saúde Pública",
+      "credits": 18,
+      "hours": 324,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades orientadas na área de nutrição em saúde pública na atenção básica no âmbito do Sistema Único de Saúde, em instituições de educação, entre outras instituições sociais e projetos de extensão comunitária, desenvolvendo ações intersetoriais e atuando junto a equipes interdisciplinares."
+    },
+    {
+      "id": "NTR5415",
+      "code": "NTR5415",
+      "name": "Estágio Supervisionado em Unidades de Alimentação e Nutrição",
+      "credits": 18,
+      "hours": 324,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades orientadas na área de Gestão em Unidades de Alimentação e Nutrição, aplicando conhecimentos e instrumentos para qualidade do processo produtivo e das refeições, atuando em conjunto com a equipe das unidades."
+    },
+    {
+      "id": "BEG5206",
+      "code": "BEG5206",
+      "name": "Nutrição, Epigenética e Embriologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BEG5204"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG5204"
+      },
+      "syllabus": "A definir"
+    },
+    {
+      "id": "FMC5209",
+      "code": "FMC5209",
+      "name": "Interação Fármacos e Nutrientes",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CFS5146"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CFS5146"
+      },
+      "syllabus": "Fatores gerais que determinam ou modulam a absorção, distribuição, metabolização e excreção de drogas. Mecanismos gerais de ação de drogas. Drogas que atual no sistema simpático e parassmpático. Farmacos que atuam no Sistema Cardiovascular. Farmacos que atuam no Sistema Nervoso Central. Farmacos utilizados como antiinflamatórios. Farmacos utilizados como Antibióticos e Quimioterápicos. Controle do Metabolismo de Lipoproteínas e Carbohidratos. Farmacologia do Trato Gastro-Intestinal."
+    },
+    {
+      "id": "GCN7951",
+      "code": "GCN7951",
+      "name": "Geografia da Alimentação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Contribuições da análise espacial para o diagnóstico e avaliação das questões alimentares, enfatizando o estudo dos sistemas que condicionam a alimentação nas sociedades e a apresentando as relações entre a geografia e a segurança alimentar e nutricional."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE7881"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE7881"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "MIP9108",
+      "code": "MIP9108",
+      "name": "Diagnóstico Imuno-Molecular em Parasitologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MIP5306"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP5306"
+      },
+      "syllabus": "18h-a) LSB7904 ou Estudo de métodos indiretos de diagnóstico de parasitoses. Coleta, preparação e conservação do material biológico. Aplicação de técnicas imunológicas e moleculares para o diagnóstico de parasitos de importância para humanos e veterinária."
+    },
+    {
+      "id": "NFR5128",
+      "code": "NFR5128",
+      "name": "Enfermagem em Primeiros Socorros",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios gerais de primeiros socorros. Medidas de acidentes. Ações imediatas e mediatas do socorrista em situações de emergência e/ou urgência. Primeiros socorros em situações de emergência e/ou urgência."
+    },
+    {
+      "id": "NTR5209",
+      "code": "NTR5209",
+      "name": "Padrões Alimentares",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "NTR5606",
+        "NTR7009"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "NTR5606"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7009"
+          }
+        ]
+      },
+      "syllabus": "Correntes alimentares: vegetarianismo e seus tipos. Crudísmo. Frugivorismo. Higienismo. Alimentação integral orgânica. Influências religiosas e filosóficas na alimentação: ayurveda (hinduísmo); macrobiótica (budismo e taoísmo). Práticas alimentares ligadas a celebrações religiosas: judaísmo, cristianismo e islamismo. Outros padrões alimentares: alimentação antroposófica. Dietas polêmicas da atualidade."
+    },
+    {
+      "id": "NTR5501",
+      "code": "NTR5501",
+      "name": "Programa de Intercâmbio Acadêmico I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "NTR5502",
+      "code": "NTR5502",
+      "name": "Programa de Intercâmbio Acadêmico II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "NTR5501"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NTR5501"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "NTR5503",
+      "code": "NTR5503",
+      "name": "Programa de Intercâmbio Acadêmico III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "NTR5502"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NTR5502"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "NTR5504",
+      "code": "NTR5504",
+      "name": "Programa de Intercâmbio Acadêmico IV",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "NTR5503"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NTR5503"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "NTR5633",
+      "code": "NTR5633",
+      "name": "Nutrição e exercício físico",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "NTR7011"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "NTR7011"
+      },
+      "syllabus": "Estudo dos sistemas energéticos do organismo. Macronutrientes e Micronutrientes no exercício: como, quando, quanto consumir para maximizar o rendimento. Hidratação. Avaliação e análise nutricional de atletas. Suplementos alimentares. Cálculo e planejamento de cardápios para fase de treinamento, pré-competição, competição e recuperação."
+    },
+    {
+      "id": "NTR5706",
+      "code": "NTR5706",
+      "name": "Habilidades Culinárias e Alimentação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5706
+      },
+      "prerequisiteHours": 5706,
+      "syllabus": "Desenvolvimento das habilidades culinárias. Conhecimentos e prática de técnicas culinárias básicas e saudáveis. Escolhas alimentares saudáveis. Desenvolvimento de receitas culinárias saudáveis e sustentáveis. Culinária brasileira."
+    },
+    {
+      "id": "SPB5128",
+      "code": "SPB5128",
+      "name": "Gênero Diversidade Sexual e Saúde",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O debate histórico e teórico sobre gênero e sexualidade. A construção social das relações de gênero. Temáticas contemporâneas em gênero e sexualidade. As relações entre corpo, saúde e prática profissional na temática de gênero e diversidade sexual. Políticas públicas e direitos em gênero e sexualidade."
+    },
+    {
+      "id": "SPB5129",
+      "code": "SPB5129",
+      "name": "Movimentos Sociais e Saúde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- a definir"
+    },
+    {
+      "id": "NTR7016",
+      "code": "NTR7016",
+      "name": "Atividades Complementares",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Atividades Complementares Atividades complementares"
+    },
+    {
+      "id": "NTR7017",
+      "code": "NTR7017",
+      "name": "Ações de Extensão I - Projetos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Rol de Ações de Extensão Ações de Extensão I - Projetos (EXT 36h-a)",
+      "extensionHours": 36
+    },
+    {
+      "id": "NTR7018",
+      "code": "NTR7018",
+      "name": "Ações de Extensão II - Eventos",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Ações de Extensão II - Eventos",
+      "extensionHours": 18
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "BEG5101",
+      "MOR5210",
+      "NTR7000",
+      "NTR7001",
+      "SPB5200",
+      "SPO5114",
+      "BQA5123",
+      "MIP5306",
+      "MOR5118",
+      "NTR7003",
+      "NTR7004",
+      "SPB5210",
+      "BQA5104",
+      "CFS5146",
+      "CIN5105",
+      "MIP5118",
+      "NTR1119",
+      "NTR5604",
+      "NTR7006",
+      "CAL5301",
+      "CAL5305",
+      "CAL5309",
+      "NTR5606",
+      "NTR7007",
+      "NTR7008",
+      "NTR7009",
+      "BEG5204",
+      "BEG5406",
+      "MIP5202",
+      "NTR7010",
+      "NTR7011",
+      "CFS1102",
+      "NTR7012",
+      "NTR7013",
+      "NTR7014",
+      "PTL5121",
+      "SPB1118",
+      "NTR5617",
+      "NTR5619",
+      "NTR5629",
+      "NTR5631",
+      "NTR7015",
+      "PSI5608",
+      "NTR5620",
+      "NTR5621",
+      "NTR5622",
+      "NTR5630",
+      "NTR5632",
+      "NTR5412",
+      "NTR5414",
+      "NTR5415",
+      "NTR7016",
+      "NTR7017",
+      "NTR7018"
+    ],
+    "requirements": []
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "9",
+    "curriculumCode": "20251",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=9&curriculo=20251",
+    "sha256": "51281cc1076dc09d63e9eb7aeac21c6427b19e1ebce9e1e1a5642c36b84ddabb",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -1,0 +1,1609 @@
+{
+  "program": "Bacharelado em Língua Brasileira de Sinais - LIBRAS",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2012.1",
+  "totalHours": 3708,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    }
+  ],
+  "courses": [
+    {
+      "id": "LSB7101",
+      "code": "LSB7101",
+      "name": "Fundamentos da Educação dos Surdos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Os modelos educacionais para surdos: clínicos, mistos, antropológicos, e da diferença. Políticas, legislação e surdez. As políticas de inclusão e exclusão sociais e educacionais."
+    },
+    {
+      "id": "LSB7105",
+      "code": "LSB7105",
+      "name": "Tecnologias da Informação e EaD",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED9204",
+        "LSB7302",
+        "LSB9204",
+        "LSB9401",
+        "MEN9101"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED9204"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7302"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9204"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9401"
+          },
+          {
+            "kind": "course",
+            "code": "MEN9101"
+          }
+        ]
+      },
+      "syllabus": "-Linguagem, tecnologia e sociedade. Contemporaneidade: tecnologia, globalização e meio ambiente. O impacto das tecnologias na vida e na educação de surdos. Tecnologias de registro e edição de vídeos em Libras. Introdução à Educação a Distância."
+    },
+    {
+      "id": "LSB7106",
+      "code": "LSB7106",
+      "name": "Libras Iniciante (PCC 36Horas)",
+      "credits": 8,
+      "hours": 144,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "-Descrição básica de pessoas e cenários. Narrativas pessoais simples. Introdução aos recursos gramaticais da Libras: uso do corpo e do espaço. Classificadores básicos. Iniciação à soletração manual e aos numerais. Construções negativas e interrogativas básicas."
+    },
+    {
+      "id": "LSB7107",
+      "code": "LSB7107",
+      "name": "Conversação Intercultural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Princípios organizatórios da conversação em Libras. Estratégias interacionais para iniciar, interromper e fazer manutenção de tópicos e reparos na conversa face-a-face em língua de sinais. Negociação de sentidos na interação intercultural surdo-ouvinte."
+    },
+    {
+      "id": "LSB7020",
+      "code": "LSB7020",
+      "name": "Libras Pré-Intermediário ( PCC 36 Horas)",
+      "credits": 12,
+      "hours": 216,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7106"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LSB7106"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "-Descrições elaboradas de pessoas e cenários. Narrativas pessoais elaboradas. Uso do corpo e do espaço para estabelecimento de referentes. Diferentes tipos de classificadores. Coarticulação na soletração manual e de números. Expressão de relações causais simples. Construções negativas e interrogativas elaboradas."
+    },
+    {
+      "id": "LSB7021",
+      "code": "LSB7021",
+      "name": "Corporalidade e Escrita",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE9111",
+        "LSB7111",
+        "LSB9111"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE9111"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7111"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9111"
+          }
+        ]
+      },
+      "syllabus": "-Tradição oral e tradição escrita. Condições de produção oral e escrita. Cruzamentos entre oralidade e escrita. Escrita, ciência e literatura. Desafios da alfabetização e do letramento. Introdução aos sistemas de escrita de línguas orais e línguas de sinais."
+    },
+    {
+      "id": "LSB7022",
+      "code": "LSB7022",
+      "name": "Fundamentos da Tradução e da Interpretação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7102",
+        "LSB7131",
+        "LLE9101",
+        "LLE9107",
+        "LSB9101",
+        "LSB9107"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LSB7102"
+              },
+              {
+                "kind": "course",
+                "code": "LSB7131"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "LLE9101"
+          },
+          {
+            "kind": "course",
+            "code": "LLE9107"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9101"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9107"
+          }
+        ]
+      },
+      "syllabus": "-A atividade tradutória em diferentes países e tempos históricos. Mapeamento dos estudos da tradução. Concepção de tradução e interpretação e os respectivos papéis na prática do profissional. Conceitos de língua fonte e língua alvo."
+    },
+    {
+      "id": "LSB7030",
+      "code": "LSB7030",
+      "name": "Libras Intermediário (PCC 36 Horas )",
+      "credits": 8,
+      "hours": 144,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7020"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LSB7020"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "-Descrições complexas de pessoas, cenários e eventos. Recontagem de narrativas com enredos complexos. Diferenças de perspectivas na sinalização e o particionamento do corpo do sinalizante. Expressão de relações causais complexas. Uso avançado de classificadores. Exploração avançada do corpo e do espaço. Desenvolvimento de fluência na soletração manual e de números. Introdução ao uso de bóias no discurso."
+    },
+    {
+      "id": "LSB7031",
+      "code": "LSB7031",
+      "name": "Introdução aos Estudos Linguísticos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE7040"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE7040"
+      },
+      "syllabus": "-Introdução às ciências e à filosofia da linguagem. Definição do campo, do objeto, dos objetivos e dos métodos da Linguística. Os conceitos de linguagem, língua e fala. O signo linguístico. As funções da linguagem. Língua e cultura. Descrição/explicação VS. Prescrição. Os níveis da descrição linguística. Noções elementares de história da Linguística e as abordagens modernas. Mitos sobre LSs."
+    },
+    {
+      "id": "LSB7032",
+      "code": "LSB7032",
+      "name": "Estudos da Tradução I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7022"
+      ],
+      "equivalents": [
+        "LLE9151",
+        "LLE9152",
+        "LSB7232",
+        "LSB9151",
+        "LSB9152"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7022"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE9151"
+          },
+          {
+            "kind": "course",
+            "code": "LLE9152"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7232"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9151"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9152"
+          }
+        ]
+      },
+      "syllabus": "(PCC36 horas-aula) LLV9101 ou -Panorama das vertentes teóricas no campo dos Estudos da Tradução. Tipos de tradução e o conceito de fidelidade articulados no âmbito de cada vertente. As relações entre tradução, original, tradutor e autor."
+    },
+    {
+      "id": "LSB7033",
+      "code": "LSB7033",
+      "name": "Estudos da Interpretação I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE9108",
+        "LSB7451",
+        "LSB9108"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE9108"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7451"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9108"
+          }
+        ]
+      },
+      "syllabus": "-História dos Estudos da Interpretação. Constituição do profissional intérprete de língua de sinais. Aspectos legais e a regulamentação da profissão. Interpretação comunitária. Papéis em diferentes espaços de atuação: intérprete generalista e intérprete educacional."
+    },
+    {
+      "id": "LSB7040",
+      "code": "LSB7040",
+      "name": "Libras Avançado (PCC 36 Horas)",
+      "credits": 8,
+      "hours": 144,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7030"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LSB7030"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "-Descrições complexas de contextos concretos e abstratos. Definição conceitual de termos. Argumentação: gerenciamento de razão e emoção. Soletração manual fluente. Narrativas como forma de argumentação. Exploração coesa e coerente do corpo e do espaço em textos argumentativos. Exploração avançada das bóias no discurso. Exploração criativa de classificadores. Estratégias argumentativas."
+    },
+    {
+      "id": "LSB7041",
+      "code": "LSB7041",
+      "name": "Estudos Linguísticos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV9103",
+        "LSB7202",
+        "LSB9303"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV9103"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7202"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9303"
+          }
+        ]
+      },
+      "syllabus": "-Introdução aos princípios gerais da Fonética Articulatória. Relação entre fonética e fonologia. Introdução às premissas da descrição e análise fonológica. Processos fonológicos básicos."
+    },
+    {
+      "id": "LSB7042",
+      "code": "LSB7042",
+      "name": "Estudos da Tradução II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7022",
+        "LSB7032"
+      ],
+      "equivalents": [
+        "LLE9109",
+        "LLE9153",
+        "LSB7552",
+        "LSB9153"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LSB7022"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7032"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE9109"
+          },
+          {
+            "kind": "course",
+            "code": "LLE9153"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7552"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9153"
+          }
+        ]
+      },
+      "syllabus": "-O debate teórico clássico sobre ética e seus reflexos na carreira profissional. Posturas, atitudes, decisões e encaminhamentos nas relações de trabalho. Elementos cognitivos, linguísticos, culturais e políticos no ato tradutório. Demandas e papéis em diferentes espaços de atuação."
+    },
+    {
+      "id": "LSB7043",
+      "code": "LSB7043",
+      "name": "Estudos da Interpretação II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7033"
+      ],
+      "equivalents": [
+        "LLE9109",
+        "LSB9109"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7033"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE9109"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9109"
+          }
+        ]
+      },
+      "syllabus": "-Teorias e modelos de interpretação. Tipologias, conceitos e conscientização dos problemas teóricos e práticos da interpretação em língua de sinais. Processos cognitivos, linguísticos e culturais."
+    },
+    {
+      "id": "LSB7050",
+      "code": "LSB7050",
+      "name": "Libras Acadêmica (PCC 36 horas-aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7040"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LSB7040"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "-Normatização de trabalhos acadêmicos em Libras. Estrutura do discurso acadêmico filmado. Tecnologias de vídeo e seu impacto nas pesquisas sobre língua de sinais. Prática de produções acadêmicas em Libras."
+    },
+    {
+      "id": "LSB7051",
+      "code": "LSB7051",
+      "name": "Escritas de Sinais I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE9112",
+        "LSB7212",
+        "LSB9112"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE9112"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7212"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9112"
+          }
+        ]
+      },
+      "syllabus": "-Aquisição do sistema de escrita de língua de sinais: grupos de configurações de mão, locações, movimentos, contatos e marcas não-manuais. Ênfase na leitura. Introdução ao uso de softwares de escrita de sinais."
+    },
+    {
+      "id": "LSB7052",
+      "code": "LSB7052",
+      "name": "Estudos Linguísticos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7203",
+        "LSB7301",
+        "LLV9104",
+        "LLV9105",
+        "LSB9304",
+        "LSB9305"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LSB7203"
+              },
+              {
+                "kind": "course",
+                "code": "LSB7301"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV9104"
+              },
+              {
+                "kind": "course",
+                "code": "LLV9105"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LSB9304"
+              },
+              {
+                "kind": "course",
+                "code": "LSB9305"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-As palavras e sua estrutura. Morfemas: conceito, tipologia e análise morfológica. Os constituintes. A relação núcleo, argumentos e adjuntos. A estrutura das sentenças. Processos morfológicos e sintáticos."
+    },
+    {
+      "id": "LSB7053",
+      "code": "LSB7053",
+      "name": "Metodologia Científica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-O que é pesquisa. Fundamentos da teoria do conhecimento. Epistemologia, ciência, ideologia. Crises paradigmáticas e pós-modernidade. Abordagens metodológicas na ciência. Projetos de pesquisa: preparação, desenvolvimento e apresentação de resultados. Elaboração do trabalho científico."
+    },
+    {
+      "id": "LSB7054",
+      "code": "LSB7054",
+      "name": "Português I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7503"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7503"
+      },
+      "syllabus": "-Elementos de textualidade: coesão e coerência na Língua Portuguesa. Desenvolvimento de estratégias de leitura. Gêneros Textuais. Tópicos de gramática. Leitura, análise linguística e escrita em nível básico."
+    },
+    {
+      "id": "LSB7060",
+      "code": "LSB7060",
+      "name": "Laboratório em Interpretação I ( PCC 36",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7043"
+      ],
+      "equivalents": [
+        "LLE9171"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7043"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE9171"
+      },
+      "syllabus": "-Aplicação teórica e prática de interpretação Português - Libras - Português em contextos educacionais. Prática como componente curricular."
+    },
+    {
+      "id": "LSB7061",
+      "code": "LSB7061",
+      "name": "Estudos Surdos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Horas) LSB7441 ou -Grupos sociais e relações étnico-raciais. Audismo. Identidade e cultura surdas. Fatores teóricos que contribuem para a visão contemporânea da cultura surda. Encontro surdo-surdo. Subjetividade. Artefatos culturais e a língua de sinais."
+    },
+    {
+      "id": "LSB7062",
+      "code": "LSB7062",
+      "name": "Escrita de Sinais II (PCC 36 horas-aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7051"
+      ],
+      "equivalents": [
+        "LLE9113",
+        "LSB7313",
+        "LSB9113"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LSB7051"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE9113"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7313"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9113"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "-Continuação do processo de aquisição da leitura e escrita da língua de sinais: aspectos marcados. A representação do espaço na escrita de sinais. Ênfase na produção textual. O sinalário da Libras."
+    },
+    {
+      "id": "LSB7063",
+      "code": "LSB7063",
+      "name": "Estudos Linguísticos III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7303",
+        "LSB7501",
+        "LLV9108",
+        "LLE9106",
+        "LSB9106",
+        "LSB9308"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LSB7303"
+              },
+              {
+                "kind": "course",
+                "code": "LSB7501"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV9108"
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLE9106"
+                  },
+                  {
+                    "kind": "all",
+                    "requirements": [
+                      {
+                        "kind": "course",
+                        "code": "LSB9106"
+                      },
+                      {
+                        "kind": "course",
+                        "code": "LSB9308"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-Dimensões da significação: sentido, referência. Significação dos enunciados: acarretamento, pressuposição, asserção, negação, transitividade, operadores argumentativos, quantificadores. Significação e uso da linguagem: performatividade, atos de fala, máximas conversacionais. Enunciação e sentido. Linguagem em seu contexto socio-histórico e ideológico."
+    },
+    {
+      "id": "LSB7065",
+      "code": "LSB7065",
+      "name": "Português II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7054"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7054"
+      },
+      "syllabus": "-Produção de textos técnico-científicos relevantes para o desempenho das atividades acadêmicas. Procedimentos de reescrita/reestruturação. Tópicos de gramática. Leitura, análise linguística e escrita em nível intermediário."
+    },
+    {
+      "id": "LSB7070",
+      "code": "LSB7070",
+      "name": "Laboratório em Interpretação II ( PCC 36",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7060"
+      ],
+      "equivalents": [
+        "LLE9172"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7060"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE9172"
+      },
+      "syllabus": "-Aplicação teórica e prática de interpretação Português - Libras - Português em contextos da saúde. Prática como componente curricular."
+    },
+    {
+      "id": "LSB7071",
+      "code": "LSB7071",
+      "name": "Literatura Surda I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE9104",
+        "LSB7604",
+        "LSB9104"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE9104"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7604"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9104"
+          }
+        ]
+      },
+      "syllabus": "Horas ) LSB7542 ou Introdução à Literatura Surda. A expressividade estética e literária nas línguas de sinais. O gênero narrativo: estrutura e funções. Realidade e ficção. Tipos de narrativa em línguas de sinais. Narrativas e educação de surdos. Produção e análise de narrativas. A literatura como um artefato cultural."
+    },
+    {
+      "id": "LSB7073",
+      "code": "LSB7073",
+      "name": "Prática de Tradução I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7022",
+        "LSB7032",
+        "LSB7042"
+      ],
+      "equivalents": [
+        "LSB7333"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LSB7022"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7032"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7042"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7333"
+      },
+      "syllabus": "-Prática tradutória Português-Libras-Português com foco em gêneros textuais variados. O processo tradutório: produção de inferências, solução de problemas e tomada de decisões. Descrição e avaliação das traduções."
+    },
+    {
+      "id": "LSB7074",
+      "code": "LSB7074",
+      "name": "Estudos Linguísticos IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7402",
+        "LLV9107",
+        "LLE9102",
+        "LSB9102",
+        "LSB9307"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LSB7402"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV9107"
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLE9102"
+                  },
+                  {
+                    "kind": "all",
+                    "requirements": [
+                      {
+                        "kind": "course",
+                        "code": "LSB9102"
+                      },
+                      {
+                        "kind": "course",
+                        "code": "LSB9307"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "-As relações entre língua e sociedade. Variação linguística no tempo e no espaço. Famílias linguísticas. Língua e dialeto. Comunidades de fala. Línguas em contato. Línguas emergenciais. Crioulização. Bilinguismo. Mudança linguística. Registro e diglossia. Os usos sociais da variação. Estudo de princípios da Linguística Aplicada e sua relação com a pesquisa, o ensino e aprendizagem de línguas em diferentes contextos."
+    },
+    {
+      "id": "LSB7075",
+      "code": "LSB7075",
+      "name": "Português III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7065"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7065"
+      },
+      "syllabus": "-Práticas de leitura e escrita com foco no desenvolvimento da capacidade crítica. Gêneros da esfera acadêmica. Tópicos de gramática. Leitura, análise linguística e escrita em nível avançado. Orientações para a construção da síntese do projeto de TCC."
+    },
+    {
+      "id": "LSB7080",
+      "code": "LSB7080",
+      "name": "Laboratório em Interpretação III",
+      "credits": 8,
+      "hours": 144,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7070"
+      ],
+      "equivalents": [
+        "LSB7643",
+        "LSB7744",
+        "LLE9173",
+        "LLE9174",
+        "LSB9173",
+        "LSB9174"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7070"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LSB7643"
+              },
+              {
+                "kind": "course",
+                "code": "LSB7744"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "LLE9173"
+          },
+          {
+            "kind": "course",
+            "code": "LLE9174"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9173"
+          },
+          {
+            "kind": "course",
+            "code": "LSB9174"
+          }
+        ]
+      },
+      "syllabus": "-Aplicação teórica e prática de interpretação Português-Libras-Português em contextos jurídicos. Interfaces entre a prática e o desenvolvimento de pesquisas no campo da interpretação."
+    },
+    {
+      "id": "LSB7082",
+      "code": "LSB7082",
+      "name": "Literatura Surda II (PCC 36 horas-aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "-Literatura surda no Brasil e no mundo. O gênero poético. Funções da poesia. Tipos de poesia em línguas de sinais. Poesia e criatividade linguística. Prática em poesia. A expressividade no humor. Metáforas e outros recursos literários em línguas de sinais."
+    },
+    {
+      "id": "LSB7083",
+      "code": "LSB7083",
+      "name": "Prática de Tradução II",
+      "credits": 8,
+      "hours": 144,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7062",
+        "LSB7073"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LSB7062"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7073"
+          }
+        ]
+      },
+      "syllabus": "-Prática tradutória envolvendo a escrita de sinais. Estudos de expressões literárias da cultura surda. Interfaces entre a prática e o desenvolvimento de pesquisas em escrita de sinais e do português. Edição de textos e direitos autorais."
+    },
+    {
+      "id": "LSB7090",
+      "code": "LSB7090",
+      "name": "TCC (Trabalho de Conclusão de Curso)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7802"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7802"
+      },
+      "syllabus": "-Desenvolvimento de pesquisa e defesa do trabalho composta por uma banca avaliadora."
+    },
+    {
+      "id": "LSB7091",
+      "code": "LSB7091",
+      "name": "Estágio em Interpretação",
+      "credits": 8,
+      "hours": 144,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "LSB7020",
+        "LSB7021",
+        "LSB7022",
+        "LSB7030",
+        "LSB7031",
+        "LSB7032",
+        "LSB7033",
+        "LSB7040",
+        "LSB7041",
+        "LSB7042",
+        "LSB7043",
+        "LSB7050",
+        "LSB7051",
+        "LSB7052",
+        "LSB7053",
+        "LSB7054",
+        "LSB7060",
+        "LSB7061",
+        "LSB7062",
+        "LSB7063",
+        "LSB7065",
+        "LSB7070",
+        "LSB7071",
+        "LSB7073",
+        "LSB7074",
+        "LSB7075",
+        "LSB7080",
+        "LSB7082"
+      ],
+      "equivalents": [
+        "LSB7801"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LSB7020"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7021"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7022"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7030"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7031"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7032"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7033"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7040"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7041"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7042"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7043"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7050"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7051"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7052"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7053"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7054"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7060"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7061"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7062"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7063"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7065"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7070"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7071"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7073"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7074"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7075"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7080"
+          },
+          {
+            "kind": "course",
+            "code": "LSB7082"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7801"
+      },
+      "syllabus": "-Desenvolvimento do estágio supervisionado em interpretação de Libras/ Português em contextos institucionais."
+    },
+    {
+      "id": "LSB7092",
+      "code": "LSB7092",
+      "name": "Estágio em Tradução",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Desenvolvimento do estágio supervisionado em tradução de Libras/Português em contextos institucionais."
+    },
+    {
+      "id": "LSB7001",
+      "code": "LSB7001",
+      "name": "Atividades de Extensão",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Compreendem atividades acadêmicas de livre escolha do aluno que têm como objetivo desenvolver posturas de cooperação, comunicação, liderança e aprofundamentos, visando garantir o desenvolvimento de competências que transversalizam a organização curricular. Essas atividades configuram-se em torno de disciplinas optativas, de participação em seminários, de palestras, de atividades de iniciação científica, de projetos multidisciplinares, de monitorias, de publicações de trabalhos de natureza científica na área de formação, de participação em eventos de natureza acadêmica e de atividades de extensão."
+    },
+    {
+      "id": "LSB7002",
+      "code": "LSB7002",
+      "name": "Atividades de Pesquisa",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Compreendem atividades acadêmicas de livre escolha do aluno que têm como objetivo desenvolver posturas de cooperação, comunicação, liderança e aprofundamentos, visando garantir o desenvolvimento de competências que transversalizam a organização curricular. Essas atividades configuram-se em torno de disciplinas optativas, de participação em seminários, de palestras, de atividades de iniciação científica, de projetos multidisciplinares, de monitorias, de publicações de trabalhos de natureza científica na área de formação, de participação em eventos de natureza acadêmica e de atividades de extensão."
+    },
+    {
+      "id": "LSB7003",
+      "code": "LSB7003",
+      "name": "Atividades de Ensino",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Compreendem atividades acadêmicas de livre escolha do aluno que têm como objetivo desenvolver posturas de cooperação, comunicação, liderança e aprofundamentos, visando garantir o desenvolvimento de competências que transversalizam a organização curricular. Essas atividades configuram-se em torno de disciplinas optativas, de participação em seminários, de palestras, de atividades de iniciação científica, de projetos multidisciplinares, de monitorias, de publicações de trabalhos de natureza científica na área de formação, de participação em eventos de natureza acadêmica e de atividades de extensão."
+    },
+    {
+      "id": "LSB7004",
+      "code": "LSB7004",
+      "name": "Leitura e Escrita do Português como 2ª",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As formas orais e escritas da linguagem. Escrita e leitura como processos interrelacionados de construção de sentidos. Prática da leitura, interpretação e produção de textos, visando ao desenvolvimento de habilidades linguísticas necessárias à formação do aluno surdo. Leitura instrumental. Estratégias de leitura. Gêneros textuais e organização textual e frasal."
+    },
+    {
+      "id": "LSB7005",
+      "code": "LSB7005",
+      "name": "Leitura e Escrita do Português como 2ª",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Língua Concepções de leitura e de texto. Prática e desenvolvimento da compreensão e produção da escrita, através da ampliação de temas e gêneros discursivos. Aprofundamento no estudo de estruturas lingüísticas, gramática normativa e vocabulário, pertinentes aos tópicos abordados. Leitura e escrita de gêneros textuais: foco em textos acadêmicos."
+    },
+    {
+      "id": "LSB7006",
+      "code": "LSB7006",
+      "name": "Produção Textual Acadêmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Língua II Funções da linguagem. Produção de textos acadêmicos informativos, descritivos e argumentativos. Gêneros textuais: resumos (abstracts), resenhas, ensaios e artigos científicos. Adequação do texto as diferentes condições de produção e aos diferentes modos de registros. Procedimentos de reescrita e reestruturação do texto. Análise lingüística: processos parafrásicos e polissêmicos. Aspectos normativos da língua portuguesa. Prática redacional."
+    },
+    {
+      "id": "LSB7007",
+      "code": "LSB7007",
+      "name": "Sinais Internacionais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As principais características da língua de sinais internacional. Os sinais internacionais originários da Europa. Aspectos da língua: localização, variação dos verbos, formas interrogativas, expressão facial, negação, empréstimos lexicais."
+    },
+    {
+      "id": "LSB7008",
+      "code": "LSB7008",
+      "name": "Prática de Tradução: Textos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LSB7043"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7043"
+      },
+      "syllabus": "Elaboração e desenvolvimento de projeto de tradução de textos especializados. Terminologia. Registro e gestão de glossários."
+    },
+    {
+      "id": "LSB7009",
+      "code": "LSB7009",
+      "name": "História dos estudos da Tradução e Interpretação de Libras",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7009
+      },
+      "prerequisiteHours": 7009,
+      "syllabus": "Especializados A produção acadêmica sobre Estudos da Tradução de língua de sinais. A produção acadêmica sobre Estudos da Interpretação de língua de sinais. Os diferentes períodos históricos e suas características na pesquisa brasileira sobre ETILS. Os destaques de referenciais teóricos, assuntos, metodologias e paradigmas na produção acadêmica de ETILS."
+    },
+    {
+      "id": "LSB7010",
+      "code": "LSB7010",
+      "name": "Produção de Materiais Didáticos em Libras",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Produção de materiais didáticos para o ensino de Libras como L1 (para surdos) e como L2 (para ouvintes) que possam contribuir de modo efetivo na promoção de condições favoráveis ao ensino e à aprendizagem da Libras, evidenciando o papel fundamental dos professores de Libras como sujeitos responsáveis pelo preparo e desenvolvimento das aulas e, portanto, pela escolha e produção dos materiais mais adequados a cada situação."
+    },
+    {
+      "id": "LSB7011",
+      "code": "LSB7011",
+      "name": "Letramento Digital e Líbras",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LSB7040"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7040"
+      },
+      "syllabus": "Estudo dos recursos tecnológicos e do seu uso para alcance de objetivos específicos, além das implicações da tecnologia no ensino e na tradução da Libras."
+    },
+    {
+      "id": "LSB7012",
+      "code": "LSB7012",
+      "name": "Tópicos em Morfologia das Línguas de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LSB7052"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7052"
+      },
+      "syllabus": "A estrutura morfológica das línguas de sinais. Identificação de morfemas. Análise de algumas propostas de classificação morfológica dos sinais."
+    },
+    {
+      "id": "LSB7013",
+      "code": "LSB7013",
+      "name": "Interpretação Educacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Características dos públicos envolvidos na interpretação educacional. Debate teórico clássico sobre ética e seus reflexos na carreira profissional. Posturas, atitudes, decisões e encaminhamentos nas relações de trabalho. Demandas e papéis dos diferentes profissionais envolvidos na educação de surdos. Documentos norteadores dos intérpretes educacionais."
+    },
+    {
+      "id": "LSB7015",
+      "code": "LSB7015",
+      "name": "Introdução à Tradução de Literatura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LSB7020"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7020"
+      },
+      "syllabus": "A literatura infanto-juvenil: conceito e evolução. A relação entre cultura popular e a literatura. A influência e a importância da literatura infanto-juvenil para o ensino e a aprendizagem de crianças surdas. O conto de fadas, a narrativa e poesias para crianças. Literatura e formação de leitores. Experiências e projetos de tradução da literatura infanto-juvenil. Linguagem verbal e linguagens não-verbais (multimodalidade). Tradução comentada."
+    },
+    {
+      "id": "LSB7016",
+      "code": "LSB7016",
+      "name": "Produção de Materiais em Escrita de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LSB7030"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7030"
+      },
+      "syllabus": "Infanto-Juvenil LSB7022) Produção de materiais didáticos para o ensino de Libras como L1 (para surdos) e como L2 (para ouvintes) que possam contribuir de modo efetivo na promoção de condições favoráveis ao ensino e à aprendizagem da Libras, evidenciando o papel fundamental dos professores de Libras como sujeitos responsáveis pelo preparo e desenvolvimento das aulas e, portanto, pela escolha e produção dos materiais mais adequados a cada situação."
+    },
+    {
+      "id": "LSB7017",
+      "code": "LSB7017",
+      "name": "Laboratório de Produção Textual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Argumentação: gerenciamento de razão e emoção. Leitura e produção de textos argumentativos, com ênfase nos aspectos semânticos, sintáticos e discursivos. Identificação e análise de processos argumentativos em diferentes gêneros textuais: operadores argumentativos, tipos de argumento, estratégias de argumentação e falácias argumentativas. Exploração coesa e coerente do corpo e do espaço em textos argumentativos."
+    },
+    {
+      "id": "LSB7018",
+      "code": "LSB7018",
+      "name": "Tradução Audiovisual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Argumentativa em Libras Introdução a Tradução Audiovisual. Legendagem. Dublagem. Audiodescrição. Estratégias para o estabelecimento de coesão e sincronia. Softwares de edição de texto, áudio e vídeo. Normas e convenções. Metodologia de análise de tradução audiovisual. Questões linguísticas, culturais e técnicas da Tradução Audiovisual. Prática de tradução audiovisual."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "LSB7101",
+      "LSB7105",
+      "LSB7106",
+      "LSB7107",
+      "LSB7020",
+      "LSB7021",
+      "LSB7022",
+      "LSB7030",
+      "LSB7031",
+      "LSB7032",
+      "LSB7033",
+      "LSB7040",
+      "LSB7041",
+      "LSB7042",
+      "LSB7043",
+      "LSB7050",
+      "LSB7051",
+      "LSB7052",
+      "LSB7053",
+      "LSB7054",
+      "LSB7060",
+      "LSB7061",
+      "LSB7062",
+      "LSB7063",
+      "LSB7065",
+      "LSB7070",
+      "LSB7071",
+      "LSB7073",
+      "LSB7074",
+      "LSB7075",
+      "LSB7080",
+      "LSB7082",
+      "LSB7083",
+      "LSB7090",
+      "LSB7091",
+      "LSB7092",
+      "LSB7001",
+      "LSB7002",
+      "LSB7003"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 288,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "LSB7004",
+              "LSB7005",
+              "LSB7006",
+              "LSB7007",
+              "LSB7008",
+              "LSB7009",
+              "LSB7010",
+              "LSB7011",
+              "LSB7012",
+              "LSB7013",
+              "LSB7015",
+              "LSB7016",
+              "LSB7017",
+              "LSB7018"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "441",
+    "curriculumCode": "20121",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=441&curriculo=20121",
+    "sha256": "83977523b52b216c7677fa05f8fbaa3f9c30ca4fb70d6b38c5b624e207ce25d3",
+    "capturedAt": "2026-09-22"
+  }
+}

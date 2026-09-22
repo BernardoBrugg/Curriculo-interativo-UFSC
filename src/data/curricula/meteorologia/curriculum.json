@@ -1,0 +1,1433 @@
+{
+  "program": "METEOROLOGIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2026.1",
+  "totalHours": 3600,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC5107"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5107"
+      },
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "FSC5181",
+      "code": "FSC5181",
+      "name": "Meteorologia Básica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atmosfera. Radiação Solar e Terrestre. Temperatura do Ar. Temperatura do Solo. Pressão Atmosférica."
+    },
+    {
+      "id": "FSC5911",
+      "code": "FSC5911",
+      "name": "Tópicos de Matemática Básica para Física",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3100"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3100"
+      },
+      "syllabus": "Conteúdos de Matemática básica para Física geral."
+    },
+    {
+      "id": "MTM3110",
+      "code": "MTM3110",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3101",
+        "MTM5161"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          }
+        ]
+      },
+      "syllabus": "Geral Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "QMC5125",
+      "code": "QMC5125",
+      "name": "Química Geral Experimental A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. ConfiguraçãoEletrônica. Orbital Atômico. Ligações químicas: iônicas, covalentes, metálicas. Leis dos gases. Conceito de Mol. Funções químicas. Misturas. Soluções. Concentração de soluções. Equações químicas. Reações redox. Introdução ao Equilíbrio químico; ácidos ebases; ph. Calor de reação. Introdução á Termoquímica."
+    },
+    {
+      "id": "QMC5138",
+      "code": "QMC5138",
+      "name": "Química Geral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. Orbital atômico. Transformações químicas. Gases, líquidos e pressão de vapor. Estequiometria. Conceito de mol. Termodinâmica. Geometria molecular, Momento dipolar, Solubilidade. Estruturas químicas cristalinas, Elétrons nos sólidos, Defeitos nos sólidos. Soluções e misturas, propriedades coligativas. Cinética e mecanismos de reações. Equilíbrio químico, Equilíbrio ácido-base. Reações de oxi- reduções, eletroquímica, pilhas, corrosão e combustão."
+    },
+    {
+      "id": "FSC5002",
+      "code": "FSC5002",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "MTM3110"
+      ],
+      "equivalents": [
+        "FSC5165",
+        "FSC5166"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3110"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5165"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5166"
+          }
+        ]
+      },
+      "syllabus": "Estudo da Cinemática e Dinâmica da rotação de corpos rígidos. Oscilações e ondas Mecânicas(som). Estática e Dinãmica dos Fluídos. Noções sobre temperatura, calor, princípios da Termodiâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "FSC5141",
+      "code": "FSC5141",
+      "name": "Laboratório de Física I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Medidas, instrumentos de medidas, erros e gráficos, experimentos envolvendo conceitos de cinemática e leis de Newton, energia e momento linear."
+    },
+    {
+      "id": "FSC5182",
+      "code": "FSC5182",
+      "name": "Meteorologia Básica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Vento. Umidade do Ar. Evaporação e Evapotranspiração. Condensação. Precipitação."
+    },
+    {
+      "id": "FSC7113",
+      "code": "FSC7113",
+      "name": "Elementos de Astronomia e Cartografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos de astronomia, o sistema solar, estrutura e funcionamento do Universo, fundamentos de cartografia."
+    },
+    {
+      "id": "MTM3120",
+      "code": "MTM3120",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3110"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3110"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5162"
+          }
+        ]
+      },
+      "syllabus": "-Aplicações da integral definida. Técnicas de integração (por partes, substituição trigonométrica, frações parciais). Integral imprópria. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis."
+    },
+    {
+      "id": "MTM3121",
+      "code": "MTM3121",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM5245"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5245"
+      },
+      "syllabus": "-Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear."
+    },
+    {
+      "id": "FSC5113",
+      "code": "FSC5113",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "FSC5193"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5193"
+      },
+      "syllabus": "Análise dos principais fenômenos da eletricidade e magnetismo abrangendo o estudo de campo elétrico, potencial elétrico, capacitor, corrente elétrica, força eletromotriz, campo magnético e indução eletromagnética."
+    },
+    {
+      "id": "FSC5142",
+      "code": "FSC5142",
+      "name": "Laboratório de Física II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "FSC5141"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5141"
+          }
+        ]
+      },
+      "syllabus": "Experimentos sobre tópicos de oscilações, termologia, hidrologia, e ondas mecânicas."
+    },
+    {
+      "id": "FSC7111",
+      "code": "FSC7111",
+      "name": "Agrometeorologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5181",
+        "FSC5182"
+      ],
+      "equivalents": [
+        "ENR5203"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5181"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5182"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5203"
+      },
+      "syllabus": "Noções de agrometeorologia; Radiação solar na agricultura; Temperatura do solo; Temperatura do ar como fator agronômico; Umidade do ar; Vento; Adversidades agrometeorológicas; Evapotranspiração; Balanço hídrico no solo; Zoneamento agroclimático; Mudanças climáticas e agricultura."
+    },
+    {
+      "id": "FSC7114",
+      "code": "FSC7114",
+      "name": "Introdução à Fisica Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "INE5201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5201"
+      },
+      "syllabus": "Explicitação de conceitos físicos e matemáticos em forma de algoritmos computacionais e sua implementação em alguma linguagem de alto nível compilável (C. Fortran, etc) ou de script (JavaScript, Python, Perl, Matlab, Matemática, Maple, etc) com ênfase no paradigma estruturado (não orientado a objeto) mediante a utilização e definição de variáveis numéricas e \"string\", comandos de entrada e saída, estrutura de decisão, estruturas de repetição, matrizes e subprogramas."
+    },
+    {
+      "id": "INE5108",
+      "code": "INE5108",
+      "name": "Estatística e Probabilidade para Ciências",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3120"
+      },
+      "syllabus": "Teoria da probabilidade. Variáveis aleatórias e distribuição de probabilidade. Principais distribuições de probabilidade discretas. Distribuição normal. Outras distribuições de probabilidade contínuas. Estimação de parâmetros. Testes de hipóteses."
+    },
+    {
+      "id": "MTM3103",
+      "code": "MTM3103",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "MTM5162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5162"
+      },
+      "syllabus": "Exatas -Integração múltipla: integrais duplas e triplas. Noções de cálculo vetorial: curvas e superfícies. Campos escalares e vetoriais. Integrais de linha e de superfícies. Teoremas de Green, Stokes e da Divergência."
+    },
+    {
+      "id": "FSC2143",
+      "code": "FSC2143",
+      "name": "Laboratório de Física III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "FSC5142"
+      ],
+      "equivalents": [
+        "FSC5143"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5142"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5143"
+      },
+      "syllabus": "-Montagem de circuitos e medição de grandezas elétricas com multímetros. Experimentos envolvendo conceitos de eletrostática, eletrodinâmica e eletromagnetismo."
+    },
+    {
+      "id": "FSC5114",
+      "code": "FSC5114",
+      "name": "Física IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113",
+        "MTM3103"
+      ],
+      "equivalents": [
+        "FSC5194"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5113"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5194"
+      },
+      "syllabus": "Indutância e suas aplicações; as propriedades magnéticas da matéria: materiais diamagnéticos, paramagnéticos e ferromagnéticos, as leis que os regem. Equações de Maxwell: interpretação física e aplicações. Solução de circuitos em série (RLC) de corrente alternada e transformadores. Luz: natureza, propagação e fenômenos ópticos (interferência, difração e polarização). Física Moderna: introdução à Mecânica Quântica, Física Atômica e Nuclear. Relatividade Especial: Leis e aplicações."
+    },
+    {
+      "id": "FSC5705",
+      "code": "FSC5705",
+      "name": "Física Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7114"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7114"
+      },
+      "syllabus": "Introdução a ferramentas computacionais em Física: editoração e processamento de textos científicos, programas de confecção de gráficos, bibliotecas livres, programas de manipulação algébrica, e linguagens de programação. Resolução de problemas físicos utilizando métodos computacionais."
+    },
+    {
+      "id": "FSC7103",
+      "code": "FSC7103",
+      "name": "Meteorologia Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5113"
+      },
+      "syllabus": "Constituição da atmosfera; Tempo e Clima; Energia e Radiação eletromagnética; Transformação e transferência de energia; Propriedades emissivas dos corpos negros; As leis da radiação; Interações da radiação com a matéria; Espalhamento radiativo. Radiação solar, Natureza e distribuição espectral, geográfica e sazonal da radiação solar; Esmaecimento e disposição média da radiação solar. Radiação terrestre; Características, absorção e transmissão da radiação terrestre. O balanço médio da energia."
+    },
+    {
+      "id": "MTM3131",
+      "code": "MTM3131",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121"
+      ],
+      "equivalents": [
+        "MTM3102",
+        "MTM5163"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3120"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5163"
+          }
+        ]
+      },
+      "syllabus": "-Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace. Sistemas de Equações Diferenciais."
+    },
+    {
+      "id": "OCN7043",
+      "code": "OCN7043",
+      "name": "Interação Oceano Atmosfera",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5182",
+        "MTM3103"
+      ],
+      "equivalents": [
+        "GCN7043"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5182"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7043"
+      },
+      "syllabus": "Introdução ao sistema climático: atmosfera, oceano e superfície terrestre. Balanço de energia global. Balanço de radiação na atmosfera. Balanço de energia na superfície. Ciclo hidrológico. Circulação geral da atmosfera e o clima. Circulação geral dos oceanos e o clima. Sistemas Atmosféricos. História e evolução do clima da Terra. Sensibilidade climática e mecanismos de retroalimentação. Modelos globais climáticos. Mudanças climáticas naturais. Mudanças climáticas antrópicas. Clima da América do Sul. Fenômeno El NiñoOscilação Sul e impactos no clima."
+    },
+    {
+      "id": "ENS5102",
+      "code": "ENS5102",
+      "name": "Hidrologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "FSC7111"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "FSC7111"
+          },
+          {
+            "kind": "hours",
+            "hours": 5102
+          }
+        ]
+      },
+      "prerequisiteHours": 5102,
+      "syllabus": "Ciclo hidrológico. Precipitação. Bacias Hidrológicas. Escoamento superficial. Evapotranspiração. Infiltração. Águas Subterrâneas. Hidrogramas. Cheias. Estimativa de vazões de enchente. Reservatório de regularização - Armazenamento."
+    },
+    {
+      "id": "FSC2144",
+      "code": "FSC2144",
+      "name": "Laboratório de Física IV",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC2143",
+        "FSC5113"
+      ],
+      "equivalents": [
+        "FSC5144"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC2143"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5113"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5144"
+      },
+      "syllabus": "-Experimentos envolvendo conceitos de óptica."
+    },
+    {
+      "id": "FSC5131",
+      "code": "FSC5131",
+      "name": "Termodinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3103",
+        "MTM3131"
+      ],
+      "equivalents": [
+        "EMC5405",
+        "FSC5303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3131"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5405"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5303"
+          }
+        ]
+      },
+      "syllabus": "Natureza da termodinâmica. Equilíbrio termodinâmico. Equações de Estado. Parâmetros extensivos e intensivos. Condições de equilíbrio. Relações de Euler e Gibbs-duhem. Processos quasiestáticos, reversíveis e irreversíveis. Máquinas térmicas e ciclo de Carnot. Escala absoluta de temperaturas. Potenciais termodinâmicos. Relações de Maxwell. Estabilidade dos sistemas termodinâmicos. Postulado de Nerst. Aplicações. Equilíbrio químico, sistemas magnéticos e mecânicos. Introdução à termodinâmica fora do equilíbrio."
+    },
+    {
+      "id": "FSC5218",
+      "code": "FSC5218",
+      "name": "Mecânica Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "MTM3103",
+        "MTM3131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3131"
+          }
+        ]
+      },
+      "syllabus": "Leis de Newton. Oscilações lineares e não lineares. Forças centrais. Sistemas de muitas partículas. sistemas de coordenadas não inerciais."
+    },
+    {
+      "id": "FSC7101",
+      "code": "FSC7101",
+      "name": "Instrumentos Meteorológicos e Técnicas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5113"
+      },
+      "syllabus": "-Redes de observação. Princípios físicos envolvidos na medição de parâmetros meteorológicos fundamentais: temperatura do ar e do solo, umidade do ar, pressão atmosférica, vento, precipitação, evaporação, radiação. Observações de nebulosidade e de visibilidade. Erros instrumentais e de observação."
+    },
+    {
+      "id": "MTM3104",
+      "code": "MTM3104",
+      "name": "Cálculo 4",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3131"
+      },
+      "syllabus": "de Observação I Sequências e séries numéricas. Sequências e séries de funções: séries de potências e séries de Fourier. Equações diferenciais parciais: método da separação de variáveis nas equações clássicas da onda, do calor e de Laplace."
+    },
+    {
+      "id": "FSC7102",
+      "code": "FSC7102",
+      "name": "Instrumentos Meteorológicos e Técnicas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7101"
+      },
+      "syllabus": "Medição automática. Telemetria. Instrumentos padrão e aferição de instrumentos. Noções básicas sobre instrumentação avançada. Técnicas relativas aos balões Meteorológicos. Técnicas para dados meteorológicos de altitude. Divulgação dos dados."
+    },
+    {
+      "id": "FSC7104",
+      "code": "FSC7104",
+      "name": "Climatologia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "INE5108",
+        "MTM3121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "INE5108"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3121"
+          }
+        ]
+      },
+      "syllabus": "de Observação II Climatologia Geral (importância da climatologia, definições, noções de clima). Distribuição de principais elementos climáticos. Balanço de radiação global e regional. Classificações climáticas. Climas do mundo e do Brasil. Métodos estatísticos em climatologia (distribuição de probabilidades simples de elementos climáticos e testes de ajustes). Modelos simples de processos estocásticos em climatologia. Teoria de estimação de parâmetros estatísticos. Correlação e regressão simples. Teoria de testes de hipóteses. Tratamento estatísticos de dados. Mudanças Climáticas. Noções da paleoclimatologia."
+    },
+    {
+      "id": "FSC7105",
+      "code": "FSC7105",
+      "name": "Meteorologia Dinâmica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5218"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5218"
+      },
+      "syllabus": "Análise de Escala; Forças Fundamentais; Sistemas de referência; Leis Básicas de Conservação; Aplicações Elementares das Leis Básicas; Circulação e Vorticidade; Camada Limite Planetária."
+    },
+    {
+      "id": "FSC7107",
+      "code": "FSC7107",
+      "name": "Meteorologia Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5131"
+      },
+      "syllabus": "Equilíbrio Hidrostático; Variáveis Úmidas e Processos Adiabáticos; Diagramas Termodinâmicos; Uso Prático dos Diagramas Termodinâmicos; Estabilidade Vertical da Atmosfera; Nuvens e Precipitação; Ótica Atmosférica, Eletricidade Atmosférica."
+    },
+    {
+      "id": "FSC7117",
+      "code": "FSC7117",
+      "name": "Sensoriamento Remoto da Atmosfera",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7103"
+      },
+      "syllabus": "Princípios de sensoriamento remoto. Instrumentos de Sensoriamento Remoto da Atmosfera: Radiômetros, Satélites, Radar, Lidar e Sensores de descargas elétricas. Elementos de sensoriamento remoto, tipos de órbitas e o sistema atual e futuro de satélites. Modelos físicos e matemáticos das aplicações nas diversas faixas do espectro eletromagnético. Princípios de funcionamento do radar. Identificação de hidrometeoros e estimativa de precipitação por radar. Radares polarimétricos. Sistemas de detecção de descarga atmosférica. Nowcasting: Modelos conceituais e principais técnicas usadas em nowcasting."
+    },
+    {
+      "id": "FSC7106",
+      "code": "FSC7106",
+      "name": "Meteorologia Sinótica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7103",
+        "FSC7105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC7103"
+          },
+          {
+            "kind": "course",
+            "code": "FSC7105"
+          }
+        ]
+      },
+      "syllabus": "Decodificação de mesagem SYNOP e TEMP; Plotagem de cartas de superfície e altitude; Cartas e diagramas meteorológicos; Análise escalar de campos de propriedades atmosféricas; Topografia de superfície de propriedades; Computações gráficas; Teoremas de Bjerknes e suas consequências; Vento geostrófico; Vento de gradiente; Efeitos do atrito no campo de vento; Princípiode Dines; Variação do vento com a altura; Estrutura de ciclones e anticiclones; Circulação geral da atmosfera; Correntes de jato; Tropopausa; Diferenças térmicas continente-oceano; Ventos locais; Desenvolvimento dos sistemas de pressão; Sistemas de bloqueios."
+    },
+    {
+      "id": "FSC7108",
+      "code": "FSC7108",
+      "name": "Meteorologia Dinâmica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7105"
+      },
+      "syllabus": "Dinâmica dos Movimentos de Escala Sinótica em Latitudes Médias; Oscilações Atmosféricas; Teoria da Perturbação Linear; Previsão Numérica; Desenvolvimento e Movimento dos Sistemas Sinóticos de Latitudes Médias; Circulação Geral."
+    },
+    {
+      "id": "FSC7110",
+      "code": "FSC7110",
+      "name": "Micrometeorologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7105"
+      },
+      "syllabus": "Introdução ao Estudo da Camada Limite: as escalas do movimento atmosférico, definição e estrutura da Camada Limite, a turbulência na Camada Limite Atmosférica."
+    },
+    {
+      "id": "FSC7115",
+      "code": "FSC7115",
+      "name": "Modelagem Numérica da Atmosfera",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7105"
+      },
+      "syllabus": "Métodos numéricos fundamentais. Parametrizações físicas em modelos meteorológicos. Previsão numérica de tempo. Modelagem climática."
+    },
+    {
+      "id": "FSC7116",
+      "code": "FSC7116",
+      "name": "Meteorologia de Mesoescala",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7105"
+      },
+      "syllabus": "Introduçã à mesoescala e suas divisões. Fenômenos de mesoescala. Princípios de modelagem em mesoescala."
+    },
+    {
+      "id": "FSC7121",
+      "code": "FSC7121",
+      "name": "Trabalho de Conclusão do Curso I (TCC)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7103"
+      },
+      "syllabus": "Trabalho de Conclusão de Curso I"
+    },
+    {
+      "id": "FSC7109",
+      "code": "FSC7109",
+      "name": "Meteorologia Sinótica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7106"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7106"
+      },
+      "syllabus": "Tipos de massa de ar; Processos que determinam as características das massas de ar; Teoria ondulatória do ciclone extratropical; Sistemas frontais; Ondas meteorológicas; Vorticidade absoluta e relativa; Trajetórias de vorticidade absoluta constante; A fórmula de Rossby de ondas longas; Interpretação de imagens de satélites; Vento térmico; Mapas de espessura; Topografias relativas de frentes térmicas; Nível isopícnico; Equação de desenvolvimento de ciclones e anticiclones; Aplicações da equação de desenvolvimento; Climatologia Sinótica; Sistemas do tempo nos trópicos; Análise sinótica nos trópicos."
+    },
+    {
+      "id": "FSC7122",
+      "code": "FSC7122",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7121"
+      },
+      "syllabus": "Trabalho de Conclusão de Curso II"
+    },
+    {
+      "id": "FSC7124",
+      "code": "FSC7124",
+      "name": "Estágio Curricular",
+      "credits": 9,
+      "hours": 162,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estágio Curricular"
+    },
+    {
+      "id": "ECZ5102",
+      "code": "ECZ5102",
+      "name": "Conservação de Recursos Naturais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Disciplinas Optativas Estrutura, funcionamento e dinâmica de ecossistemas. Efeito da ação antrópica sobre os ecossistemas. Legislação e Conservação dos recursos naturais."
+    },
+    {
+      "id": "ECZ5113",
+      "code": "ECZ5113",
+      "name": "Fundamentos de Ecologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de ecologia. Conceito de ecossistema e principais componentes. Fluxo de energia e ciclos biogeoquímicos. Componentes estruturais e funcionais dos ecossistemas aquáticos naturais e artificiais"
+    },
+    {
+      "id": "FSC5106",
+      "code": "FSC5106",
+      "name": "Introdução à Física Moderna",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções de mecânica quântica. Relatividade. Partículas elementares: modelo padrão. Caos. Tópicos de Física contemporânea."
+    },
+    {
+      "id": "FSC5515",
+      "code": "FSC5515",
+      "name": "Física das Mudanças Climáticas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História das Mudanças Climáticas, o Sistema Climático: Circulação Geral da Atmosfera e Oceanos; Balanço de Radiação; Variabilidade Climática de Grande Escala: El Niño, La Niña, Clima Regional e Desastres Naturais; Modelos Climáticos; Sensibilidade do Clima: Mecanismo de Retro-alimentação do Clima. Emissão de gases de efeito estufa naturais e antrópicos. Aquecimento global antropogênico; A Física dos Gases de Efeito Estufa; Papel da superfície da Terra no sistema climático. Cenários de Mudanças Climáticas; Impactos das Mudanças Globais no Clima Regional; Mudanças Globais e Biodiversidade; Economia Verde e Sustentabilidade."
+    },
+    {
+      "id": "FSC5901",
+      "code": "FSC5901",
+      "name": "Projeto de Pesquisa",
+      "credits": 6,
+      "hours": 120,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "FSC7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7103"
+      },
+      "syllabus": "Projeto de Pesquisa"
+    },
+    {
+      "id": "FSC5902",
+      "code": "FSC5902",
+      "name": "Seminário de Física",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Seminário de Física"
+    },
+    {
+      "id": "FSC5909",
+      "code": "FSC5909",
+      "name": "Introdução à Astronomia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O sistema solar, noções básicas de sua estrutura. Noções de astronomia de posição. As estrelas, estrutura interna e evolução. Galáxias, estrutura e evolução. Cosmologia, a Lei de Hubble o modelo do Big Bang e o futuro do Universo."
+    },
+    {
+      "id": "FSC5921",
+      "code": "FSC5921",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FSC5922",
+      "code": "FSC5922",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5921"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5921"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "FSC7005",
+      "code": "FSC7005",
+      "name": "Meteorologia Estatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5181",
+        "FSC5182",
+        "INE5108"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5181"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5182"
+          },
+          {
+            "kind": "course",
+            "code": "INE5108"
+          }
+        ]
+      },
+      "syllabus": "Revisão de probabilidade, distribuições de probabilidade, momentos da distribuição. Análise exploratória de dados geofísicos. Inferência estatística. Previsão estatística de tempo e clima. Verificação da previsão. Análise de séries temporais, domínio de tempo e de frequência, análise harmônica e espectral."
+    },
+    {
+      "id": "FSC7202",
+      "code": "FSC7202",
+      "name": "Atividades Complementares",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades Complementares"
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE7881"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE7881"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "OCN7042",
+      "code": "OCN7042",
+      "name": "Fenômeno de Transporte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5101",
+        "MTM3102",
+        "MTM3120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "18h-a) LSB7904 ou Definição de sólidos e gases. A hipótese do contínuo. Fenômeno do transporte. Hidrostática. Pressão em fluido estático. Tensão superficial. Noções de termodinâmica e compressibilidade. Primeira e segunda leis da termodinâmica. Cinética de fluidos. Especificações lagrangiana e euleriana. Derivada material. Linhas de corrente. Trajetórias e streaklines. Vorticidade e circulação. Escoamentos. Função de corrente e potencial de velocidade. Noções de tensores cartesianos. Leis de conservação: Conservação da massa; Conservação do momento linear; As equações de Navier-Stokes; Equações de Conservação Complementares: Conservação de Sal e Calor; Equação de Bernoulli."
+    },
+    {
+      "id": "OCN7044",
+      "code": "OCN7044",
+      "name": "Oceanografia Dinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "OCN7042"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "OCN7042"
+      },
+      "syllabus": "A estrutura geofísica dos oceanos: a importância dinâmica da estratificação e da rotação; o efeito de Coriolis. Equações da continuidade e do movimento nos oceanos: conservação da massa e continuidade de volume; as equações de Navier-Stokes num sistema referencial não inercial. Elementos de análise de escalas: as aproximações do plano f, beta e tradicional; aproximação de Boussinesq. O movimento geostrófico: o número de Rossby; as equações da corrente geostrófica; componentes barotrópicas e baroclínicas das correntes geostróficas; a equação do vento térmico; pressão e geopotencial; o método dinâmico. Vorticidade: vorticidade relativa, planetária e conservação da vorticidade potencial. Teoria de Ekman: forças de atrito em um oceano turbulento; bombeamento de Ekman; ressurgência e subsidência. Modelos oceânicos de circulação: Modelos de Sverdrup, Stommel e Munk; a intensificação das correntes de contorno oeste. Circulação termohalina dos oceanos: circulação do oceano profundo; modelo de Stommel e Arons."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "FSC5101",
+      "FSC5181",
+      "FSC5911",
+      "MTM3110",
+      "QMC5125",
+      "QMC5138",
+      "FSC5002",
+      "FSC5141",
+      "FSC5182",
+      "FSC7113",
+      "MTM3120",
+      "MTM3121",
+      "FSC5113",
+      "FSC5142",
+      "FSC7111",
+      "FSC7114",
+      "INE5108",
+      "MTM3103",
+      "FSC2143",
+      "FSC5114",
+      "FSC5705",
+      "FSC7103",
+      "MTM3131",
+      "OCN7043",
+      "ENS5102",
+      "FSC2144",
+      "FSC5131",
+      "FSC5218",
+      "FSC7101",
+      "MTM3104",
+      "FSC7102",
+      "FSC7104",
+      "FSC7105",
+      "FSC7107",
+      "FSC7117",
+      "FSC7106",
+      "FSC7108",
+      "FSC7110",
+      "FSC7115",
+      "FSC7116",
+      "FSC7121",
+      "FSC7109",
+      "FSC7122",
+      "FSC7124"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 576,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ECZ5102",
+              "ECZ5113",
+              "FSC5106",
+              "FSC5515",
+              "FSC5901",
+              "FSC5902",
+              "FSC5909",
+              "FSC5921",
+              "FSC5922",
+              "FSC7005",
+              "FSC7202",
+              "LSB7244",
+              "OCN7042",
+              "OCN7044"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "230",
+    "curriculumCode": "20261",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=230&curriculo=20261",
+    "sha256": "e93d8eec9ab9549660f305d5ba0a2e85307699d920067ae5feb8998b26da839e",
+    "capturedAt": "2026-09-22"
+  }
+}

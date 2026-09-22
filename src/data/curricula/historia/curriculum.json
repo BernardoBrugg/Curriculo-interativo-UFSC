@@ -1,0 +1,2908 @@
+{
+  "program": "HISTÓRIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2007.1",
+  "totalHours": 3384,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EED5331",
+      "code": "EED5331",
+      "name": "Teorias da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de educação: elaborações e práticas em torno da formação moral, intelectual e estética do homem. Conceito de pedagogia: pedagogia da essência e pedagogia da existência - referências clássicas, modernas e contemporâneas. Pensamento pedagógico brasileiro."
+    },
+    {
+      "id": "HST7101",
+      "code": "HST7101",
+      "name": "Introdução aos Estudos Históricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5101",
+        "HST7920"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST5101"
+          },
+          {
+            "kind": "course",
+            "code": "HST7920"
+          }
+        ]
+      },
+      "syllabus": "Discussão introdutória sobre a construção do conhecimento histórico através do estudo das fontes, da discussão bibliográfica e da forma da narrativa."
+    },
+    {
+      "id": "HST7102",
+      "code": "HST7102",
+      "name": "História do Oriente Antigo (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5216"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7102
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5216"
+      },
+      "prerequisiteHours": 7102,
+      "syllabus": "Estudo das sociedades do Oriente Antigo, suas relações com o Ocidente, suas abordagens historiográficas e suas perspectivas teóricas e de prática de ensino."
+    },
+    {
+      "id": "HST7103",
+      "code": "HST7103",
+      "name": "História da Antiguidade Ocidental (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5215"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7103
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5215"
+      },
+      "prerequisiteHours": 7103,
+      "syllabus": "Estudo das sociedades da Antigüidade Clássica, sua organização e mudanças a partir do contato com o Oriente, suas abordagens historiográficas e suas perspectivas teóricas e de prática de ensino."
+    },
+    {
+      "id": "HST7104",
+      "code": "HST7104",
+      "name": "História da Arte (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5112",
+        "HST7305"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7104
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST5112"
+          },
+          {
+            "kind": "course",
+            "code": "HST7305"
+          }
+        ]
+      },
+      "prerequisiteHours": 7104,
+      "syllabus": "12h-a) Estudo dos problemas da arte em diferentes épocas e sociedades e das abordagens teórico-metodológicas para a decodificação de imagens no âmbito da pesquisa e ensino da História."
+    },
+    {
+      "id": "EED8007",
+      "code": "EED8007",
+      "name": "Organização Escolar (PCC 18h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5185",
+        "EED5186"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5185"
+          },
+          {
+            "kind": "course",
+            "code": "EED5186"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Organização da Educação Brasileira e Legislação Educacional. Políticas Públicas Educacionais na atualidade. Objetivo social da escola: direito à educação e a produção da exclusão. Currículo: teorias curriculares, propostas estatais e não estatais. Gestão Democrática da Educação. A escola: sujeitos, cotidiano, trabalho docente e Projeto Político Pedagógico."
+    },
+    {
+      "id": "HST7201",
+      "code": "HST7201",
+      "name": "História Medieval ( PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7201
+      },
+      "prerequisiteHours": 7201,
+      "syllabus": "Estudo da Idade Média, suas abordagens historiográficas e suas perspectivas teóricas e de prática de ensino."
+    },
+    {
+      "id": "HST7301",
+      "code": "HST7301",
+      "name": "História Moderna ( PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5416"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7301
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5416"
+      },
+      "prerequisiteHours": 7301,
+      "syllabus": "Estudo em torno da formação do mundo moderno com ênfase nos aspectos sociais, econômicos e culturais que moldaram a sociedade ocidental, suas abordagens teóricas e de ensino."
+    },
+    {
+      "id": "HST7303",
+      "code": "HST7303",
+      "name": "História da América Portuguesa ( PCC 12h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5423"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7303
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5423"
+      },
+      "prerequisiteHours": 7303,
+      "syllabus": "Estudo da ocupação e colonização da América pelos portugueses e das formas de abordagem didático-pedagógicas."
+    },
+    {
+      "id": "HST7202",
+      "code": "HST7202",
+      "name": "História da África ( PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7202
+      },
+      "prerequisiteHours": 7202,
+      "syllabus": "a) Estudo das diferentes estruturas sócio-políticas da África entre os séculos XVI e XX, os processos de constituição dos sistemas coloniais e de descolonização e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST7302",
+      "code": "HST7302",
+      "name": "História da América Colonial ( PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5421"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7302
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5421"
+      },
+      "prerequisiteHours": 7302,
+      "syllabus": "Estudo da conquista e colonização da América espanhola e anglo-saxônica e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST7304",
+      "code": "HST7304",
+      "name": "História Indígena (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5870"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7304
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5870"
+      },
+      "prerequisiteHours": 7304,
+      "syllabus": "Estudo das populações indígenas no Brasil e das políticas indigenistas, bem como sobre as diferentes abordagens historiográficas relativas à representação dessas populações entre os séculos XVI e XXI e suas perspectivas teóricas e de ensino."
+    },
+    {
+      "id": "MEN7003",
+      "code": "MEN7003",
+      "name": "Seminário de Pesquisa em Ensino ( PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Características do estado da arte do ensino de História e sua relação com a pesquisa em ensino, os congressos e as publicações específicas da área de ensino, os cursos de pós-graduação em ensino e a metodologia de ensino. O ensino na área de História, seus processos em diferentes espaços educativos."
+    },
+    {
+      "id": "HST7401",
+      "code": "HST7401",
+      "name": "Teoria da História I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5404"
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Estudo dos fundamentos teóricos das concepções modernas em História e dos modelos históricos dos séculos XVIII e XIX."
+    },
+    {
+      "id": "HST7402",
+      "code": "HST7402",
+      "name": "História Contemporânea I (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5517"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7402
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5517"
+      },
+      "prerequisiteHours": 7402,
+      "syllabus": ""
+    },
+    {
+      "id": "HST7403",
+      "code": "HST7403",
+      "name": "História da América Independente (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5522"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7403
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5522"
+      },
+      "prerequisiteHours": 7403,
+      "syllabus": "Estudo da trajetória histórica dos países da América de colonização espanhola, francesa e inglesa a partir dos processos de independência e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST7404",
+      "code": "HST7404",
+      "name": "História do Brasil Monárquico (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5524"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7404
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5524"
+      },
+      "prerequisiteHours": 7404,
+      "syllabus": "12h-a) Estudo do processo de independência do Brasil, a construção do Estado Nacional e a sociedade brasileira durante o século XIX. As formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "MEN5602",
+      "code": "MEN5602",
+      "name": "Didática B (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN7003"
+      ],
+      "equivalents": [
+        "MEN5134",
+        "MEN5601",
+        "MEN5603",
+        "MEN5605"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN7003"
+          },
+          {
+            "kind": "hours",
+            "hours": 12
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN5134"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5601"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5603"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5605"
+          }
+        ]
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "- Educação escolar como fenômeno histórico-social. Currículo e trabalho pedagógico no contexto escolar. As relações de ensino-aprendizagem em contexto escolar. Mediações pedagógicas e suas relações com o ensino da área específica do curso."
+    },
+    {
+      "id": "HST7501",
+      "code": "HST7501",
+      "name": "Teoria da História II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5505"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5505"
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "A ditadura militar no Brasil foi instaurada num momento de crescente participação feminina no espaço público, fruto do intenso processo de mudanças nas relações de gênero se desenvolvia no período. Um contingente apreciável de mulheres uniu-se aos homens na luta por uma sociedade mais igualitária e justa. A repressão às organizações de esquerda foi extremamente violenta, tendo sido denunciada por pessoas ligadas à defesa dos Direitos Humanos. Através da categoria gênero, pode-se refletir sobre como essa repressão, que atingiu homens e mulheres, foi vivenciada e denunciada por suas vítimas. A partir de uma análise de caso do Brasil, serão feitas comparações com outros países do Cone Sul: Argentina, Uruguai e Chile."
+    },
+    {
+      "id": "HST7502",
+      "code": "HST7502",
+      "name": "História do Brasil Republicano I (PCC 12h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5625"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7502
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5625"
+      },
+      "prerequisiteHours": 7502,
+      "syllabus": "Estudo da sociedade brasileira da proclamação da república até a primeira metade do século XX. As formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "MEN7005",
+      "code": "MEN7005",
+      "name": "Metodologia do Ensino de História - PCC",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN5166"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5166"
+      },
+      "syllabus": "a) -As relações entre História, Educação e Cultura. A cultura imagética, o livro didático e o ensino de História. A pesquisa no ensino de História. A constituição da História como disciplina no contexto da educação escolarizada no Brasil."
+    },
+    {
+      "id": "PSI5137",
+      "code": "PSI5137",
+      "name": "Psicologia Educacional: Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "36 horas/aula DISCIPLINA COMPLEMENTAR ATIVIDADES COMPLEMENTARES Introdução à Psicologia como ciência: histórico, objetivo e métodos. Interações sociais no contexto educacional e o lugar do professor. Introdução ao estudo do desenvolvimento e de aprendizagem - infância, adolescência, idade adulta. Contribuições da Psicologia na prática escolar cotidiana e na compreensão do fracasso escolar. Prática como componente curricular."
+    },
+    {
+      "id": "HST7601",
+      "code": "HST7601",
+      "name": "História Contemporânea II (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5619"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7601
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5619"
+      },
+      "prerequisiteHours": 7601,
+      "syllabus": "Estudo do século XX, da Primeira Guerra Mundial à globalização, suas abordagens teóricas e de ensino."
+    },
+    {
+      "id": "HST7602",
+      "code": "HST7602",
+      "name": "História do Brasil Republicano II - PCC 12",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5625"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7602
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5625"
+      },
+      "prerequisiteHours": 7602,
+      "syllabus": "Estudo da sociedade brasileira contemporânea a partir de 1945 e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST7603",
+      "code": "HST7603",
+      "name": "História de Santa Catarina (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5626"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7603
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5626"
+      },
+      "prerequisiteHours": 7603,
+      "syllabus": "horas-aula Estudo da História e da historiografia catarinense e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE7881"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE7881"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "HST7701",
+      "code": "HST7701",
+      "name": "Projeto de Pesquisa Histórica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "HST7101",
+        "HST7102",
+        "HST7103",
+        "HST7104",
+        "HST7201",
+        "HST7202",
+        "HST7301",
+        "HST7302",
+        "HST7303",
+        "HST7401",
+        "HST7402",
+        "HST7403",
+        "HST7404",
+        "HST7501",
+        "HST7502",
+        "HST7601",
+        "HST7602",
+        "HST7603"
+      ],
+      "equivalents": [
+        "HST5606"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST7101"
+          },
+          {
+            "kind": "course",
+            "code": "HST7102"
+          },
+          {
+            "kind": "course",
+            "code": "HST7103"
+          },
+          {
+            "kind": "course",
+            "code": "HST7104"
+          },
+          {
+            "kind": "course",
+            "code": "HST7201"
+          },
+          {
+            "kind": "course",
+            "code": "HST7202"
+          },
+          {
+            "kind": "course",
+            "code": "HST7301"
+          },
+          {
+            "kind": "course",
+            "code": "HST7302"
+          },
+          {
+            "kind": "course",
+            "code": "HST7303"
+          },
+          {
+            "kind": "course",
+            "code": "HST7401"
+          },
+          {
+            "kind": "course",
+            "code": "HST7402"
+          },
+          {
+            "kind": "course",
+            "code": "HST7403"
+          },
+          {
+            "kind": "course",
+            "code": "HST7404"
+          },
+          {
+            "kind": "course",
+            "code": "HST7501"
+          },
+          {
+            "kind": "course",
+            "code": "HST7502"
+          },
+          {
+            "kind": "course",
+            "code": "HST7601"
+          },
+          {
+            "kind": "course",
+            "code": "HST7602"
+          },
+          {
+            "kind": "course",
+            "code": "HST7603"
+          },
+          {
+            "kind": "hours",
+            "hours": 4
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5606"
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Elaboração de projeto de pesquisa para realização do Trabalho de Conclusão de Curso."
+    },
+    {
+      "id": "MEN7017",
+      "code": "MEN7017",
+      "name": "Estágio Supervisionado de História I",
+      "credits": 12,
+      "hours": 216,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN7005"
+      ],
+      "equivalents": [
+        "MEN7011",
+        "MEN7012"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN7005"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN7011"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7012"
+          }
+        ]
+      },
+      "syllabus": "exclusivamente à prática como componente curricular em Laboratórios de Ensino de História (144 horas-aula)"
+    },
+    {
+      "id": "MEN7018",
+      "code": "MEN7018",
+      "name": "Estágio Supervisionado de História II",
+      "credits": 15,
+      "hours": 270,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN7017"
+      ],
+      "equivalents": [
+        "MEN7013"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN7017"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7013"
+      },
+      "syllabus": "Implementação do projeto de ensino e planos de aulas. Participação no conjunto das atividades do campo de estágio. Sistematização e socialização do estágio."
+    },
+    {
+      "id": "HST7801",
+      "code": "HST7801",
+      "name": "Trabalho de Conclusão de Curso",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5807"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 10
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5807"
+      },
+      "prerequisiteHours": 10,
+      "syllabus": "Elaboração e defesa do Trabalho de Conclusão de Curso e comprovação das Atividades Complementares de 240 horas-aula."
+    },
+    {
+      "id": "HST1121",
+      "code": "HST1121",
+      "name": "Arqueologia e Pré-História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "DISCIPLINA COMPLEMENTAR O pré-requisito é HST7701 e ter concluído toda a carga horária mínima de disciplinas de conteúdo especializado de História (288 horas-aula) Disciplinas Optativas"
+    },
+    {
+      "id": "HST1127",
+      "code": "HST1127",
+      "name": "Tópico Especial - História e Cidde: de Nossa Senhora do Desterro a Florianópolis",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5810",
+      "code": "HST5810",
+      "name": "Tópico Especial - História das emoções, afetos e gênero",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudos das emoções e afetos na história. Uso político das emoções, corpos e afetos. Discussões epistemológicas e metodológicas sobre a incorporação das emoções e afetos para os estudos históricos e de gênero. Possibilidades para os estudos das emoções e afetos na pesquisa e ensino de história"
+    },
+    {
+      "id": "HST5906",
+      "code": "HST5906",
+      "name": "Tópico Especial - História, Gênero, Religião",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Perceber a historicidade da religião e das relações de gênero. Analisar gênero como relações de poder, fortalecidas pela religião, constituindo sujeitos históricos sexuados a diversas abordagens. Refletir sobre o aparecimento da Tecnologia Feminista no contexto do século XX, em sintonia com o movimento feminista, problematizando o papel da religião, em sua função de produção e reprodução de sistemas simbólicos que interferem nas relações históricas sociais de gênero e de sexo."
+    },
+    {
+      "id": "HST5907",
+      "code": "HST5907",
+      "name": "Tópico Especial - Historiografia Antiga",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "e Teologia Feminina Estudo da formação das tradições historiográficas gregas, helenística e latina, avaliando as diferentes abordagens, conceitos e metodologias dos autores."
+    },
+    {
+      "id": "HST5908",
+      "code": "HST5908",
+      "name": "Tópico Especial - Introdução à Micro-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Esta disciplina se propõe discutir, através de seminários, leituras temáticas dirigidas e oficinas de pesquisa, as dimensões historiográficas, teóricas e metodológicas da micro-análise histórica, com ênfase particular nas contribuições da micro-história italiana."
+    },
+    {
+      "id": "HST5909",
+      "code": "HST5909",
+      "name": "Introdução à Pesquisa em Arqueologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Análise Histórica"
+    },
+    {
+      "id": "HST5910",
+      "code": "HST5910",
+      "name": "Tópico Especial - História e Contracultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordar alguns importantes movimentos contraculturais que emergiram nas décadas de 1960 e 1970, nas Américas e Europa, buscando compreender as expressões peculiares a cada contexto bem como os entrecruzamentos existentes entre elas."
+    },
+    {
+      "id": "HST5911",
+      "code": "HST5911",
+      "name": "Tópico Especial - Perspectiva Histórica e Educação Brasileira I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5912",
+      "code": "HST5912",
+      "name": "Tópico Especial - Perspectiva Histórica e Educação Brasileira II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5913",
+      "code": "HST5913",
+      "name": "Tópico Especial - Paleografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5914",
+      "code": "HST5914",
+      "name": "Tópico Especial - Ditadura Militar, Repressão e Gênero",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5915",
+      "code": "HST5915",
+      "name": "Tópico Especial - Novas Abordagens para a História da Escravidão e Pós-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5916",
+      "code": "HST5916",
+      "name": "Tópico Especial - Escravidão no Sul do Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Emancipação"
+    },
+    {
+      "id": "HST5917",
+      "code": "HST5917",
+      "name": "Tópico Especial - As Relações entre Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5918",
+      "code": "HST5918",
+      "name": "Tópico Especial - História dos Desenhos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "e EUA no Contexto da 'Política da Boa Vizinhança'"
+    },
+    {
+      "id": "HST5919",
+      "code": "HST5919",
+      "name": "Tópico Especial Política e Sociedade no",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Animados"
+    },
+    {
+      "id": "HST5920",
+      "code": "HST5920",
+      "name": "Tópico Especial África Colonial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Brasil República"
+    },
+    {
+      "id": "HST5921",
+      "code": "HST5921",
+      "name": "Tópicos Especiais: História, Patrimônio, Cultura e Memória",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5922",
+      "code": "HST5922",
+      "name": "Tópico Especial - História Contemporânea",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5923",
+      "code": "HST5923",
+      "name": "Tópico Especial - Aspectos de Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "do México: da Revolução Contemporânea ao ano 2000"
+    },
+    {
+      "id": "HST5924",
+      "code": "HST5924",
+      "name": "Tópico Especial - Construções",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "no Brasil Colonial"
+    },
+    {
+      "id": "HST5926",
+      "code": "HST5926",
+      "name": "Tópico Especial - História, Biopolítica e Poder",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Socioculturais na Península Ibérica Medieval"
+    },
+    {
+      "id": "HST5927",
+      "code": "HST5927",
+      "name": "Tópico Especial - História Econômica Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5928",
+      "code": "HST5928",
+      "name": "Tópico Especial -Interfaces entre a História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5929",
+      "code": "HST5929",
+      "name": "Tópicos Especiais - História das Relações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "e a Geografia nas abordagens sobre desastres ambientais"
+    },
+    {
+      "id": "HST5930",
+      "code": "HST5930",
+      "name": "Tópico Especial - Romantismo e História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Internacionais"
+    },
+    {
+      "id": "HST5931",
+      "code": "HST5931",
+      "name": "Tópico Especial - História e Literatura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5932",
+      "code": "HST5932",
+      "name": "Tópico Especial - Arqueologia Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5933",
+      "code": "HST5933",
+      "name": "Tópico Especial - Idade Média Oriental: A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5934",
+      "code": "HST5934",
+      "name": "Tópico Especial - Usos da Memória em Etnohistória",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5935",
+      "code": "HST5935",
+      "name": "Tópico Especial - Leitura de Textos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5937",
+      "code": "HST5937",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Historiográficos em Inglês"
+    },
+    {
+      "id": "HST5940",
+      "code": "HST5940",
+      "name": "Tópico Especial: Reflexões femininas entre",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5941",
+      "code": "HST5941",
+      "name": "Tópico Especial: Escravidão Indígena na",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "história e a literatura, séculos XVIII-XIX"
+    },
+    {
+      "id": "HST5942",
+      "code": "HST5942",
+      "name": "Tópico Especial: História Ameríndia Pré-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "América Colonial"
+    },
+    {
+      "id": "HST5943",
+      "code": "HST5943",
+      "name": "Tópico Especial: História do Consumo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Colonial, Colonial e Pós-Colonial"
+    },
+    {
+      "id": "HST5944",
+      "code": "HST5944",
+      "name": "Tópico Especial: Leituras Clássicas do Feminismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5945",
+      "code": "HST5945",
+      "name": "Tópico Especial: Acervos museológicos, coleções e exposições africanas no Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo dos acervos museológicos, das coleções e das exposições africanas no Brasil (séculos XX e XXI). História de coleções africanas em acervos museológicos do Brasil."
+    },
+    {
+      "id": "HST5946",
+      "code": "HST5946",
+      "name": "Tópico Especial: História Contemporânea e Cinema Africano",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "coleções e exposições africanas no Brasil"
+    },
+    {
+      "id": "HST7006",
+      "code": "HST7006",
+      "name": "Laboratório de Ensino de História Oral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de uma reflexão sobre a pesquisa histórica através da utilização da metodologia da \"História Oral\" de maneira a habilitar os alunos para a realização de projetos de ensino utilizando essa metodologia nos vários níveis de atuação."
+    },
+    {
+      "id": "HST7007",
+      "code": "HST7007",
+      "name": "Laboratório de Ensino em História das Religiões (PCC 72 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "(PCC 72horas aula) Reflexão sobre a atualidade do campo religioso oportunizando ao graduando do Curso de História uma vivência de planejamento e prática docente, a partir dos conteúdos programáticos."
+    },
+    {
+      "id": "HST7008",
+      "code": "HST7008",
+      "name": "Laboratório de Estudos de Gênero e História: Oficina de Ensino (PCC 72 h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Discutir a historicidade do conceito de gênero e o uso no ensino de história. Realizar pesquisa bibliográfica visando a elaboração de conteúdos que incluam a categoria de análise gênero. Estudar e discutir as relações vigentes nas escolas buscando uma perspectiva \"inclusiva\" que aborde as questões de gênero, classe, etnia/raça e geração."
+    },
+    {
+      "id": "HST7010",
+      "code": "HST7010",
+      "name": "Laboratório de Ensino de História: História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conseqüências sócio-culturais da Revolução Industrial e Francesa. As novas formas de representação política e suas relações com a riqueza socialmente produzida. Sociedade e vida urbana. Liberalismo. Socialismo. Nacionalismo. Imperialismo. Relações internacionais no pré-guerra."
+    },
+    {
+      "id": "HST7011",
+      "code": "HST7011",
+      "name": "Laboratório de Ensino de História: Meio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Contemporânea As relações entre seres humanos e seu entorno natural e as conseqüências para ambos no decorrer do tempo no campo da história, partindo do estudo de aspectos teórico-metodológicos e de práticas em trabalhos de campo com fontes de pesquisa variadas tais como iconografia, periódicos, arquivos, história oral, literatura, relatos de viajantes, filmes, observações in-loco, de acordo com as possibilidades e escolhas para cada semestre, e sua aplicabilidade no ensino da História."
+    },
+    {
+      "id": "HST7012",
+      "code": "HST7012",
+      "name": "Laboratório de Ensino: Museu e Cultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ambiente e História (PCC 72 horas/aula) Compreender que com a propriedade privada, a industrialização e a reprodução técnica da obra surgem os museus com objetivo de colecionar e conservar obras e objetos que saem da esfera cotidiana. Compreender que a recolha, a seleção, a prevenção, a exposição dos objetos dos museus seguem critérios diversos, afeitos às políticas culturais. Compreender que os museus constituem e fazem parte da cultura visual. Desenvolver práticas de interpretação da cultura visual e material como fontes para histórias que podem contar os museus. Conhecer os diversos museus, seus acervos, catálogos, políticas da cidade de Florianópolis."
+    },
+    {
+      "id": "HST7013",
+      "code": "HST7013",
+      "name": "Laboratório de Ensino de História -",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7014",
+      "code": "HST7014",
+      "name": "Laboratório de Ensino em História Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Imigração e Colonização no Sul do Brasil (PCC 72 h/a)"
+    },
+    {
+      "id": "HST7015",
+      "code": "HST7015",
+      "name": "Laboratório de Ensino de História: Historiografia Inglesa -(PCC 72 h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "do Campesinato (PCC 72 h/a)"
+    },
+    {
+      "id": "HST7016",
+      "code": "HST7016",
+      "name": "Laboratório de Ensino de História: Epistemologia Medieval -(PCC 72 h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": ""
+    },
+    {
+      "id": "HST7017",
+      "code": "HST7017",
+      "name": "Laboratório de Ensino de História - Prática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7018",
+      "code": "HST7018",
+      "name": "Laboratório de Ensino de História Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Escrita e Leitura (PCC 72 ha)"
+    },
+    {
+      "id": "HST7019",
+      "code": "HST7019",
+      "name": "Laboratório de Ensino em História da Saúde(PCC 72 h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "do Trabalho e da Cultura (PCC 72h/a)"
+    },
+    {
+      "id": "HST7020",
+      "code": "HST7020",
+      "name": "Laboratório de Ensino de História: Cidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7021",
+      "code": "HST7021",
+      "name": "Laboratório de Ensino em História da África",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "e Cultura Visual"
+    },
+    {
+      "id": "HST7022",
+      "code": "HST7022",
+      "name": "Laboratório de Ensino de História: Cidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7023",
+      "code": "HST7023",
+      "name": "Laboratório de Ensino em História e Mito",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "e Cultura Visual (PCC 72h/a)"
+    },
+    {
+      "id": "HST7025",
+      "code": "HST7025",
+      "name": "Laboratório de Ensino de História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 72 horas-aula)"
+    },
+    {
+      "id": "HST7026",
+      "code": "HST7026",
+      "name": "Laboratório de Ensino - História Social da T´pecnica e Cultura Material",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Migrações e Meio Ambiente"
+    },
+    {
+      "id": "HST7027",
+      "code": "HST7027",
+      "name": "Laboratório de Ensino de História -",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7029",
+      "code": "HST7029",
+      "name": "Laboratório de Ensino de Histórias Pré-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "memória, Acervo e Patrimônio"
+    },
+    {
+      "id": "HST7030",
+      "code": "HST7030",
+      "name": "Laboratório de Pesquisa em História Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Modernas"
+    },
+    {
+      "id": "HST7031",
+      "code": "HST7031",
+      "name": "Laboratório de Pesquisa: Microanálise e História Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "do Trabalho e da Cultura"
+    },
+    {
+      "id": "HST7039",
+      "code": "HST7039",
+      "name": "Tópico Especial: Capitalismo Histórico e o",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo das articulações entre o global e o particular no mundo da escravidão"
+    },
+    {
+      "id": "HST7040",
+      "code": "HST7040",
+      "name": "Tópico Especial: História da Índia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Escravismo Atlântico"
+    },
+    {
+      "id": "HST7041",
+      "code": "HST7041",
+      "name": "Tópico Especial: História das Religiões e Religiosidades",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7042",
+      "code": "HST7042",
+      "name": "Tópico Especial: O percurso da diáspora, entre a História e a Literatura:Conexões",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7043",
+      "code": "HST7043",
+      "name": "Tópico Especial - História da Ásia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "entre a História e a Literatura:Conexões"
+    },
+    {
+      "id": "HST7044",
+      "code": "HST7044",
+      "name": "Tópico Especial em Arqueologia do Mediterrâneo Antigo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7045",
+      "code": "HST7045",
+      "name": "Laboratório de Ensino: Práticas de Escritas, Técnicas Narrativas e Historiográficas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5903",
+      "code": "HST5903",
+      "name": "Laboratório de Ensino de História da Escravidão (PCC 36 h/a)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "HST5880",
+        "HST5881",
+        "HST5885",
+        "HST5889",
+        "HST5891"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "HST5880"
+              },
+              {
+                "kind": "course",
+                "code": "HST5881"
+              },
+              {
+                "kind": "course",
+                "code": "HST5885"
+              },
+              {
+                "kind": "course",
+                "code": "HST5889"
+              },
+              {
+                "kind": "course",
+                "code": "HST5891"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "DISCIPLINAS OPTATIVAS DE LABORATÓRIO DE ENSINO DE HISTÓRIA O ensino da história da escravidão nas Américas. História e Memória. Material didático. Ensino e pesquisa."
+    },
+    {
+      "id": "HST5904",
+      "code": "HST5904",
+      "name": "Laboratório de Ensino de História e Gênero",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As relações de gênero no campo da história a partir do estudo de aspectos teórico-metodológicos e da prática em trabalho de campo com fontes de pesquisas variadas tais como arquivos, periódicos, história oral, literatura e iconografia, de acordo com as possibilidades e escolhas para cada semestre, e sua aplicação no ensino de História."
+    },
+    {
+      "id": "HST5905",
+      "code": "HST5905",
+      "name": "Laboratório de Ensino de História da Saúde (PCC 36 h/a)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "(PCC 36 h/a) Estudo dos processos que envolvem saúde e doença como eventos históricos e suas possibilidades de abordagem junto ao ensino médio e fundamental."
+    },
+    {
+      "id": "HST7001",
+      "code": "HST7001",
+      "name": "Laboratório de Ensino de História - Oficina",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos da linguagem audiovisual. Utilização do audiovisual nos estudos históricos. Formação técnica e atividades práticas visando à produção de vídeos de apoio ao ensino da história."
+    },
+    {
+      "id": "HST7002",
+      "code": "HST7002",
+      "name": "Laboratório de Ensino de História - Oficina",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Vídeo-História I - PCC 72 h/a Montagem da matéria audiovisual e produção de sentido. O processo de edição e finalização do audiovisual."
+    },
+    {
+      "id": "HST7003",
+      "code": "HST7003",
+      "name": "Laboratório de Ensino de História da África",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Vídeo-História II - PCC 72 h/a Estudo das propostas nacionais para o ensino de História da África nos níveis fundamental e médio, favorecidas pela Lei no 10.639/03. Discussões teóricas sobre a temática e as relações possíveis que se estabeleceram com os parâmetros curriculares nacionais (PCNs) e com a Lei de Diretrizes e Bases da Educação (LDB)."
+    },
+    {
+      "id": "HST7004",
+      "code": "HST7004",
+      "name": "Laboratório de Ensino de História Indígena",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- PCC 36 h/a Estudo das metodologias e das aplicabilidades do ensino de História indígena em sala de aula, por meio de leituras orientadas, discussão, elaboração e apresentação de atividades propostas, envolvendo a prática e as dificuldades da aplicabilidade dessas metodologias no seu conjunto e/ou isoladamente."
+    },
+    {
+      "id": "HST7005",
+      "code": "HST7005",
+      "name": "Laboratório de Ensino de História -",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- PCC 72 h/a As relações de gênero no campo da história a partir do estudo de aspectos teórico-metodológicos e da prática em trabalho de campo com fontes de pesquisa variadas tais como arquivos, periódicos, história oral, literatura e iconografia, de acordo com as possibilidades e escolhas para cada semestre, e sua aplicação no ensino de História."
+    },
+    {
+      "id": "HST7009",
+      "code": "HST7009",
+      "name": "Laboratório de Ensino de História: Cidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações de Gênero e História - PCC 72 h/a A chamada virada Pictórica, como emergência de um paradigma dentro das ciências humanas e sintoma do mundo contemporâneo, que se encontra cada vez mais dominado pela dinâmica do olhar. Cidades contemporâneas e o novo urbanismo, afeito mais para comunicar identidades e seduzir turistas e viajantes, do que organizar espacialidades ordenadas e disciplinadas. Equipamentos urbanos de Florianópolis que compõem o conjunto do patrimônio: museus, acervos artísticos e antropológicos, arquivos documentais, a arquitetura, praças, monumentos. A formação do historiador na busca de habilidades na produção e difusão do conhecimento em várias instâncias da sociedade."
+    },
+    {
+      "id": "HST7024",
+      "code": "HST7024",
+      "name": "Laboratório de Pesquisa - Arqueologia: Métodos e Técnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "e Comunicação Visual (PCC 72 h/a)"
+    },
+    {
+      "id": "HST7028",
+      "code": "HST7028",
+      "name": "Laboratório de Ensino: Arqueologia e Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7032",
+      "code": "HST7032",
+      "name": "Laboratório de Pesquisa História: Memória, Acervos e Patrimônio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7033",
+      "code": "HST7033",
+      "name": "Laboratóro de Ensino em História: Imagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A produção do discurso histórico nas narrativas visuais. Suportes, regimes de funcionamento e linguagens das narrativas visuais. Reflexão histórica através de narrativas visuais."
+    },
+    {
+      "id": "HST7034",
+      "code": "HST7034",
+      "name": "Laboratório de Pesquisa: História Visual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "e Narrativa Histórica"
+    },
+    {
+      "id": "HST7035",
+      "code": "HST7035",
+      "name": "Tópico Especial: Mitologia e Lendas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "da África"
+    },
+    {
+      "id": "HST7036",
+      "code": "HST7036",
+      "name": "Laboratório de Pesquisa em História da Historiografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Ameríndias"
+    },
+    {
+      "id": "HST7037",
+      "code": "HST7037",
+      "name": "Laboratório de Ensino de História: História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Historiografia (*) -PARA INTEGRALIZAÇÃO CURRICULAR O ALUNO DEVERÁ CURSAR, NO MÍNIMO, 144 HORAS-AULA."
+    },
+    {
+      "id": "HST8305",
+      "code": "HST8305",
+      "name": "Laboratório de Ensino de História: Tecnologia e História Social (PCC72h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "da Cartografia e a Didática da História"
+    },
+    {
+      "id": "HST8306",
+      "code": "HST8306",
+      "name": "Laboratório de Ensino de História: Os",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST8307",
+      "code": "HST8307",
+      "name": "Laboratório de Ensino de História e Plantas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "diversos aspectos da ação docente na educação regular"
+    },
+    {
+      "id": "HST8308",
+      "code": "HST8308",
+      "name": "Tópicos Especial: Etnoarqueologia e História Indígena nas Américas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Medicinais - (PCC 72h-a)"
+    },
+    {
+      "id": "HST8321",
+      "code": "HST8321",
+      "name": "Laboaratório de Ensino de História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História Indígena nas Américas (*) PARA INTEGRALIZAÇÃO CURRICULAR O ALUNO DEVERÁ CURSAR, NO MÍNIMO, 288 HORAS-AULA"
+    },
+    {
+      "id": "HST5111",
+      "code": "HST5111",
+      "name": "Pré-história Geral e do Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de Pré-História. Os métodos da pré-história. Os estágios ou períodos culturais e a hominização. As origens do povoamento americano e o homem pré-histórico no Brasil"
+    },
+    {
+      "id": "HST5114",
+      "code": "HST5114",
+      "name": "História da Cultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5114
+      },
+      "prerequisiteHours": 5114,
+      "syllabus": "Evolução cultural da humanidade: aspectos filosóficos, científicos, artísticos e literários."
+    },
+    {
+      "id": "HST5202",
+      "code": "HST5202",
+      "name": "Teoria e Metodologia da História II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Discussão em torno da formação do conceito de Antiguidade. As abordagens teóricas sobre o período. Análise das formas do conhecimento histórico oriental e greco-romano. Discussão sobre as fontes."
+    },
+    {
+      "id": "HST5213",
+      "code": "HST5213",
+      "name": "História Econômica, Social, Política Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5213
+      },
+      "prerequisiteHours": 5213,
+      "syllabus": "Sistema econômico, político, social e ideológico da antiguidade oriental, ocidental e da Europa feudal. O mercantilismo. O Brasil no sistema colonial. Capitalismo industrial e imperialismo. O Brasil e a América no Séc. XIX. O sistema capitalista, socialista e o 3º mundo. O processo econômico, social, político e ideológico do Brasil República."
+    },
+    {
+      "id": "HST5303",
+      "code": "HST5303",
+      "name": "Teoria e Metodologia da História III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "do Brasil Discussão em torno da formação do conceito de Idade Média. As abordagens teóricas sobre o período. Análise das formas do conhecimento histórico no período. Discussão sobre as fontes."
+    },
+    {
+      "id": "HST5518",
+      "code": "HST5518",
+      "name": "História da Cultura Ibérica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5518
+      },
+      "prerequisiteHours": 5518,
+      "syllabus": "Situação geográfica da Península Ibérica. Pré-História. A civilização hispano-românica, visigoda, e arábico-hispânica. Formação e consolidação das nacionalidades espanholas e portuguesa. Aspectos culturais da expansão marítima e da conquista. A cultura na Idade Moderna e Contemporânea."
+    },
+    {
+      "id": "HST5733",
+      "code": "HST5733",
+      "name": "Tópico Especial II - Cotidiano e Relações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Questões de gênero no cotidiano. Imagens femininas. Poderes e sexualidade. Honra e vizinha. Urbanização. Construção social e historiografia contemporânea."
+    },
+    {
+      "id": "HST5834",
+      "code": "HST5834",
+      "name": "Tópico Especial - Relação USA com",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Gênero A bipolaridade e a Guerra Fria. As relações dos Estados Unidos com a América Latina dentro da perspectiva leste-oeste. O declínio da hegemonia norte- americana na região e a busca de novas estratégias de dominação."
+    },
+    {
+      "id": "HST5837",
+      "code": "HST5837",
+      "name": "Tópico Especial - História e Imagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "América Latina:História, Política e Estratégia Estatuto e função da imagem em diferentes épocas e sociedades históricas. Solução formal e contexto. Abordagens teórico-metodológicas para a decodificação de imagem no âmbito dos estudos históricos."
+    },
+    {
+      "id": "HST5838",
+      "code": "HST5838",
+      "name": "Tópico Especial - Introdução á Arqueologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Arqueologia brasileira. Natureza e objetivos da Arqueologia. Sítios arqueológicos brasileiros e evidenciação das estruturas arqueológicas. Populações pré- históricas do Brasil."
+    },
+    {
+      "id": "HST5840",
+      "code": "HST5840",
+      "name": "Tópico Especial - Teoria e Metodologia da História Oral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Discussão em torno do conceito de História Oral. As várias tendências. As peculiaridades teóricas, técnicas e metodológicas. Instrumentalizar o aluno para poder realizar um projeto de História Oral, desde a etapa da entrevista passando pela transcrição até a análise da documentação oral."
+    },
+    {
+      "id": "HST5841",
+      "code": "HST5841",
+      "name": "Tópico Especial - Religião e Sociedade no",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Discussão sobre a insenção da religião na sociedade brasileira. Estudo das opções metodológicas de apreensão do tema."
+    },
+    {
+      "id": "HST5846",
+      "code": "HST5846",
+      "name": "Tópico Especial - Movimento de Contra-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Brasil Definir e discutir os vários aspectos do fenômeno social denominado `contracultura`, sua importância e conseqüências."
+    },
+    {
+      "id": "HST5848",
+      "code": "HST5848",
+      "name": "Tópico Especial - Literatura e História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Historiografia da Literatura Brasileira. Fato e ficção. Ficção e História. A questão da narrativa. Narração e invenção. Biografia, autobiografia, memórias"
+    },
+    {
+      "id": "HST5852",
+      "code": "HST5852",
+      "name": "Tópico Especial - Teoria Geral do Estado",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Origem e evolução do Estado. Estado Moderno. Estado Contemporâneo. Elementos do Estado. Regimes de Governo e Democracia. Formas de Governo: parlamentarismo e presidencialismo. Formas de Estado e Federação. Sistemas econômicos. Partidos políticos e sistemas partidários. Função social do Estado Contrmporâneo."
+    },
+    {
+      "id": "HST5853",
+      "code": "HST5853",
+      "name": "Tópico Especial - História, Medicina e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo da constituição da medicina enquanto saber científico, seu papel na sociedade ocidental, suas estratégias de hegemonia e as resistências a ela."
+    },
+    {
+      "id": "HST5859",
+      "code": "HST5859",
+      "name": "Tópico Especial - Introdução à História e Multimídia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A disciplina é uma abordagem prática da teoria da comunicação digital e sua aplicação, em função a partir da implementação de um projeto de multimídia, para a recuperação da memória da História Contemporânea, enfatizando as fontes visuais e sonoras."
+    },
+    {
+      "id": "HST5861",
+      "code": "HST5861",
+      "name": "Tópico Especial - Um olhar sobre os índios",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo sobre os primeiros franceses no Brasil. A oficialidade da iniciativa de Villegaignon. A população indígena: traços morais e materiais. Ensejar a vinculação da pesquisa histórica, com preocupações e responsabilidade com o presente."
+    },
+    {
+      "id": "HST5868",
+      "code": "HST5868",
+      "name": "Tópico Especial - Religiões Mediúnicas no",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "do Brasil: O Ponto de Vista Francês Estudo da História das Religiões Mediúnicas no Brasil, enfatizando as múltiplas relações tecidas entre elas e os demais componentes do campo religioso brasileiro."
+    },
+    {
+      "id": "HST5869",
+      "code": "HST5869",
+      "name": "Tópico Especial - História dos Estados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Brasil: Uma Perspectiva Histórica Estudo de diferentes abordagens relativas à representação das populações indígenas no momento do contato com o europeu, percebendo-se as falas e discursos referentes à vida cotidiana e cultura desses indivíduos, buscando-se interpretações relativas ao imaginário europeu. Privilegiar o conhecimento das populações indígenas na atualidade."
+    },
+    {
+      "id": "HST5870",
+      "code": "HST5870",
+      "name": "Tópico Especial - Índios: Cotidiano e Representação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Unidos Estudo de diferentes abordagens relativas à representação das populações indígenas no momento do contato com o europeu, percebendo-se as falas e discursos referentes à vida cotidiana e cultura desses indivíduos, buscando-se interpretações relativas ao imaginário europeu. Privilegiar o conhecimento das populações indígenas na atualidade."
+    },
+    {
+      "id": "HST5871",
+      "code": "HST5871",
+      "name": "Tópico Especial - Movimentos Sociais e História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": "Tratar de compreender abordagens metodológicas dos movimentos sociais, privilegiando as perspectivas que lidem com a experiência e a cultura. Discutir a historiografia de movimentos específicos, percebendo a interpretação de fenômenos onde os mesmos são gestados e pensados em meio as experiências dos sujeitos envolvidos."
+    },
+    {
+      "id": "HST5872",
+      "code": "HST5872",
+      "name": "Tópico Especial - Cinema e História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A invenção do cinema. O cinema na Belle Époque. O nascimento e ascensão de Hollywood. O expressionismo alemão. O impressionismo francês. O cinema europeu na década de 30. Os anos dourados de Hollywood e o B movies. A Segunda Guerra Mundial e o cinema. O cinema de Pós-Guerra: o declínio de Hollywood e o Film Noir. O Neo-realismo italiano e La Nouvelle Vague. A produção cinematográfica na Suécia, Grã Bretanha e no Leste Europeu. O cinema Japonês. Os filmes do Terceiro Mundo."
+    },
+    {
+      "id": "HST5876",
+      "code": "HST5876",
+      "name": "Tópico Especial - Relações de Gênero e História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4
+      },
+      "prerequisiteHours": 4,
+      "syllabus": ""
+    },
+    {
+      "id": "HST5877",
+      "code": "HST5877",
+      "name": "Tópico Especial - Revolução Sexual e Guerra Fria: Os Anos 60 e 70 do Século XX",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As décadas de 60 e 70 têm sido pensadas como as que foram vividas no interior de um processo intenso de mudanças. Revolução Sexual, Guerra Fria, Movimento Estudantil e Movimento Feminista são temas que costumeiramente nos vêem à mente quando nos referimos à estas décadas. É preciso observar, entretanto, estas questões como resultado de disputas num mundo que se globalizava. As categorias de gênero e de geração podem nos ajudar a fazer algumas aproximações com a época."
+    },
+    {
+      "id": "HST5878",
+      "code": "HST5878",
+      "name": "Tópico Especial - A Guerra Sertaneja do Contestado",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Guerra Fria: Os Anos 60 e 70 do Século XX"
+    },
+    {
+      "id": "HST5880",
+      "code": "HST5880",
+      "name": "Tópico Especial - História da Escravidão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5881",
+      "code": "HST5881",
+      "name": "Tópico Especial - História da Diáspora",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A escravidão moderna. As rotas e destinos do tráfico de escravos atlântico. A escravidão nos territórios dos impérios português, espanhol, inglês e francês nas Américas. A experiência de africanos e seus descendentes até o fim do século XIX: trabalho, identidades étnicas, família, resistência."
+    },
+    {
+      "id": "HST5882",
+      "code": "HST5882",
+      "name": "Tópico Especial - História das Atividades",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Africana nas Américas O homem e a terra: formas de ocupação e transformação do espaço em áreas de cultivo e criação. As técnicas agrícolas e pastoris no Brasil."
+    },
+    {
+      "id": "HST5883",
+      "code": "HST5883",
+      "name": "Tópico Especial-Cultura Politica, Cidade e Trabalho:Temas História Republicana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Agropecuária e Meio Ambiente no Brasil O curso tem como objetivo discutir alguns temas da história republicana brasileira, - tais como revolução de trinta, estado novo, redemocratização, desenvolvimentismo, cultura popular, legislação trabalhista, populismo, literatura e cultura de classe entre os anos de 1930 e 1964 - na perspectiva da história social. Isso implica que embora esses temas possam ser abordados separadamente o pressuposto teórico e metodológico do curso é que eles só adquirem sentido quando postos na sua relação mútua, porque é na complexa teia dessas interações que cada um dos elementos se configura, se constitui e se transforma."
+    },
+    {
+      "id": "HST5884",
+      "code": "HST5884",
+      "name": "Tópico Especial - Cinema e Política na",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Brasileira,1930-1964 Discutir a importância estratégica do cinema para a influencia dos Estados Unidos na América Latina, dando ênfase às idéias sociais e políticas de ação e reação à penetração do `jeito americano de viver` no subcontinente durante o século XX."
+    },
+    {
+      "id": "HST5885",
+      "code": "HST5885",
+      "name": "Tópico Especial - Escravidão e Liberdade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "América Latina Tráfico de escravos atlântico e rotas internas. A escravidão africana no sul do Brasil: pesca da baleia, pecuária, charqueadas, engenhos de farinha de mandioca, engenhos de erva-mate. Escravidão e liberdade nas cidades. Escravos, libertos, índios e imigrantes europeus. Resistência e comunidade escrava. A desintegração da escravidão e os novos arranjos de trabalho. O pós-abolição."
+    },
+    {
+      "id": "HST5886",
+      "code": "HST5886",
+      "name": "Tópico Especial - História Contemporânea",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "no Brasil Meridional Discutir, através de seminários e leituras temáticas dirigidas, tópicos de história contemporânea, enfatizando as grandes questões que caracterizaram as transformações no campo político, intelectual, institucional e econômico entre o final do século XVIII e as primeiras décadas do século XX. Liberalismo e a sociedade de mercado. Socialismo e revolta política. Interpretações sobre o significado da sociedade contemporânea e de suas transformações."
+    },
+    {
+      "id": "HST5887",
+      "code": "HST5887",
+      "name": "Tópico Especial - Laboratório Pesquisa em História Social da Escravidão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2
+      },
+      "prerequisiteHours": 2,
+      "syllabus": "I: A Grande Transformação Pressupostos teórico-metodológicos da história social da escravidão. Introdução à historiografia brasileira da história social da escravidão. Discussão de fontes primárias."
+    },
+    {
+      "id": "HST5888",
+      "code": "HST5888",
+      "name": "Tópico Especial - Laboratório de Pesquisa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Debates historiográficos na história social da escravidão. Discussão de fontes primárias. Prática da pesquisa."
+    },
+    {
+      "id": "HST5889",
+      "code": "HST5889",
+      "name": "Tópico Especial - Laboratório de Pesquisa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "em História Social da Escravidão II Debates historiográficos na história social da escravidão. Prática da pesquisa em fontes primárias e secundárias."
+    },
+    {
+      "id": "HST5890",
+      "code": "HST5890",
+      "name": "Tópico Especial - Seminário de Pesquisa: Relações de Gênero e História",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "em História Social da Escravidão III Oficina de prática de pesquisa nas temáticas de relações de gênero no campo da história a partir do estudo de aspectos teórico-metodológicos e da prática em trabalho de campo com fontes de pesquisa variadas."
+    },
+    {
+      "id": "HST5891",
+      "code": "HST5891",
+      "name": "Tópico Especial - História da África I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O curso destacará, em primeiro lugar, a discussão da constituição do campo sobre os estudos africanos, enfatizando suas especificidades nos diversos discursos das intelectualidades africanas e as questões relativas aos recortes espaços-temporais, as construções dos objetos de pesquisa, as perspectivas metodológicas e as reflexões desenvolvidas pela historiografia no século XX. Analisará, em seguida, as dinâmicas e os processos históricos das diferentes estruturas sociais e políticas africanas, no período dos séculos XIV ao XVIII, enfatizando a reorganização econômica em função do impulso do tráfico transaariano e as transformações políticas advindas com o impacto e inserção da África Ocidental no circuito do tráfico atlântico para as Américas."
+    },
+    {
+      "id": "HST5892",
+      "code": "HST5892",
+      "name": "Tópico Especial - História da África II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O curso pretende estudar os processos de constituição dos sistemas coloniais nos séculos XIX e XX, abordando as interações, acomodações e resistência nas relações entre europeus e africanos. A partir disso, aprofundará as discussões que se colocaram a partir da descolonização a respeito da constituição dos Estados Nacionais e da construção das alternativas de modernidade por parte dos diferentes países africanos."
+    },
+    {
+      "id": "HST5894",
+      "code": "HST5894",
+      "name": "Tópico Especial - Thompson Essencial: Introdução ao Pensamento E. P. Thompson",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Essa disciplina tem como objetivo discutir o pensamento e os conceitos formulados pelo historiador britânico Edward Palmer Thompson."
+    },
+    {
+      "id": "HST5895",
+      "code": "HST5895",
+      "name": "Tópico Especial - Cultura Política, Nação e Modernidade na República:O Brasil Novo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Essa disciplina oferece uma abordagem da história republicana brasileira problematizando os múltiplos aspectos da construção da nação e da nacionalidade."
+    },
+    {
+      "id": "HST5898",
+      "code": "HST5898",
+      "name": "Estudo Dirigido em Historiografia - A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atualização historiografia. Através da leitura de obras escolhidas que tratam diretamente o tema - tanto pesquisas micro-históricas quanto discussões teóricas e historiográficas - discutiremos as possibilidades teóricas e de pesquisa abertas pela micro-história. Teoria, metodologia e historiografia se articulam em uma discussão sobre o lugar da micro-história italiana no debate historiográfico contemporâneo."
+    },
+    {
+      "id": "HST5901",
+      "code": "HST5901",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Micro-História Italiana"
+    },
+    {
+      "id": "HST5902",
+      "code": "HST5902",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "HST5901"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "HST5901"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "HST5938",
+      "code": "HST5938",
+      "name": "Tópico Especial: Historiografia Brasileira: uma Introdução",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST5939",
+      "code": "HST5939",
+      "name": "Tópico Especial: Formas Contemporâneas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "HST7038",
+      "code": "HST7038",
+      "name": "Tópico Especial: História e Rock",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "do Imperialismo -História e Música; além da abordagem lírica; História e Musicologia: aproximações e diferenças; História e Rock; as origens entre o Blues e a música popular; o Rock como fenômeno de contestação e contracultura; o Rock e a apropriação da indústria cultural; o Rock e seus subgêneros; o Heavy Metal seus subgêneros e identidades; Rock, Metal e História: discussões acerca da memória, identidades e cultura."
+    },
+    {
+      "id": "HST8317",
+      "code": "HST8317",
+      "name": "Tópico Especial: Historiografia Medieval",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(*) PARA INTEGRALIZAÇÃO CURRICULAR O ALUNO DEVERÁ CURSAR, NO MÍNIMO, 288 HORAS-AULA"
+    },
+    {
+      "id": "HST8318",
+      "code": "HST8318",
+      "name": "Tópico Especial: Insurgência Camponesa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(*) PARA INTEGRALIZAÇÃO CURRICULAR O ALUNO DEVERÁ CURSAR, NO MÍNIMO, 288 HORAS-AULA"
+    },
+    {
+      "id": "HST8319",
+      "code": "HST8319",
+      "name": "Tópico Especial: Movimentos Sociais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "da América Contemporânea"
+    },
+    {
+      "id": "HST8320",
+      "code": "HST8320",
+      "name": "Tópico Especial: História Pública",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rurais na História Brasileira"
+    },
+    {
+      "id": "HST7802",
+      "code": "HST7802",
+      "name": "Atividades Complementares",
+      "credits": 16,
+      "hours": 240,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(*) PARA INTEGRALIZAÇÃO CURRICULAR O ALUNO DEVERÁ REALIZAR, NO MÍNIMO, 240 HORAS-AULA"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EED5331",
+      "HST7101",
+      "HST7102",
+      "HST7103",
+      "HST7104",
+      "EED8007",
+      "HST7201",
+      "HST7301",
+      "HST7303",
+      "HST7202",
+      "HST7302",
+      "HST7304",
+      "MEN7003",
+      "HST7401",
+      "HST7402",
+      "HST7403",
+      "HST7404",
+      "MEN5602",
+      "HST7501",
+      "HST7502",
+      "MEN7005",
+      "PSI5137",
+      "HST7601",
+      "HST7602",
+      "HST7603",
+      "LSB7244",
+      "HST7701",
+      "MEN7017",
+      "MEN7018",
+      "HST7801",
+      "HST7021"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 288,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "HST1121",
+              "HST1127",
+              "HST5810",
+              "HST5906",
+              "HST5907",
+              "HST5908",
+              "HST5909",
+              "HST5910",
+              "HST5911",
+              "HST5912",
+              "HST5913",
+              "HST5914",
+              "HST5915",
+              "HST5916",
+              "HST5917",
+              "HST5918",
+              "HST5919",
+              "HST5920",
+              "HST5921",
+              "HST5922",
+              "HST5923",
+              "HST5924",
+              "HST5926",
+              "HST5927",
+              "HST5928",
+              "HST5929",
+              "HST5930",
+              "HST5931",
+              "HST5932",
+              "HST5933",
+              "HST5934",
+              "HST5935",
+              "HST5937",
+              "HST5940",
+              "HST5941",
+              "HST5942",
+              "HST5943",
+              "HST5944",
+              "HST5945",
+              "HST5946",
+              "HST7006",
+              "HST7007",
+              "HST7008",
+              "HST7010",
+              "HST7011",
+              "HST7012",
+              "HST7013",
+              "HST7014",
+              "HST7015",
+              "HST7016",
+              "HST7017",
+              "HST7018",
+              "HST7019",
+              "HST7020",
+              "HST7022",
+              "HST7023",
+              "HST7025",
+              "HST7026",
+              "HST7027",
+              "HST7029",
+              "HST7030",
+              "HST7031",
+              "HST7039",
+              "HST7040",
+              "HST7041",
+              "HST7042",
+              "HST7043",
+              "HST7044",
+              "HST7045",
+              "HST5903",
+              "HST5904",
+              "HST5905",
+              "HST7001",
+              "HST7002",
+              "HST7003",
+              "HST7004",
+              "HST7005",
+              "HST7009",
+              "HST7024",
+              "HST7028",
+              "HST7032",
+              "HST7033",
+              "HST7034",
+              "HST7035",
+              "HST7036",
+              "HST7037",
+              "HST8305",
+              "HST8306",
+              "HST8307",
+              "HST8308",
+              "HST8321",
+              "HST5111",
+              "HST5114",
+              "HST5202",
+              "HST5213",
+              "HST5303",
+              "HST5518",
+              "HST5733",
+              "HST5834",
+              "HST5837",
+              "HST5838",
+              "HST5840",
+              "HST5841",
+              "HST5846",
+              "HST5848",
+              "HST5852",
+              "HST5853",
+              "HST5859",
+              "HST5861",
+              "HST5868",
+              "HST5869",
+              "HST5870",
+              "HST5871",
+              "HST5872",
+              "HST5876",
+              "HST5877",
+              "HST5878",
+              "HST5880",
+              "HST5881",
+              "HST5882",
+              "HST5883",
+              "HST5884",
+              "HST5885",
+              "HST5886",
+              "HST5887",
+              "HST5888",
+              "HST5889",
+              "HST5890",
+              "HST5891",
+              "HST5892",
+              "HST5894",
+              "HST5895",
+              "HST5898",
+              "HST5901",
+              "HST5902",
+              "HST5938",
+              "HST5939",
+              "HST7038",
+              "HST8317",
+              "HST8318",
+              "HST8319",
+              "HST8320",
+              "HST7802"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "326",
+    "curriculumCode": "20071",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=326&curriculo=20071",
+    "sha256": "745c2645483774ad7060b6cb72b23e1dcd0bd461158d0e1c6694e9903c8aff49",
+    "capturedAt": "2026-09-22"
+  }
+}

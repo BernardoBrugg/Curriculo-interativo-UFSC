@@ -1,0 +1,2842 @@
+{
+  "program": "CIÊNCIAS SOCIAIS",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2007.1",
+  "totalHours": 4536,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ANT7101",
+      "code": "ANT7101",
+      "name": "Introdução à Antropologia (PCC 36 horas-",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5312"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5312"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "A constituição da Antropologia como disciplina e seu campo de estudo. A crítica ao etnocentrismo e o relativismo cultural. Questões de método: trabalho de campo e observação participante. Os precursores e o evolucionismo social na conformação da Antropologia como disciplina."
+    },
+    {
+      "id": "LLV7801",
+      "code": "LLV7801",
+      "name": "Produção Textual Acadêmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLV5603"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5603"
+      },
+      "syllabus": "aula) Estudo e produção de textos técnico-científicos relevantes para o desempenho das atividades acadêmicas, tais como: resumo, resenha, artigo e seminário. Prática pedagógica."
+    },
+    {
+      "id": "SPO7102",
+      "code": "SPO7102",
+      "name": "Introdução à Ciência Política - PCC 36 h/a",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5208"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5208"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "História do surgimento do conceito de política. Política e teoria política na antiguidade greco-romana. As diferentes dimensões do objeto da Ciência política. O Estado moderno e a transformação da política clássica. Conceitos fundamentais da Ciência política: Poder, Dominação, Legitimidade, Estado, Governo, Povo, Cidadania, Liberdade, Igualdade."
+    },
+    {
+      "id": "SPO7103",
+      "code": "SPO7103",
+      "name": "Introdução à Sociologia - PCC 36 h/a",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5127"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5127"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Perspectiva histórica do desenvolvimento da sociologia como ciência. Introdução ao debate e dilemas teóricos centrais da Sociologia a partir da contribuição das principais matrizes clássicas (estrutura X ação; consenso X conflito; tradição X modernidade; subjetividade X objetividade) e seus desdobramentos contemporâneos. A imaginação sociológica como experiência crítica da sociedade."
+    },
+    {
+      "id": "ANT7201",
+      "code": "ANT7201",
+      "name": "Teoria Antropológica I - PCC 36h/a",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [
+        "ANT5319"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5319"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "A constituição das antropologias social-britânica - funcionalismo e estrutural-funcionalismo - e cultural norte-americana."
+    },
+    {
+      "id": "CSO7205",
+      "code": "CSO7205",
+      "name": "Prática de Pesquisa I - PCC 36 horas-aula",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Conhecimento sobre os projetos de pesquisa desenvolvidos pelos professores do curso nos núcleos de pesquisa e estudo dos dois principais departamentos do curso."
+    },
+    {
+      "id": "FIL7101",
+      "code": "FIL7101",
+      "name": "Fundamentos Filosóficos de Pesquisa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "SPO7202",
+      "code": "SPO7202",
+      "name": "Teoria Política I - PCC 36 horas-aula",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "SPO7102"
+      ],
+      "equivalents": [
+        "SPO5226"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPO7102"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5226"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Cientifica Estudo das principais contribuições clássicas da teoria política moderna, entre o contexto do Renascimento e o contexto das revoluções francesa e americana. Maquiavel e o Estado moderno. O republicanismo moderno (Harrington, Milton, Morus); vertentes do contratualismo (Hobbes, Locke, Rousseau); Conservadorismo e liberalismo (Burke, Montesquieu, Tocqueville). Os “federalistas” e a revolução americana (Madison, Jay, Hamilton)."
+    },
+    {
+      "id": "SPO7203",
+      "code": "SPO7203",
+      "name": "Teoria Sociológica I - PCC 36 horas-aula",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "SPO7103"
+      ],
+      "equivalents": [
+        "SPO5152"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPO7103"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5152"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Pensamento Social Clássico: a sociologia positivista de Emile Durkheim; o materialismo histórico e dialético de Karl Marx e seus desdobramentos contemporâneos."
+    },
+    {
+      "id": "ANT7301",
+      "code": "ANT7301",
+      "name": "Teoria Antropológica II - PCC 18 horas/aula",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [
+        "ANT5324"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5324"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "A escola sociológica francesa e o estruturalismo."
+    },
+    {
+      "id": "CSO7304",
+      "code": "CSO7304",
+      "name": "Epistemologia das Ciências Sociais - PCC",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [
+        "SPO5417"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5417"
+      },
+      "syllabus": "Conceito de epistemologia. Análise crítica das principais linhas de reflexão epistemológica em Ciências Sociais. Fundamento de teoria do conhecimento. Estrutura lógica dos enunciados científicos. Problemas epistemológicos centrais para a prática da Ciência Social (relação ciência-ideologia, conceito de objetividade, relação ciência social, ciêncianatural, conceito de lei e teoria, construção de modelos multifatoriais, reducionismo, individualismo e holismo metodológicos, etc.). Ciência, tecnologia, sociedade e política"
+    },
+    {
+      "id": "HST7402",
+      "code": "HST7402",
+      "name": "História Contemporânea I (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5213"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7402
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5213"
+      },
+      "prerequisiteHours": 7402,
+      "syllabus": "36horas-aula SPO7102 eh"
+    },
+    {
+      "id": "SPO7302",
+      "code": "SPO7302",
+      "name": "Teoria Política II - PCC 18 horas-aula",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "SPO7102"
+      ],
+      "equivalents": [
+        "SPO5227"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPO7102"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5227"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Estudo das principais correntes de pensamento e dos autores clássicos do pensamento político moderno, situado entre as primeiras décadas do século XIX e as primeiras décadas do século XX. Liberalismo e utilitarismo (Bentham, James Mill, Stuart Mill). Socialismo utópico (Saint-Simon, Owen, Fourier). Anarquismo (Stirner, Proudhon, Bakunin). Marxismo (Marx, Engels, Lênin Gramsci). Elitismo (Weber, Pareto, Mosca, Michels)"
+    },
+    {
+      "id": "SPO7303",
+      "code": "SPO7303",
+      "name": "Teoria Sociológica II - PCC 18 horas-aula",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "SPO7103"
+      ],
+      "equivalents": [
+        "SPO5153"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPO7103"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5153"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Pensamento social clássico: a sociologia compreensiva de Max Weber; o neofuncionalismo de Robert Merton; o estrutural-funcionalismo de Talcott Parsons e seus desdobramentos contemporâneos."
+    },
+    {
+      "id": "ANT7401",
+      "code": "ANT7401",
+      "name": "Teoria Antropológica III - PCC 36",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [
+        "ANT5324"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5324"
+      },
+      "syllabus": "O pensamento antropológico pós-guerra e as bases da antropologia contemporânea. A diversificação dos paradigmas antropológicos em reações às escolas nacionais e aos modelos dualistas (natureza e cultura; indivíduo e sociedade; história e estrutura). Proposições para as antropologias processuais, históricas, interpretativas e simbólicas."
+    },
+    {
+      "id": "EED5331",
+      "code": "EED5331",
+      "name": "Teorias da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "horas/aula Conceito de educação: elaborações e práticas em torno da formação moral, intelectual e estética do homem. Conceito de pedagogia: pedagogia da essência e pedagogia da existência - referências clássicas, modernas e contemporâneas. Pensamento pedagógico brasileiro."
+    },
+    {
+      "id": "SPO7402",
+      "code": "SPO7402",
+      "name": "Teoria Política III - PCC 36 horas - aula",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "SPO7102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPO7102"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Estudo das principais correntes de pensamento e autores da teoria política contemporânea desde o pós-segunda guerra mundial. Pluralismo (Shumpeter, Dahl, Downs, Lindblon). Neomarxismo (Poulantzas, Offe, Habermas, Przeworski, Elster). Neoliberalismo (Mises, Hayek, Friedman). Neoinstitucionalismo (Skocpol, Tilly, Evans, Hall, North, Riker). Neorepublicanismo (Arendt, Skinner, Pettit). Teorias da democracia."
+    },
+    {
+      "id": "SPO7403",
+      "code": "SPO7403",
+      "name": "Teoria Sociológica III - PCC 36 horas/aula",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "SPO7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPO7103"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Pensamento Social Contemporâneo: a praxeologia de Pierre Bourdieu; a Escola de Frankfurt; o pós-modernismo de Michel Foucault, Boaventura de Souza Santos, Latour e outros; a contribuição da sociologia brasileira à teoria da globalização: Otávio Ianni."
+    },
+    {
+      "id": "CSO7504",
+      "code": "CSO7504",
+      "name": "Pensamento Social Brasileiro",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101",
+        "SPO7102",
+        "SPO7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7102"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7103"
+          }
+        ]
+      },
+      "syllabus": "Contribuições Teóricas das Ciências Sociais no Brasil. História da Sociologia Brasileira: o ensino de sociologia, suas fases e os ensaístas, realismo literário e sociologia, as Ciências Sociais e as apresentações do Brasil. Sociologia crítica: o negro na sociedade de classes, a revolução Brasileira (a evolução política do Brasil e a Revolução Burguesa), subdesenvolvimento e dependência."
+    },
+    {
+      "id": "CSO7505",
+      "code": "CSO7505",
+      "name": "Prática de Pesquisa II - PCC 36 horas-aula",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101",
+        "SPO7102",
+        "SPO7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7102"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7103"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Conhecimento sobre os projetos de pesquisa desenvolvidos pelos professores do curso nos núcleos de pesquisa e estudo dos dois principais departamentos do curso."
+    },
+    {
+      "id": "CSO7506",
+      "code": "CSO7506",
+      "name": "Métodos e Técnicas de Pesquisa I - PCC36",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "CSO7304"
+      ],
+      "equivalents": [
+        "SPO5413"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CSO7304"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5413"
+      },
+      "syllabus": "As diversas concepções sobre o método nas Ciências Sociais. A construção do objeto. Tipos de pesquisa. Problemas gerais de planejamento, execução e avaliação do processo da pesquisa. Estrutura da explicação e da predição em Ciência Social."
+    },
+    {
+      "id": "MEN5602",
+      "code": "MEN5602",
+      "name": "Didática B (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN5134"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5134"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "h/a - Educação escolar como fenômeno histórico-social. Currículo e trabalho pedagógico no contexto escolar. As relações de ensino-aprendizagem em contexto escolar. Mediações pedagógicas e suas relações com o ensino da área específica do curso."
+    },
+    {
+      "id": "PSI5137",
+      "code": "PSI5137",
+      "name": "Psicologia Educacional: Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Psicologia como ciência: histórico, objetivo e métodos. Interações sociais no contexto educacional e o lugar do professor. Introdução ao estudo do desenvolvimento e de aprendizagem - infância, adolescência, idade adulta. Contribuições da Psicologia na prática escolar cotidiana e na compreensão do fracasso escolar. Prática como componente curricular."
+    },
+    {
+      "id": "EED5187",
+      "code": "EED5187",
+      "name": "Organização Escolar (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "EED5331"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5331"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "-O papel social da escola. O direito à educação. A democratização da educação. Currículo e organização da escola. LDB: a organização da educação nacional e níveis e modalidades de ensino. Projeto Político Pedagógico: a gestão democrática da escola. Parâmetros Curriculares Nacionais. Propostas Curriculares estadual e municipal."
+    },
+    {
+      "id": "MEN7015",
+      "code": "MEN7015",
+      "name": "Metodologia de Ensino das Ciências",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN5602"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN5602"
+      },
+      "syllabus": "A constituição, organização e desenvolvimento do ensino das Ciências Sociais no contexto da educação escolarizada no Brasil. Os princípios teórico- metodológicos das atividades de ensino e de aprendizagem e a especificidade do trabalho pedagógico nas Ciências Sociais. As propostas curriculares e os materiais e recursos didáticos para o ensino das Ciências Sociais. As pesquisas e a discussão contemporânea sobre as possibilidades e os desafios do ensino de Ciências Sociais na realidade escolar brasileira."
+    },
+    {
+      "id": "SPO7603",
+      "code": "SPO7603",
+      "name": "Sociologia da Educação (PCC18 h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101",
+        "SPO7102",
+        "SPO7103"
+      ],
+      "equivalents": [
+        "SPO5132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7102"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7103"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5132"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Sociais Análise dos aspectos históricos do desenvolvimento da sociologia e da sociologia da educação, estudos clássicos e contemporâneos da sociologia da educação. A educação no processo de produção e reprodução das relações sociais"
+    },
+    {
+      "id": "ANT7701",
+      "code": "ANT7701",
+      "name": "Estudos Afro-Brasileiros - PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações raciais e racismo no Brasil. Relações interétnicas e Identidades étnicas. Estudos sobre os negros no Brasil."
+    },
+    {
+      "id": "MEN7021",
+      "code": "MEN7021",
+      "name": "Estágio Supervisionado em Ciências",
+      "credits": 14,
+      "hours": 252,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7101"
+      },
+      "syllabus": "horas/aula"
+    },
+    {
+      "id": "CSO7917",
+      "code": "CSO7917",
+      "name": "Seminário de Licenciatura I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN7021"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN7021"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7022",
+      "code": "MEN7022",
+      "name": "Estágio Supervisionado em Ciências",
+      "credits": 14,
+      "hours": 252,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7701"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7701"
+      },
+      "syllabus": "O estágio como atividade teórico-prática na formação de professores. Estágio supervisionado em escola de Ensino Básico: planejamento das atividades docentes; desenvolvimento de projeto de ensino; avaliação."
+    },
+    {
+      "id": "CSO7918",
+      "code": "CSO7918",
+      "name": "Seminário de Licenciatura II (PCC 36)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "CSO7917"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CSO7917"
+      },
+      "syllabus": "Sociais II MEN7021) Apresentação pública dos trabalhos finais do estágio supervisionado dos alunos do 9º semestre de licenciatura e com o envolvimento dos alunos do 6º semestre cursando Metodologias do Ensino de Ciências Sociais (horas PPCC), voltada para a reflexão da experiência de elaboração do TCL"
+    },
+    {
+      "id": "CSO7919",
+      "code": "CSO7919",
+      "name": "Trabalho de Conclusão de Licenciatura -",
+      "credits": 14,
+      "hours": 252,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7101"
+      },
+      "syllabus": "(*) Fica Dispensado do cumprimento da CSO 7928 o aluno que cumprir a CSO 7917 até 2013.1, inclusive - Portaria nº344/prograd/2012."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "TCL ANT7201 eh Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "ANT7001",
+      "code": "ANT7001",
+      "name": "Cultura Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5203"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5203"
+      },
+      "syllabus": "Significados e dinâmicas da Cultura Brasileira. Estudos antropológicos sobre Cultura Brasileira. Conceitos de Cultura Brasileira. Artes no Brasil. Literaturas no período colonial e contemporâneo. Cultura popular e folclore. Comunicação de massa."
+    },
+    {
+      "id": "ANT7002",
+      "code": "ANT7002",
+      "name": "Relações de Gênero",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5320"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5320"
+      },
+      "syllabus": "O conceito de gênero segundo diferentes escolas teóricas. Identidades de gênero. Parentesco, família, filiação, reprodução e sexualidade. Representações do masculino e do feminino. Análise crítica dos estudos clássicos na Antropologia sobre o lugar das relações de gênero nas sociedades."
+    },
+    {
+      "id": "ANT7003",
+      "code": "ANT7003",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5321"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5321"
+      },
+      "syllabus": "Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Particularidades históricas e processos de diferenciação. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política."
+    },
+    {
+      "id": "ANT7004",
+      "code": "ANT7004",
+      "name": "Etnologia Indígena",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5322"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5322"
+      },
+      "syllabus": "Temáticas, abordagens e perspectivas teórico-metodológicas em etnologia indígena, com ênfase sobre as sociedades situadas no Brasil. O campo de estudo da etnologia indígena, panorama histórico e atual."
+    },
+    {
+      "id": "ANT7005",
+      "code": "ANT7005",
+      "name": "Organização Social e Parentesco",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5332"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5332"
+      },
+      "syllabus": "A constituição do campo: fundamentos teóricos e conceituais. Sistemas terminológicos, regras de filiação, aliança e residência. Herança e onomástica. Debates contemporâneos sobre a temática."
+    },
+    {
+      "id": "ANT7006",
+      "code": "ANT7006",
+      "name": "Antropologia Urbana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5323"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5323"
+      },
+      "syllabus": "O fenômeno urbano. Organização social e espaço. Territórios e territorialidade. Apropriações e intervenção no espaço público. Dicotomias rural- urbano."
+    },
+    {
+      "id": "ANT7007",
+      "code": "ANT7007",
+      "name": "Antropologia do Mundo Rural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5336"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5336"
+      },
+      "syllabus": "Conceitos e tradições teóricas nos estudos do chamado campesinato e da ruralidade. Modos de ocupação dos espaços e acesso aos recursos. Diversidades, organizações econômicas, relações sociais e moralidades nos coletivos do mundo rural. Relações com o urbano."
+    },
+    {
+      "id": "ANT7008",
+      "code": "ANT7008",
+      "name": "Antropologia Visual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A imagem como objeto de estudo antropológico. A história da sub- disciplina e algumas de suas principais tendências. A \"antropologia compartilhada\". As teorias e práticas de técnicas audiovisuais (fotografia, vídeo, cinema, multimídia) na pesquisa antropológica."
+    },
+    {
+      "id": "ANT7009",
+      "code": "ANT7009",
+      "name": "Antropologia da Alimentação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A comida como objeto antropológico. As diferentes escolas antropológicas e suas interpretações das práticas alimentares. Tabus e as prescrições alimentares. Alimentação e classe social, gênero e etnia. Identidade e estilo de vida. Emigração e globalização alimentar. Distúrbios alimentares e identidade."
+    },
+    {
+      "id": "ANT7010",
+      "code": "ANT7010",
+      "name": "Antropologia da Mídia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias da mídia impressa e eletrônica. Apocalípticos e integrados: as diferentes escolas analíticas. Ética, mídia e poder. Teorias da escola funcionalista, teorias de recepção e estudos culturais. Conceitos de repetição e serialidade. Etnografias de mídia e de audiência. Cybercultura."
+    },
+    {
+      "id": "ANT7011",
+      "code": "ANT7011",
+      "name": "Antropologia e Esporte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias do corpo, dos jogos, do esporte. Esporte, mídia e poder. Sublimação, identificação, masoquismo, pulsão de morte; masculinidade; identidade nacional e totemismo clubístico. Origens do esporte moderno e história do futebol brasileiro: classe e raça."
+    },
+    {
+      "id": "ANT7012",
+      "code": "ANT7012",
+      "name": "Globalização Cultural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias da globalização cultural e sua relação com a Antropologia. Teorias da Modernidade e da Pós-Modernidade. Globalização e transnacionalismo. Fluxos de pessoas: Processos migratórios e novas identidades. Multiculturalismo. Fluxos de imagens: mídia, imaginação e imaginário. Teorias do consumo."
+    },
+    {
+      "id": "ANT7013",
+      "code": "ANT7013",
+      "name": "Etnomusicologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A música como objeto de estudo antropológico. Esboço histórico e panorama atual: musicologia comparada, etnomusicologia, antropologia da música, estudos musicais. Música como código sócio-cultural: principais tendências teórico- metodológicas, hoje. Música popular, erudita, folclórica, indígenas. Estudos recentes no Brasil."
+    },
+    {
+      "id": "ANT7014",
+      "code": "ANT7014",
+      "name": "Antropologia da Arte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A arte como objeto de estudo antropológico: etnoestética, etnomusicologia, etnocoreologia e outros e sub-campos da área. Arte como código sócio-cultural: principais tendências teórico-metodológicas. Arte e artisticidade. Arte e agência. Artes populares, eruditas, folclóricas e indígenas. Etnografias clássicas, modernas e recentes sobre a arte. Estudos recentes no Brasil."
+    },
+    {
+      "id": "ANT7015",
+      "code": "ANT7015",
+      "name": "Antropologia das Minorias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ANT7016",
+      "code": "ANT7016",
+      "name": "Individuo e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Pessoa e coletividade. Indivíduo, cultura e personalidade. A construção social da pessoa, grupo, identidade. Biografias e estrutura social."
+    },
+    {
+      "id": "ANT7017",
+      "code": "ANT7017",
+      "name": "Cultura e Meio Ambiente",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O meio ambiente na reflexão antropológica. Natureza, Cultura e Sociedade. Teorias antropológicas sobre a relação do homem com o meio ambiente. Antropologia da paisagem. Ambientalismo, ecologia política, áreas de preservação, e populações tradicionais. Sustentabilidade, gestão ambiental, e ambientes urbanos e rurais."
+    },
+    {
+      "id": "ANT7018",
+      "code": "ANT7018",
+      "name": "Antropologia e História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A fronteira entre a Antropologia e a História. Temas, debates e conceitos: estrutura e acontecimento, diacronia e sincronia."
+    },
+    {
+      "id": "ANT7019",
+      "code": "ANT7019",
+      "name": "Antropologia da Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As origens e fundamentos do poder político. Processos de formação dos sistemas políticos. Relações e poder e comportamento simbólico. Organização política em sociedades sem estado."
+    },
+    {
+      "id": "ANT7020",
+      "code": "ANT7020",
+      "name": "Família e Parentesco em Sociedades",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A perspectiva antropológica sobre a família. Reprodução, sexualidade e parentesco. Papéis sexuais. Relações de gênero, família e sociedade. Teorias sobre parentesco e casamento. Parentalidade e conjugalidade. Casamento."
+    },
+    {
+      "id": "ANT7021",
+      "code": "ANT7021",
+      "name": "Antropologia Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Complexas História da antropologia no Brasil. A questão nacional. Conceitos, questões e tendências da antropologia no Brasil."
+    },
+    {
+      "id": "ANT7022",
+      "code": "ANT7022",
+      "name": "Antropologia da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A disciplina tratará dos seguintes temas da Antropologia da Educação: abordagens antropológicas clássicas sobre os processos de ensino e aprendizagem, em especial estudos sobre \"socialização\" e \"cultura e personalidade\"; abordagens antropológicas contemporâneas sobre cognição, processos de transmissão de saberes, desenvolvimento infantil e a contribuição das crianças para o estudo da cultura e da sociedade; estudos das relações estabelecidas por meio da escola, com ênfase nas questões de raça e gênero; reflexões sobre o ensino da Antropologia na sala de aula do ensino fundamental e médio."
+    },
+    {
+      "id": "ANT7023",
+      "code": "ANT7023",
+      "name": "Pessoa e Corporalidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a uma abordagem antropológica da Pessoa e da corporalidade. A reflexão antropológica clássica sobre as técnicas corporais e sobre a noção de Pessoa, pensadas como construções simbólicas, sociais e históricas e os seus cruzamentos em diferentes campos da antropologia. Os estudos de etnologia ameríndia e a centralidade do idioma corporal. O individualismo moderno e seus desdobramentos quanto às concepções de corpo e Pessoa nas culturas urbanas contemporâneas. Gênero, corporalidade e subjetividade. Tecnologia e novas visões estéticas e midiáticas sobre o corpo e a Pessoa."
+    },
+    {
+      "id": "ANT7024",
+      "code": "ANT7024",
+      "name": "Violência e Conflitos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apresentação geral do campo de estudos das violências e dos Direitos Humanos relacionando-os com as agendas sociais e políticas da contemporaneidade. Sistematização dos fundamentos das abordagens teóricas da \"violência\" e da sua construção simbólica. Violência e medo. A violência como moralidade. Teorias do conflito. Formas de socialidade. Configurações do sujeito contemporâneo, Direitos Humanos, Cidadania e Lutas de reconhecimento. Questões éticas e políticas das práticas de intervenção social e do trabalho antropológico, especialmente no campo da segurança pública e da justiça."
+    },
+    {
+      "id": "ANT7025",
+      "code": "ANT7025",
+      "name": "Leituras Etnográficas I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5337"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5337"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ANT7026",
+      "code": "ANT7026",
+      "name": "Leituras Etnográficas II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5338"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5338"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ANT7027",
+      "code": "ANT7027",
+      "name": "Tópicos Especiais em Antropologia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7028",
+      "code": "ANT7028",
+      "name": "Tópicos Especiais em Antropologia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7029",
+      "code": "ANT7029",
+      "name": "Tópicos Especiais em Antropologia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7030",
+      "code": "ANT7030",
+      "name": "Tópicos Especiais em Antropologia IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7031",
+      "code": "ANT7031",
+      "name": "Tópicos Especiais em Antropologia V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7032",
+      "code": "ANT7032",
+      "name": "Tópicos Especiais em Antropologia VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7033",
+      "code": "ANT7033",
+      "name": "Tópicos Especiais em Antropologia VII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7034",
+      "code": "ANT7034",
+      "name": "Tópicos Especiais em Antropologia VIII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7035",
+      "code": "ANT7035",
+      "name": "Tópicos Especiais em Antropologia IX",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7036",
+      "code": "ANT7036",
+      "name": "Tópicos Especiais em Antropologia X",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de temas específicos na Antropologia."
+    },
+    {
+      "id": "ANT7037",
+      "code": "ANT7037",
+      "name": "Debates Atuais em Antropologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5343"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5343"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ANT7050",
+      "code": "ANT7050",
+      "name": "Gênero e Sexualidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O propósito da disciplina é refletir sobre as relações entre gênero e sexualidade através de temáticas colocadas por estudos antropológicos, como a reprodução, a conjugalidade, as tecnologias reprodutivas e a transexualidade. O foco recairá na dinâmica das problemáticas trazidas pelos temas, a vinculação destas com determinadas abordagens e conceitos tomados como centrais e suas implicações no debate contemporâneo sobre as políticas pelos direitos sexuais e reprodutivos."
+    },
+    {
+      "id": "ANT7051",
+      "code": "ANT7051",
+      "name": "Antropologia e Feminismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens antropológicas do gênero, a antropologia feminista e o campo dos estudos feministas de modo geral. Genealogia e trajetória dos estudos antropológicos de gênero e da antropologia feminista, abordando o gênero não apenas como um objeto da investigação antropológica, mas como um paradigma importante na análise cultural. Abordagem das teorias feministas e suas contribuições para a teoria antropológica. Leitura e discussão de etnografias que abordam questões de gênero e sexualidade e de etnografias."
+    },
+    {
+      "id": "ANT7052",
+      "code": "ANT7052",
+      "name": "Antropologia da Pessoa e Teorias do Sujeito",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Os diferentes paradigmas e abordagens da temática do sujeito no mundo contemporâneo. A reflexão antropológica sobre as categorias de Pessoa e Indivíduo, pensados como construções simbólicas, sociais e históricas. As diferentes teorias do sujeito e da subjetividade e a contribuição de outros campos do conhecimento."
+    },
+    {
+      "id": "ANT7053",
+      "code": "ANT7053",
+      "name": "Antropologia da Religião",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução e fundamentação de uma perspectiva antropológica para os estudos sobre religião, religiões e religiosidades. Abordagem da trajetória dos estudos antropológicos de religião, teorias, etnografia e conceitos, através da leitura e discussão de estudos clássicos e contemporâneos do campo de estudos. Religião, cultura e sociedade. Desdobramentos temáticos e articulações entre religião e outros temas contemporâneos."
+    },
+    {
+      "id": "ANT7054",
+      "code": "ANT7054",
+      "name": "Antropologia da Ciência e da Tecnologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A construção social da ciência e da tecnologia. As epistemes modernas e o discurso científico. Ciência e poder. Razão e racionalidade. Natureza e cultura; humano, pós-humano, não-humano."
+    },
+    {
+      "id": "ANT7058",
+      "code": "ANT7058",
+      "name": "Antropologia e Linguagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a teorias do signo e da linguagem. Comunicação e cultura. Texto, contexto e discurso. Referência, sentido e polissemia. Oralidade e escrita. Narrativa e poética. Signos e linguagens não-verbais. Tradução cultural."
+    },
+    {
+      "id": "ANT7059",
+      "code": "ANT7059",
+      "name": "Mito, Rito e Cosmologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Antropologia simbólica. Estudos de mito e rito e sua relação com a cosmologia. Pensamento antropológico sobre religião e o papel do rito. Xamanismo, rito e mito. Comprender a relação entre rito, cosmologia, e mito."
+    },
+    {
+      "id": "ANT7060",
+      "code": "ANT7060",
+      "name": "Representação e Imagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a perspectivas antropológicas, culturais e filosóficas sobre a representação. Imagens e outras formas de representação para além da linguagem verbal: teatro; cinema; objetos; fotografia; coleções; arte."
+    },
+    {
+      "id": "ANT7062",
+      "code": "ANT7062",
+      "name": "Antropologia dos Objetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Objetos materiais na história da antropologia social e cultural. Interpretações antropológicas sobre os objetos materiais. Transformações e reclassificações. Desafios na pesquisa de coleções e arquivos etnográficos. Antropologia e Consumo, cultura material e pessoas."
+    },
+    {
+      "id": "ANT7063",
+      "code": "ANT7063",
+      "name": "Antropologia Simbólica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O campo da antropologia simbólica preocupa com o papel do símbolo na vida humana, particularmente na sua expressão em rito, mito, e religião. A disciplina visa fornecer uma base para entender as preocupações principais da antropologia simbólica com ênfase na linha caracterizada como \"antropologia interpretativa\". Além de examinar as teorias mais representativas, explora alguns desdobramentos atuais que vão além de uma perspectiva normativa para dar conta da complexidade da vida social."
+    },
+    {
+      "id": "ANT7065",
+      "code": "ANT7065",
+      "name": "Introdução à Antropologia Econômica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Surgimento, desenvolvimento e crítica à chamada antropologia econômica, compreendida como sub-área da Antropologia. As diferentes correntes: formalista, substantivista, marxista e culturalista, e principais autores e debates entre as teorias da antropologia econômica."
+    },
+    {
+      "id": "ANT7066",
+      "code": "ANT7066",
+      "name": "Antropologia da Saúde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Panorama do campo da Antropologia da Saúde, destacando as suas diversas atividades e pesquisas sobre a relação entre saúde, sociedade, e cultura de uma perspectiva antropológica. Doença como processo sócio-cultural. Relação saúde e cultura. Representações do corpo, etnomedicina, práticas de cura, itinerário terapêutico, eficacia ritual, cura, etc. A relação entre sistemas religiosos, cosmológicos e a saúde, incluindo sistemas xamânicos, religiões afro- brasileiras e medicina popular."
+    },
+    {
+      "id": "ANT7067",
+      "code": "ANT7067",
+      "name": "Do Rito à Performance",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noção de performance e seu desenvolvimento nas ciências humanas. Performances sagrados (ritos) e lúdicos. Liminal e liminoid na sociedade complexa. Manifestações étnicas e politicas. Teatro popular, jogos, espectáculos, e festas. Estudos de casos."
+    },
+    {
+      "id": "ANT7068",
+      "code": "ANT7068",
+      "name": "Identidades e Diversidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A construção de identidades sociais. Territorialidade, fronteiras simbólicas e etnicidade. Políticas de identidade e minorias como questões sociais e antropológicas."
+    },
+    {
+      "id": "ANT7202",
+      "code": "ANT7202",
+      "name": "Introdução à Etnografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à etnografia como método, forma de representação e modo de reflexão antropológica. Os precursores da etnografia: o imaginário europeu sobre o ‘exótico’, o ‘selvagem’ e o ‘outro’; relatos de viagem; memórias dos colonizadores; antropologia de gabinete."
+    },
+    {
+      "id": "ANT7203",
+      "code": "ANT7203",
+      "name": "Leituras Etnográficas I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudos etnográficos elaborados a partir do marco da antropologia social- britânica - funcionalismo e estrutural-funcionalismo - e do cultural-historicismo norte- americano."
+    },
+    {
+      "id": "ANT7204",
+      "code": "ANT7204",
+      "name": "Leituras Etnográficas II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudos etnográficos elaborados a partir do marco da escola sociológica francesa e do estruturalismo. A relação entre teoria e etnografia."
+    },
+    {
+      "id": "ANT7211",
+      "code": "ANT7211",
+      "name": "Leituras Etnográficas III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudos etnográficos elaborados a partir da antropologia pós-guerra e contemporânea. A relação entre pesquisa de campo e escrita etnográfica. Etnografia como representação e como narrativa. Autoria e autoridade etnográfica. Representação etnográfica do 'eu' e do 'outro'. Reflexividade e dialogismo."
+    },
+    {
+      "id": "EED7149",
+      "code": "EED7149",
+      "name": "Educação Especial na Educação Básica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Introdução à educação especial: história, abordagens teóricas e terminologia. A política de educação especial. O trabalho pedagógico com os estudantes da educação especial na Educação Básica."
+    },
+    {
+      "id": "SPO7038",
+      "code": "SPO7038",
+      "name": "Sociologia Urbana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5121"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5121"
+      },
+      "syllabus": "Problemas de conceituação e definição do objeto da Sociologia Urbana. Evolução histórica das diversas interpretações do fenômeno urbano. As relações entre urbanização e industrialização no Brasil. Problemas urbanos: a questão da habitação e da violência nas cidades. Intervenção do Estado e o planejamento urbano. A intervenção dos cidadãos e os movimentos sociais urbanos."
+    },
+    {
+      "id": "SPO7039",
+      "code": "SPO7039",
+      "name": "Sociologia Rural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5156"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5156"
+      },
+      "syllabus": "Raízes teóricas, tendências e perspectivas da Sociologia Rural. A Estrutura agrária brasileira: formas de uso e relações de propriedades. Estrutura agrária catarinense: evolução histórica, tendência e perspectivas. A cooperação do meio rural. Os camponeses e a política. O movimento do capital no campo: formas de desenvolvimento, tendências e perspectivas. Reforma agrária"
+    },
+    {
+      "id": "SPO7040",
+      "code": "SPO7040",
+      "name": "Sociologia do Trabalho",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5160"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5160"
+      },
+      "syllabus": "Problemas de conceituação e definição do objetivo da sociologia do trabalho. Relações de produção, de trabalho e de distribuição. Trabalho assalariado nos diversos setores da produção. Industrialização: processo de trabalho, tecnologia e automação. Emprego e desemprego. Trabalho material e imaterial. Mundialização do capital e os mundos do trabalho. Sindicato e movimentos sociais"
+    },
+    {
+      "id": "SPO7041",
+      "code": "SPO7041",
+      "name": "Sociologia das Organizações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5161"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5161"
+      },
+      "syllabus": "Racionalização e história: do modo de produção assiático ao \"capitalismo de organização\". organização e Sociedade: a crise do capitalismo; da teoria da administração à Psicologia das organizações e do comportamento burocrático: mediação ou dominação -organização com sistema social; organização como poder político. Exploração do trabalho, participacionismo, co-gestão operária e auto-gestão social, na sociedade contemporânea."
+    },
+    {
+      "id": "SPO7042",
+      "code": "SPO7042",
+      "name": "Sociologia do Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5144"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5144"
+      },
+      "syllabus": "As Ciências Sociais e a caracterização do desenvolvimento. Sociologia do Desenvolvimento: conceito e teorias. O desenvolvimento brasileiro e a acumulação monopolista. Atuação das classes e grupos sociais e o papel do Estado no Brasil."
+    },
+    {
+      "id": "SPO7043",
+      "code": "SPO7043",
+      "name": "Planejamento Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5165"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5165"
+      },
+      "syllabus": "Antecedentes históricos do planejamento. Planejamento na concepção capitalista. Planejamento: conceito e limites. Aspectos metodológicos do planejamento geral e do Planejamento Social. Planejamento Social no Brasil, questões sociais, políticas, ideológicas e econômicas. Planos globais, regionais, setoriais. Prática de planejamento social"
+    },
+    {
+      "id": "SPO7044",
+      "code": "SPO7044",
+      "name": "Demografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5168"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5168"
+      },
+      "syllabus": "Teoria da Origem, sua fundamentação e composição demográfica. Demografia como ciência e abordagem social. Leis Sociais e Demografia. Natalidade, Sexualidade, Nupcialidade e fertilidade. Demografia Urbana, sob a ótica diferencial dos grandes e pequenos aglomerados. Composição da População Brasileira e Mundial. Migrações na sua divisão: emigração, êxodo e desenvolvimento. Planejamento familiar: Igreja, Métodos e o Aborto. População e poder Político. Mortalidade Infantil, intermediária e Geral. População e acumulação do capital."
+    },
+    {
+      "id": "SPO7045",
+      "code": "SPO7045",
+      "name": "Ciências Sociais e Saúde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A construção do saber médico e do estatuto do normal e do patológico. Ecologia dos vetores. Doenças infecciosas emergentes. Representações sociais em saúde. Políticas de saúde"
+    },
+    {
+      "id": "SPO7046",
+      "code": "SPO7046",
+      "name": "Sociologia Econômica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Análise sociológica dos fenômenos econômicos nos autores clássicos e contemporâneos: métodos e conceitos. Estado e regulação da economia. Análise da emergência da ideologia liberal. Ética e economia. A construção social do mercado"
+    },
+    {
+      "id": "SPO7047",
+      "code": "SPO7047",
+      "name": "Ciências Sociais e Sistema Financeiro",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolver capacidades teóricas e metodológicas para analisar o sistema financeiro contemporâneo a partir da perspectiva sociopolítica. Análise do sistema financeiro a partir da contribuição teórica e metodológica dos autores clássicos e contemporâneos das Ciências Sociais. Temas abordados: instituições financeiras contemporâneas, crédito e poder; as contribuições da Sociologia do Dinheiro; características e tendências do sistema financeiro brasileiro e internacional; capital financeiro e grupos econômicos; redes financeiras; organização política e corporativa do empresariado do setor; trabalhadores bancários; sistema financeiro e movimentos sociais; formas alternativas ( moeda social, cooperativas de crédito, finanças solidárias, bancos públicos entre outras"
+    },
+    {
+      "id": "SPO7048",
+      "code": "SPO7048",
+      "name": "Práticas e Intervenções Sociológicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A Sociologia como herdeira e geradora de práticas e intervenções. A estatística , o trabalho social e os movimentos sociais. Estudo de casos"
+    },
+    {
+      "id": "SPO7049",
+      "code": "SPO7049",
+      "name": "Sociologia da Juventude",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A Sociologia das Gerações como campo de estudos teóricos e de intervenções práticas. As abordagens teóricas e metodológica da Sociologia da Juventude,como campo de investigação e intervenção das políticas públicas. Análise da sociabilidade juvenil relacionada com a transformação social na sua interface com a cultura, processos educativos e a formação política"
+    },
+    {
+      "id": "SPO7050",
+      "code": "SPO7050",
+      "name": "Laboratório de Observação Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Definição e seleção de uma agenda de eventos locais e regionais; preparação dos alunos para participarem como observadores de eventos (ex. Seminários, congressos de categorias ou temáticos que tenham conteúdo político, sociológico ou cultural); organizar metodologias de observação, acompanhamento e análise do evento. Produção de relatório, seminário interno de avaliação do evento. Encaminhamento de relatório analítico aos promotores dos eventos."
+    },
+    {
+      "id": "SPO7051",
+      "code": "SPO7051",
+      "name": "Sociologia Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A Sociologia Crítica de Florestan Fernandes e Otávio Ianni, bem como suas abordagens sobre a associação entre pesquisa sociológica, teoria e suas aplicações na solução de problemas sociais brasileiros"
+    },
+    {
+      "id": "SPO7052",
+      "code": "SPO7052",
+      "name": "Teoria Social Marxista",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A esquerda hegeliana e a contribuição de Karl Marx e Friedrich Engels. Epistemologia dialética e teoria social. História, ontologia e revolução social. Romantismo, estruturalismo, teoria da práxis e hegemonia"
+    },
+    {
+      "id": "SPO7053",
+      "code": "SPO7053",
+      "name": "Tópicos Especiais em Sociologia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Sociologia"
+    },
+    {
+      "id": "SPO7054",
+      "code": "SPO7054",
+      "name": "Tópicos Especiais em Sociologia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Sociologia"
+    },
+    {
+      "id": "SPO7055",
+      "code": "SPO7055",
+      "name": "Tópicos Especiais em Sociologia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Sociologia"
+    },
+    {
+      "id": "SPO7056",
+      "code": "SPO7056",
+      "name": "Tópicos Especiais em Sociologia IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Sociologia"
+    },
+    {
+      "id": "SPO7057",
+      "code": "SPO7057",
+      "name": "Tópicos Especiais em Sociologia V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Sociologia"
+    },
+    {
+      "id": "SPO7058",
+      "code": "SPO7058",
+      "name": "Tópicos Especiais em Sociologia VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Sociologia"
+    },
+    {
+      "id": "SPO7059",
+      "code": "SPO7059",
+      "name": "Tópicos Especiais em Sociologia VII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Sociologia"
+    },
+    {
+      "id": "SPO7060",
+      "code": "SPO7060",
+      "name": "Tópicos Especiais em Sociologia VIII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Sociologia"
+    },
+    {
+      "id": "SPO7061",
+      "code": "SPO7061",
+      "name": "Tópicos Especiais em Sociologia IX",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Sociologia"
+    },
+    {
+      "id": "SPO7062",
+      "code": "SPO7062",
+      "name": "Tópicos Especiais em Sociologia X",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Sociologia"
+    },
+    {
+      "id": "SPO7063",
+      "code": "SPO7063",
+      "name": "Debates Atuais em Sociologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5170"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5170"
+      },
+      "syllabus": "Estudo de um tema de interesse atual ou de demanda conjuntural."
+    },
+    {
+      "id": "SPO7064",
+      "code": "SPO7064",
+      "name": "Relações Internacionais no Século XXI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Paradigmas clássicos das relações internacionais. Novos atores e processos da política internacional das últimas décadas do século XX. Paz e Guerra no século XX e no início do século XXI. América Latina e Brasil no mundo contemporâneo (a política exterior brasileira). Hipóteses para pensar a formação da nova ordem internacional."
+    },
+    {
+      "id": "SPO7065",
+      "code": "SPO7065",
+      "name": "Instituições e Comportamento Político no",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Instituições políticas brasileiras: o sistema de governo presidencialista; o federalismo; o sistema eleitoral. Partidos e sistema partidário. Relações Executivo/Legislativo; comportamento legislativo. Cultura política e comportamento eleitoral no Brasil."
+    },
+    {
+      "id": "SPO7066",
+      "code": "SPO7066",
+      "name": "Pensamento Político Brasileiro",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História do pensamento político no Brasil nos períodos imperial e republicano. Correntes do pensamento político brasileiro (liberalismo, conservadorismo, autoritarismo, marxismo, desenvolvimentismo, nacionalismo etc.). Autores exemplares, tais como: Tavares Bastos, Visconde de Uruguai, Rui Barbosa, Alberto Torres, Oliveira Vianna, Azevedo Amaral, Alceu Amoroso Lima, Plínio Salgado, Sergio Buarque de Holanda, Caio Prado Júnior, Vitor Nunes Leal, Raymundo Faoro, Florestan Fernandes."
+    },
+    {
+      "id": "SPO7067",
+      "code": "SPO7067",
+      "name": "Política Brasileira: Teoria e História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Esboço das principais linhas explicativas da evolução histórica brasileira concernentes ao processo político e à organização institucional. Política, Ideologia e Cultura: bases para uma interpretação histórica do Brasil. A formação social brasileira, a organização política e a construção do Estado. Liberalismo, Autoritarismo e Conservadorismo na República Velha"
+    },
+    {
+      "id": "SPO7068",
+      "code": "SPO7068",
+      "name": "Política e Cultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de investigação e questões de método. Conceitos, categorias e ressignificação. Relações entre pesquisa social e análise política: ênfase sobre o eixo política e cultura. Relações entre política e cultura na perspectiva do debate contemporâneo sobre as tensões entre história e realidade. Marxismo, marxismo cultural e estudos culturais: as relações entre política e cultura e a convergência entre agir humano, ser social e consciência social. Determinação, mediação e contradições: produção cultural; produção simbólica; horizonte político-ideológico; hegemonia, ideologia e base material. Teoria Crítica. Linguagem, mídia, e semiologia. Estudos de caso."
+    },
+    {
+      "id": "SPO7069",
+      "code": "SPO7069",
+      "name": "Abordagens e Problemas Contemporâneos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Behaviorismo e pluralismo na Ciência política. A teoria da escolha racional e os problemas da ação coletiva e da escolha pública. O marxismo analítico. Realismo e realismo crítico. O neo-institucionalismo em suas diferentes vertentes. Introdução à teoria dos jogos aplicada à Ciência política."
+    },
+    {
+      "id": "SPO7070",
+      "code": "SPO7070",
+      "name": "Teoria e Método na História das Idéias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "na Ciência Política Alternativas metodológicas para o estudo da história do pensamento político. Procedimentos interpretativos na formulação, análise e crítica da teoria política. Modelos analíticos para o estudo do papel das idéias nas instituições e processos políticos. Ideologia e ação política."
+    },
+    {
+      "id": "SPO7071",
+      "code": "SPO7071",
+      "name": "Estado e Políticas Públicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5231"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5231"
+      },
+      "syllabus": "Políticas O conceito de Estado. Estado e sociedade no capitalismo contemporâneo. Democracia, descentralização e reforma do Estado. Estado e instituições. Estado e proteção social num mundo globalizado. Welfare State: emergência e declínio. Razões do Estadoprovidência e condições morais do Estado-prisonal. Políticas públicas, neo-institucionalismo e escolha racional. Novos bens públicos e as agências regulatórias. Federalismo e poder local. Políticas Públicas e Sociedade Civil. Movimentos sociais e esferas públicas de gestão."
+    },
+    {
+      "id": "SPO7072",
+      "code": "SPO7072",
+      "name": "Análise e Avaliação de Políticas Públicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Política Públicas e Welfare State: o estado da arte do debate. Dimensões da racionalidade econômica, política e social no âmbito das políticas públicas. Modelos de gestão pública: planejamento público. Gestão participativa. Análise e formulação de políticas públicas: políticas setoriais, políticas temáticas, políticas emergentes e georeferenciadas. Análise e avaliação de políticas públicas: aspectos metodológicos e critérios políticos e sociológicos. Avaliação de políticas públicas: métodos quantitativos. Gastos públicos e indicadores sociais."
+    },
+    {
+      "id": "SPO7073",
+      "code": "SPO7073",
+      "name": "Ecologia Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5232"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5232"
+      },
+      "syllabus": "Da ecologia à critica radical da sociedade industrial. Desequilíbrio social. Conservacionismo e ecologismo. Movimentos ecológicos e questionamentos da cultura política materialista. Ecologismo e Ecosocialismo."
+    },
+    {
+      "id": "SPO7074",
+      "code": "SPO7074",
+      "name": "Estados, Partidos Políticos e Movimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5251"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5251"
+      },
+      "syllabus": "A passagem do estadoliberalao estado estado intervencionista. Funções de acumulação e legitimação do Estado. Os mecanismos de representação. Partidos e sistemas partidários. Movimentos sociais e movimentos populares."
+    },
+    {
+      "id": "SPO7075",
+      "code": "SPO7075",
+      "name": "Tópicos Especiais em Política I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sociais Estudo de um tema específico e pertinente em Política."
+    },
+    {
+      "id": "SPO7076",
+      "code": "SPO7076",
+      "name": "Tópicos Especiais em Política II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Política."
+    },
+    {
+      "id": "SPO7077",
+      "code": "SPO7077",
+      "name": "Tópicos Especiais em Política III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Política."
+    },
+    {
+      "id": "SPO7078",
+      "code": "SPO7078",
+      "name": "Tópicos Especias em Política IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Política."
+    },
+    {
+      "id": "SPO7079",
+      "code": "SPO7079",
+      "name": "Tópicos Especiais em Política V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Política."
+    },
+    {
+      "id": "SPO7080",
+      "code": "SPO7080",
+      "name": "Tópicos Especiais em Política VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Política."
+    },
+    {
+      "id": "SPO7081",
+      "code": "SPO7081",
+      "name": "Tópicos Especiais em Política VII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Política."
+    },
+    {
+      "id": "SPO7082",
+      "code": "SPO7082",
+      "name": "Tópicos Especiais em Política VIII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Política."
+    },
+    {
+      "id": "SPO7083",
+      "code": "SPO7083",
+      "name": "Tópicos Especiais em Política IX",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Política."
+    },
+    {
+      "id": "SPO7084",
+      "code": "SPO7084",
+      "name": "Tópicos Especiais em Política X",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de um tema específico e pertinente em Política."
+    },
+    {
+      "id": "SPO7085",
+      "code": "SPO7085",
+      "name": "Debates Atuais em Ciência Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CSO7421",
+      "code": "CSO7421",
+      "name": "Atividade Extra-Classe",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5421"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5421"
+      },
+      "syllabus": "Disciplinas Extra Curriculares"
+    },
+    {
+      "id": "CSO7431",
+      "code": "CSO7431",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "SPO5431"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5431"
+      },
+      "syllabus": "Disciplina destinada aos alunos em programas de intercambio em outras instituições."
+    },
+    {
+      "id": "CSO7432",
+      "code": "CSO7432",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CSO7431"
+      ],
+      "equivalents": [
+        "SPO5432"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CSO7431"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5432"
+      },
+      "syllabus": "Disciplina destinada aos alunos em programas de intercâmbio em outras instituições."
+    },
+    {
+      "id": "PSI5138",
+      "code": "PSI5138",
+      "name": "Psicologia Social - PCC 18 horas/aula",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "horas/aula"
+    },
+    {
+      "id": "CNM7115",
+      "code": "CNM7115",
+      "name": "Economia Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM5106"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM5106"
+      },
+      "syllabus": "Introdução à Economia Política das escolas que estabeleceram os paradigmas da Ciências Econômica na interpretação das economias capitalistas. Apresentação da Economia Política contemporânea e suas análise sobre o capitalismo contemporâneo."
+    },
+    {
+      "id": "CSO7606",
+      "code": "CSO7606",
+      "name": "Método e Técnica de Pesquisa II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "CSO7304"
+      ],
+      "equivalents": [
+        "SPO5414"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CSO7304"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPO5414"
+      },
+      "syllabus": "As relações entre teoria e dados: uso de roteiros, entrevistas, genealogias, historia de vida. A experiência etnográfica. O trabalho de campo. Observação participante. Processos de coleta, análise e interpretação de dados. Discussão preliminar sobre o projeto de pesquisa para o trabalho de conclusão de curso."
+    },
+    {
+      "id": "INE5127",
+      "code": "INE5127",
+      "name": "Estatística Aplicada a Ciências Sociais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Probabilidade. Estatística descritiva. Amostragem. Estimacão de parâmetros e testes de hipóteses. Testes não-paramétricos. Correlações."
+    },
+    {
+      "id": "CSO7707",
+      "code": "CSO7707",
+      "name": "Seminário de Pesquisa I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101",
+        "ANT7201",
+        "ANT7301",
+        "ANT7401",
+        "CNM7115",
+        "CSO7205",
+        "CSO7304",
+        "CSO7504",
+        "CSO7505",
+        "CSO7506",
+        "CSO7606",
+        "FIL7101",
+        "HST7402",
+        "INE5127",
+        "LLV7801",
+        "PSI5138",
+        "SPO7102",
+        "SPO7103",
+        "SPO7202",
+        "SPO7203",
+        "SPO7302",
+        "SPO7303",
+        "SPO7402",
+        "SPO7403"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7201"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7301"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7401"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7115"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7205"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7304"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7504"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7505"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7506"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7606"
+          },
+          {
+            "kind": "course",
+            "code": "FIL7101"
+          },
+          {
+            "kind": "course",
+            "code": "HST7402"
+          },
+          {
+            "kind": "course",
+            "code": "INE5127"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7801"
+          },
+          {
+            "kind": "course",
+            "code": "PSI5138"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7102"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7103"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7202"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7203"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7302"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7303"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7402"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7403"
+          }
+        ]
+      },
+      "syllabus": "Início do processo de elaboração do trabalho de conclusão de curso. Encontros coletivos, sob a supervisão docente, para discussão metodológica dos projetos de trabalho de final de curso dos alunos do bacharelado"
+    },
+    {
+      "id": "CSO7708",
+      "code": "CSO7708",
+      "name": "Trabalho de Conclusão de Curso I - TCC I",
+      "credits": 11,
+      "hours": 180,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7101"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CSO7709",
+      "code": "CSO7709",
+      "name": "Estágio Curricular Profissionalizante - ECP",
+      "credits": 10,
+      "hours": 180,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CSO7807",
+      "code": "CSO7807",
+      "name": "Seminário de Pesquisa II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101",
+        "ANT7201",
+        "ANT7301",
+        "ANT7401",
+        "CNM7115",
+        "CSO7205",
+        "CSO7304",
+        "CSO7504",
+        "CSO7505",
+        "CSO7506",
+        "CSO7707",
+        "CSO7708",
+        "FIL7101",
+        "HST7402",
+        "INE5127",
+        "LLV7801",
+        "PSI5138",
+        "SPO7102",
+        "SPO7103",
+        "SPO7202",
+        "SPO7203",
+        "SPO7302",
+        "SPO7303",
+        "SPO7402",
+        "SPO7403"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7201"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7301"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7401"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7115"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7205"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7304"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7504"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7505"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7506"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7707"
+          },
+          {
+            "kind": "course",
+            "code": "CSO7708"
+          },
+          {
+            "kind": "course",
+            "code": "FIL7101"
+          },
+          {
+            "kind": "course",
+            "code": "HST7402"
+          },
+          {
+            "kind": "course",
+            "code": "INE5127"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7801"
+          },
+          {
+            "kind": "course",
+            "code": "PSI5138"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7102"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7103"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7202"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7203"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7302"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7303"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7402"
+          },
+          {
+            "kind": "course",
+            "code": "SPO7403"
+          }
+        ]
+      },
+      "syllabus": "Início do processo de elaboração do trabalho de conclusão de curso. Encontros coletivos, sob a supervisão docente, para discussão metodológica dos projetos de trabalho de final de curso dos alunos do bacharelado."
+    },
+    {
+      "id": "CSO7808",
+      "code": "CSO7808",
+      "name": "Trabalho de Conclusão de Curso II - TCC II",
+      "credits": 11,
+      "hours": 180,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "ANT7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ANT7101"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CSO7809",
+      "code": "CSO7809",
+      "name": "Estágio Curricular Profissionalizante II -",
+      "credits": 10,
+      "hours": 180,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ANT7101",
+      "LLV7801",
+      "SPO7102",
+      "SPO7103",
+      "ANT7201",
+      "CSO7205",
+      "FIL7101",
+      "SPO7202",
+      "SPO7203",
+      "ANT7301",
+      "CSO7304",
+      "HST7402",
+      "SPO7302",
+      "SPO7303",
+      "ANT7401",
+      "EED5331",
+      "SPO7402",
+      "SPO7403",
+      "CSO7504",
+      "CSO7505",
+      "CSO7506",
+      "MEN5602",
+      "PSI5137",
+      "EED5187",
+      "MEN7015",
+      "SPO7603",
+      "ANT7701",
+      "MEN7021",
+      "CSO7917",
+      "MEN7022",
+      "CSO7918",
+      "CSO7919",
+      "LSB7244",
+      "PSI5138",
+      "CNM7115",
+      "CSO7606",
+      "INE5127",
+      "CSO7707",
+      "CSO7708",
+      "CSO7709",
+      "CSO7807",
+      "CSO7808",
+      "CSO7809"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 72,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ANT7001",
+              "ANT7002",
+              "ANT7003",
+              "ANT7004",
+              "ANT7005",
+              "ANT7006",
+              "ANT7007",
+              "ANT7008",
+              "ANT7009",
+              "ANT7010",
+              "ANT7011",
+              "ANT7012",
+              "ANT7013",
+              "ANT7014",
+              "ANT7015",
+              "ANT7016",
+              "ANT7017",
+              "ANT7018",
+              "ANT7019",
+              "ANT7020",
+              "ANT7021",
+              "ANT7022",
+              "ANT7023",
+              "ANT7024",
+              "ANT7025",
+              "ANT7026",
+              "ANT7027",
+              "ANT7028",
+              "ANT7029",
+              "ANT7030",
+              "ANT7031",
+              "ANT7032",
+              "ANT7033",
+              "ANT7034",
+              "ANT7035",
+              "ANT7036",
+              "ANT7037",
+              "ANT7050",
+              "ANT7051",
+              "ANT7052",
+              "ANT7053",
+              "ANT7054",
+              "ANT7058",
+              "ANT7059",
+              "ANT7060",
+              "ANT7062",
+              "ANT7063",
+              "ANT7065",
+              "ANT7066",
+              "ANT7067",
+              "ANT7068",
+              "ANT7202",
+              "ANT7203",
+              "ANT7204",
+              "ANT7211",
+              "EED7149",
+              "SPO7038",
+              "SPO7039",
+              "SPO7040",
+              "SPO7041",
+              "SPO7042",
+              "SPO7043",
+              "SPO7044",
+              "SPO7045",
+              "SPO7046",
+              "SPO7047",
+              "SPO7048",
+              "SPO7049",
+              "SPO7050",
+              "SPO7051",
+              "SPO7052",
+              "SPO7053",
+              "SPO7054",
+              "SPO7055",
+              "SPO7056",
+              "SPO7057",
+              "SPO7058",
+              "SPO7059",
+              "SPO7060",
+              "SPO7061",
+              "SPO7062",
+              "SPO7063",
+              "SPO7064",
+              "SPO7065",
+              "SPO7066",
+              "SPO7067",
+              "SPO7068",
+              "SPO7069",
+              "SPO7070",
+              "SPO7071",
+              "SPO7072",
+              "SPO7073",
+              "SPO7074",
+              "SPO7075",
+              "SPO7076",
+              "SPO7077",
+              "SPO7078",
+              "SPO7079",
+              "SPO7080",
+              "SPO7081",
+              "SPO7082",
+              "SPO7083",
+              "SPO7084",
+              "SPO7085",
+              "CSO7421",
+              "CSO7431",
+              "CSO7432"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 72
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "310",
+    "curriculumCode": "20071",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=310&curriculo=20071",
+    "sha256": "83c910ab5d87c053bdd4afd48e60c96176dfef2783c96c67121741d4b28dd053",
+    "capturedAt": "2026-09-22"
+  }
+}

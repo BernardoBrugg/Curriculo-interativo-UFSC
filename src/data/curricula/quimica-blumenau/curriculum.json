@@ -1,0 +1,2158 @@
+{
+  "program": "Química",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2023.1",
+  "totalHours": 3852,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CEE7101",
+      "code": "CEE7101",
+      "name": "Química Geral I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE5101"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE5101"
+      },
+      "syllabus": "Estrutura atômica. Tabela e propriedades periódicas. Ligações químicas. Forças intermoleculares. Reações químicas e estequiometria. Teorias ácido-base. Soluções."
+    },
+    {
+      "id": "CEE7104",
+      "code": "CEE7104",
+      "name": "Introdução à Organização Escolar (PCC",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7107",
+      "code": "CEE7107",
+      "name": "Química Geral Experimental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE5108"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE5108"
+      },
+      "syllabus": "18h-a) O ambiente laboratorial. Normas de segurança no laboratório. Equipamentos básicos de laboratório. Calibração de instrumentos de medidas. Preparo de soluções. Técnicas básicas em laboratório de química. Medidas e tratamento de dados. Elaboração de relatório científico. Procedimentos de descarte e tratamentos dos resíduos de laboratórios de química."
+    },
+    {
+      "id": "CEE7108",
+      "code": "CEE7108",
+      "name": "Introdução ao Ensino de Química (PCC",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MAT2101",
+      "code": "MAT2101",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MAT3101"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT3101"
+      },
+      "syllabus": "36h-a) Conjuntos e aritmética básica. Cálculo com expressões algébricas. Equações. Inequações. Funções."
+    },
+    {
+      "id": "MAT2111",
+      "code": "MAT2111",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MAT3111"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT3111"
+      },
+      "syllabus": "Matrizes. Determinantes. Sistemas lineares. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies."
+    },
+    {
+      "id": "CEE5201",
+      "code": "CEE5201",
+      "name": "Química Inorgânica I (PCC 18 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5101",
+        "CEE7101"
+      ],
+      "equivalents": [
+        "CEE7100",
+        "CEE7201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5101"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7101"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE7100"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7201"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Química dos elementos e suas aplicações. Introdução à Química de coordenação: histórico, definições e nomenclatura. Teorias de ligação aplicadas a complexos."
+    },
+    {
+      "id": "CEE7207",
+      "code": "CEE7207",
+      "name": "Fundamentos Histórico-Filosóficos da Educação (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7191"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7191"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7208",
+      "code": "CEE7208",
+      "name": "Psicologia Educacional: Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7192"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7192"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7924",
+      "code": "CEE7924",
+      "name": "Libras (PCC 36h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7921",
+        "CEE7922"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE7921"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7922"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "e Aprendizagem (PCC 18h-a e EXT 18h-a)"
+    },
+    {
+      "id": "MAT2201",
+      "code": "MAT2201",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2101"
+      ],
+      "equivalents": [
+        "MAT3201",
+        "MAT3301"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2101"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT3201"
+          },
+          {
+            "kind": "course",
+            "code": "MAT3301"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos, esboço de gráficos, aproximações lineares e quadráticas); integral definida e indefinida; áreas entre curvas; técnicas de integração (substituição, por partes, substituição trigonométrica, frações parciais). Integral imprópria"
+    },
+    {
+      "id": "CEE5191",
+      "code": "CEE5191",
+      "name": "Filosofia e História da Química (PCC 18",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Filosofia da Ciência e o desenvolvimento da ciência. Natureza da Ciência. A ciência e o Homem: influências sociais, econômicas e políticas. A história e desenvolvimento do pensamento químico: concepções filosóficas e sociológicas da ciência. Conceitos químicos e seus percursos. A produção científica para o Ensino da Química."
+    },
+    {
+      "id": "CEE5303",
+      "code": "CEE5303",
+      "name": "Química Inorgânica Experimental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5201",
+        "CEE7201",
+        "CEE7204",
+        "CEE5108",
+        "CEE7107"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5201"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7201"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7204"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5108"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7107"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "horas/aula) - Preparação, purificação e caracterização de compostos inorgânicos de elementos de não transição e transição. Noções de espectroscopia eletrônica."
+    },
+    {
+      "id": "CEE7306",
+      "code": "CEE7306",
+      "name": "Química Analítica (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5101",
+        "CEE7101"
+      ],
+      "equivalents": [
+        "CEE5391",
+        "CEE7202",
+        "CEE7301",
+        "CEE7303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5101"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7101"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE5391"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7202"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7301"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7303"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7307",
+      "code": "CEE7307",
+      "name": "Organização e Gestão Escolar (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7196"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7196"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7308",
+      "code": "CEE7308",
+      "name": "Química, Ciência e Sociedade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "",
+      "extensionHours": 36
+    },
+    {
+      "id": "MAT2301",
+      "code": "MAT2301",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2201"
+      ],
+      "equivalents": [
+        "MAT3401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT3401"
+      },
+      "syllabus": "Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis. Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace."
+    },
+    {
+      "id": "CEE5401",
+      "code": "CEE5401",
+      "name": "Química Orgânica I (PCC 18 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5101",
+        "CEE7101"
+      ],
+      "equivalents": [
+        "CEE7301",
+        "CEE7303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5101"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7101"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE7301"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7303"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Introdução ao estudo da química orgânica. Ligações químicas e estrutura molecular. Forças intermoleculares. Ácidos e bases. Análise conformacional e estereoquímica. Introdução às reações orgânicas. Reações de adição à ligação dupla C=C. Reações de substituição nucleofílica ao carbono saturado. Reações de eliminação."
+    },
+    {
+      "id": "CEE5404",
+      "code": "CEE5404",
+      "name": "Química Analítica Experimental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5391",
+        "CEE7202",
+        "CEE7205",
+        "CEE7306",
+        "CEE5108",
+        "CEE7107"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5391"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7202"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "CEE7205"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7306"
+          },
+          {
+            "kind": "course",
+            "code": "CEE5108"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7107"
+          }
+        ]
+      },
+      "syllabus": "- Equilíbrios envolvendo ácidos e bases, compostos pouco solúveis, formação de complexos e reações de oxirredução. Solução tampão e capacidade tamponante. Indicadores. Curvas de titulação ácido-base. Reações de identificação e separação de cátions e ânions. Análise gravimétrica. Volumetria de neutralização, precipitação, complexação e oxirredução."
+    },
+    {
+      "id": "CEE7001",
+      "code": "CEE7001",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2201",
+        "MAT3201"
+      ],
+      "equivalents": [
+        "CEE7195"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT2201"
+          },
+          {
+            "kind": "course",
+            "code": "MAT3201"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7195"
+      },
+      "syllabus": "Grandezas físicas, sistemas de unidades e representação vetorial. Movimento em uma dimensão. Movimento em duas dimensões. Leis de Newton. Aplicações das Leis de Newton. Trabalho energia. Quantidade de movimento, impulso e colisões. Cinemática da rotação. Dinâmica da rotação."
+    },
+    {
+      "id": "CEE7106",
+      "code": "CEE7106",
+      "name": "Didática (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7307"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE7307"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Configuração histórica da Didática. A Didática no Brasil. O ensino: objeto da Didática. Didática na formação de professores. Currículo e teorias do currículo. O conhecimento escolar e a mediação didática dos conteúdos. A aula: concepção. Planejamento de ensino: objetivos educacionais. Conhecimentos escolares. Formas de avaliação da aprendizagem. Elaboração de material didático na área específica do curso."
+    },
+    {
+      "id": "CEE7401",
+      "code": "CEE7401",
+      "name": "Química e Extensão na Educação Básica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CEE5403",
+      "code": "CEE5403",
+      "name": "Termodinâmica Química",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5101",
+        "CEE7101",
+        "MAT2301",
+        "MAT3301"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5101"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7101"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MAT2301"
+              },
+              {
+                "kind": "course",
+                "code": "MAT3301"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "- Estado gasoso. Princípio dos estados correspondentes. Princípios da Termodinâmica. Ciclo de Carnot. Energia Livre e Equilíbrio Químico."
+    },
+    {
+      "id": "CEE5502",
+      "code": "CEE5502",
+      "name": "Química Orgânica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5401",
+        "CEE7301",
+        "CEE7303"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE5401"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7301"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7303"
+          }
+        ]
+      },
+      "syllabus": "- Aromaticidade. Reações de substituição eletrofílica e nucleofílica aromática. Reações de adição, condensação e substituição de compostos carbonílicos. Aminas e substâncias heterocíclicas. Reações pericíclicas. Rearranjos."
+    },
+    {
+      "id": "CEE7005",
+      "code": "CEE7005",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7001",
+        "MAT2301"
+      ],
+      "equivalents": [
+        "CEE7295"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE7001"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7295"
+      },
+      "syllabus": ": Carga Elétrica. Lei de Coulomb. Princípio da Superposição. O campo elétrico. A lei de Gauss. Potencial elétrico. Capacitância. Associação de Capacitores. Corrente Elétrica. Resistência e Resistividade. Lei de Ohm. Potência em circuitos elétricos. Associação de resistores. Circuitos elétricos. Circuitos RC. Campo Magnético. Lei de Biot-Savart. Lei de Ampére. Lei da indução de Faraday. Lei de Lenz. Indutância. Oscilações Eletromagnéticas. Circuito LC. Circuito RLC. Geração de energia e transmissão. Transformadores. As equações de Maxwell."
+    },
+    {
+      "id": "CEE7408",
+      "code": "CEE7408",
+      "name": "Química Orgânica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5401"
+      ],
+      "equivalents": [
+        "CEE5502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE5401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE5502"
+      },
+      "syllabus": "Aromaticidade. Reações de substituições eletrofílica e aromática. Reações de adição, substituição e condensação de composto carbonílicos. Aminas e substâncias heterocíclicas."
+    },
+    {
+      "id": "CEE7506",
+      "code": "CEE7506",
+      "name": "Educação Inclusiva (PCC 18h-a/EXT 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7194"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7194"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "",
+      "extensionHours": 18
+    },
+    {
+      "id": "CEE7507",
+      "code": "CEE7507",
+      "name": "Metodologia para o Ensino de Química",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5201"
+      ],
+      "equivalents": [
+        "CEE7106"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE5201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7106"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CEE5501",
+      "code": "CEE5501",
+      "name": "Fundamentos de Química Quântica e Espectroscopia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6106",
+        "CEE7195",
+        "MAT2111",
+        "MAT2301",
+        "CEE5403",
+        "MAT3301"
+      ],
+      "equivalents": [
+        "CEE7604"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "CEE6106"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "CEE7195"
+                  }
+                ]
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "MAT2111"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "MAT2301"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5403"
+              },
+              {
+                "kind": "course",
+                "code": "MAT3301"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7604"
+      },
+      "syllabus": "Fundamentos da mecânica quântica. Dualidade onda-partícula. Equação de Schrödinger. A partícula na caixa, o oscilador harmônico e o rotor rígido. O átomo de hidrogênio. Átomos multieletrônicos. Espectroscopia eletrônica"
+    },
+    {
+      "id": "CEE5671",
+      "code": "CEE5671",
+      "name": "Pesquisa em Educação Química",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7507"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE7507"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CEE5706",
+      "code": "CEE5706",
+      "name": "Métodos Instrumentais de Análise I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5391",
+        "CEE7202",
+        "CEE7205",
+        "CEE7306"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE5391"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7202"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7205"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7306"
+          }
+        ]
+      },
+      "syllabus": "- Conceitos fundamentais da eletroquímica. Princípios, instrumentação e aplicações dos métodos eletroanalíticos: potenciometria, condutimetria, voltametrias de varredura e de pulso, coulometria e eletrogravimetria."
+    },
+    {
+      "id": "CEE6310",
+      "code": "CEE6310",
+      "name": "Ótica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7001",
+        "MAT2301"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE7001"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2301"
+          }
+        ]
+      },
+      "syllabus": "- Ondas eletromagnéticas. Ondas luminosas. Óptica geométrica. Interferência. Difração. Polarização. Instrumentos ópticos. Espectroscopia."
+    },
+    {
+      "id": "CEE7503",
+      "code": "CEE7503",
+      "name": "Química Orgânica Experimental (EXT 18h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5502"
+      ],
+      "equivalents": [
+        "CEE5507"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE5502"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE5507"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7505",
+      "code": "CEE7505",
+      "name": "Análise Orgânica (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "a) Métodos clássicos de análise orgânica. Espectro eletromagnético. Espectroscopia no Ultravioleta e Visível (UV-Vis). Espectroscopia de Infravermelho (IV). Espectrometria de massas (EM). Espectroscopia de Ressonância Magnética Nuclear de Hidrogênio e Carbono (RMN de 1H e de 13C)."
+    },
+    {
+      "id": "CEE7900",
+      "code": "CEE7900",
+      "name": "Educação, Direitos Humanos e Diversidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7199"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7199"
+      },
+      "syllabus": "Breve abordagem histórica dos direitos humanos. Principais documentos internacionais e nacionais dedicados à efetivação dos direitos humanos com enfoque na Educação. Marcadores sociais de opressão: relações étnico-raciais, geracionais e de gênero, capacitismo, classismo, homofobia, transfobia e xenofobia. Paradoxo da igualdade e diferença, universalismo e diversidade. Perspectiva crítica da noção de cidadania: soberania popular e direitos humanos; políticas de reconhecimento; tensões entre Estado, mercado e sociedade civil na garantia dos direitos humanos. Movimentos sociais e a luta pela efetivação dos direitos humanos, reparação na perspectiva dos direitos sociais e coletivos."
+    },
+    {
+      "id": "CEE5505",
+      "code": "CEE5505",
+      "name": "Física Experimental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6310",
+        "CEE7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6310"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7001"
+          }
+        ]
+      },
+      "syllabus": "- Método científico. Medidas de grandezas físicas e instrumentos de medidas. Algarismos significativos. Teoria de erros. Construção de gráficos e representação estatística. Atividades experimentais de mecânica, eletromagnetismo e óptica."
+    },
+    {
+      "id": "CEE5791",
+      "code": "CEE5791",
+      "name": "Química Biológica I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5502"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE5502"
+      },
+      "syllabus": "- Fundamentos: celulares, químicos, físicos, genéticos e evolutivos. Introdução à célula: células e genomas. Química celular e biossíntese. Proteínas. Mecanismos genéticos básicos: DNA, cromossomos e genoma. Organização interna das células: estrutura da membrana, transporte, conversão de energia, comunicação celular, ciclo celular e apoptose. As células em seu contexto social: câncer, tecidos especializados e células tronco."
+    },
+    {
+      "id": "CEE5804",
+      "code": "CEE5804",
+      "name": "TCC 1",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5201",
+        "CEE5403",
+        "CEE5502",
+        "CEE5671",
+        "CEE5391",
+        "CEE7306"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE5201"
+          },
+          {
+            "kind": "course",
+            "code": "CEE5403"
+          },
+          {
+            "kind": "course",
+            "code": "CEE5502"
+          },
+          {
+            "kind": "course",
+            "code": "CEE5671"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5391"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7306"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Elaboração de um projeto de conclusão de curso em Ensino de Química. Elaboração do projeto contemplando os seguintes requisitos: definição do problema (questões de pesquisa); justificativa; levantamento de informações por intermédio da revisão bibliográfica; definição da metodologia de pesquisa; planejamento do trabalho (cronograma de atividades) e referências bibliográficas."
+    },
+    {
+      "id": "CEE7605",
+      "code": "CEE7605",
+      "name": "Fundamentos de Cinética e Catálise",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5403"
+      ],
+      "equivalents": [
+        "CEE5794"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE5403"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE5794"
+      },
+      "syllabus": "Leis elementares de velocidade. Métodos experimentais de cinética química. Velocidade de reação e efeito da temperatura. Reações elementares, unimoleculares, complexas e em cadeia. Teorias da colisão e do complexo ativado. Aspectos termodinâmicos: parâmetros de ativação. Catálise ácido-base. Catálise homogênea. Catálise enzimática. Catálise heterogênea."
+    },
+    {
+      "id": "CEE7707",
+      "code": "CEE7707",
+      "name": "Métodos Instrumentais de Análise II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5391",
+        "CEE7202",
+        "CEE7205",
+        "CEE7306"
+      ],
+      "equivalents": [
+        "CEE5707"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5391"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7202"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7205"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7306"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE5707"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Química (EXT 18h-a) Espectroscopia de Absorção Molecular no Ultravioleta e Visível. Fluorimetria e Fosforimetria. Espectrometria de Absorção e Emissão Atômica. Cromatografia líquida. Cromatografia Gasosa. Eletroforese Capilar.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CEE7710",
+      "code": "CEE7710",
+      "name": "Laboratório de Prática de Ensino em Química I (PCC 72 horas/aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7107",
+        "CEE7507"
+      ],
+      "equivalents": [
+        "CEE5772"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE7107"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7507"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE5772"
+      },
+      "prerequisiteHours": 72,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7714",
+      "code": "CEE7714",
+      "name": "Química Orgânica Biológica I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Exploração da organização molecular das células e dos genomas sob a ótica da química. Estudo das propriedades estruturais, físico-químicas e reacionais de aminoácidos, proteínas, carboidratos e ácidos nucleicos"
+    },
+    {
+      "id": "CEE7803",
+      "code": "CEE7803",
+      "name": "Estágio Supervisionado I",
+      "credits": 7,
+      "hours": 126,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5401",
+        "CEE5403",
+        "CEE5671",
+        "CEE7307",
+        "CEE7506",
+        "CEE7507"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE5401"
+          },
+          {
+            "kind": "course",
+            "code": "CEE5403"
+          },
+          {
+            "kind": "course",
+            "code": "CEE5671"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7307"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7506"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7507"
+          }
+        ]
+      },
+      "syllabus": "Estágio Supervisionado I"
+    },
+    {
+      "id": "CEE5503",
+      "code": "CEE5503",
+      "name": "Soluções e Equilíbrio entre Fases (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5403"
+      ],
+      "equivalents": [
+        "CEE7606"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE5403"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7606"
+      },
+      "syllabus": "Definição e aplicação de potencial químico. Transformações físicas das substâncias puras. Termodinâmica das misturas. Propriedades coligativas. Soluções ideais e não-ideais. Atividades e coeficiente de atividades de soluções não-iônicas e iônicas. Lei limite de Debye-Hückel. Diagramas de fases líquido-vapor, líquido-líquido e sólido-líquido."
+    },
+    {
+      "id": "CEE7502",
+      "code": "CEE7502",
+      "name": "Química Inorgânica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5201",
+        "CEE5401"
+      ],
+      "equivalents": [
+        "CEE5602"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE5201"
+          },
+          {
+            "kind": "course",
+            "code": "CEE5401"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE5602"
+      },
+      "syllabus": "horas/aula) CEE7701) - Introdução à teoria de grupo e simetria. Espectroscopia eletrônica e vibracional em compostos de coordenação. Teoria do Orbital Molecular aplicada a complexos. Noções de isomeria e estereoisomeria. Mecanismos de reações inorgânicas. Estudo de equilíbrio químico dos complexos. Química organometálica. Fundamentos de Química Bioinorgânica."
+    },
+    {
+      "id": "CEE7804",
+      "code": "CEE7804",
+      "name": "Estágio Supervisionado II",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7803"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE7803"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7808",
+      "code": "CEE7808",
+      "name": "Laboratório de Prática de Ensino em Química II (PCC72h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7710"
+      ],
+      "equivalents": [
+        "CEE5873"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE7710"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE5873"
+      },
+      "prerequisiteHours": 72,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7809",
+      "code": "CEE7809",
+      "name": "Química Orgânica Biológica II (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Análise integrada de reações orgânicas e bioenergética em sistemas vivos. Estudo da estrutura e reatividade de lipídeos, seguido da investigação química das vias metabólicas centrais. Noções em mecanismos moleculares, transformação de energia, regulação química e aplicação de métodos químicos na compreensão e intervenção em processos biológicos. Inclui práticas laboratoriais e ações extensionistas com foco em saúde, nutrição e biotecnologia."
+    },
+    {
+      "id": "CEE5605",
+      "code": "CEE5605",
+      "name": "Físico-Química Experimental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7701",
+        "CEE7707",
+        "CEE5503",
+        "CEE5794",
+        "CEE7605"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE7701"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7707"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5503"
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "CEE5794"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "CEE7605"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "- Experimentos relacionados aos temas: termodinâmica química, cinética, eletroquímica, equilíbrio químico, propriedades coligativas, viscosidade, espectroscopia molecular, polímeros em solução, físico-química de coloides e superfícies."
+    },
+    {
+      "id": "CEE5904",
+      "code": "CEE5904",
+      "name": "TCC 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5804"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE5804"
+      },
+      "syllabus": "Desenvolvimento do Projeto, elaborado na disciplina TCC I, nas dimensões teóricas e práticas, com características de projeto de pesquisa em Ensino de Química. Escrever uma monografia ou artigo científico contendo os dados e resultados do projeto desenvolvido. Apresentação oral e defesa do trabalho de conclusão do curso."
+    },
+    {
+      "id": "CEE7709",
+      "code": "CEE7709",
+      "name": "Mineralogia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE5201"
+      ],
+      "equivalents": [
+        "CEE5990",
+        "CEE7705"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE5201"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE5990"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7705"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Minerais e Rochas; Cristalografia; Classificação e propriedades físicas e químicas dos minerais; Recursos minerais e aplicação industrial.",
+      "extensionHours": 36
+    },
+    {
+      "id": "CEE7823",
+      "code": "CEE7823",
+      "name": "Química Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7202",
+        "CEE7205",
+        "CEE7306",
+        "CEE5391",
+        "CEE5401",
+        "CEE7301",
+        "CEE7303"
+      ],
+      "equivalents": [
+        "CEE5708"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE7202"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7205"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7306"
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "CEE5391"
+                  },
+                  {
+                    "kind": "any",
+                    "requirements": [
+                      {
+                        "kind": "course",
+                        "code": "CEE5401"
+                      },
+                      {
+                        "kind": "course",
+                        "code": "CEE7301"
+                      },
+                      {
+                        "kind": "course",
+                        "code": "CEE7303"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE5708"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "",
+      "extensionHours": 36
+    },
+    {
+      "id": "CEE7907",
+      "code": "CEE7907",
+      "name": "Estágio Supervisionado III",
+      "credits": 10,
+      "hours": 180,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7804"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE7804"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7902",
+      "code": "CEE7902",
+      "name": "Química Bioinorgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CEE5201"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE5201"
+      },
+      "syllabus": "Estrutura e Reatividade de complexos clássicos dos Metais de Transição. Química Bioinorgânica: funções biológicas dos elementos; interações de íons metálicos com peptídeos e proteínas; ciclos biogeoquímicos; metais de transição e reações redox em processos biológicos; transportadores e armazenadores de oxigênio; complexos modelos de metalobiomoléculas; Química Inorgânica Medicinal: agentes quelantes, compostos inorgânicos para diagnóstico e metalofármacos."
+    },
+    {
+      "id": "CEE7909",
+      "code": "CEE7909",
+      "name": "Laboratório de Métodos Instrumentais de Análise",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BLU5706",
+        "CEE5706",
+        "BLU5707",
+        "CEE5707"
+      ],
+      "equivalents": [
+        "BLU5958",
+        "BLU5962",
+        "CEE5962",
+        "CEE7704"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BLU5706"
+              },
+              {
+                "kind": "course",
+                "code": "CEE5706"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BLU5707"
+              },
+              {
+                "kind": "course",
+                "code": "CEE5707"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BLU5958"
+              },
+              {
+                "kind": "course",
+                "code": "BLU5962"
+              },
+              {
+                "kind": "course",
+                "code": "CEE5962"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "CEE7704"
+          }
+        ]
+      },
+      "syllabus": "Aplicações dos métodos eletroanalíticos: potenciometria, condutimetria e voltametrias de varredura e de pulso. Experimentos envolvendo métodos de análise espectrais de absorção no UV e visível, absorção atômica com chama e forno de grafite, emissão atômica com chama e plasma. Experimentos envolvendo análises por cromatografia gasosa de alta resolução e cromatografia líquida de alta eficiência."
+    },
+    {
+      "id": "CEE7910",
+      "code": "CEE7910",
+      "name": "Tópicos gerais de química",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BLU5101",
+        "CEE5101",
+        "CEE7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU5101"
+          },
+          {
+            "kind": "course",
+            "code": "CEE5101"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7101"
+          }
+        ]
+      },
+      "syllabus": "Tópicos exemplificados de: conversão de unidades de medida, estequiometria, preparo e diluição de soluções, polaridade e interações intermoleculares. Noções básicas de química orgânica."
+    },
+    {
+      "id": "CEE5703",
+      "code": "CEE5703",
+      "name": "Introdução à Ciência dos Polímeros",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CEE5403"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE5403"
+      },
+      "syllabus": "- Definição, classificação e aplicações de polímeros. Grau de polimerização. Diferentes maneiras de expressar a massa molar. Termodinâmica de polímeros em solução. Métodos para caracterização e determinação da massa molar. Polímeros no estado sólido: estrutura e propriedades."
+    },
+    {
+      "id": "CEE5951",
+      "code": "CEE5951",
+      "name": "Introdução à Química Medicinal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CEE5791"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE5791"
+      },
+      "syllabus": "- História da Química Medicinal. Fármacos e medicamentos: definição, concepção e atuação (teoria dos receptores). As bases moleculares da ação dos fármacos: grupamento farmacofórico e toxicofórico, aspectos moleculares e estruturais, estereoquímica e conformação. Os produtos naturais na Química Medicinal. Estratégias gerais em síntese de novos fármacos. Compostos protótipos e o processo racional de descoberta de fármacos. Abordagens fisiológicas gerais no planejamento de fármacos. Estratégias para desenho molecular e planejamento racional."
+    },
+    {
+      "id": "CEE5958",
+      "code": "CEE5958",
+      "name": "Laboratório de Métodos Eletroanalíticos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CEE5706"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE5706"
+      },
+      "syllabus": "Aplicações dos métodos eletroanalíticos: potenciometria, condutimetria e voltametrias de varredura e de pulso."
+    },
+    {
+      "id": "CEE7200",
+      "code": "CEE7200",
+      "name": "Gestão Democrática da Escola",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Legislação Educacional e Gestão Democrática da Escola Pública. O que é Democracia? Escola e Democracia: determinantes teóricos e críticos. Fundamentação Legal da Gestão democrática da escola pública nos Documentos Oficiais: Constituição Federal de 1988, Lei de Diretrizes e Bases da Educação Nacional de 1996 e Plano Nacional de Educação (2014-2024) Limites e possibilidades. Administração ou Gestão da Escola pública: concepções e escolas teóricas. Políticas Educacionais Contemporâneas na perspectiva da Gestão Democrática da Escola. O papel dos profissionais da educação frente à gestão escolar. Gestão Democrática da Escola pública: elementos constitutivos da estrutura organizativa. Mecanismos de Participação e Autonomia da Unidade Escolar."
+    },
+    {
+      "id": "CEE7304",
+      "code": "CEE7304",
+      "name": "Estatística Aplicada à Química",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Erros em análises químicas. Tratamento e avaliação estatística de dados. Amostragem, padronização, calibração e validação de métodos. Planilhas eletrônicas em cálculos estatísticos."
+    },
+    {
+      "id": "CEE7805",
+      "code": "CEE7805",
+      "name": "Práticas em Química Analítica Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CEE5404"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE5404"
+      },
+      "syllabus": "- Coleta, manuseio e preparo de amostras. Análises de parâmetros da qualidade de águas, efluentes/águas residuárias e solos/lodos. Análise de contaminantes orgânicos e inorgânicos em amostras ambientais. Tratamento e minimização de resíduos."
+    },
+    {
+      "id": "CEE7903",
+      "code": "CEE7903",
+      "name": "Química Organometálica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CEE7301",
+        "CEE7303",
+        "CEE5401",
+        "CEE7201",
+        "CEE7204"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE7301"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7303"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE5401"
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "CEE7201"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "CEE7204"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Compostos organometálicos dos blocos s, p, d e f: Definições, ligações, estrutura e reatividade. Reações organometálicas e processos catalíticos"
+    },
+    {
+      "id": "CEE7904",
+      "code": "CEE7904",
+      "name": "Pós-Graduação I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina cumprida em programa de pós-graduação da UFSC, em área de interesse do discente"
+    },
+    {
+      "id": "CEE7905",
+      "code": "CEE7905",
+      "name": "Pós-Graduação II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina cumprida em programa de pós-graduação da UFSC, em área de interesse do discente"
+    },
+    {
+      "id": "CEE7908",
+      "code": "CEE7908",
+      "name": "Fundamentos de Produção de Cerveja",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CEE5101",
+        "CEE7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE5101"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7101"
+          }
+        ]
+      },
+      "syllabus": "Introdução à cultura cervejeira; Estilos e Tipos de cervejas; Conceitos básicos de matérias- primas; Cálculos práticos; Noções de tecnologia cervejeira; Noções sobre análise sensorial; Aplicação de conceitos fundamentais ao consumo consciente e responsável e legislação."
+    },
+    {
+      "id": "CEE2301",
+      "code": "CEE2301",
+      "name": "Ações de Extensão I - Projetos",
+      "credits": 7,
+      "hours": 126,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "CEE7101",
+      "CEE7104",
+      "CEE7107",
+      "CEE7108",
+      "MAT2101",
+      "MAT2111",
+      "CEE5201",
+      "CEE7207",
+      "CEE7208",
+      "CEE7924",
+      "MAT2201",
+      "CEE5191",
+      "CEE5303",
+      "CEE7306",
+      "CEE7307",
+      "CEE7308",
+      "MAT2301",
+      "CEE5401",
+      "CEE5404",
+      "CEE7001",
+      "CEE7106",
+      "CEE7401",
+      "CEE5403",
+      "CEE5502",
+      "CEE7005",
+      "CEE7408",
+      "CEE7506",
+      "CEE7507",
+      "CEE5501",
+      "CEE5671",
+      "CEE5706",
+      "CEE6310",
+      "CEE7503",
+      "CEE7505",
+      "CEE7900",
+      "CEE5505",
+      "CEE5791",
+      "CEE5804",
+      "CEE7605",
+      "CEE7707",
+      "CEE7710",
+      "CEE7714",
+      "CEE7803",
+      "CEE5503",
+      "CEE7502",
+      "CEE7804",
+      "CEE7808",
+      "CEE7809",
+      "CEE5605",
+      "CEE5904",
+      "CEE7709",
+      "CEE7823",
+      "CEE7907",
+      "CEE2301"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 72,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CEE7902",
+              "CEE7909",
+              "CEE7910",
+              "CEE5703",
+              "CEE5951",
+              "CEE5958",
+              "CEE7200",
+              "CEE7304",
+              "CEE7805",
+              "CEE7903",
+              "CEE7904",
+              "CEE7905",
+              "CEE7908"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 72
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "752",
+    "curriculumCode": "20231",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=752&curriculo=20231",
+    "sha256": "ad974f208ee117659174e9334edfad54d55f7e27a76f716ac1e96e38f0bde99c",
+    "capturedAt": "2026-09-22"
+  }
+}

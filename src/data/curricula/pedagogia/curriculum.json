@@ -1,0 +1,3561 @@
+{
+  "program": "PEDAGOGIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2009.1",
+  "totalHours": 4128,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EED2011",
+      "code": "EED2011",
+      "name": "Introdução à Pedagogia (PCC 9h-a)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "AEC5102",
+        "EED5100",
+        "EED5102",
+        "EED7100"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AEC5102"
+          },
+          {
+            "kind": "course",
+            "code": "EED5100"
+          },
+          {
+            "kind": "course",
+            "code": "EED5102"
+          },
+          {
+            "kind": "course",
+            "code": "EED7100"
+          }
+        ]
+      },
+      "prerequisiteHours": 9,
+      "syllabus": "A pedagogia como área de conhecimento. Conceitos iniciais na pedagogia. Campos de atuação do/da pedagogo/a. O curso de pedagogia no Brasil e na UFSC. A formação do/da professor/a de educação infantil e dos anos iniciais."
+    },
+    {
+      "id": "EED2012",
+      "code": "EED2012",
+      "name": "Educação e Relações Étnico-raciais (PCC",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED7102"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED7102"
+      },
+      "syllabus": "Relações étnico-raciais no Brasil e desigualdades. Principais conceitos: relações raciais, relações de gênero, direitos humanos, igualdade, diferença, estigma, estereótipos, preconceito, identidade social, branquitude e alteridade. Movimentos negros. Movimentos indígenas. Política de ações afirmativas na educação. Práticas pedagógicas antirracistas no contexto escolar."
+    },
+    {
+      "id": "EED2013",
+      "code": "EED2013",
+      "name": "Filosofia da Educação I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5302",
+        "EED5308",
+        "EED7121",
+        "FIL1101",
+        "FIL5301",
+        "FIL5680"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5302"
+          },
+          {
+            "kind": "course",
+            "code": "EED5308"
+          },
+          {
+            "kind": "course",
+            "code": "EED7121"
+          },
+          {
+            "kind": "course",
+            "code": "FIL1101"
+          },
+          {
+            "kind": "course",
+            "code": "FIL5301"
+          },
+          {
+            "kind": "course",
+            "code": "FIL5680"
+          }
+        ]
+      },
+      "syllabus": "9h-a) Teorias/Matrizes da Educação Ocidental. Os fundamentos poéticos e filosóficos da tradição clássica pedagógica. Os conceitos de formação, educação, pedagogia e ensino segundo os clássicos gregos e medievais. As figuras do educador. A relevância dos valores e das virtudes na educação. Laços entre educação, ética e política."
+    },
+    {
+      "id": "EED2014",
+      "code": "EED2014",
+      "name": "Educação e Sociedade I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CSO1128",
+        "CSO5126",
+        "CSO5128",
+        "EED7111",
+        "SPO5126"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CSO1128"
+          },
+          {
+            "kind": "course",
+            "code": "CSO5126"
+          },
+          {
+            "kind": "course",
+            "code": "CSO5128"
+          },
+          {
+            "kind": "course",
+            "code": "EED7111"
+          },
+          {
+            "kind": "course",
+            "code": "SPO5126"
+          }
+        ]
+      },
+      "syllabus": "Transformações econômicas, sociais, políticas e culturais da modernidade. O século XIX e a constituição da Sociologia. As teorias de Durkheim, Weber e Marx e a educação."
+    },
+    {
+      "id": "EED2015",
+      "code": "EED2015",
+      "name": "Educação, Estado e Políticas Públicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED1121",
+        "EED5113",
+        "EED5121",
+        "EED7101"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED1121"
+          },
+          {
+            "kind": "course",
+            "code": "EED5113"
+          },
+          {
+            "kind": "course",
+            "code": "EED5121"
+          },
+          {
+            "kind": "course",
+            "code": "EED7101"
+          }
+        ]
+      },
+      "syllabus": "Teoria do Estado. Educação como direito. Políticas sociais e educação. Função social da escola. Relação Estado, Sociedade Civil e Educação. Reforma na Educação pós-2090 e Organizações Multilaterais. Políticas Educacionais no Brasil. Gestão da Educação Nacional: planos, programas, financiamentos."
+    },
+    {
+      "id": "EED2016",
+      "code": "EED2016",
+      "name": "Iniciação à Pesquisa e à Produção",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED1312"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED1312"
+      },
+      "syllabus": "Iniciação à pesquisa em educação. Ciência e conhecimento. Introdução ao estudo da produção científica vinculada à educação e áreas afins, acesso a diferentes fontes. Produção textual, noções básicas para desenvolvimento do trabalho científico e da investigação no campo educacional. Aproximação aos grupos e núcleos de pesquisa do CED."
+    },
+    {
+      "id": "MEN2017",
+      "code": "MEN2017",
+      "name": "História da Educação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST1180",
+        "HST5180",
+        "MEN7111"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2017
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST1180"
+          },
+          {
+            "kind": "course",
+            "code": "HST5180"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7111"
+          }
+        ]
+      },
+      "prerequisiteHours": 2017,
+      "syllabus": "Acadêmica (PCC 16h-a) EED5311 ou -História e História da Educação: conceitos e abordagens. Educação dos séculos XV ao XIX: Educação Humanista. Educação e Pedagogia na sociedade Moderna. Contra Reforma e Educação. Constituição da Instituição Escolar."
+    },
+    {
+      "id": "EED2022",
+      "code": "EED2022",
+      "name": "Organização da Educação Nacional (PCC",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED1180"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED1180"
+      },
+      "syllabus": "Determinações histórico-políticas nas diferentes formas de organização da educação nacional. Objetivo(s) social(is) da escola: direito à educação e a produção da exclusão. Organização da Educação Brasileira e Legislação Educacional: sistemas de ensino, níveis e modalidades da Educação Básica. Formação do professor da educação básica."
+    },
+    {
+      "id": "EED2023",
+      "code": "EED2023",
+      "name": "Filosofia da Educação II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EED2013",
+        "EED7121"
+      ],
+      "equivalents": [
+        "EED5304",
+        "EED5309",
+        "EED7122",
+        "FIL1101",
+        "FIL5302",
+        "FIL5307"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED2013"
+          },
+          {
+            "kind": "course",
+            "code": "EED7121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5304"
+          },
+          {
+            "kind": "course",
+            "code": "EED5309"
+          },
+          {
+            "kind": "course",
+            "code": "EED7122"
+          },
+          {
+            "kind": "course",
+            "code": "FIL1101"
+          },
+          {
+            "kind": "course",
+            "code": "FIL5302"
+          },
+          {
+            "kind": "course",
+            "code": "FIL5307"
+          }
+        ]
+      },
+      "syllabus": "9h-a) EED1191 ou Discursos filosófico-educacionais modernos e contemporâneos. A crise da Verdade e da Razão. Abordagens contemporâneas do conhecimento. A formação do educador. Surgimento da concepção da Infância: discursos e práticas. Plasticidades do pensar filosófico: invenção, criação e resistência."
+    },
+    {
+      "id": "EED2024",
+      "code": "EED2024",
+      "name": "Educação e Sociedade II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EED2014",
+        "EED7111"
+      ],
+      "equivalents": [
+        "CSO1134",
+        "CSO5134",
+        "EED5303",
+        "EED7112"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED2014"
+          },
+          {
+            "kind": "course",
+            "code": "EED7111"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CSO1134"
+          },
+          {
+            "kind": "course",
+            "code": "CSO5134"
+          },
+          {
+            "kind": "course",
+            "code": "EED5303"
+          },
+          {
+            "kind": "course",
+            "code": "EED7112"
+          }
+        ]
+      },
+      "syllabus": "A educação no pensamento sociológico contemporâneo. O sistema de ensino moderno: entre as promessas e as realizações - análises críticas. Estudos de sociologia da educação no Brasil: objetos, métodos e tendências."
+    },
+    {
+      "id": "EED2026",
+      "code": "EED2026",
+      "name": "Trabalho e Educação (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5305",
+        "EED7103",
+        "PSI5120"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5305"
+          },
+          {
+            "kind": "course",
+            "code": "EED7103"
+          },
+          {
+            "kind": "course",
+            "code": "PSI5120"
+          }
+        ]
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "O trabalho como mediação na produção da existência humana. Trabalho e formação humana. Formas históricas de produção e educação do trabalhador. As transformações no mundo do trabalho e suas implicações para a educação. A relação escola e trabalho. A exploração do trabalho infantil."
+    },
+    {
+      "id": "EED2027",
+      "code": "EED2027",
+      "name": "História da Educação Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2017",
+        "MEN7111"
+      ],
+      "equivalents": [
+        "EED5103",
+        "EED5104",
+        "EED7105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2017"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7111"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 2027
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5103"
+          },
+          {
+            "kind": "course",
+            "code": "EED5104"
+          },
+          {
+            "kind": "course",
+            "code": "EED7105"
+          }
+        ]
+      },
+      "prerequisiteHours": 2027,
+      "syllabus": "História da Educação Brasileira no século XX: periodização; fontes e perspectivas teóricas. Instituições escolares no Brasil."
+    },
+    {
+      "id": "MEN2021",
+      "code": "MEN2021",
+      "name": "Educação e Infância I: Conceitos e Fundamentos (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN7101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7101"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "-Criança e Infância: conceituação e delimitação de campos de estudo. Construção social da infância e determinações sócio-históricas. Função social das instituições educativas voltadas para a infância: creches; pré-escola e escola de ensino fundamental."
+    },
+    {
+      "id": "PSI2025",
+      "code": "PSI2025",
+      "name": "Psicologia, Educação e Docência (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5117"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5117"
+      },
+      "syllabus": "Introdução à Psicologia como ciência: histórico, objetivos e métodos. Introdução ao estudo do desenvolvimento e aprendizagem, com ênfase na infância. Relações da Psicologia com a prática pedagógica, em especial no trabalho do professor da Educação Infantil e dos anos Iniciais do Ensino Fundamental."
+    },
+    {
+      "id": "EED2032",
+      "code": "EED2032",
+      "name": "Organização Escolar e Currículo (PCC 9h-",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5186"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED5186"
+      },
+      "prerequisiteHours": 9,
+      "syllabus": "A constituição do currículo como campo de estudos: diferentes teorias/concepções de currículo. Currículo e conhecimento escolar. Cultura escolar e currículo. Currículo e culturas: identidade e diferença. Relações de gênero, sexualidade e etnico-raciais no currículo. Políticas curriculares no âmbito nacional, estadual e local. Materiais didáticos na efetivação do currículo."
+    },
+    {
+      "id": "EED2033",
+      "code": "EED2033",
+      "name": "Teorias da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5331",
+        "EED7104"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5331"
+          },
+          {
+            "kind": "course",
+            "code": "EED7104"
+          }
+        ]
+      },
+      "syllabus": "a) EED7132 ou Estudo das teorias basilares da educação e seus desdobramentos contemporâneos. Disputas entre antigos e modernos. Formação humana entre indivíduo e sociedade. Educação: igualdade e liberdade. Pensamento pedagógico brasileiro."
+    },
+    {
+      "id": "EED2036",
+      "code": "EED2036",
+      "name": "Educacação Especial I: Políticas e Práticas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EED2015"
+      ],
+      "equivalents": [
+        "EED7150"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EED2015"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED7150"
+      },
+      "syllabus": "Processos de inclusão e exclusão escolar. Políticas e práticas para o atendimento educacional dos estudantes da educação especial. Formas organizativas do trabalho pedagógico e sua relação com os processos de inclusão e exclusão escolar relacionados aos estudantes da educação especial."
+    },
+    {
+      "id": "EED2037",
+      "code": "EED2037",
+      "name": "Pesquisa e Educação I (PCC 9h-a)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EED2016",
+        "EED7140"
+      ],
+      "equivalents": [
+        "EED7141"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED2016"
+              },
+              {
+                "kind": "course",
+                "code": "EED7140"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 9
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED7141"
+      },
+      "prerequisiteHours": 9,
+      "syllabus": "Pedagógicas (PCC 9h-a) EED7101) Abordagens teórico-metodológicas da pesquisa em educação. Aproximações às temáticas educacionais privilegiadas por grupos de pesquisa na área. Problemas básicos da pesquisa educacional."
+    },
+    {
+      "id": "MEN2031",
+      "code": "MEN2031",
+      "name": "Educação e Infância II: escola, cultura e pesquisa (PCC 28h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2021",
+        "MEN7101"
+      ],
+      "equivalents": [
+        "MEN7102",
+        "MEN7103"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2021"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7101"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 28
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN7102"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7103"
+          }
+        ]
+      },
+      "prerequisiteHours": 28,
+      "syllabus": "-A infância contemporânea e a escola para crianças. A educação da criança na pesquisa educacional e nas diferentes áreas de conhecimento. Aproximações às crianças na escola, e em outros espaços da cultura."
+    },
+    {
+      "id": "MEN2034",
+      "code": "MEN2034",
+      "name": "Didática I : Fundamentos da Teoria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN5121"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5121"
+      },
+      "syllabus": "-O histórico da Didática e o processo de escolarização. A constituição da didática nas práticas de ensino no contexto da escolarização brasileira. As diversas funções da docência: o ensino, a organização da aula e da escola, as atividades coletivas e a relação com o contexto social. O conhecimento escolar e a prática pedagógica."
+    },
+    {
+      "id": "MEN2035",
+      "code": "MEN2035",
+      "name": "Aprendizagem e Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI2025",
+        "PSI7001",
+        "PSI7012"
+      ],
+      "equivalents": [
+        "MEN7112"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "PSI2025"
+          },
+          {
+            "kind": "course",
+            "code": "PSI7001"
+          },
+          {
+            "kind": "course",
+            "code": "PSI7012"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7112"
+      },
+      "syllabus": "Pedagógica para o Ensino (PCC 12h-a) MEN5131 ou -As relações entre aprendizagem e desenvolvimento em diferentes concepções teóricas e suas implicações educacionais. Fatores do desenvolvimento: a linguagem e a formação do pensamento. A relação afeto e cognição no processo de conhecimento."
+    },
+    {
+      "id": "EED2046",
+      "code": "EED2046",
+      "name": "Educação Especial II: Conceitos, Concepcões e Sujeitos (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EED2036",
+        "EED7150"
+      ],
+      "equivalents": [
+        "EED7151"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED2036"
+              },
+              {
+                "kind": "course",
+                "code": "EED7150"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 12
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED7151"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "Introdução à educação especial: conceitos e terminologias. A educação especial na educação básica. Contribuições teóricas ao debate sobre o fenômeno da deficiência a partir das seguintes áreas: história, filosofia, sociologia, psicologia e biologia. Processos de identificação dos estudantes da educação especial."
+    },
+    {
+      "id": "MEN2041",
+      "code": "MEN2041",
+      "name": "Educação e Infância III: Fundamentos da Educação Infantil (PCC16h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2021",
+        "MEN2031",
+        "MEN7101",
+        "MEN7102"
+      ],
+      "equivalents": [
+        "MEN7104"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "MEN2021"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "MEN2031"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "MEN7101"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "MEN7102"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "MEN2021"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "MEN7102"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "MEN2031"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "MEN7101"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 16
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7104"
+      },
+      "prerequisiteHours": 16,
+      "syllabus": "Fundamentos históricos, políticos e pedagógicos da educação infantil. Políticas para a educação infantil no Brasil: condicionantes nacionais e internacionais. Legislação e orientações governamentais para a educação infantil. Modelos curriculares em educação infantil: bases teóricas e metodológicas."
+    },
+    {
+      "id": "MEN2042",
+      "code": "MEN2042",
+      "name": "Fundamentos da Educação Matemática e Infância (PCC 16h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2034",
+        "MEN5121",
+        "MEN5131",
+        "MEN5601",
+        "MEN5602",
+        "MEN7121"
+      ],
+      "equivalents": [
+        "MEN7135"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2034"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5121"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5131"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5601"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5602"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7121"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 16
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7135"
+      },
+      "prerequisiteHours": 16,
+      "syllabus": "-Concepções de Matemática e Educação Matemática. Matemática e suas relações com a infância. Ensino e aprendizagem da Matemática e suas relações com a sociedade. Os cinco campos para o trabalho na Educação Infantil e no ciclo de alfabetização."
+    },
+    {
+      "id": "MEN2043",
+      "code": "MEN2043",
+      "name": "Fundamentos e Metodologia do Ensino de Ciências (PCC 23h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2034",
+        "MEN5121",
+        "MEN5131",
+        "MEN5601",
+        "MEN5602",
+        "MEN7121"
+      ],
+      "equivalents": [
+        "MEN7134"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2034"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5121"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5131"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5601"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5602"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7121"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 23
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7134"
+      },
+      "prerequisiteHours": 23,
+      "syllabus": "-A produção do conhecimento científico: aspectos epistemológicos, culturais e políticos. Conceitos das áreas das ciências da natureza, recursos didáticos e as metodologias de ensino voltadas à infância. Papel e importância da educação científica para a educação infantil e anos iniciais."
+    },
+    {
+      "id": "MEN2044",
+      "code": "MEN2044",
+      "name": "Linguagem Verbal e Criança",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN7130"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7130"
+      },
+      "syllabus": "-Teorias e processos de aquisição da linguagem. Concepções de linguagem, língua e fala. Concepções e representações da escrita pela criança. Relações entre oralidade e escrita. Introdução ao letramento. A criança na sociedade letrada."
+    },
+    {
+      "id": "MEN2045",
+      "code": "MEN2045",
+      "name": "Literatura e Ensino (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN7132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7132"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "-Conceito e história da Literatura para infância. A literatura como forma arte. Gêneros literários para infância. O diálogo texto e ilustração: do clássico ao contemporâneo. A literatura e a educação para as relações étnico-raciais. Proposições didático-metodológicas para o trabalho com a literatura na Educação Infantil e nos Anos Iniciais do Ensino Fundamental."
+    },
+    {
+      "id": "MEN2051",
+      "code": "MEN2051",
+      "name": "Organização dos Processos Educativos na",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2021"
+      ],
+      "equivalents": [
+        "MEN7151"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN2021"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7151"
+      },
+      "syllabus": "-Metodologia da organização do cotidiano na educação infantil: tempo, espaço, atividades. Núcleos da ação pedagógica na educação infantil. O papel do professor. Instrumentos da prática pedagógica: planejamento, documentação (observação e registros) e avaliação na Educação Infantil. Aproximações aos contextos educativos públicos da Educação Infantil."
+    },
+    {
+      "id": "MEN2052",
+      "code": "MEN2052",
+      "name": "Fundamentos e Metodologia do Ensino da Matemática (PCC 16h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2034",
+        "MEN5121",
+        "MEN5131",
+        "MEN5601",
+        "MEN5602",
+        "MEN7121"
+      ],
+      "equivalents": [
+        "MEN7136"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2034"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5121"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5131"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5601"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5602"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7121"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 16
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7136"
+      },
+      "prerequisiteHours": 16,
+      "syllabus": "Educação Infantil I (PCC 12h-a) MEN2031 eh -Princípios teórico-metodológicos do ensino e da aprendizagem da matemática nos anos iniciais. Os cinco grandes campos para o trabalho na educação matemática nos anos iniciais: números e operações matemáticas, grandezas e medidas, geometria, educação estatística e pensamento algébrico."
+    },
+    {
+      "id": "MEN2053",
+      "code": "MEN2053",
+      "name": "Fundamentos e Metodologia do Ensino de História (PCC 23h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2034",
+        "MEN5121",
+        "MEN5131",
+        "MEN5601",
+        "MEN5602",
+        "MEN7121"
+      ],
+      "equivalents": [
+        "MEN5112",
+        "MEN7138"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2034"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5121"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5131"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5601"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5602"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7121"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 23
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN5112"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7138"
+          }
+        ]
+      },
+      "prerequisiteHours": 23,
+      "syllabus": "-Fundamentos teóricos e metodológicos do conhecimento histórico e do ensino de história para a infância. História. Memória. Alfabetização histórica. Fontes históricas. Sujeito histórico. Tempo histórico. Identidade. Diversidade étnico-racial e étnico-cultural."
+    },
+    {
+      "id": "MEN2054",
+      "code": "MEN2054",
+      "name": "Alfabetização (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2044",
+        "MEN7130"
+      ],
+      "equivalents": [
+        "MEN7131"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2044"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7130"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 12
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7131"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "-Concepções de alfabetização e letramento no plano teórico, político e pedagógico nacional e internacional. Sistema de escrita alfabético. Fundamentos teórico-metodológicos do processo de alfabetização. A realidade linguística da criança no processo de aprendizagem da escrita. A formação do leitor e produtor de texto no processo inicial da escrita."
+    },
+    {
+      "id": "MEN2055",
+      "code": "MEN2055",
+      "name": "Educação de Jovens e adultos-EJA (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN7140"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7140"
+      },
+      "syllabus": "-Processos educativos de jovens, adultos e idosos: processos históricos, políticos e de práticas educativas de EJA. Os sujeitos jovens, adultos e idosos. A juvenilização da EJA. Cultura, relações raciais e a EJA. Alfabetização e escolarização na EJA. Currículo, mediações e alternativas didático-pedagógicas e a Educação de Jovens e Adultos nos anos iniciais de escolarização básica."
+    },
+    {
+      "id": "MEN2056",
+      "code": "MEN2056",
+      "name": "Didática II: Organização do Trabalho",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2034"
+      ],
+      "equivalents": [
+        "MEN5122"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN2034"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5122"
+      },
+      "syllabus": "-Fundamentos teóricos e metodológicos gerais para o trabalho docente na Educação Infantil e nos Anos Iniciais do Ensino Fundamental. A construção de relações participativas no espaço pedagógico. Dimensões das relações entre os sujeitos nas instituições educativas: criança/jovem/adulto, os grupos de convívio e as equipes pedagógicas na escola. Os elementos norteadores do ensino: seleção, organização de conhecimentos, planejamento e avaliação."
+    },
+    {
+      "id": "EED2066",
+      "code": "EED2066",
+      "name": "Pesquisa em Educação II (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EED2016",
+        "EED2037",
+        "EED7140",
+        "EED7141"
+      ],
+      "equivalents": [
+        "EED7142"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "EED2016"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "EED2037"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "EED7140"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "EED7141"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "EED2037"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "EED7140"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "EED2016"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "EED7141"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 12
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED7142"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "Docente (PCC 12h-a) MEN7122) MEN5121 ou O papel da pesquisa no processo de apreensão do contexto educacional. Subsídios teórico–metodológicos para elaboração de projetos de pesquisa a partir de temas referentes à problemática educacional. A pesquisa na formação de professores."
+    },
+    {
+      "id": "MEN2061",
+      "code": "MEN2061",
+      "name": "Educação e Infância IV: conhecimento, jogo, brincadeira e linguagem (PCC 25h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2021",
+        "MEN2031",
+        "MEN2041",
+        "MEN7101",
+        "MEN7102",
+        "MEN7104"
+      ],
+      "equivalents": [
+        "MEN7105",
+        "MEN7106"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "MEN2021"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "MEN2031"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "MEN2041"
+                  }
+                ]
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "MEN7101"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "MEN7102"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "MEN7104"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 25
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN7105"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7106"
+          }
+        ]
+      },
+      "prerequisiteHours": 25,
+      "syllabus": "-Bases conceituais: conhecimento, jogo, brinquedo, brincadeira, interação e linguagem; múltiplas linguagens; a produção cultural das e para as crianças; estratégias metodológicas para a ação pedagógica com crianças em diferentes contextos educativos."
+    },
+    {
+      "id": "MEN2062",
+      "code": "MEN2062",
+      "name": "Organização dos Processos Educativos na",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2041"
+      ],
+      "equivalents": [
+        "MEN7152"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN2041"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7152"
+      },
+      "syllabus": "-Especificidade do trabalho educativo com bebês (crianças de zero a três anos) na creche. Dimensões conceituais da relação educativa com bebês: linguagem, corpo e emoção. Organização das atividades educativas da vida diária na creche (sono, alimentação e cuidados essenciais). Processos de inserção das crianças e relação com a famílias em espaços coletivos de educação. Aproximação aos contextos educativos públicos de creche."
+    },
+    {
+      "id": "MEN2063",
+      "code": "MEN2063",
+      "name": "Fundamentos e Medodologia do Ensino de Geografia (PCC 23h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2034",
+        "MEN5121",
+        "MEN5131",
+        "MEN5601",
+        "MEN5602"
+      ],
+      "equivalents": [
+        "MEN7137"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2034"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5121"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5131"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5601"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5602"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 23
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7137"
+      },
+      "prerequisiteHours": 23,
+      "syllabus": "Educação Infantil II (PCC 16h-a) MEN2051) ou -As tendências do pensamento geográfico. As categorias de análise da Geografia. Princípios teórico-metodológicos do ensino de geografia nos anos iniciais do Ensino Fundamental. Domínio espacial no Contexto escolar. Documentos Oficiais e Manuais didáticos. A criança e as relações espaciais: a leitura de mapas, a evolução da noção de espaço. O espaço geográfico e o estudo do meio com as crianças. Planejamento e Avaliação no ensino da Geografia."
+    },
+    {
+      "id": "MEN2064",
+      "code": "MEN2064",
+      "name": "Língua Portuguesa e Ensino (PCC 16h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN2034",
+        "MEN2035",
+        "MEN2044",
+        "MEN2054",
+        "MEN7112",
+        "MEN7121",
+        "MEN7130",
+        "MEN7131"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 16
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2034"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2035"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2044"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2054"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN7112"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7121"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7130"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7131"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2044"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7112"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7121"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7131"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2035"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7121"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7130"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7131"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2034"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7112"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7130"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7131"
+              }
+            ]
+          }
+        ]
+      },
+      "prerequisiteHours": 16,
+      "syllabus": "-O texto como manifestação da linguagem. A língua portuguesa nas suas diferentes modalidades: oralidade, leitura e escrita. Gêneros do discurso. Variedades linguísticas. Constituição da disciplina de Língua Portuguesa. O objeto de ensino da Língua Portuguesa. Concepção de ensino da Língua Portuguesa nos anos inicias. Análise da produção textual da criança. Práticas de leitura e escrita. Formação do leitor e produtor de textos. Prática como Componente Curricular."
+    },
+    {
+      "id": "MEN2065",
+      "code": "MEN2065",
+      "name": "Arte, Imaginação e Educação (PCC 16h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN2034",
+        "MEN5121",
+        "MEN5131",
+        "MEN5601",
+        "MEN5602",
+        "MEN7121"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 16
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN2034"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5121"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5131"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5601"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5602"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7121"
+          }
+        ]
+      },
+      "prerequisiteHours": 16,
+      "syllabus": "-Arte como experiência e conhecimento. Imaginação, arte e educação. Linguagens da arte, suas mídias e interações: teatro, dança, música, cinema, artes visuais. Arte em contextos educativos."
+    },
+    {
+      "id": "MEN2071",
+      "code": "MEN2071",
+      "name": "Educação e Infância V: Estágio em Educação Infantil",
+      "credits": 14,
+      "hours": 252,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2035",
+        "MEN2041",
+        "MEN2045",
+        "MEN2051",
+        "MEN2061",
+        "MEN2062",
+        "MEN7104",
+        "MEN7106",
+        "MEN7132",
+        "MEN7151",
+        "MEN7152"
+      ],
+      "equivalents": [
+        "MEN1393",
+        "MEN1394",
+        "MEN5392",
+        "MEN5394",
+        "MEN7107"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2035"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2041"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2045"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2051"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2061"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2062"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN7104"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7106"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7132"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7151"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7152"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2061"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2062"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7104"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7151"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2062"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7104"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7106"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7151"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2051"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2062"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7104"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7106"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN1393"
+          },
+          {
+            "kind": "course",
+            "code": "MEN1394"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5392"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5394"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7107"
+          }
+        ]
+      },
+      "syllabus": "-Diretrizes educativas. Conhecimento dos campos de estágio e definição compartilhada dos projetos de estágio. Atuação docente: observação, registro, documentação e análise dos contextos e das relações educativas. Planejamento dos núcleos da ação pedagógica da atuação no estágio em Educação Infantil. Elaboração do memorial de estágio: análise crítica das intervenções realizadas junto às unidades de Educação Infantil do sistema público de ensino."
+    },
+    {
+      "id": "MEN2072",
+      "code": "MEN2072",
+      "name": "Infância e Educação Corporal (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2034",
+        "MEN5121",
+        "MEN5131",
+        "MEN5601",
+        "MEN5603",
+        "MEN7121"
+      ],
+      "equivalents": [
+        "MEN5115",
+        "MEN7139"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2034"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5121"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5131"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5601"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5603"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7121"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 12
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN5115"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7139"
+          }
+        ]
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "-As dimensões histórico-culturais da educação corporal (brincadeira, expressão corporal, linguagem corporal, práticas corporais) tendo como referência as produções e debates acumulados no campo da Educação Física. Análise dos processos pedagógicos existentes e/ou possíveis de existir em relação a uma educação corporal na infância: os tempos e espaços do brincar nas instituições que atendem a infância; o trabalho pedagógico com a educação física; o cotidiano das salas de aula."
+    },
+    {
+      "id": "MEN2073",
+      "code": "MEN2073",
+      "name": "Educação e Comunicação (PCC 16h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN7113"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 16
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7113"
+      },
+      "prerequisiteHours": 16,
+      "syllabus": "-Educação, comunicação e cultura das mídias. As mídias e suas linguagens. Análise crítica e criativa das mídias. Estética e mediações culturais. Crianças, jovens, adultos e as interações com as mídias na escola, na família e na cultura. Conceitos, objetivos e perspectivas da mídia-educação. Produção de conhecimento, formação de professores e produção de mídias em contextos educativos presenciais e a distância"
+    },
+    {
+      "id": "EED2082",
+      "code": "EED2082",
+      "name": "Organização dos Processos Coletivos do Trabalho Escolar (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EED2022",
+        "EED5185",
+        "EED5187",
+        "EED7131",
+        "EED8005",
+        "EED8007",
+        "EED2032",
+        "EED5186",
+        "EED7132",
+        "EED8006"
+      ],
+      "equivalents": [
+        "EED5183",
+        "EED7133"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED2022"
+              },
+              {
+                "kind": "course",
+                "code": "EED5185"
+              },
+              {
+                "kind": "course",
+                "code": "EED5187"
+              },
+              {
+                "kind": "course",
+                "code": "EED7131"
+              },
+              {
+                "kind": "course",
+                "code": "EED8005"
+              },
+              {
+                "kind": "course",
+                "code": "EED8007"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED2032"
+              },
+              {
+                "kind": "course",
+                "code": "EED5186"
+              },
+              {
+                "kind": "course",
+                "code": "EED7132"
+              },
+              {
+                "kind": "course",
+                "code": "EED8006"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 12
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5183"
+          },
+          {
+            "kind": "course",
+            "code": "EED7133"
+          }
+        ]
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "A gestão democrática da/na escola. Projeto Político Pedagógico. Organização e planejamento: tempo, espaço e conhecimento. A coordenação político- pedagógica da escola. A formação e o trabalho docente. Sujeitos da escola: estudantes, profissionais da escola e famílias."
+    },
+    {
+      "id": "MEN2081",
+      "code": "MEN2081",
+      "name": "Educação e Infância VI: Exercício da",
+      "credits": 14,
+      "hours": 252,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN2021"
+      ],
+      "equivalents": [
+        "MEN5325"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN2021"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5325"
+      },
+      "syllabus": "-Exercício docente nos anos iniciais do ensino fundamental: análise da realidade educacional e escolar; princípios teóricos e didáticometodológicos das atividades de ensino e de aprendizagem; docência compartilhada, produção de registros, planejamento, realização de atividades de ensino, avaliação e comunicação dos resultados obtidos."
+    },
+    {
+      "id": "EED2091",
+      "code": "EED2091",
+      "name": "Trabalho de Conclusão de Curso",
+      "credits": 12,
+      "hours": 216,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EED2066",
+        "MEN2071",
+        "MEN2081",
+        "EED7142",
+        "EED7143",
+        "MEN7107",
+        "MEN7108"
+      ],
+      "equivalents": [
+        "EED7144"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED2066"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2071"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2081"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED7142"
+              },
+              {
+                "kind": "course",
+                "code": "EED7143"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7107"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7108"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED7142"
+              },
+              {
+                "kind": "course",
+                "code": "EED7143"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2071"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2081"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED7142"
+              },
+              {
+                "kind": "course",
+                "code": "EED7143"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2081"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7107"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "EED7142"
+              },
+              {
+                "kind": "course",
+                "code": "EED7143"
+              },
+              {
+                "kind": "course",
+                "code": "MEN2071"
+              },
+              {
+                "kind": "course",
+                "code": "MEN7108"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED7144"
+      },
+      "syllabus": "Desenvolvimento do Projeto de Pesquisa a partir de temas articulados com a problemática educacional brasileira. Elaboração e defesa pública do Trabalho de Conclusão de Curso."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "ANT5309",
+      "code": "ANT5309",
+      "name": "Antropologia Cultural B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Antropologia. Cultura e Sociedade. Processos Evolutivos. Manifestações Culturais. Cultura das minorias. Valores: a importância da tradição para mudança ou transformação dos valores."
+    },
+    {
+      "id": "EED2092",
+      "code": "EED2092",
+      "name": "Relações Raciais na Sociedade Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações étnico-raciais no Brasil e desigualdades. Teorias raciais. Branquitude e poder. Classificação Racial. Política de ações afirmativas."
+    },
+    {
+      "id": "EED2093",
+      "code": "EED2093",
+      "name": "Financiamento da Educação (PCC 20h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5115"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 20
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED5115"
+      },
+      "prerequisiteHours": 20,
+      "syllabus": "(PCC 20h-a) Fontes e recursos públicos para a educação. O financiamento da Educação Básica e a legislação o que o regulamenta. Vinculação de recursos e despesas com Manutenção e Desenvolvimento do Ensino. Política de fundos no financiamento da Educação Básica. A educação no orçamento público e na execução orçamentária."
+    },
+    {
+      "id": "EED2094",
+      "code": "EED2094",
+      "name": "Seminário de Aprofundamento em Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EED2015"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EED2015"
+      },
+      "syllabus": "Aprofundamento nos estudos sobre política educacional (nacional e/ou internacional) a partir de uma das linhas de pesquisa do Grupo de Estudos sobre Política educacional e trabalho (Gepeto/CED/UFSC). Política(s) educacional(is) e as transformações no mundo do trabalho. Impactos da(s) política(s) na formação e/ou no trabalho docente. Análise de documentos de política educacional."
+    },
+    {
+      "id": "EED2095",
+      "code": "EED2095",
+      "name": "Coordenação Pedagógica na Escola",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(pcc 12h-a) EED5185 ou Coordenação pedagógica: definição, atribuições, contexto político educacional, limites e possibilidades. A orientação e supervisão educacional: história, atribuições e impasses. A coordenação pedagógica, trabalho coletivo e gestão democrática. A coordenação pedagógica e o Projeto Político Pedagógico. A coordenação pedagógica, planejamento e avaliação do trabalho educativo. A coordenação pedagógica e a relação família e escola. A coordenação pedagógica nas diferentes etapas e modalidades da educação básica."
+    },
+    {
+      "id": "EED2096",
+      "code": "EED2096",
+      "name": "História de Instituições Escolares: Teoria e Metodologia de Pesquisa (PCC16h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2096
+      },
+      "prerequisiteHours": 2096,
+      "syllabus": "Pública (PCC 12h-a) História de Instituições Escolares: constituição do campo. Aspectos das instituições escolares: espacial, temporal, intelectual, social e político. Historiografia. Fontes de pesquisa."
+    },
+    {
+      "id": "EED2097",
+      "code": "EED2097",
+      "name": "Escola e Pedagogia Socialista",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Trabalho e relações sociais como base da educação e da escola. Crítica marxista à escola no capitalismo. A experiência educacional soviética na primeira fase da revolução: trabalho, conhecimento e auto-organização. A pedagogia socialista no Brasil."
+    },
+    {
+      "id": "EED5110",
+      "code": "EED5110",
+      "name": "Capitalismo e Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As categorias analíticas fundamentais do capital e seu movimento contraditório; as configurações históricas capitalistas, desde a cooperação simples até o atual padrão de acumulação; as transformações no mundo do trabalho e sua relação com o fenômeno educacional; a relação entre capital, trabalho e educação; a educação na perspectiva da classe trabalhadora."
+    },
+    {
+      "id": "EED5116",
+      "code": "EED5116",
+      "name": "Economia da Educação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituação. O sistema econômico. Economia da Educação: conceituação. Desenvolvimento econômico. Educação e desenvolvimento. Custo da Educação. O capital humano. Oferta e demanda em Educação."
+    },
+    {
+      "id": "EED5220",
+      "code": "EED5220",
+      "name": "Educação Popular",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Raízes históricas da educação popular no Brasil. As diferentes concepções e perspectivas da Educação Popular no Brasil. As principais experiências na década de 60. A redefinição dos movimentos populares pós-78. Os novos desafios da Educação Popular."
+    },
+    {
+      "id": "EED5221",
+      "code": "EED5221",
+      "name": "Estudos da Juventude Contemporânea",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cultura Juvenil: subjetividade, identidade, sociabilidade; Grupos juvenis e processo de mudança; Juventude e mundo do trabalho; Escolarização ensino fundamental, médio, educação de jovens e adultos; cultura escolar e a transgressão, indisciplina e violência; Formas associativas juvenis e temas emergentes juvenis."
+    },
+    {
+      "id": "EED5222",
+      "code": "EED5222",
+      "name": "Educação Biocêntrica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Os potenciais genéticos: vitalidade, criatividade, sexualidade, afetividade e transcendência. Educação como processo teórico-vivencial. O princípio biocênctrico e a educação. A poética dos gestos nas relações humanas. A construção dialógica do conhecimento. A vivência como organizadora do movimento humano. A inteligência afetiva e os processos de aprendizagem. A cultura de prestígio à vida em todas as suas manifestações."
+    },
+    {
+      "id": "EED5224",
+      "code": "EED5224",
+      "name": "Percepção, Corpo e Cegueira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Percepção: o ver e o não ver. Corpo-próprio e cegueira no espaço escolar."
+    },
+    {
+      "id": "EED5225",
+      "code": "EED5225",
+      "name": "Dança no Espaço Escolar",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apreciação e ensino da dança: observação, execução e criação. Observação e análise do movimento. Corpo e diferença no espaço escolar."
+    },
+    {
+      "id": "EED5226",
+      "code": "EED5226",
+      "name": "Educação de Surdos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História da educação de surdos. As organizações política, lingüística e social dos surdos brasileiros. Os movimentos surdos locais, nacionais e internacionais e seu impacto na educação. Políticas públicas e a educação de surdos."
+    },
+    {
+      "id": "EED5227",
+      "code": "EED5227",
+      "name": "Corpo, Gênero e Sexualidade: Implicações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED5228",
+      "code": "EED5228",
+      "name": "Educação e Movimentos Sociais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "p/Práticas Pedagógicas"
+    },
+    {
+      "id": "EED5229",
+      "code": "EED5229",
+      "name": "Educação, Pobreza e Desigualdade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED5306",
+      "code": "EED5306",
+      "name": "Funda mentos de Língua de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História dos surdos no Brasil. História da língua de sinais. Organizações de surdos. As culturas surdas. Arte surda. Tradutor e intérprete. Escrita de sinais. Morfologia. Conversação em sinais. Gramática."
+    },
+    {
+      "id": "EED5603",
+      "code": "EED5603",
+      "name": "Patologia da Linguagem",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Brasileira II Estudo sobre o desenvolvimento e aquisição da linguagem, objetivando uma abordagem dos distúrbios da comunicação relacionados ou não com problemas do Sistema Nervoso Central, salientando-se as consequências psicopedagógicas que acarretam, com análises de casos que devem conduzir à avaliação educacional para efeito de tratamento específico."
+    },
+    {
+      "id": "EED7145",
+      "code": "EED7145",
+      "name": "Educação do Campo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED7146",
+      "code": "EED7146",
+      "name": "Infância e Violência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED7147",
+      "code": "EED7147",
+      "name": "Educação e Movimentos Sociais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED7148",
+      "code": "EED7148",
+      "name": "Leituras histórico-filosóficas da educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED7149",
+      "code": "EED7149",
+      "name": "Educação Especial na Educação Básica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "no Brasil Colonial -Introdução à educação especial: história, abordagens teóricas e terminologia. A política de educação especial. O trabalho pedagógico com os estudantes da educação especial na Educação Básica."
+    },
+    {
+      "id": "LLV5622",
+      "code": "LLV5622",
+      "name": "Aquisição e Desenvolvimento da Língua",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estágios de desenvolvimento linguístico-infantil dentro da fonologia, sintaxe, sêmantica e discurso. Cognição e linguagem: relações e interdependências. Desenvolvimento linguístico e meio ambiente: implicações pedagógicas. Desenvolvimento linguístico e a aquisição da leitura e escrita."
+    },
+    {
+      "id": "MEN2091",
+      "code": "MEN2091",
+      "name": "Gênero, Sexualidade e Educação (PCC12h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "Infantil -A disciplina pretende apresentar e discutir os conceitos de gênero e sexualidade e seus impactos no campo da educação. Gênero, corpo e sexualidade como construção histórica, social, cultural e política. Implicações no processo de educação na família, na escola e na sociedade"
+    },
+    {
+      "id": "MEN2092",
+      "code": "MEN2092",
+      "name": "Cinema e Educação (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "a) -Aspectos históricos e conceituais cinema/audiovisual, cultura e educação; fruição, análise e produção de filmes; escola, currículo e cinema; multiletramentos, literacia midiática e audiovisual; possibilidades didáticas do cinema na educação formal e informal."
+    },
+    {
+      "id": "MEN2093",
+      "code": "MEN2093",
+      "name": "Yoga na Aprendizagem I (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN5106"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5106"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "-Fundamentos teórico-práticos da implementação de exercícios de yoga, em sala de aula, como estímulo ao processo de Ensino-Aprendizagem. Fundamentos do Yoga na sua dimensão filosófica e prática."
+    },
+    {
+      "id": "MEN2094",
+      "code": "MEN2094",
+      "name": "Yoga na Aprendizagem II (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MEN2093",
+        "MEN5106"
+      ],
+      "equivalents": [
+        "MEN5118"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MEN2093"
+              },
+              {
+                "kind": "course",
+                "code": "MEN5106"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 12
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5118"
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "-Aprofundamentos teórico-práticos da implementação de exercícios de yoga, em sala de aula, como estímulo ao processo de ensino-aprendizagem. . Planejamento de aulas e avaliação. Aprofundamentos do Yoga na sua dimensão filosófica e prática."
+    },
+    {
+      "id": "MEN2095",
+      "code": "MEN2095",
+      "name": "Arte e Educação Infantil I: Desenho (PCC",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-O desenvolvimento da linguagem do desenho na educação formal das crianças de 0 a 5 anos de idade. O desenho na arte: artistas, obras e conceitos. Investigações e criações poéticas na linguagem do desenho na formação do(a) pedagogo(a). A organização dos tempos, espaços e materialidades para o desenhar entre as crianças nos contextos de Educação Infantil."
+    },
+    {
+      "id": "MEN2096",
+      "code": "MEN2096",
+      "name": "Arte e Educação Infantil II: Escultura (PCC",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) -O desenvolvimento da linguagem da escultura na educação formal das crianças de 0 a 5 anos de idade. Escultura: artistas, obras e conceitos. Investigações e criações poéticas na linguagem da escultura na formação do(a) pedagogo(a). A organização dos tempos, espaços e materialidades para a criação escultórica entre as crianças nos contextos de Educação Infantil."
+    },
+    {
+      "id": "MEN2097",
+      "code": "MEN2097",
+      "name": "Brinquedoteca e Espaços Lúdicos na",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) -Jogos, brinquedos, brincadeiras, imaginação. Brinquedoteca e espaços lúdicos e criativos. Práticas e mediações lúdico-educativas"
+    },
+    {
+      "id": "MEN2099",
+      "code": "MEN2099",
+      "name": "Diálogos e Polêmicas Contemporâneas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Prática Pedagógica (PCC 36h-a) -Encontros temáticos e discussões em torno de assuntos sobre educações, ciências, artes e culturas contemporâneas. Produção de conhecimento na universidade e divulgação científica. Desafios e exigências da educação atual."
+    },
+    {
+      "id": "MEN5102",
+      "code": "MEN5102",
+      "name": "Ensino de Literatura Infantil nas Séries",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 36h-a) A Literatura Infantil nas Séries Iniciais; A Literatura Infantil e suas fontes: contos feéricos e (re) leituras; Monteiro Lobato e a renovação do gênero; tendências contemporâneas: estética e indústria cultural; o imaginário e o real; o humor e o poético nos textos para crianças."
+    },
+    {
+      "id": "MEN5104",
+      "code": "MEN5104",
+      "name": "Pedagogia Libertaria",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Iniciais Princípios filosóficos. Pressupostos teórico - metodológicos. História e experiências de ações pedagógicas libertárias."
+    },
+    {
+      "id": "MEN5105",
+      "code": "MEN5105",
+      "name": "Tecnologia de Comunicação Digital e Transposições Didáticas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cibercultura e a Pedagogia. Tecnologia de Comunicação Digital e o saber transversal. Multimídia e transposição didática. Mediação pedagógica em ambiente atual e virtual. Construindo um observatório pedagógico: leitura e produção de texto e de hipertexto."
+    },
+    {
+      "id": "MEN5107",
+      "code": "MEN5107",
+      "name": "Estudos-Educação dos Negros-Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Educação, relações sociais e os negros no Brasil. Cultura e processos identitários. Escola, currículo e projetos pedagógicos para igualdade de oportunidades educacionais."
+    },
+    {
+      "id": "MEN5108",
+      "code": "MEN5108",
+      "name": "Danças Circulares Sagradas e Formação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Danças circulares sagradas: história, princípios, fundamentos. Danças circulares de diferentes povos e tradições: vivências. Danças circulares sagradas e educação: da singularidade à construção do grupo. A circularidade na dança e na educação: dimensões simbólicas. A dança e os arquétipos: relações e reflexos na formação de professores."
+    },
+    {
+      "id": "MEN5141",
+      "code": "MEN5141",
+      "name": "Tecnologia Educacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Evolução histórica e tendências da Tecnologia Educacional. Pressupostos teóricos. A Tecnologia Educacional na educação brasileira e suas perspectivas tecnológica de ensino. Interação entre estímulos tecnológicos."
+    },
+    {
+      "id": "MEN5910",
+      "code": "MEN5910",
+      "name": "Educação à Distância",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-A evolução da Educação à Distância. Tecnologias da informação e comunicação para Educação à Distância. Metodologias educacionais em ambientes virtuais de aprendizagem. As funções/papéis do professor na Educação à Distância. Software/Plataformas para Educação à Distância. Recursos e critérios de avaliação para Educação à Distância"
+    },
+    {
+      "id": "MEN5912",
+      "code": "MEN5912",
+      "name": "Introdução à Pedagogia Freinet (PCC 36h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": ""
+    },
+    {
+      "id": "MEN5913",
+      "code": "MEN5913",
+      "name": "Avaliação Educacional: Políticas e Práticas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "a)"
+    },
+    {
+      "id": "MEN5914",
+      "code": "MEN5914",
+      "name": "Vigotski, escola, arte e ensino na infância",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 27h-a)"
+    },
+    {
+      "id": "EED2083",
+      "code": "EED2083",
+      "name": "NADE- Metodologias de Pesquisa com",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 27h-a) obrigatória 72h/aula NADE (Núcleo de Aprofundamento de Estudos) Aspectos epistemológicos da relação infância, sociedade e educação e os saberes produzidos sobre as crianças: a criança como 'objeto' de estudo. A construção da pesquisa sobre e com as crianças e a infância. Metodologias de pesquisa com crianças. Procedimentos metodológicos de pesquisa com crianças. Papel do adulto pesquisador. Ética na pesquisa com crianças."
+    },
+    {
+      "id": "EED2084",
+      "code": "EED2084",
+      "name": "NADE- Práticas pedagógicas e relações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Crianças Pequenas (PCC 9h-a) Política de ações afirmativas na educação: Diretrizes Curriculares Nacionais para o Ensino de História e Cultura Afro-brasileira e Africana. Práticas pedagógicas antirracistas no contexto escolar."
+    },
+    {
+      "id": "EED2085",
+      "code": "EED2085",
+      "name": "NADE - Educação e Trabalho",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "EED2026",
+        "EED7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED2026"
+          },
+          {
+            "kind": "course",
+            "code": "EED7103"
+          }
+        ]
+      },
+      "syllabus": "étnico-raciais (PCC 12h-a) O método da Economia Política. As determinações econômicas da educação. Educação da classe trabalhadora. Trabalho e escola na sociedade de classes. Escolarização de jovens e crianças. Trabalho infantil e juvenil."
+    },
+    {
+      "id": "EED2086",
+      "code": "EED2086",
+      "name": "NADE -Corpo e gênero na educação infantil",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Corpo como natureza e cultura e suas implicações para a indissociabilidade do cuidar e educar. Corpo e experiências sensoriais, expressivas e de movimento na Educação Infantil. Corpo e as relações de gênero, de sexualidade e de etnia/raça. Gênero como construção social. Relações de gênero na perspectiva de meninas e meninos: subsídios para a ação docente na Educação Infantil."
+    },
+    {
+      "id": "EED2341",
+      "code": "EED2341",
+      "name": "NADE- Práticas Pedagógicas para a",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "EED2033"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EED2033"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "EED2342",
+      "code": "EED2342",
+      "name": "NADE - Alfabetização em perspectiva",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Promoção da Igualdade Étnico-Racial (PCC EED5331) 36h-a)"
+    },
+    {
+      "id": "EED7155",
+      "code": "EED7155",
+      "name": "NADE-Políticas Intern p/a Educ, Formação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "discursive (PCC 12h-a)"
+    },
+    {
+      "id": "EED7156",
+      "code": "EED7156",
+      "name": "NADE - Educação Popular, Arte e Cidadania",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Professores e Form. de Gestores"
+    },
+    {
+      "id": "EED7157",
+      "code": "EED7157",
+      "name": "NADE- Os Clássicos e a Educação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED7158",
+      "code": "EED7158",
+      "name": "NADE- Alfabetização na Perspectiva do Letramento",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED7159",
+      "code": "EED7159",
+      "name": "NADE - Pesquisa em Educação Especial no",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED7170",
+      "code": "EED7170",
+      "name": "NADE -História da educação catarinense e sua relação com a formação de professores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Brasil"
+    },
+    {
+      "id": "EED7171",
+      "code": "EED7171",
+      "name": "NADE-Modalidade Pesquisa",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "sua relação com a formação de professores"
+    },
+    {
+      "id": "EED7172",
+      "code": "EED7172",
+      "name": "NADE - Modalidade Extensão",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED7173",
+      "code": "EED7173",
+      "name": "NADE -Práticas Educativas e Relações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED7174",
+      "code": "EED7174",
+      "name": "NADE - Educação Integral",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Étnico-Raciais"
+    },
+    {
+      "id": "EED7175",
+      "code": "EED7175",
+      "name": "NADE - A escola no cinema",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED7176",
+      "code": "EED7176",
+      "name": "NADE - Educação em tempos de pandemia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED7257",
+      "code": "EED7257",
+      "name": "NADE - Os Clássicos e a Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 12h-a)"
+    },
+    {
+      "id": "MEN2084",
+      "code": "MEN2084",
+      "name": "NADE - Educação de Jovens e Adultos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Educação de Jovens e Adultos e Idosos: campo de pesquisa e ensino. Políticas e práticas da escolarização de jovens e adultos. A formação de professores e a docência na EJA. Desenvolvimento de atividades de prática como forma de aproximação a escolas e contextos educativos que mantenham ações de EJA."
+    },
+    {
+      "id": "MEN2085",
+      "code": "MEN2085",
+      "name": "NADE - Ciências, Infância e Ensino (PCC",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 9h-a) -Apropriação de conceitos, recursos didáticos e metodologias de ensino das áreas das ciências da natureza voltadas à infância. Educação Ambiental e suas intersecções com o Ensino de Ciências e a infância. Desenvolvimento de atividades práticas de ensino de ciências voltadas à infância."
+    },
+    {
+      "id": "MEN7155",
+      "code": "MEN7155",
+      "name": "Nade-Educação de Jovens e Adultos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "9h-a) MEN7134)"
+    },
+    {
+      "id": "MEN7156",
+      "code": "MEN7156",
+      "name": "Nade-Práticas Educativas e Relações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7157",
+      "code": "MEN7157",
+      "name": "Nade-Yoga na Aprendizagem",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Étnico-Raciais"
+    },
+    {
+      "id": "MEN7158",
+      "code": "MEN7158",
+      "name": "Nade-Educação Patrimonial, Memória, Linguagens",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7159",
+      "code": "MEN7159",
+      "name": "Nade-Avaliação dos processos Educativos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7170",
+      "code": "MEN7170",
+      "name": "NADE-Narração de Histórias e Educação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7171",
+      "code": "MEN7171",
+      "name": "NADE - Produção de Linguagem",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7172",
+      "code": "MEN7172",
+      "name": "NADE - Cinema, Infância e Educação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Audiovisual, Digital e Hipermidiática na Educação"
+    },
+    {
+      "id": "MEN7173",
+      "code": "MEN7173",
+      "name": "NADE - Alfabetização Cartográfica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7174",
+      "code": "MEN7174",
+      "name": "NADE-Modalidade Pesquisa",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7175",
+      "code": "MEN7175",
+      "name": "NADE-Modalidade Extensão",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7176",
+      "code": "MEN7176",
+      "name": "NADE - Arte e Criação de Materiais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7177",
+      "code": "MEN7177",
+      "name": "NADE - Brinquedoteca e Espaços Lúdicos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Pedagógicos na Educação Infantil"
+    },
+    {
+      "id": "MEN7178",
+      "code": "MEN7178",
+      "name": "NADE - Infância, Educaçao, Escola e Direitos da Criança",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "na Prática Pedagógica"
+    },
+    {
+      "id": "MEN7181",
+      "code": "MEN7181",
+      "name": "NADE - Produção da Linguagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "AEC2001",
+      "code": "AEC2001",
+      "name": "Atividades Técnico-Científicas ou",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Audiovisual, Digital e Hipermidiática na Educação Atividades Técnico-Científicas e Artísticas (ATCA) - Modalidade"
+    },
+    {
+      "id": "AEC2002",
+      "code": "AEC2002",
+      "name": "Atividades Técnico- Científicas ou",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Culturais: Ensino e Formação"
+    },
+    {
+      "id": "AEC2003",
+      "code": "AEC2003",
+      "name": "Atividades Técnico-Científicas ou",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Culturais: Pesquisa"
+    },
+    {
+      "id": "AEC2005",
+      "code": "AEC2005",
+      "name": "Atividades Técnico-Científicas ou",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Culturais: Extensão"
+    },
+    {
+      "id": "AEC2006",
+      "code": "AEC2006",
+      "name": "Atividades Técnico-Científicas ou",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Culturais: Participação em Eventos sem Apresentação de Trabalho"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EED2011",
+      "EED2012",
+      "EED2013",
+      "EED2014",
+      "EED2015",
+      "EED2016",
+      "MEN2017",
+      "EED2022",
+      "EED2023",
+      "EED2024",
+      "EED2026",
+      "EED2027",
+      "MEN2021",
+      "PSI2025",
+      "EED2032",
+      "EED2033",
+      "EED2036",
+      "EED2037",
+      "MEN2031",
+      "MEN2034",
+      "MEN2035",
+      "EED2046",
+      "MEN2041",
+      "MEN2042",
+      "MEN2043",
+      "MEN2044",
+      "MEN2045",
+      "MEN2051",
+      "MEN2052",
+      "MEN2053",
+      "MEN2054",
+      "MEN2055",
+      "MEN2056",
+      "EED2066",
+      "MEN2061",
+      "MEN2062",
+      "MEN2063",
+      "MEN2064",
+      "MEN2065",
+      "MEN2071",
+      "MEN2072",
+      "MEN2073",
+      "EED2082",
+      "MEN2081",
+      "EED2091",
+      "LSB7244",
+      "EED2083",
+      "EED2084",
+      "EED2085",
+      "EED2086",
+      "EED2341",
+      "EED2342",
+      "EED7155",
+      "EED7156",
+      "EED7157",
+      "EED7158",
+      "EED7159",
+      "EED7170",
+      "EED7171",
+      "EED7172",
+      "EED7173",
+      "EED7174",
+      "EED7175",
+      "EED7176",
+      "EED7257",
+      "MEN2084",
+      "MEN2085",
+      "MEN7155",
+      "MEN7156",
+      "MEN7157",
+      "MEN7158",
+      "MEN7159",
+      "MEN7170",
+      "MEN7171",
+      "MEN7172",
+      "MEN7173",
+      "MEN7174",
+      "MEN7175",
+      "MEN7176",
+      "MEN7177",
+      "MEN7178",
+      "MEN7181"
+    ],
+    "requirements": []
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "308",
+    "curriculumCode": "20091",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=308&curriculo=20091",
+    "sha256": "c6475c6c9498611bdb2de5d0fc82b43b1a0b3206c462d352534a61bc7d60abdc",
+    "capturedAt": "2026-09-22"
+  }
+}

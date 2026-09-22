@@ -1,0 +1,2347 @@
+{
+  "program": "ENGENHARIA DE COMPUTAÇÃO [Campus Araranguá]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2020.1",
+  "totalHours": 4320,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "DEC0012",
+      "code": "DEC0012",
+      "name": "Linguagem de Programação I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEC7143",
+        "DEC7531",
+        "ARA7143",
+        "ARA7531",
+        "ARA7141"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DEC7143"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7531"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7143"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7531"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7531"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7143"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7143"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7531"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7141"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7143"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7141"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7143"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Algoritmos e lógica de programação. Formas de representação de algoritmos. Programação estruturada, linguagens de programação e ambientes de programação. Variáveis: nomeação, declaração, inicialização, tipos de dados. Expressões: expressões aritméticas, expressão literal, expressões lógicas, expressões relacionais. Estruturas de Controle de Fluxo: linear, condicional, repetição. Estruturas de Dados Simples: vetores, matrizes, registros. Arquitetura de programa mínimo: paradigmas, regras de escopo, funções, modularização. Ponteiros e Alocação dinâmica. Funções: definição, declaração, tipos de passagem de parâmetro. Entrada e Saída de Dados: arquivos, acesso sequencial, acesso direto."
+    },
+    {
+      "id": "DEC7070",
+      "code": "DEC7070",
+      "name": "Introdução à Engenharia de Computação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7120",
+        "ARA7530",
+        "DEC7530"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7120"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7530"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7530"
+          }
+        ]
+      },
+      "syllabus": "Perfil do profissional da computação. Campo de atuação. Ética profissional. Regulamentação profissional. Estrutura e objetivos do curso. Procedimento de matrícula. Histórico e evolução dos computadores. Introdução à computação. Características básicas dos computadores: hardware e software. Componentes básicos dos computadores: memória, unidade central de processamento, entrada e saída. Modelo de von Neumann"
+    },
+    {
+      "id": "DEC7546",
+      "code": "DEC7546",
+      "name": "Circuitos Digitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7501",
+        "ARA7546"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7501"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7546"
+          }
+        ]
+      },
+      "syllabus": "Sistemas Numéricos. Álgebra de Boole (teoremas). Portas lógicas. Circuitos combinacionais. Técnicas de minimização de hardware. Implementação de dispositivos elementares de memória (latchs e flip-flops). Circuitos Sequenciais. Implementação de módulos básicos. Ambiente de simulação."
+    },
+    {
+      "id": "FQM7001",
+      "code": "FQM7001",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conjuntos e aritmética básica; Cálculo com expressões algébricas; equações; inequações; funções."
+    },
+    {
+      "id": "FQM7103",
+      "code": "FQM7103",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7103"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7103"
+      },
+      "syllabus": "Matrizes. Determinantes. Sistemas de equações lineares. Álgebra vetorial. Estudo da reta. Estudo do plano. Cônicas e quádricas."
+    },
+    {
+      "id": "CIT7122",
+      "code": "CIT7122",
+      "name": "Elaboração de Trabalhos Acadêmicos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7122",
+        "ARA7136"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7122"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7136"
+          }
+        ]
+      },
+      "syllabus": "Normas da ABNT para trabalhos acadêmicos: citações e referências bibliográficas. Fontes de pesquisa. Produção de relatório, resumo e resenha. Técnicas de leitura, produção e apresentação de trabalhos científicos."
+    },
+    {
+      "id": "DEC7123",
+      "code": "DEC7123",
+      "name": "Organização e Arquitetura de Computadores I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7546"
+      ],
+      "equivalents": [
+        "ARA7123"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7546"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7123"
+      },
+      "syllabus": "Aritmética binária: ponto fixo e flutuante. Unidades lógicas e aritméticas. Barramento de dados e de controle. Hierarquia de memória: cache, interna e externa. Memória virtual. Entrada e saída. Relógio. Ciclo de máquina. Ciclo de instrução. Microprogramas. Instruções que implementam operações, desvio do fluxo de controle e transferência de dados. Conjuntos de instruções: CISC x RISC. Pipeline. Controle de acesso aos dispositivos e resolução de conflitos. Interrupções. Polling. Acesso direto à memória. Evolução da arquitetura dos computadores."
+    },
+    {
+      "id": "DEC7532",
+      "code": "DEC7532",
+      "name": "Linguagem de Programação II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0012",
+        "DEC7143"
+      ],
+      "equivalents": [
+        "ARA7127",
+        "ARA7532",
+        "DEC7127"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEC0012"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7143"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7127"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7532"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7127"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos do paradigma Orientado a Objetos. Classes e métodos. Encapsulamento, herança e polimorfismo. Modelagem e solução de problemas utilizando os conceitos de orientação a objetos, decomposição por objetos e tipos abstratos de dados. Interface gráfica com usuário (GUI). Análise dos aspectos tecnológicos complementares à solução de problemas (programação orientada a eventos, persistência de dados e objetos, tratamento de exceções)."
+    },
+    {
+      "id": "DEC7549",
+      "code": "DEC7549",
+      "name": "Laboratório de Circuitos Digitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7546"
+      ],
+      "equivalents": [
+        "ARA7549"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7546"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7549"
+      },
+      "syllabus": "Desenvolvimento de atividades práticas que permitam explorar os fundamentos, conceitos e técnicas relativas em circuitos digitais."
+    },
+    {
+      "id": "FQM7002",
+      "code": "FQM7002",
+      "name": "Química Geral e Experimental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7113",
+        "FQM7113"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7113"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7113"
+          }
+        ]
+      },
+      "syllabus": "TEÓRICO: Estrutura eletrônica dos átomos. Propriedades periódicas dos elementos. Ligação química. Íons e moléculas. cálculos estequiométricos, Eletroquímica. EXPERIMENTAL: Normas de segurança, reconhecimento e uso de material de laboratório, solubilidade e purificação de Substâncias, Medições e incertezas, termoquímica, corrosão, eletroquímica."
+    },
+    {
+      "id": "FQM7101",
+      "code": "FQM7101",
+      "name": "Cálculo I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7001"
+      ],
+      "equivalents": [
+        "ARA7101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7001"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7101"
+      },
+      "syllabus": "Desigualdades. Funções. Aplicação de Funções. Limites e suas propriedades. Continuidade. Limites no infinito. Derivadas e Taxa de variação. Derivada como uma função. Derivadas das funções. Regras de derivação. Derivação implícita. Aplicações da derivação. Regra de L'Hôspital. Integrais definidas. Teorema Fundamental do Cálculo. Integral indefinida. Integrais Impróprias."
+    },
+    {
+      "id": "DEC0006",
+      "code": "DEC0006",
+      "name": "Estrutura de Dados",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7532"
+      ],
+      "equivalents": [
+        "DEC7125",
+        "DEC7143",
+        "ARA7125",
+        "ARA7143"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7532"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DEC7125"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7143"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7125"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7143"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7143"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7125"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7125"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7143"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Notação assintótica. Recorrências. Técnicas de análise de algoritmos. Listas lineares e suas generalizações: listas ordenadas, listas encadeadas, pilhas e filas. Aplicações de listas. Algoritmos de inserção, remoção e consulta. Tabelas de Espalhamento. Árvores binárias. Métodos de pesquisa e ordenação. Técnicas de implementação iterativa e recursiva de estruturas de dados. Grafos e grafos orientados. Representação de problemas com grafos."
+    },
+    {
+      "id": "DEC7511",
+      "code": "DEC7511",
+      "name": "Microprocessadores e Microcontroladores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7123"
+      ],
+      "equivalents": [
+        "ARA7511"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7123"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7511"
+      },
+      "syllabus": "Microprocessadores: introdução histórica; estrutura básica de um microprocessador;microprocessadores comercialmente disponíveis; memórias; controladores; computadores;microcontroladores; operações de entrada/saída. Microcontroladores: arquiteturas típicas de um microcontrolador e seus registradores; arquiteturas; exemplos de microcontroladores comerciais; instruções; programação; mapa de memória, portas de entrada e saída; modulo temporizador; contadores; interrupções, conversão analógico-digital; acesso à memória; barramentos padrões; dispositivos periféricos; ferramentas de programação, simulação e depuração. Aplicações de microcontroladores e microprocessadores. Projetos de sistemas práticos com microcontroladores."
+    },
+    {
+      "id": "FQM7102",
+      "code": "FQM7102",
+      "name": "Cálculo II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7101",
+        "ARA7101",
+        "FQM7103",
+        "ARA7103"
+      ],
+      "equivalents": [
+        "ARA7102"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7101"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7101"
+              },
+              {
+                "kind": "course",
+                "code": "FQM7103"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ARA7103"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7102"
+      },
+      "syllabus": "Métodos de Integração. Aplicações da integral definida. Funções de várias variáveis. Derivadas parciais. Aplicações das derivadas parciais. Integração múltipla."
+    },
+    {
+      "id": "FQM7104",
+      "code": "FQM7104",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7103",
+        "ARA7103",
+        "FQM7101",
+        "ARA7101"
+      ],
+      "equivalents": [
+        "ARA7104"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7103"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7103"
+              },
+              {
+                "kind": "course",
+                "code": "FQM7101"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ARA7101"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7104"
+      },
+      "syllabus": "Espaço vetorial. Transformações lineares. Mudança de base. Produto interno. Transformações ortogonais. Autovalores e autovetores de um operador. Diagonalização. Aplicação da Álgebra linear às ciências."
+    },
+    {
+      "id": "FQM7110",
+      "code": "FQM7110",
+      "name": "Física A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7101",
+        "FQM7101"
+      ],
+      "equivalents": [
+        "ARA7110"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7101"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7101"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7110"
+      },
+      "syllabus": "Sistemas de Unidades. Movimento retilíneo uniforme e uniformemente acelerado. Movimento em duas e três dimensões. Leis de Newton. Trabalho, energia cinética e energia potencial. Conservação da energia. Momento linear, impulso e colisões. Rotação, torque e momento angular."
+    },
+    {
+      "id": "DEC0009",
+      "code": "DEC0009",
+      "name": "Engenharia de Sofware",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7532"
+      ],
+      "equivalents": [
+        "ARA7124",
+        "ARA7138",
+        "DEC7124",
+        "DEC7138"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7532"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7124"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7138"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7124"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7138"
+          }
+        ]
+      },
+      "syllabus": "Conceitos e paradigmas da engenharia de software. Metodologias de desenvolvimento de software. Processo de desenvolvimento de software: levantamento de dados, técnicas e ferramentas de especificação de requisitos. Análise e projeto de software. Linguagem de especificação de software. Testes de software. Controle de qualidade. Gerenciamento do projeto de software."
+    },
+    {
+      "id": "DEC0013",
+      "code": "DEC0013",
+      "name": "Projeto Integrador I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1080
+      },
+      "prerequisiteHours": 1080,
+      "syllabus": "Serão atividades ligadas a conteúdos de outras disciplinas da matriz curricular, nas quais os estudantes vivenciam situações de aprendizagem diferenciadas e ações que contribuam para o desenvolvimento de práticas de temas que já foram apresentados em sala de aula. O tema do Projeto Integrador I será determinado pelos órgãos colegiados do curso (NDE e Colegiado do Curso) anualmente com previsão para os dois semestres subsequentes, de forma que se possam ser organizadas com antecedência o conjunto de atividades que serão necessárias para a avaliação dos projetos pelo professor supervisor da disciplina."
+    },
+    {
+      "id": "DEC7555",
+      "code": "DEC7555",
+      "name": "Linguagem de Descrição de Hardware",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7123"
+      ],
+      "equivalents": [
+        "ARA7555"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7123"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7555"
+      },
+      "syllabus": "Histórico e aspectos gerais da linguagem VHDL; Estruturas básicas da linguagem; Componentes e esquemas de iteração; Subprogramas; Funções; Bibliotecas, pacotes e configurações; Síntese de circuitos lógicos combinacionais; Síntese de circuitos lógicos sequenciais; Conceito de circuitos síncronos e assíncronos; Máquinas de Estado; Síntese de memórias, contadores e circuitos de serialização; Conceitos de Caminho de Dados e Caminho de Controle; Conversão de algoritmos em processadores de propósito único; Projeto de sistema embarcado baseado em FPGA."
+    },
+    {
+      "id": "FQM7105",
+      "code": "FQM7105",
+      "name": "Cálculo III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7102",
+        "FQM7102"
+      ],
+      "equivalents": [
+        "ARA7105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7102"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7102"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7105"
+      },
+      "syllabus": "Funções vetoriais. Derivadas direcionais e o vetor gradiente. Cálculo vetorial: Integrais de linha, teorema de Green, rotacional e divergente, integrais de superfície, teorema de Stokes e de Gauss. Sequências. Séries numéricas. Séries de potências. Séries de Taylor."
+    },
+    {
+      "id": "FQM7107",
+      "code": "FQM7107",
+      "name": "Probabilidade e Estatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7102",
+        "FQM7102"
+      ],
+      "equivalents": [
+        "ARA7107"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7102"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7102"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7107"
+      },
+      "syllabus": "O papel da estatística na Engenharia. Variáveis aleatórias discretas e contínuas. Probabilidade e Estatística: principais distribuições de probabilidade, histograma, medidas de tendência central e dispersão, inferências relativas à média e à variância, dependência estatística, regressão e correlação. Análise combinatória. Planejamento de uma pesquisa. Análise exploratória de dados. Principais modelos teóricos. Estimação de parâmetros: intervalo de confiança para a média, proporção e diferenças. Testes de hipóteses. Utilização de software estatístico."
+    },
+    {
+      "id": "FQM7111",
+      "code": "FQM7111",
+      "name": "Física B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7110",
+        "FQM7110"
+      ],
+      "equivalents": [
+        "ARA7111"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7110"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7110"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7111"
+      },
+      "syllabus": "Estática e dinâmica dos fluidos. Temperatura e calor. Primeira lei da termodinâmica. Propriedades dos gases. Segunda lei da termodinâmica. Teoria cinética dos gases. Gravitação. Oscilações. Ondas Mecânicas. Ondas sonoras."
+    },
+    {
+      "id": "DEC0008",
+      "code": "DEC0008",
+      "name": "Planejamento e Gestão de Projetos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0009"
+      ],
+      "equivalents": [
+        "ARA7210",
+        "ARA7566",
+        "CIT7210",
+        "DEC7566"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC0009"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7210"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7566"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7210"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7566"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos da Gestão de Projetos: Introdução e Histórico; Conceitos Básicos; Benefícios do Gerenciamento de Projetos. O Contexto da Gestão de Projetos: Fases e Ciclo de Vida de Projetos; Os Processos de Gestão de Projetos: Conceitos de Processos de Gerenciamento de Projetos; Processos e ciclo de vida de projetos. Início de um Projeto; Gestão do Escopo; Gestão de Prazos; Gestão de Custos; Gestão de Qualidade; Gestão de Recursos Humanos; Gestão de Comunicação; Gestão de Riscos. Avaliação dos resultados e impactos do projeto. Software de gerenciamento de projetos."
+    },
+    {
+      "id": "DEC7129",
+      "code": "DEC7129",
+      "name": "Banco de Dados I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0006"
+      ],
+      "equivalents": [
+        "ARA7129"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC0006"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7129"
+      },
+      "syllabus": "Introdução aos sistemas de gerência de bancos de dados. Projeto de banco de dados: conceitual, lógico e físico. Projeto conceitual de dados: entidades, relacionamentos, atributos, generalização e especialização. Projeto lógico para o modelo de dados relacional. Dependências funcionais e normalização. Linguagens de definição e de manipulação de dados. Restrições de integridade. Visões. Tópicos avançados de banco de dados. Desenvolvimento de aplicação de banco de dados."
+    },
+    {
+      "id": "DEC7523",
+      "code": "DEC7523",
+      "name": "Modelagem e Simulação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0012",
+        "FQM7107"
+      ],
+      "equivalents": [
+        "ARA7523"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEC0012"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7107"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7523"
+      },
+      "syllabus": "Introdução à simulação. Propriedades e classificação dos modelos de simulação. Geração de números aleatórios. Geração e teste. Simulação de sistemas discretos. Verificação e validação de modelos. Técnicas estatísticas para análise de dados e de resultados de modelos de simulação. Modelagem e Simulação de sistemas de computação. Avaliação de desempenho de sistemas."
+    },
+    {
+      "id": "DEC7557",
+      "code": "DEC7557",
+      "name": "Redes de Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7107"
+      ],
+      "equivalents": [
+        "ARA7557"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7107"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7557"
+      },
+      "syllabus": "Introdução e principais conceitos. Modelos de referência (OSI e TCP/IP). A camada de aplicação: principais protocolos e aplicações. Camada de transporte: o protocolo UDP, TCP e controle de congestionamento. Camada de rede: o protocolo IP e algoritmos de roteamento. Camada de enlace: principais protocolos e padrões IEEE. Introdução à administração de Redes de Computadores. Redes na Automação Industrial."
+    },
+    {
+      "id": "FQM7106",
+      "code": "FQM7106",
+      "name": "Cálculo IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7105",
+        "FQM7105"
+      ],
+      "equivalents": [
+        "ARA7106"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7105"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7105"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7106"
+      },
+      "syllabus": "Números complexos. Equações diferenciais de primeira ordem. Equações lineares de segunda ordem. Soluções em série para EDO´s de segunda ordem (funções de Bessel). Transformada de Laplace. Transformada de Fourier. Séries de Fourier. Equações diferenciais parciais."
+    },
+    {
+      "id": "FQM7112",
+      "code": "FQM7112",
+      "name": "Física C",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7102",
+        "FQM7102",
+        "ARA7110",
+        "FQM7110"
+      ],
+      "equivalents": [
+        "ARA7112"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7102"
+              },
+              {
+                "kind": "course",
+                "code": "FQM7102"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7110"
+              },
+              {
+                "kind": "course",
+                "code": "FQM7110"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7112"
+      },
+      "syllabus": "Carga elétrica. Lei de Coulomb. Campo elétrico. Lei de Gauss. Potencial. Capacitores. Corrente elétrica. Força eletromotriz e circuitos. Campo magnético. Lei de Ampére. Lei de Faraday. Indutância. Propriedades magnéticas da matéria."
+    },
+    {
+      "id": "DEC0007",
+      "code": "DEC0007",
+      "name": "Programação para WEB",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7129"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7129"
+      },
+      "syllabus": "Arquiteturas. Serviços. Protocolos de comunicação entre cliente e servidor e entre servidores. Representação de dados. Acesso a bases de dados. Escalabilidade. Linguagens e frameworks de modelagem da interface com o usuário. Linguagens e frameworks de programação no cliente e no servidor. Segurança. Instalação e configuração de servidores. Aplicações para dispositivos móveis. Prática de programação."
+    },
+    {
+      "id": "DEC0014",
+      "code": "DEC0014",
+      "name": "Inteligência Artificial e Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0012",
+        "FQM7107"
+      ],
+      "equivalents": [
+        "ARA7541",
+        "DEC7541"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEC0012"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7107"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7541"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7541"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos de Inteligência artificial. Representação do conhecimento. Métodos para resolução de problemas. Aprendizado de máquina: classificação e reconhecimento de padrões. Deep learning. Redes Neurais Artificiais Estáticas e Dinâmicas. Desenvolvimento de sistemas inteligentes."
+    },
+    {
+      "id": "DEC0020",
+      "code": "DEC0020",
+      "name": "Sistemas Digitais Embarcados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7511"
+      ],
+      "equivalents": [
+        "ARA7560",
+        "DEC7560"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7511"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7560"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7560"
+          }
+        ]
+      },
+      "syllabus": "Projeto de hardware com microcontroladores. Interface com dispositivos de armazenamento, RAM, Flash e IDE. Interface com periféricos mais comuns, displays de cristal líquido e teclado. Interface com sistemas analógicos. Redes de comunicação, CAN, LIN, RS485 e I2C. Redes wireless WIFI e Bluetooth. Desenvolvimento de software de tempo real baseado em diagramas de estado."
+    },
+    {
+      "id": "DEC7142",
+      "code": "DEC7142",
+      "name": "Cálculo Numérico em Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0012",
+        "FQM7104",
+        "FQM7106"
+      ],
+      "equivalents": [
+        "ARA7142"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEC0012"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7104"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7106"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7142"
+      },
+      "syllabus": "Sistemas de numeração e erros numéricos. Resolução de equações não lineares transcendentais e polinomiais. Resolução de Sistemas Lineares e não lineares. Aproximações de funções por séries. Ajuste de curvas a dados experimentais. Integração numérica. Resolução numérica de equações e sistemas de equações diferenciais ordinárias."
+    },
+    {
+      "id": "DEC7504",
+      "code": "DEC7504",
+      "name": "Análise de Sinais e Sistemas Lineares",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7106"
+      ],
+      "equivalents": [
+        "ARA7504"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7106"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7504"
+      },
+      "syllabus": "Sinais contínuos e discretos no tempo. Operações com sinais. Tipos e propriedades de sinais. Sistemas contínuos e discretos no tempo. Amostragem de sinais contínuos no tempo. Convolução contínua e discreta. Resposta de sistemas lineares. Aplicações de sistemas lineares. Transformada de Laplace. Transformada Z."
+    },
+    {
+      "id": "FQM7335",
+      "code": "FQM7335",
+      "name": "Laboratório de Física",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7111",
+        "FQM7111",
+        "ARA7112",
+        "FQM7112"
+      ],
+      "equivalents": [
+        "ARA7335",
+        "ARA7529",
+        "FQM7529"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7111"
+              },
+              {
+                "kind": "course",
+                "code": "FQM7111"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7112"
+              },
+              {
+                "kind": "course",
+                "code": "FQM7112"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7335"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7529"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7529"
+          }
+        ]
+      },
+      "syllabus": "Algarismos significativos; Teoria de erros; Propagação de erros; Instrumentos de medidas; Gráficos - construção e interpretação via software; Experimentos em Mecânica, Ondas, Termodinâmica, Eletricidade, Magnetismo e Óptica. Experimentos com vídeo análise."
+    },
+    {
+      "id": "DEC7545",
+      "code": "DEC7545",
+      "name": "Circuitos Elétricos para Computação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7504"
+      ],
+      "equivalents": [
+        "ARA7170",
+        "ARA7545"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7504"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7170"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7545"
+          }
+        ]
+      },
+      "syllabus": "Conceitos básicos, unidades, leis fundamentais; resistência; fontes ideais independentes e dependentes em redes resistivas; amplificador operacional ideal; técnicas de análise de circuitos em corrente contínua, indutância e capacitância; resposta de circuitos RL e RC de primeira ordem; respostas natural e a um degrau de circuitos RLC; circuitos de corrente alternada; introdução a eletrônica; diodos; transistor de efeito de campo; transistor de junção bipolar;"
+    },
+    {
+      "id": "DEC7556",
+      "code": "DEC7556",
+      "name": "Arquitetura de Sistemas Operacionais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0006",
+        "DEC7123"
+      ],
+      "equivalents": [
+        "ARA7131",
+        "ARA7556",
+        "DEC7131"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEC0006"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7123"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7131"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7556"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7131"
+          }
+        ]
+      },
+      "syllabus": "Introdução, histórico e arquitetura de sistemas operacionais. Gerenciamento de Processos; Gerenciamento de Memória; Gerenciamento de Dispositivos de Entrada e Saída; Sistemas de Arquivos; Proteção e Segurança em Sistemas Operacionais; Estudos de caso de Sistemas Operacionais."
+    },
+    {
+      "id": "DEC7563",
+      "code": "DEC7563",
+      "name": "Redes sem Fios",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7557"
+      ],
+      "equivalents": [
+        "ARA7563"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7557"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7563"
+      },
+      "syllabus": "Introdução a redes sem fio. Fundamentos de transmissão e propragação de sinal. Tipos de Antenas. Protocolos e Mecanismos de Controle: Acesso ao Meio, Topologia, Potência, Ruído e Taxa. Padronização de redes sem fio (Padrões IEEE WPAN, WLAN e WMAN). Roteamento e QoS em redes sem fio: ad hoc e infraestruturadas, Mobilidade IP, TCP móvel. Estudos de casos: redes locais, redes celulares, redes de sensores e redes veiculares."
+    },
+    {
+      "id": "EES7527",
+      "code": "EES7527",
+      "name": "Fenômenos de Transporte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7106",
+        "FQM7111"
+      ],
+      "equivalents": [
+        "ARA7527"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7106"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7111"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7527"
+      },
+      "syllabus": "Mecânica dos Fluidos: Conceitos básicos em mecânica dos fluidos. Estática dos fluidos. Pressão. Manometria. Forças em corpos submersos. Empuxo hidrostático. Dinâmica dos fluidos. Formulação integral. Teorema do Transporte de Reynolds. Formulação diferencial. Equação de Bernoulli. Termodinâmica e Transferência de Calor: Temperatura. Escalas de temperatura. Trabalho e calor. 1ª lei da termodinâmica. Introdução aos mecanismos de transmissão de calor. Condução de calor unidimensional permanente. A parede plana. Equivalência elétrica para a transferência de calor."
+    },
+    {
+      "id": "FQM7436",
+      "code": "FQM7436",
+      "name": "Estática e Dinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7102",
+        "FQM7110"
+      ],
+      "equivalents": [
+        "ARA7381",
+        "ARA7537",
+        "FQM7336",
+        "FQM7537"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7102"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7110"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7381"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7537"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7336"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7537"
+          }
+        ]
+      },
+      "syllabus": "Vetores de força. Equilíbrio de Partículas. Resultante de sistemas de forçasaplicadas a Corpos Rígidos. Equilíbrio de Corpos Rígidos. Atrito seco. Análise estrutural. Forças internas. Cinemática Plana de Corpos Rígidos. Dinâmica Plana de Corpos Rígidos."
+    },
+    {
+      "id": "DEC0002",
+      "code": "DEC0002",
+      "name": "Linguagens Formais e Autômatos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0006"
+      ],
+      "equivalents": [
+        "ARA7503",
+        "ARA7536",
+        "DEC7536"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC0006"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7503"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7536"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7536"
+          }
+        ]
+      },
+      "syllabus": "Conceitos Centrais: Símbolos, Alfabeto, Strings e Linguagem. Linguagens Regulares. Expressões Regulares. Automatos Finitos. Propriedades das Linguagens Regulares. Linguagens Livres de Contexto. Automato de Pilha. Máquinas de Turing. Decidibilidade."
+    },
+    {
+      "id": "DEC0010",
+      "code": "DEC0010",
+      "name": "Projeto Integrador II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2520
+      },
+      "prerequisiteHours": 2520,
+      "syllabus": "Serão atividades ligadas a conteúdos de outras disciplinas da matriz curricular, nas quais os estudantes vivenciam situações de aprendizagem diferenciadas e ações que contribuam para o desenvolvimento de práticas de temas que já foram apresentados em sala de aula. O tema do Projeto Integrador II será determinado pelos órgãos colegiados do curso (NDE e Colegiado do Curso) anualmente com previsão para os dois semestres subsequentes, de forma que se possam ser organizadas com antecedência o conjunto de atividades que serão necessárias para a avaliação dos projetos pelo professor supervisor da disciplina."
+    },
+    {
+      "id": "DEC0019",
+      "code": "DEC0019",
+      "name": "Controle Aplicado à Computação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7504"
+      ],
+      "equivalents": [
+        "ARA7374",
+        "EES7374"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7504"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7374"
+          },
+          {
+            "kind": "course",
+            "code": "EES7374"
+          }
+        ]
+      },
+      "syllabus": "Implementação de sistemas de controle automático realimentados (sensores, atuadores, condicionadores de sinais e controladores); Modelagem de plantas de primeira e segunda ordem; Projeto e implementação de controladores via lugar de raízes e resposta em frequência; Projeto de controladores PID; Técnicas de controle digital em sistemas embarcados de tempo real. Projeto e implementação de controladores digitais para motores elétricos, pêndulo invertido, sistema de suspensão magnética e sistemas térmicos."
+    },
+    {
+      "id": "DEC7547",
+      "code": "DEC7547",
+      "name": "Laboratórios de Circuitos Elétricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7545"
+      ],
+      "equivalents": [
+        "ARA7547"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7545"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7547"
+      },
+      "syllabus": "Desenvolvimento de atividades práticas que permitam explorar os fundamentos, conceitos e técnicas relativas em circuitos elétricos e eletrônicos."
+    },
+    {
+      "id": "DEC7558",
+      "code": "DEC7558",
+      "name": "Sistemas Distribuídos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7556",
+        "DEC7563"
+      ],
+      "equivalents": [
+        "ARA7132",
+        "ARA7558",
+        "DEC7132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEC7556"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7563"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7132"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7558"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7132"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos de Sistemas Distribuídos: Arquitetura de Sistemas Distribuídos, Comunicação entre Processos, Comunicação em Grupo, Objetos Distribuídos. Sistemas Par-a-Par, Sincronização: relógios físicos, relógios lógicos e estados globais. Coordenação, Exclusão Mútua Distribuída. Transação Distribuída, Detecção e Prevensão de Deadlock Distribuído, Tolerância à Falta."
+    },
+    {
+      "id": "DEC7562",
+      "code": "DEC7562",
+      "name": "Sistemas Operacionais Embarcados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7556"
+      ],
+      "equivalents": [
+        "ARA7562"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7556"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7562"
+      },
+      "syllabus": "Conceitos de sistemas embarcados e sistemas operacionais embarcados. Projeto de sistemas operacionais embarcados. Sistemas operacionais embarcados de tempo real. Implementação de sistemas operacionais embarcados."
+    },
+    {
+      "id": "DEC0004",
+      "code": "DEC0004",
+      "name": "Compiladores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0002"
+      ],
+      "equivalents": [
+        "ARA7510",
+        "DEC7510"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC0002"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7510"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7510"
+          }
+        ]
+      },
+      "syllabus": "O processo de compilação. Linguagens e suas representações. Gramáticas: definição formal, classificação (Hierarquia de Chomsky), propriedades, problemas de decisão e aplicações. Gramáticas regulares, autômatos finitos, conjuntos regulares e expressões regulares. Gramáticas livres de contexto. Autômatos de pilha. Teoria de Parsing. Análise léxica e sintática."
+    },
+    {
+      "id": "DEC0015",
+      "code": "DEC0015",
+      "name": "Tópicos Avançados em Inteligência",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0014"
+      ],
+      "equivalents": [
+        "ARA7542"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC0014"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7542"
+      },
+      "syllabus": "Aprofundar tópicos e técnicas de resolução de problemas em Inteligência Artificial (IA), ou qualquer outro tema que represente o estado da arte em IA."
+    },
+    {
+      "id": "DEC0017",
+      "code": "DEC0017",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0010"
+      ],
+      "equivalents": [
+        "DEC7571"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC0010"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEC7571"
+      },
+      "syllabus": "Artificial DEC7542) Divulgar as Normas pararealizaçãodoTCC;AcompanharocumprimentodasNormaspara realizaçãodoTCC;Acompanharalunoseprofessoresorientadoresemtodasasfasesde desenvolvimentodoprojetodeTCC;Desenvolveracapacidadedetrabalhodoalunoea aplicaçãodosconhecimentosadquiridosnodecorrerdocurso;Incentivaracriatividadeeo"
+    },
+    {
+      "id": "DEC0021",
+      "code": "DEC0021",
+      "name": "Projeto de Sistemas Ubíquos e Embarcados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7547",
+        "DEC7558",
+        "DEC0020",
+        "DEC7560"
+      ],
+      "equivalents": [
+        "ARA7513",
+        "ARA7564",
+        "DEC0011",
+        "DEC7513",
+        "DEC7564"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEC7547"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7558"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DEC0020"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7560"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7513"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7564"
+          },
+          {
+            "kind": "course",
+            "code": "DEC0011"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7513"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7564"
+          }
+        ]
+      },
+      "syllabus": "Desenvolvimento de projetos aplicando os conceitos de Sistemas Ubíquos e Pervasivos: computação móvel e embarcada, computação sensível ao contexto e descoberta de serviços. Testes e validações de Middleware para sistemas ubíquos e uso de tecnologias de redes sem fio para transmissão de dados."
+    },
+    {
+      "id": "DEC7551",
+      "code": "DEC7551",
+      "name": "Tópicos Especiais I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A ementa da disciplina é proposta semestralmente por um docente ao NDE e colegiado que aprovam a oferta da disciplina com a ementa proposta."
+    },
+    {
+      "id": "DEC0016",
+      "code": "DEC0016",
+      "name": "Estágio Curricular",
+      "credits": 12,
+      "hours": 216,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEC7573"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2160
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEC7573"
+      },
+      "prerequisiteHours": 2160,
+      "syllabus": "Estágio realizado em áreas afins do Curso de Graduação em Engenharia de Computação e de acordo com o Regulamento de Estágios do curso e demais legislações específicas.Constitui disciplina cuja carga horária será requisito para aprovação e obtenção do diploma."
+    },
+    {
+      "id": "DEC0018",
+      "code": "DEC0018",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC0017"
+      ],
+      "equivalents": [
+        "DEC7572"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC0017"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEC7572"
+      },
+      "syllabus": "Iniciarcientificamenteoalunoematividadesdepesquisa;Elaborartrabalhoscientíficoscomo atividadeobrigatóriadeconclusãodecurso,utilizando- sedametodologiacientífica,deacordo comasnormasdaABNT(AssociaçãoBrasileiradeNormasTécnicas);Utilizarrecursos necessáriosparaelaboraçãodetrabalhoscientíficos:biblioteca,audiovisuais;Promovero conhecimentodasváriastécnicasdeapresentaçãooraldetrabalhoscientíficos;Possibilitarao alunoconhecimentodastécnicaseinstrumentosparaapublicaçãodeartigoscientíficos."
+    },
+    {
+      "id": "DEC7003",
+      "code": "DEC7003",
+      "name": "Atividades Complementares: Engenharia",
+      "credits": 8,
+      "hours": 144,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7003"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7003"
+      },
+      "syllabus": "Atividades Complementares são parte integrante do currículo e têm a finalidade de enriquecer o processo de ensino-aprendizagem, privilegiando a complementação da formação social e profissional."
+    },
+    {
+      "id": "DEC7010",
+      "code": "DEC7010",
+      "name": "Atividades Acadêmicas de Extensão",
+      "credits": 24,
+      "hours": 432,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Computação Atividades Acadêmicas de Extensão são parte integrante do currículo e têm a finalidade de enriquecer o processo de ensino-aprendizagem, privilegiando as atividades de extensão de formação social e profissional."
+    },
+    {
+      "id": "CIT7146",
+      "code": "CIT7146",
+      "name": "Introdução à Economia na Engenharia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A decisão de Investir. Fundamentos de matemática financeira. Juros; Taxa de Juros; Fluxo de Caixa; Série Uniforme; Valor Futuro; Valor Presente. Indicadores financeiros para análise de projetos de investimentos: Taxa de Mínima Atratividade; Método do Valor Presente Líquido; Índice Benefício/Custo; Retorno Adicional sobre o Investimento; Taxa Interna de Retorno e Período de recuperação do investimento. Introdução à análise do risco econômico- financeiro em projetos."
+    },
+    {
+      "id": "CIT7212",
+      "code": "CIT7212",
+      "name": "Empreendedorismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7212"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7212"
+      },
+      "syllabus": "Empreendedorismo: fundamentos e conceitos. Perfil do empreendedor. Processo empreendedor. Ambientes da inovação: pré-incubadoras, incubadoras e parques tecnológicos. Geração de ideias e análise de oportunidades. Fundamentos e componentes do Plano de Negócios. Mecanismos e procedimentos para criação de empresas. Planejamento de um empreendimento a partir do Modelo Canvas."
+    },
+    {
+      "id": "CIT7224",
+      "code": "CIT7224",
+      "name": "Gestão do Conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7224"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7224"
+      },
+      "syllabus": "Evolução histórica da Gestão do Conhecimento. Modelos de Gestão do Conhecimento. Organizações Intensivas em Conhecimento. Princípios e Processos da Gestão do Conhecimento. Cultura organizacional para a gestão do conhecimento. Estratégias de Gestão do Conhecimento. Auditoria de conhecimento. Memória organizacional. Métodos, Técnicas e tecnologias de apoio a gestão do conhecimento nas organizações."
+    },
+    {
+      "id": "CIT7226",
+      "code": "CIT7226",
+      "name": "Plano de Negócios",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7226"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7226"
+      },
+      "syllabus": "Conceito de Plano de Negócios. Benefícios. Aplicações. Estrutura. Sumário executivo. Descrição da empresa e características do empreendimento. Funções fundamentais do negócio. Planejamento estratégico. Análise do mercado e fatores de competitividade. Produtos e serviços. Estratégicas competitivas. Marketing. Gestão e estrutura organizacional. Plano operacional. Plano financeiro de custeio e de investimentos. Fontes de financiamento."
+    },
+    {
+      "id": "CIT7236",
+      "code": "CIT7236",
+      "name": "Gestão de Tecnologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Planejamento estratégico do desenvolvimento tecnológico. Gestão das Tecnologias e do Capital Intelectual nas Organizações. Análises e oportunidades no Desenvolvimento Tecnológico. Organização para a tecnologia. Empreendedorismo x Gestão de Negócios. Projetos de desenvolvimento de produtos e processos de base tecnológica. Ferramentas de Gestão da Tecnologia. Engenharia simultânea. Processos, cenários e atores na Transferência de Tecnologia."
+    },
+    {
+      "id": "CIT7581",
+      "code": "CIT7581",
+      "name": "Gestão Estratégica Orientada ao Mercado",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos e Critérios da Excelência da Gestão pela Qualidade. O Processo de gestão estratégica. Planejamento estratégico orientado ao Mercado. Controle estratégico. Estrutura organizacional e Gestão de processos. Estilo de gestão. Modelos de gestão e de organização de negócios digitais."
+    },
+    {
+      "id": "CIT7582",
+      "code": "CIT7582",
+      "name": "Gestão de Marketing",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos e abordagens evolutivas do Marketing. O ambiente de Marketing. O mercado e sua visão de segmentação e posicionamento. Marketing voltado para o valor. Comportamento do consumidor, influência na compra e o processo de decisão de compra. Mix de marketing: produto, preço, praça e promoção. Marketing aplicado aos negócios digitais."
+    },
+    {
+      "id": "CIT7586",
+      "code": "CIT7586",
+      "name": "Gestão de Projetos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos de projetos. Fases e gerenciamento de projetos. Aplicação de metodologias. Escopo, objetivos, justificativas, produtos e entregas do projeto. Qualidade, estudo de viabilidade, riscos e custos de projetos. Produção de propostas. Estratégias e ferramentas de apoio a decisão."
+    },
+    {
+      "id": "CIT7587",
+      "code": "CIT7587",
+      "name": "Visualização de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a visualização de dados. Fundamentos em visualização da informação. Processo de Visualização. Representações visuais de dados multivariados. Representações visuais de hierarquias e árvores. Representações visuais de grafos e redes. Representações visuais de textos e documentos. Prática didática com desenvolvimento de sistemas e ferramentas de visualização."
+    },
+    {
+      "id": "CIT7590",
+      "code": "CIT7590",
+      "name": "Ciências, Tecnologia e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo das relações entre ciência, tecnologia e sociedade ao longo da história, com ênfase na atualidade; filosofia da ciência; análise de valores e ideologias envolvendo a produção e divulgação da ciência e da tecnologia; influências das diferenças culturais, ou diferenças etnológicas, nas concepções de ciência e tecnologia e de suas relações com as sociedades; a participação da sociedade na definição de políticas relativas às questões científicas, tecnológicas, econômicas e ecológicas. O impacto da informática na sociedade. Clima e Projetos de Mecanismos de Desenvolvimento Limpo."
+    },
+    {
+      "id": "CIT7594",
+      "code": "CIT7594",
+      "name": "Relações Interétnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Multiculturalismo. Temas de História e cultura Afro-Brasileira e indígena. Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política. Tecnologia e Multiculturalismo. Tecnologia e Relações Interétnicas. Redes Sociais e Multiculturalismo."
+    },
+    {
+      "id": "DEC7001",
+      "code": "DEC7001",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7001"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7001"
+      },
+      "syllabus": "Disciplina optativa; com base na Resolução nº 007/CuN/99"
+    },
+    {
+      "id": "DEC7002",
+      "code": "DEC7002",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7002"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7002"
+      },
+      "syllabus": "-Disciplina optativa; com base na Resolução nº 007/CuN/99"
+    },
+    {
+      "id": "DEC7007",
+      "code": "DEC7007",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7007"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7007"
+      },
+      "syllabus": "Disciplina optativa; com base na Resolução nº 007/CuN/99"
+    },
+    {
+      "id": "DEC7040",
+      "code": "DEC7040",
+      "name": "Programa de Intercâmbio IV",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7040"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7040"
+      },
+      "syllabus": "Disciplina optativa; com base na Resolução nº 007/CuN/99"
+    },
+    {
+      "id": "DEC7134",
+      "code": "DEC7134",
+      "name": "Banco de Dados II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7134"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7134"
+      },
+      "syllabus": "SQL embutida: instruções estáticas e dinâmicas, cursores. Processamento de consultas: otimização algébrica; plano de execução. Transações: definição, propriedades, estados. Recuperação de falhas: categorias de falhas, gerência de buffer, técnicas de recuperação. Controle de concorrência. Noções básicas de bancos de dados distribuídos. Tópicos avançados em Banco de Dados."
+    },
+    {
+      "id": "DEC7524",
+      "code": "DEC7524",
+      "name": "Pesquisa Operacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7524"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7524"
+      },
+      "syllabus": "Introdução à pesquisa operacional. Modelagem com programação linear. Método Simplex e Análise de Sensibilidade. Dualidade e análise pós-otimização. Problema de transporte e suas variantes. Otimização em redes. Programação linear avançada. Programação de metas. Programação linear inteira."
+    },
+    {
+      "id": "EES7180",
+      "code": "EES7180",
+      "name": "Desenho Técnico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7180"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7180"
+      },
+      "syllabus": "Normas para o desenho. Vistas ortogonais e auxiliares. Perspectivas. Cotagem. Escalas. Desenho e projeto com auxílio de computador (CAD)."
+    },
+    {
+      "id": "EES7361",
+      "code": "EES7361",
+      "name": "Fundamentos de Ecologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ecologia de Ecossistemas. Níveis estruturais na biosfera. Fundamentos de evolução. Matéria, energia e interações sinérgicas. Fluxo de energia. Estados de equilíbrio e não equilíbrio em sistemas ambientais. Teorias em Ecologia de Ecossistemas com base em atributos de diversidade, princípios de conectância e momentos de estabilidade. Organização de unidades ecológicas."
+    },
+    {
+      "id": "FQM7331",
+      "code": "FQM7331",
+      "name": "Fundamentos de Materiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7331"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7331"
+      },
+      "syllabus": "Introdução a ciência e a engenharia de materiais. Classificação dos materiais. Ligações químicas e seu efeito nas propriedades dos materiais. Estruturas cristalinas, semicristalinas e amorfas. Defeitos em sólidos. Caracterização estrutural de materiais. Diagramas de fase. Propriedades mecânicas dos metais, cerâmicos e polímeros. Falhas em materiais. Análise microestrutural de materiais. Estrutura, propriedades e processamento de materiais metálicos, cerâmicos, poliméricos e compósitos. Propriedades térmicas, elétricas e magnéticas dos materiais."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "DEC0012",
+      "DEC7070",
+      "DEC7546",
+      "FQM7001",
+      "FQM7103",
+      "CIT7122",
+      "DEC7123",
+      "DEC7532",
+      "DEC7549",
+      "FQM7002",
+      "FQM7101",
+      "DEC0006",
+      "DEC7511",
+      "FQM7102",
+      "FQM7104",
+      "FQM7110",
+      "DEC0009",
+      "DEC0013",
+      "DEC7555",
+      "FQM7105",
+      "FQM7107",
+      "FQM7111",
+      "DEC0008",
+      "DEC7129",
+      "DEC7523",
+      "DEC7557",
+      "FQM7106",
+      "FQM7112",
+      "DEC0007",
+      "DEC0014",
+      "DEC0020",
+      "DEC7142",
+      "DEC7504",
+      "FQM7335",
+      "DEC7545",
+      "DEC7556",
+      "DEC7563",
+      "EES7527",
+      "FQM7436",
+      "DEC0002",
+      "DEC0010",
+      "DEC0019",
+      "DEC7547",
+      "DEC7558",
+      "DEC7562",
+      "DEC0004",
+      "DEC0015",
+      "DEC0017",
+      "DEC0021",
+      "DEC7551",
+      "DEC0016",
+      "DEC0018",
+      "DEC7003",
+      "DEC7010"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 72,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CIT7146",
+              "CIT7212",
+              "CIT7224",
+              "CIT7226",
+              "CIT7236",
+              "CIT7581",
+              "CIT7582",
+              "CIT7586",
+              "CIT7587",
+              "CIT7590",
+              "CIT7594",
+              "DEC7001",
+              "DEC7002",
+              "DEC7007",
+              "DEC7040",
+              "DEC7134",
+              "DEC7524",
+              "EES7180",
+              "EES7361",
+              "FQM7331",
+              "LSB7244"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 72
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "655",
+    "curriculumCode": "20201",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=655&curriculo=20201",
+    "sha256": "25f10d03f0f2e110e56cbb2dd1c1a556726700d0a19dde79b5d96670593801c1",
+    "capturedAt": "2026-09-22"
+  }
+}

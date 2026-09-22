@@ -1,0 +1,3670 @@
+{
+  "program": "MEDICINA VETERINÁRIA [Campus Curitibanos]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2023.1",
+  "totalHours": 5490,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ABF7103",
+      "code": "ABF7103",
+      "name": "Ecologia Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CBV7103",
+        "CRC7101"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CBV7103"
+          },
+          {
+            "kind": "course",
+            "code": "CRC7101"
+          }
+        ]
+      },
+      "syllabus": "Conceitos fundamentais em Ecologia. Níveis hierárquicos de organização. Biomas. Conceito de ecossistema, principais componentes e dinâmica. Fatores Bióticos e Abióticos. Ciclos biogeoquímicos. Ecologia trófica, cadeias e teias alimentares. Fluxo de energia e Ciclagem de materiais. Fatores ecológicos. Dinâmica de populações. Estrutura de comunidades. Sucessão ecológica. Diversidade das comunidades biológicas. Evolução e dinâmica. Biodiversidade e Usos de Recursos Naturais."
+    },
+    {
+      "id": "ABF7104",
+      "code": "ABF7104",
+      "name": "Bioquímica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CBV7104",
+        "CRC7213"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CBV7104"
+          },
+          {
+            "kind": "course",
+            "code": "CRC7213"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Bioquímica; Química e importância biológica de aminoácidos, proteínas, carboidratos, lipídeos, enzimas, coenzimas, vitaminas, nucleotídeos e ácidos nucléicos; Bioenergética; Metabolismo de carboidratos, lipídeos e aminoácidos; Integração e regulação do metabolismo."
+    },
+    {
+      "id": "ABF7604",
+      "code": "ABF7604",
+      "name": "Histologia Veterinária I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CBV7604",
+        "MVC7103"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7604
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CBV7604"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7103"
+          }
+        ]
+      },
+      "prerequisiteHours": 7604,
+      "syllabus": "A célula animal e suas características. Estudos dos tipos de tecidos dos animais domésticos: tecido epitelial (de revestimento e glandular), conjuntivo (propriamente dito, adiposo, hematopoiético, sangue, cartilaginoso e ósseo), muscular e nervoso."
+    },
+    {
+      "id": "ABF7860",
+      "code": "ABF7860",
+      "name": "Anatomia Animal I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ABF7601",
+        "CBV7601",
+        "MVC7102"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7601"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7601"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7102"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ABF7861",
+      "code": "ABF7861",
+      "name": "Etologia e Bem-estar Animal",
+      "credits": 1,
+      "hours": 18,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ABF7802"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ABF7802"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7200",
+      "code": "BSU7200",
+      "name": "Genética Veterinária",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BSU7112",
+        "CBV7112",
+        "CRC7311",
+        "MVC7311"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7112"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7112"
+          },
+          {
+            "kind": "course",
+            "code": "CRC7311"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7311"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7201",
+      "code": "BSU7201",
+      "name": "Introdução à Medicina Veterinária",
+      "credits": 1,
+      "hours": 18,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BSU7404",
+        "CBV7404",
+        "MVC7101"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7404"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7404"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7101"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7202",
+      "code": "BSU7202",
+      "name": "Conceitos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CBA7834",
+      "code": "CBA7834",
+      "name": "Biologia Celular",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "AGC7101",
+        "CBA7101",
+        "CRC7209"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AGC7101"
+          },
+          {
+            "kind": "course",
+            "code": "CBA7101"
+          },
+          {
+            "kind": "course",
+            "code": "CRC7209"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CNS7320",
+      "code": "CNS7320",
+      "name": "Ciência, Ética e Metodologia da Pesquisa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CBV7405",
+        "CNS7115",
+        "CRC7105",
+        "MVC7100"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CBV7405"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7115"
+          },
+          {
+            "kind": "course",
+            "code": "CRC7105"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7100"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ABF7605",
+      "code": "ABF7605",
+      "name": "Histologia Veterinária II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7604",
+        "CBV7604"
+      ],
+      "equivalents": [
+        "CBV7605",
+        "MVC7201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7604"
+              },
+              {
+                "kind": "course",
+                "code": "CBV7604"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 7605
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CBV7605"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7201"
+          }
+        ]
+      },
+      "prerequisiteHours": 7605,
+      "syllabus": "Estrutura microscópica e as correlações funcionais dos órgãos que compõem os sistemas dos animais domésticos, tais como: sistemas tegumentar, nervoso, circulatório, linfático, respiratório, urinário, digestório, genital masculino, genital feminino, endócrino e sensorial."
+    },
+    {
+      "id": "ABF7862",
+      "code": "ABF7862",
+      "name": "Fisiologia Veterinária I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "AGC7101",
+        "CBA7101",
+        "CBA7834",
+        "ABF7104",
+        "CBV7104",
+        "ABF7601",
+        "ABF7860",
+        "CBV7601",
+        "ABF7604"
+      ],
+      "equivalents": [
+        "ABF7112",
+        "CBV7110",
+        "MVC7301"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "AGC7101"
+              },
+              {
+                "kind": "course",
+                "code": "CBA7101"
+              },
+              {
+                "kind": "course",
+                "code": "CBA7834"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7104"
+              },
+              {
+                "kind": "course",
+                "code": "CBV7104"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7601"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7860"
+              },
+              {
+                "kind": "course",
+                "code": "CBV7601"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ABF7604"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7112"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7110"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7301"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ABF7863",
+      "code": "ABF7863",
+      "name": "Parasitologia Veterinária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ABF7508",
+        "CBV7508",
+        "MVC7402"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7508"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7508"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7402"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ABF7864",
+      "code": "ABF7864",
+      "name": "Anatomia Animal II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7601",
+        "ABF7860",
+        "CBV7601"
+      ],
+      "equivalents": [
+        "ABF7602",
+        "CBV7602",
+        "MVC7200"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7601"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7860"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7601"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7602"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7602"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7200"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7203",
+      "code": "BSU7203",
+      "name": "Fundamentos do Melhoramento Animal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7112",
+        "BSU7200",
+        "CBV7112"
+      ],
+      "equivalents": [
+        "BSU7804",
+        "CBV7804",
+        "CBV7817",
+        "MVC7304"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7112"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7200"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7112"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7804"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7804"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7817"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7304"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7204",
+      "code": "BSU7204",
+      "name": "Farmacologia Veterinária I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BSU7141",
+        "CBV7710",
+        "MVC7403"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7141"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7710"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7403"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7205",
+      "code": "BSU7205",
+      "name": "Saúde Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNS7321",
+      "code": "CNS7321",
+      "name": "Microbiologia Geral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "AGC7101",
+        "CBA7101",
+        "CBA7834",
+        "ABF7104",
+        "CBV7104"
+      ],
+      "equivalents": [
+        "AGC7206",
+        "CNS7206",
+        "CRC7401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "AGC7101"
+              },
+              {
+                "kind": "course",
+                "code": "CBA7101"
+              },
+              {
+                "kind": "course",
+                "code": "CBA7834"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7104"
+              },
+              {
+                "kind": "course",
+                "code": "CBV7104"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AGC7206"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7206"
+          },
+          {
+            "kind": "course",
+            "code": "CRC7401"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CNS7322",
+      "code": "CNS7322",
+      "name": "Antropologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CRC7205"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CRC7205"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ABF7865",
+      "code": "ABF7865",
+      "name": "Fisiologia Veterinária II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "AGC7101",
+        "CBA7101",
+        "CBA7834",
+        "ABF7104",
+        "CBV7104",
+        "ABF7601",
+        "ABF7860",
+        "CBV7601",
+        "ABF7604"
+      ],
+      "equivalents": [
+        "ABF7111",
+        "CBV7111",
+        "MVC7401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "AGC7101"
+              },
+              {
+                "kind": "course",
+                "code": "CBA7101"
+              },
+              {
+                "kind": "course",
+                "code": "CBA7834"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7104"
+              },
+              {
+                "kind": "course",
+                "code": "CBV7104"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7601"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7860"
+              },
+              {
+                "kind": "course",
+                "code": "CBV7601"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ABF7604"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7111"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7111"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7401"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ABF7866",
+      "code": "ABF7866",
+      "name": "Anatomia Animal Aplicada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7112",
+        "ABF7862",
+        "ABF7602",
+        "ABF7864"
+      ],
+      "equivalents": [
+        "ABF7603",
+        "CBV7603",
+        "MVC7302"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7112"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7862"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7602"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7864"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7603"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7603"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7302"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7206",
+      "code": "BSU7206",
+      "name": "Imunologia Veterinária",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "AGC7101",
+        "CBA7101",
+        "CBA7834",
+        "ABF7104",
+        "CBV7104",
+        "ABF7602",
+        "ABF7864",
+        "CBV7602",
+        "ABF7605",
+        "CBV7605"
+      ],
+      "equivalents": [
+        "BSU7113",
+        "CBV7113",
+        "MVC7405"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "AGC7101"
+              },
+              {
+                "kind": "course",
+                "code": "CBA7101"
+              },
+              {
+                "kind": "course",
+                "code": "CBA7834"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7104"
+              },
+              {
+                "kind": "course",
+                "code": "CBV7104"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7602"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7864"
+              },
+              {
+                "kind": "course",
+                "code": "CBV7602"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7605"
+              },
+              {
+                "kind": "course",
+                "code": "CBV7605"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7113"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7113"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7405"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7207",
+      "code": "BSU7207",
+      "name": "Farmacologia Veterinária II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7112",
+        "ABF7862",
+        "BSU7204"
+      ],
+      "equivalents": [
+        "BSU7151",
+        "CBV7710",
+        "MVC7403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7112"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7862"
+              },
+              {
+                "kind": "course",
+                "code": "BSU7204"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7151"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7710"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7403"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7208",
+      "code": "BSU7208",
+      "name": "Microbiologia Clínica",
+      "credits": 5,
+      "hours": 90,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "AGC7206",
+        "CNS7206",
+        "CNS7321"
+      ],
+      "equivalents": [
+        "BSU7507",
+        "CBV7507",
+        "MVC7400"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AGC7206"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7206"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7321"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7507"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7507"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7400"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7506",
+      "code": "BSU7506",
+      "name": "Epidemiologia Veterinária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Epidemiologia; Cadeia do Processo Infeccioso; Ferramentas de estudo epidemiológico; Vigilância Epidemiológica, Controle de enfermidades; Introdução a Saúde Pública; Vigilância sanitária; Saneamento básico."
+    },
+    {
+      "id": "CNS7314",
+      "code": "CNS7314",
+      "name": "Estatística Básica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNS7215",
+        "CRC7304"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNS7215"
+          },
+          {
+            "kind": "course",
+            "code": "CRC7304"
+          }
+        ]
+      },
+      "syllabus": "Análise estatística na área de ciências agrárias. Estatística descritiva: Organização, resumo e apresentação de dados estatísticos. Técnicas de amostragem. Noções de probabilidade. Inferência estatística. Tabelas de contigência. A informática na Estatística."
+    },
+    {
+      "id": "CNS7323",
+      "code": "CNS7323",
+      "name": "Sociologia Rural e Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ABF7607",
+      "code": "ABF7607",
+      "name": "Patologia Veterinária Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7111",
+        "ABF7865",
+        "BSU7113",
+        "BSU7206",
+        "ABF7866"
+      ],
+      "equivalents": [
+        "CBV7607",
+        "MVC7404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7111"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7865"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BSU7113"
+              },
+              {
+                "kind": "course",
+                "code": "BSU7206"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ABF7866"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CBV7607"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7404"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Mecanismos básicos de doenças nos animais domésticos: degeneração, necrose e gangrena, distúrbios dos pigmentos, distúrbios do metabolismo, distúrbios circulatórios, inflamação, distúrbios do crescimento e neoplasia. Alterações pós-mortais. Colheita, conservação e processamento de tecidos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ABF7867",
+      "code": "ABF7867",
+      "name": "Laboratório Clínico Veterinário",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7112",
+        "ABF7862"
+      ],
+      "equivalents": [
+        "ABF7713",
+        "CBV7712",
+        "MVC7501"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7112"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7862"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7713"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7712"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7501"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7115",
+      "code": "BSU7115",
+      "name": "Nutrição Animal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7112",
+        "ABF7862",
+        "ABF7104"
+      ],
+      "equivalents": [
+        "BSU7805",
+        "CBV7805",
+        "MVC7505",
+        "MVC7604"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7112"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7862"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ABF7104"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7805"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7805"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7505"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7604"
+          }
+        ]
+      },
+      "syllabus": "Importância da Nutrição Animal. Princípios fisiológicos ligados aos processos de digestão e absorção. Metabolismo dos nutrientes na nutrição de animais ruminantes e não ruminantes."
+    },
+    {
+      "id": "BSU7209",
+      "code": "BSU7209",
+      "name": "Semiologia Veterinária",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7111",
+        "ABF7865",
+        "ABF7603",
+        "ABF7866"
+      ],
+      "equivalents": [
+        "BSU7714",
+        "CBV7714",
+        "MVC7502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7111"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7865"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7603"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7866"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7714"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7714"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7502"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7210",
+      "code": "BSU7210",
+      "name": "Anestesiologia Veterinária",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7112",
+        "ABF7862",
+        "BSU7141",
+        "BSU7204",
+        "BSU7207"
+      ],
+      "equivalents": [
+        "BSU7702",
+        "CBV7702",
+        "MVC7700"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7112"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7862"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "BSU7141"
+              },
+              {
+                "kind": "course",
+                "code": "BSU7204"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "BSU7207"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7702"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7702"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7700"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7211",
+      "code": "BSU7211",
+      "name": "Diagnóstico por Imagem em Medicina",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7603"
+      ],
+      "equivalents": [
+        "BSU7709"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ABF7603"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BSU7709"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7212",
+      "code": "BSU7212",
+      "name": "Técnica Cirúrgica Veterinária",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7603",
+        "ABF7866"
+      ],
+      "equivalents": [
+        "BSU7715",
+        "CBV7715",
+        "MVC7703"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7603"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7866"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7715"
+          },
+          {
+            "kind": "course",
+            "code": "CBV7715"
+          },
+          {
+            "kind": "course",
+            "code": "MVC7703"
+          }
+        ]
+      },
+      "syllabus": "Veterinária CBV7709 ou ABF7866)"
+    },
+    {
+      "id": "BSU7509",
+      "code": "BSU7509",
+      "name": "Saúde Pública",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7506"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7506"
+      },
+      "syllabus": "Reflexão sobre a prática de vigilância sanitária no contexto da saúde coletiva. Aparelho estatal, competência, organização, atribuições e atuação como instrumento de intervenção nas políticas de saúde. Dimensões sociais, políticas, técnicas e jurídicas decorrentes da atuação da vigilância sanitária. Práticas de Campo."
+    },
+    {
+      "id": "CNS7324",
+      "code": "CNS7324",
+      "name": "Fundamentos da Economia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNS7416",
+      "code": "CNS7416",
+      "name": "Estatística Experimental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CNS7314"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNS7314"
+      },
+      "syllabus": "Planejamento e implantação de experimentos. Princípios básicos de experimentação. Procedimentos para comparações múltiplas. Delineamentos experimentais. Modelos de regressão Apresentação e interpretação de resultados experimentais."
+    },
+    {
+      "id": "BSU7213",
+      "code": "BSU7213",
+      "name": "Educação em Saúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7222",
+      "code": "BSU7222",
+      "name": "Módulo - Medicina e Criação de Ruminantes",
+      "credits": 28,
+      "hours": 504,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7103",
+        "ABF7104",
+        "ABF7604",
+        "ABF7605",
+        "ABF7607",
+        "ABF7860",
+        "ABF7861",
+        "ABF7862",
+        "ABF7863",
+        "ABF7864",
+        "ABF7865",
+        "ABF7866",
+        "ABF7867",
+        "BSU7115",
+        "BSU7200",
+        "BSU7201",
+        "BSU7202",
+        "BSU7203",
+        "BSU7204",
+        "BSU7205",
+        "BSU7206",
+        "BSU7207",
+        "BSU7208",
+        "BSU7209",
+        "BSU7210",
+        "BSU7211",
+        "BSU7212",
+        "BSU7506",
+        "BSU7509",
+        "CBA7834",
+        "CNS7314",
+        "CNS7320",
+        "CNS7321",
+        "CNS7322",
+        "CNS7323",
+        "CNS7324",
+        "CNS7416"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7103"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7104"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7604"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7605"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7607"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7860"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7861"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7862"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7863"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7864"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7865"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7866"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7867"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7115"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7200"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7201"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7202"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7203"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7204"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7205"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7206"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7207"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7208"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7209"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7210"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7211"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7212"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7506"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7509"
+          },
+          {
+            "kind": "course",
+            "code": "CBA7834"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7314"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7320"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7321"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7322"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7323"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7324"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7416"
+          },
+          {
+            "kind": "hours",
+            "hours": 144
+          }
+        ]
+      },
+      "prerequisiteHours": 144,
+      "syllabus": "",
+      "extensionHours": 144
+    },
+    {
+      "id": "CNS7325",
+      "code": "CNS7325",
+      "name": "Desenvolvimento Rural",
+      "credits": 1,
+      "hours": 18,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7214",
+      "code": "BSU7214",
+      "name": "Comunicação e Saúde",
+      "credits": 1,
+      "hours": 18,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7223",
+      "code": "BSU7223",
+      "name": "Módulo - Medicina de Cães e Gatos",
+      "credits": 29,
+      "hours": 522,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7103",
+        "ABF7104",
+        "ABF7604",
+        "ABF7605",
+        "ABF7607",
+        "ABF7860",
+        "ABF7861",
+        "ABF7862",
+        "ABF7863",
+        "ABF7864",
+        "ABF7865",
+        "ABF7866",
+        "ABF7867",
+        "BSU7115",
+        "BSU7200",
+        "BSU7201",
+        "BSU7202",
+        "BSU7203",
+        "BSU7204",
+        "BSU7205",
+        "BSU7206",
+        "BSU7207",
+        "BSU7208",
+        "BSU7209",
+        "BSU7210",
+        "BSU7211",
+        "BSU7212",
+        "BSU7506",
+        "BSU7509",
+        "CBA7834",
+        "CNS7314",
+        "CNS7320",
+        "CNS7321",
+        "CNS7322",
+        "CNS7323",
+        "CNS7324",
+        "CNS7416"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7103"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7104"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7604"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7605"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7607"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7860"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7861"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7862"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7863"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7864"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7865"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7866"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7867"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7115"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7200"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7201"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7202"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7203"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7204"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7205"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7206"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7207"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7208"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7209"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7210"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7211"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7212"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7506"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7509"
+          },
+          {
+            "kind": "course",
+            "code": "CBA7834"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7314"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7320"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7321"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7322"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7323"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7324"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7416"
+          },
+          {
+            "kind": "hours",
+            "hours": 126
+          }
+        ]
+      },
+      "prerequisiteHours": 126,
+      "syllabus": "",
+      "extensionHours": 126
+    },
+    {
+      "id": "CNS7326",
+      "code": "CNS7326",
+      "name": "Administração e Gestão",
+      "credits": 1,
+      "hours": 18,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7215",
+      "code": "BSU7215",
+      "name": "Gestão em Saúde",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7224",
+      "code": "BSU7224",
+      "name": "Módulo - Medicina e Produção de Não Ruminantes",
+      "credits": 17,
+      "hours": 306,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7103",
+        "ABF7104",
+        "ABF7604",
+        "ABF7605",
+        "ABF7607",
+        "ABF7860",
+        "ABF7861",
+        "ABF7862",
+        "ABF7863",
+        "ABF7864",
+        "ABF7865",
+        "ABF7866",
+        "ABF7867",
+        "BSU7115",
+        "BSU7200",
+        "BSU7201",
+        "BSU7202",
+        "BSU7203",
+        "BSU7204",
+        "BSU7205",
+        "BSU7206",
+        "BSU7207",
+        "BSU7208",
+        "BSU7209",
+        "BSU7210",
+        "BSU7211",
+        "BSU7212",
+        "BSU7506",
+        "BSU7509",
+        "CBA7834",
+        "CNS7314",
+        "CNS7320",
+        "CNS7321",
+        "CNS7322",
+        "CNS7323",
+        "CNS7324",
+        "CNS7416"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7103"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7104"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7604"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7605"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7607"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7860"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7861"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7862"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7863"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7864"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7865"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7866"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7867"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7115"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7200"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7201"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7202"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7203"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7204"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7205"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7206"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7207"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7208"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7209"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7210"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7211"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7212"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7506"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7509"
+          },
+          {
+            "kind": "course",
+            "code": "CBA7834"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7314"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7320"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7321"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7322"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7323"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7324"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7416"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7225",
+      "code": "BSU7225",
+      "name": "Módulo - Medicina de Animais Selvagens, Exóticos e de Laboratório",
+      "credits": 10,
+      "hours": 180,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7103",
+        "ABF7104",
+        "ABF7604",
+        "ABF7605",
+        "ABF7607",
+        "ABF7860",
+        "ABF7861",
+        "ABF7862",
+        "ABF7863",
+        "ABF7864",
+        "ABF7865",
+        "ABF7866",
+        "ABF7867"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7103"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7104"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7604"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7605"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7607"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7860"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7861"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7862"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7863"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7864"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7865"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7866"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7867"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "",
+      "extensionHours": 36
+    },
+    {
+      "id": "CNS7327",
+      "code": "CNS7327",
+      "name": "Adminstração e Marketing",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Exóticos e de Laboratório (EXT 36h-a) ABF7104 eh"
+    },
+    {
+      "id": "BSU7216",
+      "code": "BSU7216",
+      "name": "Relações humano/animal/ambiente",
+      "credits": 1,
+      "hours": 18,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7226",
+      "code": "BSU7226",
+      "name": "Módulo - Medicina e Criação de Equinos",
+      "credits": 16,
+      "hours": 288,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7103",
+        "ABF7104",
+        "ABF7604",
+        "ABF7605",
+        "ABF7607",
+        "ABF7860",
+        "ABF7861",
+        "ABF7862",
+        "ABF7863",
+        "ABF7864",
+        "ABF7865",
+        "ABF7866",
+        "ABF7867",
+        "BSU7115",
+        "BSU7200",
+        "BSU7201",
+        "BSU7202",
+        "BSU7203",
+        "BSU7204",
+        "BSU7205",
+        "BSU7206",
+        "BSU7207",
+        "BSU7208",
+        "BSU7209",
+        "BSU7210",
+        "BSU7211",
+        "BSU7212",
+        "BSU7506",
+        "BSU7509",
+        "CBA7834",
+        "CNS7314",
+        "CNS7320",
+        "CNS7321",
+        "CNS7322",
+        "CNS7323",
+        "CNS7324",
+        "CNS7416"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7103"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7104"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7604"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7605"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7607"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7860"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7861"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7862"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7863"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7864"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7865"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7866"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7867"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7115"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7200"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7201"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7202"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7203"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7204"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7205"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7206"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7207"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7208"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7209"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7210"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7211"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7212"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7506"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7509"
+          },
+          {
+            "kind": "course",
+            "code": "CBA7834"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7314"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7320"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7321"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7322"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7323"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7324"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7416"
+          },
+          {
+            "kind": "hours",
+            "hours": 54
+          }
+        ]
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "",
+      "extensionHours": 54
+    },
+    {
+      "id": "BSU7227",
+      "code": "BSU7227",
+      "name": "Módulo - Inspeção e Tecnologia de Produtos de Origem Animal",
+      "credits": 12,
+      "hours": 216,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7103",
+        "ABF7104",
+        "ABF7604",
+        "ABF7605",
+        "ABF7607",
+        "ABF7860",
+        "ABF7861",
+        "ABF7862",
+        "ABF7863",
+        "ABF7864",
+        "ABF7865",
+        "ABF7866",
+        "ABF7867"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7103"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7104"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7604"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7605"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7607"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7860"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7861"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7862"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7863"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7864"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7865"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7866"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7867"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "",
+      "extensionHours": 18
+    },
+    {
+      "id": "CNS7716",
+      "code": "CNS7716",
+      "name": "Extensão Rural",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Caracterização do meio rural e da Extensão rural no Brasil: história e bases teóricas sob uma visão crítica. Revolução verde e modernização da agricultura. Perfil e prática extensionistas. Extensão rural e sistemas locais de conhecimento e inovação: prática dialógica, comunicação e metodologia. Modelos pedagógicos, métodos e técnicas sociais em extensão rural. Planejamento da ação extensionista. Estado, centralização e descentralização: extensão e pesquisa agropecuária. Política Nacional de Assistência técnica e Extensão Rural, novas instâncias participativas, desafios e perspectivas.",
+      "extensionHours": 18
+    },
+    {
+      "id": "BSU7220",
+      "code": "BSU7220",
+      "name": "Estágio Curricular Obrigatório em Medicina Veterinária I",
+      "credits": 24,
+      "hours": 432,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ABF7103",
+        "ABF7104",
+        "ABF7604",
+        "ABF7605",
+        "ABF7607",
+        "ABF7860",
+        "ABF7861",
+        "ABF7862",
+        "ABF7863",
+        "ABF7864",
+        "ABF7865",
+        "ABF7866",
+        "ABF7867",
+        "BSU7115",
+        "BSU7200",
+        "BSU7201",
+        "BSU7202",
+        "BSU7203",
+        "BSU7204",
+        "BSU7205",
+        "BSU7206",
+        "BSU7207",
+        "BSU7208",
+        "BSU7209",
+        "BSU7210",
+        "BSU7211",
+        "BSU7212",
+        "BSU7213",
+        "BSU7214",
+        "BSU7215",
+        "BSU7216",
+        "BSU7222",
+        "BSU7223",
+        "BSU7224",
+        "BSU7225",
+        "BSU7226",
+        "BSU7227",
+        "BSU7509",
+        "BSU7706",
+        "CBA7834",
+        "CNS7314",
+        "CNS7320",
+        "CNS7321",
+        "CNS7322",
+        "CNS7323",
+        "CNS7324",
+        "CNS7325",
+        "CNS7326",
+        "CNS7327",
+        "CNS7416",
+        "CNS7716"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7103"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7104"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7604"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7605"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7607"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7860"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7861"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7862"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7863"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7864"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7865"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7866"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7867"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7115"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7200"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7201"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7202"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7203"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7204"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7205"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7206"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7207"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7208"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7209"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7210"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7211"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7212"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7213"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7214"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7215"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7216"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7222"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7223"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7224"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7225"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7226"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7227"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7509"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7706"
+          },
+          {
+            "kind": "course",
+            "code": "CBA7834"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7314"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7320"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7321"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7322"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7323"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7324"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7325"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7326"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7327"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7416"
+          },
+          {
+            "kind": "course",
+            "code": "CNS7716"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7217",
+      "code": "BSU7217",
+      "name": "Trabalho de Conclusão de Curso",
+      "credits": 1,
+      "hours": 18,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7221",
+      "code": "BSU7221",
+      "name": "Estágio Curricular Obrigatório em Medicina",
+      "credits": 24,
+      "hours": 432,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7220"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7220"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7232",
+      "code": "BSU7232",
+      "name": "Ações de Extensão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Veterinária II"
+    },
+    {
+      "id": "ABF7610",
+      "code": "ABF7610",
+      "name": "Anatomia de Animais Selvagens",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "ABF7866"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ABF7866"
+      },
+      "syllabus": "Disciplinas Optativas Princípios gerais de anatomia veterinária aplicada a animais selvagens: osteologia, artrologia, miologia, sistema cardiovascular, aparelho respiratório, aparelho digestório, aparelho urogenital, estesiologia (órgãos da visão), sistema tegumentar e sistema nervoso."
+    },
+    {
+      "id": "ABF7611",
+      "code": "ABF7611",
+      "name": "Medicina Veterinária Legal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "ABF7607"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ABF7607"
+      },
+      "syllabus": "Legislação na área de Medicina Veterinária Legal. Atuação do profissional em Medicina Veterinária Legal. Noções: Direito e Criminalística. Tanatologia. Identificação. Traumatologia. Toxicologia Forense. Exames Laboratoriais em perícias. Maus tratos dos animais e danos ao meio ambiente. Exames periciais por Médicos Veterinários e Elaboração de laudos, pareceres técnicos e demais documentos judiciais. Normas relativas aos produtos de origem animal e funcionamento de estabelecimentos veterinários e correlatos. Normas relativas à produção, testes, armazenamento, comercialização e controle de medicamentos de uso animal. Legislação e exames de determinação de resíduos de medicamentos em produtos de origem animal. Normas relativas ao transito nacional e internacional de animais."
+    },
+    {
+      "id": "ABF7724",
+      "code": "ABF7724",
+      "name": "Reprodução e Inseminação Artificial",
+      "credits": 2,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "ABF7865",
+        "BSU7209"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7865"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7209"
+          }
+        ]
+      },
+      "syllabus": "Avaliação crítica dos problemas de reprodução e estudo das biotécnicas aplicadas à Reprodução Animal. Inseminação artificial, colheita, manipulação e conservação do sêmen. Manipulação do ciclo estral e novas biotécnicas aplicadas à reprodução. Análise de dados de reprodução."
+    },
+    {
+      "id": "ABF7828",
+      "code": "ABF7828",
+      "name": "Embriologia Veterinária",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "ABF7604",
+        "CBA7834"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7604"
+          },
+          {
+            "kind": "course",
+            "code": "CBA7834"
+          }
+        ]
+      },
+      "syllabus": "Conhecimentos básicos sobre os princípios reprodutivos e desenvolvimento embrionário dos vários grupos animais, utilizando a embriologia como evidência da evolução, focalizando-se as principais fases embrionárias, os anexos embrionários, a comunicação intercelular no processo de diferenciação e os erros do desenvolvimento intrauterino que decorrem em malformações."
+    },
+    {
+      "id": "ABF7829",
+      "code": "ABF7829",
+      "name": "Práticas em Análises Clínicas Veterinárias",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "ABF7867"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ABF7867"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7004",
+      "code": "BSU7004",
+      "name": "Endocanabinologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O Sistema Endocanabinoide: Endocanabinoides e seus receptores. Farmacologia dos endocanabinoides. Papel fisiológico do sistema endocanabinoide. Os terpenofenóis: fitocanabinoides e fitoterpenos. Uso terapêutico dos fitoterpenofenóis e para fins de produção animal. Interações medicamentosas entre os canabinoides e medicamentos comumente prescritos."
+    },
+    {
+      "id": "BSU7106",
+      "code": "BSU7106",
+      "name": "Tópicos Avançados em Saúde Pública",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "BSU7509"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7509"
+      },
+      "syllabus": "Sistema Único de Saúde (SUS) e políticas públicas de saúde, níveis de atenção em saúde; redes de atenção em saúde; atenção primária em saúde e política nacional de atenção básica; planejamento, gestão e avaliação em saúde; vigilância em saúde; educação em saúde. Medicina Veterinária do Coletivo: Saúde Pública e Saúde Única; Medicina de Abrigos e Medicina Veterinária Legal, Manejo populacional de cães e gatos."
+    },
+    {
+      "id": "BSU7111",
+      "code": "BSU7111",
+      "name": "Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7114",
+      "code": "BSU7114",
+      "name": "Biologia Molecular",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução; Estrutura e Função das Proteínas; Replicação do DNA; Arranjo dos genes; Biossíntese de RNA; controle da transcrição; Processamento dos transcritos de RNA; Estrutura e Expressão dos Genes Extranucleares; Biossíntese de Proteínas: a tradução do mRNA; Análise funcional do Genoma; Clonagem Gênica, Identificação e Sequenciamento do DNA; Métodos de Transferência de Genes."
+    },
+    {
+      "id": "BSU7116",
+      "code": "BSU7116",
+      "name": "Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "BSU7184",
+      "code": "BSU7184",
+      "name": "Bases Teóricas Gerais para a",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BSU7209"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7209"
+      },
+      "syllabus": "Explicação e discussão teórica de conceitos introdutórios básicos de cinesioterapia: amplitude de movimento articular (ADM), mobilização articular, alongamento muscular, fortalecimento muscular e treino sensoriomotor."
+    },
+    {
+      "id": "BSU7185",
+      "code": "BSU7185",
+      "name": "Práticas Integrativas e Complementares em Saúde A disciplina propõe discutir a inter-relação entre saúd",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cinesioterapia Bases teóricas e conceituais das Práticas Integrativas e Complementares em Saúde (PICS). Organização Mundial de Saúde (OMS). Promoção e Educação em Saúde. Política Nacional de Práticas Integrativas e Complementares em Saúde (PNPIC). Manual de Implantação de Serviços de PICS no SUS. Glossário Temático de PICS. Resolução de procedimentos regulamentados pelo Ministério da Saúde (MS). Evidências científicas na literatura. Introdução básica aos fundamentos das técnicas de auriculoterapia, reiki, shiatsu e meditação."
+    },
+    {
+      "id": "BSU7186",
+      "code": "BSU7186",
+      "name": "Desenvolvimento, Saúde e Qualidade de Vida no Meio Rural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "ambiente, e sua articulação com o desenvolvimento sustentável e a qualidade de vida das populações rurais, abordando questões globais emergentes, sem perder de vista sua relação com a realidade local e o contexto onde a universidade se insere, incluindo: Relação entre meio Rural e Urbano; Desenvolvimento sustentável; Determinantes socioambientais e Qualidade de Vida; Politica de saúde da população do campo, da floresta e das águas; Ação do homem sobre a natureza e consequências para a saúde e bem estar; Agrotóxicos, ambiente e saúde; Produção de alimentos transgênicos, desenvolvimento sustentável e saúde; Uso e preservação dos recursos hídricos; Qualidade da água de consumo no meio rural; Agricultura familiar e perspectivas dos jovens no meio rural; Zoonoses rurais, produção, meio ambiente e saúde."
+    },
+    {
+      "id": "BSU7187",
+      "code": "BSU7187",
+      "name": "Odontologia Veterinária: inter-relação entre",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Inter-relação entre saúde bucal e bem-estar, explorando de forma geral as intersecções entre medicina veterinária e odontologia e as contribuições advindas: Contexto histórico e atual da odontologia veterinária; Inter-relação entre odontologia e medicina veterinária; Saúde bucal e bem-estar animal; Estrutura dentária e tecidos de sustentação; Afecções bucais de importância para a saúde e bem estar animal; Importância da odontologia para pequenos animais, grandes animais e animais selvagens e exóticos."
+    },
+    {
+      "id": "BSU7407",
+      "code": "BSU7407",
+      "name": "Práticas Laboratóriais",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "saúde bucal e bem-estar animal Atividades práticas nos laboratórios de ensino e pesquisa da UFSC ou de outra Instituição de Ensino Superior ou Pesquisa autorizada pela coordenação do curso."
+    },
+    {
+      "id": "BSU7718",
+      "code": "BSU7718",
+      "name": "Homeopatia e Fitoterapia Veterinária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7718
+      },
+      "prerequisiteHours": 7718,
+      "syllabus": "História da Homeopatia. Teoria da semelhança. Doença e doente sob o ponto de vista homeopático. Bases filosóficas da homeopatia. Potencialização e dinamização. Matéria médica e repertório homeopático. Medicamentos utilizados e sua aplicação na terapia de grandes e pequenos animais domésticos e selvagens. Farmacotécnica homeopática. Dinâmica e repertório homeopático. Diagnóstico e Prognóstico. Primeira e Segunda Prescrição. Homeopatia Veterinária. Estudo dos Policrestos. Terapêutica Homeopática. Uso do princípio da semelhança (similitude) com doses mínimas de medicamentos através de uma farmacotécnica específica e abordagem clínica do paciente como um todo. Fundamentos da Fitoterapia. Noções de princípios ativos e cultivo de plantas medicinais. Produção e utilização de fitoterápicos. Controle de qualidade. Abordagem de casos clínicos."
+    },
+    {
+      "id": "BSU7720",
+      "code": "BSU7720",
+      "name": "Práticas Hospitalares I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades práticas no Hospital Veterinário da UFSC ou de outra Instituição de Ensino Superior autorizada pela coordenação do curso."
+    },
+    {
+      "id": "BSU7812",
+      "code": "BSU7812",
+      "name": "Práticas Zootécnicas I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades zootécnicas na UFSC ou em outros locais desde que sob a supervisão de um profissional com formação superior na área."
+    },
+    {
+      "id": "BSU7819",
+      "code": "BSU7819",
+      "name": "Cuidados Paliativos em Medicina",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito, história, fundamentos e princípios filosóficos, humanísticos, éticos e científicos dos cuidados paliativos. Competências e habilidades do médico veterinário em cuidados paliativos."
+    },
+    {
+      "id": "BSU7820",
+      "code": "BSU7820",
+      "name": "Introdução às Modalidades Terapêuticas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos básicos das principais modalidades terapêuticas em reabilitação. Calor superficial. TENS. Interferencial. Corrente Russa. LASER. Ultrassom terapêutico. Micro-ondas terapêutico. Ondas Curtas terapêutico."
+    },
+    {
+      "id": "BSU7821",
+      "code": "BSU7821",
+      "name": "Introdução a Metodologia da Pesquisa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "em Reabilitação Fundamentos e teoria da pesquisa qualitativa. Tipos e procedimentos. Desenho metodológico. Análise e interpretação. Validade, confiabilidade. Elaboração de projeto."
+    },
+    {
+      "id": "CNS7007",
+      "code": "CNS7007",
+      "name": "Relações e Interações Humano-Animal: mudança de paradigma e novos desafios",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Qualitativa Relações humano - animal, natureza e cultura, novos debates acerca da humanidade e animalidade. A humanização dos animais domésticos e selvagens. Ética e animais de consumo humano. Uso religioso de animais."
+    },
+    {
+      "id": "CNS7010",
+      "code": "CNS7010",
+      "name": "Gestão de Impactos Ambientais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos problemas ambientais globais, nacionais e locais. Impactos ambientais da agricultura, pecuária e silvicultura e possíveis medidas mitigadoras. Licenciamento ambiental de atividades da agricultura, pecuária e silvicultura, e legislação associada. A gestão ambiental em atividades da agricultura, pecuária e silvicultura como oportunidade de atuação profissional."
+    },
+    {
+      "id": "CNS7016",
+      "code": "CNS7016",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNS7018",
+      "code": "CNS7018",
+      "name": "Educação Ambiental em Ciências Agrárias",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNS7021",
+      "code": "CNS7021",
+      "name": "Sistemas Agroalimentares",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A agricultura e a era dos alimentos industrializados; Paradigmas alimentares: nutricionismo e alimentação; Sociologia e Antropologia da alimentação; segurança e soberania alimentar; agricultura urbana e alimentação; Imersão à prática de pesquisa."
+    },
+    {
+      "id": "CNS7412",
+      "code": "CNS7412",
+      "name": "Legislação e Gestão Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Agronegócio e meio ambiente. Gases poluentes, efeito estufa, depleção da camada de ozônio. Código florestal brasileiro. Política nacional do meio ambiente. Lei de crimes ambientais. Política nacional de recursos hídricos. Política nacional de resíduos sólidos. Licenciamento ambiental. Código Estadual do Meio Ambiente de Santa Catarina. Sistemas de gestão ambiental."
+    },
+    {
+      "id": "CNS7615",
+      "code": "CNS7615",
+      "name": "Saneamento Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conhecimento e conceituação das propriedades físicas, químicas e biológicas dos resíduos; conhecimentos básicos sobre operações e processos unitários; conceituação e tecnologias utilizadas para o tratamento de águas naturais e residuárias; discussão de propostas para controle e disposição de resíduos sólidos; alternativas para reciclagem de resíduos e reuso da água."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "BSU7228",
+      "code": "BSU7228",
+      "name": "Atividades Complementares",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ABF7103",
+      "ABF7104",
+      "ABF7604",
+      "ABF7860",
+      "ABF7861",
+      "BSU7200",
+      "BSU7201",
+      "BSU7202",
+      "CBA7834",
+      "CNS7320",
+      "ABF7605",
+      "ABF7862",
+      "ABF7863",
+      "ABF7864",
+      "BSU7203",
+      "BSU7204",
+      "BSU7205",
+      "CNS7321",
+      "CNS7322",
+      "ABF7865",
+      "ABF7866",
+      "BSU7206",
+      "BSU7207",
+      "BSU7208",
+      "BSU7506",
+      "CNS7314",
+      "CNS7323",
+      "ABF7607",
+      "ABF7867",
+      "BSU7115",
+      "BSU7209",
+      "BSU7210",
+      "BSU7211",
+      "BSU7212",
+      "BSU7509",
+      "CNS7324",
+      "CNS7416",
+      "BSU7213",
+      "BSU7222",
+      "CNS7325",
+      "BSU7214",
+      "BSU7223",
+      "CNS7326",
+      "BSU7215",
+      "BSU7224",
+      "BSU7225",
+      "CNS7327",
+      "BSU7216",
+      "BSU7226",
+      "BSU7227",
+      "CNS7716",
+      "BSU7220",
+      "BSU7217",
+      "BSU7221",
+      "BSU7232",
+      "BSU7228"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 54,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ABF7610",
+              "ABF7611",
+              "ABF7724",
+              "ABF7828",
+              "ABF7829",
+              "BSU7004",
+              "BSU7106",
+              "BSU7111",
+              "BSU7114",
+              "BSU7116",
+              "BSU7184",
+              "BSU7185",
+              "BSU7186",
+              "BSU7187",
+              "BSU7407",
+              "BSU7718",
+              "BSU7720",
+              "BSU7812",
+              "BSU7819",
+              "BSU7820",
+              "BSU7821",
+              "CNS7007",
+              "CNS7010",
+              "CNS7016",
+              "CNS7018",
+              "CNS7021",
+              "CNS7412",
+              "CNS7615",
+              "LSB7904"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 54
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "552",
+    "curriculumCode": "20231",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=552&curriculo=20231",
+    "sha256": "ef417f98550285494ca2ed64372964bd5775145a17033b7adeec808514d4ad83",
+    "capturedAt": "2026-09-22"
+  }
+}

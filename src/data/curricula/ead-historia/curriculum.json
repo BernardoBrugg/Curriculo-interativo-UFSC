@@ -1,0 +1,898 @@
+{
+  "program": "EaD_UAB HISTÓRIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.1",
+  "totalHours": 3945,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "HST9011",
+      "code": "HST9011",
+      "name": "Introdução aos Estudos Históricos",
+      "credits": 5,
+      "hours": 75,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Discussão introdutória sobre a construção do conhecimento histórico através do estudo das fontes, da discussão bibliográfica e da forma da narrativa."
+    },
+    {
+      "id": "HST9012",
+      "code": "HST9012",
+      "name": "História do Oriente Antigo (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9012
+      },
+      "prerequisiteHours": 9012,
+      "syllabus": "Estudo das sociedades do Oriente Antigo, suas relações com o Ocidente, suas abordagens historiográficas e suas perspectivas teóricas e de prática de ensino."
+    },
+    {
+      "id": "HST9013",
+      "code": "HST9013",
+      "name": "História Indígena (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9013
+      },
+      "prerequisiteHours": 9013,
+      "syllabus": "Estudo das populações indígenas no Brasil e das políticas indigenistas, bem como sobre as diferentes abordagens historiográficas relativas à representação dessas populações entre os séculos XVI e XXI e suas perspectivas teóricas e de ensino."
+    },
+    {
+      "id": "HST9014",
+      "code": "HST9014",
+      "name": "Teorias da Educação e Ensino de História",
+      "credits": 5,
+      "hours": 75,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos históricos na educação; elaborações e práticas em torno da educação histórica. Teorias históricas e educativas. Pensamento pedagógico brasileiro."
+    },
+    {
+      "id": "HST9015",
+      "code": "HST9015",
+      "name": "Laboratório de Ensino de História I (Ext.",
+      "credits": 6,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 15h-a) A produção do discurso histórico nas narrativas visuais. Reflexão histórica através de narrativas visuais. Construção de práticas escolares. Ensino, pesquisa e extensão. Ações de extensão, relacionadas à História Pública. A carga horária de extensão será desenvolvida no Projeto de Extensão História Pública."
+    },
+    {
+      "id": "HST9021",
+      "code": "HST9021",
+      "name": "História da Antiguidade Ocidental (PCC",
+      "credits": 5,
+      "hours": 75,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9021
+      },
+      "prerequisiteHours": 9021,
+      "syllabus": "Conceitos históricos na educação; elaborações e práticas em torno da educação histórica. Teorias históricas e educativas. Pensamento pedagógico brasileiro."
+    },
+    {
+      "id": "HST9022",
+      "code": "HST9022",
+      "name": "História da África (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9022
+      },
+      "prerequisiteHours": 9022,
+      "syllabus": "15h-a) Estudo das diferentes estruturas sócio-políticas da África, os processos de constituição dos sistemas coloniais e de descolonização e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST9023",
+      "code": "HST9023",
+      "name": "Laboratório de Ensino de História II (Ext.",
+      "credits": 6,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O Laboratório propõe um espaço de estudo, prática e reflexão a respeito das formas de expressão historiográficas. A oportunidade de realizar exercícios de escrita é também uma modalidade prática de contato e aprendizado a respeito da relação entre a forma e a função dos gêneros historiográficos. A performance das virtudes epistêmicas relacionadas ao trabalho disciplinar encontrará o problema da ética da história no contato com as práticas de componente curricular relacionadas ao ensino e a extensão. Ações de extensão, relacionadas à História Pública. A carga horária de extensão será desenvolvida no Projeto de Extensão História Pública"
+    },
+    {
+      "id": "HST9024",
+      "code": "HST9024",
+      "name": "Tecnologias Educacionais e Ensino de História",
+      "credits": 5,
+      "hours": 75,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5
+      },
+      "prerequisiteHours": 5,
+      "syllabus": "40h-a e PPC 10h-a) Diversas abordagens do uso da EaD em sala de aula, aspectos técnicos e pedagógicos. Principais ferramentas computacionais para o ensino de História. Materiais didáticos e ensino de história. Implementação de programas em linguagem de alto nível. Utilização de softwares matemáticos para o ensino de história."
+    },
+    {
+      "id": "HST9031",
+      "code": "HST9031",
+      "name": "História Medieval (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9031
+      },
+      "prerequisiteHours": 9031,
+      "syllabus": "Estudo da Idade Média, suas abordagens historiográficas e suas perspectivas teóricas e de prática de ensino."
+    },
+    {
+      "id": "HST9032",
+      "code": "HST9032",
+      "name": "História da América Colonial (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9032
+      },
+      "prerequisiteHours": 9032,
+      "syllabus": "Estudo da história colonial das Américas, considerando a integração do continente aos processos econômicos, políticos e socioculturais globais, com atenção para os temas clássicos e debates historiográficos que marcaram o campo e para abordagens didático- pedagógicas."
+    },
+    {
+      "id": "HST9033",
+      "code": "HST9033",
+      "name": "História da América Portuguesa (PCC 15h-",
+      "credits": 5,
+      "hours": 75,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9033
+      },
+      "prerequisiteHours": 9033,
+      "syllabus": "Estudo da ocupação e colonização da América pelos portugueses e das formas de abordagem didático-pedagógicas."
+    },
+    {
+      "id": "HST9034",
+      "code": "HST9034",
+      "name": "História da Ásia (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9034
+      },
+      "prerequisiteHours": 9034,
+      "syllabus": "a) Proporcionar uma visão panorâmica e geral das estruturas históricas que caracterizam as diferentes sociedades asiáticas. Apresentar as interpretações historiográficas mais importantes acerca da Ásia. Desenvolver ponderações sobre a pesquisa, o ensino e sua relação com a História Pública."
+    },
+    {
+      "id": "HST9035",
+      "code": "HST9035",
+      "name": "Didática da História (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 15
+      },
+      "prerequisiteHours": 15,
+      "syllabus": "Didática da história como campo de pesquisa e disciplina acadêmica. Trajetória de construção da Didática de História. Diferentes concepções de didática e suas implicações para o processo de ensino-aprendizagem de história. Planejamento e Avaliação em História. A sala de aula de História. Recursos didáticos como suportes do conhecimento histórico recontextualizado em objeto de ensino. Usos do livro didático em sala de aula. Escola como espaço de formação do professor de História."
+    },
+    {
+      "id": "HST9041",
+      "code": "HST9041",
+      "name": "Organização Escolar e Ensino de História",
+      "credits": 5,
+      "hours": 75,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Organização da História e Educação Brasileira. Legislação e Políticas Públicas Educacionais na atualidade. Educação, História e a produção escolar."
+    },
+    {
+      "id": "HST9042",
+      "code": "HST9042",
+      "name": "História Moderna (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9042
+      },
+      "prerequisiteHours": 9042,
+      "syllabus": "(PCC 15h-a) Estudo em torno da formação do mundo moderno com ênfase nos aspectos sociais, econômicos e culturais que moldaram a sociedade ocidental, suas abordagens teóricas e de ensino."
+    },
+    {
+      "id": "HST9043",
+      "code": "HST9043",
+      "name": "Seminário de Pesquisa em Ensino de História (PCC 15h-a)",
+      "credits": 6,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 6
+      },
+      "prerequisiteHours": 6,
+      "syllabus": "Proporcionar uma visão panorâmica e geral das estruturas históricas que caracterizam as diferentes sociedades asiáticas. Apresentar as interpretações historiográficas mais importantes acerca da Ásia. Desenvolver ponderações sobre a pesquisa, o ensino e sua relação com a História Pública."
+    },
+    {
+      "id": "HST9044",
+      "code": "HST9044",
+      "name": "Teoria da História I",
+      "credits": 5,
+      "hours": 75,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudodosfundamentosteóricosdas concepções modernas em História e dos modelos históricos dos séculos XVIII e XIX."
+    },
+    {
+      "id": "HST9051",
+      "code": "HST9051",
+      "name": "História Contemporânea I (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9051
+      },
+      "prerequisiteHours": 9051,
+      "syllabus": "Estudo dos desdobramentos da Revolução Francesa no contexto da formação e fortalecimento da sociedade industrial moderna e suas abordagens teóricas e de ensino."
+    },
+    {
+      "id": "HST9052",
+      "code": "HST9052",
+      "name": "História do Brasil Monárquico (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9052
+      },
+      "prerequisiteHours": 9052,
+      "syllabus": "Estudo do processo de independência do Brasil, a construção do Estado Nacional e a sociedade brasileira durante o século XIX. As formas de abordagens didático pedagógicas."
+    },
+    {
+      "id": "HST9053",
+      "code": "HST9053",
+      "name": "Metodologia do Ensino de História (PCC",
+      "credits": 6,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As relações entre História, Educação e Cultura. A cultura imagética, o livro didático e o ensino de História. A pesquisa no ensino de História. A constituição da História como disciplina no contexto da educação escolarizada no Brasil."
+    },
+    {
+      "id": "HST9054",
+      "code": "HST9054",
+      "name": "História da América Independente (PCC",
+      "credits": 5,
+      "hours": 75,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9054
+      },
+      "prerequisiteHours": 9054,
+      "syllabus": "15h-a) Estudo da trajetória histórica dos países da América de colonização espanhola, francesa e inglesa a partir dos processos de independência e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST9055",
+      "code": "HST9055",
+      "name": "Educação das Relações Étnico-raciais",
+      "credits": 5,
+      "hours": 75,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "15h-a) As relações de dominação e resistência, conflitos e negociações existentes entre diferentes grupos sociais, culturais, territoriais, religiosos, étnico raciais, de gênero, de orientação sexual, de idade, comparando os diferentes contextos históricos."
+    },
+    {
+      "id": "HST9061",
+      "code": "HST9061",
+      "name": "História Contemporânea II (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9061
+      },
+      "prerequisiteHours": 9061,
+      "syllabus": "Estudo do século XX, da Primeira Guerra Mundialàglobalização,suasabordagens teóricas e de ensino."
+    },
+    {
+      "id": "HST9062",
+      "code": "HST9062",
+      "name": "Laboratório de Ensino de História III (EXT 40h-a e PCC 10h-a)",
+      "credits": 6,
+      "hours": 90,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 40
+      },
+      "prerequisiteHours": 40,
+      "syllabus": "Reflexão histórica através de narrativas e fontes históricas. Construção de práticas escolares. Ensino, pesquisa e extensão. Ações de extensão, relacionadas à História Pública. A carga horária de extensão será desenvolvida no Projeto de Extensão História Pública.",
+      "extensionHours": 40
+    },
+    {
+      "id": "HST9063",
+      "code": "HST9063",
+      "name": "História do Brasil Contemporâneo (PCC",
+      "credits": 5,
+      "hours": 75,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9063
+      },
+      "prerequisiteHours": 9063,
+      "syllabus": "Estudo do século XX, da Primeira Guerra Mundialàglobalização,suasabordagens teóricas e de ensino."
+    },
+    {
+      "id": "HST9064",
+      "code": "HST9064",
+      "name": "Teoria da História II",
+      "credits": 5,
+      "hours": 75,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "15h-a) Estudo dos fundamentos teóricos da crítica historiográfica contemporânea - séculos XX e XXI."
+    },
+    {
+      "id": "HST9071",
+      "code": "HST9071",
+      "name": "História de Santa Catarina (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9071
+      },
+      "prerequisiteHours": 9071,
+      "syllabus": "Estudo da História e da historiografia catarinense e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "HST9072",
+      "code": "HST9072",
+      "name": "Laboratório de Ensino de História IV (EXT 40h-a e PCC 10h-a)",
+      "credits": 6,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 40
+      },
+      "prerequisiteHours": 40,
+      "syllabus": "Culturas, História e escola. O currículo de História, Profissão Docente e Identidade do professor. As orientações curriculares do Ensino Fundamental e Médio. Construção de projetos integradores: ensino, pesquisa e extensão.Ações de extensão, relacionadas à História Pública. A carga horária de extensão será desenvolvida no Projeto de Extensão História Pública",
+      "extensionHours": 40
+    },
+    {
+      "id": "LSB9970",
+      "code": "LSB9970",
+      "name": "Língua Brasileira de Sinais I - Libras I (PCC",
+      "credits": 5,
+      "hours": 75,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras- português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "PSI9070",
+      "code": "PSI9070",
+      "name": "Psicologia da Educação",
+      "credits": 5,
+      "hours": 75,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "15h-a) Introdução à Psicologia como ciência: histórico, objetivo e métodos. Interações sociais no contexto educacional e o lugar do professor. Introdução ao estudo do desenvolvimento e aprendizagem - infância, adolescência, idade adulta. Contribuições da Psicologia na prática escolar cotidiana e na compreensão do fracasso escolar."
+    },
+    {
+      "id": "HST9081",
+      "code": "HST9081",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 10,
+      "hours": 150,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "HST9044",
+        "HST9064"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST9044"
+          },
+          {
+            "kind": "course",
+            "code": "HST9064"
+          }
+        ]
+      },
+      "syllabus": "Construçãodeprojetoqueculminaráno Trabalho de Conclusão de Curso. Trabalhometodológicodelevantamentoe análise de fontes. Redação inicial do Trabalho de Conclusão de Curso"
+    },
+    {
+      "id": "HST9082",
+      "code": "HST9082",
+      "name": "Estágio Supervisionado de História I",
+      "credits": 16,
+      "hours": 240,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "HST9035",
+        "HST9053"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST9035"
+          },
+          {
+            "kind": "course",
+            "code": "HST9053"
+          }
+        ]
+      },
+      "syllabus": "Estágio Supervisionado de História I"
+    },
+    {
+      "id": "HST9083",
+      "code": "HST9083",
+      "name": "Educação Especial (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 15
+      },
+      "prerequisiteHours": 15,
+      "syllabus": "Compreender os aspectos históricos que pontuam a educação e a educação especial no Brasil; discutir os processos e procedimentos de ensino e aprendizagem sob diversas óticas e sua contribuição para a formação e atuação dos futuros professores de educação especial. Ementa: Busca da compreensão da concepção de educação, importância do estudo da história da educação, e a caracterização das principais abordagens teóricas em educação. Análise da percepção histórica acerca da educação e a educação na contemporaneidade."
+    },
+    {
+      "id": "HST9084",
+      "code": "HST9084",
+      "name": "História Pública I (Ext. 150h-a)",
+      "credits": 10,
+      "hours": 150,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9084
+      },
+      "prerequisiteHours": 9084,
+      "syllabus": "A disciplina propõe o estudo de experiências de difusão do conhecimento histórico para públicos não acadêmicos. Na mesma medida, busca também reconhecer e refletir sobre a importância das demandas sociais de memória na orientação das práticas de pesquisa historiográficas. O curso sugere, como pano de fundo, a problematização da função social da história, levando em consideração a inserção acadêmica no espaço público, a diversidade das formas de relacionamento com o passado e os preceitos éticos e epistemológicos que garantem a caracterização do discurso científico."
+    },
+    {
+      "id": "HST9091",
+      "code": "HST9091",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 10,
+      "hours": 150,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "HST9081"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST9081"
+          },
+          {
+            "kind": "hours",
+            "hours": 10
+          }
+        ]
+      },
+      "prerequisiteHours": 10,
+      "syllabus": "Elaboração e defesa do Trabalho de Conclusão de Curso e comprovaçãodasAtividades Complementares de 75 horas-aula (90 horas)."
+    },
+    {
+      "id": "HST9092",
+      "code": "HST9092",
+      "name": "Estágio Supervisionado de História II",
+      "credits": 16,
+      "hours": 240,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "HST9082"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST9082"
+          },
+          {
+            "kind": "hours",
+            "hours": 16
+          }
+        ]
+      },
+      "prerequisiteHours": 16,
+      "syllabus": "Implementação do projeto de ensino e planos de aulas. Participação no conjunto dasatividadesdocampodeestágio. Sistematização e socialização do estágio."
+    },
+    {
+      "id": "HST9093",
+      "code": "HST9093",
+      "name": "Educação Ambiental (PCC 35h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 35
+      },
+      "prerequisiteHours": 35,
+      "syllabus": "A produção do discurso histórico nas narrativas visuais. Reflexão histórica através de narrativas visuais. Construção de práticas escolares."
+    },
+    {
+      "id": "HST9094",
+      "code": "HST9094",
+      "name": "História Pública II (Ext.150h-a)",
+      "credits": 10,
+      "hours": 150,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9094
+      },
+      "prerequisiteHours": 9094,
+      "syllabus": "A disciplina propõe o estudo de experiências de difusão do conhecimento histórico para públicos não acadêmicos. Na mesma medida, busca também reconhecer e refletir sobre a importância das demandas sociais de memória na orientação das práticas de pesquisa historiográficas. O curso sugere, como pano de fundo, a problematização da função social da história, levando em consideração a inserção acadêmica no espaço público, a diversidade das formas de relacionamento com o passado e os preceitos éticos e epistemológicos que garantem a caracterização do discurso científico."
+    },
+    {
+      "id": "HST9101",
+      "code": "HST9101",
+      "name": "História da Arte (PCC 15h-a)",
+      "credits": 5,
+      "hours": 75,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9101
+      },
+      "prerequisiteHours": 9101,
+      "syllabus": "Estudo dos problemas da arte em diferentes épocas e sociedades e das abordagens teórico-metodológicas para a decodificação de imagens no âmbito da pesquisa e ensino da História."
+    },
+    {
+      "id": "HST9102",
+      "code": "HST9102",
+      "name": "Tópico Especial: Introdução à Micro-",
+      "credits": 5,
+      "hours": 75,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Esta disciplina se propõe discutir, através de seminários, leituras temáticas dirigidas e oficinas de pesquisa, as dimensões historiográficas, teóricas e metodológicas da micro-análise histórica, com ênfase particular nas contribuições da micro-história italiana."
+    },
+    {
+      "id": "HST9103",
+      "code": "HST9103",
+      "name": "Tópico Especial: Historiografia Antiga",
+      "credits": 5,
+      "hours": 75,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Análise Histórica (PCC 15h-a) Estudo avançados em História e Historiografia da Antiguidade."
+    },
+    {
+      "id": "HST9104",
+      "code": "HST9104",
+      "name": "Tópico Especial: Historiografia Medieval",
+      "credits": 5,
+      "hours": 75,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 15h-a) Aprofundamento nos estudos de temas da historiografia e da História do período medieval."
+    },
+    {
+      "id": "HST9105",
+      "code": "HST9105",
+      "name": "Tópico Especial: História da América (PCC",
+      "credits": 5,
+      "hours": 75,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 15h-a) Estudos avançados em História e historiografia da América."
+    },
+    {
+      "id": "HST9106",
+      "code": "HST9106",
+      "name": "Tópico Especial: Historiografia do Brasil",
+      "credits": 5,
+      "hours": 75,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "15h-a) Estudos avançados em História e Historiografia do Brasil."
+    },
+    {
+      "id": "HST9107",
+      "code": "HST9107",
+      "name": "Tópico Especial: História Moderna (PCC",
+      "credits": 5,
+      "hours": 75,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 15h-a) Estudos avançados em história e historiografia do período Moderno."
+    },
+    {
+      "id": "HST9108",
+      "code": "HST9108",
+      "name": "Tópico Especial: História contemporânea",
+      "credits": 5,
+      "hours": 75,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "15h-a) Estudos avançados em história e historiografia do período Contemporâneo."
+    },
+    {
+      "id": "HST9100",
+      "code": "HST9100",
+      "name": "Atividade Complementar",
+      "credits": 5,
+      "hours": 75,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividade Complementar"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "HST9011",
+      "HST9012",
+      "HST9013",
+      "HST9014",
+      "HST9015",
+      "HST9021",
+      "HST9022",
+      "HST9023",
+      "HST9024",
+      "HST9031",
+      "HST9032",
+      "HST9033",
+      "HST9034",
+      "HST9035",
+      "HST9041",
+      "HST9042",
+      "HST9043",
+      "HST9044",
+      "HST9051",
+      "HST9052",
+      "HST9053",
+      "HST9054",
+      "HST9055",
+      "HST9061",
+      "HST9062",
+      "HST9063",
+      "HST9064",
+      "HST9071",
+      "HST9072",
+      "LSB9970",
+      "PSI9070",
+      "HST9081",
+      "HST9082",
+      "HST9083",
+      "HST9084",
+      "HST9091",
+      "HST9092",
+      "HST9093",
+      "HST9094"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 225,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "HST9101",
+              "HST9102",
+              "HST9103",
+              "HST9104",
+              "HST9105",
+              "HST9106",
+              "HST9107",
+              "HST9108",
+              "HST9100"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "716",
+    "curriculumCode": "20251",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=716&curriculo=20251",
+    "sha256": "9aaaa5d3d1b967155f69338344720badec1e4f1ae58fa9b3a4c86774d5f25a1a",
+    "capturedAt": "2026-09-22"
+  }
+}

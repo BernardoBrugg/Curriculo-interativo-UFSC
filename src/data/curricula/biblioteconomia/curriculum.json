@@ -1,0 +1,1798 @@
+{
+  "program": "BIBLIOTECONOMIA (noturno)",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2016.1",
+  "totalHours": 2988,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CIN5001",
+      "code": "CIN5001",
+      "name": "Fundamentos de Biblioteconomia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Busca a compreensão do texto sócio-econômico, dos aportes teóricos e da ambiência ocupacional no qual os profissionais da informação exercem seus papéis, desenvolvem competências, constroem e reconstroem conhecimentos."
+    },
+    {
+      "id": "CIN7139",
+      "code": "CIN7139",
+      "name": "Introdução às Tecnologias da Informação e Comunicação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5018"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5018"
+      },
+      "syllabus": "Introdução aos sistemas de informação. Fundamentos das tecnologias da informação e comunicação. Hardware (componentes, tecnologia de armazenamento, tecnologia de entrada e saída), software (tipos, gerações) e redes de computadores. Editores de texto. Planilhas eletrônicas. Instalação e configuração de programas."
+    },
+    {
+      "id": "CIN7140",
+      "code": "CIN7140",
+      "name": "Pesquisa Bibliográfica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5002",
+        "CIN5100"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN5002"
+          },
+          {
+            "kind": "course",
+            "code": "CIN5100"
+          }
+        ]
+      },
+      "syllabus": "Comunicação científica. Introdução às fontes de informação. Caracterização da pesquisa científica. Pesquisa bibliográfica: métodos, técnicas e normalização. Elaboração de projeto e relatório de Pesquisa Bibliográfica."
+    },
+    {
+      "id": "CIN7141",
+      "code": "CIN7141",
+      "name": "Lógica Instrumental I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5043"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5043"
+      },
+      "syllabus": "Introdução ao Raciocínio Lógico-Matemático. Teoria de Conjuntos. Lógica Proposicional. Cálculo de Predicados. Análise e Validação de Argumentos. Introdução ao Pensamento Dedutivo."
+    },
+    {
+      "id": "CIN7142",
+      "code": "CIN7142",
+      "name": "Evolução do Pensamento Filosófico e Científico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN7106"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN7106"
+      },
+      "syllabus": "Estudo das principais formas históricas do discurso filosófico e científico no Ocidente, desde as primeiras manifestações gregas até a atualidade."
+    },
+    {
+      "id": "CIN7143",
+      "code": "CIN7143",
+      "name": "Empreendedorismo I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN7137"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN7137"
+      },
+      "syllabus": "Fundamentos do empreendedorismo. Características e perfil do empreendedor. Ações empreendedoras."
+    },
+    {
+      "id": "CIN7144",
+      "code": "CIN7144",
+      "name": "Tutoria Acadêmica I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A UFSC. PRAE. PROGRAD. DAE. Bolsas e auxílios. Bolsa Estudantil. Permanência e êxito. PPC do Curso. Centro acadêmico. DCE. Resolução 017/Cun/97. Restaurante Universitário. Biblioteca Universitária. CAGR. Sistema de Matrículas e ajuste de matrícula."
+    },
+    {
+      "id": "LLV7802",
+      "code": "LLV7802",
+      "name": "Leitura e Produção do Texto",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens teóricas sobre leitura e concepções de leitura correlatas. Níveis, estratégias e práticas de leitura. Fatores de textualização/textualidade, regras de coerência e referenciação. Condições de produção textual e particularidades de gêneros do discurso."
+    },
+    {
+      "id": "CAD5103",
+      "code": "CAD5103",
+      "name": "Administração I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CAD7001"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAD7001"
+      },
+      "syllabus": "Origem da administração como ciência. As funções administrativas: planejamento, organização, coordenação, comando e controle."
+    },
+    {
+      "id": "CIN7201",
+      "code": "CIN7201",
+      "name": "Sistemas de Organização do Conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aborda os aspectos introdutórios sobre teorias e metodologias dos Sistemas de Organização do Conhecimento (SOC), utilizados para a organização e recuperação da informação: classificações, tesauros, taxonomias e ontologias."
+    },
+    {
+      "id": "CIN7202",
+      "code": "CIN7202",
+      "name": "Sociedade da Informação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sociedade da informação e economia do conhecimento. Cibercultura. Convergência digital. Governo eletrônico e governança eletrônica. Organizações em rede. Redes sociais."
+    },
+    {
+      "id": "CIN7203",
+      "code": "CIN7203",
+      "name": "Ética Profissional",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5026",
+        "CIN7107"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN5026"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7107"
+          }
+        ]
+      },
+      "syllabus": "Ética: conceito e objeto. As questões éticas e a atuação profissional. Legislação."
+    },
+    {
+      "id": "CIN7204",
+      "code": "CIN7204",
+      "name": "Tutoria Acadêmica II",
+      "credits": 1,
+      "hours": 18,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estágios. Atividades Complementares. Critérios de escolha de disciplinas optativas. Projeto profissional. Oportunidades no exterior. Mobilidade. Projetos de Pesquisa, Extensão, Monitoria. Ouvidoria. Retornos e transferências. Apoio psicológico na PRAE. Exame de Avaliação de Aproveitamento Extraordinário de Estudos."
+    },
+    {
+      "id": "CIN7205",
+      "code": "CIN7205",
+      "name": "Recuperação da Informação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5012"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5012"
+      },
+      "syllabus": "Os sistemas de recuperação de informação, as gerações, as lógicas, os recursos e as estratégias de busca em bases de dados. Recuperação da informação na Web, dos motores de busca, dos diretórios e dos metabuscadores."
+    },
+    {
+      "id": "CIN7206",
+      "code": "CIN7206",
+      "name": "Fontes Gerais de Informação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5004"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5004"
+      },
+      "syllabus": "Controle bibliográfico universal e nacional. Introdução às fontes de informação. Tipologia e finalidade das fontes de informação. Análise e avaliação das fontes de informação gerais."
+    },
+    {
+      "id": "CIN7301",
+      "code": "CIN7301",
+      "name": "Introdução à Representação Temática",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Análise da Informação. Indexação - tipologia, instrumentos e metodologias. Aborda aspectos introdutórios da Recuperação da Informação."
+    },
+    {
+      "id": "CIN7302",
+      "code": "CIN7302",
+      "name": "Introdução à Representação Descritiva",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos teóricos, metodológicos e princípios norteadores da representação descritiva. Elementos, níveis e instrumentos de pesquisa da representação descritiva. Normas e padrões da representação descritiva e suas aplicações nos recursos informacionais."
+    },
+    {
+      "id": "CIN7303",
+      "code": "CIN7303",
+      "name": "Metodologia da Pesquisa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN7114"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN7114"
+      },
+      "syllabus": "Aborda os conceitos sócio históricos de ciência, conhecimento, pesquisa e comunicação científica. Trata dos métodos e técnicas da pesquisa social e da elaboração do projeto e execução da pesquisa até sua etapa conclusiva de elaboração do relatório final."
+    },
+    {
+      "id": "CIN7304",
+      "code": "CIN7304",
+      "name": "Introdução à Bancos de Dados",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Banco de Dados. Sistemas Gerenciadores de Bancos de Dados. Bancos de Dados e Bases de Dados. Projeto de Banco de Dados."
+    },
+    {
+      "id": "CIN7306",
+      "code": "CIN7306",
+      "name": "Competência Informacional",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5054"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5054"
+      },
+      "syllabus": "Aspectos conceituais, históricos e metodológicos da competência informacional. Dimensões da competência informacional. Programas e modelos de desenvolvimento da competência informacional."
+    },
+    {
+      "id": "CIN7309",
+      "code": "CIN7309",
+      "name": "Gestão de Processos Organizacionais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CAD5213"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAD5213"
+      },
+      "syllabus": "Gestão dos processos como uma abordagem na gestão das organizações. Conceitos básicos da gestão dos processos: conceitos e classificação. Principais processos nas organizações. Tecnologias orientadas para otimização de processos organizacionais. Mapeamento de Processos. Desenho, arranjo físico, análise de fluxos e a gestão dos processos. Padronização, manualização e tecnologia da informação nos processos. O papel dos processos na Gestão da Qualidade. Inovação e metodologias de análise e melhoria de processos."
+    },
+    {
+      "id": "CIN7936",
+      "code": "CIN7936",
+      "name": "Proteção de Dados Pessoais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções Gerais de Ética. Introdução aos conceitos de ordenamento jurídico, Poder Judiciário e Marco Civil da Internet. Conceitos Básicos da Lei Geral de Proteção de Dados. O Tratamento de Dados Pessoais. Os Direitos do Titular. A Transferência Internacional de Dados. Os Agentes de Tratamento de Dados Pessoais. A Segurança de dados e as Boas Práticas. Ressarcimento de Danos e Sanções Administrativas."
+    },
+    {
+      "id": "HST7921",
+      "code": "HST7921",
+      "name": "História do Brasil Contemporâneo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7921
+      },
+      "prerequisiteHours": 7921,
+      "syllabus": "A formação do Brasil Contemporâneo: Da 1ª República à Ditadura Militar. A redemocratização e o Brasil atual: Temas e questões contemporâneas."
+    },
+    {
+      "id": "CIN7401",
+      "code": "CIN7401",
+      "name": "Estudos Métricos da Informação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5049",
+        "CIN7135"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN5049"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7135"
+          }
+        ]
+      },
+      "syllabus": "Teoria e prática dos estudos métricos desde sua origem e seus principais representantes no âmbito mundial, nacional e acadêmico na Ciência da Informação. Compreensão dos fenômenos estatísticos na informação científica e tecnológica, dando suporte básico para os discentes entenderem o contexto dos estudos métricos. Apresentar sistemas consolidados de medição da Ciência e da Tecnologia, bem como a quantificação da informação bibliográfica/documental."
+    },
+    {
+      "id": "CIN7402",
+      "code": "CIN7402",
+      "name": "Editoração Científica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5034"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5034"
+      },
+      "syllabus": "Processo da comunicação científica e seus atores. Organização e arquivamento de periódicos científicos. Recursos e instrumentos para editoração de periódicos científicos."
+    },
+    {
+      "id": "CIN7403",
+      "code": "CIN7403",
+      "name": "Acessibilidade e Inclusão Digital",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo dos processos de inclusão/exclusão social pela interface digital. Potencial inclusivo das Tecnologias de Informação e de Comunicação (TICs) na sociedade contemporânea. Normas e padrões internacionais sobre acessibilidade; estudo de tecnologia assistiva e de outras inovações tecnológicas que visem à inclusão social da pessoa com deficiência."
+    },
+    {
+      "id": "CIN7404",
+      "code": "CIN7404",
+      "name": "Planejamento Estratégico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5016",
+        "CIN7108"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN5016"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7108"
+          }
+        ]
+      },
+      "syllabus": "Introdução ao Planejamento Estratégico. Elementos para o Planejamento Estratégico. Balanced Scorecard (BSC). Elaboração do Planejamento Estratégico. Avaliação do Planejamento Estratégico"
+    },
+    {
+      "id": "CIN7405",
+      "code": "CIN7405",
+      "name": "Projeto de Informatização",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5018",
+        "CIN7111"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN5018"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7111"
+          }
+        ]
+      },
+      "syllabus": "Aborda a unidade de informação como sistema, seus núcleos de atividades, suas funções e tarefas, e as motivações para sua informatização. Planeja a informatização de uma unidade de informação, a partir da escolha de soluções e de aquisição de programas ou do desenvolvimento de sistemas próprios."
+    },
+    {
+      "id": "CIN7406",
+      "code": "CIN7406",
+      "name": "Preservação Digital",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN7130"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN7130"
+      },
+      "syllabus": "Preservação digital. Estratégias estruturais: adoção de padrões; elaboração de normas e manuais; metadados de preservação digital; montagem de infraestrutura; formação de consórcios e parcerias. Estratégias Operacionais: migração; emulação; preservação de tecnologia; encapsulamento. Modelos de referência e projetos."
+    },
+    {
+      "id": "CIN7410",
+      "code": "CIN7410",
+      "name": "Laboratório de Empreendimentos Sociais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN7307",
+        "CIN7408"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN7307"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7408"
+          }
+        ]
+      },
+      "syllabus": "Disciplina de natureza teórico-prático-reflexiva que desenvolve atividades de integração entre academia e a sociedade civil onde se possa estabelecer uma relação dialógica e contribuir para a implantação da meta 12.7 do Plano Nacional de educação . Desenvolver atividades de concepção, planejamento e execução de programas, projetos e ações de extensão em diferentes realidades sociais e a partir de um referencial sóciocultural."
+    },
+    {
+      "id": "CIN7412",
+      "code": "CIN7412",
+      "name": "Marketing da Informação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN7407"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN7407"
+      },
+      "syllabus": "Conceitos básicos de Marketing aplicados à Ciência da Informação. O composto de Marketing de produtos e serviços. Coleta e análise de informações no ambiente em Marketing. Plano de marketing."
+    },
+    {
+      "id": "INE5111",
+      "code": "INE5111",
+      "name": "Estatística Aplicada I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estatística descritiva. Elaboração de instrumentos de pesquisa. Noções de probabilidade. Uso das principais distribuições de probabilidade. Tópicos de inferência de estatística."
+    },
+    {
+      "id": "CIN7506",
+      "code": "CIN7506",
+      "name": "Representação Descritiva I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN7302"
+      ],
+      "equivalents": [
+        "CIN5006"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN7302"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5006"
+      },
+      "syllabus": "Códigos e normas de catalogação. Programas de catalogação. Padrões e formatos de descrição para intercâmbio. Catálogos. Representação descritiva de livros, folhetos e folhas soltas impressas."
+    },
+    {
+      "id": "CIN7507",
+      "code": "CIN7507",
+      "name": "Sisitemas de Classificação",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN7201",
+        "CIN7301"
+      ],
+      "equivalents": [
+        "CIN5013"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN7201"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5013"
+      },
+      "syllabus": "Caracterização das diferentes tabelas de classificação e seus dispositivos de construção das notações. Práticas da Classificação Decimal de Dewey (CDD), da Classificação Decimal Universal (CDU) e da notação de autor."
+    },
+    {
+      "id": "CIN7508",
+      "code": "CIN7508",
+      "name": "Fontes Especializadas de Informação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5008"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5008"
+      },
+      "syllabus": "Análise e avaliação de fontes especializadas de informação."
+    },
+    {
+      "id": "CIN7509",
+      "code": "CIN7509",
+      "name": "Estudos de Usuários",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5020"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5020"
+      },
+      "syllabus": "Caracterização de Usuários. Execução de Estudo de usuários. Relatório de estudo de usuários."
+    },
+    {
+      "id": "PSI5112",
+      "code": "PSI5112",
+      "name": "Relações Humanas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A personalidade humana. Os grupos e sua dinâmica, a comunicação e seus problemas."
+    },
+    {
+      "id": "CIN7605",
+      "code": "CIN7605",
+      "name": "Representação Descritiva II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN7506"
+      ],
+      "equivalents": [
+        "CIN5010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN7506"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5010"
+      },
+      "syllabus": "Estudo teórico e prático dos pontos de acesso, segundo o AACR2R e as novas regras vigentes de catalogação"
+    },
+    {
+      "id": "CIN7606",
+      "code": "CIN7606",
+      "name": "Organização de Bibliotecas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5019"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5019"
+      },
+      "syllabus": "Estrutura organizacional das bibliotecas. Os fluxos de trabalho nas bibliotecas. Estruturação do espaço físico de bibliotecas. Elaboração de manuais, normas de procedimentos e relatórios em Bibliotecas."
+    },
+    {
+      "id": "CIN7607",
+      "code": "CIN7607",
+      "name": "Indexação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN7201"
+      ],
+      "equivalents": [
+        "CIN5014"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN7201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5014"
+      },
+      "syllabus": "Aborda aspectos teóricos e metodológicos da Indexação. Trata da tipologia de indexação, índices e resumos. Aplica prática da indexação, elaboração de índices e resumos."
+    },
+    {
+      "id": "CIN7608",
+      "code": "CIN7608",
+      "name": "Formação e Desenvolvimento de Coleções",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5024"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5024"
+      },
+      "syllabus": "Processo de desenvolvimento de coleções. Princípios para formação e desenvolvimento de coleções. Políticas, métodos, técnicas e procedimentos aplicáveis ao processo."
+    },
+    {
+      "id": "JOR5300",
+      "code": "JOR5300",
+      "name": "Comunicação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Progressos sociais e processos de comunicação. Comunicação, abordagem teórica das condições de produção, circulação e consumo de mensagem. As políticas que determinam e condicionam o processo da informação."
+    },
+    {
+      "id": "CIN7702",
+      "code": "CIN7702",
+      "name": "Práticas de Tratamento de Informação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN7507",
+        "CIN7605",
+        "CIN7606",
+        "CIN7607"
+      ],
+      "equivalents": [
+        "CIN7702"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN7507"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7605"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7606"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7607"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN7702"
+      },
+      "syllabus": "Práticas de registro, catalogação, classificação, indexação e preparo para circulação. Uso de sistemas informatizados."
+    },
+    {
+      "id": "CIN7703",
+      "code": "CIN7703",
+      "name": "Referência e Serviços de Informação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIN5022",
+        "CIN5023"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN5022"
+          },
+          {
+            "kind": "course",
+            "code": "CIN5023"
+          }
+        ]
+      },
+      "syllabus": "Processo de referência. Serviços de referência em diversos suportes. Redes e sistemas de informação nacionais e internacionais. Produtos e dos serviços de disseminação da informação. Competências do bibliotecário de referência."
+    },
+    {
+      "id": "CIN7704",
+      "code": "CIN7704",
+      "name": "Projeto de Pesquisa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CAD7213",
+        "CIN7139",
+        "CIN7140",
+        "CIN7141",
+        "CIN7142",
+        "CIN7143",
+        "CIN7144",
+        "CIN7201",
+        "CIN7202",
+        "CIN7203",
+        "CIN7204",
+        "CIN7205",
+        "CIN7206",
+        "CIN7301",
+        "CIN7302",
+        "CIN7303",
+        "CIN7304",
+        "CIN7306",
+        "CIN7401",
+        "CIN7402",
+        "CIN7403",
+        "CIN7404",
+        "CIN7405",
+        "CIN7406",
+        "CIN7408",
+        "CIN7506",
+        "CIN7507",
+        "CIN7605",
+        "CIN7606"
+      ],
+      "equivalents": [
+        "CIN5027"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAD7213"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7139"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7140"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7141"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7142"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7143"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7144"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7201"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7202"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7203"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7204"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7205"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7206"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7301"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7302"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7303"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7304"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7306"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7401"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7402"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7403"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7404"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7405"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7406"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7408"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7506"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7507"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7605"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7606"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5027"
+      },
+      "syllabus": "Elaboração do projeto de pesquisa."
+    },
+    {
+      "id": "CIN7705",
+      "code": "CIN7705",
+      "name": "Publicação Bibliográfica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Publicação bibliográfica: histórico e organização. Processo editorial de publicações bibliográficas impressas e digitais. Mercado nacional e internacional da publicação bibliográfica. Depósito legal e direitos autorais. Recursos e instrumentos para editoração e preservação de publicação bibliográfica."
+    },
+    {
+      "id": "CIN7706",
+      "code": "CIN7706",
+      "name": "Tratamentos de Multimeios",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN7302",
+        "CIN7605"
+      ],
+      "equivalents": [
+        "CIN5010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIN7302"
+          },
+          {
+            "kind": "course",
+            "code": "CIN7605"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5010"
+      },
+      "syllabus": "Os diferentes suportes da informação. Caracterização e descrição dos multimeios: aplicação de normas vigentes da catalogação descritiva e escolha de pontos de acesso."
+    },
+    {
+      "id": "CIN7801",
+      "code": "CIN7801",
+      "name": "Trabalho de Conclusão de Curso",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN7704"
+      ],
+      "equivalents": [
+        "CIN5052"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN7704"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5052"
+      },
+      "syllabus": "Coleta, tratamento e análise de dados. Elaboração de artigo científico. Apresentação de artigo científico."
+    },
+    {
+      "id": "CIN7802",
+      "code": "CIN7802",
+      "name": "Estágio Supervisionado",
+      "credits": 16,
+      "hours": 288,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CIN7702"
+      ],
+      "equivalents": [
+        "CIN5050"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIN7702"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIN5050"
+      },
+      "syllabus": "Plano de atividades. Prática supervisionada em unidades de informação credenciadas na UFSC. Redação e apresentação de relatório de estágio."
+    },
+    {
+      "id": "CIN7138",
+      "code": "CIN7138",
+      "name": "Introdução à Ciência da Informação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplinas Optativas Busca identificar a perspectiva histórico/social da Ciência da Informação no mundo e no Brasil. Compreender os aportes teóricos e seus pioneiros. Inserção da Ciência da Informação nas Ciências Sociais Aplicadas segundo seu objeto de estudo, suas teorias e sua interdisciplinaridade."
+    },
+    {
+      "id": "CIN7919",
+      "code": "CIN7919",
+      "name": "Informação, Direito e Cidadania",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo da cidadania como categoria jurídica e política em transformação. Análise da relação entre cidadania, Estado e espaço público. Cidadania e gestão liberal. Cidadania e Estado de Bem-Estar Social. Cidadania e Estado brasileiro. Participação popular e razão comunicativa."
+    },
+    {
+      "id": "CIN7920",
+      "code": "CIN7920",
+      "name": "Informação Tecnológica e Inovação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Propriedade Intelectual e Inovação. Marcas e Patentes. Regime Jurídico da Ciência, Tecnologia e Inovação no Brasil. Marco Civil da Internet. Lei de Acesso à Informação."
+    },
+    {
+      "id": "CIN7921",
+      "code": "CIN7921",
+      "name": "Marketing em Arquivo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Marketing: histórico e evolução. Marketing técnicas e funções. Marketing aplicado em Arquivo. Plano de Marketing. Auditoria do Marketing. Endomarketing."
+    },
+    {
+      "id": "CIN7922",
+      "code": "CIN7922",
+      "name": "Direito na Gestão da Inovação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aborda a relação entre o ordenamento jurídico, o processo de inovação e suas interfaces com a ciência da informação em três dimensões normativas específicas. A primeira é o Marco Civil da Internet (Lei 12.965/14), destacando-se o acesso à informação (Lei 12,527/2011) e ao conhecimento. A segunda dimensão normativa são os marcos legais do Sistema Nacional de Inovação, destacando-se a Emenda Constitucional n° 85/2015 e a Lei 13.243/16 (Novo Marco Legal da Ciência, Tecnologia e Inovação). Já a terceira dimensão normativa refere-se ao Instituto da Propriedade Intelectual, mais especificamente o instituto jurídico da Propriedade Industrial (Patentes e Registro) e os Direitos Intelectuais sui generis (Software, topografia dos circuitos integrados e cultivares)."
+    },
+    {
+      "id": "CIN7924",
+      "code": "CIN7924",
+      "name": "Tipologia de Bibliotecas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tipos de bibliotecas. Conceituação, características e serviços das diferentes bibliotecas."
+    },
+    {
+      "id": "CIN7925",
+      "code": "CIN7925",
+      "name": "Introdução a Algoritmos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Decomposição e estruturação de problemas lógicos. Desenvolvimento introdutório de algoritmos. Prática de resolução de problemas por meio de algoritmos."
+    },
+    {
+      "id": "CIN7926",
+      "code": "CIN7926",
+      "name": "Informação e Cultura Popular",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN7927",
+      "code": "CIN7927",
+      "name": "Gestão da Informação Pública",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aborda práticas de políticas e regime de acesso e disseminação da Informação Pública para fins de controle social e outros. Formas de publicidade, transparência e gerenciamento de informações públicas. Meios de divulgação, acesso e uso de informações governamentais para transparência ativa. Políticas de dados abertos."
+    },
+    {
+      "id": "CIN7928",
+      "code": "CIN7928",
+      "name": "Tópicos Especiais em Informação e Tecnologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução e conceitos da comunicação dados. Modelos de referência. Roteamento de dados. Introdução à Segurança da Informação. Estudo de casos."
+    },
+    {
+      "id": "CIN7948",
+      "code": "CIN7948",
+      "name": "Profissional da Informação nas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN7951",
+      "code": "CIN7951",
+      "name": "O Marco Legal das Startups e o Marco",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Humanidades Digitais Aborda a relação entre o ordenamento jurídico, o processo de inovação e suas interfaces com a ciência da informação em quatro dimensões normativas específicas. A Primeira dimensão normativa são os marcos legais do Sistema Nacional de Inovação, destacando-se a Emenda Constitucional n° 85/2015, a Lei 13.243/16 (Novo Marco Legal da Ciência, Tecnologia e Inovação) e o Decreto 9.283/18. A Segunda dimensão normativa refere-se ao Instituto da Propriedade Intelectual, mais especificamente o instituto jurídico da Propriedade Industrial (Patentes e Registro) e os Direitos Intelectuais sui generis (Software, topografia dos circuitos integrados e cultivares). A terceira dimensão refere-se ao Novo Marco Legal das Startups (Lei Complementar n°. 182/2021) e sua relação com o empreendedorismo inovador. Por fim, a quarta dimensão traz o Marco Civil da Internet e sua interface com a inovação."
+    },
+    {
+      "id": "EGC5028",
+      "code": "EGC5028",
+      "name": "Habitats de Inovação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5028
+      },
+      "prerequisiteHours": 5028,
+      "syllabus": "Legal da Ciência, Tecnologia e Inovação: interfaces entre direi Sistemas de ciência, tecnologia e inovação. A tríplice hélice. Cooperação universidade empresa. Redes de cooperação. Habitats de inovação."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "CIN5055",
+      "code": "CIN5055",
+      "name": "Atividades Extra-classe - Eventos I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5056",
+      "code": "CIN5056",
+      "name": "Atividades Extra-classe - Eventos II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5057",
+      "code": "CIN5057",
+      "name": "Atividades Extra-classe - Pesquisa I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5058",
+      "code": "CIN5058",
+      "name": "Atividades Extra-classe - Pesquisa II",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5059",
+      "code": "CIN5059",
+      "name": "Atividades Extra-classe - Pesquisa III",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5060",
+      "code": "CIN5060",
+      "name": "Atividades Extra-classe - Extensão I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5061",
+      "code": "CIN5061",
+      "name": "Atividades Extra-classe - Extensão II",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5062",
+      "code": "CIN5062",
+      "name": "Atividades Extra-classe - Monitoria",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5063",
+      "code": "CIN5063",
+      "name": "Atividades Extra-classe - Estágio I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5064",
+      "code": "CIN5064",
+      "name": "Atividades Extra-classe - Estágio II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5065",
+      "code": "CIN5065",
+      "name": "Atividades Extra-classe - Cursos",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5066",
+      "code": "CIN5066",
+      "name": "Atividades Extra-classe - Cursos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5067",
+      "code": "CIN5067",
+      "name": "Atividades Extra-classe - Organizações",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5068",
+      "code": "CIN5068",
+      "name": "Atividades Extra-classe - Empresa Júnior",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5069",
+      "code": "CIN5069",
+      "name": "Atividades Extraclasse: Comissões, Colegiados na UFSC",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIN5030",
+      "code": "CIN5030",
+      "name": "Biblioteca Digital",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aborda os conceitos e características da biblioteca digital, sua organização e infra-estrutura técnica. Trata dos formatos digitais, da digitalização de documentos, das políticas e projetos de bibliotecas digitais nacionais e internacionais. Direitos autorais, propriedade intelectual e licenciamento de softwares."
+    },
+    {
+      "id": "CIN5031",
+      "code": "CIN5031",
+      "name": "Biblioteca Virtual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aborda os conceitos, características e estruturas da biblioteca virtual, os portais verticais e vortais. Trata da organização e administração da informação em rede computadores, e das políticas e projetos de bibliotecas virtuais temáticas nacionais e internacionais."
+    },
+    {
+      "id": "CIN5032",
+      "code": "CIN5032",
+      "name": "Biblioterapia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitua e apresenta o fundamento filosófico da biblioterapia. Aponta os objetivos e aplicações da biblioterapia. Apresenta o método biblioterapêutico."
+    },
+    {
+      "id": "CIN5035",
+      "code": "CIN5035",
+      "name": "Informação e Cidadania",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Trata do Estado e da garantia dos direitos do cidadão e da coletividade à informação e comunicação."
+    },
+    {
+      "id": "CIN5036",
+      "code": "CIN5036",
+      "name": "Informação Literária",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Trata das fontes literárias e do atendimento ao usuário, incorporando a conceituação de literatura, o conhecimento dos gêneros e movimentos literários e dos autores representativos dos vários movimentos no Brasil."
+    },
+    {
+      "id": "CIN5037",
+      "code": "CIN5037",
+      "name": "Informação para a Empresa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A informação na empresa: identificação de necessidades, tipologia de informação na empresa, fluxos e usos. Fontes, serviços e produtos de informação para negócios. Fontes, serviços e produtos de informação para empresas."
+    },
+    {
+      "id": "CIN5038",
+      "code": "CIN5038",
+      "name": "Leitura e Informação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apresenta as principais definições de leitura. Apresenta aspectos cognitivos da leitura. Estuda as diferentes modalidades e estratégias de leitura. Apresenta a leitura como um processo de construção de significados. Discute o papel social da leitura e da informação. Relaciona a leitura com o processo de recuperação e disseminação de informações. Discute o papel do bibliotecário na formação do leitor."
+    },
+    {
+      "id": "CIN5039",
+      "code": "CIN5039",
+      "name": "Tópicos Especiais/Biblioteconomia/Ciência",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aborda temas emergentes na área de Fundamentos teóricos da Biblioteconomia e Ciência da Informação."
+    },
+    {
+      "id": "CIN5041",
+      "code": "CIN5041",
+      "name": "Tópicos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "da Informação: Fundamentos Aborda temas emergentes na área de Organização e Tratamento da Informação."
+    },
+    {
+      "id": "CIN5042",
+      "code": "CIN5042",
+      "name": "Tópicos Especiais/Biblioteconomia/Ciência",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Especiais/Biblioteconomia/Ciência/Informa ção: Recursos e Serviços Aborda temas emergentes na área de Gestão da Informação."
+    },
+    {
+      "id": "CIN5043",
+      "code": "CIN5043",
+      "name": "Tópicos Especiais/Biblioteconomia/Ciência",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "da Informação: Gestão da informação Aborda temas emergentes em Tecnologias da Informação."
+    },
+    {
+      "id": "CIN5044",
+      "code": "CIN5044",
+      "name": "Unidades de Informação Gerais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "da Informação: Tecnologias-Informação Contempla o estudo dos serviços desenvolvidos em bibliotecas públicas, escolares e infantis."
+    },
+    {
+      "id": "CIN5045",
+      "code": "CIN5045",
+      "name": "Unidades de Informação Especializadas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Contempla o estudo dos serviços desenvolvidos em bibliotecas universitárias e especializadas."
+    },
+    {
+      "id": "SPO5113",
+      "code": "SPO5113",
+      "name": "Sociologia e Cultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos sociológicos e culturais. Modernidade: concepções. Pós-modernidade: concepções. Cultura de massa: conceitos. Hibridação Cultural: o caso específico da América Latina."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "CIN5001",
+      "CIN7139",
+      "CIN7140",
+      "CIN7141",
+      "CIN7142",
+      "CIN7143",
+      "CIN7144",
+      "LLV7802",
+      "CAD5103",
+      "CIN7201",
+      "CIN7202",
+      "CIN7203",
+      "CIN7204",
+      "CIN7205",
+      "CIN7206",
+      "CIN7301",
+      "CIN7302",
+      "CIN7303",
+      "CIN7304",
+      "CIN7306",
+      "CIN7309",
+      "CIN7936",
+      "HST7921",
+      "CIN7401",
+      "CIN7402",
+      "CIN7403",
+      "CIN7404",
+      "CIN7405",
+      "CIN7406",
+      "CIN7410",
+      "CIN7412",
+      "INE5111",
+      "CIN7506",
+      "CIN7507",
+      "CIN7508",
+      "CIN7509",
+      "PSI5112",
+      "CIN7605",
+      "CIN7606",
+      "CIN7607",
+      "CIN7608",
+      "JOR5300",
+      "CIN7702",
+      "CIN7703",
+      "CIN7704",
+      "CIN7705",
+      "CIN7706",
+      "CIN7801",
+      "CIN7802"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 180,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CIN7138",
+              "CIN7919",
+              "CIN7920",
+              "CIN7921",
+              "CIN7922",
+              "CIN7924",
+              "CIN7925",
+              "CIN7926",
+              "CIN7927",
+              "CIN7928",
+              "CIN7948",
+              "CIN7951",
+              "EGC5028",
+              "LSB7244",
+              "CIN5055",
+              "CIN5056",
+              "CIN5057",
+              "CIN5058",
+              "CIN5059",
+              "CIN5060",
+              "CIN5061",
+              "CIN5062",
+              "CIN5063",
+              "CIN5064",
+              "CIN5065",
+              "CIN5066",
+              "CIN5067",
+              "CIN5068",
+              "CIN5069",
+              "CIN5030",
+              "CIN5031",
+              "CIN5032",
+              "CIN5035",
+              "CIN5036",
+              "CIN5037",
+              "CIN5038",
+              "CIN5039",
+              "CIN5041",
+              "CIN5042",
+              "CIN5043",
+              "CIN5044",
+              "CIN5045",
+              "SPO5113"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "324",
+    "curriculumCode": "20161",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=324&curriculo=20161",
+    "sha256": "b983ea221adf3fc1dec80373340de259200937a1fc11d6db99fdc6503c667981",
+    "capturedAt": "2026-09-22"
+  }
+}

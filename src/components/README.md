@@ -9,7 +9,7 @@ This directory contains application-wide shared UI components used across multip
 - **`FeedbackDialog.tsx`**: Accessible modal dialog enabling students and visitors to submit feedback, bug reports, or feature requests. Features honeypot anti-spam protection and direct API integration.
 - **`ProfileMenu.tsx`**: Top navigation header dropdown displaying authenticated user profile details, theme switcher, account deletion options, and sign-out controls.
 - **`ScrollReveal.tsx`**: IntersectionObserver-powered subtle entrance animation wrapper for page sections.
-- **`SiteFooter.tsx`**: Global site footer with institutional accreditation, contact links, and copyright notices.
+- **`SiteFooter.tsx`**: Global site footer with institutional accreditation, feedback action trigger, developer links (Portfólio, GitHub, LinkedIn), and copyright notices.
 - **`ThemeToggle.tsx`**: High-contrast theme toggle switching between light and dark modes with persistent local storage preference.
 
 ## Data Flow

@@ -1,0 +1,1901 @@
+{
+  "program": "JORNALISMO",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2020.1",
+  "totalHours": 3600,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "JOR6101",
+      "code": "JOR6101",
+      "name": "Áudio e Radiojornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O som e o áudio como linguagens do jornalismo. História da mídia sonora e do radiojornalismo. Técnicas de produção jornalística em áudio e rádio: reportagem, texto, locução, entrevista, edição e pós-produção."
+    },
+    {
+      "id": "JOR6103",
+      "code": "JOR6103",
+      "name": "Fotografia e Fotojornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História da fotografia. Técnicas de registro fotográfico: linguagens e estética. Operação de câmara fotográfica e seus acessórios."
+    },
+    {
+      "id": "JOR6120",
+      "code": "JOR6120",
+      "name": "Linguagem e Texto Jornalístico I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR6106"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6106"
+      },
+      "syllabus": "Linguagem jornalística. Conceito e estrutura da notícia. Noções de noticiabilidade. Introdução à pauta e à notícia."
+    },
+    {
+      "id": "JOR6121",
+      "code": "JOR6121",
+      "name": "Iniciação ao Trabalho Acadêmico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR6105"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6105"
+      },
+      "syllabus": "Os métodos do trabalho científico. O estudo na universidade. Os recursos da biblioteca. Características e normatização do texto acadêmico."
+    },
+    {
+      "id": "JOR6127",
+      "code": "JOR6127",
+      "name": "Fundamentos e História do Jornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR6107",
+        "JOR6204"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6107"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6204"
+          }
+        ]
+      },
+      "syllabus": "História do jornalismo e sua consolidação como prática profissional. Jornalismo como instituição democrática e sua função social. Direito à informação e liberdade de expressão. Fundamentos da cultura profissional. O jornalismo como fonte histórica."
+    },
+    {
+      "id": "JOR6128",
+      "code": "JOR6128",
+      "name": "Jornalismo, Identidade, Diversidade e Gênero",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR6029"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6029"
+      },
+      "syllabus": "Identidade, diversidade, gênero, mídia e suas relações com a cultura. Interseccionalidades entre gênero, sexualidade, raça, classe, etnia e geração. Representações de identidades e minorias na mídia."
+    },
+    {
+      "id": "JOR6202",
+      "code": "JOR6202",
+      "name": "Vídeo e Telejornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História da televisão e do telejornalismo. Evolução da tecnologia e da linguagem no telejornalismo. A notícia, a reportagem e a entrevista telejornalística: bases de produção, funções, métodos e execução."
+    },
+    {
+      "id": "JOR6203",
+      "code": "JOR6203",
+      "name": "Laboratório de Fotojornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6103"
+      },
+      "syllabus": "História do fotojornalismo. Gêneros e produtos fotojornalísticos. Concepção, planejamento, execução e avaliação de projetos em fotojornalismo para publicação efetiva."
+    },
+    {
+      "id": "JOR6211",
+      "code": "JOR6211",
+      "name": "Laboratório de Áudio e Radiojornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6101"
+      },
+      "syllabus": "Concepção, planejamento, execução e avaliação de programas laboratoriais de áudio e radiojornalismo para veiculação efetiva."
+    },
+    {
+      "id": "JOR6220",
+      "code": "JOR6220",
+      "name": "Linguagem e Texto Jornalístico II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6106",
+        "JOR6120"
+      ],
+      "equivalents": [
+        "JOR6201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6106"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6120"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6201"
+      },
+      "syllabus": "Pauta, apuração e produção da notícia. Os valores-notícia. Diversificação de fontes. Seleção e ordenação de informações"
+    },
+    {
+      "id": "JOR6226",
+      "code": "JOR6226",
+      "name": "Produção Gráfica em Jornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR6208"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6208"
+      },
+      "syllabus": "História e fundamentos do design editorial. Introdução ao alfabetismo visual e às bases da linguagem gráfica. Materiais, processos e tecnologias de produção gráfica"
+    },
+    {
+      "id": "JOR6227",
+      "code": "JOR6227",
+      "name": "Teoria da Comunicação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR6502"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6502"
+      },
+      "syllabus": "Comunicação como campo acadêmico e disciplina científica. Comunicação interpessoal e midiatizada. Natureza transdisciplinar da Teoria da Comunicação. Principais escolas teóricas"
+    },
+    {
+      "id": "JOR6302",
+      "code": "JOR6302",
+      "name": "Laboratório de Vídeo e Telejornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6202"
+      },
+      "syllabus": "Concepção, planejamento, apuração, produção, edição, finalização e exibição de programas informativos e telejornais para veiculação efetiva. Manipulação da estrutura de televisão em tempo real."
+    },
+    {
+      "id": "JOR6306",
+      "code": "JOR6306",
+      "name": "Ética e Deontologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6127",
+        "JOR6107",
+        "JOR6204"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6127"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6107"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6204"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Legislação em Jornalismo. Noções básicas de Direito para jornalistas. Ética, moral e deontologia. Ética social, ética aplicada às profissões e ética do jornalismo. Códigos éticos deontológicos profissionais e transdisciplinaridade contemporânea"
+    },
+    {
+      "id": "JOR6320",
+      "code": "JOR6320",
+      "name": "Linguagem e Texto Jornalístico III",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6220",
+        "JOR6201"
+      ],
+      "equivalents": [
+        "JOR6301"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6220"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6201"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6301"
+      },
+      "syllabus": "Pauta, apuração e produção da reportagem. A entrevista e o perfil."
+    },
+    {
+      "id": "JOR6326",
+      "code": "JOR6326",
+      "name": "Laboratório de Produção Gráfica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6226",
+        "JOR6208"
+      ],
+      "equivalents": [
+        "JOR6303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6226"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6208"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6303"
+      },
+      "syllabus": "Projeto gráfico editorial: análise, criação e execução. Layout, tipologias, imagens e cores na diagramação de peças gráfico-editoriais."
+    },
+    {
+      "id": "JOR6328",
+      "code": "JOR6328",
+      "name": "Jornalismo e Cultura Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR6305"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6305"
+      },
+      "syllabus": "Formação da cultura brasileira e suas manifestações. Processos socioculturais de identidade e diferenciação. Ação e papel do jornalismo nas questões culturais"
+    },
+    {
+      "id": "JOR6331",
+      "code": "JOR6331",
+      "name": "Jornalismo e Cibercultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cultura da conexão. Inteligência artificial, algoritmos. Curadoria da informação, redes sociais e monitoramento de mídia."
+    },
+    {
+      "id": "JOR6420",
+      "code": "JOR6420",
+      "name": "Linguagem e Texto Jornalístico IV",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6320",
+        "JOR6301"
+      ],
+      "equivalents": [
+        "JOR6401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6320"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6401"
+      },
+      "syllabus": "Jornalismo Investigativo. Jornalismo de Dados. Grande Reportagem: complexidade da pauta e profundidade. Série de reportagens. Grande reportagem em diferentes mídias."
+    },
+    {
+      "id": "JOR6427",
+      "code": "JOR6427",
+      "name": "Teoria do Jornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6227",
+        "JOR6502"
+      ],
+      "equivalents": [
+        "JOR6402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6227"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6502"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6402"
+      },
+      "syllabus": "Contribuições de diversas disciplinas e abordagens para a Teoria do Jornalismo. Teorias do jornalismo como prática social, poder, conhecimento, linguagem e discurso. Diferentes teorias no âmbito da produção, circulação e recepção da notícia"
+    },
+    {
+      "id": "JOR6428",
+      "code": "JOR6428",
+      "name": "Estética e Cultura da Mídia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR6405"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6405"
+      },
+      "syllabus": "Arte, estética e cultura midiática. Erudito, massivo e popular. Moderno e pós-moderno. Interpretações estéticas da indústria cultural"
+    },
+    {
+      "id": "JOR6430",
+      "code": "JOR6430",
+      "name": "Jornalismo e Comunicação Organizacional",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR6304",
+        "JOR6404",
+        "JOR6306",
+        "JOR6502"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6304"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6404"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6306"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6502"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Estudar conceitos e teorias, propor e aplicar estratégias e ferramentas de assessoria de comunicação e assessoria de imprensa, adequando-as a contextos específicos, em ambiente laboratorial. Analisar criticamente estratégias e produtos de comunicação adotados por organizações contemporâneas."
+    },
+    {
+      "id": "JOR6431",
+      "code": "JOR6431",
+      "name": "WebDesign em Jornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6303",
+        "JOR6326"
+      ],
+      "equivalents": [
+        "JOR6406"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6303"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6326"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6406"
+      },
+      "syllabus": "Web design e jornalismo online. Metodologia para desenvolvimento de sites e infografia digital. Produtos jornalísticos digitais no contexto multiplataforma"
+    },
+    {
+      "id": "JOR6433",
+      "code": "JOR6433",
+      "name": "Estado, Políticas Públicas e de Comunicação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR6104",
+        "JOR6506"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6104"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6506"
+          }
+        ]
+      },
+      "syllabus": "O conceito de Estado, mercado e regulação. Políticas públicas e políticas de Estado. Políticas de comunicação"
+    },
+    {
+      "id": "JOR6520",
+      "code": "JOR6520",
+      "name": "Linguagem e Texto Jornalístico V",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6420",
+        "JOR6401"
+      ],
+      "equivalents": [
+        "JOR6501"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6420"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6401"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6501"
+      },
+      "syllabus": "Jornalismo e literatura. A crônica. O conto. O livro reportagem."
+    },
+    {
+      "id": "JOR6521",
+      "code": "JOR6521",
+      "name": "Metodologia e Técnica de Pesquisa em Jornalismo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6427",
+        "JOR6402"
+      ],
+      "equivalents": [
+        "JOR6605"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6427"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6402"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6605"
+      },
+      "syllabus": "Contribuições interdisciplinares para a pesquisa em Jornalismo. Aspectos teóricos-epistemológicos dos estudos em Jornalismo. Métodos e técnicas de pesquisa utilizados no campo do Jornalismo. Elaboração de projetos de pesquisa."
+    },
+    {
+      "id": "JOR6526",
+      "code": "JOR6526",
+      "name": "Edição",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6226",
+        "JOR6420",
+        "JOR6401",
+        "JOR6208"
+      ],
+      "equivalents": [
+        "JOR6503"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6226"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6420"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6226"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6401"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6208"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6420"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6208"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6401"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6503"
+      },
+      "syllabus": "A edição como prática de gestão de conteúdo. Processo de edição: da pauta à publicação"
+    },
+    {
+      "id": "JOR6527",
+      "code": "JOR6527",
+      "name": "Problemas Sociais Brasileiros",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR6403",
+        "JOR6504"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6403"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6504"
+          }
+        ]
+      },
+      "syllabus": "Principais interpretações sociopolíticas do Brasil. O urbano e o rural. Ocupação de espaços. Meio ambiente e ecologia. Migração, pobreza e novas diásporas. Desigualdade social. Conflitos étnicos, culturais, econômicos, religiosos e de classe social."
+    },
+    {
+      "id": "JOR6531",
+      "code": "JOR6531",
+      "name": "Jornalismo Onlíne e Narrativas Digitais",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6431",
+        "JOR6406"
+      ],
+      "equivalents": [
+        "JOR6505"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6431"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6406"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6505"
+      },
+      "syllabus": "Características do jornalismo online e de narrativas digitais. Práticas para a produção online"
+    },
+    {
+      "id": "JOR6626",
+      "code": "JOR6626",
+      "name": "Jornal Laboratório",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6203",
+        "JOR6302",
+        "JOR6501",
+        "JOR6503",
+        "JOR6505",
+        "JOR6520",
+        "JOR6526",
+        "JOR6531"
+      ],
+      "equivalents": [
+        "JOR6602"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6203"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6302"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6501"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6503"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6505"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6203"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6302"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6520"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6526"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6531"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6602"
+      },
+      "syllabus": "Experimentação em jornalismo impresso. Desenvolvimento de projetos editoriais para publicação efetiva"
+    },
+    {
+      "id": "JOR6627",
+      "code": "JOR6627",
+      "name": "Formação Histórica da Atualidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "JOR7032"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR7032"
+      },
+      "syllabus": "O século XX: temas fundamentais em política, economia e sociedade"
+    },
+    {
+      "id": "JOR6628",
+      "code": "JOR6628",
+      "name": "Jornalismo Comunitário",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6430",
+        "JOR6304",
+        "JOR6404"
+      ],
+      "equivalents": [
+        "JOR7033"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6430"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6304"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6404"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR7033"
+      },
+      "syllabus": "O modelo e a prática de jornalismo comunitário. O papel do jornalismo na mudança social. Exclusão social e comunicação alternativa. Desenvolvimento de recursos de comunicação pelas comunidades."
+    },
+    {
+      "id": "JOR6629",
+      "code": "JOR6629",
+      "name": "Planejamento de Estágio Curricular",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6121"
+      ],
+      "equivalents": [
+        "JOR6705"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6121"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6705"
+      },
+      "syllabus": "Estágio curricular obrigatório: legislação de estágio, planejamento e elaboração de projetos de estágio."
+    },
+    {
+      "id": "JOR6632",
+      "code": "JOR6632",
+      "name": "Inovação e Gestão de Projetos em Jornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6304",
+        "JOR6430"
+      ],
+      "equivalents": [
+        "JOR6606"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6304"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6430"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6606"
+      },
+      "syllabus": "Obrigatório (JOR6105) Inovação no jornalismo. Estrutura e gestão de projetos inovadores."
+    },
+    {
+      "id": "JOR6708",
+      "code": "JOR6708",
+      "name": "Planejamento de TCC",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6520",
+        "JOR6521",
+        "JOR6605",
+        "JOR6501"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6520"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6521"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6520"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6605"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6501"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6521"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "JOR6501"
+              },
+              {
+                "kind": "course",
+                "code": "JOR6605"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Projetos de Trabalho de Conclusão de Curso: monografias e projetos experimentais"
+    },
+    {
+      "id": "JOR6729",
+      "code": "JOR6729",
+      "name": "Estágio Curricular",
+      "credits": 14,
+      "hours": 252,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "JOR6629",
+        "JOR6705"
+      ],
+      "equivalents": [
+        "JOR6801"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6629"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6705"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "JOR6801"
+      },
+      "syllabus": "Estágio curricular obrigatório conforme regulamento específico"
+    },
+    {
+      "id": "JOR6803",
+      "code": "JOR6803",
+      "name": "Trabalho de Conclusão de Curso",
+      "credits": 10,
+      "hours": 180,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Trabalho de Conclusão de Curso conforme regulamento específico"
+    },
+    {
+      "id": "JOR6001",
+      "code": "JOR6001",
+      "name": "Comunicação Pública",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos de Comunicação Pública. Noções de Esfera Pública. Reflexões sobre Opinião Pública e Opinião do Público. Comunicação pública e cidadania. Jornalismo e interesse público. Visibilidade pública, legitimidade e credibilidade. A comunicação pública em organizações públicas, privadas e do terceiro setor."
+    },
+    {
+      "id": "JOR6003",
+      "code": "JOR6003",
+      "name": "Jornalismo Cidadão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6004",
+      "code": "JOR6004",
+      "name": "Comunicação Organizacional Avançada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6404",
+        "JOR6430"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6404"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6430"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6005",
+      "code": "JOR6005",
+      "name": "Design e Produção Gráfica Avançada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6303",
+        "JOR6326"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6303"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6326"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6006",
+      "code": "JOR6006",
+      "name": "WebDesing e Jornalismo Digital",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6406"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6406"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6007",
+      "code": "JOR6007",
+      "name": "Jornalismo de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6401",
+        "JOR6420"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6401"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6420"
+          }
+        ]
+      },
+      "syllabus": "Avançado (JOR6431) Teoriaetécnicasdepesquisaemjornalismodedados."
+    },
+    {
+      "id": "JOR6008",
+      "code": "JOR6008",
+      "name": "Estudos Avançados em Fotojornalismo I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6203"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6203"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6009",
+      "code": "JOR6009",
+      "name": "Estudos Avançados em Fotojornalismo II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6203"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6203"
+      },
+      "syllabus": "Ampliação e aprofundamento de conhecimentos teóricos e técnicos em fotojornalismo"
+    },
+    {
+      "id": "JOR6010",
+      "code": "JOR6010",
+      "name": "Fotojornalismo Multimídia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6203",
+        "JOR6302"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6203"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6302"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6011",
+      "code": "JOR6011",
+      "name": "Áudio e Radiojornalismo Avançado I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6211"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6211"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6012",
+      "code": "JOR6012",
+      "name": "Áudio e Radiojornalismo Avançado II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6211"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6211"
+      },
+      "syllabus": "A linguagem radiodramática e suas aplicações no radiojornalismo. Redação de roteiro e produção de radionovelas e outros formatos de radioteatro."
+    },
+    {
+      "id": "JOR6017",
+      "code": "JOR6017",
+      "name": "Jornalismo Científico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6301",
+        "JOR6320"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6301"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6320"
+          }
+        ]
+      },
+      "syllabus": "(Radioteatro) Conceitos de Ciência e Tecnologia. A produção do conhecimento científico - métodos, ética, edeologia, funções, políticas governamentais. O jornalismo científico - especialização, linguagem, funções, fontes, públicos, técnicas editoriais. Divulgação científica e informação científica."
+    },
+    {
+      "id": "JOR6018",
+      "code": "JOR6018",
+      "name": "Infografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6208",
+        "JOR6226"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6208"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6226"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6019",
+      "code": "JOR6019",
+      "name": "Documentários e Jornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrutura, formas de construção narrativa e produção de documentários audiovisuais para diferentes suportes"
+    },
+    {
+      "id": "JOR6020",
+      "code": "JOR6020",
+      "name": "Vídeo e Telejornalismo Avançado I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6302"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6302"
+      },
+      "syllabus": "Ampliação e aprofundamento de conhecimentos teóricos e técnicos em vídeo e telejornalismo."
+    },
+    {
+      "id": "JOR6022",
+      "code": "JOR6022",
+      "name": "Telejornalismo Público: Modelo de Produção",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6302"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6302"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6023",
+      "code": "JOR6023",
+      "name": "Semiótica do Jornalismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6024",
+      "code": "JOR6024",
+      "name": "Jornalismo Internacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6106",
+        "JOR6120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6106"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6120"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6025",
+      "code": "JOR6025",
+      "name": "Locução e Apresentação em Rádio e TV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6211",
+        "JOR6302"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6211"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6302"
+          }
+        ]
+      },
+      "syllabus": "Técnicas relacionadas à locução e apresentação de textos em rádio e televisão."
+    },
+    {
+      "id": "JOR6026",
+      "code": "JOR6026",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6027",
+      "code": "JOR6027",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6026"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6026"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6028",
+      "code": "JOR6028",
+      "name": "Programa de Intercambio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6027"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6027"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6030",
+      "code": "JOR6030",
+      "name": "Escrita Criativa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6401",
+        "JOR6420"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6401"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6420"
+          }
+        ]
+      },
+      "syllabus": "Caracterização dos gêneros literários. Análise de elementos ficcionais. Estúdio de criação textual. Conto. Crônica."
+    },
+    {
+      "id": "JOR6031",
+      "code": "JOR6031",
+      "name": "Laboratório de Narrativas Digitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6201",
+        "JOR6220"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6201"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6220"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6032",
+      "code": "JOR6032",
+      "name": "Jornalismo Investigativo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6201",
+        "JOR6220"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "JOR6201"
+          },
+          {
+            "kind": "course",
+            "code": "JOR6220"
+          }
+        ]
+      },
+      "syllabus": "Conceitos e história. Noções gerais de metodologia e prática da reportagem investigativa. Jornalismo investigativo e produção social de conhecimento; o impacto das novas tecnologias."
+    },
+    {
+      "id": "JOR6040",
+      "code": "JOR6040",
+      "name": "Jornalismo Especializado em Economia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6041",
+      "code": "JOR6041",
+      "name": "Jornalismo Especializado em Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ana´lise de textos jornali´sticos na a´rea de poli´tica. O conhecimento de poli´tica necessa´rio para o trabalho profissional. Informac¸a~o jornali´stica e conhecimento de poli´tica. Conhecimento de conjuntura e de estrutura. A editoria de poli´tica. A reportagem poli´tica. O colunismo poli´tico. Pauta e fontes. Elaborac¸a~o de textos."
+    },
+    {
+      "id": "JOR6042",
+      "code": "JOR6042",
+      "name": "Jornalismo Especializado em Esportes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6043",
+      "code": "JOR6043",
+      "name": "Jornalismo Especializado em Meio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "JOR6044",
+      "code": "JOR6044",
+      "name": "Jornalismo Especializado em Cultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ambiente Dimensões conceituais e contemporâneas de cultura. A cobertura jornalística de práticas culturais"
+    },
+    {
+      "id": "JOR6045",
+      "code": "JOR6045",
+      "name": "Jornalismo Especializado em Modas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao jornalismo especializado em moda. A importância da moda como fenômeno cultural e sua relação com o jornalismo. Histórico do jornalismo especializado em moda. Análise de textos jornalísticos na área de moda. Linguagem e formatos do jornalismo especializado em moda. Pautas e fontes. Elaboração de textos, fotografias e vídeos para cobertura de moda. Ética e responsabilidade no jornalismo de moda, com foco na sustentabilidade e inclusão."
+    },
+    {
+      "id": "JOR6052",
+      "code": "JOR6052",
+      "name": "Grande Reportagem em Vídeo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "JOR6302"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "JOR6302"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "JOR7030",
+      "code": "JOR7030",
+      "name": "Atividades Acadêmico-Científico-Culturais",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades Acadêmico-Científico-Culturais"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "JOR6101",
+      "JOR6103",
+      "JOR6120",
+      "JOR6121",
+      "JOR6127",
+      "JOR6128",
+      "JOR6202",
+      "JOR6203",
+      "JOR6211",
+      "JOR6220",
+      "JOR6226",
+      "JOR6227",
+      "JOR6302",
+      "JOR6306",
+      "JOR6320",
+      "JOR6326",
+      "JOR6328",
+      "JOR6331",
+      "JOR6420",
+      "JOR6427",
+      "JOR6428",
+      "JOR6430",
+      "JOR6431",
+      "JOR6433",
+      "JOR6520",
+      "JOR6521",
+      "JOR6526",
+      "JOR6527",
+      "JOR6531",
+      "JOR6626",
+      "JOR6627",
+      "JOR6628",
+      "JOR6629",
+      "JOR6632",
+      "JOR6708",
+      "JOR6729",
+      "JOR6803",
+      "JOR7030"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 324,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "JOR6001",
+              "JOR6003",
+              "JOR6004",
+              "JOR6005",
+              "JOR6006",
+              "JOR6007",
+              "JOR6008",
+              "JOR6009",
+              "JOR6010",
+              "JOR6011",
+              "JOR6012",
+              "JOR6017",
+              "JOR6018",
+              "JOR6019",
+              "JOR6020",
+              "JOR6022",
+              "JOR6023",
+              "JOR6024",
+              "JOR6025",
+              "JOR6026",
+              "JOR6027",
+              "JOR6028",
+              "JOR6030",
+              "JOR6031",
+              "JOR6032",
+              "JOR6040",
+              "JOR6041",
+              "JOR6042",
+              "JOR6043",
+              "JOR6044",
+              "JOR6045",
+              "JOR6052",
+              "LSB7904"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "415",
+    "curriculumCode": "20201",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=415&curriculo=20201",
+    "sha256": "3fe2526cc65121611fd9ef6535ef9f425c133dc12ca039460094be104a36d6ed",
+    "capturedAt": "2026-09-22"
+  }
+}

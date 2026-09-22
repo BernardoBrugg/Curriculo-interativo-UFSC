@@ -1,0 +1,2089 @@
+{
+  "program": "GEOGRAFIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2007.1",
+  "totalHours": 4448,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "GCN7100",
+      "code": "GCN7100",
+      "name": "Astronomia",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN5101"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5101"
+      },
+      "syllabus": "Referencial teórico sobre o Universo desde sua origem e estrutura, os diferentes corpos celestes que o compõem com destaque ao Sistema Solar, o Planeta Terra, a interação Sol/Terra."
+    },
+    {
+      "id": "GCN7101",
+      "code": "GCN7101",
+      "name": "Fundamentos de Economia Política para Geografia - PCC 18 h/a",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "HST5221"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 6
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "HST5221"
+      },
+      "prerequisiteHours": 6,
+      "syllabus": "Conhecimento do pensamento contemporâneo em economia política, utilizado nos estudos de Geografia Econômica."
+    },
+    {
+      "id": "GCN7102",
+      "code": "GCN7102",
+      "name": "Geografia da População - PCC 18 h/a",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN5204"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5204"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "A população como objeto de estudo geográfico. Desafios teóricos e opções ideológicas na produção de estudos sobre população. Caracterização da população mundial e de suas desigualdades regionais. A população brasileira e a análise de seus indicadores sociais. A migração como questão contemporânea no Brasil e no mundo. Aspectos particulares da população catarinense e da Grande Florianópolis."
+    },
+    {
+      "id": "GCN7103",
+      "code": "GCN7103",
+      "name": "Geologia I - PCC 18 h/a",
+      "credits": 8,
+      "hours": 144,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN5102"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5102"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Processos geradores de minerais e rochas tanto em nível interno da crosta como aqueles que se desenvolvem na interface crosta/biosfera/atmosfera."
+    },
+    {
+      "id": "GCN7104",
+      "code": "GCN7104",
+      "name": "História do Pensamento Geográfico",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN5100"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7104
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5100"
+      },
+      "prerequisiteHours": 7104,
+      "syllabus": "Constituição do domínio científico. História das idéias na Geografia - das cosmografias e relatos de viagens aos nossos dias."
+    },
+    {
+      "id": "GCN7200",
+      "code": "GCN7200",
+      "name": "Cartografia I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7100"
+      ],
+      "equivalents": [
+        "GCN5203"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7100"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5203"
+      },
+      "syllabus": "Os fundamentos teóricos da cartografia geral e as aplicações práticas de métodos, equipamentos e materiais cartográficos, com vistas à realização de estudos geográficos em sala de aula, laboratórios e campo."
+    },
+    {
+      "id": "GCN7201",
+      "code": "GCN7201",
+      "name": "Climatologia Dinâmica e Geográfica - PCC",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN5201"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5201"
+      },
+      "syllabus": "Introdução aos fundamentos da meteorologia e climatologia geográfica e aplicada."
+    },
+    {
+      "id": "GCN7202",
+      "code": "GCN7202",
+      "name": "Geografia Rural - PCC 18 h/a",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN5304"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5304"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "18 h/a GCN5301) Agricultura e espaço rural: abordagem teórica e factual, significado, dinâmica e processos que envolvem o rural no Mundo e no Brasil."
+    },
+    {
+      "id": "GCN7203",
+      "code": "GCN7203",
+      "name": "Geologia II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7103"
+      ],
+      "equivalents": [
+        "GCN5202"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7103"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5202"
+      },
+      "syllabus": "Síntese dos fenômenos geológicos ao longo do tempo mostrando o condicionamento da atual paisagem aos eventos do passado, retratando os conhecimentos e evolução geológica no espaço brasileiro com destaque para Santa Catarina. Estudo dos princípios, características e fenômenos envolvidos na formação de recursos minerais e suas conseqüências para as sociedades e nações."
+    },
+    {
+      "id": "GCN7204",
+      "code": "GCN7204",
+      "name": "Teoria e Métodos da Geografia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento de conceitos, métodos e técnicas de pesquisa na ciência geográfica."
+    },
+    {
+      "id": "GCN7166",
+      "code": "GCN7166",
+      "name": "Mapeamento Geológico de Áreas de Risco",
+      "credits": 6,
+      "hours": 180,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(*) DA CARGA HORÁRIA DE CADA DISCIPLINA OBRIGATÓRIA COM CÓDIGO GCN, 36 HORAS-AULA SÃO DE ATIVIDADES PRÁTICAS FORA DO HORÁRIO NORMAL DE AULAS, DEFINIDAS NO PLANO DE ENSINO."
+    },
+    {
+      "id": "GCN7500",
+      "code": "GCN7500",
+      "name": "Análise de Imagens II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7166"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7166"
+      },
+      "syllabus": "Fundamentos da análise e interpretação de imagens aéreas e orbitais. Princípios do sensoriamento remoto, elementos-chave da fotointerpretação e comportamento espectral de alvos. Aplicações em ambientes fluviais, lacustres e costeiros, com ênfase na análise de sistemas de drenagem e na dinâmica superficial. Desenvolvimento de atividades práticas e de campo."
+    },
+    {
+      "id": "GCN7941",
+      "code": "GCN7941",
+      "name": "Tópicos Especiais em Oceanografia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7946",
+      "code": "GCN7946",
+      "name": "Topografia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7200"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7200"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7947",
+      "code": "GCN7947",
+      "name": "Topografia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7300"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7300"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7999",
+      "code": "GCN7999",
+      "name": "Atividades Acadêmico-Científico-Culturais",
+      "credits": 11,
+      "hours": 200,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "ATIVIDADES COMPLEMENTARES"
+    },
+    {
+      "id": "EED5331",
+      "code": "EED5331",
+      "name": "Teorias da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de educação: elaborações e práticas em torno da formação moral, intelectual e estética do homem. Conceito de pedagogia: pedagogia da essência e pedagogia da existência - referências clássicas, modernas e contemporâneas. Pensamento pedagógico brasileiro."
+    },
+    {
+      "id": "GCN7300",
+      "code": "GCN7300",
+      "name": "Cartografia II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7200"
+      ],
+      "equivalents": [
+        "GCN5303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7200"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5303"
+      },
+      "syllabus": "Características qualitativas e quantitativas dos fenômenos geográficos, distribuição espacial e medidas destes fenômenos, comunicação cartográfica, teoria e prática para confecção de mapas temáticos da Geografia, confecção de diagramas, e outras formas de representar a paisagem."
+    },
+    {
+      "id": "GCN7301",
+      "code": "GCN7301",
+      "name": "Geografia Industrial",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7101"
+      ],
+      "equivalents": [
+        "GCN5404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5404"
+      },
+      "syllabus": "Os mais importantes processos de industrialização nacional e suas manifestações espaciais (segundo diversas escalas geográficas) a partir de uma análise históricogenética (tributária da categoria marxista de formação social) e das rupturas de paradigmas tecnológicos e sócio-econômicos."
+    },
+    {
+      "id": "GCN7302",
+      "code": "GCN7302",
+      "name": "Geomorfologia Estrutural - PCC 18 h/a",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7203"
+      ],
+      "equivalents": [
+        "GCN5402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7203"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5402"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Análise de modelos geomorfológicos e dos fatores litológicos e estruturais que condicionam o relevo terrestre e a evolução do relevo no Cenozóico. Caracterização do relevo brasileiro."
+    },
+    {
+      "id": "GCN7304",
+      "code": "GCN7304",
+      "name": "Oceanografia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN5309"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5309"
+      },
+      "syllabus": "Evolução histórica, instrumentos e métodos utilizados em Oceanografia. Estudo dos processos e fenômenos oceânicos a partir de sua subdivisão tradicional: Oceanografia Geológica, Oceanografia Química, Oceanografia Física e Oceanografia Biológica. Introdução ao estudo da zona costeira."
+    },
+    {
+      "id": "GCN7401",
+      "code": "GCN7401",
+      "name": "Biogeografia Básica - PCC 18 h/a",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7201"
+      ],
+      "equivalents": [
+        "GCN5405",
+        "GCN5505"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7201"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN5405"
+          },
+          {
+            "kind": "course",
+            "code": "GCN5505"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Identificação e análise de áreas de distribuição dos seres vivos e interpretação dos fatores geográficos e ecológicos do meio em suas inter-relações."
+    },
+    {
+      "id": "GCN7402",
+      "code": "GCN7402",
+      "name": "Geografia do Comércio e Serviços - PCC 18",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7403",
+      "code": "GCN7403",
+      "name": "Processos Geomorfológicos",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7201"
+      ],
+      "equivalents": [
+        "GCN5502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5502"
+      },
+      "syllabus": "h/a Análise dos processos e as feições geomórficas decorrentes da atuação de agentes exógenos, bem como as conseqüências da interferência antrópica nos modelados."
+    },
+    {
+      "id": "GCN7404",
+      "code": "GCN7404",
+      "name": "Teoria Regional",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7204"
+      ],
+      "equivalents": [
+        "GCN5406"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7204"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5406"
+      },
+      "syllabus": "Embasamento teórico sobre Organização do Espaço para discussão de conceitos e tipos de região em Geografia, bem como o estudo dos processos de regionalização brasileiro."
+    },
+    {
+      "id": "PSI5137",
+      "code": "PSI5137",
+      "name": "Psicologia Educacional: Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Psicologia como ciência: histórico, objetivo e métodos. Interações sociais no contexto educacional e o lugar do professor. Introdução ao estudo do desenvolvimento e de aprendizagem - infância, adolescência, idade adulta. Contribuições da Psicologia na prática escolar cotidiana e na compreensão do fracasso escolar. Prática como componente curricular."
+    },
+    {
+      "id": "GCN7501",
+      "code": "GCN7501",
+      "name": "Geografia Urbana - PCC 18 h/a",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7404"
+      ],
+      "equivalents": [
+        "GCN5504"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7404"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5504"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Embasamentos históricos e conceituais sobre o fenômeno urbano e as dimensões geográficas da cidade, nas suas intra e inter-relações da organização socioespacial."
+    },
+    {
+      "id": "GCN7502",
+      "code": "GCN7502",
+      "name": "Organização do Espaço Mundial - PCC 18",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN5506"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5506"
+      },
+      "syllabus": "Análise geoeconômica do espaço geográfico mundial e suas respectivas nações de acordo com os graus de desenvolvimento das relações de produção e forças produtivas. Os sistemas econômicos vigentes. A inserção diferenciada das formações regionais na economia mundo. A escravidão negra e Ameríndia. A partilha da Ásia, da América Latina, da África. As descolonizações. O imperialismo/globalização/financeirização e as economias regionais. Blocos regionais (UE, Mercosul, BRICS.); Conflitos Étnicos raciais, religiosos e o neodarwinismo social. A Nova geoeconomia mundial."
+    },
+    {
+      "id": "GCN7503",
+      "code": "GCN7503",
+      "name": "Recursos Hídricos em Geografia - PCC 18",
+      "credits": 8,
+      "hours": 144,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7201"
+      ],
+      "equivalents": [
+        "GCN5511"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5511"
+      },
+      "syllabus": "horas/aula O ciclo hidrológico, legislação de águas, gestão centralizada e descentralizada, fundamentos de hidrologia, geopolítica de águas, demandas e usos das águas. Reservatórios. Práticas de campo."
+    },
+    {
+      "id": "GCN7504",
+      "code": "GCN7504",
+      "name": "Cartografia Escolar - PCC 36 horas/aula",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7200"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7200"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "horas/aula Documentos oficiais e currículos de Geografia; o desenvolvimento do conceito espacial na criança; recursos didáticos de cartografia e o uso da cartografia nas diferentes faixas etárias dos anos escolares para o ensino de Geografia"
+    },
+    {
+      "id": "EED5185",
+      "code": "EED5185",
+      "name": "Organização Escolar I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EED5331"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EED5331"
+      },
+      "syllabus": "(*) Da carga horária de cada disciplina obrigatória com código GCN, 36h/a são de atividades práticas fora do horário normal de aulas, definidas no plano de ensino."
+    },
+    {
+      "id": "GCN7600",
+      "code": "GCN7600",
+      "name": "Análise Ambiental - PCC 36 horas/aula",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7403"
+      ],
+      "equivalents": [
+        "GCN5710"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7403"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5710"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Discussão sobre a questão ambiental, sua interdisciplinaridade, o papel da sociedade e da Geografia. Análise de propostas teórico-metodológicas."
+    },
+    {
+      "id": "GCN7601",
+      "code": "GCN7601",
+      "name": "Geografia Regional do Brasil - PCC 18",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN5608"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5608"
+      },
+      "syllabus": "O planejamento regional brasileiro. A Organização Espaço Regional. Planejamento Regional Comparado. Estudo de Caso de Planejamento Regional."
+    },
+    {
+      "id": "GCN7602",
+      "code": "GCN7602",
+      "name": "Planejamento Regional e Urbano",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7404",
+        "GCN7501"
+      ],
+      "equivalents": [
+        "GCN5607"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7404"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7501"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5607"
+      },
+      "syllabus": "horas/aula Dar visão dos elementos teóricos para embasar as análises das organizações espaciais urbanas e regionais. Instrumentalizar tecnicamente a formação do aluno nas proposições da organização espacial urbana e regional"
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE7881"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE7881"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "EED5186",
+      "code": "EED5186",
+      "name": "Organização Escolar II (PCC - 18 horas)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EED5185"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5185"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7701",
+      "code": "GCN7701",
+      "name": "Geografia de Santa Catarina - PCC 18",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo da formação e dinâmica socioespacial catarinense; e dos diferentes aspectos de sua economia, sociedade, cultura, natureza, caracterizados no tempo e espaço."
+    },
+    {
+      "id": "MEN5602",
+      "code": "MEN5602",
+      "name": "Didática B (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN5134",
+        "MEN5135"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN5134"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5135"
+          }
+        ]
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "horas/aula - Educação escolar como fenômeno histórico-social. Currículo e trabalho pedagógico no contexto escolar. As relações de ensino-aprendizagem em contexto escolar. Mediações pedagógicas e suas relações com o ensino da área específica do curso."
+    },
+    {
+      "id": "MEN7025",
+      "code": "MEN7025",
+      "name": "Metodologia do Ensino da Geografia - PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Evolução do desempenho da ciência geográfica e de sua prática na escola. Abordagens metodológicas e seus pressupostos teóricos no Ensino. Aprendizagem de Geografia na Escola de 1º e 2º graus. Organização e sistematização do ensino de geografia, vinculação com o currículo escolar."
+    },
+    {
+      "id": "MEN7026",
+      "code": "MEN7026",
+      "name": "Estágio Curricular: Supervisionado de Licenciatura em Geografia I",
+      "credits": 13,
+      "hours": 234,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EED5186",
+        "GCN7600",
+        "GCN7701",
+        "MEN5602",
+        "MEN7025",
+        "PSI5137"
+      ],
+      "equivalents": [
+        "MEN5398"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5186"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7600"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7701"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5602"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7025"
+          },
+          {
+            "kind": "course",
+            "code": "PSI5137"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5398"
+      },
+      "syllabus": "Fundamentação teórico-metodológica e o papel do professor. Introdução à prática de estágio. Contato com projetos curriculares das redes de ensino. Práticas simuladas e pré-práticas sob a supervisão do professor, análise e proposição de atividades para ensino de 1º e 2º graus, observação de aulas de 1º e 2º graus; atualização e adequação dos conteúdos dos níveis de 1º e 2º graus. Elaboração do projeto de ensino e pesquisa na escola campo. Apreensão e problematização da realidade das escolas de Florianópolis, da Região Metropolitana ou de outras regiões do Estado. Vivências em escola de campo de estágio e ou outras instituições de educação não formal."
+    },
+    {
+      "id": "MEN7027",
+      "code": "MEN7027",
+      "name": "Estágio Curricular Supervisionado de Licenciatura em Geografia II",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN7026"
+      ],
+      "equivalents": [
+        "MEN5398"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN7026"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5398"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7400",
+      "code": "GCN7400",
+      "name": "Análise de Imagens I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7300"
+      ],
+      "equivalents": [
+        "GCN5403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7300"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5403"
+      },
+      "syllabus": "Da carga horária de cada disciplina obrigatória com código GCN, 36 horas-aula são de atividades práticas fora do horário normal de aulas, definidas no Plano de Ensino. Sensores Remotos e Interpretação de imagens, Noções Básicas de Fotogrametria, Fatores e Elementos envolvidos na Análise Visual de Fotografias Aéreas, Trabalho prático: Mapeamento de Uso e Cobertura da Terra utilizando aerofotos."
+    },
+    {
+      "id": "GCN7603",
+      "code": "GCN7603",
+      "name": "Sensoriamento Remoto I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7400"
+      ],
+      "equivalents": [
+        "GCN5959"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7400"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5959"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7604",
+      "code": "GCN7604",
+      "name": "Trabalho de Conclusão de Curso (Projeto)",
+      "credits": 12,
+      "hours": 216,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7101"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7700",
+      "code": "GCN7700",
+      "name": "Análise Ambiental II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7600"
+      ],
+      "equivalents": [
+        "GCN5710"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7600"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5710"
+      },
+      "syllabus": "Análise ambiental conjunta de uma unidade espacial (comunidade, unidade de conservação, bacia hidrográfica, município, bairro...): elaboração do projeto, desenvolvimento da pesquisa e análise dos resultados."
+    },
+    {
+      "id": "GCN7702",
+      "code": "GCN7702",
+      "name": "Monografia I (*)",
+      "credits": 20,
+      "hours": 360,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7600",
+        "GCN7601",
+        "GCN7602",
+        "GCN7603",
+        "GCN7604"
+      ],
+      "equivalents": [
+        "GCN7600",
+        "GCN7601",
+        "GCN7602",
+        "GCN7604"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7600"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7601"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7602"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7603"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7604"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7600"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7601"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7602"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7604"
+          }
+        ]
+      },
+      "syllabus": "horas/aula Suporte pedagógico e administrativo ao/à acadêmico/a e ao/à orientador/a quanto ao processo de produção da Monografia."
+    },
+    {
+      "id": "GCN7703",
+      "code": "GCN7703",
+      "name": "Estágio de Conclusão de Curso I (*)",
+      "credits": 10,
+      "hours": 180,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7600",
+        "GCN7601",
+        "GCN7602",
+        "GCN7604"
+      ],
+      "equivalents": [
+        "GCN5816"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7600"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7601"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7602"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7604"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5816"
+      },
+      "syllabus": "Aprendizagem Social, profissional ou cultural, através da participação do aluno nas atividades de trabalhoem Instituições Públicas ou Empresas Privadas, compatíveis com a formação acadêmico-profissional do Bacharelado ou Licenciatura em Geografia, observado o que estabelece o Regulamento de Estágio do Curso de Geografia"
+    },
+    {
+      "id": "GCN7802",
+      "code": "GCN7802",
+      "name": "Monografia II (*)",
+      "credits": 20,
+      "hours": 360,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7603",
+        "GCN7700",
+        "GCN7702"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7603"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7700"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7702"
+          }
+        ]
+      },
+      "syllabus": "Produção e defesa de monografia junto à banca examinadora; publicação da monografia no Repositório Institucional da UFSC (RI)."
+    },
+    {
+      "id": "GCN7803",
+      "code": "GCN7803",
+      "name": "Estágio de Conclusão de Curso II (*)",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7603",
+        "GCN7700",
+        "GCN7703"
+      ],
+      "equivalents": [
+        "GCN5816"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7603"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7700"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7703"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN5816"
+      },
+      "syllabus": "Aprendizagem Social, profissional ou cultural, através da participação do aluno nas atividades de trabalhoem Instituições Públicas ou Empresas Privadas, compatíveis com a formação acadêmico-profissional do Bacharelado ou Licenciatura em Geografia, observado o que estabelece o Regulamento de Estágio do Curso de Geografia."
+    },
+    {
+      "id": "EED5301",
+      "code": "EED5301",
+      "name": "Fundamentos da Língua de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Da carga horária de cada disciplina obrigatória com código GCN, 36 horas-aula são de atividades práticas fora do horário normal de aulas, definidas no Plano de Ensino. Disciplinas Optativas Constituição do sujeito surdo. A relação da história da surdez com a língua de sinais. Noções básicas da língua de sinais brasileira: o espaço de sinalização, os elementos que constituem os sinais, noções sobre a estrutura da língua, a língua em uso em contextos triviais de comunicação."
+    },
+    {
+      "id": "GCN5815",
+      "code": "GCN5815",
+      "name": "Estagio Facultativo",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "GCN5204",
+        "GCN7201",
+        "GCN5304",
+        "GCN7202",
+        "GCN5309",
+        "GCN7304"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "GCN5204"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7201"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "GCN5304"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7202"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "GCN5309"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7304"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Brasileira Aprendizagem Social, profissional ou cultural, através da participação do aluno nas atividades de trabalhoem Instituições Públicas ou Empresas Privadas, compatíveis com a formação acadêmico-profissional do Bacharelado ou Licenciatura em Geografia, observado o que estabelece o Regulamento de Estágio do Curso de Geografia."
+    },
+    {
+      "id": "GCN5910",
+      "code": "GCN5910",
+      "name": "Mineralogia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7203"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7203"
+      },
+      "syllabus": "Correlação dos princípios da química inorgânica com a estrutura cristalina dos minerais através das propriedades geométricas, ópticas e químicas e a caracterização dos principais grupos minerais."
+    },
+    {
+      "id": "GCN7900",
+      "code": "GCN7900",
+      "name": "Agricultura Familiar",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagem teórica e factual sobre a agricultura familiar, política de desenvolvimento e reconfiguração territorial, no Brasil e em Santa Catarina."
+    },
+    {
+      "id": "GCN7901",
+      "code": "GCN7901",
+      "name": "Análise Estatística em Geociências",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7902",
+      "code": "GCN7902",
+      "name": "Análise Geográfica do Turismo",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Trajetórias e características da produção e consumo de espaços turísticos: condicionantes e atratividades geográficas; Santa Catarina e Florianópolis sob olhares do Turismo."
+    },
+    {
+      "id": "GCN7903",
+      "code": "GCN7903",
+      "name": "Bacias Fluviais",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7203"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7203"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7904",
+      "code": "GCN7904",
+      "name": "Biogeografia Aplicada",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7401"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7401"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7905",
+      "code": "GCN7905",
+      "name": "Cartografia III",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7200"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7200"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7906",
+      "code": "GCN7906",
+      "name": "Climatologia Aplicada à Pesquisa",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7907",
+      "code": "GCN7907",
+      "name": "Climatologia Aplicada ao Ensino",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7908",
+      "code": "GCN7908",
+      "name": "Ecologia Fluvial",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7903"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7903"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7909",
+      "code": "GCN7909",
+      "name": "Geografia da Alimentação",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo Econômico da Produção de Alimentos e suas Relações com o Meio Geográfico, Físico e Humano."
+    },
+    {
+      "id": "GCN7910",
+      "code": "GCN7910",
+      "name": "Geografia da América latina",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7911",
+      "code": "GCN7911",
+      "name": "Geografia das Redes e dos Territórios",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7104",
+        "GCN7204"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7104"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7204"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7912",
+      "code": "GCN7912",
+      "name": "Geografia Econômica do Brasil",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7913",
+      "code": "GCN7913",
+      "name": "Geografia Histórica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7914",
+      "code": "GCN7914",
+      "name": "Geografia Política",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7104",
+        "GCN7204"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7104"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7204"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7915",
+      "code": "GCN7915",
+      "name": "Geomorfologia do Quaternário e Mudanças",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7302"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7302"
+      },
+      "syllabus": "Introduzir o problema das mudanças climáticas globais durante o passado geológico recente, e qualificar discente para a identificação, caracterização e utilização de registros quaternários continentais, visando interpretação paleoambiental e construção de cenários evolutivos do relevo do Sul do Brasil."
+    },
+    {
+      "id": "GCN7916",
+      "code": "GCN7916",
+      "name": "Geotecnologias em Sistemas Aquáticos",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7304"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7304"
+      },
+      "syllabus": "Climáticas Globais GCN7403)"
+    },
+    {
+      "id": "GCN7917",
+      "code": "GCN7917",
+      "name": "Gerenciamento e Manejo de Geossistemas",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7918",
+      "code": "GCN7918",
+      "name": "Gestão Ambiental",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Costeiros"
+    },
+    {
+      "id": "GCN7919",
+      "code": "GCN7919",
+      "name": "Gestão de Conflitos Ambientais",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7920",
+      "code": "GCN7920",
+      "name": "Limnologia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7921",
+      "code": "GCN7921",
+      "name": "Metodologia de Pesquisa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7204"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7204"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7922",
+      "code": "GCN7922",
+      "name": "Mobilidade Estudantil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7923",
+      "code": "GCN7923",
+      "name": "Organização do Espaço",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7924",
+      "code": "GCN7924",
+      "name": "Pedologia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7302"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7302"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7925",
+      "code": "GCN7925",
+      "name": "Prática de Campo em Geologia e Geomorfologia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7302",
+        "GCN7403",
+        "GCN7500"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7302"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7403"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7500"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7926",
+      "code": "GCN7926",
+      "name": "Processos Costeiros",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7304"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7304"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7927",
+      "code": "GCN7927",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7928",
+      "code": "GCN7928",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7927"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7927"
+      },
+      "syllabus": "0 PRÉ-REQUISITO DA DISCIPLINA ACIMA E A RES.007/CUn/99"
+    },
+    {
+      "id": "GCN7929",
+      "code": "GCN7929",
+      "name": "Recursos Minerais do Brasil",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7930",
+      "code": "GCN7930",
+      "name": "Sedimentação Costeira e Marinha",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7931",
+      "code": "GCN7931",
+      "name": "Sensoriamento Remoto II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7932",
+      "code": "GCN7932",
+      "name": "Sistemas de Informações Geográficas",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico, fundamentos teóricos, dados para SIG, modelos para informação geográfica, fontes de dados espaciais, bases de dados para SIG, sistemas de referência nos SIG, operações com dados matriciais e vetoriais, geoweb (webmapping), apresentação de programas de SIG, elaboração de um SIG para apoiar análises espaciais."
+    },
+    {
+      "id": "GCN7933",
+      "code": "GCN7933",
+      "name": "Tópicos Especiais em Geografia Física",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos e práticas para o ensino da natureza."
+    },
+    {
+      "id": "GCN7934",
+      "code": "GCN7934",
+      "name": "Tópicos Especiais em Geografia Humana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagens geográficas dos deslocamentos humanos por fatores ambientais; população, espaço, mobilidade e imobilidade humanas; relações e desigualdades de gênero, raciais e pobreza nos deslocamentos ambientais forçados; fundamentação conceitual e jurídica e fatores dos deslocamentos ambientais forçados; justiça e racismo ambiental; estudos de caso no Brasil e no Mundo."
+    },
+    {
+      "id": "GCN7935",
+      "code": "GCN7935",
+      "name": "Tópicos Especiais em Geologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Seminário o curso com programa previamente anunciado, abordando temas variados de interesse atual, referentes à Geografia Física.Carga horária semanal de 4 h/a."
+    },
+    {
+      "id": "GCN7936",
+      "code": "GCN7936",
+      "name": "Topografia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7937",
+      "code": "GCN7937",
+      "name": "Leitura Dirigida",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7938",
+      "code": "GCN7938",
+      "name": "Introdução à Permacultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7943",
+      "code": "GCN7943",
+      "name": "Tópicos Especiais em Geografia Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Seminário ou curso com programa previamente anunciado, abordando temas variados de interesse atual, referentes à Geografia Física."
+    },
+    {
+      "id": "GCN7944",
+      "code": "GCN7944",
+      "name": "Tópicos Especiais em Geologia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Seminário ou curso com programa previamente anunciado, abordando temas variados de interesse atual, referentes à Geologia."
+    },
+    {
+      "id": "GCN7945",
+      "code": "GCN7945",
+      "name": "Tópicos Especiais em Geografia Humana II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Seminário ou curso com programa previamente anunciado, abordando temas variados de interesse atual, referentes à Geografia Humana."
+    },
+    {
+      "id": "MEN5107",
+      "code": "MEN5107",
+      "name": "Estudos-Educação dos Negros-Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Educação, relações sociais e os negros no Brasil. Cultura e processos identitários. Escola, currículo e projetos pedagógicos para igualdade de oportunidades educacionais."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "GCN7100",
+      "GCN7101",
+      "GCN7102",
+      "GCN7103",
+      "GCN7104",
+      "GCN7200",
+      "GCN7201",
+      "GCN7202",
+      "GCN7203",
+      "GCN7204",
+      "GCN7999",
+      "EED5331",
+      "GCN7300",
+      "GCN7301",
+      "GCN7302",
+      "GCN7304",
+      "GCN7401",
+      "GCN7402",
+      "GCN7403",
+      "GCN7404",
+      "PSI5137",
+      "GCN7501",
+      "GCN7502",
+      "GCN7503",
+      "GCN7504",
+      "EED5185",
+      "GCN7600",
+      "GCN7601",
+      "GCN7602",
+      "LSB7244",
+      "EED5186",
+      "GCN7701",
+      "MEN5602",
+      "MEN7025",
+      "MEN7026",
+      "MEN7027",
+      "GCN7400",
+      "GCN7603",
+      "GCN7604",
+      "GCN7700",
+      "GCN7702",
+      "GCN7703",
+      "GCN7802",
+      "GCN7803"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 360,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "GCN7166",
+              "GCN7500",
+              "GCN7941",
+              "GCN7946",
+              "GCN7947",
+              "EED5301",
+              "GCN5815",
+              "GCN5910",
+              "GCN7900",
+              "GCN7901",
+              "GCN7902",
+              "GCN7903",
+              "GCN7904",
+              "GCN7905",
+              "GCN7906",
+              "GCN7907",
+              "GCN7908",
+              "GCN7909",
+              "GCN7910",
+              "GCN7911",
+              "GCN7912",
+              "GCN7913",
+              "GCN7914",
+              "GCN7915",
+              "GCN7916",
+              "GCN7917",
+              "GCN7918",
+              "GCN7919",
+              "GCN7920",
+              "GCN7921",
+              "GCN7922",
+              "GCN7923",
+              "GCN7924",
+              "GCN7925",
+              "GCN7926",
+              "GCN7927",
+              "GCN7928",
+              "GCN7929",
+              "GCN7930",
+              "GCN7931",
+              "GCN7932",
+              "GCN7933",
+              "GCN7934",
+              "GCN7935",
+              "GCN7936",
+              "GCN7937",
+              "GCN7938",
+              "GCN7943",
+              "GCN7944",
+              "GCN7945",
+              "MEN5107"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "331",
+    "curriculumCode": "20071",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=331&curriculo=20071",
+    "sha256": "80f1b7403ae1a540ea7004b012e6557223eb35a466a723f3402ef9361fa87988",
+    "capturedAt": "2026-09-22"
+  }
+}

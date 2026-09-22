@@ -10,7 +10,7 @@ import { availableCourses, getCurriculum } from "@/data/curricula";
 export function useCurriculumSummaries() {
   const { user } = useAuth();
   const staticSummaries = useMemo<CurriculumSummary[]>(
-    () => availableCourses.map((course) => ({ id: course.id, name: course.name, description: course.description })),
+    () => availableCourses.map((course) => ({ id: course.id, name: course.name, description: course.description, campus: course.campus })),
     []
   );
   const [remoteCurricula, setRemoteCurricula] = useState<CurriculumSummary[]>([]);

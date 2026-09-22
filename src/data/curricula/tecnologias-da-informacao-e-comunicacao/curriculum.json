@@ -1,0 +1,2449 @@
+{
+  "program": "TECNOLOGIAS DA INFORMAÇÃO E COMUNICAÇÃO (noturno) [Campus Araranguá]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2017.1",
+  "totalHours": 2916,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CIT7122",
+      "code": "CIT7122",
+      "name": "Elaboração de Trabalhos Acadêmicos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7122"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7122"
+      },
+      "syllabus": "Normas da ABNT para trabalhos acadêmicos: citações e referências bibliográficas. Fontes de pesquisa. Produção de relatório, resumo e resenha. Técnicas de leitura, produção e apresentação de trabalhos científicos."
+    },
+    {
+      "id": "CIT7203",
+      "code": "CIT7203",
+      "name": "Informática na Educação I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7203"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7203"
+      },
+      "syllabus": "História da Informática na Educação. Conceitos das teorias de aprendizagem. Uso de tecnologias de Informação e Comunicação aplicadas as teorias de aprendizagem. Exemplos de softwares educacionais. Avaliação de Software Educacional. Redes sociais na educação. Recursos multimídia como recurso didático. Informática na Educação Especial."
+    },
+    {
+      "id": "CIT7212",
+      "code": "CIT7212",
+      "name": "Empreendedorismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7212"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7212"
+      },
+      "syllabus": "Empreendedorismo: fundamentos e conceitos. Perfil do empreendedor. Processo empreendedor. Ambientes da inovação: pré-incubadoras, incubadoras e parques tecnológicos. Geração de ideias e análise de oportunidades. Fundamentos e componentes do Plano de Negócios. Mecanismos e procedimentos para criação de empresas. Planejamento de um empreendimento a partir do Modelo Canvas."
+    },
+    {
+      "id": "CIT7243",
+      "code": "CIT7243",
+      "name": "Introdução às Tecnologias da Informação e Comunicação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7120",
+        "ARA7243",
+        "ARA7530",
+        "DEC7530"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7120"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7243"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7530"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7530"
+          }
+        ]
+      },
+      "syllabus": "Áreas de aplicação das TIC. Tipos de computadores e seus dispositivos. Tipos de software tanto proprietário quanto software livre. Introdução às tecnologias web, tais como intranet, extranet e Internet, como meios para a comunicação e transferência de dados mediante o uso serviços Web e/ou utilizando tecnologias móveis. Breve análise do impacto dos computadores na sociedade, abordando problemas de segurança e legais que surgem através do uso da informação assim como aspectos de ética. Breve introdução sobre comércio eletrônico, suas ameaças e dispositivos de segurança, aspectos de marketing e de planejamento de recursos empresariais."
+    },
+    {
+      "id": "CIT7580",
+      "code": "CIT7580",
+      "name": "Algoritmos e Programação",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIT7140",
+        "CIT7141",
+        "ARA7140",
+        "ARA7141",
+        "ARA7580",
+        "ARA7143",
+        "ARA7531",
+        "DEC7143",
+        "DEC7531"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CIT7140"
+              },
+              {
+                "kind": "course",
+                "code": "CIT7141"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7140"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7141"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ARA7580"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7143"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7531"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DEC7143"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7531"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7140"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7531"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7140"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7531"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": "Conceito e estrutura de algoritmo. Pseudo-código e fluxograma. Paradigma de programação estruturado x orientado a objetos. Linguagem Compilada x Interpretada. Noções de lógica de programação. Dados, expressões e algoritmos sequenciais. Comandos de entrada e saída, estruturas de controle de fluxo, operadores lógicos e aritméticos, estruturas de dados homogêneas e heterogêneas. Tipos definidos pelo usuário. Modularização. Introdução à uma Linguagem de Programação de alto nível. Atividades em laboratório com a linguagem selecionada."
+    },
+    {
+      "id": "DEC7121",
+      "code": "DEC7121",
+      "name": "Fundamentos Matemáticos para Computação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7121"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7121"
+      },
+      "syllabus": "Lógica matemática. Indução finita. Conjuntos. Relações e funções. Contagem. Álgebra booleana. Recursão. Fundamentos de grafos."
+    },
+    {
+      "id": "CIT7139",
+      "code": "CIT7139",
+      "name": "Programação em Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7580",
+        "CIT7580",
+        "ARA7140",
+        "ARA7141",
+        "CIT7141",
+        "ARA7143",
+        "ARA7531",
+        "DEC7143",
+        "DEC7531"
+      ],
+      "equivalents": [
+        "ARA7127",
+        "ARA7532",
+        "DEC7532"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7580"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7580"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7140"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7141"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7140"
+              },
+              {
+                "kind": "course",
+                "code": "CIT7141"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7143"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7531"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DEC7143"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7531"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7140"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7531"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7140"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7531"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7127"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7532"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7532"
+          }
+        ]
+      },
+      "syllabus": "Conceitos de classes, atributos, métodos e objetos. Encapsulamento. Herança. Polimorfismo. Mensagens. Tratamento de exceções. Reusabilidade. Criação e utilização de bibliotecas de classes. Persistência de Objetos. Estudo de biblioteca gráfica para o desenvolvimento de interfaces com o usuário. Desenvolvimento de aplicações utilizando uma linguagem orientada a objetos."
+    },
+    {
+      "id": "CIT7244",
+      "code": "CIT7244",
+      "name": "Estruturas de Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7243",
+        "CIT7243",
+        "ARA7120",
+        "ARA7530",
+        "DEC7530"
+      ],
+      "equivalents": [
+        "ARA7123",
+        "ARA7244",
+        "DEC7123"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7243"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7243"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7120"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7530"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7530"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7123"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7244"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7123"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos computadores. Perspectiva Histórica. Lei de Moore e tendências.Representação da informação: Representação de inteiros. Representação posicional dos números. Sistema de numeração em base dois. Operações aritméticas. Códigos intermediários. Representações octal e hexadecimal. Conversões entre códigos. Representação de reais. Notação exponencial. Normalização IEEE 754. Representação de caracteres. Código ASCII. Código UNICODE. Rendimento, Custo e Potência computacional. Benchmarks. Estrutura funcional de um computador. O processador. Organização básica do processador. Parâmetros mais importantes do processador. Organização do subsistema de memória. Conceito de hierarquia de memória. O que é uma memória cache? A memória principal e seus parâmetros fundamentais. Memória secundária. Interconexão e dispositivos de E/S de um computador. Hierarquia de barramentos. Técnicas de Entrada/Saída: Entrada/Saída programada, Entrada/Saída por interrupções e Entrada/Saída por DMA."
+    },
+    {
+      "id": "CIT7581",
+      "code": "CIT7581",
+      "name": "Gestão Estratégica Orientada ao Mercado",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7204",
+        "ARA7208",
+        "ARA7581"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7204"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7208"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7581"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos e Critérios da Excelência da Gestão pela Qualidade. O Processo de gestão estratégica. Planejamento estratégico orientado ao Mercado. Controle estratégico. Estrutura organizacional e Gestão de processos. Estilo de gestão. Modelos de gestão e de organização de negócios digitais."
+    },
+    {
+      "id": "CIT7595",
+      "code": "CIT7595",
+      "name": "Educação a Distância",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7203",
+        "CIT7203"
+      ],
+      "equivalents": [
+        "ARA7207",
+        "ARA7595",
+        "CIT7207"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7203"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7203"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7207"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7595"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7207"
+          }
+        ]
+      },
+      "syllabus": "Conceituação de Educação a Distância (EaD) e Educação Hibrida. Histórico nacional e Internacional. Características, regulamentações, políticas de EaD. Modelos de cursos e projetos. Mediação pedagógica na modalidade. Papeis do Professor na EaD. Atuação da Tutoria em EaD. A Importância da elaboração do material didático para EAD. Design Educacional Mídia e Conhecimento. Educação é Cultura Digital."
+    },
+    {
+      "id": "CIT7596",
+      "code": "CIT7596",
+      "name": "Sistemas Multimídias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7206",
+        "ARA7596"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7206"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7596"
+          }
+        ]
+      },
+      "syllabus": "Tecnologias multimídia e Aplicações multimídia. Plataformas multimídia. Representação Digital da Informação. Representação de dados multimídia: imagem, gráficos vetoriais, texto, áudio, animação por computador e vídeo. Conceitos de compressão de imagem, áudio e vídeo. Estudo de Aplicações Web multimídia. Projeto e Desenvolvimento de Aplicações Multimídia."
+    },
+    {
+      "id": "DEC7126",
+      "code": "DEC7126",
+      "name": "Redes de Computadores I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7121",
+        "DEC7121"
+      ],
+      "equivalents": [
+        "ARA7126",
+        "ARA7557",
+        "DEC7557"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7121"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7121"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7126"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7557"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7557"
+          }
+        ]
+      },
+      "syllabus": "Redes de computadores e a Internet. Camada de aplicação. Camada de transporte. Camada de rede. A camada de enlace e redes locais."
+    },
+    {
+      "id": "CIT7582",
+      "code": "CIT7582",
+      "name": "Gestão de Marketing",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7204",
+        "ARA7208",
+        "ARA7581",
+        "CIT7581"
+      ],
+      "equivalents": [
+        "ARA7205",
+        "ARA7208"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7204"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7208"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7581"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7581"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7205"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7208"
+          }
+        ]
+      },
+      "syllabus": "Conceitos e abordagens evolutivas do Marketing. O ambiente de Marketing. O mercado e sua visão de segmentação e posicionamento. Marketing voltado para o valor. Comportamento do consumidor, influência na compra e o processo de decisão de compra. Mix de marketing: produto, preço, praça e promoção. Marketing aplicado aos negócios digitais."
+    },
+    {
+      "id": "CIT7583",
+      "code": "CIT7583",
+      "name": "Gestão do Capital Intelectual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7201",
+        "ARA7583"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7201"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7583"
+          }
+        ]
+      },
+      "syllabus": "Gestão de pessoas para a inovação e competitividade. Os processos de gestão de pessoas. A gestão de Pessoas na Era Digital. Modelos de Negócios Digitais para integração e relacionamento com stakeholders. Gestão do capital intelectual. Gestão dos profissionais do conhecimento. Gestão da sustentabilidade e inovação."
+    },
+    {
+      "id": "CIT7584",
+      "code": "CIT7584",
+      "name": "Estrutura de Dados e Algoritmos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7127",
+        "ARA7139",
+        "ARA7141",
+        "ARA7532",
+        "CIT7139",
+        "CIT7141",
+        "DEC7530"
+      ],
+      "equivalents": [
+        "ARA7125",
+        "DEC7125"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7127"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7139"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7141"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7532"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7139"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7141"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7530"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7125"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7125"
+          }
+        ]
+      },
+      "syllabus": "Listas lineares e suas generalizações: listas ordenadas, listas encadeadas, pilhas e filas. Aplicações de listas. Algoritmos de ordenação de dados: inserção, remoção e consulta. Tabelas de espalhamento, árvores e fundamentos de grafos. Métodos de pesquisa. Técnicas de implementação iterativa e recursiva de estruturas de dados."
+    },
+    {
+      "id": "CIT7597",
+      "code": "CIT7597",
+      "name": "Ambientes Virtuais de Ensino e Aprendizagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7207",
+        "ARA7595",
+        "CIT7207",
+        "CIT7595"
+      ],
+      "equivalents": [
+        "ARA7211",
+        "ARA7597",
+        "CIT7211"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7207"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7595"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7207"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7595"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7211"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7597"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7211"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos Ambientes Virtuais de Ensino e Aprendizagem (AVEA). Processo de ensino e aprendizagem em AVEA em diferentes contextos. Tecnologias de AVEAs. Funcionalidades dos recursos de um AVEA. Design Educacional para AVEAs. Tendências de AVEA para educação corporativa. Estratégias pedagógicas e de avaliação por meio de AVEA. Modelagem de um curso no AVEA."
+    },
+    {
+      "id": "DEC7124",
+      "code": "DEC7124",
+      "name": "Engenharia de Software I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7127",
+        "ARA7139",
+        "ARA7532",
+        "CIT7139",
+        "DEC7532"
+      ],
+      "equivalents": [
+        "ARA7124",
+        "ARA7138",
+        "DEC7138"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7127"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7139"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7532"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7139"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7532"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7124"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7138"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7138"
+          }
+        ]
+      },
+      "syllabus": "Análise de requisitos: requisitos funcionais e requisitos não-funcionais; técnicas para levantamento e representação de requisitos, incluindo casos de uso. Modelagem orientada a objetos. Projeto orientado a objetos: técnicas para projeto; padrões de projeto, componentes e frameworks; projeto de arquitetura. Linguagem de especificação orientada a objetos. Métodos de análise e projeto orientados a objetos."
+    },
+    {
+      "id": "DEC7128",
+      "code": "DEC7128",
+      "name": "Redes de Computadores II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7126",
+        "DEC7126",
+        "ARA7557",
+        "DEC7557"
+      ],
+      "equivalents": [
+        "ARA7128",
+        "DEC7563"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7126"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7126"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7557"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7557"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7128"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7563"
+          }
+        ]
+      },
+      "syllabus": "Introdução. Redes sem fio e redes móveis. Roteamento. Administração de Redes de Computadores. Segurança. Aplicações."
+    },
+    {
+      "id": "CIT7585",
+      "code": "CIT7585",
+      "name": "Análise da Viabilidade Econômica de Novos Empreendimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7212",
+        "CIT7212"
+      ],
+      "equivalents": [
+        "ARA7202",
+        "ARA7585"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7212"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7212"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7202"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7585"
+          }
+        ]
+      },
+      "syllabus": "A decisão de Investir. Fundamentos de matemática financeira Juros; Taxa de Juros; Fluxo de Caixa; Série Uniforme; Valor Futuro; Valor Presente. Indicadores financeiros para análise de projetos de investimentos: Taxa de Mínima Atratividade; Método do Valor Presente Líquido; Índice Benefício/Custo; Retorno Adicional sobre o Investimento; Taxa Interna de Retorno e Período de recuperação do investimento. Comparação de alternativas de investimento. Estudo de viabilidade econômica."
+    },
+    {
+      "id": "CIT7586",
+      "code": "CIT7586",
+      "name": "Gestão de Projetos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7210",
+        "ARA7566",
+        "ARA7586",
+        "CIT7210",
+        "DEC7566"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7210"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7566"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7586"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7210"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7566"
+          }
+        ]
+      },
+      "syllabus": "Conceitos básicos de projetos. Fases e gerenciamento de projetos. Aplicação de metodologias. Escopo, objetivos, justificativas, produtos e entregas do projeto. Qualidade, estudo de viabilidade, riscos e custos de projetos. Produção de propostas. Estratégias e ferramentas de apoio a decisão."
+    },
+    {
+      "id": "CIT7587",
+      "code": "CIT7587",
+      "name": "Visualização de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7206",
+        "CIT7584",
+        "ARA7125",
+        "CIT7206",
+        "DEC7125",
+        "ARA7584",
+        "ARA7596",
+        "CIT7596"
+      ],
+      "equivalents": [
+        "ARA7209",
+        "ARA7587",
+        "CIT7209"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7206"
+              },
+              {
+                "kind": "course",
+                "code": "CIT7584"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7125"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7206"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CIT7206"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7125"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7206"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7584"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7125"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7596"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CIT7596"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7125"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CIT7584"
+              },
+              {
+                "kind": "course",
+                "code": "CIT7596"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7209"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7587"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7209"
+          }
+        ]
+      },
+      "syllabus": "Introdução a visualização de dados. Fundamentos em visualização da informação. Processo de Visualização. Representações visuais de dados multivariados. Representações visuais de hierarquias e árvores. Representações visuais de grafos e redes. Representações visuais de textos e documentos. Prática didática com desenvolvimento de sistemas e ferramentas de visualização."
+    },
+    {
+      "id": "DEC7130",
+      "code": "DEC7130",
+      "name": "Engenharia de Software II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7124",
+        "DEC7124",
+        "ARA7138",
+        "DEC7138"
+      ],
+      "equivalents": [
+        "ARA7130"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7124"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7124"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7138"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7138"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7130"
+      },
+      "syllabus": "Evolução da prática de desenvolvimento de software; Critérios de qualidade de artefatos de software; 94 modelos de ciclo de vida; metodologias de desenvolvimento de software; manutenção de software; engenharia reversa; modelagem formal de sistemas; abordagens voltadas ao reuso de software; teste de software; gerenciamento do processo de produção de software e técnicas de apoio ao gerenciamento do processo de produção de software; apoio automatizado ao desenvolvimento de software."
+    },
+    {
+      "id": "DEC7131",
+      "code": "DEC7131",
+      "name": "Sistemas Operacionais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CIT7244",
+        "CIT7584",
+        "ARA7244",
+        "ARA7584",
+        "ARA7125",
+        "DEC7125"
+      ],
+      "equivalents": [
+        "ARA7131",
+        "ARA7556",
+        "DEC7556"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CIT7244"
+              },
+              {
+                "kind": "course",
+                "code": "CIT7584"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7244"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7584"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7244"
+              },
+              {
+                "kind": "course",
+                "code": "CIT7584"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7125"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7244"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7125"
+              },
+              {
+                "kind": "course",
+                "code": "CIT7244"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7244"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7125"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "CIT7244"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7131"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7556"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7556"
+          }
+        ]
+      },
+      "syllabus": "Histórico e evolução dos sistemas operacionais. Arquitetura de sistemas operacionais. Gerenciamento de processos. Gerenciamento de memória. Gerenciamento de dispositivos de entrada e saída. Sistemas de arquivos. Segurança em sistemas operacionais. Estudos de caso."
+    },
+    {
+      "id": "DEC7588",
+      "code": "DEC7588",
+      "name": "Banco de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7584",
+        "CIT7584",
+        "ARA7125",
+        "DEC7125"
+      ],
+      "equivalents": [
+        "ARA7129",
+        "ARA7588",
+        "DEC7129"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7584"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7584"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7125"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7125"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7129"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7588"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7129"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos sistemas de gerência de bancos de dados. Projeto de banco de dados: conceitual, lógico e físico. Projeto conceitual de dados: entidades, relacionamentos, atributos, generalização e especialização. Projeto lógico para o modelo de dados relacional. Dependências funcionais e normalização. Linguagens de definição e de manipulação de dados. Restrições de integridade e visões. Desenvolvimento de aplicação de banco de dados."
+    },
+    {
+      "id": "CIT7213",
+      "code": "CIT7213",
+      "name": "Interface Humano-Computador",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7124",
+        "DEC7124",
+        "ARA7138",
+        "DEC7138"
+      ],
+      "equivalents": [
+        "ARA7213"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7124"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7124"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7138"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7138"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7213"
+      },
+      "syllabus": "Princípios de Ergonomia Interfaces humano-computador (IHC). Recomendações ergonômicas para IHC. Padrões de projetos em IHC. Ciclo de engenharia de usabilidade. Técnicas de análise contextual, concepção e avaliação. Experiência do usuário. Acessibilidade na Web. Prática didática com as ferramentas de usabilidade e acessibilidade na web."
+    },
+    {
+      "id": "CIT7222",
+      "code": "CIT7222",
+      "name": "Redes Sociais e Virtuais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7222"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7222"
+      },
+      "syllabus": "Definição de Redes sociais e suas influências culturais, organizacionais e tecnológicas. Tipologia de redes. Noções de Comunidade de prática. Análise e avaliação de redes sociais virtuais e comunidades de prática. Estudos de caso e ou análise de recursos e ferramentas tecnológicas de análise de redes."
+    },
+    {
+      "id": "CIT7245",
+      "code": "CIT7245",
+      "name": "Estágio Obrigatório",
+      "credits": 10,
+      "hours": 180,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7245"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1224
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7245"
+      },
+      "prerequisiteHours": 1224,
+      "syllabus": "O estágio obrigatório deverá ser realizado nas áreas afins do Curso de Graduação. As atividades de estágio obrigatório estão regulamentadas pela UFSC em http://portal.estagios.ufsc.br e na página do curso em http://tic.ufsc.br você encontra o regulamento de estágios do curso, bem como, outras informações necessárias."
+    },
+    {
+      "id": "CIT7246",
+      "code": "CIT7246",
+      "name": "Projeto Integrador em Tecnologias de Informação e Comunicação I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7586",
+        "CIT7586",
+        "ARA7210",
+        "CIT7210",
+        "ARA7566",
+        "DEC7566"
+      ],
+      "equivalents": [
+        "ARA7246"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7586"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7586"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7210"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7210"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7566"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7566"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7246"
+      },
+      "syllabus": "Projetos em Tecnologias de Informação e Comunicação. Metodologia para elaboração de proposta de projeto. Orientação para a fase inicial do projeto. Método e pesquisa científica. Elaboração de proposta formal de projeto. Ética na pesquisa científica. Normas da ABNT."
+    },
+    {
+      "id": "CIT7589",
+      "code": "CIT7589",
+      "name": "Gestão de Projetos II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7586",
+        "CIT7586",
+        "ARA7210",
+        "CIT7210",
+        "ARA7566",
+        "DEC7566"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7586"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7586"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7210"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7210"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7566"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7566"
+          }
+        ]
+      },
+      "syllabus": "Gerenciamento de Projetos. Ciclo de vida de projetos. Ferramentas para Gerenciamento de Projetos. Redes de Projetos. Associações de Gerenciamento de Projetos. Áreas de Gerenciamento de Projetos: Integração. Escopo. Tempo. Custos. Qualidade. Recursos Humanos. Comunicações. Riscos. Aquisições. Gerenciamento das Partes interessadas. Escritório de projetos."
+    },
+    {
+      "id": "CIT7598",
+      "code": "CIT7598",
+      "name": "Desenvolvimento de Sistemas Web",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7588",
+        "DEC7588",
+        "ARA7129",
+        "DEC7129"
+      ],
+      "equivalents": [
+        "ARA7216",
+        "ARA7598",
+        "CIT7216"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7588"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7588"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7129"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7129"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7216"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7598"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7216"
+          }
+        ]
+      },
+      "syllabus": "Características da arquitetura de aplicações na Web. Paradigma de desenvolvimento de aplicações para a Web. Plataformas para desenvolvimento de aplicações para a web. Banco de dados para Web. Estudo de casos."
+    },
+    {
+      "id": "DEC7133",
+      "code": "DEC7133",
+      "name": "Inteligência Artificial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7121"
+      ],
+      "equivalents": [
+        "ARA7133"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7121"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7133"
+      },
+      "syllabus": "Introdução e histórico. Teoria de problemas e sua resolução. Paradigmas da IA. Modelagem de Agentes Inteligentes. Métodos de busca. Representação e aquisição de Conhecimento. Métodos de raciocínio. Tratamento de incertezas. Sistemas especialistas. Fundamentos de: lógica nebulosa, redes neurais artificiais e algoritmos genéticos."
+    },
+    {
+      "id": "CIT7226",
+      "code": "CIT7226",
+      "name": "Plano de Negócios",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7204",
+        "CIT7204",
+        "ARA7581",
+        "CIT7581"
+      ],
+      "equivalents": [
+        "ARA7226"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7204"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7204"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7581"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7581"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7226"
+      },
+      "syllabus": "Conceito de Plano de Negócios. Benefícios. Aplicações. Estrutura. Sumário executivo. Descrição da empresa e características do empreendimento. Funções fundamentais do negócio. Planejamento estratégico. Análise do mercado e fatores de competitividade. Produtos e serviços. Estratégicas competitivas. Marketing. Gestão e estrutura organizacional. Plano operacional. Plano financeiro de custeio e de investimentos. Fontes de financiamento."
+    },
+    {
+      "id": "CIT7236",
+      "code": "CIT7236",
+      "name": "Gestão de Tecnologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7204",
+        "CIT7204",
+        "ARA7581",
+        "CIT7581"
+      ],
+      "equivalents": [
+        "ARA7236"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7204"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7204"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7581"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7581"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7236"
+      },
+      "syllabus": "Planejamento estratégico do desenvolvimento tecnológico. Gestão das Tecnologias e do Capital Intelectual nas Organizações. Análises e oportunidades no Desenvolvimento Tecnológico. Organização para a tecnologia. Empreendedorismo x Gestão de Negócios. Projetos de desenvolvimento de produtos e processos de base tecnológica. Ferramentas de Gestão da Tecnologia. Engenharia simultânea. Processos, cenários e atores na Transferência de Tecnologia."
+    },
+    {
+      "id": "CIT7247",
+      "code": "CIT7247",
+      "name": "Projeto Integrador em Tecnologias de Informação e Comunicação II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ARA7246",
+        "CIT7246"
+      ],
+      "equivalents": [
+        "ARA7247"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7246"
+              },
+              {
+                "kind": "course",
+                "code": "CIT7246"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 1692
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7247"
+      },
+      "prerequisiteHours": 1692,
+      "syllabus": "O regulamento de TCC. A elaboração de trabalhos de conclusão de cursos para a área das TICs. Pesquisa em bases de dados. Orientação para a implementação do projeto em Tecnologias de Informação e Comunicação. Seminários e Relatórios sobre o andamento do trabalho. Técnicas de apresentação e defesa pública. Normas da ABNT."
+    },
+    {
+      "id": "CIT7590",
+      "code": "CIT7590",
+      "name": "Ciências, Tecnologia e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7590"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7590"
+      },
+      "syllabus": "Estudo das relações entre ciência, tecnologia e sociedade ao longo da história, com ênfase na atualidade; filosofia da ciência; análise de valores e ideologias envolvendo a produção e divulgação da ciência e da tecnologia; influências das diferenças culturais, ou diferenças etnológicas, nas concepções de ciência e tecnologia e de suas relações com as sociedades; a participação da sociedade na definição de políticas relativas às questões científicas, tecnológicas, econômicas e ecológicas. O impacto da informática na sociedade. Clima e Projetos de Mecanismos de Desenvolvimento Limpo."
+    },
+    {
+      "id": "CIT7132",
+      "code": "CIT7132",
+      "name": "Computação Distribuída",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ARA7131",
+        "ARA7557",
+        "DEC7131",
+        "DEC7557",
+        "ARA7126",
+        "ARA7556",
+        "DEC7126",
+        "DEC7556"
+      ],
+      "equivalents": [
+        "ARA7132",
+        "ARA7558",
+        "DEC7558"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7131"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7557"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DEC7131"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7557"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7126"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7556"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DEC7126"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7556"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ARA7126"
+              },
+              {
+                "kind": "course",
+                "code": "ARA7131"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DEC7126"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7131"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DEC7556"
+              },
+              {
+                "kind": "course",
+                "code": "DEC7557"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7132"
+          },
+          {
+            "kind": "course",
+            "code": "ARA7558"
+          },
+          {
+            "kind": "course",
+            "code": "DEC7558"
+          }
+        ]
+      },
+      "syllabus": "Características da arquitetura de aplicações na Web. Paradigma de desenvolvimento de aplicações para a Web. Plataformas para desenvolvimento de aplicações para a web. Banco de dados para Web. Estudo de casos."
+    },
+    {
+      "id": "CIT7219",
+      "code": "CIT7219",
+      "name": "Tópicos Especiais em Tecnlogias Digitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7219"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7219"
+      },
+      "syllabus": "Disciplina da matriz curricular aberta à tópicos de estudo na área de tecnologias digitais que promova a integração das Tecnologias da Informação e Comunicação."
+    },
+    {
+      "id": "CIT7221",
+      "code": "CIT7221",
+      "name": "Informática na Educação II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ARA7203",
+        "CIT7203"
+      ],
+      "equivalents": [
+        "ARA7221"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7203"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7203"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7221"
+      },
+      "syllabus": "Análise e inserção da informática na educação no ensino fundamental e médio. Análise de Software Educacional para conteúdos curriculares do ensino fundamental, médio e profissionalizante. Tecnologia Inclusiva. Desenvolvimento de recursos didáticos para auxiliar aos professores e alunos da rede de ensino na aplicação de software educacional que apoie o processo ensino-aprendizagem em uma área de conhecimento."
+    },
+    {
+      "id": "CIT7223",
+      "code": "CIT7223",
+      "name": "Tópicos Especiais em Educação e Cultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7223"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7223"
+      },
+      "syllabus": "Disciplina da matriz curricular aberta à tópicos de estudo na área de educação e cultura digital que promova a integração das Tecnologias da Informação e Comunicação."
+    },
+    {
+      "id": "CIT7224",
+      "code": "CIT7224",
+      "name": "Gestão do Conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7224"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7224"
+      },
+      "syllabus": "Digital I Evolução histórica da Gestão do Conhecimento. Modelos de Gestão do Conhecimento. Organizações Intensivas em Conhecimento. Princípios e Processos da Gestão do Conhecimento. Cultura organizacional para a gestão do conhecimento. Estratégias de Gestão do Conhecimento. Auditoria de conhecimento. Memória organizacional. Métodos, Técnicas e tecnologias de apoio a gestão do conhecimento nas organizações."
+    },
+    {
+      "id": "CIT7232",
+      "code": "CIT7232",
+      "name": "Tecnologias de Informação e Comunicação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7232"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7232"
+      },
+      "syllabus": "Introdução as Tecnologias da Informação e Comunicação (TIC´s). Historia das Telecomunicações. Componentes básicos dos sistemas de Telecomunicações. Sistemas Telefônicos. Sistemas de Comunicação via Rádio. Sistemas de Comunicação via satélites. Sistema de comunicação via meios ópticos. Sistemas de comunicação móveis. Histórico das Comunicações Móveis. Ambiente Móvel Celular. Telefonia Móvel Digital. Tipos de Sistema Rádio Móvel: AMPS, IS-54, GSM, IS-95 e DECT (1; 2; 2,5; 3; 4G - LTE)). Redes de Comunicação de Dados de Alta Velocidade. Tecnologia de Interconexão de Redes. Redes integradas e serviços de telecomunicações. Evolução dos sistemas de telecomunicações. Princípios e tendências."
+    },
+    {
+      "id": "CIT7567",
+      "code": "CIT7567",
+      "name": "Inovação e Propriedade Intelectual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "e suas Evoluções Conceitos Básicos de Inovação. Os principais modelos de inovação nas instituições. As condições para inovação e os modelos de Gestão para a inovação. Proteção das inovações e Introdução à propriedade intelectual - PI - tipos de proteção. A Inovação e Propriedade Intelectual como garantias de divisas. As funções de Núcleo de Inovação nas Instituições. A Inovação e PI na Tecnologia, Biotecnológica e no meio ambiente. A Lei de Inovação e as legislação e entidades. Perspectivas econômicas da Lei de Inovação. Inovação como fator de competitividade. P&D e Inovação nas Organizações. Inovação como parte do Planejamento Estratégico. Gestão para inovação. Criatividade: fundamentos teóricos. Postura empreendedora. A Propriedade Intelectual - conceitos, deveres e direitos. Formas de proteção do conhecimento. A Propriedade Intelectual na empresa."
+    },
+    {
+      "id": "CIT7591",
+      "code": "CIT7591",
+      "name": "Produção Audiovisual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ARA7206",
+        "CIT7206"
+      ],
+      "equivalents": [
+        "ARA7591"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ARA7206"
+          },
+          {
+            "kind": "course",
+            "code": "CIT7206"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7591"
+      },
+      "syllabus": "Princípios e técnicas de comunicação audiovisual. Estúdio: hardware e software. Princípios de iluminação e ambientação. linguagem, estética e enquadramento. Pré-produção, produção e pós-produção. Formatos de áudio e vídeo para canais de distribuição de mídia. Roteiro e produção de áudio e vídeo para educação. Streamming de áudio e vídeo. Video On-Demand. Padrões de rádio e TV no Brasil e no mundo."
+    },
+    {
+      "id": "CIT7592",
+      "code": "CIT7592",
+      "name": "Tecnologias Sociais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de Tecnologias Sociais. Cooperativas e empreendimentos sociais. Economia Solidária. Economia Verde. Empresas e Negócios Sociais. Desenvolvimento inclusivo e sustentável. Economia e empreendedorismo social. Quarto setor e a inovação social. Incubadoras Sociais e Economia Criativa."
+    },
+    {
+      "id": "CIT7593",
+      "code": "CIT7593",
+      "name": "Tópicos Especiais em Negócios Digitais II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios e conceitos da transformação digital; Cultura Digital nas organizações; Liderança na transformação digital; Estratégias organizacionais baseadas no uso de dados; Transformação Digital na Indústria; Tecnologias habilitadoras da transformação digital; Profissões do futuro impactadas pela transformação digital."
+    },
+    {
+      "id": "CIT7594",
+      "code": "CIT7594",
+      "name": "Relações Interétnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Multiculturalismo. Temas de História e cultura Afro-Brasileira e indígena. Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política. Tecnologia e Multiculturalismo. Tecnologia e Relações Interétnicas. Redes Sociais e Multiculturalismo."
+    },
+    {
+      "id": "CIT7600",
+      "code": "CIT7600",
+      "name": "Disciplina Extracurricular de Estágio",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CIT7601",
+      "code": "CIT7601",
+      "name": "Disciplina Extracurricular de Monitoria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina aprovada pelo NDE do curso, na 5ª reunião ordinária de 2018, para validação de atividades de monitoria devidamente registradas no Sistema Moni e com carga horária mínima de 80 horas semestrais."
+    },
+    {
+      "id": "CIT7602",
+      "code": "CIT7602",
+      "name": "Disciplina Extracurricular de Pesquisa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina aprovada pelo NDE do curso, na 5ª reunião ordinária de 2018, para validação de atividades de extensão devidamente registradas no SIGPEX e com carga horária mínima de 80 horas semestrais."
+    },
+    {
+      "id": "CIT7603",
+      "code": "CIT7603",
+      "name": "Disciplina Extracurricular de Extensão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina aprovada pelo NDE do curso, na 5ª reunião ordinária de 2018, para validação de atividades de extensão devidamente registradas no SIGPEX e com carga horária mínima de 80 horas semestrais."
+    },
+    {
+      "id": "DEC7502",
+      "code": "DEC7502",
+      "name": "Lógica Aplicada à Computação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Lógica; Lógica Proposicional - símbolos proposicionais, tabelas verdade, operadores lógicos, fórmulas bem formadas, tautologias, contradições, contingência, métodos de prova; Lógica de Predicados - sintaxe e semântica, interpretação das variáveis, funções e predicados, equivalência entre fórmulas, métodos de prova; programação em Lógica - Introdução, cláusulas de Horn, resolvente e unificação, SLD derivação e refutação, linguagem de programação Prolog. Lógicas não Clássicas - lógica modal, de multivalores, temporal e não monotônica."
+    },
+    {
+      "id": "DEC7510",
+      "code": "DEC7510",
+      "name": "Linguagens Formais e Autômatos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos Centrais: Símbolos, Alfabeto, Strings e Linguagem. Linguagens Regulares. Expressões Regulares. Automatos Finitos e Expressões Regulares. Propriedades das Linguagens Regulares. Linguagens Livres de Contexto. Automato de Pilha. Introdução a Máquinas de Turing."
+    },
+    {
+      "id": "DEC7535",
+      "code": "DEC7535",
+      "name": "Teoria Geral de Sistemas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A origem e o conceito da Teoria Geral de Sistemas. O conceito de sistema. Componentes genéricos de um sistema. As relações entre sistema e ambiente. Hierarquia de sistemas. Classificações dos sistemas. Enfoque sistêmico. O pensamento sistêmico aplicado na resolução de problemas. O pensamento sistêmico aplicado às organizações. Modelagem de Sistemas."
+    },
+    {
+      "id": "DEC7536",
+      "code": "DEC7536",
+      "name": "Projeto e Análise de Algoritmos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Técnicas de análise de algoritmos identificando classes de problemas e soluções eficientes. Algoritmos clássicos. Complexidade de Algoritmos. Projetos de algoritmos. Estruturas de dados Avançadas. Teoria dos Grafos: conceitos básicos, algorítmos e aplicações."
+    },
+    {
+      "id": "DEC7542",
+      "code": "DEC7542",
+      "name": "Inteligência Artificial II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução Inteligência Computacional. Lógica Nebulosa/Fuzzy. Conjuntos nebulosos. Tratamento de Incertezas: fuzificação e defuzificação. Raciocínio e inferência em lógica nebulosa. Algoritmos Genéticos e Programação Genética. Sistemas de Colônia de Formigas. Redes Neurais Artificiais. Aprendizado não supervisionado e supervisionado."
+    },
+    {
+      "id": "DEC7548",
+      "code": "DEC7548",
+      "name": "Comunicação de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos de comunicação de dados. Formas de transmissão de dados. Modulação por amplitude, ângulo e pulso. Demodulação. Modulação e Transmissão Digital. Meios de transmissão de dados. Detecção e correção de erros. Interfaces de comunicação de dados. Padronização de comunicação de dados."
+    },
+    {
+      "id": "DEC7562",
+      "code": "DEC7562",
+      "name": "Sistemas Operacionais Embarcados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos de sistemas embarcados e sistemas operacionais embarcados. Projeto de sistemas operacionais embarcados. Sistemas operacionais embarcados de tempo real. Implementação de sistemas operacionais embarcados."
+    },
+    {
+      "id": "DEC7564",
+      "code": "DEC7564",
+      "name": "Projetos de Sistemas Ubíquos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos de Sistemas Ubíquos e Pervasivos: computação móvel e embarcada, computação sensível ao contexto e descoberta de serviços. Fundamentos de sistemas operacionais embarcados, sistemas autônomos e reconfiguráveis. Tecnologias de Sistemas ubíquos: Middleware para sistemas ubíquos, Redes de Sensores Sem Fio, Identificação por Rádio Frequência (RFID), FlexRay, TinyOs, Android, Bluetooth."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "CIT7001",
+      "code": "CIT7001",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) ATIVIDADES COMPLEMENTARES Disciplina optativa; com base na Resolução nº 007/CuN/99."
+    },
+    {
+      "id": "CIT7002",
+      "code": "CIT7002",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina optativa com base na Resolução nº 007/CuN/99."
+    },
+    {
+      "id": "CIT7006",
+      "code": "CIT7006",
+      "name": "Atividade Complementares: TIC",
+      "credits": 8,
+      "hours": 144,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Os procedimentos, bem como os critérios para a realização de atividades complementares do curso de Tecnologias da Informação e Comunicação encontram-se no Regulamento das Atividades Complementares. Para consultar o regulamento, acesse a página do curso em: https://tic.ufsc.br/regulamento- atividades-complementares/"
+    },
+    {
+      "id": "CIT7007",
+      "code": "CIT7007",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina optativa com base na Resolução nº 007/CuN/99."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "CIT7122",
+      "CIT7203",
+      "CIT7212",
+      "CIT7243",
+      "CIT7580",
+      "DEC7121",
+      "CIT7139",
+      "CIT7244",
+      "CIT7581",
+      "CIT7595",
+      "CIT7596",
+      "DEC7126",
+      "CIT7582",
+      "CIT7583",
+      "CIT7584",
+      "CIT7597",
+      "DEC7124",
+      "DEC7128",
+      "CIT7585",
+      "CIT7586",
+      "CIT7587",
+      "DEC7130",
+      "DEC7131",
+      "DEC7588",
+      "CIT7213",
+      "CIT7222",
+      "CIT7245",
+      "CIT7246",
+      "CIT7589",
+      "CIT7598",
+      "DEC7133",
+      "CIT7226",
+      "CIT7236",
+      "CIT7247",
+      "CIT7590",
+      "CIT7006"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 216,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CIT7132",
+              "CIT7219",
+              "CIT7221",
+              "CIT7223",
+              "CIT7224",
+              "CIT7232",
+              "CIT7567",
+              "CIT7591",
+              "CIT7592",
+              "CIT7593",
+              "CIT7594",
+              "CIT7600",
+              "CIT7601",
+              "CIT7602",
+              "CIT7603",
+              "DEC7502",
+              "DEC7510",
+              "DEC7535",
+              "DEC7536",
+              "DEC7542",
+              "DEC7548",
+              "DEC7562",
+              "DEC7564",
+              "LSB7244",
+              "CIT7001",
+              "CIT7002",
+              "CIT7007"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "652",
+    "curriculumCode": "20171",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=652&curriculo=20171",
+    "sha256": "d6841ef7596ee501a7c455710944e68d5e78cd8cf942aa1c17da531f7de3849b",
+    "capturedAt": "2026-09-22"
+  }
+}

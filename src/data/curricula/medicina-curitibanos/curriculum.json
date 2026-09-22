@@ -1,0 +1,923 @@
+{
+  "program": "MEDICINA [Campus Curitibanos]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.1",
+  "totalHours": 8676,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 11,
+      "name": "11ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "BSU7911",
+      "code": "BSU7911",
+      "name": "Sequencial I",
+      "credits": 24,
+      "hours": 432,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Modelo pedagógico do curso de Medicina da UFSC Curitibanos. Acompanhamento do desenvolvimento integral do ser humano, priorizando a adolescência."
+    },
+    {
+      "id": "BSU7912",
+      "code": "BSU7912",
+      "name": "Habilidades e Humanidades I",
+      "credits": 8,
+      "hours": 144,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7912
+      },
+      "prerequisiteHours": 7912,
+      "syllabus": "Introdução à história da medicina, antropologia e sociologia e sua interface com o processo saúde e doença e os sistemas culturais de saúde. Desenvolvimento de competências comunicacionais, éticas e bioéticas na relação médico-paciente. Estudo de identidades, psicologia da saúde, aspectos psicodinâmicos do desenvolvimento humano e os ciclos da vida. Educação em direitos humanos. Introdução à semiologia médica.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7913",
+      "code": "BSU7913",
+      "name": "Comunidades I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Introdução à Saúde Pública e Coletiva, Sistema Único de Saúde SUS parte I e Política Nacional de Saúde do Adolescente e Jovens.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7921",
+      "code": "BSU7921",
+      "name": "Sequencial II",
+      "credits": 24,
+      "hours": 432,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7911"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7911"
+      },
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano, priorizando a gestação. Diagnóstico e acompanhamento da gravidez por meio da assistência e cuidados pré-natais."
+    },
+    {
+      "id": "BSU7922",
+      "code": "BSU7922",
+      "name": "Habilidades e Humanidades II",
+      "credits": 8,
+      "hours": 144,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7912"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7912"
+          },
+          {
+            "kind": "hours",
+            "hours": 7922
+          }
+        ]
+      },
+      "prerequisiteHours": 7922,
+      "syllabus": "Desenvolvimento de competências comunicacionais e humanísticas na relação médico-família e o seu papel no planejamento familiar, pré-natal e parto. Introdução à metodologia da pesquisa científica e à medicina baseada 114 em evidências. Estudo das práticas integrativas e complementares em saúde e sua relação com o ambiente, a saúde e as vulnerabilidades. Conceitos em saúde única. Introdução à consulta centrada na pessoa.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7923",
+      "code": "BSU7923",
+      "name": "Comunidades II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7913"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7913"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Introdução à epidemiologia, Sistema Único de Saúde SUS parte II e Rede Cegonha.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7931",
+      "code": "BSU7931",
+      "name": "Sequencial III",
+      "credits": 24,
+      "hours": 432,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7921"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7921"
+      },
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano, priorizando o recém-nascido e a infância. Agravos comuns na infância."
+    },
+    {
+      "id": "BSU7932",
+      "code": "BSU7932",
+      "name": "Habilidades e Humanidades III",
+      "credits": 8,
+      "hours": 144,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7922"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7922"
+          },
+          {
+            "kind": "hours",
+            "hours": 7932
+          }
+        ]
+      },
+      "prerequisiteHours": 7932,
+      "syllabus": "Desenvolvimento de competências comunicacionais e humanísticas na relação médico recém-nascido e o seu processo de crescimento e desenvolvimento. Fundamentos da clínica ampliada em puericultura, pediatria e atenção à saúde de pessoas com deficiências ou transtorno do espectro autista. Semiologia médica criança e adolescente. Estudo dos transtornos psiquiátricos na infância e adolescência.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7933",
+      "code": "BSU7933",
+      "name": "Comunidades III",
+      "credits": 8,
+      "hours": 144,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7923"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7923"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Bioestatística, epidemiologia descritiva, Políticas e Programas de Saúde da Criança e Medicina de Família e Comunidade I.",
+      "extensionHours": 72
+    },
+    {
+      "id": "BSU7941",
+      "code": "BSU7941",
+      "name": "Sequencial IV",
+      "credits": 24,
+      "hours": 432,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7931"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7931"
+      },
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano, priorizando a saúde do homem. Principais problemas relacionados à saúde do homem, bem como as modificações, complicações e cuidados específicos."
+    },
+    {
+      "id": "BSU7942",
+      "code": "BSU7942",
+      "name": "Habilidades e Humanidades IV",
+      "credits": 8,
+      "hours": 144,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7932"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7932"
+          },
+          {
+            "kind": "hours",
+            "hours": 7942
+          }
+        ]
+      },
+      "prerequisiteHours": 7942,
+      "syllabus": "Desenvolvimento de competências comunicacionais e humanísticas na clínica médico-cirúrgica. Introdução à anestesiologia e técnica cirúrgica. Fundamentos da clínica ampliada em cardiologia, pneumologia, gastrologia e endocrinologia e sua interface com a interdisciplinaridade e interprofissionalidade. Discussão sobre dilemas éticos e bioéticos no exercício profissional. Semiologia médica homem.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7943",
+      "code": "BSU7943",
+      "name": "Comunidades IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7933"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7933"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Sistema Único de Saúde SUS parte III, Políticas e Programas de Saúde do Homem e do Trabalhador e Trabalhadora, Epidemiologia Analítica e Medicina de Família e Comunidade II.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7951",
+      "code": "BSU7951",
+      "name": "Sequencial V",
+      "credits": 24,
+      "hours": 432,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7941"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7941"
+      },
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano, priorizando a saúde da mulher. Principais problemas relacionados à saúde da mulher, bem como as modificações, complicações e cuidados específicos."
+    },
+    {
+      "id": "BSU7952",
+      "code": "BSU7952",
+      "name": "Habilidades e Humanidades V",
+      "credits": 8,
+      "hours": 144,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7942"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7942"
+          },
+          {
+            "kind": "hours",
+            "hours": 7952
+          }
+        ]
+      },
+      "prerequisiteHours": 7952,
+      "syllabus": "Desenvolvimento de competências comunicacionais e humanísticas em saúde da mulher e saúde mental. Fundamentos da clínica ampliada em ginecologia e obstetrícia, endocrinologia e psiquiatria e sua interface com a interdisciplinaridade e interprofissionalidade. Estudo sobre conceitos e práticas em biossegurança. Discussão sobre saúde e direitos humanos. Semiologia médica mulher e atenção psicossocial",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7953",
+      "code": "BSU7953",
+      "name": "Comunidades V",
+      "credits": 8,
+      "hours": 144,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7943"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7943"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Gestão, planejamento e avaliação em saúde, Políticas e Programas de Saúde da Mulher e de minorias e Medicina de Família e Comunidade III.",
+      "extensionHours": 72
+    },
+    {
+      "id": "BSU7961",
+      "code": "BSU7961",
+      "name": "Sequencial VI",
+      "credits": 24,
+      "hours": 432,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7951"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7951"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano, priorizando o processo de envelhecimento. Principais problemas relacionados ao envelhecimento, bem como as complicações e cuidados relacionados à finitude da vida.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7962",
+      "code": "BSU7962",
+      "name": "Habilidades e Humanidades VI",
+      "credits": 8,
+      "hours": 144,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7952"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7952"
+          },
+          {
+            "kind": "hours",
+            "hours": 7962
+          }
+        ]
+      },
+      "prerequisiteHours": 7962,
+      "syllabus": "Desenvolvimento de competências comunicacionais e humanísticas em geriatria e cuidados paliativos. Fundamentos da clínica ampliada em geriatria, oncologia, hematologia, neurologia e neurocirurgia, psiquiatria e cuidados paliativos e sua interface com a interdisciplinaridade e interprofissionalidade. Semiologia médica idoso e cuidados de fim de vida. Introdução à cirurgia geral e ambulatorial e à telemedicina e telessaúde.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7963",
+      "code": "BSU7963",
+      "name": "Comunidades VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7953"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7953"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Vigilância em saúde, Políticas e Programas de Saúde do Idoso e de minorias e Medicina de Família e Comunidade IV.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7971",
+      "code": "BSU7971",
+      "name": "Sequencial VII",
+      "credits": 24,
+      "hours": 432,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7961"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7961"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano em todos os ciclos de vida. Abordagem ao paciente com doenças e agravos relacionados aos sistemas do corpo humano.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7972",
+      "code": "BSU7972",
+      "name": "Habilidades e Humanidades VII",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7962"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7962"
+          },
+          {
+            "kind": "hours",
+            "hours": 7972
+          }
+        ]
+      },
+      "prerequisiteHours": 7972,
+      "syllabus": "Desenvolvimento de competências comunicacionais e humanísticas na atenção integral à saúde. Fundamentos da clínica ampliada em dermatologia, reumatologia, proctologia, urologia, nefrologia, radiologia, ortopedia e traumatologia. Semiologia médica urgências e emergências clínicas. Introdução à cirurgia torácica e abdominal e ao atendimento pré e intrahospitalar. Estudo sobre telemedicina, bioética e interdisciplinaridade.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7973",
+      "code": "BSU7973",
+      "name": "Comunidades VII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7963"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7963"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Medicina de Família e Comunidade V Atenção primária I",
+      "extensionHours": 72
+    },
+    {
+      "id": "BSU7981",
+      "code": "BSU7981",
+      "name": "Sequencial VIII",
+      "credits": 24,
+      "hours": 432,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7971"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7971"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Acompanhamento do desenvolvimento integral e cuidados do ser humano em todos os ciclos de vida. Abordagem ao paciente com doenças e agravos relacionados aos sistemas do corpo humano.",
+      "extensionHours": 36
+    },
+    {
+      "id": "BSU7982",
+      "code": "BSU7982",
+      "name": "Habilidades e Humanidades VIII (EXT 36h-",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7972"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7972"
+          },
+          {
+            "kind": "hours",
+            "hours": 7982
+          }
+        ]
+      },
+      "prerequisiteHours": 7982,
+      "syllabus": "Desenvolvimento de competências comunicacionais e humanísticas na atenção integral à saúde. Fundamentos da clínica ampliada em oftalmologia, otorrinolaringologia, infectologia, angiologia e neonatologia. Semiologia médica paciente crítico. Introdução à cirurgia de cabeça e pescoço, terapia intensiva, medicina legal e forense. Estudo sobre telemedicina, interdisciplinaridade e educação em direitos humanos."
+    },
+    {
+      "id": "BSU7983",
+      "code": "BSU7983",
+      "name": "Comunidades VIII",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7973"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7973"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "a) Medicina de Família e Comunidade VI.",
+      "extensionHours": 72
+    },
+    {
+      "id": "BSU7991",
+      "code": "BSU7991",
+      "name": "Internato I",
+      "credits": 43,
+      "hours": 774,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7981",
+        "BSU7982",
+        "BSU7983"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7981"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7982"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7983"
+          }
+        ]
+      },
+      "syllabus": "Estágio curricular supervisionado desenvolvido na Rede de Atenção à Saúde, especialmente na Atenção Básica, nos serviços de urgência e emergência e demais dispositivos do Sistema Único de Saúde (SUS), na forma de treinamento em serviço, sob supervisão docente. Medicina de Família e Comunidade I, Clínica Médica Especialidades Clínicas I, Cirurgia I e Saúde Coletiva I, abordando a Saúde Mental, Urgência e Emergência e Cuidados Paliativos de forma transversal."
+    },
+    {
+      "id": "BSU7992",
+      "code": "BSU7992",
+      "name": "Internato II",
+      "credits": 43,
+      "hours": 774,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7991"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7991"
+      },
+      "syllabus": "Estágio curricular supervisionado desenvolvido na Rede de Atenção à Saúde, especialmente na Atenção Básica, nos serviços de Urgência e Emergência e demais dispositivos do Sistema Único de Saúde (SUS), na forma de treinamento em serviço, sob supervisão docente. Medicina de Família e Comunidade II, Pediatria I, Ginecologia e Obstetrícia I e Saúde Mental I, que também deve ser abordada de forma transversal nas outras áreas, assim como Urgência e Emergência e Cuidados Paliativos."
+    },
+    {
+      "id": "BSU7993",
+      "code": "BSU7993",
+      "name": "Internato III",
+      "credits": 43,
+      "hours": 774,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7992"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7992"
+      },
+      "syllabus": "Estágio curricular supervisionado desenvolvido na Rede de Atenção à Saúde, especialmente na Atenção Básica, nos serviços de Urgência e Emergência e demais dispositivos do Sistema Único de Saúde (SUS), na forma de treinamento em serviço, sob supervisão docente. Medicina de Família e Comunidade III, Clínica Médica/Especialidades Clínicas II, Cirurgia II, e Saúde Coletiva II, abordando a Saúde Mental, Urgência e Emergência e Cuidados Paliativos de forma transversal."
+    },
+    {
+      "id": "BSU7994",
+      "code": "BSU7994",
+      "name": "Internato IV",
+      "credits": 43,
+      "hours": 774,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [
+        "BSU7993"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7993"
+      },
+      "syllabus": "Estágio curricular supervisionado desenvolvido na Rede de Atenção à Saúde, especialmente na Atenção Básica, nos serviços de Urgência e Emergência e demais dispositivos do Sistema Único de Saúde (SUS), na forma de treinamento em serviço, sob supervisão docente. Medicina de Família e Comunidade IV, Pediatria II, Ginecologia e Obstetrícia II e Saúde Mental II, que também deve ser abordada de forma transversal nas outras áreas, assim como Urgência e Emergência e Cuidados Paliativos."
+    },
+    {
+      "id": "BSU7900",
+      "code": "BSU7900",
+      "name": "Medicina do Trabalho",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BSU7953",
+        "BSU7971",
+        "BSU7972"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BSU7953"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7971"
+          },
+          {
+            "kind": "course",
+            "code": "BSU7972"
+          }
+        ]
+      },
+      "syllabus": "Desenvolvimento da habilidade de investigação das relações trabalho-saúde-doença. Instrumentalização para a anamnese ocupacional e a introdução dos achados no raciocínio clínico. Investigação e avaliação de fatores de risco ocupacionais. Conhecimento e compreensão dos conceitos de acidente do trabalho, doença ocupacional e doença do trabalho. Saúde, trabalho e ambiente no Brasil e no mundo. Estudo dos problemas de saúde provocados ou agravados pelo trabalho. Investigação dos agravos à saúde relacionados com o trabalho, no nível individual e coletivo. Noções de ergonomia."
+    },
+    {
+      "id": "BSU7901",
+      "code": "BSU7901",
+      "name": "Telemedicina e Telessaúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A telemedicina trata da utilização de tecnologias digitais para fornecer cuidados médicos a distância. Permite consultas e diagnósticos por meio de plataformas online, melhorando o acesso à saúde e otimizando o tempo de pacientes e profissionais. A telessaúde é a utilização de sistemas de informação, comunicação e tecnologias em geral na área da saúde. Podendo ser aplicados em diversos setores, seja no setor de diagnóstico, em procedimentos cirúrgicos trocas de informações, ou até mesmo na rotina administrativa da área."
+    },
+    {
+      "id": "BSU7902",
+      "code": "BSU7902",
+      "name": "Tópicos Especiais em Saúde III: Saúde e Sociedade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Processo saúde e doença; interface entre ciências da saúde e ciências sociais e humana; Saúde e direito social; Sistemas de saúde; práticas dos profissionais em saúde; Saúde Coletiva: atenção, extensão, políticas e programas de saúde."
+    },
+    {
+      "id": "BSU7903",
+      "code": "BSU7903",
+      "name": "Tópicos Especiais em Saúde IV: Das moléculas aos sistemas biológicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudos de tópicos relacionado a: origem da Vida, evolução, biofísica, bioquímica, biologia molecular, citologia, histologia, anatomia, fisiologia e embriologia."
+    },
+    {
+      "id": "BSU7904",
+      "code": "BSU7904",
+      "name": "Tópicos Especiais em Saúde V: Ciclos de Vida",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo de tópicos especiais no contexto médico relacionados aos ciclos de vida."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "BSU7908",
+      "code": "BSU7908",
+      "name": "Atividades Complementares",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades complementares"
+    },
+    {
+      "id": "BSU7909",
+      "code": "BSU7909",
+      "name": "Atividades de Extensão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Atividades de Extensão Atividades de Extensão"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "BSU7911",
+      "BSU7912",
+      "BSU7913",
+      "BSU7921",
+      "BSU7922",
+      "BSU7923",
+      "BSU7931",
+      "BSU7932",
+      "BSU7933",
+      "BSU7941",
+      "BSU7942",
+      "BSU7943",
+      "BSU7951",
+      "BSU7952",
+      "BSU7953",
+      "BSU7961",
+      "BSU7962",
+      "BSU7963",
+      "BSU7971",
+      "BSU7972",
+      "BSU7973",
+      "BSU7981",
+      "BSU7982",
+      "BSU7983",
+      "BSU7991",
+      "BSU7992",
+      "BSU7993",
+      "BSU7994"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 72,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "BSU7900",
+              "BSU7901",
+              "BSU7902",
+              "BSU7903",
+              "BSU7904",
+              "LSB7244",
+              "BSU7908",
+              "BSU7909"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 72
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "556",
+    "curriculumCode": "20251",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=556&curriculo=20251",
+    "sha256": "7d82341c68dc1751b914d6f5a62ae9017e8912ad1474b453ea1f63dd6ccfbec8",
+    "capturedAt": "2026-09-22"
+  }
+}

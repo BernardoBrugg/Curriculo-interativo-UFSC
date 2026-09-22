@@ -13,14 +13,37 @@ type LibraryView = "mine" | "new";
 export function CourseLibrary() {
   const router = useRouter();
   const [view, setView] = useState<LibraryView>("mine");
+  const [search, setSearch] = useState("");
+  const [selectedCampus, setSelectedCampus] = useState("Todos");
   const [courseToRemove, setCourseToRemove] = useState<string | null>(null);
+
   const { curricula, isLoading: curriculaLoading, error: curriculaError } = useCurriculumSummaries();
   const { courseIds, isLoading: coursesLoading, error: coursesError, addCourse, removeCourse } = useUserCourses();
   const selectedIds = useMemo(() => new Set(courseIds), [courseIds]);
-  const visibleCurricula = useMemo(
-    () => view === "mine" ? curricula.filter((curriculum) => selectedIds.has(curriculum.id)) : curricula.filter((curriculum) => !selectedIds.has(curriculum.id)),
-    [curricula, selectedIds, view]
-  );
+
+  const campuses = useMemo(() => {
+    const list = new Set<string>();
+    for (const item of curricula) {
+      if (item.campus) list.add(item.campus);
+    }
+    return ["Todos", ...Array.from(list).sort((a, b) => a.localeCompare(b, "pt-BR"))];
+  }, [curricula]);
+
+  const visibleCurricula = useMemo(() => {
+    const base = view === "mine"
+      ? curricula.filter((curriculum) => selectedIds.has(curriculum.id))
+      : curricula.filter((curriculum) => !selectedIds.has(curriculum.id));
+    const query = search.trim().toLowerCase();
+    return base.filter((item) => {
+      if (view === "new" && selectedCampus !== "Todos" && item.campus !== selectedCampus) return false;
+      if (!query) return true;
+      const matchName = item.name.toLowerCase().includes(query);
+      const matchId = item.id.toLowerCase().includes(query);
+      const matchCampus = item.campus ? item.campus.toLowerCase().includes(query) : false;
+      return matchName || matchId || matchCampus;
+    });
+  }, [curricula, search, selectedCampus, selectedIds, view]);
+
   const selectedCourseToRemove = useMemo(
     () => curricula.find((curriculum) => curriculum.id === courseToRemove) ?? null,
     [courseToRemove, curricula]
@@ -35,12 +58,13 @@ export function CourseLibrary() {
         <span className="h-px flex-1 bg-gradient-to-r from-[var(--glass-border)] to-transparent" />
       </div>
 
-      <div className="mb-5 grid grid-cols-2 gap-1 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-muted)] p-1">
+      <div className="mb-4 grid grid-cols-2 gap-1 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-muted)] p-1">
         <button
           type="button"
           onClick={() => {
             setView("mine");
             setCourseToRemove(null);
+            setSearch("");
           }}
           className={`auth-tab rounded-xl px-3 py-2.5 text-sm font-bold transition ${view === "mine" ? "auth-tab-active shadow-sm" : ""}`}
         >
@@ -48,13 +72,58 @@ export function CourseLibrary() {
         </button>
         <button
           type="button"
-          onClick={() => setView("new")}
+          onClick={() => {
+            setView("new");
+            setSearch("");
+          }}
           className={`auth-tab rounded-xl px-3 py-2.5 text-sm font-bold transition ${view === "new" ? "auth-tab-active shadow-sm" : ""}`}
         >
           <span aria-hidden="true" className="text-base">+</span>
           Curso novo
         </button>
       </div>
+
+      {view === "new" && (
+        <div className="mb-4 space-y-2.5">
+          <div className="relative">
+            <input
+              type="text"
+              value={search}
+              onChange={(event) => setSearch(event.target.value)}
+              placeholder="Buscar curso por nome ou código..."
+              className="w-full rounded-xl border border-[var(--glass-border)] bg-[var(--glass-surface)] px-3.5 py-2 text-xs text-[var(--text-strong)] placeholder:text-[var(--text-faint)] focus:border-[var(--accent)] focus:outline-none focus:ring-1 focus:ring-[var(--accent)]"
+            />
+            {search && (
+              <button
+                type="button"
+                onClick={() => setSearch("")}
+                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-xs font-bold text-[var(--text-faint)] hover:text-[var(--text-strong)]"
+              >
+                ✕
+              </button>
+            )}
+          </div>
+
+          {campuses.length > 2 && (
+            <div className="flex gap-1.5 overflow-x-auto pb-1 text-[11px] scrollbar-none">
+              {campuses.map((campus) => (
+                <button
+                  key={campus}
+                  type="button"
+                  onClick={() => setSelectedCampus(campus)}
+                  className={`shrink-0 rounded-lg px-2.5 py-1 font-semibold transition ${
+                    selectedCampus === campus
+                      ? "bg-[var(--accent)] text-[var(--on-accent)] shadow-xs"
+                      : "border border-[var(--glass-border)] bg-[var(--glass-muted)] text-[var(--text-muted)] hover:text-[var(--text-strong)]"
+                  }`}
+                >
+                  {campus}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
 
       {error && (
         <p role="alert" className="mb-4 rounded-xl border border-red-500/20 bg-red-500/10 px-3 py-2.5 text-sm text-red-500">
@@ -67,20 +136,22 @@ export function CourseLibrary() {
       {!isLoading && visibleCurricula.length === 0 && (
         <div className="rounded-2xl border border-dashed border-[var(--glass-border)] px-5 py-8 text-center">
           <p className="text-sm font-semibold text-[var(--text-strong)]">
-            {view === "mine" ? "Você ainda não adicionou nenhum curso." : "Você já adicionou todos os cursos disponíveis."}
+            {view === "mine" ? "Você ainda não adicionou nenhum curso." : "Nenhum curso encontrado para os filtros informados."}
           </p>
-          <button
-            type="button"
-            onClick={() => setView(view === "mine" ? "new" : "mine")}
-            className="mt-3 text-sm font-bold text-[var(--accent)] hover:underline"
-          >
-            {view === "mine" ? "Adicionar curso" : "Voltar para meus cursos"}
-          </button>
+          {view === "mine" && (
+            <button
+              type="button"
+              onClick={() => setView("new")}
+              className="mt-3 text-sm font-bold text-[var(--accent)] hover:underline"
+            >
+              Adicionar curso
+            </button>
+          )}
         </div>
       )}
 
       {!isLoading && visibleCurricula.length > 0 && (
-        <div className="grid gap-3 min-[430px]:grid-cols-2 lg:max-h-[28rem] lg:overflow-y-auto lg:pr-1">
+        <div className="grid gap-3 min-[430px]:grid-cols-2 lg:max-h-[26rem] lg:overflow-y-auto lg:pr-1">
           {visibleCurricula.map((curriculum) => view === "mine" ? (
             <div key={curriculum.id} className="relative">
               <Link
@@ -91,9 +162,16 @@ export function CourseLibrary() {
                   <span className="block text-sm font-bold leading-5 text-[var(--text-strong)] transition-colors group-hover:text-[var(--accent)]">
                     {curriculum.name}
                   </span>
-                  <span className="mt-1 block truncate text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
-                    {curriculum.description}
-                  </span>
+                  <div className="mt-1 flex flex-wrap items-center gap-1.5">
+                    <span className="truncate text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
+                      {curriculum.description}
+                    </span>
+                    {curriculum.campus && (
+                      <span className="rounded bg-[var(--glass-muted)] px-1.5 py-0.5 text-[10px] font-medium text-[var(--text-faint)]">
+                        {curriculum.campus}
+                      </span>
+                    )}
+                  </div>
                 </div>
                 <span className="ml-3 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[var(--glass-muted)] text-[var(--text-faint)] transition group-hover:bg-[var(--accent)] group-hover:text-[var(--on-accent)]">
                   <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -120,9 +198,16 @@ export function CourseLibrary() {
                 <span className="block text-sm font-bold leading-5 text-[var(--text-strong)]">
                   {curriculum.name}
                 </span>
-                <span className="mt-1 block truncate text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
-                  {curriculum.description}
-                </span>
+                <div className="mt-1 flex flex-wrap items-center gap-1.5">
+                  <span className="truncate text-[11px] font-semibold uppercase tracking-wider text-[var(--text-muted)]">
+                    {curriculum.description}
+                  </span>
+                  {curriculum.campus && (
+                    <span className="rounded bg-[var(--glass-muted)] px-1.5 py-0.5 text-[10px] font-medium text-[var(--text-faint)]">
+                      {curriculum.campus}
+                    </span>
+                  )}
+                </div>
               </div>
               <button
                 type="button"

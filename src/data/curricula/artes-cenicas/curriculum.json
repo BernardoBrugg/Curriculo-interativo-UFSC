@@ -1,0 +1,2454 @@
+{
+  "program": "ARTES CÊNICAS",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2013.1",
+  "totalHours": 3348,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ART6111",
+      "code": "ART6111",
+      "name": "Teoria das Artes Cênicas I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6111",
+        "CMA7115"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6111"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7115"
+          }
+        ]
+      },
+      "syllabus": "pesquisadores, críticos teatrais, performers, assessores culturais, entre outras atividades, o Curso de Graduação em Artes Cênicas objetiva oportunizar a habilitação do aluno para a reflexão sobre o corpo e seus conceitos em suas diferentes linguagens; criação de textos dramáticos e leitura de obras representativas da área; reflexão e crítica sobre a linguagem teatral e pós-teatral como fenômeno estético, social, histórico, cultural, político e psicológico; o desenvolvimento de uma visão crítica sobre perspectivas teóricas diferenciadas, adotadas nas investigações em artes cênicas e interdisciplinarmente com outras artes que fundamentam sua formação profissional; o desenvolvimento de uma postura acadêmico-científica frente às questões relacionadas à área de forma abrangente; o exercício profissional com utilização de tecnologias contemporâneas, seguindo os desafios do mercado de trabalho; a percepção sobre a relação entre conhecimentos na área do teatro e da performance e o entendimento de contextos interculturais; a atuação consciente e autônoma na busca de uma formação continuada e abrangente."
+    },
+    {
+      "id": "ART6112",
+      "code": "ART6112",
+      "name": "Improvisação I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6112",
+        "CMA7114"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6112"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7114"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6113",
+      "code": "ART6113",
+      "name": "Ética e Estética Teatral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6113",
+        "CMA7113"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6113"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7113"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6115",
+      "code": "ART6115",
+      "name": "História da Arte, Estética e e Linguagem Visual",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6115",
+        "CMA7603"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 6115
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6115"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7603"
+          }
+        ]
+      },
+      "prerequisiteHours": 6115,
+      "syllabus": ""
+    },
+    {
+      "id": "ART6116",
+      "code": "ART6116",
+      "name": "Saberes do Corpo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ART6114",
+        "CMA6114",
+        "CMA7111"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6114"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6114"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7111"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6211",
+      "code": "ART6211",
+      "name": "Teoria das Artes Cênicas II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6111",
+        "CMA6111"
+      ],
+      "equivalents": [
+        "CMA6211",
+        "CMA7315"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6111"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6111"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6211"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7315"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6212",
+      "code": "ART6212",
+      "name": "Improvisação II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6112",
+        "CMA6112"
+      ],
+      "equivalents": [
+        "CMA6212",
+        "CMA7314"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6112"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6112"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6212"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7314"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6213",
+      "code": "ART6213",
+      "name": "Consciência Vocal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6213",
+        "CMA7111"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6213"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7111"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6216",
+      "code": "ART6216",
+      "name": "Espacialidades dos Corpos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6114",
+        "ART6116",
+        "CMA6114"
+      ],
+      "equivalents": [
+        "ART6214",
+        "CMA6214",
+        "CMA7511"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6114"
+          },
+          {
+            "kind": "course",
+            "code": "ART6116"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6114"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6214"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6214"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7511"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6311",
+      "code": "ART6311",
+      "name": "Teoria das Artes Cênicas III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6211",
+        "CMA6211"
+      ],
+      "equivalents": [
+        "CMA6311",
+        "CMA7315"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6211"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6211"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6311"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7315"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6312",
+      "code": "ART6312",
+      "name": "Teatro de Animação I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6312",
+        "CMA7414"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6312"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7414"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6313",
+      "code": "ART6313",
+      "name": "Poéticas Vocais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6213",
+        "CMA6213"
+      ],
+      "equivalents": [
+        "CMA6213",
+        "CMA7211"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6213"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6213"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6213"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7211"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6314",
+      "code": "ART6314",
+      "name": "Crítica em Artes Cênicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6314",
+        "CMA7413"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6314"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7413"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6315",
+      "code": "ART6315",
+      "name": "Maquiagem Cênica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6115",
+        "CMA6115"
+      ],
+      "equivalents": [
+        "CMA6315",
+        "CMA7943"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6115"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6115"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6315"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7943"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6411",
+      "code": "ART6411",
+      "name": "Teoria das Artes Cênicas IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6311",
+        "CMA6311"
+      ],
+      "equivalents": [
+        "CMA6411",
+        "CMA7215",
+        "CMA7315"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6311"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6311"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6411"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CMA7215"
+              },
+              {
+                "kind": "course",
+                "code": "CMA7315"
+              }
+            ]
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6412",
+      "code": "ART6412",
+      "name": "Teatro de Animação II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6312",
+        "CMA6312"
+      ],
+      "equivalents": [
+        "CMA6412",
+        "CMA7414"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6312"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6312"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6412"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7414"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6415",
+      "code": "ART6415",
+      "name": "Direção de Arte, Cenografia e Figurino I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6315",
+        "CMA6315"
+      ],
+      "equivalents": [
+        "CMA6415",
+        "CMA7603"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6315"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6315"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6415"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7603"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6511",
+      "code": "ART6511",
+      "name": "Escrita Dramática I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CMA6115",
+        "ART6115",
+        "CMA6212",
+        "ART6212",
+        "CMA6411",
+        "ART6411"
+      ],
+      "equivalents": [
+        "CMA5105",
+        "CMA6511",
+        "CMA7112"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6115"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART6115"
+              },
+              {
+                "kind": "course",
+                "code": "CMA6212"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART6212"
+              },
+              {
+                "kind": "course",
+                "code": "CMA6411"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ART6411"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA5105"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6511"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7112"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6512",
+      "code": "ART6512",
+      "name": "Atuação I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6212",
+        "CMA6212",
+        "ART6214",
+        "ART6216",
+        "CMA6214",
+        "ART6313",
+        "CMA6313"
+      ],
+      "equivalents": [
+        "CMA6512",
+        "CMA7214"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART6212"
+              },
+              {
+                "kind": "course",
+                "code": "CMA6212"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART6214"
+              },
+              {
+                "kind": "course",
+                "code": "ART6216"
+              },
+              {
+                "kind": "course",
+                "code": "CMA6214"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART6313"
+              },
+              {
+                "kind": "course",
+                "code": "CMA6313"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6512"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7214"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6513",
+      "code": "ART6513",
+      "name": "Performance I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6513",
+        "CMA7113"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6513"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7113"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6514",
+      "code": "ART6514",
+      "name": "Encenação Teatral I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CMA6115",
+        "ART6115",
+        "CMA6212",
+        "ART6212",
+        "CMA6411",
+        "ART6411"
+      ],
+      "equivalents": [
+        "CMA6514",
+        "CMA7412"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6115"
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART6115"
+              },
+              {
+                "kind": "course",
+                "code": "CMA6212"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ART6212"
+              },
+              {
+                "kind": "course",
+                "code": "CMA6411"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ART6411"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6514"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7412"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6515",
+      "code": "ART6515",
+      "name": "Direção de Arte, Cenografia e Figurino II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6415",
+        "CMA6415"
+      ],
+      "equivalents": [
+        "CMA6515",
+        "CMA7503"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6415"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6415"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6515"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7503"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6611",
+      "code": "ART6611",
+      "name": "Escrita Dramática II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6511",
+        "CMA6511"
+      ],
+      "equivalents": [
+        "CMA6611",
+        "CMA7312"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6511"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6511"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6611"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7312"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6612",
+      "code": "ART6612",
+      "name": "Atuação II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6512",
+        "CMA6512"
+      ],
+      "equivalents": [
+        "CMA6612",
+        "CMA7311"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6512"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6512"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6612"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7311"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6613",
+      "code": "ART6613",
+      "name": "Performance II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6513",
+        "CMA6513"
+      ],
+      "equivalents": [
+        "CMA6613",
+        "CMA7213"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6513"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6513"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6613"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7213"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6614",
+      "code": "ART6614",
+      "name": "Encenação Teatral II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6514",
+        "CMA6514"
+      ],
+      "equivalents": [
+        "CMA6614",
+        "CMA7504"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6514"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6514"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6614"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7504"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6616",
+      "code": "ART6616",
+      "name": "Artes Negras da Cena e Culturas de Matriz",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Epistemicídio e Genocídio africano e afro-brasileiro. Origens Africanas. Estratégias culturais negras de resistência e reexistência, preservação e disseminação cultural, da escravização aos dias atuais no Brasil. A arte da população negra brasileira na formação sociocultural e artística do Brasil contemporâneo. Artes negras da cena e na contemporaneidade brasileira."
+    },
+    {
+      "id": "ART6711",
+      "code": "ART6711",
+      "name": "Escrita Dramática III",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6611",
+        "CMA6611"
+      ],
+      "equivalents": [
+        "CMA6711",
+        "CMA7312"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6611"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6611"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6711"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7312"
+          }
+        ]
+      },
+      "syllabus": "Africana (*) Na 6ª fase é obrigatório o cumprimento da CMA6615, e o cumprimento de três entre as disciplinas"
+    },
+    {
+      "id": "ART6712",
+      "code": "ART6712",
+      "name": "Atuação III",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6612",
+        "CMA6612"
+      ],
+      "equivalents": [
+        "CMA6712",
+        "CMA7411"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6612"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6612"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6712"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7411"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6713",
+      "code": "ART6713",
+      "name": "Performance III",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6613",
+        "CMA6613"
+      ],
+      "equivalents": [
+        "CMA6713",
+        "CMA7213",
+        "CMA7601"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6613"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6613"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6713"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7213"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7601"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6714",
+      "code": "ART6714",
+      "name": "Encenação Teatral III",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6614",
+        "CMA6614"
+      ],
+      "equivalents": [
+        "CMA6714",
+        "CMA7412",
+        "CMA7504"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6614"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6614"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6714"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7412"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7504"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6715",
+      "code": "ART6715",
+      "name": "Produção e Divulgação Teatral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6715",
+        "CMA7801"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6715"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7801"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6811",
+      "code": "ART6811",
+      "name": "Escrita Dramática IV",
+      "credits": 16,
+      "hours": 288,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6711",
+        "CMA6711"
+      ],
+      "equivalents": [
+        "CMA6811",
+        "CMA7711"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6711"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6711"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6811"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7711"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6812",
+      "code": "ART6812",
+      "name": "Atuação IV",
+      "credits": 16,
+      "hours": 288,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6712",
+        "CMA6712"
+      ],
+      "equivalents": [
+        "CMA6812",
+        "CMA7711"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6712"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6712"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6812"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7711"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6813",
+      "code": "ART6813",
+      "name": "Performance IV",
+      "credits": 16,
+      "hours": 288,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6713",
+        "CMA6713"
+      ],
+      "equivalents": [
+        "CMA6813",
+        "CMA7711"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6713"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6713"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6813"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7711"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6814",
+      "code": "ART6814",
+      "name": "Encenação Teatral IV",
+      "credits": 16,
+      "hours": 288,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6714",
+        "CMA6714"
+      ],
+      "equivalents": [
+        "CMA6814",
+        "CMA7711"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6714"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6714"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6814"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7711"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6815",
+      "code": "ART6815",
+      "name": "Pesquisa em Artes Cênicias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CMA6711",
+        "ART6711",
+        "CMA6712",
+        "ART6712",
+        "CMA6713",
+        "ART6713",
+        "CMA6714",
+        "ART6714"
+      ],
+      "equivalents": [
+        "CMA6815",
+        "CMA7604",
+        "JOR5306"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6711"
+          },
+          {
+            "kind": "course",
+            "code": "ART6711"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6712"
+          },
+          {
+            "kind": "course",
+            "code": "ART6712"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6713"
+          },
+          {
+            "kind": "course",
+            "code": "ART6713"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6714"
+          },
+          {
+            "kind": "course",
+            "code": "ART6714"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6815"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7604"
+          },
+          {
+            "kind": "course",
+            "code": "JOR5306"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6816",
+      "code": "ART6816",
+      "name": "Processos Criativos",
+      "credits": 16,
+      "hours": 288,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6711",
+        "ART6712",
+        "ART6713",
+        "ART6714"
+      ],
+      "equivalents": [
+        "ART6811",
+        "ART6812",
+        "ART6813",
+        "ART6814"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6711"
+          },
+          {
+            "kind": "course",
+            "code": "ART6712"
+          },
+          {
+            "kind": "course",
+            "code": "ART6713"
+          },
+          {
+            "kind": "course",
+            "code": "ART6714"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6811"
+          },
+          {
+            "kind": "course",
+            "code": "ART6812"
+          },
+          {
+            "kind": "course",
+            "code": "ART6813"
+          },
+          {
+            "kind": "course",
+            "code": "ART6814"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6911",
+      "code": "ART6911",
+      "name": "Trabalho de Conclusão de Curso",
+      "credits": 12,
+      "hours": 216,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ART6815",
+        "CMA6815"
+      ],
+      "equivalents": [
+        "CMA6911",
+        "CMA7802"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6815"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6815"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6911"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7802"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6912",
+      "code": "ART6912",
+      "name": "Teatro Brasileiro",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6912",
+        "CMA7215"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6912"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7215"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ANT7003",
+      "code": "ANT7003",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "DISCIPLINAS OPTATIVAS Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Particularidades históricas e processos de diferenciação. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política."
+    },
+    {
+      "id": "ANT7068",
+      "code": "ANT7068",
+      "name": "Identidades e Diversidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A construção de identidades sociais. Territorialidade, fronteiras simbólicas e etnicidade. Políticas de identidade e minorias como questões sociais e antropológicas."
+    },
+    {
+      "id": "ANT7701",
+      "code": "ANT7701",
+      "name": "Estudos Afro-Brasileiros - PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações raciais e racismo no Brasil. Relações interétnicas e Identidades étnicas. Estudos sobre os negros no Brasil."
+    },
+    {
+      "id": "ART6001",
+      "code": "ART6001",
+      "name": "Direção de Arte para Cinema de Ficção",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6001"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6001"
+      },
+      "syllabus": "horas/aula"
+    },
+    {
+      "id": "ART6002",
+      "code": "ART6002",
+      "name": "Canto Coral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6002"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6002"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6003",
+      "code": "ART6003",
+      "name": "Teatro de Sombras",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [
+        "ART6312"
+      ],
+      "equivalents": [
+        "CMA6003"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ART6312"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6003"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6004",
+      "code": "ART6004",
+      "name": "Ópera",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6004"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6004"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6005",
+      "code": "ART6005",
+      "name": "Dança-Teatro",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6005"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6005"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6006",
+      "code": "ART6006",
+      "name": "Teatro Político",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6006"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6006"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6007",
+      "code": "ART6007",
+      "name": "Adaptação, Citação e Tradução: Cinema, Teatro e Literatura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6007"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6007"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6008",
+      "code": "ART6008",
+      "name": "Literatura Infantojuvenil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6008"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6008"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6009",
+      "code": "ART6009",
+      "name": "Dança",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6009"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6009"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6010",
+      "code": "ART6010",
+      "name": "Produção Escrita Acadêmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6010"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6010"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6011",
+      "code": "ART6011",
+      "name": "Dramaturgia e Intertextualidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6011"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6011"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6012",
+      "code": "ART6012",
+      "name": "Direção de Atores no Cinema",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6012"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6012"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6013",
+      "code": "ART6013",
+      "name": "Clown",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6013"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6013"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6014",
+      "code": "ART6014",
+      "name": "Bufão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CMA6014"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6014"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6015",
+      "code": "ART6015",
+      "name": "Yoga I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ART6016",
+      "code": "ART6016",
+      "name": "Yoga II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Técnicas básicas de Yoga para Artes Cênicas, nível intermediário. Execução de posturas psico-físicas (ásanas), técnicas respiratórias (pranayama) e vocalização de mantras. Objetivos: Familiarizar os alunos com técnicas intermediárias de Yoga para trabalhar o autoconhecimento; Aumentar a consciência corporal; Aumentar o controle da postura externa (flexibilidade, resistência, controle físico); Aumentar o controle da atitude interna (segurança, autoconfiança, concentração)."
+    },
+    {
+      "id": "ART6017",
+      "code": "ART6017",
+      "name": "Voz na Atuação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ART6018",
+      "code": "ART6018",
+      "name": "Teoria Crítica Contemporânea",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ART6019",
+      "code": "ART6019",
+      "name": "Tópicos de Artes Ciências I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ART6020",
+      "code": "ART6020",
+      "name": "Tópicos de Artes Cênicas II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ART6021",
+      "code": "ART6021",
+      "name": "Tópicos de Artes Cênicas III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ART6022",
+      "code": "ART6022",
+      "name": "Tópicos de Artes Cênicas IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ART6023",
+      "code": "ART6023",
+      "name": "Tópicos de Artes Cênicas V",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ART6024",
+      "code": "ART6024",
+      "name": "Tópicos de Artes Cênicas VI",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ART6041",
+      "code": "ART6041",
+      "name": "Intercâmbio I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ART6042",
+      "code": "ART6042",
+      "name": "Intercâmbio II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ART6041"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ART6041"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6043",
+      "code": "ART6043",
+      "name": "Intercâmbio III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ART6042"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ART6042"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6044",
+      "code": "ART6044",
+      "name": "Intercâmbio IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ART6043"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ART6043"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ART6615",
+      "code": "ART6615",
+      "name": "Iluminação Teatral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ART6115"
+      ],
+      "equivalents": [
+        "CMA6615",
+        "CMA7502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ART6115"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6615"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "ECZ7070",
+      "code": "ECZ7070",
+      "name": "Meio Ambiente e Desenvolvimento",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos históricos dos conceitos hegemônicos de meio ambiente, ciência e tecnologia na cultura ocidental e suas relações com o desenvolvimento sustentável e a nova ordem econômica mundial. Problemas e impactos ambientais. Empresas e meio ambiente. Ecologia, populações e qualidade de vida. Educação ambiental e epistemológica."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "CMA7900",
+      "code": "CMA7900",
+      "name": "Atividades Científico-Culturais",
+      "credits": 14,
+      "hours": 252,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ART6900"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ART6900"
+      },
+      "syllabus": "- As atividades científico culturais são atividades complementares à formação curricular do aluno."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ART6111",
+      "ART6112",
+      "ART6113",
+      "ART6115",
+      "ART6116",
+      "ART6211",
+      "ART6212",
+      "ART6213",
+      "ART6216",
+      "ART6311",
+      "ART6312",
+      "ART6313",
+      "ART6314",
+      "ART6315",
+      "ART6411",
+      "ART6412",
+      "ART6415",
+      "ART6511",
+      "ART6512",
+      "ART6513",
+      "ART6514",
+      "ART6515",
+      "ART6611",
+      "ART6612",
+      "ART6613",
+      "ART6614",
+      "ART6616",
+      "ART6711",
+      "ART6712",
+      "ART6713",
+      "ART6714",
+      "ART6715",
+      "ART6811",
+      "ART6812",
+      "ART6813",
+      "ART6814",
+      "ART6815",
+      "ART6816",
+      "ART6911",
+      "ART6912",
+      "CMA7900"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 252,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ANT7003",
+              "ANT7068",
+              "ANT7701",
+              "ART6001",
+              "ART6002",
+              "ART6003",
+              "ART6004",
+              "ART6005",
+              "ART6006",
+              "ART6007",
+              "ART6008",
+              "ART6009",
+              "ART6010",
+              "ART6011",
+              "ART6012",
+              "ART6013",
+              "ART6014",
+              "ART6015",
+              "ART6016",
+              "ART6017",
+              "ART6018",
+              "ART6019",
+              "ART6020",
+              "ART6021",
+              "ART6022",
+              "ART6023",
+              "ART6024",
+              "ART6041",
+              "ART6042",
+              "ART6043",
+              "ART6044",
+              "ART6615",
+              "ECZ7070",
+              "LSB7904"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "451",
+    "curriculumCode": "20131",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=451&curriculo=20131",
+    "sha256": "0eb621e422466331768c1949d4cb21228d51875b560d6d64f538d4f3bd1fcfe7",
+    "capturedAt": "2026-09-22"
+  }
+}

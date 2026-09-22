@@ -1,0 +1,3506 @@
+{
+  "program": "FARMÁCIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2022.1",
+  "totalHours": 5220,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ACL5144",
+      "code": "ACL5144",
+      "name": "Biossegurança e Boas Práticas de Laboratório",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ACL5130"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ACL5130"
+      },
+      "syllabus": "Introdução à Biossegurança. Boas Práticas de Laboratório. Ambiente laboratorial. Avaliação e manejo de riscos em laboratório: riscos químicos, biológicos, físicos, de acidentes, ergonômicos e associados à manipulação de alimentos, análises clínico-laboratoriais, medicamentos e correlatos. Processo saúde/doença do ambiente profissional. Barreiras de Contenção. Gerenciamento de resíduos em serviços de saúde. Noções de primeiros socorros em acidentes em laboratórios."
+    },
+    {
+      "id": "BEG5113",
+      "code": "BEG5113",
+      "name": "Biologia Celular e Embriologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG5111"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5111"
+      },
+      "syllabus": "Níveis de organização da estrutura biológica. Organização geral das células procarióticas. Organização estrutural e funcional das células eucarióticas. Aspectos morfológicos, bioquímicos e funcionais das células. Integração morfofuncional dos componentes celulares. Ciclo celular - Divisão celular. Características dos processos de gametogênese masculina e feminina. Ciclos reprodutivos e princípios dos métodos contraceptivos. Etapas básicas da fecundação. Principais eventos da embriogênese inicial e características morfofuncionais dos embriões e fetos. Membranas fetais e placenta. Períodos críticos do desenvolvimento e fatores relacionados à alteração do ritmo de desenvolvimento e de anomalias congênitas. Principais categorias de malformações."
+    },
+    {
+      "id": "CIF5113",
+      "code": "CIF5113",
+      "name": "Introdução à Farmácia (EXT = 54h-a)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 54
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "Disciplina de extensão com conteúdo introdutório e construção dos conhecimentos por meio de interação dialógica com a sociedade. Contextualização histórica da profissão e possibilidades atuais e futuras de atuação farmacêutica. Conceitos básicos para introduzir os estudos farmacêuticos. Interação com a comunidade, especialmente do ensino médio, para divulgação da profissão e do curso e interação com a comunidade familiar no exercício do cuidado com os medicamentos no âmbito das farmácias caseiras e descarte de medicamentos."
+    },
+    {
+      "id": "CIF5612",
+      "code": "CIF5612",
+      "name": "Comunicação Interprofissional e com o",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções sobre ser saudável e doente. Equipes multidisciplinares: funções, atribuições, responsabilidades e suas inter e intra relações nos diferentes níveis de atenção à saúde. Princípios gerais sobre farmácia clínica, terapêutica e uso racional de medicamentos. Abordagens e a importância da comunicação interprofissional. Princípios e influências da comunicação terapêutica. Consulta farmacêutica: acolhimento, avaliação, aconselhamento e vínculo do paciente. Adesão, acompanhamento e monitoramento ao tratamento"
+    },
+    {
+      "id": "MOR5121",
+      "code": "MOR5121",
+      "name": "Histologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5121
+      },
+      "prerequisiteHours": 5121,
+      "syllabus": "Paciente (EXT=36h-a) Histologia do Tecido Epitelial, Tecido Conjuntivo, Tecido Ósseo, Cartilaginoso, Tecido Muscular e Tecido Nervoso. Histologia dos Sistemas: Circulatório, Digestório, Respiratório, Urinário, Endócrino, Reprodutor Masculino e Feminino."
+    },
+    {
+      "id": "MOR5232",
+      "code": "MOR5232",
+      "name": "Anatomia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MOR5220"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MOR5220"
+      },
+      "syllabus": "Introdução ao Estudo da Anatomia. Noções da Anatomia Óssea, Muscular, Articular. Anatomia dos Sistemas: Tegumentar, Nervoso, Circulatório (Cardiovascular e Linfático), Respiratório, Digestório, Urinário, Genital e Endócrino."
+    },
+    {
+      "id": "QMC5154",
+      "code": "QMC5154",
+      "name": "Química Geral e Inorgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5150",
+        "QMC5152"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5150"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5152"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos: estrutura, ligações e isomeria de compostos orgânicos. Estereoquímica. Classificação de reagentes e reações. Métodos de obtenção, propriedades químicas e físicas de alcanos e alcenos. Efeitos eletrônicos. Ressonância e aromaticidade. Benzeno e compostos aromáticos relacionados. Heterocíclos."
+    },
+    {
+      "id": "QMC5237",
+      "code": "QMC5237",
+      "name": "Química Orgânica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5227",
+        "QMC5228"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5227"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5228"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos: estrutura, ligações e isomeria de compostos orgânicos. Estereoquímica. Classificação de reagentes e reações. Métodos de obtenção, propriedades químicas e físicas de alcanos e alcenos. Efeitos eletrônicos. Ressonância e aromaticidade. Benzeno e compostos aromáticos relacionados. Heterocíclos."
+    },
+    {
+      "id": "SPB5146",
+      "code": "SPB5146",
+      "name": "Bioestatística",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "SPB5520"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPB5520"
+      },
+      "syllabus": "A aplicação do método estatístico em saúde. Sistema de informação estatística “feed back”. Medidas de tendência central. Estudo de variabilidade. Indicadores de saúde. Estatística demográfica – estimativa de população, composição e distribuição populacional, população acessível."
+    },
+    {
+      "id": "SPB5211",
+      "code": "SPB5211",
+      "name": "Políticas Públicas de Saúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Aspectos históricos e socioeconômicos do desenvolvimento e da organização política da saúde no Brasil e no mundo. Reforma sanitária no Brasil. Princípios e diretrizes do Sistema Único de Saúde. Financiamento e alocação de recursos de saúde no Brasil. Sistemas comparados e reformas de sistemas de saúde. Redes de Atenção à Saúde. Atenção básica, média e alta complexidade"
+    },
+    {
+      "id": "BEG5442",
+      "code": "BEG5442",
+      "name": "Genética e Biologia Molecular",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5113"
+      ],
+      "equivalents": [
+        "BEG5441"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG5113"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5441"
+      },
+      "syllabus": "Bases cromossômicas da herança. Estrutura e organização da cromatina. Heterocromatina. Material genético. Replicação do DNA e síntese de RNA. Código genético. Síntese de proteínas. Mutação e reparo do DNA. Base molecular e bioquímica de características e doenças genéticas e seus padrões de herança. Noções de Herança multifatorial. Variabilidade genética (polimorfismos) e os processos metabólicos. Noções de Farmacogenética e Famacogenômica. Aspectos técnicos e éticos de novas abordagens genéticas."
+    },
+    {
+      "id": "CFS5171",
+      "code": "CFS5171",
+      "name": "Fisiologia I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MOR5121",
+        "MOR5232"
+      ],
+      "equivalents": [
+        "CFS5161"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MOR5121"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5232"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CFS5161"
+      },
+      "syllabus": "Homeostase. Compartimentos hídricos, dinâmica capilar e edema. Potenciais de Membrana, Sinapse Química. Contração da musculatura lisa e esquelética. Sistemas Sensoriais. Controle voluntário e reflexo do movimento. Sistema Nervoso Autônomo e controle da função visceral. Hipotálamo e sistema límbico. Eixo hipotálamo-hipófise. Regulação endócrina do metabolismo basal. Regulação endócrina da calcemia. Regulação endócrina do metabolismo energético. Endocrinofisiologia do desenvolvimento e crescimento. Regulação endócrina das funções reprodutoras."
+    },
+    {
+      "id": "CIF5354",
+      "code": "CIF5354",
+      "name": "Atenção à Saúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "SPB5211"
+      ],
+      "equivalents": [
+        "CIF5610"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "SPB5211"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5610"
+      },
+      "syllabus": "Diferentes abordagens sobre o processo saúde-doença-atenção. Conceitos de saúde e práticas de saúde (curativas, preventivas, de promoção). Promoção da saúde (conceitos e Política Nacional de Promoção à Saúde). Educação em Saúde."
+    },
+    {
+      "id": "CIF5355",
+      "code": "CIF5355",
+      "name": "Políticas Públicas na Assistênciaa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "SPB5211"
+      ],
+      "equivalents": [
+        "CIF5321"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "SPB5211"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5321"
+      },
+      "syllabus": "Políticas públicas para setor farmacêutico. Políticas sociais para o acesso a medicamentos. Financiamento da assistência farmacêutica no Sistema Único de Saúde (SUS)."
+    },
+    {
+      "id": "QMC5246",
+      "code": "QMC5246",
+      "name": "Química Orgânica II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5237"
+      ],
+      "equivalents": [
+        "QMC5228"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5237"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5228"
+      },
+      "syllabus": "Farmacêutica Haletos de alquila. Reações de substituição e eliminação. Álcoois. Tióis. Éteres. Tioéteres. Aldeídos e cetonas. Adição nucleofílica à carbonila. Noções de reações aldólicas. Ácidos carboxílicos e seus derivados. Aminas."
+    },
+    {
+      "id": "QMC5354",
+      "code": "QMC5354",
+      "name": "Química Analítica Experimental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5154"
+      ],
+      "equivalents": [
+        "QMC5307",
+        "QMC5326",
+        "QMC5331"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5154"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5307"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5326"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5331"
+          }
+        ]
+      },
+      "syllabus": "Equilíbrio químico envolvendo ácidos e bases fracas, precipitação, formação de complexos e óxido-redução. Calibração de frascos volumétricos. Análise volumétrica envolvendo titulações ácido-base, precipitação, complexação e oxidação-redução. Análise gravimétrica."
+    },
+    {
+      "id": "QMC5355",
+      "code": "QMC5355",
+      "name": "Química Analítica Teórica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5154"
+      ],
+      "equivalents": [
+        "QMC5302",
+        "QMC5304",
+        "QMC5305",
+        "QMC5325"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5154"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5302"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5304"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5305"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5325"
+          }
+        ]
+      },
+      "syllabus": "Introdução à química analítica. Equilíbrio químico em sistemas homogêneos: estudo de sistemas ácido-base, de complexação e de óxido-redução. Equilíbrio em sistemas heterogêneos. Análise gravimétrica. Análise volumétrica aplicada a sistemas ácido-base, de complexação, de óxido redução e envolvendo precipitados. Princípios básicos da análise instrumental. Análise instrumental no contexto das Ciências Farmacêuticas."
+    },
+    {
+      "id": "QMC5454",
+      "code": "QMC5454",
+      "name": "Físico-Química Experimental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5154"
+      ],
+      "equivalents": [
+        "QMC5411",
+        "QMC5453"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5154"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5411"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5453"
+          }
+        ]
+      },
+      "syllabus": "Calor de Reação. Equilíbrio entre fases líquidas. Coeficiente de viscosidade. Condutância nos Eletrólitos. Cinética Química. Cinética enzimática. Fenômenos de transporte. Isotermas de adsorção. Detergentes e tensoativos. Noções de espectroscopia UV-Vis."
+    },
+    {
+      "id": "QMC5455",
+      "code": "QMC5455",
+      "name": "Físico-Química Teórica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5154"
+      ],
+      "equivalents": [
+        "QMC5451",
+        "QMC5452"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5154"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5451"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5452"
+          }
+        ]
+      },
+      "syllabus": "Princípios da termodinâmica. Equilíbrio Químico. Cinética química, Catálise e Cinética enzimática."
+    },
+    {
+      "id": "BQA5141",
+      "code": "BQA5141",
+      "name": "Bioquímica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5455"
+      ],
+      "equivalents": [
+        "BQA5131"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5455"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BQA5131"
+      },
+      "syllabus": "Estrutura e função dos aminoácidos, proteínas, carboidratos e lipídeos. Vitaminas e coenzimas. Enzimologia. Bioenergética. Metabolismo de carboidratos, lipídeos e aminoácidos. Inter-relações e regulação metabólica."
+    },
+    {
+      "id": "CFS5172",
+      "code": "CFS5172",
+      "name": "Fisiologia II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS5171"
+      ],
+      "equivalents": [
+        "CFS5154",
+        "CFS5162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CFS5171"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS5154"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5162"
+          }
+        ]
+      },
+      "syllabus": "Fisiologia Digestória, Fisiologia Cardiovascular, Fisiologia Respiratória e Fisiologia Renal"
+    },
+    {
+      "id": "CIF5132",
+      "code": "CIF5132",
+      "name": "Operações Unitárias",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CIF5131"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5131"
+      },
+      "syllabus": "Fundamentos. Sistema Internacional de Unidades (SI). Pesagem. Mistura. Filtração. Destilação. Extração. Centrifugação. Esterilização. Pulverização. Tamisação. Secagem. Equipamentos para escala laboratorial e industrial."
+    },
+    {
+      "id": "CIF5133",
+      "code": "CIF5133",
+      "name": "Estágio em Fármacos, Medicamentos e Assistência Farmacêutica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5113",
+        "CIF5354",
+        "CIF5355",
+        "CIF5612"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5113"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5354"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5355"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5612"
+          }
+        ]
+      },
+      "syllabus": "Práticas profissionais iniciantes nas áreas de fármacos, medicamentos e assistência farmacêutica."
+    },
+    {
+      "id": "MIP5133",
+      "code": "MIP5133",
+      "name": "Microbiologia Básica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5144",
+        "BEG5113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5144"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5113"
+          }
+        ]
+      },
+      "syllabus": "Aplicações do conhecimento e uso de microrganismos para o profissional farmacêutico. Caracterização comparativa estrutural e funcional dos diferentes tipos de microrganismos. Descrição das características básicas da célula bacteriana, da célula fúngica e da estrutura e funcionamento da partícula viral. Mecanismos de patogenicidade e virulência bacteriana, fúngica e viral. A ubiquidade dos microrganismos. O microbioma humano e sua relação com a saúde e a doença. Condutas de biossegurança na manipulação de amostras contendo microrganismos. Metodologias de controle in vitro ou ex-vivo dos microrganismos (descontaminação, antissepsia, desinfecção e esterilização). Metodologias básicas de controle dos microrganismos in vivo (antibióticos, antifúngicos e antivirais). A resistência aos antimicrobianos. Características metabólicas e genéticas básicas dos microrganismos que permitem a sua identificação. Metodologias de identificação de bactérias, fungos e vírus. Visão geral das patologias atuais mais relevantes causadas por microrganismos."
+    },
+    {
+      "id": "MIP5321",
+      "code": "MIP5321",
+      "name": "Parasitologia Básica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5144",
+        "BEG5113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5144"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5113"
+          }
+        ]
+      },
+      "syllabus": "Estudo dos protozoários, helmintos e artrópodes de importância na saúde humana."
+    },
+    {
+      "id": "QMC5247",
+      "code": "QMC5247",
+      "name": "Química Orgânica Experimental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5246"
+      ],
+      "equivalents": [
+        "QMC5230",
+        "QMC5232"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5246"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5230"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5232"
+          }
+        ]
+      },
+      "syllabus": "Síntese, purificação e identificação de substâncias orgânicas líquidas e sólidas. Determinação de ponto de fusão e ebulição. Separação de compostos orgânicos. Extração com solventes. Cromatografia."
+    },
+    {
+      "id": "SPB5147",
+      "code": "SPB5147",
+      "name": "Epidemiologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "SPB5146"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "SPB5146"
+      },
+      "syllabus": "-História, usos e aplicações da epidemiologia; indicadores de saúde, medidas de frequência e sistemas de informação em saúde (SIS); epidemiologia descritiva (pessoa, tempo e lugar); transições demográfica, epidemiológica e nutricional; vigilância epidemiológica; introdução aos tipos de estudos epidemiológicos."
+    },
+    {
+      "id": "SPB7120",
+      "code": "SPB7120",
+      "name": "Planejamento e Avaliação em Saúde",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5355"
+      ],
+      "equivalents": [
+        "SPB5523"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5355"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "SPB5523"
+      },
+      "syllabus": "-Planejamento, gestão e avaliação em saúde. O território da saúde e o processo de territorialização. Modelos de atenção e de gestão em saúde considerando a relação público-privado."
+    },
+    {
+      "id": "ACL5145",
+      "code": "ACL5145",
+      "name": "Laboratório Móvel de Educação em Saúde (EXT= 72h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5141",
+        "CFS5172",
+        "MIP5133",
+        "MIP5321"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5141"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5172"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5133"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5321"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Conceitos de saúde e de doença. Estudo de doenças de interesse na comunidade e sua relevância clínica. Ações educativas na prevenção de doenças e promoção, proteção e recuperação da saúde na comunidade."
+    },
+    {
+      "id": "BQA5142",
+      "code": "BQA5142",
+      "name": "Bioquímica II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5141"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA5141"
+      },
+      "syllabus": "Metabolismo intermediário de carboidratos, aminoácidos e lipídios e alterações metabólicas. Hormônios e regulação hormonal. Bioquímica do sangue e da respiração. Estresse Oxidativo. Noções de Neuroquímica. Aspectos Bioquímicos do Câncer. Metabolismo ósseo."
+    },
+    {
+      "id": "CIF5134",
+      "code": "CIF5134",
+      "name": "Farmacotécnica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5132",
+        "QMC5454"
+      ],
+      "equivalents": [
+        "CIF5331",
+        "CIF5332"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5132"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5454"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5331"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5332"
+          }
+        ]
+      },
+      "syllabus": "Cálculos farmacêuticos. Adjuvantes farmacêuticos. Incompatibilidades. Rotulagem e acondicionamento de preparações magistrais. Formas farmacêuticas sólidas: pós, granulados, cápsulas, comprimidos e supositórios. Formas farmacêuticas líquidas: soluções, emulsões e suspensões. Formas farmacêuticas semissólidas: pomadas, cremes, pastas e géis. Fundamentos de reologia. Preparações estéreis e aerossóis. Novas formas farmacêuticas e tecnologias de liberação de fármacos. Fitoterápicos."
+    },
+    {
+      "id": "CIF5356",
+      "code": "CIF5356",
+      "name": "Análise de Fármacos e Medicamentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5247",
+        "QMC5454"
+      ],
+      "equivalents": [
+        "CIF5311"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5247"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5454"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5311"
+      },
+      "syllabus": "Análise sistemática de fármacos e medicamentos; ensaios preliminares; reações de grupos funcionais; reações especiais; fundamentos de métodos cromatográficos de análise e introdução a métodos espectroscópicos utilizados na identificação de fármacos e medicamentos."
+    },
+    {
+      "id": "CIF5357",
+      "code": "CIF5357",
+      "name": "Gestão da Assistência Farmacêutica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "SPB7120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "SPB7120"
+      },
+      "syllabus": "Gestão da Assistência Farmacêutica. Seleção de medicamentos. Programação, aquisição, armazenamento, distribuição de medicamentos."
+    },
+    {
+      "id": "FMC7011",
+      "code": "FMC7011",
+      "name": "Farmacologia I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5141",
+        "CFS5172"
+      ],
+      "equivalents": [
+        "FMC5231"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5141"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5172"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FMC5231"
+      },
+      "syllabus": "Fatores que influenciam a ação de fármacos: farmacocinética, farmacodinâmica e sistema nervoso autônomo."
+    },
+    {
+      "id": "MIP5216",
+      "code": "MIP5216",
+      "name": "Imunologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5141",
+        "MIP5133"
+      ],
+      "equivalents": [
+        "MIP5215"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5141"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5133"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MIP5215"
+      },
+      "syllabus": "Órgãos linfóides. Tecidos, órgãos e células envolvidas na resposta imune. Inflamação, imunidade inata e adaptativa. Imunoglobulinas: estrutura e função. Antígenos: aspectos estruturais. Reações antígeno-anticorpo in vitro (imunodiagnóstico). Sistema complemento. Autoimunidade. Soros e vacinas. Reações de hipersensibilidade. Antígenos de histocompatibilidade. Transplantes e rejeição de enxertos. Imunodeficiências; Imunologia de tumores."
+    },
+    {
+      "id": "MIP5217",
+      "code": "MIP5217",
+      "name": "Virologia Básica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5113",
+        "BEG5442",
+        "MIP5133"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5113"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5442"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5133"
+          }
+        ]
+      },
+      "syllabus": "Introdução à virologia; Origem, evolução e emergência viral; Biologia dos Vírus; Estratégias de replicação Viral; Retrovírus; Patogênese das infecções virais (transmissão, tropismo, padrões de infecções, relação vírus x hospedeiro; Viroses entéricas; Viroses dermotrópicas; Viroses Congênitas; Viroses Respiratórias; Viroses Multissistêmicas; Viroses Oncogênicas; Viroses Hepáticas; Diagnósticos virais; Terapias Antivirais."
+    },
+    {
+      "id": "PTL5133",
+      "code": "PTL5133",
+      "name": "Patologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5442",
+        "BQA5141",
+        "CFS5171",
+        "CFS5172",
+        "MOR5121",
+        "MOR5232"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5442"
+          },
+          {
+            "kind": "course",
+            "code": "BQA5141"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5171"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5172"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5121"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5232"
+          }
+        ]
+      },
+      "syllabus": "Generalidades sobre patologia: processo saúde/doença, conceitos. Os grandes processos mórbidos: alterações celulares e extracelulares; processo inflamatório e reparo tecidual; distúrbios da hemodinâmica e dos mecanismos hídricos; distúrbios da proliferação e da diferenciação celular."
+    },
+    {
+      "id": "ACL5146",
+      "code": "ACL5146",
+      "name": "Parasitologia Clínica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MIP5216",
+        "MIP5321",
+        "PTL5133"
+      ],
+      "equivalents": [
+        "ACL5106",
+        "ACL5131"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP5216"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5321"
+          },
+          {
+            "kind": "course",
+            "code": "PTL5133"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5106"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5131"
+          }
+        ]
+      },
+      "syllabus": "Diagnóstico clínico-laboratorial e aspectos terapêuticos das parasitoses humanas: Procedimentos técnicos de diagnóstico de parasitos intestinais, sanguíneos e teciduais. Exame parasitológico de fezes e outros espécimes clínicos - execução, emissão do laudo e interpretação dos resultados. Abordagens complementares para o diagnóstico laboratorial das parasitoses humanas. Outras análises realizadas no setor de parasitologia clínica. Controle da qualidade dos procedimentos de diagnóstico em laboratório de parasitologia. Promoção do conhecimento de assistência farmacêutica no âmbito do diagnóstico laboratorial das parasitoses como instrumento de prevenção de doença, promoção, proteção e recuperação da saúde."
+    },
+    {
+      "id": "ACL5147",
+      "code": "ACL5147",
+      "name": "Bioquímica Clínica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CFS5172",
+        "PTL5133",
+        "QMC5246",
+        "QMC5454"
+      ],
+      "equivalents": [
+        "ACL5133"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CFS5172"
+          },
+          {
+            "kind": "course",
+            "code": "PTL5133"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5246"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5454"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ACL5133"
+      },
+      "syllabus": "Métodos e instrumentos gerais utilizados para a determinação de analitos bioquímicos em amostras biológicas. Amostras biológicas e processos pré- analíticos. Parâmetros laboratoriais bioquímicos utilizados na avaliação das funções metabólica, renal, de equilíbrio hidroeletrolítico e acidobásico, de metabolismo ósseo e mineral, cardiovascular, hepática e hormonal. Avaliação laboratorial do metabolismo de carboidratos, de lipídios e lipoproteínas, de proteínas e enzimas de interesse clínico. Interpretação clínica dos resultados laboratoriais no contexto da assistência farmacêutica."
+    },
+    {
+      "id": "CAL5310",
+      "code": "CAL5310",
+      "name": "Bromatologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5354",
+        "QMC5355"
+      ],
+      "equivalents": [
+        "CAL5304"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5354"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5355"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5304"
+      },
+      "syllabus": "Conceito: Relação com as demais ciências básicas e aplicadas. Classificação e campo de ação. Conceito de alimentos e produtos alimentícios e seu valor nutritivo. Composição básica e rotulagem dos produtos alimentícios. Mel, cereais e derivados. Óleos e gorduras, vegetais, manteiga, margarina. Carne e derivados. Pescados e derivados. Ovos e derivados. Leite e derivados. Bebidas estimulantes (chá, café, cacau, chocolate, guaraná, mate). Condimentos e especiarias. Produtos de frutas e hortaliças. Sucos. Sal. Vinagre. Aditivos químicos. Água. Legislação"
+    },
+    {
+      "id": "CIF5135",
+      "code": "CIF5135",
+      "name": "Controle de Qualidade de Fármacos e Medicamentos",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5134",
+        "CIF5356",
+        "QMC5247",
+        "QMC5354",
+        "QMC5355",
+        "QMC5454",
+        "QMC5455"
+      ],
+      "equivalents": [
+        "CIF5331",
+        "CIF5332"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5134"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5356"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5247"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5354"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5355"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5454"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5455"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5331"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5332"
+          }
+        ]
+      },
+      "syllabus": "Sistemas de Qualidade. Técnicas de amostragem. Validação analítica. Métodos gerais de controle de qualidade de matérias primas. Controle de qualidade de formas farmacêuticas sólidas, semi sólidas, líquidas estéreis e não estéreis. Estudo de Estabilidade."
+    },
+    {
+      "id": "CIF5338",
+      "code": "CIF5338",
+      "name": "Química Farmacêutica e Medicinal I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5142",
+        "CIF5356",
+        "FMC7011"
+      ],
+      "equivalents": [
+        "CIF5341"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5142"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5356"
+          },
+          {
+            "kind": "course",
+            "code": "FMC7011"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5341"
+      },
+      "syllabus": "Introdução à Química Farmacêutica Medicinal: aspectos teóricos envolvendo conceitos, nomenclatura, origem, desenvolvimento e ação dos fármacos, propriedades físico-químicas e estruturais que influenciam a ação dos fármacos, bases moleculares que envolvidas em suas propriedades farmacocinéticas e farmacodinâmicas, fundamentos químicos e moleculares do metabolismo de fármacos, estratégias de modificação molecular e estudos de relação estrutura-atividade. Apresentação de softwares e plataformas on line empregados no processo de desenvolvimento de fármacos."
+    },
+    {
+      "id": "FMC7012",
+      "code": "FMC7012",
+      "name": "Farmacologia II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FMC7011"
+      ],
+      "equivalents": [
+        "FMC5231",
+        "FMC5232"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FMC7011"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FMC5231"
+          },
+          {
+            "kind": "course",
+            "code": "FMC5232"
+          }
+        ]
+      },
+      "syllabus": "-Estudo dos fármacos que interferem com a resposta inflamatória e imunofarmacologia, nos sistemas cardiovascular, renal e no trato respiratório superior e Inferior; fármacos na hematologia, nas neoplasias e para o tratamento das doenças infecciosas."
+    },
+    {
+      "id": "ACL5148",
+      "code": "ACL5148",
+      "name": "Imunologia Clínica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5147",
+        "MIP5216"
+      ],
+      "equivalents": [
+        "ACL5108",
+        "ACL5140"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5147"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5216"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5108"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5140"
+          }
+        ]
+      },
+      "syllabus": "Integração entre resposta imune inata e adaptativa, e os mecanismos imunológicos envolvidos na patogenia de doenças infecciosas, autoimunes e nas imunodeficiências. Tolerância imunológica e o transplante de órgãos. Diagnóstico laboratorial imunológico e acompanhamento do tratamento de doenças infecciosas, parasitárias e autoimunes. Assistência farmacêutica no âmbito do diagnóstico laboratorial e de biomarcardores imunológicos para promoção, proteção e recuperação da saúde."
+    },
+    {
+      "id": "ACL5164",
+      "code": "ACL5164",
+      "name": "Estágio em Análises Clínico-Laboratóriais",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5147"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ACL5147"
+      },
+      "syllabus": "Integração do acadêmico às atividades do laboratório de análises clínicas. Aplicação e consolidação dos conhecimentos adquiridos com desenvolvimento de atividades nas áreas de Bioquímica Clínica, Imunologia Clínica e Toxicologia. Assistência farmacêutica relacionada ao diagnóstico laboratorial como instrumento de prevenção de doenças, promoção, proteção e recuperação da saúde humana."
+    },
+    {
+      "id": "CAL5522",
+      "code": "CAL5522",
+      "name": "Processos Bioquímicos na Área de Alimentos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5141"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA5141"
+      },
+      "syllabus": "I FMC7012 eh PTL5134 Proteínas, carboidratos e lipídios em alimentos. Bioquímicas de Produtos de origem animal e vegetal."
+    },
+    {
+      "id": "CIF5136",
+      "code": "CIF5136",
+      "name": "Farmacognosia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5356"
+      ],
+      "equivalents": [
+        "CIF5312",
+        "CIF5313"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5356"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5312"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5313"
+          }
+        ]
+      },
+      "syllabus": "Biodiversidade, fitofármacos e fitoterápicos. Produtos de origem vegetal e o desenvolvimento de medicamentos. Processos e métodos para seleção, extração e análise de matérias-primas vegetais. Principais grupos de metabólitos secundários de interesse farmacêutico. Aspectos regulatórios de matérias-primas vegetais e medicamentos fitoterápicos. Ensaios de identificação e caracterização de insumos farmacêuticos; ensaios para avaliação da qualidade de fármacos. Aspectos botânicos, químicos e físico-químicos relacionados à avaliação da qualidade de matérias-primas vegetais."
+    },
+    {
+      "id": "CIF5339",
+      "code": "CIF5339",
+      "name": "Tecnologia Farmacêutica I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5134"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5134"
+      },
+      "syllabus": "Aspectos gerais da produção industrial de medicamentos. Equipamentos e processos industriais de produção e embalagem de formas farmacêuticas sólidas, líquidas e semissólidas não estéreis. Produção de formas farmacêuticas estéreis. Boas Práticas de Fabricação de Medicamentos. Tecnologia de áreas limpas. Legislação aplicada à Indústria Farmacêutica."
+    },
+    {
+      "id": "CIF5340",
+      "code": "CIF5340",
+      "name": "Química Farmacêutica e Medicinal II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5338"
+      ],
+      "equivalents": [
+        "CIF5341"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5338"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5341"
+      },
+      "syllabus": "Estudo de diferentes classes de fármacos (Parte I) abordando aspectos de nomenclatura, desenvolvimento, estrutura química, propriedades eletrônicas, estéricas e hidrofóbicas, mecanismo de ação molecular, metabolismo, modificações moleculares relacionados à alteração da atividade farmacológica (RELAÇÃO ESTRUTURA x ATIVIDADE - REA)."
+    },
+    {
+      "id": "FMC7013",
+      "code": "FMC7013",
+      "name": "Farmacologia III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FMC7012"
+      ],
+      "equivalents": [
+        "FMC5232"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FMC7012"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FMC5232"
+      },
+      "syllabus": "-Estuda as ações de fármacos no Sistema Nervoso Central, nos sistemas endócrino e gastrointestinal e os fármacos para tratamento de doenças dermatológicas."
+    },
+    {
+      "id": "PTL5134",
+      "code": "PTL5134",
+      "name": "Toxicologia",
+      "credits": 5,
+      "hours": 90,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FMC7012"
+      ],
+      "equivalents": [
+        "PTL5132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FMC7012"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PTL5132"
+      },
+      "syllabus": "Introdução às Análises Toxicológicas. Campos de Atuação da Toxicologia (Analítica, Clínica, Experimental e Forense). Aplicação das Análises Toxicológicas. Toxicologia de Medicamentos, Social e Ocupacional: abordagem dos principais grupos de substâncias (medicamentos, drogas de abuso, agrotóxicos, metais, gases e solventes) quanto à classificação, fases da intoxicação: exposição, toxicocinética, toxicodinâmica e clínica, e metodologias analíticas utilizadas para identificação e/ou quantificação destes agentes."
+    },
+    {
+      "id": "ACL5149",
+      "code": "ACL5149",
+      "name": "Citologia Clínica",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5148",
+        "PTL5133"
+      ],
+      "equivalents": [
+        "ACL5105",
+        "ACL5132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5148"
+          },
+          {
+            "kind": "course",
+            "code": "PTL5133"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5105"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5132"
+          }
+        ]
+      },
+      "syllabus": "Citologia cérvico-vaginal e estratégias para detecção de lesões precursoras do câncer do colo do útero. Carcinogênese do câncer do colo do útero. Citologias do líquor e dos líquidos cavitários. Espermograma. Morfologia das células sanguíneas do sangue periférico. Assistência farmacêutica no âmbito da citologia clínica e do diagnóstico laboratorial."
+    },
+    {
+      "id": "CIF5343",
+      "code": "CIF5343",
+      "name": "Cuidados Farmacêuticos (Ext=18h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FMC7012"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FMC7012"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Cuidado farmacêutico no atendimento de pacientes ambulatoriais com demandas relativas a: dor, febre, infecção urinária, constipação, diarreia, afecções respiratórias, asma, Hipertensão Arterial Sistêmica, dislipidemias, diabetes mellitus e transtornos do SNC."
+    },
+    {
+      "id": "CIF5344",
+      "code": "CIF5344",
+      "name": "Biofarmácia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5134"
+      ],
+      "equivalents": [
+        "CIF5314"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5134"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5314"
+      },
+      "syllabus": "Princípios farmacocinéticos. Estudo da maneira pela qual as substâncias ativas presentes nas formas farmacêuticas são colocadas à disposição do organismo e sua evolução. Biodisponibilidade e bioequivalência. Vias de administração de medicamentos. Fatores físico-químicos, fisiológicos, patológicos e tecnológicos que afetam a biodisponibilidade de fármacos."
+    },
+    {
+      "id": "CIF5345",
+      "code": "CIF5345",
+      "name": "Farmácia Hospitalar (Ext=18h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5134",
+        "CIF5339",
+        "CIF5357",
+        "FMC7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5134"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5339"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5357"
+          },
+          {
+            "kind": "course",
+            "code": "FMC7013"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Caracterização, organização estrutural e funcional das clínicas, hospitais e dos serviços de farmácia e suas inter e intra-relações nos diferentes níveis de atenção à saúde. Assistência e atenção farmacêutica nos níveis de atenção de média e alta complexidades. Sistemas de distribuição e dispensação de medicamentos. Avaliação e validação de prescrição de medicamentos. Políticas do uso racional de medicamento, segurança do paciente e prevenção de erros de medicamentos. Farmacotécnica hospitalar de produtos estéreis e não estéreis. Cálculos farmacêutico aplicados à farmácia hospitalar. Comissões de suporte técnico-administrativas e atividades clínicas dos farmacêuticos em equipes multidisciplinares no âmbito da assistência de média e alta complexidades."
+    },
+    {
+      "id": "CIF5346",
+      "code": "CIF5346",
+      "name": "Química Farmacêutica e Medicinal III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5340"
+      ],
+      "equivalents": [
+        "CIF5342"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5340"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5342"
+      },
+      "syllabus": "Estudo de diferentes classes de fármacos (Parte II) abordando aspectos de nomenclatura, desenvolvimento, estrutura química, propriedades eletrônicas, estéricas e hidrofóbicas, mecanismo de ação molecular, metabolismo, modificações moleculares relacionadas à alteração da atividade farmacológica (RELAÇÃO ESTRUTURA x ATIVIDADE - REA)."
+    },
+    {
+      "id": "CIF5347",
+      "code": "CIF5347",
+      "name": "Deontologia e Legislação Farmacêutica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5164",
+        "CIF5133"
+      ],
+      "equivalents": [
+        "CIF5315"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5164"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5133"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5315"
+      },
+      "syllabus": "Princípios éticos que permeiam o exercício profissional farmacêutico. Legislação sanitária e profissional farmacêutica nas diversas áreas de atuação."
+    },
+    {
+      "id": "CIF5348",
+      "code": "CIF5348",
+      "name": "Assistência Farmacêutica - Centro de Referência (Ext=126h-a)",
+      "credits": 7,
+      "hours": 126,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5133",
+        "FMC7012"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5133"
+          },
+          {
+            "kind": "course",
+            "code": "FMC7012"
+          },
+          {
+            "kind": "hours",
+            "hours": 126
+          }
+        ]
+      },
+      "prerequisiteHours": 126,
+      "syllabus": "Centro de Referência em Assistência Farmacêutica (CERAF). Será um cenário de prática para o ensino experiencial da Assistência Farmacêutica, no qual se realiza atividades de extensão na graduação, desenvolvendo serviços farmacêuticos de referência para a comunidade, com a participação expressiva dos estudantes. Serão desenvolvidos projetos que atendam demandas sociais de saúde, com forte inserção na comunidade, visando contribuir com a consolidação dos princípios do SUS."
+    },
+    {
+      "id": "CIF5418",
+      "code": "CIF5418",
+      "name": "Cosmetologia I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5134"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5134"
+      },
+      "syllabus": "Aspectos gerais e classificação dos produtos de higiene pessoal, cosméticos e perfumes. Formas cosméticas. Ingredientes cosméticos. Sabonetes, hidratantes, esfoliantes, desodorantes e antitranspirantes. Protetores solares, aceleradores de bronzeado, autobronzeadores, produtos pós-sol. Maquiagens e demaquilantes. Shampoos e condicionadores. Produtos depilatórios e para barbear. Enxaguatórios bucais e dentrifrícios. Produtos antissépticos. Legislação relacionada aos produtos cosméticos."
+    },
+    {
+      "id": "CIF5613",
+      "code": "CIF5613",
+      "name": "Farmácia Clínica I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "FMC7013",
+        "SPB5146",
+        "SPB5147"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FMC7013"
+          },
+          {
+            "kind": "course",
+            "code": "SPB5146"
+          },
+          {
+            "kind": "course",
+            "code": "SPB5147"
+          }
+        ]
+      },
+      "syllabus": "Conceitos, princípios e aplicabilidade da farmacocinética clínica, farmacoepidemiologia e farmacoeconomia no monitoramento e na individualização terapêutica e no uso racional de medicamentos."
+    },
+    {
+      "id": "ACL5150",
+      "code": "ACL5150",
+      "name": "Micologia Clínica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5148",
+        "ACL5149",
+        "MIP5133"
+      ],
+      "equivalents": [
+        "ACL5104",
+        "ACL5137"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5148"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5149"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5133"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5104"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5137"
+          }
+        ]
+      },
+      "syllabus": "Características gerais dos fungos patogênicos. Principais micoses do ser humano. Fungos oportunistas e emergentes. Colheita, transporte e conservação do material biológico para diagnóstico laboratorial das micoses. Procedimentos laboratoriais para o diagnóstico das micoses. Identificação morfológica dos fungos. Emissão e interpretação dos resultados. Assistência farmacêutica no âmbito da micologia clínica e do diagnóstico laboratorial como instrumento de prevenção de doenças, promoção, proteção e recuperação da saúde humana."
+    },
+    {
+      "id": "ACL5151",
+      "code": "ACL5151",
+      "name": "Uroanálise",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5147",
+        "ACL5149"
+      ],
+      "equivalents": [
+        "ACL5109",
+        "ACL5136"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5147"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5149"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5109"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5136"
+          }
+        ]
+      },
+      "syllabus": "Formação da urina. Amostras empregadas no exame de urina de rotina e outras análises realizadas no setor de uroanálise. Métodos de coleta e conservação do material biológico. Exame de urina de rotina: exame físico, exame químico e exame microscópico. Pesquisas e dosagens na urina. O exame de urina de rotina no diagnóstico das doenças renais e urológicas. Assistência farmacêutica no âmbito do diagnóstico laboratorial em uroanálise."
+    },
+    {
+      "id": "ACL5152",
+      "code": "ACL5152",
+      "name": "Microbiologia Clínica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5147",
+        "FMC7013",
+        "MIP5133"
+      ],
+      "equivalents": [
+        "ACL5107",
+        "ACL5138"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5147"
+          },
+          {
+            "kind": "course",
+            "code": "FMC7013"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5133"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5107"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5138"
+          }
+        ]
+      },
+      "syllabus": "Métodos de microscopia, cultura, isolamento, identificação e teste de sensibilidade aos antimicrobianos de espécies bacterianas de importância clínica isoladas a partir de diversos materiais biológicos. Identificação, interpretação e análise crítica dos resultados do perfil de sensibilidade e dos mecanismos de resistência bacteriana, visando ao uso racional de antimicrobianos no tratamento das infecções e ao controle da disseminação de patógenos e determinantes genéticos de resistência/multirresistência aos antimicrobianos. Manipulação segura e ética de microrganismos empregando protocolos laboratoriais padronizados. Assistência farmacêutica no contexto do diagnóstico clínico-laboratorial, tratamento, prevenção e controle das infecções bacterianas."
+    },
+    {
+      "id": "ACL5153",
+      "code": "ACL5153",
+      "name": "Hematologia Clínica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5149",
+        "BQA5142"
+      ],
+      "equivalents": [
+        "ACL5110",
+        "ACL5135"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5149"
+          },
+          {
+            "kind": "course",
+            "code": "BQA5142"
+          },
+          {
+            "kind": "hours",
+            "hours": 5153
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5110"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5135"
+          }
+        ]
+      },
+      "prerequisiteHours": 5153,
+      "syllabus": "Citologia sanguínea: constituição e características morfológicas das células do sangue periférico e da medula óssea. Órgãos hematopoiéticos. Hemograma: execução e interpretação laboratorial e clínica. Princípios da automação em hematologia. Leucocitoses e Leucopenias. Alterações leucocitárias: fisiológicas, reativas e hereditárias. Neoplasias hematológicas. Anemias não-hemolíticas e hemolíticas: fisiopatologia e alterações do eritrograma. Hemostasia: fisiologia, alterações hereditárias e adquiridas das plaquetas e da coagulação sanguínea. Sistemas sanguíneos: ABO e Rh. Assistência farmacêutica no âmbito da Hematologia Clínica: interferência medicamentosa, mielossupressão, antitrombóticos e diagnóstico laboratorial das alterações hematológicas como instrumento de prevenção de doenças, promoção, proteção e recuperação da saúde."
+    },
+    {
+      "id": "ACL5154",
+      "code": "ACL5154",
+      "name": "Diagnóstico Laboratorial na Vigilância em Saúde (Ext = 54h-a)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5145",
+        "ACL5148",
+        "FMC7013",
+        "SPB5147",
+        "SPB7120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5145"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5148"
+          },
+          {
+            "kind": "course",
+            "code": "FMC7013"
+          },
+          {
+            "kind": "course",
+            "code": "SPB5147"
+          },
+          {
+            "kind": "course",
+            "code": "SPB7120"
+          },
+          {
+            "kind": "hours",
+            "hours": 54
+          }
+        ]
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "O profissional farmacêutico nas ações de vigilância epidemiológica das doenças de notificação compulsória, com ênfase na prevenção e no diagnóstico laboratorial."
+    },
+    {
+      "id": "CIF5137",
+      "code": "CIF5137",
+      "name": "Estágio em Fármacos, Medicamentos e Assistência Farmacêutica II",
+      "credits": 10,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CIF5133",
+        "CIF5343"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5133"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5343"
+          }
+        ]
+      },
+      "syllabus": "Cuidado farmacêutico e desenvolvimento de atividades afins, no ambiente da Farmácia Escola da Universidade Federal de Santa Catarina."
+    },
+    {
+      "id": "ACL5155",
+      "code": "ACL5155",
+      "name": "Gestão da Qualidade em Análises Clínico-",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5152"
+      ],
+      "equivalents": [
+        "ACL5139"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ACL5152"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ACL5139"
+      },
+      "syllabus": "Conceitos em Gestão da Qualidade no Laboratório de Análises Clínicas. Gestão da qualidade da fase pré-analítica. Controle interno e externo da qualidade. Uso e preparo de amostras controle. Conceitos de precisão e exatidão. Mapas de controle e limites estatísticos. Controle da qualidade de insumos. Controle da qualidade de equipamentos. Gestão da qualidade da fase pós-analítica. Indicadores da qualidade. Auditorias."
+    },
+    {
+      "id": "ACL5156",
+      "code": "ACL5156",
+      "name": "Serviço de Acompanhamento em Ambulatório de Fisiopatologia Hospitalar",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5146",
+        "ACL5150"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5146"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5150"
+          }
+        ]
+      },
+      "syllabus": "Laboratoriais CIF5347) Integração do acadêmico às atividades de acompanhamento clínico-laboratorial e farmacoterapêutico na Unidade de Fisiopatologia no HU/UFSC/EBSERH."
+    },
+    {
+      "id": "ACL5157",
+      "code": "ACL5157",
+      "name": "Estágio em Análises Clínico-Laboratoriais",
+      "credits": 16,
+      "hours": 288,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5146"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ACL5146"
+      },
+      "syllabus": "(Ext = 36h-a) ACL5151 eh Integração do acadêmico ao laboratório de análises clínicas. Aplicação e consolidação dos conhecimentos adquiridos com o desenvolvimento de atividades nas áreas das Análises Clínicas. Assistência farmacêutica no âmbito das Análises Clínicas e no diagnóstico laboratorial como instrumento de prevenção de doenças, promoção, proteção e recuperação da saúde humana."
+    },
+    {
+      "id": "CAL5132",
+      "code": "CAL5132",
+      "name": "Microbiologia de Alimentos",
+      "credits": 5,
+      "hours": 90,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5141",
+        "MIP5133"
+      ],
+      "equivalents": [
+        "CAL5104"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5141"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5133"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5104"
+      },
+      "syllabus": "II ACL5148 eh Importância da microbiologia de alimentos. Fatores que controlam o desenvolvimento de microrganismos nos alimentos. O laboratório de microbiologia de alimentos. Amostra e amostragem. Análise microbiológica de alimentos. Microrganismos indicadores. Microrganismos das toxinfecções alimentares. Controle de qualidade microbiológica na indústria de alimentos. Boas Práticas de fabricação (BPF). Análise de Perigos e Pontos críticos de Controle (APPCC)"
+    },
+    {
+      "id": "CIF5349",
+      "code": "CIF5349",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5150",
+        "ACL5151",
+        "ACL5152",
+        "ACL5153",
+        "ACL5154",
+        "CIF5137",
+        "CIF5345",
+        "CIF5348",
+        "CIF5418",
+        "CIF5613"
+      ],
+      "equivalents": [
+        "CIF5351"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5150"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5151"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5152"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5153"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5154"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5137"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5345"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5348"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5418"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5613"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5351"
+      },
+      "syllabus": "Conceitos do método científico e de pesquisa. Redação e Normatização de trabalhos científicos. Elaboração de projeto de trabalho de conclusão de curso."
+    },
+    {
+      "id": "ACL5158",
+      "code": "ACL5158",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 1,
+      "hours": 18,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5155",
+        "ACL5156",
+        "ACL5157",
+        "CAL5132",
+        "CIF5349"
+      ],
+      "equivalents": [
+        "ACL5142"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5155"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5156"
+          },
+          {
+            "kind": "course",
+            "code": "ACL5157"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5132"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5349"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ACL5142"
+      },
+      "syllabus": "Elaboração, redação e defesa do Trabalho de Conclusão de Curso."
+    },
+    {
+      "id": "CIF5138",
+      "code": "CIF5138",
+      "name": "Estágio em Fármacos, Medicamentos e Assistência Farmacêutica III",
+      "credits": 22,
+      "hours": 396,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "ACL5145",
+        "CIF5348",
+        "CIF5354",
+        "CIF5356",
+        "MOR5232",
+        "SPB5146"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5145"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5348"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5354"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5356"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5232"
+          },
+          {
+            "kind": "course",
+            "code": "SPB5146"
+          }
+        ]
+      },
+      "syllabus": "Estágio em área de atuação farmacêutica, oportunizando vivência prática no campo das Ciências Farmacêuticas, englobando uma ou mais das aéreas: fármacos, medicamentos, cosméticos ou assistência farmacêutica."
+    },
+    {
+      "id": "ACL5159",
+      "code": "ACL5159",
+      "name": "Tópicos Avançados em Hormônios",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "CFS5171"
+      ],
+      "equivalents": [
+        "ACL5209"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CFS5171"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ACL5209"
+      },
+      "syllabus": "Rol de Disciplinas Optativas Avaliação de casos clínicos com desordens hormonais. Correlação entre fisiopatologia e resultados de exames. Metodologias laboratoriais aplicadas às determinações dos hormônios em amostras biológicas."
+    },
+    {
+      "id": "ACL5160",
+      "code": "ACL5160",
+      "name": "Comunicação e Informação para o SUS",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ACL5210"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ACL5210"
+      },
+      "syllabus": "Desenvolvimento de materiais de comunicação e educação para adoção de estratégias e realização de políticas públicas no Sistema Único de Saúde."
+    },
+    {
+      "id": "ACL5161",
+      "code": "ACL5161",
+      "name": "Doenças Infecciosa, Emergentes, Reemergentes e Negligenciadas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "MIP5133",
+        "MIP5216",
+        "MIP5217"
+      ],
+      "equivalents": [
+        "ACL5204"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP5133"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5216"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5217"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ACL5204"
+      },
+      "syllabus": "O papel do Farmacêutico nas atividades de laboratório voltadas à vigilância epidemiológica e atualização no diagnóstico das doenças emergentes, reemergentes e negligenciadas."
+    },
+    {
+      "id": "ACL5162",
+      "code": "ACL5162",
+      "name": "Hematologia Clínica Veterinária",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "ACL5149"
+      ],
+      "equivalents": [
+        "ACL5111"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5149"
+          },
+          {
+            "kind": "hours",
+            "hours": 5162
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ACL5111"
+      },
+      "prerequisiteHours": 5162,
+      "syllabus": "Hematologia clínica veterinária: animais domésticos e não domésticos. Colheita de amostras de sangue e processamento do material. Hematopoiese e células sanguíneas em animais. Hemograma em animais: variações fisiológicas e na doença. Hemostasia e provas de hemostasia em animais. Transfusão sanguínea e reações cruzadas em animais."
+    },
+    {
+      "id": "ACL5163",
+      "code": "ACL5163",
+      "name": "Diagnóstico, Prognóstico e Monitoramento",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "ACL5149"
+      ],
+      "equivalents": [
+        "ACL5006"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ACL5149"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ACL5006"
+      },
+      "syllabus": "O papel do laboratório clínico na escolha de marcadores e na avaliação de resultados para o diagnóstico laboratorial de neoplasias. Aplicação de métodos adjuvantes utilizados no diagnóstico laboratorial de neoplasias."
+    },
+    {
+      "id": "BEG7230",
+      "code": "BEG7230",
+      "name": "Mecanismos Moleculares e Celulares de Teratogênese",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "BEG5113",
+        "BEG5442"
+      ],
+      "equivalents": [
+        "BEG7213"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5113"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5442"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG7213"
+      },
+      "syllabus": "de Neoplasias Estudo dos princípios da Teratogênese. Caracterização dos períodos críticos do desenvolvimento embrionário afetados por teratógenos e que influenciam principalmente na Formação do Sistema Nervoso, Sistema Esquelético, Membros, Formação da Face, Coração e Sistema Reprodutor. Estudo dos agentes causadores de Teratogênese nas espécies animais, com ênfase na espécie Humana. Estudo de classificação de Medicamentos Teratogênicos utilizando os critérios do FDA. Estudos dos Mecanismos Moleculares e Celulares da Teratogênese."
+    },
+    {
+      "id": "BQA7019",
+      "code": "BQA7019",
+      "name": "Bioquímica Computacional Aplicada à",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "BQA5141"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA5141"
+      },
+      "syllabus": "Abrange os principais tópicos relacionados à bioquímica computacional na pesquisa de fármacos, desde as bases biológicas e químicas até as técnicas avançadas de modelagem molecular e simulação em sistemas biológicos. Ela visa fornecer aos alunos as habilidades e conhecimentos necessários para utilizar bases de dados de bioquímica computacional, network farmacológico e quimioinformática na descoberta de novos fármacos."
+    },
+    {
+      "id": "CAL5133",
+      "code": "CAL5133",
+      "name": "Biologia Molecular e Biotecnologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BQA5141",
+        "MIP5133"
+      ],
+      "equivalents": [
+        "CAL5504"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5141"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5133"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5504"
+      },
+      "syllabus": "Estrutura dos ácidos nucléicos. Replicação do DNA. Transcrição e Síntese de proteínas. Seqüenciamento, análise comparativa dos genomas e análise de expressão. Tecnologia do DNA Recombinante. Métodos de isolamento, purificação e clonagem de genes. Detecção de contaminantes e microrganismos. Expressão e purificação de proteínas recombinantes. Produção de Microrganismos e plantas GM. Métodos de detecção e quantificação de OGM. Exemplos de alimentos transgênicos. Legislação sobre OGM."
+    },
+    {
+      "id": "CIF5139",
+      "code": "CIF5139",
+      "name": "Métodos Instrumentais na Análise de Fármacos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5356",
+        "QMC5246"
+      ],
+      "equivalents": [
+        "CIF5402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5356"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5246"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5402"
+      },
+      "syllabus": "Fundamentos e aplicações de métodos termogravimétricos, calorimétricos e cromatográficos na análise de substâncias de interesse farmacêutico. Espectroscopia de Ressonância Magnética Nuclear: Princípios fundamentais e aspectos teóricos. Obtenção, análise, interpretação e elucidação de espectros de 1H e 13C aplicadas a identificação de substâncias de interesse farmacêutico"
+    },
+    {
+      "id": "CIF5140",
+      "code": "CIF5140",
+      "name": "Ensaios In Vitro e o Desenvolvimento de Fármacos de Origem Natural",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5136"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5136"
+      },
+      "syllabus": "Uma revisão sobre os principais métodos extrativos; o fracionamento biomonitorado; principais ensaios in vitro para avaliação da atividade biológica fundamentados em cultivo celular; exemplos de fármacos, com importância terapêutica, descobertos a partir de produtos naturais utilizando o fracionamento biomonitorado."
+    },
+    {
+      "id": "CIF5141",
+      "code": "CIF5141",
+      "name": "Novas Tecnologias Aplicadas a",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5134"
+      ],
+      "equivalents": [
+        "CIF5406"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5134"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5406"
+      },
+      "syllabus": "Novas tecnologias para a liberação de fármacos: conceitos, aplicações e interesse terapêutico. Estratégias para a modificação do perfil de liberação. Liberação prolongada, retardada e vetorizada. Sistemas matriciais e do tipo reservatório. Lipossomas, nano- e micropartículas. Arcabouços para engenharia de tecidos. Hidrogéis. Preparações oftálmicas & parenterais. Dispositivos iontoforéticos, microseringas poliméricas e adesivos transdérmicos. Formulações bioadesivas. Anéis vaginais. Tecnologias de fabricação e controle de qualidade. Avaliação biofarmacêutica."
+    },
+    {
+      "id": "CIF5142",
+      "code": "CIF5142",
+      "name": "Planejamento e Síntese de Fármacos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5338"
+      ],
+      "equivalents": [
+        "CIF5407"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5338"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5407"
+      },
+      "syllabus": "Administração de Fármacos Histórico da síntese de fármacos; estudo do processo de proteção intelectual na indústria farmacêutica; estudo de estratégias de modificação molecular clássicas; planejamento racional de fármacos envolvendo a modelagem molecular; estratégias sintéticas aplicadas à síntese de fármacos e novas substâncias bioativas; novas metodologias de síntese de fármacos, processo de obtenção de diferentes classes terapêuticas."
+    },
+    {
+      "id": "CIF5350",
+      "code": "CIF5350",
+      "name": "Biotecnologia Farmacêutica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BQA5142",
+        "MIP5216"
+      ],
+      "equivalents": [
+        "CIF5409"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5142"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5216"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5409"
+      },
+      "syllabus": "Introdução à Biotecnologia. Fundamentos em Biotecnologia e suas implicações e aplicações tecnológicas na indústria farmacêutica. Aplicação da tecnologia do DNA recombinante. Microrganismos de interesse industrial farmacêutico. Bioprodutos derivados de cultura de células."
+    },
+    {
+      "id": "CIF5360",
+      "code": "CIF5360",
+      "name": "Tecnologia Farmacêutica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5339"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5339"
+      },
+      "syllabus": "Planejamento de formas farmacêuticas sólidas, líquidas e semissólidas. Estudos de pré-formulação. Base racional para a seleção da forma farmacêutica, excipientes e tecnologia de produção. Produção de formas farmacêuticas em escala piloto, estudo dos equipamentos empregados em escala industrial, estudo das variáveis de formulação e de processo que afetam as características finais do medicamento."
+    },
+    {
+      "id": "CIF5361",
+      "code": "CIF5361",
+      "name": "Tópicos Avançados em Química",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5346"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5346"
+      },
+      "syllabus": "Estudo de novas abordagens de desenvolvimento de fármacos e de classes de fármacos, envolvendo novos mecanismos de ação molecular, estrutura geral e modificações moleculares relacionadas à melhoria das propriedades bem como novas terapias associadas."
+    },
+    {
+      "id": "CIF5419",
+      "code": "CIF5419",
+      "name": "Empreendedorismo e Administração",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CIF5416"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5416"
+      },
+      "syllabus": "Farmacêutica e Medicinal Empreendedorismo. Informações gerais para a constituição de negócios. Planejamento Estratégico. Plano de Negócios. Administração de Projetos. Administração de Recursos Humanos. Administração de Materiais. Marketing. Finanças. Noções de Contabilidade Básica. Contabilidade de Custos. Estratégias de Precificação. Controle de Estoques."
+    },
+    {
+      "id": "CIF5420",
+      "code": "CIF5420",
+      "name": "Plantas Mediicinais e Fitoterapia (Ext =18h-",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Farmacêutica Fundamentos de botânica. Aspectos botânicos das plantas medicinais. Características da fitoterapia. Produtos para a saúde de origem natural: reconhecimento das principais plantas de uso popular: características, usos. Discussões sobre eficácia e segurança: plantas na gravidez, interação medicamentosa, toxicidade. Farmácias-vivas. Uso racional de plantas medicinais e fitoterápicos."
+    },
+    {
+      "id": "CIF5421",
+      "code": "CIF5421",
+      "name": "Controle de Qualidade Microbiológico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5135"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5135"
+      },
+      "syllabus": "a) Introdução ao controle microbiológico. Microbiologia da água no processo e como insumo. Contaminação microbiana em produtos farmacêuticos, correlatos e cosméticos. Análise da qualidade microbiana de produtos não estéreis. Métodos para identificação e contagem de microrganismos. Controle microbiológico de produtos estéreis. Teste de esterilidade. Eficácia de conservantes. Controle da contaminação microbiana durante a manufatura. Riscos associados à contaminação microbiana. Validação de métodos analíticos microbiológicos."
+    },
+    {
+      "id": "CIF5422",
+      "code": "CIF5422",
+      "name": "Interações Medicamentosas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FMC7011"
+      ],
+      "equivalents": [
+        "CIF5404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FMC7011"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5404"
+      },
+      "syllabus": "Interações farmacocinéticas, farmacodinâmicas e interferência de fármacos em exames laboratoriais. Utilização terapêutica de interações entre fármacos. Busca em bases de dados e análise de casos. Interações entre fármacos de diversas classes e interações com produtos naturais, alimentos e suplementos."
+    },
+    {
+      "id": "CIF5423",
+      "code": "CIF5423",
+      "name": "Farmácia Homeopática (Ext=18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5134",
+        "CIF5135"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5134"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5135"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Contexto histórico da Homeopatia. Princípios e fundamentos da Homeopatia. Medicamento homeopático: origem, eficácia e segurança, forma farmacêutica básica, formas farmacêuticas derivadas (escalas e métodos), formas farmacêuticas de uso interno. A farmácia homeopática. Qualidade em Homeopatia. Homeopatia no SUS."
+    },
+    {
+      "id": "CIF5424",
+      "code": "CIF5424",
+      "name": "Química de Produtos Naturais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5136"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5136"
+      },
+      "syllabus": "Introdução a química de produtos naturais de origem vegetal e marinha. Biossíntese de metabólitos secundários. Ocorrência quimiotaxônomica das principais classes de metabólitos secundários. Produtos naturais de microrganismos. Atividades biológicas de produtos naturais de origem vegetal e marinha."
+    },
+    {
+      "id": "CIF5425",
+      "code": "CIF5425",
+      "name": "Cosmetologia II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5418"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5418"
+      },
+      "syllabus": "Desenvolvimento tecnológico de produtos de higiene pessoal e cosméticos. Seleção de ingredientes e da tecnologia de produção das formas cosméticas. Produção de formas cosméticas em escala magistral. Boas Práticas de Fabricação para Produtos de Higiene Pessoal, Cosméticos e Perfumes."
+    },
+    {
+      "id": "CIF5509",
+      "code": "CIF5509",
+      "name": "Tópicos em Vigilância Sanitária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "SPB5147",
+        "SPB7120"
+      ],
+      "equivalents": [
+        "CIF5508"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "SPB5147"
+          },
+          {
+            "kind": "course",
+            "code": "SPB7120"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5508"
+      },
+      "syllabus": "O papel regulador do Estado. Objetivos e fundamentos da vigilância sanitária. Globalização e regulação sanitária. Histórico da vigilância sanitária no Brasil. Direito sanitário e o direito regulatório. A vigilância sanitária no Sistema Único de Saúde do Brasil. O processo decisório em vigilância sanitária no Brasil. Avaliação e gerenciamento de riscos: risco potencial e o conceito de risco operativo para vigilância sanitária. Regulação sanitária de medicamentos e insumos farmacêuticos: registro, fiscalização e inspeção da produção e da circulação. Regulação sanitária de cosméticos: registro e inspeção. Regulação sanitária de serviços de saúde. Regulação sanitária da publicidade de medicamentos."
+    },
+    {
+      "id": "CIF5510",
+      "code": "CIF5510",
+      "name": "Ética e Medicalização",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5113",
+        "CIF5355"
+      ],
+      "equivalents": [
+        "CIF5502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5113"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5355"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5502"
+      },
+      "syllabus": "Introdução à bioética. Medicalização e ética em saúde. Medicalização e medicamentalização. A expansão da indústria em saúde e a ética em pesquisa."
+    },
+    {
+      "id": "CIF5511",
+      "code": "CIF5511",
+      "name": "Farmacoepidemiologia",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5338",
+        "FMC7012",
+        "SPB5147"
+      ],
+      "equivalents": [
+        "CIF5505"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5338"
+          },
+          {
+            "kind": "course",
+            "code": "FMC7012"
+          },
+          {
+            "kind": "course",
+            "code": "SPB5147"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CIF5505"
+      },
+      "syllabus": "Farmacoepidemiologia e o uso de medicamentos. Introdução aos métodos de avaliação da farmacologia clínica. Farmacovigilância e utilização de medicamentos. Metodologia epidemiológica básica em farmacovigilância. Reações adversas a medicamentos. Sistemas de farmacovigilância. Metodologias dos estudos de utilização de medicamentos (EUM). Indicadores dos EUM. Informações em saúde e sobre medicamentos. Centros de informação sobre medicamentos."
+    },
+    {
+      "id": "CIF5512",
+      "code": "CIF5512",
+      "name": "Seguimento Farmacoterapêutico (Ext=18h-",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5343"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CIF5343"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Conceito de acompanhamento farmacoterapêutico. Discutir as metodologias de Seguimento Farmacoterapêutico. Realização do seguimento farmacoterapêutico."
+    },
+    {
+      "id": "CIF5614",
+      "code": "CIF5614",
+      "name": "Cálculos Farmacêuticos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "a) CIF5613) Fundamentos de cálculos farmacêuticos (sistemas numéricos, frações comuns e decimais, porcentagem, notação exponencial, razão, proporção, variação). Sistemas Internacionais de peso e medidas. Conversão de unidades de medida. Cálculos de doses. Diluição e concentração. Aplicação de cálculos em atividades do profissional farmacêutico. Soluções isotônicas, tampão e eletrólitos. Fator de correção. Cálculos analíticos."
+    },
+    {
+      "id": "CIF5615",
+      "code": "CIF5615",
+      "name": "Seminários e Vivências no Sistema Único",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CIF5355"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CIF5355"
+      },
+      "syllabus": "Desenvolvimento de seminários e acompanhamento de atividades práticas em comunidades, unidades de saúde ou instâncias de gestão."
+    },
+    {
+      "id": "CIF5616",
+      "code": "CIF5616",
+      "name": "Comunicação Científica Digital (Ext=54h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 54
+      },
+      "prerequisiteHours": 54,
+      "syllabus": "de Saúde (Ext=36h-a) SPB5211) Introdução às ferramentas digitais para produção de material científico. Uso das ferramentas digitas de acesso livre para design e edição de conteúdos digitais. Plataformas cientificas. Direitos autorais. Linguagem de texto. Produção de material científico digital. Análise dos conteúdos produzidos e publicados através das estatísticas geradas pelo alcance e engajamento das publicações."
+    },
+    {
+      "id": "CIF5617",
+      "code": "CIF5617",
+      "name": "Farmácia Clínica II - Caráter teórico-prático",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ACL5153",
+        "CIF5343",
+        "CIF5345",
+        "CIF5613"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ACL5153"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5343"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5345"
+          },
+          {
+            "kind": "course",
+            "code": "CIF5613"
+          }
+        ]
+      },
+      "syllabus": "Uso seguro e racional de medicamentos e o manejo terapêutico na atenção média e alta complexidades: urgência e emergência, oncologia, cuidados intensivos, infectologia, insuficiência hepática e renal, transplantes, saúde materno-infantil, geriatria, saúde da mulher e do homem."
+    },
+    {
+      "id": "FMC7014",
+      "code": "FMC7014",
+      "name": "Farmacologia IV",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FMC7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FMC7013"
+      },
+      "syllabus": "-Mecanismo de ação de fármacos dispensados na farmácia escola"
+    },
+    {
+      "id": "FMC7015",
+      "code": "FMC7015",
+      "name": "Drogas e Comportamento",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Apresentar e discutir os aspectos biológicos, psicológicos e sociais relacionados ao comportamento de uso abusivo de drogas, incluindo medicamentos. A disciplina oferece um panorama sobre o fenômeno das drogas psicotrópicas (substâncias psicoativas que podem levar à dependência química) com foco nos aspectos biopsicossociais."
+    },
+    {
+      "id": "FMC7016",
+      "code": "FMC7016",
+      "name": "Farmacologia dos medicamentos isentos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FMC7011"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FMC7011"
+      },
+      "syllabus": "Medicamentos isentos de prescrição. Farmacocinética e farmacodinâmica de medicamentos isentos de prescrição. Interações medicamentosas e efeitos adversos de medicamentos isentos de prescrição"
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "de prescrição Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "PTL7011",
+      "code": "PTL7011",
+      "name": "Introdução à Toxicologia Forense",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) Introdução à toxicologia forense. Drogas de abuso. Drogas facilitadoras de crime. Toxicologia e trânsito. Toxicologia post-mortem. Toxicologia do desempenho humano no ambiente de trabalho. Doping esportivo. Abortificantes e exposição infantil. Armas químicas. Toxicologia ambiental forense. Adulteração de produtos."
+    },
+    {
+      "id": "PTL7012",
+      "code": "PTL7012",
+      "name": "Introdução à Saúde Digital",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Impacto da transformação digital na saúde e na educação. Histórico e fundamentos da Saúde Digital. Saúde digital no mundo e no Brasil. Sistemas de Informação em Saúde. Aspectos éticos e legais associados ao uso da informação eletrônica em saúde. Aspectos práticos na utilização de plataformas de telessaúde e na interação remota com pacientes e outros profissionais."
+    },
+    {
+      "id": "QMC5238",
+      "code": "QMC5238",
+      "name": "Química Orgânica Biológica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5246"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5246"
+      },
+      "syllabus": "Estrutura, propriedades físicas e químicas das principais classes de biomoléculas: Carboidratos, Lipídeos, Ácidos Nuclêicos, Aminoácidos, Peptídeos, Proteínas e Enzimas. Reatividade: Biossíntese e aplicações em síntese orgânica. Reações enzimáticas e ciclos metabólicos de Carboidratos, Lipídeos e Proteínas."
+    },
+    {
+      "id": "QMC5240",
+      "code": "QMC5240",
+      "name": "Química Orgânica Biológica Experimental I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5238",
+        "QMC5247"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5238"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5247"
+          }
+        ]
+      },
+      "syllabus": "Extração, quantificação e determinação indireta dos principais grupos de biomoléculas: carboidratos, lipídios, aminoácidos e proteínas. Aplicação de técnicas em amostras de produtos naturais e alimentícias. Reações para a identificação de biomoléculas. Emprego de técnicas espectroscópicas de caracterização."
+    },
+    {
+      "id": "SPB7115",
+      "code": "SPB7115",
+      "name": "Balneoterapia e Termalismo Social",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos histórico da balneoterapia e termalismo no mundo e no Brasil. Aspectos Conceituais em balneoterapia e termalismo. Águas minerais naturais e derivados (pelóides) e suas propriedades terapêuticas. Bases fisiológicas e biopsicossociais da balneoterapia e termalismo social. Indicações e contraindicações da balneoterapia/termalismo. Vias e técnicas terapêuticas balneoleogicas/termais. Técnicas Terapêuticas hidroterapicas e Crenoterápicas. Termalismo Social nos sistemas de saúde do mundo e na Política Nacional de Práticas Integrativas e Complementares."
+    },
+    {
+      "id": "SPB7116",
+      "code": "SPB7116",
+      "name": "Epidemiologia Clínica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Usos e aplicações da epidemiologia clínica. Aplicação da epidemiologia na investigação diagnóstica. Desenhos de pesquisa. Análise de eficácia e efetividade em ações de tratamento e prevenção. A produção de evidências científicas e as condutas clínicas."
+    },
+    {
+      "id": "SPB7117",
+      "code": "SPB7117",
+      "name": "Minorias, Interseccionalidades e Atenção à",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apresentar e discutir com os estudantes o tema das Interseccionalidades e suas relações com as práticas nos serviços de saúde e na saúde coletiva. Serão abordadas questões teóricas e práticas relacionadas a saúde por abordagens interseccionais, tanto de sua constituição enquanto grupos sociais, como as relações com as ações em saúde."
+    },
+    {
+      "id": "SPB7118",
+      "code": "SPB7118",
+      "name": "Saúde do Trabalhador",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Saúde -Relação do trabalho com o processo de saúde e doença. Análise da situação de trabalho. Saúde Mental e trabalho. Organização do trabalho. Políticas Públicas em Saúde do Trabalhador. Arcabouço legal e normas regulamentadoras de saúde e segurança do trabalhado. Acidentes e doenças relacionadas ao trabalho. Vigilância em Saúde do Trabalhador. Investigação dos acidentes de trabalho. Intervenções em Saúde do Trabalhador. Ações intersetoriais."
+    },
+    {
+      "id": "SPB7119",
+      "code": "SPB7119",
+      "name": "Saúde Prisional",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apresentar e discutir com os estudantes o tema saúde prisional, particularmente as desenvolvidas no campo da saúde coletiva. Serão abordadas questões teóricas e práticas relacionadas a saúde no contexto das prisões, tanto sob aspecto da população privada de liberdade quanto dos trabalhadores nesse cenário."
+    },
+    {
+      "id": "CIF5513",
+      "code": "CIF5513",
+      "name": "Atividades Complementares",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades complementares realizadas conforme previsão constante da Política de Atividades Complementares do curso de Farmácia."
+    },
+    {
+      "id": "ACL5165",
+      "code": "ACL5165",
+      "name": "Ações de Extensão-Projetos, Cursos e Eventos (Ext= 108h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 108
+      },
+      "prerequisiteHours": 108,
+      "syllabus": "Rol de Atividades de Extensão Atividades de extensão realizadas em ações de extensão em projetos, cursos e eventos"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ACL5144",
+      "BEG5113",
+      "CIF5113",
+      "CIF5612",
+      "MOR5121",
+      "MOR5232",
+      "QMC5154",
+      "QMC5237",
+      "SPB5146",
+      "SPB5211",
+      "BEG5442",
+      "CFS5171",
+      "CIF5354",
+      "CIF5355",
+      "QMC5246",
+      "QMC5354",
+      "QMC5355",
+      "QMC5454",
+      "QMC5455",
+      "BQA5141",
+      "CFS5172",
+      "CIF5132",
+      "CIF5133",
+      "MIP5133",
+      "MIP5321",
+      "QMC5247",
+      "SPB5147",
+      "SPB7120",
+      "ACL5145",
+      "BQA5142",
+      "CIF5134",
+      "CIF5356",
+      "CIF5357",
+      "FMC7011",
+      "MIP5216",
+      "MIP5217",
+      "PTL5133",
+      "ACL5146",
+      "ACL5147",
+      "CAL5310",
+      "CIF5135",
+      "CIF5338",
+      "FMC7012",
+      "ACL5148",
+      "ACL5164",
+      "CAL5522",
+      "CIF5136",
+      "CIF5339",
+      "CIF5340",
+      "FMC7013",
+      "PTL5134",
+      "ACL5149",
+      "CIF5343",
+      "CIF5344",
+      "CIF5345",
+      "CIF5346",
+      "CIF5347",
+      "CIF5348",
+      "CIF5418",
+      "CIF5613",
+      "ACL5150",
+      "ACL5151",
+      "ACL5152",
+      "ACL5153",
+      "ACL5154",
+      "CIF5137",
+      "ACL5155",
+      "ACL5156",
+      "ACL5157",
+      "CAL5132",
+      "CIF5349",
+      "ACL5158",
+      "CIF5138",
+      "CIF5513",
+      "ACL5165"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 108,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ACL5159",
+              "ACL5160",
+              "ACL5161",
+              "ACL5162",
+              "ACL5163",
+              "BEG7230",
+              "BQA7019",
+              "CAL5133",
+              "CIF5139",
+              "CIF5140",
+              "CIF5141",
+              "CIF5142",
+              "CIF5350",
+              "CIF5360",
+              "CIF5361",
+              "CIF5419",
+              "CIF5420",
+              "CIF5421",
+              "CIF5422",
+              "CIF5423",
+              "CIF5424",
+              "CIF5425",
+              "CIF5509",
+              "CIF5510",
+              "CIF5511",
+              "CIF5512",
+              "CIF5614",
+              "CIF5615",
+              "CIF5616",
+              "CIF5617",
+              "FMC7014",
+              "FMC7015",
+              "FMC7016",
+              "LSB7244",
+              "PTL7011",
+              "PTL7012",
+              "QMC5238",
+              "QMC5240",
+              "SPB7115",
+              "SPB7116",
+              "SPB7117",
+              "SPB7118",
+              "SPB7119"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 108
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "102",
+    "curriculumCode": "20221",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=102&curriculo=20221",
+    "sha256": "76607cf0ff52bfa383ce1a947e0e86613fafde9ac8481260d1cac53a8fa21e7b",
+    "capturedAt": "2026-09-22"
+  }
+}

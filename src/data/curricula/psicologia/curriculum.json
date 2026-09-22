@@ -1,0 +1,3417 @@
+{
+  "program": "PSICOLOGIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2010.1",
+  "totalHours": 4896,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ANT7101",
+      "code": "ANT7101",
+      "name": "Introdução à Antropologia (PCC 36 horas-",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ANT5309"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ANT5309"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "A constituição da Antropologia como disciplina e seu campo de estudo. A crítica ao etnocentrismo e o relativismo cultural. Questões de método: trabalho de campo e observação participante. Os precursores e o evolucionismo social na conformação da Antropologia como disciplina."
+    },
+    {
+      "id": "FIL5791",
+      "code": "FIL5791",
+      "name": "Epistemologia Das Ciências Humanas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "aula) Sobre os fundamentos epistemológicos das ciências humanas."
+    },
+    {
+      "id": "MOR7104",
+      "code": "MOR7104",
+      "name": "Processos Biopsicológicos I: Neuroanatomia e Sistemas Orgânicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MOR5207"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MOR5207"
+      },
+      "syllabus": "(PCC 18 horas-aula) Estudo do Sistema Nervoso, Medula Espinal, Tronco Encefálico, Cerebelo, Diencéfalo, Telencéfalo, Sistema Nervoso Periférico, Sistema Nervoso Visceral e Límbico. Noções de Anatomia do Aparelho Locomotor (Osteologia, Artrologia, Miologia), Sistema Cardiovascular, Sistema Respiratório, Sistema Digestório, Sistema Urinário, Sistema Genital Masculino e Feminino, Sistema Endócrino."
+    },
+    {
+      "id": "PSI7101",
+      "code": "PSI7101",
+      "name": "Psicologia: Ciência e Profissão (PCC",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5127"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5127"
+      },
+      "syllabus": "Definição de Psicologia. Objetos e métodos da psicologia. Áreas do conhecimento e campos de atuação da psicologia. Formação do psicólogo. Abordagens teóricas e metodológicas da psicologia. Campo e mercado de trabalho do psicólogo. A psicologia no Brasil atual e áreas emergentes."
+    },
+    {
+      "id": "PSI7102",
+      "code": "PSI7102",
+      "name": "História da Psicologia (PCC 18 horas-aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5126"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7102
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5126"
+      },
+      "prerequisiteHours": 7102,
+      "syllabus": "18horas-aula) Bases filosóficas e científicas do nascimento da Psicologia. Matrizes estruturalistas e funcionalistas na formação do pensamento psicológico. Psicologia aplicada, escolas e teorias psicológicas. História da Psicologia no Brasil, América Latina e condições sócio-históricas no contexto mundial."
+    },
+    {
+      "id": "PSI7103",
+      "code": "PSI7103",
+      "name": "Prática e Pesquisa Orientada I (PCC 10",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Diferentes tipos de conhecimentos. Diversidade Metodológica de pesquisa em psicologia. Elaboração de projeto de pesquisa com métodos de pesquisa em psicologia."
+    },
+    {
+      "id": "PSI7202",
+      "code": "PSI7202",
+      "name": "Processos Psicológicos Básicos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5155"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5155"
+      },
+      "syllabus": "horas-aula) Relações entre processos psicológicos e atividade cerebral. Sensação, percepção, atenção, memória, linguagem, pensamento, emoções sentimentos, consciência."
+    },
+    {
+      "id": "CFS7106",
+      "code": "CFS7106",
+      "name": "Processos Biopsicológicos II: Fisiologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Homeostasia e adaptação e Líquidos corporais; Potenciais bioelétricos; Sinapse e integração da atividade nervosa; Sistemas Sensoriais; Bases neurais das emoções; Sistemas efetores: músculo-esquelético, neurovegetativo e neuroendócrino; Sistema Nervoso Autônomo; Sistema motor; Tálamo; Formação reticular; Ritmos biológicos, sono e vigília, Receptores e sensibilidade cutânea; Visão; Audição; Quimiorrecepção; Emoções,Hipotálamo e Sistema límbico; Atividade nervosa superior; Sistema Endócrino: regulação e funções dos principais hormônios."
+    },
+    {
+      "id": "PSI7201",
+      "code": "PSI7201",
+      "name": "Desenvolvimento Humano e Aprendizagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7101"
+      ],
+      "equivalents": [
+        "PSI5147"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5147"
+      },
+      "syllabus": "Humana Psicologia do desenvolvimento: definição, história, objeto e métodos. Dimensões biológicas, históricos, sociais e culturais do desenvolvimento psicológico. Principais abordagens do desenvolvimento humano e suas contribuições principais. Periodicização do desenvolvimento. A relação desenvolvimento e aprendizagem. Desenvolvimento psicológico e contemporaneidade."
+    },
+    {
+      "id": "PSI7203",
+      "code": "PSI7203",
+      "name": "Prática e pesquisa Orientada II (PCC 10",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(PCC 18 horas-aula) PSI7102) Introdução aos procedimentos e técnicas de coleta/produção de informações: documentos; observações; entrevistas e escalas/questionários. Introdução aos procedimentos de análise dos dados: análise de conteúdo, análise do discurso. Desenvolvimento de investigação e elaboração de relatórios de pesquisa."
+    },
+    {
+      "id": "PSI7204",
+      "code": "PSI7204",
+      "name": "Psicologia e Atenção à Saúde I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "horas-aula) Saúde e doença: análise conceitual e representações sociais. Movimentos higienistas do século XIX. Movimento Sanitário no Brasil. Saúde Pública e Saúde coletiva. O Sistema Único de Saúde (SUS), a Estratégia Saúde da Família (ESF). A psicologia no campo da saúde. Aspectos éticos. Instituições de saúde e psicologia."
+    },
+    {
+      "id": "PSI7205",
+      "code": "PSI7205",
+      "name": "NeuroPsicologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Bases psicofisiológicas do comportamento. Evolução do comportamento eda aprendizagem. Métodos experimentais no estudo dos processos psicofisiológicos. Psicofisiologia das emoções. Psicofisiologia da dor e do estresse. Psicofisiologia das doenças mentais e dos distúrbios de comportamento."
+    },
+    {
+      "id": "PSI7305",
+      "code": "PSI7305",
+      "name": "Psicologia Comportamental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7102"
+      ],
+      "equivalents": [
+        "PSI5149"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7102"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5149"
+      },
+      "syllabus": "Conceito de comportamento. Evolução conceitual sobre o fenômeno comportamento humano. Concepções aristotélicas e galilêicas na Psicologia contemporânea. Modelo médico e modelo psicológico na intervenção sobre comportamento. Variáveis. Determinação do comportamento. Conceitos de fluxo e cadeia comportamentais. Conceitos de Análise do Comportamento, Análise Experimental e Aplicada do Comportamento, Behaviorismo. Comportamentos complexos. Noção de reforço. Conceito de contingências de reforço. Contingências de reforço em processos comportamentais simples e suas decorrências para o trabalho profissional do psicólogo. Análise comportamental de conceitos na área da Psicologia. Síntese comportamental em diferentes contextos sociais."
+    },
+    {
+      "id": "SPO5129",
+      "code": "SPO5129",
+      "name": "Sociologia Geral B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos históricos do desenvolvimento do pensamento sociológico. A sociologia como ciência. Conceitos sociológicos fundamentais. Quadros referenciais para o estudo da sociedade: noções básicas do materialismo histórico e do funcionalismo."
+    },
+    {
+      "id": "BEG7105",
+      "code": "BEG7105",
+      "name": "Processos Biopsicológicos III : Genética",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG5703"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5703"
+      },
+      "syllabus": "Bases gênicas e cromossômicas da hereditariedade humana. Padrões de herança e suas variações. Alterações do desenvolvimento humano físico e mental associadas a doenças genéticas. Herança multifatorial e o papel do ambiente. Aspectos da evolução humana e comportamento. Diagnóstico pré-natal, aconselhamento genético e o papel do Profissional de Psicologia."
+    },
+    {
+      "id": "PSI7301",
+      "code": "PSI7301",
+      "name": "Processos Psicológicos na Infância (PCC",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7201"
+      ],
+      "equivalents": [
+        "PSI5146"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5146"
+      },
+      "syllabus": "Humana Aspectos históricos da Infância. Estado inicial do desenvolvimento psicológico na infância. Interação social, linguagem e desenvolvimento psicológico na infância. Funções psíquicas na infância. O lugar do brincar no desenvolvimento humano. Formas de sociabilidade na infância. Educação e desenvolvimento psicológico na infância."
+    },
+    {
+      "id": "PSI7302",
+      "code": "PSI7302",
+      "name": "Psicanálise",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7102"
+      ],
+      "equivalents": [
+        "PSI5152"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7102"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5152"
+      },
+      "syllabus": "18 horas-aula) História do Movimento Psicanalítico. Fundamentos da Psicanálise. Conceitos fundamentais: Inconsciente, Pulsão, Repetição e Transferência. Psicanálise e Universidade. Formação psicanalítica e Instituições psicanalíticas."
+    },
+    {
+      "id": "PSI7303",
+      "code": "PSI7303",
+      "name": "Prática e Pesquisa Orientada III: Pesquisa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7203"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7203"
+      },
+      "syllabus": "Técnicas de observação direta, etnográfica, observação participante e registro do comportamento. Análise de dados derivados da observação. Planejamento e elaboração de artigo científico."
+    },
+    {
+      "id": "PSI7304",
+      "code": "PSI7304",
+      "name": "Psicologia e Atenção à Saúde II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7204"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7204"
+      },
+      "syllabus": "em Psicologia (PCC 10 horas-aula) SUS e a luta anti-manicomial. A reforma psiquiátrica. Atenção Psicossocial - a rede CAPs. A saúde mental na Atenção Básica. Os diferentes níveis de atenção à saúde. Atenção básica. O lugar da Psicologia no sistema de saúde brasileiro. Matriciamento e NASF. Instituições de saúde e psicologia. Interdisciplinaridade. Aspectos Éticos."
+    },
+    {
+      "id": "PSI7306",
+      "code": "PSI7306",
+      "name": "Políticas Públicas, Direitos Humanos e Práticas Psicossociais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A atuação do psicólogo na interface das políticas públicas e dos direitos humanos."
+    },
+    {
+      "id": "PSI7606",
+      "code": "PSI7606",
+      "name": "Psicologia e Pessoas com Deficiência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5510"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5510"
+      },
+      "syllabus": "2012.1, inclusive. Portaria nº69/preg/2012. O significado histórico-cultural da deficiência. Terminologia e conceituação da deficiência. Políticas Públicas e pessoas com deficiência. Principais deficiências e seus aspectos etiológicos, funcionais e sociais. Intervenção do psicólogo junto a pessoas com deficiência, suas famílias e comunidade."
+    },
+    {
+      "id": "PSI7706",
+      "code": "PSI7706",
+      "name": "Ética e Legislação Profissional em Psicologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7102"
+      },
+      "syllabus": "(PCC 18 horas-aula) Ética como campo de conhecimento e de relações sociais. Ética, moral e conduta. Código de Ética Profissional e Resoluções Normativas do Conselho Federal de Psicologia. Orientações e dilemas éticos na conduta profissional. A(o) psicóloga(o) como profissional: responsabilidades, direitos e deveres."
+    },
+    {
+      "id": "PSI7401",
+      "code": "PSI7401",
+      "name": "Processos Psicológicos na Adolescência e Juventude (PCC 18 horas-aula)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7301"
+      ],
+      "equivalents": [
+        "PSI5147"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "PSI7301"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5147"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Adolescência e Juventude como Categorias Sociais numa Perspectiva Histórica e Cultural. A Adolescência no Mundo Contemporâneo. Teorias Psicológicas sobre a Adolescência"
+    },
+    {
+      "id": "PSI7402",
+      "code": "PSI7402",
+      "name": "Psicometria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7103",
+        "PSI7203"
+      ],
+      "equivalents": [
+        "PSI5610"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "PSI7103"
+          },
+          {
+            "kind": "course",
+            "code": "PSI7203"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5610"
+      },
+      "syllabus": "Psicometria: objeto, objetivo, bases teóricas, métodos e campos de aplicação. Natureza e função das medidas psicológicas. Variáveis e níveis de mensuração. Critérios científicos da medida: validade e precisão. Características e uso de instrumentos de medida no exercício profissional dos psicólogos."
+    },
+    {
+      "id": "PSI7403",
+      "code": "PSI7403",
+      "name": "Prática e Pesquisa Orientada IV: Pesquisa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7303"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7303"
+      },
+      "syllabus": "Construção e avaliação de instrumento de pesquisa para observação indireta. Instrumento de avaliação pesquisa-intervenção. Análise de dados dos instrumentos de pesquisa e intervenção: entrevistas, entrevistas em grupo, escalas/questionários."
+    },
+    {
+      "id": "PSI7404",
+      "code": "PSI7404",
+      "name": "Psicologia de Base Fenomenológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7102"
+      ],
+      "equivalents": [
+        "PSI5151"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7102"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5151"
+      },
+      "syllabus": "em Psicologia (PCC 10 horas-aula) Fundamentos básicos da Fenomenologia e principais pressupostos existenciais para a criação das Psicologias de Base Fenomenológica: gestaltismo, psicodrama e psicologia existencial"
+    },
+    {
+      "id": "PSI7405",
+      "code": "PSI7405",
+      "name": "Psicologia Social I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5130"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5130"
+      },
+      "syllabus": "Objetos de estudo e aspectos históricos. Métodos experimental, observacional e ex post facto. Percepção social. Formação de impressões. A atribuição de causalidade. Conceito, modelos teóricos e medidas de atitude. Influência social e bases de poder. Grupo social e processos grupais. Relações intergrupais, conflitos e estereótipos sociais. Pensamento social e teoria das representações sociais."
+    },
+    {
+      "id": "PSI7406",
+      "code": "PSI7406",
+      "name": "Psicologia Histórico-Cultural (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7102"
+      },
+      "syllabus": "Fundamentos filosóficos e históricos da Psicologia Histórico-Cultural. A constituição do sujeito. Aspectos conceituais e metodológicos. Contribuições para a pesquisa e intervenção na prática profissional."
+    },
+    {
+      "id": "PSI7407",
+      "code": "PSI7407",
+      "name": "Estatística Aplicada à Psicologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "horas-aula) Conceitos básicos de Estatística. Métodos quantitativos em Psicologia. Organização e descrição de dados. Estatística descritiva. Modelos probabilísticos e distribuições de probabilidade. População e amostragem. Teste de hipóteses: paramétricos e não paramétricos. Análise de Variância. Correlação. A estatística na pesquisa em Psicologia e na prática profissional."
+    },
+    {
+      "id": "PSI7502",
+      "code": "PSI7502",
+      "name": "Avaliação Psicológica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7402"
+      ],
+      "equivalents": [
+        "PSI5640"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7402"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5640"
+      },
+      "syllabus": "Fundamentos da avaliação psicológica: objetivos, etapas e competências. Exigências técnicas na escolha de instrumentos psicológicos. Integração de informações provenientes de diferentes fontes em um processo de avaliação psicológica. Aspectos éticos relacionados à avaliação psicológica."
+    },
+    {
+      "id": "PSI7503",
+      "code": "PSI7503",
+      "name": "Prática e Pesquisa orientada V : Pesquisa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7403"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7403"
+      },
+      "syllabus": "Inserção, acompanhamento e compreensão das práticas profissionais da psicologia em diferentes campos de atuação."
+    },
+    {
+      "id": "PSI7504",
+      "code": "PSI7504",
+      "name": "Psicologia do trabalho (PCC 18 horas-aula)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5330"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5330"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "me Psicologia (PCC 10 horas-aula) O trabalho como um fenômeno psicológico e social. Significado e sentidos do trabalho na vida das pessoas. Psicologia do trabalho: objeto, objetivos e tendências históricas. Fatores de risco, cargas de trabalho, acidentes. Saúde no trabalho: diagnóstico e prevenção. Tendências atuais de pesquisa e intervenção em Psicologia do Trabalho."
+    },
+    {
+      "id": "PSI7505",
+      "code": "PSI7505",
+      "name": "Psicologia Social II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7405"
+      ],
+      "equivalents": [
+        "PSI5131"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7405"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5131"
+      },
+      "syllabus": "História e perspectivas da Psicologia Social na América Latina. Psicologia Sócio-Histórica. Categorias analíticas da psicologia social latino-americana: consciência, sujeito, subjetividade, identidade, afetividade. Dialética dos grupos. Identidade coletiva. Métodos de intervenção e pesquisa qualitativa utilizadas em investigações no Brasil. Práxis da Psicologia Social em diferentes contextos sociais."
+    },
+    {
+      "id": "PSI7506",
+      "code": "PSI7506",
+      "name": "Psicologia e Pensamento Sistêmico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7102"
+      },
+      "syllabus": "Origem epistemológica. A constituição do paradigma moderno e do pensamento sistêmico. Conceitos. A teoria geral dos sistemas e seus pressupostos. Teoria da complexidade. Pragmática da comunicação humana. Cibernética e sistemas observantes. Autopoiese. Pensamento sistêmico e redes sociais."
+    },
+    {
+      "id": "PSI7507",
+      "code": "PSI7507",
+      "name": "Psicopatologia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7304"
+      ],
+      "equivalents": [
+        "PSI5503"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7304"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5503"
+      },
+      "syllabus": "Conceitos de psicopatologia. História da psicopatologia. Normal e patológico. Transtornos de ansiedade, Transtorno Obsessivo-Compulsivo, Transtorno de Estresse Pós-traumático, Transtornos depressivos, Transtornos de sintomas somáticos e Transtornos de personalidade."
+    },
+    {
+      "id": "PSI7601",
+      "code": "PSI7601",
+      "name": "Psicologia e Processos Educacionais (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7401"
+      ],
+      "equivalents": [
+        "PSI5321"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5321"
+      },
+      "syllabus": "História da Psicologia Escolar e Educacional. Formação do Psicólogo Escolar. Evasão e Fracasso escolar. Políticas Públicas de Educação e Atuação do Psicólogo. Problemáticas Educacionais e Cotidiano da/na Escola. As Relações Interpessoais em Contextos de Ensinar e Aprender. Algumas Temáticas Características do Universo Educacional e Atuação do Psicólogo: Diferentes Focos e Possibilidades."
+    },
+    {
+      "id": "PSI7602",
+      "code": "PSI7602",
+      "name": "Método Clínico",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7304"
+      ],
+      "equivalents": [
+        "PSI5911"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7304"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5911"
+      },
+      "syllabus": "36 horas-aula) História da Clínica. História do Método Clínico na Psicologia. Psicodiagnóstico e Intervenção Clínica. Clínica tradicional e clínica ampliada. A perspectiva interdisciplinar. A clínica psicológica como produção de conhecimento. Práticas clínicas e suas interfaces."
+    },
+    {
+      "id": "PSI7603",
+      "code": "PSI7603",
+      "name": "Prática e Pesquisa Orientada VI : Prática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7503"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7503"
+      },
+      "syllabus": "Inserção, acompanhamento e compreensão das práticas profissionais da psicologia em diferentes campos de atuação. Planejamento, execução e avaliação de intervenções individuais e grupais"
+    },
+    {
+      "id": "PSI7604",
+      "code": "PSI7604",
+      "name": "Psicologia das Organizações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7504"
+      ],
+      "equivalents": [
+        "PSI5331"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7504"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5331"
+      },
+      "syllabus": "Clínica e de Saúde O fenômeno das organizações: definições, história e ação humana nas organizações. As organizações como fenômenos socialmente construídos. A ação humana caracterizada nas teorias organizacionais. As organizações e suas estruturas. Os processos organizacionais e as possibilidades de atuação dos psicólogos."
+    },
+    {
+      "id": "PSI7605",
+      "code": "PSI7605",
+      "name": "Teoria e Técnica dos Processos Grupais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Processos intra e intergrupais; Dinâmica de Grupos; Histórico epistemológico das teorias e técnicas grupais; Observação sistemática de grupos; Análise teórico-prática do trabalho do psicólogo com grupos; Metodologia do trabalho grupal."
+    },
+    {
+      "id": "PSI7607",
+      "code": "PSI7607",
+      "name": "Psicopatologia II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7507"
+      ],
+      "equivalents": [
+        "PSI5504"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7507"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5504"
+      },
+      "syllabus": "(PCC 18 horas-aula) Transtornos mentais graves. Psicoses. As psicoses em uma perspectiva sócio histórica, clínica e institucional."
+    },
+    {
+      "id": "PSI7610",
+      "code": "PSI7610",
+      "name": "Psicologia e Relações Étnico-Raciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos Iniciais sobre raça e etnia. O olhar da Psicologia sobre Relações Étnico-Raciais. Racismo, História e Ideologia. Identidade e Identificações (Negritude, Branquitude, Indianismo e Mestiçagem). Epistemologias Afrocentradas e Descoloniais. Movimentos sociais e políticas públicas de ações afirmativas. Efeitos Psicossociais do Racismo. Intervenção Psicossocial para promoção da igualdade étnico-racial. Sustentabilidade e populações tradicionais"
+    },
+    {
+      "id": "PSI7508",
+      "code": "PSI7508",
+      "name": "Processos de Ensinar e Aprender",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Diferentes concepções de constituição do sujeito que conhece e relações com o conhecimento. Cognição e afeto na produção e transmissão do conhecimento e na formação do professor. O ensino de psicologia no contexto das políticas educacionais e nas licenciaturas."
+    },
+    {
+      "id": "PSI7709",
+      "code": "PSI7709",
+      "name": "Intervenções em Urgências Psicológicas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos históricos e conceituais da atenção à crise e urgências em saúde mental. Atenção à crise no contexto da Reforma Psiquiátrica. Cronologia da crise. Conceitos de diferentes situações de urgência psicológica em variados contextos: clínicos; laborais; em situações de desastre. Modelos de intervenções psicológica; ações interdisciplinares e intervenções em rede."
+    },
+    {
+      "id": "PSI7710",
+      "code": "PSI7710",
+      "name": "Psicologia Institucional",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI7136"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI7136"
+      },
+      "syllabus": "Conceitos de instituição e diferentes teorias de Psicologia Institucional e Análise Institucional. Investigação, análise e intervenção institucional."
+    },
+    {
+      "id": "PSI7609",
+      "code": "PSI7609",
+      "name": "Educação, Sociedade e Processos de Escolarização",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fase 08 - NÚCLEO PROFISSIONALIZANTE: BACHARELADO Educação, cidadania e modernidade. Identidade e características da profissão docente. Relações históricas entre Psicologia, processos de escolarização e políticas em Educação. Questões contemporâneas da formação e atuação docente."
+    },
+    {
+      "id": "PSI7910",
+      "code": "PSI7910",
+      "name": "Gênero, Corpos e Sexualidades",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Problematizações acerca dos conceitos gênero, corpo e sexualidade. A questão da norma e das normalizações/normatizações. Sexo/gênero e sua produção histórica. Movimentos sociais e sexualidades."
+    },
+    {
+      "id": "PSI7259",
+      "code": "PSI7259",
+      "name": "Psicologia do Luto",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplinas Optativas"
+    },
+    {
+      "id": "PSI5630",
+      "code": "PSI5630",
+      "name": "Psicologia Jurídica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "DISCIPLINAS COMPLEMENTARES NÚCLEO COMUM:"
+    },
+    {
+      "id": "PSI7146",
+      "code": "PSI7146",
+      "name": "Estudos sobre Deficiência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O significado histórico-cultural da deficiência. Políticas públicas e pessoas com deficiência. Terminologia e conceituação da deficiência. Noções básicas sobre as barreiras enfrentadas pelas pessoas com deficiência e as práticas, recursos e tecnologias utilizadas para a remoção destas. Legislação atual da área nos campos da saúde, educação, trabalho e assistência social."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE7881"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE7881"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "PSI7707",
+      "code": "PSI7707",
+      "name": "Seminários Integrados I: Introdução ao",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "7ª FASE - NÚCLEO PROFISSIONALIZANTE: LICENCIATURA EM PSICOLOGIA Análise das intervenções e das práticas de estágio através da discussão de temáticas transversais e afins às diferentes ênfases dos estágios profissionalizantes."
+    },
+    {
+      "id": "PSI7807",
+      "code": "PSI7807",
+      "name": "Siminários Integrados II: Sistematização do Campo (1ª ênfase escolhida)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7707"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7707"
+      },
+      "syllabus": "8ª FASE - NÚCLEO PROFISSIONALIZANTE: LICENCIATURA EM PSICOLOGIA"
+    },
+    {
+      "id": "PSI7917",
+      "code": "PSI7917",
+      "name": "Seminários Integrados I: Introdução ao",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "18h-a) LSB7904 ou Análise crítica e sistematização das ações planejadas e desenvolvidas ao longo do estágio que evidencie os limites e avanços da intervenção tendo como referência os temas definidos na disciplina de Seminários Integrados I."
+    },
+    {
+      "id": "PSI7017",
+      "code": "PSI7017",
+      "name": "Seminários Integrados II: Sistematização",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7917"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7917"
+      },
+      "syllabus": "10ª FASE - NÚCLEO PROFISSIONALIZANTE:LICENCIATURA EM PSICOLOGIA"
+    },
+    {
+      "id": "PSI7157",
+      "code": "PSI7157",
+      "name": "Equipes de Trabalho",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "do Campo (2ª ênfase escolhido) Discip. Comp.s Núcleo Profissionalizante Hab. Formação Psicólogo Definição e características de equipes de trabalho. Intervenções para o aumento da efetividade de equipes de trabalho em diferentes contextos. Equipes de trabalho interdisciplinares e multiprofissionais. O papel do psicólogo em equipes de trabalho."
+    },
+    {
+      "id": "PSI7808",
+      "code": "PSI7808",
+      "name": "Seminários Integrados I : Introdução ao",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "Discussão de temáticas transversais e afins aos diferentes campos de intervenção para análise das práticas de estágio desenvolvidas pelos alunos matriculados nas ênfases."
+    },
+    {
+      "id": "PSI7018",
+      "code": "PSI7018",
+      "name": "Seminários Integrados II: Sistematização",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7008"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7008"
+      },
+      "syllabus": "Campo PSI7602 eh Fase 10 - NÚCLEO PROFISSIONALIZANTE: BACHARELADO Discussão de temáticas transversais e afins aos diferentes campos de intervenção para análise das práticas de estágio desenvolvidas pelos alunos matriculados nas ênfases."
+    },
+    {
+      "id": "PSI7013",
+      "code": "PSI7013",
+      "name": "Estágio Profissionalizante I A (1ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "ÊNFASE B - TRABALHO, ORGANIZAÇÕES E GESTÃO ÊNFASE C - PSICOLOGIA ESCOLAR/EDUCACIONAL ÊNFASE D - PROCESSOS COMUNITÁRIOS E AÇÕES COLETIVAS Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7014",
+      "code": "PSI7014",
+      "name": "Estágio Profissionalizante I B (1ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "escolhida) PSI7602 eh Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7015",
+      "code": "PSI7015",
+      "name": "Estágio Profissionalizante I C (1ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "escolhida) PSI7602 eh Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7016",
+      "code": "PSI7016",
+      "name": "Estágio Profissionalizante I D (1ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "escolhida) PSI7602 eh Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7701",
+      "code": "PSI7701",
+      "name": "Fundamentação da Ênfase I A : (1ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "escolhida) PSI7602 eh Processos clínicos: etapas iniciais e intermediárias. Atuação profissional no ponto primário e secundário de atenção à saúde."
+    },
+    {
+      "id": "PSI7702",
+      "code": "PSI7702",
+      "name": "Fundamentação da Ênfase I B : (1ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "Fundamentos teórico-técnicos e processos político/culturais no âmbito da intervenção no trabalho e nas organizações."
+    },
+    {
+      "id": "PSI7703",
+      "code": "PSI7703",
+      "name": "Fundamentação da Ênfase I C: (1ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "escolhida) PSI7602 eh Práticas educativas formais e não formais: implicações nos processos de subjetivação e o papel do psicólogo. Cotidiano escolar. Relações interpessoais no ambiente escolar: professor(es) e aluno(s), aluno-aluno e escola-família. Perspectivas de avaliação e intervenção do psicólogo escolar no contexto individual, grupal e institucional."
+    },
+    {
+      "id": "PSI7704",
+      "code": "PSI7704",
+      "name": "Fundamentação da Ênfase I D: (1ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "escolhida) PSI7602 eh A atuação do psicólogo em contextos comunitários, movimentos sociais e ações coletivas."
+    },
+    {
+      "id": "PSI7023",
+      "code": "PSI7023",
+      "name": "Estágio Profissionalizante II A (1ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7013"
+      },
+      "syllabus": "Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7024",
+      "code": "PSI7024",
+      "name": "Estágio Profissionalizante II B : (1ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7014"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7014"
+      },
+      "syllabus": "escolhida Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7025",
+      "code": "PSI7025",
+      "name": "Estágio profissionalizante II C (1ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7015"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7015"
+      },
+      "syllabus": "escolhida) Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7026",
+      "code": "PSI7026",
+      "name": "Estágio profissionalizante II D (1ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7016"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7016"
+      },
+      "syllabus": "escolhida) Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7801",
+      "code": "PSI7801",
+      "name": "Fundamentação da Ênfase II A: (1ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7701"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7701"
+      },
+      "syllabus": "escolhida) Processos clínicos: etapas finais. Atuação profissional no ponto terciário de atenção à saúde e reabilitação. Gestão em saúde."
+    },
+    {
+      "id": "PSI7802",
+      "code": "PSI7802",
+      "name": "Fundamentação da Ênfase IIB (1ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7702"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7702"
+      },
+      "syllabus": "escolhida) Fundamentos teórico-técnicos e processos político/culturais no âmbito da intervenção em gestão do trabalho e de pessoas."
+    },
+    {
+      "id": "PSI7803",
+      "code": "PSI7803",
+      "name": "Fundamentação da Ênfase II C: (1ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7703"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7703"
+      },
+      "syllabus": "escolhida) A atuação do psicólogo na formação do professor. Inclusão escolar. Violências em contextos educacionais. Gênero e Educação. Outras temáticas do contexto escolar e a atuação do psicólogo. Diálogo professor e psicólogo."
+    },
+    {
+      "id": "PSI7804",
+      "code": "PSI7804",
+      "name": "Fundamentação da ênfase II D: (1ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7704"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7704"
+      },
+      "syllabus": "escolhida) Discussão de temáticas diretamente relacionadas com as possibilidades e dificuldades de atuação do psicólogo em processos comunitários e ações coletivas. A pesquisa-intervenção como ferramenta de atuação profissional."
+    },
+    {
+      "id": "PSI7033",
+      "code": "PSI7033",
+      "name": "Estágio Profissionalizante I A (2ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7034",
+      "code": "PSI7034",
+      "name": "Estágio profissionalizante I B (2ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "escolhida) Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7035",
+      "code": "PSI7035",
+      "name": "Estágio Profissionalizante I C ( 2ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7601"
+      },
+      "syllabus": "escolhida) Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7036",
+      "code": "PSI7036",
+      "name": "Estágio Profissionalizante I D (2ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "escolhida) Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7901",
+      "code": "PSI7901",
+      "name": "Fundamentação da Ênfase I A: (2ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7602"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7602"
+      },
+      "syllabus": "escolhida) Processos clínicos: etapas iniciais e intermediárias. Atuação profissional no ponto primário e secundário de atenção à saúde."
+    },
+    {
+      "id": "PSI7902",
+      "code": "PSI7902",
+      "name": "Fundamentação da Ênfase I B: (2ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7405"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7405"
+      },
+      "syllabus": "escolhida) PSI7603 eh Fundamentos teórico-técnicos e processos político/culturais no âmbito da intervenção no trabalho e nas organizações."
+    },
+    {
+      "id": "PSI7903",
+      "code": "PSI7903",
+      "name": "Fundamentação da Ênfase I C: (2ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7201"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7201"
+      },
+      "syllabus": "escolhida) PSI7502 eh Práticas educativas formais e não formais: implicações nos processos de subjetivação e o papel do psicólogo. Cotidiano escolar. Relações interpessoais no ambiente escolar: professor(es) e aluno(s), aluno-aluno e escola-família. Perspectivas de avaliação e intervenção do psicólogo escolar no contexto individual, grupal e institucional."
+    },
+    {
+      "id": "PSI7904",
+      "code": "PSI7904",
+      "name": "Fundamentação da Ênfase I D: (2ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7306"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7306"
+      },
+      "syllabus": "escolhida) PSI7401 eh A atuação do psicólogo em contextos comunitários, movimentos sociais e ações coletivas."
+    },
+    {
+      "id": "PSI7003",
+      "code": "PSI7003",
+      "name": "Fundamentação da ênfase II A: (2ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7701"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7701"
+      },
+      "syllabus": "Processos clínicos: etapas finais. Atuação profissional no ponto terciário de atenção à saúde e reabilitação. Gestão em saúde."
+    },
+    {
+      "id": "PSI7004",
+      "code": "PSI7004",
+      "name": "Fundamentação da ênfase II B: (2ª ênfasde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7702"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7702"
+      },
+      "syllabus": "escolhida) Fundamentos teórico-técnicos e processos político/culturais no âmbito da intervenção em gestão do trabalho e de pessoas."
+    },
+    {
+      "id": "PSI7005",
+      "code": "PSI7005",
+      "name": "Fundamentação da Ênfase II C : ( 2ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7703"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7703"
+      },
+      "syllabus": "escolhida) A atuação do psicólogo na formação do professor. Inclusão escolar. Violências em contextos educacionais. Gênero e Educação. Outras temáticas do contexto escolar e a atuação do psicólogo. Diálogo professor e psicólogo."
+    },
+    {
+      "id": "PSI7006",
+      "code": "PSI7006",
+      "name": "Fundamentação da Ênfase II D: (2ª ênfase",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7704"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7704"
+      },
+      "syllabus": "escolhida) Discussão de temáticas diretamente relacionadas com as possibilidades e dificuldades de atuação do psicólogo em processos comunitários e ações coletivas. A pesquisa-intervenção como ferramenta de atuação profissional."
+    },
+    {
+      "id": "PSI7043",
+      "code": "PSI7043",
+      "name": "Estágio Profissionalizante II A (2ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7013"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7013"
+      },
+      "syllabus": "escolhida) Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7044",
+      "code": "PSI7044",
+      "name": "Estágio Profissionalizante II B (2ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7014"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7014"
+      },
+      "syllabus": "escolhida) Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7045",
+      "code": "PSI7045",
+      "name": "Estágio profissionalizante II C ( 2ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7015"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7015"
+      },
+      "syllabus": "escolhida) Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "PSI7046",
+      "code": "PSI7046",
+      "name": "Estágio profissionalizante II D ( 2ª ênfase",
+      "credits": 12,
+      "hours": 216,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "PSI7016"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7016"
+      },
+      "syllabus": "escolhida) Atividades supervisionadas de intervenção psicológica, visando o desenvolvimento das competências específicas da habilitação profissional relacionada à ênfase escolhida."
+    },
+    {
+      "id": "ANT9102",
+      "code": "ANT9102",
+      "name": "Antropologia Aplicada a Administração",
+      "credits": 2,
+      "hours": 30,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "DISCIPLINAS COMPLEMENTARES DO NÚCLEO PROFISSIONALIZANTE O campo de estudo da antropologia em relação aos campos da antropologia biológica, da lingüística e da arqueologia. A inserção do homem em seu espaço sócio-cultural: a \"leitura\" dos procedimentos administrativos, o homem na sua totalidade e as teias simbólicas nos ambientes organizacionais. A etnografia como um modo de interpretação a partir da pesquisa de campo."
+    },
+    {
+      "id": "DIR5556",
+      "code": "DIR5556",
+      "name": "Direito da Criança e do Adolescente",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios do Direito da Criança e do Adolescente - Proteção integral - Direito Fundamental - Menoridade e Responsabilidade Penal - Política de Atendimento - Atos infracionais - Medidas sócio-educativas - Justiça da infância e da juventude - Ministério Público e Advogado - Procedimentos - Crimes e infrações administrativas - Prevenção e Prevenção Especial - Adoção."
+    },
+    {
+      "id": "EED5220",
+      "code": "EED5220",
+      "name": "Educação Popular",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Raízes históricas da educação popular no Brasil. As diferentes concepções e perspectivas da Educação Popular no Brasil. As principais experiências na década de 60. A redefinição dos movimentos populares pós-78. Os novos desafios da Educação Popular."
+    },
+    {
+      "id": "EED5221",
+      "code": "EED5221",
+      "name": "Estudos da Juventude Contemporânea",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cultura Juvenil: subjetividade, identidade, sociabilidade; Grupos juvenis e processo de mudança; Juventude e mundo do trabalho; Escolarização ensino fundamental, médio, educação de jovens e adultos; cultura escolar e a transgressão, indisciplina e violência; Formas associativas juvenis e temas emergentes juvenis."
+    },
+    {
+      "id": "EED5303",
+      "code": "EED5303",
+      "name": "Educação e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O pensamento sociológico contemporâneo e a educação. Processos de socialização e educação escolar. Educação escolar e estrutura sócio-econômica da sociedade brasileira contemporânea."
+    },
+    {
+      "id": "EED5331",
+      "code": "EED5331",
+      "name": "Teorias da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de educação: elaborações e práticas em torno da formação moral, intelectual e estética do homem. Conceito de pedagogia: pedagogia da essência e pedagogia da existência - referências clássicas, modernas e contemporâneas. Pensamento pedagógico brasileiro."
+    },
+    {
+      "id": "FIL5680",
+      "code": "FIL5680",
+      "name": "Filosofia da Educação (PCC - 54",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN5109",
+      "code": "MEN5109",
+      "name": "Educação e Mídias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) LSB7904 ou Sociedade, educação e tecnologia. A cultura mediática e as mediações na escola e nos processos educacionais. Formação de professores para uso e estudo das mídias no cotidiano escolar. Descrição das mídias, da linguagem áudio visual e hipermidiática e narrativas híbridas a partir de suas características, limitações e possibilidades no apoio ao ensino e aprendizagem. Processos de produção das mídias na educação presencial e a distância."
+    },
+    {
+      "id": "PSI5153",
+      "code": "PSI5153",
+      "name": "Introdução ao Estudo do Empreendedorismo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Empreendedorismo: origem do termo, conceito, histórico, campos de aplicação, características do empreendedor, perfil de personalidade ou estruturas psíquicas, a filosofia do empreendedorismo nas organizações, formação de equipes na ótica empreendedora, liderança, a importância da adoção de uma práxis empreendedora no futuro das organizações; empreendedorismo e globalização."
+    },
+    {
+      "id": "PSI5159",
+      "code": "PSI5159",
+      "name": "Psicologia Clínica Critica - A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "De O Anti-Édipo a Mil Platôs - principais conceitos: esquizoanálise, micropolítica, inconsciente maquínico, corpo sem órgãos, máquina desejante, processo esquizo, molar/molecular, rizoma, devir, máquina de guerra, cronos/aion, hecceidade (acontecimento)."
+    },
+    {
+      "id": "PSI5160",
+      "code": "PSI5160",
+      "name": "Psicologia e Arte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Esquizoanálise de Gilles Deleuze e Felix Guattari Arte e estética. Psicologia e Arte. Relações arte e vida. O/a expectador e a obra de arte. Pesquisas e intervenções psicológicas no diálogo com linguagens artísticas em diferentes contextos e condições."
+    },
+    {
+      "id": "PSI5527",
+      "code": "PSI5527",
+      "name": "Psicoterapias Breves",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7602"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7602"
+      },
+      "syllabus": "Definição da psicoterapia breve e seu desenvolvimento histórico. Conceitos teóricos e técnicos que especificam esta modalidade de atendimento. Implicações éticas no campo da psicoterapia."
+    },
+    {
+      "id": "PSI5528",
+      "code": "PSI5528",
+      "name": "Terapia Comportamental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos teóricos, filosóficos e metodológicos da Terapia Comportamental. Contingências de reforçamento e seleção pelas conseqüências. Avaliação Comportamental. Tipos de intervenções: planejamento, execução e análise dos resultados de intervenções. Discussão de casos clínicos. Ética na intervenção terapêutica e na divulgação de resultados."
+    },
+    {
+      "id": "PSI5626",
+      "code": "PSI5626",
+      "name": "Estudos de Gênero e Psicologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo da emergência do conceito de gênero, relacionando movimentos sociais feministas e reflexões acadêmicas. A interdisciplinaridade dos estudos de gênero e seus desdobramentos em alguns paradigmas da psicologia. A historicidade da construção de masculinidade e feminilidade e a questão da constituição do sujeito no campo da psicologia."
+    },
+    {
+      "id": "PSI5628",
+      "code": "PSI5628",
+      "name": "Psicologia Jurídica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos históricos, objeto e domínio de intervenção. Estado da arte do conhecimento psicológico na relação com a justiça. Noções de direito necessários ao psicólogo inserido no campo jurídico. O papel do psicólogo nas organizações de justiça. Psicologia Jurídica e Direito Civil. Psicologia Jurídica no âmbito da Infância e Juventude. Psicologia Jurídica e Direito de Família. Psicologia Jurídica e o Direito Penal. Métodos não-adversariais de resolução de conflitos. A perícia psicológica no contexto judiciário. Aspectos éticos e documentos legais em Psicologia Jurídica."
+    },
+    {
+      "id": "PSI5650",
+      "code": "PSI5650",
+      "name": "Gestalt Terapia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7404"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7404"
+      },
+      "syllabus": "A influência da gestalt teoria na formulação da gestalt terapia. Principais conceitos da gestalt terapia. Técnicas de gestalt terapia."
+    },
+    {
+      "id": "PSI5651",
+      "code": "PSI5651",
+      "name": "Gestalt-terapia e Saúde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7404"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7404"
+      },
+      "syllabus": "Gestalt terapia aplicada à área da saúde."
+    },
+    {
+      "id": "PSI5652",
+      "code": "PSI5652",
+      "name": "Teoria e Técnicas Psicoterápicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apreciação crítica sobre as mais importantes técnicas psicoterápicas. Características essenciais do processo terapêutico. As principais indicações e os critérios de avaliação dos resultados. A psicoterapia breve. O conceito de foco."
+    },
+    {
+      "id": "PSI5655",
+      "code": "PSI5655",
+      "name": "Clinica Psicanalítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "De que trata a clínica psicanalítica. As formações do inconsciente: sonhos; atos falhos; chistes; sintoma. Inibição, sintoma e angústia. Sintoma e transferência."
+    },
+    {
+      "id": "PSI5800",
+      "code": "PSI5800",
+      "name": "Pesquisa em Psicologia",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "PSI5801",
+      "code": "PSI5801",
+      "name": "Pesquisa em Psicologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "PSI5901",
+      "code": "PSI5901",
+      "name": "Temas em Psicologia I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temática de estudos a ser definida entre professor e alunos."
+    },
+    {
+      "id": "PSI5902",
+      "code": "PSI5902",
+      "name": "Temas em Psicologia II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temática de estudos a ser definida entre professor e alunos."
+    },
+    {
+      "id": "PSI5903",
+      "code": "PSI5903",
+      "name": "Temas em Psicologia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temática de estudos a ser definida entre professor e alunos."
+    },
+    {
+      "id": "PSI5911",
+      "code": "PSI5911",
+      "name": "Psicologia da Saúde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Psicologia da Saúde: antecedentes históricos, conceito. Saúde e doença: análise conceitual e representações sociais. Políticas públicas de saúde. Estudo da relação entre comportamento e saúde. Instituições de saúde e comunidade. A atuação do psicólogo nas equipes de saúde: interdisciplinaridade. Principais tópicos e relações estudadas na pesquisa em saúde. A ética na pesquisa e intervenção. Questões contemporâneas."
+    },
+    {
+      "id": "PSI7111",
+      "code": "PSI7111",
+      "name": "Teoria e Técnica Psicodramática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos teórico-epistemológicos e filosóficos do psicodrama. Instrumentos, técnicas, etapas e contextos. Sociodrama. Psicodrama pedagógico. Psicodrama Clínico."
+    },
+    {
+      "id": "PSI7115",
+      "code": "PSI7115",
+      "name": "Relações Estéticas e Processos de Criação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estética, relações estéticas e educação estética. Arte, imaginação e realidade. Processos de criação. Oficinas estéticas."
+    },
+    {
+      "id": "PSI7117",
+      "code": "PSI7117",
+      "name": "Sociedade e Loucura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A história da loucura, dos gregos aos dias de hoje. Os anormais. O poder psiquiátrico. Antipsiquiatria e movimento antimanicomial. Capitalismo e esquizofrenia. Biopoder e biopotência A loucura na (da) sociedade moderna contemporânea."
+    },
+    {
+      "id": "PSI7120",
+      "code": "PSI7120",
+      "name": "Avaliação Psicológica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Questões atuais em avaliação psicológica. Aspectos técnicos necessários para a escolha e utilização de técnicas modernas para avaliação psicológica. Estudo de instrumentos atuais aprovados para uso profissional no Brasil. Integração de informação provenientes de diferentes fontes em um processo de avaliação psicológica. Aspectos éticos relacionados à avaliação psicológica."
+    },
+    {
+      "id": "PSI7128",
+      "code": "PSI7128",
+      "name": "Clínica Existencialista",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7404"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7404"
+      },
+      "syllabus": "Aspectos teórico-conceituais da clínica existencialista. Personalidade e Psicopatologia Existencialista. O processo psicodiagnóstico na psicologia existencialista. Metodologia psicoterapêutica existencialista."
+    },
+    {
+      "id": "PSI7134",
+      "code": "PSI7134",
+      "name": "Cotidiano e Práticas Psicossociais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cultura, Política e cotidiano. Cotidiano, cidade, instituições e constituição do sujeito. As práticas psicossociais e os modos de subjetivação. Pesquisa e intervenção sobre as práticas psicossociais em contextos comunitários e institucionais."
+    },
+    {
+      "id": "PSI7135",
+      "code": "PSI7135",
+      "name": "Psicologia Social e Saúde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Saúde e constituição social do sujeito. Modos de subjetivação, saúde coletiva, saúde mental e psicossomática. Adoecimento/saúde e suas relações com os marcadores sociais, econômicos e geopolíticos"
+    },
+    {
+      "id": "PSI7137",
+      "code": "PSI7137",
+      "name": "Psicologia Intercultural",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7507"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7507"
+      },
+      "syllabus": "A relação entre cultura, saúde e psicopatologia. Psicoterapia e cultura. Sofrimento psíquico do migrante e imigrante. Transtornos clínicos decorrentes de situações de violência institucional, conflitos e desastres."
+    },
+    {
+      "id": "PSI7138",
+      "code": "PSI7138",
+      "name": "Terapia Relacional Sistêmica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7506"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7506"
+      },
+      "syllabus": "A epistemologia das terapias relacionais sistêmicas. Os precursores. As diferentes escolas. O construcionismo social: terapias narrativas, terapia reflexiva, terapia colaborativa. A terapia individual, familiar e de casal. Equipe reflexiva. Cuidados éticos."
+    },
+    {
+      "id": "PSI7141",
+      "code": "PSI7141",
+      "name": "Psicologia, Saúde e Trabalho",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7604"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7604"
+      },
+      "syllabus": "Contribuições teórico-metodológicas da Psicologia do Trabalho e das Organizações acerca das relações entre saúde e trabalho. Pesquisa e intervenção do psicólogo no âmbito da saúde e trabalho."
+    },
+    {
+      "id": "PSI7142",
+      "code": "PSI7142",
+      "name": "Consultoria em Psicologia Organizacional",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7604"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7604"
+      },
+      "syllabus": "Definição de consultoria. Distinção entre consultoria e outras formas de prestação de serviços. Distinção entre consultoria interna e consultoria externa. Diagnóstico organizacional para consultoria. Distinção entre demandas e necessidades da organização. Distinção entre enfoque em problemas específicos ou no sistema organizacional. Componentes básicos de um diagnóstico organizacional usando modelo da análise de sistemas comportamentais. Relações entre planejamento estratégico, gestão de processos e gestão do comportamento organizacional. Elaboração de projetos de intervenção organizacional. Procedimentos para avaliar resultados produzidos por meio de serviço de consultoria."
+    },
+    {
+      "id": "PSI7143",
+      "code": "PSI7143",
+      "name": "Comportamento Humano nas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7604"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7604"
+      },
+      "syllabus": "e do Trabalho PSI7605) Mundo do Trabalho. Processos humanos nas organizações. Interação indivíduo x organização. Organização como contexto social. Planejamento. Recrutamento. Seleção. Integração de Pessoas. Rotatividade de Pessoal. Treinamento e Desenvolvimento de Pessoas em Organizações. Avaliação de Desempenho. Tópicos avançados em Gestão de Pessoas."
+    },
+    {
+      "id": "PSI7144",
+      "code": "PSI7144",
+      "name": "Avaliação Psicológica nas Organizações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7502"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7502"
+      },
+      "syllabus": "Organizações PSI7605) Histórico da área de avaliação nas organizações e no trabalho. Questões éticas envolvidas na avaliação psicológica nas organizações. Avaliação em recrutamento e seleção; avaliação no contexto de desenvolvimento de carreira. Instrumentos e técnicas disponíveis para avaliação na área. Elaboração de documentos escritos decorrentes da avaliação na área."
+    },
+    {
+      "id": "PSI7155",
+      "code": "PSI7155",
+      "name": "Aplicações da Psicologia Cognitiva",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos conceituais e metodológicos da Psicologia Cognitiva Experimental e da Abordagem do Processamento da Informação. Tempo de reação e cronometria. Desenvolvimento e utilização de paradigmas e tarefas computadorizadas. Noções básicas de programação de tarefas computadorizadas. Aplicabilidade da psicologia cognitiva experimental."
+    },
+    {
+      "id": "PSI7156",
+      "code": "PSI7156",
+      "name": "Psicologia e Educação Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Características, funções e objetivos da Educação Ambiental. Aspectos da legislação e implementação nos diferentes segmentos sociais formais/não formais. Abordagens da interação entre a pessoa e o ambiente relacionando comportamento e/ou estados subjetivos e algum aspecto do ambiente físico, natural e/ou construído. Relações entre problemas ambientais, qualidade de vida, bem-estar e educação ambiental. Pesquisa e atuação na interface entre psicologia e educação ambiental."
+    },
+    {
+      "id": "PSI7260",
+      "code": "PSI7260",
+      "name": "Mídia e Subjetividade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudos sobre mídia. Interface mídia e subjetividade. Reflexões acerca do meio digital. Diálogos entre mídia e psicologia. Práticas em psicologia on-line. Mídia e educação. Temas contemporâneos em mídia e psicologia."
+    },
+    {
+      "id": "SPB5135",
+      "code": "SPB5135",
+      "name": "Saúde Mental e Atenção Psicossocial",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Fundamentos filosóficos, percurso histórico, construções sociais, panorama atual e perspectivas, princípios e paradigmas que orientam o campo dà saúde mental e da atenção psicossocial e a política de saúde mental no Brasil e sua contextualização no Sistema Único de Saúde"
+    },
+    {
+      "id": "PSI5625",
+      "code": "PSI5625",
+      "name": "Jacques Lacan",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Retorno do sentido da obra do Freud. Os três registros lacanianos: o imaginário, o simbólico, o outro. O sujeito. O real: a falta do outro. Das Ding. A pulsão."
+    },
+    {
+      "id": "PSI7147",
+      "code": "PSI7147",
+      "name": "Freud e a Cultura I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O horror ao incesto. O tabu e a ambivalência dos sentimentos. Animismo, magia, a onipotência dos pensamentos. O retorno infantil do totemismo: totem e Édipo; a refeição totêmica e o assassinato do pai; o sacrifício totêmico à origem das religiões. O nascimento das ideias religiosas. O papel do desamparo infantil."
+    },
+    {
+      "id": "PSI7151",
+      "code": "PSI7151",
+      "name": "Transtorno do Espectro do Autismo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Transtorno do Espectro do Autismo (TEA): definição e classificação. Políticas Públicas e TEA. Diferentes Abordagens do TEA para Promoção do Desenvolvimento e da Inclusão na Escola, na Saúde, no Trabalho e na Comunidade. Dinâmica Familiar. O trabalho multidisciplinar junto à Pessoas com Autismo: contribuições da literatura científica."
+    },
+    {
+      "id": "PSI7152",
+      "code": "PSI7152",
+      "name": "Psicologia Transcultural",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos conceituais e metodológicos da Psicologia Transcultural. Relação natureza e cultura. Comparar e refletir sobre semelhanças e diferenças com relação a temas tais como: cuidados parentais e desenvolvimento infantil; gênero, agressão, emoções e sexualidade. Implicações éticas e de atuação profissional com relação às diferenças culturais."
+    },
+    {
+      "id": "PSI5915",
+      "code": "PSI5915",
+      "name": "Psicologia Cognitiva-Comportamental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7202",
+        "PSI7305"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "PSI7202"
+          },
+          {
+            "kind": "course",
+            "code": "PSI7305"
+          }
+        ]
+      },
+      "syllabus": "(PCC 18 horas-aula) Disciplinas Optativas Aspectos históricos e conceitos fundamentais da psicoterapia de abordagem cognitivo-comportamental. Bases teóricas e técnicas da psicoterapia cognitivo- comportamental. Visão de homem e de mundo que embasa o fazer clínico desta perspectiva teórica no tratamento dos principais transtornos mentais. Técnicas de atuação e pesquisa clínica na terapia cognitivo-comportamental."
+    },
+    {
+      "id": "PSI7160",
+      "code": "PSI7160",
+      "name": "Avaliação de Intervenções em Psicologia: Práticas Baseadas em Evidências",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Método científico. Noção de variável. Eficácia das intervenções profissionais em psicologia. Tipos de evidências utilizadas para orientar intervenções profissionais. Continuum entre pesquisa básica e aplicada. Conceito de práticas baseadas em evidências. Impacto da noção de práticas baseadas em evidência na formação de psicólogos. O modelo de formação Scientist Practitioner. Avaliação de resultado e avaliação de processo. Decisões metodológicas para avaliação de intervenções profissionais. Delineamentos para demonstração de eficácia de intervenções em psicologia. Ensaios clínicos randomizados. Delineamentos experimentais de sujeito único. Implicações éticas da avaliação de intervenções profissionais em Psicologia."
+    },
+    {
+      "id": "PSI7161",
+      "code": "PSI7161",
+      "name": "Clínicas do Trabalho",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ANT7001",
+      "code": "ANT7001",
+      "name": "Cultura Brasileira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Significados e dinâmicas da Cultura Brasileira. Estudos antropológicos sobre Cultura Brasileira. Conceitos de Cultura Brasileira. Artes no Brasil. Literaturas no período colonial e contemporâneo. Cultura popular e folclore. Comunicação de massa."
+    },
+    {
+      "id": "ANT7002",
+      "code": "ANT7002",
+      "name": "Relações de Gênero",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O conceito de gênero segundo diferentes escolas teóricas. Identidades de gênero. Parentesco, família, filiação, reprodução e sexualidade. Representações do masculino e do feminino. Análise crítica dos estudos clássicos na Antropologia sobre o lugar das relações de gênero nas sociedades."
+    },
+    {
+      "id": "ANT7003",
+      "code": "ANT7003",
+      "name": "Relações Inter-étnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Particularidades históricas e processos de diferenciação. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política."
+    },
+    {
+      "id": "ANT7006",
+      "code": "ANT7006",
+      "name": "Antropologia Urbana",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O fenômeno urbano. Organização social e espaço. Territórios e territorialidade. Apropriações e intervenção no espaço público. Dicotomias rural- urbano."
+    },
+    {
+      "id": "ANT7010",
+      "code": "ANT7010",
+      "name": "Antropologia da Mídia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias da mídia impressa e eletrônica. Apocalípticos e integrados: as diferentes escolas analíticas. Ética, mídia e poder. Teorias da escola funcionalista, teorias de recepção e estudos culturais. Conceitos de repetição e serialidade. Etnografias de mídia e de audiência. Cybercultura."
+    },
+    {
+      "id": "ANT7012",
+      "code": "ANT7012",
+      "name": "Globalização Cultural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias da globalização cultural e sua relação com a Antropologia. Teorias da Modernidade e da Pós-Modernidade. Globalização e transnacionalismo. Fluxos de pessoas: Processos migratórios e novas identidades. Multiculturalismo. Fluxos de imagens: mídia, imaginação e imaginário. Teorias do consumo."
+    },
+    {
+      "id": "ANT7015",
+      "code": "ANT7015",
+      "name": "Antropologia das Minorias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ANT7016",
+      "code": "ANT7016",
+      "name": "Individuo e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Pessoa e coletividade. Indivíduo, cultura e personalidade. A construção social da pessoa, grupo, identidade. Biografias e estrutura social."
+    },
+    {
+      "id": "ANT7020",
+      "code": "ANT7020",
+      "name": "Família e Parentesco em Sociedades",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A perspectiva antropológica sobre a família. Reprodução, sexualidade e parentesco. Papéis sexuais. Relações de gênero, família e sociedade. Teorias sobre parentesco e casamento. Parentalidade e conjugalidade. Casamento."
+    },
+    {
+      "id": "ANT7022",
+      "code": "ANT7022",
+      "name": "Antropologia da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Complexas A disciplina tratará dos seguintes temas da Antropologia da Educação: abordagens antropológicas clássicas sobre os processos de ensino e aprendizagem, em especial estudos sobre \"socialização\" e \"cultura e personalidade\"; abordagens antropológicas contemporâneas sobre cognição, processos de transmissão de saberes, desenvolvimento infantil e a contribuição das crianças para o estudo da cultura e da sociedade; estudos das relações estabelecidas por meio da escola, com ênfase nas questões de raça e gênero; reflexões sobre o ensino da Antropologia na sala de aula do ensino fundamental e médio."
+    },
+    {
+      "id": "ANT7023",
+      "code": "ANT7023",
+      "name": "Pessoa e Corporalidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a uma abordagem antropológica da Pessoa e da corporalidade. A reflexão antropológica clássica sobre as técnicas corporais e sobre a noção de Pessoa, pensadas como construções simbólicas, sociais e históricas e os seus cruzamentos em diferentes campos da antropologia. Os estudos de etnologia ameríndia e a centralidade do idioma corporal. O individualismo moderno e seus desdobramentos quanto às concepções de corpo e Pessoa nas culturas urbanas contemporâneas. Gênero, corporalidade e subjetividade. Tecnologia e novas visões estéticas e midiáticas sobre o corpo e a Pessoa."
+    },
+    {
+      "id": "ANT7038",
+      "code": "ANT7038",
+      "name": "Antropologia da Saúde",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ANT7039",
+      "code": "ANT7039",
+      "name": "Antropologia da Pessoa e teorias do Sujeito",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ARQ5212",
+      "code": "ARQ5212",
+      "name": "Arquitetura e Sociedade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cultura urbana. Classes sociais, movimentos-sócio-políticos e arquitetura.. Nascimento e crescimento das cidades. Problemática da organização dos indivíduos: a família, os grupos, as associações atuação e as comunidades. Os espaços coletivos: análise e avaliação crítica. A inadequação da cidade contemporânea frente aos indivíduos: crianças, adultos, velhos, inválidos, etc."
+    },
+    {
+      "id": "ARQ5685",
+      "code": "ARQ5685",
+      "name": "Planejamento Ambiental e Urbano",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Multi, inter e transdisciplinaridade. Noções e ecossistema. Problemática ambiental urbana. Planejamento e gestão sócio-ambiental das cidades. Qualidade de vida, saúde e saneamento no espaço urbano. Tecnologias ambientais. Educação ambiental. Ecodesenho urbano."
+    },
+    {
+      "id": "BEG7102",
+      "code": "BEG7102",
+      "name": "Processos Biopsicológicos I: Desenvolvimento Humano Pré-Natal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG5702"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5702"
+      },
+      "syllabus": "Características dos processos de gametogênese e ciclos reprodutivos. Princípios dos métodos contraceptivos e etapas básicas da fecundação. Principais eventos da embriogênese inicial e características morfofuncionais dos embriões e fetos. Membranas fetais e placenta. Desenvolvimento do Sistema Nervoso Central e Periférico. Desenvolvimento do Sistema Genital e diferenciação sexual. Períodos críticos do desenvolvimento e fatores relacionados à alteração do ritmo de desenvolvimento e de anomalias congênitas. Principais categorias de malformações. Temas atuais de embriologia relevantes para o profissional psicólogo."
+    },
+    {
+      "id": "BQA7015",
+      "code": "BQA7015",
+      "name": "Introdução à Neurociência",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CAD9121",
+      "code": "CAD9121",
+      "name": "Administração de Recursos Humanos I",
+      "credits": 3,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Origem; Conceituação; Objetivos; Processos; Desenvolvimento e Perspectivas da Administração de Recursos Humanos; Formulação de Políticas e Estratégias de Recursos Humanos; Administração de Cargos e Salários e Remuneração Variável; Plano de Benefícios Sociais; Qualidade de Vida no Trabalho; Temas Emergentes."
+    },
+    {
+      "id": "DIR5303",
+      "code": "DIR5303",
+      "name": "Direito Individual do Trabalho",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito e princípios do Direito do Trabalho. Direito Individual do Trabalho. Empregado e Empregador. Contrato de trabalho. Estabilidade. Fundo de Garantia por Tempo de Serviço. Salário e remuneração. Duração do Trabalho. Contratos afins. Períodos de descanso. Regulamentações especiais."
+    },
+    {
+      "id": "DIR5304",
+      "code": "DIR5304",
+      "name": "Direito Coletivo do Trabalho",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Direito Coletivo do Trabalho. Origens históricas dos sindicatos. Conflitos coletivos de trabalho e suas formas de solução; convenções e acordos coletivos. Direito de greve e lock out. Organização Internacional do Trabalho (OIT). Tratados e convenções internacionais em matéria de Direito do Trabalho. Blocos econômicos, globalização e Direito do Trabalho. Seguridade Social. Perspectivas do Direito do Trabalho e da Seguridade Social."
+    },
+    {
+      "id": "DIR5956",
+      "code": "DIR5956",
+      "name": "Trabalho, Fraternidade e Legislação Social",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos do Trabalho Humano: dignidade humana e valor social do trabalho. Princípio da Fraternidade. Constitucionalização do Direito do Trabalho. Aspectos contemporâneos da legislação do trabalho e social no Brasil. Relação de gênero e o mundo do trabalho."
+    },
+    {
+      "id": "EED8007",
+      "code": "EED8007",
+      "name": "Organização Escolar (PCC 18h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5185",
+        "EED5186"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5185"
+          },
+          {
+            "kind": "course",
+            "code": "EED5186"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Organização da Educação Brasileira e Legislação Educacional. Políticas Públicas Educacionais na atualidade. Objetivo social da escola: direito à educação e a produção da exclusão. Currículo: teorias curriculares, propostas estatais e não estatais. Gestão Democrática da Educação. A escola: sujeitos, cotidiano, trabalho docente e Projeto Político Pedagógico."
+    },
+    {
+      "id": "FIL5142",
+      "code": "FIL5142",
+      "name": "Antropologia Filosófica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5140"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIL5140"
+      },
+      "syllabus": "Tópicos Especiais de Antropologia Filosófica"
+    },
+    {
+      "id": "FIL5162",
+      "code": "FIL5162",
+      "name": "Fenomenologia e Existencialismo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "obrigatória do núcleo comum. Portaria nº 69/preg/2012."
+    },
+    {
+      "id": "FIL5715",
+      "code": "FIL5715",
+      "name": "Ética e Ciência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5779",
+      "code": "FIL5779",
+      "name": "Filosofia da Psicanálise",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL5785",
+      "code": "FIL5785",
+      "name": "Filosofia da Psicologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FMC5220",
+      "code": "FMC5220",
+      "name": "Psicofarmacologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos de Farmacocinética e Farmacodinâmica. Receptores e neurotransmissores do SNC. Classificação de drogas psicotrópicas. Teorias bioquímicas de doenças mentais. Medicamentos antipsicóticos, antidepressivos, ansiolíticos, anticonvulsivantes, hipnoanalgésicos, seus mecanismos de ação e efeitos colaterais. Drogas de abuso. Dependência e abstinência a drogas. Alcoolismo, drogas estimulantes e alucinógenas.8"
+    },
+    {
+      "id": "HST5112",
+      "code": "HST5112",
+      "name": "História Geral da Arte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5112
+      },
+      "prerequisiteHours": 5112,
+      "syllabus": "Conceitos básicos. Os estilos de época e as abordagens teórico-metodológicas. Fundamentos da linguagem artística. A producão artística como fonte para os estudos históricos"
+    },
+    {
+      "id": "INE5109",
+      "code": "INE5109",
+      "name": "Estatística Aplicada a Ciências Humanas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções de planejamento de pesquisa quantitativa. Amostragem. Descrição e exploração de dados. Modelo binomial e normal. Estimação de proporções e médias. Conceitos de testes de hipóteses. O teste t para duas amostras. O teste de independência qui-quadrado. Correlação."
+    },
+    {
+      "id": "LLE5105",
+      "code": "LLE5105",
+      "name": "Inglês Instrumental I-B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao desenvolvimento das estratégias de leitura e estudo de estruturas básicas da língua inglesa, tendo como objetivo a compreensão de textos preferencialmente autênticos, gerais e específicos da área."
+    },
+    {
+      "id": "LLE5205",
+      "code": "LLE5205",
+      "name": "Francês Instrumental I-B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Acesso à compreensão de textos autênticos - de nível elementar e médio - através das técnicas do Francês Instrumental."
+    },
+    {
+      "id": "LLE5305",
+      "code": "LLE5305",
+      "name": "Espanhol Instrumental I-B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Compreensão e interpretação de textos de natureza geral e acadêmica. Estudo comparativo das estruturas linguísticas do espanhol e do português. Desenvolvimento de estratégias básicas de abordagem textual."
+    },
+    {
+      "id": "LLV7003",
+      "code": "LLV7003",
+      "name": "Produção Textual Acadêmica I (PCC 8 h/a)",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 8
+      },
+      "prerequisiteHours": 8,
+      "syllabus": "Estudo e produção de textos técnico-científicos relevantes para o desempenho das atividades acadêmicas, tais como: resumo, resenha, artigo e seminário. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
+    },
+    {
+      "id": "MOR7103",
+      "code": "MOR7103",
+      "name": "Processos Biopsicológicos II : Histologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "MOR5117"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MOR5117"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "PSI5232",
+      "code": "PSI5232",
+      "name": "Etologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Esquizoanálise de Gilles Deleuze e Felix Guattari Objetivos e métodos. Descrição e classificação do comportamento. Aprendizagem e instinto. O comportamento e sua função natural. A organização do comportamento. Observação do comportamento animal do laboratório. O ensino da causação."
+    },
+    {
+      "id": "PSI5413",
+      "code": "PSI5413",
+      "name": "Programa do Ensino e Aprendizagem de Comportamentos Complexos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Análise dos processos de ensinar e aprender. O conceito de comportamento como base desses dois processos. Relação entre necessidades, assuntos ou informações (conteúdos), objetivos, competências, comportamentos, habilidades e conhecimento. Diagnósticos de necessidades de aprendizagem. Derivação de comportamentos - objetivo de ensino a partir da identificação da realidade com que o aluno se defrontará. Processos de decomposição de comportamentos como base para constituir unidades, seqüências e conjuntos de ensino-aprendizagem. As diferenças entre disciplinas e programas de aprendizagem. Especificação de condições de ensino em função da natureza das aprendizagens a desenvolver. Avaliação de aprendizagem como condição de aprendizagem e como instrumento de ensino. Processos de avaliação do ensino e pesquisa com ensino. Derivação de tecnologias de ensino a partir da pesquisa com ensino."
+    },
+    {
+      "id": "PSI5414",
+      "code": "PSI5414",
+      "name": "Psicologia-Esporte-Exercício Físico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conhecimento geral sobre psicologia do esporte e exercício. Neurociência aplicada a Psicologia do esporte e exercício físico. Últimos avanços em Psicologia do esporte e exercício físico como ciência do esporte."
+    },
+    {
+      "id": "PSI5607",
+      "code": "PSI5607",
+      "name": "Habilidades Interpessoais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5607
+      },
+      "prerequisiteHours": 5607,
+      "syllabus": "Competência técnica e competência interpessoal. Processos de Comunicação (mensagens interpessoais; feedback). Processos motivacionais (estabelecimento de metas para outras pessoas; delegação). Processos de liderança (persuasão; liderança transacional e transformadora). Facilitação do trabalho em equipe. Resolução de problemas (resolução de conflitos; negociação)."
+    },
+    {
+      "id": "PSI5611",
+      "code": "PSI5611",
+      "name": "Psicologia Ergonômica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ergonomia e psicologia do trabalho: interfaces históricas e metodológicas. Organização do trabalho, tecnologia e conduta humana. Dimensões psicológicas no trabalho humano. Cargas de trabalho. Ergonomia cognitiva. Medidas psicológicas do fenômeno psicológico no trabalho. Diagnóstico e intervenção em psicologia ergonômica."
+    },
+    {
+      "id": "PSI5627",
+      "code": "PSI5627",
+      "name": "Psicologia Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "História da psicologia ambiental. Principais conceitos e autores da Psicologia Ambiental. Áreas de aplicação mais conhecidas da Psicologia Ambiental. A Psicologia Ambiental no Brasil."
+    },
+    {
+      "id": "PSI5632",
+      "code": "PSI5632",
+      "name": "Técnicas Projetivas I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7502"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7502"
+      },
+      "syllabus": "O Método Projetivo. As Técnicas de Exame da Personalidade: Uso E Avaliação. O Planejamento de uma Bateria de Exame Psicológico. Comunicação dos Resultados. Laudo, parecer e atestado psicológico. Perícia psicológica e atuação do psicólogo. Pesquisa e desenvolvimento de técnicas de avaliação psicológica."
+    },
+    {
+      "id": "PSI5640",
+      "code": "PSI5640",
+      "name": "Testes Psicológicos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "PSI7502"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7502"
+      },
+      "syllabus": "Conceito e evolução histórica dos testes psicológicos. Metodologias e técnicas de avaliação psicológica. Testes psicométricos e função diagnóstica. Avaliação de instrumentos psicométricos. Atitudes e procedimentos acerca do uso dos instrumentos psicométricos. Pesquisa e desenvolvimento de técnicas de avaliação psicológica."
+    },
+    {
+      "id": "PSI5910",
+      "code": "PSI5910",
+      "name": "Temas em psicologia: Orientação e Planejamento de Carreira",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Experiência universitária e transição para o mundo do trabalho. Orientação e planejamento de carreira. Mercado de trabalho. Empregabilidade e capacitação profissional. Instrumentalização para busca de emprego ou estágio."
+    },
+    {
+      "id": "PSI5914",
+      "code": "PSI5914",
+      "name": "Psicologia da Família",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O conceito de família. A família contemporânea no seu contexto histórico, político e social. Teoria do Ciclo Vital. Organização e dinâmica familiar. A família como agente de promoção do desenvolvimento humano. Uma visão integral e sistêmica da família. Os estressores da família. Avaliação psicológica da família. Intervenção com famílias: o trabalho com família na comunidade e a Terapia Familiar. Pesquisa e ética na área de família."
+    },
+    {
+      "id": "PSI7112",
+      "code": "PSI7112",
+      "name": "Psicologia Existencialista",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos filosóficos da psicologia existencialista: Husserl, Kierkegaard, Heidegger, Marx, Sartre; Antropologia histórica da psicologia existencialista; Ciência e Psicologia Existencialista; Principais conceitos da psicologia existencialista."
+    },
+    {
+      "id": "PSI7113",
+      "code": "PSI7113",
+      "name": "Psicologia e uso de Drogas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos em drogadição. Histórico e Epidemiologia do uso de drogas. Principais Teorias sobre Uso de Drogas. Tratamento e Prevenção."
+    },
+    {
+      "id": "PSI7114",
+      "code": "PSI7114",
+      "name": "Psicologia e Relações de Gênero",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias feministas e a origem dos Estudos de Gênero. A transversalidade da categoria gênero e sua articulação com as demais categorias sociais de classe, etnia, geração, região, religião. Implicações dos Estudos de Gênero para Psicologia na pesquisa e intervenção profissional."
+    },
+    {
+      "id": "PSI7116",
+      "code": "PSI7116",
+      "name": "Subjetividade, Poder e Ética",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A produção da subjetividade na contemporaneidade. Foucault e os Micropoderes. Os desdobramentos éticos."
+    },
+    {
+      "id": "PSI7123",
+      "code": "PSI7123",
+      "name": "Técnicas de Dinâmica de Grupo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Grupos como recurso e modalidade de intervenção em Psicologia. Aplicação de Técnicas de Dinâmica de Grupo nos diferentes contextos de atuação do psicólogo. As Técnicas de Dinâmica de Grupo. O papel do coordenador de grupos. Cuidados éticos na utilização de Técnicas de Dinâmica de Grupo e no manejo grupal."
+    },
+    {
+      "id": "PSI7132",
+      "code": "PSI7132",
+      "name": "Contemporaneidade, Trabalho e Identidade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A era contemporânea; Trabalho e contextos produtivos na contemporaneidade; Trabalho e construção identitária do sujeito contemporâneo; Interfaces contemporaneidade, trabalho e identidade."
+    },
+    {
+      "id": "PSI7162",
+      "code": "PSI7162",
+      "name": "Ensino Remoto Emergencial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "PSI7501",
+      "code": "PSI7501",
+      "name": "Processos Psicológicos na Idade Adulta e Velhice",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias psicológicas da vida adulta e do envelhecimento. Dinâmica familiar, vida adulta e envelhecimento. Saúde, qualidade de vida e envelhecimento. Políticas Públicas e a Pessoa Idosa no Brasil. Gênero, classe, etnia no envelhecimento. Intervenção do psicólogo junto à pessoa idosa, sua família e comunidade."
+    },
+    {
+      "id": "PSI7608",
+      "code": "PSI7608",
+      "name": "Orientação Profissional e de Carreira (PCC",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Orientação e de Carreira nas diferentes áreas: educação, saúde e trabalho. Aspectos teóricos e práticos."
+    },
+    {
+      "id": "SPO7041",
+      "code": "SPO7041",
+      "name": "Sociologia das Organizações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Racionalização e história: do modo de produção assiático ao \"capitalismo de organização\". organização e Sociedade: a crise do capitalismo; da teoria da administração à Psicologia das organizações e do comportamento burocrático: mediação ou dominação -organização com sistema social; organização como poder político. Exploração do trabalho, participacionismo, co-gestão operária e auto-gestão social, na sociedade contemporânea."
+    },
+    {
+      "id": "SPO7042",
+      "code": "SPO7042",
+      "name": "Sociologia do Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "As Ciências Sociais e a caracterização do desenvolvimento. Sociologia do Desenvolvimento: conceito e teorias. O desenvolvimento brasileiro e a acumulação monopolista. Atuação das classes e grupos sociais e o papel do Estado no Brasil."
+    },
+    {
+      "id": "MEN5602",
+      "code": "MEN5602",
+      "name": "Didática B (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "- Educação escolar como fenômeno histórico-social. Currículo e trabalho pedagógico no contexto escolar. As relações de ensino-aprendizagem em contexto escolar. Mediações pedagógicas e suas relações com o ensino da área específica do curso."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "MEN5421",
+      "code": "MEN5421",
+      "name": "Estágio de Docência em Psicologia I",
+      "credits": 12,
+      "hours": 216,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN5602"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN5602"
+      },
+      "syllabus": "aula)"
+    },
+    {
+      "id": "MEN5422",
+      "code": "MEN5422",
+      "name": "Estágio de Docência em Psicologia II",
+      "credits": 12,
+      "hours": 216,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "MEN5421"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MEN5421"
+      },
+      "syllabus": "10ª FASE - NÚCLEO PROFISSIONALIZANTE:LICENCIATURA EM PSICOLOGIA"
+    },
+    {
+      "id": "ANT7052",
+      "code": "ANT7052",
+      "name": "Antropologia da Pessoa e Teorias do Sujeito",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "DISCIPLINAS COMPL. DO NÚCLEO PROFISSIONALIZANTE - LIC. EM PSICOLOGIA Os diferentes paradigmas e abordagens da temática do sujeito no mundo contemporâneo. A reflexão antropológica sobre as categorias de Pessoa e Indivíduo, pensados como construções simbólicas, sociais e históricas. As diferentes teorias do sujeito e da subjetividade e a contribuição de outros campos do conhecimento."
+    },
+    {
+      "id": "EED5116",
+      "code": "EED5116",
+      "name": "Economia da Educação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituação. O sistema econômico. Economia da Educação: conceituação. Desenvolvimento econômico. Educação e desenvolvimento. Custo da Educação. O capital humano. Oferta e demanda em Educação."
+    },
+    {
+      "id": "EED7149",
+      "code": "EED7149",
+      "name": "Educação Especial na Educação Básica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Introdução à educação especial: história, abordagens teóricas e terminologia. A política de educação especial. O trabalho pedagógico com os estudantes da educação especial na Educação Básica."
+    },
+    {
+      "id": "MEN5141",
+      "code": "MEN5141",
+      "name": "Tecnologia Educacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Evolução histórica e tendências da Tecnologia Educacional. Pressupostos teóricos. A Tecnologia Educacional na educação brasileira e suas perspectivas tecnológica de ensino. Interação entre estímulos tecnológicos."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ANT7101",
+      "FIL5791",
+      "MOR7104",
+      "PSI7101",
+      "PSI7102",
+      "PSI7103",
+      "PSI7202",
+      "CFS7106",
+      "PSI7201",
+      "PSI7203",
+      "PSI7204",
+      "PSI7205",
+      "PSI7305",
+      "SPO5129",
+      "BEG7105",
+      "PSI7301",
+      "PSI7302",
+      "PSI7303",
+      "PSI7304",
+      "PSI7306",
+      "PSI7606",
+      "PSI7706",
+      "PSI7401",
+      "PSI7402",
+      "PSI7403",
+      "PSI7404",
+      "PSI7405",
+      "PSI7406",
+      "PSI7407",
+      "PSI7502",
+      "PSI7503",
+      "PSI7504",
+      "PSI7505",
+      "PSI7506",
+      "PSI7507",
+      "PSI7601",
+      "PSI7602",
+      "PSI7603",
+      "PSI7604",
+      "PSI7605",
+      "PSI7607",
+      "PSI7610",
+      "PSI7508",
+      "PSI7709",
+      "PSI7710",
+      "PSI7609",
+      "PSI7910",
+      "PSI7146",
+      "PSI7707",
+      "PSI7807",
+      "PSI7917",
+      "PSI7017",
+      "PSI7808",
+      "PSI7018",
+      "PSI7013",
+      "PSI7014",
+      "PSI7015",
+      "PSI7016",
+      "PSI7701",
+      "PSI7702",
+      "PSI7703",
+      "PSI7704",
+      "PSI7023",
+      "PSI7024",
+      "PSI7025",
+      "PSI7026",
+      "PSI7801",
+      "PSI7802",
+      "PSI7803",
+      "PSI7804",
+      "PSI7033",
+      "PSI7034",
+      "PSI7035",
+      "PSI7036",
+      "PSI7901",
+      "PSI7902",
+      "PSI7903",
+      "PSI7904",
+      "PSI7003",
+      "PSI7004",
+      "PSI7005",
+      "PSI7006",
+      "PSI7043",
+      "PSI7044",
+      "PSI7045",
+      "PSI7046",
+      "ANT7003",
+      "MEN5602",
+      "LSB7904",
+      "MEN5421",
+      "MEN5422"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 792,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "PSI7259",
+              "PSI5630",
+              "LSB7244",
+              "PSI7157",
+              "ANT9102",
+              "DIR5556",
+              "EED5220",
+              "EED5221",
+              "EED5303",
+              "EED5331",
+              "FIL5680",
+              "MEN5109",
+              "PSI5153",
+              "PSI5159",
+              "PSI5160",
+              "PSI5527",
+              "PSI5528",
+              "PSI5626",
+              "PSI5628",
+              "PSI5650",
+              "PSI5651",
+              "PSI5652",
+              "PSI5655",
+              "PSI5800",
+              "PSI5801",
+              "PSI5901",
+              "PSI5902",
+              "PSI5903",
+              "PSI5911",
+              "PSI7111",
+              "PSI7115",
+              "PSI7117",
+              "PSI7120",
+              "PSI7128",
+              "PSI7134",
+              "PSI7135",
+              "PSI7137",
+              "PSI7138",
+              "PSI7141",
+              "PSI7142",
+              "PSI7143",
+              "PSI7144",
+              "PSI7155",
+              "PSI7156",
+              "PSI7260",
+              "SPB5135",
+              "PSI5625",
+              "PSI7147",
+              "PSI7151",
+              "PSI7152",
+              "PSI5915",
+              "PSI7160",
+              "PSI7161",
+              "ANT7001",
+              "ANT7002",
+              "ANT7006",
+              "ANT7010",
+              "ANT7012",
+              "ANT7015",
+              "ANT7016",
+              "ANT7020",
+              "ANT7022",
+              "ANT7023",
+              "ANT7038",
+              "ANT7039",
+              "ARQ5212",
+              "ARQ5685",
+              "BEG7102",
+              "BQA7015",
+              "CAD9121",
+              "DIR5303",
+              "DIR5304",
+              "DIR5956",
+              "EED8007",
+              "FIL5142",
+              "FIL5162",
+              "FIL5715",
+              "FIL5779",
+              "FIL5785",
+              "FMC5220",
+              "HST5112",
+              "INE5109",
+              "LLE5105",
+              "LLE5205",
+              "LLE5305",
+              "LLV7003",
+              "MOR7103",
+              "PSI5232",
+              "PSI5413",
+              "PSI5414",
+              "PSI5607",
+              "PSI5611",
+              "PSI5627",
+              "PSI5632",
+              "PSI5640",
+              "PSI5910",
+              "PSI5914",
+              "PSI7112",
+              "PSI7113",
+              "PSI7114",
+              "PSI7116",
+              "PSI7123",
+              "PSI7132",
+              "PSI7162",
+              "PSI7501",
+              "PSI7608",
+              "SPO7041",
+              "SPO7042",
+              "ANT7052",
+              "EED5116",
+              "EED7149",
+              "MEN5141"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "319",
+    "curriculumCode": "20101",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=319&curriculo=20101",
+    "sha256": "d2eaae9fc19b30d081f1dd9553fa5b8ad3e05da209de252e3204fbe784ec1134",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -1,0 +1,2933 @@
+{
+  "program": "DIREITO",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2023.1",
+  "totalHours": 4464,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "DIR5106",
+      "code": "DIR5106",
+      "name": "História do Direito",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5106
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5105"
+      },
+      "prerequisiteHours": 5106,
+      "syllabus": "Teoria e Metodologia da História do Direito. Panorama histórico comparado do direito ocidental: antiguidade; medievo e antigo regime; modernidade jurídica; contemporaneidade. Panorama histórico do direito brasileiro: América portuguesa e Brasil independente (Império e República). História de conceitos jurídicos fundamentais."
+    },
+    {
+      "id": "DIR5116",
+      "code": "DIR5116",
+      "name": "Teoria Política",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5115"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5115"
+      },
+      "syllabus": "Ciência Política: poder, governo, Estado e sociedade. Evolução histórica do pensamento político: Grécia, Roma, Idade Média, Idade Moderna. Teoria do Estado: Estado Moderno, Estado Contemporâneo. Elementos e funções do Estado. Formas de Estado. Formas e regimes de governo. Tendências contemporâneas em Teoria Política e do Estado."
+    },
+    {
+      "id": "DIR5191",
+      "code": "DIR5191",
+      "name": "Teoria do Direito",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5100",
+        "DIR5101",
+        "DIR5102"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5100"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5101"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5102"
+          }
+        ]
+      },
+      "syllabus": "-Noção preliminar de Direito. O direito e as demais normas sociais. Formação do Direito moderno: racionalismo e direito positivo. O positivismo jurídico. Teoria da Norma e Teoria do Ordenamento."
+    },
+    {
+      "id": "DIR5218",
+      "code": "DIR5218",
+      "name": "Direito Civil - Parte Geral I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5201",
+        "DIR5211"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5201"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5211"
+          }
+        ]
+      },
+      "syllabus": "Conceito e princípios do Direito Civil. Sujeito de Direito. Pessoa natural: personalidade, capacidade, direitos da personalidade e novas tecnologias. Pessoa jurídica: personalidade, capacidade, disposições gerais. Domicílio. Bens: classificação. Oficina em Direitos da Personalidade."
+    },
+    {
+      "id": "DIR5605",
+      "code": "DIR5605",
+      "name": "Direito Penal I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5601"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5601"
+      },
+      "syllabus": "Aspectos introdutórios, as teorias da norma e da lei penal e do fato punível e a sua aplicação ao direito penal brasileiro."
+    },
+    {
+      "id": "CNM7122",
+      "code": "CNM7122",
+      "name": "Economia Política",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Economia e Economia Política;Contexto histórico da Economia Política. Raízes e postulado das propostas clássicas, neo-clássicas, marxista e keynesiana. Estado contemporâneo, globalização e economia nacional. Desenvolvimento Econômico e papel do Direito. Análise econômica do Direito. Tendências contemporâneas em Economia Política."
+    },
+    {
+      "id": "DIR5012",
+      "code": "DIR5012",
+      "name": "Metodologia da Pesquisa em Direito",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Pesquisa, produção de conhecimento e processo de ensino aprendizagem. Métodos e Técnicas de Pesquisa. Especificidades da pesquisa jurídica. Registro de informações, trabalhos acadêmicos e normas da ABNT"
+    },
+    {
+      "id": "DIR5126",
+      "code": "DIR5126",
+      "name": "Sociologia do Direito",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5125"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5125"
+      },
+      "syllabus": "Teoria Social e Direito: dos clássicos a contemporaneidade. Direito como obstáculo e/ou instrumento de mudança social. Direitos Humanos e Movimentos Sociais. Violência e Controle Social. Pluralismo Jurídico. Desigualdade, exclusão social e subcidadania no Brasil"
+    },
+    {
+      "id": "DIR5219",
+      "code": "DIR5219",
+      "name": "Direito Civil - Parte Geral II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5218"
+      ],
+      "equivalents": [
+        "DIR5202",
+        "DIR5211"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5218"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5202"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5211"
+          }
+        ]
+      },
+      "syllabus": "Fato jurídico, atos jurídicos, atos ilícitos e negócio jurídico: caracterização. Negócio jurídico: elementos constitutivos, essenciais e acidentais; invalidade e ineficácia do negócio jurídico. Negócios jurídicos e novas tecnologias. Atos ilícitos e abuso de direito. Fatos justificados: estado de necessidade, legítima defesa, outros. Extinção de direitos: prescrição, decadência, renúncia. Prova de atos e negócios jurídicos e registro público a eles relativos."
+    },
+    {
+      "id": "DIR5511",
+      "code": "DIR5511",
+      "name": "Direito Constitucional I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5121"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5121"
+      },
+      "syllabus": "Conceito e princípios do Direito Constitucional. Formação Constitucional do Brasil. A constituinte e a Constituição de 1988. Constitucionalismo. Constituição. Poder constituinte. Poder de reforma. Mutações constitucionais. Normas constitucionais. Interpretação constitucional. Controle de Constitucionalidade. Atividade prática simulada."
+    },
+    {
+      "id": "DIR5606",
+      "code": "DIR5606",
+      "name": "Direito Penal II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5605"
+      ],
+      "equivalents": [
+        "DIR5602"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5605"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5602"
+      },
+      "syllabus": "As teorias das sanções penais e da punibilidade e a sua aplicação ao direito penal brasileiro. Aspectos críticos da execução penal. Atividades de prática jurídica"
+    },
+    {
+      "id": "DIR5131",
+      "code": "DIR5131",
+      "name": "Criminologia e Política Criminal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5130"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5130"
+      },
+      "syllabus": "As diversas criminologias e políticas criminais e penais. Tendências, temas e problemas criminológicos e político-criminais contemporâneos. Atividades de prática jurídica."
+    },
+    {
+      "id": "DIR5222",
+      "code": "DIR5222",
+      "name": "Direito Civil - Obrigações (EXT= 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5219"
+      ],
+      "equivalents": [
+        "DIR5204",
+        "DIR5212"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5219"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5204"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5212"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Conceito e princípios do Direito das Obrigações. Direito do consumidor e relações de consumo. Modalidades das obrigações. Transmissão das obrigações. Adimplemento e extinção das obrigações. Inadimplemento das obrigações. Perspectivas e novas tecnologias no Direito das Obrigações. Oficina de extensão em Obrigações."
+    },
+    {
+      "id": "DIR5512",
+      "code": "DIR5512",
+      "name": "Direito Constitucional II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5511"
+      ],
+      "equivalents": [
+        "DIR5502",
+        "DIR5503"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5511"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5502"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5503"
+          }
+        ]
+      },
+      "syllabus": "Constituição de 1988: princípios e objetivos fundamentais. Direitos fundamentais: direitos e deveres individuais e coletivos, direitos sociais, direitos da nacionalidade, direitos políticos. Garantias processuais dos direitos fundamentais. Atividade prática simulada."
+    },
+    {
+      "id": "DIR5607",
+      "code": "DIR5607",
+      "name": "Direito Penal III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5606"
+      ],
+      "equivalents": [
+        "DIR5603"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5606"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5603"
+      },
+      "syllabus": "Tipos penais relacionados à pessoa humana, ao patrimônio, à organização do trabalho, ao respeito aos mortos, à dignidade sexual e à família previstos no código penal e na legislação especial. Atividades de prática jurídica."
+    },
+    {
+      "id": "DIR7106",
+      "code": "DIR7106",
+      "name": "Formas Alternativas de Solução de Conflitos I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Acesso à justiça e as formas alternativas de resolução de conflitos (ADRs); aspectos gerais dos conflitos jurídicos; diálogo interdisciplinar com a psicologia e a antropologia; cultura da sentença; cultura do consenso; classificação das formas de resolução de conflitos; modelo multiportas de resolução de conflitos; formas online de resolução de conflitos (ODRs); A negociação colaborativa por princípios (Escola de Harvard); etapas e ferramentas da negociação; estudos de casos, atividades de grupos em práticas simuladas e/ou ações de extensão sobre formas consensuais de resolução de conflitos."
+    },
+    {
+      "id": "DIR8101",
+      "code": "DIR8101",
+      "name": "Iniciação à Extensão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Construção conceitual, princípios e diretrizes da extensão nas universidades públicas. Políticas de extensão universitária na UFSC e no Brasil. Metodologia aplicável às ações de extensão. Educação popular, cidadania e Direitos Humanos."
+    },
+    {
+      "id": "DIR5113",
+      "code": "DIR5113",
+      "name": "Teoria do Processo (EXT=18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5511"
+      ],
+      "equivalents": [
+        "DIR5110",
+        "DIR5111",
+        "DIR5112"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5511"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5110"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5111"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5112"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Processo. Ramos do direito processual. Processo e direitos fundamentais. Processo e procedimento. Afirmação histórica do direito processual. Ação. Teorias da ação. Condições da ação. Elementos identificadores da ação. Jurisdição. Defesa. Poder judiciário. Funções essenciais à justiça. Advocacia. Ministério público. Defensoria pública. Novas tecnologias e inteligência artificial no judiciário. Pressupostos processuais. Oficinas para estudos de caso. Atividades de extensão e de sensibilização sobre gestão judiciária"
+    },
+    {
+      "id": "DIR5118",
+      "code": "DIR5118",
+      "name": "Antropologia Jurídica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de Antropologia e cultura. Histórico de Antropologia Jurídica. Etnologia. Alteridade. Tolerância. Pluralismo Jurídico. Novos Atores. Movimentos Étnico-Culturais"
+    },
+    {
+      "id": "DIR5227",
+      "code": "DIR5227",
+      "name": "Direito Civil - Contratos e Atos Unilaterais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5222"
+      ],
+      "equivalents": [
+        "DIR5205"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5222"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5205"
+      },
+      "syllabus": "Conceito e princípios do Direito dos Contratos. Teoria geral dos contratos. Contratos em geral. Contratos em espécie. Contratos de relações de consumo. Contratos e novas tecnologias. Atos unilaterais. Perspectivas do Direito dos Contratos. Oficina de prática jurídica em Contratos."
+    },
+    {
+      "id": "DIR5513",
+      "code": "DIR5513",
+      "name": "Direito Constitucional III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5511"
+      ],
+      "equivalents": [
+        "DIR5501",
+        "DIR5504"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5511"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5501"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5504"
+          }
+        ]
+      },
+      "syllabus": "Estrutura e organização do Estado Brasileiro. Defesa do Estado e das Instituições Democráticas. Organização dos Poderes. Princípios da ordem econômica e social. Funções essenciais à Justiça. Perspectivas do Direito Constitucional. Atividade de prática simulada ou extensão."
+    },
+    {
+      "id": "DIR5608",
+      "code": "DIR5608",
+      "name": "Direito Penal IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5606",
+        "DIR5607"
+      ],
+      "equivalents": [
+        "DIR5604"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5606"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5607"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5604"
+      },
+      "syllabus": "Tipos penais relacionados à incolumidade, a fé e a administração pública previstos no código penal e tipos penais previstos na legislação especial não compreendidos no direito penal III. Política legislativa penal. Atividades de prática jurídica."
+    },
+    {
+      "id": "DIR7107",
+      "code": "DIR7107",
+      "name": "Formas Alternativas de Solução de Conflitos II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A participação de terceiros nas formas consensuais de resolução de conflitos; o uso das formas consensuais em diversas áreas do direito: penal, civil, trabalhista e outras; ombudsman; conciliação; mediação; escolas da mediação; etapas e ferramentas da mediação; estudos de casos, atividades de grupos em práticas simuladas e/ou ações de extensão sobre formas consensuais de resolução de conflitos."
+    },
+    {
+      "id": "DIR5223",
+      "code": "DIR5223",
+      "name": "Direito Civil - Responsabilidade Civil (EXT = 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5222"
+      ],
+      "equivalents": [
+        "DIR5203",
+        "DIR5214"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5222"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5203"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5214"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "-Responsabilidade Civil: caracterização, pressupostos, modalidades e excludentes. Responsabilidade civil subjetiva e responsabilidade civil objetiva. Responsabilidade contratual e extracontratual. Responsabilidade por fato próprio, fato de terceiro, fato de coisa e fato de animal. Novas modalidades de danos: perda de uma chance. Responsabilidade civil nas relações de consumo. Responsabilidade civil e novas tecnologias. Responsabilidade civil do Estado. Direitos especiais de responsabilidade civil. Perspectivas da responsabilidade civil. Oficina de extensão em Responsabilidade Civil."
+    },
+    {
+      "id": "DIR5305",
+      "code": "DIR5305",
+      "name": "Direito do Trabalho I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5512"
+      ],
+      "equivalents": [
+        "DIR5301",
+        "DIR5303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5512"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5301"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5303"
+          }
+        ]
+      },
+      "syllabus": "História e autonomia dos direitos trabalhistas. Organização Internacional do Trabalho. As espécies de relações de trabalho. Empregado e empregador. Fontes e Princípios Gerais do Direito do Trabalho. Tipos de contratos de trabalho. As tutelas geral e especial do trabalho."
+    },
+    {
+      "id": "DIR5543",
+      "code": "DIR5543",
+      "name": "Direito Internacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5512"
+      ],
+      "equivalents": [
+        "DIR5541"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5512"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5541"
+      },
+      "syllabus": "Conceito e princípios do Direito Internacional. DI Público e DI Privado. Principais doutrinas do DIP. Sujeitos de DIP. Organizações Internacionais. Ser humano e humanidade. Normas de DIP. Conflitos de normas no DIP. Responsabilidade internacional. Jurisdição internacional. População e nacionalidade. Imunidades. Proteção diplomática. Condição do estrangeiro. Domínio público internacional. Solução de conflitos. Perspectivas do Direito Internacional."
+    },
+    {
+      "id": "DIR5713",
+      "code": "DIR5713",
+      "name": "Processo Civil I (EXT = 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5113"
+      ],
+      "equivalents": [
+        "DIR5701",
+        "DIR5705",
+        "DIR5709"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5113"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5701"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5705"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5709"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "-A estrutura do CPC. A parte geral do CPC: princípios do CPC. Competência interna e internacional. Capacidade processual. Procuração. Deveres das partes e procuradores. Honorários advocatícios. Litisconsórcio. Intervenção de terceiros. Procedimento comum: petição inicial. Citação. Contestação. Fase postulatória. Saneamento. Julgamento conforme o estado do processo. Oficinas de prática processual. Atividades de extensão e de sensibilização sobre gestão judiciária."
+    },
+    {
+      "id": "DIR5726",
+      "code": "DIR5726",
+      "name": "Processo Penal I (EXT = 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5113"
+      ],
+      "equivalents": [
+        "DIR5721",
+        "DIR5724"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5113"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5721"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5724"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "-Aspectos introdutórios, principiológicos e teóricos gerais do processo penal. A investigação preliminar, a ação penal e os diversos aspectos do desenvolvimento processual até a prolação da sentença, no procedimento ordinário. Atividades de prática jurídica. Atividades de extensão."
+    },
+    {
+      "id": "DIR5137",
+      "code": "DIR5137",
+      "name": "Filosofia do Direito",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5135",
+        "DIR5136"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5135"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5136"
+          }
+        ]
+      },
+      "syllabus": "Filosofia e Filosofia do Direito. Formação do pensamento jurídico (filosofia e ideologia). Concepções contratualistas do Estado e Direito: Thomas Hobbes. A relação da Hermenêutica com a Filosofia do Direito, o contributo de Gadamer. A Filosofia do Direito no século XX: Kelsen, Hart, Bobbio, Dworkin. Filosofia do Direito no constitucionalismo atual: Ponderacionismo e Garantismo."
+    },
+    {
+      "id": "DIR5224",
+      "code": "DIR5224",
+      "name": "Direito Civil - Família (EXT = 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5222"
+      ],
+      "equivalents": [
+        "DIR5206",
+        "DIR5216",
+        "DIR5221"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5222"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5206"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5216"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5221"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "-Princípios do Direito de Família. Paradigma constitucional de família. União estável. Casamento. Regime de bens entre os cônjuges e companheiros. Dissolução da união estável (judicial e extrajudicial). Dissolução do casamento (judicial e extrajudicial). Relações de parentesco. Filiação. Poder familiar, tutela e curatela. Perspectivas do Direito de Família e novas tecnologias. Oficina de extensão em Direito de Família."
+    },
+    {
+      "id": "DIR5306",
+      "code": "DIR5306",
+      "name": "Direito do Trabalho II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5305"
+      ],
+      "equivalents": [
+        "DIR5302",
+        "DIR5304"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5305"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5302"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5304"
+          }
+        ]
+      },
+      "syllabus": "Obrigações do contrato de trabalho. Registro, anotação, duração, remuneração, salário, férias, alteração e suspensão. Formas de extinção do contrato de trabalho. Estabilidades. FGTS. Seguro desemprego. Força maior. Organização Sindical e direito de greve."
+    },
+    {
+      "id": "DIR5710",
+      "code": "DIR5710",
+      "name": "Processo Civil II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5713"
+      ],
+      "equivalents": [
+        "DIR5702",
+        "DIR5706"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5713"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5702"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5706"
+          }
+        ]
+      },
+      "syllabus": "Saneamento; prova; sentença. Tutela provisória, Procedimentos especiais (Ação de consignação em pagamento, Ação de exigir contas, Ações possessórias; Ação de divisão e demarcação de terras particulares, Embargos de terceiro, Oposição, Ação monitória)."
+    },
+    {
+      "id": "DIR5727",
+      "code": "DIR5727",
+      "name": "Processo Penal II (EXT = 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5726"
+      ],
+      "equivalents": [
+        "DIR5722",
+        "DIR5725"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5726"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5722"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5725"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "-Procedimento do tribunal do júri e procedimentos penais especiais. Nulidades. Recursos e ações autônomas de impugnação. Os procedimentos da execução penal. Atividades de prática jurídica. Atividades de extensão."
+    },
+    {
+      "id": "DIR5871",
+      "code": "DIR5871",
+      "name": "Prática Jurídica I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5713",
+        "DIR5726"
+      ],
+      "equivalents": [
+        "DIR5851",
+        "DIR5855"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5713"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5726"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5851"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5855"
+          }
+        ]
+      },
+      "syllabus": "Prática Simulada em Direito Civil. Elaboração de peças processuais diversas. Análise de autos findos. Procuração. Procedimento ordinário: petição inicial, resposta, manifestação à contestação, alegações finais. Simulação de audiências judiciais, sustentação oral e prática simulada de recursos. Prática simulada Penal. Elaboração de peças processuais e realização de atos e julgamentos simulados, envolvendo procedimentos previstos no Código de Processo Penal e na legislação especial."
+    },
+    {
+      "id": "DIR5225",
+      "code": "DIR5225",
+      "name": "Direito Civil - Coisas (EXT = 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5222"
+      ],
+      "equivalents": [
+        "DIR5210"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5222"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5210"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "-Conceito e princípios do Direito das Coisas. Posse. Direitos reais. Propriedade. Superfície, servidões, usufruto, uso, habitação, direito do promitente comprador, penhor, hipoteca e anticrese. Perspectivas do Direito das Coisas. Oficina de extensão em Direito das Coisas."
+    },
+    {
+      "id": "DIR5410",
+      "code": "DIR5410",
+      "name": "Direito Empresarial I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5191"
+      ],
+      "equivalents": [
+        "DIR5401",
+        "DIR5404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5191"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5401"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5404"
+          }
+        ]
+      },
+      "syllabus": "Conceito e princípios do Direito Empresarial. Empresário. Sociedades empresárias. Registro de Empresas Mercantis. Informatização da escrituração, registro e livros societários. Estabelecimento. Institutos complementares. Ação de dissolução parcial de sociedade. Direito concorrencial."
+    },
+    {
+      "id": "DIR5523",
+      "code": "DIR5523",
+      "name": "Direito Administrativo I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5513"
+      ],
+      "equivalents": [
+        "DIR5521"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5513"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5521"
+      },
+      "syllabus": "Teoria Geral do Direito Administrativo: conceito, fontes e evolução histórica. Regime Jurídico Administrativo e Princípios de Direito Administrativo. Poderes da Administração Pública: vinculação, discricionariedade, poder de polícia. Organização Administrativa: Administração Pública Direta e Indireta. Atos Administrativos: atributos, requisitos, revogação e anulação. Regime dos Agentes Públicos: classificação, regime jurídico, direitos, deveres e responsabilidades."
+    },
+    {
+      "id": "DIR5711",
+      "code": "DIR5711",
+      "name": "Processo Civil III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5710"
+      ],
+      "equivalents": [
+        "DIR5703",
+        "DIR5707"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5710"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5703"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5707"
+          }
+        ]
+      },
+      "syllabus": "Teoria geral da tutela executiva; Espécies de liquidação e cumprimento da sentença; execução de títulos extrajudicial; reações do executado. Execuções com procedimentos especiais. Procedimentos especiais (Inventário e partilha); Procedimentos especiais de jurisdição voluntária (disposições gerais; notificação e interpelação; alienação judicial; interdição)."
+    },
+    {
+      "id": "DIR5733",
+      "code": "DIR5733",
+      "name": "Processo do Trabalho",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5305",
+        "DIR5713"
+      ],
+      "equivalents": [
+        "DIR5731",
+        "DIR5732"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5305"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5713"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5731"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5732"
+          }
+        ]
+      },
+      "syllabus": "-Conceito e princípios do Direito Processual do Trabalho. Justiça do Trabalho: organização e competência. Processo trabalhista: dissídio individual e dissídio coletivo. Recursos. Execução. Perspectivas do Direito Processual do Trabalho."
+    },
+    {
+      "id": "DIR5860",
+      "code": "DIR5860",
+      "name": "Prática Jurídica II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5224"
+      ],
+      "equivalents": [
+        "DIR5852",
+        "DIR5856"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5224"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5852"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5856"
+          }
+        ]
+      },
+      "syllabus": "Estágio supervisionado, desenvolvido através de atendimento jurídico à população carente no EMAJ."
+    },
+    {
+      "id": "DIR5217",
+      "code": "DIR5217",
+      "name": "Direito Civil - Sucessões",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5224"
+      ],
+      "equivalents": [
+        "DIR5207"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5224"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5207"
+      },
+      "syllabus": "Conceito e princípios do Direito das Sucessões. Sucessão em geral. Sucessão legítima. Sucessão testamentária. Inventário e partilha. Perspectivas do Direito das Sucessões."
+    },
+    {
+      "id": "DIR5405",
+      "code": "DIR5405",
+      "name": "Direito Empresarial II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5191"
+      ],
+      "equivalents": [
+        "DIR5402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5191"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5402"
+      },
+      "syllabus": "Títulos de crédito: teoria geral e títulos em espécie. Contratos comerciais. Perspectivas do Direito Empresarial."
+    },
+    {
+      "id": "DIR5524",
+      "code": "DIR5524",
+      "name": "Direito Administrativo II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5523"
+      ],
+      "equivalents": [
+        "DIR5522"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5523"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5522"
+      },
+      "syllabus": "Licitações Públicas: princípios específicos, modalidades e fases. Contratos Administrativos: regime jurídico, formalização, cláusulas exorbitantes, execução e extinção. Serviços Públicos: princípios específicos, regime jurídico, concessões, permissões e parcerias público-privadas. Domínio público: classificação dos bens públicos, afetação, desafetação e regime jurídico. Intervenção administrativa na propriedade: limitação, servidão, tombamento e desapropriação. Intervenção administrativa no domínio econômico. Responsabilidade civil do Estado: evolução histórica, espécies, excludentes de responsabilidade. Controle da Administração Pública: espécies, a Administração Pública em Juízo."
+    },
+    {
+      "id": "DIR5535",
+      "code": "DIR5535",
+      "name": "Direito Tributário I (EXT = 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5513"
+      ],
+      "equivalents": [
+        "DIR5531"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5513"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5531"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Direito Financeiro e Direito Tributário: conceitos, princípios e interrelações. Receitas e despesas públicas. Crédito público. Orçamento público. Sistema constitucional tributário. Tributo: conceito, espécies e classificações. Competência tributária. Tributos em espécie: características básicas dos impostos federais, estaduais e municipais. Limitações constitucionais ao poder de tributar: princípios e imunidades. Repartição constitucional da receita tributária. As perspectivas para o Direito Tributário no contexto da economia digital: efeitos sobre as incidências tributárias e as formas de atuação das administrações tributárias. Atividade de extensão."
+    },
+    {
+      "id": "DIR5708",
+      "code": "DIR5708",
+      "name": "Processo Civil IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5711"
+      ],
+      "equivalents": [
+        "DIR5704"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5711"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5704"
+      },
+      "syllabus": "Processo cautelar: ações cautelares jurisdicionais e administrativas; ações cautelares nominadas e inominadas. Legislação extravagante em matéria de cautelares. Procedimentos especiais de jurisdição contenciosa na legislação codificada e extravagante. Perspectivas do Direito Processual Civil."
+    },
+    {
+      "id": "DIR5861",
+      "code": "DIR5861",
+      "name": "Prática Jurídica III",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5860"
+      ],
+      "equivalents": [
+        "DIR5853",
+        "DIR5857"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5860"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5853"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5857"
+          }
+        ]
+      },
+      "syllabus": "Estágio supervisionado, desenvolvido através de atendimento jurídico à população carente no EMAJ."
+    },
+    {
+      "id": "DIR5901",
+      "code": "DIR5901",
+      "name": "Projetos de Pesquisa em Direito",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5012"
+      ],
+      "equivalents": [
+        "DIR5900"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5012"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5900"
+      },
+      "syllabus": "Pesquisa em Direito: características, espécies, métodos. Etapas da pesquisa: levantamento de dados, registro de informações, redação do relatório. Elaboração de projetos de pesquisa e de extensão: estrutura e conteúdo. Relatórios de pesquisa e de extensão jurídicas e suas especificidades. Monografia e artigo científico."
+    },
+    {
+      "id": "DIR5141",
+      "code": "DIR5141",
+      "name": "Ética Profissional",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5140"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5140"
+      },
+      "syllabus": "Ética no mundo contemporâneo. Liberdade, consciência e responsabilidade. Ética e Direito. Profissões jurídicas e seus campos de atuação. Regramento jurídico das principais profissões jurídicas. Ética Profissional no âmbito das diversas profissões jurídicas. Tendências contemporâneas em Ética: da Bioética ao Biodireito."
+    },
+    {
+      "id": "DIR5408",
+      "code": "DIR5408",
+      "name": "Direito Empresarial III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5410"
+      ],
+      "equivalents": [
+        "DIR5403",
+        "DIR5928"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5410"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5403"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5928"
+          }
+        ]
+      },
+      "syllabus": "Conceitos e princípios da recuperação de empresas e do Direito Falimentar. Recuperação de empresas. Administração da empresa em processo de recuperação. Falência: caracterização, declaração e efeitos jurídicos. Administração da massa falida. Crimes falimentares."
+    },
+    {
+      "id": "DIR5525",
+      "code": "DIR5525",
+      "name": "Direito Administrativo III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5524"
+      ],
+      "equivalents": [
+        "DIR5741"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5524"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5741"
+      },
+      "syllabus": "-Intervenção do Estado no domínio econômico e regulação. Direito Administrativo Sancionador. Processo Administrativo. Controle da Administração Pública. Oficina de prática simulada."
+    },
+    {
+      "id": "DIR5534",
+      "code": "DIR5534",
+      "name": "Direito Tributário II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5535"
+      ],
+      "equivalents": [
+        "DIR5532",
+        "DIR5533"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5535"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5532"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5533"
+          }
+        ]
+      },
+      "syllabus": "Normas Gerais de Direito Tributário. Tributos: federais, estaduais e municipais. Administração tributária. Processo Administrativo Tributário. Processo Judicial Tributário. Perspectivas dos Direitos Financeiro e Tributário."
+    },
+    {
+      "id": "DIR5558",
+      "code": "DIR5558",
+      "name": "Direito Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Crise Ambiental, Sociedade de Risco e Estado de Direito Ambiental: Política Constitucional Ambiental; Princípios Fundamentais de Direito Ambiental; Competência Ambiental;Política Nacional do Meio Ambiente;Licenciamento Ambiental; Estudo de Impacto Ambiental; Espaços Especialmente Protegidos; Direito Internacional Ambiental; Responsabilidade Civil, Criminal; e, Jurisprudência Ambiental."
+    },
+    {
+      "id": "DIR5747",
+      "code": "DIR5747",
+      "name": "Processo Constitucional (EXT = 18h-a)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5710"
+      ],
+      "equivalents": [
+        "DIR5753"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5710"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5753"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "-Conceito e princípios do Direito Processual Constitucional. Ação Civil Pública. Ação Popular. Mandado de Segurança. Outros instrumentos constitucionais de garantia dos Direitos Fundamentais. Instrumentos constitucionais de controle da constitucionalidade. Perspectivas do Direito Processual Constitucional. Oficinas de prática processual. Atividades de extensão e de sensibilização sobre gestão judiciária."
+    },
+    {
+      "id": "DIR5863",
+      "code": "DIR5863",
+      "name": "Prática Jurídica IV (EXT = 90h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5861"
+      ],
+      "equivalents": [
+        "DIR5854",
+        "DIR5858"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5861"
+          },
+          {
+            "kind": "hours",
+            "hours": 90
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5854"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5858"
+          }
+        ]
+      },
+      "prerequisiteHours": 90,
+      "syllabus": "-Clínicas de Direito Civil, Penal, Consumidor, Trabalho, Meios alternativos de solução de conflitos, Direito Público e Direito Empresarial e Econômico (opcionais, 2 por semestre por aluno)"
+    },
+    {
+      "id": "DIR5929",
+      "code": "DIR5929",
+      "name": "Direito Internacional Privado",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5405"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5405"
+      },
+      "syllabus": "Conceito e princípios do Direito Internacional Privado. Principais doutrinas do Direito Internacional Privado. Codificações e tentativas de codificação do Direito Internacional Privado. Condição jurídica do estrangeiro. Conflitos interespaciais. Aplicação, prova e interpretação do direito estrangeiro. Questões de direito material e processual internacional."
+    },
+    {
+      "id": "DIR5104",
+      "code": "DIR5104",
+      "name": "Hermenêutica Jurídica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5155",
+        "DIR5171"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5104
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5155"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5171"
+          }
+        ]
+      },
+      "prerequisiteHours": 5104,
+      "syllabus": "Compreensão jurídica. Pré-compreensão e interpretação jurídica. Espécies de interpretação. Vontade e interpretação. Lógica e interpretação. Integração e antinomias. Problemas, questões e temas contemporâneos da interpretação jurídica."
+    },
+    {
+      "id": "DIR5312",
+      "code": "DIR5312",
+      "name": "Direito Previdenciário",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5513"
+      ],
+      "equivalents": [
+        "DIR5922"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5513"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5922"
+      },
+      "syllabus": "-Conceito e princípios do Direito da Seguridade Social. Previdência Social no Brasil. Beneficiários. Custeio. Prestações. Repercussões no Contrato de Trabalho. Acidentes do Trabalho. Segurança e Medicina do Trabalho."
+    },
+    {
+      "id": "DIR5864",
+      "code": "DIR5864",
+      "name": "Prática Jurídica V (EXT = 90h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5861"
+      ],
+      "equivalents": [
+        "DIR5854",
+        "DIR5858"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5861"
+          },
+          {
+            "kind": "hours",
+            "hours": 90
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5854"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5858"
+          }
+        ]
+      },
+      "prerequisiteHours": 90,
+      "syllabus": "-Clínicas de Direito Civil, Penal, Consumidor, Ambiental, Meios alternativos de solução de conflitos, Direito Público e Direito Empresarial e Econômico (opcionais, 2 por semestre por aluno)"
+    },
+    {
+      "id": "DIR5911",
+      "code": "DIR5911",
+      "name": "Trabalho de Conclusão de Curso (TCC)",
+      "credits": 8,
+      "hours": 120,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR5901"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5901"
+      },
+      "syllabus": "-O trabalho de curso consistirá numa pesquisa científica, veiculada através de uma monografia. O regulamento poderá criar exceções para a forma final de apresentação do relato de pesquisa."
+    },
+    {
+      "id": "DIR5918",
+      "code": "DIR5918",
+      "name": "Direito da Criança e do Adolescente",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito e princípios do Direito da Criança e do Adolescente. Proteção integral. Direito fundamental. Menoridade e responsabilidade penal. Política de atendimento. Atos infracionais. Medidas sócio-educativas. Justiça da infância e da juventude. Ministério Público e advogado. Procedimentos. Crimes e infrações administrativas. Prevenção e Prevenção Especial. Adoção."
+    },
+    {
+      "id": "DIR5924",
+      "code": "DIR5924",
+      "name": "Direito do Consumidor",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5213"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5213"
+      },
+      "syllabus": "Conceito e princípios do Direito do Consumidor. Legislação brasileira específica. Os direitos do consumidor e sua proteção. A defesa do consumidor em juízo."
+    },
+    {
+      "id": "DIR8102",
+      "code": "DIR8102",
+      "name": "Ações de Extensão I - Projetos (EXT = 72h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Ações de Extensão I - Projetos (EXT = 72h-a)"
+    },
+    {
+      "id": "DIR8103",
+      "code": "DIR8103",
+      "name": "Ações de Extensão II - Eventos (EXT = 72h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "a) Ações de Extensão II - Eventos (EXT = 72h-a)"
+    },
+    {
+      "id": "DIR8104",
+      "code": "DIR8104",
+      "name": "Ações de Extensão III - Cursos (EXT = 36h-",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "a) Ações de Extensão III - Cursos (EXT = 36h-a)"
+    },
+    {
+      "id": "PSI5629",
+      "code": "PSI5629",
+      "name": "Psicologia Jurídica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "a) Noções introdutórias em Psicologia e Direito. Conhecimentos básicos em Psicologia para os operadores do Direito. Definição e histórico da Psicologia Jurídica. Relações da Psicologia com a Justiça, a Moral e o Direito. Psicologia Jurídica e o Direito Penal. Psicopatologia e processos jurídicos. Psicologia Jurídica e o Direito de Família. Psicologia Jurídica e as Questões da Infância e Juventude. Avaliação e pericia psicológica. Mediação de conflitos."
+    },
+    {
+      "id": "DIR5103",
+      "code": "DIR5103",
+      "name": "Teoria do Direito II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Três tipos de Estado, três modelos de direito: liberal, social e neoliberal. Pós-Positivismo. Direito como processo. Direito como interpretação. Direito como decisão."
+    },
+    {
+      "id": "DIR5226",
+      "code": "DIR5226",
+      "name": "Tópicos Avançados de Direito Civil",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos Avançados de Direito Civil"
+    },
+    {
+      "id": "DIR5383",
+      "code": "DIR5383",
+      "name": "Tópicos Especiais de Direito do Trabalho",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5943"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5943"
+      },
+      "syllabus": "Tópicos Especiais de Direito do Trabalho"
+    },
+    {
+      "id": "DIR5384",
+      "code": "DIR5384",
+      "name": "Tópicos Especiais de Direito",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5944"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5944"
+      },
+      "syllabus": "Tópicos Especiais de Direito Administrativo"
+    },
+    {
+      "id": "DIR5610",
+      "code": "DIR5610",
+      "name": "Direito Penal Internacional",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5606",
+        "DIR5726"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5606"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5726"
+          }
+        ]
+      },
+      "syllabus": "Administrativo -Princípios gerais do Direito Penal Internacional. As relações entre o Direito Penal Internacional e a ordem jurídica interna. Bases para uma dogmática do Direito Penal Internacional. Tratados e convenções internacionais. Direitos humanos. Crimes internacionamente definidos."
+    },
+    {
+      "id": "DIR5611",
+      "code": "DIR5611",
+      "name": "Direito e Política na União Européia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Conceito e fundamentos do direito da União Européia. Estrutura político-institucional da União Européia. Ordenamento jurídico da União Européia. Relação entre direito da União Européia e direito dos Estados membros. Dimensões políticas, jurídicas e sociais da integração na Europa."
+    },
+    {
+      "id": "DIR5842",
+      "code": "DIR5842",
+      "name": "Prática Jurídica Simulada Trabalhista",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5732"
+      ],
+      "equivalents": [
+        "DIR5890"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5732"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5890"
+      },
+      "syllabus": "Prática Jurídica Simulada Trabalhista"
+    },
+    {
+      "id": "DIR5916",
+      "code": "DIR5916",
+      "name": "Arbitragem",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5706",
+        "DIR5710"
+      ],
+      "equivalents": [
+        "DIR5758"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5706"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5710"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5758"
+      },
+      "syllabus": "Conceito e princípios da Arbitragem. Teoria geral da arbitragem. Arbitragem no direito brasileiro: lei de arbitragem, juizados especiais, Direito do Trabalho. Arbitragem internacional: tratados internacionais, convenções interamericanas, Mercosul."
+    },
+    {
+      "id": "DIR5917",
+      "code": "DIR5917",
+      "name": "Biodireito",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5160"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5160"
+      },
+      "syllabus": "Direito e Bioética. Princípios da Bioética. Nascimento ao Biodireito. Conceito e princípios do Biodireito. Ser humano e natureza. Inseminação artificial e fertilização in vitro. Procriação assistida. Clonagem. Transplante de órgãos e tecidos. Aborto e eutanásia. Transgênicos."
+    },
+    {
+      "id": "DIR5919",
+      "code": "DIR5919",
+      "name": "Direito da Informática",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5511"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5511"
+      },
+      "syllabus": "Conceito e princípios do Direito da Informática. Princípios constitucionais de proteção ao sigilo dos sistemas de informações e banco de dados. Propriedade intelectual na internet. Aspectos legais da Internet. Invasão de privacidade. Crimes de informática. Impactos tecnológicos e sociedade da informação."
+    },
+    {
+      "id": "DIR5920",
+      "code": "DIR5920",
+      "name": "Direito da Integração",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5543"
+      ],
+      "equivalents": [
+        "DIR5553"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5543"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5553"
+      },
+      "syllabus": "Conceito e princípios do Direito da Integração. Direito da Integração e Direito Comunitário. Direito Comunitário na União Européia. Direito da Integração no Mercosul. Harmonização dos direitos internos e supranacionalidade. Direito da Integração e Poder Judiciário."
+    },
+    {
+      "id": "DIR5921",
+      "code": "DIR5921",
+      "name": "Direito da Propriedade Intelectual",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5225"
+      ],
+      "equivalents": [
+        "DIR5256"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5225"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5256"
+      },
+      "syllabus": "Conceito e princípios do Direito da Propriedade Intelectual. Obras intelectuais. Direitos do autor: direitos morais e patrimoniais. Utilização de obras intelectuais. Direitos conexos. Associações de titulares de direitos do autor e direitos conexos. Programas de computador. Engenharia genética. Fiscalização. Penalidades."
+    },
+    {
+      "id": "DIR5922",
+      "code": "DIR5922",
+      "name": "Direito da Seguridade Social",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5513"
+      ],
+      "equivalents": [
+        "DIR5311"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5513"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5311"
+      },
+      "syllabus": "Conceito e princípios do Direito da Seguridade Social. Previdência Social no Brasil. Beneficiários. Custeio. Prestações. Repercussões no Contrato de Trabalho. Acidentes do Trabalho. Segurança e Medicina do Trabalho."
+    },
+    {
+      "id": "DIR5923",
+      "code": "DIR5923",
+      "name": "Direito do Comércio Internacional",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5543"
+      ],
+      "equivalents": [
+        "DIR5451"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5543"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5451"
+      },
+      "syllabus": "Conceito e princípios do Direito do Comércio Internacional. Contratos do Comércio Internacional. Critérios de conexão e autonomia. Aplicação das regras. A fase pré-contratual. Cláusulas nos contratos internacionais. Implicações financeiras."
+    },
+    {
+      "id": "DIR5925",
+      "code": "DIR5925",
+      "name": "Direito Econômico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5513"
+      ],
+      "equivalents": [
+        "DIR5551"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5513"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5551"
+      },
+      "syllabus": "Conceito e princípios do Direito Econômico. Princípios constitucionais. Legislação nacional referente ao tema. Livre mercado e intervenção estatal na economia. Agências regulatórias. CADE e Direito de Concorrência."
+    },
+    {
+      "id": "DIR5926",
+      "code": "DIR5926",
+      "name": "Direito Educacional",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5513"
+      ],
+      "equivalents": [
+        "DIR5557"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5513"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5557"
+      },
+      "syllabus": "Educação: conceito e abrangência. Conceito e princípios do Direito Educacional. Normas constitucionais sobre a educação. Conselho Nacional de Educação. Lei de Diretrizes e Bases da Educação Nacional. Demais legislação nacional em matéria educacional."
+    },
+    {
+      "id": "DIR5927",
+      "code": "DIR5927",
+      "name": "Direito Eleitoral e Partidário",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5512"
+      ],
+      "equivalents": [
+        "DIR5554"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5512"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5554"
+      },
+      "syllabus": "Conceitos e princípios do Direito Eleitoral e do Direito Partidário. Normas constitucionais em matéria eleitoral e partidária. Sistemas eleitorais adotados no Brasil. Justiça Eleitoral. Partidos Políticos."
+    },
+    {
+      "id": "DIR5931",
+      "code": "DIR5931",
+      "name": "Direito Penitenciário",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5727"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5727"
+      },
+      "syllabus": "Conceito e princípios do Direito Penitenciário. Sistema penitenciário. Lei de Execuções Penais. Assistência ao preso. Trabalho, direitos e deveres do preso. Regimes de cumprimento das penas privativas de liberdade. Estabelecimentos penais. Remição. Cumprimento da pena de multa. Medidas de segurança. Livramento condicional. Suspensão condicional da pena. Anistia, indulto e indulto individual."
+    },
+    {
+      "id": "DIR5932",
+      "code": "DIR5932",
+      "name": "Direito Romano",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5152"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5152"
+      },
+      "syllabus": "Conceito e princípios do Direito Romano. Importância do Direito Romano no mundo jurídico. Jus Naturale, Jus Civile, Jus Gentium e Jus Praetorium. Fontes do Direito Romano. Pessoa física e pessoa jurídica. Ato jurídico. Coisas. Posse e Propriedade. Liberdade, cidadania e família. Matrimônio, legitimação, adoção, emancipação, dote, divórcio, tutela e curatela. Sucessões. Obrigações. Contratos. O processo civil romano."
+    },
+    {
+      "id": "DIR5933",
+      "code": "DIR5933",
+      "name": "Direitos Humanos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5158"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5158"
+      },
+      "syllabus": "Fundamentos e desenvolvimento histórico da construção dos direitos humanos. Cidadania enquanto fenômeno jurídico direitos humanos e Constituição. Cidadania, direitos humanos e democracia. Cidadania na sociedade contemporânea. Ética e cidadania. Cidadania e meio ambiente. Pluralismo, tolerância e cidadania."
+    },
+    {
+      "id": "DIR5934",
+      "code": "DIR5934",
+      "name": "Informática Jurídica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito e histórico da Informática jurídica. Processamento eletrônico da informação jurídica. Utilização do computador na administração da justiça, no processo legislativo e análise da jurisprudência. Impactos das modernas tecnologias na sociedade e no Direito. Aplicações práticas."
+    },
+    {
+      "id": "DIR5935",
+      "code": "DIR5935",
+      "name": "Linguagem e Argumentação Jurídica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5136",
+        "DIR5137"
+      ],
+      "equivalents": [
+        "DIR5156"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5136"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5137"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5156"
+      },
+      "syllabus": "Linguagem e semiologia. Usos da linguagem. Principais correntes da semiologia. Formas de argumentação. Falácias não-formais e argumentos. Técnicas de argumentação nas práticas jurídicas. Senso comum teórico dos juristas: verdade e ideologia."
+    },
+    {
+      "id": "DIR5937",
+      "code": "DIR5937",
+      "name": "Processo nos Juizados Especiais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5706",
+        "DIR5710"
+      ],
+      "equivalents": [
+        "DIR5752"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5706"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5710"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5752"
+      },
+      "syllabus": "Conceito e princípios dos Juizados Especiais. Legislação federal e estadual. Estrutura. Competência. Procedimentos específicos. Recursos."
+    },
+    {
+      "id": "DIR5945",
+      "code": "DIR5945",
+      "name": "Tópicos Especiais de Direito Tributário",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Temas de direito material em direito tributário."
+    },
+    {
+      "id": "DIR5947",
+      "code": "DIR5947",
+      "name": "Liberdade de Expressão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5512"
+      ],
+      "equivalents": [
+        "DIR5946"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5512"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5946"
+      },
+      "syllabus": "A QUESTÃO CONSTITUCIONAL; OS ATOS COMUNICATIVOS; AS RAZÕES DE PROTEÇÃO; OS DIREITOS DOS OUTROS; A PROIBIÇÃO DA CENSURA; A PRÁTICA CONSTITUCIONAL; NOTÍCIA SOBRE O DIREITO ESTRANGEIRO."
+    },
+    {
+      "id": "DIR5948",
+      "code": "DIR5948",
+      "name": "Epistemologia Jurídica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5012"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5012"
+      },
+      "syllabus": "Epistemologia Jurídica como Teoria do Conhecimento Jurídico. A epistemologia nos autores clássicos: da antigüidade à modernidade. A epistemologia contemporânea: principais correntes e autores. A epistemologia contemporânea e a Ciência do Direito: a epistemologia jurídica e suas relações com a metodologia, a hermenêutica, a interpretação e a aplicação do Direito."
+    },
+    {
+      "id": "DIR5949",
+      "code": "DIR5949",
+      "name": "Direito, Cultura e meio Ambiente",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução Conceitual. Cultura e Meio Ambiente. Direitos Étnico-Culturais. Etnodesenvolvimento. Desenvolvimento Sustentável."
+    },
+    {
+      "id": "DIR5950",
+      "code": "DIR5950",
+      "name": "Análise Econômica do Direito",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5103"
+      },
+      "syllabus": "A Teoria Econômica e o Direito. A Escola Law and Economics. O Direito Econômico e a Constitucionalização Econômica Brasileira sob o enfoque da Análise Econômica do Direito. Análise da Ordem Econômica na Constituição Brasileira de 1988."
+    },
+    {
+      "id": "DIR5955",
+      "code": "DIR5955",
+      "name": "Judiciário do Futuro",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5111",
+        "DIR5112"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5111"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5112"
+          }
+        ]
+      },
+      "syllabus": "Poder Judiciário. Acesso à Justiça. Democratização do Estado. Planejamento Estratégico. Análise de cenário. Teoria dos Jogos. Tecnologias de Informação."
+    },
+    {
+      "id": "DIR5956",
+      "code": "DIR5956",
+      "name": "Trabalho, Fraternidade e Legislação Social",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos do Trabalho Humano: dignidade humana e valor social do trabalho. Princípio da Fraternidade. Constitucionalização do Direito do Trabalho. Aspectos contemporâneos da legislação do trabalho e social no Brasil. Relação de gênero e o mundo do trabalho."
+    },
+    {
+      "id": "DIR5959",
+      "code": "DIR5959",
+      "name": "Direito Aquaviário",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Direito do Mar. A constituição e a soberania em águas territoriais. Espécie de navios. Tipos de navegação. A marinha de guerra e a marinha mercante. O Poder Marítimo e o Poder Naval. NORMAM (Normas de autoridade marítima) e os seus órgãos, competência para a segurança do tráfego aquaviário, salvaguarda da vida humana, formação de tripulação da marinha mercante e outras atividades. Inquérito administrativo Naval e o Tribunal Marítimo na apuração de acidentes e fatos de navegação."
+    },
+    {
+      "id": "DIR5960",
+      "code": "DIR5960",
+      "name": "Direito Marítimo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Direitos e obrigações comerciais envolvendo o transporte aquaviário. Estudo da segunda parte do Colóquio Comercial brasileiro e legislação comercial aplicável. Proteção nacional e internacional do comércio de transporte aquaviário. Contratos internacionais de transporte marítimo. Sujeitos de direito envolvidos no comércio de transporte aquaviário. Regimes jurídicos da propriedade e da exploração comercial de navios."
+    },
+    {
+      "id": "DIR5974",
+      "code": "DIR5974",
+      "name": "Acesso à Justiça e Processo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5111"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5111"
+      },
+      "syllabus": "A problemática do acesso à justiça: precedentes e situação contemporânea; aspectos culturais, políticos, sociais e econômicos; aspectos jurídicos; aspectos processuais. Acesso à justiça e Constituição. Acesso à justiça, Poder Judiciario e STF. Processo e democracia no século XXI."
+    },
+    {
+      "id": "DIR5975",
+      "code": "DIR5975",
+      "name": "Fundamentos da Educação Jurídica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5120"
+      },
+      "syllabus": "Ensino do Direito no Brasil: história e legislação. Diretrizes curriculares nacionais e projeto pedagógico. SINAES e instrumentos de avaliação dos Cursos de Graduação em Direito. Pós-graduação e formação docente. Aspectos didático-pedagógicos. Educação jurídica e formação profissional no século XXI."
+    },
+    {
+      "id": "DIR5978",
+      "code": "DIR5978",
+      "name": "Sistema de Justiça Penal e Operadores do Direito",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sistema de justiça penal moderno: configuração conceito e funções. A dimensão normativa e simbólica do sistema penal: legislação (penal, processual penal e penitenciária) e hermenêutica. A dimensão institucional ou instrumental do sistema penal: polícia, ministério público, judiciário, advocacia, defensoria e prisão. Sistema de justiça penal e controle social . Crise do sistema de justiça penal e da prisão: das penas alternativas às alternativas à pena. Justiça restaurativa. O papel dos operadores do Direito no sistema de justiça penal."
+    },
+    {
+      "id": "DIR5979",
+      "code": "DIR5979",
+      "name": "História do Direito Penal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5979
+      },
+      "prerequisiteHours": 5979,
+      "syllabus": "História do Direito Penal na Antiguidade. História do Direito Penal na Idade Média. História do Direito Penal na Modernidade. História do Direito Penal no século XIX. História do Direito Penal no século XX. História do Direito Penal no Estado autoritário."
+    },
+    {
+      "id": "DIR5984",
+      "code": "DIR5984",
+      "name": "Direito Internacional Avançado",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1800
+      },
+      "prerequisiteHours": 1800,
+      "syllabus": "Globalização e Comunidade Internacional; Doutrinas antiformalistas no DI; Teorias sobre a personalidade jurídica Internacional; Sujeitos emergentes no DI: ONGs, ETNs, Governos subnacionais, indivíduo."
+    },
+    {
+      "id": "DIR5987",
+      "code": "DIR5987",
+      "name": "Direito Internacional Econômico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ordem econômica internacional e globalização. Conceito e fontes do Direito Internacional Econômico. Sistema monetário e balanço de pagamentos. O sistema Gatt/OMC e além. Investimento Internacional e política internacional de desenvolvimento."
+    },
+    {
+      "id": "DIR5988",
+      "code": "DIR5988",
+      "name": "Direitos Animais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos filosóficos e históricos sobre o estatuto jurídico dos animais não-humanos no Brasil e no Direito Comparado; Diferença entre as correntes de proteção animal: de \"direitos dos animais\" e \"bem-estar animal\". Relação entre o movimento dos direitos dos animais com outros movimentos de justiça social. Normas de proteção animal. Relação entre direitos e deveres fundamentais de proteção do animal não-humano. Animais como sujeito de direitos."
+    },
+    {
+      "id": "DIR5990",
+      "code": "DIR5990",
+      "name": "Tópicos Especiais de Processo Civil II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cartas e atos do escrivão. Procedimentos especiais (Habilitação. Homologação de penhor legal. Regulação de avaria grossa. Restauração de autos). Procedimentos especiais de jurisdição voluntária (Testamento e Codicilos. Herança Jacente. Bens dos ausentes. Das coisas vagas. Organização e Fiscalização das fundações. Ratificação de protestos marítimos)."
+    },
+    {
+      "id": "DIR5992",
+      "code": "DIR5992",
+      "name": "Teoria da Legislação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5757",
+        "DIR5936"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5757"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5936"
+          }
+        ]
+      },
+      "syllabus": "Teoria da Legislação"
+    },
+    {
+      "id": "DIR5993",
+      "code": "DIR5993",
+      "name": "Tópicos Especiais de Processo Civil II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos Especiais de Processo Civil II"
+    },
+    {
+      "id": "DIR6001",
+      "code": "DIR6001",
+      "name": "Direito e Feminismos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Estudos críticos jurídicos. História das mulheres. Política e discursos sobre as mulheres. Teorias feministas. Direito das mulheres."
+    },
+    {
+      "id": "DIR6002",
+      "code": "DIR6002",
+      "name": "Constitucionalismo e Democracia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5511"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5511"
+      },
+      "syllabus": "Conceitos de constituição. Constitucionalismo: jurídico e político. Democracia e Estado de Direito. Representação política. Controle de constitucionalidade e democracia. Judicialização da política."
+    },
+    {
+      "id": "DIR6003",
+      "code": "DIR6003",
+      "name": "Direito Urbanístico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Direito Urbanístico: conceitos, objeto e realçaões com os diversos ramos do direito. Normas constitucionais de direito urbanístico. Parcelamento do Solo Urbano. Estatuto da Cidade. Plano Diretor. Zoenamento Urbanístico. Licenciamento urbanístico."
+    },
+    {
+      "id": "DIR6005",
+      "code": "DIR6005",
+      "name": "Direito e Sistemas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Pensamento sistêmico. Teoria dos sistemas. Sistemas sociais. Sistema jurídico. Método sistêmico. Estrutura modelagem e comunicação sistêmica. Estática e dinâmica dos sistemas: atores, contextos, regras de interação. Constelaçãoes sistêmicas: organização e famílias."
+    },
+    {
+      "id": "DIR6006",
+      "code": "DIR6006",
+      "name": "História do Direito Europeu",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 6006
+      },
+      "prerequisiteHours": 6006,
+      "syllabus": "Historiografia jurídica europeia. Conceito e fundamentos da história do direito europeu. Tempos antigos: Direito Romano. Alta Idade Média: uma época sem juristas?. Baixa Idade Média: o surgimento de um Ius Commune europeu e do Common law inglês. Período Moderno Inicial: do Ius Gentium ao Direito Natural. Modernidade: Iluminismo jurídico. Século XIX: codificação das leis na Europa e no Direito Comum. Século XX: do direito europeu ao um União Europeia."
+    },
+    {
+      "id": "DIR7108",
+      "code": "DIR7108",
+      "name": "Direito Imobiliário",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Direito Imobiliário"
+    },
+    {
+      "id": "DIR9992",
+      "code": "DIR9992",
+      "name": "Justiça Restaurativa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Justiça Restaurativa: noções, principios e principais práticas. A justiça Restaurativa no Brasil. A justiça Restaurativa face à crise de legitimidade e a expansão do sistema penal: importância e desafios. A comunicação não violenta como ferramenta funcdamental da justica Restaurativa. Os componentes da comunicação e os círculos restaurativos. Principais práticas da justiça Restaurativa. Os círculos Restaurativos. Os círculos oficiais, os círculos de paz."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "PTL5307",
+      "code": "PTL5307",
+      "name": "Medicina Legal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DIR5608"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5608"
+      },
+      "syllabus": "18h-a) Generalidades sobre a medicina legal: conceitos, ramos da medicina legal e sua correlação com o direito. Introdução à medicina legal, documentos médico- legais, perícia e peritos. Estudo da antropologia forense, traumatologia forense, sexologia forense, psiquiatria forense, toxicologia forense e tanatologia forense. Confecção de laudos e realização de exames periciais."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "DIR5106",
+      "DIR5116",
+      "DIR5191",
+      "DIR5218",
+      "DIR5605",
+      "CNM7122",
+      "DIR5012",
+      "DIR5126",
+      "DIR5219",
+      "DIR5511",
+      "DIR5606",
+      "DIR5131",
+      "DIR5222",
+      "DIR5512",
+      "DIR5607",
+      "DIR7106",
+      "DIR8101",
+      "DIR5113",
+      "DIR5118",
+      "DIR5227",
+      "DIR5513",
+      "DIR5608",
+      "DIR7107",
+      "DIR5223",
+      "DIR5305",
+      "DIR5543",
+      "DIR5713",
+      "DIR5726",
+      "DIR5137",
+      "DIR5224",
+      "DIR5306",
+      "DIR5710",
+      "DIR5727",
+      "DIR5871",
+      "DIR5225",
+      "DIR5410",
+      "DIR5523",
+      "DIR5711",
+      "DIR5733",
+      "DIR5860",
+      "DIR5217",
+      "DIR5405",
+      "DIR5524",
+      "DIR5535",
+      "DIR5708",
+      "DIR5861",
+      "DIR5901",
+      "DIR5141",
+      "DIR5408",
+      "DIR5525",
+      "DIR5534",
+      "DIR5558",
+      "DIR5747",
+      "DIR5863",
+      "DIR5929",
+      "DIR5104",
+      "DIR5312",
+      "DIR5864",
+      "DIR5911",
+      "DIR5918",
+      "DIR5924",
+      "DIR8102",
+      "DIR8103",
+      "DIR8104",
+      "PSI5629"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 180,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "DIR5103",
+              "DIR5226",
+              "DIR5383",
+              "DIR5384",
+              "DIR5610",
+              "DIR5611",
+              "DIR5842",
+              "DIR5916",
+              "DIR5917",
+              "DIR5919",
+              "DIR5920",
+              "DIR5921",
+              "DIR5922",
+              "DIR5923",
+              "DIR5925",
+              "DIR5926",
+              "DIR5927",
+              "DIR5931",
+              "DIR5932",
+              "DIR5933",
+              "DIR5934",
+              "DIR5935",
+              "DIR5937",
+              "DIR5945",
+              "DIR5947",
+              "DIR5948",
+              "DIR5949",
+              "DIR5950",
+              "DIR5955",
+              "DIR5956",
+              "DIR5959",
+              "DIR5960",
+              "DIR5974",
+              "DIR5975",
+              "DIR5978",
+              "DIR5979",
+              "DIR5984",
+              "DIR5987",
+              "DIR5988",
+              "DIR5990",
+              "DIR5992",
+              "DIR5993",
+              "DIR6001",
+              "DIR6002",
+              "DIR6003",
+              "DIR6005",
+              "DIR6006",
+              "DIR7108",
+              "DIR9992",
+              "LSB7244",
+              "PTL5307"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "303",
+    "curriculumCode": "20231",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=303&curriculo=20231",
+    "sha256": "96cefee7f88026e27b99114c25a9b3da7a3c7ad8790f4c036c65b02e6877e74f",
+    "capturedAt": "2026-09-22"
+  }
+}

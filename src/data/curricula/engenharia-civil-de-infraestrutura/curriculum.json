@@ -1,0 +1,2553 @@
+{
+  "program": "ENGENHARIA CIVIL DE INFRAESTRUTURA [Campus Joinville]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.1",
+  "totalHours": 4464,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EMB5001",
+      "code": "EMB5001",
+      "name": "Cálculo Diferencial e Integral I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções sobre funções de uma variável real. Limite e continuidade. Derivada. Aplicações de Derivada. Integral definida e indefinida - Método da substituição e Integração por partes."
+    },
+    {
+      "id": "EMB5005",
+      "code": "EMB5005",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matrizes. Determinantes. Sistemas lineares. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies."
+    },
+    {
+      "id": "EMB5036",
+      "code": "EMB5036",
+      "name": "Química para engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5006"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5006"
+      },
+      "syllabus": "Sistema internacional de unidades. Átomos e moléculas. Ligações químicas e estrutura molecular. Equações químicas. Estequiometria. Soluções aquosas. Termoquímica. Eletroquímica: oxidaçãoredução, células eletroquímicas, equação de Nernst, eletrólise. Siderurgia: Obtenção do ferro gusa e do aço. Aços especiais. Polímeros: estrutura química, propriedades, aplicações. Cerâmicas: cerâmicas tradicionais e avançadas, propriedades, aplicações. Compósitos. Corrosão metálica: tipos e formas, meios corrosivos, mecanismos de proteção, monitoramento. Combustíveis e combustão. Química Ambiental. Atividades Laboratoriais."
+    },
+    {
+      "id": "EMB5055",
+      "code": "EMB5055",
+      "name": "Representação Gráfica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5035"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5035"
+      },
+      "syllabus": "Noções fundamentais para elaboração e interpretação de esboços e desenhos técnicos. Fundamentos de Desenho Geométrico. Desenho Projetivo. Normas para desenho (ABNT). Cotagem. Escalas. Desenho de objetos no 1º e 3º diedros. Perspectiva Isométrica. Aplicação das projeções nos desenhos de engenharia por meio manual e computacional."
+    },
+    {
+      "id": "EMB5062",
+      "code": "EMB5062",
+      "name": "Comunicação e Expressão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5037"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5037"
+      },
+      "syllabus": "Leitura e interpretação de textos técnicos e científicos da área da Engenharia. Estudo teórico e prático de textos técnicos e científicos relevantes à execução de atividades acadêmicas, como: fichamento, resumo, resenha, artigo, seminário. Normas da ABNT relevantes à produção/elaboração de textos acadêmicos. Linguagem técnica e científica. Normas gramaticais vigentes. Exercício de apropriação de textos da área da Engenharia."
+    },
+    {
+      "id": "EMB5648",
+      "code": "EMB5648",
+      "name": "Programação I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5600"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5600"
+      },
+      "syllabus": "Introdução a arquitetura de computadores. Lógica de programação: formalização de problemas com representação em pseudocódigo (algoritmos) e fluxograma, tipos de dados, estruturas de seleção e repetição, fluxo de execução, modularização (funções e procedimentos), estruturas de dados homogêneas (vetores e matrizes). Introdução a apontadores. Arquivos. Implementação prática de algoritmos em uma linguagem de alto nível."
+    },
+    {
+      "id": "EMB5832",
+      "code": "EMB5832",
+      "name": "Introdução à Engenharia Civil de Infraestrutura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Contextualização à vida acadêmica (a universidade, o curso de engenharia da mobilidade, o currículo, serviços de apoio, laboratórios). Contextualização à vida profissional. Funções do engenheiro no contexto tecnológico e social. O mercado de trabalho na engenharia. Métodos científicos na resolução de problemas de engenharia. Introdução à atividade profissional do engenheiro: especificação, projeto, implementação, construção de protótipos e testes para problemas, dispositivos e situações da engenharia da mobilidade. Gestão da inovação e da tecnologia."
+    },
+    {
+      "id": "EMB5007",
+      "code": "EMB5007",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5005"
+      },
+      "syllabus": "Espaços vetoriais. Transformações lineares. Mudança de base. Produto interno. Transformações ortogonais. Autovalores e autovetores de um operador. Diagonalização."
+    },
+    {
+      "id": "EMB5022",
+      "code": "EMB5022",
+      "name": "Ciência dos Materiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001",
+        "EMB5036"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5001"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5036"
+          }
+        ]
+      },
+      "syllabus": "Introdução a Ciência e Engenharia dos Materiais – materiais aplicados na engenharia. Tipos, classificação e aplicações dos diversos materiais. Estrutura atômica e ligações inter-atômicas. Materiais cristalinos e não cristalinos. Imperfeições nos sólidos. Difusão. Processos metalográficos. Diagramas de equilíbrio. Comportamento mecânico e dinâmico dos materiais. Falhas, fratura, fadiga e fluência. Estrutura e propriedades dos materiais metálicos, cerâmicos e poliméricos. Introdução a compósitos."
+    },
+    {
+      "id": "EMB5029",
+      "code": "EMB5029",
+      "name": "Cálculo Diferencial e Integral II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5001"
+      },
+      "syllabus": "Métodos de integração. Aplicações da integral definida. Integrais impróprias. Funções de várias variáveis. Derivadas parciais. Aplicações das derivadas parciais. Integração múltipla."
+    },
+    {
+      "id": "EMB5048",
+      "code": "EMB5048",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5034"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5034"
+      },
+      "syllabus": "Unidades de medidas e vetores. Cinemática. Leis de Newton e aplicações. Trabalho e energia potencial. Conservação da energia. Conservação do momento linear e angular. Rotação de corpos rígidos e rolamento. Atividades Laboratoriais."
+    },
+    {
+      "id": "EMB5063",
+      "code": "EMB5063",
+      "name": "Ciência, Tecnologia e Sociedade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EMB5038"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5038"
+      },
+      "syllabus": "Definições de ciência, tecnologia e técnica. Desenvolvimento tecnológico e social. Relações entre ciência, tecnologia e sociedade. Desafios para o perfil do engenheiro contemporâneo. Funções do engenheiro no contexto tecnológico e social. Ética, moral, valores e ética profissional. O Código de ética como ferramenta para o fortalecimento da cultura organizacional. Disciplina consciente. A igualdade étnico racial na engenharia.História e cultura Afro-Brasileira e Africana. Direitos humanos."
+    },
+    {
+      "id": "EMB5833",
+      "code": "EMB5833",
+      "name": "Desenho Técnico Aplicado à Infraestrutura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5055"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5055"
+      },
+      "syllabus": "-Linguagem de projetos de edificações e estruturais. Desenho e interpretação com uso de CAD. Nomenclaturas e definições. Normas de desenho de plantas, cortes, elevações, coberturas e detalhes em geral."
+    },
+    {
+      "id": "EMB5011",
+      "code": "EMB5011",
+      "name": "Estática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001",
+        "EMB5005",
+        "EMB5048"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5001"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5005"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5048"
+          }
+        ]
+      },
+      "syllabus": "Estudo do equilíbrio de partículas e corpos rígidos no plano e no espaço. Determinação das reações em apoios padrão utilizados na Engenharia. Cálculo de centróides de áreas e de volumes de figuras simples e compostas. Análise de forças distribuídas como cargas concentradas. Cálculo de momento de inércia de superfície para áreas simples e compostas. Cálculo de momento de inércia de massa para sólidos simples e compostos. Análise de Treliças, Estruturas e Máquinas. Determinação de forças axiais, forças cortantes e momentos fletores em estruturas e vigas. Construção de diagramas de força cortante e momento fletor."
+    },
+    {
+      "id": "EMB5016",
+      "code": "EMB5016",
+      "name": "Cálculo Numérico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001",
+        "EMB5648"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5001"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5648"
+          }
+        ]
+      },
+      "syllabus": "Introdução à matemática computacional, erros e aritmética de ponto flutuante. Solução de equações algébricas e transcendentais. Solução de sistemas de equações lineares, métodos diretos e iterativos. Solução de sistemas de equações não-lineares. Interpolação. Ajuste de curvas. Integração numérica."
+    },
+    {
+      "id": "EMB5030",
+      "code": "EMB5030",
+      "name": "Cálculo Vetorial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5007",
+        "EMB5029"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5007"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5029"
+          }
+        ]
+      },
+      "syllabus": "Funções vetoriais. Limites, derivadas e integrais de funções vetoriais. Parametrização de curvas e superfícies. Campos vetoriais. Gradiente, divergente e rotacional. Integrais de linha. Integrais de superfície. Teorema de Green. Teorema de Stokes. Teorema de Gauss."
+    },
+    {
+      "id": "EMB5039",
+      "code": "EMB5039",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001",
+        "EMB5048"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5001"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5048"
+          }
+        ]
+      },
+      "syllabus": "Gravitação. Estática e dinâmica de fluidos. Oscilações. Ondas mecânicas e acústicas. Temperatura. Calor. Teoria cinética dos gases. Leis da termodinâmica. Máquinas térmicas. Refrigeradores. Entropia. Atividades Laboratoriais."
+    },
+    {
+      "id": "EMB5057",
+      "code": "EMB5057",
+      "name": "Estatística I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5001"
+      ],
+      "equivalents": [
+        "EMB5010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5001"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5010"
+      },
+      "syllabus": "Estatística descritiva e análise exploratória de dados. Teoria da probabilidade. Variáveis aleatórias discretas e contínuas, e suas principais distribuições de probabilidade. Estimação de parâmetros. Teste de hipóteses para parâmetros: média, proporção e variância. Comparação entre dois tratamentos."
+    },
+    {
+      "id": "EMB5866",
+      "code": "EMB5866",
+      "name": "Topografia I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5833"
+      ],
+      "equivalents": [
+        "EMB5825"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5833"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5825"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Geodésia. Sistemas Geodésicos de referência. Instrumentos topográficos. Cartografia. Medidas diretas de distâncias e de ângulos. Orientação. Sistemas de coordenadas. Sistema de posicionamento global. Aerofotogrametria e aplicações. LIDAR e aplicações. Exploração e apresentação de dados com a utilização de softwares. Métodos de levantamento planimétrico e classes de precisão. Planimetria: Poligonais aberta, fechada, enquadrada. Cálculos de área. Desenho topográfico. Atividade de extensão: Topografia aplicada à gestão e planejamento físico-territorial.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMB5014",
+      "code": "EMB5014",
+      "name": "Séries e Equações Diferenciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5007",
+        "EMB5016",
+        "EMB5029"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5007"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5016"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5029"
+          }
+        ]
+      },
+      "syllabus": "Sequências e séries infinitas. Séries de potências. Séries de Taylor. Série de Fourier. Equações diferenciais de 1ª ordem. Equações diferenciais lineares de ordem n. Noções sobre transformada de Laplace. Noções sobre equações diferenciais parciais. Soluções em séries para equações diferencias lineares. Noções sobre métodos numéricos para solução de equações diferenciais."
+    },
+    {
+      "id": "EMB5021",
+      "code": "EMB5021",
+      "name": "Mecânica dos Sólidos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5011"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5011"
+      },
+      "syllabus": "Análise de Tensão – Conceitos e Definições, Tensão normal média; Tensão cisalhante média; Cisalhamento puro e duplo, Tensão admissível. Análise de Deformação – Conceitos e Definições; Deformação específica; Deformação por cisalhamento. Relação entre Tensão e Deformação – Equações Constitutivas; Lei de Hooke; Razão de Poisson; Carga Axial – Deformação térmica; membros estaticamente indeterminados, Equações de Compatibilidade, concentração de tensão. Torção – Deformação por torção; fórmula da torção; deflexão torcional; concentração de tensão. Flexão – Diagrama de Força Cortante (Cisalhamento) e Momento fletor; deformação por flexão, Flexão simples plana, oblíqua, seções assimétricas"
+    },
+    {
+      "id": "EMB5040",
+      "code": "EMB5040",
+      "name": "Fenômenos de Transporte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5030",
+        "EMB5039"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5030"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5039"
+          }
+        ]
+      },
+      "syllabus": "Conceitos fundamentais em mecânica dos fluidos. Hidrostàtica. Análise Integral. Equacão de Bernoulli. Escoamento viscoso incompressível. Conceitos fundamentais em transmissão de calor: Condução unidimensional em regime permanente, Convecção e Radiação. Difusão molecular e transporte de massa."
+    },
+    {
+      "id": "EMB5041",
+      "code": "EMB5041",
+      "name": "Dinâmica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5011"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5011"
+      },
+      "syllabus": "Cinemática dos corpos rígidos. Dinâmica dos corpos rígidos. Princípio do trabalho e energia, quantidade de movimento, impulso linear e angular para corpos rígidos."
+    },
+    {
+      "id": "EMB5043",
+      "code": "EMB5043",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5030",
+        "EMB5039"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5030"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5039"
+          }
+        ]
+      },
+      "syllabus": "Lei de Coulomb. O Campo Elétrico e Potencial Eletrostático. Capacitância e Capacitores. Corrente Elétrica. Campo Magnético. A Lei de Ampere. A Lei da Indução. Circuitos. As Equações de Maxwell. Atividades Laboratoriais."
+    },
+    {
+      "id": "EMB5835",
+      "code": "EMB5835",
+      "name": "Materiais de Construção I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5022"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5022"
+      },
+      "syllabus": "-Emprego dos materiais de construção: metais, polímeros, cerâmicas, madeira e betuminosos. Agregados e aglomerantes hidráulicos. Aditivos químicos e adições minerais. Propriedades das argamassas e concretos. Ensaios de laboratório. Normas técnicas que regem os materiais de construção."
+    },
+    {
+      "id": "EMB5867",
+      "code": "EMB5867",
+      "name": "Topografia II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5866"
+      ],
+      "equivalents": [
+        "EMB5829"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5866"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5829"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Topografia aplicada. Levantamento Planialtimétrico. Aerofotogrametria. Nivelamento Geométrico, Trigonométrico e Taqueométrico. Marcação e interpretação de curvas de nível. Georreferenciamento de imóveis (rurais e urbanos). Sistemas de Informação Geográfica. Locação de obras. Controle e acompanhamento de recalque em edificações. Levantamentos para obras de infraestrutura (rodovias, ferrovias, redes hidrossanitárias, barragens etc.). Aplicação de ferramentas computacionais. Atividades de extensão em projetos de interesse da sociedade em geral.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMB5120",
+      "code": "EMB5120",
+      "name": "Gestão e Organização",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico da teoria geral da administração. Abordagens básicas e evolução do pensamento administrativo. Conceito de Administração e funções administrativas. Gestão da Produção e Operações. Estratégia de Produção e Operações. Noções de Planejamento e Controle da Produção. Just in Time e Operações Enxutas. Gestão da Qualidade. Gestão de Pessoas. Noções de Empreendedorismo."
+    },
+    {
+      "id": "EMB5868",
+      "code": "EMB5868",
+      "name": "Hidráulica Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5040"
+      ],
+      "equivalents": [
+        "EMB5838"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5040"
+          },
+          {
+            "kind": "hours",
+            "hours": 5868
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5838"
+      },
+      "prerequisiteHours": 5868,
+      "syllabus": "Conceito de hidrostática e hidrodinâmica. Escoamento em condutos forçados: fórmulas de perda de carga; perda de carga localizadas e no conduto, condutos equivalentes, condutos em série e paralelo; distribuição em marcha; problemas em dois e três reservatórios. Máquinas hidráulicas: bombas e turbinas. Condutos livres: tipos de seções; movimento uniforme e variados em canais. Orifícios, bocais, bueiros, tubos curtos e vertedores. Medição de vazão"
+    },
+    {
+      "id": "EMB5869",
+      "code": "EMB5869",
+      "name": "Geologia da Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5036",
+        "EMB5867"
+      ],
+      "equivalents": [
+        "EMB5834"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5036"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5867"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5834"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Estrutura e dinâmica interna da Terra. Sismos e Vulcanismo. Minerais e Rochas. Água subterrânea. Estruturas dos maciços rochosos. Processos da dinâmica superficial. Movimentos gravitacionais de massa e erosão. Investigação geológica de campo. Cartas de Geologia de Engenharia. Uso de rochas na construção civil. Geologia do Brasil. Geologia de Engenharia aplicada a túneis, barragens e obras lineares. Atividade de extensão: A Geologia de Engenharia no desenvolvimento territorial sustentável.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMB5870",
+      "code": "EMB5870",
+      "name": "Materiais de Construção II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5835"
+      ],
+      "equivalents": [
+        "EMB5845"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5835"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5845"
+      },
+      "syllabus": "Propriedades do concreto no estado fresco e endurecido. Preparo, transporte, lançamento e cura do concreto. Controle Tecnológico de Concreto, Dosagem do concreto. Concretos especiais aplicados em obras de infraestrutura. Patologia do concreto. Normas que regem a qualidade do concreto. Ensaios de laboratório."
+    },
+    {
+      "id": "EMB5871",
+      "code": "EMB5871",
+      "name": "Projeto Arquitetônico",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5867"
+      ],
+      "equivalents": [
+        "EMB5837"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5867"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5837"
+      },
+      "syllabus": "Desenvolvimento de projeto arquitetônico. Arquitetura modular. Desempenho da edificação: consumo energético e de água, conforto luminotécnico, térmico e acústico. Arquitetura e ventilação. Elementos prediais para a prevenção e combate a incêndio e pânico. Acessibilidade em edificações."
+    },
+    {
+      "id": "EMB5872",
+      "code": "EMB5872",
+      "name": "Mecânica dos Sólidos III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5021"
+      ],
+      "equivalents": [
+        "EMB5839"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5021"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5839"
+      },
+      "syllabus": "Estado plano e triaxial de tensões e aplicação do círculo de Mohr. Análise tridimensional de tensões e deformações específicas. Diagramas de normal, cortante e momento de estruturas isostáticas (vigas, treliças, pórticos, grelhas, cabos e arcos), Deflexão de vigas isostáticas (Linha Elástica). Colunas e estabilidade das estruturas."
+    },
+    {
+      "id": "EMB5982",
+      "code": "EMB5982",
+      "name": "Engenharia de Tráfego I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [
+        "EMB5927"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5057"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5927"
+      },
+      "syllabus": "Conceito de Engenharia de Tráfego; Elementos da Engenharia de Tráfego (Usuários, Veículos, Vias); Características do Tráfego (Fluxo e volume, Velocidade, Densidade, Headway, Relações Fundamentais do Tráfego, Tempo de viagem e atrasos); Traffic Calming; Análise de Capacidade e Nível de Serviço."
+    },
+    {
+      "id": "EMB5841",
+      "code": "EMB5841",
+      "name": "Projeto Geométrico de Vias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5867",
+        "EMB5982"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5867"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5982"
+          }
+        ]
+      },
+      "syllabus": "-Características e elementos técnicos gerais para o projeto de rodovias e vias urbanas. Estudos de traçado. Critérios para a escolha de diretrizes de rodovias. Concordância horizontal: circular simples e com transição. Locação de eixos. Superelevação. Superlargura. Distâncias de visibilidade. Concordância vertical. Cálculo do greide. Volumes de terraplenagem. Interseções."
+    },
+    {
+      "id": "EMB5844",
+      "code": "EMB5844",
+      "name": "Mecânica dos Solos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5869"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5869"
+      },
+      "syllabus": "-Origem e formação dos solos. Caracterização física. Estrutura. Classificação dos solos. Características e propriedades geotécnicas de horizontes lateríticos e saprolíticos de solos tropicais. Tensões no solo: geostáticas e induzidas. Percolação e permeabilidade. Compressibilidade dos solos. Ensaios de laboratório. Sondagens e amostragens."
+    },
+    {
+      "id": "EMB5873",
+      "code": "EMB5873",
+      "name": "Teoria das Estruturas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5872"
+      ],
+      "equivalents": [
+        "EMB5842"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5872"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5842"
+      },
+      "syllabus": "Graus de Hiperestaticidade. Princípio dos Trabalhos Virtuais. Método das Forças. Método das Equações dos Três Momentos. Método dos Deslocamentos (Método da Rigidez). Análise Matricial. Linhas de influência. Cálculo de deslocamentos devido a carregamentos, efeito de temperatura e deslocamentos de apoio."
+    },
+    {
+      "id": "EMB5874",
+      "code": "EMB5874",
+      "name": "Hidrologia Aplicada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5868"
+      ],
+      "equivalents": [
+        "EMB5843"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5868"
+          },
+          {
+            "kind": "hours",
+            "hours": 5874
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5843"
+      },
+      "prerequisiteHours": 5874,
+      "syllabus": "Ciclo hidrológico e bacia hidrográfica. Noções de climatologia. Precipitação. Intercepção, evaporação e evapotranspiração. Infiltração e Percolação. Águas subterrâneas. Escoamento superficial. Estimativa de vazões máximas e mínimas. Controle e previsão de enchentes Regularização de vazões. Sistema de drenagem urbana. Modelos Hidrológicos. Desastres naturais ligados à hidrologia e climatologia (alagamentos, enxurradas, inundação, ciclones, furacões, tornados, tempestades e estiagem). Atividades de extensão.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMB5875",
+      "code": "EMB5875",
+      "name": "Planejamento e Gestão do Espaço Urbano",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5871"
+      ],
+      "equivalents": [
+        "EMB5864"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5871"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5864"
+      },
+      "syllabus": "Urbanização e planejamento urbano: história, e conceitos e tendências. Urbanização, meio ambiente e sustentabilidade. Engenharia urbana e gestão da infraestrutura. Legislação urbana para o uso do solo. Políticas públicas para o parcelamento do solo e habitação popular. Projeto extensionista: desenvolvimento de projeto urbano e de diagnóstico urbano. Planejamento Urbano e o mercado imobiliário."
+    },
+    {
+      "id": "EMB5876",
+      "code": "EMB5876",
+      "name": "Técnicas de Construção Civil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5835"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5835"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "(EXT 18h-a) Serviços preliminares. Instalações de canteiros de obras. Execução de fundações rasas e profundas. Execução de Sistemas de formas para concretos. Sistemas de fechamento (Alvenarias e demais). Sistemas de revestimento de paredes e pisos. Coberturas, impermeabilização, esquadrias, vidros, instalações, iluminação natural e artificial. Noções de desempenho das edificações. Normas técnicas. Como atividades de extensão serão realizados trabalhos de especificação de sistemas construtivos em projetos de caráter social desenvolvidos, desenvolvidos por empresas parceiras e acompanhamento e visitas técnicas nas obras em questão.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMB5961",
+      "code": "EMB5961",
+      "name": "Engenharia Econômica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5057"
+      },
+      "syllabus": "Fundamentos de economia. Princípios básicos de Engenharia Econômica. Matemática financeira. Investimento e modalidades de financiamento. Bases para comparação de alternativas de investimento. Impostos e depreciação. Análise da relação: custo x volume x lucro (ACVL). Análise de sensibilidade. Análise de substituição de equipamentos. Análise de alternativas sob condições de risco e incerteza. Tópicos de Finanças e investimentos. Utilização de simulação na Engenharia Econômica em estudo de caso."
+    },
+    {
+      "id": "EMB5836",
+      "code": "EMB5836",
+      "name": "Estudos de Impactos Ambientais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Avaliação de Impacto Ambiental (AIA). Licenciamento Ambiental. Estudos de Impacto Ambiental (EIA/RIMA, EAS, RAP) Estudo de Impacto de Vizinhança. Áreas Protegidas por Lei. Legislação Ambiental"
+    },
+    {
+      "id": "EMB5847",
+      "code": "EMB5847",
+      "name": "Estruturas de Concreto Armado I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5870",
+        "EMB5873"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5870"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5873"
+          }
+        ]
+      },
+      "syllabus": "Concreto armado. Estado limite último. Dimensionamento de vigas à flexão simples e cisalhamento. Cálculo e distribuição de armaduras e detalhamento."
+    },
+    {
+      "id": "EMB5849",
+      "code": "EMB5849",
+      "name": "Instalaçoes Elétricas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5871"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5871"
+      },
+      "syllabus": "-Introdução sobre sistema elétrico. Concepção de um projeto elétrico. Previsão de carga. Características e dimensionamento de condutores, dutos e proteção. Tipos de tomadas, comandos e disjuntores. Cálculo de demanda. Padrão de entrada de energia. Segurança em eletricidade. Circuito elétrico e quadro de distribuição. Normas técnicas sobre instalações. Montagem de circuitos com proteção, iluminação e tomada. Luminotécnia. Projeto de uma instalação elétrica predial."
+    },
+    {
+      "id": "EMB5850",
+      "code": "EMB5850",
+      "name": "Instalações Hidráulicas Prediais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5868",
+        "EMB5871"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5868"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5871"
+          }
+        ]
+      },
+      "syllabus": "-Sistema Predial de Água Fria, Água Quente, de Proteção e Combate a Incêndio, Esgotamento Sanitário, Águas Pluviais, Gás Combustível (GLP e GN) e Condicionamento de Ar. Noções sobre construções bioclimáticas. Conservação e uso racional de água em edificações. Compatibilização entre projetos."
+    },
+    {
+      "id": "EMB5851",
+      "code": "EMB5851",
+      "name": "Mecânica dos Solos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5844",
+        "EMB5872"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5844"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5872"
+          }
+        ]
+      },
+      "syllabus": "-Compactação dos solos. Índice de suporte Califórnia. Resistência ao cisalhamento dos solos. Estabilidade de Taludes. Empuxos de terra. Estruturas de contenção. Ensaios de laboratório."
+    },
+    {
+      "id": "EMB5877",
+      "code": "EMB5877",
+      "name": "Gerenciamento e Planejamento de Obras",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5876"
+      ],
+      "equivalents": [
+        "EMB5846"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5876"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5846"
+      },
+      "syllabus": "Os sistemas de gerenciamento e planejamento de construções. Programação na implantação de empreendimentos: metodologia, sistemática de programação e controle, técnicas correntes e estudo de casos. Gestão de recursos físicos e humanos (materiais, mão de obra e equipamentos). Qualidade e sustentabilidade em construções. Caderno de encargos, memorial descritivo e cronograma físicofinanceiro. Indicadores usados em gestão."
+    },
+    {
+      "id": "EMB5878",
+      "code": "EMB5878",
+      "name": "Elementos e Técnicas de Infraestrutura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5841",
+        "EMB5844"
+      ],
+      "equivalents": [
+        "EMB5852"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5841"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5844"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5852"
+      },
+      "syllabus": "Equipamentos de terraplenagem. Execução da terraplanagem. Análise e composição de custos. Modalidade de serviços. Drenagem urbana e rodoviária, Obras de fixação e proteção das rodovias, Loteamentos, Planejamento e controle de obras. Aplicação de ferramentas computacionais."
+    },
+    {
+      "id": "EMB5044",
+      "code": "EMB5044",
+      "name": "Planejamento do Trabalho de Conclusão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2679,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2679,
+      "syllabus": "A pesquisa e o método científico. Formulação do problema de pesquisa. Construção de hipóteses. Tipos e características de pesquisa. Elaboração de projetos de pesquisa. Elaboração de relatórios. Nesta etapa será proposto o projeto para o trabalho de conclusão do curso, tendo o seguinte conteúdo: Título, tema, problematização, hipóteses, objetivos, justificativa, metodologia, resultados esperados, cronograma, relação das principais referências."
+    },
+    {
+      "id": "EMB5856",
+      "code": "EMB5856",
+      "name": "Pavimentação de Vias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5851",
+        "EMB5878"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5851"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5878"
+          }
+        ]
+      },
+      "syllabus": "de Curso -Conceitos e tipos de pavimentos. Comportamento mecânico das estruturas de pavimento. Projeto geotécnico. Comportamento dinâmico dos solos. Estudos de materiais para pavimentação: características e propriedades. Dosagem de misturas asfálticas. Usinas asfálticas. Estudo do Tráfego. Dimensionamento e execução de pavimentos asfálticos, poliédricos e concreto de cimento Portland. Conservação e Restauração de Vias. Ensaios de laboratório."
+    },
+    {
+      "id": "EMB5857",
+      "code": "EMB5857",
+      "name": "Fundações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5851"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5851"
+      },
+      "syllabus": "-Investigação geotécnica: princípios e execução dos ensaios SPT, CPT, Vane Test, Pressiômetro, Dilatômetro, condutividade hidráulica. Parâmetros geotécnicos derivados dos ensaios. Fundações superficiais e profundas: métodos de capacidade de carga, dimensionamento geotécnico, estimativa de recalques, casos especiais, aspectos executivos. Dimensionamento estrutural de sapatas e blocos. Patologias e reforços de fundações"
+    },
+    {
+      "id": "EMB5880",
+      "code": "EMB5880",
+      "name": "Custos e Orçamentação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5876"
+      ],
+      "equivalents": [
+        "EMB5840"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5876"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5840"
+      },
+      "syllabus": "Metodologia de implementação de custos. Análise de preços. Custos diretos e indiretos. Elaboração e análise de custos unitários. Estimativa de custo. Elaboração de orçamentos. Uso de ferramentas computacionais."
+    },
+    {
+      "id": "EMB5881",
+      "code": "EMB5881",
+      "name": "Saneamento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5874"
+      ],
+      "equivalents": [
+        "EMB5853"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5874"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5853"
+      },
+      "syllabus": "O Saneamento e a saúde pública. Poluição do ar, água e solo. A importância da qualidade da água. Consumo e usos de água. Projeção populacional e etapas de elaboração de projetos. Sistema de abastecimento de água (captação, adução, recalque, tratamento, reservação). Sistema de distribuição de água. Sistemas de Drenagem Urbana. Níveis e processos de tratamento de água, água residuais e esgotos sanitários. Sistema de esgotamento sanitário (coletores, interceptor, emissário e disposição final de esgoto). Resíduos sólidos urbanos (acondicionamento, coleta e transporte e tratamento de resíduos sólidos). Limpeza pública."
+    },
+    {
+      "id": "EMB5882",
+      "code": "EMB5882",
+      "name": "Estruturas de Concreto Armado II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5847"
+      ],
+      "equivalents": [
+        "EMB5854"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5847"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5854"
+      },
+      "syllabus": "Lajes de concreto armado. Dimensionamento, disposições construtivas e detalhamento. Escadas. Reservatórios. Pilares de concreto armado. Instabilidade local e global. Flexão simples, composta normal e composta oblíqua. Dimensionamento e detalhamento. Estruturas de concreto armado em situação de incêndio"
+    },
+    {
+      "id": "EMB5045",
+      "code": "EMB5045",
+      "name": "Trabalho de Conclusão de Curso",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5044"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5044"
+      },
+      "syllabus": "Consolidação dos conhecimentos obtidos no curso com o objetivo de desenvolver a capacitação do aluno na concepção, implementação e ou avaliação de soluções em situações da área do respectivoo curso."
+    },
+    {
+      "id": "EMB5855",
+      "code": "EMB5855",
+      "name": "Legislação Profissional e Fundamentos de Engenharia de Segurança",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Legislação Profissional: Fundamentação filosófica, social e política do trabalho. O Sistema profissional. Normas e legislação profissional. Remuneração profissional. Ética e disciplina profissional. Formas de exercício profissional. Campo de trabalho. Segurança do Trabalho: Conceituação de segurança na Engenharia. Controle do ambiente. Proteção coletiva e individual. Proteção contra incêndio. Riscos específicos nas várias habilitações da Engenharia. Controle de perdas e produtividade. Segurança no projeto. Análise e estatísticas de acidentes, seleção, treinamento, motivação do pessoal. Normalização e legislação específica. Organização da segurança do trabalho na empresa. Segurança em atividades extra empresa. Visitas."
+    },
+    {
+      "id": "EMB5858",
+      "code": "EMB5858",
+      "name": "Túneis e Obras de Terra",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5851"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5851"
+      },
+      "syllabus": "-Aterros sobre solos moles: projeto, construção e monitoramento. Barragens: projeto, construção e monitoramento. Geossintéticos. Túneis: conceitos básicos dos tuneis, fatores incidentes. Comportamento dos materiais. Sistemas de classificação geomecânica. Dimensionamento. Métodos construtivos. Exemplos práticos."
+    },
+    {
+      "id": "EMB5859",
+      "code": "EMB5859",
+      "name": "Portos e Vias Navegáveis",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5851",
+        "EMB5868"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5851"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5868"
+          }
+        ]
+      },
+      "syllabus": "Introdução e generalidades (embarcações, cargas, tipos de portos e vias navegáveis), hidrodinâmica e hidráulica fluvial e marítima, vias navegáveis (dimensionamento, obras de melhoramento, regularização, transposição de níveis, proteção e manutenção), problemas geotécnicos em obras portuárias, estruturas portuárias (ação de embarcações, amarração e estabilidade), estruturas de proteção (defensas, diques e molhes)."
+    },
+    {
+      "id": "EMB5862",
+      "code": "EMB5862",
+      "name": "Estruturas Metálicas e de Madeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5873"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5873"
+      },
+      "syllabus": "Características das estruturas de aço. Métodos de segurança e Método dos Estados Limites. Propriedades mecânicas do aço estrutural. Dimensionamento de elementos em aço. Peças tracionadas, comprimidas e fletidas. Ligações. Normas técnicas. Estruturas metálicas em situação de incêndio. A madeira como material estrutural; propriedades físicas e mecânicas; compressão simples; instabilidade de coluna; ligações tipo sambladura, por parafusos e por pregos; flexão normal simples e composta; coberturas convencionais e industriais; e projeto e execução de estruturas de madeira. Detalhes construtivos. Normas técnicas. Estruturas de madeira em situação de incêndio."
+    },
+    {
+      "id": "EMB5883",
+      "code": "EMB5883",
+      "name": "Aeroportos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5856"
+      ],
+      "equivalents": [
+        "EMB5865"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5856"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5865"
+      },
+      "syllabus": "Conceitos e considerações gerais sobre aviação civil e terminais aeroviários. Tipos de terminais aeroviários. Planejamento do aeroporto. Plano diretor. Localização. Orientação de pistas. Controle de tráfego aéreo. Drenagem. Comportamento dos materiais. Características das aeronaves. Estudo do tráfego. Aeronave de projeto. Projeto Geométrico. Dimensionamento da estrutura de pavimento. Sinalização. Legislação. Softwares aplicados"
+    },
+    {
+      "id": "EMB5884",
+      "code": "EMB5884",
+      "name": "Pontes",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5882"
+      ],
+      "equivalents": [
+        "EMB5860"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5882"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5860"
+      },
+      "syllabus": "Definições. Elementos componentes de uma ponte. Tipos e classificação das pontes. Normas. Pontes em Concreto Armado. Formação do Trem Tipo. Cargas, solicitações, deformações, esforços horizontais, dimensionamento, detalhes construtivos. Noções de pontes mistas de aço e concreto."
+    },
+    {
+      "id": "EMB5885",
+      "code": "EMB5885",
+      "name": "Ferrovias e Metrovias",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMB5841",
+        "EMB5851"
+      ],
+      "equivalents": [
+        "EMB5861"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5841"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5851"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5861"
+      },
+      "syllabus": "Generalidades. Conceitos básicos metro- ferroviários. Via permanente. Dimensionamento da superestrutura. Projeto geométrico da linha. Construção e manutenção da via permanente. Instalações complementares. Planejamento de operação. Veículos ferroviários. Sistemas de controle de tráfego ferroviário. Sinalização. Softwares aplicados. Planejamento de operação."
+    },
+    {
+      "id": "EMB5899",
+      "code": "EMB5899",
+      "name": "Estágio Curricular Obrigatório",
+      "credits": 14,
+      "hours": 252,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3572,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 3572,
+      "syllabus": "Vivência em indústrias, ou em instituições de pesquisa, ou em empresas, que se utilizam dos conteúdos técnicos que compõe o curso; Treinamento prático a partir da aplicação dos conhecimentos técnicos adquiridos no curso. Desenvolvimento ou aperfeiçoamento do relacionamento profissional e humano."
+    },
+    {
+      "id": "EMB5012",
+      "code": "EMB5012",
+      "name": "Desenho e Modelagem Geométrica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Disciplinas Optativas Sistemas CAD, metodologia para modelamento de produtos tridimensionais. Práticas com software CAD. Técnicas de modelamento sólido. Modelamento de produtos, geração de desenho de engenharia, normas de desenho técnico, desenho de conjunto, montagem, lista de materiais."
+    },
+    {
+      "id": "EMB5049",
+      "code": "EMB5049",
+      "name": "Física Experimental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5048"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5048"
+      },
+      "syllabus": "Realização e análise de experimentos compreendendo os seguintes tópicos: Mecânica, ondas, oscilações, termodinâmica, eletricidade e magnetismo."
+    },
+    {
+      "id": "EMB5050",
+      "code": "EMB5050",
+      "name": "Língua Inglesa: Prática de Redação e de Tradução",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Gramática Básica do Inglês. Conversação Simples. Redação em Língua Portuguesa e Inglesa. Tradução Português-Inglês."
+    },
+    {
+      "id": "EMB5051",
+      "code": "EMB5051",
+      "name": "Tradução de Textos Literários e Acadêmicos-Inglês-Português-Inglês",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções de Teoria da Tradução. Prática de Tradução de Textos Literários e Acadêmicos Inglês-Português-Inglês."
+    },
+    {
+      "id": "EMB5052",
+      "code": "EMB5052",
+      "name": "Tópicos Especiais em Língua Estrangeiras",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A disciplina não possui ementa pré-definida. O conteudo a ser abordado versará sobre assuntos visando ao aprofundamento de temas relacionados à área de línguas estrangeiras."
+    },
+    {
+      "id": "EMB5053",
+      "code": "EMB5053",
+      "name": "Aprimoramento da Escrita Acadêmica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Norma culta e escrita acadêmica. Sintaxe e Gramática aplicadas à redação acadêmica. Análise de textos acadêmicos."
+    },
+    {
+      "id": "EMB5054",
+      "code": "EMB5054",
+      "name": "Relações Interpessoais nas Organizações",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5120"
+      },
+      "syllabus": "Formação da personalidade e dos papéis organizacionais. A importância do autoconhecimento na dinâmica cognitiva e emocional das relações interpessoais. Inteligência emocional. Historicidade, contemporaneidade e características sociais na construção do eu. As atividades laborais e os papéis sociais. A importância da comunicação na constituição dos indivíduos e dentro das organizações. Relações interpessoais e dinâmica organizacional. Ética e Moralidade. Líderes e Liderança."
+    },
+    {
+      "id": "EMB5056",
+      "code": "EMB5056",
+      "name": "Ergonomia e Segurança",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos. Fisiologia do trabalho. Antropometria e Biomecânica. Processos Cognitivos. Dispositivos de informação. Percepção e processamento da informação. Manejo e controles. Metodologias de análise ergonômica. Ergonomia do produto. Variáveis ambientais: iluminação, ruído, vibrações, temperatura. Análise ergonômica do trabalho. Segurança do trabalho."
+    },
+    {
+      "id": "EMB5058",
+      "code": "EMB5058",
+      "name": "Estatística II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5057"
+      },
+      "syllabus": "Estimação de parâmetros pelo método da máxima verossimilhança. Regressão linear simples e múltipla: estimação de parâmetros e teste de hipóteses, predição para novas observações, analise da adequação do modelo, correlação. Introdução a Modelos Lineares Generalizados (MLG): família exponencial de distribuições, elementos básicos, principais MLGs para dados discretos, Estimação de parâmetros e teste de hipóteses, avaliação do ajuste do modelo. Aplicações com uso de ferramentas computacionais."
+    },
+    {
+      "id": "EMB5059",
+      "code": "EMB5059",
+      "name": "Metodologia de Projeto",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Introdução: contexto e importância do projeto de produtos. Modelos do processo e planejamento do projeto de produtos/serviços. Métodos e ferramentas para a especificação de problemas de projeto e de concepção de produtos/serviços. Projeto preliminar: modelagem, análise e simulação de soluções de projeto. Projeto detalhado. Técnicas de prototipagem. Desenvolvimento de projetos com a Comunidade. Técnicas e conceitos de Desenho Universal em projetos de engenharia.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMB5061",
+      "code": "EMB5061",
+      "name": "Metrologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5057"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5057"
+      },
+      "syllabus": "Conceitos fundamentais da metrologia científica e industrial; Sistema Internacional de Unidades; Medições diretas e Indiretas; Erros de medição; Características dos sistemas de medição; Calibração e rastreabilidade metrológica;Estimativa de incerteza de medição; Comprovação metrológica;Práticas em laboratório (grandezas mecânicas e elétricas)."
+    },
+    {
+      "id": "EMB5064",
+      "code": "EMB5064",
+      "name": "Avaliação de Impactos Ambientais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Poluição Ambiental. Controle de Poluição do Solo, Água e Ar, Impactos Ambientais, Gestão Ambiental. Produção mais Limpa. Riscos e Impactos Tecnológicos."
+    },
+    {
+      "id": "EMB5067",
+      "code": "EMB5067",
+      "name": "Gestão da Qualidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5120"
+      },
+      "syllabus": "A Evolução do conceito e as dimensões da qualidade; Fundamentos e princípios da gestão da qualidade; Abordagem de risco no planejamento estratégico e operacional; Normas de Sistemas de Gestão da Qualidade e o processo de certificação; Auditorias de sistema, de processo e de produto; Manutenção e Melhoria Contínua na gestão da qualidade; Normas setoriais de sistemas de gestão da qualidade."
+    },
+    {
+      "id": "EMB5096",
+      "code": "EMB5096",
+      "name": "Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Intercâmbio acadêmico efetuado em instituição parceira da UFSC, para desenvolvimento de atividades técnico-científicas em instituições nacionais ou internacionais."
+    },
+    {
+      "id": "EMB5097",
+      "code": "EMB5097",
+      "name": "Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Intercâmbio acadêmico efetuado em instituição parceira da UFSC, para desenvolvimento de atividades técnico-científicas em instituições nacionais ou internacionais."
+    },
+    {
+      "id": "EMB5098",
+      "code": "EMB5098",
+      "name": "Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Intercâmbio acadêmico efetuado em instituição parceira da UFSC, para desenvolvimento de atividades técnico-científicas em instituições nacionais ou internacionais."
+    },
+    {
+      "id": "EMB5100",
+      "code": "EMB5100",
+      "name": "Projeto Empreender e Inovar",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5320"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5320"
+          },
+          {
+            "kind": "hours",
+            "hours": 72
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Processo de concepção de produtos, serviços e negócios. Aplicação de conceitos e ferramentas de gestão. Aplicação de modelos para desenvolvimento de novos negócios",
+      "extensionHours": 72
+    },
+    {
+      "id": "EMB5115",
+      "code": "EMB5115",
+      "name": "Vibrações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5014",
+        "EMB5041"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5014"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5041"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos problemas de vibração em engenharia. Terminologia. Princípios Básicos. Sistemas com um grau de liberdade: vibração livre, métodos de energia, amortecimento e vibração forçada. Sistemas com dois graus de liberdade: vibração livre e forçada. Sistemas com múltiplos graus de liberdade. Introdução aos sistemas contínuos. Introdução aos sistemas de medição de vibrações."
+    },
+    {
+      "id": "EMB5117",
+      "code": "EMB5117",
+      "name": "Introdução ao Método de Elementos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5872"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5872"
+      },
+      "syllabus": "Sistemas CAE (Computer Aided Engineering). Matriz de rigidez e montagem do sistema de equações. Problemas lineares unidimensionais e bidimensionais. Graus de liberdade e funções de interpolação dos elementos. Modelo constitutivo do material. Análise de tensões e curva de convergência. Elementos isoparamétricos. Integração numérica. Aplicação em softwares comerciais."
+    },
+    {
+      "id": "EMB5320",
+      "code": "EMB5320",
+      "name": "Empreendedorismo e Inovação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5059",
+        "EMB5120",
+        "EMB5961"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5059"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5120"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5961"
+          }
+        ]
+      },
+      "syllabus": "Finitos Conceito de inovação. Tipos de inovação. Estratégias de Inovação. A inovação como um processo organizacional. Mecanismos de fomento e cooperação em pesquisa e desenvolvimento. Empreendedorismo. Características, tipos e habilidades do empreendedor. Plano de Negócios: etapas, processos e elaboração."
+    },
+    {
+      "id": "EMB5631",
+      "code": "EMB5631",
+      "name": "Programação III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5649"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5649"
+      },
+      "syllabus": "Fundamentos da orientação a objetos: herança, herança múltipla, polimorfismo, encapsulamento, construtores e destrutores, associação. Sobrecarga de operadores. Programação genérica (metaprogramação estática)."
+    },
+    {
+      "id": "EMB5649",
+      "code": "EMB5649",
+      "name": "Programação II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5648"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5648"
+      },
+      "syllabus": "Apontadores, alocação dinâmica de memória. Recursividade. Algoritmos de ordenação e busca. Tipos abstratos de dados. Listas, pilhas, filas e árvores."
+    },
+    {
+      "id": "EMB5663",
+      "code": "EMB5663",
+      "name": "Aprendizado de máquina",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5631"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5631"
+      },
+      "syllabus": "Visão geral acerca de Aprendizado de Máquina. Principais paradigmas de aprendizado: aprendizado supervisionado, aprendizado não supervisionado e aprendizado por reforço. Qualidade e pré-processamento de dados. Métricas e estratégias para avaliação experimental de modelos."
+    },
+    {
+      "id": "EMB5889",
+      "code": "EMB5889",
+      "name": "Geotecnia Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5851"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5851"
+      },
+      "syllabus": "Projetos de aterros de resíduos. Remediação de áreas contaminadas. Processos erosivos. Reutilização de resíduos e rejeitos em aplicações geotécnicas: viabilidade técnica, logística e ambiental."
+    },
+    {
+      "id": "EMB5890",
+      "code": "EMB5890",
+      "name": "Patologia das Construções",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5876"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5876"
+      },
+      "syllabus": "Conceitos. Agentes causadores de manifestações patológicas em obras de infraestrutura. Patologias em construções de concreto armado, Sistemas de revestimento, impermeabilizações, Sistemas de vedação vertical; de fundações e de pavimentos.; via permanente ferroviária; pistas aeroportuárias Diagnóstico e prognóstico. Prevenção."
+    },
+    {
+      "id": "EMB5891",
+      "code": "EMB5891",
+      "name": "Tópicos de Modelagem de Informações de Construção (BIM) - Edificações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5871",
+        "EMB5876"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5871"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5876"
+          }
+        ]
+      },
+      "syllabus": "Conceitos do BIM (Building Information Modeling Modelagem de Informações de Construção) aplicado a obras de edificações, Recursos, Softwares utilizados, Modelos nD (Modelagem, Planejamento, Custos), Compatibilização de projetos, Simuladores, Recursos, Interoperabilidade, Trabalho colaborativo."
+    },
+    {
+      "id": "EMB5892",
+      "code": "EMB5892",
+      "name": "Tópicos de Modelagem de Informações de Construção (BIM) Infraestrutura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos do BIM (Building Information Modeling Modelagem de Informações de Construção) aplicado a obras de infraestrutura, Recursos,Softwares utilizados, Modelos nD (Modelagem;, Planejamento, Custos), Compatibilização de projetos, Simuladores, Recursos, Interoperabilidade, Trabalho colaborativo."
+    },
+    {
+      "id": "EMB5893",
+      "code": "EMB5893",
+      "name": "Estabilização de solos e metodologias de dosagem",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5835",
+        "EMB5844"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5835"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5844"
+          }
+        ]
+      },
+      "syllabus": "Princípios de estabilização de solos. Estabilização mecânica. Estabilização granulométrica. Estabilização físico-química. Metodologias de dosagem. Tratamento de solos com cimento, cal e resíduos industriais. Propriedades mecânicas de solos estabilizados."
+    },
+    {
+      "id": "EMB5894",
+      "code": "EMB5894",
+      "name": "Ensaios não destrutivos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5882"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5882"
+      },
+      "syllabus": "Introdução. Histórico. Ensaios não-destrutivos e parcialmente destrutivos. Princípios de funcionamento. Teoria básica. Vantagens e desvantagens. Aplicações práticas. Áreas de pesquisa."
+    },
+    {
+      "id": "EMB5895",
+      "code": "EMB5895",
+      "name": "Inovação na construção",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5876"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5876"
+      },
+      "syllabus": "Novos materiais e tecnologias utilizadas na construção civil (Materiais Novos materiais e tecnologias utilizadas na construção civil; Requisitos para seleção dos materiais e técnicas da construção civil e implantação de tecnologias construtivas racionalizadas em obras."
+    },
+    {
+      "id": "EMB5896",
+      "code": "EMB5896",
+      "name": "Construções Sustentáveis",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5876"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5876"
+      },
+      "syllabus": "Introdução à sustentabilidade, Impacto ambiental da indústria da construção, Materiais e Sistemas construtivos e a sustentabilidade. Uso e ocupação do solo. Eficiência energética, uso racional de água, uso de recursos renováveis, gerenciamento de resíduos. Métodos de avaliação de sustentabilidade de edifícios. Métodos de avaliação de sustentabilidade de edifícios (sistemas de certificação). Uso e ocupação do solo (escolha do local de projeto de acordo com critérios de sustentabilidade). Materiais e Sistemas construtivos e a sustentabilidade (conceito de energia embutida e ciclo de vida útil, materiais de acabamento). Eficiência energética, uso racional de água, uso de recursos renováveis, gerenciamento de resíduos."
+    },
+    {
+      "id": "EMB5897",
+      "code": "EMB5897",
+      "name": "Concepção Estrutural",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5882"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5882"
+      },
+      "syllabus": "Conceito de concepção estrutural aliado à arquitetura. Sistemas estruturais disponíveis e suas aplicações. Exemplos de concepção e estudos de caso. Utilização de modelos estruturais físicos qualitativos para pré-avaliação do comportamento estrutural. Avaliação quantitativa dos modelos físicos em plataformas computacionais de análise estrutural."
+    },
+    {
+      "id": "EMB5898",
+      "code": "EMB5898",
+      "name": "Obras de drenagem urbana e rodoviária",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5874",
+        "EMB5878"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5874"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5878"
+          }
+        ]
+      },
+      "syllabus": "Introdução. Conceitos de drenagem. Hidrologia para fins de dimensionamento. Noções básicas de hidráulica. Obras de drenagem superficial e profunda. Controle de inundações. Projetos de drenagem. Estudos de caso."
+    },
+    {
+      "id": "EMB5960",
+      "code": "EMB5960",
+      "name": "Transportes Não Motorizados",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Políticas de transportes não motorizado, dinâmica urbana à circulação não motorizada: circulação de pedestres e sistema cicloviário. Métodos de análise, instrumentos e indicadores para transportes não motorizados.",
+      "extensionHours": 36
+    },
+    {
+      "id": "EMB5962",
+      "code": "EMB5962",
+      "name": "Planejamento Estratégico",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5120"
+      },
+      "syllabus": "-Contextualização e definição de Estratégia. Teorias de Estratégia. Planejamento Estratégico, Tático e Operacional. Modelos para a formulação, implementação e avaliação do Planejamento Estratégico."
+    },
+    {
+      "id": "EMB5968",
+      "code": "EMB5968",
+      "name": "Projeto e Operação de Terminais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituação geral e função dos terminais de transportes: rodoviárias, estações de metrô e de trem de curta e de longa distância, portos e aeroportos. Dimensionamento físico das instalações para a operação de transportes. Capacidades de transporte. Nível de serviço em terminais de transportes. Indicadores de desempenho de terminais de transportes."
+    },
+    {
+      "id": "EMB5971",
+      "code": "EMB5971",
+      "name": "Sistemas de Transportes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O transporte no contexto urbano. Introdução ao Planejamento de transportes. Aspectos técnicos e econômicos das modalidades de transportes. Coordenação das modalidades de transportes. Operações de transporte de cargas perigosas. Concessões e Contratos. Transportes especializados. Os transportes no Brasil e novas perspectivas."
+    },
+    {
+      "id": "EMB5972",
+      "code": "EMB5972",
+      "name": "Impactos Ambientais dos Transportes",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Impactos Ambientais dos Transportes de Produtos Perigosos. Impactos Ambientais dos diferentes modos. Licenciamento Ambiental e Legislação Ambiental Aplicada ao Setor de Transportes. Metodologias de Avaliação dos Impactos Ambientais dos Transportes. Medidas Mitigadoras e Compensatórias dos Impactos Ambientais dos Transportes. Análise de Ciclo de Vida em Transportes."
+    },
+    {
+      "id": "EMB5973",
+      "code": "EMB5973",
+      "name": "Sistemas de Informações Geográficas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1200
+      },
+      "prerequisiteHours": 1200,
+      "syllabus": "Elementos essenciais. Dados espaciais: estrutura (matricial e vetorial) e geometria (pontos, linhas e polígonos). Possibilidades e importância de aplicação em problemas de mobilidade. Ferramentas básicas: análise, geoprocessamento, visualização e aquisição de dados. Gerência de bancos de dados. Ferramentas específicas de análise estatística espacial. Resoluções de problemas e desenvolvimento de aplicações para planejamento de mobilidade.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMB5974",
+      "code": "EMB5974",
+      "name": "Pesquisa Operacional I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5005"
+      },
+      "syllabus": "Introdução: histórico, objetivos, restrições e modelos. Formulação de modelos de programação linear. Solução gráfica. Solução algébrica. Método simplex. Dualidade. Análise de sensibilidade. Problemas lineares especiais: Problema de transportes; Problema de atribuição; Problema de caminho mínimo; Problema de fluxo máximo. Ferramentas computacionais para solução de problemas."
+    },
+    {
+      "id": "EMB5975",
+      "code": "EMB5975",
+      "name": "Pesquisa Operacional II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5974"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5974"
+      },
+      "syllabus": "Programação dinâmica. Formulação de modelos não lineares. Condições de otimalidade para problemas irrestritos e restritos. Métodos de otimização para problemas irrestritos e para problemas restritos. Programação quadrática. Programação separável. Programação convexa. Ferramentas computacionais para solução de problemas."
+    },
+    {
+      "id": "EMB5977",
+      "code": "EMB5977",
+      "name": "Logística I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5120"
+      },
+      "syllabus": "Conceitos: Logística, Logística de Suprimentos, Logística de Distribuição e Logística Integrada. Logística reversa. Cadeia de Suprimentos. Processos da Cadeia de Suprimentos. Gestão da Cadeia de Suprimentos. Nível de Serviço Logístico. Indicadores de Desempenho. Tecnologias e Processos da Cadeia de Suprimentos."
+    },
+    {
+      "id": "EMB5978",
+      "code": "EMB5978",
+      "name": "Logística II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5058",
+        "EMB5977"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5058"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5977"
+          }
+        ]
+      },
+      "syllabus": "Gestão de materiais. Previsão de Demanda. Introdução ao Planejamento de Vendas e operações. Planejamento e controle da produção. Noções de Teoria das restrições. Dimensionamento e controle de estoques. Custos relacionados aos Estoques. Desenvolvimento e avaliação de fornecedores."
+    },
+    {
+      "id": "EMB5979",
+      "code": "EMB5979",
+      "name": "Logística III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5977"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5977"
+      },
+      "syllabus": "Armazenagem. Custos de Armazenagem. Unidades de estocagem e movimentação de armazéns. Distribuição física. Custos de distribuição. Canais de distribuição. Modalidades de entrega. A inter-relação entre o marketing e a distribuição física. Cadeia de suprimentos e o relacionamento com o cliente. Tópicos em logística urbana. Noções de logística internacional."
+    },
+    {
+      "id": "EMB5983",
+      "code": "EMB5983",
+      "name": "Engenharia de Tráfego II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EMB5982"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5982"
+      },
+      "syllabus": "Engenharia de Tráfego Aeroviário: Definições e Estrutura do Espaço Aéreo; Sistemas de Controle de Tráfego Aéreo. Engenharia de Tráfego Ferroviário: Mecânica de Locomoção de Veículos Ferroviários; Capacidade Ferroviária; Sistemas de Controle de Tráfego Ferroviário. Engenharia de Tráfego Rodoviário: Mecânica de Locomoção de Veículos Rodoviários; Modelos de Fluxo de Tráfego (filas, shockwaves, veículos probe); Rotatórias e Canalizações; Dimensionamento de Semáforos; Modelos de Simulação; Segurança Viária: Fundamentos de Acidentes, Fatores Associados à Severidade, Fatores Associados à Frequência, Avaliação de Conflitos, Modelagem, Pontos Críticos."
+    },
+    {
+      "id": "EMB5992",
+      "code": "EMB5992",
+      "name": "Planejamento Estratégico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Contextualização e definição de Estratégia. Teorias de Estratégia. Planejamento Estratégico, Tático e Operacional. Modelos para a formulação, implementação e avaliação do Planejamento Estratégico."
+    },
+    {
+      "id": "EMB6800",
+      "code": "EMB6800",
+      "name": "Disciplina em Pós-graduação 1",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A disciplina não possui ementa pré-definida. O conteúdo a ser abordado é dado pelas disciplinas oferecidas em programa de pós-graduação da UFSC, com as quais esta disciplina tem equivalência."
+    },
+    {
+      "id": "EMB6801",
+      "code": "EMB6801",
+      "name": "Disciplina em Pós-graduação 2",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A disciplina não possui ementa pré-definida. O conteúdo a ser abordado é dado pelas disciplinas oferecidas em programa de pós-graduação da UFSC, com as quais esta disciplina tem equivalência."
+    },
+    {
+      "id": "EMB6802",
+      "code": "EMB6802",
+      "name": "Disciplina em Pós-graduação 3",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A disciplina não possui ementa pré-definida. O conteúdo a ser abordado é dado pelas disciplinas oferecidas em programa de pós-graduação da UFSC, com as quais esta disciplina tem equivalência."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "EMB5879",
+      "code": "EMB5879",
+      "name": "Atividades Complementares",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades Complementares"
+    },
+    {
+      "id": "EMB5886",
+      "code": "EMB5886",
+      "name": "Projetos de Extensão",
+      "credits": 15,
+      "hours": 270,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Ações de Extensão Projetos de Extensão"
+    },
+    {
+      "id": "EMB5887",
+      "code": "EMB5887",
+      "name": "Cursos de Extensão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cursos de Extensão"
+    },
+    {
+      "id": "EMB5888",
+      "code": "EMB5888",
+      "name": "Eventos de Extensão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Eventos de Extensão"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "EMB5001",
+      "EMB5005",
+      "EMB5036",
+      "EMB5055",
+      "EMB5062",
+      "EMB5648",
+      "EMB5832",
+      "EMB5007",
+      "EMB5022",
+      "EMB5029",
+      "EMB5048",
+      "EMB5063",
+      "EMB5833",
+      "EMB5011",
+      "EMB5016",
+      "EMB5030",
+      "EMB5039",
+      "EMB5057",
+      "EMB5866",
+      "EMB5014",
+      "EMB5021",
+      "EMB5040",
+      "EMB5041",
+      "EMB5043",
+      "EMB5835",
+      "EMB5867",
+      "EMB5120",
+      "EMB5868",
+      "EMB5869",
+      "EMB5870",
+      "EMB5871",
+      "EMB5872",
+      "EMB5982",
+      "EMB5841",
+      "EMB5844",
+      "EMB5873",
+      "EMB5874",
+      "EMB5875",
+      "EMB5876",
+      "EMB5961",
+      "EMB5836",
+      "EMB5847",
+      "EMB5849",
+      "EMB5850",
+      "EMB5851",
+      "EMB5877",
+      "EMB5878",
+      "EMB5044",
+      "EMB5856",
+      "EMB5857",
+      "EMB5880",
+      "EMB5881",
+      "EMB5882",
+      "EMB5045",
+      "EMB5855",
+      "EMB5858",
+      "EMB5859",
+      "EMB5862",
+      "EMB5883",
+      "EMB5884",
+      "EMB5885",
+      "EMB5899"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 450,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "EMB5012",
+              "EMB5049",
+              "EMB5050",
+              "EMB5051",
+              "EMB5052",
+              "EMB5053",
+              "EMB5054",
+              "EMB5056",
+              "EMB5058",
+              "EMB5059",
+              "EMB5061",
+              "EMB5064",
+              "EMB5067",
+              "EMB5096",
+              "EMB5097",
+              "EMB5098",
+              "EMB5100",
+              "EMB5115",
+              "EMB5117",
+              "EMB5320",
+              "EMB5631",
+              "EMB5649",
+              "EMB5663",
+              "EMB5889",
+              "EMB5890",
+              "EMB5891",
+              "EMB5892",
+              "EMB5893",
+              "EMB5894",
+              "EMB5895",
+              "EMB5896",
+              "EMB5897",
+              "EMB5898",
+              "EMB5960",
+              "EMB5962",
+              "EMB5968",
+              "EMB5971",
+              "EMB5972",
+              "EMB5973",
+              "EMB5974",
+              "EMB5975",
+              "EMB5977",
+              "EMB5978",
+              "EMB5979",
+              "EMB5983",
+              "EMB5992",
+              "EMB6800",
+              "EMB6801",
+              "EMB6802",
+              "LSB7244",
+              "EMB5879",
+              "EMB5886",
+              "EMB5887",
+              "EMB5888"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "607",
+    "curriculumCode": "20251",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=607&curriculo=20251",
+    "sha256": "d0cab9682268e801396210ebc978e68c16472ec2961cabf768483adcedc360fa",
+    "capturedAt": "2026-09-22"
+  }
+}

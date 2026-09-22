@@ -1,0 +1,1338 @@
+{
+  "program": "RELAÇÕES INTERNACIONAIS",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2009.1",
+  "totalHours": 3000,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CIN7003",
+      "code": "CIN7003",
+      "name": "Pesquisa Bibliográfica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Métodos e técnicas da Pesquisa Bibliográfica; identificação e uso das fontes de informação; estudo e aplicação das normas de documentação da ABNT."
+    },
+    {
+      "id": "CNM7210",
+      "code": "CNM7210",
+      "name": "Introdução às Relações Internacionais",
+      "credits": 4,
+      "hours": 60,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A natureza das relações internacionais: campo de estudo e características, o meio internacional. Principais correntes teóricas das relações internacionais. Atores internacionais e o poder. Formação da política externa. O sistema internacional e seus elementos estruturantes. Cenário internacional: evolução e desafios contemporâneos."
+    },
+    {
+      "id": "CNM7211",
+      "code": "CNM7211",
+      "name": "Introdução à Economia",
+      "credits": 4,
+      "hours": 60,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7103"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7103"
+      },
+      "syllabus": "Ciência econômica: objeto que caracteriza as teorias econômicas. A escola clássica: objeto e método. A escola marxista: objeto e método. A escola neoclássica: objeto e método; equilíbrio parcial e geral. Valor e Preço nas teorias econômicas. Análise keynesiana: o princípio da demanda efetiva. O excedente econômico e a repartição da renda."
+    },
+    {
+      "id": "DIR7100",
+      "code": "DIR7100",
+      "name": "Instituições de Direito Público",
+      "credits": 2,
+      "hours": 30,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções de Direito. Constituição. Estado. Governo. Administração Pública. Agentes públicos. Atos administrativos. Licitações e contratos administrativos. Sistema Tributário Nacional"
+    },
+    {
+      "id": "HST7111",
+      "code": "HST7111",
+      "name": "História das Relações Internacionais I",
+      "credits": 4,
+      "hours": 60,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7111
+      },
+      "prerequisiteHours": 7111,
+      "syllabus": "Formação e desenvolvimento da diplomacia e do equilíbrio entre Estados europeus, do renascimento até a revolução francesa e a era napoleônica."
+    },
+    {
+      "id": "SPO7002",
+      "code": "SPO7002",
+      "name": "Ciência Política",
+      "credits": 4,
+      "hours": 60,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O surgimento do conceito de política; política e teoria política na antiguidade grecoromana; as diferentes dimensões do objeto da Ciência Política; o Estado moderno e a transformação da política clássica; conceitos fundamentais da ciência Política: poder, dominação, representação, participação, democracia, igualdade, liberdade."
+    },
+    {
+      "id": "CNM7220",
+      "code": "CNM7220",
+      "name": "Comércio Exterior",
+      "credits": 4,
+      "hours": 60,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM5224"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM5224"
+      },
+      "syllabus": "Teoria e Políticas de Comércio Exterior, Globalização e Integração Econômica; Integração Latino-Americana e Mercosul; Técnicas e Procedimentos em Comércio Exterior; Mercado de Câmbio, Balanço de Pagamentos; Financiamento das Exportações e Importações."
+    },
+    {
+      "id": "CNM7221",
+      "code": "CNM7221",
+      "name": "Teoria das Relações Internacionais I",
+      "credits": 4,
+      "hours": 60,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM7210"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7210"
+      },
+      "syllabus": "O pensamento dos clássicos sobre relações internacionais: Tucídides, Maquiavel, Hobbes, Kant, Locke e Grotius. Os liberais-internacionacionalistas e o problema da paz. A hegemonia do realismo no contexto da guerra fria. A Escola Inglesa. O debate metodológico e a constituição das Relações Internacionais como ciência social."
+    },
+    {
+      "id": "DIR7101",
+      "code": "DIR7101",
+      "name": "Direito Internacional I",
+      "credits": 4,
+      "hours": 60,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Visão abrangente da nova sistemática jurídica imposta pela Universalização das relações econômicas. Conceito de Direito Econômico Internacional. Definição e validade da nova 'lex mercatoria' . Direito da integração. O caso da União Européia e demais tentativas regionais, particularmente as desenvolvidas nas Américas, como o Mercosul e o Nafta."
+    },
+    {
+      "id": "HST7112",
+      "code": "HST7112",
+      "name": "História das Relações Internacionais II",
+      "credits": 4,
+      "hours": 60,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "HST7111"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "HST7111"
+          },
+          {
+            "kind": "hours",
+            "hours": 7112
+          }
+        ]
+      },
+      "prerequisiteHours": 7112,
+      "syllabus": "Exame da evolução das relações internacionais do Congresso de Viena, no início do século XIX. Imperialismo e neocolonialismo (1870 a 1914). A Primeira Guerra Mundial e o Tratado de Versalhes. O período entreguerras. A Segunda Guerra Mundial. O mundo bipolar: EUA e URSS. A atual situação de unipolaridade, no início do Século XXI."
+    },
+    {
+      "id": "INE7004",
+      "code": "INE7004",
+      "name": "Introdução á Estatística",
+      "credits": 4,
+      "hours": 60,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "INE7001"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE7001"
+      },
+      "syllabus": "Análise descritiva e exploratória de dados uni-variados. Análise de dados bi-variados: análise de correlação e de regressão linear simples. Análise de séries temporais. Tópicos especiais (de atualização na área). Uso de recursos informáticos e de Software Estatístico."
+    },
+    {
+      "id": "CNM7230",
+      "code": "CNM7230",
+      "name": "Macro (Macro Aberta)",
+      "credits": 4,
+      "hours": 60,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM7211"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7211"
+      },
+      "syllabus": "Modelo IS-LM e politicas macroeconômicas numa economia fechada; Modelo IS-LM-BP e políticas macroeconômicas numa economia aberta; Minsky e a hipótese de fragilidade financeira; estudo das crises financeiras recentes."
+    },
+    {
+      "id": "CNM7244",
+      "code": "CNM7244",
+      "name": "Organizações Internacionais",
+      "credits": 4,
+      "hours": 60,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Caracterização das organizações internacionais. Evolução das Organizações Internacionais e Formação dos Estados Nacionais. Cooperação e Conflito. Organizações Internacionais e Cooperação Econômica."
+    },
+    {
+      "id": "CNM7500",
+      "code": "CNM7500",
+      "name": "Microeconomia",
+      "credits": 4,
+      "hours": 60,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7231"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7231"
+      },
+      "syllabus": "O poder de mercado, monopólio e concorrência monopolística. Oligopólio, modelos clássicos, Teoria dos Jogos. Mercados de fatores e oferta de trabalho. Equilíbrio geral: troca e produção. Teoria do bem-estar: eficiência e equidade. Externalidades e bens públicos. Informação assimétrica."
+    },
+    {
+      "id": "DIR7102",
+      "code": "DIR7102",
+      "name": "Direito Internacional II",
+      "credits": 4,
+      "hours": 60,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DIR7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR7101"
+      },
+      "syllabus": "-Direito da Guerra, Segurança Internacional e Desarmamento. Jurisdição Internacional e Tribunais Internacionais. O Direito Internacional Penal. Responsabilidade Internacional do Estado. Direito Internacional do Desenvolvimento e Processos de Integração. O direito Internacional Privado: princípios, fundamentos e teorias. Contratos e Acordos Internacionais."
+    },
+    {
+      "id": "SPO7004",
+      "code": "SPO7004",
+      "name": "Teoria Politica I",
+      "credits": 4,
+      "hours": 60,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "SPO7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "SPO7002"
+      },
+      "syllabus": "Contribuições clássicas da teoria política moderna, entre o contexto do Renascimento e meados do século XIX. Maquiavel e o Estado moderno. O republicanismo moderno (Harrington, Milton, Morus). Vertentes do contratualismo (Hobbes, Locke, Rousseau). Conservadorismo e liberalismo na Europa (Burke, Montesquieu, Tocqueville, e Mill). Marx e o marxismo. Os \"federalistas\" e a revolução americana (Madison, Jay, Hamilton)."
+    },
+    {
+      "id": "CNM7236",
+      "code": "CNM7236",
+      "name": "Segurança Internacional",
+      "credits": 4,
+      "hours": 60,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM7210"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7210"
+      },
+      "syllabus": "Segurança internacional: definições e evolução do conceito. A bipolaridade e a segurança tradicional. Dissuasão nuclear. Papel do sistema de segurança coletiva na segurança internacional. Segurança internacional Pós-Guerra Fria: conflitos, desafios, papel das forças armadas. O Brasil no contexto da segurança internacional. -"
+    },
+    {
+      "id": "CNM7240",
+      "code": "CNM7240",
+      "name": "Formação Econômica do Brasil I",
+      "credits": 4,
+      "hours": 60,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7119"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7119"
+      },
+      "syllabus": "As diferentes fases e interpretações da formação econômica brasileira. O sistema colonial e a escravidão. A emergência do trabalho assalariado e as origens do desenvolvimento industrial brasileiro.-"
+    },
+    {
+      "id": "CNM7242",
+      "code": "CNM7242",
+      "name": "Geografia Econômica Internacional",
+      "credits": 4,
+      "hours": 60,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-A geografia econômica tradicional. As teorias da organização econômica do espaço. O desenvolvimento desigual. A divisão territorial e internacional do trabalho. O espaço capitalista contemporâneo: fordismo e acumulação flexível nos territórios. A globalização contemporânea."
+    },
+    {
+      "id": "CNM7245",
+      "code": "CNM7245",
+      "name": "Economia Internacional I",
+      "credits": 4,
+      "hours": 60,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CNM7223"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7223"
+      },
+      "syllabus": "Teoria Clássica do Comércio Internacional. Teoria Neoclássica do Comércio Internacional. Estratégias de Desenvolvimento Comparadas. Protecionismo e Liberalismo Comercial. Blocos Regionalismo e Regionalismo Aberto-"
+    },
+    {
+      "id": "CNM7253",
+      "code": "CNM7253",
+      "name": "Negociação Internacional",
+      "credits": 4,
+      "hours": 60,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos gerais dos conflitos internacionais. Fontes das normas relativas às soluções pacíficas de conflitos entre Estados. Formas extrajudiciárias e judiciárias. A negociação diplomática: procedimentos, condução, intervenção de terceiros, formação de grupos (institucionalizados ou não), soluções negociadas. Bons Ofícios e Mediação. Procedimentos. Soluções e sua execução. O papel do Secretário Geral da ONU e da OEA. A Conciliação Internacional: regras, procedimentos, tipicidades. A arbitragem internacional entre Estados: \"ad hoc\" e institucionalizada. Fases dos procedimentos. Natureza do laudo arbitral. A fase pós-arbitral: a questão da executoriedade do laudo arbitral.-"
+    },
+    {
+      "id": "CNM7232",
+      "code": "CNM7232",
+      "name": "Teoria das Relações Internacionais II",
+      "credits": 4,
+      "hours": 60,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM7221"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7221"
+      },
+      "syllabus": "Transnacionalismo e interdependência complexa. As reformulações do realismo a partir da teoria neo-realista de Kenneth Waltz. As reformulações do liberalismo e o debate neo-neo. Os enfoques construtivistas. Os pós-modernismos. Questões normativas em relações internacionais."
+    },
+    {
+      "id": "CNM7251",
+      "code": "CNM7251",
+      "name": "Formação Econômica do Brasil II",
+      "credits": 4,
+      "hours": 60,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM7240"
+      ],
+      "equivalents": [
+        "CNM7120"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7240"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7120"
+      },
+      "syllabus": "-Síntese das características do processo de nascimento e consolidação da estrutura produtiva industrial até 1930. A crise da economia agro-exportadora e a mudança do quadro político: nova forma de estado. Rumo a industrialização: processo de substituição de importações no contexto da industrialização restringida. O projeto nacional desenvolvimentista de Vargas e direção da política econômica até 1955. A internacionalização da economia brasileira e a estruturação do novo padrão de industrialização a partir de Kubistshek - Plano de Metas. O desenvolvimento e as crises econômicas e políticas no limiar dos anos 60. Afirmação do projeto desenvolvimentista internacionalizante sob governo militar: estratégias, reformas institucionais e política econômica 1964/67. O ciclo de crescimento expansivo e suas contradições: 1968/73. A estratégia de desenvolvimento 1974/79 - II PND: proposta de alteração no padrão de industrialização. Características da política econômica sob cenário econômico adverso da segunda metade dos anos 70."
+    },
+    {
+      "id": "CNM7252",
+      "code": "CNM7252",
+      "name": "Economia Internacional II (Finanças)",
+      "credits": 4,
+      "hours": 60,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM7245"
+      ],
+      "equivalents": [
+        "CNM7136"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7245"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7136"
+      },
+      "syllabus": "-Análise das teorias do investimento internacional. Evolução das finanças internacionais e o papel dos novos atores institucionais nos processos de intermediação e nos fluxos internacionais de capital. A economia política internacional. Estado, Capital e Relações de Poder no plano internacional"
+    },
+    {
+      "id": "SPO7006",
+      "code": "SPO7006",
+      "name": "Teoria Política II",
+      "credits": 4,
+      "hours": 60,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "SPO7004"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "SPO7004"
+      },
+      "syllabus": "Estudo das principais correntes do pensamento político entre fins do século XIX e a atualidade. A teoria clássica das elites: Pareto, Mosca, Michels. A sociologia política de Max Weber. O marxismo de Gramsci. A teoria política no pós-segunda guerra: Pluralismo (Shumpeter, Dahl, Downs, Lindblon). Neomarxismo (Poulantzas, Offe, Przeworski, Elster). Neoinstitucionalismo (Skocpol, Tilly, Evans, Hall, North, Riker). Neo-republicanismo (Arendt, Taylor, Pocock, Skinner, Pettit). O estado atual da teoria democrática."
+    },
+    {
+      "id": "CNM7261",
+      "code": "CNM7261",
+      "name": "Política Externa Brasileira I",
+      "credits": 4,
+      "hours": 60,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Fundamentos históricos da política externa do Brasil. A participação diplomática na formação do espaço nacional. História Diplomática do Brasil independente, destacando o papel do Estado e dos principais atores brasileiros no contexto internacional."
+    },
+    {
+      "id": "CNM7263",
+      "code": "CNM7263",
+      "name": "Economia Brasileira Contemporânea",
+      "credits": 4,
+      "hours": 60,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM7251"
+      ],
+      "equivalents": [
+        "CNM7353"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7251"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7353"
+      },
+      "syllabus": "Periodização do processo econômicos/financeiro dos anos 70 e 80. A controvérsia sobre desenvolvimento e crise dos anos 70. As contradições internacionais e nacionais. A formação do capital financeiro e dos complexos agroindustriais nos anos 70/80. O processo cíclico (crise-recuperação-crise) de l99l a l990: crise econômica. Crise da divida externa, crise financeira do Estado, inflação, Os planos de estabilização (do Plano Cruzado ao Plano Collor). Analise Conjuntural Prospectiva.-"
+    },
+    {
+      "id": "CNM7264",
+      "code": "CNM7264",
+      "name": "Métodos e Técnicas de Pesquisa na",
+      "credits": 4,
+      "hours": 60,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM7221"
+      ],
+      "equivalents": [
+        "CNM7105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7221"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CNM7105"
+      },
+      "syllabus": "Problemas e debates de teoria e método. Abordagens metodológica nas Ciências Sociais e Relações Internacionais. Técnicas e estratégias de pesquisa. Introdução à elaboração de projetos."
+    },
+    {
+      "id": "CNM5360",
+      "code": "CNM5360",
+      "name": "Economia Política Internacional",
+      "credits": 4,
+      "hours": 60,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM7210",
+        "CNM7211"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CNM7210"
+          },
+          {
+            "kind": "course",
+            "code": "CNM7211"
+          }
+        ]
+      },
+      "syllabus": "Ciências Sociais e Relações Internacionais CNM7262) CNM7232) compreensão das relações entre a economia e a política; a formação do mercado mundial e do sistema de Estados; as teorias da globalização; trajetórias comparadas de desenvolvimento; relações entre poder, dinheiro e as organizações internacionais"
+    },
+    {
+      "id": "CNM7272",
+      "code": "CNM7272",
+      "name": "Política Externa Brasileira II",
+      "credits": 4,
+      "hours": 60,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CNM7261"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7261"
+      },
+      "syllabus": "-Bases históricas da política externa brasileira. Paradigmas dominantes na Guerra Fria. Sistema político brasileiro e política externa. Paradigmas contemporâneos. Regionalismo e globalização na formulação da política externa. Atores estatais e não-estatais no processo decisório."
+    },
+    {
+      "id": "CNM7280",
+      "code": "CNM7280",
+      "name": "Monografia",
+      "credits": 12,
+      "hours": 180,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM5231",
+      "code": "CNM5231",
+      "name": "Ecodesenvolvimento e Economia",
+      "credits": 4,
+      "hours": 60,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplinas Optativas Aprofundar conhecimento acerca do conceito e princípios do novo paradigma do desenvolvimento sustentável, analisar as mais significativas e conflitantes correntes do pensamento econômico ambientalista e conhecer técnicas de avaliação sócio-econômica e ambiental."
+    },
+    {
+      "id": "CNM5238",
+      "code": "CNM5238",
+      "name": "Economia Ecológica",
+      "credits": 4,
+      "hours": 60,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ambiental Fluxos físicos de energia e de materiais e preços de mercado. Contas satélites na contablidade social. Racionalidade ambiental. Análise multicritério ambiental. Espaço sócio ambiental e troca ecologicamente desigual. Ecoagropecuária (viabilização técnica e econômica). Reciclagens de materiais e leis da termodinâmica. O papel do movimento ambientalista na viabilização dos processos ecoeconômicos. Ecologia socialista-"
+    },
+    {
+      "id": "CNM5318",
+      "code": "CNM5318",
+      "name": "Planejamento do Setor Público",
+      "credits": 4,
+      "hours": 60,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução. Fundamentos históricos, filosóficos, científicos, sócio-econômicos, políticos, administrativos. O tamanho do estado. Modelos teóricos: abordagens tridimensional, cíclica e sistêmica. O planejamento governamental na Constituicao.Instrumentos. Experiências.-"
+    },
+    {
+      "id": "CNM5338",
+      "code": "CNM5338",
+      "name": "Desenvolvimento Socio-econômico",
+      "credits": 4,
+      "hours": 60,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Determinantes básicos do desenvolvimento e subdesenvolvimento. Teorias e modelos de crescimento econômico capitalista nos países desenvolvidos e subdesenvolvidos. Indicadores econômicos e sociais. Questão ambiental e ecodesenvolvimento."
+    },
+    {
+      "id": "CNM5537",
+      "code": "CNM5537",
+      "name": "Tópicos Especiais em Economia Política",
+      "credits": 4,
+      "hours": 60,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-A necessidade de superar os paradigmas científicos do século XIX; o que se entende por ESPM e seu objetivo: o estudo da mudança social; Questões de método: a relação entre teoria e história; Tempo (longa duração, conjuntura, acontecimento) e espaço (centro, semi-periferia, periferia); Desenvolvimento e condição atual da Economia Mundo Capitalista: as visões de Fernand Braudel, Immanuel Wallerstein, Karl Polanyi e Giovanni Arrighi."
+    },
+    {
+      "id": "CNM5550",
+      "code": "CNM5550",
+      "name": "Tópicos Especiais em Estudos Regionais",
+      "credits": 4,
+      "hours": 60,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "dos Sistemas-Mundo Disciplina de conteúdo variável. Tratamento aprofundado de tópico ou tópicos de especial interesse e atualidade nas diversas áreas de Relações Internacionais."
+    },
+    {
+      "id": "CNM5551",
+      "code": "CNM5551",
+      "name": "Tópicos Especiais em Relações",
+      "credits": 4,
+      "hours": 60,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina de conteúdo variável. Tratamento aprofundado de tópico especialmente relacionados a estudos regionais, regionalismo e integração regional"
+    },
+    {
+      "id": "CNM7233",
+      "code": "CNM7233",
+      "name": "Regimes Internacionais",
+      "credits": 4,
+      "hours": 60,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "CNM7232"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7232"
+      },
+      "syllabus": "Internacionais Análise da cooperação e do conflito. A emergência das organizações e instituições internacionais. Aspectos conceituais e teóricos da ação coletiva. Atores e sujeitos em interações estratégicas assimétricas. Regimes internacionais específicos.-"
+    },
+    {
+      "id": "CNM7234",
+      "code": "CNM7234",
+      "name": "Mercosul e União Europeia",
+      "credits": 4,
+      "hours": 60,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Integração regional na Europa e na América do Sul. União Européia: evolução, princípios, supranacionalidade, políticas e Instituições. Direito da União Européia. MERCOSUL: Evolução, princípios e Instituições. O Direito da Integração. As relações entre na União Européia e a América do Sul"
+    },
+    {
+      "id": "CNM7235",
+      "code": "CNM7235",
+      "name": "Análise de Política Externa",
+      "credits": 4,
+      "hours": 60,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "CNM7221"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNM7221"
+      },
+      "syllabus": "O desenvolvimento da Análise de Política Externa como sub-área das Relações Internacionais. As unidades de decisão na política externa. O papel dos parlamentos na política externa. Grupos de interesse e política externa. Opinião pública e política externa. Atores transnacionais e política externa. Políticas externas supra e subnacionais.-"
+    },
+    {
+      "id": "CNM7243",
+      "code": "CNM7243",
+      "name": "Tópicos Especiais em Teoria das Relações",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Os principais debates nas relações internacionais a partir da crítica ao neo-realismo no final dos anos 70 até o presente. Os estudos sobre a interdependência e os regimes internacionais. O debate entre os neo-realistas e neoliberais. Estudos sobre dependências e as abordagens mundial-sistêmicas. A influencia dos debates na teoria social e na filosofia. Construtivismo. Teoria critica e pós modernismo. Feministas. O debate teórico no pós-guerra fria. -"
+    },
+    {
+      "id": "CNM7246",
+      "code": "CNM7246",
+      "name": "Geopolítica",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Internacionais -conceitos, origem e fundamentos da geopolítica. Teorias clássicas, contexto histórico e seus principais debates. Geopolítica, imperialismo e disputas territoriais. A geopolítica como disciplina depois da Segunda Guerra Mundial. A geopolítica e o confronto EUA x URSS. A geopolítica nos dias atuais: disputas por recursos estratégicos. O pensamento geopolítico no Brasil: integração territorial, a Amazônia e América do Sul."
+    },
+    {
+      "id": "CNM7247",
+      "code": "CNM7247",
+      "name": "Organizações Internacionais II: Interação",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teorias de integração Regional. Contextualização das Organizações internacionais de integração na América, Europa, África e Ásia. Direito da união Europeia e Direito da integração. A arquitetura político-institucional da União Europeia e o processo de europeização das políticas nacionais. Dimensões políticas, jurídicas e sociais da União Europeia e do MERCOSUL. A participação da União Europeia nas missões da paz das Nações Unidas. As relações entre a União Europeia e o Brasil/América do Sul.-"
+    },
+    {
+      "id": "CNM7248",
+      "code": "CNM7248",
+      "name": "Perspectivas Econômicas da América",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Regional -Teoria, prática e crítica do desenvolvimento da América Latina no século XX. O declínio da hegemonia americana e a América Latina. A ascensão do Leste Asiático e a América Latina. Riqueza natural, desindustrialização e desenvolvimento. América Latina na crise global. ONGS, movimentos indígenas e sociais na América Latina. Desigualdade e social-democracia na América Latina. Trabalho, gênero e migrações"
+    },
+    {
+      "id": "CNM7250",
+      "code": "CNM7250",
+      "name": "Relações Internacionais e Cinema",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Latina Cinema; Teorias das Relações Internacionais; segurança internacional; análise de política externa; relações civis-militares; cooperação internacional; direitos humanos e direito internacional; meio ambiente e sustentabilidade; economia política internacional; organizações internacionais; política internacional; política externa brasileira; terrorismo; Estado-nação e organizações sociais."
+    },
+    {
+      "id": "CNM7262",
+      "code": "CNM7262",
+      "name": "Marketing Internacional",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Visão geral do marketing doméstico. Introdução ao marketing internacional. Desafio do marketing internacional. O ambiente do Marketing Internacional. A decisão da firma de internacionalizar. Marketing mix (produto, preço, promoção e distribuição). Seleção de pesquisa de mercados internacionais-"
+    },
+    {
+      "id": "CNM7271",
+      "code": "CNM7271",
+      "name": "América Latina",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-1492. Da emergência do mundo moderno/colonial à formação dos estados nacionais. Americanismo, Pan-americanismo, Pan-latinismo. Da CEPAL e da Teoria da Dependência às análises do Sistema-Mundo e Descolonial. Desenvolvimento e pós-desenvolvimento. Integração regional."
+    },
+    {
+      "id": "CNM7274",
+      "code": "CNM7274",
+      "name": "Refugiados no Sistema Internacional",
+      "credits": 2,
+      "hours": 30,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Direito Internacional dos Refugiados e sua convergencia com o Direito Internacional dos Direitos Humanos e o Direito Internacional Humanitario. Regime Internacional dos Refugiados. Instrumentos Internacionais de Protecao aos Refugiados. Organismos Internacionais e sua atuacao. Estatuto do Refugiado (Brasil). Refugiados no Brasil. O Programa de Reassentamento Voluntario das Nacoes Unidas e o Brasil. Estudo de Casos."
+    },
+    {
+      "id": "CNM7275",
+      "code": "CNM7275",
+      "name": "Análise de Conjuntura das Relações",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-A dimensão prática da Teoria das Relações Internacionais. Análise e monitoramento de conjuntura. Apresentação e divulgação de resultados."
+    },
+    {
+      "id": "CNM7276",
+      "code": "CNM7276",
+      "name": "Iniciação à pesquisa em Ciências",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "DIR5901"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DIR5901"
+      },
+      "syllabus": "Internacionais Ciência e conhecimento científico. O método científico. Especificidades das ciências sociais / Relações Internacionais. Conceitos básicos: teoria, hipótese, variáveis, indicadores. As etapas do processo de pesquisa. Estratégias de produção de textos acadêmicos.-"
+    },
+    {
+      "id": "CNM7277",
+      "code": "CNM7277",
+      "name": "Economia Política do Desenvolvimento: Experiências do Leste Asiático",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sociais/Relações Internacionais A dominação ocidental na Ásia: um panorama histórico. A primeira metade do Século XX: expansão imperialista, guerras, crises econômicas. A segunda metade do Século XX: processos de reconstrução nacional, estratégias de sobrevivência periféricas. Experiências de desenvolvimento: Japão, Coréia do Sul, Tigres Asiáticos. O desenvolvimento econômico chinês. O papel do Estado nas trajetórias de desenvolvimento econômico do Leste Asiático. Esboço comparativo com outras regiões. -"
+    },
+    {
+      "id": "CNM7278",
+      "code": "CNM7278",
+      "name": "Democracia e Relações Internacionais: teoria e prática",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-A democracia na agenda internacional; questões de natureza conceitual e empírica a democracia nas relações internacionais; validade e legitimidade da promoção da democracia; interconexão entre processos e movimentos democráticos e de democratização com as relações internacionais; democratização do sistema internacional."
+    },
+    {
+      "id": "CNM7279",
+      "code": "CNM7279",
+      "name": "Desenvolvimento Sócio-Econômico",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Determinantes básicos do desenvolvimento e do subdesenvolvimento. Teorias e modelos de crescimento econômico capitalista nos países desenvolvidos e nos subdesenvolvidos. Indicadores econômicos e sociais. Questão ambiental e ecodesenvolvimento.-"
+    },
+    {
+      "id": "CNM7281",
+      "code": "CNM7281",
+      "name": "Programa de Intercâmbio em Relações",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7282",
+      "code": "CNM7282",
+      "name": "Programa de Intercâmbio em Relações",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Internacionais I"
+    },
+    {
+      "id": "CNM7293",
+      "code": "CNM7293",
+      "name": "Programa de Intercâmbio em Relações",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Internacionais II Programa de Intercâmbio em Relações Internacionais III"
+    },
+    {
+      "id": "CNM7294",
+      "code": "CNM7294",
+      "name": "Programa de Intercâmbio em Relações",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Internacionais III Programa de Intercâmbio em Relações Internacionais IV"
+    },
+    {
+      "id": "CNM7336",
+      "code": "CNM7336",
+      "name": "Teoria dos Jogos Aplicada às Relações",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Internacionais IV Fundamentos da teoria dos jogos, modelagem de um jogo, jogo simultâneo de informação completa, jogo simultâneo de informação incompleta. Equilíbrio de Nash, estratégias puras, estratégias mistas, jogos sequenciais.-"
+    },
+    {
+      "id": "CNM7420",
+      "code": "CNM7420",
+      "name": "África e as Relações Internacionais",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Internacionais CNM7231) Teorias críticas, abordagens Pós-coloniais e Decoloniais. Eurocentrismo, Modernidade e a Descolonização das Relações Internacionais. O (s) lugares de África nas Relações Internacionais. Panafricanismo e Integração Regional. A inserção internacional e a participação dos Estados africanos em Organizações Internacionais. A promoção da Paz e a defesa dos Direitos Humanos. Estudos de casos."
+    },
+    {
+      "id": "CNM7501",
+      "code": "CNM7501",
+      "name": "Política Internacional do Dinheiro e das Finanças",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O poder político internacional a partir da moeda e das finanças; financial statecraft; geografia do dinheiro, hierarquia das moedas e assimetria de poder; monetarismo e neoliberalismo; instituições, regimes e finanças."
+    },
+    {
+      "id": "CNM7502",
+      "code": "CNM7502",
+      "name": "Economia Política Internacional do Dinheiro e das Finanças",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O poder político internacional a partir da moeda e das finanças; financial statecraft; geografia do dinheiro, hierarquia das moedas e assimetria de poder; monetarismo e neoliberalismo; instituições, regimes e finanças."
+    },
+    {
+      "id": "CNM7503",
+      "code": "CNM7503",
+      "name": "Relações Internacionais e Ciências, Tecnologia e Inovação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7504",
+      "code": "CNM7504",
+      "name": "Política Externa dos Estados Unidos para a",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A política externa dos Estados Unidos em perspectiva histórica - a construção de uma nação e o debate isolacionistas x intervencionistas. A Doutrina Monroe. O papel dos Estados Unidos na Segunda Guerra Mundial e a política externa estadunidense durante o período da Guerra Fria. Atuação estadunidense na América Latina durante a Guerra Fria: intervenções formais e informais (América Central, América do Sul e Caribe). O fim da bipolaridade, o século XXI e o papel dos Estados Unidos no sistema internacional e em especial na América Latina: a Doutrina Bush, as presidências Obama e Trump."
+    },
+    {
+      "id": "CNM7505",
+      "code": "CNM7505",
+      "name": "Raça e Relações Internacionais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "América Latina Teorias críticas do Sul, abordagens (anti) Pós e Decoloniais e a De(s)colonização das Relações Internacionais. Raça, Colonialidades e as hierarquias no Direito Internacional e nas Relações Internacionais. A(s) África(s) e as Relações Internacionais. O Itamaraty e a política externa brasileira. Reparações no Direito Internacional em decorrência da colonização e da escravidão. Interseccionalidades de raça, gênero, classe e sexualidades. Diáspora negra e Migrações contemporâneas. Práticas decoloniais transnacionais: agências e insurgências africanas, afro-diaspóricas e indígenas no sistema internacional"
+    },
+    {
+      "id": "CNM8001",
+      "code": "CNM8001",
+      "name": "Ecologia Política Internacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O surgimento do movimento ambientalista mundial e o panorama inicial de crítica à economia de livre mercado e ao socialismo estatal no início dos anos 70. Crise ambiental e crise civilizatória. A perspectiva fundante e atual do ambientalismo como um movimento de desobediência civil e pacifista. As diferentes concepções teóricas da ecologia política internacional. A trajetória política do ambientalismo na cena internacional: o engajamento sociocultural com outros movimentos da sociedade civil global, com governos, empresas e a comunidade científica internacional. Os processos de demonstração pública da problemática ambiental. As agendas internacionais de cooperação e de inovação para a transição energética a partir do sistema internacional de mudanças climáticas. O papel das ONG's internacionais na cena política global. Juventude, movimentos de justiça ambiental e ciberativismo. Modalidades de ativismo ambiental global e o seu impacto estruturante nas relações internacionais."
+    },
+    {
+      "id": "CNM8002",
+      "code": "CNM8002",
+      "name": "Mudanças Climáticas e Relações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Etiologia das mudanças climáticas. Contexto de emergência do conceito. Relevância e construção do consenso em torno do conceito de mudanças climáticas nos acordos internacionais. Mudanças climáticas: a posição dos países e dos blocos a partir da Cúpula de Paris, 2015. As marchas mundiais pelo clima. Movimentos de justiça climática. Desmatamento e cultura antiecológica. O papel dos cientistas e ativistas do clima, do veganismo, do movimento de libertação animal e dos partidos políticos. Biopolítica/necropolítica e colonialidade da natureza. Democracia e desafios domésticos à transição energética. Teorias das relações internacionais com as mudanças climáticas. Governança global, crise energética, desastres ambientais, países e blocos como potências climáticas. Cultura energética, comportamento energético, capital humano e tecnológico para uma transição à economia de baixo carbono e/ou livre de carbono."
+    },
+    {
+      "id": "CNM8008",
+      "code": "CNM8008",
+      "name": "Tópicos Especiais em Relações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Internacionais"
+    },
+    {
+      "id": "CNM8009",
+      "code": "CNM8009",
+      "name": "Tópicos Especiais em Relações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Internacionais 2"
+    },
+    {
+      "id": "HST5936",
+      "code": "HST5936",
+      "name": "Tópico Especial : História da Diplomacia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Internacionais 3 História da Diplomacia Cultural desde a sua implementação na França (1909) até o século XXI, com foco na criação e utilização de dispositivos culturais para fins de propaganda política."
+    },
+    {
+      "id": "HST7003",
+      "code": "HST7003",
+      "name": "Laboratório de Ensino de História da África",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cultural Estudo das propostas nacionais para o ensino de História da África nos níveis fundamental e médio, favorecidas pela Lei no 10.639/03. Discussões teóricas sobre a temática e as relações possíveis que se estabeleceram com os parâmetros curriculares nacionais (PCNs) e com a Lei de Diretrizes e Bases da Educação (LDB)."
+    },
+    {
+      "id": "HST7202",
+      "code": "HST7202",
+      "name": "História da África ( PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7202
+      },
+      "prerequisiteHours": 7202,
+      "syllabus": "- PCC 36 h/a Estudo das diferentes estruturas sócio-políticas da África entre os séculos XVI e XX, os processos de constituição dos sistemas coloniais e de descolonização e as formas de abordagens didático-pedagógicas."
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "SPO7071",
+      "code": "SPO7071",
+      "name": "Estado e Políticas Públicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "aula) O conceito de Estado. Estado e sociedade no capitalismo contemporâneo. Democracia, descentralização e reforma do Estado. Estado e instituições. Estado e proteção social num mundo globalizado. Welfare State: emergência e declínio. Razões do Estadoprovidência e condições morais do Estado-prisonal. Políticas públicas, neo-institucionalismo e escolha racional. Novos bens públicos e as agências regulatórias. Federalismo e poder local. Políticas Públicas e Sociedade Civil. Movimentos sociais e esferas públicas de gestão."
+    },
+    {
+      "id": "CNM7283",
+      "code": "CNM7283",
+      "name": "Atividades Complementares: Estágio não obrigatório",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7284",
+      "code": "CNM7284",
+      "name": "Atividades Complementares: Monitoria",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7285",
+      "code": "CNM7285",
+      "name": "Atividades Complementares: Iniciação",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7286",
+      "code": "CNM7286",
+      "name": "Atividades Complementares: Palestras",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Científica"
+    },
+    {
+      "id": "CNM7287",
+      "code": "CNM7287",
+      "name": "Atividades Complementares: Extensão",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7288",
+      "code": "CNM7288",
+      "name": "Atividades Complementares: Seminários",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7289",
+      "code": "CNM7289",
+      "name": "Atividades Complementares: Idiomas",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "CNM7290",
+      "code": "CNM7290",
+      "name": "Atividades Complementares: Intercâmbios e Estágios no Exterior",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "CIN7003",
+      "CNM7210",
+      "CNM7211",
+      "DIR7100",
+      "HST7111",
+      "SPO7002",
+      "CNM7220",
+      "CNM7221",
+      "DIR7101",
+      "HST7112",
+      "INE7004",
+      "CNM7230",
+      "CNM7244",
+      "CNM7500",
+      "DIR7102",
+      "SPO7004",
+      "CNM7236",
+      "CNM7240",
+      "CNM7242",
+      "CNM7245",
+      "CNM7253",
+      "CNM7232",
+      "CNM7251",
+      "CNM7252",
+      "SPO7006",
+      "CNM7261",
+      "CNM7263",
+      "CNM7264",
+      "CNM5360",
+      "CNM7272",
+      "CNM7280"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 480,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CNM5231",
+              "CNM5238",
+              "CNM5318",
+              "CNM5338",
+              "CNM5537",
+              "CNM5550",
+              "CNM5551",
+              "CNM7233",
+              "CNM7234",
+              "CNM7235",
+              "CNM7243",
+              "CNM7246",
+              "CNM7247",
+              "CNM7248",
+              "CNM7250",
+              "CNM7262",
+              "CNM7271",
+              "CNM7274",
+              "CNM7275",
+              "CNM7276",
+              "CNM7277",
+              "CNM7278",
+              "CNM7279",
+              "CNM7281",
+              "CNM7282",
+              "CNM7293",
+              "CNM7294",
+              "CNM7336",
+              "CNM7420",
+              "CNM7501",
+              "CNM7502",
+              "CNM7503",
+              "CNM7504",
+              "CNM7505",
+              "CNM8001",
+              "CNM8002",
+              "CNM8008",
+              "CNM8009",
+              "HST5936",
+              "HST7003",
+              "HST7202",
+              "LSB7904",
+              "SPO7071",
+              "CNM7283",
+              "CNM7284",
+              "CNM7285",
+              "CNM7286",
+              "CNM7287",
+              "CNM7288",
+              "CNM7289",
+              "CNM7290"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "340",
+    "curriculumCode": "20091",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=340&curriculo=20091",
+    "sha256": "0e0314c2c416b7b4273056f11474318499e6431df45d61b4cb5424403a1109f5",
+    "capturedAt": "2026-09-22"
+  }
+}

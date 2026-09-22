@@ -1,0 +1,2149 @@
+{
+  "program": "ENGENHARIA DE AQUICULTURA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2024.1",
+  "totalHours": 4410,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "AQI5103",
+      "code": "AQI5103",
+      "name": "Aquicultura Geral I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Orientação ao aluno iniciante sobre a estrutura e os regimentos da UFSC, do CCA, do Departamento de Aqüicultura, e sobre o curso e as principais atividades relacionadas ao desempenho da profissão de Engenheiro de Aquicultura."
+    },
+    {
+      "id": "AQI5109",
+      "code": "AQI5109",
+      "name": "Metodologia de Trabalhos Acadêmicos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Metodologia de organização e redação de trablhos acadêmicos, como base para a confecção de relatórios técnicos e científicos. Busca, organização e apresentação de bibliografias. Apresentações digitais de relatórios e trabalhos acadêmicos."
+    },
+    {
+      "id": "AQI5202",
+      "code": "AQI5202",
+      "name": "Sociologia para Aquicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução às Ciências Sociais. Processos sociais. Grupos sociais. Cultura e sociedade. Questões etnicoraciais. História e cultura afro-brasileira e indígena. O papel da sociologia no desenvolvimento da aqüicultura."
+    },
+    {
+      "id": "ECZ5310",
+      "code": "ECZ5310",
+      "name": "Zoologia Aquática",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a Zoologia. Classificação anátomo-funcional, comportamental e distribuição dos grupos faunísticos de ambientes aquáticos ou associados à exploração e outros tipos de interações com recursos abióticos locais. Forma e função comparadas dos habitats aquáticos."
+    },
+    {
+      "id": "ENR5100",
+      "code": "ENR5100",
+      "name": "Fundamentos em Solos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções em Mineralogia, gênese e morfologia de solos. Propriedades químicas e fisico-hidricas do solo."
+    },
+    {
+      "id": "MTM3180",
+      "code": "MTM3180",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Aritmética básica; cálculo com expressões algébricas; geometria elementar; equações; funções."
+    },
+    {
+      "id": "QMC5109",
+      "code": "QMC5109",
+      "name": "Química Geral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matéria e Energia. Estados da Matéria e Forças Intermoleculares. Estrutura Atômica e Tabela Periódica. Ligação e Estrutura Molecular. Funções Inorgânicas. Reações Químicas. Soluções, Solubilidade e Concentração. Ácidos, Bases e Sais."
+    },
+    {
+      "id": "AQI5104",
+      "code": "AQI5104",
+      "name": "Aquicultura Geral II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5103"
+      },
+      "syllabus": "Classificação dos cultivos. Sistemas de Produção. Estatísticas de Produção. Ambiente Aquático de cultivo. Cultivo de algas. Cultivo de zooplâncton. Cultivo de moluscos. Cultivo de crustáceos. Cultivo de peixes."
+    },
+    {
+      "id": "BEG5106",
+      "code": "BEG5106",
+      "name": "Biologia Celular para Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Organização estrutural e funcional da célula procarionte e de seus componentes sub-celulares. Métodos básicos de estudo das células. Ciclo celular."
+    },
+    {
+      "id": "BOT5140",
+      "code": "BOT5140",
+      "name": "Biologia de Vegetais Aquáticos",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Potencial hídrico e osmorregulação; Nutrição mineral e absorção de íons; Fotofosforilação e fixação de CO2; Fotossíntese e assimilação de nitrogênio; Ritmos. Introdução à taxonomia. Morfologia e sistemática de Macrófitas aquáticas. Algas: Ocorrência; caracterização morfo-fisiológica ; Reprodução e ciclo de vida; Relação com outros organismos; Microalgas tóxicas; Métodos de coleta e identificação.Introdução à taxonomia. Algas: Ocorrência; caracterização morfo- fisiológica; Reprodução e ciclo de vida; Relação com outros organismos; Microalgas tóxicas; Métodos de coleta e identificação. Morfologia e sistemática de Macrófitas aquáticas. Potencial hídrico e osmorregulação; Nutrição mineral e absorção de íons; Fotofosforilação e fixação de CO2; Fotossíntese e assimilação de nitrogênio; Ritmos."
+    },
+    {
+      "id": "BQA5121",
+      "code": "BQA5121",
+      "name": "Bioquímica para Aquicultura",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Química e importância biológica de aminoácidos, proteínas, carboidratos e lipídeos. Enzimas: cinética e inibição. Coenzimas e Vitaminas. Energética bioquímica e visão geral do metabolismo. Metabolismo de carboidratos, lipídeos, aminoácidos e proteínas. Interrelações e regulação metabólica. Bases moleculares da expressão gênica."
+    },
+    {
+      "id": "EXR5105",
+      "code": "EXR5105",
+      "name": "Administração para Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos de administração. O enfoque sistêmico no manejo integrado de estabelecimentos com atividades em aquicultura. Técnicas de administração e manejo de sistemas aquícolas. Planejamento de um sistema aquícola."
+    },
+    {
+      "id": "MTM3181",
+      "code": "MTM3181",
+      "name": "Cálculo para Ciências Agrárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3180"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3180"
+      },
+      "syllabus": "-Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "AQI5210",
+      "code": "AQI5210",
+      "name": "Viagem de Estudo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5103"
+      },
+      "syllabus": "Visitas programadas a estabelecimentos de aquicultura (públicos e privados)."
+    },
+    {
+      "id": "AQI5293",
+      "code": "AQI5293",
+      "name": "Fisiologia de Animais Aquáticos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "AQI5204"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5204"
+      },
+      "syllabus": "Fundamentos de nutrição, digestão, metabolismo e reprodução. Coordenação, interação dos organismos animais. Análise das adaptações dos invertebrados e vertebrados aos diferentes ambientes aquáticos. Intercâmbio gasoso, ajustes à natação e ao mergulho."
+    },
+    {
+      "id": "AQI5320",
+      "code": "AQI5320",
+      "name": "Materiais e Apetrechos para Aquicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cultiváveis (EXT 18h-a) Confecção de malhas de rede entralhe. Confecção de tanques rede, lanternas para moluscos, pernets, redes para mexilhão e bandejas de alimentação. Construção de estruturas de cultivos fixos e flutuantes."
+    },
+    {
+      "id": "BEG5205",
+      "code": "BEG5205",
+      "name": "Embriologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Processos e estratégias de reprodução sexuada e assexuada. Processos de gametogênese e modelos de gônada. Tipos de ovos e de envelopes ovulares. Mecanismos de fecundação. Etapas do desenvolvimento: segmentação, gastrulação e organogênese.Modelos de desenvolvimento direto e indireto. Tipos de larvas."
+    },
+    {
+      "id": "ENR5500",
+      "code": "ENR5500",
+      "name": "Climatologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3180"
+      ],
+      "equivalents": [
+        "ENR5203"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3180"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5203"
+      },
+      "syllabus": "Natureza e campo da climatologia. Atmosfera terrestre. Elementos e fatores climáticos. Relações astronômicas e estações do ano. Medição e estimativas de variáveis meteorológicas. Interpretação de dados meteorológicos e climatológicos. Radiação solar, balanço de radiação e fotoperíodo. Pressão atmosférica e vento. Temperatura do ar. Umidade do ar. Precipitação pluviométrica. Evaporação e evapotranspiração. Balanço hídrico do solo. Classificação climática."
+    },
+    {
+      "id": "ENR5609",
+      "code": "ENR5609",
+      "name": "Desenho Técnico Rural",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao desenho técnico rural. Noções gerais de desenho técnico assistido(Emprego de recursos computacionais). Normalização para o desenho técnico aplicado aos levantamentos topográficos e cartográficos e aos projetos de estruturas e instalações aquicolas. Elaboração de projetos ortogonais para levantmaneto topográficos, cartográficos e planialtimétrico(plantas e cartas). Fundamentos de desenho arquitetônico aplicado as edificações aquicolas. Fundamentos de desenho aplicado as instalações hidraulicas e correlatas."
+    },
+    {
+      "id": "FSC7118",
+      "code": "FSC7118",
+      "name": "Física para Ciências Agrárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC5064"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5064"
+      },
+      "syllabus": "Medidas Físicas. Vetores.Noções de Mecância.Mecânica dos Fluídos.Fenômenos térmicos. Tópicos de Eletricidade"
+    },
+    {
+      "id": "MTM3182",
+      "code": "MTM3182",
+      "name": "Álgebra Linear e Equações Diferenciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3181"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3181"
+      },
+      "syllabus": "-Matrizes. Sistemas lineares. Espaço vetorial. Autovalores e autovetores de uma matriz. Equações diferenciais ordinárias de primeira ordem e de segunda ordem. Sistemas de equações diferenciais ordinárias. Aplicações da álgebra linear e das equações diferenciais."
+    },
+    {
+      "id": "AQI5108",
+      "code": "AQI5108",
+      "name": "Estatística e Informática para Aquicultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3180"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3180"
+      },
+      "syllabus": "Análise exploratória dos dados experimentais. Estatística Descritiva. Introdução à Informática. Distribuições de Probabilidade. Amostragem. Interferência Estatística. Testes de Hipóteses. Testes Paramétricos e não Pramétricos. Testes de Aderência. Tabelas de Contigência."
+    },
+    {
+      "id": "AQI5277",
+      "code": "AQI5277",
+      "name": "Qualidade de Água I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5109"
+      ],
+      "equivalents": [
+        "AQI5211"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5109"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5211"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "A molécula da água e as suas propriedades. Parâmetros físicos, químicos e biológicos da qualidade da água. Métodos analíticos. Manejo de qualidade da água de ambientes aquícolas.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AQI5278",
+      "code": "AQI5278",
+      "name": "Cultivo de Microalgas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BOT5140"
+      ],
+      "equivalents": [
+        "AQI5213"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5140"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5213"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Introdução ao cultivo de microalgas. Técnicas de produção em laboratório. Técnicas de produção em massa. Microalgas na larvicultura de camarões. Microalgas na larvicultura de moluscos. Microalgas na produção de organismos forrageiros. Microalgas para consumo humano. Microalgas na reciclagem de matéria orgânica. Extração de subprodutos. Aspectos econômicos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ECZ5110",
+      "code": "ECZ5110",
+      "name": "Ecologia de Ecossistemas Marinhos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução: conceituação e importância dos ecossistemas costeiros marinhos. Tópicos básicos em ecologia. Principais tipos de ecossistemas costeiros marinhos: lagoas, lagunas costeiras, estuário manguezais e marismas, dunas, restingas, praias, recifes de corais e outros ecossistemas. Classificação. Características físicas e biológicas. Estrutura e função(produtividade, ciclagem, etc.).Interações biológicas. Evolução natural. Degradação. Impactos ambientais. Planejamento. Gerenciamento."
+    },
+    {
+      "id": "ECZ5111",
+      "code": "ECZ5111",
+      "name": "Ecologia de Águas Continentais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Principais ecossistemas aquáticos continentais brasileiros, com ênfase sobre os catarinenses. Introdução à ecologia de rios, lagos, lagoas, represas, açudes e tanques de cultivo. Ambientes naturais e artificiais. Origem e classificação. Principais parâmetros físico-químicos. Principais comunidades bióticas. Produtividade. Ciclagem de nurientes. Eutrofização. Principais tipos de degradação e impactos ambientais. Noções de manejo. Gerenciamento. Legislação. Política Nacional de Recursos Hídricos."
+    },
+    {
+      "id": "ENR5400",
+      "code": "ENR5400",
+      "name": "Topografia para Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos de topografia aplicados à aquicultura. Instrumentos topográficos. Considerações gerais sobre Planimetria e altimetria. Elementos de batimetria. Introdução ao uso do GPS (Sistema de Posicionamento Global)."
+    },
+    {
+      "id": "ENR5813",
+      "code": "ENR5813",
+      "name": "Ecologia do Solo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5100"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR5100"
+      },
+      "syllabus": "Diversidade e ecologia da microbiota e da mesofauna do solo. Interação entre biota e propriedades do solo. Suprimento e absorção de nutrientes. Impactos do manejo do solo no ambiente. Complementariedade e antagonismos entre agricultura e aquicultura."
+    },
+    {
+      "id": "MIP5122",
+      "code": "MIP5122",
+      "name": "Microbiologia Aquática",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5106"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG5106"
+      },
+      "syllabus": "Características gerais dos microorganismos aquáticos. Classificação e taxonomia de microorganismos. Métodos de estudo em microbiologia aquática. Contaminação e monitorização bacteriana."
+    },
+    {
+      "id": "AQI5212",
+      "code": "AQI5212",
+      "name": "Qualidade de Água II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5277"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5277"
+      },
+      "syllabus": "Teoria de sistemas, ecossistemas aquáticos naturais e de cultivo. Produtividade aquática em aqüicultura. Matéria orgânica e eutrofização. Aeração. Fertilização. Filtração da água. Calagem."
+    },
+    {
+      "id": "AQI5279",
+      "code": "AQI5279",
+      "name": "Planejamento e Gestão da Aquicultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5108"
+      ],
+      "equivalents": [
+        "AQI5106"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5108"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5106"
+      },
+      "syllabus": "Noções básicas do Planejamento, Sistemas de Produção, Fluxo de Informações dos Sistemas, Manejo Integrado e Recursos Naturais, Planejamento e Acompanhamento da Produção, Qualidade Total e a Integrasção dos Sistemas de Produção."
+    },
+    {
+      "id": "AQI5294",
+      "code": "AQI5294",
+      "name": "Nutrição em Aquicultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5293",
+        "BQA5121"
+      ],
+      "equivalents": [
+        "AQI5214"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AQI5293"
+          },
+          {
+            "kind": "course",
+            "code": "BQA5121"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5214"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "(EXT 18h-a) Biologia da alimentação de moluscos, crustáceos e peixes cultivados. Morfologia e fisiologia da digestão. Exigências nutricionais. Ingredientes utilizados. Formulação de dietas. Manejo alimentar",
+      "extensionHours": 18
+    },
+    {
+      "id": "ENR5405",
+      "code": "ENR5405",
+      "name": "Hidrologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5400",
+        "ENR5500"
+      ],
+      "equivalents": [
+        "ENR5507"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5400"
+          },
+          {
+            "kind": "course",
+            "code": "ENR5500"
+          },
+          {
+            "kind": "hours",
+            "hours": 5405
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5507"
+      },
+      "prerequisiteHours": 5405,
+      "syllabus": "- Conceito e escopo da hidrologia. Ciclo hidrológico. Bacia hidrográfica: conceito, delimitação e caracterização física. Microbacias rurais. Dinâmica dos componentes do ciclo hidrológico. Águas superficiais e subterrâneas. Aspectos qualitativos dos recursos hídricos. Obtenção e análise de registros hidrológicos. Comportamento hidrológico de bacias hidrográficas."
+    },
+    {
+      "id": "ENR5514",
+      "code": "ENR5514",
+      "name": "Mecanização para Aquicultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7118"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7118"
+      },
+      "syllabus": "Principio de funcionamento dos motores de combustão interna, elétricos, eólicos. Mecanismos de transmissão de tratores. Aspectos gerais de manutenção e operação, regras de segurança. Noções sobre metodologia de projeto de equipamentos. Planejamento e desempenho de sistemas mecanizados aqüicolas."
+    },
+    {
+      "id": "ENR5610",
+      "code": "ENR5610",
+      "name": "Hidráulica para Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5609",
+        "FSC7118",
+        "MTM3181"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5609"
+          },
+          {
+            "kind": "course",
+            "code": "FSC7118"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3181"
+          },
+          {
+            "kind": "hours",
+            "hours": 5610
+          }
+        ]
+      },
+      "prerequisiteHours": 5610,
+      "syllabus": "Comportamento hidrológico em bacias hidrográficas. Levantamento e caracterização das disponibilidades hídricas para fins aquícolas. Hidrostática. Pequenas barragens de terra. Hidrodinâmica. Hidrometria. Condutos livres. condutos sob pressão. Adutoras por gravidade. Estações elevatórias."
+    },
+    {
+      "id": "ZOT5003",
+      "code": "ZOT5003",
+      "name": "Genética para Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG5403"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5403"
+      },
+      "syllabus": "Material genético. Código Genético. Síntese de proteínas. Noções de citogenética. As leis básicas da genética. Interações genéticas. Determinação gênica do sexo e herança ligada ao sexo. Ligação, recombinação e mapeamento genético. Noções de herança quantitativa. Os genes nas populações. Frequências gênicas e genotípicas. O equilíbrio de Hardy-Weinberg."
+    },
+    {
+      "id": "AQI5201",
+      "code": "AQI5201",
+      "name": "Engenharia Econômica para Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos teóricos relacionados à engenharia econômica, com ênfase ao estudo dos sistemas de produção aquícola. Análises de custos, investimentos, análise financeira, fluxo de caixa, avaliação econômica de projetos."
+    },
+    {
+      "id": "AQI5280",
+      "code": "AQI5280",
+      "name": "Patologia de Organismos Aquáticos I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MIP5122"
+      ],
+      "equivalents": [
+        "AQI5340"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MIP5122"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5340"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Aspectos de boas práticas de manejo no cultivo de invertebrados. Imunologia. Enfermidades: etiologia, sinais clínicos e espécies afetadas. Fatores que predispõem enfermidades: ambientais, nutricionais, fisiológicos genéticos e estresse. Técnicas de diagnóstico. Aspectos normativos para controle de enfermidades.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AQI5315",
+      "code": "AQI5315",
+      "name": "Experimentação em Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5108"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5108"
+      },
+      "syllabus": "Introdução. Princípios básicos de experimentação. Planejamento de experimentos. Testes de significância. Experimentos inteiramente casualizados. Experimentos em blocos casualizados. Análise de regressão e correlação. Experimentos com animais aquáticos."
+    },
+    {
+      "id": "AQI5998",
+      "code": "AQI5998",
+      "name": "Piscicultura Continental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5212"
+      ],
+      "equivalents": [
+        "AQI5107"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AQI5212"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5107"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "História da piscicultura continental. Policultivo. Consorciação. Reprodução de Peixes. Métodos aplicados na reprodução artificial de peixes. Técnicas de larvicultura e alevinagem das espécies comerciais. Técnicas de melhoramento genético aplicadas a piscicultura. Principais espécies cultivadas, métodos e sistemas utilizados. Cultivo em tanques-rede. Predadores e doenças de peixes.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5601",
+      "code": "CAL5601",
+      "name": "Análise de Alimentos para Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA5121",
+        "QMC5109"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5121"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5109"
+          }
+        ]
+      },
+      "syllabus": "Métodos analíticos e microanalíticos. Amostragem. Composição centesimal e valor energético de ração animal: glicídios, lipídios, proteínas, fibras, umidade, vitaminas e cinzas. Análise de produtos: pescado, óleos e gorduras, cloreto de sódio, vinagre, condimentos, aditivos, subprodutos, cálcio, fósforo, ferro e legislação."
+    },
+    {
+      "id": "ENR5270",
+      "code": "ENR5270",
+      "name": "Projetos de Edificações de Produção",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5609"
+      ],
+      "equivalents": [
+        "ENR5611"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR5609"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5611"
+      },
+      "syllabus": "O projeto de Engenharia. Elaboração de projetos de Engenharia passo-a-passo. O edifício de produção industrial: tipologia e funcionalidade. Materiais de construção civil aplicados ao edifício de produção aquícola. Funcionalidade das estruturas de edifícios. Instalações elétricas industriais. Luminotécnica aplicada ao projeto de edifícios de produção aquícola."
+    },
+    {
+      "id": "EXR5125",
+      "code": "EXR5125",
+      "name": "Sistemas de Organização Social",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5202"
+      },
+      "syllabus": "Aquícola ENR7314) FSC7118 eh Conceitos básicos de organização social. Recursos humanos e relações humanas. Sistemas cooperativos. Organização comunitária. Métodos de mobilização e organização comunitária."
+    },
+    {
+      "id": "AQI5223",
+      "code": "AQI5223",
+      "name": "Melhoramento Genético para Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5315",
+        "ZOT5003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AQI5315"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT5003"
+          }
+        ]
+      },
+      "syllabus": "Conceitos de genética quantitativa. Constantes biométricas. Análise de variância. Fundamentos de genética de populações. Frequência gênica e sua alteração. Populações finitas. Componentes de variância. Herdabilidade. Seleção. Cruzamentos. Caracteres correlacionados. Androgênese. Ginogênese. Poliploidia. Aspectos gerais de programas de melhoramento genético de espécies aquáticas."
+    },
+    {
+      "id": "AQI5281",
+      "code": "AQI5281",
+      "name": "Cultivo de Moluscos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5212"
+      ],
+      "equivalents": [
+        "AQI5207"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AQI5212"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5207"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Espécies cultivadas. Situação dos cultivos no mundo e no Brasil. Cuidados na implantação de cultivos de moluscos. Tipos e estruturas de cultivo. Larvicultura e obteção de sementes. Manejo e engorda. Maturação e manutenção de Reprodutores. Análises de crescimento e índice de condição. Fisiologia energética e capacidade de carga.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AQI5282",
+      "code": "AQI5282",
+      "name": "Piscicultura Marinha",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5212",
+        "AQI5294"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AQI5212"
+          },
+          {
+            "kind": "course",
+            "code": "AQI5294"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Histórico e Importância. Principais espécies cultivadas e países produtores. Sistemas de produção. Etapas e técnicas de cultivo. Cultivo de espécies nativas. Cultivo de espécies exóticas.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AQI5283",
+      "code": "AQI5283",
+      "name": "Tratamento de Efluentes de Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5610"
+      ],
+      "equivalents": [
+        "AQI5345"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR5610"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5345"
+      },
+      "syllabus": ": Introdução. Caracterização de efluentes aquicolas. Legislação pertinente (breve revisão). Classificação e formas de tratamento: primário, secunário e terciário. Tratamento físico-quimico e biológico: diferenciação de cada tipo. Sistemas de tratamento físico-quimicos: pré-tratamento (gradeamento, caixa de areia), decantadores, caixas de equalização, sistemas de plotação. Sistemas de tratamento biólogico: processos aeróbios e anaeróbios. Sistemas de tratamento conjugados: físico e microbiológicos. Sistemas de desinfecção. ETE´s compactas. Dimensionamento de sistemas de tratamento de efluentes aquicolas. Projeto de uma estação de tratamento de efluentes (ETE) para Aquicultura."
+    },
+    {
+      "id": "AQI5284",
+      "code": "AQI5284",
+      "name": "Controle e Melhoria de Sistemas de Produção (EXT 18h-)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5279"
+      ],
+      "equivalents": [
+        "AQI7815"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AQI5279"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI7815"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "(EXT 18h-a) Gestão de processos. Apoio à tomada de decisão. Sistemas de medição de desempenho. Gestão à vista. Segurança do trabalho"
+    },
+    {
+      "id": "AQI5316",
+      "code": "AQI5316",
+      "name": "Instalações e Construções para Aquicultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5270"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR5270"
+      },
+      "syllabus": "Conceitos básicos sobre instalações para aqüicultura.Seleção de área para cultivo. Planejamento do espaço e a relação com outras atividades. Relação estrutura, espécie e tecnologia. Construção de laboratório de reprodução e produção. Dimensionamento de viveiros de solo (peixes e crustáceos). Sistemas de produção intensiva. Estruturas flutuantes para produção de peixes, moluscos e macroalgas.Estruturação de espaço para desenvolvimento de pesquisa. Infraestrutura para sistemas de colheita, transporte, processamento e armazenagem dos produtos aqüícolas."
+    },
+    {
+      "id": "ENR5271",
+      "code": "ENR5271",
+      "name": "Obras Hidráulicas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5400",
+        "ENR5610"
+      ],
+      "equivalents": [
+        "ENR5611"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5400"
+          },
+          {
+            "kind": "course",
+            "code": "ENR5610"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5611"
+      },
+      "syllabus": "Aspectos construtivos de dimensionamento e funcionamento de obras hidráulicas: canais, desvios de rio, barragens (tipos e etapas construtivas), vertedouros e descarregadores de fundo (controles hidráulicos e Dissipação de Energia), orifícios e comportas; Tomada de água e Estabilidade de taludes para viveiros."
+    },
+    {
+      "id": "AQI5235",
+      "code": "AQI5235",
+      "name": "Legislação da Aquicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a teoria do estado democrático do direito. Direito ambiental. Legislação da aqüicultura no Brasil e no mundo."
+    },
+    {
+      "id": "AQI5285",
+      "code": "AQI5285",
+      "name": "Cultivo de Organismos Aquáticos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5293"
+      ],
+      "equivalents": [
+        "AQI5327"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5293"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5327"
+      },
+      "syllabus": "Panorama da aquicultura ornamental no Brasil e no mundo. Aspectos da produção de organismos ornamentais: reprodução, larvicultura e crescimento. Alimentação de organismos ornamentais. Instalações e sistemas de filtragem. Qualidade da água. Doenças de organismos ornamentais. Embalagem, transporte e comercialização. Legislação para a criação e transporte de organismos ornamentais. Considerações sobre o impacto do extrativismo e do cultivo de organismos aquáticos ornamentais no meio ambiente. Aquários domésticos e aquários de exposição: educação, pesquisa e empreendimento."
+    },
+    {
+      "id": "AQI5286",
+      "code": "AQI5286",
+      "name": "Patologia de Organismos Aquáticos II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5212",
+        "AQI5280"
+      ],
+      "equivalents": [
+        "AQI5341"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AQI5212"
+          },
+          {
+            "kind": "course",
+            "code": "AQI5280"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5341"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Ornamentais (EXT 18h-a) ECZ5310) Profilaxia na Aquicultura . Enfermidades viriais, bacterianas e parasitárias. Seus agentes etiológicos sentomatologia e espécies afetadas. Fatores predisponentes de enfermidades. Tratamento de enfermidades: profilático e curativo. Técnicas de diagnóstico. Quarentena. Zoonoses.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AQI5287",
+      "code": "AQI5287",
+      "name": "Cultivo de Macroalgas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "BOT5140"
+      ],
+      "equivalents": [
+        "AQI5303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5140"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5303"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Status da algocultura mundial. Aspectos que influem nos processos de cultivo: ecológicos, engenharia, econômico e social. Seleção de espécies. Otimização dos fatores físicos, químicos e biológicos que incidem nos cultivos, protótipos de cultivos. Aplicabilidade. Beneficiamento.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AQI5288",
+      "code": "AQI5288",
+      "name": "Aquicultura e o Meio Ambiente",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5277"
+      ],
+      "equivalents": [
+        "AQI5215"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AQI5277"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5215"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Conceito de aquicultura ecológica. Interrelação aquicultura ambiente. Natureza e extensão dos impactos ambientais causados pela aquicultura. O efeito no seu próprio desenvolvimento e formas de evitá-los ou minimizá-los.. Aquicultura como instrumento de preservação ambiental: reciclagem de efluentes rurais, domésticos e industriais; controle biológico de pragas; repovoamento de ambientes naturais e Indicadores biológicos úteis para o controle ambiental. Educação ambiental.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5610",
+      "code": "CAL5610",
+      "name": "Tecnologia Pós - Despesca",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CAL5602"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5602"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Técnicas de conservação de produtos `ïn natura`. Transporte; Distribuição; Comercialização e Controle de Qualidade das matérias primas e dos produtos derivados. Inspeção, legislação sanitária e exportação. Processos produtivos de derivados: produtos curados, defumados, embutidos, enlatados, congelados, desidratados, conservas ácidas, polpa de pescado, farinha e óleo de pescado. Desenvolvimento de novos produtos. Instalações industriais. Especificações de câmaras frigoríficas de elementos de máquinas e equipamentos. Aproveitamento de subprodutos e tratamento de resíduos industriais.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AQI5289",
+      "code": "AQI5289",
+      "name": "Carcinicultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5212",
+        "AQI5294"
+      ],
+      "equivalents": [
+        "AQI5203"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AQI5212"
+          },
+          {
+            "kind": "course",
+            "code": "AQI5294"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5203"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "O cultivo de camarões no Brasil e no mundo. Sistemas de cultivo. Reprodução e larvicultura. Fazendas de cultivo e técnicas de engorda. Repovoamento de ambientes naturais.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AQI5290",
+      "code": "AQI5290",
+      "name": "Elaboração de Projetos de Aquicultura",
+      "credits": 5,
+      "hours": 90,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5316"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5316"
+      },
+      "syllabus": "Conceitos básicos sobre projetos. Relações de engenharia econômica. Estudo de mercado. Aspectos organizacionais. Custos e ingressos. Análise e interpretação de projetos. Financiamento. Programação e controle da produção."
+    },
+    {
+      "id": "AQI5291",
+      "code": "AQI5291",
+      "name": "Empreendedorismo na Aquicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5279"
+      ],
+      "equivalents": [
+        "AQI5342"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AQI5279"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5342"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "(EXT 72h-a) O empreendedor. Oportunidades. Conceitos básicos de negociação. Etapas do processo de negociação. Táticas. Análises de resultados dos empreendimentos e das negociações.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AQI5292",
+      "code": "AQI5292",
+      "name": "Sistemas de Recirculação em Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5316"
+      ],
+      "equivalents": [
+        "AQI5344"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5316"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5344"
+      },
+      "syllabus": "Introdução. Breve revisão de perda de carga e bombas hidráulicas. As características dos sistemas de recirculação. Exemplos de sistemas de recirculação em diversos países. Os componentes dos sistemas de recirculação. Estudo dos sistemas de bombeamento adequados para cada atividade aquícola. Tipos de aeradores e possíveis utilizações em sistemas de recirculação. A utilização de compressores nos projetos de aeração. Controle de parâmetros de qualidade de água integrados com os sistemas de recirculação (automação simples): controle de oxigênio dissolvido, temperatura e pH. Dimensionamento de um sistema de recirculação: consumo de oxigênio e potência de aeração necessária; produção de amônias e demais varáveis envolvidas"
+    },
+    {
+      "id": "AQI5343",
+      "code": "AQI5343",
+      "name": "Impactos, Manejos e Usos Múltiplos de Reservatórios",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5998"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5998"
+      },
+      "syllabus": "(EXT 18h-a) ENR5610) Situação atual da ictiofauna e pesca no Brasil. Impactos causados pelos represamentos. Manejo para mitigação dos impactos causados e permitir a explotação sustentável. Monitoramento e manejo dos recursos pesqueiros. Plano Básico Ambiental. Principais ações de manejo adotadas. Uso múltiplos dos reservatórios."
+    },
+    {
+      "id": "AQI5350",
+      "code": "AQI5350",
+      "name": "Introdução ao Trabalho de Conclusão do Curso (TCC)",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Normas e procedimentos para realização de um Trabalho de Conclusão de Curso (TCC). Elaboração de projeto de TCC sob orientação técnica de um professor orientador."
+    },
+    {
+      "id": "AQI5240",
+      "code": "AQI5240",
+      "name": "Estágio Supervisionado de Engenharia de Aquicultura",
+      "credits": 20,
+      "hours": 360,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estágio em uma Empresa Pública ou privada, mediante um projeto de atividades, orientado por um professor do Curso. Apresentação de um Relatório final das atividades desenvolvidas perante uma Banca constituída de três professores do Curso."
+    },
+    {
+      "id": "AQI5351",
+      "code": "AQI5351",
+      "name": "Trabalho de Conclusão de Curso de Engenharia de Aquicultura (TCC)",
+      "credits": 10,
+      "hours": 180,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI5287",
+        "AQI5289",
+        "AQI5290",
+        "AQI5291",
+        "AQI5292",
+        "AQI5343",
+        "AQI5350"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AQI5287"
+          },
+          {
+            "kind": "course",
+            "code": "AQI5289"
+          },
+          {
+            "kind": "course",
+            "code": "AQI5290"
+          },
+          {
+            "kind": "course",
+            "code": "AQI5291"
+          },
+          {
+            "kind": "course",
+            "code": "AQI5292"
+          },
+          {
+            "kind": "course",
+            "code": "AQI5343"
+          },
+          {
+            "kind": "course",
+            "code": "AQI5350"
+          }
+        ]
+      },
+      "syllabus": "Elaboração e apresentação de um Trabalho de Conclusão de Curso (TCC) em um tema relacionado à área do curso. Planejamento e desenvolvimento do TCC sob a orientação de um docente."
+    },
+    {
+      "id": "AQI5301",
+      "code": "AQI5301",
+      "name": "Aquicultura em Lagos e Represas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Disciplinas Optativas Métodos para estudos biológicos de populações aquáticas. Alterações antrópicas causadas ao ambiente natural. Análise dos impactos causados e alternativas de manejo para mitigação. Explotação de ambientes naturais. Povoamento e repovoamento."
+    },
+    {
+      "id": "AQI5302",
+      "code": "AQI5302",
+      "name": "Desenvolvimento Sustentável em Aquicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5288"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5288"
+      },
+      "syllabus": "Problema sócio-ambiental global. Modelos de desenvolvimento sócio-econômicos. Neoliberalismo x Ecodesenvolvimento. Os impactos da aquicultura desde a ótica sócio-ambiental. Aquicultura sustentável."
+    },
+    {
+      "id": "AQI5305",
+      "code": "AQI5305",
+      "name": "Cultivo de Alimento Vivo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5278"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5278"
+      },
+      "syllabus": "Descrição de Rotíferos, Copépodos, Cladóceros, Artemia, outros organismos zooplanctônicos. Métodos de cultivo, manipulação e processamento. Uso em Aqüicultura. Ensaios de cultivos. Ensaios de alimentação de crustáceos e peixes."
+    },
+    {
+      "id": "AQI5306",
+      "code": "AQI5306",
+      "name": "Reprodução de Peixes",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5293"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5293"
+      },
+      "syllabus": "Princípios da reprodução de peixes. Métodos práticos de indução de desova artificial de peixes. Sistemas utilizados na incubação, larvicultura e alevinagem de peixes."
+    },
+    {
+      "id": "AQI5308",
+      "code": "AQI5308",
+      "name": "Cultivo de Peixes Salmonídeos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5294"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5294"
+      },
+      "syllabus": "Histórico da salmonicultura. Sistemas de cultivo e instalações utilizadas. Principais salmonídeos cultivados. Técnicas de reprodução. Sistemas de engorda. Repovoamento de ambientes naturais. Manejo de melhoramento genético."
+    },
+    {
+      "id": "AQI5310",
+      "code": "AQI5310",
+      "name": "Tópicos Especiais em Aquicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Assuntos específicos relacionados com a área de cultivo de organismos aquáticos. O programa será aprovado pelo Colegiado do curso sempre que for oferecida a disciplina."
+    },
+    {
+      "id": "AQI5311",
+      "code": "AQI5311",
+      "name": "Biotecnologia Aplicada à Aquicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "BQA5121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA5121"
+      },
+      "syllabus": "Revisão: A estrutura do DNA e o funcionamento do DNA. Tecnologia do DNA recombinante . Expressão de genese eucarióticos em bactérias. Marcadores morfológicos e moleculares. Biologia Molecular e suas aplicações aquicultura . Biometria de marcadores genéticos. Mapeamento genético. Animais transgenicos e aquicultura. Identificação de paternidade e diagnóstico genético. Bioética. Biossegurança X Biotecnologia."
+    },
+    {
+      "id": "AQI5312",
+      "code": "AQI5312",
+      "name": "Tópicos Especiais Aqüicultura: Poluição",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Não se aplica"
+    },
+    {
+      "id": "AQI5313",
+      "code": "AQI5313",
+      "name": "Biomateriais, Biocompostos e Novos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução sobre cadeia produtiva atual. Biomateriais, biocompostos, bioativos de pescados. Economia Circular. Caracterização dos resíduos sólidos e líquidos das atividades aquícolas. Resíduos, passivos e ativos. Beneficiamento, produtos e indústrias-clientes. A cadeia produtiva sob a ótica da Economia Circular. Novos mercados da Aquicultura biotecnológica. Projeto de produtos a partir de novos ativos das atividades aquícolas."
+    },
+    {
+      "id": "AQI5325",
+      "code": "AQI5325",
+      "name": "Mergulho Autônomo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Mercados da Aquicultura Aspectos gerais sobre mergulho livre e autônomo. Fisiologia do mergulho. Tecnologia e equipamentos de mergulho. Técnicas especiais: busca e recuperação, mergulho no escuro. Biologia no mergulho."
+    },
+    {
+      "id": "AQI5330",
+      "code": "AQI5330",
+      "name": "Prática de Extensão",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estágio supervisionado por um professor para acompanhamento de projeto de Extensão voltado para a Aquicultura."
+    },
+    {
+      "id": "AQI5335",
+      "code": "AQI5335",
+      "name": "Prática de Pesquisa",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estágio supervisionado por um professor para acompanhamento de projeto de Pesquisa voltado para a Aquicultura."
+    },
+    {
+      "id": "AQI5336",
+      "code": "AQI5336",
+      "name": "Monitoria",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estágio supervisionado por um professor para acompanhamento de projeto de Monitoria voltado para a Aquicultura."
+    },
+    {
+      "id": "AQI5430",
+      "code": "AQI5430",
+      "name": "Vivência em Carcinocultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5103"
+      ],
+      "equivalents": [
+        "AQI5402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5103"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5402"
+      },
+      "syllabus": "Conhecer, na prática, as etapas que envolvem os principais sistemas de cultivo de camarões (laboratório e fazenda), vivenciando os diferentes aspectos da rotina de trabalhos de campo e laboratório. Identificar a importância dessa área da aquicultura, sob os aspectos científicos, acadêmicos, ambientais, econômicos, culturais, sociais e/ou produtivos. Propiciar a aproximação do discente com o docente, dos alunos de graduação e pós-graduação, dos graduandos em diferentes semestres, através do trabalho conjunto. Fornecer experiência do trabalho com material biológico, equipamentos e procedimentos de uso rotineiro na área de cultivo de camarões."
+    },
+    {
+      "id": "AQI5431",
+      "code": "AQI5431",
+      "name": "Vivência em Cultivo de Moluscos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5103"
+      ],
+      "equivalents": [
+        "AQI5403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5103"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5403"
+      },
+      "syllabus": "As atividades complementares são componentes curriculares, que possibilitem o reconhecimento de habilidades, conhecimentos, competências e atitudes do aluno, inclusive adquiridos fora do ambiente acadêmico. Propiciar, além de uma flexibilização curricular, oportunidade para o acadêmico desenvolver uma atitude de maior autonomia, como agente de sua própria formação profissional, estimulando a participação em outras atividades educacionais que não sejam aquelas previstas no currículo, possibilitando um aprofundamento temático e interdisciplinar, tendo como base o cultivo de moluscos marinhos."
+    },
+    {
+      "id": "AQI5432",
+      "code": "AQI5432",
+      "name": "Vivência em Piscicultura Marinha",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5103"
+      ],
+      "equivalents": [
+        "AQI5404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5103"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5404"
+      },
+      "syllabus": "Conhecimento prático das etapas que envolvem os principais sistemas de criação de peixes marinhos (laboratório e campo), com participação nos diferentes aspectos das rotinas de trabalho. Percepção da importância dessa área da aquicultura, sob os aspectos científicos, acadêmicos, ambientais, econômicos, culturais, sociais e/ou produtivos. Aproximação do discente com o trabalho de pesquisa realizada pelo docente, com os alunos de graduação e pós- graduação, através do trabalho conjunto. Experiência de trabalho prático com material biológico, equipamentos e procedimentos de uso rotineiro na área de criação de peixes marinhos."
+    },
+    {
+      "id": "AQI5433",
+      "code": "AQI5433",
+      "name": "Vivência em Piscicultura Continental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5103"
+      ],
+      "equivalents": [
+        "AQI5407"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5103"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5407"
+      },
+      "syllabus": "Praticar as rotinas de trabalho relacionadas ao cultivo de peixes de água doce e interagir com os pesquisadores da área, quer em condições controladas de laboratório quanto em condições de campo. Vivenciar a condução de experimentos de reprodução, larvicultura e alevinagem de peixes de água doce. Participar dos trabalhos de produção das formas jovens de peixes. Permitir o envolvimento dos alunos com as rotinas de manutenção dos sistemas de recirculação de água do laboratório e de manutenção do plantel de reprodutores de peixes de água doce. Vivenciar os estudos de biologia e ecologia de peixes de água doce desenvolvidos pelo grupo de pesquisa. Propiciar a aproximação do discente com o docente, bem como destes com os alunos de graduação e pós-graduação."
+    },
+    {
+      "id": "AQI5434",
+      "code": "AQI5434",
+      "name": "Vivência em Patologia Aquícola",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5103"
+      ],
+      "equivalents": [
+        "AQI5406"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5103"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5406"
+      },
+      "syllabus": "Conhecer na prática as principais patologias de animais aquáticos e interagir com os pesquisadores da área, vivenciando os diferentes aspectos da rotina de trabalhos de campo e laboratório. Identificar a importância dessa área da aquicultura, sob os aspectos científicos, acadêmicos, ambientais, econômicos, culturais, sociais e/ou produtivos. Discutir temas quanto à sustentabilidade e segurança no trabalho, nessa área do conhecimento. Aprender através da união de teoria e prática, leitura e vivência, experiência e modernidade. Propiciar a aproximação do discente com o docente, dos alunos de graduação e pós- graduação, dos graduandos em diferentes semestres, através do trabalho conjunto. Dar oportunidade de atuação na patologia de animais aquáticos, motivando e completando a formação teórica. Fornecer experiência do trabalho com material biológico, equipamentos e procedimentos de uso rotineiro na área de patologia de animais aquáticos."
+    },
+    {
+      "id": "AQI5435",
+      "code": "AQI5435",
+      "name": "Vivência em Algocultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5103"
+      ],
+      "equivalents": [
+        "AQI5407"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5103"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5407"
+      },
+      "syllabus": "Conhecer na prática as etapas que envolvem os principais sistemas de cultivo de algas (macroalgas e microalgas), vivenciando os diferentes aspectos da rotina de trabalhos de campo e laboratório. Identificar a importância dessa área da aquicultura, sob os aspectos científicos, acadêmicos, ambientais, econômicos, culturais, sociais e/ou produtivos. Propiciar a aproximação do discente com o docente, dos alunos de graduação e pós-graduação, dos graduandos em diferentes semestres, através do trabalho conjunto. Fornecer experiência do trabalho com material biológico, equipamentos e procedimentos de uso rotineiro na área de cultivo de algas."
+    },
+    {
+      "id": "AQI5436",
+      "code": "AQI5436",
+      "name": "Vivência em Nutrição",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5103"
+      ],
+      "equivalents": [
+        "AQI5408"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5103"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5408"
+      },
+      "syllabus": "Vivenciar práticas relacionadas à nutrição e alimentação de peixes, tais como confecção de rações, análises de rações e ingredientes, acompanhamento de estudos de crescimento e digestibilidade (alimentação, biometrias, monitoramento da qualidade da água). Propiciar aproximação do discente com o docente, bem como com alunos de pós-graduação e iniciação científica que atuem na área de nutrição. Oportunizar ao aluno a participação em atividades extracurriculares relacionadas à nutrição como forma de complementar sua formação na área."
+    },
+    {
+      "id": "AQI5911",
+      "code": "AQI5911",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Intercâmbio Acadêmico, visando a realização de cursos, estágios e pesquisas orientadas ao aprimoramento da formação do aluno."
+    },
+    {
+      "id": "AQI5912",
+      "code": "AQI5912",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5911"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5911"
+      },
+      "syllabus": "Continuidade do Intercâmbio Acadêmico, visando a realização de cursos, estágios e pesquisas orientadas ao aprimoramento da formação do aluno."
+    },
+    {
+      "id": "AQI5913",
+      "code": "AQI5913",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI5912"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI5912"
+      },
+      "syllabus": "Continuidade do Intercâmbio Acadêmico, visando a realização de cursos, estágios e pesquisas orientadas ao aprimoramento da formação do aluno."
+    },
+    {
+      "id": "AQI7807",
+      "code": "AQI7807",
+      "name": "Ranicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Evolução e biologia de anfíbios. Diferenciação entre rãs, sapos e pererecas. Histórico da ranicultura no Brasil. Noções básicas de ranicultura. O desenvolvimento das técnicas de criação. Sistemas de criação. Fatores que interferem no êxito da ranicultura. Manejo dos animais e profilaxia. Fatores responsáveis por estresse em anfíbios cultivados. Enfermidades de rãs silvestres e de cativeiro. Parasitos e enfermidades de anfíbios."
+    },
+    {
+      "id": "CAL5603",
+      "code": "CAL5603",
+      "name": "Microbiologia do Pescado",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MIP5122"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP5122"
+      },
+      "syllabus": "Introdução a microbiologia do pescado. Controle de qualidade microbiológico de pescado: Boas Práticas de fabricação (BPF). Análise de Perigos e Pontos críticos de Controle (APPCC). Microrganismos de interesse na conservação de pescados. Microrganismos das toxinfecções alimentares veiculados pelo pescado. Microbiota de pescados \"in natura\" e processado. Legislação microbiológica de pescado."
+    },
+    {
+      "id": "ECZ5210",
+      "code": "ECZ5210",
+      "name": "Biodiversidade e Conservação de Ecossistemas Aquáticos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à biodiversidade e a conservação de ecossistemas aquáticos. Principais parâmetros. Usos de recursos hídricos. Sustentabilidade, recreação e importância sócio-econômica. Participação pública e educação nos programas de conservação. Principais impactos dos ecossistemas aquáticos e suas consequências. Perspectivas para conservação dos ecossistemas aquáticos. Novos paradígmas."
+    },
+    {
+      "id": "EGR7490",
+      "code": "EGR7490",
+      "name": "Desenho Técnico Aplicado para Aquicultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ENR5609"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR5609"
+      },
+      "syllabus": "Uso de Desenho auxiliado por computador (CAD) para cálculos de áreas e volumes. Projeções cotadas. Desenho topográfico. Desenho cartográfico com cordenadas Geográficas e UTM. Normas de desenho técnico (ABNT), folha de desenho e lay-out para plotagem. Desenho de perfis topográficos com representação escalas horizontais e verticais para projetos de fazendas com viveiros em terra e tanques estruturados (raceway, tanques de fibras/vinil/outros materiais). Desenho de projetos de fazendas com viveiros em terra."
+    },
+    {
+      "id": "ENS5108",
+      "code": "ENS5108",
+      "name": "Hidráulica Marítima",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5108
+      },
+      "prerequisiteHours": 5108,
+      "syllabus": "Balanço energético da Terra; padrão de circulação atmosférica, ventos sinópticos. Corrente: padrão de circulação oceânico; efeitos da rotação da terra, da estratificação das águas e da ação do vento; Maré astronômica: características observadas, métodos de previsão; aspectos dinâmicos da maré. Correntes de maré. Maré meteorológica. Fundamentos de mecânica das ondas; geração de ondas pelo vento; transformação de ondas: refração, difração e arrebentação. Processos litorâneos: aspectos geológicos, efeitos das ondas sobre a costa; balanço sedimentar: erosão e assoreamento de praias. Obras de engenharia na região costeira: uma visão geral; implicações ambientais."
+    },
+    {
+      "id": "FIT5927",
+      "code": "FIT5927",
+      "name": "Produtos Naturais de Origem Marinha",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BQA5121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA5121"
+      },
+      "syllabus": "Origem e histórico do estudo de produtos naturais marinhos. Integração dos metabolismos primário e secundário, vias biossintéticas e classes de metabólitos secundários. Produtos naturais de bactérias, fungos, algas e (in) vertebrados marinhos. Produção in vivo e in vitro de metabólitos secundários de origem marinha de ionteresse à saúde humana. Métodos de extração, purificação e análise química de metabólitos secundários e ensaios de atividade biológica. Multixenobióticos. Oligo/polissacarídeos bioativos. Bioprospecção e propriedade intelectual."
+    },
+    {
+      "id": "GCN5310",
+      "code": "GCN5310",
+      "name": "Aplicação de Geotecnologias em Sistemas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos a avaliação das potencialidade a limitações das Geotecnologias no estudo integrado de sistemas aquáticos a partir de revisão teórica, exemplos a atividades práticas"
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Aquáticos Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "AQI9000",
+      "code": "AQI9000",
+      "name": "Atividades Complementares",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades complementares"
+    },
+    {
+      "id": "AQI9001",
+      "code": "AQI9001",
+      "name": "Atividades de Extensão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Ações de Extensão Atividades de Extensão - projetos, cursos e eventos"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "AQI5103",
+      "AQI5109",
+      "AQI5202",
+      "ECZ5310",
+      "ENR5100",
+      "MTM3180",
+      "QMC5109",
+      "AQI5104",
+      "BEG5106",
+      "BOT5140",
+      "BQA5121",
+      "EXR5105",
+      "MTM3181",
+      "AQI5210",
+      "AQI5293",
+      "AQI5320",
+      "BEG5205",
+      "ENR5500",
+      "ENR5609",
+      "FSC7118",
+      "MTM3182",
+      "AQI5108",
+      "AQI5277",
+      "AQI5278",
+      "ECZ5110",
+      "ECZ5111",
+      "ENR5400",
+      "ENR5813",
+      "MIP5122",
+      "AQI5212",
+      "AQI5279",
+      "AQI5294",
+      "ENR5405",
+      "ENR5514",
+      "ENR5610",
+      "ZOT5003",
+      "AQI5201",
+      "AQI5280",
+      "AQI5315",
+      "AQI5998",
+      "CAL5601",
+      "ENR5270",
+      "EXR5125",
+      "AQI5223",
+      "AQI5281",
+      "AQI5282",
+      "AQI5283",
+      "AQI5284",
+      "AQI5316",
+      "ENR5271",
+      "AQI5235",
+      "AQI5285",
+      "AQI5286",
+      "AQI5287",
+      "AQI5288",
+      "CAL5610",
+      "AQI5289",
+      "AQI5290",
+      "AQI5291",
+      "AQI5292",
+      "AQI5343",
+      "AQI5350",
+      "AQI5240",
+      "AQI5351"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 342,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "AQI5301",
+              "AQI5302",
+              "AQI5305",
+              "AQI5306",
+              "AQI5308",
+              "AQI5310",
+              "AQI5311",
+              "AQI5312",
+              "AQI5313",
+              "AQI5325",
+              "AQI5330",
+              "AQI5335",
+              "AQI5336",
+              "AQI5430",
+              "AQI5431",
+              "AQI5432",
+              "AQI5433",
+              "AQI5434",
+              "AQI5435",
+              "AQI5436",
+              "AQI5911",
+              "AQI5912",
+              "AQI5913",
+              "AQI7807",
+              "CAL5603",
+              "ECZ5210",
+              "EGR7490",
+              "ENS5108",
+              "FIT5927",
+              "GCN5310",
+              "LSB7244",
+              "AQI9000",
+              "AQI9001"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "234",
+    "curriculumCode": "20241",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=234&curriculo=20241",
+    "sha256": "bd9764d435ad7b02004481394c9e179a7c43af6dd2ca6e732f5f675a6dc30fa2",
+    "capturedAt": "2026-09-22"
+  }
+}

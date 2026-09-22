@@ -1,0 +1,5127 @@
+{
+  "program": "GEOLOGIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2018.1",
+  "totalHours": 4752,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "DGL7110",
+      "code": "DGL7110",
+      "name": "Cartografia Aplicada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7110",
+        "GCN7200"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7110"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7200"
+          }
+        ]
+      },
+      "syllabus": "Natureza e características das cartas como modelo espacial. Escala. Posicionamento geográfico. Orientação de alinhamentos. Projeções cartográficas"
+    },
+    {
+      "id": "DGL7211",
+      "code": "DGL7211",
+      "name": "Fundamentos de Geologia",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7111",
+        "GCN7211"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7111"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7211"
+          }
+        ]
+      },
+      "syllabus": "Geologia conceitos e aplicações. Origem do Sistema Solar. Terra e Geossistemas. Composição e estrutura da Terra. Tectônica de Placas e o Ciclo das rochas. Minerais formadores das rochas. Rochas ígneas. Rochas sedimentares. Rochas metamórficas. Ambientes sedimentares. Deformação da crosta terrestre. Tempo Geológico. Temas atuais em Geociências"
+    },
+    {
+      "id": "DGL7213",
+      "code": "DGL7213",
+      "name": "Mineralogia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7113",
+        "GCN7213"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7113"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7213"
+          }
+        ]
+      },
+      "syllabus": "Cristalografia; propriedades físicas e químicas dos minerais; elementos de óptica; observação e quantificação das propriedades dos minerais em amostras de mão e lâminas petrográficas. Aulas práticas de laboratório (formas e modelos cristalográficos, modelos de estruturas cristalinas, experimentos ópticos com minerais e observação de minerais com o auxílio de lupa e microscópio petrográfico de luz transmitida)."
+    },
+    {
+      "id": "FSC5101",
+      "code": "FSC5101",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC5071"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5071"
+      },
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática, dinâmica e estática. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "GCN7110",
+      "code": "GCN7110",
+      "name": "Cartografia Aplicada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7200"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7200"
+      },
+      "syllabus": "Proporcionar aos alunos do Curso de Geologia os conhecimentos básicos, teóricos e práticos, que lhes permitam trabalhar com modelos de representação cartográfica, equipamentos básicos de orientação e levantamentos em campo, com vistas à identificação, localização e quantificação de feições geológicas. Prática de campo."
+    },
+    {
+      "id": "GCN7211",
+      "code": "GCN7211",
+      "name": "Fundamentos de Geologia",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7111"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7111"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7213",
+      "code": "GCN7213",
+      "name": "Mineralogia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7113"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7113"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "INE7302",
+      "code": "INE7302",
+      "name": "Introdução à Computação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "INE5201"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5201"
+      },
+      "syllabus": "Conceitos básicos em computação. Noções de programação de computadores. Internet: utilização de navegadores e de ferramentas de pesquisa. Utilização de Softwares aplicativos: Processador de texto, editor gráfico, planilha e editor de apresentações."
+    },
+    {
+      "id": "MTM3100",
+      "code": "MTM3100",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM5161"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM5161"
+      },
+      "syllabus": "Conjuntos e aritmética básica; Cálculo com expressões algébricas; equações; inequações; funções."
+    },
+    {
+      "id": "MTM3101",
+      "code": "MTM3101",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3100"
+      ],
+      "equivalents": [
+        "MTM3100",
+        "MTM5161"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3100"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3100"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5161"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos, esboço de gráficos, aproximações lineares e quadráticas); integral definida e indefinida; áreas entre curvas; técnicas de integração (substituição, por partes, substituição trigonométrica, frações parciais); integral imprópria."
+    },
+    {
+      "id": "MTM5512",
+      "code": "MTM5512",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matrizes. Determinantes. Sistemas lineares. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies."
+    },
+    {
+      "id": "QMC5108",
+      "code": "QMC5108",
+      "name": "Química Geral A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Teoria atômica. Configuração atômica. Classificação, propriedades periódicas. Orbitais, hibridização. Ligações químicas iônicas, covalentes e metálicas. Estado sólido. Estado gasoso. Teoria cinética. Estado Líquido. Soluções. Introdução ao equilíbrio químico. Introdução à Termodinâmica e Termoquímica."
+    },
+    {
+      "id": "DGL7112",
+      "code": "DGL7112",
+      "name": "Geologia Instrumental",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7110",
+        "GCN7110",
+        "DGL7211",
+        "GCN7211"
+      ],
+      "equivalents": [
+        "GCN7112"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7110"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7110"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7211"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7211"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7112"
+      },
+      "syllabus": "Mensuração de estruturas geológicas. Navegação com bússola e por receptor de sinal de satélite. Manipulação de mapas analógicos e digitais. Desenho geológico. Obtenção e organização de dados em campo por meios analógicos e digitais."
+    },
+    {
+      "id": "DGL7505",
+      "code": "DGL7505",
+      "name": "Mineralogia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7213",
+        "GCN7213"
+      ],
+      "equivalents": [
+        "GCN7114",
+        "GCN7505"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7213"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7213"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7114"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7505"
+          }
+        ]
+      },
+      "syllabus": "Propriedades, cristaloquímica e descrições sistemáticas de silicatos. Propriedades, cristaloquímica e descrições sistemáticas de não silicatos translúcidos e transparentes. Práticas de laboratório com auxílio de lupa e microscópio petrográfico de luz transmitida"
+    },
+    {
+      "id": "ECV5131",
+      "code": "ECV5131",
+      "name": "Topografia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7110",
+        "GCN7110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7110"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7110"
+          }
+        ]
+      },
+      "syllabus": "Levantamentos expedidos. Levantamento regular a teodolito e trena: processos do caminhamento, das radiações, das interseções e das coordenadas. Nivelamento geométrico, trigonométrico e baramétrico. Curvas de níveis. Processos taqueométricos estadimétricos e auto-redutores. Introdução à fotorametria. Desenhos de plantas topográficas."
+    },
+    {
+      "id": "FSC5002",
+      "code": "FSC5002",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "syllabus": "Estudo da Cinemática e Dinâmica da rotação de corpos rígidos. Oscilações e ondas Mecânicas(som). Estática e Dinãmica dos Fluídos. Noções sobre temperatura, calor, princípios da Termodiâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "GCN7112",
+      "code": "GCN7112",
+      "name": "Geologia Instrumental",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7110",
+        "GCN7111"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7110"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7111"
+          }
+        ]
+      },
+      "syllabus": "Mensuração de estruturas geológicas. Navegação com bússola e por receptor de sinal de satélite. Manipulação de mapas analógicos e digitais. Desenho geológico. Obtenção e organização de dados em campo por meios analógicos e digitais."
+    },
+    {
+      "id": "GCN7505",
+      "code": "GCN7505",
+      "name": "Mineralogia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7113"
+      ],
+      "equivalents": [
+        "GCN7114"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7113"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7114"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "INE5113",
+      "code": "INE5113",
+      "name": "Introdução à Estatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7901"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7901"
+      },
+      "syllabus": "Estatística descritiva (distribuição de frequência, medidas de tendência central, de dispersão, etc). Probabilidade e distribuições de probabilidade. Inferência Estatística: amostragem e estimação. Inferência estatística: teste de hipóteses e intervalo de confiança."
+    },
+    {
+      "id": "MTM3102",
+      "code": "MTM3102",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3101"
+      },
+      "syllabus": "Aplicações da integral definida. Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de várias variáveis. Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace."
+    },
+    {
+      "id": "QMC5404",
+      "code": "QMC5404",
+      "name": "Soluções e Equilíbrio entre Fases",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5108"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5108"
+      },
+      "syllabus": "Definição e aplicação de potencial químico. Transformações físicas das substâncias puras. Termodinâmica de misturas. Propriedades coligativas. Soluções ideais e não-ideais. Atividades e coeficiente de atividade de soluções não-iônicas. Lei limite de Debye-Hückel. Diagramas de fase líquido-vapor, líquido-líquido e sólido-líquido."
+    },
+    {
+      "id": "DGL7115",
+      "code": "DGL7115",
+      "name": "Mineralogia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7213",
+        "GCN7213",
+        "DGL7505",
+        "GCN7505"
+      ],
+      "equivalents": [
+        "GCN7115"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7213"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7213"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7505"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7505"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7115"
+      },
+      "syllabus": "Métodos de reconhecimento de minerais opacos. Técnicas minerográficas. Identificação macroscópica e microscópica de minérios opacos. Principais paragêneses minerais."
+    },
+    {
+      "id": "DGL7506",
+      "code": "DGL7506",
+      "name": "Sedimentologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7211",
+        "GCN7211",
+        "DGL7112",
+        "GCN7112"
+      ],
+      "equivalents": [
+        "GCN7116",
+        "GCN7506"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7211"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7211"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7112"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7112"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7116"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7506"
+          }
+        ]
+      },
+      "syllabus": "Sedimentologia e os ramos da Geologia. Intemperismo e Ciclo Sedimentar. Processos físicos de transporte e sedimentação. Texturas sedimentares. Sedimentologia aplicada."
+    },
+    {
+      "id": "DGL7507",
+      "code": "DGL7507",
+      "name": "Petrografia Ígnea",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7112",
+        "GCN7112",
+        "DGL7213",
+        "GCN7213",
+        "DGL7505",
+        "GCN7505"
+      ],
+      "equivalents": [
+        "GCN7117",
+        "GCN7507"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7112"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7112"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7213"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7213"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7505"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7505"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7117"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7507"
+          }
+        ]
+      },
+      "syllabus": "Técnicas em petrografia. Reconhecimento dos principais tipos de estruturas, texturas ígneas e aspectos mineralógicos voltados a classificação dessas rochas e de seus processos de formação."
+    },
+    {
+      "id": "DGL7508",
+      "code": "DGL7508",
+      "name": "Paleontologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7211",
+        "GCN7211",
+        "DGL7112",
+        "GCN7112"
+      ],
+      "equivalents": [
+        "GCN7118",
+        "GCN7508"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7211"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7211"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7112"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7112"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7118"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7508"
+          }
+        ]
+      },
+      "syllabus": "Conceitos fundamentais em Paleontologia. Fundamentos de Taxonomia e sistemática. Evolução. Tafonomia. Tempo geológico. Principais registros fossilíferos e ambientes do Pré-Cambriano e Fanerozóico."
+    },
+    {
+      "id": "DGL7509",
+      "code": "DGL7509",
+      "name": "Geomorfologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7211",
+        "GCN7211",
+        "DGL7112",
+        "GCN7112"
+      ],
+      "equivalents": [
+        "GCN7119",
+        "GCN7302",
+        "GCN7509"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7211"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7211"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7112"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7112"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7119"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7302"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7509"
+          }
+        ]
+      },
+      "syllabus": "Conceitos básicos e fundamentos da geomorfologia. Processos endógenos e formação do relevo: Tectônica de Placas e o relevo terrestre. Estruturas geológicas e compartimentação regional do relevo. Litologia e morfogênese diferencial. Geomorfologia Estrutural: Principais formas de relevos estruturais. Processos exógenos e formação do relevo: influência dos fatores climáticos na pedogênese e morfogênese; domínios morfoclimáticos. Dinâmica morfogenética e morfologia de vertentes; Geomorfologia fluvial, eólica, litorânea, periglacial e glacial. Análise de feições geomorfológicas. Geomorfologia do Brasil e de Santa Cataria. Aulas de Campo"
+    },
+    {
+      "id": "FSC5113",
+      "code": "FSC5113",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "FSC5101",
+        "MTM3101",
+        "MTM3102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          }
+        ]
+      },
+      "syllabus": "Análise dos principais fenômenos da eletricidade e magnetismo abrangendo o estudo de campo elétrico, potencial elétrico, capacitor, corrente elétrica, força eletromotriz, campo magnético e indução eletromagnética."
+    },
+    {
+      "id": "GCN7115",
+      "code": "GCN7115",
+      "name": "Mineralogia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7114",
+        "GCN7213"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7114"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7213"
+          }
+        ]
+      },
+      "syllabus": "Métodos de reconhecimento de minerais opacos. Técnicas minerográficas. Identificação macroscópica e microscópica de minérios opacos. Principais paragêneses minerais."
+    },
+    {
+      "id": "GCN7157",
+      "code": "GCN7157",
+      "name": "Geoestatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5071",
+        "INE5113",
+        "MTM5512"
+      ],
+      "equivalents": [
+        "GCN7157"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5071"
+          },
+          {
+            "kind": "course",
+            "code": "INE5113"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5512"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7157"
+      },
+      "syllabus": "Revisão de estatística clássica e de álgebra matricial. Análise multivariada de dados geológicos. Análise de agrupamentos. Teoria das variáveis regionalizadas. Variografia e modelos teóricos de variabilidade espacial. Estimativas e coestimativas geoestatística. Elaboração e interpretação de mapas da análise espacial de dados geológicos."
+    },
+    {
+      "id": "GCN7506",
+      "code": "GCN7506",
+      "name": "Sedimentologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7111",
+        "GCN7112"
+      ],
+      "equivalents": [
+        "GCN7116"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7111"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7112"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7116"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7507",
+      "code": "GCN7507",
+      "name": "Petrografia Ignea",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7112",
+        "GCN7114",
+        "GCN7213"
+      ],
+      "equivalents": [
+        "GCN7117"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7112"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7114"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7213"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7117"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7508",
+      "code": "GCN7508",
+      "name": "Paleontologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7111",
+        "GCN7112"
+      ],
+      "equivalents": [
+        "GCN7118"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7111"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7112"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7118"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7509",
+      "code": "GCN7509",
+      "name": "Geomorfologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7111",
+        "GCN7112"
+      ],
+      "equivalents": [
+        "GCN7119",
+        "GCN7302"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7111"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7112"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7119"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7302"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "DGL7127",
+      "code": "DGL7127",
+      "name": "Geoquímica Endógena",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7213",
+        "GCN7213",
+        "DGL7505",
+        "GCN7505",
+        "DGL7507",
+        "GCN7507",
+        "QMC5404"
+      ],
+      "equivalents": [
+        "GCN7127"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7213"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7213"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7505"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7505"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7507"
+              },
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "GCN7507"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "QMC5404"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7127"
+      },
+      "syllabus": "Cosmoquímica. Composição química da terra. Comportamento dos elementos químicos. Uso de elementos maiores e traços. Coeficientes de partição. Séries magmáticas. Princípios de geoquímica isotópica. Geoquímica do metamorfismo"
+    },
+    {
+      "id": "DGL7510",
+      "code": "DGL7510",
+      "name": "Ambientes de Sedimentação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7211",
+        "GCN7211",
+        "DGL7112",
+        "GCN7112",
+        "DGL7506",
+        "GCN7506",
+        "DGL7508",
+        "GCN7508"
+      ],
+      "equivalents": [
+        "GCN7120",
+        "GCN7510"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7211"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7211"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7112"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7112"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7506"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7506"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7508"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7508"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7120"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7510"
+          }
+        ]
+      },
+      "syllabus": "Fácies e Modelos de fácies sedimentares. Estruturas Sedimentares. Classificação dos Ambientes de sedimentação. Interpretação e reconstrução de modelos deposicionais. Recursos minerais associados aos depósitos sedimentares. Aulas de de campo e laboratório."
+    },
+    {
+      "id": "DGL7511",
+      "code": "DGL7511",
+      "name": "Petrologia Sedimentar",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7213",
+        "GCN7213",
+        "DGL7505",
+        "GCN7505",
+        "DGL7507",
+        "GCN7507",
+        "DGL7508",
+        "GCN7508"
+      ],
+      "equivalents": [
+        "GCN7121",
+        "GCN7511"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7213"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7213"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7505"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7505"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7507"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7507"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7508"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7508"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7121"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7511"
+          }
+        ]
+      },
+      "syllabus": "Composição e origem das partículas sedimentares. Classificação genética e proveniência das rochas sedimentares. Constituintes detríticos, diagenéticos das rochas sedimentares. Métodos de análise e classificação de arcabouço, matriz, cimento, tipos de porosidades. Petrologia sedimentar aplicada."
+    },
+    {
+      "id": "DGL7512",
+      "code": "DGL7512",
+      "name": "Petrologia Ígnea",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7213",
+        "GCN7213"
+      ],
+      "equivalents": [
+        "GCN7117",
+        "GCN7512"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7213"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7213"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7117"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7512"
+          }
+        ]
+      },
+      "syllabus": "Análise dos processos de formação das rochas ígneas a partir de conceitos e diagramas sobre a cristalização dos magmas; Caracterização petrológica das associações magmáticas nos diversos ambientes tectônicos. Aulas de campo"
+    },
+    {
+      "id": "DGL7513",
+      "code": "DGL7513",
+      "name": "Geologia Estrutural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7112",
+        "DGL7211",
+        "GCN7112"
+      ],
+      "equivalents": [
+        "GCN7126",
+        "GCN7513"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7112"
+              },
+              {
+                "kind": "course",
+                "code": "DGL7211"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7112"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7112"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7126"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7513"
+          }
+        ]
+      },
+      "syllabus": "Introdução. Esforço. Deformação. Reologia. Deformação frágil. Deformação dúctil. Elaboração e interpretação de mapas e seções. Projeção estereográfica. Coleta de dados estruturais. Aulas de campo."
+    },
+    {
+      "id": "DGL7514",
+      "code": "DGL7514",
+      "name": "Sensoriamento Remoto",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5071",
+        "INE5113"
+      ],
+      "equivalents": [
+        "GCN7124",
+        "GCN7514"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5071"
+          },
+          {
+            "kind": "course",
+            "code": "INE5113"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7124"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7514"
+          }
+        ]
+      },
+      "syllabus": "Princípios básicos do Sensoriamento Remoto. Assinatura espectral de alvos. Apresentação dos principais sistemas sensores. Métodos para análise de dados e geração de informações. Aplicação em mapeamento geológico. Pratica: processamento digital de imagens, geração de produtos digitais e analógicos em escala."
+    },
+    {
+      "id": "DGL7515",
+      "code": "DGL7515",
+      "name": "Geofísica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5002",
+        "FSC5101",
+        "MTM3101",
+        "MTM3102"
+      ],
+      "equivalents": [
+        "GCN7515"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5002"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7515"
+      },
+      "syllabus": "Introdução à geofísica e ao processamento de dados geofísicos. Prospecção geofísica terrestre e aerotransportada. Métodos gravimétrico, magnetométrico, elétrico e radiométrico. Aplicações na geologia."
+    },
+    {
+      "id": "GCN7127",
+      "code": "GCN7127",
+      "name": "Geoquímica Endógena",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7114",
+        "GCN7117",
+        "GCN7213",
+        "QMC5404"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7114"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7117"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7213"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5404"
+          }
+        ]
+      },
+      "syllabus": "Cosmoquímica. Composição química da terra. Comportamento dos elementos químicos. Uso de elementos maiores e traços. Coeficientes de partição. Séries magmáticas. Princípios de geoquímica isotópica. Geoquímica do metamorfismo."
+    },
+    {
+      "id": "GCN7510",
+      "code": "GCN7510",
+      "name": "Ambientes de Sedimentação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7111",
+        "GCN7112",
+        "GCN7116",
+        "GCN7118"
+      ],
+      "equivalents": [
+        "GCN7120"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7111"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7112"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7116"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7118"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7120"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7511",
+      "code": "GCN7511",
+      "name": "Petrologia Sedimentar",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7113",
+        "GCN7117",
+        "GCN7118",
+        "GCN7213",
+        "GCN7506"
+      ],
+      "equivalents": [
+        "GCN7121"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7113"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7117"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7118"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7213"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7506"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7121"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7512",
+      "code": "GCN7512",
+      "name": "Petrologia Ígnea",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7114",
+        "GCN7213",
+        "GCN7507"
+      ],
+      "equivalents": [
+        "GCN7117"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7114"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7213"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7507"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7117"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7513",
+      "code": "GCN7513",
+      "name": "Geologia Estrutural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7111",
+        "GCN7112",
+        "GCN7119"
+      ],
+      "equivalents": [
+        "GCN7126"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7111"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7112"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7119"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7126"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7514",
+      "code": "GCN7514",
+      "name": "Sensoriamento Remoto",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5071",
+        "GCN7142",
+        "INE5113"
+      ],
+      "equivalents": [
+        "GCN7124",
+        "GCN7148"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5071"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7142"
+          },
+          {
+            "kind": "course",
+            "code": "INE5113"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7124"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7148"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7515",
+      "code": "GCN7515",
+      "name": "Geofísica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC5101",
+        "FSC5102",
+        "MTM3101",
+        "MTM3102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5101"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5102"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "DGL7125",
+      "code": "DGL7125",
+      "name": "Geologia de Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7211",
+        "GCN7211",
+        "DGL7112",
+        "GCN7112",
+        "MTM3101",
+        "MTM3102"
+      ],
+      "equivalents": [
+        "GCN7127"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7211"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7211"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7112"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7112"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7127"
+      },
+      "syllabus": "Aplicação da geologia aos estudos geotécnicos. Caracterização física de maciços terrosos. Métodos de investigação geológico-geotécnica. Elementos de mecânica das rochas. Água subterrânea. Processos de erosão em solos. Geologia aplicada a obras de engenharia. Aulas de campo"
+    },
+    {
+      "id": "DGL7133",
+      "code": "DGL7133",
+      "name": "Petrologia Metamórfica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7512",
+        "GCN7512",
+        "DGL7511",
+        "GCN7511",
+        "DGL7127",
+        "GCN7127"
+      ],
+      "equivalents": [
+        "GCN7133"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7512"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7512"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7511"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7511"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7127"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7127"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7133"
+      },
+      "syllabus": "Introdução. Fatores e Tipos de metamorfismo. Descrição, classificação e nomenclatura de rochas metamórficas. Conceito de mineral índice, zoneamento mineral e fácies metamórfica. Regra das fases, princípios termodinâmicos e diagramas de fase aplicados a interpretação de rochas metamórficas. Metamorfismo isoquímico x aloquímico. Reconhecimentos dos principais protólitos e classes químicas metamórficas. Metamorfismo progressivo nas 5 principais classes químicas: pelítica, básica, ultramáfica, carbonática e cálcio-silicática. Descrição macro e microscópica de rochas metamórficas. Descrição macroscópica e microscópica de rochas metamórficas. Aulas de campo."
+    },
+    {
+      "id": "DGL7136",
+      "code": "DGL7136",
+      "name": "Análise Tectônica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7211",
+        "GCN7211",
+        "DGL7112",
+        "GCN7112",
+        "DGL7513",
+        "GCN7513",
+        "DGL7509",
+        "GCN7119"
+      ],
+      "equivalents": [
+        "GCN7136"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7211"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7211"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7112"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7112"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7513"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7513"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7509"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7119"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7136"
+      },
+      "syllabus": "Regimes tectônicos e estruturas associadas. Microtectônica. Interpretação de mapas. Aulas de campo."
+    },
+    {
+      "id": "DGL7140",
+      "code": "DGL7140",
+      "name": "Recursos Naturais Energéticos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7506",
+        "GCN7506",
+        "DGL7510",
+        "GCN7510",
+        "DGL7516",
+        "GCN7516"
+      ],
+      "equivalents": [
+        "GCN7140"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7506"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7506"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7510"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7510"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7516"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7516"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7140"
+      },
+      "syllabus": "Introdução do curso. Usos, disponibilidade e importância dos recursos energéticos. Relação entre as fontes de energia renováveis e não-renováveis. Situação mundial das fontes de energia não-renováveis. Petróleo e gás natural. Carvão mineral e turfa. Fertilizantes. Energia nuclear. Energia hidroelétrica e das ondas. Energia Geotérmica. Energia eólica, Energia solar, Energia Termoelétrica e Biomassa, Biocombustíveis."
+    },
+    {
+      "id": "DGL7516",
+      "code": "DGL7516",
+      "name": "Estratigrafia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7211",
+        "GCN7211"
+      ],
+      "equivalents": [
+        "GCN7131",
+        "GCN7516"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7211"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7211"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7131"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7516"
+          }
+        ]
+      },
+      "syllabus": "Conceitos e Princípios da Estratigrafia. Relações verticais e laterais das rochas definidas com base nas suas propriedades litológicas, físicas, químicas, geofísicas, conteúdo paleontológico, relações de idade, posição e distribuição paleogeográfica. Princípios e conceitos de correlação local e regional, lito, bio e cronoestratigráfica. Aulas de campo"
+    },
+    {
+      "id": "DGL7517",
+      "code": "DGL7517",
+      "name": "Geoquímica de Superfície",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Minerais de alteração. Soluções aquosas. Cinética dos processos exógenos. Intemperismo. Argilominerais. Geoquímica de alteração de rochas e das águas superficiais. Geoquímica dos carbonatos. Processos supergênicos. Prospecção geoquímica."
+    },
+    {
+      "id": "DGL7518",
+      "code": "DGL7518",
+      "name": "Sistema de Informações Geográficas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução ao Sistema de Informações Geográficas (SIG). Fundamentos teóricos; Modelos de dados espaciais. Estrutura de dados espaciais. Captura de dados e informações espaciais. Funções de um SIG. Modelagem de dados espaciais. Projetos de SIG (aplicações em geologia, exploração mineral, exploração de óleo e gás)."
+    },
+    {
+      "id": "DGL7519",
+      "code": "DGL7519",
+      "name": "Geofísica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à geofísica e ao processamento de dados geofísicos. Prospecção geofísica terrestre e aerotransportada. Ondas elásticas. Métodos sísmicos de refração e de reflexão. Métodos eletromagnético - no domínio do tempo (TDEM) e no domínio da freqüência (FDEM). GPR - Ground Penetrating Radar' (radar de penetração de solo). Aplicações na geologia. Aulas de campo"
+    },
+    {
+      "id": "DGL7521",
+      "code": "DGL7521",
+      "name": "Geologia Histórica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Evolução dinâmica do Planeta Terra. Abordagem das diversas teorias e evidências acerca da evolução da vida. Noções sobre métodos de datação de rochas e minerais. Conhecimento das principais características dos Eons, Eras e Períodos do Tempo geológico."
+    },
+    {
+      "id": "DGL7522",
+      "code": "DGL7522",
+      "name": "Geofísica Global e Geotectônica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7516",
+        "GCN7515",
+        "DGL7511",
+        "GCN7511",
+        "DGL7513",
+        "GCN7513",
+        "DGL7133",
+        "GCN7133",
+        "DGL7136",
+        "GCN7136",
+        "FSC5071"
+      ],
+      "equivalents": [
+        "GCN7144",
+        "GCN7522"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7516"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7515"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7511"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7511"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7513"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7513"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7133"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7133"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7136"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7136"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "FSC5071"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7144"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7522"
+          }
+        ]
+      },
+      "syllabus": "Geóide. Campo gravitacional. Campo geomagnético. Geotermia e fluxo térmico. Reologia e geodinâmica. Sismologia. Células de convecção. Estrutura da Terra. Tectônica de placas. Estruturas tectônicas da litosfera oceânica. Estruturas tectônicas da litosfera continental Tectônica arqueana."
+    },
+    {
+      "id": "DGL7523",
+      "code": "DGL7523",
+      "name": "Geologia de Depósitos Minerais Metálicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7115",
+        "GCN7115",
+        "DGL7517",
+        "GCN7517",
+        "DGL7513",
+        "GCN7513",
+        "DGL7133",
+        "GCN7133",
+        "DGL7511",
+        "GCN7511"
+      ],
+      "equivalents": [
+        "GCN7523"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7115"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7115"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7517"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7517"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7513"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7513"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7133"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7133"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7511"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7511"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7523"
+      },
+      "syllabus": "Conceituação inicial. Classificação e gênese dos depósitos minerais metálicos. Mineralizações no tempo e no espaço. Principais províncias e distritos mineiros brasileiros. Trabalho de campo: visita a ocorrências, depósitos, jazidas e minas. Aulas de Campo"
+    },
+    {
+      "id": "GCN7125",
+      "code": "GCN7125",
+      "name": "Geologia de Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7111",
+        "GCN7112",
+        "GCN7119",
+        "GCN7126",
+        "MTM3101",
+        "MTM3102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7111"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7112"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7119"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7126"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          }
+        ]
+      },
+      "syllabus": "Aplicações da Geologia aos estudos geotécnicos envolvendo solos, rochas e estabilidade de taludes. A relação argilominerais-água."
+    },
+    {
+      "id": "GCN7133",
+      "code": "GCN7133",
+      "name": "Petrologia Metamórfica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7117",
+        "GCN7121",
+        "GCN7127"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7117"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7121"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7127"
+          }
+        ]
+      },
+      "syllabus": "Introdução. Fatores e Tipos de metamorfismo. Descrição, classificação e nomenclatura de rochas metamórficas. Conceito de mineral índice, zoneamento mineral e fácies metamórfica. Regra das fases, princípios termodinâmicos e diagramas de fase aplicados a interpretação de rochas metamórficas. Metamorfismo isoquímico x aloquímico. Reconhecimentos dos principais protólitos e classes químicas metamórficas. Metamorfismo progressivo nas 5 principais classes químicas: pelítica, básica, ultramáfica, carbonática e cálcio-silicática. Descrição macro e microscópica de rochas metamórficas. Descrição macroscópica e microscópica de rochas metamórficas. Aulas de campo."
+    },
+    {
+      "id": "GCN7136",
+      "code": "GCN7136",
+      "name": "Análise Tectônica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7111",
+        "GCN7112",
+        "GCN7119"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7111"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7112"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7119"
+          }
+        ]
+      },
+      "syllabus": "Regimes tectônicos e estruturas associadas. Microtectônica. Interpretação de mapas. Aulas de campo."
+    },
+    {
+      "id": "GCN7516",
+      "code": "GCN7516",
+      "name": "Estratigrafia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7517",
+      "code": "GCN7517",
+      "name": "Geoquímica de Superfície",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7518",
+      "code": "GCN7518",
+      "name": "Sistema de Informações Geográficas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7519",
+      "code": "GCN7519",
+      "name": "Geofísica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "DGL7520",
+      "code": "DGL7520",
+      "name": "Análise de Imagens Aéreas e Orbitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7132",
+        "GCN7520"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7132"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7520"
+          }
+        ]
+      },
+      "syllabus": "Métodos de análise geológica de imagens aéreas. Práticas de laboratório com imagens aéreas de sedimentos e rochas sedimentares, ígneas, metamórficas. Estruturas geológicas."
+    },
+    {
+      "id": "DGL7524",
+      "code": "DGL7524",
+      "name": "Geologia de Depósitos Minerais Não-",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceituação inicial. Classificação e gênese. Especificações, usos e aplicações dos bens minerais. Trabalho de campo: visita a ocorrências, depósitos, jazidas e minas. Aulas de campo."
+    },
+    {
+      "id": "GCN7140",
+      "code": "GCN7140",
+      "name": "Recursos Naturais Energéticos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Metálicos GCN7115) eh Introdução do curso. Usos, disponibilidade e importância dos recursos energéticos. Relação entre as fontes de energia renováveis e não-renováveis. Situação mundial das fontes de energia não-renováveis. Petróleo e gás natural. Carvão mineral e turfa. Fertilizantes. Energia nuclear. Energia hidroelétrica e das ondas. Energia Geotérmica. Energia eólica, Energia solar, Energia Termoelétrica e Biomassa, Biocombustíveis."
+    },
+    {
+      "id": "GCN7141",
+      "code": "GCN7141",
+      "name": "Hidrogeologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7141
+      },
+      "prerequisiteHours": 7141,
+      "syllabus": "Ocorrência das águas subterrâneas. Definição e conceitos básicos dos sistemas aquíferos. Hidrodinâmica subterrânea. Hidráulica de poços. Determinação das condições de explotação de poços. Obras de captação de água subterrânea. Locação de poço tubular. Qualidade das águas subterrâneas. Hidrogeologia regional. Hidrogeoquímica. Práticas de laboratório e Aulas de Campo."
+    },
+    {
+      "id": "GCN7520",
+      "code": "GCN7520",
+      "name": "Análise de Imagens Aéreas e Orbitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7521",
+      "code": "GCN7521",
+      "name": "Geologia Histórica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7522",
+      "code": "GCN7522",
+      "name": "Geofísica Global e Geotectônica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7523",
+      "code": "GCN7523",
+      "name": "Geologia de Depóstos Minerais Metálicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7524",
+      "code": "GCN7524",
+      "name": "Geologia de Depósitos Minerais Não-",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "DGL7151",
+      "code": "DGL7151",
+      "name": "Geologia Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7517",
+        "GCN7517",
+        "DGL7140",
+        "GCN7140",
+        "GCN7141",
+        "GCN7157"
+      ],
+      "equivalents": [
+        "GCN7151"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7517"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7517"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7140"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7140"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "GCN7141"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7157"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7151"
+      },
+      "syllabus": "O ambiente, conceitos básicos e a influência geológica; Teoria de Gaia; Crise ambiental e ética ambiental; Visão multidisciplinar da gestão ambiental; Ambientes natural e antrópico; Mudanças climáticas; Risco geológico e perícia ambiental; Análise das transformações condicionadas pela ocupação humana; Avaliação de impacto ambiental; A mineração, a indústria e o Meio Ambiente; Planos de controle e monitoramento ambiental; Plano de recuperação de áreas degradadas; Avaliação de risco; Licenciamento ambiental. Aulas de campo."
+    },
+    {
+      "id": "DGL7152",
+      "code": "DGL7152",
+      "name": "Geologia do Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7516",
+        "GCN7516",
+        "DGL7521",
+        "GCN7521",
+        "DGL7522"
+      ],
+      "equivalents": [
+        "GCN7152"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7516"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7516"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7521"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7521"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "DGL7522"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7152"
+      },
+      "syllabus": "Evolução geológica do Brasil. Grandes ciclos orogênicos na história geológica do Brasil. Crátons e cinturões móveis brasileiros. Origem e evolução das bacias sedimentares brasileiras. Práticas de laboratório."
+    },
+    {
+      "id": "DGL7155",
+      "code": "DGL7155",
+      "name": "Mapeamento Geológico I",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7507",
+        "GCN7507",
+        "DGL7511",
+        "GCN7511",
+        "DGL7513",
+        "GCN7513",
+        "DGL7133",
+        "GCN7133",
+        "DGL7520",
+        "GCN7520",
+        "DGL7136",
+        "GCN7136",
+        "DGL7522",
+        "GCN7522"
+      ],
+      "equivalents": [
+        "GCN7153",
+        "GCN7155"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7507"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7507"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7511"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7511"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7513"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7513"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7133"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7133"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7520"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7520"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7136"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7136"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7522"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7522"
+              }
+            ]
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7153"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7155"
+          }
+        ]
+      },
+      "syllabus": "Fotointerpretação geológica preliminar. Mapeamento geológico de uma área de interesse didático. Trabalho prático de campo. Práticas de laboratório. Elaboração de mapa geológico preliminar. Compilação dos dados de campo. Aulas de campo"
+    },
+    {
+      "id": "DGL7158",
+      "code": "DGL7158",
+      "name": "Prospecção Mineral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7523",
+        "GCN7523",
+        "DGL7524",
+        "GCN7524",
+        "DGL7520",
+        "GCN7520",
+        "GCN7157"
+      ],
+      "equivalents": [
+        "GCN7158"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7523"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7523"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7524"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7524"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7520"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7520"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "GCN7157"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7158"
+      },
+      "syllabus": "Conceito e objetivo da prospecção mineral. Elaboração, planejamento e etapas de um prospecto. Estratégias. Ferramentas prospectivas: mapeamento geológico e depósitos minerais, prospecção geoquímica e geofísica, sensoriamento remoto, sistema de informações geográficas. Prospecção regional e local. Identificação de alvos. Avaliação de depósitos minerais e técnicas de amostragem. Aulas de campo"
+    },
+    {
+      "id": "DGL7525",
+      "code": "DGL7525",
+      "name": "Indígenas, Afrodescendentes e os",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7160"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7160"
+      },
+      "syllabus": "Significado de natureza entre as populações indígenas e afrodescendentes. Recursos naturais, usos e transformações. O natural presente na dinâmica espacial e territorial entre as populações indígenas e afrodescendentes no Brasil"
+    },
+    {
+      "id": "GCN7151",
+      "code": "GCN7151",
+      "name": "Geologia Ambiental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7137",
+        "GCN7140",
+        "GCN7141",
+        "GCN7157"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7137"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7140"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7141"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7157"
+          }
+        ]
+      },
+      "syllabus": "Disciplina do conhecimento geológico que visa o entendimento do conceito de ambiente, abordando conceitos básicos que fundamentam este campo de estudo e a influência geológica nos estudos ambientais, a Teoria de Gaia, a crise ambiental e ética ambiental. Possui visão multidisciplinar no escopo da gestão ambiental e na análise dos ambientes natural e antrópico, mudanças climáticas, risco geológico e perícia ambiental, análise das transformações condicionadas pela ocupação humana, avaliação de impacto ambiental na mineração e indústria. Entendimento dos planos de controle e monitoramento ambiental, plano de recuperação de áreas degradadas, avaliação de risco e licenciamento ambiental."
+    },
+    {
+      "id": "GCN7152",
+      "code": "GCN7152",
+      "name": "Geologia do Brasil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7131",
+        "GCN7139",
+        "GCN7144"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7131"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7139"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7144"
+          }
+        ]
+      },
+      "syllabus": "Evolução geológica do Brasil. Grandes ciclos orogênicos na história geológica do Brasil. Crátons e cinturões móveis brasileiros. Origem e evolução das bacias sedimentares brasileiras. Práticas de laboratório."
+    },
+    {
+      "id": "GCN7155",
+      "code": "GCN7155",
+      "name": "Mapeamento Geológico I",
+      "credits": 8,
+      "hours": 144,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7117",
+        "GCN7121",
+        "GCN7132",
+        "GCN7133",
+        "GCN7136",
+        "GCN7144"
+      ],
+      "equivalents": [
+        "GCN7153"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7117"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7121"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7132"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7133"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7136"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7144"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7153"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7158",
+      "code": "GCN7158",
+      "name": "Prospecção Mineral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7137",
+        "GCN7150",
+        "GCN7157"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7137"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7150"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7157"
+          }
+        ]
+      },
+      "syllabus": "Conceito e objetivo da prospecção mineral. Elaboração, planejamento e etapas de um prospecto. Estratégias. Ferramentas prospectivas: mapeamento geológico e depósitos minerais, prospecção geoquímica e geofísica, sensoriamento remoto, sistema de informações geográficas. Prospecção regional e local. Identificação de alvos. Avaliação de depósitos minerais e técnicas de amostragem. Aulas de campo ."
+    },
+    {
+      "id": "GCN7525",
+      "code": "GCN7525",
+      "name": "Indígenas, Afrodescendentes e os",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7140"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7140"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "DGL7156",
+      "code": "DGL7156",
+      "name": "Mapeamento Geológico II",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7155",
+        "GCN7155"
+      ],
+      "equivalents": [
+        "GCN7153",
+        "GCN7156"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7155"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7155"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7153"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7156"
+          }
+        ]
+      },
+      "syllabus": "Interpretação e integração de informações obtidas em mapeamento geológico básico e elaboração de mapa geológico e de localização e amostragem. Trabalho prático de campo na região de estudo. Integração dos dados de campo e de laboratório e elaboração de nota explicativa do mapa geológico. Aulas de campo"
+    },
+    {
+      "id": "DGL7160",
+      "code": "DGL7160",
+      "name": "Projeto de Conclusão de Curso",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7155",
+        "GCN7155"
+      ],
+      "equivalents": [
+        "GCN7160"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7155"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7155"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7160"
+      },
+      "syllabus": "Elaboração do projeto de trabalho de conclusão de curso (TCC). Estrutura, planejamento, tema, problema, objetivos e justificativas; hipóteses, referencial teórico, citações."
+    },
+    {
+      "id": "GCN7156",
+      "code": "GCN7156",
+      "name": "Mapeamento Geológico II",
+      "credits": 8,
+      "hours": 144,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7155"
+      ],
+      "equivalents": [
+        "GCN7153"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7155"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7153"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7160",
+      "code": "GCN7160",
+      "name": "Projeto de Conclusão de Curso",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7155"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7155"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "DGL7182",
+      "code": "DGL7182",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7160",
+        "GCN7160"
+      ],
+      "equivalents": [
+        "GCN7171",
+        "GCN7182"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7160"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7160"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7171"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7182"
+          }
+        ]
+      },
+      "syllabus": "9º FASE-SUGESTÃO Revisão, análise e síntese bibliográfica. Trabalhos laboratoriais e/ou de campo. Apresentação de resultados, discussões e elaboração dos capítulos iniciais do texto final a ser entregue Detalhes da disciplina são apresentados no item 10.2 e no Anexo VI"
+    },
+    {
+      "id": "GCN7182",
+      "code": "GCN7182",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7160"
+      ],
+      "equivalents": [
+        "GCN7171"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7160"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7171"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "DGL7183",
+      "code": "DGL7183",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DGL7182",
+        "GCN7182"
+      ],
+      "equivalents": [
+        "GCN7172",
+        "GCN7183"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7182"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7182"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7172"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7183"
+          }
+        ]
+      },
+      "syllabus": "Continuidade dos trabalhos laboratoriais e/ou de campo. Apresentação de resultados. Discussão, análise e integração. Estruturação e elaboração do texto final a ser apresentado. Detalhes da disciplina são apresentados no item 10.2 e no Anexo VI."
+    },
+    {
+      "id": "GCN7183",
+      "code": "GCN7183",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "GCN7171",
+        "GCN7182"
+      ],
+      "equivalents": [
+        "GCN7172"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7171"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7182"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7172"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "DISCIPLINAS OPTATIVAS Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "DGL7004",
+      "code": "DGL7004",
+      "name": "Geofísica Marinha",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7143"
+      ],
+      "equivalents": [
+        "GCN7004"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7143"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7004"
+      },
+      "syllabus": "aula) Histórico do desenvolvimento dos métodos geofísicos marinhos. Estrutura interna da terra. Propriedades físicas de minerais e rochas. Ondas sísmicas no oceano. Ecossondagem e sonar de varredura lateral. Reflexão e refração. Perfilagem sísmica contínua. Refração sísmica. Magnetometria e gravimetria. Métodos geofísicos em testemunhos."
+    },
+    {
+      "id": "DGL7012",
+      "code": "DGL7012",
+      "name": "Geoquímica Orgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5206"
+      ],
+      "equivalents": [
+        "GCN7012"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5206"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7012"
+      },
+      "syllabus": "Composição Química da Atmosfera Primitiva. Evolução da Vida. Produção Primária. Matéria Orgânica na Geosfera. Diagênese. Catagênese. Formação do Petróleo. Carvão. Biomarcadores Geoquímicos. Técnicas Analíticas de Separação e Análise. Ciclo do Carbono. Variações Paleoclimáticas. Composição Isotópica. Poluentes Orgânicos."
+    },
+    {
+      "id": "DGL7014",
+      "code": "DGL7014",
+      "name": "Recursos Minerais Marinhos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7140",
+        "GCN7140"
+      ],
+      "equivalents": [
+        "GCN7014"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7140"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7140"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7014"
+      },
+      "syllabus": "Recursos não renováveis: conceitos de minério, jazida, reservas. Política e legislação mineral do Brasil. O mapa metalogenético do Brasil. Recursos minerais marinhos. Minérios metálicos, ferrosos e não ferrosos, não metálicos, combustíveis."
+    },
+    {
+      "id": "DGL7123",
+      "code": "DGL7123",
+      "name": "Rochas Minerais Industriais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7115",
+        "GCN7115"
+      ],
+      "equivalents": [
+        "GCN7123"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7115"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7115"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7123"
+      },
+      "syllabus": "Definição de minerais e rochas industriais. Importância econômica no mercado nacional e internacional. Mercados produtores e consumidores. Controle de qualidade e diversos usos da matéria prima mineral."
+    },
+    {
+      "id": "DGL7130",
+      "code": "DGL7130",
+      "name": "História da Geologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7211",
+        "GCN7211",
+        "DGL7112",
+        "GCN7112"
+      ],
+      "equivalents": [
+        "GCN7130"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7211"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7211"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7112"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7112"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 7130
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7130"
+      },
+      "prerequisiteHours": 7130,
+      "syllabus": "Visões sobre a Terra na Antiguidade e na Renascença. Conflitos entre religião e ciência nos séculos XVII a XIX. O surgimento da Geologia moderna. Conceitos geológicos no século XX. O papel da Geologia no mundo atual. Geologia no Brasil."
+    },
+    {
+      "id": "DGL7135",
+      "code": "DGL7135",
+      "name": "Geotecnia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7125",
+        "GCN7125"
+      ],
+      "equivalents": [
+        "GCN7135"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7125"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7125"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7135"
+      },
+      "syllabus": "Introdução. Hidráulica de solos. Permeabilidade. Capilaridade. Cálculo de pressões atuantes. Princípio das tensões efetivas. Compressibilidade e adensamento nos solos. Compactação dos solos. Processos de erosão em solos. Técnicas de cartografia geotécnica e estimativa de comportamento mecânico. Aulas de campo"
+    },
+    {
+      "id": "DGL7138",
+      "code": "DGL7138",
+      "name": "Estratigrafia de Sequência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7138"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7138"
+      },
+      "syllabus": "Registro sedimentar em função das mudanças do nível de base. Métodos de análises das sequências estratigráficas. Conceitos de acomodação e as causas das mudanças de linha de costa. Sistemas deposicionais. Superfícies estratigráficas. Tratos de sistemas. Diagramas cronoestratigráficos. Aplicações. Aulas de campo."
+    },
+    {
+      "id": "DGL7145",
+      "code": "DGL7145",
+      "name": "Geologia Marinha e Costeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7145"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7145"
+      },
+      "syllabus": "Caracterização de cobertura sedimentar, da geomorfologia, dos processos de sedimentação, da estrutura e estratigrafia dos fundos marinhos e província costeira e análise do potencial de recursos minerais marinhos e costeiros. Aulas de campo."
+    },
+    {
+      "id": "DGL7146",
+      "code": "DGL7146",
+      "name": "Estrutura e Estratigrafia de Sequências",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7146"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7146"
+      },
+      "syllabus": "Vulcanismo, tipos de magmas, modelos eruptivos, aspectos geotectônicos, Grandes Províncias Ígneas, estruturação e estratigrafia de sequências vulcânicas. Aulas de campo."
+    },
+    {
+      "id": "DGL7149",
+      "code": "DGL7149",
+      "name": "Estabilidade de Taludes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7149"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7149"
+      },
+      "syllabus": "Vulcânicas GCN7507) eh Resistência ao cisalhamento dos solos. Classificações dos processos de movimentação de massa. Fatores condicionantes. Me´todos de investigac¸a~o. Me´todos de ana´lise de estabilidade de taludes. Obras de estabilizac¸a~o. Relatório geológico-geotécnico. Aulas de campo."
+    },
+    {
+      "id": "DGL7154",
+      "code": "DGL7154",
+      "name": "Introdução à Geocronologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7154"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7154"
+      },
+      "syllabus": "Caracterizar os princípios e fundamentos da geocronologia, além dos principais métodos e suas aplicações. Introdução à geologia isotópica e suas aplicações."
+    },
+    {
+      "id": "DGL7161",
+      "code": "DGL7161",
+      "name": "Legislação e Política Mineral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7161"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7161"
+      },
+      "syllabus": "Direito mineral e a legislação vigente. Aspectos da mineração na constituição federal, Estudo de impacto ambiental. Licenciamento ambiental de lavras minerárias. Princípio da precaução em questões legais minerárias e ambientais."
+    },
+    {
+      "id": "DGL7162",
+      "code": "DGL7162",
+      "name": "Geologia do Petróleo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7162"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7162"
+      },
+      "syllabus": "Conceitos sobre ocorrência, origem, maturação e migração do petróleo. Panorama geral dos tipos de armadilhas para acumulação de petróleo e gás. Métodos de exploração e produção de petróleo e gás. Sismoestratigrafia, Bacias sedimentares e suas potencialidades. Geoquímica, sistemas deposicionais e paleontologia aplicados à Geologia do Petróleo."
+    },
+    {
+      "id": "DGL7163",
+      "code": "DGL7163",
+      "name": "Geologia do Carvão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7163"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7163"
+      },
+      "syllabus": "Gênese de depósitos de turfa e carvão. A geoquímica das jazidas. Aspectos energéticos. Aplicações na indústria. Consequências socioambientais de seu uso. Visita técnica de campo."
+    },
+    {
+      "id": "DGL7164",
+      "code": "DGL7164",
+      "name": "Geologia Médica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7164"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7164"
+      },
+      "syllabus": "Epidemiologia e geologia médica. Geologia médica no Brasil. Ciclos biogeoquímicos. Fatores geológicos ambientais relacionados à distribuição geográfica das doenças humanas e dos animais. Geoquímica de paisagens - os elementos na paisagem. Avaliação de riscos à saúde humana"
+    },
+    {
+      "id": "DGL7165",
+      "code": "DGL7165",
+      "name": "Geodiversidade e Geoturismo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7165"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7165"
+      },
+      "syllabus": "Geodiversidade, Geossítios Patrimônio geológico. Estratégias de geoconservação. Geoturismo. Relação Geoturismo x Ecoturismo. Potencialidades do geoturismo no Brasil e no Mundo. Aulas de campo."
+    },
+    {
+      "id": "DGL7166",
+      "code": "DGL7166",
+      "name": "Mapeamento Geológico de Áreas de Risco",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7155"
+      ],
+      "equivalents": [
+        "GCN7166"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7155"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7166"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "DGL7167",
+      "code": "DGL7167",
+      "name": "Tópicos Especiais em Geologia I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7167"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7167"
+      },
+      "syllabus": "De acordo com o programa do tema especial apresentado ao Colegiado para aprovação. Pode ser validada pelo coordenador do curso, mediante a análise da documentação apresentada, segundo a resolução específica."
+    },
+    {
+      "id": "DGL7168",
+      "code": "DGL7168",
+      "name": "Geologia de Campo",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7155"
+      ],
+      "equivalents": [
+        "GCN7156",
+        "GCN7168"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7155"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7156"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7168"
+          }
+        ]
+      },
+      "syllabus": "Mapeamento geológico básico e elaboração de mapa geológico. Prática de campo e integração de dados de geológicos. Atividades de aulas de campo."
+    },
+    {
+      "id": "DGL7176",
+      "code": "DGL7176",
+      "name": "Tópicos Especiais em Geociências I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7127"
+      ],
+      "equivalents": [
+        "GCN7176"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7127"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7176"
+      },
+      "syllabus": "De acordo com o programa do tema especial apresentado ao Colegiado para aprovação. Pode ser validada pelo coordenador do curso, mediante a análise da documentação apresentada, segundo a resolução específica."
+    },
+    {
+      "id": "DGL7178",
+      "code": "DGL7178",
+      "name": "Introdução à Petrofísica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7511"
+      ],
+      "equivalents": [
+        "GCN7178"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7511"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7178"
+      },
+      "syllabus": "Classificação das rochas. Propriedades dos meios porosos: porosidade, permeabilidade e tortuosidade. Densidade. Propriedades elásticas e propagação de ondas sísmicas. Magnetismo das rochas. Radioatividade natural. Condutividade elétrica nas rochas. Relação entre as várias propriedades físicas. Instrumentação. Aplicações à investigação da Terra e caracterização de rochas-reservatório."
+    },
+    {
+      "id": "DGL7179",
+      "code": "DGL7179",
+      "name": "Métodos Elétricos e Eletromagnéticos",
+      "credits": 7,
+      "hours": 126,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5071"
+      ],
+      "equivalents": [
+        "GCN7179"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5071"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7179"
+      },
+      "syllabus": "Campos eletromagnéticos naturais. Propriedades elétricas das rochas. Princípios de indução eletromagnética. Eletrorresistividade, Polarização Induzida (IP) e Polarização Espontânea (SP). Radar de Penetração no solo (GPR). Método magnetotelúrico (MT). Métodos eletromagnéticos de baixo número de indução (p. ex. EM-34 e EM-31). Aplicações à prospecção de água subterrânea e meio ambiente"
+    },
+    {
+      "id": "DGL7181",
+      "code": "DGL7181",
+      "name": "Estágio Supervisionado",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7180"
+      ],
+      "equivalents": [
+        "GCN7181"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7180"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7181"
+      },
+      "syllabus": "Aplicados a Problemas Ambientais MTM5161) eh Geologia conceitos e aplicações. Origem do Sistema Solar. Terra e Geossistemas. Composição e estrutura da Terra. Tectônica de Placas e o Ciclo das rochas. Minerais formadores das rochas. Rochas ígneas. Rochas sedimentares. Rochas metamórficas. Ambientes sedimentares. Deformação da crosta terrestre. Tempo Geológico. Temas atuais em Geociências"
+    },
+    {
+      "id": "DGL7526",
+      "code": "DGL7526",
+      "name": "Micropalentologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7508"
+      ],
+      "equivalents": [
+        "GCN7122",
+        "GCN7526"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7508"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7122"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7526"
+          }
+        ]
+      },
+      "syllabus": "Morfologia, sistemática, ecologia e distribuição estratigráfica dos microfósseis. Bioestratigrafia. Aulas Práticas de Campo"
+    },
+    {
+      "id": "DGL7527",
+      "code": "DGL7527",
+      "name": "Avaliação de Recursos Minerais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7158"
+      ],
+      "equivalents": [
+        "GCN7159",
+        "GCN7527"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7158"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7159"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7527"
+          }
+        ]
+      },
+      "syllabus": "Introdução; Conceitos iniciais. Avaliação de recursos minerais: critérios geológicos; métodos convencionais (blocos, perfis, isolinhas, polígonos e triângulos); métodos geoestatísitcos (krigagem). Aula de campo para estudos de depósitos, jazidas e minas."
+    },
+    {
+      "id": "DGL7528",
+      "code": "DGL7528",
+      "name": "Tópicos Especiais em Geologia II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7528"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7528"
+      },
+      "syllabus": "De acordo com o programa do tema especial apresentado ao Colegiado para aprovação. Pode ser validada pelo coordenador do curso, mediante a análise da documentação apresentada, segundo a resolução específica."
+    },
+    {
+      "id": "DGL7529",
+      "code": "DGL7529",
+      "name": "Tópicos Especiais em Geociências II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "De acordo com o programa do tema especial apresentado ao Colegiado para aprovação. Pode ser validada pelo coordenador do curso, mediante a análise da documentação apresentada, segundo a resolução específica."
+    },
+    {
+      "id": "DGL7915",
+      "code": "DGL7915",
+      "name": "Geomorfologia do Quartenário e Mudanças",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7510"
+      ],
+      "equivalents": [
+        "GCN7915"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7510"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7915"
+      },
+      "syllabus": "Quaternário e as mudanças climáticas globais. Geomorfologia do Quaternário continental. Prática de Campo e análise paleoambiental. Tipos de registro associado às mudanças climáticas."
+    },
+    {
+      "id": "DGL7927",
+      "code": "DGL7927",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "GCN7927"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7927"
+      },
+      "syllabus": "Climáticas Globais GCN7510) eh Disciplina para possibilitar aos alunos fazerem o Intercâmbio segundo Resolução 007/Cun/99."
+    },
+    {
+      "id": "DGL7928",
+      "code": "DGL7928",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7927",
+        "GCN7927"
+      ],
+      "equivalents": [
+        "GCN7928"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7927"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7927"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7928"
+      },
+      "syllabus": "Disciplina para possibilitar aos alunos fazerem o Intercâmbio segundo Resolução 007/Cun/99."
+    },
+    {
+      "id": "DGL7939",
+      "code": "DGL7939",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7928",
+        "GCN7928"
+      ],
+      "equivalents": [
+        "GCN7939"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7928"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7928"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7939"
+      },
+      "syllabus": "Disciplina para possibilitar aos alunos fazerem o Intercâmbio segundo Resolução 007/Cun/99."
+    },
+    {
+      "id": "DIR5555",
+      "code": "DIR5555",
+      "name": "Direito Ambiental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7151",
+        "GCN7151"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7151"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7151"
+          }
+        ]
+      },
+      "syllabus": "Ecologia e Meio Ambiente - A crise ambiental - O movimento ecológico - Ecodesenvolvimento e desenvolvimento sustentável - Direito Ambiental - Conceito - Fontes - Princípios - Campos de Avaliação - O Direito e os recursos ambientais - Direito Ambiental Brasileiro - Direito Ambiental Comparado - As conferência internacionais sobre meio ambiente e ecologia - O Programa das Nações Unidas para o Meio Ambiente - Princípios legais supranacionais para a proteção ambiental e o desenvolvimento sustentável."
+    },
+    {
+      "id": "DIR5933",
+      "code": "DIR5933",
+      "name": "Direitos Humanos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7151",
+        "GCN7151"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7151"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7151"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos e desenvolvimento histórico da construção dos direitos humanos. Cidadania enquanto fenômeno jurídico direitos humanos e Constituição. Cidadania, direitos humanos e democracia. Cidadania na sociedade contemporânea. Ética e cidadania. Cidadania e meio ambiente. Pluralismo, tolerância e cidadania."
+    },
+    {
+      "id": "DIR5934",
+      "code": "DIR5934",
+      "name": "Informática Jurídica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7151"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7151"
+      },
+      "syllabus": "Conceito e histórico da Informática jurídica. Processamento eletrônico da informação jurídica. Utilização do computador na administração da justiça, no processo legislativo e análise da jurisprudência. Impactos das modernas tecnologias na sociedade e no Direito. Aplicações práticas."
+    },
+    {
+      "id": "ECZ5102",
+      "code": "ECZ5102",
+      "name": "Conservação de Recursos Naturais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrutura, funcionamento e dinâmica de ecossistemas. Efeito da ação antrópica sobre os ecossistemas. Legislação e Conservação dos recursos naturais."
+    },
+    {
+      "id": "ENR5516",
+      "code": "ENR5516",
+      "name": "Classificação dos Solos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7119"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7119"
+      },
+      "syllabus": "- Introdução à classificação de solos; Características diagnósticas do solo; Sistemas de Classificação de Solos; Solos do Brasil e de Santa Catarina; Levantamento de solos; Classificação interpretativa das terras."
+    },
+    {
+      "id": "GCN5206",
+      "code": "GCN5206",
+      "name": "Química Orgânica Básica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5108"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5108"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7004",
+      "code": "GCN7004",
+      "name": "Geofísica Marinha",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7143"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7143"
+      },
+      "syllabus": "Histórico do desenvolvimento da geofísica marinha. Noções de estrutura interna da Terra e propriedades físicas dos minerais e rochas. Ondas sísmicas nos oceanos. Ecossondagem e sonar de varredura lateral. Reflexão e refração. Noções de magnetometria e gravimetria. Pré-requisito: GCN 7003, FSC 5112 e GCN 7015."
+    },
+    {
+      "id": "GCN7012",
+      "code": "GCN7012",
+      "name": "Geoquímica Orgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5206"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5206"
+      },
+      "syllabus": "Composição Química da Atmosfera Primitiva. Produção Primária. Matéria Orgânica na Geosfera. Diagênese. Catagênese. Formação do Petróleo. Carvão. Biomarcadores Geoquímicos. Técnicas Analíticas de Separação e Análise. Ciclo do Carbono. Variações Paleoclimáticas. Composição Isotópica. Poluentes Orgânicos. Técnicas Analíticas de Separação e Análise de petróleo. Pré-requisitos: QMC 5206."
+    },
+    {
+      "id": "GCN7014",
+      "code": "GCN7014",
+      "name": "Recursos Minerais Marinhos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7140"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7140"
+      },
+      "syllabus": "Introdução aos recursos minerais marinhos. Técnicas de exploração e explotação dos recursos minerais do mar. Recursos minerais superficiais e de sub- superfície associados aos ambientes da margem continental e bacia oceânica. Recursos minerais na água do mar. Explotação de hidrocarbonetos nas bacias sedimentares oceânicas. Impacto antropogênico da mineração no ambiente marinho. Aspectos legais e econômicos da explotação de recursos minerais em ambiente marinho. Recursos energéticos dos oceanos (energia renováveis). Pré-requisito: GCN 7004."
+    },
+    {
+      "id": "GCN7123",
+      "code": "GCN7123",
+      "name": "Rochas e Minerais Industriais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7130",
+      "code": "GCN7130",
+      "name": "História da Geologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7111"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7111"
+          },
+          {
+            "kind": "hours",
+            "hours": 7130
+          }
+        ]
+      },
+      "prerequisiteHours": 7130,
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7135",
+      "code": "GCN7135",
+      "name": "Geotécnica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7111"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7111"
+      },
+      "syllabus": "Geologia aplicada à engenharia em obras de contenção, barragens de terra, barragem de concreto, fundações, túneis estradas e aeroportos. Relatórios Geológicos-Geotécnicos."
+    },
+    {
+      "id": "GCN7138",
+      "code": "GCN7138",
+      "name": "Estratigrafia de Sequências",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7120"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7120"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7145",
+      "code": "GCN7145",
+      "name": "Geologia Marinha e Costeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7146",
+      "code": "GCN7146",
+      "name": "Estrutura e Estratigrafia de Sequências",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7117"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7117"
+      },
+      "syllabus": "Vulcanismo, tipos de magmas, modelos eruptivos, aspectos geotectônicos, Grandes Províncias Ígneas, estruturação e estratigrafia de sequências vulcânicas."
+    },
+    {
+      "id": "GCN7149",
+      "code": "GCN7149",
+      "name": "Estabilidade de Taludes",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Vulcânicas GCN7131)"
+    },
+    {
+      "id": "GCN7154",
+      "code": "GCN7154",
+      "name": "Introdução à Geocronologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7127"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7127"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7161",
+      "code": "GCN7161",
+      "name": "Legislação e Política Mineral",
+      "credits": 36,
+      "hours": 1,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7162",
+      "code": "GCN7162",
+      "name": "Geologia do Petróleo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7163",
+      "code": "GCN7163",
+      "name": "Geologia do Carvão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7164",
+      "code": "GCN7164",
+      "name": "Geologia Médica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7165",
+      "code": "GCN7165",
+      "name": "Geodiversidade e Geoturismo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7166",
+      "code": "GCN7166",
+      "name": "Mapeamento Geológico de Áreas de Risco",
+      "credits": 6,
+      "hours": 180,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7167",
+      "code": "GCN7167",
+      "name": "Tópicos Especiais em Geologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7176",
+      "code": "GCN7176",
+      "name": "Tópicos Especiais em Geociências I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7178",
+      "code": "GCN7178",
+      "name": "Introdução à Petrofísica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5071"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5071"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7179",
+      "code": "GCN7179",
+      "name": "Métodos Elétricos e Eletromagnéticos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5071"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5071"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7181",
+      "code": "GCN7181",
+      "name": "Estágio Supervisionado",
+      "credits": 7,
+      "hours": 126,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aplicados a Problemas Ambientais GCN7143 eh"
+    },
+    {
+      "id": "GCN7526",
+      "code": "GCN7526",
+      "name": "Micropaentologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7527",
+      "code": "GCN7527",
+      "name": "Geoquímica Endógenas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7528",
+      "code": "GCN7528",
+      "name": "Tópicos Especiais em Geologia II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7530",
+      "code": "GCN7530",
+      "name": "Gestão de Águas",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7151",
+        "GCN7151"
+      ],
+      "equivalents": [
+        "GCN7503"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7151"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7151"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7503"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7700",
+      "code": "GCN7700",
+      "name": "Análise Ambiental II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DGL7151",
+        "GCN7151"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7151"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7151"
+          }
+        ]
+      },
+      "syllabus": "Análise ambiental conjunta de uma unidade espacial (comunidade, unidade de conservação, bacia hidrográfica, município, bairro...): elaboração do projeto, desenvolvimento da pesquisa e análise dos resultados."
+    },
+    {
+      "id": "GCN7915",
+      "code": "GCN7915",
+      "name": "Geomorfologia do Quaternário e Mudanças",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7119"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7119"
+      },
+      "syllabus": "Introduzir o problema das mudanças climáticas globais durante o passado geológico recente, e qualificar discente para a identificação, caracterização e utilização de registros quaternários continentais, visando interpretação paleoambiental e construção de cenários evolutivos do relevo do Sul do Brasil."
+    },
+    {
+      "id": "GCN7927",
+      "code": "GCN7927",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Climáticas Globais GCN7120)"
+    },
+    {
+      "id": "GCN7928",
+      "code": "GCN7928",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7927"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7927"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "GCN7939",
+      "code": "GCN7939",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "GCN7928"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7928"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "QMC5206",
+      "code": "QMC5206",
+      "name": "Química Orgânica Básica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "QMC5108"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5108"
+      },
+      "syllabus": "Hibridização. Isomeria. Conformações. Grupos Funcionais. Hidrocarbonetos alifáticos e aromáticos. Funções oxigenadas: Alcóois, éteres, esteres, aldeídos, cetonas e ácidos carboxílicos. Hidratos de carbono. Funções nitrogenadas: aminas, amidas, aminoácidos, proteínas. Polímeros e outros compostos de interesse biológico e tecnológico."
+    },
+    {
+      "id": "DGL7175",
+      "code": "DGL7175",
+      "name": "Atividades Complementares",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "DGL7180",
+      "code": "DGL7180",
+      "name": "Estágio Supervisionado Obrigatório",
+      "credits": 7,
+      "hours": 126,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "ESTÁGIO SUPERVISIONADO OBRIGATÓRIO RESOLUÇÃO NORMATIVA N.º 14/CUn, DE 25 DE OUTUBRO DE 2011 Art. 1.º Aprovar as normas que regulamentam os estágios curriculares dos alunos dos cursos de graduação da Universidade Federal de Santa Catarina. Art. 5.º O estágio obrigatório constitui disciplina integrante do currículo do curso, cuja carga horária será requisito para aprovação e obtenção do diploma. Parágrafo único. O estágio obrigatório poderá ser realizado no exterior, atendidos os requisitos estabelecidos nesta Resolução Normativa da UFSC."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "DGL7110",
+      "DGL7211",
+      "DGL7213",
+      "FSC5101",
+      "GCN7110",
+      "GCN7211",
+      "GCN7213",
+      "INE7302",
+      "MTM3100",
+      "MTM3101",
+      "MTM5512",
+      "QMC5108",
+      "DGL7112",
+      "DGL7505",
+      "ECV5131",
+      "FSC5002",
+      "GCN7112",
+      "GCN7505",
+      "INE5113",
+      "MTM3102",
+      "QMC5404",
+      "DGL7115",
+      "DGL7506",
+      "DGL7507",
+      "DGL7508",
+      "DGL7509",
+      "FSC5113",
+      "GCN7115",
+      "GCN7157",
+      "GCN7506",
+      "GCN7507",
+      "GCN7508",
+      "GCN7509",
+      "DGL7127",
+      "DGL7510",
+      "DGL7511",
+      "DGL7512",
+      "DGL7513",
+      "DGL7514",
+      "DGL7515",
+      "GCN7127",
+      "GCN7510",
+      "GCN7511",
+      "GCN7512",
+      "GCN7513",
+      "GCN7514",
+      "GCN7515",
+      "DGL7125",
+      "DGL7133",
+      "DGL7136",
+      "DGL7140",
+      "DGL7516",
+      "DGL7517",
+      "DGL7518",
+      "DGL7519",
+      "DGL7521",
+      "DGL7522",
+      "DGL7523",
+      "GCN7125",
+      "GCN7133",
+      "GCN7136",
+      "GCN7516",
+      "GCN7517",
+      "GCN7518",
+      "GCN7519",
+      "DGL7520",
+      "DGL7524",
+      "GCN7140",
+      "GCN7141",
+      "GCN7520",
+      "GCN7521",
+      "GCN7522",
+      "GCN7523",
+      "GCN7524",
+      "DGL7151",
+      "DGL7152",
+      "DGL7155",
+      "DGL7158",
+      "GCN7151",
+      "GCN7152",
+      "GCN7155",
+      "GCN7158",
+      "GCN7525",
+      "DGL7156",
+      "DGL7160",
+      "GCN7156",
+      "GCN7160",
+      "DGL7182",
+      "GCN7182",
+      "DGL7183",
+      "GCN7183",
+      "LSB7904",
+      "DGL7175",
+      "DGL7180"
+    ],
+    "requirements": []
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "336",
+    "curriculumCode": "20181",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=336&curriculo=20181",
+    "sha256": "73b77037998c351e80fa9f883c3f154bb7153b3560c8c0a38c6e0611a0e13a19",
+    "capturedAt": "2026-09-22"
+  }
+}

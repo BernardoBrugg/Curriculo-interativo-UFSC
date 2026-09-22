@@ -1,0 +1,4179 @@
+{
+  "program": "AGRONOMIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.1",
+  "totalHours": 4788,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "AGR5104",
+      "code": "AGR5104",
+      "name": "Introdução à Agronomia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Universidade: conceito, estrutura e articulação com a sociedade. Estrutura do Curso de Agronomia na área básica e profissionalizante. História da agricultura e da Agronomia. Agricultura, ciência, desenvolvimento e meio ambiente. Noções sobre a realidade das agriculturas brasileira e catarinense. O Engenheiro Agrônomo e a legislação profissional. Ética profissional. Perfil Profissional."
+    },
+    {
+      "id": "BOT5120",
+      "code": "BOT5120",
+      "name": "Morfologia e Sistemática Vegetal",
+      "credits": 5,
+      "hours": 90,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à Botânica: sistemas de classificação, conceitos e métodos taxonômicos, nomenclatura botânica básica. Plantas vasculares: diversidade e especializações, estruturas de reprodução e ciclos de vida; organização básica do corpo da planta: morfologia externa da raiz, caule, folha, estróbilos, flores, frutos e sementes. Sistemática dos principais grupos taxonômicos de plantas vasculares: Pteridófitas s. l.; Coníferas e grupos afins; Agiospermas basais; Monocotiledôneas; Eudicotiledôneas."
+    },
+    {
+      "id": "EGR5104",
+      "code": "EGR5104",
+      "name": "Desenho Técnico Rural",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGR5615"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGR5615"
+      },
+      "syllabus": "-Normas para o desenho técnico (ABNT). Caligrafia e traçado. Instrumentos e material de desenho. Noções de Geometria Descritiva, projeções do ponto, da reta e do plano. Projeções: cilíndrica ortogonal e oblíqua. Projeção em vistas ortográficas e respectiva isométrica. Noções de desenho arquitetônico aplicado a edificações rurais. Desenho cartográfico. Desenho de instalações hidrossanitárias. Desenho de instalações elétricas predial."
+    },
+    {
+      "id": "EXR5404",
+      "code": "EXR5404",
+      "name": "Sociologia Rural",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "AGR5103"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AGR5103"
+      },
+      "syllabus": "- Noções da teoria sociológica clássica. Raízes agrárias e formação da sociedade brasileira. História, cultura e relações étnico-raciais das populações rurais, tradicionais e camponesas (agricultores familiares descendentes de imigrantes europeus, povos afro-brasileiros, comunidades indígenas, asiáticos, entre outros). Temas emergentes na sociologia rural contemporânea. As relações campo-cidade-campo. A questão agrária, novos atores sociais e movimentos sociais no campo. As políticas focalizadas e a inclusão de públicos específicos. Agricultura familiar: diversidade social, tipologia e funcionamento interno."
+    },
+    {
+      "id": "FIT7000",
+      "code": "FIT7000",
+      "name": "Genética",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG5403",
+        "BEG5438",
+        "FIT5305"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5403"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5438"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5305"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Material genético, estrutura, função, e expressão gênica. Segregação meiótica e permuta. Leis básicas da Genética. Mutação. Interação genética. Determinação do sexo e herança ligada ao sexo. Variação genética. Equilibrio Hardy-Weinberg. Evolução. Genômica e proteômica.",
+      "extensionHours": 18
+    },
+    {
+      "id": "MTM3180",
+      "code": "MTM3180",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3100"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3100"
+      },
+      "syllabus": "-Aritmética básica; cálculo com expressões algébricas; geometria elementar; equações; funções."
+    },
+    {
+      "id": "QMC5109",
+      "code": "QMC5109",
+      "name": "Química Geral",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matéria e Energia. Estados da Matéria e Forças Intermoleculares. Estrutura Atômica e Tabela Periódica. Ligação e Estrutura Molecular. Funções Inorgânicas. Reações Químicas. Soluções, Solubilidade e Concentração. Ácidos, Bases e Sais."
+    },
+    {
+      "id": "QMC5125",
+      "code": "QMC5125",
+      "name": "Química Geral Experimental A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. ConfiguraçãoEletrônica. Orbital Atômico. Ligações químicas: iônicas, covalentes, metálicas. Leis dos gases. Conceito de Mol. Funções químicas. Misturas. Soluções. Concentração de soluções. Equações químicas. Reações redox. Introdução ao Equilíbrio químico; ácidos ebases; ph. Calor de reação. Introdução á Termoquímica."
+    },
+    {
+      "id": "ENR5203",
+      "code": "ENR5203",
+      "name": "Agrometeorologia e Climatologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3180"
+      ],
+      "equivalents": [
+        "ENR5202"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3180"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5202"
+      },
+      "syllabus": "Natureza e campo da climatologia agrícola. Elementos e fatores climáticos. Relações astronômicas e estações do ano. Atmosfera. Radiação solar, balanço de radiação e fotoperíodo. Fenologia de plantas cultivadas. Pressão atmosférica, vento, circulação geral da atmosfera e massas de ar. Temperatura do ar e do solo, temperaturas cardeais, soma térmica. Vernalização. Umidade do ar, estabilidade atmosférica e precipitação pluviométrica. Evaporação e evapotranspiração: conceitos, medida e estimativa. Bioclimatologia e conforto térmico. Balanço hídrico. Classificações climáticas. Instrumentos e dispositivos para medição de variáveis meteorológicas. Fenômenos meteorológicos intensos: geadas, granizo, chuvas intensas."
+    },
+    {
+      "id": "ENR5205",
+      "code": "ENR5205",
+      "name": "Mineralogia, Gênese e Morfologia de Solos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5109",
+        "QMC5125"
+      ],
+      "equivalents": [
+        "ENR5402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5109"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5125"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5402"
+      },
+      "syllabus": "-Rochas: Distribuição litológica regional. Minerais primários e secundários. Intemperização. Fatores e processos de formação do solo. Tipos de Solos. Morfologia do solo: perfil, horizontes do solo e sua descrição."
+    },
+    {
+      "id": "EXR5200",
+      "code": "EXR5200",
+      "name": "Agriculltura Familiar I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "AGR5104"
+      ],
+      "equivalents": [
+        "AGR5403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AGR5104"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AGR5403"
+      },
+      "syllabus": "Contexto socioeconômico da realidade rural do estado de Santa Catarina e locais para estagiar. Levantamento de dados socioeconômicos e ambientais e apreensão da realidade rural. Orientação sobre conduta e aproveitamento das oportunidades de aprendizagens. Planejamento das atividades de estágio e formação para o estágio."
+    },
+    {
+      "id": "FIT5205",
+      "code": "FIT5205",
+      "name": "Bioquímica Agrícola",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5109",
+        "QMC5125"
+      ],
+      "equivalents": [
+        "BQA5114",
+        "BQA5121"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5109"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5125"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5114"
+          },
+          {
+            "kind": "course",
+            "code": "BQA5121"
+          }
+        ]
+      },
+      "syllabus": "-Fundamentos químicos e celulares da bioquímica. Soluções aquosas, pH e sistema tampão. Química, bioquímica e importância biológica de aminoácidos, proteínas, carboidratos, lipídios, vitaminas e ácidos nucléicos. Enzimas: características, cinética e regulação. Vias metabólicas primárias, interações e regulação do metabolismo. Metabólitos de interesse biotecnológico. Bioquímica experimental."
+    },
+    {
+      "id": "FIT7001",
+      "code": "FIT7001",
+      "name": "Ecologia Agrícola",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIT5204",
+        "FIT5303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT5204"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5303"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Introdução à ecologia e diversidade. Ecossistema, conceito, estrutura, classificação e exemplos. Ecologia de populações, de comunidades e de ecossistemas. Dinâmica de populações. Fatores abióticos. Cadeias tróficas. Fluxo de nutrientes e energia nas cadeias. Diversidade e abundância de espécies. Ecologia aplicada à agricultura",
+      "extensionHours": 18
+    },
+    {
+      "id": "FSC7118",
+      "code": "FSC7118",
+      "name": "Física para Ciências Agrárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3180"
+      ],
+      "equivalents": [
+        "FSC5061",
+        "FSC5064",
+        "FSC5071",
+        "FSC7303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3180"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5061"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5064"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5071"
+          },
+          {
+            "kind": "course",
+            "code": "FSC7303"
+          }
+        ]
+      },
+      "syllabus": "Medidas Físicas. Vetores.Noções de Mecância.Mecânica dos Fluídos.Fenômenos térmicos. Tópicos de Eletricidade"
+    },
+    {
+      "id": "MIP5117",
+      "code": "MIP5117",
+      "name": "Microbiologia Agrícola",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Introdução a Microbiologia. Caracterização geral de bactérias, fungos, algas, protozoários e vírus. Fisiologia de microrganismos: Produção de energia, biossítese, nutrição e reprodução. Influência dos fatores ambientais sobre os microrganismos. Variabilidade em microrganismos. Relações dos microrganismos com plantas e animais. Estudo dos microrganismos do solo, ar, água, leite e em processos industriais."
+    },
+    {
+      "id": "MTM3181",
+      "code": "MTM3181",
+      "name": "Cálculo para Ciências Agrárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3180"
+      ],
+      "equivalents": [
+        "MTM3101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3180"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3101"
+      },
+      "syllabus": "-Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "BOT5304",
+      "code": "BOT5304",
+      "name": "Anatomia e Fisiologia Vegetal",
+      "credits": 5,
+      "hours": 90,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "BOT5120"
+      ],
+      "equivalents": [
+        "BOT5303"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT5120"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BOT5303"
+      },
+      "syllabus": "Anatomia: meristemas, parênquimas, tecidos de revestimento, de sustentação, de secreção e vasculares, raiz, caule e folha, flor, fruto, semente: aspectos anatômicos. Metabolismo: absorção e transporte de água, nutrição mineral, absorção de sais minerais, transporte pelo floema, fotossíntese e assimilação do nitrogênio. Crescimento e desenvolvimento: Estrutura, transdução de sinais e principais efeitos fisiológicos de hormônios e reguladores de crescimento; fotomorfogênese, fotoperiodismo, floração e germinação de sementes)."
+    },
+    {
+      "id": "ENR5204",
+      "code": "ENR5204",
+      "name": "Topografia e Georeferenciamento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3181"
+      ],
+      "equivalents": [
+        "ENR5401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3181"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5401"
+      },
+      "syllabus": "Objetivos, limites e divisão da topografia. Sistemas de Referência. Projeções Cartográficas. Métodos e Medidas de Posicionamento Geodésico. Planimetria. Altimetria. Equipamentos topográficos. Desenho Topográfico. Introdução e conceitos da Topografia aplicada ao Georreferenciamento. Normas técnicas aplicadas ao Georreferenciamento. Coleta de dados e Levantamento de campo: por técnicas convencionais e por GNSS. Tratamento de dados: Ajustamentos Estatísticos. Elaboração de peças técnicas. Relatório técnico. Monografia do marco geodésico.-"
+    },
+    {
+      "id": "ENR5302",
+      "code": "ENR5302",
+      "name": "Física do Solo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5205"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR5205"
+      },
+      "syllabus": "- Causas do reconhecimento da física dos solos. O solo como um sistema disperso. Composição mecânica do solo. Índices físicos do solo. Fenômenos de superfície com aplicação na disciplina. Propriedades físico-mecânicas do solo. Estado dinâmico da água no solo. Ar do solo."
+    },
+    {
+      "id": "ENR5303",
+      "code": "ENR5303",
+      "name": "Química do Solo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5109",
+        "QMC5125"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5109"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5125"
+          }
+        ]
+      },
+      "syllabus": "- Princípios básicos da química aplicados ao solo. Composição da fase sólida mineral do solo. Composição da fase sólida orgânica do solo. Solução do solo. Fenômenos de superfície. Solos ácidos e afetados por sais. Oxidação e redução do solo."
+    },
+    {
+      "id": "FIT5306",
+      "code": "FIT5306",
+      "name": "Bioestatística e Experimentação Agricola",
+      "credits": 5,
+      "hours": 90,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Análise estatística na área de ciências agrárias. Estatística descritiva: tabelas, gráficos, medidas de tendência central, medidas de dispersão. Distribuições de probabilidade: binomial, Poisson, normal, t, F, chi-quadrado. Amostragem. Inferência e testes de hipótese: erros tipo I e II, intervalo de confiança, t-teste, análise de variância, testes de comparação múltipla, teste chi-quadrado e tabelas de contingência. Princípios básicos de experimentação e planejamento de experimentos. Delineamento inteiramente casualizado e delineamento em blocos casualizados. Experimentos fatoriais. Correlação e regressão linear."
+    },
+    {
+      "id": "FIT7002",
+      "code": "FIT7002",
+      "name": "Entomologia Agrícola",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FIT7001"
+      ],
+      "equivalents": [
+        "FIT5307"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT7001"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIT5307"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Princípios de sistemática zoológica. Arthropoda. Técnicas entomológicas. Biologia, anatomia, fisiologia, morfologia externa de Arthropoda e Insecta. Identificação de Insecta. Autoecologia e sinecologia. Danos e utilidades de Arthropoda e Insecta. Principais ordens e famílias de insetos de importância Agrícola",
+      "extensionHours": 18
+    },
+    {
+      "id": "MTM3182",
+      "code": "MTM3182",
+      "name": "Álgebra Linear e Equações Diferenciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3181"
+      ],
+      "equivalents": [
+        "MTM3111",
+        "MTM5104",
+        "MTM5512"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3181"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3111"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5104"
+          },
+          {
+            "kind": "course",
+            "code": "MTM5512"
+          }
+        ]
+      },
+      "syllabus": "-Matrizes. Sistemas lineares. Espaço vetorial. Autovalores e autovetores de uma matriz. Equações diferenciais ordinárias de primeira ordem e de segunda ordem. Sistemas de equações diferenciais ordinárias. Aplicações da álgebra linear e das equações diferenciais."
+    },
+    {
+      "id": "AGR5400",
+      "code": "AGR5400",
+      "name": "Estágio da Vivência em Agricultura",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EXR5200"
+      ],
+      "equivalents": [
+        "AGR5405"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EXR5200"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AGR5405"
+      },
+      "syllabus": "- A realidade do meio rural e a dinâmica do processo produtivo, considerando-se os componentes sociais, econômicos, culturais e ambientais. Interação com os agricultores familiares. Vivência dos diferentes aspectos da rotina diária de uma unidade de produção."
+    },
+    {
+      "id": "AGR5404",
+      "code": "AGR5404",
+      "name": "Pesquisa e Redação Científica",
+      "credits": 1,
+      "hours": 18,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Familiar AGR5406) ou - Tipos e métodos de pesquisa. Projeto de pesquisa: definição de problemas e planejamento experimental; técnicas de redação; elaboração do projeto escrito. Artigos científicos: subdivisão organizacional do manuscrito científico (interpretação e contextualização). Trabalho de Conclusão de Curso - TCC."
+    },
+    {
+      "id": "ENR5405",
+      "code": "ENR5405",
+      "name": "Hidrologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5203",
+        "ENR5204"
+      ],
+      "equivalents": [
+        "ENR5507"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5203"
+          },
+          {
+            "kind": "course",
+            "code": "ENR5204"
+          },
+          {
+            "kind": "hours",
+            "hours": 5405
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5507"
+      },
+      "prerequisiteHours": 5405,
+      "syllabus": "- Conceito e escopo da hidrologia. Ciclo hidrológico. Bacia hidrográfica: conceito, delimitação e caracterização física. Microbacias rurais. Dinâmica dos componentes do ciclo hidrológico. Águas superficiais e subterrâneas. Aspectos qualitativos dos recursos hídricos. Obtenção e análise de registros hidrológicos. Comportamento hidrológico de bacias hidrográficas."
+    },
+    {
+      "id": "ENR7000",
+      "code": "ENR7000",
+      "name": "Mecânica e Máquinas Agrícolas (EXT 18h-",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7118"
+      ],
+      "equivalents": [
+        "ENR5407"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC7118"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5407"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Unidades de medida de energia, fontes de energia renováveis e não renováveis, matriz energética brasileira, fontes de potência para a agricultura, motores a combustão interna de êmbolos, motores elétricos, tratores agrícolas (classificação, manutenção, operação e ensaios), segurança na operação de tratores e máquinas agrícolas, equilíbrio dinâmico e transferência de peso em tratores agrícolas"
+    },
+    {
+      "id": "EXR5403",
+      "code": "EXR5403",
+      "name": "Desenvolvimento Rural Sustentável",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EXR5402"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EXR5402"
+      },
+      "syllabus": "a) - Formação histórica da agricultura brasileira e relação com o desenvolvimento urbano-industrial. Noções do planejamento do desenvolvimento territorial sustentável. Agricultura familiar e ruralidades contemporâneas: multifuncionalidade e pluriatividade agrícola. Estrutura fundiária e ações de ordenamento territorial e fundiário. Principais instituições e políticas públicas de desenvolvimento rural sustentável."
+    },
+    {
+      "id": "EXR7000",
+      "code": "EXR7000",
+      "name": "Agricultura Familiar II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EXR5200"
+      ],
+      "equivalents": [
+        "EXR5400"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EXR5200"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EXR5400"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Elaboração orientada do relatório técnico a partir dos dados levantados no estágio em agricultura familiar. Sistematização dos dados socioeconômicos e ambientais.",
+      "extensionHours": 36
+    },
+    {
+      "id": "FIT7004",
+      "code": "FIT7004",
+      "name": "Agroecologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FIT7001"
+      ],
+      "equivalents": [
+        "FIT5401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT7001"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIT5401"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Princípios e processos agroecológicos. Desenho de sistemas e tecnologias de agricultura alternativa. Sistemas alternativos de produção. Manejo ecológico de pragas, doenças e plantas ruderais. Transição da agricultura industrial para a agroecologia. Perspectivas da agroecologia",
+      "extensionHours": 18
+    },
+    {
+      "id": "ZOT5302",
+      "code": "ZOT5302",
+      "name": "Anatomia e Fisiologia Animal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ZOT5402"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT5402"
+      },
+      "syllabus": "- Importância e significados biológicos (anatômicos e fisiológicos) de aspectos de interesse zootécnicos, em animais de produção. Coevolução dos organismos com o ambiente e a sua relação com o desenvolvimento de suas anatomias e fisiologias. Aspectos anatômicos, fisiológicos e patológicos nos processos de produção animal. Sistemas neurais e endócrinos na regulação e controle dos sistemas digestivo e reprodutivo. Sistemas circulatório, respiratório e imunológico na regulação e controle de situações problemas específicas. Manipulação de variáveis biológicas para mitigar situações em relação a questões ambientais."
+    },
+    {
+      "id": "ZOT5405",
+      "code": "ZOT5405",
+      "name": "Etologia e Bioclimatologia Animal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FIT7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT7001"
+      },
+      "syllabus": "- Importância e conceitos básicos de etologia; domesticação; comportamento inato e aprendido, comportamento social; relação homem-animal; métodos de observação; manejo e bem-estar. Importância e conceitos básicos de bioclimatologia; variáveis ambientais; adaptação; clima e produção animal; aplicação da bioclimatologia."
+    },
+    {
+      "id": "ZOT5504",
+      "code": "ZOT5504",
+      "name": "Melhoramento Animal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FIT5306",
+        "FIT7000",
+        "MTM3182"
+      ],
+      "equivalents": [
+        "ZOT5503"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT5306"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7000"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3182"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT5503"
+      },
+      "syllabus": "- Princípios básicos de genética de populações. Fundamentos de genética quantitativa. Avaliação genética animal. Seleção para múltiplas características. Sistemas de acasalamento. Calculo do ganho genético."
+    },
+    {
+      "id": "ENR5516",
+      "code": "ENR5516",
+      "name": "Classificação dos Solos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5302",
+        "ENR5303"
+      ],
+      "equivalents": [
+        "ENR5605"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5302"
+          },
+          {
+            "kind": "course",
+            "code": "ENR5303"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5605"
+      },
+      "syllabus": "5ª Fase-sugestão - Introdução à classificação de solos; Características diagnósticas do solo; Sistemas de Classificação de Solos; Solos do Brasil e de Santa Catarina; Levantamento de solos; Classificação interpretativa das terras."
+    },
+    {
+      "id": "ENR7001",
+      "code": "ENR7001",
+      "name": "Mecanização Agrícola",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR7000"
+      ],
+      "equivalents": [
+        "ENR5515"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR7000"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5515"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Máquinas e implementos Agrícolas e zootécnicos, máquinas e implementos agrícolas (função, uso, constituição e regulagem), máquinas para colheitas de grãos e forragens, planejamento, seleção e desempenho operacional da mecanização agrícola, estudo econômico de conjuntos motomecanizados, agricultura de precisão, impactos ambientais e sócio-econômicos, análise e planejamento de sistemas para produção de agrocombustíveis.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EXR7001",
+      "code": "EXR7001",
+      "name": "Elaboração e Gestão de Projetos para o",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EXR7000"
+      ],
+      "equivalents": [
+        "AGR5403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EXR7000"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AGR5403"
+      },
+      "syllabus": "Trajetórias e concepções de projetos. Metodologia de elaboração de projeto. Elaboração de projeto para unidade de produção e/ou comunidade. Monitoramento e avaliação."
+    },
+    {
+      "id": "FIT5506",
+      "code": "FIT5506",
+      "name": "Fitopatologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MIP5117"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP5117"
+      },
+      "syllabus": "Desenvolvimento Rural (EXT 36h-a) EXR5500) - Conceitos, importância e diagnose de doenças de plantas. Principais agentes etiológicos: Fungos, bactérias, fitoplasmas, vírus, nematóides."
+    },
+    {
+      "id": "FIT7003",
+      "code": "FIT7003",
+      "name": "Biotecnologia I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BOT5304",
+        "FIT7000"
+      ],
+      "equivalents": [
+        "FIT5507",
+        "FIT5806"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5304"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7000"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT5507"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5806"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "História, importância, bases e aplicações da biotecnologia. Totipotência celular e aspectos comparativos em plantas e animais. Cultura de células, tecidos e órgãos: princípios e aplicações. Haplóides e diaplóides. Fusões celulares. Criopreservação. Bioreatores. Sementes sintéticas e linhagens celulares. Marcadores Moleculares. Geonômica e proteômica. ADN recombinante.",
+      "extensionHours": 18
+    },
+    {
+      "id": "FIT7005",
+      "code": "FIT7005",
+      "name": "Horticultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BOT5304"
+      ],
+      "equivalents": [
+        "FIT5508",
+        "FIT5708"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5304"
+          },
+          {
+            "kind": "hours",
+            "hours": 7005
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT5508"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5708"
+          }
+        ]
+      },
+      "prerequisiteHours": 7005,
+      "syllabus": "Fundamentos da Ciência da horticultura. Caracterização da Horticultura. Classificação das espécies. Propagação das plantas hortícolas. Dormência. Floração e Frutificação. Poda e sistemas de condução. Fisiologia pós-colheita e comercialização. Produção e consumo de produtos hortícolas",
+      "extensionHours": 18
+    },
+    {
+      "id": "ZOT5505",
+      "code": "ZOT5505",
+      "name": "Nutrição e Alimentação Animal I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT5302"
+      ],
+      "equivalents": [
+        "ZOT5605"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT5302"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT5605"
+      },
+      "syllabus": "- Nutrientes. Inter-relação entre os nutrientes e o seu metabolismo. Parâmetros nutricionais. Noções sobre a necessidade e o balanço dos nutrientes. Os alimentos: características, uso, controle de qualidade (aspectos físicos, químicos e bacteriológicos). Noções sobre técnicas de análise e pesquisa de alimentos."
+    },
+    {
+      "id": "ZOT5706",
+      "code": "ZOT5706",
+      "name": "Forragicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "BOT5304"
+      ],
+      "equivalents": [
+        "ZOT7708"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT5304"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7708"
+      },
+      "syllabus": "- Agrostologia e forragicultura: morfofisiologia e taxonomia das plantas forrageiras. Fisiografia das regiões pastoris do Estado. Sucessão vegetal e ecologia dinâmica. Características agronômicas das principais espécies forrageiras. Pastagens nativas de Santa Catarina. Implantação de pastagens. Melhoramento das pastagens naturais. Manejo das pastagens. Flutuação estacional das pastagens. Conservação de forragem. Integração lavoura e pecuária. Métodos de avaliação da produção e composição botânica das pastagens."
+    },
+    {
+      "id": "CAL5604",
+      "code": "CAL5604",
+      "name": "Tecnologia de Produtos Agropecuários",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MIP5117"
+      ],
+      "equivalents": [
+        "CAL5901"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP5117"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5901"
+      },
+      "syllabus": "6ª Fase-sugestão Tecnologia de transformação e conservação de produtos agropecuários de uso alimentar com ênfase para carnes, lacticínios e produtos de origem vegetal. Classificação, terminologia, composição, microbiologia, bioquímica e fermentações. Padronização. Beneficiamento, equipamentos, processos industriais, sub- produtos, higiene, controle de qualidade, conservação, armazenamento. Energia renovável."
+    },
+    {
+      "id": "ENR5613",
+      "code": "ENR5613",
+      "name": "Hidráulica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5405"
+      ],
+      "equivalents": [
+        "ENR5608"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5405"
+          },
+          {
+            "kind": "hours",
+            "hours": 5613
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5608"
+      },
+      "prerequisiteHours": 5613,
+      "syllabus": "- Introdução. Princípios de Hidrostática. Captação e armazenamento de água. Princípios de Hidrodinâmica. Hidrometria. Condutos sob pressão. Adutoras por gravidade. Bombas e Adutoras por recalque. Condutos livres."
+    },
+    {
+      "id": "ENR5614",
+      "code": "ENR5614",
+      "name": "Biologia e Fertilidade do Solo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5516"
+      ],
+      "equivalents": [
+        "ENR5711"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR5516"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5711"
+      },
+      "syllabus": "- Fertilidade do solo: definições, avaliação e manejo. Diversidade e ecologia da microbiota e da fauna do solo. Compostagem. Suprimento e absorção de nutrientes e interações positivas entre os organismos do solo e plantas. Interação entre a biota e propriedades do solo. Correção e adubação do solo: corretivos, adubos sintéticos e orgânicos, adubação verde. Manejo de fertilizantes e seu impacto no ambiente pela geração e consumo de gases de efeito estufa pela biota do solo. Manejo de fertilizantes e qualidade dos produtos agrícolas."
+    },
+    {
+      "id": "ENR7309",
+      "code": "ENR7309",
+      "name": "Construções Rurais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EGR5104"
+      ],
+      "equivalents": [
+        "ENR5706"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR5104"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5706"
+      },
+      "syllabus": "- Estudos da resistência dos materiais, dos elementos estruturais e partes complementares de uma edificação. Montagem de projetos de edificações."
+    },
+    {
+      "id": "FIT5609",
+      "code": "FIT5609",
+      "name": "Melhoramento Genético Vegetal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FIT5306",
+        "FIT7003"
+      ],
+      "equivalents": [
+        "FIT5603"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT5306"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7003"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIT5603"
+      },
+      "syllabus": "- Objetivos e conceitos. Origem e Evolução de Plantas Cultivadas. Conservação de germoplasma. Sistemas de Reprodução de Plantas Cultivadas. Estrutura Genética de Populações. Bases Genéticas dos Caracteres Qualitativos e Quantitativos. Métodos de Seleção de Plantas Autógamas e Alógamas. Híbridos e Sintéticos. Experimentação Aplicada ao Melhoramento de Plantas. Interação Genótipo e Ambiente."
+    },
+    {
+      "id": "FIT5610",
+      "code": "FIT5610",
+      "name": "Manejo Integrado de Pragas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FIT7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT7002"
+      },
+      "syllabus": "- Amostragem de insetos. Métodos e estratégias de controle de populações de insetos. Entomologia econômica. Toxicologia humana e do ambiente. Agrotóxicos. Legislação fitossanitária. Receituário agronômico. Tecnologia de aplicação dos controles."
+    },
+    {
+      "id": "FIT5611",
+      "code": "FIT5611",
+      "name": "Manejo de Doenças em Plantas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FIT5506"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT5506"
+      },
+      "syllabus": "- Princípios de controle de doenças de plantas, ciclo de relações patógeno-hospedeiro, epidemiologia, sistemas de previsão de doenças, controle biológico, manejo cultural e genético de doenças de plantas, indução de resistência, características dos principais fungicidas, manejo integrado de doenças, tratamento de sementes e controle de doenças em pós-colheita."
+    },
+    {
+      "id": "ENR7002",
+      "code": "ENR7002",
+      "name": "Manejo e Conservação dos Solos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5516",
+        "ENR5614"
+      ],
+      "equivalents": [
+        "ENR5714",
+        "ENR5814"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5516"
+          },
+          {
+            "kind": "course",
+            "code": "ENR5614"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5714"
+          },
+          {
+            "kind": "course",
+            "code": "ENR5814"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Princípios e conceitos de degradação do solo. Princípios e conceitos de manejo e conservação do solo e da água. Histórico do manejo e da conservação do solo e da água em Santa Catarina e no Brasil. Fundamentos do manejo e da conservação de solos. Plantas de cobertura, rotação e consorciação de culturas. Mecanismos e fatores que afetam a erosão hídrica. Práticas de controle da erosão hídrica do solo. Predição da erosão hídrica do solo. Manejo do solo em diferentes sistemas de manejo do solo.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EXR5705",
+      "code": "EXR5705",
+      "name": "Economia Rural",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EXR5703"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EXR5703"
+      },
+      "syllabus": "- Introdução a Economia; Noções de Microeconomia: fatores de produção, leis da demanda e da oferta de produtos agropecuários, estruturas de mercado e elasticidade. Noções de Macroeconomia. Organização do Sistema Econômico. Desenvolvimento Econômico."
+    },
+    {
+      "id": "FIT7006",
+      "code": "FIT7006",
+      "name": "Plantas de Lavoura I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5614",
+        "ENR7001",
+        "FIT5610",
+        "FIT5611"
+      ],
+      "equivalents": [
+        "FIT5701"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5614"
+          },
+          {
+            "kind": "course",
+            "code": "ENR7001"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5610"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5611"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIT5701"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Milho, soja, feijão, arroz, trigo e mandioca. Importância sócio- econômica. Origem. Usos. Taxonomia. Morfologia e estádios de desenvolvimento. Clima e zoneamento agroclimático. Ecofisiologia da cultura. Nutrição mineral e adubação. Manejo da área. Cultivares. Estabelecimento da cultura. Manejo da cultura. Doenças, pragas, plantas daninhas e controle. Colheita",
+      "extensionHours": 18
+    },
+    {
+      "id": "FIT7008",
+      "code": "FIT7008",
+      "name": "Olericultura I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5614",
+        "FIT5609",
+        "FIT5610",
+        "FIT5611",
+        "FIT7005"
+      ],
+      "equivalents": [
+        "FIT5702"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5614"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5609"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5610"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5611"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7005"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIT5702"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Importância Econômica, Alimentar e Social, Origem e Evolução, Botânica, Sistema de Reprodução, Cultivares, Exigências Climáticas, Exigências Nutricionais, Propagação, Tratos Culturais, Colheita e Comercialização.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ZOT7000",
+      "code": "ZOT7000",
+      "name": "Produção de Ruminantes",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT5505",
+        "ZOT5706"
+      ],
+      "equivalents": [
+        "ZOT5708",
+        "ZOT5809"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT5505"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT5706"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT5708"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT5809"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Importância da Bovinocultura. Exterior. Raças. Crescimento e Reprodução. Nutrição e alimentação. Exigências das diversas categorias. Saúde e higiene animal. Conduta profilática. Bovinocultura leiteira: lactação e ordenha; fatores que influenciam na produção de leite; categorias animais e manejo. Bovinocultura de corte: categorias animais e manejo; instalações. Critérios de seleção. Projeto de uma unidade de produção. Pastoreio Racional Voisin como sistema de produção. Ovinocultura: potencial para o estado, principais raças, reprodução e manejo.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ENR7003",
+      "code": "ENR7003",
+      "name": "Irrigação e Drenagem",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5613"
+      ],
+      "equivalents": [
+        "ENR5712",
+        "ENR5902"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5613"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5712"
+          },
+          {
+            "kind": "course",
+            "code": "ENR5902"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Introdução. Armazenamento de água no solo. Métodos de irrigação pressurizados: Irrigação Localizada e Aspersão. Drenagem. Métodos de irrigação por superfície: Inundação; Sulcos e Faixa",
+      "extensionHours": 18
+    },
+    {
+      "id": "FIT5801",
+      "code": "FIT5801",
+      "name": "Silvicultura e Manejo Florestal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5614",
+        "FIT7005"
+      ],
+      "equivalents": [
+        "FIT5918"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5614"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7005"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIT5918"
+      },
+      "syllabus": "- Biomas brasileiros. Dendrometria e inventário florestal. Ecologia de ecossistemas florestais. Implantação e manejo econômico de florestas plantadas. Conservação de recursos e ecossistemas florestais nativos. Manejo de florestas nativas para produção de madeira e de produtos florestais não-madeireiros. Legislação florestal. Elaboração de projetos de manejo de espécies e ecossistemas florestais."
+    },
+    {
+      "id": "FIT7009",
+      "code": "FIT7009",
+      "name": "Fruticultura I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5614",
+        "FIT5610",
+        "FIT5611",
+        "FIT7005"
+      ],
+      "equivalents": [
+        "FIT5802",
+        "FIT5816"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5614"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5610"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5611"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7005"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT5802"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5816"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Abordagens teórico-práticas sobre a importância econômica e social, origem, botânica, cultivares, exigências climáticas, propagação, nutrição, tratos culturais, colheita e comercialização das principais fruteiras de clima temperado, sub-tropical e tropical, com ênfase à bananicultura, citricultura, frutas de caroço, macieira e pereira. Planejamento, elaboração e execução de projetos associados à cadeia produtiva em fruticultura.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ZOT5810",
+      "code": "ZOT5810",
+      "name": "Suinocultura I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT5504",
+        "ZOT5505"
+      ],
+      "equivalents": [
+        "ZOT5909",
+        "ZOT7809"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT5504"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT5505"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT5909"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7809"
+          }
+        ]
+      },
+      "syllabus": "- Os impactos da suinocultura na economia do Estado de Santa Catarina e do país. Cadeia produtiva da suinocultura. Sistemas da produção de suínos. Raças, alimentação, sanidade, instalações, equipamentos, dimensionamento e manejo da produção. Tipificação de carcaças e rendimento de carne de suínos. Manejo pré-abate. Manejo dos dejetos."
+    },
+    {
+      "id": "ZOT8000",
+      "code": "ZOT8000",
+      "name": "Avicultura I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT5504",
+        "ZOT5505"
+      ],
+      "equivalents": [
+        "ZOT5811",
+        "ZOT5908",
+        "ZOT7808"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT5504"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT5505"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT5811"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT5908"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7808"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Avicultura no Brasil e no Mundo. Produção de matrizes e pintos de um dia. Manejo alimentar, sanitário e de instalações. Produção de ovos comerciais. Incubatório. Avicultura e seus impactos ambientais. Produção de aves de corte e/ou de postura ambientalmente sustentáveis. Raças, alimentação, sanidade, instalações, equipamentos e manejo voltados a produção avícola sustentável",
+      "extensionHours": 18
+    },
+    {
+      "id": "ENR5815",
+      "code": "ENR5815",
+      "name": "Gestão e manejo Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR7002"
+      },
+      "syllabus": "Níveis de organização em ecologia. Agroecossistemas. Desenvolvimento Sustentável. Riscos e Incertezas na Avaliação Ambiental. Introdução à Economia Ambiental. Valoração Ambiental. Aspectos Jurídicos da Gestão Ambiental. Licenciamento de Atividades Agropecuárias. Estudo de Impacto Ambiental. Sistemas de Gestão Ambiental (SGAs)."
+    },
+    {
+      "id": "ENR7004",
+      "code": "ENR7004",
+      "name": "Avaliação e Perícias no Imóvel Rural",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR5204",
+        "FIT5306"
+      ],
+      "equivalents": [
+        "ENR5901"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5204"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5306"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5901"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Perícias e Avaliações de Engenharia aplicadas ao imóvel rural: Conceitos básicos e propósito. Avaliação em Ações Judiciais. Divisão de propriedades. Avaliação de Imóveis Rurais - Métodos: a) Avaliação da terra nua, vistoria, pesquisa de valores, homogeneização, estatística aplicada ao tratamento de dados; b) Avaliação de benfeitorias reprodutivas e não reprodutivas avaliação de culturas, avaliação de recursos naturais, avaliação de obras rurais, avaliação de máquinas e implementos agrícolas, avaliação de semoventes (rebanhos) e; c) Avaliação do passivo ambiental. Elaboração de laudos segundo as normas da ABNT. Apresentação de laudos de avaliação e níveis de precisão. Exemplos de laudos de avaliação e vistoria. Análise de mercado imobiliário e do valor encontrado. Legislação profissional. Registro de imóveis. Técnicas de geoprocessamento e cartografia digital aplicados aos trabalhos de perícias e avaliações de imóveis rurais",
+      "extensionHours": 36
+    },
+    {
+      "id": "EXR5807",
+      "code": "EXR5807",
+      "name": "Administração e Uso Integrado da Unidade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EXR5705"
+      ],
+      "equivalents": [
+        "EXR5502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EXR5705"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EXR5502"
+      },
+      "syllabus": "- Custos de produção. Teoria da produção. Análise de rentabilidade econômica. Comercialização. Análise econômica de projetos. Estoques agrícolas. Métodos de planejamento das unidades de produção. Projeto de uso de uma unidade agropecuária. Enfoque sistêmico e integrado de produção agropecuária."
+    },
+    {
+      "id": "EXR7002",
+      "code": "EXR7002",
+      "name": "Extensão Rural",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EXR5501",
+        "EXR5905",
+        "EXR7606"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EXR5501"
+          },
+          {
+            "kind": "course",
+            "code": "EXR5905"
+          },
+          {
+            "kind": "course",
+            "code": "EXR7606"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Agropecuária EXR5805 ou Caracterização da realidade agrícola; desenvolvimento e mudança social; extensão rural sob uma visão crítica; `Revolução Verde` e modernização agrícola e a Extensão Rural; Estado, centralização e descentralização- o caso da extensão Rural e da Pesquisa Agropecuária; a Agricultura Familiar e a Extensão Rural; Processos de comunicação e metodologia; Modelos pedagógicos e a extensão rural; Planejamento da ação extensionista; novas instâncias participativas; A Nova política nacional de Assistência Técnica e Extensão Rural; os desafios presentes",
+      "extensionHours": 18
+    },
+    {
+      "id": "FIT5901",
+      "code": "FIT5901",
+      "name": "Fisiologia e Tecnologia de Sementes",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "FIT5609",
+        "FIT7005"
+      ],
+      "equivalents": [
+        "FIT5919"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT5609"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7005"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIT5919"
+      },
+      "syllabus": "- Importância da semente. Morfologia e embriologia da semente. Fisiologia e bioquímica da semente. Formação e maturação da semente na planta. Germinação. Dormência. Deterioração e vigor. Produção, colheita, beneficiamento, armazenamento e conservação de sementes. Legislação brasileira de sementes e mudas. Análise de sementes. Pragas e doenças de sementes. Sementes, recursos genéticos e agrobiodiversidade."
+    },
+    {
+      "id": "FIT5902",
+      "code": "FIT5902",
+      "name": "Paisagismo, Floricultura, Parques e Jardins",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "FIT7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT7005"
+      },
+      "syllabus": "- Paisagem urbana e rural; fundamentos de composição vegetal. Implantação de parques, praças e jardins. Arborização urbana e de rodovias. Plantas ornamentais e sua importância. Fitogeografia do Brasil e de Santa Catarina. Histórico, conceito e evolução de jardim, praça e parque. Projetos de execução e de manutenção de jardins e sus componentes. Revegetação de matas ciliares, restingas e áreas degradadas."
+    },
+    {
+      "id": "AGR5003",
+      "code": "AGR5003",
+      "name": "Trabalho de Conclusão de Curso - TCC",
+      "credits": 10,
+      "hours": 180,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4248
+      },
+      "prerequisiteHours": 4248,
+      "syllabus": "- Trabalho de graduação interdisciplinar (monografia), elaborado a partir de um projeto orientado por professor(es) do curso ou da UFSC, que deverá ser estruturado de acordo com normas técnicas da ABNT e apresentado perante uma banca constituída de professores do curso e/ou da UFSC. Podem também fazer parte da banca profissionais com formação em nível superior, se o TCC for realizado em uma empresa pública ou privada."
+    },
+    {
+      "id": "AGR5004",
+      "code": "AGR5004",
+      "name": "Estágio Curricular Supervisionado",
+      "credits": 20,
+      "hours": 360,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "AGR5041",
+        "AGR5043"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 4248
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "AGR5041"
+          },
+          {
+            "kind": "course",
+            "code": "AGR5043"
+          }
+        ]
+      },
+      "prerequisiteHours": 4248,
+      "syllabus": "(disciplina de estágio AGR 5400) e 486h-a (atividades de extensão). - Proporcionar ao discente a experiência pré-profissional relativa aos conteúdos ministrados no curso. Deve ser realizado em uma empresa pública ou privada, mediante um projeto de atividades, orientado por um professor do curso ou da UFSC e com base em legislação específica (Lei 11788/2008 e Resolução 009/CUn/1998). Apresentação de um relatório final das atividades desenvolvidas no estágio ao Coordenador de Estágios do curso."
+    },
+    {
+      "id": "AGR5010",
+      "code": "AGR5010",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(disciplina de estágio AGR 5400) e 486h-a (atividades de extensão). Rol de Disciplinas Optativas Participação em Programas de Intercâmbio Acadêmico - decorrente de convênio assinado com Instituições de Ensino Superior, Agência de Fomento, Centros de Pesquisa e instituições semelhantes - visando a realização de atividades acadêmicas como cursos, estagios e pesquisas orientadas ao aprimoramento da formação do aluno, devidamente aprovadas pelo Colegiado do Curso."
+    },
+    {
+      "id": "AGR5011",
+      "code": "AGR5011",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em Programas de Intercâmbio Acadêmico - decorrente de convênio assinado com Instituições de Ensino Superior, Agência de Fomento, Centros de Pesquisa e instituições semelhantes - visando a realização de atividades acadêmicas como cursos, estagios e pesquisas orientadas ao aprimoramento da formação do aluno, devidamente aprovadas pelo Colegiado do Curso."
+    },
+    {
+      "id": "AGR5036",
+      "code": "AGR5036",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Participação em programas de intercâmbio acadêmico - decorrente de convênio assinado com Instituições de Ensino Superior, Agência de Fomento, Centros de Pesquisa e instituições semelhantes - visando a realização de atividades acadêmicas como cursos, estágios e pesquisas orientadas ao aprimoramento da formação do aluno, devidamente aprovadas pelo Colegiado do Curso."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "AQI5105",
+      "code": "AQI5105",
+      "name": "Aquicultura e a Preservação Ambiental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico e situação atual do uso da aquicultura na preservação ambiental. Princípios e conceitos básicos de desenvolvimento sustentável aplicado à aquicultura. Processos de reciclagem de efluentes através da aquicultura. Controle biológico de pragas através de organismos aquáticos. Integração da aquicultura com atividades rurais causadoras de impacto ambiental. Repovoamento de ambients naturais com espécies autóctones."
+    },
+    {
+      "id": "AQI7803",
+      "code": "AQI7803",
+      "name": "Introdução à Aquicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções básicas de aquicultura, incluindo: histórico, status, espécies cultiváveis, biologia, sistemas de cultivo, qualidade da água, nutrição, reprodução e instalações. Noções sobre aquicultura sustentável. Interação da Aquicultura no contexto agropecuário e na preservação do meio ambiente."
+    },
+    {
+      "id": "AQI7807",
+      "code": "AQI7807",
+      "name": "Ranicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Evolução e biologia de anfíbios. Diferenciação entre rãs, sapos e pererecas. Histórico da ranicultura no Brasil. Noções básicas de ranicultura. O desenvolvimento das técnicas de criação. Sistemas de criação. Fatores que interferem no êxito da ranicultura. Manejo dos animais e profilaxia. Fatores responsáveis por estresse em anfíbios cultivados. Enfermidades de rãs silvestres e de cativeiro. Parasitos e enfermidades de anfíbios."
+    },
+    {
+      "id": "AQI7811",
+      "code": "AQI7811",
+      "name": "Piscicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI7803"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI7803"
+      },
+      "syllabus": "Policultivo (importância e características, modelos e manejos). Consorciação (peixes/aves, peixes/suínos, peixe/arroz). Reprodução de peixes (fisiologia, reprodução natural e artificial, produção de alevinos). Manejo de reprodução, alevinagem e engorda de peixes contentais e marinhas."
+    },
+    {
+      "id": "AQI7812",
+      "code": "AQI7812",
+      "name": "Carcinocultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI7803"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI7803"
+      },
+      "syllabus": "Situação da atividade em relação as demais áreas de Aqüicultura e da produção zootécnica. Princípios que norteiam a atividade produtiva. A reprodução como parte do processo produtivo e as suas necessidades estratégicas e infraestruturais. O planejamento, a engenharia de construção e o manejo das fazendas de produção."
+    },
+    {
+      "id": "AQI7813",
+      "code": "AQI7813",
+      "name": "Malacocultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI7803"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI7803"
+      },
+      "syllabus": "Introdução a malacocultura. Produção de microalgas para alimentação de larvas. Taxonomia. Anatomia. Fisiologia. Ciclo reprodutivo. Obtenção de sementes. Estrutura e manejo para o cultivo de mexilhões, ostras e pectnídeos."
+    },
+    {
+      "id": "ENS7407",
+      "code": "ENS7407",
+      "name": "Gestão de Subprodutos e Resíduos de Origem Animal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT5505"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT5505"
+      },
+      "syllabus": "Principais subprodutos, resíduos e dejetos da produção animal. Impactos ambientais e legislação para o uso na alimentação animal. Processo de tratamento e alternativas de uso na propriedade rural."
+    },
+    {
+      "id": "EXR5150",
+      "code": "EXR5150",
+      "name": "História da Agricultura Brasileira",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5150
+      },
+      "prerequisiteHours": 5150,
+      "syllabus": "- Origens da agricultura brasileira. A agricultura e a formação dos estados nacionais. Trabalho escravo e ciclos da economia brasileira. Movimentos sociais e industrialização da agricultura. História da agricultura brasileira comparada a outros países. Agricultura e a industrialização brasileira. A luta pela reforma agrária. A agricultura de exportação e as políticas dos estados nacionais para a agricultura."
+    },
+    {
+      "id": "EXR5152",
+      "code": "EXR5152",
+      "name": "Agronegócios: Mercado Internacional",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Agronegócio, origem, conceitos, tendências. Pauta de importação e exportação brasileiras, histórico e evolução. Balança comercial e balanço de pagamentos. Cadeia de mercadorias e agregação de valor. Rotas de comércio e mercados. Subsídios, políticas tarifárias e formas de dumping. Organização Mundial de Comércio, histórico, regulações e arbitragem. Agronegócio, transferência de valor e capacidade de intervenção política do setor no Brasil."
+    },
+    {
+      "id": "EXR6000",
+      "code": "EXR6000",
+      "name": "Ciência, Tecnologia e Saberes na",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Global - Compreensão das interfaces entre ciência, tecnologia e saberes. Mudança tecnológica. Transição sócio técnica. Sistema agroalimentar."
+    },
+    {
+      "id": "EXR7005",
+      "code": "EXR7005",
+      "name": "Políticas Públicas e Territórios",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EXR5012"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EXR5012"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Educação rural e educação do campo; Políticas Afirmativas.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EXR7402",
+      "code": "EXR7402",
+      "name": "Legislação Agrária, Gestão e Planejamento",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Desenvolvimento integrado. Legislação agrária. Base legal e legislação para a gestão ambiental. Auditoria ambiental. Controle de qualidade ambiental. Planejamento e o enfoque ambiental."
+    },
+    {
+      "id": "EXR7403",
+      "code": "EXR7403",
+      "name": "Turismo Agropecuário",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ambiental Análise do potencial e planejamento de uma propriedade rural para o desenvolvimento do turismo. Turismo agropecuário como promotor de desenvolvimento rural (fixação do produtor no campo, oportunidade de venda direta de produtos da propriedade, aumento de renda)."
+    },
+    {
+      "id": "EXR7607",
+      "code": "EXR7607",
+      "name": "Cadeia Produtiva e Associativismo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos teóricos da comercialização. Descrição do processo da comercialização. Análise de preços agrícolas. Prática sobre cálculo de juros simples e composto. Comercialização, crédito e seguro agrícola. Bolsa de cereais. Conceitos e princípios do cooperativismo."
+    },
+    {
+      "id": "EXR7610",
+      "code": "EXR7610",
+      "name": "Gestão e Empreendedorismo Agropecuário",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções e estrutura de uma empresa. Empreendedorismo rural. Estrutura organizacional. Conceitos e etapas do processo de negociação. Simulação de sistemas econômicos visando aprimorar a capacidade decisória do empreendedor rural."
+    },
+    {
+      "id": "EXR7611",
+      "code": "EXR7611",
+      "name": "Sistemas Alimentares Sustentáveis e Associativismo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sistemas alimentares sustentáveis: noções teóricas e abordagens práticas. Análise das cadeias produtivas e dos mercados agroalimentares. Políticas de fomento da produção e da comercialização de alimentos. Experiências de ação coletiva no meio rural. Conceitos e práticas cooperativas."
+    },
+    {
+      "id": "ZOT0001",
+      "code": "ZOT0001",
+      "name": "Meliponicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Origem dos meliponíneos e sua dispersão pelo mundo. Principais espécies de meliponíneos. Biologia geral das abelhas sem ferrão. Organização social, defesa e reprodução das abelhas sem ferrão. Equipamentos e instalação de meliponários. Legislação para manejo de abelhas sem ferrão. Obtenção, multiplicação e manejo de colônias. Doenças e inimigos naturais: identificação e estratégias de profilaxia. Manejo de colônias para serviços de polinização. Produtos e subprodutos da Meliponicultura. Legislação e comercialização de produtos das abelhas sem ferrão."
+    },
+    {
+      "id": "ZOT5123",
+      "code": "ZOT5123",
+      "name": "Ovinocultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Origem, caracteres e classificação. Importância e economia, rendimento na criação externa. Condições essenciais à ovinocultura. Finalidade: carne, lã, leite e peles. Fisiologia da reprodução, exterior e raças especializadas. Instalações. Formação do rebanho, plantel e alimentação. Reprodução, inseminação artificial e parição. Fundamentos da seleção e tosquia. Doenças do rebanho."
+    },
+    {
+      "id": "ZOT7106",
+      "code": "ZOT7106",
+      "name": "Ciência da Carne",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Produção de carne: processos físicos químicos e microbiológicos. Fatores que interferem na qualidade da carne: genéticos, nutricionais, manejo e transporte dos animais, temperatura. Avaliação da carne: analise sensorial: cor, consistência, maciez, sabor. Processos para conservação da carne: resfriamento, congelamento."
+    },
+    {
+      "id": "ZOT7119",
+      "code": "ZOT7119",
+      "name": "Forragens Conservadas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo teórico-prático das tecnologias empregadas para produção, avaliação e utilização de forragens conservadas."
+    },
+    {
+      "id": "ZOT7204",
+      "code": "ZOT7204",
+      "name": "Plantas Tóxicas para Animais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Biologia, classificação e ocorrência de plantas tóxicas e invasoras de pastagens. Descrição e preparo de plantas tóxicas e invasoras para identificação. Controle de plantas tóxicas e invasoras de pastagens. Nível de toxicidade e sintomas nos animais."
+    },
+    {
+      "id": "ZOT7205",
+      "code": "ZOT7205",
+      "name": "Fitoterapias na Produção Animal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Composição morfologia e taxonomia de plantas de uso terapêutico. Fundamentos da fitoterapia. Princípios gerais do uso de homeopatias na produção animal sustentável. Plantas forrageiras usadas na prevenção de parasitoses animais."
+    },
+    {
+      "id": "ZOT7504",
+      "code": "ZOT7504",
+      "name": "Manejo Sustentável de Pastagens",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sustentável ZOT5302) Adaptação, distribuição e comportamento de plantas forrageiras sob corte ou pastejo. Sistemas de pastoreio: continuo rotacional, diferido e em faixas. Consorciação de forragens."
+    },
+    {
+      "id": "ZOT7512",
+      "code": "ZOT7512",
+      "name": "Ovinocultura e Caprinocultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Ovinocultura e Caprinocultura no Brasil e no mundo. Raças e produtos ovinos e caprinos. Manejo geral, da Nutrição, da Reprodução, das Instalações e Controle zoossanitário dos rebanhos ovino e caprino. Planejamento de uma criação.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ZOT7703",
+      "code": "ZOT7703",
+      "name": "Análise e Avaliação de Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT5205"
+      ],
+      "equivalents": [
+        "ZOT7502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT5205"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7502"
+      },
+      "syllabus": "Práticas de técnicas laboratoriais e análise bromatológica dos alimentos concentrados e volumosos. Análises físico-químicas e legislação para controle de qualidade de alimentos e de rações. Amostragem: identificação, manipulação, representatividade, análises macroscópicas e microscópicas dos ingredientes usados alimentação animal."
+    },
+    {
+      "id": "ZOT7804",
+      "code": "ZOT7804",
+      "name": "Apicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Biologia e evolução das abelhas. Interação abelhas e o ambiente. Formação e manejo de apiários para produção e extração de produtos apícolas. A polinização de culturas de interesse zootécnico. Instalações, equipamentos, e indumentárias usadas na apicultura. Cuidados, higiene e profilaxia apícola"
+    },
+    {
+      "id": "ZOT7807",
+      "code": "ZOT7807",
+      "name": "Animais Silvestres e Exóticos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT5302",
+        "ZOT5505"
+      ],
+      "equivalents": [
+        "ZOT7806"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT5302"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT5505"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7806"
+      },
+      "syllabus": "Potencialidades técnicas e econômicas para a produção de animais silvestres e exóticos na região e no país. Animais silvestres e exóticos de expressão econômica (Classe Aves, Classe Mammalia e Classe Reptilia). Produtos e subprodutos da criação de animais silvestres. Legislação para a sua produção em cativeiro."
+    },
+    {
+      "id": "ZOT7814",
+      "code": "ZOT7814",
+      "name": "Outras Aves de Importância Zootécnica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT5302",
+        "ZOT5505"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT5302"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT5505"
+          }
+        ]
+      },
+      "syllabus": "Noções de anatomia e fisiologia, manejo, alimentação e problemas sanitários mais comuns de: perus, codornas, faisões, pavões, galinhas de Angola, patos, marrecos, gansos, cisnes, emas, avestruz e pombos. Sistemas de produção e comercialização."
+    },
+    {
+      "id": "ZOT7815",
+      "code": "ZOT7815",
+      "name": "Bufalinocultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT5505",
+        "ZOT7000"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT5505"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7000"
+          }
+        ]
+      },
+      "syllabus": "Origem. Importância da bufalinocultura. Situação e perspectivas da bufalinocultura no Brasil e Mundial para a produção de carne a base de pasto Raças: para carne, leite e tração animal. Manejo reprodutivo, alimentar e de instalações para búfalos (cria, recria e terminação para o abate). Fisiologia da lactação. Raças adaptadas, crescimento, desenvolvimento e produção de carne com certificação de origem. Práticas de manejo e alternativas alimentares para produção sustentável. Planejamento da criação."
+    },
+    {
+      "id": "ZOT7819",
+      "code": "ZOT7819",
+      "name": "Tópicos Especiais em Bovinocultura de Corte",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7000"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7000"
+      },
+      "syllabus": "Estudo de um tema atual de interesse na bovinocultura de corte."
+    },
+    {
+      "id": "ZOT7820",
+      "code": "ZOT7820",
+      "name": "Tópicos Especiais em Bovinocultura de Leite",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7000"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7000"
+      },
+      "syllabus": "Estudo de um tema atual de interesse na bovinocultura de leite."
+    },
+    {
+      "id": "ZOT7821",
+      "code": "ZOT7821",
+      "name": "Tópicos Especiais em Avicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT8000"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT8000"
+      },
+      "syllabus": "Estudo de um tema atual de interesse na avicultura."
+    },
+    {
+      "id": "ZOT7822",
+      "code": "ZOT7822",
+      "name": "Tópicos Especiais em Suinocultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT5810"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT5810"
+      },
+      "syllabus": "Estudo de um tema atual de interesse na suinocultura."
+    },
+    {
+      "id": "ZOT7823",
+      "code": "ZOT7823",
+      "name": "Cunicultura e Chinchilicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ZOT7506"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7506"
+      },
+      "syllabus": "Origem, Raças (carne, pele e lã) e produtos cunícolas. Potencial e mercado para criação de coelhos. Manejo geral, reprodutivo, alimentar, sanitário e das instalações. Cunicultura ecologicamente sustentável para a pequena unidade familiar de produção. Índices produtivos e planejamento da criação de coelhos. Origem, Importância econômica da criação de chinchila.Tipos de chinchila. Manejo geral, reprodutivo, alimentar, sanitário e de instalações. Aquisição de reprodutores. Planejamento da criação de chinchilas."
+    },
+    {
+      "id": "ZOT7909",
+      "code": "ZOT7909",
+      "name": "Simulação de dados em Melhoramento",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT5504"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT5504"
+      },
+      "syllabus": "Simulação de características zootécnicas para aplicação de conhecimentos de genética quantitativa ao melhoramento animal."
+    },
+    {
+      "id": "ZOT8001",
+      "code": "ZOT8001",
+      "name": "Equinocultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ZOT7510",
+        "ZOT7810"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7510"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7810"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Animal Origem e Produção de cavalos no Brasil e no mundo, Raças: aptidões, Características zootécnicas (exterior, pelagens, andamento), Cruzamentos, Reprodução. Sistemas de produção de animais para as diferentes aptidões. Aspectos dos Manejos (geral, alimentar, reprodutivo, sanitário e de instalações). Planejamento da criação.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5001",
+      "code": "CAL5001",
+      "name": "Tecnologia de Frutas e Hortaliças sob os",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAL5604"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5604"
+      },
+      "syllabus": "Introdução ao processo de frutas e hortaliças, sob os conceitos das Tecnologias Limpas. Aspectos da natureza e da composição das matérias-primas, quanto à conservação e geração de produtos, visando a qualidade nutricional e a maximização na utilização dos vegetais. Estudos sobre armazenagem desde as matérias-primas in natura até a embalagem do produto final, com análise de todo o ciclo de vida do produto."
+    },
+    {
+      "id": "CAL5521",
+      "code": "CAL5521",
+      "name": "Armazenagem de Grãos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos das Tecnologias Limpas Estrutura brasileira de armazenagem de grãos. Fatores que influenciam a qualidade dos grãos armazenados. Fundamentos e manejo da aeração e termometria. Propriedades do ar úmido. Equilíbrio higroscópio. Psicrometria. Secagem de grãos. Secadores. Manutenção de máquinas e equipamentos. Racionalização do uso de energia em unidades armazenadoras. Pragas de grãos armazenados e formas de controle. Deterioração fúngica. Armazenamento Convencional e a Granel Prevenção de acidentes em unidades armazenadoras."
+    },
+    {
+      "id": "FIT5000",
+      "code": "FIT5000",
+      "name": "Bioquímica dos Agrotóxicos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Contextualização sobre agrotóxicos utilizados no Brasil e no mundo. Grupos químicos. Propriedades físico-químicas, solubilidade, absorção, translocação, seletividade, metabolismo e toxicidade. Classificação, mecanismos e alvos de ação na planta. Toxicologia e resistência aos agrotóxicos."
+    },
+    {
+      "id": "FIT5021",
+      "code": "FIT5021",
+      "name": "Viticultura e Enologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT5506",
+        "FIT7002",
+        "FIT7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT5506"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7002"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7005"
+          }
+        ]
+      },
+      "syllabus": "- Botânica e ecologia da videira. Melhoramento genético e variedades. Propagação, viveiros e produção de mudas. Preparo solo, implantação, manejo e conservação do solo em vinhedos. Fisiologia e manejo da videira. Manejo e controle de doenças e pragas da videira. Maturação e colheita da uva. Microbiologia Enológica. Química enológica. Vinificações. Prática enológica. Maturação, envelhecimento e engarrafamento de vinhos. Análise Sensorial. Controle qualidade e rastreabilidade. Valorização dos produtos e marketing vitivinicola."
+    },
+    {
+      "id": "FIT5022",
+      "code": "FIT5022",
+      "name": "Biologia Reprodutiva de Plantas e Polinização",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT7002"
+      },
+      "syllabus": "- Sistema reprodutivo de plantas. Morfologia floral. Fenologia e controle da floração. Tipos de polinização. Formação de sementes e frutos. Análise de pólen e néctar. Comportamento forrageiro de polinizadores e dispersores. Estrutura e dinâmica populacionais de polinizadores em agroecossistemas. Polinização dirigida."
+    },
+    {
+      "id": "FIT5023",
+      "code": "FIT5023",
+      "name": "Fruticultura II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ENR5614",
+        "FIT5506",
+        "FIT7002",
+        "FIT7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5614"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5506"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7002"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7005"
+          }
+        ]
+      },
+      "syllabus": "- Abordagens teórico-práticas sobre aspectos gerais e específicos de culturas frutíferas de importância econômica para o Estado de Santa Catarina e Sul do Brasil, com ênfase ao maracujazeiro, abacaxizeiro, kiwizeiro, caquizeiro, abacateiro e pequenos frutos (morango, framboesa, mirtilo, amora) e mirtáceas nativas. Abordagens de produção integrada de frutas e fruticultura de base agroecológica."
+    },
+    {
+      "id": "FIT5024",
+      "code": "FIT5024",
+      "name": "Plantas de Lavoura II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ENR5614",
+        "FIT5506",
+        "FIT7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5614"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5506"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7002"
+          }
+        ]
+      },
+      "syllabus": "- Aveia branca, cevada, centeio, triticale, girassol, café, cana-de-açúcar, algodão e trigo mourisco (sarraceno). Importância sócio-econômica. Origem. Usos. Taxonomia, Morfologia e estádios de desenvolvimento. Clima e zoneamento agroclimático. Ecofisiologia. Nutrição mineral e adubação. Manejo da área. Cultivares. Estabelecimento da cultura. Manejo da cultura. Doenças, Pragas, Plantas daninhas e controle. Colheita. Noções gerais acerca do armazenamento de grãos."
+    },
+    {
+      "id": "FIT5025",
+      "code": "FIT5025",
+      "name": "Fisiologia Pós-colheita",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT5205"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT5205"
+      },
+      "syllabus": "- Abordagens bioquímicas e fisiológicas do desenvolvimento de frutos e outros órgãos de plantas submetidos a práticas de pós-colheita. Produtos vegetais climatéricos e não climatéricos. Fatores internos e externos relacionados com a senescência e causadores de perdas em pós-colheita. Manejo, instalações e controle de qualidade de produtos vegetais."
+    },
+    {
+      "id": "FIT5027",
+      "code": "FIT5027",
+      "name": "Plantas Condimentares, Aromáticas e Medicinais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT7005"
+      },
+      "syllabus": "- Origem, histórico, produção in vivo e in vitro de espécies medicinais, aromáticas e condimentares. Importância econômica, social e aspectos de mercado, quimiotaxonomia, classes de metabólitos secundários, vias biossintéticas, ensaios de atividade biológica, metabólitos secundários de origem marinha. Sistemas de cultivo e desenvolvimento de produtos a partir de espécies medicinais, aromáticas e condimentares."
+    },
+    {
+      "id": "FIT5028",
+      "code": "FIT5028",
+      "name": "Fundamentos de Técnicas de Laboratórios",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT7003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT7003"
+      },
+      "syllabus": "-Conteúdos práticos de biologia celular: organização laboratorial, uso e calibração de equipamentos, elaboração de soluções estoque e de meios de cultura. Extração, desinfestação e cultivo de explantes. Rotas morfogenéticas in vitro. Conteúdos práticos de biologia molecular: extração de DNA, Resolução molecular de DNA e Proteínas. Uso e aplicação de marcadores genéticos e moleculares."
+    },
+    {
+      "id": "FIT5031",
+      "code": "FIT5031",
+      "name": "Ecofisiologia Agrícola",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT5304",
+        "ENR5203",
+        "FIT7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5304"
+          },
+          {
+            "kind": "course",
+            "code": "ENR5203"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7001"
+          }
+        ]
+      },
+      "syllabus": "- O ambiente das plantas cultivadas. A planta no ecossistema. Elementos climáticos que afetam o desenvolvimento e o crescimento da planta e da comunidade. Zoneamento agroclimático e calendário de semeadura. Utilização de carbono e produção de matéria seca. Distribuição do carbono. Utilização e metabolismo do nitrogênio. Utilização e ciclagem dos elementos minerais. Relações hídricas. Ecofisiologia de plantas cultivadas."
+    },
+    {
+      "id": "FIT5032",
+      "code": "FIT5032",
+      "name": "Insetos úteis",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT7002"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT7002"
+      },
+      "syllabus": "- Biologia e manejo de insetos industriais, recicladores, polinizadores e inimigos naturais."
+    },
+    {
+      "id": "FIT5033",
+      "code": "FIT5033",
+      "name": "Pragas das Culturas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Estudo dos insetos e ácaros como pragas; aspectos sistemáticos; morfológicos; biológicos; ecológicos e de controle das principais espécies associadas às culturas de expressão econômica no Brasil."
+    },
+    {
+      "id": "FIT5050",
+      "code": "FIT5050",
+      "name": "Diagnose de Doenças de Plantas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Procedimentos e bases do diagnóstico de doenças de plantas, sintomatologia, técnicas microscópicas, diagnose de doenças bióticas de plantas anuais e perenes, doenças de leguminosas e cereais."
+    },
+    {
+      "id": "FIT5052",
+      "code": "FIT5052",
+      "name": "Ecologia e Manejo de Florestas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT7001"
+      },
+      "syllabus": "Florestas secundárias: histórico e situação atual. Sucessão ecológica. Inventário florestal e classificação sucessional de florestas secundárias. Dendrologia de florestas secundárias. Estrutura e dinâmica de florestas secundárias. Manejo de florestas secundárias para produção de madeira."
+    },
+    {
+      "id": "FIT5053",
+      "code": "FIT5053",
+      "name": "Biologia e Manejo de Plantas Invasoras",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Secundárias -Plantas invasoras: conceitos, taxonomia, morfologia e identificação. Aspectos ecológicos de plantas invasoras nos ecossistemas naturais e agrícolas. Métodos de manejo de plantas invasoras nos ecossistemas. Caracterização e recomendação de produtos fitossanitários. Impactos do uso de produtos fitossanitários. Implementos e máquinas para controle e manejo."
+    },
+    {
+      "id": "FIT5066",
+      "code": "FIT5066",
+      "name": "Sistemas Agroflorestais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT7001"
+      },
+      "syllabus": "-Histórico. Ecologia dos sistemas agroflorestais. Classificação dos sistemas. Funções técnicas, ecológicas, sociais e econômicas. Espécies de uso múltiplo. Sistemas agroflorestais tradicionais e baseados na indução da regeneração natural."
+    },
+    {
+      "id": "FIT5151",
+      "code": "FIT5151",
+      "name": "Recursos Florrestais não Madereiros no",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT5120"
+      ],
+      "equivalents": [
+        "FIT5051"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT5120"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIT5051"
+      },
+      "syllabus": "Recursos Florrestais não Madereiros no Bioma Mata Atlântica"
+    },
+    {
+      "id": "FIT5722",
+      "code": "FIT5722",
+      "name": "Olericultura II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT7008"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT7008"
+      },
+      "syllabus": "Bioma Mata Atlântica FIT7001) Importância econômica e social, origem, botânica, planejamento e dimensionamento do cultivo, cultivares, exigências climáticas, propagação, nutrição, tratos culturais, gerenciamento da horta, colheita e comercialização de hortaliças com potencial econômico."
+    },
+    {
+      "id": "FIT7010",
+      "code": "FIT7010",
+      "name": "Floricultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "FIT5812"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIT5812"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Histórico e evolução da floricultura, importância econômica e social. Pólos de produção no Brasil e mundo. Substratos e embalagens. Propagação de plantas. Exigências climáticas e microambiente de cultivo comercial. Nutrição mineral e fertirrigação. Manejo integrado de pragas e moléstias. Fisiologia e conservação de flores pós-colheita. Comercialização, transporte e embalagens.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5002",
+      "code": "CAL5002",
+      "name": "Tecnologia das Fermentações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAL5604"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5604"
+      },
+      "syllabus": "Históricos conceitos e considerações sobre substâncias obtidas por fermentação. Aspectos gerais de microbiologia dos processos fermentativos. Equipamentos utilizados. Desinfecção e esterilização dos equipamentos e mostos. Matérias primas. Técnicas de fabricação de vegetais fermentados, vinagres, aguardentes, cervejas, vinho, leites fermentados, pescados fermentados e ensilagem."
+    },
+    {
+      "id": "ENR5009",
+      "code": "ENR5009",
+      "name": "Simbioses Plantas-microorganismos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MIP5117"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP5117"
+      },
+      "syllabus": "Papel dos mutualismos nos processos ecológicos e agrícolas. Principais associações benéficas entre plantas e microrganismos. Fixadores de Nitrogênio. Micorrizas. Bactérias e Fungos Endofíticos. Métodos de estudo e de produção de inoculantes de microrganismos mutualistas de plantas."
+    },
+    {
+      "id": "ENR5813",
+      "code": "ENR5813",
+      "name": "Ecologia do Solo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ENR5205"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR5205"
+      },
+      "syllabus": "Diversidade e ecologia da microbiota e da mesofauna do solo. Interação entre biota e propriedades do solo. Suprimento e absorção de nutrientes. Impactos do manejo do solo no ambiente. Complementariedade e antagonismos entre agricultura e aquicultura."
+    },
+    {
+      "id": "ENR7005",
+      "code": "ENR7005",
+      "name": "Agricultura Orgânica, Permacultura e Agricultura Urbana",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT7004"
+      ],
+      "equivalents": [
+        "ENR5002"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT7004"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5002"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Agricultura orgânica: fusão de conhecimento tradicional com conhecimento científico. Práticas indígenas, africanas e asiáticas. Permacultura. Projetos de sistemas produtivos específicos com espécies vegetais perenes e anuais. Estratégias comunitárias e urbanas para reciclagem de água e de resíduos orgânicos. Legislação e certificação.",
+      "extensionHours": 36
+    },
+    {
+      "id": "FIT5037",
+      "code": "FIT5037",
+      "name": "Conservação e Uso da Biodiversidade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT5120",
+        "FIT7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5120"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7001"
+          }
+        ]
+      },
+      "syllabus": "- Quantificação, funcões, valoração e perda da biodiversidade. A Convenção sobre Biodiversidade (CDB) e seus impactos sobre os recursos geneticos. Uso, conservação e manejo dos Recursos Geneticos Vegetais (RGVs). Abordagens baseadas na CDB sobre conservação e uso de RGVs. Biodiversidade, agricultura, meio ambiente e sustentabilidade. Mudanças climáticas e biodiversidade. Agrobiodiversidade."
+    },
+    {
+      "id": "FIT5040",
+      "code": "FIT5040",
+      "name": "Ecologia de Comunidades",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ENR5203",
+        "FIT7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR5203"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7001"
+          }
+        ]
+      },
+      "syllabus": "- Histórico e principais conceitos e definições das comunidades biológicas; Natureza da comunidade. Estrutura da comunidade: parâmetros descritivos; Desenvolvimento da comunidade. Fatores reguladores das comunidades no tempo e no espaço; Interações ecológicas e redes tróficas; Comunidades e Ecossistemas; Conseqüências das intervenções antrópicas sobre as comunidades; Os Novos Paradigmas Ecológicos e a Preservação das Comunidades Naturais."
+    },
+    {
+      "id": "FIT5042",
+      "code": "FIT5042",
+      "name": "Manejo, Conservação e Uso da Agrobiodiversidade",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT5609",
+        "FIT7004"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIT5609"
+          },
+          {
+            "kind": "course",
+            "code": "FIT7004"
+          }
+        ]
+      },
+      "syllabus": "- Objetivos e conceitos. Estratégias de Conservação da Agrobiodiversidade. Metodologias participativas de seleção de variedades e melhoramento genético. Ferramentas participativas de diagnóstico do Manejo Comunitário da agrobiodiversidade. Políticas de recursos genéticos de importância para o maenjo da agrobiodiversidade."
+    },
+    {
+      "id": "FIT5927",
+      "code": "FIT5927",
+      "name": "Produtos Naturais de Origem Marinha",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Origem e histórico do estudo de produtos naturais marinhos. Integração dos metabolismos primário e secundário, vias biossintéticas e classes de metabólitos secundários. Produtos naturais de bactérias, fungos, algas e (in) vertebrados marinhos. Produção in vivo e in vitro de metabólitos secundários de origem marinha de ionteresse à saúde humana. Métodos de extração, purificação e análise química de metabólitos secundários e ensaios de atividade biológica. Multixenobióticos. Oligo/polissacarídeos bioativos. Bioprospecção e propriedade intelectual."
+    },
+    {
+      "id": "MIP5121",
+      "code": "MIP5121",
+      "name": "Ecologia Microbiana",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MIP5117"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MIP5117"
+      },
+      "syllabus": "Parâmetros ecológicos: determinantes ambientais, número, biomassa e atividade. Habitats e comunidades. Interações microbianas. Controle biológico. Atividade dos micro-organismos nos ciclos biogeoquímicos, no controle dos processos de biofermentação, no solo, água e tratamento de resíduos. Micro- organismos e poluição. Utilização dos micro-organismos na exploração mineral, produção de biomassa e energia."
+    },
+    {
+      "id": "ZOT5002",
+      "code": "ZOT5002",
+      "name": "Sistemas de Criação Animal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FIT7004"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FIT7004"
+      },
+      "syllabus": "- Conceito de sustentabilidade. Avaliação de um sistema de criação de espécies zootécnicas. Custos energéticos, econômicos, sociais, ambientais e etológicos associados à criação animal. Exemplos de processos produtivos sustentáveis: produção de carne, leite e ovos à base de pasto."
+    },
+    {
+      "id": "ZOT5145",
+      "code": "ZOT5145",
+      "name": "Pastoreio Racional Voisin (PRV)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT5706"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT5706"
+      },
+      "syllabus": "Histórico, importância e desenvolvimento do PRV no Brasil e no mundo. O solo pastoril e suas relações com as plantas e com os animais, sob o comando humano. A biocenose. Princípios de fisiologia vegetal aplicadas ao manejo racional dos pastos. O crescimento do pasto e a qualidade da forragem produzida. Ingestão. O comportamento de pastoreio das principais espécies herbívoras e suas relações com o consumo e a utilização das pastagens. As principais espécies forrageiras e sua utilização no PRV. As leis universais do pastoreio racional Voisin. Divisão da área: princípios e necessidades. Hidráulica e paisagismo. Projeto de PRV."
+    },
+    {
+      "id": "ZOT5404",
+      "code": "ZOT5404",
+      "name": "Bem-Estar Animal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT5405"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT5405"
+      },
+      "syllabus": "Introdução ao conceito de bem-estar animal, efeito dos sistemas de criação animal no bem-estar animal, avaliação e melhoria do bem-estar animal.."
+    },
+    {
+      "id": "EGR7490",
+      "code": "EGR7490",
+      "name": "Desenho Técnico Aplicado para Aquicultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EGR5104"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGR5104"
+      },
+      "syllabus": "Uso de Desenho auxiliado por computador (CAD) para cálculos de áreas e volumes. Projeções cotadas. Desenho topográfico. Desenho cartográfico com cordenadas Geográficas e UTM. Normas de desenho técnico (ABNT), folha de desenho e lay-out para plotagem. Desenho de perfis topográficos com representação escalas horizontais e verticais para projetos de fazendas com viveiros em terra e tanques estruturados (raceway, tanques de fibras/vinil/outros materiais). Desenho de projetos de fazendas com viveiros em terra."
+    },
+    {
+      "id": "ENR5001",
+      "code": "ENR5001",
+      "name": "Prática de Máquinas Agrícolas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ENR7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR7001"
+      },
+      "syllabus": "- Manejo de tratores, acoplamento, manutenção, regulagens de máquinas e implementos para operações de preparo do solo, aplicação de corretivos e fertilizantes, plantio, tratos culturais, colheita, transporte e beneficiamento. Abrigo de máquinas, ferramentas e oficina na propriedade. Projeto de mecanização agrícola."
+    },
+    {
+      "id": "ENR5006",
+      "code": "ENR5006",
+      "name": "Avaliação do Desempenho Ambiental no",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Relações entre meio disponível e ambiente promovido. Relações entre produzir, a noção de ordem e desordem da matéria energia. Relações entre o necessário, o útil, a ordem, a desordem e o desempenho ambiental em processos produtivos. Processos ordenadores e desordenadores de ecossistemas, e do solo em especial. Abordagens de avaliação e procedimentos de promoção de bom desempenho ambiental."
+    },
+    {
+      "id": "ENR5007",
+      "code": "ENR5007",
+      "name": "Avaliação da Fertilidade do Solo, Adubos e Adubações",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Uso de Terras Diagnóstico da fertilidade do solo. Amostragem de terras e fertilizantes. Interpretação de resultados de análises físico-químicas em amostra de terras. Compreensão e elaboração de um Programa de Adubação, o caso ROLAS. Tecnologias de obtenção e características de corretivos da acidez do solo, de fertilizantes minerais e orgânicos e, do gesso agrícola. Formulação comercial de adubos. Recomendação de nutrientes para as principais culturas cultivadas. Recomendação de adubação: compatibilizar quantidade de nutrientes recomendada e quantidade de adubo necessária. Manejo da aplicação de adubos."
+    },
+    {
+      "id": "ENR5008",
+      "code": "ENR5008",
+      "name": "Práticas em Topografia e Geodésia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ENR5204"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR5204"
+      },
+      "syllabus": "Estação Total e Receptores GNSS: recursos dos equipamentos, configuração, cuidados no manuseio, transporte e armazenagem. Práticas de levantamento de dados. Transferência de dados. Processamento em softwares."
+    },
+    {
+      "id": "ENR5015",
+      "code": "ENR5015",
+      "name": "Nutrição Mineral de Plantas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT5304",
+        "ENR5614"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5304"
+          },
+          {
+            "kind": "course",
+            "code": "ENR5614"
+          }
+        ]
+      },
+      "syllabus": "Nutrientes minerais essenciais (primários e secundários); Critérios de essencialidade; Composição mineral das plantas; Função dos nutrientes nas plantas; Formulação de solução nutritiva; Cultivo de plantas em solução nutritiva; Absorção (mecanismos e formas) e transporte de nutrientes; Diagnose do estado nutricional de plantas; Nutrição foliar; Nutrição e qualidade de produtos agrícolas; Relações entre nutrição mineral, doenças e pragas."
+    },
+    {
+      "id": "ENR5406",
+      "code": "ENR5406",
+      "name": "Sensoriamento Remoto",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios físicos aplicados ao sensoriamento remoto. Levantamentos aerofotográficos e fotointerpretação. Sensoriamento remoto orbital. Processamento digital de imagens de sensoriamento remoto. Aplicações do sensoriamento remoto na agricultura."
+    },
+    {
+      "id": "ENR7006",
+      "code": "ENR7006",
+      "name": "Cultivo Protegido e Hidroponia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "BOT5304"
+      ],
+      "equivalents": [
+        "ENR5004"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5304"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ENR5004"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Conceitos e Introdução. Materiais, equipamentos e estruturas. Manejo dos materiais, equipamentos e estruturas. Manejo do ambiente de cultivo. Cultivo e manejo em ambiente protegido. Cultivo hidropônico.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ENR7314",
+      "code": "ENR7314",
+      "name": "Instalações Elétricas para fins Rurais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ENR7309"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR7309"
+      },
+      "syllabus": "- Fundamentos de eletricidade; noções sobre geração, transmissão e distribuição de energia elétrica a partir de fontes tradicionais e alternativas; planejamento das instalações elétricas para fins rurais com ênfase no projeto."
+    },
+    {
+      "id": "EXR5102",
+      "code": "EXR5102",
+      "name": "Cadeia Produtiva da Agricultura Orgânica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O enfoque de Cadeias Produtivas, História, concorrentes e difusão da agricultura orgânica (AO); AO e desenvolvimento rural sustentável; o movimento social da AO; mercado e consumo de produtos da AO; Políticas públicas e AO; normas e certificação em AO."
+    },
+    {
+      "id": "EXR5901",
+      "code": "EXR5901",
+      "name": "Planejamento Agrícola e Territorial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Funções da Agricultura. O Rural, o Urbano e o Território. Visões do mundo no contexto da globalização. Planejamento, paraeconomia e sustentabilidade territorial. Recursos, produção e geração de riquezas. Mercado, eficiência e soberania. Fatores que afetam a produção agrícola. Objetivos e metas. Roteiro de um projeto agrícola. Planos, programas e projetos de desenvolvimento sustentável: a experiência catarinense. Planejamento estratégico. Planejamento em marketing rural. Tópicos especiais."
+    },
+    {
+      "id": "AGR1000",
+      "code": "AGR1000",
+      "name": "Participação em comissão organizadora de evento técnico-científico",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Rol de Ações de Extensão Participação em comissão organizadora de evento técnico-científico com carga horária igual ou superior a 15 horas.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AGR1001",
+      "code": "AGR1001",
+      "name": "Participação em projetos de extensão, na",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em projetos de extensão, na condição de bolsista ou voluntário, por um período de 1 semestre."
+    },
+    {
+      "id": "AGR1002",
+      "code": "AGR1002",
+      "name": "Publicação de resumo ou trabalho em periódico científico",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "condição de bolsista ou voluntário (EXT 18h-a) Publicação de resumo ou trabalho em periódico científico.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AGR1003",
+      "code": "AGR1003",
+      "name": "Publicação de trabalho completo ou",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Publicação de trabalho completo ou resumo expandido em anais de congresso 1."
+    },
+    {
+      "id": "AGR1004",
+      "code": "AGR1004",
+      "name": "Publicação de trabalho completo ou",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "resumo expandido em anais de congresso 1 (EXT 18h-a) Publicação de trabalho completo ou resumo expandido em anais de congresso 2."
+    },
+    {
+      "id": "AGR1005",
+      "code": "AGR1005",
+      "name": "Ministrante de curso de capacitação, oficina ou dia de campo ao público alvo do PCE",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "resumo expandido em anais de congresso 2 (EXT 18h-a) Ministrante de curso(s) de capacitação, oficina(s) ou dia(s) de campo ao público alvo do PCE com duração mínima de 15 horas.",
+      "extensionHours": 18
+    },
+    {
+      "id": "AGR1006",
+      "code": "AGR1006",
+      "name": "Elaboração de boletim técnico, didático ou",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Elaboração de boletim técnico, boletim didático ou cartilha direcionado ao público alvo do PCE."
+    },
+    {
+      "id": "AGR1007",
+      "code": "AGR1007",
+      "name": "Mandato em Diretoria de Empresa Junior",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Mandato semestral em Diretoria de Empresa Junior da UFSC 1."
+    },
+    {
+      "id": "AGR1008",
+      "code": "AGR1008",
+      "name": "Mandato em Diretoria de Empresa Junior",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "da UFSC 1 (18h-a) Mandato semestral em Diretoria de Empresa Junior da UFSC 2."
+    },
+    {
+      "id": "AGR5008",
+      "code": "AGR5008",
+      "name": "Atividade voluntária em projeto de pesquisa 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "da UFSC 2 (EXT 18h-a) Rol de Ações de Atividades Complementares - 1 semestre de atividades voluntárias (sem remuneração) desenvolvidas em projeto de pesquisa devidamente comprovado pelo responsável pelo projeto."
+    },
+    {
+      "id": "AGR5009",
+      "code": "AGR5009",
+      "name": "Atividade voluntária em projeto de pesquisa 2",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 1 semestre de atividades voluntárias (sem remuneração) desenvolvidas em projeto de pesquisa devidamente comprovado pelo responsável pelo projeto."
+    },
+    {
+      "id": "AGR5012",
+      "code": "AGR5012",
+      "name": "Atividade de monitoria 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 1 (um) semestre de monitoria em disciplina(s) do curso, da UFSC, ou de curso universitário de outra IFE, devidamente comprovado por certificado."
+    },
+    {
+      "id": "AGR5013",
+      "code": "AGR5013",
+      "name": "Atividade de Monitoria 2",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 1 (um) semestre de monitoria em disciplina(s) do curso, da UFSC, ou de curso universitário de outra IFE, devidamente comprovado por certificado."
+    },
+    {
+      "id": "AGR5014",
+      "code": "AGR5014",
+      "name": "Atividade de Pesquisa 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 1 (um) semestre como bolsista em projeto(s) de pesquisa e/ou bolsa(s) permanência da UFSC ou de curso universitário de outra IFE, devidamente comprovado por certificado; aplicação de questionário sócio-econômico e ambiental em estabelecimentos rurais como atividade aplicada no decorrer da disciplina Vivência em Agricultura Familiar."
+    },
+    {
+      "id": "AGR5015",
+      "code": "AGR5015",
+      "name": "Atividade de Pesquisa 2",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 1 (um) semestre como bolsista em projeto(s) de pesquisa e/ou bolsa(s) permanência da UFSC ou de curso universitário de outra IFE, devidamente comprovado por certificado; aplicação de questionário sócio-econômico e ambiental em estabelecimentos rurais como atividade aplicada no decorrer da disciplina Vivência em Agricultura Familiar."
+    },
+    {
+      "id": "AGR5018",
+      "code": "AGR5018",
+      "name": "Estágio extracurricular 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 1 (um) semestre de estágio extracurricular desenvolvido na UFSC, em outra IFE, ou em empresa pública ou privada, durante período universitário, devidamente comprovado por certificado."
+    },
+    {
+      "id": "AGR5019",
+      "code": "AGR5019",
+      "name": "Estágio extracurricular 2",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 1 (um) semestre de estágio extracurricular desenvolvido na UFSC, em outra IFE, ou em empresa pública ou privada, durante período universitário, devidamente comprovado por certificado."
+    },
+    {
+      "id": "AGR5020",
+      "code": "AGR5020",
+      "name": "Curso de Língua Estrangeira 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 1 (um) semestre (ou módulo) de curso de língua estrangeira com duração mínima de 60 horas, devidamente comprovado por certificado."
+    },
+    {
+      "id": "AGR5021",
+      "code": "AGR5021",
+      "name": "Curso de Língua Estrangeira 2",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 1 (um) semestre (ou módulo) de curso de língua estrangeira com duração mínima de 60 horas, devidamente comprovado por certificado."
+    },
+    {
+      "id": "AGR5022",
+      "code": "AGR5022",
+      "name": "Participação em eventos técnico-",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 15 horas de certificado(s) de participação em eventos técnico-científicos, realizado(s) durante período universitário."
+    },
+    {
+      "id": "AGR5023",
+      "code": "AGR5023",
+      "name": "Participação em eventos técnico-",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "científicos 1 - 15 horas de certificado(s) de participação em eventos técnico-científicos, realizado(s) durante período universitário."
+    },
+    {
+      "id": "AGR5024",
+      "code": "AGR5024",
+      "name": "Participação em cursos ou mini-cursos",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 15 horas de certificado(s) de participação em cursos ou mini-cursos técnicos extra curriculares, realizado(s) durante período universitário."
+    },
+    {
+      "id": "AGR5025",
+      "code": "AGR5025",
+      "name": "Participação em cursos ou mini-cursos",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "técnicos extras curriculares 1 - 15 horas de certificado(s) de participação em cursos ou mini-cursos técnicos extra curriculares, realizado(s) durante período universitário."
+    },
+    {
+      "id": "AGR5026",
+      "code": "AGR5026",
+      "name": "Representação Estudantil em Órgãos",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "técnicos extras curriculares 2 - Mandato de 1 (um) ano como representante discente em órgãos colegiados da UFSC ou mandato de 1 (um) ano de gestão em diretoria do Diretório Acadêmico do Curso."
+    },
+    {
+      "id": "AGR5027",
+      "code": "AGR5027",
+      "name": "Representação Estudantil em Órgãos",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Colegiados 1 - Mandato de 1 (um) ano como representante discente em órgãos colegiados da UFSC ou mandato de 1 (um) ano de gestão em diretoria do Diretório Acadêmico do Curso."
+    },
+    {
+      "id": "AGR5032",
+      "code": "AGR5032",
+      "name": "Participação de Apoio Padagógico 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Colegiados 2 - Certificado de 1 (uma) disciplina de apoio pedagógico cursada na UFSC com carga horária mínima de 15 horas."
+    },
+    {
+      "id": "AGR5033",
+      "code": "AGR5033",
+      "name": "Participação em Disciplinas de Apoio",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Certificado de 1 (uma) disciplina de apoio pedagógico cursada na UFSC com carga horária mínima de 15 horas."
+    },
+    {
+      "id": "AGR5034",
+      "code": "AGR5034",
+      "name": "Participação em Eventos Técnico-",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Pedagógico 2 - 15 horas de certificado(s) de participação em eventos técnico-científicos, realizado(s) durante período universitário."
+    },
+    {
+      "id": "AGR5035",
+      "code": "AGR5035",
+      "name": "Participação em Eventos Técnico-",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Científicos 3 - 15 horas de certificado(s) de participação em eventos técnico-científicos, realizado(s) durante período universitário."
+    },
+    {
+      "id": "AGR5037",
+      "code": "AGR5037",
+      "name": "Participação na Semana da Agronomia 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Científicos 4 - 15 horas de certificados de palestras, minicursos, seminários, mesas redondas, oficinas e outros eventos específicos realizados em \"Semanas da Agronomia\" da UFSC."
+    },
+    {
+      "id": "AGR5038",
+      "code": "AGR5038",
+      "name": "Participação na Semana da Agronomia 2",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 15 horas de certificados de palestras, minicursos, seminários, mesas redondas, oficinas e outros eventos específicos realizados em \"Semanas da Agronomia\" da UFSC."
+    },
+    {
+      "id": "AGR5049",
+      "code": "AGR5049",
+      "name": "Curso de Primeiros Socorros",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 01 (hum) curso de primeiros socorros com duração mínima de 15 horas."
+    },
+    {
+      "id": "AGR5050",
+      "code": "AGR5050",
+      "name": "Curso de Informática 1",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 01 (hum) curso de informática com duração mínima de 15 horas."
+    },
+    {
+      "id": "AGR5051",
+      "code": "AGR5051",
+      "name": "Curso de Informática 2",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- 01 (hum) curso de informática com duração mínima de 15 horas."
+    },
+    {
+      "id": "AGR5052",
+      "code": "AGR5052",
+      "name": "Apresentação de Banner em Congresso",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Apresentação de banner em evento técnico-científico comprovado por certificado."
+    },
+    {
+      "id": "AGR5053",
+      "code": "AGR5053",
+      "name": "Apresentação de Banner em Congresso",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Científico 1 - Apresentação de banner em evento técnico-científico comprovado por certificado."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "AGR5104",
+      "BOT5120",
+      "EGR5104",
+      "EXR5404",
+      "FIT7000",
+      "MTM3180",
+      "QMC5109",
+      "QMC5125",
+      "ENR5203",
+      "ENR5205",
+      "EXR5200",
+      "FIT5205",
+      "FIT7001",
+      "FSC7118",
+      "MIP5117",
+      "MTM3181",
+      "BOT5304",
+      "ENR5204",
+      "ENR5302",
+      "ENR5303",
+      "FIT5306",
+      "FIT7002",
+      "MTM3182",
+      "AGR5400",
+      "AGR5404",
+      "ENR5405",
+      "ENR7000",
+      "EXR5403",
+      "EXR7000",
+      "FIT7004",
+      "ZOT5302",
+      "ZOT5405",
+      "ZOT5504",
+      "ENR5516",
+      "ENR7001",
+      "EXR7001",
+      "FIT5506",
+      "FIT7003",
+      "FIT7005",
+      "ZOT5505",
+      "ZOT5706",
+      "CAL5604",
+      "ENR5613",
+      "ENR5614",
+      "ENR7309",
+      "FIT5609",
+      "FIT5610",
+      "FIT5611",
+      "ENR7002",
+      "EXR5705",
+      "FIT7006",
+      "FIT7008",
+      "ZOT7000",
+      "ENR7003",
+      "FIT5801",
+      "FIT7009",
+      "ZOT5810",
+      "ZOT8000",
+      "ENR5815",
+      "ENR7004",
+      "EXR5807",
+      "EXR7002",
+      "FIT5901",
+      "FIT5902",
+      "AGR5003",
+      "AGR5004"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 450,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "AGR5010",
+              "AGR5011",
+              "AGR5036",
+              "LSB7244",
+              "AQI5105",
+              "AQI7803",
+              "AQI7807",
+              "AQI7811",
+              "AQI7812",
+              "AQI7813",
+              "ENS7407",
+              "EXR5150",
+              "EXR5152",
+              "EXR6000",
+              "EXR7005",
+              "EXR7402",
+              "EXR7403",
+              "EXR7607",
+              "EXR7610",
+              "EXR7611",
+              "ZOT0001",
+              "ZOT5123",
+              "ZOT7106",
+              "ZOT7119",
+              "ZOT7204",
+              "ZOT7205",
+              "ZOT7504",
+              "ZOT7512",
+              "ZOT7703",
+              "ZOT7804",
+              "ZOT7807",
+              "ZOT7814",
+              "ZOT7815",
+              "ZOT7819",
+              "ZOT7820",
+              "ZOT7821",
+              "ZOT7822",
+              "ZOT7823",
+              "ZOT7909",
+              "ZOT8001",
+              "CAL5001",
+              "CAL5521",
+              "FIT5000",
+              "FIT5021",
+              "FIT5022",
+              "FIT5023",
+              "FIT5024",
+              "FIT5025",
+              "FIT5027",
+              "FIT5028",
+              "FIT5031",
+              "FIT5032",
+              "FIT5033",
+              "FIT5050",
+              "FIT5052",
+              "FIT5053",
+              "FIT5066",
+              "FIT5151",
+              "FIT5722",
+              "FIT7010",
+              "CAL5002",
+              "ENR5009",
+              "ENR5813",
+              "ENR7005",
+              "FIT5037",
+              "FIT5040",
+              "FIT5042",
+              "FIT5927",
+              "MIP5121",
+              "ZOT5002",
+              "ZOT5145",
+              "ZOT5404",
+              "EGR7490",
+              "ENR5001",
+              "ENR5006",
+              "ENR5007",
+              "ENR5008",
+              "ENR5015",
+              "ENR5406",
+              "ENR7006",
+              "ENR7314",
+              "EXR5102",
+              "EXR5901",
+              "AGR1000",
+              "AGR1001",
+              "AGR1002",
+              "AGR1003",
+              "AGR1004",
+              "AGR1005",
+              "AGR1006",
+              "AGR1007",
+              "AGR1008",
+              "AGR5008",
+              "AGR5009",
+              "AGR5012",
+              "AGR5013",
+              "AGR5014",
+              "AGR5015",
+              "AGR5018",
+              "AGR5019",
+              "AGR5020",
+              "AGR5021",
+              "AGR5022",
+              "AGR5023",
+              "AGR5024",
+              "AGR5025",
+              "AGR5026",
+              "AGR5027",
+              "AGR5032",
+              "AGR5033",
+              "AGR5034",
+              "AGR5035",
+              "AGR5037",
+              "AGR5038",
+              "AGR5049",
+              "AGR5050",
+              "AGR5051",
+              "AGR5052",
+              "AGR5053"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "501",
+    "curriculumCode": "20251",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=501&curriculo=20251",
+    "sha256": "e31548952727d0fce5ed5dfc9a058de5c83de960774d99e470a2a9303c9c8b0f",
+    "capturedAt": "2026-09-22"
+  }
+}

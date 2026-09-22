@@ -1,0 +1,2575 @@
+{
+  "program": "ENGENHARIA DE MATERIAIS [Campus Blumenau]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2023.1",
+  "totalHours": 4320,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CAC2505",
+      "code": "CAC2505",
+      "name": "Metodologia Científica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU2505",
+        "CAC2506"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2505"
+          },
+          {
+            "kind": "course",
+            "code": "CAC2506"
+          }
+        ]
+      },
+      "syllabus": "A natureza do conhecimento científico e outras formas de conhecimento. Tipos de pesquisa. Métodos, técnicas e instrumentos de pesquisa. Elementos e etapas da pesquisa científica e tecnológica. Modalidades de trabalhos acadêmicos e científicos e sua normalização (ABNT). Análise e elaboração de trabalhos acadêmicos e científicos."
+    },
+    {
+      "id": "CAC6000",
+      "code": "CAC6000",
+      "name": "Introdução a Ciência da Computação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6000",
+        "CAC6005"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6000"
+          },
+          {
+            "kind": "course",
+            "code": "CAC6005"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos computadores e sistemas operacionais; uso do computador (manipulação de arquivos e textos, execução de programas, pesquisa na internet); noções de algoritmos, programas e linguagens de programação; tipos de dados e variáveis; expressões lógicas, estruturas de controle; vetores e matrizes; modularização."
+    },
+    {
+      "id": "CAC6002",
+      "code": "CAC6002",
+      "name": "Desenho Técnico para Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6002",
+        "CAC6006"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6002"
+          },
+          {
+            "kind": "course",
+            "code": "CAC6006"
+          }
+        ]
+      },
+      "syllabus": "Introdução ao Desenho Técnico. Normas fundamentais para o Desenho Técnico. Sistemas de representação nos diedros. Projeções ortogonais de peças simples. Sistema de cotagem e proporções. Perspectivas. Introdução a software para expressão gráfica"
+    },
+    {
+      "id": "CEE7101",
+      "code": "CEE7101",
+      "name": "Química Geral I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6003",
+        "CEE6003"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6003"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6003"
+          }
+        ]
+      },
+      "syllabus": "Estrutura atômica. Tabela e propriedades periódicas. Ligações químicas. Forças intermoleculares. Reações químicas e estequiometria. Teorias ácido-base. Soluções."
+    },
+    {
+      "id": "EMT2102",
+      "code": "EMT2102",
+      "name": "Introdução à Engenharia de Materiais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU2102",
+        "EMT2103"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2102"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2103"
+          }
+        ]
+      },
+      "syllabus": "Curso Engenharia de Materiais UFSC/BNU, Origens da Engenharia, Profissão Engenheiro Materiais, Classes de Materiais, Metais, Polímeros, Cerâmicos, Compósitos, Questões Ambientais, Questões Econômicas e Sociais de Materiais."
+    },
+    {
+      "id": "MAT2101",
+      "code": "MAT2101",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conjuntos e aritmética básica. Cálculo com expressões algébricas. Equações. Inequações. Funções."
+    },
+    {
+      "id": "MAT2111",
+      "code": "MAT2111",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6905",
+        "MAT8111"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6905"
+          },
+          {
+            "kind": "course",
+            "code": "MAT8111"
+          }
+        ]
+      },
+      "syllabus": "Matrizes. Determinantes. Sistemas lineares. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies."
+    },
+    {
+      "id": "CEE1101",
+      "code": "CEE1101",
+      "name": "Química Experimental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7101"
+      ],
+      "equivalents": [
+        "BLU1101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1101"
+      },
+      "syllabus": "Conceitos fundamentais e manuseio de aparelhagem; Estequiometria; Soluções e titulação ácido e base; Operações com misturas; Termoquímica; Eletroquímica; Cinética; Equilíbrio químico."
+    },
+    {
+      "id": "CEE2400",
+      "code": "CEE2400",
+      "name": "Química Orgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7101"
+      ],
+      "equivalents": [
+        "BLU2400"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2400"
+      },
+      "syllabus": "Introdução ao estudo da química orgânica. Ligações químicas e estrutura molecular. Forças intermoleculares. Ácidos e bases em Química Orgânica. Análise conformacional e estereoquímica. Introdução às reações orgânicas. Reações de adição à ligação dupla C=C. Reações de substituição nucleofílica ao carbono saturado. Reações de eliminação. Aromaticidade. Reações de substituição eletrofílica. Reações de adição, condensação e substituição de compostos carbonílicos. Radicais livres."
+    },
+    {
+      "id": "CEE6106",
+      "code": "CEE6106",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2101"
+      ],
+      "equivalents": [
+        "BLU6106"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6106"
+      },
+      "syllabus": "Grandezas físicas, sistemas de unidades e representação vetorial. Movimento em uma dimensão. Movimento em duas dimensões. Leis de Newton. Aplicações das Leis de Newton. Trabalho e energia. Quantidade de movimento, impulso e colisões. Cinemática da rotação. Dinâmica da rotação."
+    },
+    {
+      "id": "CEE6206",
+      "code": "CEE6206",
+      "name": "Física Experimental I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2101"
+      ],
+      "equivalents": [
+        "BLU6206",
+        "CEE6202"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2101"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6206"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6202"
+          }
+        ]
+      },
+      "syllabus": "Algarismos Significativos. Erros. Gráficos. Força e movimento. Momento. Trabalho e Energia."
+    },
+    {
+      "id": "EMT2206",
+      "code": "EMT2206",
+      "name": "Fundamentos de Engenharia de Materiais I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2102",
+        "MAT2101"
+      ],
+      "equivalents": [
+        "BLU2203",
+        "BLU2205",
+        "BLU2301",
+        "EMT2205"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2102"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2101"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2203"
+          },
+          {
+            "kind": "course",
+            "code": "BLU2205"
+          },
+          {
+            "kind": "course",
+            "code": "BLU2301"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2205"
+          }
+        ]
+      },
+      "syllabus": "Materiais cristalinos e não-cristalinos; Estrutura cristalina dos sólidos; Direções e planos cristalográficos; Densidade linear e planar; Desordem atômica nos sólidos; lacunas, Soluções sólidas, contornos de grão, mecanismos de difusão em sólidos; Difusão em regime estacionário e não-estacionário; 1° Lei de Fick e 2° Lei de Fick; Fatores que influenciam a difusão."
+    },
+    {
+      "id": "MAT2201",
+      "code": "MAT2201",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2101"
+      ],
+      "equivalents": [
+        "BLU6001",
+        "MAT8101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2101"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6001"
+          },
+          {
+            "kind": "course",
+            "code": "MAT8101"
+          }
+        ]
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos, esboço de gráficos, aproximações lineares e quadráticas); integral definida e indefinida; áreas entre curvas; técnicas de integração (substituição, por partes, substituição trigonométrica, frações parciais). Integral imprópria"
+    },
+    {
+      "id": "MAT2211",
+      "code": "MAT2211",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2111"
+      ],
+      "equivalents": [
+        "BLU6905",
+        "MAT8111"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2111"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6905"
+          },
+          {
+            "kind": "course",
+            "code": "MAT8111"
+          }
+        ]
+      },
+      "syllabus": "Espaço vetorial. Transformações lineares. Mudança de base. Produto interno. Transformações ortogonais. Autovalores e autovetores de um operador. Diagonalização."
+    },
+    {
+      "id": "CAC6013",
+      "code": "CAC6013",
+      "name": "Estatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU6013"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6013"
+      },
+      "syllabus": "Estatística Descritiva. Axiomas de Probabilidade. Probabilidade Condicional. Independência. Teorema de Bayes. Variáveis aleatórias Discretas e Contínuas. Modelos de Probabilidade para variáveis aleatórias Discretas: Bernoulli, Binomial e Poisson. Modelos de Probabilidade para Variáveis Contínuas: Uniforme, Normal, Exponencial e Gamma. Inferência Estatística: Distribuições Amostrais, Intervalos de Confiança e Testes de Hipóteses."
+    },
+    {
+      "id": "CEE6109",
+      "code": "CEE6109",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6106",
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU6109"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2201"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6109"
+      },
+      "syllabus": "Estática de fluidos; Dinâmica de fluídos; Oscilações mecânicas; Ondas; Som; Temperatura; Calor e primeira lei da termodinâmica; Gás ideal; Entropia e segunda lei da termodinâmica."
+    },
+    {
+      "id": "CEE6209",
+      "code": "CEE6209",
+      "name": "Física Experimental II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6106",
+        "CEE6206"
+      ],
+      "equivalents": [
+        "BLU6209"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6206"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6209"
+      },
+      "syllabus": "Fluídos. Oscilações. Ondas e Som. Termodinâmica."
+    },
+    {
+      "id": "EMT2207",
+      "code": "EMT2207",
+      "name": "Fundamentos de Engenharia de Materiais II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2206",
+        "MAT2201"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2206"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2201"
+          }
+        ]
+      },
+      "syllabus": "Diagrama de fase de um componente; Equilíbrio de fases com dois componentes; Diagrama eutético, peritético; Diagramas envolvendo transformações no estado sólido; Eutetóide; Princípios de Solidificação: Nucleação homogênea, heterogênea, precipitação; Crescimento de fases; Cinética e microestrutura das transformações estruturais; Natureza das transformações de fase; Força motriz para transformação."
+    },
+    {
+      "id": "EMT2208",
+      "code": "EMT2208",
+      "name": "Caracterização de Materiais I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU2204",
+        "EMT2204"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2204"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2204"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Análise Microestrutural, Técnicas de Preparação Microestrutural, Teoria de Microscopia Óptica, Análise de Imagens. Prática em Preparação e Análise Microscópica de Amostras."
+    },
+    {
+      "id": "EMT2502",
+      "code": "EMT2502",
+      "name": "Química Aplicada aos Materiais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE7101"
+      },
+      "syllabus": "Transformações químicas; Gases, líquidos e pressão de vapor. Propriedades coligativas; Cinética e mecanismos de reações; Equilíbrio químico, Reações de oxi-reduções, eletroquímica, pilhas e corrosão."
+    },
+    {
+      "id": "EMT2506",
+      "code": "EMT2506",
+      "name": "Síntese e Química de Polímeros",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE2400"
+      ],
+      "equivalents": [
+        "BLU2506"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE2400"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2506"
+      },
+      "syllabus": "Introdução a polímeros. Polimerização em etapas. Polimerização em cadeia radicalar. Polimerização em cadeia iônica. Copolimerização. Polimerização por abertura de anel. Estereoquímica da polimerização. Técnicas de polimerização. Reações químicas em polímeros."
+    },
+    {
+      "id": "MAT2301",
+      "code": "MAT2301",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU6004",
+        "MAT8201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2201"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6004"
+          },
+          {
+            "kind": "course",
+            "code": "MAT8201"
+          }
+        ]
+      },
+      "syllabus": "Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis. Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace."
+    },
+    {
+      "id": "CAC6011",
+      "code": "CAC6011",
+      "name": "Mecânica dos Sólidos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6106",
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU6011"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2201"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6011"
+      },
+      "syllabus": "Introdução. Esforços internos em componentes estruturais. Tensão. Deformação. Propriedades mecânicas dos materiais. Esforço axial. Torção. Flexão. Flexão em vigas com dois ou mais materiais. Cisalhamento. Solicitações compostas. Análise das máximas tensões. Critérios de falha."
+    },
+    {
+      "id": "CEE6110",
+      "code": "CEE6110",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU6110"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6110"
+      },
+      "syllabus": "Carga Elétrica. Lei de Coulomb. Princípio da Superposição. O campo elétrico. A lei de Gauss. Potencial elétrico. Capacitância. Associação de Capacitores. Corrente Elétrica. Resistência e Resistividade. Lei de Ohm. Potência em circuitos elétricos. Associação de resistores. Circuitos elétricos. Circuitos RC. Campo Magnético. Lei de Biot-Savart. Lei de Ampére. Lei da indução de Faraday. Lei de Lenz. Indutância. Oscilações Eletromagnéticas. Circuito LC. Circuito RLC. Geração de energia e transmissão. Transformadores. As equações de Maxwell."
+    },
+    {
+      "id": "CEE6210",
+      "code": "CEE6210",
+      "name": "Física Experimental III",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "CEE6209"
+      ],
+      "equivalents": [
+        "BLU6210"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6209"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6210"
+      },
+      "syllabus": "Medidas Elétricas. Eletrostática. Circuitos elétricos. Magnetismo. Indução eletromagnética. Transformadores."
+    },
+    {
+      "id": "DET1812",
+      "code": "DET1812",
+      "name": "Administração",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1812",
+        "BLU2701"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU1812"
+          },
+          {
+            "kind": "course",
+            "code": "BLU2701"
+          }
+        ]
+      },
+      "syllabus": "Escolas clássicas de Administração: Taylor, Ford, Fayol. Teoria da Burocracia, Relações Humanas. Processo decisório nas organizações. Desenvolvimento Organizacional, Cultura Organizacional. Relações de Poder. Estratégias Competitivas"
+    },
+    {
+      "id": "DET6014",
+      "code": "DET6014",
+      "name": "Fenômenos de Transporte",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU6014"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6014"
+      },
+      "syllabus": "Definições e conceitos fundamentais de Fenômenos de Transporte. Equações básicas dos processos de transporte molecular unidimensional: Quantidade de movimento, calor e massa. Estática dos fluidos: características fenomenológicas dos escoamentos, equações básicas da dinâmica dos fluidos. Transferência de calor: condução, convecção e radiação. Fundamentos de Transferência de Massa."
+    },
+    {
+      "id": "EMT2030",
+      "code": "EMT2030",
+      "name": "Introdução aos Materiais Metálicos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2207"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2207"
+      },
+      "syllabus": "Introdução geral à metalurgia extrativa e Siderurgia. Introdução aos metais e ligas usados em engenharia. Classificação e características gerais (composição química, processamento, microestrutura, propriedades e aplicações) dos Materiais Metálicos: Ligas ferrosas (aços carbono, aços ligados, aços especiais e ferros fundidos); Metais não ferrosos e suas ligas (alumínio, cobre, titânio, zinco, ligas leves, superligas, metais refratários, ligas de baixo ponto de fusão)."
+    },
+    {
+      "id": "EMT2033",
+      "code": "EMT2033",
+      "name": "Introdução aos Materiais Metálicos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2207"
+      ],
+      "equivalents": [
+        "EMT2030"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2207"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMT2030"
+      },
+      "syllabus": "Introdução aos metais e ligas usados em engenharia. Classificação e características gerais dos Materiais Metálicos. Ligas ferrosas e Diagrama Ferro Carbono. Aços-carbono. Aços ligados. Aços ferramenta. Aços inoxidáveis. Ferros fundidos; Noções gerais de metais e ligas não ferrosos(as)."
+    },
+    {
+      "id": "EMT2302",
+      "code": "EMT2302",
+      "name": "Termodinâmica para Engenharia de Materiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "EMT2502"
+      ],
+      "equivalents": [
+        "BLU2302"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2502"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2302"
+      },
+      "syllabus": "Leis da termodinâmica, conceitos de Entalpia e Entropia. Variáveis de estado e equações de estado. Relações de Maxwell. Energia Livre: Critérios de espontaneidade de processos e Equilíbrio Químico. Diagramas de Ellingham. Potencial Químico, Entropia de Misturas e Formação de Diagramas de Fase."
+    },
+    {
+      "id": "MAT2401",
+      "code": "MAT2401",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU6008",
+        "MAT8301"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2301"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6008"
+          },
+          {
+            "kind": "course",
+            "code": "MAT8301"
+          }
+        ]
+      },
+      "syllabus": "Integrais Múltiplas. Integral de linha. Integrais de superfície."
+    },
+    {
+      "id": "CEE2500",
+      "code": "CEE2500",
+      "name": "Física IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6110",
+        "MAT2401"
+      ],
+      "equivalents": [
+        "BLU2500"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6110"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2401"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2500"
+      },
+      "syllabus": "Dualidade onda-partícula. A equação de Schrödinger e a interpretação probabilística da função de onda. Aplicações da equação de Schrödinger a problemas unidimensionais. O átomo de Hidrogênio. Moléculas e espectros moleculares. Estrutura cristalina de um sólido e estrutura de bandas. Semicondutores."
+    },
+    {
+      "id": "EMT2010",
+      "code": "EMT2010",
+      "name": "Estrutura e Propriedades de Polímeros",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2506"
+      ],
+      "equivalents": [
+        "BLU2010"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2506"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2010"
+      },
+      "syllabus": "Estrutura, propriedade e aplicações dos materiais poliméricos. Fundamentos da estrutura molecular dos polímeros. Polímeros em solução. Massas molares em polímeros. Estrutura molecular do estado sólido. Comportamento térmico e temperaturas de transição em polímeros. Comportamento viscoelástico. Comportamento mecânico. Propriedades elétricas e óticas de polímeros. Aplicações."
+    },
+    {
+      "id": "EMT2015",
+      "code": "EMT2015",
+      "name": "Materiais Cerâmicos e suas Aplicações",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2207"
+      ],
+      "equivalents": [
+        "BLU2015"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2207"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2015"
+      },
+      "syllabus": "Materiais cerâmicos tradicionais e avançados. Propriedades intrínsecas dos materiais cerâmicos. Ligações químicas. Estruturas cristalinas e amorfas. Formulações e diagramas de equilíbrio. Propriedades térmicas e mecânicas. Crescimento sub-crítico de trincas. Resistência ao choque térmico. Mecanismos de tenacificação."
+    },
+    {
+      "id": "EMT2034",
+      "code": "EMT2034",
+      "name": "Propriedades Mecânicas de Materiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC6011",
+        "EMT2207"
+      ],
+      "equivalents": [
+        "BLU2405",
+        "EMT2405"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC6011"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2207"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2405"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2405"
+          }
+        ]
+      },
+      "syllabus": "Tensões e Deformações; Modos de Carregamento; Estados de Tensão; Elasticidade; Plasticidade; Critérios de Escoamento; Mecanismos de Deformação e Endurecimento; Fundamentos, Normas, Procedimentos de Ensaios Mecânicos e Tratamento Estatístico de Resultados; Propriedades Mecânicas; Comportamento Mecânico das Diferentes Classes de Materiais; Influências das Condições de Carregamento e Ambientais sobre Comportamento Mecânico."
+    },
+    {
+      "id": "EMT2104",
+      "code": "EMT2104",
+      "name": "Introdução à Metalurgia Física",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2033"
+      ],
+      "equivalents": [
+        "BLU2014",
+        "EMT2014"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2033"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2014"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2014"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos Princípios de Metalurgia Física. Diagramas de fase em sistemas metálicos. Introdução aos Princípios de Transformação de Fase. Introdução aos princípios e tecnologia dos tratamentos térmicos de metais."
+    },
+    {
+      "id": "EMT2209",
+      "code": "EMT2209",
+      "name": "Caracterização de Materiais II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6110",
+        "EMT2208"
+      ],
+      "equivalents": [
+        "BLU2901",
+        "EMT2901"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6110"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2208"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2901"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2901"
+          }
+        ]
+      },
+      "syllabus": "Princípios da Microscopia Eletrônica de Varredura, Detectores e Modos de Imagem. Princípios da Microscopia Eletrônica de Transmissão. Microanálise Química por Energia Dispersiva. Princípios de Difração de Raios X e Interação com a Matéria. Principais métodos experimentais de análise cristalográfica com difração de raios X. Método de Rietveld para refinamento de estruturas cristalinas."
+    },
+    {
+      "id": "EMT2601",
+      "code": "EMT2601",
+      "name": "Engenharia de Materiais e Sociedade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Op",
+      "prerequisites": [
+        "EMT2102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2102"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Elaboração de atividades vinculadas às necessidades da sociedade, e como os conhecimentos vinculados à área de Engenharia de Materiais podem auxiliar no atendimento parcial ou total.",
+      "extensionHours": 36
+    },
+    {
+      "id": "CAC7002",
+      "code": "CAC7002",
+      "name": "Ciência, Tecnologia e Sociedade (EXT 36h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Noções dos estudos CTS. Implicações sociais das ciências e das tecnologias. Relações entre mudança tecnológica e mudança social. Impactos científico e tecnológico e riscos. Progresso técnico e marginalização social. Questões de gênero e étnico-raciais em ciência e tecnologia. Tecnologias para inclusão social. Sistemas sócio tecnológicos e democracia sociotécnica. Estudos de controvérsias científicas e tecnológicas. Participação nas políticas públicas de CT. Desafios atuais para a América Latina. Ética, Direitos Humanos e Engenharia. Atividades e ações de extensão voltadas a articulação entre teoria e prática junto aos arranjos produtivos e demais setores da sociedade civil. Práticas extensionistas de divulgação científica e tecnológica."
+    },
+    {
+      "id": "DET1815",
+      "code": "DET1815",
+      "name": "Empreendedorismo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "a) Empreendedorismo: definições, histórico, tipos de empreendedores, tendências mundiais, avaliações de ambientes para empreender. Desenvolver projetos junto às organizações públicas ou privadas detectando demanda e propondo soluções em linha com objetivos da comunidade.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMT2011",
+      "code": "EMT2011",
+      "name": "Processamento de Materiais Poliméricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2010"
+      ],
+      "equivalents": [
+        "BLU2011"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2010"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2011"
+      },
+      "syllabus": "Introdução ao processamento de polímeros. Noções básicas de reologia de polímeros. Principais técnicas de processamento de termoplásticos: extrusão, moldagem por injeção, moldagem por sopro, termoformagem e rotomoldagem. Processamento de elastômeros. Processamento de termorrígidos. Noções de manufatura aditiva."
+    },
+    {
+      "id": "EMT2020",
+      "code": "EMT2020",
+      "name": "Processamento de Materiais Metálicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2104"
+      ],
+      "equivalents": [
+        "BLU2020"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2104"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2020"
+      },
+      "syllabus": "Introdução aos processos de fabricação de materiais metálicos. Fundição. Soldagem. Conformação Mecânica."
+    },
+    {
+      "id": "EMT2029",
+      "code": "EMT2029",
+      "name": "Processamento de Materiais Metálicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2104"
+      ],
+      "equivalents": [
+        "BLU2020",
+        "EMT2020"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2104"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2020"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2020"
+          }
+        ]
+      },
+      "syllabus": "Introdução geral à metalurgia extrativa e Siderurgia. Introdução aos processos de fabricação de materiais metálicos. Processos de Fundição e suas Características. Soldagem. Processos de Conformação Mecânica e Suas Características."
+    },
+    {
+      "id": "EMT2037",
+      "code": "EMT2037",
+      "name": "Propriedades Térmicas dos Materiais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "EMT2207"
+      ],
+      "equivalents": [
+        "EMT2039"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2207"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMT2039"
+      },
+      "syllabus": "Capacidade calorífica, expansão térmica e condutividade térmica dos materiais cerâmicos, metálicos e poliméricos. Tensões Térmicas. Análises Térmicas (DSC/DTA, TGA e outras). Experimentos de caracterização de propriedades térmicas dos materiais. Aplicações tecnológicas envolvendo propriedades térmicas dos materiais."
+    },
+    {
+      "id": "EMT2038",
+      "code": "EMT2038",
+      "name": "Propriedades Magnéticas dos Materiais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6110",
+        "EMT2207"
+      ],
+      "equivalents": [
+        "BLU2027",
+        "EMT2027"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6110"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2207"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2027"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2027"
+          }
+        ]
+      },
+      "syllabus": "Origem do Magnetismo nos Materiais; Comportamento Magnético dos Materiais; Caracterização Magnética; Introdução ao Processamento de Materiais Magnéticos; Aplicações dos Materiais Magnéticos; Prática de Caracterização Magnética"
+    },
+    {
+      "id": "EMT2039",
+      "code": "EMT2039",
+      "name": "Propriedades Térmicas dos Materiais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "EMT2302"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2302"
+          }
+        ]
+      },
+      "syllabus": "Capacidade calorífica, expansão térmica e condutividade térmica dos materiais cerâmicos, metálicos e poliméricos. Tensões Térmicas. Experimentos de caracterização de propriedades térmicas dos materiais. Aplicações tecnológicas envolvendo propriedades térmicas dos materiais."
+    },
+    {
+      "id": "EMT2403",
+      "code": "EMT2403",
+      "name": "Ensaios Mecânicos de Materiais (EXT 36h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2034"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2034"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Execução de ensaios aplicados à medição de grandezas físicas em materiais como dureza, resistência à tração, deformação elástica e plástica, resistência ao impacto, resistência à flexão e compressão. Cálculo de constantes elásticas, ductilidade, tenacidade. Atividades de extensão na execução de ensaios em parceria com a indústria."
+    },
+    {
+      "id": "EMT2504",
+      "code": "EMT2504",
+      "name": "Processamento de Materiais Cerâmicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2015"
+      ],
+      "equivalents": [
+        "BLU2504"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2015"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2504"
+      },
+      "syllabus": "Etapas de produção de produtos cerâmicos. Matérias-primas naturais e sintéticas. Noções básicas de Técnicas de Caracterização de Materiais. Processamento a partir do pó. Aditivos. Empacotamento de partículas e consistência. Processos de conformação. Etapa de decoração/esmaltação. Tratamentos Térmicos. Sinterização."
+    },
+    {
+      "id": "EMT2040",
+      "code": "EMT2040",
+      "name": "Estágio Supervisionado A",
+      "credits": 11,
+      "hours": 198,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2502,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2502,
+      "syllabus": "Ambientação no setor industrial e/ou laboratorial afeito à Ciência e Engenharia de Materiais. Desenvolvimento de relacionamento profissional e de relações de trabalho. Desenvolvimento sob supervisão e orientação de projeto básico de solução de problemas em Engenharia e/ou projeto de investigação científica. Uso de ferramentas básicas de gestão da produção e da qualidade. Desenvolvimento e aplicação de técnicas de caracterização microestrutural, química, física e mecânica de materiais. Desenvolvimento e aplicação de metodologia técnico-científica para a produção de relatórios."
+    },
+    {
+      "id": "DET1813",
+      "code": "DET1813",
+      "name": "Microeconomia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1813"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1813"
+      },
+      "syllabus": "Mercado: oferta e demanda. Teoria do consumidor. Teoria da firma. Estruturas de mercados e formação de preços. Monopólios, Oligopólios, Externalidades e bens públicos"
+    },
+    {
+      "id": "EMT2041",
+      "code": "EMT2041",
+      "name": "Propriedades Ópticas dos Materiais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE2500"
+      ],
+      "equivalents": [
+        "BLU2025",
+        "EMT2025"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE2500"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2025"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2025"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos e conceitos relacionados à natureza da radiação eletromagnética e às suas possíveis interações com os materiais sólidos. Comportamento dos materiais metálicos e não metálicos com relação à absorção, reflexão, refração e transmissão da radiação luminosa. Índice de refração, Cor, Opacidade e Translucidez. Lumines-cência (fluorescência e fosforescência). Aplicações dos Fenômenos Ópticos."
+    },
+    {
+      "id": "EMT2042",
+      "code": "EMT2042",
+      "name": "Propriedades Elétricas dos Materiais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE2500",
+        "EMT2207"
+      ],
+      "equivalents": [
+        "BLU2026",
+        "EMT2026"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE2500"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2207"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2026"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2026"
+          }
+        ]
+      },
+      "syllabus": "Conceitos Básicos sobre Condutividade Elétrica em Sólidos, Classificação dos Materiais Segundo seu Caráter de Condução por Elétrons, Condutores, Semicondutores, Isolantes, Supercondutores. Aplicações de Materiais Elétricos."
+    },
+    {
+      "id": "EMT2043",
+      "code": "EMT2043",
+      "name": "Manufatura Aditiva e Metalurgia do Pó",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2029"
+      ],
+      "equivalents": [
+        "BLU2018",
+        "EMT2018"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2029"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2018"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2018"
+          }
+        ]
+      },
+      "syllabus": "Aplicações de Metais Sinterizados e CERMETS; Histórico da Manufatura Aditiva; Fabricação de Pós Metálicos e Propriedades Tecnológicas de Pós; Fundamentos Termodinâmicos da Sinterização de Pós; Processos Convencionais de Consolidação de Pós; Processos de Consolidação via Manufatura Aditiva."
+    },
+    {
+      "id": "EMT2044",
+      "code": "EMT2044",
+      "name": "Degradação e Falha de Materiais (EXT 18h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2034"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2034"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Considerações Gerais sobre a Degradação em Materiais; Degradação Física, Química, e Eletroquímica; Corrosão; Procedimentos de Proteção contra Degradação; Considerações Gerais Sobre Falha de Materiais; Relação entre Modo de Carregamento e Falha; Falha Assistida pelo Meio Ambiente; Fundamentos Gerais de Mecânica da Fratura; Mecanismos de Falha nas Classes de Materiais; Introdução à Análise de Falha e Fractografia; Introdução aos Ensaios Não Destrutivos; Introdução à Análise de Integridade Estrutural. Projeto de Extensão em Degradação e Falha de Materiais."
+    },
+    {
+      "id": "EMT2404",
+      "code": "EMT2404",
+      "name": "Reciclagem de Materiais e Valorização de Resíduos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2040"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2040"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "a) Tipologias de resíduos em razão da origem e da natureza; Classificação de resíduos (ABNT NBR 10004); Legislação nacional e Política Nacional de Resíduos Sólidos (PNRS); Aterros Sanitários; Desenvolvimento Sustentável e Economia Circular; Noções sobre tratamentos físicos, térmicos e químicos de resíduos; Incineração; Biodigestão; Compostagem; Caracterização de resíduos; Processos de fabricação industriais e a valorização de resíduos; Oportunidades de negócios, inovação e transferência tecnológica inerentes à Lei Federal de Resíduos Sólidos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMT2705",
+      "code": "EMT2705",
+      "name": "Fundamentos de Materiais Compósitos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2010"
+      ],
+      "equivalents": [
+        "BLU2704"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2010"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2704"
+      },
+      "syllabus": "Definições e classificação. Matrizes para compósitos. Diferentes geometrias de cargas (partículas, fibras, tecidos e pré-formas, etc). Tipos de fibras. Características interfaciais e de adesão. Compósitos híbridos. Propriedades de materiais compósitos. Aplicações tecnológicas. Reciclagem de compósitos."
+    },
+    {
+      "id": "CAC2904",
+      "code": "CAC2904",
+      "name": "Ética, Direitos Humanos e Diversidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU2903"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2903"
+      },
+      "syllabus": "A história dos Direitos Humanos e os documentos internacionais e nacionais. As concepções políticas, filosóficas e jurídicas dos Direitos Humanos. As lutas sociais por Direitos Humanos. Direitos Humanos, Interculturalidade e Globalização. A formação socio-político-cultural do povo brasileiro. Ética, Direitos Humanos, Diversidade e Engenharia Engajada. Diversidade: História africana, afro-brasileira e dos povos de matriz indígena. Atividades e ações de extensão voltadas a articulação entre teoria e prática na idealização de soluções de engenharia humanitária, em atendimento às demandas e necessidades da sociedade civil, bem como socioambientais."
+    },
+    {
+      "id": "DET1024",
+      "code": "DET1024",
+      "name": "Gestão da Inovação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1024"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1024"
+      },
+      "syllabus": "Sociocultural (EXT 18h-a) CAC2903) Inovação: conceitos, tipos, características, modelos e ferramentas da gestão da inovação. Indicadores e barreiras. Criatividade: técnicas e dinâmicas para melhorar a criatividade, quebra de paradigmas, produtos criativos."
+    },
+    {
+      "id": "EMT2045",
+      "code": "EMT2045",
+      "name": "Fenômenos e Processamento de Superfície",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2029",
+        "EMT2302"
+      ],
+      "equivalents": [
+        "BLU2702",
+        "EMT2702"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2029"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2302"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2702"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2702"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Engenharia de superfície; Introdução à Termodinâmica de Superfície; Molhabilidade; Introdução à Tribologia; Atrito e Lubrificação; Modos de Desgaste; Técnicas de Avaliação e Controle do Desgaste; Introdução aos Tratamentos Térmicos, Termoquímicos, Mecânicos, Físicos e Químicos de Superfície; Filmes Finos; Tratamentos o Plasma; Tratamentos a Laser; Técnicas de Caracterização de Superfície."
+    },
+    {
+      "id": "EMT2046",
+      "code": "EMT2046",
+      "name": "Nanomateriais e nanotecnologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2209"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2209"
+      },
+      "syllabus": "Introdução à nanociência e nanotecnologia. Preparação de nanoestruturas via Bottom-Up e Top-Down. Nanomateriais orgânicos e inorgânicos. Propriedades de nanomateriais. Técnicas de análises de nanomateriais. Aplicações de nanomateriais."
+    },
+    {
+      "id": "EMT2047",
+      "code": "EMT2047",
+      "name": "Materiais Vítreos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2504"
+      ],
+      "equivalents": [
+        "BLU2017",
+        "EMT2017"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2504"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2017"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2017"
+          }
+        ]
+      },
+      "syllabus": "Breve história da evolução dos materiais vítreos. Vidros: Definições, Fundamentos do estado vítreo, Formação dos vidros, Composição. Vitrocerâmicos: Definições e Conceitos Gerais. Definições e Conceitos de Esmaltes Cerâmicos/Vidrados."
+    },
+    {
+      "id": "EMT2048",
+      "code": "EMT2048",
+      "name": "Processamento de Materiais Compósitos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2705"
+      ],
+      "equivalents": [
+        "BLU2704",
+        "EMT2704"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2705"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2704"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2704"
+          }
+        ]
+      },
+      "syllabus": "Aspectos gerais na fabricação de compósitos com matriz polimérica. Métodos de fabricação de compósitos com matrizes poliméricas termofixas (Moldagem manual, infusão à vácuo, moldagem por transferência de resina, pultrusão e enrolamento filamentar); Métodos de fabricação de compósitos com matrizes poliméricas termoplásticas (extrusão, injeção e moldagem por compressão)."
+    },
+    {
+      "id": "EMT2406",
+      "code": "EMT2406",
+      "name": "Seleção de Materiais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2040"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2040"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Critérios para a seleção de materiais. Aspectos econômicos. Materiais e Aspectos Sustentáveis. Gráficos de propriedades dos materiais. Seleção de materiais de acordo com a resistência mecânica, ao desgaste, à fadiga, à corrosão, à fluência e ao impacto. Seleção para aplicações elétricas e térmicas. Aspectos da manufatura na seleção de materiais. Metodologia para a seleção com base em múltiplos critérios. Banco de dados de materiais de engenharia. Estudo de casos. Atividades de extensão com setor produtivo e comunidade externa aplicando os conceitos estudados.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EMT2049",
+      "code": "EMT2049",
+      "name": "Estágio Supervisionado B",
+      "credits": 10,
+      "hours": 180,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2040",
+        "EMT2705"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2040"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2705"
+          }
+        ]
+      },
+      "syllabus": "Consolidação da Ambientação no setor industrial e/ou laboratorial afeito à Ciência e Engenharia de Materiais. Consolidação do desenvolvimento de relacionamento profissional e de relações de trabalho. Desenvolvimento sob supervisão e orientação de projetos de Engenharia e/ou projeto de investigação científica. Consolidação do uso de ferramentas de gestão da produção e da qualidade. Desenvolvimento e aplicação de técnicas de caracterização microestrutural, química, física e mecânica de materiais. Desenvolvimento de procedimentos de seleção de materiais e especificação de processos de fabricação. Desenvolvimento e aplicação de metodologia técnico-científica para a produção de relatórios."
+    },
+    {
+      "id": "EMT2050",
+      "code": "EMT2050",
+      "name": "Trabalho de Conclusão de Curso",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "EMT2044",
+        "EMT2705"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2044"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2705"
+          }
+        ]
+      },
+      "syllabus": "Produção acadêmica que expresse as competências e habilidades desenvolvidas pelos alunos, assim como os conhecimentos por estes adquiridos durante o curso de graduação, que demonstre maturidade científico-tecnológica correspondente à formação em Engenharia de Materiais. Ao final, os estudantes devem apresentar uma monografia a ser defendida publicamente perante banca examinadora."
+    },
+    {
+      "id": "CAC7004",
+      "code": "CAC7004",
+      "name": "Tecnologias para o Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU7004"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7004"
+      },
+      "syllabus": "Rol de Disciplinas Optativas Tecnologias para o desenvolvimento inclusivo: desenvolvimento de tecnologias para a resolução de problemas sociais e ambientais. Políticas públicas, estratégias institucionais, desenho de artefatos e sistemas. Mudança tecnológica e mudança social; Economia solidária e desenvolvimento local; Articulação e gestão de conhecimentos; Política, Gestão e Planificação Estratégica; Desenho de estratégias de inclusão e desenvolvimento."
+    },
+    {
+      "id": "CAC7005",
+      "code": "CAC7005",
+      "name": "Sociedade, Tecnologia e História",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU7005"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7005"
+      },
+      "syllabus": "Inclusivo Noções sobre História, Cultura Material, Técnica, Ciência, Tecnologia e Sociedade. Transformações da técnica e da tecnologia nos diferentes tempos históricos. Técnica, sociedade e transformação dos processos socioculturais. Relações do homem com a matéria e com o objeto técnico no processo histórico. Tecnologia, Saberes Tradicionais e Inovação na História africana, afro-brasileira e dos povos de matriz indígena."
+    },
+    {
+      "id": "CEE7923",
+      "code": "CEE7923",
+      "name": "Língua Brasileira de Sinais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7921",
+        "CEE7922",
+        "CEE7924"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "CEE7921"
+              },
+              {
+                "kind": "course",
+                "code": "CEE7922"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "CEE7924"
+          }
+        ]
+      },
+      "syllabus": "Aquisição básica da Língua Brasileira de Sinais LIBRAS como segunda língua (L2). Introdução de conceitos da área de surdez. Cultura surda e identidade surda. Gramática básica. Internalização de vocabulário básico geral."
+    },
+    {
+      "id": "DET1022",
+      "code": "DET1022",
+      "name": "Ergonomia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1022"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1022"
+      },
+      "syllabus": "Introdução à Ergonomia: definições e histórico. Princípios de fisiologia do trabalho. Princípios de psicologia do trabalho. Antropometria e biomecânica. Princípios de organização do trabalho. Condições ambientais de trabalho."
+    },
+    {
+      "id": "DET7025",
+      "code": "DET7025",
+      "name": "Segurança do Trabalho",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 720,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 720,
+      "syllabus": "Segurança do trabalho. Segurança de automação industrial: Controles e dispositivos de informação, gerenciamento de riscos. Equipamentos de proteção individual. Sinalização de segurança. Higiene do trabalho. Normatização e legislação."
+    },
+    {
+      "id": "EMT2021",
+      "code": "EMT2021",
+      "name": "Blendas Poliméricas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EMT2010"
+      ],
+      "equivalents": [
+        "BLU2021"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2010"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2021"
+      },
+      "syllabus": "Conceitos básicos de blendas poliméricas. Conceitos termodinâmicos aplicados às blendas poliméricas. Métodos de obtenção de blendas. Equipamentos de processamento. Principais métodos de caracterização de blendas poliméricas. Aplicações de blendas poliméricas."
+    },
+    {
+      "id": "EMT2023",
+      "code": "EMT2023",
+      "name": "Nanocompósitos poliméricos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EMT2705"
+      ],
+      "equivalents": [
+        "BLU2023"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2705"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2023"
+      },
+      "syllabus": "Definições de nanocompósitos poliméricos. Tipos e classificação de nanocargas. Estrutura e propriedades de nanocompósitos poliméricos. Processamento de nanocompósitos. Aplicações tecnológicas."
+    },
+    {
+      "id": "EMT2028",
+      "code": "EMT2028",
+      "name": "Projeto de Materiais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Elaboração e apresentação de um projeto de produto relacionado à Engenharia de Materiais. Complementar a prática e focar no desenvolvimento de um produto, processo ou serviço relacionado à Engenharia de Materiais. O objetivo é resolver um problema ambiental global ou local, produto inovador, resolução de um problema de engenharia da indústria."
+    },
+    {
+      "id": "EMT2032",
+      "code": "EMT2032",
+      "name": "Ciência e Tecnologia dos Elastômeros",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos elastômeros. Tipos de elastômeros (naturais e sintéticos). Elastômeros termoplásticos. Vulcanização. Formulação de compostos elastoméricos (diferentes elastômeros, sistemas de aceleração, cargas, lubrificantes e plastificantes, protetores e outros aditivos). Processamento de elastômeros. Ensaios de interesse na indústria. Reciclagem de elastômeros."
+    },
+    {
+      "id": "EMT2053",
+      "code": "EMT2053",
+      "name": "Aditivação de Polímeros",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU2013"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2013"
+      },
+      "syllabus": "Introdução, importância e requisitos. Tipos de aditivos usados em materiais poliméricos: estabilizantes, plastificantes, lubrificantes, antiestáticos, retardantes de chama, pigmentos, agentes nucleantes, cargas de reforço e enchimento, espumantes, modificadores de impacto"
+    },
+    {
+      "id": "EMT2054",
+      "code": "EMT2054",
+      "name": "Fundamentos de Reologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU2024"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2024"
+      },
+      "syllabus": "Conceitos fundamentais da reologia e definição dos parâmetros reológicos. Sólidos de Hooke e fluídos de Newton: comportamento ideal da matéria. Sólidos e fluidos reais: modelos reológicos. Reologia das suspensões de partículas sólidas. Propriedades das dispersões coloidais. Comportamento reológico das suspensões coloidais. Propriedades mecânicas dos materiais de engenharia sob o ponto de vista da reologia. Comportamento reológico dos polímeros. Viscosimetria e reometria"
+    },
+    {
+      "id": "EMT2057",
+      "code": "EMT2057",
+      "name": "Noções de Usinagem",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU2019"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2019"
+      },
+      "syllabus": "Introdução aos processos de usinagem. Principais processos: torneamento, fresamento, retificação, furação, eletroerosão, processos especiais. Normas de usinagem. Mecanismos de formação de cavaco. Forças e potência de corte. Materiais de ferramentas. Desgaste, avarias e vida de ferramentas. Análise das condições econômicas de usinagem. Usinabilidade."
+    },
+    {
+      "id": "EMT2058",
+      "code": "EMT2058",
+      "name": "Metalurgia da soldagem",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU2019"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2019"
+      },
+      "syllabus": "Introdução à metalurgia de soldagem. Energia e calor adicionado. Ciclo térmico. Transformações na zona fundida termicamente afetada. Soldabilidade dos metais. Defeitos de soldagem: trincas a frio e a quente. Tensões e deformações em soldagem. Funções dos tratamentos aplicados em soldagem."
+    },
+    {
+      "id": "EMT2059",
+      "code": "EMT2059",
+      "name": "Processamento de Materiais Magnéticos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aplicações de Materiais Magnéticos Moles e Duros; Relação Microestrutura-Propriedades em Materiais Magnéticos; Rotas de Processamento de Materiais Magnéticos e Desenvolvimento Microestrutural."
+    },
+    {
+      "id": "EMT2060",
+      "code": "EMT2060",
+      "name": "Máquinas Térmicas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Revisão termodinâmica referente ao ciclo de Carnot. Classificação e funcionamento das máquinas térmicas. Ciclo Otto, ciclo Diesel, motores 2 tempos, motor Wankel. Alimentação e sobrealimentação. Ciclo Rankine. Ciclo Brayton. Seminários."
+    },
+    {
+      "id": "EMT2061",
+      "code": "EMT2061",
+      "name": "Materiais Metálicos Não-Ferrosos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos Metais não-ferrosos. Metais não-ferrosos principais e suas ligas (cobre, níquel, cobalto). Metais leves principais e suas ligas (titânio, alumínio, magnésio). Metais nobres e suas ligas (ouro, prata, grupo da platina). Metais refratários e suas ligas (tungstênio, molibdênio, tântalo, nióbio); Metais de Baixo Ponto de Fusão e Suas ligas (zinco, chumbo, estanho)."
+    },
+    {
+      "id": "EMT2062",
+      "code": "EMT2062",
+      "name": "Biomateriais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos, classificação, estrutura, propriedade, aplicação dos biomateriais e possíveis reações teciduais. Comportamento da Interface Biomaterial/Osso/Tecido. Ciência dos Materiais aplicada ao Desenvolvimento dos Biomateriais: Materiais Metálicos; Materiais Cerâmicos; Materiais Poliméricos; Biomateriais híbridos orgânicoinorgânicos; Tratamentos Superficiais em Biomateriais"
+    },
+    {
+      "id": "EMT2063",
+      "code": "EMT2063",
+      "name": "Colorimetria e Espectrofotometria UVVis",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Cor em sólidos; Fisiologia da cor; Sistemas colorimétricos e Diferença de cor; Equipamentos de medida de cor e brilho; Espectrofotometria UV-Vis; Formulação de Cor; Metamerismo; Pigmentos e materiais colorantes."
+    },
+    {
+      "id": "EMT2064",
+      "code": "EMT2064",
+      "name": "Cerâmicas Refratárias",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aplicadas à Indústria Introdução geral às cerâmicas refratárias. Materiais refratários: Classificação, matérias-primas, técnicas de fabricação, ensaios e características, principais produtos e campos de aplicação"
+    },
+    {
+      "id": "EMT2065",
+      "code": "EMT2065",
+      "name": "Cerâmicas Eletroeletrônicas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Mecanismos de condução de cargas elétricas. Defeitos em cristais. Condução eletrônica e iônica. Materiais cerâmicos condutores iônicos e eletrônicos. Aplicações de condutores iônicos e eletrônicos. Materiais cerâmicos semicondutores e aplicações. Materiais cerâmicos isolantes elétricos. Materiais cerâmicos dielétricos. Aplicações de materiais dielétricos."
+    },
+    {
+      "id": "EMT2066",
+      "code": "EMT2066",
+      "name": "Fundamentos de Metalurgia Extrativa",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução Geral à Metalurgia; Introdução Geral às Operações de Metalurgia dos Não-Ferrosos; Introdução Geral às Operações de Siderurgia; Introdução Geral à Eletrometalurgia; Introdução Geral à Hidrometalurgia; Introdução Geral à Pirometalurgia; Introdução Geral às Operações de Redução; Introdução Geral às Operações de Oxidação; Introdução Geral às Operações de Refino; Considerações Gerais sobre Escórias; Considerações Gerais sobre Novos Processos de Metalurgia Extrativa; Considerações Gerais sobre Questões Ambientais na Metalurgia Extrativa; Considerações sobre Refratários em Metalurgia Extrativa."
+    },
+    {
+      "id": "EMT2067",
+      "code": "EMT2067",
+      "name": "Introdução às Matérias Primas Minerais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a Elementos de Mineralogia e de Petrografia; Introdução aos Principais Minerais-Minérios (Óxidos, Sulfetos, Carbonatos, Argilominerias, Silicatos); Introdução aos Tratamentos de Minérios (Operações de Cominuição; Operações de Classificação; Operações de Concentração); Carvão Mineral e Coque Metalúrgico; Carvão Vegetal; Processos de Aglomeração de Minérios (Sinterização de Minério, Pelotização, Briquetagem)."
+    },
+    {
+      "id": "EMT2068",
+      "code": "EMT2068",
+      "name": "Polímeros Biodegradáveis",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "para Engenharia de Materiais EMT2502) Síntese e classificação de polímeros biodegradáveis; estrutura e propriedades dos polímeros biodegradáveis; processamento de polímeros biodegradáveis; aplicações; nanotecnologia e polímeros biodegradáveis; blendas e compósitos à base de polímeros biodegradáveis; mecanismos e ensaios de biodegradação."
+    },
+    {
+      "id": "EMT2069",
+      "code": "EMT2069",
+      "name": "Manufatura Aditiva de Polímeros",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo dos fundamentos e aplicações da manufatura aditiva (impressão 3D) com foco em materiais poliméricos. Modelamento e fatiamento de peças. Técnicas de impressão 3D com polímeros (Modelagem por Fusão e Deposição, Estereolitografia, Sinterização Seletiva a Laser, entre outras). Polímeros para manufatura aditiva. Manufatura aditiva de compósitos poliméricos. Processamento, parâmetros de impressão e pós-processamento. Avaliação de desempenho e caracterização dos produtos fabricados."
+    },
+    {
+      "id": "EMT2070",
+      "code": "EMT2070",
+      "name": "Elementos de Máquinas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Princípios fundamentais. Tensões de trabalho. Parafusos e rebites. Soldagem. Eixos e acoplamentos. Correias, embreagens e freios. Lubrificação. Rolamentos. Engrenagens cônicas, sem fim e helicoidais. Elementos de máquinas diversos"
+    },
+    {
+      "id": "EMT3034",
+      "code": "EMT3034",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3034"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3034"
+      },
+      "syllabus": "Programa de Intercâmbio I"
+    },
+    {
+      "id": "EMT3035",
+      "code": "EMT3035",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [
+        "EMT3034"
+      ],
+      "equivalents": [
+        "BLU3035"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT3034"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3035"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4741",
+      "code": "MAT4741",
+      "name": "Métodos Numéricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU4702",
+        "MAT1831"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2301"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU4702"
+          },
+          {
+            "kind": "course",
+            "code": "MAT1831"
+          }
+        ]
+      },
+      "syllabus": "Métodos para resolução de sistemas lineares. Solução numérica de equações nãolineares. Problemas de ajuste de dados e interpolação. Integração Numérica. Métodos numéricos para Equações Diferenciais Ordinárias."
+    },
+    {
+      "id": "EMT3003",
+      "code": "EMT3003",
+      "name": "Atividades Complementares",
+      "credits": 5,
+      "hours": 90,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Atividades Complementares Atividades Complementares"
+    },
+    {
+      "id": "EMT3004",
+      "code": "EMT3004",
+      "name": "Ações de Extensão - Projetos, Eventos, Cursos e Oficinas (EXT = 234h-a)",
+      "credits": 13,
+      "hours": 234,
+      "phase": 2,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 234
+      },
+      "prerequisiteHours": 234,
+      "syllabus": "Rol de Ações de Extensão Ações de Extensão"
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "CAC2505",
+      "CAC6000",
+      "CAC6002",
+      "CEE7101",
+      "EMT2102",
+      "MAT2101",
+      "MAT2111",
+      "CEE1101",
+      "CEE2400",
+      "CEE6106",
+      "CEE6206",
+      "EMT2206",
+      "MAT2201",
+      "MAT2211",
+      "CAC6013",
+      "CEE6109",
+      "CEE6209",
+      "EMT2207",
+      "EMT2208",
+      "EMT2502",
+      "EMT2506",
+      "MAT2301",
+      "CAC6011",
+      "CEE6110",
+      "CEE6210",
+      "DET1812",
+      "DET6014",
+      "EMT2030",
+      "EMT2033",
+      "EMT2302",
+      "MAT2401",
+      "CEE2500",
+      "EMT2010",
+      "EMT2015",
+      "EMT2034",
+      "EMT2104",
+      "EMT2209",
+      "CAC7002",
+      "DET1815",
+      "EMT2011",
+      "EMT2020",
+      "EMT2029",
+      "EMT2037",
+      "EMT2038",
+      "EMT2039",
+      "EMT2403",
+      "EMT2504",
+      "EMT2040",
+      "DET1813",
+      "EMT2041",
+      "EMT2042",
+      "EMT2043",
+      "EMT2044",
+      "EMT2404",
+      "EMT2705",
+      "CAC2904",
+      "DET1024",
+      "EMT2045",
+      "EMT2046",
+      "EMT2047",
+      "EMT2048",
+      "EMT2406",
+      "EMT2049",
+      "EMT2050"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 144,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "EMT2601",
+              "CAC7004",
+              "CAC7005",
+              "CEE7923",
+              "DET1022",
+              "DET7025",
+              "EMT2021",
+              "EMT2023",
+              "EMT2028",
+              "EMT2032",
+              "EMT2053",
+              "EMT2054",
+              "EMT2057",
+              "EMT2058",
+              "EMT2059",
+              "EMT2060",
+              "EMT2061",
+              "EMT2062",
+              "EMT2063",
+              "EMT2064",
+              "EMT2065",
+              "EMT2066",
+              "EMT2067",
+              "EMT2068",
+              "EMT2069",
+              "EMT2070",
+              "EMT3034",
+              "EMT3035",
+              "MAT4741",
+              "EMT3003",
+              "EMT3004"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 144
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "753",
+    "curriculumCode": "20231",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=753&curriculo=20231",
+    "sha256": "cd02f463238e4871b3b1d26d9f4208058adb97598a521a33e27a57e16826c983",
+    "capturedAt": "2026-09-22"
+  }
+}

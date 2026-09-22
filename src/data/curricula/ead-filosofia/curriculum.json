@@ -1,0 +1,556 @@
+{
+  "program": "EaD_UAB FILOSOFIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2017.1",
+  "totalHours": 2800,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    }
+  ],
+  "courses": [
+    {
+      "id": "FIL9600",
+      "code": "FIL9600",
+      "name": "Teoria do Conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Questões clássicas da Teoria do Conhecimento."
+    },
+    {
+      "id": "FIL9601",
+      "code": "FIL9601",
+      "name": "História da Filosofia I (PCC 36 horas/aula)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9601
+      },
+      "prerequisiteHours": 9601,
+      "syllabus": "O pensamento grego-romano. Atividades práticas de ensino, pesquisa e extensão nesse tema."
+    },
+    {
+      "id": "FIL9621",
+      "code": "FIL9621",
+      "name": "Ontologia I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A questão do ser e problemas metafísicos nos pensamentos antigo e medieval."
+    },
+    {
+      "id": "FIL9641",
+      "code": "FIL9641",
+      "name": "Filosofia Política I (PCC 36 horas/aula)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Filosofia Política antiga. Atividades práticas de ensino, pesquisa e extensão nesse tema."
+    },
+    {
+      "id": "MEN9101",
+      "code": "MEN9101",
+      "name": "Introdução à Educação a Distância",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tecnologias de Informação e Comunicação na Educação. Mídia-educação. Comunicação e Educação na formação de professores. A modalidade de Educação a Distância: histórico, características, definições e regulamentações. A mediação pedagógica na modalidade a distância. Organização de situações de aprendizagem."
+    },
+    {
+      "id": "FIL9602",
+      "code": "FIL9602",
+      "name": "História da Filosofia II (PCC 36 horas/aula)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9602
+      },
+      "prerequisiteHours": 9602,
+      "syllabus": "A patrística e a escolástica. Atividades práticas de ensino, pesquisa e extensão nesses temas."
+    },
+    {
+      "id": "FIL9622",
+      "code": "FIL9622",
+      "name": "Ontologia II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A questão do ser em uma perspectiva contemporânea. Atividades práticas de ensino, pesquisa e extensão em ontologia."
+    },
+    {
+      "id": "FIL9631",
+      "code": "FIL9631",
+      "name": "Lógica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Linguagens de primeira ordem. Estruturas para linguagens de primeira ordem. O conceito de sentença verdadeira em uma estrutura. Atividades práticas de ensino, pesquisa e extensão em lógica."
+    },
+    {
+      "id": "FIL9642",
+      "code": "FIL9642",
+      "name": "Filosofia Política II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Filosofia Política moderna. Atividades práticas de ensino, pesquisa e extensão nesse tema."
+    },
+    {
+      "id": "FIL9603",
+      "code": "FIL9603",
+      "name": "História da Filosofia III (PCC 36 horas/aula)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9603
+      },
+      "prerequisiteHours": 9603,
+      "syllabus": "Do renascimento ao iluminismo. Atividades práticas de ensino, pesquisa e extensão nesses temas."
+    },
+    {
+      "id": "FIL9611",
+      "code": "FIL9611",
+      "name": "Ética I (PCC - 36 horas/aula)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Definição de Ética e suas dimensões: metaética, ética normativa e ética aplicada (p.ex. ética ambiental). História da Ética: Éticas antigas e medievais. Atividades práticas de ensino, pesquisa e extensão em Ética."
+    },
+    {
+      "id": "FIL9632",
+      "code": "FIL9632",
+      "name": "Lógica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O conceito semântico de consequência lógica. Procedimentos de prova. Noções sobre o método axiomático e sobre os conceitos de completude, decidibilidade, indecidibilidade e incompletude. Atividades práticas de ensino, pesquisa e extensão em lógica."
+    },
+    {
+      "id": "FIL9650",
+      "code": "FIL9650",
+      "name": "Estética",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Investigação das diversas teorias da sensibilidade produzidas na história da filosofia. Atividades práticas de ensino, pesquisa e extensão em estética."
+    },
+    {
+      "id": "FIL9604",
+      "code": "FIL9604",
+      "name": "História da Filosofia IV (PCC 36 horas/aula)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 9604
+      },
+      "prerequisiteHours": 9604,
+      "syllabus": "Do idealismo alemão ao século XX. Atividades práticas de ensino, pesquisa e extensão nesses temas."
+    },
+    {
+      "id": "FIL9612",
+      "code": "FIL9612",
+      "name": "Ética II (PCC - 36 horas/aula)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Éticas modernas e contemporâneas. O nascimento da Bioética e outras éticas aplicadas: a relação do ser humano com o ambiente e outros animais. Atividades práticas de ensino, pesquisa e extensão em Ética."
+    },
+    {
+      "id": "FIL9651",
+      "code": "FIL9651",
+      "name": "Filosofia da Linguagem I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "A linguagem enquanto objeto e análise linguística como método da investigação filosófica. A questão do significado: problemas e modos de análise. Atividades práticas de ensino, pesquisa e extensão nesses temas."
+    },
+    {
+      "id": "FIL9652",
+      "code": "FIL9652",
+      "name": "Filosofia da Ciência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Abordagem filosófica da ciência. Atividades práticas de ensino, pesquisa e extensão nesse tema."
+    },
+    {
+      "id": "FIL9313",
+      "code": "FIL9313",
+      "name": "Filosofia do Direito (PCC - 40 h/a)",
+      "credits": 5,
+      "hours": 94,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 40
+      },
+      "prerequisiteHours": 40,
+      "syllabus": ""
+    },
+    {
+      "id": "FIL9660",
+      "code": "FIL9660",
+      "name": "Seminário de Ensino da Filosofia (PCC 36",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Os pressupostos teórico-práticos da questão do método de ensino da filosofia. Atividades práticas de ensino da filosofia."
+    },
+    {
+      "id": "MEN9602",
+      "code": "MEN9602",
+      "name": "Didática Geral - PCC 36 horas/aula",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "horas/aula)"
+    },
+    {
+      "id": "PSI9137",
+      "code": "PSI9137",
+      "name": "Psicologia Educacional: Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "EED9185",
+      "code": "EED9185",
+      "name": "Organização Escolar I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "e Aprendizagem"
+    },
+    {
+      "id": "FIL9613",
+      "code": "FIL9613",
+      "name": "Ética III (PCC - 36 horas/aula)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Estudo de tema, autor ou teoria da história da Ética. Aprofundamento das questões práticas com ênfase na Bioética Geral (meio ambiente e animais não humanos)."
+    },
+    {
+      "id": "FIL9653",
+      "code": "FIL9653",
+      "name": "Filosofia da Ciência II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de Filosofia da Ciência com ênfase nas ciências humanas."
+    },
+    {
+      "id": "MEN9142",
+      "code": "MEN9142",
+      "name": "Metodologia de Ensino de Filosofia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL9187",
+      "code": "FIL9187",
+      "name": "Filosofia Política III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL9326",
+      "code": "FIL9326",
+      "name": "Ontologia III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de Ontologia Contemporânea."
+    },
+    {
+      "id": "FIL9680",
+      "code": "FIL9680",
+      "name": "Filosofia da Educação (PCC 36 horas/aula)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "A educação como objeto da reflexão filosófica. Clássicos da Filosofia da Educação. Atividades práticas de ensino, pesquisa e extensão nesse tema."
+    },
+    {
+      "id": "MEN9315",
+      "code": "MEN9315",
+      "name": "Estágio Supervisionado de Ensino de Filosofia I",
+      "credits": 12,
+      "hours": 216,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "FIL9633",
+      "code": "FIL9633",
+      "name": "Lógica III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de Lógica Contemporânea."
+    },
+    {
+      "id": "FIL9654",
+      "code": "FIL9654",
+      "name": "Filosofia da Linguagem II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos de Filosofia da Linguagem Contemporânea."
+    },
+    {
+      "id": "LSB9244",
+      "code": "LSB9244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE9127"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE9127"
+      },
+      "syllabus": "-Desmistificação de ideias recebidas relativamente às línguas de sinais; aspectos gramaticais básicos à língua de sinais; usar a língua de sinais em contexto que exigem comunicação básica com atividades práticas; conhecer os conceitos básicos da Língua Brasileira de Sinais e aspectos culturais específicos da comunidade surda brasileira e o papel do intérprete de libras na educação."
+    },
+    {
+      "id": "MEN9316",
+      "code": "MEN9316",
+      "name": "Estágio Supervisionado de Ensino de Filosofia II",
+      "credits": 12,
+      "hours": 216,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) LSB9904)"
+    },
+    {
+      "id": "FIL9110",
+      "code": "FIL9110",
+      "name": "Atividades Complementares",
+      "credits": 15,
+      "hours": 200,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O Direito como objeto da reflexão filosófica. Clássicos da Filosofia do Direito. Biodireito e meio ambiente."
+    },
+    {
+      "id": "FIL9681",
+      "code": "FIL9681",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Disciplinas Optativas"
+    },
+    {
+      "id": "FIL9682",
+      "code": "FIL9682",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "FIL9600",
+      "FIL9601",
+      "FIL9621",
+      "FIL9641",
+      "MEN9101",
+      "FIL9602",
+      "FIL9622",
+      "FIL9631",
+      "FIL9642",
+      "FIL9603",
+      "FIL9611",
+      "FIL9632",
+      "FIL9650",
+      "FIL9604",
+      "FIL9612",
+      "FIL9651",
+      "FIL9652",
+      "FIL9313",
+      "FIL9660",
+      "MEN9602",
+      "PSI9137",
+      "EED9185",
+      "FIL9613",
+      "FIL9653",
+      "MEN9142",
+      "FIL9187",
+      "FIL9326",
+      "FIL9680",
+      "MEN9315",
+      "FIL9633",
+      "FIL9654",
+      "LSB9244",
+      "MEN9316",
+      "FIL9110",
+      "FIL9681",
+      "FIL9682"
+    ],
+    "requirements": []
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "709",
+    "curriculumCode": "20171",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=709&curriculo=20171",
+    "sha256": "ac8328b2f767518d3efae40977e200d8b4636e0fa0156ef0f102fd7fc67df926",
+    "capturedAt": "2026-09-22"
+  }
+}

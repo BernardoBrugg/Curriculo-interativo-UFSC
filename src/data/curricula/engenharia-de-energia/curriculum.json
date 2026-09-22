@@ -1,0 +1,2020 @@
+{
+  "program": "ENGENHARIA DE ENERGIA [Campus Araranguá]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.1",
+  "totalHours": 4320,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CIT7122",
+      "code": "CIT7122",
+      "name": "Elaboração de Trabalhos Acadêmicos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Normas da ABNT para trabalhos acadêmicos: citações e referências bibliográficas. Fontes de pesquisa. Produção de relatório, resumo e resenha. Técnicas de leitura, produção e apresentação de trabalhos científicos."
+    },
+    {
+      "id": "EES7361",
+      "code": "EES7361",
+      "name": "Fundamentos de Ecologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ecologia de Ecossistemas. Níveis estruturais na biosfera. Fundamentos de evolução. Matéria, energia e interações sinérgicas. Fluxo de energia. Estados de equilíbrio e não equilíbrio em sistemas ambientais. Teorias em Ecologia de Ecossistemas com base em atributos de diversidade, princípios de conectância e momentos de estabilidade. Organização de unidades ecológicas."
+    },
+    {
+      "id": "EES7460",
+      "code": "EES7460",
+      "name": "Introdução à Engenharia de Energia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrutura e funcionamento do curso de Engenharia de Energia, seu currículo e suas normas. Funções do engenheiro no contexto tecnológico e social. Atribuições profissionais. Ética profissional. Ferramentas de trabalho do Engenheiro de Energia."
+    },
+    {
+      "id": "FQM7001",
+      "code": "FQM7001",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "(EXT18h-a) Conjuntos e aritmética básica; Cálculo com expressões algébricas; equações; inequações; funções."
+    },
+    {
+      "id": "FQM7103",
+      "code": "FQM7103",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matrizes. Determinantes. Sistemas de equações lineares. Álgebra vetorial. Estudo da reta. Estudo do plano. Cônicas e quádricas."
+    },
+    {
+      "id": "FQM7113",
+      "code": "FQM7113",
+      "name": "Química Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrutura eletrônica dos átomos. Propriedades periódicas dos elementos. Ligação química. Íons e moléculas. Soluções. Funções, equações químicas, cálculos estequiométricos, ácidos e bases. Cinética química e equilíbrio. Equilíbrio iônico. Eletroquímica."
+    },
+    {
+      "id": "EES7114",
+      "code": "EES7114",
+      "name": "Química Orgânica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7113"
+      ],
+      "equivalents": [
+        "EES7362"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7113"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EES7362"
+      },
+      "syllabus": "Estrutura, nomenclatura e propriedades de alcanos, alcenos, alcinos, álcoois, éteres, aldeídos, cetonas, ácidos carboxílicos e seus derivados, haletos de alquila, aminas, compostos aromáticos, compostos de enxofre e organometálicos. Biomoléculas: estrutura e propriedades de aminoácidos, peptídeos, proteínas, carboidratos, lipídeos, nucleotídeos e ácidos nucleicos."
+    },
+    {
+      "id": "EES7364",
+      "code": "EES7364",
+      "name": "Energia e Sustentabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7460"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7460"
+      },
+      "syllabus": "Energias de fonte não renovável: nuclear, carvão, petróleo e derivados, gás natural. Energias de fonte perene e renovável: solar, eólica, hidrelétrica, oceânica, geotérmica, biomassa e derivados. Sustentabilidade do setor energético."
+    },
+    {
+      "id": "FQM7101",
+      "code": "FQM7101",
+      "name": "Cálculo I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7001"
+      },
+      "syllabus": "Desigualdades. Funções. Aplicação de Funções. Limites e suas propriedades. Continuidade. Limites no infinito. Derivadas e Taxa de variação. Derivada como uma função. Derivadas das funções. Regras de derivação. Derivação implícita. Aplicações da derivação. Regra de L'Hôspital. Integrais definidas. Teorema Fundamental do Cálculo. Integral indefinida. Integrais Impróprias."
+    },
+    {
+      "id": "FQM7331",
+      "code": "FQM7331",
+      "name": "Fundamentos de Materiais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7113"
+      },
+      "syllabus": "Introdução a ciência e a engenharia de materiais. Classificação dos materiais. Ligações químicas e seu efeito nas propriedades dos materiais. Estruturas cristalinas, semicristalinas e amorfas. Defeitos em sólidos. Caracterização estrutural de materiais. Diagramas de fase. Propriedades mecânicas dos metais, cerâmicos e polímeros. Falhas em materiais. Análise microestrutural de materiais. Estrutura, propriedades e processamento de materiais metálicos, cerâmicos, poliméricos e compósitos. Propriedades térmicas, elétricas e magnéticas dos materiais."
+    },
+    {
+      "id": "FQM7334",
+      "code": "FQM7334",
+      "name": "Laboratório de Química",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7113"
+      },
+      "syllabus": "Normas de segurança, reconhecimento e uso de material de laboratório, solubilidade e purificação de substâncias, preparação de compostos, equilíbrio químico, análises química qualitativa e quantitativa, termoquímica, cinética química e enzimática, eletroquímica."
+    },
+    {
+      "id": "EES7115",
+      "code": "EES7115",
+      "name": "Química Orgânica II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7114"
+      ],
+      "equivalents": [
+        "EES7363"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7114"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EES7363"
+      },
+      "syllabus": "Estrutura, nomenclatura e propriedades de alcanos, alcenos, alcinos, álcoois, éteres, aldeídos, cetonas, ácidos carboxílicos e seus derivados, haletos de alquila, aminas, compostos aromáticos, compostos de enxofre e organometálicos. Biomoléculas: estrutura e propriedades de aminoácidos, peptídeos, proteínas, carboidratos, lipídeos, nucleotídeos e ácidos nucleicos."
+    },
+    {
+      "id": "EES7365",
+      "code": "EES7365",
+      "name": "Topografia e Geoprocessamento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7101"
+      },
+      "syllabus": "Introdução à Topografia. Equipamentos topográficos. Planimetria. Métodos de levantamentos planimétricos. Estadimetria. Altimetria. Medidas de ângulos verticais. Nivelamento geométrico, trigonométrico e batimétrico. Curvas de nível. Sistema de posicionamento por satélites. Geoprocessamento: sistemas de referência espacial. Fundamentos de Sistema de informação geográfica (SIG): princípios, modelo de dados, fonte de dados. Uso de Imagens de satélites e fotografias aéreas. Modelo numérico de terreno (MNT): tipo de dados, interpolação espacial. Modelagem de fluxo de água em bacias hidrográficas; delimitação de bacias hidrográficas; Espacialização de variáveis hidrometeorológicas."
+    },
+    {
+      "id": "EES7369",
+      "code": "EES7369",
+      "name": "Geologia de Carvão e Petróleo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7114"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7114"
+      },
+      "syllabus": "Terra: composição interna e externa. Tectônicas de placas. Ciclo das rochas. Rochas sedimentares. Ambientes de sedimentação: formação de carvão e xisto betuminoso, formação de petróleo e gás."
+    },
+    {
+      "id": "FQM7102",
+      "code": "FQM7102",
+      "name": "Cálculo II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7101",
+        "FQM7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7101"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7103"
+          }
+        ]
+      },
+      "syllabus": "Métodos de Integração. Aplicações da integral definida. Funções de várias variáveis. Derivadas parciais. Aplicações das derivadas parciais. Integração múltipla."
+    },
+    {
+      "id": "FQM7104",
+      "code": "FQM7104",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7101",
+        "FQM7103"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7101"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7103"
+          }
+        ]
+      },
+      "syllabus": "Espaço vetorial. Transformações lineares. Mudança de base. Produto interno. Transformações ortogonais. Autovalores e autovetores de um operador. Diagonalização. Aplicação da Álgebra linear às ciências."
+    },
+    {
+      "id": "FQM7110",
+      "code": "FQM7110",
+      "name": "Física A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7001"
+      },
+      "syllabus": "Sistemas de Unidades. Movimento retilíneo uniforme e uniformemente acelerado. Movimento em duas e três dimensões. Leis de Newton. Trabalho, energia cinética e energia potencial. Conservação da energia. Momento linear, impulso e colisões. Rotação, torque e momento angular."
+    },
+    {
+      "id": "DEC7443",
+      "code": "DEC7443",
+      "name": "Lógica de Programação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DEC7143"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DEC7143"
+      },
+      "syllabus": "Algoritmos e lógica de programação. Formas de representação de algoritmos. Programação estruturada, linguagens de programação e ambientes de programação. Variáveis: nomeação, declaração, inicialização, tipos de dados. Expressões: expressões aritméticas, expressão literal, expressões lógicas, expressões relacionais. Estruturas de Controle de Fluxo: linear, condicional, repetição. Estruturas de Dados Simples: vetores, matrizes e registro. Tipos definidos pelo usuário. Modularização. Introdução à uma Linguagem de Programação de alto nível estruturada. Atividades em laboratório com a linguagem selecionada."
+    },
+    {
+      "id": "EES7330",
+      "code": "EES7330",
+      "name": "Fundamentos de Biotecnologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7115"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7115"
+      },
+      "syllabus": "O processo biotecnológico genérico, noções de microbiologia, controle microbiano e cinética microbiana. Genética, melhoramento genético clássico e engenharia genética. Enzimas e cinética enzimática. Fermentação e processos fermentativos. Biotecnologia Industrial. Biotecnologia e Combustíveis. Biotecnologia Ambiental."
+    },
+    {
+      "id": "FQM7105",
+      "code": "FQM7105",
+      "name": "Cálculo III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7102"
+      },
+      "syllabus": "Funções vetoriais. Derivadas direcionais e o vetor gradiente. Cálculo vetorial: Integrais de linha, teorema de Green, rotacional e divergente, integrais de superfície, teorema de Stokes e de Gauss. Sequências. Séries numéricas. Séries de potências. Séries de Taylor."
+    },
+    {
+      "id": "FQM7107",
+      "code": "FQM7107",
+      "name": "Probabilidade e Estatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7102"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7102"
+      },
+      "syllabus": "O papel da estatística na Engenharia. Variáveis aleatórias discretas e contínuas. Probabilidade e Estatística: principais distribuições de probabilidade, histograma, medidas de tendência central e dispersão, inferências relativas à média e à variância, dependência estatística, regressão e correlação. Análise combinatória. Planejamento de uma pesquisa. Análise exploratória de dados. Principais modelos teóricos. Estimação de parâmetros: intervalo de confiança para a média, proporção e diferenças. Testes de hipóteses. Utilização de software estatístico."
+    },
+    {
+      "id": "FQM7111",
+      "code": "FQM7111",
+      "name": "Física B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7110"
+      },
+      "syllabus": "Estática e dinâmica dos fluidos. Temperatura e calor. Primeira lei da termodinâmica. Propriedades dos gases. Segunda lei da termodinâmica. Teoria cinética dos gases. Gravitação. Oscilações. Ondas Mecânicas. Ondas sonoras."
+    },
+    {
+      "id": "FQM7436",
+      "code": "FQM7436",
+      "name": "Estática e Dinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7101",
+        "FQM7110"
+      ],
+      "equivalents": [
+        "FQM7336"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7101"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7110"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FQM7336"
+      },
+      "syllabus": "Vetores de força. Equilíbrio de Partículas. Resultante de sistemas de forçasaplicadas a Corpos Rígidos. Equilíbrio de Corpos Rígidos. Atrito seco. Análise estrutural. Forças internas. Cinemática Plana de Corpos Rígidos. Dinâmica Plana de Corpos Rígidos."
+    },
+    {
+      "id": "CIT7146",
+      "code": "CIT7146",
+      "name": "Introdução à Economia na Engenharia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1548
+      },
+      "prerequisiteHours": 1548,
+      "syllabus": "A decisão de Investir. Fundamentos de matemática financeira. Juros; Taxa de Juros; Fluxo de Caixa; Série Uniforme; Valor Futuro; Valor Presente. Indicadores financeiros para análise de projetos de investimentos: Taxa de Mínima Atratividade; Método do Valor Presente Líquido; Índice Benefício/Custo; Retorno Adicional sobre o Investimento; Taxa Interna de Retorno e Período de recuperação do investimento. Introdução à análise do risco econômico- financeiro em projetos."
+    },
+    {
+      "id": "EES7350",
+      "code": "EES7350",
+      "name": "Termodinâmica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7102",
+        "FQM7111"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7102"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7111"
+          }
+        ]
+      },
+      "syllabus": "Conceitos básicos. Propriedades termodinâmicas. Trabalho e Calor. Primeira e Segunda Lei da Termodinâmica para um sistema e para um volume de controle."
+    },
+    {
+      "id": "EES7368",
+      "code": "EES7368",
+      "name": "Energia Oceânica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7111"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7111"
+      },
+      "syllabus": "Introdução ao movimento dos oceanos. Forças geradoras das ondas. Tipos de ondas. Ondas oceânicas e seu potencial energético: caracterização, estimativas e avaliação, dispositivos para conversão. Forças geradoras de marés. Maré astronômica e meteorológica. Energia das marés e dispositivos para conversão."
+    },
+    {
+      "id": "EES7479",
+      "code": "EES7479",
+      "name": "Gestão de Eficiência Energética (EXT 18h-",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Princípios e ferramentas da Gestão da Qualidade, Sistemas de Gestão da Qualidade e Certificações, Gestão de Energia: motivações, objetivos, barreiras. Norma ISO 50001 - Sistema de Gestão de Energia."
+    },
+    {
+      "id": "EES7480",
+      "code": "EES7480",
+      "name": "Planejamento Energético",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "a) Atores responsáveis pelo planejamento energético. Planejamento e Políticas Energéticas. Metodologias de Planejamento. Balanço Energético. Plano Nacional de Energia. Prospecção de Matriz Energética. Plano Nacional de Eficiência Energética. Políticas para Inclusão de Fontes Renováveis.",
+      "extensionHours": 18
+    },
+    {
+      "id": "FQM7106",
+      "code": "FQM7106",
+      "name": "Cálculo IV",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7105"
+      },
+      "syllabus": "Números complexos. Equações diferenciais de primeira ordem. Equações lineares de segunda ordem. Soluções em série para EDO´s de segunda ordem (funções de Bessel). Transformada de Laplace. Transformada de Fourier. Séries de Fourier. Equações diferenciais parciais."
+    },
+    {
+      "id": "FQM7112",
+      "code": "FQM7112",
+      "name": "Física C",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7102",
+        "FQM7110"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7102"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7110"
+          }
+        ]
+      },
+      "syllabus": "Carga elétrica. Lei de Coulomb. Campo elétrico. Lei de Gauss. Potencial. Capacitores. Corrente elétrica. Força eletromotriz e circuitos. Campo magnético. Lei de Ampére. Lei de Faraday. Indutância. Propriedades magnéticas da matéria."
+    },
+    {
+      "id": "DEC7142",
+      "code": "DEC7142",
+      "name": "Cálculo Numérico em Computadores",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7443",
+        "FQM7104",
+        "FQM7106"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEC7443"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7104"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7106"
+          }
+        ]
+      },
+      "syllabus": "Sistemas de numeração e erros numéricos. Resolução de equações não lineares transcendentais e polinomiais. Resolução de Sistemas Lineares e não lineares. Aproximações de funções por séries. Ajuste de curvas a dados experimentais. Integração numérica. Resolução numérica de equações e sistemas de equações diferenciais ordinárias."
+    },
+    {
+      "id": "EES7170",
+      "code": "EES7170",
+      "name": "Circuitos Elétricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7106",
+        "FQM7112"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7106"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7112"
+          }
+        ]
+      },
+      "syllabus": "Conceitos básicos. Leis fundamentais. Métodos de análise e teoremas para circuitos de corrente contínua e alternada. Fasores. Resistores, capacitores e indutores. Circuitos de primeira e segunda ordem. Análise em regime permanente senoidal. Potência em corrente alternada. Circuitos trifásicos."
+    },
+    {
+      "id": "EES7353",
+      "code": "EES7353",
+      "name": "Mecânica dos Fluidos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7350",
+        "FQM7106",
+        "FQM7436"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7350"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7106"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7436"
+          }
+        ]
+      },
+      "syllabus": "Propriedades dos Fluidos, Estática dos Fluidos; Formulações Integral e Diferencial de Leis de Conservação, Escoamentos Incompressíveis: Invíscido e Viscoso, Interno e Externo, Análise Dimensional e Semelhança. Máquinas de Fluxo."
+    },
+    {
+      "id": "EES7366",
+      "code": "EES7366",
+      "name": "Termodinâmica II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7350",
+        "FQM7113"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7350"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7113"
+          }
+        ]
+      },
+      "syllabus": "Ciclos de potência e refrigeração. Cogeração. Misturas de gases. Termodinâmica das reações químicas."
+    },
+    {
+      "id": "EES7367",
+      "code": "EES7367",
+      "name": "Teoria Eletromagnética",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7106",
+        "FQM7112"
+      ],
+      "equivalents": [
+        "EES7373"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7106"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7112"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EES7373"
+      },
+      "syllabus": "Equações de Maxwell. Ondas planas uniformes. Propagação. Polarização. Reflexão. Vetor de Poynting. Ondas estacionárias."
+    },
+    {
+      "id": "EES7440",
+      "code": "EES7440",
+      "name": "Produção de Biocombustíveis e Coprodutos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7330",
+        "EES7350"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7330"
+          },
+          {
+            "kind": "course",
+            "code": "EES7350"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Panoramas mundial e brasileiro em biocombustíveis. Matérias-primas para biocombustíveis. Processos e tecnologias de produção de biocombustíveis. Aproveitamento de coprodutos e resíduos. Biorrefinarias.",
+      "extensionHours": 18
+    },
+    {
+      "id": "FQM7335",
+      "code": "FQM7335",
+      "name": "Laboratório de Física",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FQM7111",
+        "FQM7112"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FQM7111"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7112"
+          }
+        ]
+      },
+      "syllabus": "Algarismos significativos; Teoria de erros; Propagação de erros; Instrumentos de medidas; Gráficos - construção e interpretação via software; Experimentos em Mecânica, Ondas, Termodinâmica, Eletricidade, Magnetismo e Óptica. Experimentos com vídeo análise."
+    },
+    {
+      "id": "EES7354",
+      "code": "EES7354",
+      "name": "Transferência de Calor e Massa I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7350",
+        "FQM7106"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7350"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7106"
+          }
+        ]
+      },
+      "syllabus": "Condução térmica: condução unidimensional em regime permanente, condução com geração interna de calor, condução bidimensional, condução em regime transiente. Fundamentos da radiação térmica. Fator de forma. Transferência de calor por radiação entre superfícies. Introdução à difusão de massa."
+    },
+    {
+      "id": "EES7371",
+      "code": "EES7371",
+      "name": "Conversão Eletromecânica de Energia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7170"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7170"
+      },
+      "syllabus": "Transformadores monofásicos e trifásicos. Autotransformadores. Potência, torque e rendimento de máquinas elétricas. Motores e geradores de corrente contínua. Campo magnético girante. Motores e geradores síncronos trifásicos. Motores e geradores de indução trifásicos. Motores monofásicos. Métodos de partida das máquinas elétricas."
+    },
+    {
+      "id": "EES7374",
+      "code": "EES7374",
+      "name": "Fundamentos de Controle",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7142",
+        "EES7170"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEC7142"
+          },
+          {
+            "kind": "course",
+            "code": "EES7170"
+          }
+        ]
+      },
+      "syllabus": "Definição de sistemas de controle. Modelagem matemática de sistemas. Função de transferência. Resposta dinâmica de sistemas lineares. Análise de sistemas por diagramas de blocos. Estabilidade. Erros em Regime Permanente. Lugar Geométrico das Raízes. Resposta em frequência. Critério de estabilidade de Nyquist. Projetos de sistemas de controle com realimentação."
+    },
+    {
+      "id": "EES7470",
+      "code": "EES7470",
+      "name": "Energia Eólica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7350"
+      ],
+      "equivalents": [
+        "EES7370"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7350"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EES7370"
+      },
+      "syllabus": "Introdução à atmosfera: suas características físico-químicas e estrutura. Balanço de Calor. Gradientes de pressão, temperatura e umidade. Circulação atmosférica e suas forçantes. Ventos locais, camada limite planetária, perfil eólico na camada limite. O vento como recurso energético. Coleta e análise de dados ambientais. Estimativa e avaliação do recurso e potencial eólico."
+    },
+    {
+      "id": "EES7472",
+      "code": "EES7472",
+      "name": "Transmissão e Distribuição de Energia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7367"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7367"
+      },
+      "syllabus": "Conceitos de sistemas elétricos de potência. Representação dos sistemas de potência. Estudo de carga. Estudo de modelos, cálculo de parâmetros e operação das linhas de transmissão. Relações entre tensão e corrente numa linha de transmissão. Subestações. Planejamento da expansão e da operação. Fatores típicos de carga. Cálculo de curto-circuito. Qualidade do serviço em sistemas de transmissão e distribuição. Aspectos tecnológicos de sistemas de distribuição."
+    },
+    {
+      "id": "EES7481",
+      "code": "EES7481",
+      "name": "Recursos Hídricos e Aproveitamentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7353"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7353"
+      },
+      "syllabus": "(EXT18h-a) Fundamentos de hidrologia. Estudo do ciclo hidrológico, análise dos principais processos. Estudo de bacia hidrográfica. Análise de precipitação. Escoamento superficial e subterrâneo. Disponibilidade hídrica. Legislação e gestão de recursos hídricos. Estudo do potencial de aproveitamento de energia hidrelétrica de bacias hidrográficas."
+    },
+    {
+      "id": "EES7355",
+      "code": "EES7355",
+      "name": "Transferência de Calor e Massa II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7353",
+        "EES7354"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7353"
+          },
+          {
+            "kind": "course",
+            "code": "EES7354"
+          }
+        ]
+      },
+      "syllabus": "Introdução à convecção. Conceitos e soluções para a camada limite sobre superfícies planas. Convecção forçada em escoamentos externos. Convecção forçada em escoamentos internos. Convecção natural. Convecção com mudança de fase. Trocadores de calor. Transferência convectiva de massa."
+    },
+    {
+      "id": "EES7378",
+      "code": "EES7378",
+      "name": "Eletrônica de Potência",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7170"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7170"
+      },
+      "syllabus": "Dispositivos semicondutores de potência. Retificadores não controlados e controlados. Inversores. Geradores e controle de potência. Conversores estáticos para acionamento de máquinas elétricas."
+    },
+    {
+      "id": "EES7395",
+      "code": "EES7395",
+      "name": "Análise de Sistemas Elétricos de Potência",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7170",
+        "EES7472"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7170"
+          },
+          {
+            "kind": "course",
+            "code": "EES7472"
+          }
+        ]
+      },
+      "syllabus": "Características gerais do Setor Elétrico brasileiro. Princípios de sistemas de geração, transmissão e distribuição de energia elétrica. Análise de fluxo de carga. Despacho econômico dos sistemas elétricos de potência. Operação de Sistemas de transmissão e distribuição de energia elétrica. Faltas trifásicas simétricas. Componentes simétricos. Faltas trifásicas assimétricas. Estabilidade de sistemas de potência."
+    },
+    {
+      "id": "EES7396",
+      "code": "EES7396",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2916
+      },
+      "prerequisiteHours": 2916,
+      "syllabus": "Metodologia científica. Elaboração de um pré-projeto de trabalho de conclusão de curso, dentro de uma abordagem multidisciplinar com foco na área de energia."
+    },
+    {
+      "id": "EES7406",
+      "code": "EES7406",
+      "name": "Conversão Térmica dos Sólidos (EXT 18h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7354"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7354"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Panoramas mundial e brasileiro em fósseis, biomassa e resíduos. Caracterização de sólidos como combustíveis. Processos de conversão térmica de sólidos: pirólise, gaseificação e combustão. Aplicação dos produtos da conversão térmica."
+    },
+    {
+      "id": "EES7471",
+      "code": "EES7471",
+      "name": "Setor Energético Meio Ambiente",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EES7397"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2916
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EES7397"
+      },
+      "prerequisiteHours": 2916,
+      "syllabus": "a) EES7366 eh Impactos ambientais do setor energético. Legislação ambiental do setor energético. Tecnologias para prevenção, remoção e/ou atenuação de poluentes do setor energético."
+    },
+    {
+      "id": "EES7483",
+      "code": "EES7483",
+      "name": "Instalações Elétricas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7170"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7170"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Fornecimento de energia elétrica em tensão primária e secundária de distribuição. Desenho técnico de instalações elétricas. Dimensionamento de condutores. Equipamentos de acionamento e proteção. Iluminação predial e industrial. Correção de fator de potência. Sistemas de aterramento e proteção contra descargas atmosféricas. Subestações abaixadoras de tensão. Eficiência energética em instalações elétricas. Prevenção e combate a incêndio e a desastres.",
+      "extensionHours": 36
+    },
+    {
+      "id": "EES7384",
+      "code": "EES7384",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7396"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7396"
+      },
+      "syllabus": "Elaboração de projeto de trabalho de conclusão de curso, dentro de uma abordagem multidisciplinar com foco na área de energia."
+    },
+    {
+      "id": "EES7385",
+      "code": "EES7385",
+      "name": "Sistemas Térmicos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DEC7142",
+        "EES7355",
+        "EES7366"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DEC7142"
+          },
+          {
+            "kind": "course",
+            "code": "EES7355"
+          },
+          {
+            "kind": "course",
+            "code": "EES7366"
+          }
+        ]
+      },
+      "syllabus": "Geração e distribuição de vapor. Equipamentos para refrigeração e ar condicionado. Modelagem, simulação e otimização de sistemas térmicos."
+    },
+    {
+      "id": "EES7404",
+      "code": "EES7404",
+      "name": "Energia Solar Fotovoltaica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7170"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7170"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Panorama da energia solar fotovoltaica no Brasil e no Mundo. Fundamentos e conceitos de radiação solar. Semicondutores e efeito fotovoltaico. Células e módulos fotovoltaicos. Componentes e dimensionamento de sistemas fotovoltaicos conectados à rede. Geração distribuída com sistemas fotovoltaicos. Sistemas de rastreamento solar. Dimensionamento de usinas fotovoltaicas. Componentes e dimensionamento de sistemas fotovoltaicos autônomos. Projeto e análise de viabilidade econômica de sistemas fotovoltaicos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EES7482",
+      "code": "EES7482",
+      "name": "Refrigeração e Condicionamento de Ar",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7355",
+        "EES7366"
+      ],
+      "equivalents": [
+        "EES7382"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7355"
+          },
+          {
+            "kind": "course",
+            "code": "EES7366"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EES7382"
+      },
+      "syllabus": "Ciclos básicos e avançados de refrigeração e bombas de calor por compressão mecânica e térmica. Introdução ao estudo das cargas térmicas. Psicrometria, resfriamento evaporativo e sistemas dessecantes"
+    },
+    {
+      "id": "EES7486",
+      "code": "EES7486",
+      "name": "Empreendedorismo em Engenharia de Energia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2592
+      },
+      "prerequisiteHours": 2592,
+      "syllabus": "Empreendedorismo: conceitos e definições. Startup: princípios e conceitos. Startups na área de Energia. Plano de Negócio: sumário executivo, análise do mercado, plano de marketing, plano operacional, plano financeiro, avaliação estratégica.",
+      "extensionHours": 36
+    },
+    {
+      "id": "EES7603",
+      "code": "EES7603",
+      "name": "Hidrogênio e Células Combustíveis",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7406"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7406"
+          },
+          {
+            "kind": "hours",
+            "hours": 7603
+          }
+        ]
+      },
+      "prerequisiteHours": 7603,
+      "syllabus": "Princípios de funcionamento e desempenho de células combustíveis. Tipos de células de combustíveis. Materiais e técnicas de caracterização. Aplicações. Modelagem matemática. Produção, armazenamento e transporte de hidrogênio."
+    },
+    {
+      "id": "EES7605",
+      "code": "EES7605",
+      "name": "Mercado de Energia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EES7472"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7472"
+      },
+      "syllabus": "Modelo regulatório do Setor Elétrico Brasileiro. Agentes do mercado de energia Elétrica. Conceitos de segurança energética. Comercialização de energia. Ambientes de contratação de energia."
+    },
+    {
+      "id": "EES7399",
+      "code": "EES7399",
+      "name": "Estágio Profissional",
+      "credits": 18,
+      "hours": 324,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EES7393"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3024
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EES7393"
+      },
+      "prerequisiteHours": 3024,
+      "syllabus": "Estágio realizado em áreas afins do Curso de Graduação em Engenharia de Energia e de acordo com legislação específica. Constitui disciplina cuja carga horária será requisito para aprovação e obtenção do diploma."
+    },
+    {
+      "id": "CIT7226",
+      "code": "CIT7226",
+      "name": "Plano de Negócios",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7226"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2592
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7226"
+      },
+      "prerequisiteHours": 2592,
+      "syllabus": "Rol de Disciplinas Optativas Conceito de Plano de Negócios. Benefícios. Aplicações. Estrutura. Sumário executivo. Descrição da empresa e características do empreendimento. Funções fundamentais do negócio. Planejamento estratégico. Análise do mercado e fatores de competitividade. Produtos e serviços. Estratégicas competitivas. Marketing. Gestão e estrutura organizacional. Plano operacional. Plano financeiro de custeio e de investimentos. Fontes de financiamento."
+    },
+    {
+      "id": "CIT7590",
+      "code": "CIT7590",
+      "name": "Ciências, Tecnologia e Sociedade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estudo das relações entre ciência, tecnologia e sociedade ao longo da história, com ênfase na atualidade; filosofia da ciência; análise de valores e ideologias envolvendo a produção e divulgação da ciência e da tecnologia; influências das diferenças culturais, ou diferenças etnológicas, nas concepções de ciência e tecnologia e de suas relações com as sociedades; a participação da sociedade na definição de políticas relativas às questões científicas, tecnológicas, econômicas e ecológicas. O impacto da informática na sociedade. Clima e Projetos de Mecanismos de Desenvolvimento Limpo."
+    },
+    {
+      "id": "CIT7594",
+      "code": "CIT7594",
+      "name": "Relações Interétnicas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Multiculturalismo. Temas de História e cultura Afro-Brasileira e indígena. Grupos étnicos. Processos sócio-culturais de construção de identidade étnicas. Etnicidades e questões raciais, acomodações e conflitos. Sociedades pluriétnicas, cultura e política. Tecnologia e Multiculturalismo. Tecnologia e Relações Interétnicas. Redes Sociais e Multiculturalismo."
+    },
+    {
+      "id": "DEC7133",
+      "code": "DEC7133",
+      "name": "Inteligência Artificial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução e histórico. Teoria de problemas e sua resolução. Paradigmas da IA. Modelagem de Agentes Inteligentes. Métodos de busca. Representação e aquisição de Conhecimento. Métodos de raciocínio. Tratamento de incertezas. Sistemas especialistas. Fundamentos de: lógica nebulosa, redes neurais artificiais e algoritmos genéticos."
+    },
+    {
+      "id": "DEC7523",
+      "code": "DEC7523",
+      "name": "Modelagem e Simulação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7523"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2592
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7523"
+      },
+      "prerequisiteHours": 2592,
+      "syllabus": "Introdução à simulação. Propriedades e classificação dos modelos de simulação. Geração de números aleatórios. Geração e teste. Simulação de sistemas discretos. Verificação e validação de modelos. Técnicas estatísticas para análise de dados e de resultados de modelos de simulação. Modelagem e Simulação de sistemas de computação. Avaliação de desempenho de sistemas."
+    },
+    {
+      "id": "DEC7546",
+      "code": "DEC7546",
+      "name": "Circuitos Digitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EES7170"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7170"
+      },
+      "syllabus": "Sistemas Numéricos. Álgebra de Boole (teoremas). Portas lógicas. Circuitos combinacionais. Técnicas de minimização de hardware. Implementação de dispositivos elementares de memória (latchs e flip-flops). Circuitos Sequenciais. Implementação de módulos básicos. Ambiente de simulação."
+    },
+    {
+      "id": "DEC7547",
+      "code": "DEC7547",
+      "name": "Laboratórios de Circuitos Elétricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EES7378"
+      ],
+      "equivalents": [
+        "ARA7547"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7378"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7547"
+      },
+      "syllabus": "Desenvolvimento de atividades práticas que permitam explorar os fundamentos, conceitos e técnicas relativas em circuitos elétricos e eletrônicos."
+    },
+    {
+      "id": "DEC7549",
+      "code": "DEC7549",
+      "name": "Laboratório de Circuitos Digitais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DEC7546"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DEC7546"
+      },
+      "syllabus": "Desenvolvimento de atividades práticas que permitam explorar os fundamentos, conceitos e técnicas relativas em circuitos digitais."
+    },
+    {
+      "id": "EES7001",
+      "code": "EES7001",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7001"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7001"
+      },
+      "syllabus": "Disciplina optativa; com base na Resolução nº 007/CuN/99."
+    },
+    {
+      "id": "EES7002",
+      "code": "EES7002",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "EES7001"
+      ],
+      "equivalents": [
+        "ARA7002"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7001"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7002"
+      },
+      "syllabus": "Disciplina optativa; com base na Resolução nº 007/CuN/99."
+    },
+    {
+      "id": "EES7007",
+      "code": "EES7007",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7007"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7007"
+      },
+      "syllabus": "Disciplina optativa; com base na Resolução nº 007/CuN/99."
+    },
+    {
+      "id": "EES7037",
+      "code": "EES7037",
+      "name": "Estágio Não Obrigatório",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7037"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 432
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7037"
+      },
+      "prerequisiteHours": 432,
+      "syllabus": "O estágio não obrigatório constitui atividade complementar à formação acadêmico-profissional do aluno, acrescida à carga horária regular e obrigatória."
+    },
+    {
+      "id": "EES7040",
+      "code": "EES7040",
+      "name": "Programa de Intercâmbio IV",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina optativa; com base na Resolução nº 007/CuN/99."
+    },
+    {
+      "id": "EES7338",
+      "code": "EES7338",
+      "name": "Bioenergia e Sustentabilidade",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7338"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2592
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7338"
+      },
+      "prerequisiteHours": 2592,
+      "syllabus": "Produtos, matérias-primas, coprodutos e subprodutos da bioenergia. Impactos sociais, econômicos e ambientais no nível local, nacional e global. Desafios atuais e emergentes para o desenvolvimento de bioenergia. Informações sobre a produção, colheita, agregação e armazenamento de culturas de bioenergia adequadas para determinadas regiões, melhores práticas de gestão para proteger o solo, a água e a vida selvagem."
+    },
+    {
+      "id": "EES7398",
+      "code": "EES7398",
+      "name": "Saúde e Segurança no Trabalho",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "ARA7147"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2592
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7147"
+      },
+      "prerequisiteHours": 2592,
+      "syllabus": "Ambiente de trabalho e riscos inerentes ao trabalho. Medidas para prevenção de acidentes do trabalho. Legislação básica sobre saúde e segurança no trabalho. Normas Regulamentadoras aplicáveis à área da Engenharia de Energia."
+    },
+    {
+      "id": "EES7487",
+      "code": "EES7487",
+      "name": "Energia Térmica na Edificação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "EES7387"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EES7387"
+      },
+      "syllabus": "Bioclimatologia. Conforto térmico. Desempenho térmico de edificações. Programas de regulamentação para etiquetagem de edifícios residenciais e comerciais. Prevenção e combate a incêndio e a desastres."
+    },
+    {
+      "id": "EES7601",
+      "code": "EES7601",
+      "name": "Energia Eólica II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EES7371"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7371"
+      },
+      "syllabus": "Panorama da Energia Eólica no Brasil e no Mundo. Fundamentos e Características de Turbinas Eólicas. Tecnologias de Aerogeradores. Dimensionamento de Sistemas Eólicos Conectados à Rede. Geração Distribuída com Sistemas Eólicos. Dimensionamento de Sistemas Eólicos Isolados. Sistemas Eólicos Marinhos. Projeto e Análise de Viabilidade Econômica de Parques Eólicos."
+    },
+    {
+      "id": "EES7602",
+      "code": "EES7602",
+      "name": "Energia Solar Térmica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EES7355"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7355"
+      },
+      "syllabus": "Panorama da Energia Solar Térmica no Brasil e no Mundo. Propriedades Ópticas de Superfícies. Coletores Solares para Aquecimento de Água. Dimensionamento de Sistemas de Aquecimento Solar de Água. Coletores Concentradores. Sistemas Termossolares. Aplicações Passivas da Energia Solar Térmica."
+    },
+    {
+      "id": "EES7604",
+      "code": "EES7604",
+      "name": "Fundamentos de Engenharia de Petróleo e Gás",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EES7355"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7355"
+      },
+      "syllabus": "Formação de petróleo. Reservas mundiais. Petrofísica. Características gerais do petróleo e do gás natural. Exploração e transporte. Métodos de elevação e separação. Tecnologias de refino. Uso da energia do gás natural e derivados de petróleo."
+    },
+    {
+      "id": "EES7606",
+      "code": "EES7606",
+      "name": "Qualidade da Energia Elétrica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Qualidade de energia e procedimentos de distribuição de energia elétrica. Indicadores de qualidade do serviço de distribuição de energia. Desequilíbrio de tensão. Flutuação de tensão. Variação de tensão de curta duração. Variação de frequência. Fator de potência. Distorção harmônica. Mitigação de problemas."
+    },
+    {
+      "id": "EES7607",
+      "code": "EES7607",
+      "name": "Acionamentos Elétricos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Equipamentos básicos de quadros de comando. Diagramas de comando. Acionamento e proteção de cargas elétricas: motores, bancos de capacitores e sistemas de iluminação."
+    },
+    {
+      "id": "EES7608",
+      "code": "EES7608",
+      "name": "Automação Industrial",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos de lógica combinacional e sequencial. Máquinas de estados. Sensores e atuadores industriais. Controladores lógicos programáveis. Linguagens de programação de controladores industriais. Aplicações de automação em sistemas de energia."
+    },
+    {
+      "id": "EES7609",
+      "code": "EES7609",
+      "name": "Análise Exergética",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Irreversibilidade, disponilibidade e exergia. Análise exergética aplicada a sistemas e a volumes de controles. Análise exergética nas reações químicas."
+    },
+    {
+      "id": "EES7610",
+      "code": "EES7610",
+      "name": "Tópicos Especiais em Energia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2592
+      },
+      "prerequisiteHours": 2592,
+      "syllabus": "Serão abordados temas relacionados com as seguintes áreas da engenharia de energia: geração, conversão, utilização, tratamento ou minimização dos resíduos, gestão e gerenciamento."
+    },
+    {
+      "id": "EES7611",
+      "code": "EES7611",
+      "name": "Tópicos Avançados em Energia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Serão abordados temas relacionados com as seguintes áreas da engenharia de energia: geração, conversão, utilização, tratamento ou minimização dos resíduos, gestão e gerenciamento."
+    },
+    {
+      "id": "EES7710",
+      "code": "EES7710",
+      "name": "Engenharia de Energia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Serão abordados temas relacionados com as seguintes áreas da engenharia de energia: geração, conversão, utilização, tratamento ou minimização dos resíduos, gestão e gerenciamentos."
+    },
+    {
+      "id": "FQM7114",
+      "code": "FQM7114",
+      "name": "Física D",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FQM7112"
+      ],
+      "equivalents": [
+        "ARA7114"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FQM7112"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ARA7114"
+      },
+      "syllabus": "Relatividade; Fótons, elétrons e átomos; Natureza Ondulatória das Partículas; Mecânica Quântica; Estrutura Atômica; Moléculas e Matéria Condensada; Física Nuclear e de Partículas."
+    },
+    {
+      "id": "FQM7605",
+      "code": "FQM7605",
+      "name": "Energia Nuclear",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EES7350",
+        "FQM7112"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7350"
+          },
+          {
+            "kind": "course",
+            "code": "FQM7112"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Física Nuclear; Radioatividade; Processos nucleares e Física de Nêutrons; Interação da radiação com a matéria; Fissão nuclear; Fusão nuclear, Reações de nêutrons em cadeia; Reatores e centrais nucleares ;Combustível e rejeitos nucleares."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7904"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7904"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "EES7005",
+      "code": "EES7005",
+      "name": "Atividades Complementares: Engenharia",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EES7004"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EES7004"
+      },
+      "syllabus": "18h-a) Rol de Atividades Complementares Código de disciplina a ser utilizado para validação de atividades complementares para efeito de integralização curricular, de acordo com normas estabelecidas pelo Colegiado do Curso no Regulamento de Atividades Complementares do curso de Engenharia de Energia."
+    },
+    {
+      "id": "EES7020",
+      "code": "EES7020",
+      "name": "Atividades de Extensão",
+      "credits": 12,
+      "hours": 216,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 216
+      },
+      "prerequisiteHours": 216,
+      "syllabus": "Para registro de atividades de extensão em ações de Extensão (Projetos/Cursos e Eventos).",
+      "extensionHours": 216
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "CIT7122",
+      "EES7361",
+      "EES7460",
+      "FQM7001",
+      "FQM7103",
+      "FQM7113",
+      "EES7114",
+      "EES7364",
+      "FQM7101",
+      "FQM7331",
+      "FQM7334",
+      "EES7115",
+      "EES7365",
+      "EES7369",
+      "FQM7102",
+      "FQM7104",
+      "FQM7110",
+      "DEC7443",
+      "EES7330",
+      "FQM7105",
+      "FQM7107",
+      "FQM7111",
+      "FQM7436",
+      "CIT7146",
+      "EES7350",
+      "EES7368",
+      "EES7479",
+      "EES7480",
+      "FQM7106",
+      "FQM7112",
+      "DEC7142",
+      "EES7170",
+      "EES7353",
+      "EES7366",
+      "EES7367",
+      "EES7440",
+      "FQM7335",
+      "EES7354",
+      "EES7371",
+      "EES7374",
+      "EES7470",
+      "EES7472",
+      "EES7481",
+      "EES7355",
+      "EES7378",
+      "EES7395",
+      "EES7396",
+      "EES7406",
+      "EES7471",
+      "EES7483",
+      "EES7384",
+      "EES7385",
+      "EES7404",
+      "EES7482",
+      "EES7486",
+      "EES7603",
+      "EES7605",
+      "EES7399",
+      "EES7005",
+      "EES7020"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 108,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CIT7226",
+              "CIT7590",
+              "CIT7594",
+              "DEC7133",
+              "DEC7523",
+              "DEC7546",
+              "DEC7547",
+              "DEC7549",
+              "EES7001",
+              "EES7002",
+              "EES7007",
+              "EES7037",
+              "EES7040",
+              "EES7338",
+              "EES7398",
+              "EES7487",
+              "EES7601",
+              "EES7602",
+              "EES7604",
+              "EES7606",
+              "EES7607",
+              "EES7608",
+              "EES7609",
+              "EES7610",
+              "EES7611",
+              "EES7710",
+              "FQM7114",
+              "FQM7605",
+              "LSB7244"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 108
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "653",
+    "curriculumCode": "20251",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=653&curriculo=20251",
+    "sha256": "b8d03eb351c90cb93550b296bfd3a89085ec1909eab42aa8468f27bae7fd1783",
+    "capturedAt": "2026-09-22"
+  }
+}

@@ -2,7 +2,6 @@ import { execFile } from "node:child_process";
 import { createHash } from "node:crypto";
 import { readFile, stat, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
-import { promisify } from "node:path/posix";
 import { promisify as utilPromisify } from "node:util";
 
 const execFileAsync = utilPromisify(execFile);

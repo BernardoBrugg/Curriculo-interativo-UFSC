@@ -1,0 +1,2572 @@
+{
+  "program": "ZOOTECNIA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2024.1",
+  "totalHours": 4338,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "ENR7501",
+      "code": "ENR7501",
+      "name": "Fundamentos em Ciência do Solo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções de mineralogia, gênese e morfologia do solo. Distribuição litológica regional; fatores e processos pedogenéticos; perfil do solo e descrição. Composição do solo. Propriedades das fases sólida, liquida e gasosa, processos dinâmicos, noções de mecânica do solo. Sistemas de classificação de solos, natural e interpretativa (SC)."
+    },
+    {
+      "id": "MTM3180",
+      "code": "MTM3180",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3100",
+        "MTM7301"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3100"
+          },
+          {
+            "kind": "course",
+            "code": "MTM7301"
+          }
+        ]
+      },
+      "syllabus": "-Aritmética básica; cálculo com expressões algébricas; geometria elementar; equações; funções."
+    },
+    {
+      "id": "QMC5301",
+      "code": "QMC5301",
+      "name": "Química Geral e Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos sobre cinética e equilíbrio químico, importância bioquímica do pH e escala ácido-base, hidrólise de sais e solução-tampão. Análises: gravimétrica, volumétrica, potenciométrica e espectrofotométrica."
+    },
+    {
+      "id": "ZOT7801",
+      "code": "ZOT7801",
+      "name": "Introdução à Zootecnia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "O profissional de Zootecnia: Perfil, capacitações, código de ética e estrutura do curso. Glossário de termos zootécnicos. Origem e dinâmica da domesticação dos animais. Origem e evolução da Zootecnia. Espécies domésticas de interesse zootécnico. Espécies silvestres de interesse zootécnico."
+    },
+    {
+      "id": "ZOT7802",
+      "code": "ZOT7802",
+      "name": "Práticas Zootécnicas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos e princípios em sustentabilidade agropastoril. Práticas sobre identificação, contenção e pesagem de animais de pequeno e grande porte. Coleta, embalagem e expedição de alimentos e material biológico para análise. Aplicação de medicamentos. Direitos dos animais."
+    },
+    {
+      "id": "ZOT7910",
+      "code": "ZOT7910",
+      "name": "Anatomia Animal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Anatomia geral do aparelho locomotor, dos sistemas: circulatório, respiratório, urugenital, tegumentar, neuroendócrino com ênfase no sistema digestivo de monogástricos e poligástricos."
+    },
+    {
+      "id": "ENR7306",
+      "code": "ENR7306",
+      "name": "Topografia Básica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos fundamentais. Levantamentos topográficos por caminhamento, irradiação interseção, e coordenadas. Nivelamento trigonométrico e geométrico. Elementos de Taqueometria, topologia e batimetria. Desenho topográfico. Elementos de Sistemas de posicionamento Global."
+    },
+    {
+      "id": "EXR7601",
+      "code": "EXR7601",
+      "name": "Introdução ao Desenvolvimento Rural",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Concepção sistêmica da realidade. Evolução da agropecuária e desenvolvimento econômico no Brasil. Planejamento e interdisciplinaridade. Sistemas de produção diversificados e integrados. Critérios e indicadores de sustentabilidade."
+    },
+    {
+      "id": "FSC7118",
+      "code": "FSC7118",
+      "name": "Física para Ciências Agrárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC5061",
+        "FSC5064",
+        "FSC5071",
+        "FSC7303"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5061"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5064"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5071"
+          },
+          {
+            "kind": "course",
+            "code": "FSC7303"
+          }
+        ]
+      },
+      "syllabus": "Sustentável Medidas Físicas. Vetores.Noções de Mecância.Mecânica dos Fluídos.Fenômenos térmicos. Tópicos de Eletricidade"
+    },
+    {
+      "id": "ZOT7100",
+      "code": "ZOT7100",
+      "name": "Morfofisiologia na Zootecnia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7801",
+        "ZOT7802"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7801"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7802"
+          }
+        ]
+      },
+      "syllabus": "A célula animal (morfologia e fisiologia), ultra-estrutura celular, divisão celular (mitose e meiose), tecido epitelial, tecido conjuntivo, tecido adiposo, tecido nervoso, tecido ósseo, tecido muscular e sanguíneo."
+    },
+    {
+      "id": "ZOT7501",
+      "code": "ZOT7501",
+      "name": "Forragicultura I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ZOT7503"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7503"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Estrutura das forrageiras: meristemas, parênquima, colênquima, esclerênquima, epiderme, xilema. Estruturas: flor, fruto, semente, embrião. Raiz, caule, folha. Relações hídricas nas células e tecidos. Absorção de água. Transpiração e gutação. Fotossíntese e fotorespiração. Nutrição mineral. Translocação orgânica e inorgânica. Crescimento vegetal: reguladores, juvenilidade, maturidade e senescência. Floração e fotoperiodismo. Frutificação, germinação e dormência.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ENR7506",
+      "code": "ENR7506",
+      "name": "Fertilidade do Solo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR7501"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR7501"
+      },
+      "syllabus": "Diversidade e ecologia da microbiota e da mesofauna do solo. Interação entre biota e propriedades do solo. Suprimento e absorção de nutrientes. Princípios da avaliação da fertilidade do solo e da recomendação de adubação."
+    },
+    {
+      "id": "ZOT7101",
+      "code": "ZOT7101",
+      "name": "Etologia Aplicada à Zootecnia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico e definição da Etologia Aplicada. Fundamento do comportamento animal. Evolução do comportamento e domesticação. Métodos de observação do comportamento. Comportamento social. Comportamento sexual e reprodutivo. Territoriedade. Estresse e estereótipo. Comportamento das espécies zootécnicas."
+    },
+    {
+      "id": "ZOT7502",
+      "code": "ZOT7502",
+      "name": "Análise e Avaliação dos Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5301"
+      ],
+      "equivalents": [
+        "ZOT7703"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5301"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7703"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Práticas de técnicas laboratoriais e análise bromatológica dos alimentos concentrados e volumosos. Análises físico-químicas e legislação para controle de qualidade de alimentos e de rações. Amostragem: identificação, manipulação, representatividade, análises macroscópicas e microscópicas dos ingredientes usados na alimentação animal.",
+      "extensionHours": 36
+    },
+    {
+      "id": "ZOT7700",
+      "code": "ZOT7700",
+      "name": "Bioquímica para a Produção Animal",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5301"
+      ],
+      "equivalents": [
+        "BQA5121",
+        "ZOT7702"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5301"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA5121"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7702"
+          }
+        ]
+      },
+      "syllabus": "Soluções aquosas, pH e sistema tampão. Química, bioquímica e importância biológica de aminoácidos, proteínas, carboidratos e lipídeos. Enzimas: características, cinética e regulação. Vias metabólicas primárias, interações e regulação do metabolismo."
+    },
+    {
+      "id": "ZOT7701",
+      "code": "ZOT7701",
+      "name": "Princípios de Ciências Exatas na Produção",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3180"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3180"
+      },
+      "syllabus": "Análise de regressão e correlação, sistemas lineares, cálculo matricial, limite, derivada e integrais aplicados à Zootecnia."
+    },
+    {
+      "id": "ZOT7904",
+      "code": "ZOT7904",
+      "name": "Genética Aplicada a Zootecnia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7100"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7100"
+      },
+      "syllabus": "Animal Célula, mitose, meiose, herança gênica. Conceitos de ação gênica e mapeamento de cromossomos de procariotes e eucariotes. Genética qualitativa e quantitativa para aplicação em melhoramento animal. Ação gênica e freqüência gênica. Progressos genéticos nas ciências agrárias."
+    },
+    {
+      "id": "ZOT7911",
+      "code": "ZOT7911",
+      "name": "Fisiologia Animal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7100"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7100"
+      },
+      "syllabus": "- Fisiologia geral do aparelho locomotor, dos sistemas: circulatório, respiratório, urinário, tegumentar, neuroendócrino com ênfase no sistema digestivo de monogástricos e poligástricos."
+    },
+    {
+      "id": "EXR7605",
+      "code": "EXR7605",
+      "name": "Sócioeconomia Rural",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sistema econômico. Questão agrária brasileira contemporânea. Teoria microeconômica, teoria macroeconômica. Matemática financeira. Industrialização e crescimento."
+    },
+    {
+      "id": "ZOT7200",
+      "code": "ZOT7200",
+      "name": "Microbiologia e Imunologia Aplicada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7700"
+      ],
+      "equivalents": [
+        "ZOT7201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7700"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7201"
+      },
+      "syllabus": "Bactérias, fungos e vírus de importância em zootecnia. Identificação e isolamento desses microorganismos. Microbiologia da água, das rações, da silagem e da compostagem, do rúmen, produção de proteína microbiana, metanogênese. Imunidade nos animais: órgãos, resposta imune, anticorpos, antígenos, tipos de imunizações."
+    },
+    {
+      "id": "ZOT7300",
+      "code": "ZOT7300",
+      "name": "Estatística Básica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7701"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7701"
+      },
+      "syllabus": "Apresentação e resumo de dados. Probabilidade. Estimação de valores populacionais a partir de amostras. Formulação de hipótese. Análise de variabilidade. Regressão e Correlação entre variáveis"
+    },
+    {
+      "id": "ZOT7400",
+      "code": "ZOT7400",
+      "name": "Nutrição de Monogástricos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7502",
+        "ZOT7700",
+        "ZOT7911"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7502"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7700"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7911"
+          }
+        ]
+      },
+      "syllabus": "Digestão de monogástricos: produção de enzimas, utilização dos nutrientes, consumo, e digestibilidade dos alimentos, métodos para expressar o valor nutritivo exigência nutricional dos animais monogástricos para manutenção e produção."
+    },
+    {
+      "id": "ZOT7500",
+      "code": "ZOT7500",
+      "name": "Nutrição de Poligástricos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7502",
+        "ZOT7700",
+        "ZOT7911"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7502"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7700"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7911"
+          }
+        ]
+      },
+      "syllabus": "Desenvolvimento do trato digestivo. Composição do conteúdo ruminal. Ingestão e digestibilidade de alimentos. Utilização de Glicídios estruturais, nitrogênio protéico e não protéico. Exigências nutricionais para manutenção, crescimento e produção."
+    },
+    {
+      "id": "ZOT7921",
+      "code": "ZOT7921",
+      "name": "Anatomia e Fisiologia da Reprodução",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7911"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7911"
+      },
+      "syllabus": "Fisiologia da reprodução de machos e fêmeas das espécies de mamíferos e aves de interesse zootécnico. Fatores ambientais que interferem na reprodução, nascimento e sobrevivência de animais de interesse zootécnico. Fisiologia comparativa entre a reprodução de mamíferos e aves. Formação do ovo e desenvolvimento embrionário das aves."
+    },
+    {
+      "id": "ENR7404",
+      "code": "ENR7404",
+      "name": "Bioclimatologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7118"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7118"
+      },
+      "syllabus": "Elementos e fatores do clima: instrumentos e dispositivos de medição; temperatura do ar e do solo; umidade do ar; precipitação; vento; evaporação; evapotranspiração; o clima no desempenho animal; conforto animal e controle ambiental."
+    },
+    {
+      "id": "FIT7505",
+      "code": "FIT7505",
+      "name": "Tecnologia e Produção de Sementes",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7501"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7501"
+      },
+      "syllabus": "Importância da semente, reprodução das plantas e formação das sementes, desenvolvimento (maturação), composição química, germinação, dormência e vigor de sementes com ênfase em espécies forrageiras; Produção de sementes forrageiras e análise de sementes forrageiras."
+    },
+    {
+      "id": "ZOT7105",
+      "code": "ZOT7105",
+      "name": "Exterior e Julgamento de Animais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7802"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7802"
+      },
+      "syllabus": "Exterior dos animais: proporções, dimensões corporais e atributos raciais que integram as diferentes aptidões para leite, corte, pele, lã, ovos, trabalho, esporte, etc. Avaliação individual dos animais e julgamento comparativo em exposições nacionais e internacionais."
+    },
+    {
+      "id": "ZOT7106",
+      "code": "ZOT7106",
+      "name": "Ciência da Carne",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7100",
+        "ZOT7200"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7100"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7200"
+          }
+        ]
+      },
+      "syllabus": "Zootécnicos ZOT7904) Produção de carne: processos físicos químicos e microbiológicos. Fatores que interferem na qualidade da carne: genéticos, nutricionais, manejo e transporte dos animais, temperatura. Avaliação da carne: analise sensorial: cor, consistência, maciez, sabor. Processos para conservação da carne: resfriamento, congelamento."
+    },
+    {
+      "id": "ZOT7202",
+      "code": "ZOT7202",
+      "name": "Parasitologia Aplicada a Zootecnia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7200"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7200"
+      },
+      "syllabus": "Ecto e endoparasitas dos animais domésticos zootécnicos. Principais helmintos e protozoários parasitas de ruminantes e não ruminantes de interesse zootécnico. Acaras e insetos de importância na saúde animal."
+    },
+    {
+      "id": "ZOT7600",
+      "code": "ZOT7600",
+      "name": "Estágio Intermediário",
+      "credits": 6,
+      "hours": 108,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 900,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 900,
+      "syllabus": "Não se aplica"
+    },
+    {
+      "id": "ZOT7706",
+      "code": "ZOT7706",
+      "name": "Rações para Monogástricos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3180",
+        "ZOT7400"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3180"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7400"
+          }
+        ]
+      },
+      "syllabus": "Matérias primas: classificação, composição, função, proporção e limites de utilização em função da espécie. Micro ingredientes pré-misturados núcleos e aditivos. Controle de qualidade de matérias primas. Principais equipamentos e fases do processo de elaboração de rações. (fareladas e peletizadas) de uma fabrica de rações. Métodos de calculo de rações para monogástricos."
+    },
+    {
+      "id": "ZOT7707",
+      "code": "ZOT7707",
+      "name": "Rações para Poligástricos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3180",
+        "ZOT7500"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3180"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7500"
+          }
+        ]
+      },
+      "syllabus": "Alimentos mais usados para poligástricos. Fatores que afetam o consumo Maximo voluntário de forragens. Relação volumoso-concentrado e seus efeitos físico-químicos do rúmen. Métodos de calculo de rações para poligástricos."
+    },
+    {
+      "id": "ZOT7905",
+      "code": "ZOT7905",
+      "name": "Bioestatística",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3180",
+        "ZOT7300"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3180"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7300"
+          }
+        ]
+      },
+      "syllabus": "Introdução à experimentação animal, testes de significância, desenhos experimentais: Inteiramente casualizado, Com blocos casualizado, Quadrado latino. Experimentos fatoriais, e em parcelas subdivididas. O uso de regressão na análise de variância."
+    },
+    {
+      "id": "ENR7312",
+      "code": "ENR7312",
+      "name": "Mecanização para a Zootecnia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "FSC7118"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC7118"
+      },
+      "syllabus": "Aspectos gerais sobre fontes de potencia. Tratores agrícolas. Manutenção e operação. Equipamentos agrícolas: preparo do solo, semeadura, adubação e plantio, tratos culturais mecânicos e químicos, renovadoras de pastagem, estudo e regulagem. Maquinas de colheita de forragens, fenação e ensilagem: regulagens e estudos de perdas de colheita. Aspectos de segurança na operação de máquinas e implementos. Tração Animal. Planejamento e desempenho da mecanização agrícola."
+    },
+    {
+      "id": "ENR7315",
+      "code": "ENR7315",
+      "name": "Princípios de Edificações Rurais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR7306",
+        "ENR7404",
+        "ZOT7202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR7306"
+          },
+          {
+            "kind": "course",
+            "code": "ENR7404"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7202"
+          }
+        ]
+      },
+      "syllabus": "Fundamentos de desenho técnico. Composição das edificações: materiais, estruturas, fechamentos, instalações prediais e acabamentos."
+    },
+    {
+      "id": "ENR7507",
+      "code": "ENR7507",
+      "name": "Manejo do Solo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR7506"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR7506"
+      },
+      "syllabus": "Fatores, processos e efeitos da degradação do solo. Atendimentos conservacionistas do solo e da água. Bacia hidrográfica comunidade de manejo."
+    },
+    {
+      "id": "FIT7400",
+      "code": "FIT7400",
+      "name": "Ecologia Agrícola",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIT7401"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FIT7401"
+      },
+      "syllabus": "Introdução à Ecologia. Fatores ambientais. Evolução e história de vida. Populações. Comunidades. Ecossistemas. Interações entre espécies. Diversidade biológica. Ciclos biogeoquímicos. Fluxo de energia. Sucessão ecológica. Estrutura, funcionamento, produtividade e estabilidade de ecossistemas naturais e agroecossistemas. Ecologia aplicada à agricultura e pecuária."
+    },
+    {
+      "id": "ZOT7203",
+      "code": "ZOT7203",
+      "name": "Higiene e Profilaxia na Zootecnia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7202"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7202"
+          },
+          {
+            "kind": "hours",
+            "hours": 7203
+          }
+        ]
+      },
+      "prerequisiteHours": 7203,
+      "syllabus": "Princípios de higiene e profilaxia dos animais, dos alimentos, das instalações e equipamentos. Programas profiláticos e calendários de vacinação para as criações zootécnicas."
+    },
+    {
+      "id": "ZOT7405",
+      "code": "ZOT7405",
+      "name": "Ambiência em Zootecnia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR7404",
+        "ZOT7105"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR7404"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7105"
+          }
+        ]
+      },
+      "syllabus": "Introdução à bioclimatologia: adaptações e evolução dos animais. Efeitos do ambiente na produção, reprodução e saúde dos animais. Fatores climáticos e mecanismos de termorregulação. Interação genótipo-ambiente."
+    },
+    {
+      "id": "ZOT7505",
+      "code": "ZOT7505",
+      "name": "Biotécnicas de Reprodução Animal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7921"
+      ],
+      "equivalents": [
+        "ZOT7923"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7921"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7923"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Manejo reprodutivo e métodos de reprodução das principais espécies de mamíferos e aves de interesse zootécnico. Controle exógeno do ciclo estral (mamíferos). Biotecnicas e biotecnologias envolvidas nos métodos empregados na reprodução de mamíferos e aves. Principais problemas de fertilidade de mamíferos e aves.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ZOT7708",
+      "code": "ZOT7708",
+      "name": "Forragicultura II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR7506",
+        "ZOT7501"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR7506"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7501"
+          }
+        ]
+      },
+      "syllabus": "Reconhecimento de espécies forrageiras. Classificação de espécies forrageiras. Técnicas de formação, adubação, e manejo de pastagens. Produção de sementes. Metodologias de conservação de forragens: fenação, ensilagem. Capineiras e forrageiras de inverno. Melhoramento de campos nativos e naturalizados com espécies melhoradas."
+    },
+    {
+      "id": "ZOT7912",
+      "code": "ZOT7912",
+      "name": "Princípios de Melhoramento Animal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7105",
+        "ZOT7905"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7105"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7905"
+          }
+        ]
+      },
+      "syllabus": "Princípios básicos de genética de populações. Fundamentos de genética quantitativa. Avaliação genética animal. Seleção para múltiplas características. Sistemas de acasalamento. Calculo do ganho genético."
+    },
+    {
+      "id": "AQI7803",
+      "code": "AQI7803",
+      "name": "Introdução à Aquicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "AQI5600"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5600"
+      },
+      "syllabus": "Noções básicas de aquicultura, incluindo: histórico, status, espécies cultiváveis, biologia, sistemas de cultivo, qualidade da água, nutrição, reprodução e instalações. Noções sobre aquicultura sustentável. Interação da Aquicultura no contexto agropecuário e na preservação do meio ambiente."
+    },
+    {
+      "id": "CAL5134",
+      "code": "CAL5134",
+      "name": "Tecnologia de Produtos de Origem Animal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7203"
+      ],
+      "equivalents": [
+        "CAL7710"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7203"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL7710"
+      },
+      "syllabus": "Classificação e processamento de leite. Industrialização de produtos derivados do leite. Classificação e processamento de ovos e de outros produtos de origem avícola. 127 Classificação, processamento (resfriamento, congelamento e maturação) na industrialização de carnes: de suínos, de aves, de bovinos e de outras espécies."
+    },
+    {
+      "id": "ENR7310",
+      "code": "ENR7310",
+      "name": "Instalações para Animais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR7315",
+        "ZOT7405"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ENR7315"
+              },
+              {
+                "kind": "course",
+                "code": "ZOT7405"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7405"
+          }
+        ]
+      },
+      "syllabus": "(EXT 18h-a) ZOT7700) Caracterização da edificação rural, princípios e dimentsionamento de instalações para animais."
+    },
+    {
+      "id": "ZOT7109",
+      "code": "ZOT7109",
+      "name": "Ética e Bem Estar Animal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7101"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7101"
+      },
+      "syllabus": "-Conceitos e fundamentos filosóficos relativos ao bem-estar animal. Senciência, estados emocionais e sentimentos nos animais. Ética e bem-estar animal. O bem-estar animal nos sistemas criatórios, avaliação e melhoria. Legislação e códigos de boas práticas."
+    },
+    {
+      "id": "ZOT7504",
+      "code": "ZOT7504",
+      "name": "Manejo Sustentável de Pastagens",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ENR7507",
+        "ZOT7708"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7708"
+          }
+        ]
+      },
+      "syllabus": "Adaptação, distribuição e comportamento de plantas forrageiras sob corte ou pastejo. Sistemas de pastoreio: continuo rotacional, diferido e em faixas. Consorciação de forragens."
+    },
+    {
+      "id": "ZOT7506",
+      "code": "ZOT7506",
+      "name": "Cunicultura e Cunichilicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7100",
+        "ZOT7405",
+        "ZOT7706"
+      ],
+      "equivalents": [
+        "ZOT7805",
+        "ZOT7823"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7100"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7405"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7706"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7805"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7823"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Origem, Raças (carne, pele e lã) e produtos cunícolas. Potencial e mercado para criação de coelhos. Manejo geral, reprodutivo, alimentar, sanitário e das instalações. Cunicultura ecologicamente sustentável para a pequena unidade familiar de produção. Índices produtivos e planejamento da criação de coelhos. Origem, Importância econômica da criação de chinchila. Tipos de chinchila. Manejo geral, reprodutivo, alimentar, sanitário e de instalações. Aquisição de reprodutores. Planejamento da criação de chinchilas.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ZOT7507",
+      "code": "ZOT7507",
+      "name": "Melhoramento de Espécie Zootécnicas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7912"
+      ],
+      "equivalents": [
+        "ZOT7908"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7912"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7908"
+      },
+      "syllabus": "Índices de produtividade da pecuária nacional. Características a serem melhoradas, por espécie zootécnica. Metodologias específicas para obtenção de fenótipos por espécie. Aplicação de metodologias de avaliação genética por espécie. Aplicação computacional para o melhoramento animal."
+    },
+    {
+      "id": "ZOT7804",
+      "code": "ZOT7804",
+      "name": "Apicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7405",
+        "ZOT7708"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7405"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7708"
+          }
+        ]
+      },
+      "syllabus": "(EXT 18h-a) Biologia e evolução das abelhas. Interação abelhas e o ambiente. Formação e manejo de apiários para produção e extração de produtos apícolas. A polinização de culturas de interesse zootécnico. Instalações, equipamentos, e indumentárias usadas na apicultura. Cuidados, higiene e profilaxia apícola"
+    },
+    {
+      "id": "AQI7811",
+      "code": "AQI7811",
+      "name": "Piscicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "AQI7803"
+      ],
+      "equivalents": [
+        "AQI5700"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI7803"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5700"
+      },
+      "syllabus": "Policultivo (importância e características, modelos e manejos). Consorciação (peixes/aves, peixes/suínos, peixe/arroz). Reprodução de peixes (fisiologia, reprodução natural e artificial, produção de alevinos). Manejo de reprodução, alevinagem e engorda de peixes contentais e marinhas."
+    },
+    {
+      "id": "EXR5501",
+      "code": "EXR5501",
+      "name": "Extensão Rural",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "EXR7605"
+      ],
+      "equivalents": [
+        "EXR5905"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EXR7605"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EXR5905"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Liderança e dinâmica de grupo. Sociometria. Fundamentos da educação. Processos de comunicação e metodologia. Modelos pedagógicos e a extensão rural. Métodos de extensão rural. Planejamento da ação extensionista.",
+      "extensionHours": 36
+    },
+    {
+      "id": "ZOT7001",
+      "code": "ZOT7001",
+      "name": "Projeto de Conclusão de Curso",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2520,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 2520,
+      "syllabus": "Preparar o Projeto de Estágio de Conclusão de Curso que será executado na 9ª Fase."
+    },
+    {
+      "id": "ZOT7107",
+      "code": "ZOT7107",
+      "name": "Avaliação e Tipificação de Carcaça",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7105",
+        "ZOT7106"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7105"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7106"
+          }
+        ]
+      },
+      "syllabus": "Avaliação de carcaça: conceitos, normas. Conformação dos animais. Genótipo e Fenótipo. Características qualitativas: maturidade fisiológica, coloração, textura e firmeza. Fatores quantitativos: Peso de carcaça, área de olho de lombo, espessura de gordura subcutânea, comprimento de carcaça, percentagem de cortes. Técnicas de experimentação e avaliação da qualidade da carne. Tipificação de carcaças."
+    },
+    {
+      "id": "ZOT7508",
+      "code": "ZOT7508",
+      "name": "Avicultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7507",
+        "ZOT7706"
+      ],
+      "equivalents": [
+        "ZOT7808"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7706"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7808"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Avicultura de corte no Brasil e no Mundo. Produção de matrizes e pintos de um dia. Manejo alimentar, sanitário e de instalações para produção de frangos de corte. Avicultura de postura no Brasil e no Mundo. Produção de matrizes para postura. Produção de ovos comerciais. Incubatório. Produção de aves: Origem, evolução, manejo reprodutivo, alimentar, sanitário e de instalações. Avicultura e seus impactos ambientais. Produção de aves de corte e/ou de postura ambientalmente sustentáveis. Raças, alimentação, sanidade, instalações, equipamentos e manejo voltados a produção avícola sustentável. Inserção do pequeno avicultor no agronegócio.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ZOT7509",
+      "code": "ZOT7509",
+      "name": "Suinocultura",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7507",
+        "ZOT7706"
+      ],
+      "equivalents": [
+        "ZOT7809"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7706"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7809"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Os impactos da suinocultura nos ecossistemas do Estado de Santa Catarina. Sistemas de produção de suínos ambientalmente sustentáveis. Raças, alimentação, sanidade, instalações, equipamentos e manejo voltados à suinocultura ecologicamente corretos. Inserção do pequeno suinocultor no agronegócio.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ZOT7510",
+      "code": "ZOT7510",
+      "name": "Equinocultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7507",
+        "ZOT7706"
+      ],
+      "equivalents": [
+        "ZOT7810"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7706"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7810"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Origem e Produção de cavalos no Brasil e no mundo, Raças: aptidões, Características zootécnicas (exterior, pelagens, andamento), Cruzamentos, Reprodução. Sistemas de produção de animais para as diferentes aptidões. Aspectos dos Manejos (geral, alimentar, reprodutivo, sanitário e de instalações). Planejamento da criação.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EXR5502",
+      "code": "EXR5502",
+      "name": "Administração Rural",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EXR5501"
+      ],
+      "equivalents": [
+        "EXR7608"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EXR5501"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EXR7608"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Caracterização das unidades de produção agrícolas. Negócio agrícola e empresa rural. Teorias e custos da produção. Fatores que afetam os resultados econômicos. Métodos de planejamento das unidades de produção. Seleção e combinação de atividades. Análise da rentabilidade econômica. Projeto sistêmico e integrado de uso de uma propriedade agrícola.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EXR7606",
+      "code": "EXR7606",
+      "name": "Extensão Rural",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7001"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7001"
+          },
+          {
+            "kind": "hours",
+            "hours": 2520,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2520,
+      "syllabus": "Liderança e dinâmica de grupo. Sociometria. Fundamentos da educação. Processos de comunicação e metodologia. Modelos pedagógicos e a extensão rural. Métodos de extensão rural. Planejamento da ação extensionista."
+    },
+    {
+      "id": "EXR7609",
+      "code": "EXR7609",
+      "name": "Desenvolvimento Territorial e Planejamento Agropecuário",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "EXR7601"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EXR7601"
+      },
+      "syllabus": "Planificação econômica e social. Caráter e objetivo da planificação agrícola. Recursos, demanda de produtos e tendências de mercado. Fatores que interferem na produção. Fixação de metas. Execução e seleção de medidas para alcançar as metas. Organização e avaliação do planejamento."
+    },
+    {
+      "id": "ZOT7006",
+      "code": "ZOT7006",
+      "name": "Trabalho de Conclusão de Curso (72 horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "- Elaboração e redação do Trabalho de Conclusão de Curso. Defesa pública do Trabalho de Conclusão de Curso. Participação do acadêmico nas defesdas de Trabalho de Conclusão de Curso. Publicação da versão final do Trabalho de Conclusão de Curso."
+    },
+    {
+      "id": "ZOT7511",
+      "code": "ZOT7511",
+      "name": "Bovinocultura de Leite",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7101",
+        "ZOT7405",
+        "ZOT7504",
+        "ZOT7505",
+        "ZOT7507",
+        "ZOT7707"
+      ],
+      "equivalents": [
+        "ZOT7817"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7405"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7504"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7505"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7707"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7817"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "aula) Importância da bovinocultura leiteira. Raças: européias, zebuínas e nacionais. Manejo reprodutivo, alimentar e de instalações para gado de leite (cria, recria e produção). Importância do leite na nutrição humana. Importância da qualidade (presença de resíduos, contaminante e outros) do leite na nutrição humana Fisiologia da lactação. Manejo sanitário do gado leiteiro. Situação e perspectivas da produção de leite a base de pasto no Brasil e Mundo. Manejo alimentar e controle zoosanitário etológica e ecologicamente sustentáveis. Planejamento duma criação para produção de leite saudável.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ZOT7512",
+      "code": "ZOT7512",
+      "name": "Ovinocultura e Caprinocultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7101",
+        "ZOT7405",
+        "ZOT7504",
+        "ZOT7505",
+        "ZOT7507",
+        "ZOT7707"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7405"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7504"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7505"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7707"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Ovinocultura e Caprinocultura no Brasil e no mundo. Raças e produtos ovinos e caprinos. Manejo geral, da Nutrição, da Reprodução, das Instalações e Controle zoossanitário dos rebanhos ovino e caprino. Planejamento de uma criação.",
+      "extensionHours": 18
+    },
+    {
+      "id": "ZOT7815",
+      "code": "ZOT7815",
+      "name": "Bufalinocultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7101",
+        "ZOT7405",
+        "ZOT7504",
+        "ZOT7505",
+        "ZOT7507",
+        "ZOT7707"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7405"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7504"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7505"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7707"
+          }
+        ]
+      },
+      "syllabus": "Origem. Importância da bufalinocultura. Situação e perspectivas da bufalinocultura no Brasil e Mundial para a produção de carne a base de pasto Raças: para carne, leite e tração animal. Manejo reprodutivo, alimentar e de instalações para búfalos (cria, recria e terminação para o abate). Fisiologia da lactação. Raças adaptadas, crescimento, desenvolvimento e produção de carne com certificação de origem. Práticas de manejo e alternativas alimentares para produção sustentável. Planejamento da criação."
+    },
+    {
+      "id": "ZOT7816",
+      "code": "ZOT7816",
+      "name": "Bovinocultura de Corte",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "ZOT7101",
+        "ZOT7405",
+        "ZOT7504",
+        "ZOT7505",
+        "ZOT7507",
+        "ZOT7707"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7405"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7504"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7505"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7707"
+          }
+        ]
+      },
+      "syllabus": "Importância Situação e perspectivas da bovinocultura de corte. Raças: européias, zebuínas e nacionais. Manejo reprodutivo, alimentar e de instalações para gado de corte (cria, recria e terminação). Bovinocultura de corte a base de pasto. Raças adaptadas, crescimento, desenvolvimento e produção de carne com certificação de origem. Práticas de manejo e alternativas alimentares para produção etológica e ecologicamente sustentável. Instalações e equipamentos adequados a este sistema de produção. Planejamento da criação."
+    },
+    {
+      "id": "ZOT7002",
+      "code": "ZOT7002",
+      "name": "Estágio Supervisionado",
+      "credits": 20,
+      "hours": 360,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções e estrutura de uma empresa. Empreendedorismo rural. Estrutura organizacional. Conceitos e etapas do processo de negociação. Simulação de sistemas econômicos visando aprimorar a capacidade decisória do empreendedor rural."
+    },
+    {
+      "id": "ZOT7516",
+      "code": "ZOT7516",
+      "name": "Ações de Extensão I - Projetos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol das Ações de Extensão Ações de Extensão I - Projetos"
+    },
+    {
+      "id": "ZOT7517",
+      "code": "ZOT7517",
+      "name": "Ações de Extensão II - Eventos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ações de Extensão II - Eventos"
+    },
+    {
+      "id": "ZOT7518",
+      "code": "ZOT7518",
+      "name": "Ações de Extensão III - Cursos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ações de Extensão III - Cursos"
+    },
+    {
+      "id": "ZOT7003",
+      "code": "ZOT7003",
+      "name": "Atividades Complementares - Ensino",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Incentivar as atividades extra classe que visam uma maior formação do ensino. Valorizar de acordo com a tabela 1/ZOT/2009 reajustada e aprovada pelo Colegiado do Curso em agosto de 2014, que trata da pontuação de atividades complementares, as atividades de ensino desenvolvidas e comprovadas pelos acadêmicos durante o curso."
+    },
+    {
+      "id": "ZOT7004",
+      "code": "ZOT7004",
+      "name": "Atividades Complementares - Pesquisa",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Incentivar as atividades extra classe que visam uma maior formação do aluno na pesquisa. Valorizar de acordo com a tabela 1/ZOT/2009 reajustada e aprovada pelo Colegiado do Curso em agosto de 2014, que trata da pontuação de atividades complementares, as atividades de pesquisa desenvolvidas e comprovadas pelos acadêmicos durante o curso."
+    },
+    {
+      "id": "ZOT7005",
+      "code": "ZOT7005",
+      "name": "Atividades Complementares - Extensão",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Incentivar as atividades extra classe que visam uma maior formação do aluno em extensão. Valorizar de acordo com a tabela 1/ZOT/2009 reajustada e aprovada pelo Colegiado do Curso em agosto de 2014, que trata da pontuação de atividades complementares, as atividades de extensão desenvolvidas e comprovadas pelos acadêmicos durante o curso."
+    },
+    {
+      "id": "AQI7807",
+      "code": "AQI7807",
+      "name": "Ranicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Rol de Disciplinas Optativas Evolução e biologia de anfíbios. Diferenciação entre rãs, sapos e pererecas. Histórico da ranicultura no Brasil. Noções básicas de ranicultura. O desenvolvimento das técnicas de criação. Sistemas de criação. Fatores que interferem no êxito da ranicultura. Manejo dos animais e profilaxia. Fatores responsáveis por estresse em anfíbios cultivados. Enfermidades de rãs silvestres e de cativeiro. Parasitos e enfermidades de anfíbios."
+    },
+    {
+      "id": "AQI7812",
+      "code": "AQI7812",
+      "name": "Carcinocultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "AQI7803"
+      ],
+      "equivalents": [
+        "AQI5801"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "AQI7803"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "AQI5801"
+      },
+      "syllabus": "Situação da atividade em relação as demais áreas de Aqüicultura e da produção zootécnica. Princípios que norteiam a atividade produtiva. A reprodução como parte do processo produtivo e as suas necessidades estratégicas e infraestruturais. O planejamento, a engenharia de construção e o manejo das fazendas de produção."
+    },
+    {
+      "id": "EXR5152",
+      "code": "EXR5152",
+      "name": "Agronegócios: Mercado Internacional",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EXR7605"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EXR7605"
+      },
+      "syllabus": "- Agronegócio, origem, conceitos, tendências. Pauta de importação e exportação brasileiras, histórico e evolução. Balança comercial e balanço de pagamentos. Cadeia de mercadorias e agregação de valor. Rotas de comércio e mercados. Subsídios, políticas tarifárias e formas de dumping. Organização Mundial de Comércio, histórico, regulações e arbitragem. Agronegócio, transferência de valor e capacidade de intervenção política do setor no Brasil."
+    },
+    {
+      "id": "EXR7402",
+      "code": "EXR7402",
+      "name": "Legislação Agrária, Gestão e Planejamento",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Global Desenvolvimento integrado. Legislação agrária. Base legal e legislação para a gestão ambiental. Auditoria ambiental. Controle de qualidade ambiental. Planejamento e o enfoque ambiental."
+    },
+    {
+      "id": "EXR7403",
+      "code": "EXR7403",
+      "name": "Turismo Agropecuário",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ambiental Análise do potencial e planejamento de uma propriedade rural para o desenvolvimento do turismo. Turismo agropecuário como promotor de desenvolvimento rural (fixação do produtor no campo, oportunidade de venda direta de produtos da propriedade, aumento de renda)."
+    },
+    {
+      "id": "EXR7602",
+      "code": "EXR7602",
+      "name": "Introdução as Ciências Humanas e Sociais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções da teoria sociológica clássica. Raízes agrárias e formação da sociedade brasileira. História, cultura e relações étnico-raciais das populações rurais, tradicionais e camponesas (agricultores familiares descendentes de imigrantes europeus, povos afro-brasileiros, comunidades indígenas, asiáticos, entre outros). Temas emergentes na sociologia rural contemporânea. As relações campo-cidade-campo. A questão agrária, novos atores sociais e movimentos sociais no campo. As políticas focalizadas e a inclusão de públicos específicos. Agricultura familiar: diversidade social, tipologia e funcionamento interno."
+    },
+    {
+      "id": "EXR7607",
+      "code": "EXR7607",
+      "name": "Cadeia Produtiva e Associativismo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Aspectos teóricos da comercialização. Descrição do processo da comercialização. Análise de preços agrícolas. Prática sobre cálculo de juros simples e composto. Comercialização, crédito e seguro agrícola. Bolsa de cereais. Conceitos e princípios do cooperativismo."
+    },
+    {
+      "id": "EXR7610",
+      "code": "EXR7610",
+      "name": "Gestão e Empreendedorismo Agropecuário",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções e estrutura de uma empresa. Empreendedorismo rural. Estrutura organizacional. Conceitos e etapas do processo de negociação. Simulação de sistemas econômicos visando aprimorar a capacidade decisória do empreendedor rural."
+    },
+    {
+      "id": "EXR7611",
+      "code": "EXR7611",
+      "name": "Sistemas Alimentares Sustentáveis e Associativismo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sistemas alimentares sustentáveis: noções teóricas e abordagens práticas. Análise das cadeias produtivas e dos mercados agroalimentares. Políticas de fomento da produção e da comercialização de alimentos. Experiências de ação coletiva no meio rural. Conceitos e práticas cooperativas."
+    },
+    {
+      "id": "INE7302",
+      "code": "INE7302",
+      "name": "Introdução à Computação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos em computação. Noções de programação de computadores. Internet: utilização de navegadores e de ferramentas de pesquisa. Utilização de Softwares aplicativos: Processador de texto, editor gráfico, planilha e editor de apresentações."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE7881"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE7881"
+      },
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "ZOT0001",
+      "code": "ZOT0001",
+      "name": "Meliponicultura",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) LSB7904) Origem dos meliponíneos e sua dispersão pelo mundo. Principais espécies de meliponíneos. Biologia geral das abelhas sem ferrão. Organização social, defesa e reprodução das abelhas sem ferrão. Equipamentos e instalação de meliponários. Legislação para manejo de abelhas sem ferrão. Obtenção, multiplicação e manejo de colônias. Doenças e inimigos naturais: identificação e estratégias de profilaxia. Manejo de colônias para serviços de polinização. Produtos e subprodutos da Meliponicultura. Legislação e comercialização de produtos das abelhas sem ferrão."
+    },
+    {
+      "id": "ZOT5002",
+      "code": "ZOT5002",
+      "name": "Sistemas de Criação Animal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7400"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7400"
+      },
+      "syllabus": "- Conceito de sustentabilidade. Avaliação de um sistema de criação de espécies zootécnicas. Custos energéticos, econômicos, sociais, ambientais e etológicos associados à criação animal. Exemplos de processos produtivos sustentáveis: produção de carne, leite e ovos à base de pasto."
+    },
+    {
+      "id": "ZOT5145",
+      "code": "ZOT5145",
+      "name": "Pastoreio Racional Voisin (PRV)",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Agroecológicos ZOT7500 eh Histórico, importância e desenvolvimento do PRV no Brasil e no mundo. O solo pastoril e suas relações com as plantas e com os animais, sob o comando humano. A biocenose. Princípios de fisiologia vegetal aplicadas ao manejo racional dos pastos. O crescimento do pasto e a qualidade da forragem produzida. Ingestão. O comportamento de pastoreio das principais espécies herbívoras e suas relações com o consumo e a utilização das pastagens. As principais espécies forrageiras e sua utilização no PRV. As leis universais do pastoreio racional Voisin. Divisão da área: princípios e necessidades. Hidráulica e paisagismo. Projeto de PRV."
+    },
+    {
+      "id": "ZOT7007",
+      "code": "ZOT7007",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ZOT7008",
+      "code": "ZOT7008",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ZOT7009",
+      "code": "ZOT7009",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "ZOT7119",
+      "code": "ZOT7119",
+      "name": "Forragens Conservadas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ENR7312"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENR7312"
+      },
+      "syllabus": "Estudo teórico-prático das tecnologias empregadas para produção, avaliação e utilização de forragens conservadas."
+    },
+    {
+      "id": "ZOT7204",
+      "code": "ZOT7204",
+      "name": "Plantas Tóxicas para Animais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7501"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7501"
+      },
+      "syllabus": "Biologia, classificação e ocorrência de plantas tóxicas e invasoras de pastagens. Descrição e preparo de plantas tóxicas e invasoras para identificação. Controle de plantas tóxicas e invasoras de pastagens. Nível de toxicidade e sintomas nos animais."
+    },
+    {
+      "id": "ZOT7205",
+      "code": "ZOT7205",
+      "name": "Fitoterapias na Produção Animal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Composição morfologia e taxonomia de plantas de uso terapêutico. Fundamentos da fitoterapia. Princípios gerais do uso de homeopatias na produção animal sustentável. Plantas forrageiras usadas na prevenção de parasitoses animais."
+    },
+    {
+      "id": "ZOT7307",
+      "code": "ZOT7307",
+      "name": "Informática na Zootecnia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceitos básicos em Processamento de Dados. Sistemas operacionais. Uso, limitações e interpretação de programas para análise de dados. Uso de programas de computação aplicados à gestão e acompanhamento das atividades rurais com ênfase na zootecnia."
+    },
+    {
+      "id": "ZOT7311",
+      "code": "ZOT7311",
+      "name": "Computação na Produção Animal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7912"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7912"
+      },
+      "syllabus": "Conceitos básicos em Processamento de Dados. Organização de dados de produção e pesquisa em planilhas. Computação aplicada à gestão e acompanhamento das atividades rurais, análises estatísticas e econômicas."
+    },
+    {
+      "id": "ZOT7603",
+      "code": "ZOT7603",
+      "name": "Introdução a Metodologia Científica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Lógica clássica. O trabalho científico: elaboração de hipóteses, verificação, refutação. Métodos científicos. Teoria da probabilidade. A questão da neutralidade científica."
+    },
+    {
+      "id": "ZOT7709",
+      "code": "ZOT7709",
+      "name": "Alimentos Alternativos e Aditivos na",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7502"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7502"
+      },
+      "syllabus": "-Aditivos, Alimentos alternativos e Subprodutos usados na alimentação animal: composição, finalidade, recomendações e limitações de uso. Impactos dos resíduos de aditivos no ambiente e saúde humana. Aditivos alternativos."
+    },
+    {
+      "id": "ZOT7710",
+      "code": "ZOT7710",
+      "name": "Nutrição e Alimentação de Cães e Gatos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7706"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7706"
+      },
+      "syllabus": "Alimentação Animal - Noções básicas sobre nutrição de cães e gatos. Mercado pet food. Classificação de alimentos para cães e gatos. Digestão e absorção de nutrientes. Manejo nutricional nas diferentes fases de vida. Exigência nutricional dos animais. Formulação de ração."
+    },
+    {
+      "id": "ZOT7807",
+      "code": "ZOT7807",
+      "name": "Animais Silvestres e Exóticos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Potencialidades técnicas e econômicas para a produção de animais silvestres e exóticos na região e no país. Animais silvestres e exóticos de expressão econômica (Classe Aves, Classe Mammalia e Classe Reptilia). Produtos e subprodutos da criação de animais silvestres. Legislação para a sua produção em cativeiro."
+    },
+    {
+      "id": "ZOT7814",
+      "code": "ZOT7814",
+      "name": "Outras Aves de Importância Zootécnica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7400",
+        "ZOT7921"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7400"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7921"
+          }
+        ]
+      },
+      "syllabus": "Noções de anatomia e fisiologia, manejo, alimentação e problemas sanitários mais comuns de: perus, codornas, faisões, pavões, galinhas de Angola, patos, marrecos, gansos, cisnes, emas, avestruz e pombos. Sistemas de produção e comercialização."
+    },
+    {
+      "id": "ZOT7819",
+      "code": "ZOT7819",
+      "name": "Tópicos Especiais em Bovinocultura de Corte",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7101",
+        "ZOT7405",
+        "ZOT7504",
+        "ZOT7505",
+        "ZOT7507",
+        "ZOT7707"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7405"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7504"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7505"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7707"
+          }
+        ]
+      },
+      "syllabus": "Estudo de um tema atual de interesse na bovinocultura de corte."
+    },
+    {
+      "id": "ZOT7820",
+      "code": "ZOT7820",
+      "name": "Tópicos Especiais em Bovinocultura de Leite",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7101",
+        "ZOT7405",
+        "ZOT7504",
+        "ZOT7505",
+        "ZOT7507",
+        "ZOT7707"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7405"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7504"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7505"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7707"
+          }
+        ]
+      },
+      "syllabus": "Estudo de um tema atual de interesse na bovinocultura de leite."
+    },
+    {
+      "id": "ZOT7821",
+      "code": "ZOT7821",
+      "name": "Tópicos Especiais em Avicultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7507",
+        "ZOT7706"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7706"
+          }
+        ]
+      },
+      "syllabus": "Estudo de um tema atual de interesse na avicultura."
+    },
+    {
+      "id": "ZOT7822",
+      "code": "ZOT7822",
+      "name": "Tópicos Especiais em Suinocultura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7507",
+        "ZOT7706"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7507"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7706"
+          }
+        ]
+      },
+      "syllabus": "Estudo de um tema atual de interesse na suinocultura."
+    },
+    {
+      "id": "ZOT7907",
+      "code": "ZOT7907",
+      "name": "Biotecnologias em Produção Animal",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7904"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7904"
+      },
+      "syllabus": "Importância e uso da biotecnologia em processos agropecuários. Engenharia genética: organismos transgênicos, cultura de células e tecidos. Manipulação de embriões, produção in vitro e crio preservação. Meio ambiente e ética. Informática na biotecnologia."
+    },
+    {
+      "id": "ZOT7909",
+      "code": "ZOT7909",
+      "name": "Simulação de dados em Melhoramento",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "ZOT7507"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7507"
+      },
+      "syllabus": "Simulação de características zootécnicas para aplicação de conhecimentos de genética quantitativa ao melhoramento animal."
+    },
+    {
+      "id": "INE5201",
+      "code": "INE5201",
+      "name": "Introdução à Ciência da Computação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Noções de sistemas de computação. Formulação de algoritmos e sua representação. Noções sobre linguagem de programação e programas. Implementação prática de algoritmos em uma linguagem de programação. Descrição de algumas aplicações típicas. Métodos computacionais na área científica e tecnológica."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "ENR7501",
+      "MTM3180",
+      "QMC5301",
+      "ZOT7801",
+      "ZOT7802",
+      "ZOT7910",
+      "ENR7306",
+      "EXR7601",
+      "FSC7118",
+      "ZOT7100",
+      "ZOT7501",
+      "ENR7506",
+      "ZOT7101",
+      "ZOT7502",
+      "ZOT7700",
+      "ZOT7701",
+      "ZOT7904",
+      "ZOT7911",
+      "EXR7605",
+      "ZOT7200",
+      "ZOT7300",
+      "ZOT7400",
+      "ZOT7500",
+      "ZOT7921",
+      "ENR7404",
+      "FIT7505",
+      "ZOT7105",
+      "ZOT7106",
+      "ZOT7202",
+      "ZOT7600",
+      "ZOT7706",
+      "ZOT7707",
+      "ZOT7905",
+      "ENR7312",
+      "ENR7315",
+      "ENR7507",
+      "FIT7400",
+      "ZOT7203",
+      "ZOT7405",
+      "ZOT7505",
+      "ZOT7708",
+      "ZOT7912",
+      "AQI7803",
+      "CAL5134",
+      "ENR7310",
+      "ZOT7109",
+      "ZOT7504",
+      "ZOT7506",
+      "ZOT7507",
+      "ZOT7804",
+      "AQI7811",
+      "EXR5501",
+      "ZOT7001",
+      "ZOT7107",
+      "ZOT7508",
+      "ZOT7509",
+      "ZOT7510",
+      "EXR5502",
+      "EXR7606",
+      "EXR7609",
+      "ZOT7006",
+      "ZOT7511",
+      "ZOT7512",
+      "ZOT7815",
+      "ZOT7816",
+      "ZOT7002",
+      "ZOT7516",
+      "ZOT7517",
+      "ZOT7518"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 396,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "ZOT7003",
+              "ZOT7004",
+              "ZOT7005",
+              "AQI7807",
+              "AQI7812",
+              "EXR5152",
+              "EXR7402",
+              "EXR7403",
+              "EXR7602",
+              "EXR7607",
+              "EXR7610",
+              "EXR7611",
+              "INE7302",
+              "LSB7244",
+              "ZOT0001",
+              "ZOT5002",
+              "ZOT5145",
+              "ZOT7007",
+              "ZOT7008",
+              "ZOT7009",
+              "ZOT7119",
+              "ZOT7204",
+              "ZOT7205",
+              "ZOT7307",
+              "ZOT7311",
+              "ZOT7603",
+              "ZOT7709",
+              "ZOT7710",
+              "ZOT7807",
+              "ZOT7814",
+              "ZOT7819",
+              "ZOT7820",
+              "ZOT7821",
+              "ZOT7822",
+              "ZOT7907",
+              "ZOT7909",
+              "INE5201"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "502",
+    "curriculumCode": "20241",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=502&curriculo=20241",
+    "sha256": "1c40a5fb5fd1874cb62e01cb5e17f45582839d23d4199b59095159a25e8a17c5",
+    "capturedAt": "2026-09-22"
+  }
+}

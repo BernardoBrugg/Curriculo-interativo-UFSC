@@ -1,0 +1,1675 @@
+{
+  "program": "Matemática",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2023.1",
+  "totalHours": 3870,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "CEE4001",
+      "code": "CEE4001",
+      "name": "Introdução à Educação Matemática (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "contextos. Além disso, tenha condições de continuar seus estudos em nível de pós-graduação tanto lato sensu quanto stricto sensu, propiciando ao licenciaado conhecimentos científicos, didático-pedagógicos e vivências que permitam uma prática docente qualificada e comprometida com o desenvolvimento humano em todas as suas dimensões e a formação plena dos sujeitos sociais."
+    },
+    {
+      "id": "MAT4101",
+      "code": "MAT4101",
+      "name": "Elementos de Aritmética e Álgebra (PCC 36h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MAT1101"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1101"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4111",
+      "code": "MAT4111",
+      "name": "Geometria Plana (PCC 18h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MAT1111"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1111"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4121",
+      "code": "MAT4121",
+      "name": "Fundamentos de Matemática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MAT1121"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1121"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CEE4002",
+      "code": "CEE4002",
+      "name": "Metodologia do Ensino da Matemática (PPC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE4001"
+      ],
+      "equivalents": [
+        "CEE7105"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE4001"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7105"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7307",
+      "code": "CEE7307",
+      "name": "Organização e Gestão Escolar (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7196"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7196"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4201",
+      "code": "MAT4201",
+      "name": "Introdução ao Cálculo (PCC 36h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4101"
+      ],
+      "equivalents": [
+        "MAT1201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4101"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1201"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4211",
+      "code": "MAT4211",
+      "name": "Construções Geométricas (PCC 36h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4111"
+      ],
+      "equivalents": [
+        "MAT1211"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4111"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1211"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4231",
+      "code": "MAT4231",
+      "name": "Análise Combinatória (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MAT1441"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1441"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7207",
+      "code": "CEE7207",
+      "name": "Fundamentos Histórico-Filosóficos da Educação (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7191"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7191"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7208",
+      "code": "CEE7208",
+      "name": "Psicologia Educacional: Desenvolvimento e Aprendizagem (PCC 18h-a e 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7192"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7192"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "",
+      "extensionHours": 18
+    },
+    {
+      "id": "MAT4301",
+      "code": "MAT4301",
+      "name": "Cálculo I (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4201"
+      ],
+      "equivalents": [
+        "MAT1301"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4201"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1301"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4311",
+      "code": "MAT4311",
+      "name": "Geometria Espacial (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4211"
+      ],
+      "equivalents": [
+        "MAT1211"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4211"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1211"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4331",
+      "code": "MAT4331",
+      "name": "Probabilidade e Estatística (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4231"
+      ],
+      "equivalents": [
+        "MAT1541"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4231"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1541"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE4004",
+      "code": "CEE4004",
+      "name": "Tecnologias no Ensino de Matemática (PCC 54h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE4002"
+      ],
+      "equivalents": [
+        "CEE4499"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE4002"
+          },
+          {
+            "kind": "hours",
+            "hours": 54
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE4499"
+      },
+      "prerequisiteHours": 54,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7506",
+      "code": "CEE7506",
+      "name": "Educação Inclusiva (PCC 18h-a/EXT 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7194"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7194"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "",
+      "extensionHours": 18
+    },
+    {
+      "id": "MAT4401",
+      "code": "MAT4401",
+      "name": "Cálculo II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4301"
+      ],
+      "equivalents": [
+        "MAT1401",
+        "MAT1501"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT4301"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT1401"
+          },
+          {
+            "kind": "course",
+            "code": "MAT1501"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4441",
+      "code": "MAT4441",
+      "name": "Geometria Analítica (PCC 36h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MAT1331"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1331"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE4005",
+      "code": "CEE4005",
+      "name": "Laboratório de Ensino de Matemática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE4004"
+      ],
+      "equivalents": [
+        "CEE4699"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE4004"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE4699"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7106",
+      "code": "CEE7106",
+      "name": "Didática (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Configuração histórica da Didática. A Didática no Brasil. O ensino: objeto da Didática. Didática na formação de professores. Currículo e teorias do currículo. O conhecimento escolar e a mediação didática dos conteúdos. A aula: concepção. Planejamento de ensino: objetivos educacionais. Conhecimentos escolares. Formas de avaliação da aprendizagem. Elaboração de material didático na área específica do curso."
+    },
+    {
+      "id": "CEE7924",
+      "code": "CEE7924",
+      "name": "Libras (PCC 36h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE7921",
+        "CEE7922"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE7921"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7922"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4501",
+      "code": "MAT4501",
+      "name": "Cálculo III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4401"
+      ],
+      "equivalents": [
+        "MAT1601"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT4401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1601"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4541",
+      "code": "MAT4541",
+      "name": "Álgebra Linear I (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4441"
+      ],
+      "equivalents": [
+        "MAT1431"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4441"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1431"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE4006",
+      "code": "CEE4006",
+      "name": "Estágio Supervisionado I",
+      "credits": 9,
+      "hours": 162,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE4005",
+        "CEE7106",
+        "MAT4201",
+        "MAT4311",
+        "MAT4331",
+        "MAT4441"
+      ],
+      "equivalents": [
+        "CEE4891",
+        "CEE4992"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE4005"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7106"
+          },
+          {
+            "kind": "course",
+            "code": "MAT4201"
+          },
+          {
+            "kind": "course",
+            "code": "MAT4311"
+          },
+          {
+            "kind": "course",
+            "code": "MAT4331"
+          },
+          {
+            "kind": "course",
+            "code": "MAT4441"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE4891"
+          },
+          {
+            "kind": "course",
+            "code": "CEE4992"
+          }
+        ]
+      },
+      "syllabus": "6º Fase-Sugestão"
+    },
+    {
+      "id": "MAT4601",
+      "code": "MAT4601",
+      "name": "Introdução às Equações Diferenciais",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4401"
+      ],
+      "equivalents": [
+        "MAT1602"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT4401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1602"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4621",
+      "code": "MAT4621",
+      "name": "Álgebra I (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4101",
+        "MAT4121"
+      ],
+      "equivalents": [
+        "MAT1621"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4101"
+          },
+          {
+            "kind": "course",
+            "code": "MAT4121"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1621"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Ordinárias MAT4541)"
+    },
+    {
+      "id": "MAT4641",
+      "code": "MAT4641",
+      "name": "Álgebra Linear II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4541"
+      ],
+      "equivalents": [
+        "MAT1531"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT4541"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1531"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4642",
+      "code": "MAT4642",
+      "name": "Introdução à Matemática Computacional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4541"
+      ],
+      "equivalents": [
+        "MAT1831"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT4541"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1831"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "CEE4007",
+      "code": "CEE4007",
+      "name": "Estágio Supervisionado II",
+      "credits": 9,
+      "hours": 162,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE4006"
+      ],
+      "equivalents": [
+        "CEE4891",
+        "CEE4992"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE4006"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE4891"
+          },
+          {
+            "kind": "course",
+            "code": "CEE4992"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE7900",
+      "code": "CEE7900",
+      "name": "Educação, Direitos Humanos e Diversidade",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36,
+        "courseType": "Ob"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Breve abordagem histórica dos direitos humanos. Principais documentos internacionais e nacionais dedicados à efetivação dos direitos humanos com enfoque na Educação. Marcadores sociais de opressão: relações étnico-raciais, geracionais e de gênero, capacitismo, classismo, homofobia, transfobia e xenofobia. Paradoxo da igualdade e diferença, universalismo e diversidade. Perspectiva crítica da noção de cidadania: soberania popular e direitos humanos; políticas de reconhecimento; tensões entre Estado, mercado e sociedade civil na garantia dos direitos humanos. Movimentos sociais e a luta pela efetivação dos direitos humanos, reparação na perspectiva dos direitos sociais e coletivos."
+    },
+    {
+      "id": "MAT4701",
+      "code": "MAT4701",
+      "name": "Análise na Reta",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4401"
+      ],
+      "equivalents": [
+        "MAT1701",
+        "MAT1801"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT4401"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT1701"
+          },
+          {
+            "kind": "course",
+            "code": "MAT1801"
+          }
+        ]
+      },
+      "syllabus": "Sociocultural (EXT 18h-a)"
+    },
+    {
+      "id": "MAT4721",
+      "code": "MAT4721",
+      "name": "Álgebra II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4621"
+      ],
+      "equivalents": [
+        "MAT1721"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT4621"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1721"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4741",
+      "code": "MAT4741",
+      "name": "Métodos Numéricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4401",
+        "MAT4642"
+      ],
+      "equivalents": [
+        "MAT1831"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4401"
+          },
+          {
+            "kind": "course",
+            "code": "MAT4642"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1831"
+      },
+      "syllabus": "Métodos para resolução de sistemas lineares. Solução numérica de equações nãolineares. Problemas de ajuste de dados e interpolação. Integração Numérica. Métodos numéricos para Equações Diferenciais Ordinárias."
+    },
+    {
+      "id": "MAT4791",
+      "code": "MAT4791",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MAT1891",
+        "MAT1991"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2070,
+        "courseType": "Ob"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT1891"
+          },
+          {
+            "kind": "course",
+            "code": "MAT1991"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE4008",
+      "code": "CEE4008",
+      "name": "Estágio Supervisionado III",
+      "credits": 9,
+      "hours": 162,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE4007"
+      ],
+      "equivalents": [
+        "CEE4891",
+        "CEE4992"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE4007"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE4891"
+          },
+          {
+            "kind": "course",
+            "code": "CEE4992"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE4010",
+      "code": "CEE4010",
+      "name": "História e Filosofia da Matemática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4401",
+        "MAT4541"
+      ],
+      "equivalents": [
+        "CEE4790"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4401"
+          },
+          {
+            "kind": "course",
+            "code": "MAT4541"
+          },
+          {
+            "kind": "hours",
+            "hours": 4010
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE4790"
+      },
+      "prerequisiteHours": 4010,
+      "syllabus": ""
+    },
+    {
+      "id": "CEE6106",
+      "code": "CEE6106",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4301"
+      ],
+      "equivalents": [
+        "CEE7195"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4301"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CEE7195"
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": "Grandezas físicas, sistemas de unidades e representação vetorial. Movimento em uma dimensão. Movimento em duas dimensões. Leis de Newton. Aplicações das Leis de Newton. Trabalho e energia. Quantidade de movimento, impulso e colisões. Cinemática da rotação. Dinâmica da rotação."
+    },
+    {
+      "id": "MAT4891",
+      "code": "MAT4891",
+      "name": "Trabalho de Conclusão II",
+      "credits": 12,
+      "hours": 216,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT4791"
+      ],
+      "equivalents": [
+        "MAT1891",
+        "MAT1991"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4791"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT1891"
+          },
+          {
+            "kind": "course",
+            "code": "MAT1991"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT8305",
+      "code": "MAT8305",
+      "name": "Ações de Extensão",
+      "credits": 20,
+      "hours": 360,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 360
+      },
+      "prerequisiteHours": 360,
+      "syllabus": "Atividades de Extensão - Ações de Extensão Ações de Extensão",
+      "extensionHours": 360
+    },
+    {
+      "id": "CEE4020",
+      "code": "CEE4020",
+      "name": "Educação Estatística e em Ciência de Dados",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fundamentos epistemológicos da Matemática, da Estatística e da Ciência de Dados. Práticas escolares e não-escolares de estatística e ciência de dados. Sociedade de plataformas e economia de dados. Letramento estatístico e digital na BNCC. Tecnologias para letramento estatístico e de dados. Argumentação e avaliação em estatística e ciência de dados. Aplicações de ciências de dados na educação escolar."
+    },
+    {
+      "id": "CEE4021",
+      "code": "CEE4021",
+      "name": "Fundamentos Filosóficos da Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Natureza do fazer científico geral e educacional: ontologia e epistemologia. Filosofias Modernas das Ciências e suas implicações para a pesquisa em Educação Matemática e Científica: Popper, Kuhn, Lakatos, Feyerabend, Bachelard, Wittgenstein e Bloor. Concepções crítico-ontológicas da Educação Matemática e Científica. Perspectiva histórico-cultural da pesquisa em Educação Matemática e Científica. Teorias pós-modernas e pós-estruturalistas e Educação Matemática. Educação Matemática, Antropoceno e Pós-Humanismo."
+    },
+    {
+      "id": "CEE7206",
+      "code": "CEE7206",
+      "name": "Pesquisa em Educação Matemática",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matemática e Científica Estudo das tendências temáticas e metodológicas da pesquisa no campo da Educação Matemática."
+    },
+    {
+      "id": "MAT4001",
+      "code": "MAT4001",
+      "name": "Tópicos em Análise na Reta",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT4701"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4701"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4002",
+      "code": "MAT4002",
+      "name": "Introdução à Teoria dos Números",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT4101",
+        "MAT4121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4101"
+          },
+          {
+            "kind": "course",
+            "code": "MAT4121"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4003",
+      "code": "MAT4003",
+      "name": "Funções de Variáveis Complexas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT4701"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4701"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4004",
+      "code": "MAT4004",
+      "name": "Teoria dos Jogos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT1401",
+        "MAT2201"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT1401"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2201"
+          }
+        ]
+      },
+      "syllabus": "Introdução à Teoria dos Jogos, Teoria da Escolha Racional, Modelos de Jogos, Jogos Estratégicos, Jogos Extensivos com Informação Perfeita, Jogos Extensivos com Informação Imperfeita."
+    },
+    {
+      "id": "MAT4005",
+      "code": "MAT4005",
+      "name": "Introdução à Análise Funcional",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT1531",
+        "MAT1701",
+        "MAT4641",
+        "MAT4701"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "all",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "MAT1531"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "MAT1701"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "MAT4641"
+                  }
+                ]
+              },
+              {
+                "kind": "course",
+                "code": "MAT4701"
+              }
+            ]
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": "Espaços de Banach; Espaços de Hilbert; Operadores Lineares em dimensão infinita; Teorema de Hahn Banach."
+    },
+    {
+      "id": "MAT4011",
+      "code": "MAT4011",
+      "name": "Espaços Métricos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT4701"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4701"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4012",
+      "code": "MAT4012",
+      "name": "Introdução às Geometrias não-Euclidianas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT4311"
+      ],
+      "equivalents": [
+        "MAT1911"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4311"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MAT1911"
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4021",
+      "code": "MAT4021",
+      "name": "Álgebra III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT4721"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT4721"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4022",
+      "code": "MAT4022",
+      "name": "Teoria de Galois",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT4721"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4721"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4041",
+      "code": "MAT4041",
+      "name": "Álgebra Linear Aplicada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT4641"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4641"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    },
+    {
+      "id": "MAT4051",
+      "code": "MAT4051",
+      "name": "Resolução de Problemas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "MAT4101",
+        "MAT4121"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT4101"
+          },
+          {
+            "kind": "course",
+            "code": "MAT4121"
+          },
+          {
+            "kind": "hours",
+            "hours": 2070,
+            "courseType": "Ob"
+          }
+        ]
+      },
+      "prerequisiteHours": 2070,
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "CEE4001",
+      "MAT4101",
+      "MAT4111",
+      "MAT4121",
+      "CEE4002",
+      "CEE7307",
+      "MAT4201",
+      "MAT4211",
+      "MAT4231",
+      "CEE7207",
+      "CEE7208",
+      "MAT4301",
+      "MAT4311",
+      "MAT4331",
+      "CEE4004",
+      "CEE7506",
+      "MAT4401",
+      "MAT4441",
+      "CEE4005",
+      "CEE7106",
+      "CEE7924",
+      "MAT4501",
+      "MAT4541",
+      "CEE4006",
+      "MAT4601",
+      "MAT4621",
+      "MAT4641",
+      "MAT4642",
+      "CEE4007",
+      "CEE7900",
+      "MAT4701",
+      "MAT4721",
+      "MAT4741",
+      "MAT4791",
+      "CEE4008",
+      "CEE4010",
+      "CEE6106",
+      "MAT4891",
+      "MAT8305"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 144,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CEE4020",
+              "CEE4021",
+              "CEE7206",
+              "MAT4001",
+              "MAT4002",
+              "MAT4003",
+              "MAT4004",
+              "MAT4005",
+              "MAT4011",
+              "MAT4012",
+              "MAT4021",
+              "MAT4022",
+              "MAT4041",
+              "MAT4051"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 144
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "751",
+    "curriculumCode": "20231",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=751&curriculo=20231",
+    "sha256": "3c90e2012e2b7b8c102a19ebae9f6611b7eb13ab4638dd14c753aece4c3a5d5f",
+    "capturedAt": "2026-09-22"
+  }
+}

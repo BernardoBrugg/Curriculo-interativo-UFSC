@@ -1,0 +1,1947 @@
+{
+  "program": "CIÊNCIA E TECNOLOGIA DE ALIMENTOS",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2024.1",
+  "totalHours": 3852,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "BEG5112",
+      "code": "BEG5112",
+      "name": "Biologia Celular Aplicada à Ciência e Tecnologia de Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BEG5107"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BEG5107"
+      },
+      "syllabus": "Níveis de organização da estrutura biológica. Organização geral das células procarióticas. Organização estrutural e funcional das células eucarióticas. Aspectos morfológicos, bioquímicos e funcionais das células. Integração morfo-funcional dos componentes celulares. Ciclo celular-Divisão celular."
+    },
+    {
+      "id": "CAL5200",
+      "code": "CAL5200",
+      "name": "Introdução à Ciência e Tecnologia de Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CAL5100"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5100"
+      },
+      "syllabus": "Apresentação do Curso de Ciência e Tecnologia de Alimentos. Perfil profissional do Cientista de Alimentos. CTA e sociedade. Direitos humanos na cadeia agroalimentar. Matérias-primas alimentares e principais processos empregados nas transformações de matérias-primas alimentares."
+    },
+    {
+      "id": "FIT5930",
+      "code": "FIT5930",
+      "name": "Morfo - Fisiologia Vegetal",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tecidos vegetais: meristemas, parênquimas, esclerênquima, epiderme, floema e xilema. Estruturas: flor, fruto, semente, embrião, raiz, caule e folha. Regulações hídricas nas células e tecidos. Absorção de água. Fotossíntese e fotorrespiração. Transpiração. Crescimento vegetal: germinação, juvenilidade, floração, frutificação, maturidade e senescência. Dormência. Fatores de regulação endógena (fito reguladores) e exógena (fotoperiodismo, temperatura, análogos de fitoreguladores) do crescimento e desenvolvimento vegetal. Sistemas Agrícolas: intensivo e extensivo e suas características."
+    },
+    {
+      "id": "MTM3180",
+      "code": "MTM3180",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3100",
+        "MTM7136"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3100"
+          },
+          {
+            "kind": "course",
+            "code": "MTM7136"
+          }
+        ]
+      },
+      "syllabus": "-Aritmética básica; cálculo com expressões algébricas; geometria elementar; equações; funções."
+    },
+    {
+      "id": "QMC5150",
+      "code": "QMC5150",
+      "name": "Química Geral e Inorgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "QMC5152"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5152"
+      },
+      "syllabus": "Estrutura atômica e Tabela Periódica. Ligações Químicas. Reações Químicas e Estequiometria. Teoria Ácido-Base. Soluções. Elementos do Grupo Principal. Elementos de transição."
+    },
+    {
+      "id": "CAL5554",
+      "code": "CAL5554",
+      "name": "História dos Alimentos e da Alimentação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5554
+      },
+      "prerequisiteHours": 5554,
+      "syllabus": "O mundo pré-histórico, os hominídeos e seus hábitos alimentares. O surgimento do Homo sapiens e sua alimentação. Os caçadores-coletores e sua dieta. O domínio do fogo. Uso precoce dos grãos. O nascimento da agricultura. A história da cerveja, do pão e do vinho. A domesticação dos animais. A história da carne, dos produtos lácteos. A história dos produtos do mar. A história de raízes e vegetais. A expansão do mundo e o papel das especiarias, a história do açúcar, do chá e do café. A revolução da batata. O mundo moderno e a alimentação como manifestação cultural e filosófica."
+    },
+    {
+      "id": "FSC7118",
+      "code": "FSC7118",
+      "name": "Física para Ciências Agrárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC5061",
+        "FSC5064",
+        "FSC5071",
+        "FSC7303"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5061"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5064"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5071"
+          },
+          {
+            "kind": "course",
+            "code": "FSC7303"
+          }
+        ]
+      },
+      "syllabus": "Medidas Físicas. Vetores.Noções de Mecância.Mecânica dos Fluídos.Fenômenos térmicos. Tópicos de Eletricidade"
+    },
+    {
+      "id": "MOR5226",
+      "code": "MOR5226",
+      "name": "Morfologia Humana",
+      "credits": 6,
+      "hours": 108,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Anatomia: Introdução ao estudo da anatomia. Aparelho Locomotor. Sistema Nervoso. Sistema Circulatório (cardiovascular e linfático). Sistema Digestório. Sistema Urinário. Sistema Respiratório. Sistema Reprodutor (masculino e feminino). Sistema Endócrino. Histologia: Noções de microscopia de luz e técnicas histológicas. Tecido Epitelial. Tecido Conjuntivo (e variações: ósseo, cartilaginoso e sangue). Tecido Muscular. Tecido Nervoso. Histologia dos Sistemas: cardiovascular, linfático, digestório, urinário, reprodutor e endócrino."
+    },
+    {
+      "id": "MOR5227",
+      "code": "MOR5227",
+      "name": "Anatomia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5112"
+      ],
+      "equivalents": [
+        "MOR5226"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BEG5112"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MOR5226"
+      },
+      "syllabus": "Introdução ao estudo da anatomia. Aparelho Locomotor. Sistema Nervoso. Sistema Circulatório (cardiovascular e linfático). Sistema Digestório. Sistema Urinário. Sistema Respiratório. Sistema Reprodutor (masculino e feminino). Sistema Endócrino."
+    },
+    {
+      "id": "MOR5228",
+      "code": "MOR5228",
+      "name": "Histologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5112"
+      ],
+      "equivalents": [
+        "MOR5226"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5112"
+          },
+          {
+            "kind": "hours",
+            "hours": 5228
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MOR5226"
+      },
+      "prerequisiteHours": 5228,
+      "syllabus": "Noções de microscopia de luz e técnicas histológicas. Tecido Epitelial. Tecido Conjuntivo (e variações: ósseo, cartilaginoso e sangue). Tecido Muscular. Tecido Nervoso. Histologia dos Sistemas: cardiovascular, linfático, digestório, urinário, reprodutor e endócrino."
+    },
+    {
+      "id": "MTM3181",
+      "code": "MTM3181",
+      "name": "Cálculo para Ciências Agrárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3180"
+      ],
+      "equivalents": [
+        "MTM3101",
+        "MTM7136"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3180"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM7136"
+          }
+        ]
+      },
+      "syllabus": "-Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos); integral definida e indefinida."
+    },
+    {
+      "id": "QMC5125",
+      "code": "QMC5125",
+      "name": "Química Geral Experimental A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5150"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5150"
+      },
+      "syllabus": "Matéria. Conceitos gerais. Teoria atômica. Estrutura atômica. ConfiguraçãoEletrônica. Orbital Atômico. Ligações químicas: iônicas, covalentes, metálicas. Leis dos gases. Conceito de Mol. Funções químicas. Misturas. Soluções. Concentração de soluções. Equações químicas. Reações redox. Introdução ao Equilíbrio químico; ácidos ebases; ph. Calor de reação. Introdução á Termoquímica."
+    },
+    {
+      "id": "QMC5222",
+      "code": "QMC5222",
+      "name": "Química Orgânica Teórica A",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5150"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5150"
+      },
+      "syllabus": "Fundamentos: estrutura, ligações, isomeria de compostos orgânicos, estereoquímica. Classificação de reagentes e reações. Métodos de obtenção, propriedades químicas e físicas de alcanos, alcenos, alcadienos, alcinos e cicloalcanos. Efeitos eletrônicos. Ressonância e aromaticidade. Benzeno e compostos aromáticos relacionados."
+    },
+    {
+      "id": "BQA7005",
+      "code": "BQA7005",
+      "name": "Bioquímica 02 - Básica",
+      "credits": 6,
+      "hours": 108,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "-Química e importância biológica de aminoácidos, proteínas, carboidratos e lipídios. Enzimas: cinética e inibição. Coenzimas. Energética bioquímica e visão geral do metabolismo. Metabolismo de carboidratos, lipídios, aminoácidos e proteínas. Ciclo do nitrogênio, fixação e assimilação. Fotossíntese e ciclo do carbono. Inter-relações e regulação metabólicas. Bases moleculares da expressão gênica."
+    },
+    {
+      "id": "CAL5503",
+      "code": "CAL5503",
+      "name": "Microscopia de Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MOR5228"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MOR5228"
+      },
+      "syllabus": "Princípios físicos e equipamentos para microscopia: ótica, eletrônica de varredura (MEV), eletrônica de transmissão (MET), de fluorescência. Preparação de amostras. Aplicação dos diferentes métodos na área de alimentos. Microestrutura vegetal. Pesquisa de substâncias estranhas e métodos de isolamento. Efeito do processamento na microestrutura dos alimentos."
+    },
+    {
+      "id": "QMC5223",
+      "code": "QMC5223",
+      "name": "Química Orgânica Teórica B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5222"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5222"
+      },
+      "syllabus": "Haletos de alquila. Substituição nucleofílica SN1 e SN2, aspectos cinéticos e estereoquímicos. Efeito de solvente em reações orgânicas. Reagentes organometálicos e aplicações em síntese. Álcoois, obtenção, reações e mecanismos. Éteres. Aldeídos e Cetonas. Adição nucleofílica à carbonila. Ácidos carboxílicos e seus derivados: sais, ésteres, haletos de acila, anidridos, reatividade e mecanismos. Aminas e Sais de Diazônio e suas aplicações em síntese."
+    },
+    {
+      "id": "QMC5304",
+      "code": "QMC5304",
+      "name": "Química Analítica Teórica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5150"
+      ],
+      "equivalents": [
+        "QMC5302"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5150"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5302"
+      },
+      "syllabus": "Introdução à Química Analítica. Equilíbrio ácido- base.Princípio da análise volumétrica. Titulações ácido-base. Equilíbrio de precipitação. Análise gravimétrica. Titulações de precipitações. Equilíbrio de formação de complexos. Titulações com EDTA. Equilíbrio de oxidação-redução. Titulações de oxidação-redução. Tratamento de dados analíticos. Atividade e coecifiente de atividade."
+    },
+    {
+      "id": "ZOT7118",
+      "code": "ZOT7118",
+      "name": "Produção Animal para Ciência e Tecnologia de Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "ZOT7108"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "ZOT7108"
+      },
+      "syllabus": "Anatomia, fisiologia, estrutura morfofuncional dos sistemas, órgãos, tecidos e células responsáveis pela origem de alimentos: sistema digestório, sistema músculo esquelético, glândula mamária, controle neuroendócrino, formação do ovo, fisiologia do estresse. Criação de aves, suínos, bovinos e pequenos ruminantes com abordagem das características de forma e função de cada espécie. Nutrição animal e aproveitamento dos nutrientes da dieta para formação de leite, carne e ovos. Vísceras consumidas como alimento. Conceitos de bem-estar animal, introdução aos sistemas de produção animal e suas influências na qualidade do alimento (leite, carne e ovos). Apicultura e produção de mel."
+    },
+    {
+      "id": "CAL5003",
+      "code": "CAL5003",
+      "name": "Microbiologia para Ciência e Tecnologia de Alimentos",
+      "credits": 6,
+      "hours": 108,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BEG5112",
+        "BQA7005"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5112"
+          },
+          {
+            "kind": "course",
+            "code": "BQA7005"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Importância da microbiologia de alimentos. Fatores que controlam o desenvolvimento de microrganismos nos alimentos. Microrganismos indicadores, patogênicos e deteriorantes de interesse na indústria de alimentos. Controle do desenvolvimento microbiano em alimentos. Gerenciamento de risco microbiológico. Ensaios microbiológicos de alimentos, superfícies e manipuladores. Legislação microbiológica de alimentos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CFS5155",
+      "code": "CFS5155",
+      "name": "Fisiologia Humana para Ciência e Tecnologia de Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA7005",
+        "MOR5227",
+        "MOR5228"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA7005"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5227"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5228"
+          }
+        ]
+      },
+      "syllabus": "Homeostase. Líquidos corporais. Potencial de membrana e ação. Funções dos sistemas neuromuscular e neurovegetativo, sensorial, endócrino e digestório."
+    },
+    {
+      "id": "QMC5230",
+      "code": "QMC5230",
+      "name": "Química Orgânica Experimental I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5223"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5223"
+      },
+      "syllabus": "Síntese e técnicas de purificação de substâncias orgânicas líquidas: Destilação simples e fracionada. Destilação por arraste de vapor. Síntese e técnicas de purificação de substâncias orgânicas sólidas: Recristalização e uso de carvão ativo. Técnicas de refluxo e utilização de Tubo Dean-Stark. Determinação de pureza de compostos orgânicos através de constantes físicas. Purificação de sólidos por sublimação. Técnicas e extração: líquido-líquido e Soxhlet Cromatografia: Camada delgada e coluna."
+    },
+    {
+      "id": "QMC5238",
+      "code": "QMC5238",
+      "name": "Química Orgânica Biológica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5223"
+      ],
+      "equivalents": [
+        "QMC5220"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5223"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5220"
+      },
+      "syllabus": "Estrutura, propriedades físicas e químicas das principais classes de biomoléculas: Carboidratos, Lipídeos, Ácidos Nuclêicos, Aminoácidos, Peptídeos, Proteínas e Enzimas. Reatividade: Biossíntese e aplicações em síntese orgânica. Reações enzimáticas e ciclos metabólicos de Carboidratos, Lipídeos e Proteínas."
+    },
+    {
+      "id": "QMC5307",
+      "code": "QMC5307",
+      "name": "Química Analítica Experimental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5304"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5304"
+      },
+      "syllabus": "Equilíbrio de ácidos e bases fracos. Equilíbrio de complexação, precipitação e óxido-redução. Separação e reações analíticas de cátions e ânions. Análise gravimétrica. Titulação de neutralização, precipitação, complexação e óxido-redução. Análise de água. Análise de resíduos de mineração. Análise de minérios. Análise de ligas metálicas."
+    },
+    {
+      "id": "QMC5451",
+      "code": "QMC5451",
+      "name": "Físico-Química Aplicada a Ciência dos Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3181"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3181"
+      },
+      "syllabus": "Fundamentos de termodinâmica e termoquímica. Equilíbrio químico. Cinética Química. Catálise e cinética enzimática. Fundamentos de química de superfície aplicada a ciência dos alimentos."
+    },
+    {
+      "id": "QMC5454",
+      "code": "QMC5454",
+      "name": "Físico-Química Experimental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3181"
+      ],
+      "equivalents": [
+        "QMC5451"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3181"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5451"
+      },
+      "syllabus": "Calor de Reação. Equilíbrio entre fases líquidas. Coeficiente de viscosidade. Condutância nos Eletrólitos. Cinética Química. Cinética enzimática. Fenômenos de transporte. Isotermas de adsorção. Detergentes e tensoativos. Noções de espectroscopia UV-Vis."
+    },
+    {
+      "id": "QMC5461",
+      "code": "QMC5461",
+      "name": "Físico-Química Aplicada a Ciência dos Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3181"
+      ],
+      "equivalents": [
+        "QMC5451"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3181"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "QMC5451"
+      },
+      "syllabus": "Fundamentos de termodinâmica e termoquímica. Equilíbrio químico. Equilíbrio de Fases de Substâncias Puras. Cinética Química. Catálise e cinética enzimática. Fundamentos de química de superfície aplicada a ciência dos alimentos."
+    },
+    {
+      "id": "CAL5004",
+      "code": "CAL5004",
+      "name": "Higiene e Sanitização na Indústria de Alimentos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5003"
+          },
+          {
+            "kind": "hours",
+            "hours": 5004
+          }
+        ]
+      },
+      "prerequisiteHours": 5004,
+      "syllabus": "Conceitos básicos de Higiene Alimentar. Requisitos higiênicos nas indústrias de alimentos. Agentes, processos e avaliação de limpeza e sanitização. Qualidade da água. Procedimentos Padrões de Higienização Operacional (PPHO). Procedimentos Operacionais Padronizados (POPs). Boas Práticas de Fabricação (BPF) e Análise de Perigos e Pontos Críticos de Controle (APPCC)."
+    },
+    {
+      "id": "CAL5401",
+      "code": "CAL5401",
+      "name": "Bioquímica de Alimentos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Proteínas nos alimentos. Corantes. Água. Carboidratos nos alimentos. Vitaminas hidrossolúveis. Alimentos de origem animal e vegetal."
+    },
+    {
+      "id": "CAL5421",
+      "code": "CAL5421",
+      "name": "Bioquímica de Alimentos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5238"
+      ],
+      "equivalents": [
+        "CAL5401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5238"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5401"
+      },
+      "syllabus": "Água. Carboidratos nos alimentos. Proteínas nos alimentos. Pigmentos Naturais. Vitaminas hidrossolúveis. Composição química e transformações bioquímicas de alimentos de origem animal e vegetal."
+    },
+    {
+      "id": "CAL5504",
+      "code": "CAL5504",
+      "name": "Biologia Molecular e Biotecnologia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA7005",
+        "CAL5003"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA7005"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5003"
+          }
+        ]
+      },
+      "syllabus": "Estrutura dos ácidos nucléicos. Replicação do DNA. Transcrição e Síntese de proteínas. Seqüenciamento, análise comparativa dos genomas e análise de expressão. Tecnologia do DNA Recombinante. Métodos de isolamento, purificação e clonagem de genes. Detecção de contaminantes e microrganismos. Expressão e purificação de proteínas recombinantes. Produção de Microrganismos e plantas GM. Métodos de detecção e quantificação de OGM. Exemplos de alimentos transgênicos. Legislação sobre OGM."
+    },
+    {
+      "id": "CAL5505",
+      "code": "CAL5505",
+      "name": "Propriedade Física dos Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Fluidos newtonianos e não-newtonianos. Equações constitucionais. Reometria de alimentos líquidos. Reologia de alimentos sólidos e semi-sólidos. Relação das propriedades físicas com a constituição molecular dos alimentos. Atividade de água. Isoterma de sorção e desorção de água. Propriedades mecânicas dos alimentos"
+    },
+    {
+      "id": "CAL5507",
+      "code": "CAL5507",
+      "name": "Processos Fermentativos e Bioprocessos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico, conceitos e considerações sobre substâncias obtidas por fermentação. Aspectos de microbiologia dos processos fermentativos (necessidades nutricionais dos microrganismos). Formulação de meios de crescimento. Aspectos bioquímicos dos microrganismos. Cinética de crescimento microbiano. Fermentadores e métodos de fermentação. Processos envolvendo anaerobiose e respiração. Desinfecção e esterilização dos fermentadores e meios de cultivo. Substratos renováveis e não-renováveis. Proteínas uni e pluricelulares. Leveduras de panificação. Cultivos iniciadores para fermentação lática de produtos agroindustriais. Instalações industriais."
+    },
+    {
+      "id": "CAL5527",
+      "code": "CAL5527",
+      "name": "Processos Fermentativos e Bioprocessos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA7005",
+        "CAL5003"
+      ],
+      "equivalents": [
+        "CAL5507"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BQA7005"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5003"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5507"
+      },
+      "syllabus": "Microrganismos e meios de fermentação. Metabolismo microbiano. Cinética enzimática e de crescimento microbiano. Biorreatores e variáveis do sistema. Métodos de condução dos processos fermentativos. Fermentação em sistemas líquidos e em estado sólido. Fermentação lática. Fermentação alcoólica. Fermentação acética. Bioprodutos de interesse industrial: seleção de micro-organismos, produção e extração/purificação."
+    },
+    {
+      "id": "CAL5565",
+      "code": "CAL5565",
+      "name": "Propriedades Físicas dos Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5461"
+      ],
+      "equivalents": [
+        "CAL5505"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5461"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5505"
+      },
+      "syllabus": "Tamanho, forma e volume. Propriedades reológicas dos alimentos. Propriedades de superfície. Sistemas coloidais. Atividade de água e Isotermas de sorção. Propriedades eletromagnéticas. Propriedades térmicas dos alimentos."
+    },
+    {
+      "id": "QMC5351",
+      "code": "QMC5351",
+      "name": "Química Analítica Instrumental",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5307"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5307"
+      },
+      "syllabus": "Condutimetria.Potenciometria. Espectroscopia de absorção mlecular no ultravioleta e visível. Espectrometria de absorção atômica. Espectrometria de emissão óptica por plasma indutivamente acoplado (ICP OES) e espectrometria de masssa com plasma indutivamente acoplado (ICP-MS). Fotometria de chama. Cromatografia gasosa. Cromatografia líquida de alta eficiência. Métodos térmicos de análise."
+    },
+    {
+      "id": "CAL5502",
+      "code": "CAL5502",
+      "name": "Operações Unitárias Aplicadas aos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5505"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5505"
+      },
+      "syllabus": "Introdução aos fenômenos de transporte. Estática e dinâmica de fluídos. Transferência de calor e massa. Agitação e mistura de fluídos. Pasteurização, esterilização. Tipos de evaporadores e suas aplicações. Moagem. Extração. Separação de sólidos, líquidos e gases: tamização, destilação, centrifugação e filtração. Ciclo frigorífico, carga térmica, resfriamento e congelamento. Secagem de alimentos e tipos de secadores. Outras técnicas de condução e conservação."
+    },
+    {
+      "id": "CAL5526",
+      "code": "CAL5526",
+      "name": "Embalagem de Alimentos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5565"
+      ],
+      "equivalents": [
+        "CAL5516"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5565"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5516"
+      },
+      "syllabus": "Processos Agroindustriais Conceitos gerais e funções das embalagens. Materiais e tipos de embalagens. Processos de fabricação de embalagens. Parâmetros e avaliação de qualidade de embalagens. Embalagens ativas, inteligentes e com atmosfera modificada. Inovação e desenvolvimento de embalagens: materiais, tecnologias e produtos."
+    },
+    {
+      "id": "CAL5562",
+      "code": "CAL5562",
+      "name": "Operações Unitárias Aplicadas aos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5565"
+      ],
+      "equivalents": [
+        "CAL5502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5565"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5502"
+      },
+      "syllabus": "Introdução aos fenômenos de transporte. Balanços de massa e energia. Trocadores de calor. Agitação e mistura. Evaporação. Extração. Moagem. Processos de separação. Ciclo frigorífico. Resfriamento e congelamento. Psicrometria e Secagem."
+    },
+    {
+      "id": "CAL5580",
+      "code": "CAL5580",
+      "name": "Análise Química dos Alimentos",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5230",
+        "QMC5351"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "QMC5230"
+          },
+          {
+            "kind": "course",
+            "code": "QMC5351"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Processos Agroindustriais Legislação e Fiscalização de Alimentos. Rotulagem Nutricional de Alimentos Embalados. Amostragem e Preparação de amostras. Composição centesimal de alimentos. Métodos clássicos e instrumentais empregados no controle de qualidade de alimentos e bebidas.",
+      "extensionHours": 18
+    },
+    {
+      "id": "INE5131",
+      "code": "INE5131",
+      "name": "Métodos Estatísticos para Engenharias e Ciências Agrárias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "MTM3181"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3181"
+      },
+      "syllabus": "Teoria da probabilidade. Variáveis aleatórias e distribuição de probabilidade. Principais distribuições de probabilidade. Estimação de parâmetros. Testes de hipóteses. Análise de Variância. Análise de correlação e regressão linear."
+    },
+    {
+      "id": "NTR5634",
+      "code": "NTR5634",
+      "name": "Nutrição Aplicada à Ciência e Tecnologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "BQA7005"
+      ],
+      "equivalents": [
+        "NTR5100"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BQA7005"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "NTR5100"
+      },
+      "syllabus": "Conceitos básicos em Nutrição. Nutrientes: funções no organismo humano, biodisponibilidade, fontes alimentares, necessidades e recomendações nutricionais. Hábitos alimentares e principais doenças de origem nutricional na população brasileira. Guias alimentares populacionais. Princípios éticos em pesquisas com animais e seres humanos. Métodos de investigação na pesquisa em Nutrição Experimental."
+    },
+    {
+      "id": "CAL5124",
+      "code": "CAL5124",
+      "name": "Tecnologia de Cereais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5401",
+        "CAL5502"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5401"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5502"
+          }
+        ]
+      },
+      "syllabus": "Estruturas dos grãos e influência no processamento e produto final. Aspectos agronômicos: influência genética e ambiental. Composição química: Amido, proteína , fibra alimentar e ingredientes funcionais. Armazenamento, beneficiamento e moagem. Malte e Preparação de cerveja e destilados. Controle de qualidade. Legislação."
+    },
+    {
+      "id": "CAL5402",
+      "code": "CAL5402",
+      "name": "Bioquímica de Alimentos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5238"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5238"
+      },
+      "syllabus": "Lipídios, oxidação, antioxidantes. Emulsões alimentares. Óleos e frituras, alterações. Vitaminas lipossolúveis. Enzimas em alimentos. Fermentação. Aditivos alimentares."
+    },
+    {
+      "id": "CAL5408",
+      "code": "CAL5408",
+      "name": "Análise Sensorial de Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "INE5131"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5131"
+      },
+      "syllabus": "Noções básicas sobre percepção sensorial. Perfil de características sensoriais de um alimento: sabor, odor, cor, textura. Análise comparativa dos atributos sensoriais de um alimento. Aceitabilidade preferencial, equipamentos, seleção e treinamento de degustadores. Organização do painel de testes. Testes mais comuns, técnicas especiais. Apresentação dos resultados, análise estatística dos testes."
+    },
+    {
+      "id": "CAL5422",
+      "code": "CAL5422",
+      "name": "Bioquímica de Alimentos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "QMC5238"
+      ],
+      "equivalents": [
+        "CAL5402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5238"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CAL5402"
+      },
+      "syllabus": "Lipídios. Oxidação. Termo oxidação: alterações de óleos e gorduras durante as frituras. Antioxidantes. Vitaminas lipossolúveis. Emulsões alimentares. Enzimas em alimentos. Aditivos alimentares."
+    },
+    {
+      "id": "CAL5523",
+      "code": "CAL5523",
+      "name": "Trabalho de Conclusão de Curso I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5562",
+        "CAL5580"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5562"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5580"
+          }
+        ]
+      },
+      "syllabus": "Conceitos do método científico e de pesquisa. Revisão de produção científica. Redação e Normatização de trabalhos científicos e técnicas de apresentação pública. Definição de tema (com foco na ciência de tecnologia de alimentos), local de execução e orientador do trabalho de conclusão de curso. Elaboração e entrega do projeto de TCC contento: revisão bibliográfica, material e métodos, cronograma de execução e viabilidade"
+    },
+    {
+      "id": "CAL5586",
+      "code": "CAL5586",
+      "name": "Tecnologia de Leite e Derivados (EXT 18h-",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5421"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5421"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Considerações sobre o leite como matéria-prima para a indústria de laticínios. Legislação. Transporte e distribuição. Composição, aspectos físico-químicos e microbiológicos do leite. Processamento de leite fluido. Leite concentrado, leite em pó e leite condensado. Processamento de produtos lácteos: doce de leite, leites fermentados, bebidas lácteas, queijos, manteiga e sorvete. Soro de leite. Tendências e inovações em laticínios."
+    },
+    {
+      "id": "CAL5587",
+      "code": "CAL5587",
+      "name": "Tecnologia de Cereais",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5401",
+        "CAL5421",
+        "CAL5502",
+        "CAL5562"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5401"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5421"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5502"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5562"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "a) CAL5562) Estruturas dos grãos e influência no processamento e produto final. Aspectos agronômicos: influência genética e ambiental. Composição química: Amido, proteína, fibra alimentar e ingredientes funcionais. Armazenamento, beneficiamento e moagem. Malte. Amidos modificados. Processos de panificação, fabricação de bolachas, e cereais matinais. Controle de qualidade. Legislação.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5589",
+      "code": "CAL5589",
+      "name": "Toxicologia de Alimentos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5580"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5580"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Conceitos básicos de toxicologia alimentar. Exposição e vias de introdução. Toxicidade dos contaminantes para humanos e animais. Legislação. Substâncias tóxicas naturais: ficotoxinas, fitotoxinas, micotoxinas. Resíduos e contaminantes químicos em alimentos de origem vegetal e animal: agrotóxicos, metais pesados, aditivos químicos, resíduos de medicamentos e promotores de crescimento em produtos de origem animal. Substâncias tóxicas produzidas no processamento de alimentos. Métodos analíticos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5524",
+      "code": "CAL5524",
+      "name": "Trabalho de Conclusão de Curso II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5523"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5523"
+      },
+      "syllabus": "O trabalho de conclusão de curso, referente a uma revisão bibliográfica ou trabalho original de pesquisa, deverá ser orientado por um professor da UFSC, com foco na ciência de tecnologia de alimentos, de modo a contribuir para o desenvolvimento científico e crítico-reflexivo do discente. A disciplina TCC2 deverá abordar: a) elaboração do trabalho prático/redação da monografia; b) redação do trabalho de conclusão decurso; c) apresentação final do trabalho de conclusão de curso perante uma banca."
+    },
+    {
+      "id": "CAL5581",
+      "code": "CAL5581",
+      "name": "Gestão da Qualidade na Indústria de Alimentos",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5562"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5562"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Contextualização da gestão da qualidade e histórico. Estruturação de projeto da qualidade. Qualidade e produtividade. Enfoques, abordagens, teorias e princípios da qualidade. Determinantes da qualidade. Pensamento estratégico e visão sistêmica do negócio. Processos e administração por processos. Sistemas integrados de gestão empresarial. Implementação de sistemas de gestão da qualidade. Indicadores de desempenho e ferramentas da qualidade. Controle Estatístico de Processo. Normas e padrões de qualidade.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5582",
+      "code": "CAL5582",
+      "name": "Tecnologia de Carnes e Derivados",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5421",
+        "CAL5562",
+        "ZOT7118"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5421"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5562"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7118"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Carnes, conceito, estrutura e bioquímica. Abatedouros. Estocagem e armazenamento. Aditivos. Processos industriais: salga; defumação; cozimento, pasteurização, esterilização, irradiação. Hambúrguer. Empanados. Curados: Salsichas; Linguiças; Fiambres; Presuntos. Curados crus: Salame; Presunto cru; Copa. Embalagens de produtos cárneos. Processamento de subprodutos.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5583",
+      "code": "CAL5583",
+      "name": "Tecnologia de Frutas e Hortaliças",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5422",
+        "CAL5562",
+        "FIT5930"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5422"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5562"
+          },
+          {
+            "kind": "course",
+            "code": "FIT5930"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Composição de frutas e hortaliças. Transporte, recepção de matéria prima, limpeza e seleção. Qualidade pós-colheita de frutas e hortaliças. Sistemas de embalagens e armazenamento. Minimamente processados. Processos tecnológicos em frutas e hortaliças: conservação pelo calor (acidificadas e não acidificadas), conservação por controle osmótico, conservação pelo controle de umidade, conservação por fermentação. Aproveitamento de subprodutos. Legislação.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5584",
+      "code": "CAL5584",
+      "name": "Tecnologia de Pescados e Derivados",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5421",
+        "CAL5562"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5421"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5562"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Processos de preservação de pescados. Sistemas de sanificação e controle de qualidade em indústrias de pescados. Inspeção e legislação sanitária. Transporte, distribuição e comercialização de pescados.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5585",
+      "code": "CAL5585",
+      "name": "Planejamento e Projeto Agroindustrial",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5562"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5562"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Tendências no consumo de alimentos e estratégias de desenvolvimento de novos produtos. Estruturação dos elementos básicos para uma unidade de processamento de alimentos. Desenvolvimento de Projetos Agroindustriais.",
+      "extensionHours": 18
+    },
+    {
+      "id": "CAL5588",
+      "code": "CAL5588",
+      "name": "Tecnologia de Óleos e Gorduras (EXT 18h-",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5422"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5422"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Matérias-primas oleaginosas: produção mundial, composição e principais características. Processamentos de óleos e gorduras. Preparação de matérias- primas. Extração. Refino: degomagem, neutralização, clarificação, desodorização. Modificação de óleos e gorduras: hidrogenação, interesterificação e fracionamento. Controle de qualidade de óleos e gorduras nas diferentes etapas do processamento. Gorduras modificadas (shortenings e margarinas)."
+    },
+    {
+      "id": "CAL5525",
+      "code": "CAL5525",
+      "name": "Estágio Curricular Obrigatório",
+      "credits": 22,
+      "hours": 396,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "CAL5524",
+        "CAL5531",
+        "CAL5570",
+        "CAL5571",
+        "CAL5572",
+        "CAL5581",
+        "CAL5582",
+        "CAL5583",
+        "CAL5584",
+        "CAL5585",
+        "CAL5588"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAL5524"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5531"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5570"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5571"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5572"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5581"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5582"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5583"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5584"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5585"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5588"
+          },
+          {
+            "kind": "hours",
+            "hours": 252
+          }
+        ]
+      },
+      "prerequisiteHours": 252,
+      "syllabus": "Estágio curricular obrigatório, supervisionado, realizado em Instituições Públicas ou Privadas de Ensino, Pesquisa e/ou prestação de serviços, em atividades voltadas às áreas de atuação do Cientista de Alimentos (total de 360 horas-aula na concedente). Atividade individual, desenvolvida de acordo com o plano de trabalho previamente estabelecido, e orientada por um docente do Departamento de Ciência e Tecnologia de Alimentos, sob a supervisão de um profissional da área atuante na concedente. Realização de reuniões com o Coordenador de Estágios (total de 18 horas-aula). Elaboração do Trabalho de Conclusão de Estágio (TCE), contemplando as atividades desenvolvidas, observando-se a metodologia e redação científica, conforme regulamento do curso (total de 18 horas-aula para a elaboração do TCE)."
+    },
+    {
+      "id": "CAL5531",
+      "code": "CAL5531",
+      "name": "Atividades Complementares I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Atividades extraclasses, realizadas a partir da primeira fase e validadas na oitava fase, como estágios não obrigatórios, trabalhos de iniciação científica, participação em eventos, publicações em periódicos, monitorias, gestão de empresa júnior, entre outras."
+    },
+    {
+      "id": "CAL5570",
+      "code": "CAL5570",
+      "name": "Ações de Extensão I - Projetos (EXT 126h-",
+      "credits": 7,
+      "hours": 126,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 126
+      },
+      "prerequisiteHours": 126,
+      "syllabus": "Atividades de Extensão"
+    },
+    {
+      "id": "CAL5571",
+      "code": "CAL5571",
+      "name": "Acões de Extensão II - Eventos (EXT 36h-",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "a)"
+    },
+    {
+      "id": "CAL5572",
+      "code": "CAL5572",
+      "name": "Ações de Extensão III - Cursos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "a)",
+      "extensionHours": 36
+    },
+    {
+      "id": "CAD5240",
+      "code": "CAD5240",
+      "name": "Aspectos Comportamentais do Empreendedor",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de empreendedorismo. A formação da Personalidade. O Processo comportamental. Fatores de sucesso, o perfil do empreendedor. Desenvolvimento de habilidades empreendedoras."
+    },
+    {
+      "id": "CAL5513",
+      "code": "CAL5513",
+      "name": "Tecnologia de Panificação",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAL5421"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5421"
+      },
+      "syllabus": "Processos de panificação e fabricação de pães, bolachas, biscoitos e massas."
+    },
+    {
+      "id": "CAL5514",
+      "code": "CAL5514",
+      "name": "Tecnologia de Bebidas",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAL5527"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5527"
+      },
+      "syllabus": "Fermentados alcoólicos: vinhos, aguardentes, cerveja. Bebidas fermento-destiladas. Bebidas fermento-destilo-retificadas. Bebidas compostas. Fermentação acética. Bebidas carbonatadas não-alcoólicas. Instalações industriais."
+    },
+    {
+      "id": "CAL5517",
+      "code": "CAL5517",
+      "name": "Alimentos Funcionais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conceito de alimento funcional e nutracêutico. Legislação brasileira e mundial. Proteína de soja e isoflavonas. Fibras alimentares. Ácidos graxos poli- insaturados de cadeia longa (EPA e DHA). Alho e óleo de alho. Uva e suco de uvas (catequina, epicatequina, revertrol e proantocianidinas). Limoneno, licopeno, alicina. Produtos lácteos pré-bióticos e pró-bióticos. Isocianatos e indoles (brócolis, couve-flor, couve-de-bruxelas, repolho, agrião, nabo e rabanete). Clorofila. Vitaminas e efeito antioxidante."
+    },
+    {
+      "id": "CAL5520",
+      "code": "CAL5520",
+      "name": "Tecnologias Limpas na Agroindústria",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAL5562"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5562"
+      },
+      "syllabus": "Conceitos e procedimentos que permitam o emprego da Tecnologia Limpa como ferramenta para a minimização de resíduos, geração de novos produtos e valorização de resíduos agroindustriais. Análise de ciclo de vida do produto. Integração multidisciplinar no sentido da geração de matérias-primas e de processos ecologicamente corretos."
+    },
+    {
+      "id": "CAL5541",
+      "code": "CAL5541",
+      "name": "Programa de Intercâmbio I",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Participação em Programas de Intercâmbio Acadêmico - decorrente de convênio assinado com Instituições de Ensino Superior, Agência de Fomento, Centros de Pesquisa e instituições semelhantes - visando a realização de atividades acadêmicas como cursos, estágios e pesquisas orientadas ao aprimoramento da formação do aluno, devidamente aprovadas pelo Colegiado do Curso."
+    },
+    {
+      "id": "CAL5542",
+      "code": "CAL5542",
+      "name": "Programa de Intercâmbio II",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAL5541"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5541"
+      },
+      "syllabus": "Participação em Programas de Intercâmbio Acadêmico - decorrente de convênio assinado com Instituições de Ensino Superior, Agência de Fomento, Centros de Pesquisa e instituições semelhantes - visando a realização de atividades acadêmicas como cursos, estágios e pesquisas orientadas ao aprimoramento da formação do aluno, devidamente aprovadas pelo Colegiado do Curso."
+    },
+    {
+      "id": "CAL5543",
+      "code": "CAL5543",
+      "name": "Programa de Intercâmbio III",
+      "credits": 0,
+      "hours": 0,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "CAL5542"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAL5542"
+      },
+      "syllabus": "Participação em Programas de Intercâmbio Acadêmico - decorrente de convênio assinado com Instituições de Ensino Superior, Agência de Fomento, Centros de Pesquisa e instituições semelhantes - visando a realização de atividades acadêmicas como cursos, estágios e pesquisas orientadas ao aprimoramento da formação do aluno, devidamente aprovadas pelo Colegiado do Curso."
+    },
+    {
+      "id": "CAL5551",
+      "code": "CAL5551",
+      "name": "Tópicos Especiais em Ciências e Tecnologia de Alimentos I",
+      "credits": 1,
+      "hours": 18,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos não constantes das demais disciplinas, mas que constituem temas atuais e relevantes para a pesquisa na área de ciência e tecnologia de alimentos. A ementa, o programa e a bibliografia serão formulados pelo professor responsável por cada turma, os quais deverão ser deferidos pela coordenadoria do curso."
+    },
+    {
+      "id": "CAL5552",
+      "code": "CAL5552",
+      "name": "Tópicos Especiais em Ciências e Tecnologia de Alimentos II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos não constantes das demais disciplinas, mas que constituem temas atuais e relevantes para a pesquisa na área de ciência e tecnologia de alimentos. A ementa, o programa e a bibliografia serão formulados pelo professor responsável por cada turma, os quais deverão ser deferidos pela coordenadoria do curso."
+    },
+    {
+      "id": "CAL5553",
+      "code": "CAL5553",
+      "name": "Tópicos Especiais em Ciências e Tecnologia de Alimentos III",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Tópicos não constantes das demais disciplinas, mas que constituem temas atuais e relevantes para a pesquisa na área de ciência e tecnologia de alimentos. A ementa, o programa e a bibliografia serão formulados pelo professor responsável por cada turma, os quais deverão ser deferidos pela coordenadoria do curso."
+    },
+    {
+      "id": "CAL5555",
+      "code": "CAL5555",
+      "name": "Rotulagem de Alimentos Embalados",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Legislações sobre Rotulagem dos Alimentos. Informações obrigatórias nos rótulos. Rotulagem facultativa. Advertências obrigatórias. Rotulagem de alimentos para fins especiais. Rotulagem Nutricional Obrigatória de Alimentos e Bebidas Embalados. Rotulagem Nutricional Complementar de Alimentos e Bebidas Embalados."
+    },
+    {
+      "id": "ENR8004",
+      "code": "ENR8004",
+      "name": "Cultivo Protegido e Hidroponia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Conceitos e Introdução. Materiais, equipamentos e estruturas. Manejo dos materiais, equipamentos e estruturas. Manejo do ambiente de cultivo. Cultivo e manejo em ambiente protegido. Cultivo hidropônico.",
+      "extensionHours": 18
+    },
+    {
+      "id": "EXR6000",
+      "code": "EXR6000",
+      "name": "Ciência, Tecnologia e Saberes na",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Compreensão das interfaces entre ciência, tecnologia e saberes. Mudança tecnológica. Transição sócio técnica. Sistema agroalimentar."
+    },
+    {
+      "id": "EXR7402",
+      "code": "EXR7402",
+      "name": "Legislação Agrária, Gestão e Planejamento",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Agricultura Desenvolvimento integrado. Legislação agrária. Base legal e legislação para a gestão ambiental. Auditoria ambiental. Controle de qualidade ambiental. Planejamento e o enfoque ambiental."
+    },
+    {
+      "id": "EXR7611",
+      "code": "EXR7611",
+      "name": "Sistemas Alimentares Sustentáveis e Associativismo",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Ambiental Sistemas alimentares sustentáveis: noções teóricas e abordagens práticas. Análise das cadeias produtivas e dos mercados agroalimentares. Políticas de fomento da produção e da comercialização de alimentos. Experiências de ação coletiva no meio rural. Conceitos e práticas cooperativas."
+    },
+    {
+      "id": "FIT5021",
+      "code": "FIT5021",
+      "name": "Viticultura e Enologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "- Botânica e ecologia da videira. Melhoramento genético e variedades. Propagação, viveiros e produção de mudas. Preparo solo, implantação, manejo e conservação do solo em vinhedos. Fisiologia e manejo da videira. Manejo e controle de doenças e pragas da videira. Maturação e colheita da uva. Microbiologia Enológica. Química enológica. Vinificações. Prática enológica. Maturação, envelhecimento e engarrafamento de vinhos. Análise Sensorial. Controle qualidade e rastreabilidade. Valorização dos produtos e marketing vitivinicola."
+    },
+    {
+      "id": "FIT5921",
+      "code": "FIT5921",
+      "name": "Botânica Aplicada a Ciência e Tecnologia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução à botânica. Conceitos e métodos taxonômicos. Nomenclatura botânica. Principais táxons de plantas de interesse para alimentos. Vegetação e flora regional. Usos, extrativismo e manejo de espécies da flora regional."
+    },
+    {
+      "id": "FIT5922",
+      "code": "FIT5922",
+      "name": "Plantas Condimentares e Medicinais",
+      "credits": 2,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "de Alimentos Histórico, importância econômica, social e aspectos de mercado. Origem das espécies, botânica e quimiotaxinomia, cultivares, produção in vivo e in vitro de biomassa, efeito de fatores climáticos e de manejo em pré e pós-colheita sobre a composição química do produto final, colheita, processamento, embalagem e comercialização das principais espécies condimentares e medicinais. Elaboração de projetos."
+    },
+    {
+      "id": "FIT5923",
+      "code": "FIT5923",
+      "name": "Nutrigenômica e Metabolômica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Histórico, importância social e econômica de hábitos alimentares, nitrigenética e epigenômica nutricional. Dieta e patafisiologia (câncer, doenças cardiovasculares e diabetes). Metabólitos secundários de interesse à saúde humana em alimentos. Métodos de estudo em nutrigenômica e metabolômica de alimentos. Desenvolvimento de produtos e estudo de mercado."
+    },
+    {
+      "id": "LSB7244",
+      "code": "LSB7244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Prática de conversação em Libras habilitando o aluno a se comunicar nível básico. Mitos e Crenças relacionadas à Língua Brasileira de Sinais (Libras) e aos Surdos. Noções sobre os estudos linguísticos das línguas de sinais em diferentes níveis da descrição linguística. Conceitos básicos da Língua Brasileira de Sinais como iconicidade e arbitrariedade e aspectos culturais e históricos específicos da comunidade surda brasileira. Educação de surdos, papéis dos professores e de intérpretes de libras-português em uma perspectiva inclusiva. Atividades de prática como componente curricular aplicadas à comunicação em Libras."
+    },
+    {
+      "id": "PSI5112",
+      "code": "PSI5112",
+      "name": "Relações Humanas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "18h-a) A personalidade humana. Os grupos e sua dinâmica, a comunicação e seus problemas."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "BEG5112",
+      "CAL5200",
+      "FIT5930",
+      "MTM3180",
+      "QMC5150",
+      "CAL5554",
+      "FSC7118",
+      "MOR5226",
+      "MOR5227",
+      "MOR5228",
+      "MTM3181",
+      "QMC5125",
+      "QMC5222",
+      "BQA7005",
+      "CAL5503",
+      "QMC5223",
+      "QMC5304",
+      "ZOT7118",
+      "CAL5003",
+      "CFS5155",
+      "QMC5230",
+      "QMC5238",
+      "QMC5307",
+      "QMC5451",
+      "QMC5454",
+      "QMC5461",
+      "CAL5004",
+      "CAL5401",
+      "CAL5421",
+      "CAL5504",
+      "CAL5505",
+      "CAL5507",
+      "CAL5527",
+      "CAL5565",
+      "QMC5351",
+      "CAL5502",
+      "CAL5526",
+      "CAL5562",
+      "CAL5580",
+      "INE5131",
+      "NTR5634",
+      "CAL5124",
+      "CAL5402",
+      "CAL5408",
+      "CAL5422",
+      "CAL5523",
+      "CAL5586",
+      "CAL5587",
+      "CAL5589",
+      "CAL5524",
+      "CAL5581",
+      "CAL5582",
+      "CAL5583",
+      "CAL5584",
+      "CAL5585",
+      "CAL5588",
+      "CAL5525",
+      "CAL5531"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 252,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "CAL5570",
+              "CAL5571",
+              "CAL5572",
+              "CAD5240",
+              "CAL5513",
+              "CAL5514",
+              "CAL5517",
+              "CAL5520",
+              "CAL5541",
+              "CAL5542",
+              "CAL5543",
+              "CAL5551",
+              "CAL5552",
+              "CAL5553",
+              "CAL5555",
+              "ENR8004",
+              "EXR6000",
+              "EXR7402",
+              "EXR7611",
+              "FIT5021",
+              "FIT5921",
+              "FIT5922",
+              "FIT5923",
+              "LSB7244",
+              "PSI5112"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "503",
+    "curriculumCode": "20241",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=503&curriculo=20241",
+    "sha256": "42faf46952a596003671d1300c751e46ed854904b8a2cd892c7e1c30da28340e",
+    "capturedAt": "2026-09-22"
+  }
+}

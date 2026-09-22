@@ -1,0 +1,2231 @@
+{
+  "program": "ENGENHARIA TÊXTIL [Campus Blumenau]",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2021.1",
+  "totalHours": 4518,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "BLU6000",
+      "code": "BLU6000",
+      "name": "Introdução à Ciência da Computação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução aos computadores e sistemas operacionais; uso do computador (manipulação de arquivos e textos, execução de programas, pesquisa na internet); noções de algoritmos, programas e linguagens de programação; tipos de dados e variáveis; expressões lógicas, estruturas de controle; vetores e matrizes; modularização."
+    },
+    {
+      "id": "CAC6000",
+      "code": "CAC6000",
+      "name": "Introdução a Ciência da Computação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3101",
+        "BLU6000"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU3101"
+          },
+          {
+            "kind": "course",
+            "code": "BLU6000"
+          }
+        ]
+      },
+      "syllabus": "Introdução aos computadores e sistemas operacionais; uso do computador (manipulação de arquivos e textos, execução de programas, pesquisa na internet); noções de algoritmos, programas e linguagens de programação; tipos de dados e variáveis; expressões lógicas, estruturas de controle; vetores e matrizes; modularização."
+    },
+    {
+      "id": "CEE1101",
+      "code": "CEE1101",
+      "name": "Química Experimental",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1101"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1101"
+      },
+      "syllabus": "Conceitos fundamentais e manuseio de aparelhagem; Estequiometria; Soluções e titulação ácido e base; Operações com misturas; Termoquímica; Eletroquímica; Cinética; Equilíbrio químico."
+    },
+    {
+      "id": "CEE7101",
+      "code": "CEE7101",
+      "name": "Química Geral I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "CEE5101",
+        "CEE6003"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE5101"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6003"
+          }
+        ]
+      },
+      "syllabus": "Estrutura atômica. Tabela e propriedades periódicas. Ligações químicas. Forças intermoleculares. Reações químicas e estequiometria. Teorias ácido-base. Soluções."
+    },
+    {
+      "id": "DET1100",
+      "code": "DET1100",
+      "name": "Introdução à Engenharia Têxtil",
+      "credits": 3,
+      "hours": 54,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1100"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1100"
+      },
+      "syllabus": "Definição de engenharia. O engenheiro têxtil e suas competências. Matriz curricular do curso e integralização dos conteúdos. Indústria têxtil: histórico, cadeia, processos e produtos. Inovação e empreendedorismo."
+    },
+    {
+      "id": "MAT2101",
+      "code": "MAT2101",
+      "name": "Pré-Cálculo",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Conjuntos e aritmética básica. Cálculo com expressões algébricas. Equações. Inequações. Funções."
+    },
+    {
+      "id": "MAT2111",
+      "code": "MAT2111",
+      "name": "Geometria Analítica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6905"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6905"
+      },
+      "syllabus": "Matrizes. Determinantes. Sistemas lineares. Álgebra vetorial. Estudo da reta e do plano. Curvas planas. Superfícies."
+    },
+    {
+      "id": "CAC6002",
+      "code": "CAC6002",
+      "name": "Desenho Técnico para Engenharia",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU6002"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6002"
+      },
+      "syllabus": "Introdução ao Desenho Técnico. Normas fundamentais para o Desenho Técnico. Sistemas de representação nos diedros. Projeções ortogonais de peças simples. Sistema de cotagem e proporções. Perspectivas. Introdução a software para expressão gráfica"
+    },
+    {
+      "id": "CAC7006",
+      "code": "CAC7006",
+      "name": "Sociedade, Tecnologia e História (EXT18h-",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU7005"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7005"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Noções sobre História, Cultura Material, Técnica, Ciência, Tecnologia e Sociedade. Transformações da técnica e da tecnologia nos diferentes tempos históricos. Técnica, sociedade e transformação dos processos socioculturais. Relações do homem com a matéria e com o objeto técnico no processo histórico. Tecnologia, Saberes Tradicionais e Inovação na História africana, afro-brasileira e dos povos de matriz indígena."
+    },
+    {
+      "id": "CEE2400",
+      "code": "CEE2400",
+      "name": "Química Orgânica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7101"
+      ],
+      "equivalents": [
+        "BLU2400"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2400"
+      },
+      "syllabus": "a) Introdução ao estudo da química orgânica. Ligações químicas e estrutura molecular. Forças intermoleculares. Ácidos e bases em Química Orgânica. Análise conformacional e estereoquímica. Introdução às reações orgânicas. Reações de adição à ligação dupla C=C. Reações de substituição nucleofílica ao carbono saturado. Reações de eliminação. Aromaticidade. Reações de substituição eletrofílica. Reações de adição, condensação e substituição de compostos carbonílicos. Radicais livres."
+    },
+    {
+      "id": "DET1202",
+      "code": "DET1202",
+      "name": "Ciências dos Materiais Têxteis",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7101"
+      ],
+      "equivalents": [
+        "BLU1202"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1202"
+      },
+      "syllabus": "Classificação de materiais; estrutura e arranjos; materiais poliméricos; materiais cerâmicos; materiais metálicos e corrosão; materiais nanoestruturados; propriedades físicas, químicas e biológicas dos materiais utilizados na indústria têxtil e suas aplicações; introdução a técnicas de caracterização dos materiais; inovações tecnológicas."
+    },
+    {
+      "id": "DET1203",
+      "code": "DET1203",
+      "name": "Introdução a Elementos de Máquinas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Apresentação dos diferentes elementos de máquinas: de fixação; elementos flexíveis elásticos (molas); de transmissão (correias, polias, correntes, engrenagens); de apoio (mancais, buchas e guias); acoplamentos; vedação; máquinas de elevação e transporte; lubrificação. Exemplos de aplicações nas diferentes áreas têxteis."
+    },
+    {
+      "id": "DET1205",
+      "code": "DET1205",
+      "name": "Polímeros e Fibras I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7101"
+      ],
+      "equivalents": [
+        "BLU1305"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1305"
+      },
+      "syllabus": "Conceito e classificação de fibras têxteis. Definição das propriedades das fibras têxteis e sua relação com os processos têxteis. Fibras naturais: vegetais, animais e minerais; estrutura molecular, propriedades e características, beneficiamento e mercado. Fibras não orgânicas; propriedades e características, formas de obtenção e aplicações. Fibras artificiais: celulósicas, proteicas e de carboidratos; constituição química, estrutura molecular, propriedades, processos de fabricação e aplicações. Aspectos étnicos das fibras naturais."
+    },
+    {
+      "id": "MAT2201",
+      "code": "MAT2201",
+      "name": "Cálculo 1",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2101"
+      ],
+      "equivalents": [
+        "BLU6001"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6001"
+      },
+      "syllabus": "Cálculo de funções de uma variável real: limites; continuidade; derivada; aplicações da derivada (taxas de variação, retas tangentes e normais, problemas de otimização e máximos e mínimos, esboço de gráficos, aproximações lineares e quadráticas); integral definida e indefinida; áreas entre curvas; técnicas de integração (substituição, por partes, substituição trigonométrica, frações parciais). Integral imprópria"
+    },
+    {
+      "id": "CAC6013",
+      "code": "CAC6013",
+      "name": "Estatística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU6013"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6013"
+      },
+      "syllabus": "Estatística Descritiva. Axiomas de Probabilidade. Probabilidade Condicional. Independência. Teorema de Bayes. Variáveis aleatórias Discretas e Contínuas. Modelos de Probabilidade para variáveis aleatórias Discretas: Bernoulli, Binomial e Poisson. Modelos de Probabilidade para Variáveis Contínuas: Uniforme, Normal, Exponencial e Gamma. Inferência Estatística: Distribuições Amostrais, Intervalos de Confiança e Testes de Hipóteses."
+    },
+    {
+      "id": "CEE1221",
+      "code": "CEE1221",
+      "name": "Química Orgânica Experimental",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE2400"
+      ],
+      "equivalents": [
+        "BLU1221"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE2400"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1221"
+      },
+      "syllabus": "Grandezas físicas, sistemas de unidades e representação vetorial. Movimento em uma dimensão. Movimento em duas dimensões. Leis de Newton. Aplicações das Leis de Newton. Trabalho e energia. Quantidade de movimento, impulso e colisões. Cinemática da rotação. Dinâmica da rotação."
+    },
+    {
+      "id": "CEE6106",
+      "code": "CEE6106",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU6106"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6106"
+      },
+      "syllabus": "Grandezas físicas, sistemas de unidades e representação vetorial. Movimento em uma dimensão. Movimento em duas dimensões. Leis de Newton. Aplicações das Leis de Newton. Trabalho e energia. Quantidade de movimento, impulso e colisões. Cinemática da rotação. Dinâmica da rotação."
+    },
+    {
+      "id": "CEE6206",
+      "code": "CEE6206",
+      "name": "Física Experimental I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU6206"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6206"
+      },
+      "syllabus": "Algarismos Significativos. Erros. Gráficos. Força e movimento. Momento. Trabalho e Energia."
+    },
+    {
+      "id": "DET1305",
+      "code": "DET1305",
+      "name": "Tecnologia de Fiação I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1205"
+      ],
+      "equivalents": [
+        "BLU1405"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1205"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1405"
+      },
+      "syllabus": "-Fundamentos da fiação de fibras cortadas curtas; classificação e gerenciamento da matéria-prima; fluxos de fabricação e obtenção de diferentes processos (sistemas de fiação); conceito de mistura íntima; sistema de titulação dos fios; tecnologia de abertura (sala de abertura e carda); sistemas de estiragem; tecnologia do passador; conceitos de mistura dinâmica; estiragem mecânica e prática e fundamentos mecânicos; cálculos de produção."
+    },
+    {
+      "id": "DET1306",
+      "code": "DET1306",
+      "name": "Polímeros e Fibras II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE2400"
+      ],
+      "equivalents": [
+        "BLU1406"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE2400"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1406"
+      },
+      "syllabus": "Conceito e classificação de fibras têxteis. Definição das propriedades das fibras têxteis e sua relação com os processos têxteis. Fibras naturais: vegetais, animais e minerais; estrutura molecular, propriedades e características, beneficiamento e mercado. Fibras não orgânicas; propriedades e características, formas de obtenção e aplicações. Fibras artificiais: celulósicas, proteicas e de carboidratos; constituição química, estrutura molecular, propriedades, processos de fabricação e aplicações. Aspectos étnicos das fibras naturais."
+    },
+    {
+      "id": "MAT2301",
+      "code": "MAT2301",
+      "name": "Cálculo 2",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2111",
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU6004"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MAT2111"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2201"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6004"
+      },
+      "syllabus": "Funções de várias variáveis. Derivadas parciais. Máximos e mínimos de funções de duas variáveis. Equações diferenciais ordinárias de primeira ordem. Equações diferenciais ordinárias lineares homogêneas de ordem n. Equações diferenciais ordinárias lineares não homogêneas de ordem 2. Noções gerais de Transformada de Laplace."
+    },
+    {
+      "id": "CAC6011",
+      "code": "CAC6011",
+      "name": "Mecânica dos Sólidos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6106",
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU6011"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6011"
+      },
+      "syllabus": "Introdução. Esforços internos em componentes estruturais. Tensão. Deformação. Propriedades mecânicas dos materiais. Esforço axial. Torção. Flexão. Flexão em vigas com dois ou mais materiais. Cisalhamento. Solicitações compostas. Análise das máximas tensões. Critérios de falha."
+    },
+    {
+      "id": "CAC7002",
+      "code": "CAC7002",
+      "name": "Ciência, Tecnologia e Sociedade (EXT 36h-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU7000"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 36
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU7000"
+      },
+      "prerequisiteHours": 36,
+      "syllabus": "Noções dos estudos CTS. Implicações sociais das ciências e das tecnologias. Relações entre mudança tecnológica e mudança social. Impactos científico e tecnológico e riscos. Progresso técnico e marginalização social. Questões de gênero e étnico-raciais em ciência e tecnologia. Tecnologias para inclusão social. Sistemas sócio tecnológicos e democracia sociotécnica. Estudos de controvérsias científicas e tecnológicas. Participação nas políticas públicas de CT. Desafios atuais para a América Latina. Ética, Direitos Humanos e Engenharia. Atividades e ações de extensão voltadas a articulação entre teoria e prática junto aos arranjos produtivos e demais setores da sociedade civil. Práticas extensionistas de divulgação científica e tecnológica."
+    },
+    {
+      "id": "CEE6109",
+      "code": "CEE6109",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6106",
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU6109"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2201"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6109"
+      },
+      "syllabus": "a) Estática de fluidos; Dinâmica de fluídos; Oscilações mecânicas; Ondas; Som; Temperatura; Calor e primeira lei da termodinâmica; Gás ideal; Entropia e segunda lei da termodinâmica."
+    },
+    {
+      "id": "CEE7004",
+      "code": "CEE7004",
+      "name": "Física Experimental II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6106",
+        "CEE6206"
+      ],
+      "equivalents": [
+        "BLU6009",
+        "BLU6209",
+        "CEE6209"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6106"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6206"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6009"
+          },
+          {
+            "kind": "course",
+            "code": "BLU6209"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6209"
+          }
+        ]
+      },
+      "syllabus": "Fluidos. Ondas e Som. Termodinâmica. Teoria cinética dos gases."
+    },
+    {
+      "id": "DET1405",
+      "code": "DET1405",
+      "name": "Tecnologia de Fiação II",
+      "credits": 3,
+      "hours": 54,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1305"
+      ],
+      "equivalents": [
+        "BLU1405"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1305"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1405"
+      },
+      "syllabus": "Conceitos de paralelização das fibras; fundamentos dos processos de penteadeira e maçaroqueira; conceitos de torção; tecnologias de filatórios (convencional): processo de fiação de anéis; processo de fiação rotor; outras tecnologias não convencionais de fiação (jato de ar, compactado, e outras tecnologias com baixa representatividade industrial); cálculos de produção; fios fantasia e especiais. Fiação de fibra longa: propriedades, aplicações e processos de fabricação. Caracterização de fios: defeitos, controle de qualidade e normas técnicas."
+    },
+    {
+      "id": "DET1408",
+      "code": "DET1408",
+      "name": "Fenômenos de Superfície",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE7101"
+      ],
+      "equivalents": [
+        "BLU1508"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE7101"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1508"
+      },
+      "syllabus": "Tensão Superficial e Interfacial. Termodinâmica de Interfaces. Filmes Superficiais. Adsorção. Fenômenos Elétricos nas Interfaces. Sistemas Coloidais. Fricção e Adesão. Molhabilidade, Flotação e Detergência. Emulsões, Espumas e Aerossóis."
+    },
+    {
+      "id": "DET1413",
+      "code": "DET1413",
+      "name": "Introdução ao Design e Moda (PIDRIS /",
+      "credits": 5,
+      "hours": 90,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC7006"
+      ],
+      "equivalents": [
+        "BLU1613"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC7006"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1613"
+      },
+      "syllabus": "Noções gerais de design e moda. Introdução às estruturas de projeto. Estudo dos métodos de projeto de design. Experimentação em ferramentas de design. Estudo de processos e ciclo do produto. Elaboração de um projeto de produto. Práticas curriculares de inovação e desenvolvimento regional e Interação social (PIDRIS)."
+    },
+    {
+      "id": "CAC1403",
+      "code": "CAC1403",
+      "name": "Eletrotécnica",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2201"
+      ],
+      "equivalents": [
+        "BLU1403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1403"
+      },
+      "syllabus": "Conceitos fundamentais de circuitos elétricos em corrente contínua e corrente alternada. Associação de resistores e impedâncias, representação fasorial, análise por malhas. Cálculo de potência e fator de potência para circuitos monofásicos e trifásicos equilibrados. Noções de transformadores e motores de corrente contínua, síncrono e de indução. Noções de instalações elétricas."
+    },
+    {
+      "id": "CEE7005",
+      "code": "CEE7005",
+      "name": "Física III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU6010",
+        "BLU6110",
+        "CEE6110"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6010"
+          },
+          {
+            "kind": "course",
+            "code": "BLU6110"
+          },
+          {
+            "kind": "course",
+            "code": "CEE6110"
+          }
+        ]
+      },
+      "syllabus": ": Carga Elétrica. Lei de Coulomb. Princípio da Superposição. O campo elétrico. A lei de Gauss. Potencial elétrico. Capacitância. Associação de Capacitores. Corrente Elétrica. Resistência e Resistividade. Lei de Ohm. Potência em circuitos elétricos. Associação de resistores. Circuitos elétricos. Circuitos RC. Campo Magnético. Lei de Biot-Savart. Lei de Ampére. Lei da indução de Faraday. Lei de Lenz. Indutância. Oscilações Eletromagnéticas. Circuito LC. Circuito RLC. Geração de energia e transmissão. Transformadores. As equações de Maxwell."
+    },
+    {
+      "id": "DET1501",
+      "code": "DET1501",
+      "name": "Mecânica dos Fluidos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU1401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1401"
+      },
+      "syllabus": "Estática e cinemática dos fluidos. Análise integral e diferencial do movimento dos fluidos. Escoamento incompressível de fluidos não viscosos, Análise dimensional e semelhança, Escoamento interno viscoso e incompressível, Escoamento externo incompressível."
+    },
+    {
+      "id": "DET1502",
+      "code": "DET1502",
+      "name": "Termodinâmica",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE6109",
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU1402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE6109"
+          },
+          {
+            "kind": "course",
+            "code": "MAT2301"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1402"
+      },
+      "syllabus": "Conceitos básicos: definição de energia, calor e trabalho. 1ª lei da termodinâmica. Balanço de massa e energia em sistemas fechados e abertos. 2ª lei da termodinâmica: entropia e irreversibilidade de processos. Balanço de entropia em sistemas fechados e abertos. Eficiência isoentrópica. Propriedades volumétricas de fluidos puros. Equações de estado. Teorema dos estados correspondentes. Correlações Generalizadas para líquidos e gases. Propriedades termodinâmicas: Equações de Maxwell e potenciais termodinâmicos. Propriedades residuais. Propriedades termodinâmicas de sistemas bifásicos."
+    },
+    {
+      "id": "DET1506",
+      "code": "DET1506",
+      "name": "Preparação à Tecelagem",
+      "credits": 3,
+      "hours": 54,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1405"
+      ],
+      "equivalents": [
+        "BLU1506"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1405"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1506"
+      },
+      "syllabus": "Introdução aos conceitos de Tecelagem. Estruturas de tecidos planos; Princípios de formação do tecido plano e movimento do tear; Preparação dos fios à tecelagem (Tecnologia de Enrolamento do fio). Urdimento (Direto/Contínuo, Seccional). Engomagem (Principais Características da Engomagem e tipos de gomas,). Remeteção, Passamento e Engrupamento (Planejamento e produção do sistema de remeteção). Cálculos de Produção. Controle de Qualidade. Estudo de caso: Denim."
+    },
+    {
+      "id": "DET1507",
+      "code": "DET1507",
+      "name": "Tecnologia de Malharia por Trama",
+      "credits": 5,
+      "hours": 90,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1405"
+      ],
+      "equivalents": [
+        "BLU1507"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1405"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1507"
+      },
+      "syllabus": "Matéria-prima. Malharia circular e malharia retilínea: conceitos gerais, acessórios, mecanismo de funcionamento. Elementos de máquinas. Formação do tecido de malha por trama. Propriedades e aplicações dos tecidos de malha por trama. Principais estruturas. Caracterização de malhas. Cálculos. Defeitos. Controle de qualidade e normas técnicas."
+    },
+    {
+      "id": "CEE6310",
+      "code": "CEE6310",
+      "name": "Ótica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "BLU6010",
+        "BLU6110",
+        "CEE7005"
+      ],
+      "equivalents": [
+        "BLU6310"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU6010"
+          },
+          {
+            "kind": "course",
+            "code": "BLU6110"
+          },
+          {
+            "kind": "course",
+            "code": "CEE7005"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6310"
+      },
+      "syllabus": "- Ondas eletromagnéticas. Ondas luminosas. Óptica geométrica. Interferência. Difração. Polarização. Instrumentos ópticos. Espectroscopia."
+    },
+    {
+      "id": "DET1600",
+      "code": "DET1600",
+      "name": "Operações na Indústria Têxtil",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1501",
+        "DET1502"
+      ],
+      "equivalents": [
+        "BLU1500"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DET1501"
+          },
+          {
+            "kind": "course",
+            "code": "DET1502"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1500"
+      },
+      "syllabus": "Bombas. Compressores. Ventiladores, sopradores e ar comprimido. Tanques de mistura e agitadores. Trocadores de calor. Separação gás-sólido: Filtração. Torres de resfriamento. Vapor: geração, instalações e distribuição de vapor. Centrais de climatização e ar condicionado. Transporte hidráulico e pneumático de sólidos."
+    },
+    {
+      "id": "DET1607",
+      "code": "DET1607",
+      "name": "Transferência de Calor e Massa",
+      "credits": 5,
+      "hours": 90,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1501"
+      ],
+      "equivalents": [
+        "BLU1400",
+        "BLU1509",
+        "BLU1607"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1501"
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU1400"
+          },
+          {
+            "kind": "course",
+            "code": "BLU1509"
+          },
+          {
+            "kind": "course",
+            "code": "BLU1607"
+          }
+        ]
+      },
+      "syllabus": "Conceitos fundamentais de transferência de calor. Condução: em regime permanente e não-permanente. Convecção: natural e forçada. Radiação térmica. Trocadores de calor. Conceito básicos: concentração, velocidade e fluxo mássico. Transferência de massa por difusão. Determinação do coeficiente de difusão para gases, líquidos e sólidos. Transferência de massa por convecção. Experiências de caráter interdisciplinar em laboratório no domínio de fenômenos de Transporte, envolvendo os conceitos de transferência de calor e transferência de massa."
+    },
+    {
+      "id": "DET1608",
+      "code": "DET1608",
+      "name": "Tecnologia de Beneficiamento I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1506",
+        "DET1507"
+      ],
+      "equivalents": [
+        "BLU1608"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DET1506"
+          },
+          {
+            "kind": "course",
+            "code": "DET1507"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1608"
+      },
+      "syllabus": "Métodos físicos de preparação: navalhagem, chamuscagem, escovagem e outros. Métodos químicos de beneficiamento para o tingimento de fibras, fios, tecidos naturais e sintéticos (desengomagem, purga, alvejamento, lavagem, mercerização, fixação). Equipamentos para beneficiamento primário. Controle de qualidade e normas técnicas."
+    },
+    {
+      "id": "DET1609",
+      "code": "DET1609",
+      "name": "Tecnologia de Tecelagem",
+      "credits": 5,
+      "hours": 90,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1506"
+      ],
+      "equivalents": [
+        "BLU1609"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1506"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1609"
+      },
+      "syllabus": "Desenvolvimento de tecidos planos. Fator de cobertura de tecidos. Formação de cala. Tipos de inserção de trama: jato de ar, pinça, projétil e jato de água. Padronagem: ligações básicas e suas derivações. Tecidos jacquard. Ligações especiais: veludos e felpudos. Elementos de máquinas. Cálculos de produção. Caracterização do tecido. Defeitos. Controle de qualidade e normas técnicas."
+    },
+    {
+      "id": "DET1610",
+      "code": "DET1610",
+      "name": "Tecnologia de Nãotecido",
+      "credits": 2,
+      "hours": 36,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1405"
+      ],
+      "equivalents": [
+        "BLU1610"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1405"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1610"
+      },
+      "syllabus": "Definição. Matérias-primas e suas propriedades. Processos de Formação. Processos de Consolidação. Princípios de eletrofiação. Tipos de Acabamento. Propriedades dos Nãotecidos. Principais aplicações. Reprocessamento de fibras. Controle de qualidade e Normas técnicas"
+    },
+    {
+      "id": "DET1611",
+      "code": "DET1611",
+      "name": "Tecnologia de Malharia por Urdume",
+      "credits": 3,
+      "hours": 54,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1405"
+      ],
+      "equivalents": [
+        "BLU1611"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1405"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1611"
+      },
+      "syllabus": "Técnicas de preparação. Máquinas Kettenstuhl e Raschel: conceitos gerais, acessórios, mecanismo de funcionamento. Elementos de máquinas. Formação do tecido de malha por urdume. Propriedades e aplicações dos tecidos de malha por urdume. Principais estruturas. Cálculos e controle de qualidade e normas técnicas. Rendas artesanais: aspectos étnicos e econômicos. Controle de qualidade. Outros desenvolvimentos a partir da malharia por urdume."
+    },
+    {
+      "id": "CAC2505",
+      "code": "CAC2505",
+      "name": "Metodologia Científica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU2505",
+        "BLU7006"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2505"
+          },
+          {
+            "kind": "course",
+            "code": "BLU7006"
+          }
+        ]
+      },
+      "syllabus": "A natureza do conhecimento científico e outras formas de conhecimento. Tipos de pesquisa. Métodos, técnicas e instrumentos de pesquisa. Elementos e etapas da pesquisa científica e tecnológica. Modalidades de trabalhos acadêmicos e científicos e sua normalização (ABNT). Análise e elaboração de trabalhos acadêmicos e científicos."
+    },
+    {
+      "id": "CAC3404",
+      "code": "CAC3404",
+      "name": "Automação para Indústria Têxtil",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC1403"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC1403"
+      },
+      "syllabus": "Introdução aos Sistemas de Produção Automatizados: níveis hierárquicos, atividades e equipamentos; Dispositivos de campo: Sensores e Atuadores. Princípios de Eletricidade e Eletro-Pneumática. Automação rígida: redes lógicas combinatórias e sequenciais; Automação flexível:Controladores Lógicos Programáveis (CLP): arquitetura e programação básica. Automação flexível: Robótica industrial, Inteligência artificial Internet das Coisas e Industria 4.0."
+    },
+    {
+      "id": "DET1703",
+      "code": "DET1703",
+      "name": "Ciência das Cores",
+      "credits": 3,
+      "hours": 54,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1703"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1703"
+      },
+      "syllabus": "Definição de cor. Aspectos visuais das cores (sistema de ordenações, efeito da iluminação, interação e combinação das cores). A física e a psicofísica das cores (combinação de luzes coloridas, fontes de luz e iluminação, combinação de materiais coloridos). Funcionamento de um espectrofotômetro de refletância. Diagrama CIExy. Espaço CIEL*a*b*. Teoria de Kubelka & Munk (K/S). Formulação e correção de receitas. Fatores que influenciam a cor de substratos têxteis. Controle de qualidade."
+    },
+    {
+      "id": "DET1705",
+      "code": "DET1705",
+      "name": "Tecnologia de Beneficiamento II",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1608"
+      ],
+      "equivalents": [
+        "BLU1705"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1608"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1705"
+      },
+      "syllabus": "Teoria do tingimento têxtil. Produtos auxiliares de tingimento e suas funções. Classes de corantes. Tingimento de fibra, fios, tecidos, malhas por esgotamento e impregnação. Tingimento de denin. Equipamentos de tingimento. Defeitos do tingimento: origem e consequências. Controle de qualidade e normas técnicas. Tecnologias emergentes no processo de tingimento."
+    },
+    {
+      "id": "DET1706",
+      "code": "DET1706",
+      "name": "Engenharia da Qualidade (EXT 18h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC6013"
+      ],
+      "equivalents": [
+        "BLU1706"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC6013"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1706"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": ""
+    },
+    {
+      "id": "DET1712",
+      "code": "DET1712",
+      "name": "Gestão Ambiental em Organizações",
+      "credits": 5,
+      "hours": 90,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1612"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 720
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1612"
+      },
+      "prerequisiteHours": 720,
+      "syllabus": ""
+    },
+    {
+      "id": "DET1704",
+      "code": "DET1704",
+      "name": "CAD/CAM no Vestuário",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1507",
+        "DET1609"
+      ],
+      "equivalents": [
+        "BLU1904"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DET1507"
+          },
+          {
+            "kind": "course",
+            "code": "DET1609"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1904"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Modelagem manual bidimensional e tridimensional de vestuário. Introdução à modelagem digital bidimensional de vestuário. Desenvolvimento através do sistema CAD/CAM de produtos de vestuário, ficha técnica, moldes, graduação e encaixe.",
+      "extensionHours": 18
+    },
+    {
+      "id": "DET1800",
+      "code": "DET1800",
+      "name": "Projeto de Final de Curso I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1900"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2556
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1900"
+      },
+      "prerequisiteHours": 2556,
+      "syllabus": "Desenvolvimento do estado da arte, da problemática a resolver e dos objetivos do Trabalho de Conclusão de Curso. Apresentação da proposta dos Materiais e Métodos a serem realizados. Apresentação do Cronograma de trabalho."
+    },
+    {
+      "id": "DET1804",
+      "code": "DET1804",
+      "name": "Modelagem e Simulação de Processos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "CAC6000",
+        "DET1501",
+        "DET1607"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CAC6000"
+          },
+          {
+            "kind": "course",
+            "code": "DET1501"
+          },
+          {
+            "kind": "course",
+            "code": "DET1607"
+          }
+        ]
+      },
+      "syllabus": "Conceitos básicos de modelagem matemática de processos. Modelos algébricos e diferenciais para processos contínuos e batelada. Simulação de processos industriais assistidos por softwares."
+    },
+    {
+      "id": "DET1805",
+      "code": "DET1805",
+      "name": "Têxteis Técnicos e Interativos",
+      "credits": 5,
+      "hours": 90,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1507",
+        "DET1609",
+        "DET1610",
+        "DET1611"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DET1507"
+          },
+          {
+            "kind": "course",
+            "code": "DET1609"
+          },
+          {
+            "kind": "course",
+            "code": "DET1610"
+          },
+          {
+            "kind": "course",
+            "code": "DET1611"
+          }
+        ]
+      },
+      "syllabus": "Conceitos e definições. Mercado dos têxteis técnicos. Materiais fibrosos de elevado desempenho. Processos de fabricação de têxteis técnicos. Aplicações dos materiais têxteis nas seguintes áreas: construção civil, arquitetura, proteção, medicina, indústria, transportes, esportes, agroindústria, embalagens. Têxteis funcionais. Têxteis inteligentes (wearables)."
+    },
+    {
+      "id": "DET1806",
+      "code": "DET1806",
+      "name": "Tecnologia de Beneficiamento III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1705"
+      ],
+      "equivalents": [
+        "BLU1806"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1705"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1806"
+      },
+      "syllabus": "Processos de acabamentos: -Convencionais: físicos (calandragem, flanelagem, lixamento, navalhagem, etc.); químicos (amaciante, resistência à água, retardantes de chama, antiestáticos, antimicrobianos). Avançados: (plasma frio, nanotecnologia, bioprocessos). Enobrecimento de substratos têxteis. Aplicação de tecnologias especiais e inteligentes. Controle de qualidade e normas técnicas."
+    },
+    {
+      "id": "DET1808",
+      "code": "DET1808",
+      "name": "Tratamento de Água e Efluentes",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1600",
+        "DET1705"
+      ],
+      "equivalents": [
+        "BLU1905"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DET1600"
+          },
+          {
+            "kind": "course",
+            "code": "DET1705"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1905"
+      },
+      "syllabus": "Noções gerais de ecologia. Parâmetros sanitários. Água para indústria têxtil. Tratamentos de águas industriais. Fontes geradoras de efluentes. Processos de tratamentos de efluentes. Processos de desaguamento de lodos. onitoramento de T´s. Reuso de água na indústria"
+    },
+    {
+      "id": "DET1809",
+      "code": "DET1809",
+      "name": "Tecnologia de Estamparia",
+      "credits": 3,
+      "hours": 54,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1608"
+      ],
+      "equivalents": [
+        "BLU1809"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1608"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1809"
+      },
+      "syllabus": "Matérias-primas e conceito de pasta de estampar (corantes, pigmentos e produtos auxiliares). Procedimento da tecnologia de estamparia (preparação da cor base, preparação da pasta de estampar, estamparia, secagem, fixação e lavagem). Métodos de estamparia e equipamentos (quadro, rotativa, rolo, sublimação e digital). Efeitos de estamparia. Sistemas CAD/CAM para a estamparia."
+    },
+    {
+      "id": "DET1813",
+      "code": "DET1813",
+      "name": "Microeconomia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU1813"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2301"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1813"
+      },
+      "syllabus": "Mercado: oferta e demanda. Teoria do consumidor. Teoria da firma. Estruturas de mercados e formação de preços. Monopólios, Oligopólios, Externalidades e bens públicos"
+    },
+    {
+      "id": "DET1525",
+      "code": "DET1525",
+      "name": "Segurança do Trabalho",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DET7025"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 720
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DET7025"
+      },
+      "prerequisiteHours": 720,
+      "syllabus": "Segurança do trabalho. Aplicação de Segurança do Trabalho em ambientes industriais: Controles e dispositivos de informação, gerenciamento de riscos. Equipamentos de proteção individual. Sinalização de segurança. Higiene do trabalho. Normatização e legislação. Primeiros Socorros e Prevenção a Incêndios."
+    },
+    {
+      "id": "DET1803",
+      "code": "DET1803",
+      "name": "Planejamento e Controle da Produção",
+      "credits": 3,
+      "hours": 54,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1803"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 2916
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1803"
+      },
+      "prerequisiteHours": 2916,
+      "syllabus": "PCP e sistemas produtivos, Previsão de Demanda, Planejamento Estratégico da Produção, Planejamento Mestre da Produção, Programação da produção, Modelos de Controle de Estoques, Sequenciamento da Programação da produção, Programação Puxada da Produção, Emissão, liberação, Acompanhamento e Controle da Produção."
+    },
+    {
+      "id": "DET1810",
+      "code": "DET1810",
+      "name": "Tecnologia de Confecção",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1704"
+      ],
+      "equivalents": [
+        "BLU1810"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DET1704"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1810"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Fluxograma de uma confecção. Classes, características da costura. Tipos de pontos de costura. Máquinas de costura: tipos, classificação, aplicação e elementos de máquinas. Agulhas: tipos, numeração e aplicações. Elementos de formação do ponto. Elementos de formação do produto confeccionado. Defeitos. Controle de qualidade e normas técnicas.",
+      "extensionHours": 18
+    },
+    {
+      "id": "DET1812",
+      "code": "DET1812",
+      "name": "Administração",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1812"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1812"
+      },
+      "syllabus": "Escolas clássicas de Administração: Taylor, Ford, Fayol. Teoria da Burocracia, Relações Humanas. Processo decisório nas organizações. Desenvolvimento Organizacional, Cultura Organizacional. Relações de Poder. Estratégias Competitivas"
+    },
+    {
+      "id": "DET1900",
+      "code": "DET1900",
+      "name": "Projeto de Final de Curso II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1800"
+      ],
+      "equivalents": [
+        "BLU1900"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1800"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1900"
+      },
+      "syllabus": "Desenvolvimento experimental do trabalho; discussão dos resultados obtidos; redação de monografia de caráter científico e/ou tecnológico; apresentação de trabalho acadêmico em público."
+    },
+    {
+      "id": "DET1906",
+      "code": "DET1906",
+      "name": "Conservação de Substratos Têxteis",
+      "credits": 2,
+      "hours": 36,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1705"
+      ],
+      "equivalents": [
+        "BLU1906"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1705"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1906"
+      },
+      "syllabus": "Conceitos de durabilidade e vida útil de materiais têxteis. Defeitos e deterioração de produtos têxteis e sua usabilidade. Legislação sobre etiquetas. Aspectos higiênico-sanitários da lavagem e higienização de substratos têxteis. Tipos e Remoção de sujidades. Composição de produtos de lavagem e amaciamento. Lavanderias específicas: hotéis, hospitais, indústrias (uniformes). Tipos e construção de equipamentos de lavanderia e passadoria. Lavagem a seco. Sanitização e esterilização de substratos têxteis."
+    },
+    {
+      "id": "DET1943",
+      "code": "DET1943",
+      "name": "Projetos e Dimensionamento da Indústria",
+      "credits": 4,
+      "hours": 72,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [
+        "DET1600"
+      ],
+      "equivalents": [
+        "BLU1807"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1600"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1807"
+      },
+      "syllabus": "Elaboração de projetos: estimativa e demanda de produção. Gerenciamento e avaliação de projetos. Elementos metodológicos: memorial descritivo, técnico e de cálculo. Fluxogramas, layouts e arranjos físicos industriais e desenhos de projetos. Simbologia e normas de representação de equipamentos, tubulações, acessórios e instrumentação."
+    },
+    {
+      "id": "DET1002",
+      "code": "DET1002",
+      "name": "Estágio Supervisionado",
+      "credits": 18,
+      "hours": 324,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1002"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 3366
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1002"
+      },
+      "prerequisiteHours": 3366,
+      "syllabus": ""
+    },
+    {
+      "id": "DET1021",
+      "code": "DET1021",
+      "name": "Ética",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplina Optativa Princípios básicos de convivência. Legislação do trabalho. Corrupção. Comporto humano. Democracia. Convivência em grupo. Casos e discussões coletivas."
+    },
+    {
+      "id": "DET1022",
+      "code": "DET1022",
+      "name": "Ergonomia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1022"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1022"
+      },
+      "syllabus": "Introdução à Ergonomia: definições e histórico. Princípios de fisiologia do trabalho. Princípios de psicologia do trabalho. Antropometria e biomecânica. Princípios de organização do trabalho. Condições ambientais de trabalho."
+    },
+    {
+      "id": "DET1023",
+      "code": "DET1023",
+      "name": "Gestão, Reciclagem e Tratamento de Rejeitos Sólidos, Líquidos e Gasosos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DET1507",
+        "DET1609",
+        "DET1705"
+      ],
+      "equivalents": [
+        "BLU1023"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DET1507"
+          },
+          {
+            "kind": "course",
+            "code": "DET1609"
+          },
+          {
+            "kind": "course",
+            "code": "DET1705"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1023"
+      },
+      "syllabus": "Conceito de rejeitos e rejeitos tóxicos. Legislação e Normas. Geração de rejeitos. Gerenciamento de rejeitos tóxicos e perigosos. Processos de tratamento de Resíduos, líquidos especiais e emissões. Formas de reaproveitamento e valoração de resíduos sólidos. Disposição Final."
+    },
+    {
+      "id": "DET1024",
+      "code": "DET1024",
+      "name": "Gestão da Inovação",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1024"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1024"
+      },
+      "syllabus": "Inovação: conceitos, tipos, características, modelos e ferramentas da gestão da inovação. Indicadores e barreiras. Criatividade: técnicas e dinâmicas para melhorar a criatividade, quebra de paradigmas, produtos criativos."
+    },
+    {
+      "id": "DET1025",
+      "code": "DET1025",
+      "name": "Empreendedorismo",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1025"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1025"
+      },
+      "syllabus": "Empreendedorismo: definições, tipos de empreendedores, tendências mundiais, avaliações de ambientes para empreender."
+    },
+    {
+      "id": "DET1028",
+      "code": "DET1028",
+      "name": "Lean Manufacturing",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 1512
+      },
+      "prerequisiteHours": 1512,
+      "syllabus": "Histórico e introdução à abordagem enxuta. Os cinco princípios enxutos. Valor e Desperdícios. Ferramentas da Manufatura Enxuta."
+    },
+    {
+      "id": "DET1029",
+      "code": "DET1029",
+      "name": "Custos Industriais",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1029"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1029"
+      },
+      "syllabus": "Conceito de contabilidade de custos. Teoria de custos. Métodos de custeio. Fatores que influenciam as apurações de custos. Organização interna de custos na empresa. Cálculo de custos. Aplicação de métodos de apuração de custos. Relatório de custos e análise de suas variações."
+    },
+    {
+      "id": "DET1030",
+      "code": "DET1030",
+      "name": "Planejamento Estratégico",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "DET1812"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1812"
+      },
+      "syllabus": "Fundamentos de estratégia empresarial. O papel estratégico na Engenharia. Conteúdo da estratégia: prioridades competitivas e áreas estratégicas de decisão. Processo da estratégia de produção: formulação e implementação. Gestão estratégia do desempenho das operações."
+    },
+    {
+      "id": "DET1031",
+      "code": "DET1031",
+      "name": "Engenharia Econômica",
+      "credits": 2,
+      "hours": 36,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "MAT2201"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2201"
+      },
+      "syllabus": "Matemática financeira: conceitos e aplicações. Análise de investimentos: métodos e aplicações. Risco e incerteza."
+    },
+    {
+      "id": "DET1050",
+      "code": "DET1050",
+      "name": "Gestão de Projetos",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU3706"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU3706"
+      },
+      "syllabus": "Fases e componentes de um projeto; Ciclo de vida de um projeto; Processos de gerência de um projeto; Gerência de integração do projeto; Gerência de escopo do projeto, do tempo do projeto, das redes de precedências, cronogramas, histograma de recursos, nivelamento de recursos; Ferramentas computacionais de apoio ao planejamento de projetos; Gerência do custo, da qualidade, dos recursos humanos, das comunicações, dos riscos e das aquisições do projeto; Administração de contratos; Projeto de uma fábrica."
+    },
+    {
+      "id": "MAT2211",
+      "code": "MAT2211",
+      "name": "Álgebra Linear",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "MAT2111"
+      ],
+      "equivalents": [
+        "BLU6905"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2111"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6905"
+      },
+      "syllabus": "Espaço vetorial. Transformações lineares. Mudança de base. Produto interno. Transformações ortogonais. Autovalores e autovetores de um operador. Diagonalização."
+    },
+    {
+      "id": "MAT2401",
+      "code": "MAT2401",
+      "name": "Cálculo 3",
+      "credits": 4,
+      "hours": 72,
+      "phase": 10,
+      "type": "Op",
+      "prerequisites": [
+        "MAT2301"
+      ],
+      "equivalents": [
+        "BLU6008"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MAT2301"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU6008"
+      },
+      "syllabus": "Integrais Múltiplas. Integral de linha. Integrais de superfície."
+    },
+    {
+      "id": "DET1040",
+      "code": "DET1040",
+      "name": "Representação Gráfica do Vestuário",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1040"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1040"
+      },
+      "syllabus": "Introdução à representação gráfica digital do vestuário. Utilização de técnicas e convenções para a execução do desenho técnico. Construção de fichas técnicas de peças de vestuário."
+    },
+    {
+      "id": "DET1041",
+      "code": "DET1041",
+      "name": "Nanotecnologia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DET1205",
+        "DET1408"
+      ],
+      "equivalents": [
+        "BLU1041"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DET1205"
+          },
+          {
+            "kind": "course",
+            "code": "DET1408"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1041"
+      },
+      "syllabus": "Introdução a nanociência e nanotecnologia. Nanomateriais. Efeitos de superfície. Rotas de preparação de nanomateriais. Técnicas de caracterização de nanomateriais. Aplicação de nanomateriais na área têxtil."
+    },
+    {
+      "id": "DET1042",
+      "code": "DET1042",
+      "name": "Biotecnologia Têxtil",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DET1705"
+      ],
+      "equivalents": [
+        "BLU1042"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1705"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1042"
+      },
+      "syllabus": "Introdução as enzimas e suas aplicações na indústria têxtil. Nomenclatura e classificação de enzimas. Estrutura das enzimas. Mecanismos de catálise enzimática. Determinação de parâmetros cinéticos: medida de atividade enzimática. Caracterização de enzimas: efeito do pH, temperatura, força iônica. Aplicação de enzimas em processos têxteis: preparação, tingimento, acabamentos. Tratamentos de fibras, fios e tecidos. Uso de enzima em tratamento de efluente têxtil."
+    },
+    {
+      "id": "DET1043",
+      "code": "DET1043",
+      "name": "Tópicos Especiais em Engenharia Têxtil I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "BLU1021"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1021"
+      },
+      "syllabus": "Produtos e processos têxteis inovadores. Disciplina que poderá ser ministrada por docentes visitantes ou pesquisadores enquanto presentes no Campus Blumenau. Ementa sempre deve ser aprovada no colegiado do curso."
+    },
+    {
+      "id": "DET1044",
+      "code": "DET1044",
+      "name": "Tópicos Especiais em Engenharia Têxtil II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Produtos e processos têxteis inovadores, diferentes dos ministrados em Tópicos Especiais em Engenharia Têxtil I. Disciplina que poderá ser ministrada por docentes visitantes ou pesquisadores enquanto presentes no Campus Blumenau. Ementa sempre deve ser aprovada no colegiado do curso."
+    },
+    {
+      "id": "DET1045",
+      "code": "DET1045",
+      "name": "Moda",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "DET1413"
+      ],
+      "equivalents": [
+        "BLU1045"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DET1413"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU1045"
+      },
+      "syllabus": "Design: conceitos e história. Moda: conceitos, cultura e história. O design de moda. Campos de atuação e de aplicação do design de moda. Estilo: conceitos, moda e estilo, estilismo. Moda e marketing. Moda e seus relacionamentos com a engenharia têxtil e outros campos de conhecimento."
+    },
+    {
+      "id": "DET1003",
+      "code": "DET1003",
+      "name": "Atividades Acadêmico - Científico -",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "DET1004",
+      "code": "DET1004",
+      "name": "Ações de Extensão em Engenharia Têxtil: cursos, projetos e eventos",
+      "credits": 16,
+      "hours": 288,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 288
+      },
+      "prerequisiteHours": 288,
+      "syllabus": "Culturais Rol de Atividades de Extensão Ações de Extensão em Engenharia Têxtil (cursos, projetos e eventos)",
+      "extensionHours": 288
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "BLU6000",
+      "CAC6000",
+      "CEE1101",
+      "CEE7101",
+      "DET1100",
+      "MAT2101",
+      "MAT2111",
+      "CAC6002",
+      "CAC7006",
+      "CEE2400",
+      "DET1202",
+      "DET1203",
+      "DET1205",
+      "MAT2201",
+      "CAC6013",
+      "CEE1221",
+      "CEE6106",
+      "CEE6206",
+      "DET1305",
+      "DET1306",
+      "MAT2301",
+      "CAC6011",
+      "CAC7002",
+      "CEE6109",
+      "CEE7004",
+      "DET1405",
+      "DET1408",
+      "DET1413",
+      "CAC1403",
+      "CEE7005",
+      "DET1501",
+      "DET1502",
+      "DET1506",
+      "DET1507",
+      "CEE6310",
+      "DET1600",
+      "DET1607",
+      "DET1608",
+      "DET1609",
+      "DET1610",
+      "DET1611",
+      "CAC2505",
+      "CAC3404",
+      "DET1703",
+      "DET1705",
+      "DET1706",
+      "DET1712",
+      "DET1704",
+      "DET1800",
+      "DET1804",
+      "DET1805",
+      "DET1806",
+      "DET1808",
+      "DET1809",
+      "DET1813",
+      "DET1525",
+      "DET1803",
+      "DET1810",
+      "DET1812",
+      "DET1900",
+      "DET1906",
+      "DET1943",
+      "DET1002",
+      "DET1003",
+      "DET1004"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 72,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "DET1021",
+              "DET1022",
+              "DET1023",
+              "DET1024",
+              "DET1025",
+              "DET1028",
+              "DET1029",
+              "DET1030",
+              "DET1031",
+              "DET1050",
+              "MAT2211",
+              "MAT2401",
+              "DET1040",
+              "DET1041",
+              "DET1042",
+              "DET1043",
+              "DET1044",
+              "DET1045"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 72
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "755",
+    "curriculumCode": "20211",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=755&curriculo=20211",
+    "sha256": "ebfc8bac7cad8cb7267568f9d455b1ebd73d253271161a8d99b2c4bc350dea2d",
+    "capturedAt": "2026-09-22"
+  }
+}

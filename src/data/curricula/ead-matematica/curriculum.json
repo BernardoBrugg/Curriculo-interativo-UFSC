@@ -1,0 +1,1222 @@
+{
+  "program": "EaD MATEMÁTICA",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2025.2",
+  "totalHours": 3924,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    }
+  ],
+  "courses": [
+    {
+      "id": "FSC9601",
+      "code": "FSC9601",
+      "name": "Teorias da Educação e da Didatização",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5331"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EED5331"
+      },
+      "syllabus": "Educação e o pensamento matemático e científico moderno. Construtivismo. Pedagogia crítica e pensamento educacional brasileiro. Didática Francesa. Modelização e modelagem matemática."
+    },
+    {
+      "id": "MTM9630",
+      "code": "MTM9630",
+      "name": "Fundamentos de Aritmética",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3450",
+        "MTM9300"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3450"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9300"
+          }
+        ]
+      },
+      "syllabus": "(PCC 18h-a) EED9400) Conjunto dos números naturais: operações, ordem, divisibilidade, princípios de indução e boa ordem, números primos e sistemas de numeração. Conjunto dos números inteiros: operações, ordem, divisibilidade, equações diofantinas lineares, números primos e congruências. Conjunto dos números racionais: operações, ordem e representação decimal."
+    },
+    {
+      "id": "MTM9651",
+      "code": "MTM9651",
+      "name": "Geometria Quantitativa I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3471",
+        "MTM9101"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3471"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9101"
+          }
+        ]
+      },
+      "syllabus": "Medida de segmento. Medida de ângulo. Triângulos. Congruência. Quadriláteros. Áreas de figuras planas. Circunferência e círculo. Semelhança. Construções com régua e compasso. Trigonometria e relações métricas em triângulos."
+    },
+    {
+      "id": "MTM9671",
+      "code": "MTM9671",
+      "name": "Laboratório de Matemática I (PCC 72h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3411",
+        "MTM9001"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3411"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9001"
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Estratégia de resolução de problemas: resolução por árvores, algoritmos, equações, construções geométricas. Problemas olímpicos, Raciocínio dedutivo: conectivos, condicionais, quantificadores, regras de inferência, deduções. Problemas lógicos. Prática como componente curricular."
+    },
+    {
+      "id": "FSC9602",
+      "code": "FSC9602",
+      "name": "Organização Escolar (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5187",
+        "EED9403"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5187"
+          },
+          {
+            "kind": "course",
+            "code": "EED9403"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Educação e democracia. A democratização da educação. Currículo e organização da escola. Lei de Diretrizes e Bases da Educação Nacional. Projeto Político-Pedagógico: gestão democrática da escola. Parâmetros Curriculares Nacionais. Base Nacional Comum Curricular: Ensino Fundamental e Médio."
+    },
+    {
+      "id": "MTM9652",
+      "code": "MTM9652",
+      "name": "Geometria Quantitativa II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3472",
+        "MTM9102"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3472"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9102"
+          }
+        ]
+      },
+      "syllabus": "Polígonos regulares. Área do círculo e comprimento da circunferência. Trigonometria no círculo. Construções com régua e compasso. Posições relativas de retas e planos. Poliedros. Volumes de sólidos e áreas de superfícies."
+    },
+    {
+      "id": "MTM9653",
+      "code": "MTM9653",
+      "name": "Introdução à Combinatória e Probabilidade",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3510",
+        "MTM9600",
+        "MTM9650"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3510"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9600"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9650"
+          }
+        ]
+      },
+      "syllabus": "Análise Combinatória: princípio fundamental da contagem, arranjo, permutação e combinação. Binômio de Newton e polinômio de Leibniz. Introdução à Teoria de Probabilidade: espaço amostral, adição e multiplicação de probabilidades. OBJETI"
+    },
+    {
+      "id": "PSI9637",
+      "code": "PSI9637",
+      "name": "Psicologia da Educação (PCC 12h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5137",
+        "PSI9137",
+        "PSI9402"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "PSI5137"
+          },
+          {
+            "kind": "course",
+            "code": "PSI9137"
+          },
+          {
+            "kind": "course",
+            "code": "PSI9402"
+          }
+        ]
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "Introdução à Psicologia como ciência: histórico, objetos e métodos. Interações sociais no contexto educacional e o lugar do professor. Introdução ao estudo de desenvolvimento e de aprendizagem - infância, adolescência, idade adulta. Contribuições da Psicologia na prática escolar cotidiana e na compreensão do fracasso escolar."
+    },
+    {
+      "id": "CEE9600",
+      "code": "CEE9600",
+      "name": "Didática (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN5605",
+        "MEN9404"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN5605"
+          },
+          {
+            "kind": "course",
+            "code": "MEN9404"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Educação escolar como fenômeno histórico-social. Currículo e trabalho pedagógico no contexto escolar. As relações de ensino-aprendizagem em contexto escolar. Mediações pedagógicas e suas relações com o ensino da área específica do curso."
+    },
+    {
+      "id": "INE9623",
+      "code": "INE9623",
+      "name": "Estatística Aplicada à Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "INE5123"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5123"
+      },
+      "syllabus": "Análise Exploratória de Dados. Distribuição binominal e normal. Amostragem. Estimação de parâmetros. Correlação e regressão. Prática como componente curricular."
+    },
+    {
+      "id": "MTM9620",
+      "code": "MTM9620",
+      "name": "Introdução ao Cálculo (PCC 18h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3400",
+        "MTM9200"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3400"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9200"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Matemática (PCC 18h-a) MTM9601) Números reais. Relações. Funções. Funções elementares. Utilização de pacotes computacionais. História da Matemática relacionada com o conteúdo. Prática como componente curricular."
+    },
+    {
+      "id": "MTM9640",
+      "code": "MTM9640",
+      "name": "Geometria Analítica (PCC 18h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3476",
+        "MTM9900"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3476"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9900"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Coordenadas cartesianas. Retas no plano. Curvas quadráticas no plano. Retas e planos no espaço. Superfícies quadráticas no espaço. Vetores no plano e no espaço. Álgebra vetorial na geometria analítica. Sistemas lineares em duas ou três variáveis. Matrizes. Determinantes. História da Matemática relacionada com o conteúdo. Prática de Ensino."
+    },
+    {
+      "id": "CEE9601",
+      "code": "CEE9601",
+      "name": "Metodologia para o Ensino de Matemática I",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN7029"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7029"
+      },
+      "syllabus": "Desenvolvimento da linguagem e do pensamento aritmético e algébrico. Propostas metodológicas e recursos didáticos na educação básica para abordagem de: números e operações; equações de primeiro e segundo graus; tópicos de funções; progressões; matrizes e sistemas lineares. Conexão com os currículos de matemática."
+    },
+    {
+      "id": "EGC9034",
+      "code": "EGC9034",
+      "name": "Projetos Interdisciplinares I (PCC 78h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGC5034"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 78
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGC5034"
+      },
+      "prerequisiteHours": 78,
+      "syllabus": "(PCC 12h-a) MEN9405) Metodologia interdisciplinar. Projetos interdisciplinares. Projetos de ensino, de extensão e de laboratório. Ferramentas tecnológicas no processo do ensino e aprendizagem."
+    },
+    {
+      "id": "MTM9621",
+      "code": "MTM9621",
+      "name": "Cálculo I (PCC 18h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3401",
+        "MTM9201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3401"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9201"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Sequências: limite, convergência; limite de funções; continuidade; derivada; máximos e mínimos; regra de L'Hospital; fórmula de Taylor, utilização de softwares computacionais. História da Matemática relacionada com o conteúdo."
+    },
+    {
+      "id": "MTM9672",
+      "code": "MTM9672",
+      "name": "Laboratório de Matemática II (PCC 72h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3412",
+        "MTM9002"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 72
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3412"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9002"
+          }
+        ]
+      },
+      "prerequisiteHours": 72,
+      "syllabus": "Análise e resolução de exercícios abrangendo todos os conteúdos de Ensino Fundamental e Médio. Prática como componente curricular."
+    },
+    {
+      "id": "CEE9602",
+      "code": "CEE9602",
+      "name": "Metodologia para o Ensino de Matemática",
+      "credits": 3,
+      "hours": 54,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN7030"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN7030"
+      },
+      "syllabus": "Propostas metodológicas e recursos didáticos na educação básica para abordagem de geometria e medidas; trigonometria e funções trigonométricas; tópicos de probabilidade e estatística. Conexão com os Currículos de matemática."
+    },
+    {
+      "id": "MTM9622",
+      "code": "MTM9622",
+      "name": "Cálculo II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3402",
+        "MTM9202"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3402"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9202"
+          }
+        ]
+      },
+      "syllabus": "II (PCC 18h-a) Integral definida. Teorema fundamental do cálculo. Técnicas de integração. Aplicações da integral. Equações diferenciais ordinárias de 1ª ordem (separáveis). Séries numéricas. Séries de potências. Utilização de pacotes computacionais. História da Matemática relacionada com o conteúdo."
+    },
+    {
+      "id": "MTM9643",
+      "code": "MTM9643",
+      "name": "Álgebra Linear",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3421",
+        "MTM9901"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3421"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9901"
+          }
+        ]
+      },
+      "syllabus": "Matrizes. Determinantes. Sistemas lineares. Espaço vetorial real. Produto interno. Transformações lineares. Autovalores e autovetores de um operador linear. Diagonalização. Aplicações da Álgebra Linear. História da Matemática relacionada com o conteúdo."
+    },
+    {
+      "id": "MTM9691",
+      "code": "MTM9691",
+      "name": "Extensão I - Ensino Fundamental I",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 108
+      },
+      "prerequisiteHours": 108,
+      "syllabus": "Monitoria e/ou atividades de ensino para os anos iniciais do Ensino Fundamental. Números naturais, inteiros e racionais; frações e porcentagem; operações de adição, subtração, multiplicação e divisão; formas geométricas básicas e suas propriedades; introdução às noções de perímetro, área e volume; grandezas e medidas (massa, volume, comprimento, tempo, temperatura); gráficos de barras, linhas ou tabela.",
+      "extensionHours": 108
+    },
+    {
+      "id": "LSB9244",
+      "code": "LSB9244",
+      "name": "Língua Brasileira de Sinais - Libras I (PCC",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LSB7244"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LSB7244"
+      },
+      "syllabus": "-Desmistificação de ideias recebidas relativamente às línguas de sinais; aspectos gramaticais básicos à língua de sinais; usar a língua de sinais em contexto que exigem comunicação básica com atividades práticas; conhecer os conceitos básicos da Língua Brasileira de Sinais e aspectos culturais específicos da comunidade surda brasileira e o papel do intérprete de libras na educação."
+    },
+    {
+      "id": "MTM9623",
+      "code": "MTM9623",
+      "name": "Cálculo III",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3403",
+        "MTM9203"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3403"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9203"
+          }
+        ]
+      },
+      "syllabus": "18h-a) LSB9904) Funções reais de várias variáveis; derivadas parciais; máximos e mínimos; derivadas direcionais; gradiente; hessiano; equações diferenciais lineares de ordem n; integrais duplas e triplas; funções vetoriais; parametrização de curvas e superfícies; retas e planos tangentes; história da matemática relacionada com o conteúdo."
+    },
+    {
+      "id": "MTM9631",
+      "code": "MTM9631",
+      "name": "Álgebra I (PCC 18h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3451",
+        "MTM9301"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3451"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9301"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Anéis. Corpos. O corpo dos números complexos. História da Matemática relacionada com o conteúdo."
+    },
+    {
+      "id": "MTM9666",
+      "code": "MTM9666",
+      "name": "Seminários I",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3581",
+        "MTM9661",
+        "MTM9701"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3581"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9661"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9701"
+          }
+        ]
+      },
+      "syllabus": "Palestras e/ou minicursos sobre os seguintes temas: história da Matemática; Matemática e ensino; educação ambiental; direitos humanos; relações étnico-raciais; história e cultura afro-brasileira, africana e indígena e avaliação institucional."
+    },
+    {
+      "id": "MTM9692",
+      "code": "MTM9692",
+      "name": "Extensão II - Ensino Fundamental II",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 108
+      },
+      "prerequisiteHours": 108,
+      "syllabus": "Monitoria ou atividades de ensino sobre números naturais e sistemas de numeração, números inteiros, racionais e reais; múltiplos, divisores e frações; operações de adição, subtração, multiplicação e divisão com números reais; proporcionalidade e juros; semelhança, vistas ortogonais e perspectiva; relações métricas nos triângulos retângulos; ângulos e polígonos; circunferências e círculos; comprimento, perímetro, área e volume; grandezas e medidas (massa, volume, comprimento, tempo, temperatura); expressões algébricas; sistemas de equações do primeiro grau com duas incógnitas; produtos notáveis, fatoração e equações do segundo grau; introdução à noção de função; introdução às noções de estatística, combinatória e probabilidade.",
+      "extensionHours": 108
+    },
+    {
+      "id": "EGC9035",
+      "code": "EGC9035",
+      "name": "Projetos Interdisciplinares II (PCC 78 h-a)",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EGC5035"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 78
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EGC5035"
+      },
+      "prerequisiteHours": 78,
+      "syllabus": "Execução de um projeto extensão, ensino ou de laboratório. Elaboração de projeto de pesquisa. Projeto de tecnologias aplicadas ao ensino. Elaboração de relatório. Elaboração de artigos."
+    },
+    {
+      "id": "MTM9627",
+      "code": "MTM9627",
+      "name": "Equações Diferenciais Ordinárias",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3501"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3501"
+      },
+      "syllabus": "Métodos de resolução para algumas equações de primeira ordem. Existência, unicidade e dependência contínua com relação a dados iniciais. Métodos para equações de segunda ordem. Sistemas lineares de equações diferenciais. Transformada de Laplace."
+    },
+    {
+      "id": "MTM9633",
+      "code": "MTM9633",
+      "name": "Álgebra II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3452",
+        "MTM9302"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3452"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9302"
+          }
+        ]
+      },
+      "syllabus": "Anéis. Corpos. O corpo dos números complexos. História da Matemática relacionada com o conteúdo. Anéis de polinômios. Noções de Grupos. Grupos Especiais. História da Matemática relacionada com o conteúdo"
+    },
+    {
+      "id": "MTM9693",
+      "code": "MTM9693",
+      "name": "Extensão III - Ensino Médio",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 90
+      },
+      "prerequisiteHours": 90,
+      "syllabus": "Monitoria ou atividades de ensino de funções reais; função afim; função quadrática; função exponencial; função logarítmica; progressões aritmética e geométrica; trigonometria, funções seno, cosseno, tangente, cotangente, secante, cossecante; matrizes; sistemas lineares; área de regiões planas; introdução à geometria espacial, prismas, pirâmides, cilindro, cone e esfera; análise combinatória; probabilidade; números naturais e sistemas de numeração, números inteiros, racionais e reais; múltiplos, divisores e frações; operações de adição, subtração, multiplicação e divisão com números reais; proporcionalidade e juros; grandezas e medidas (massa, volume, comprimento, tempo, temperatura); expressões algébricas; sistemas de equações do primeiro grau com duas incógnitas; produtos notáveis, fatoração e equações do segundo grau; introdução às noções de estatística e matemática financeira.",
+      "extensionHours": 90
+    },
+    {
+      "id": "FSC9621",
+      "code": "FSC9621",
+      "name": "Física I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC5101"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5101"
+      },
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática e dinâmica. Leis de conservação da energia e do momento linear."
+    },
+    {
+      "id": "MTM9625",
+      "code": "MTM9625",
+      "name": "Elementos de Análise (PCC 18h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM9204"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM9204"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Topologia dos Espaços Rn; n = 1, 2, 3. Convergência. Continuidade. História da Matemática Relacionada com o Conteúdo."
+    },
+    {
+      "id": "MTM9662",
+      "code": "MTM9662",
+      "name": "Tecnologias Computacionais em Educação",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3571"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3571"
+      },
+      "syllabus": "Diversas abordagens do uso de computador em sala de aula, aspectos técnicos e pedagógicos. Principais ferramentas computacionais para a Educação Matemática com enfoque no ensino e na aprendizagem. Geometria Dinâmica, Gráficos de Funções e Álgebra Linear e suas respectivas abordagens usando o computador. Implementação de programas em linguagem de alto nível. Utilização de softwares matemáticos para a educação matemática."
+    },
+    {
+      "id": "MTM9694",
+      "code": "MTM9694",
+      "name": "Extensão IV - Treinamento de Matemática",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Matemática Monitoria ou atividades de ensino de: Conjuntos Numéricos (Naturais, Inteiros, Racionais, Reais e Complexos); Funções ( afim, quadrática, racional; modular, exponenciais e logarítmicas); Sequências numéricas (progressões aritméticas e progressões geométricas; Análise Combinatória e Noções de estatística; Matrizes, Determinantes e Sistemas Lineares; Trigonometria, Funções trigonométricas circulares; Polinômios e Equações Algébricas; Geometria Plana; Geometria Espacial; Geometria Analítica."
+    },
+    {
+      "id": "CEE9621",
+      "code": "CEE9621",
+      "name": "Estágio Supervisionado I",
+      "credits": 13,
+      "hours": 234,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE9600",
+        "CEE9601",
+        "FSC9602",
+        "MTM9620",
+        "MTM9630",
+        "MTM9640",
+        "MTM9651",
+        "PSI9637"
+      ],
+      "equivalents": [
+        "MEN7032",
+        "MEN9406"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CEE9600"
+          },
+          {
+            "kind": "course",
+            "code": "CEE9601"
+          },
+          {
+            "kind": "course",
+            "code": "FSC9602"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9620"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9630"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9640"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9651"
+          },
+          {
+            "kind": "course",
+            "code": "PSI9637"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN7032"
+          },
+          {
+            "kind": "course",
+            "code": "MEN9406"
+          }
+        ]
+      },
+      "syllabus": "Formação do professor e o ensino de Matemática. Planejamento de atividades de ensino. Desenvolvimento de estágio. Avaliação de atividades desenvolvidas com vista à formação docente"
+    },
+    {
+      "id": "FSC9622",
+      "code": "FSC9622",
+      "name": "Física II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FSC5002"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "FSC5002"
+      },
+      "syllabus": "Introdução aos conceitos fundamentais da cinemática e dinâmica. Leis de conservação da energia e do momento linear. Estudo da cinemática e dinâmica da rotação de corpos rígidos. Oscilações e ondas mecânicas (som). Estática e dinâmica dos fluídos. Noções sobre temperatura, calor, princípios da termodinâmica e teoria cinética dos gases."
+    },
+    {
+      "id": "MTM9629",
+      "code": "MTM9629",
+      "name": "Métodos Numéricos",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3521"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM3521"
+      },
+      "syllabus": "Aritmética de ponto flutuante. Zeros de funções reais. Sistemas Lineares. Interpolação Polinomial. Integração Numérica. Quadrados mínimos lineares. Tratamento Numérico de Equações diferenciais ordinárias."
+    },
+    {
+      "id": "MTM9669",
+      "code": "MTM9669",
+      "name": "Tópicos de Matemática Financeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM3561",
+        "MTM9602"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MTM3561"
+          },
+          {
+            "kind": "course",
+            "code": "MTM9602"
+          }
+        ]
+      },
+      "syllabus": "Porcentagem. Juros Simples. Juros Composto. Aplicações Práticas de Ensino."
+    },
+    {
+      "id": "CEE9612",
+      "code": "CEE9612",
+      "name": "Estágio Supervisionado II",
+      "credits": 14,
+      "hours": 252,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [
+        "CEE9621"
+      ],
+      "equivalents": [
+        "MEN7034",
+        "MEN9417"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CEE9621"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN7034"
+          },
+          {
+            "kind": "course",
+            "code": "MEN9417"
+          }
+        ]
+      },
+      "syllabus": "Formação do professor e o ensino de Matemática. Planejamento de atividades de ensino. Desenvolvimento de estágio. Avaliação de atividades desenvolvidas com vista à formação docente."
+    },
+    {
+      "id": "EGC9036",
+      "code": "EGC9036",
+      "name": "Introdução à Ciência de Dados Aplicada",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a computadores e aos paradigmas de linguagens de programação. Variáveis, expressões e módulos. Controle de fluxo, iterações e condicionais. Valores básicos e estruturados. Tipos de dados específicos. Uso de bibliotecas e ferramentas computacionais. Prática em uma linguagem de programação de alto nível. Introdução a ciência de dados: definição, objetivos e motivação. Construindo Uma Base de Dados; Visualização e Ciência de Dados; Indicadores Básicos na Ciência de Dados; Projetos aplicados em ciência de dados."
+    },
+    {
+      "id": "FIL9610",
+      "code": "FIL9610",
+      "name": "Filosofia da Educação",
+      "credits": 5,
+      "hours": 90,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "FIL5781",
+        "FIL9401"
+      ],
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FIL5781"
+          },
+          {
+            "kind": "course",
+            "code": "FIL9401"
+          }
+        ]
+      },
+      "syllabus": "A educação como objeto da reflexão filosófica. Clássicos da Filosofia da Educação. Atividades práticas de ensino, pesquisa e extensão nesse tema."
+    },
+    {
+      "id": "MTM9664",
+      "code": "MTM9664",
+      "name": "Métodos de Física-Matemática (PCC 18h-a)",
+      "credits": 6,
+      "hours": 108,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MTM9802"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MTM9802"
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Análise Dimensional, Ordens de Grandeza, Modelagem Matemática de Fenômenos Físicos, História da matemática relacionada com o conteúdo. Prática como componente curricular."
+    },
+    {
+      "id": "EGC9037",
+      "code": "EGC9037",
+      "name": "Ferramentas de programação para engenharia do conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Introdução a computadores, aos paradigmas de linguagens de programação e suas aplicações em engenharia do conhecimento. Variáveis, expressões e módulos. Controle de fluxo, iterações e condicionais. Valores básicos e estruturados. Funções e recursão. Leitura e escrita em arquivos. Tipos de dados específicos. Uso de bibliotecas e ferramentas computacionais. Práticas em uma linguagem de programação de alto nível para sistemas de conhecimento."
+    },
+    {
+      "id": "EGC9038",
+      "code": "EGC9038",
+      "name": "Introdução à Análise exploratória para engenharia do conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EGC9037"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGC9037"
+      },
+      "syllabus": "Análise descritiva; Análise inferencial; Análise Preditiva; Análise prescritiva; Análise exploratória de Dados; Análise causal. Diferenças e complementariedades para a aplicação em sistemas de conhecimento."
+    },
+    {
+      "id": "EGC9039",
+      "code": "EGC9039",
+      "name": "Ciência de Dados para Engenharia do Conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EGC9037",
+        "EGC9038"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EGC9037"
+          },
+          {
+            "kind": "course",
+            "code": "EGC9038"
+          }
+        ]
+      },
+      "syllabus": "Conceitos básicos de ciência de dados: definição, objetivos e motivação para aplicação em sistemas de conhecimento. Introdução à inteligência artificial. Aprendizagem de máquina: Supervisionado (predição e classificação) e Não-supervisionado (agrupamento). Redes Neurais. Extração de Conhecimento."
+    },
+    {
+      "id": "EGC9040",
+      "code": "EGC9040",
+      "name": "Projeto de Ciência de Dados para Engenharia do Conhecimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "EGC9039"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EGC9039"
+      },
+      "syllabus": "Sistemas de conhecimento como Projeto Orientado a Dados usando Ciência de Dados, Aprendizado de máquina, IA, BI e/ou Analytics. Avaliação e Apresentação dos Resultados em sistemas de conhecimento."
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "FSC9601",
+      "MTM9630",
+      "MTM9651",
+      "MTM9671",
+      "FSC9602",
+      "MTM9652",
+      "MTM9653",
+      "PSI9637",
+      "CEE9600",
+      "INE9623",
+      "MTM9620",
+      "MTM9640",
+      "CEE9601",
+      "EGC9034",
+      "MTM9621",
+      "MTM9672",
+      "CEE9602",
+      "MTM9622",
+      "MTM9643",
+      "MTM9691",
+      "LSB9244",
+      "MTM9623",
+      "MTM9631",
+      "MTM9666",
+      "MTM9692",
+      "EGC9035",
+      "MTM9627",
+      "MTM9633",
+      "MTM9693",
+      "FSC9621",
+      "MTM9625",
+      "MTM9662",
+      "MTM9694",
+      "CEE9621",
+      "FSC9622",
+      "MTM9629",
+      "MTM9669",
+      "CEE9612",
+      "EGC9036",
+      "FIL9610",
+      "MTM9664"
+    ],
+    "requirements": []
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "702",
+    "curriculumCode": "20252",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=702&curriculo=20252",
+    "sha256": "eb46885da2c4c40dfa978e627fbe4cc9ee5ad881c1d20f755d7a1640140713ef",
+    "capturedAt": "2026-09-22"
+  }
+}

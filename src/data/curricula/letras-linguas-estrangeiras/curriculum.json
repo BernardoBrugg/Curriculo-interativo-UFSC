@@ -1,0 +1,2449 @@
+{
+  "program": "LETRAS ALEMÃO",
+  "institution": "Universidade Federal de Santa Catarina",
+  "version": "Matriz 2007.1",
+  "totalHours": 3390,
+  "phases": [
+    {
+      "number": 0,
+      "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
+    }
+  ],
+  "courses": [
+    {
+      "id": "LLE7020",
+      "code": "LLE7020",
+      "name": "Introdução aos Estudos da Narrativa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE5381",
+        "LLE5445",
+        "LLE8020",
+        "LLV5933",
+        "LLV7402"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5381"
+          },
+          {
+            "kind": "course",
+            "code": "LLE5445"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8020"
+          },
+          {
+            "kind": "course",
+            "code": "LLV5933"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7402"
+          }
+        ]
+      },
+      "syllabus": "Bacharel ou Licenciado em Letras - Lingua Alemã e Literaturas deverá dominar o uso da língua alemã relativamente as suas características culturais, estruturais e funcionais, envolvendo-se socialmente com a profissão e assumindo posturas ancoradas nas teorias da área."
+    },
+    {
+      "id": "LLE7030",
+      "code": "LLE7030",
+      "name": "Introdução aos Estudos da Tradução",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE5060",
+        "LLE5160",
+        "LLE5710",
+        "LLE8030"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5060"
+          },
+          {
+            "kind": "course",
+            "code": "LLE5160"
+          },
+          {
+            "kind": "course",
+            "code": "LLE5710"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8030"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7040",
+      "code": "LLE7040",
+      "name": "Introdução aos Estudos da Linguagem",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE8040"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE8040"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7050",
+      "code": "LLE7050",
+      "name": "Introdução à Lingüística Aplicada",
+      "credits": 2,
+      "hours": 36,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE5045",
+        "LLE8050"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5045"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8050"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7111",
+      "code": "LLE7111",
+      "name": "Compreensão e Produção Oral em Língua",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE5701"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5701"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7191",
+      "code": "LLE7191",
+      "name": "Compreensão e Produção Escrita em Língua Alemã I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 1,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE5701",
+        "LLE8191"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5701"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8191"
+          }
+        ]
+      },
+      "syllabus": "Alemã I LLE8111)"
+    },
+    {
+      "id": "LLE7023",
+      "code": "LLE7023",
+      "name": "Introdução ao Estudo do Texto Poético e Dramático",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE8021",
+        "LLV5932",
+        "LLV7403"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE8021"
+          },
+          {
+            "kind": "course",
+            "code": "LLV5932"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7403"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7041",
+      "code": "LLE7041",
+      "name": "Estudos Lingüísticos I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7040"
+      ],
+      "equivalents": [
+        "LLV5601",
+        "LLV7004",
+        "LLV5602",
+        "LLV7005",
+        "LLV5104",
+        "LLV7006",
+        "LLV5102",
+        "LLV7007",
+        "LLE8041"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7040"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV5601"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7004"
+                  }
+                ]
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV5602"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7005"
+                  }
+                ]
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV5104"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7006"
+                  }
+                ]
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV5102"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7007"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "LLE8041"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7051",
+      "code": "LLE7051",
+      "name": "Lingüística Aplicada I (PCC 36 h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7050"
+      ],
+      "equivalents": [
+        "LLE5045",
+        "LLE8050"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7050"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5045"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8050"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7112",
+      "code": "LLE7112",
+      "name": "Compreensão e Produção Oral em Língua",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7111"
+      ],
+      "equivalents": [
+        "LLE5702"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7111"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5702"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7192",
+      "code": "LLE7192",
+      "name": "Compreensão e produção Escrita em Língua Alemã II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 2,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7191"
+      ],
+      "equivalents": [
+        "LLE5702",
+        "LLE8192"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7191"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5702"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8192"
+          }
+        ]
+      },
+      "syllabus": "Alemã II LLE8112)"
+    },
+    {
+      "id": "LLE7021",
+      "code": "LLE7021",
+      "name": "Literatura Ocidental I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7020",
+        "LLE7023"
+      ],
+      "equivalents": [
+        "LLE5606",
+        "LLE8022",
+        "LLV5931",
+        "LLV7401"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7020"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7023"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5606"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8022"
+          },
+          {
+            "kind": "course",
+            "code": "LLV5931"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7401"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7031",
+      "code": "LLE7031",
+      "name": "Estudos da Tradução I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7030"
+      ],
+      "equivalents": [
+        "LLE5060"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7030"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5060"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7042",
+      "code": "LLE7042",
+      "name": "Estudos Lingüísticos II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7040"
+      ],
+      "equivalents": [
+        "LLV7018",
+        "LLV5657",
+        "LLV7009",
+        "LLV5109",
+        "LLV7011",
+        "LLV5106",
+        "LLV7012",
+        "LLV5105",
+        "LLV7017",
+        "LLE8042"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7040"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "LLV7018"
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV5657"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7009"
+                  }
+                ]
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV5109"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7011"
+                  }
+                ]
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV5106"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7012"
+                  }
+                ]
+              },
+              {
+                "kind": "any",
+                "requirements": [
+                  {
+                    "kind": "course",
+                    "code": "LLV5105"
+                  },
+                  {
+                    "kind": "course",
+                    "code": "LLV7017"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "LLE8042"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7113",
+      "code": "LLE7113",
+      "name": "Compreensão e Produção Oral em Língua",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7112"
+      ],
+      "equivalents": [
+        "LLE5703"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7112"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5703"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7193",
+      "code": "LLE7193",
+      "name": "Compreensão e Produção Escrita em Língua Alemã III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 3,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7192"
+      ],
+      "equivalents": [
+        "LLE5703",
+        "LLE8193"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7192"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5703"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8193"
+          }
+        ]
+      },
+      "syllabus": "Alemã III LLE8113)"
+    },
+    {
+      "id": "LLE7022",
+      "code": "LLE7022",
+      "name": "Literatura Ocidental II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7020",
+        "LLE7023"
+      ],
+      "equivalents": [
+        "LLE5605",
+        "LLE8023"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7020"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7023"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5605"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8023"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7032",
+      "code": "LLE7032",
+      "name": "Estudos da Tradução II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7030"
+      ],
+      "equivalents": [
+        "LLE8031"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7030"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE8031"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7052",
+      "code": "LLE7052",
+      "name": "Lingüística Aplicada II",
+      "credits": 2,
+      "hours": 36,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7050"
+      ],
+      "equivalents": [
+        "LLE5045",
+        "LLE8050"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7050"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5045"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8050"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7060",
+      "code": "LLE7060",
+      "name": "Pesquisa em Letras Estrangeiras (PCC 18",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE5016"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5016"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7114",
+      "code": "LLE7114",
+      "name": "Compreensão e Produção Oral em Língua",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7113"
+      ],
+      "equivalents": [
+        "LLE5704"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7113"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5704"
+      },
+      "syllabus": "h/a) LLE5017) ou"
+    },
+    {
+      "id": "LLE7194",
+      "code": "LLE7194",
+      "name": "Compreensão e Produção Escrita em Língua Alemã IV (PCC 18 h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 4,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7193"
+      ],
+      "equivalents": [
+        "LLE5704",
+        "LLE8194"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7193"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5704"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8194"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Alemã IV (PCC 18 h/a) LLE8114)"
+    },
+    {
+      "id": "LLE7071",
+      "code": "LLE7071",
+      "name": "Tradução Literária Comentada",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLE7030",
+        "LLE7031"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7030"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7031"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7073",
+      "code": "LLE7073",
+      "name": "Tópico Especial em Língua I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7074",
+      "code": "LLE7074",
+      "name": "Tópico Especial em Língua II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7075",
+      "code": "LLE7075",
+      "name": "Tópico Espeial em Ensino e Aprendizagem",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7076",
+      "code": "LLE7076",
+      "name": "Tópico Especial em Ensino e Aprendizagem II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "I"
+    },
+    {
+      "id": "LLE7077",
+      "code": "LLE7077",
+      "name": "Leitura e Produção Textual Acadêmica I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7078",
+      "code": "LLE7078",
+      "name": "Literatura Infanto-juvenil",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7079",
+      "code": "LLE7079",
+      "name": "Teoria e Crítica Literária",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7080",
+      "code": "LLE7080",
+      "name": "Tópico Especial em Literatura I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7081",
+      "code": "LLE7081",
+      "name": "Tópico Especial em Tradução I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7082",
+      "code": "LLE7082",
+      "name": "Letras Estrangeiras - A tradução e suas",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7199",
+      "code": "LLE7199",
+      "name": "Tópico Especial em Tradução do/para o",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "interfaces"
+    },
+    {
+      "id": "LLE7384",
+      "code": "LLE7384",
+      "name": "História da Língua Francesa",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7384
+      },
+      "prerequisiteHours": 7384,
+      "syllabus": "Alemão I"
+    },
+    {
+      "id": "LLE7000",
+      "code": "LLE7000",
+      "name": "Introdução à teoria e prática da legendagem",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7115",
+      "code": "LLE7115",
+      "name": "Compreensão e Produção Oral em Língua",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7114"
+      ],
+      "equivalents": [
+        "LLE5705"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7114"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5705"
+      },
+      "syllabus": "Decreto Criação = 46266 de 26/06/1959 Portaria nº 567 de 30 de setembro de 2014, Publicado no D.O.U nº 189, de 1º de outubro de 2014."
+    },
+    {
+      "id": "LLE7121",
+      "code": "LLE7121",
+      "name": "Literatura Alemã I (PCC 36)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7020",
+        "LLE7023",
+        "LLE7194"
+      ],
+      "equivalents": [
+        "LLE5446",
+        "LLE8121"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7020"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7023"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7194"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5446"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8121"
+          }
+        ]
+      },
+      "syllabus": "Alemã V (PCC 36 h/a) LLE8115)"
+    },
+    {
+      "id": "LLE7195",
+      "code": "LLE7195",
+      "name": "Compreensão e Produção Escrita em Língua Alemã V (PCC 36 h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7194"
+      ],
+      "equivalents": [
+        "LLE5705",
+        "LLE8195"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7194"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5705"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8195"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": ""
+    },
+    {
+      "id": "MEN5604",
+      "code": "MEN5604",
+      "name": "Didática D - (PCC 12 h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "MEN5131",
+        "MEN5132",
+        "MEN5134",
+        "MEN5135",
+        "MEN5601"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 12
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN5131"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5132"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5134"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5135"
+          },
+          {
+            "kind": "course",
+            "code": "MEN5601"
+          }
+        ]
+      },
+      "prerequisiteHours": 12,
+      "syllabus": "- Educação escolar como fenômeno histórico-social. Currículo e trabalho pedagógico no contexto escolar. As relações de ensino-aprendizagem em contexto escolar. Mediações pedagógicas e suas relações com o ensino da área específica do curso."
+    },
+    {
+      "id": "PSI5137",
+      "code": "PSI5137",
+      "name": "Psicologia Educacional: Desenvolvimento",
+      "credits": 4,
+      "hours": 72,
+      "phase": 5,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "PSI5105"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5105"
+      },
+      "syllabus": "Introdução à Psicologia como ciência: histórico, objetivo e métodos. Interações sociais no contexto educacional e o lugar do professor. Introdução ao estudo do desenvolvimento e de aprendizagem - infância, adolescência, idade adulta. Contribuições da Psicologia na prática escolar cotidiana e na compreensão do fracasso escolar. Prática como componente curricular."
+    },
+    {
+      "id": "EED5187",
+      "code": "EED5187",
+      "name": "Organização Escolar (PCC 18h-a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "EED5129",
+        "EED5185",
+        "EED8007"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EED5129"
+          },
+          {
+            "kind": "course",
+            "code": "EED5185"
+          },
+          {
+            "kind": "course",
+            "code": "EED8007"
+          }
+        ]
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "-O papel social da escola. O direito à educação. A democratização da educação. Currículo e organização da escola. LDB: a organização da educação nacional e níveis e modalidades de ensino. Projeto Político Pedagógico: a gestão democrática da escola. Parâmetros Curriculares Nacionais. Propostas Curriculares estadual e municipal."
+    },
+    {
+      "id": "LLE7116",
+      "code": "LLE7116",
+      "name": "Compreensão e produção Oral em Língua",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7115"
+      ],
+      "equivalents": [
+        "LLE5706"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7115"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5706"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7122",
+      "code": "LLE7122",
+      "name": "Literatura Alemã II (PCC 18)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7020",
+        "LLE7023",
+        "LLE7194"
+      ],
+      "equivalents": [
+        "LLE5446",
+        "LLE8122"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7020"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7023"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7194"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5446"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8122"
+          }
+        ]
+      },
+      "syllabus": "Alemã VI (PCC 18 h/a) LLE8122)"
+    },
+    {
+      "id": "LLE7196",
+      "code": "LLE7196",
+      "name": "Compreensão e produção Escrita em Língua Alemã VI (PCC 36 h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7195"
+      ],
+      "equivalents": [
+        "LLE5706",
+        "LLE8196"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7195"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5706"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8196"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7040",
+      "code": "MEN7040",
+      "name": "Metodologia do Ensino de Alemão (PCC 36",
+      "credits": 6,
+      "hours": 108,
+      "phase": 6,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7115"
+      ],
+      "equivalents": [
+        "MEN5504"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7115"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN5504"
+      },
+      "syllabus": "-Método, metodologia e abordagem. Diretrizes curriculares de língua estrangeiras. A presença de língua alemã na escola brasileira. Estratégias para o ensino das habilidades linguísticas e da gramática. Cultura e literatura: contribuições no ensino e na aprendizagem da língua alemã. Análise e produção de atividades de ensino e aprendizagem nas escolas. Planejamento e avaliação de aulas."
+    },
+    {
+      "id": "LLE7117",
+      "code": "LLE7117",
+      "name": "Compreensão e Produção Oral em Língua",
+      "credits": 2,
+      "hours": 36,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7116"
+      ],
+      "equivalents": [
+        "LLE5707"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7116"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5707"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7123",
+      "code": "LLE7123",
+      "name": "Literatura Alemã III (PCC 36)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7020",
+        "LLE7023",
+        "LLE7194"
+      ],
+      "equivalents": [
+        "LLE5447",
+        "LLE8123"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7020"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7023"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7194"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5447"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8123"
+          }
+        ]
+      },
+      "syllabus": "Alemã VII (PCC 18 h/a) LLE8117)"
+    },
+    {
+      "id": "LLE7197",
+      "code": "LLE7197",
+      "name": "Compreensão e Produção Escrita em Língua Alemã VII (PCC36 h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7196"
+      ],
+      "equivalents": [
+        "LLE5707",
+        "LLE8197"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7196"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5707"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8197"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": ""
+    },
+    {
+      "id": "MEN7048",
+      "code": "MEN7048",
+      "name": "Estágio Supervisionado I - Alemão",
+      "credits": 13,
+      "hours": 234,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7116",
+        "LLE7196",
+        "MEN7040"
+      ],
+      "equivalents": [
+        "MEN7041",
+        "MEN7042",
+        "MEN7043"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7116"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7196"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7040"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN7041"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7042"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7043"
+          }
+        ]
+      },
+      "syllabus": "-Contextualização do ensino da língua alemã no espaço escolar catarinense. Coleta e análise qualitativa de dados. Observação e acompanhamento de professores de alemão em suas práticas docentes na função de tutoria. Registro e relato da experiência. Fundamentação e elaboração do projeto de docência para o ensino de Língua Estrangeira – Alemão."
+    },
+    {
+      "id": "LLE7124",
+      "code": "LLE7124",
+      "name": "Literatura Alemã IV (PCC 36h/a)",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7020",
+        "LLE7023",
+        "LLE7194"
+      ],
+      "equivalents": [
+        "LLE5448",
+        "LLE8124"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7020"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7023"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7194"
+          },
+          {
+            "kind": "hours",
+            "hours": 36
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5448"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8124"
+          }
+        ]
+      },
+      "prerequisiteHours": 36,
+      "syllabus": ""
+    },
+    {
+      "id": "LSB7904",
+      "code": "LSB7904",
+      "name": "Língua Brasileira de Sinais I (PCC 18horas-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 18
+      },
+      "prerequisiteHours": 18,
+      "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
+    },
+    {
+      "id": "MEN7049",
+      "code": "MEN7049",
+      "name": "Estágio Supervisionado II - Alemão",
+      "credits": 14,
+      "hours": 252,
+      "phase": 8,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7116",
+        "LLE7197",
+        "MEN7048"
+      ],
+      "equivalents": [
+        "MEN7041",
+        "MEN7042",
+        "MEN7043"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7116"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7197"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7048"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "MEN7041"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7042"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7043"
+          }
+        ]
+      },
+      "syllabus": "aula) -Estágio de docência. Elaboração de relatório final e divulgação dos resultados."
+    },
+    {
+      "id": "LLE7001",
+      "code": "LLE7001",
+      "name": "Linguagem e Filosofia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Disciplinas Optativas"
+    },
+    {
+      "id": "LLE7002",
+      "code": "LLE7002",
+      "name": "Literatura e Filosofia",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7003",
+      "code": "LLE7003",
+      "name": "Introdução ao Sânscrito",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7004",
+      "code": "LLE7004",
+      "name": "Educação a Distância e Língua Estrangeira",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7005",
+      "code": "LLE7005",
+      "name": "Ensino/Aprendizagem de Português-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7014",
+      "code": "LLE7014",
+      "name": "Literatura e Cinema-A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Língua Estrangeira I"
+    },
+    {
+      "id": "LLE7015",
+      "code": "LLE7015",
+      "name": "Literatura e Cinema-B",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7016",
+      "code": "LLE7016",
+      "name": "Ensino de Leitura",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7018",
+      "code": "LLE7018",
+      "name": "Tópicos Especiais em EaD e Língua",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7072",
+      "code": "LLE7072",
+      "name": "Tradução Técnica e Oficial",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Estrangeira - B"
+    },
+    {
+      "id": "LLE7170",
+      "code": "LLE7170",
+      "name": "Estudos Culturais Contemporâneos",
+      "credits": 2,
+      "hours": 36,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE5440",
+        "LLE5719"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5440"
+          },
+          {
+            "kind": "course",
+            "code": "LLE5719"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7171",
+      "code": "LLE7171",
+      "name": "Tradução Jornalística",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE5467"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5467"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7173",
+      "code": "LLE7173",
+      "name": "Gramática do Alemão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 8,
+      "type": "Op",
+      "prerequisites": [
+        "LLE7114",
+        "LLE7194"
+      ],
+      "equivalents": [
+        "LLE5424"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7114"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7194"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5424"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7174",
+      "code": "LLE7174",
+      "name": "Fonética do Alemão",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7175",
+      "code": "LLE7175",
+      "name": "Teatro em Língua Alemã",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLE7115"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7115"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7176",
+      "code": "LLE7176",
+      "name": "Categorias Verbais do Alemão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7177",
+      "code": "LLE7177",
+      "name": "Bilinguismo e Identidade - O caso do Alemão em Santa Catarina",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7178",
+      "code": "LLE7178",
+      "name": "Conversação em Alemão II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLE7115"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7115"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7179",
+      "code": "LLE7179",
+      "name": "Literatura Alemã em Tradução",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "LLE7115"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7115"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7180",
+      "code": "LLE7180",
+      "name": "Tópico Especial em Língua Alemã I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7181",
+      "code": "LLE7181",
+      "name": "Tópico Especial em Língua Alemã II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7182",
+      "code": "LLE7182",
+      "name": "Tópico Especial em Literatura Alemã I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7183",
+      "code": "LLE7183",
+      "name": "Tópico Especial em Literatura Alemã II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7184",
+      "code": "LLE7184",
+      "name": "Estudos de Tradução em Alemão I",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [
+        "LLE5467"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLE5467"
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7185",
+      "code": "LLE7185",
+      "name": "Estudos de Tradução em Alemão II",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7186",
+      "code": "LLE7186",
+      "name": "Conversação em Alemão I",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7187",
+      "code": "LLE7187",
+      "name": "Cinema em Língua Alemã",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7188",
+      "code": "LLE7188",
+      "name": "Tradução Jornalística A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7189",
+      "code": "LLE7189",
+      "name": "Conversação em Alemão I-A",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7190",
+      "code": "LLE7190",
+      "name": "Tópico Especial em Língua Alemã III",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "MEN5109",
+      "code": "MEN5109",
+      "name": "Educação e Mídias",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Sociedade, educação e tecnologia. A cultura mediática e as mediações na escola e nos processos educacionais. Formação de professores para uso e estudo das mídias no cotidiano escolar. Descrição das mídias, da linguagem áudio visual e hipermidiática e narrativas híbridas a partir de suas características, limitações e possibilidades no apoio ao ensino e aprendizagem. Processos de produção das mídias na educação presencial e a distância."
+    },
+    {
+      "id": "LLE7006",
+      "code": "LLE7006",
+      "name": "Ensino/Aprendizagem de Português-",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7901",
+      "code": "LLE7901",
+      "name": "Ensino de letras Estrangeiras I",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": "Língua Estrangeira II"
+    },
+    {
+      "id": "LLE7902",
+      "code": "LLE7902",
+      "name": "Ensino de letras Estrangeiras II",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7903",
+      "code": "LLE7903",
+      "name": "Pesquisa em letras Estrangeiras I",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7904",
+      "code": "LLE7904",
+      "name": "Pesquisa em letras Estrangeiras II",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7905",
+      "code": "LLE7905",
+      "name": "Extensão em letras Estrangeiras I",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7906",
+      "code": "LLE7906",
+      "name": "Extensão em letras Estrangeiras II",
+      "credits": 4,
+      "hours": 60,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7161",
+      "code": "LLE7161",
+      "name": "Elaboração do projeto do TCC - Alemão",
+      "credits": 4,
+      "hours": 72,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7060"
+      ],
+      "equivalents": [
+        "LLE5487",
+        "LLE8161"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7060"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5487"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8161"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7162",
+      "code": "LLE7162",
+      "name": "TCC em Alemão",
+      "credits": 8,
+      "hours": 144,
+      "phase": 7,
+      "type": "Ob",
+      "prerequisites": [
+        "LLE7161"
+      ],
+      "equivalents": [
+        "LLE5760",
+        "LLE8162"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7161"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE5760"
+          },
+          {
+            "kind": "course",
+            "code": "LLE8162"
+          }
+        ]
+      },
+      "syllabus": ""
+    },
+    {
+      "id": "LLE7198",
+      "code": "LLE7198",
+      "name": "Estudos Culturais Teuto-Brasileiro",
+      "credits": 2,
+      "hours": 36,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [],
+      "equivalents": [],
+      "syllabus": ""
+    }
+  ],
+  "completion": {
+    "requiredCourseIds": [
+      "LLE7020",
+      "LLE7030",
+      "LLE7040",
+      "LLE7050",
+      "LLE7111",
+      "LLE7191",
+      "LLE7023",
+      "LLE7041",
+      "LLE7051",
+      "LLE7112",
+      "LLE7192",
+      "LLE7021",
+      "LLE7031",
+      "LLE7042",
+      "LLE7113",
+      "LLE7193",
+      "LLE7022",
+      "LLE7032",
+      "LLE7052",
+      "LLE7060",
+      "LLE7114",
+      "LLE7194",
+      "LLE7115",
+      "LLE7121",
+      "LLE7195",
+      "MEN5604",
+      "PSI5137",
+      "EED5187",
+      "LLE7116",
+      "LLE7122",
+      "LLE7196",
+      "MEN7040",
+      "LLE7117",
+      "LLE7123",
+      "LLE7197",
+      "MEN7048",
+      "LLE7124",
+      "LSB7904",
+      "MEN7049",
+      "LLE7188",
+      "LLE7189",
+      "LLE7190",
+      "LLE7161",
+      "LLE7162"
+    ],
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 570,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "LLE7071",
+              "LLE7073",
+              "LLE7074",
+              "LLE7075",
+              "LLE7076",
+              "LLE7077",
+              "LLE7078",
+              "LLE7079",
+              "LLE7080",
+              "LLE7081",
+              "LLE7082",
+              "LLE7199",
+              "LLE7384",
+              "LLE7000",
+              "LLE7001",
+              "LLE7002",
+              "LLE7003",
+              "LLE7004",
+              "LLE7005",
+              "LLE7014",
+              "LLE7015",
+              "LLE7016",
+              "LLE7018",
+              "LLE7072",
+              "LLE7170",
+              "LLE7171",
+              "LLE7173",
+              "LLE7174",
+              "LLE7175",
+              "LLE7176",
+              "LLE7177",
+              "LLE7178",
+              "LLE7179",
+              "LLE7180",
+              "LLE7181",
+              "LLE7182",
+              "LLE7183",
+              "LLE7184",
+              "LLE7185",
+              "LLE7186",
+              "LLE7187",
+              "MEN5109",
+              "LLE7006",
+              "LLE7901",
+              "LLE7902",
+              "LLE7903",
+              "LLE7904",
+              "LLE7905",
+              "LLE7906",
+              "LLE7198"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "external-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      }
+    ]
+  },
+  "source": {
+    "kind": "official-cagr-report",
+    "courseCode": "421",
+    "curriculumCode": "20071",
+    "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=421&curriculo=20071",
+    "sha256": "1b48c71780c2395379c4ee3b0ec157afa4c446a9a54b7bc22c7d9f273ef81857",
+    "capturedAt": "2026-09-22"
+  }
+}
