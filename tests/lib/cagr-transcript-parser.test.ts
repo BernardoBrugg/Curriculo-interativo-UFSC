@@ -103,4 +103,49 @@ describe("cagr-transcript-parser", () => {
     expect(result.inProgressCourses).toEqual([]);
     expect(result.recognizedCount).toBe(7);
   });
+
+  it("parses PDF stream text where course code appears after discipline type", () => {
+    const pdfStreamTranscript = `
+      HISTÓRICO SÍNTESE DE GRADUAÇÃO
+      ENGENHARIA DE PRODUÇÃO - Bacharelado
+      2023/1
+      Curso:
+      Currículo:
+      Aluno:  Bernardo Broering Bruggemann
+      237
+      25250319 Matrícula:
+
+      Semestre 2025/1
+      H/A Disciplina  Nota  Fr  Tipo
+      Eletrotécnica Geral  36 8.0  FS  Ob EEL5113  Rv
+      Laboratório de Eletricidade Básica  36 10.0  FS  Op EEL7011  Rv
+      Cálculo 1  72 6.5  FS  Ob MTM3110  Rv
+      Cálculo 3  72 6.0  FS  Ob MTM3103  Rv
+
+      Semestre 2025/2
+      H/A Disciplina  Nota  Fr  Tipo
+      Fenômenos de Transportes  72 7.0  FS  Ob EMC5425  
+      Programação para Engenharia de Produção I  72 10.0  FS  Ob EPS2301  
+      Disciplina Em Andamento  72 --  --  Ob EPS2303  
+
+      Observação:  O aluno de graduação é considerado aprovado numa disciplina se obtém frequência suficiente (FS)
+    `;
+
+    const result = parseCagrTranscript(pdfStreamTranscript);
+
+    expect(result.studentName).toBe("Bernardo Broering Bruggemann");
+    expect(result.courseName).toBe("ENGENHARIA DE PRODUÇÃO - Bacharelado");
+    expect(result.matricula).toBe("25250319");
+    expect(result.curriculumCode).toBe("2023/1");
+    expect(result.completedCourses).toEqual([
+      "EEL5113",
+      "EEL7011",
+      "MTM3110",
+      "MTM3103",
+      "EMC5425",
+      "EPS2301",
+    ]);
+    expect(result.inProgressCourses).toEqual(["EPS2303"]);
+    expect(result.recognizedCount).toBe(7);
+  });
 });

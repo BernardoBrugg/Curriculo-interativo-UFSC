@@ -117,6 +117,11 @@ export function CagrImportModal({ isOpen, onClose, allCourses, onApply }: CagrIm
     allCourses.forEach((courseItem) => {
       map.set(courseItem.code.toUpperCase(), courseItem);
       map.set(courseItem.id.toUpperCase(), courseItem);
+      if (courseItem.equivalents) {
+        courseItem.equivalents.forEach((equiv) => {
+          map.set(equiv.toUpperCase(), courseItem);
+        });
+      }
     });
     return map;
   }, [allCourses]);
@@ -146,6 +151,7 @@ export function CagrImportModal({ isOpen, onClose, allCourses, onApply }: CagrIm
   }, [courseMap, parsedResult]);
 
   const totalMatchedCount = matchedCompleted.matched.length + matchedInProgress.matched.length;
+  const unmatchedCount = matchedCompleted.unmatched.length + matchedInProgress.unmatched.length;
 
   const handleConfirm = () => {
     const completedIds = matchedCompleted.matched.map((courseItem) => courseItem.id);
@@ -409,6 +415,19 @@ export function CagrImportModal({ isOpen, onClose, allCourses, onApply }: CagrIm
                     ))}
                   </div>
                 </div>
+              )}
+
+              {totalMatchedCount === 0 && (
+                <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-3 text-xs text-amber-800 dark:text-amber-200">
+                  <p className="font-bold">Nenhuma disciplina reconhecida pertence à grade deste curso.</p>
+                  <p className="mt-1">Foram encontradas {parsedResult.recognizedCount} disciplinas no documento, mas nenhuma delas corresponde à grade ou equivalências do curso aberto.</p>
+                </div>
+              )}
+
+              {unmatchedCount > 0 && totalMatchedCount > 0 && (
+                <p className="text-[11px] text-[var(--text-muted)]">
+                  + {unmatchedCount} disciplina(s) do histórico não constam na grade deste curso (optativas livres ou outros departamentos).
+                </p>
               )}
 
               {hasApplied && (

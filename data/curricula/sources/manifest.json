@@ -1,14 +1,649 @@
 {
-  "capturedAt": "2026-07-15",
+  "capturedAt": "2026-09-22",
   "sources": [
-    { "id": "automacao", "courseCode": "220", "curriculumCode": "20241", "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=220&curriculo=20241", "sha256": "aa23494d0f7b1b900fb9b2f5c6a2227b11c0374854f0473e0c67f231bc354f06" },
-    { "id": "civil", "courseCode": "201", "curriculumCode": "20201", "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=201&curriculo=20201", "sha256": "cdd0dbca851b2df136fa71b45a1c47b21bdd6a44f6a55db377b316f4f904dc6e" },
-    { "id": "eletrica", "courseCode": "202", "curriculumCode": "20051", "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=202&curriculo=20051", "sha256": "9bdf93cd9aa32088129efb7630ffe7631c6d54ce450e46fce1672d78478256d8" },
-    { "id": "eletronica", "courseCode": "235", "curriculumCode": "20092", "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=235&curriculo=20092", "sha256": "db3889bc9ef8075a2ca487373a587af24191ca394451b6d7023eea327638f3ea" },
-    { "id": "materiais", "courseCode": "233", "curriculumCode": "20011", "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=233&curriculo=20011", "sha256": "f5762b70f357c54d6ccb314b1127e2ee46ddefe06c2382142f156312ba2ad40e" },
-    { "id": "mecanica", "courseCode": "203", "curriculumCode": "20251", "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=203&curriculo=20251", "sha256": "21aa4454d4bcffdd4d5a8a245b4572ae80c6d24b4ca0d13818eee1ef7519f03e" },
-    { "id": "producao", "courseCode": "237", "curriculumCode": "20231", "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=237&curriculo=20231", "sha256": "0003a6377f3f1074d319f559aef3d350009e47b93f130524ad65c9f798c74509" },
-    { "id": "quimica", "courseCode": "216", "curriculumCode": "19911", "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=216&curriculo=19911", "sha256": "1f45874fcb392af56514a057832f1fd85e50a8c27a0867b8e7c22fb3d069252c" },
-    { "id": "sanitaria", "courseCode": "211", "curriculumCode": "20151", "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=211&curriculo=20151", "sha256": "35ec6e506dfd4c89365fcc98b39a5961e430748ca771c9c13ccf624d4f9ed0ce" }
+    {
+      "id": "administracao",
+      "courseCode": "301",
+      "curriculumCode": "20231",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=301&curriculo=20231",
+      "sha256": "12e53d935b5b45bd527985dc0e803e88d2fbde0b905a8223e892e6a628a24fb8"
+    },
+    {
+      "id": "agronomia",
+      "courseCode": "555",
+      "curriculumCode": "20212",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=555&curriculo=20212",
+      "sha256": "b32957a06707abc47a3f6c44ee033b7fda8a362b8f09d04001bd1d1de9bd0b59"
+    },
+    {
+      "id": "agronomia-florianopolis",
+      "courseCode": "501",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=501&curriculo=20251",
+      "sha256": "e31548952727d0fce5ed5dfc9a058de5c83de960774d99e470a2a9303c9c8b0f"
+    },
+    {
+      "id": "animacao",
+      "courseCode": "455",
+      "curriculumCode": "20161",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=455&curriculo=20161",
+      "sha256": "af09cb3a5e86417c63c9b9f603fbb39b3e51ad4e51bade2301330eaf1ed60bb1"
+    },
+    {
+      "id": "antropologia",
+      "courseCode": "337",
+      "curriculumCode": "20101",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=337&curriculo=20101",
+      "sha256": "2def51c70134d814c903028e951e10f1a69006b28872192aa9fb45ecabc2bb6c"
+    },
+    {
+      "id": "arquitetura-e-urbanismo",
+      "courseCode": "207",
+      "curriculumCode": "20261",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=207&curriculo=20261",
+      "sha256": "1ecd2f0bfbc130e95d0ca646ece5a4d001cab387dbcfa9e1c22118900851c8d1"
+    },
+    {
+      "id": "arquivologia",
+      "courseCode": "335",
+      "curriculumCode": "20261",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=335&curriculo=20261",
+      "sha256": "49bbdefa84e900ad6eff412375faaa03bfecca481d75ee2e5cf899f170838ef0"
+    },
+    {
+      "id": "artes-cenicas",
+      "courseCode": "451",
+      "curriculumCode": "20131",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=451&curriculo=20131",
+      "sha256": "0eb621e422466331768c1949d4cb21228d51875b560d6d64f538d4f3bd1fcfe7"
+    },
+    {
+      "id": "automacao",
+      "courseCode": "220",
+      "curriculumCode": "20241",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=220&curriculo=20241",
+      "sha256": "aa23494d0f7b1b900fb9b2f5c6a2227b11c0374854f0473e0c67f231bc354f06"
+    },
+    {
+      "id": "biblioteconomia",
+      "courseCode": "324",
+      "curriculumCode": "20161",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=324&curriculo=20161",
+      "sha256": "b983ea221adf3fc1dec80373340de259200937a1fc11d6db99fdc6503c667981"
+    },
+    {
+      "id": "ciencia-da-informacao",
+      "courseCode": "342",
+      "curriculumCode": "20261",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=342&curriculo=20261",
+      "sha256": "1b2a64da4bcaa27b1c58f5e1c129a2c8bafdd0e32b96a6cc55d2c166447f1821"
+    },
+    {
+      "id": "ciencia-de-dados",
+      "courseCode": "349",
+      "curriculumCode": "20261",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=349&curriculo=20261",
+      "sha256": "d0fade087d8e146e5e534142096d1a963c0bc4d4451b9422703b606431421473"
+    },
+    {
+      "id": "ciencia-e-tecnologia",
+      "courseCode": "601",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=601&curriculo=20251",
+      "sha256": "2a34cab131ca74426e1c5a974d9091195019413e238a8fc9934305de29a1ef24"
+    },
+    {
+      "id": "ciencia-e-tecnologia-de-alimentos",
+      "courseCode": "503",
+      "curriculumCode": "20241",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=503&curriculo=20241",
+      "sha256": "42faf46952a596003671d1300c751e46ed854904b8a2cd892c7e1c30da28340e"
+    },
+    {
+      "id": "ciencias-biologicas",
+      "courseCode": "108",
+      "curriculumCode": "20061",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=108&curriculo=20061",
+      "sha256": "5b7b03ab8c690b56c902b3fe06aa11cd24a4f9ac9367dfbcb216f277111606f3"
+    },
+    {
+      "id": "ciencias-contabeis",
+      "courseCode": "302",
+      "curriculumCode": "20191",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=302&curriculo=20191",
+      "sha256": "d754ac91be565789c8e435bc1f1a4402ec9b2e15b9bb09d54c36bbb366bc43eb"
+    },
+    {
+      "id": "ciencias-da-computacao",
+      "courseCode": "208",
+      "curriculumCode": "20071",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=208&curriculo=20071",
+      "sha256": "227cd2e1fbe9d90048ecbc5081b6917890f106c1e656fb75310ca0ce6dbe7f52"
+    },
+    {
+      "id": "ciencias-economicas",
+      "courseCode": "304",
+      "curriculumCode": "20191",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=304&curriculo=20191",
+      "sha256": "4eb3eab7f9d284cb95c51528d0b78bc6ef1c921634dcfca0d0c8efb9ddf9e58f"
+    },
+    {
+      "id": "ciencias-sociais",
+      "courseCode": "310",
+      "curriculumCode": "20071",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=310&curriculo=20071",
+      "sha256": "83c910ab5d87c053bdd4afd48e60c96176dfef2783c96c67121741d4b28dd053"
+    },
+    {
+      "id": "cinema",
+      "courseCode": "450",
+      "curriculumCode": "20151",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=450&curriculo=20151",
+      "sha256": "a0ee261d3b64b116fc9e7a26e1272b17a64ac01d3d5ad5072f6ade1f981c4e7a"
+    },
+    {
+      "id": "civil",
+      "courseCode": "201",
+      "curriculumCode": "20201",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=201&curriculo=20201",
+      "sha256": "cdd0dbca851b2df136fa71b45a1c47b21bdd6a44f6a55db377b316f4f904dc6e"
+    },
+    {
+      "id": "design",
+      "courseCode": "454",
+      "curriculumCode": "20221",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=454&curriculo=20221",
+      "sha256": "cb49e2945cba5f6ea0741fbff0d72d6aab69da1d8f2606a3b399f44f1d41a469"
+    },
+    {
+      "id": "design-de-produto",
+      "courseCode": "452",
+      "curriculumCode": "20191",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=452&curriculo=20191",
+      "sha256": "011440742bd052452fc089a39646678dddc8eb76ca670d8b9fecd7bea0857009"
+    },
+    {
+      "id": "direito",
+      "courseCode": "303",
+      "curriculumCode": "20231",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=303&curriculo=20231",
+      "sha256": "96cefee7f88026e27b99114c25a9b3da7a3c7ad8790f4c036c65b02e6877e74f"
+    },
+    {
+      "id": "ead-administracao-publica",
+      "courseCode": "713",
+      "curriculumCode": "20171",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=713&curriculo=20171",
+      "sha256": "3f7be1790da385c7e81a85fcef08ce713c3aee9f93e880b0647bca130525ac19"
+    },
+    {
+      "id": "ead-ciencias-biologicas",
+      "courseCode": "708",
+      "curriculumCode": "20171",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=708&curriculo=20171",
+      "sha256": "932b8165adcc9748d0e38d6340a52391bfeacbccb77879e6bda3c0276181c739"
+    },
+    {
+      "id": "ead-filosofia",
+      "courseCode": "709",
+      "curriculumCode": "20171",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=709&curriculo=20171",
+      "sha256": "ac8328b2f767518d3efae40977e200d8b4636e0fa0156ef0f102fd7fc67df926"
+    },
+    {
+      "id": "ead-fisica",
+      "courseCode": "703",
+      "curriculumCode": "20171",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=703&curriculo=20171",
+      "sha256": "68e37ed8b1c163eaaf691e471336acfb16952f6c08d3b80d102ddd0baf4081de"
+    },
+    {
+      "id": "ead-historia",
+      "courseCode": "716",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=716&curriculo=20251",
+      "sha256": "9aaaa5d3d1b967155f69338344720badec1e4f1ae58fa9b3a4c86774d5f25a1a"
+    },
+    {
+      "id": "ead-letras-libras",
+      "courseCode": "715",
+      "curriculumCode": "20202",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=715&curriculo=20202",
+      "sha256": "4b993078dcb5bd84d36b4bbd11ac8d068c59bee654f7fed5441d1530d02e3eb0"
+    },
+    {
+      "id": "ead-letras-lingua-espanhola",
+      "courseCode": "711",
+      "curriculumCode": "20111",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=711&curriculo=20111",
+      "sha256": "86807702eaf5167aca8730d7809942af4b40c4173b6b02e1b53bd42982f8ec57"
+    },
+    {
+      "id": "ead-letras-lingua-portuguesa",
+      "courseCode": "710",
+      "curriculumCode": "20171",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=710&curriculo=20171",
+      "sha256": "aa83340ee43f0297b02026386dd3fb8a8d398a3eebf27e4c1e4cd02a758444af"
+    },
+    {
+      "id": "ead-licenciatura-em-educacao-escolar-quilombola",
+      "courseCode": "717",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=717&curriculo=20251",
+      "sha256": "320c897418a9d1b6fd8a020b6b20493a28b90ec1d26feff986ca005d04ad1288"
+    },
+    {
+      "id": "ead-matematica",
+      "courseCode": "702",
+      "curriculumCode": "20252",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=702&curriculo=20252",
+      "sha256": "eb46885da2c4c40dfa978e627fbe4cc9ee5ad881c1d20f755d7a1640140713ef"
+    },
+    {
+      "id": "educacao-do-campo",
+      "courseCode": "334",
+      "curriculumCode": "20092",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=334&curriculo=20092",
+      "sha256": "06b1fa8fed73d36ea8eb2e21d8fa6aaba65158ead50bf70947e786addbb094aa"
+    },
+    {
+      "id": "educacao-fisica",
+      "courseCode": "444",
+      "curriculumCode": "20061",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=444&curriculo=20061",
+      "sha256": "30986bbeaacf24a31d5a1abe3172113ce7c69154319e6173c20601c6c58df2cb"
+    },
+    {
+      "id": "eletrica",
+      "courseCode": "202",
+      "curriculumCode": "20051",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=202&curriculo=20051",
+      "sha256": "9bdf93cd9aa32088129efb7630ffe7631c6d54ce450e46fce1672d78478256d8"
+    },
+    {
+      "id": "eletronica",
+      "courseCode": "235",
+      "curriculumCode": "20092",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=235&curriculo=20092",
+      "sha256": "db3889bc9ef8075a2ca487373a587af24191ca394451b6d7023eea327638f3ea"
+    },
+    {
+      "id": "enfermagem",
+      "courseCode": "101",
+      "curriculumCode": "20221",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=101&curriculo=20221",
+      "sha256": "8272a01600b8d3767e2e9cdb8f63571c8e4c085c62e139822c5463c9a52adc8d"
+    },
+    {
+      "id": "engenharia-aeroespacial",
+      "courseCode": "602",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=602&curriculo=20251",
+      "sha256": "c59c35f58d662b987b48c77e22aeda04a5331bd0e0a33ca61398703843e146cc"
+    },
+    {
+      "id": "engenharia-automotiva",
+      "courseCode": "603",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=603&curriculo=20251",
+      "sha256": "f94860be96c105c6e20690f4d0d40cda85f256035fb02eca1af06b5b3b01e011"
+    },
+    {
+      "id": "engenharia-civil-de-infraestrutura",
+      "courseCode": "607",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=607&curriculo=20251",
+      "sha256": "d0cab9682268e801396210ebc978e68c16472ec2961cabf768483adcedc360fa"
+    },
+    {
+      "id": "engenharia-de-alimentos",
+      "courseCode": "215",
+      "curriculumCode": "19911",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=215&curriculo=19911",
+      "sha256": "0b6176304e5f6908288a8a52dd74fd83fa7f51029d51e760aa036fab2e452e91"
+    },
+    {
+      "id": "engenharia-de-aquicultura",
+      "courseCode": "234",
+      "curriculumCode": "20241",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=234&curriculo=20241",
+      "sha256": "bd9764d435ad7b02004481394c9e179a7c43af6dd2ca6e732f5f675a6dc30fa2"
+    },
+    {
+      "id": "engenharia-de-computacao",
+      "courseCode": "655",
+      "curriculumCode": "20201",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=655&curriculo=20201",
+      "sha256": "25f10d03f0f2e110e56cbb2dd1c1a556726700d0a19dde79b5d96670593801c1"
+    },
+    {
+      "id": "engenharia-de-controle-e-automacao",
+      "courseCode": "754",
+      "curriculumCode": "20232",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=754&curriculo=20232",
+      "sha256": "8c1546eef4ba792e7ebc973f6a2b7a456802264a1bb1852081e29fb3fbe15700"
+    },
+    {
+      "id": "engenharia-de-energia",
+      "courseCode": "653",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=653&curriculo=20251",
+      "sha256": "b8d03eb351c90cb93550b296bfd3a89085ec1909eab42aa8468f27bae7fd1783"
+    },
+    {
+      "id": "engenharia-de-materiais",
+      "courseCode": "753",
+      "curriculumCode": "20231",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=753&curriculo=20231",
+      "sha256": "cd02f463238e4871b3b1d26d9f4208058adb97598a521a33e27a57e16826c983"
+    },
+    {
+      "id": "engenharia-de-producao-cv-el-mec",
+      "courseCode": "212",
+      "curriculumCode": "20071",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=212&curriculo=20071",
+      "sha256": "0b9865cf6a70c0c480e84fa03c00655b5d56e0155ac29c6e803f3d0a2eee506e"
+    },
+    {
+      "id": "engenharia-de-transporte-e-logistica",
+      "courseCode": "608",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=608&curriculo=20251",
+      "sha256": "e7a69bf6f9bf096de6eb0b72fdb0d1c50cb1cdac3cbddbea654d6e230c998ec0"
+    },
+    {
+      "id": "engenharia-ferroviaria-e-metroviaria",
+      "courseCode": "604",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=604&curriculo=20251",
+      "sha256": "47bfff5606be973d0b5e5d737a31a922b4741b78ec8887b97ed9c96307f5c4a3"
+    },
+    {
+      "id": "engenharia-florestal",
+      "courseCode": "553",
+      "curriculumCode": "20211",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=553&curriculo=20211",
+      "sha256": "1e9cf00b1f9786d9983f8262fbdb5e4e8bea232e3052148d9ec7559be0fd12cb"
+    },
+    {
+      "id": "engenharia-mecatronica",
+      "courseCode": "605",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=605&curriculo=20251",
+      "sha256": "f3a41796fa08dd7d685efe218852108d1305d5de7147735bf74a279a7d74becf"
+    },
+    {
+      "id": "engenharia-naval",
+      "courseCode": "606",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=606&curriculo=20251",
+      "sha256": "c25bdeab391204ac7e16cef1ed8165e4196cde706d4038754064fde085057bd7"
+    },
+    {
+      "id": "engenharia-textil",
+      "courseCode": "755",
+      "curriculumCode": "20211",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=755&curriculo=20211",
+      "sha256": "ebfc8bac7cad8cb7267568f9d455b1ebd73d253271161a8d99b2c4bc350dea2d"
+    },
+    {
+      "id": "farmacia",
+      "courseCode": "102",
+      "curriculumCode": "20221",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=102&curriculo=20221",
+      "sha256": "76607cf0ff52bfa383ce1a947e0e86613fafde9ac8481260d1cac53a8fa21e7b"
+    },
+    {
+      "id": "filosofia",
+      "courseCode": "328",
+      "curriculumCode": "20061",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=328&curriculo=20061",
+      "sha256": "a5ce8afea4c8ab991b6e3726f44b6ae7224b082b0a6239bc99065b5d2bfbefc6"
+    },
+    {
+      "id": "fisica",
+      "courseCode": "2",
+      "curriculumCode": "20241",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=2&curriculo=20241",
+      "sha256": "e231c0efe4329170e5743d01838d91031083e3fec9a6ac6944db0f6c99b2e3c4"
+    },
+    {
+      "id": "fisioterapia",
+      "courseCode": "654",
+      "curriculumCode": "20161",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=654&curriculo=20161",
+      "sha256": "af0b8ca0d81bfce810e98a422ffc2d00645c698679c24bcb53819ea382d728b5"
+    },
+    {
+      "id": "fonoaudiologia",
+      "courseCode": "109",
+      "curriculumCode": "20242",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=109&curriculo=20242",
+      "sha256": "a141ee4b5ebbc6c8f22d398877f20ec468b4065d926c1039232e6ca2f31fe5f9"
+    },
+    {
+      "id": "geografia",
+      "courseCode": "331",
+      "curriculumCode": "20071",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=331&curriculo=20071",
+      "sha256": "80f1b7403ae1a540ea7004b012e6557223eb35a466a723f3402ef9361fa87988"
+    },
+    {
+      "id": "geologia",
+      "courseCode": "336",
+      "curriculumCode": "20181",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=336&curriculo=20181",
+      "sha256": "73b77037998c351e80fa9f883c3f154bb7153b3560c8c0a38c6e0611a0e13a19"
+    },
+    {
+      "id": "historia",
+      "courseCode": "326",
+      "curriculumCode": "20071",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=326&curriculo=20071",
+      "sha256": "745c2645483774ad7060b6cb72b23e1dcd0bd461158d0e1c6694e9903c8aff49"
+    },
+    {
+      "id": "jornalismo",
+      "courseCode": "415",
+      "curriculumCode": "20201",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=415&curriculo=20201",
+      "sha256": "3fe2526cc65121611fd9ef6535ef9f425c133dc12ca039460094be104a36d6ed"
+    },
+    {
+      "id": "letras-libras",
+      "courseCode": "441",
+      "curriculumCode": "20121",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=441&curriculo=20121",
+      "sha256": "83977523b52b216c7677fa05f8fbaa3f9c30ca4fb70d6b38c5b624e207ce25d3"
+    },
+    {
+      "id": "letras-lingua-portuguesa",
+      "courseCode": "428",
+      "curriculumCode": "20071",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=428&curriculo=20071",
+      "sha256": "b0f9de769c0dc842c5e809de56b8b4bf037aa013f25d253846ecc0371bf6254f"
+    },
+    {
+      "id": "letras-linguas-estrangeiras",
+      "courseCode": "421",
+      "curriculumCode": "20071",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=421&curriculo=20071",
+      "sha256": "1b48c71780c2395379c4ee3b0ec157afa4c446a9a54b7bc22c7d9f273ef81857"
+    },
+    {
+      "id": "licenciatura-em-matematica",
+      "courseCode": "751",
+      "curriculumCode": "20231",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=751&curriculo=20231",
+      "sha256": "3c90e2012e2b7b8c102a19ebae9f6611b7eb13ab4638dd14c753aece4c3a5d5f"
+    },
+    {
+      "id": "matematica",
+      "courseCode": "222",
+      "curriculumCode": "20241",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=222&curriculo=20241",
+      "sha256": "3d27d47b0bfa1ebfeb7e3731386336f5e9101d901c4b34271ea1f24afad5a667"
+    },
+    {
+      "id": "materiais",
+      "courseCode": "233",
+      "curriculumCode": "20011",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=233&curriculo=20011",
+      "sha256": "f5762b70f357c54d6ccb314b1127e2ee46ddefe06c2382142f156312ba2ad40e"
+    },
+    {
+      "id": "mecanica",
+      "courseCode": "203",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=203&curriculo=20251",
+      "sha256": "21aa4454d4bcffdd4d5a8a245b4572ae80c6d24b4ca0d13818eee1ef7519f03e"
+    },
+    {
+      "id": "medicina",
+      "courseCode": "656",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=656&curriculo=20251",
+      "sha256": "0b9ac2a2832882ec39ba68dfebfcd73f13127562de8e140b8248e748699d652a"
+    },
+    {
+      "id": "medicina-curitibanos",
+      "courseCode": "556",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=556&curriculo=20251",
+      "sha256": "7d82341c68dc1751b914d6f5a62ae9017e8912ad1474b453ea1f63dd6ccfbec8"
+    },
+    {
+      "id": "medicina-florianopolis",
+      "courseCode": "103",
+      "curriculumCode": "20241",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=103&curriculo=20241",
+      "sha256": "92db6141f87025b6465b68752e1c75758c18df932febe28facc51fb5d988030c"
+    },
+    {
+      "id": "medicina-veterinaria",
+      "courseCode": "552",
+      "curriculumCode": "20231",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=552&curriculo=20231",
+      "sha256": "ef417f98550285494ca2ed64372964bd5775145a17033b7adeec808514d4ad83"
+    },
+    {
+      "id": "meteorologia",
+      "courseCode": "230",
+      "curriculumCode": "20261",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=230&curriculo=20261",
+      "sha256": "e93d8eec9ab9549660f305d5ba0a2e85307699d920067ae5feb8998b26da839e"
+    },
+    {
+      "id": "museologia",
+      "courseCode": "338",
+      "curriculumCode": "20161",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=338&curriculo=20161",
+      "sha256": "2297f68f4864e819c87f463972872eb3bb84a022c070de83f4326a238cd293e9"
+    },
+    {
+      "id": "nutricao",
+      "courseCode": "9",
+      "curriculumCode": "20251",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=9&curriculo=20251",
+      "sha256": "51281cc1076dc09d63e9eb7aeac21c6427b19e1ebce9e1e1a5642c36b84ddabb"
+    },
+    {
+      "id": "oceanografia",
+      "courseCode": "333",
+      "curriculumCode": "20081",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=333&curriculo=20081",
+      "sha256": "9636de0e10ca98ff42bd3dccc4f0c82707fd66ad6895188cb13bd50edc29c357"
+    },
+    {
+      "id": "odontologia",
+      "courseCode": "104",
+      "curriculumCode": "20071",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=104&curriculo=20071",
+      "sha256": "40417d9d2e8ce631019c13b2e168b7985b4b882a78a716c057cdc9f21e8ea3ce"
+    },
+    {
+      "id": "pedagogia",
+      "courseCode": "308",
+      "curriculumCode": "20091",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=308&curriculo=20091",
+      "sha256": "c6475c6c9498611bdb2de5d0fc82b43b1a0b3206c462d352534a61bc7d60abdc"
+    },
+    {
+      "id": "povos-indigenas-do-sul-da-mata-atlantica",
+      "courseCode": "341",
+      "curriculumCode": "20221",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=341&curriculo=20221",
+      "sha256": "2ee7e0db1dd6de4dbff97c23d262e808ab8c0148d0b7e6c49c235342c7594630"
+    },
+    {
+      "id": "producao",
+      "courseCode": "237",
+      "curriculumCode": "20231",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=237&curriculo=20231",
+      "sha256": "0003a6377f3f1074d319f559aef3d350009e47b93f130524ad65c9f798c74509"
+    },
+    {
+      "id": "psicologia",
+      "courseCode": "319",
+      "curriculumCode": "20101",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=319&curriculo=20101",
+      "sha256": "d2eaae9fc19b30d081f1dd9553fa5b8ad3e05da209de252e3204fbe784ec1134"
+    },
+    {
+      "id": "quimica",
+      "courseCode": "752",
+      "curriculumCode": "20231",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=752&curriculo=20231",
+      "sha256": "ad974f208ee117659174e9334edfad54d55f7e27a76f716ac1e96e38f0bde99c"
+    },
+    {
+      "id": "quimica-florianopolis",
+      "courseCode": "226",
+      "curriculumCode": "20211",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=226&curriculo=20211",
+      "sha256": "caf4d8655dc6cf1df74d6621bf7652d1b3f54473231f82511c9a783ebd419474"
+    },
+    {
+      "id": "relacoes-internacionais",
+      "courseCode": "340",
+      "curriculumCode": "20091",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=340&curriculo=20091",
+      "sha256": "0e0314c2c416b7b4273056f11474318499e6431df45d61b4cb5424403a1109f5"
+    },
+    {
+      "id": "sanitaria",
+      "courseCode": "211",
+      "curriculumCode": "20151",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=211&curriculo=20151",
+      "sha256": "35ec6e506dfd4c89365fcc98b39a5961e430748ca771c9c13ccf624d4f9ed0ce"
+    },
+    {
+      "id": "servico-social",
+      "courseCode": "309",
+      "curriculumCode": "20132",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=309&curriculo=20132",
+      "sha256": "76fd7450f138bbd2868500746fe9b33b4bb8e7a5f79f2b5bcc58665d11bd6060"
+    },
+    {
+      "id": "sistemas-de-informacao",
+      "courseCode": "238",
+      "curriculumCode": "20111",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=238&curriculo=20111",
+      "sha256": "4e273b58ce93d77e3c275d35c5dbe3501f26d85c14ebe27ad7aacbf38673215c"
+    },
+    {
+      "id": "tecnologias-da-informacao-e-comunicacao",
+      "courseCode": "652",
+      "curriculumCode": "20171",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=652&curriculo=20171",
+      "sha256": "d6841ef7596ee501a7c455710944e68d5e78cd8cf942aa1c17da531f7de3849b"
+    },
+    {
+      "id": "zootecnia",
+      "courseCode": "502",
+      "curriculumCode": "20241",
+      "url": "https://cagr.sistemas.ufsc.br/relatorios/curriculoCurso?curso=502&curriculo=20241",
+      "sha256": "1c40a5fb5fd1874cb62e01cb5e17f45582839d23d4199b59095159a25e8a17c5"
+    }
   ]
 }

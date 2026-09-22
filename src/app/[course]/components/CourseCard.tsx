@@ -38,7 +38,7 @@ export const CourseCard = memo(function CourseCard({
 }: CourseCardProps) {
   const cardRef = useRef<HTMLDivElement | null>(null);
   const [popoverPosition, setPopoverPosition] = useState<{ left: number; top: number } | null>(null);
-  const { attributes, listeners, setNodeRef, setActivatorNodeRef, isDragging } = useDraggable({
+  const { attributes, listeners, setNodeRef, isDragging } = useDraggable({
     id: course.id,
     data: { course },
   });
@@ -96,18 +96,22 @@ export const CourseCard = memo(function CourseCard({
   else if (isDependent) relationshipClass = "z-10 ring-2 ring-[var(--accent-2)]";
 
   let visibilityClass = "opacity-100";
-  if (isFilteredOut) visibilityClass = "opacity-25 grayscale";
-  else if (computedState === "blocked") visibilityClass = "opacity-70 hover:opacity-95";
-
-  if (isDragging && !isOverlay) visibilityClass += " opacity-0";
+  if (isDragging && !isOverlay) {
+    visibilityClass = "border-dashed border-2 border-[var(--accent)]/50 bg-[var(--accent-soft)]/20 opacity-35 scale-[0.98]";
+  } else if (isFilteredOut) {
+    visibilityClass = "opacity-25 grayscale";
+  } else if (computedState === "blocked") {
+    visibilityClass = "opacity-70 hover:opacity-95";
+  }
 
   const isMobile = useCallback(() => {
     if (typeof window === "undefined") return false;
-    return window.innerWidth < 768 || ("ontouchstart" in window);
+    return window.innerWidth < 768;
   }, []);
 
   const handleClick = (event: React.MouseEvent) => {
     event.stopPropagation();
+    if (isDragging) return;
     if (typeof navigator !== "undefined" && navigator.vibrate) {
       navigator.vibrate(50);
     }
@@ -119,15 +123,15 @@ export const CourseCard = memo(function CourseCard({
   };
 
   const updatePopoverPosition = useCallback(() => {
-    if (!cardRef.current || typeof window === "undefined") return;
+    if (!cardRef.current || typeof window === "undefined" || isDragging) return;
     if (window.innerWidth < 768) return;
     if (window.matchMedia && !window.matchMedia("(hover: hover)").matches) return;
     const rect = cardRef.current.getBoundingClientRect();
     setPopoverPosition(getCoursePopoverPosition(rect, { width: window.innerWidth, height: window.innerHeight }));
-  }, []);
+  }, [isDragging]);
 
   const handleMouseEnter = () => {
-    if (isMobile()) return;
+    if (isMobile() || isDragging) return;
     updatePopoverPosition();
     onMouseEnter();
   };
@@ -146,7 +150,7 @@ export const CourseCard = memo(function CourseCard({
     [isOverlay, setNodeRef]
   );
 
-  const popover = !isOverlay && popoverPosition && typeof document !== "undefined" ? createPortal(
+  const popover = !isOverlay && !isDragging && popoverPosition && typeof document !== "undefined" ? createPortal(
     <div role="tooltip" className="pointer-events-none fixed z-[80] w-72 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-strong)] p-4 text-left shadow-2xl backdrop-blur-xl" style={popoverPosition}>
       <p className="text-xs font-bold uppercase tracking-[0.14em] text-[var(--accent)]">Detalhes da disciplina</p>
       <dl className="mt-3 grid grid-cols-2 gap-2 text-xs">
@@ -170,11 +174,15 @@ export const CourseCard = memo(function CourseCard({
     <div
       ref={setCardRefs}
       id={isOverlay ? undefined : `course-${course.id}`}
+      data-card-draggable="true"
+      {...(!isOverlay ? attributes : {})}
+      {...(!isOverlay ? listeners : {})}
+      tabIndex={isOverlay ? undefined : -1}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onFocus={handleMouseEnter}
       onBlur={handleMouseLeave}
-      className={`group/card relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition-all duration-200 hover:z-50 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] focus-within:z-50 ${statusMeta.card} ${relationshipClass} ${visibilityClass} ${isDragging && !isOverlay ? "z-50 scale-[1.03] shadow-2xl" : ""} ${isOverlay ? "w-[260px] cursor-grabbing shadow-2xl" : ""}`}
+      className={`group/card relative min-h-[82px] w-full rounded-2xl border p-2.5 text-left shadow-sm backdrop-blur transition-all duration-200 hover:z-50 hover:bg-[var(--glass-strong)] hover:shadow-[var(--shadow-card)] focus-within:z-50 md:cursor-grab active:md:cursor-grabbing select-none ${statusMeta.card} ${relationshipClass} ${visibilityClass} ${isOverlay ? "w-[244px] cursor-grabbing shadow-2xl ring-2 ring-[var(--accent)] border-[var(--accent)] rotate-1 scale-[1.03] transition-none pointer-events-none z-[100]" : ""}`}
     >
       <span className={`absolute inset-y-3 left-0 w-1 rounded-r-full ${typeMeta.accent}`} />
       <button type="button" onClick={handleClick} className="block w-full text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-transparent">
@@ -216,20 +224,20 @@ export const CourseCard = memo(function CourseCard({
       </div>
       </button>
       {popover}
-      {!isOverlay && <button
-          ref={setActivatorNodeRef}
-          type="button"
-          aria-label={`Arrastar ${course.name} para outro semestre`}
-          title="Arrastar disciplina"
+      {!isOverlay && (
+        <div
           data-drag-handle="true"
-          {...attributes}
-          {...listeners}
-          className="absolute right-1.5 top-1/2 hidden md:flex h-9 w-7 -translate-y-1/2 touch-none items-center justify-center rounded-lg text-[var(--text-faint)] opacity-75 transition hover:bg-[var(--accent-soft)] hover:text-[var(--accent)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
+          title="Arrastar disciplina"
+          aria-hidden="true"
+          className="absolute right-1.5 top-1/2 hidden md:flex h-9 w-7 -translate-y-1/2 touch-none items-center justify-center rounded-lg text-[var(--text-faint)] opacity-75 transition hover:bg-[var(--accent-soft)] hover:text-[var(--accent)] cursor-grab"
         >
-          <span aria-hidden="true" className="grid grid-cols-2 gap-1">
-            {Array.from({ length: 6 }, (_, index) => <span key={index} className="h-1 w-1 rounded-full bg-current" />)}
+          <span className="grid grid-cols-2 gap-1">
+            {Array.from({ length: 6 }, (_, index) => (
+              <span key={index} className="h-1 w-1 rounded-full bg-current" />
+            ))}
           </span>
-        </button>}
+        </div>
+      )}
     </div>
   );
 });

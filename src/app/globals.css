@@ -225,7 +225,8 @@ input:-webkit-autofill:focus {
 
 .scroll-reveal.is-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
+  will-change: auto;
 }
 
 @keyframes gradient-shift {

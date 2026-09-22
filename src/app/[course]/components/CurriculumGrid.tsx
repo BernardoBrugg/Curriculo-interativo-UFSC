@@ -1,7 +1,20 @@
 "use client";
 
-import { useMemo, useState, useCallback } from "react";
-import { DndContext, DragEndEvent, DragOverlay, DragStartEvent, useDroppable, MouseSensor, useSensor, useSensors } from "@dnd-kit/core";
+import { useMemo, useState, useCallback, useSyncExternalStore } from "react";
+import { createPortal } from "react-dom";
+import {
+  DndContext,
+  DragEndEvent,
+  DragOverlay,
+  DragStartEvent,
+  useDroppable,
+  MouseSensor,
+  useSensor,
+  useSensors,
+  pointerWithin,
+  rectIntersection,
+  CollisionDetection,
+} from "@dnd-kit/core";
 import { Course, CourseStatus, PhaseInfo } from "@/types/curriculum";
 import { CourseCard } from "./CourseCard";
 import { CourseDetailModal } from "./CourseDetailModal";
@@ -11,6 +24,14 @@ import { useDragTutorial } from "@/hooks/useDragTutorial";
 import { getDropTargetLabel } from "@/lib/drag-copy";
 import { sumCourseCredits } from "@/lib/curriculum-stats";
 import { isRequirementSatisfied } from "@/lib/curriculum-requirements";
+
+const collisionDetectionStrategy: CollisionDetection = (args) => {
+  const pointerCollisions = pointerWithin(args);
+  if (pointerCollisions.length > 0) {
+    return pointerCollisions;
+  }
+  return rectIntersection(args);
+};
 
 interface CurriculumGridProps {
   phases: PhaseInfo[];
@@ -45,6 +66,11 @@ export function CurriculumGrid({
 }: CurriculumGridProps) {
   const { ref: scrollRef, isDragging, events } = useDragScroll<HTMLDivElement>();
   const { isVisible: isTutorialVisible, dismiss: dismissTutorial } = useDragTutorial();
+  const isMounted = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false
+  );
   const defaultPhase = useMemo(
     () => phases.find((p) => p.number === 1)?.number ?? phases[0]?.number ?? 1,
     [phases]
@@ -53,6 +79,11 @@ export function CurriculumGrid({
   const [activeCourseId, setActiveCourseId] = useState<string | null>(null);
   const [moveConfirmation, setMoveConfirmation] = useState<string | null>(null);
   const [modalCourse, setModalCourse] = useState<Course | null>(null);
+
+  const scrollEvents = useMemo(
+    () => (activeCourseId ? {} : events),
+    [activeCourseId, events]
+  );
 
   const sensors = useSensors(
     useSensor(MouseSensor, {
@@ -169,14 +200,24 @@ export function CurriculumGrid({
   };
 
   return (
-    <DndContext sensors={sensors} onDragStart={handleDragStart} onDragCancel={() => setActiveCourseId(null)} onDragEnd={handleDragEnd}>
+    <DndContext
+      sensors={sensors}
+      collisionDetection={collisionDetectionStrategy}
+      autoScroll={{
+        threshold: { x: 0.15, y: 0.15 },
+        acceleration: 10,
+      }}
+      onDragStart={handleDragStart}
+      onDragCancel={() => setActiveCourseId(null)}
+      onDragEnd={handleDragEnd}
+    >
       <section className="glass-surface w-full min-w-0 max-w-full rounded-3xl">
         <div className="border-b border-[var(--glass-border)] px-4 py-3">
           <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <h2 className="text-base font-semibold text-[var(--text-strong)]">Grade curricular</h2>
               <p className="text-sm text-[var(--text-muted)]">
-                Clique no cartão para atualizar o status. Use o puxador no desktop para mover a disciplina.
+                Clique no cartão para atualizar o status ou arraste para outro semestre.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-2 text-xs text-[var(--text-muted)]">
@@ -208,7 +249,7 @@ export function CurriculumGrid({
                   </div>
                   <div className="flex items-center gap-2 rounded-xl bg-[var(--glass-strong)] px-3 py-2">
                     <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-[var(--accent)] text-xs font-bold text-[var(--accent)]">2</span>
-                    <span>No desktop, <strong className="text-[var(--text-strong)]">clique</strong> para alternar status ou <strong className="text-[var(--text-strong)]">arraste pelo grip</strong>.</span>
+                    <span>No desktop, <strong className="text-[var(--text-strong)]">clique</strong> para alternar status ou <strong className="text-[var(--text-strong)]">arraste o cartão</strong> para outro semestre.</span>
                   </div>
                 </div>
               </div>
@@ -259,7 +300,7 @@ export function CurriculumGrid({
 
           <div
             ref={scrollRef}
-            {...events}
+            {...scrollEvents}
             className={`max-w-full overflow-y-visible overflow-x-hidden md:overflow-x-auto md:overscroll-x-contain pb-4 md:[scrollbar-gutter:stable] ${isDragging ? "md:cursor-grabbing md:select-none" : "md:cursor-grab"}`}
           >
             <div className="flex flex-col md:flex-row md:min-w-max gap-4 md:gap-3 p-3 md:pr-6">
@@ -294,23 +335,26 @@ export function CurriculumGrid({
         </div>
       </section>
 
-      <DragOverlay dropAnimation={null}>
-        {activeCourse ? (
-          <CourseCard
-            course={activeCourse}
-            allCourses={courses}
-            computedState={activeComputedState}
-            isSelected={selectedId === activeCourse.id}
-            isPrereq={prerequisites.has(activeCourse.id)}
-            isDependent={dependents.has(activeCourse.id)}
-            isFilteredOut={false}
-            onClick={() => undefined}
-            onMouseEnter={() => undefined}
-            onMouseLeave={() => undefined}
-            isOverlay
-          />
-        ) : null}
-      </DragOverlay>
+      {isMounted && activeCourse && typeof document !== "undefined"
+        ? createPortal(
+            <DragOverlay dropAnimation={null} zIndex={100}>
+              <CourseCard
+                course={activeCourse}
+                allCourses={courses}
+                computedState={activeComputedState}
+                isSelected={selectedId === activeCourse.id}
+                isPrereq={prerequisites.has(activeCourse.id)}
+                isDependent={dependents.has(activeCourse.id)}
+                isFilteredOut={false}
+                onClick={() => undefined}
+                onMouseEnter={() => undefined}
+                onMouseLeave={() => undefined}
+                isOverlay
+              />
+            </DragOverlay>,
+            document.body
+          )
+        : null}
 
       <CourseDetailModal
         course={modalCourse}
