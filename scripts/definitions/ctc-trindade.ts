@@ -143,9 +143,71 @@ export const ctcDefinitions: Record<string, CurriculumDefinition> = {
     completion: (_text, courses) => ({
       requiredCourseIds: idsByType(courses, "Ob"),
       requirements: [
-        requirement("electives", "Disciplinas optativas", 672, [
+        requirement("electives", "Disciplinas optativas e complementares", 636, [
           catalogueSource("electives-catalogue", idsByType(courses, "Op"), 636),
-          manualSource("extracurricular-and-complementary", 384, "Atividades complementares ou extracurriculares"),
+          manualSource("extracurricular-and-complementary", 348, "Atividades complementares ou extracurriculares"),
+        ]),
+      ],
+    }),
+  },
+  "sistemas-de-informacao": {
+    program: "Sistemas de Informação",
+    version: "Matriz 2011.1",
+    totalHours: 3600,
+    completion: (_text, courses) => {
+      const nonMandatory = ["INE5639", "INE5673", "INE5674", "INE5675", "INE5676", "INE5677"];
+      return {
+        requiredCourseIds: without(idsByType(courses, "Ob"), nonMandatory),
+        requirements: [
+          requirement("electives", "Disciplinas optativas", 288, [
+            catalogueSource("electives-catalogue", [...idsByType(courses, "Op"), "INE5639"]),
+            manualSource("free-electives", 72),
+          ]),
+          requirement("complementary-activities", "Atividades complementares", 360, [
+            manualSource("complementary-activities-hours", 360, "Horas de atividades complementares concluídas"),
+          ]),
+        ],
+      };
+    },
+  },
+  "engenharia-de-alimentos": {
+    program: "Engenharia de Alimentos",
+    version: "Matriz 1991.1",
+    totalHours: 4368,
+    completion: (_text, courses) => ({
+      requiredCourseIds: without(idsByType(courses, "Ob"), ["GMT5617", "QMC5406"]),
+      requirements: [
+        requirement("electives", "Disciplinas optativas", 108, [
+          catalogueSource("electives-catalogue", idsByType(courses, "Op")),
+          manualSource("free-electives", 54),
+        ]),
+      ],
+    }),
+  },
+  "ciencia-de-dados": {
+    program: "Ciência de Dados",
+    version: "Matriz 2026.1",
+    totalHours: 2520,
+    completion: (_text, courses) => ({
+      requiredCourseIds: idsByType(courses, "Ob"),
+      requirements: [
+        requirement("electives", "Disciplinas optativas e complementares", 540, [
+          catalogueSource("electives-catalogue", idsByType(courses, "Op")),
+          manualSource("external-electives", 180),
+        ]),
+      ],
+    }),
+  },
+  "engenharia-de-aquicultura": {
+    program: "Engenharia de Aquicultura",
+    version: "Matriz 2024.1",
+    totalHours: 4410,
+    completion: (_text, courses) => ({
+      requiredCourseIds: idsByType(courses, "Ob"),
+      requirements: [
+        requirement("electives", "Disciplinas optativas e complementares", 342, [
+          catalogueSource("electives-catalogue", idsByType(courses, "Op")),
+          manualSource("external-electives", 180),
         ]),
       ],
     }),

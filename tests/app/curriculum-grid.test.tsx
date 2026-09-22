@@ -98,4 +98,26 @@ describe("CurriculumGrid", () => {
     expect(markup).toContain("data-drag-handle=\"true\"");
     expect(markup).toContain("Clique no cartão para atualizar o status ou arraste para outro semestre.");
   });
+
+  it("does not trap gestures with overscroll-contain or artificial column max-height on standard phases", () => {
+    const markup = renderToStaticMarkup(
+      <CurriculumGrid
+        phases={phases}
+        courses={sampleCourses}
+        statuses={{}}
+        selectedId={null}
+        searchQuery=""
+        prerequisites={new Set()}
+        dependents={new Set()}
+        customPhases={{}}
+        onSelectCourse={() => undefined}
+        onToggleStatus={() => undefined}
+        onMoveCourse={() => undefined}
+      />
+    );
+
+    expect(markup).not.toContain("overscroll-contain");
+    expect(markup).not.toContain("overscroll-x-contain");
+    expect(markup).not.toContain("max-h-[calc(100vh-270px)]");
+  });
 });

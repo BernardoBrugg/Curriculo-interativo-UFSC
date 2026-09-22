@@ -34,7 +34,7 @@ export async function runCurriculaSeed({ apply, payloads, adapter }: RunCurricul
   const ids = Object.keys(payloads).sort();
   if (ids.length === 0) throw new Error("Nenhum currículo foi informado para publicação.");
   for (const id of ids) {
-    if (!/^[a-z]+$/.test(id)) throw new Error(`Identificador de currículo inválido: ${id}`);
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)) throw new Error(`Identificador de currículo inválido: ${id}`);
   }
   const hashes = Object.fromEntries(ids.map((id) => [id, canonicalHash(payloads[id])]));
   if (!apply) return { applied: false, documentCount: ids.length, hashes };

@@ -1,5 +1,5 @@
 {
-  "program": "SISTEMAS DE INFORMAÇÃO (noturno)",
+  "program": "Sistemas de Informação",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2011.1",
   "totalHours": 3600,
@@ -1926,18 +1926,12 @@
       "EGC5010",
       "INE5631",
       "INE5687",
-      "INE5660",
-      "INE5639",
-      "INE5673",
-      "INE5674",
-      "INE5675",
-      "INE5676",
-      "INE5677"
+      "INE5660"
     ],
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 288,
         "sources": [
           {
@@ -1989,15 +1983,30 @@
               "PSI7002",
               "INE5671",
               "INE5672",
-              "INE5678"
+              "INE5678",
+              "INE5639"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 72
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Atividades complementares",
+        "requiredHours": 360,
+        "sources": [
+          {
+            "id": "complementary-activities-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 360,
+            "manualLabel": "Horas de atividades complementares concluídas"
           }
         ]
       }

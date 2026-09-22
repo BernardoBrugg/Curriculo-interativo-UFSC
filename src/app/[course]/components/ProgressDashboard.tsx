@@ -50,22 +50,22 @@ export function ProgressDashboard({
   );
 
   return (
-    <section className="glass-surface w-full min-w-0 max-w-full rounded-3xl p-3 sm:p-4">
+    <section className="glass-surface w-full min-w-0 max-w-full rounded-3xl p-3 sm:p-3.5">
       <div className="grid min-w-0 gap-3 xl:grid-cols-[minmax(260px,1fr)_minmax(320px,440px)] xl:items-start">
         <div className="grid min-w-0 gap-3 md:grid-cols-[1.05fr_1fr]">
           <div className="min-w-0">
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--text-faint)]">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-faint)]">
               Progresso do curso
             </p>
-            <div className="mt-1.5 flex items-end gap-3">
-              <span className="text-3xl font-semibold tracking-tight text-[var(--text-strong)] sm:text-4xl">
+            <div className="mt-1 flex items-end gap-2.5">
+              <span className="text-2xl font-semibold tracking-tight text-[var(--text-strong)] sm:text-3xl">
                 {stats.percent}%
               </span>
-              <span className="pb-1 text-sm text-[var(--text-muted)]">
+              <span className="pb-0.5 text-xs text-[var(--text-muted)] sm:text-sm">
                 {stats.completedHours}h de {stats.totalHours}h
               </span>
             </div>
-            <div className="mt-2.5 h-2 overflow-hidden rounded-full bg-[var(--accent-soft)]">
+            <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-[var(--accent-soft)]">
               <div
                 className="h-full rounded-full bg-gradient-to-r from-[var(--accent)] to-[var(--accent-2)] transition-all duration-500"
                 style={{ width: `${stats.percent}%` }}
@@ -74,17 +74,17 @@ export function ProgressDashboard({
           </div>
 
           <div className="grid min-w-0 grid-cols-3 gap-2">
-            <div className="glass-card min-w-0 rounded-2xl p-2.5">
-              <p className="text-xl font-semibold text-[var(--text-strong)]">{stats.completedCourses}</p>
-              <p className="truncate text-xs text-[var(--text-muted)]">Concluidas</p>
+            <div className="glass-card min-w-0 rounded-2xl p-2 sm:px-2.5 sm:py-2">
+              <p className="text-lg font-semibold text-[var(--text-strong)] sm:text-xl">{stats.completedCourses}</p>
+              <p className="truncate text-[11px] text-[var(--text-muted)] sm:text-xs">Concluidas</p>
             </div>
-            <div className="glass-card min-w-0 rounded-2xl p-2.5">
-              <p className="text-xl font-semibold text-[var(--text-strong)]">{stats.inProgressCourses}</p>
-              <p className="truncate text-xs text-[var(--text-muted)]">Cursando</p>
+            <div className="glass-card min-w-0 rounded-2xl p-2 sm:px-2.5 sm:py-2">
+              <p className="text-lg font-semibold text-[var(--text-strong)] sm:text-xl">{stats.inProgressCourses}</p>
+              <p className="truncate text-[11px] text-[var(--text-muted)] sm:text-xs">Cursando</p>
             </div>
-            <div className="glass-card min-w-0 rounded-2xl p-2.5">
-              <p className="text-xl font-semibold text-[var(--text-strong)]">{curriculum.courses.length}</p>
-              <p className="truncate text-xs text-[var(--text-muted)]">Disciplinas</p>
+            <div className="glass-card min-w-0 rounded-2xl p-2 sm:px-2.5 sm:py-2">
+              <p className="text-lg font-semibold text-[var(--text-strong)] sm:text-xl">{curriculum.courses.length}</p>
+              <p className="truncate text-[11px] text-[var(--text-muted)] sm:text-xs">Disciplinas</p>
             </div>
           </div>
           {inProgressCoursesList.length > 0 && (

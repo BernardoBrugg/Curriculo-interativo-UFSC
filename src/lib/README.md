@@ -22,8 +22,8 @@ This directory encapsulates the business logic, service layers, validation rules
 
 - **`local-progress.ts`**: Browser localStorage persistence layer supporting guest mode and offline-first state synchronization.
 
-- **`pdf-parser.ts`**: Client-side PDF text extraction service utilizing `pdfjs-dist` to parse documents locally in the user's browser without uploading files to servers.
-- **`cagr-transcript-parser.ts`**: Parser extracting student metadata (name, course, matrícula, curriculum code), course codes, and statuses (approved, in-progress) from official UFSC CAGR Histórico Síntese transcripts and legacy text copies.
+- **`pdf-parser.ts`**: Client-side PDF text extraction service utilizing `pdfjs-dist` to parse documents locally in the user's browser without uploading files to servers. Implements vertical line clustering and horizontal coordinate sorting to preserve visual table layout regardless of stream item ordering, and loads `pdf.worker.min.mjs` directly from the local public origin.
+- **`cagr-transcript-parser.ts`**: Parser extracting student metadata (name, course, matrícula, curriculum code), course codes, and statuses (approved, in-progress) from official UFSC CAGR Histórico Síntese transcripts and legacy text copies. Implements dual-format row matching, comma and period decimal handling, multi-page continuation without premature abortion on legend footers, and directional fallback segmentation.
 
 - **`course-popover.ts` & `course-popover-position.ts`**: Helper services calculating hover metadata and viewport boundary positioning for desktop cards.
 

@@ -89,6 +89,7 @@ describe("cagr-transcript-parser", () => {
     const result = parseCagrTranscript(transcript);
 
     expect(result.studentName).toBe("Bernardo Broering Bruggemann");
+    expect(result.courseName).toBe("ENGENHARIA DE PRODUÇÃO - Bacharelado");
     expect(result.matricula).toBe("25250319");
     expect(result.curriculumCode).toBe("2023/1");
     expect(result.completedCourses).toEqual([
@@ -147,5 +148,21 @@ describe("cagr-transcript-parser", () => {
     ]);
     expect(result.inProgressCourses).toEqual(["EPS2303"]);
     expect(result.recognizedCount).toBe(7);
+  });
+
+  it("handles transcripts with comma decimals and without newlines", () => {
+    const flatTranscript = "Matrícula: 25250319 Aluno: Bernardo Broering Bruggemann Nascimento: 20/03/2005 Sexo: Masculino Natural: Florianopolis/SC Nacionalidade: Brasileira Identidade: 6.135.481 Orgão: SSP/SC CPF: 114.803.409-95 Ingresso: Transferência interna Situação: Regular Currículo: 2023/1 Carga Horária: 4320 Curso: 237 ENGENHARIA DE PRODUÇÃO - Bacharelado Semestre 2025/1 Disciplina Nota H/A Fr Tipo EEL5113 Eletrotécnica Geral 8,0 36 FS Ob Rv EEL7011 Laboratório de Eletricidade Básica 10,0 36 FS Op Rv MTM3110 Cálculo 1 6,5 72 FS Ob Rv EPS2303 Pesquisa Operacional -- 72 -- Ob";
+
+    const result = parseCagrTranscript(flatTranscript);
+
+    expect(result.studentName).toBe("Bernardo Broering Bruggemann");
+    expect(result.courseName).toBe("ENGENHARIA DE PRODUÇÃO - Bacharelado");
+    expect(result.matricula).toBe("25250319");
+    expect(result.curriculumCode).toBe("2023/1");
+    expect(result.completedCourses).toContain("EEL5113");
+    expect(result.completedCourses).toContain("EEL7011");
+    expect(result.completedCourses).toContain("MTM3110");
+    expect(result.inProgressCourses).toContain("EPS2303");
+    expect(result.recognizedCount).toBe(4);
   });
 });

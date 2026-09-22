@@ -9,7 +9,7 @@ This directory encapsulates client-side state management, graph computation, and
 - **`useCourseGraph.ts`**: Builds an in-memory directed dependency graph for computing prerequisites and dependents in O(1) lookups.
 - **`useCurricula.ts`**: Loads and caches curriculum data models.
 - **`useCustomPhases.ts`**: Manages custom phase overrides per discipline with persistence.
-- **`useDragScroll.ts`**: Manages mouse-driven horizontal dragging for wide curriculum matrices on desktop.
+- **`useDragScroll.ts`**: Manages mouse-driven horizontal dragging with activation distance threshold, wheel event translation, and trackpad gesture preservation for wide curriculum matrices on desktop.
 - **`useDragTutorial.ts`**: Tracks whether the user has completed or dismissed the introductory tutorial.
 
 ## Data Flow

@@ -2026,8 +2026,8 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas",
-        "requiredHours": 672,
+        "name": "Disciplinas optativas e complementares",
+        "requiredHours": 636,
         "sources": [
           {
             "id": "electives-catalogue",
@@ -2086,7 +2086,7 @@
             "id": "extracurricular-and-complementary",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 384,
+            "maxHours": 348,
             "manualLabel": "Atividades complementares ou extracurriculares"
           }
         ]

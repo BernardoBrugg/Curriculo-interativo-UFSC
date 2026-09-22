@@ -301,7 +301,7 @@ export function CurriculumGrid({
           <div
             ref={scrollRef}
             {...scrollEvents}
-            className={`max-w-full overflow-y-visible overflow-x-hidden md:overflow-x-auto md:overscroll-x-contain pb-4 md:[scrollbar-gutter:stable] ${isDragging ? "md:cursor-grabbing md:select-none" : "md:cursor-grab"}`}
+            className={`max-w-full overflow-x-hidden md:overflow-x-auto pb-4 md:[scrollbar-gutter:stable] ${isDragging ? "md:cursor-grabbing md:select-none" : "md:cursor-grab"}`}
           >
             <div className="flex flex-col md:flex-row md:min-w-max gap-4 md:gap-3 p-3 md:pr-6">
               {phases.map((phase) => {
@@ -420,6 +420,8 @@ function PhaseColumn({
 
   const phaseTitle = phase.number === 0 ? "Optativas" : phase.name || `Semestre ${phase.number}`;
 
+  const isScrollable = phase.number === 0 || phaseCourses.length > 10;
+
   return (
     <div
       ref={setNodeRef}
@@ -451,7 +453,11 @@ function PhaseColumn({
         </div>
       </div>
 
-      <div className="relative z-10 flex flex-col gap-2 p-2 min-h-[100px] md:max-h-[calc(100vh-270px)] md:overflow-y-auto md:overscroll-contain [scrollbar-gutter:stable]">
+      <div
+        className={`relative z-10 flex flex-col gap-2 p-2 min-h-[100px] ${
+          isScrollable ? "max-h-[620px] overflow-y-auto [scrollbar-gutter:stable]" : ""
+        }`}
+      >
         {phaseCourses.map((course) => {
           const isSelected = selectedId === course.id;
           const isPrereq = prerequisites.has(course.id);

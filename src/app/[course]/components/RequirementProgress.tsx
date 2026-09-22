@@ -12,18 +12,18 @@ export function RequirementProgress({ requirements, progress, requirementHours, 
   const progressById = new Map(progress.map((item) => [item.id, item]));
 
   return (
-    <div className="mt-3 grid gap-2 md:grid-cols-2 xl:grid-cols-3">
+    <div className="mt-2.5 grid gap-2 md:grid-cols-2 xl:grid-cols-3">
       {requirements.map((requirement) => {
         const item = progressById.get(requirement.id);
         const manualSources = requirement.sources.filter((source) => source.allowsManualHours);
         return (
-          <div key={requirement.id} className="glass-card rounded-2xl p-3">
+          <div key={requirement.id} className="glass-card rounded-2xl px-3 py-2">
             <div className="flex items-start justify-between gap-3">
               <p className="text-xs font-semibold text-[var(--text-strong)]">{requirement.name}</p>
               <span className="whitespace-nowrap text-xs text-[var(--text-muted)]">{item?.completedHours ?? 0}h de {requirement.requiredHours}h</span>
             </div>
             {manualSources.map((source) => (
-              <label key={source.id} className="mt-2 flex items-center justify-between gap-2 text-xs text-[var(--text-muted)]">
+              <label key={source.id} className="mt-1.5 flex items-center justify-between gap-2 text-xs text-[var(--text-muted)]">
                 {source.manualLabel ?? "Horas validadas externamente"}
                 <input
                   type="number"
@@ -32,7 +32,7 @@ export function RequirementProgress({ requirements, progress, requirementHours, 
                   step={1}
                   value={requirementHours[source.id] ?? 0}
                   onChange={(event) => onRequirementHoursChange(source.id, Math.min(source.maxHours ?? requirement.requiredHours, Math.max(0, Number(event.target.value) || 0)))}
-                  className="w-20 rounded-lg border border-[var(--glass-border)] bg-[var(--glass-muted)] px-2 py-1 text-right text-[var(--text-strong)] outline-none focus:ring-2 focus:ring-[var(--ring)]"
+                  className="w-20 rounded-lg border border-[var(--glass-border)] bg-[var(--glass-muted)] px-2 py-0.5 text-right text-[var(--text-strong)] outline-none focus:ring-2 focus:ring-[var(--ring)]"
                 />
               </label>
             ))}

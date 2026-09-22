@@ -1,37 +1,79 @@
 "use client";
 
-import { useRef, useState, MouseEvent } from "react";
+import { useRef, useState, useEffect, MouseEvent, WheelEvent } from "react";
 import { shouldStartDragScroll } from "@/lib/drag-scroll";
+
+function hasVerticalScrollableAncestor(target: EventTarget | null, root: HTMLElement): boolean {
+  let element = target as HTMLElement | null;
+  while (element && element !== root) {
+    if (element.scrollHeight > element.clientHeight) {
+      const overflowY = window.getComputedStyle(element).overflowY;
+      if (overflowY === "auto" || overflowY === "scroll") {
+        return true;
+      }
+    }
+    element = element.parentElement;
+  }
+  return false;
+}
 
 export function useDragScroll<T extends HTMLElement>() {
   const ref = useRef<T>(null);
   const [isDragging, setIsDragging] = useState(false);
-  const [startX, setStartX] = useState(0);
-  const [scrollLeft, setScrollLeft] = useState(0);
+  const isPointerDownRef = useRef(false);
+  const startXRef = useRef(0);
+  const scrollLeftRef = useRef(0);
 
-  const onMouseDown = (e: MouseEvent<T>) => {
-    if (!ref.current) return;
-    if (!shouldStartDragScroll(e.target)) return;
-    setIsDragging(true);
-    setStartX(e.pageX - ref.current.offsetLeft);
-    setScrollLeft(ref.current.scrollLeft);
+  const onMouseDown = (event: MouseEvent<T>) => {
+    if (event.button !== 0 || !ref.current) return;
+    if (!shouldStartDragScroll(event.target)) return;
+    isPointerDownRef.current = true;
+    startXRef.current = event.pageX;
+    scrollLeftRef.current = ref.current.scrollLeft;
   };
 
-  const onMouseLeave = () => {
-    setIsDragging(false);
+  const onMouseMove = (event: MouseEvent<T>) => {
+    if (!isPointerDownRef.current || !ref.current) return;
+    const distance = Math.abs(event.pageX - startXRef.current);
+    if (!isDragging) {
+      if (distance < 6) return;
+      setIsDragging(true);
+    }
+    event.preventDefault();
+    const walk = event.pageX - startXRef.current;
+    ref.current.scrollLeft = scrollLeftRef.current - walk;
   };
 
   const onMouseUp = () => {
+    isPointerDownRef.current = false;
     setIsDragging(false);
   };
 
-  const onMouseMove = (e: MouseEvent<T>) => {
-    if (!isDragging || !ref.current) return;
-    e.preventDefault();
-    const x = e.pageX - ref.current.offsetLeft;
-    const walk = (x - startX) * 2;
-    ref.current.scrollLeft = scrollLeft - walk;
+  const onMouseLeave = () => {
+    isPointerDownRef.current = false;
+    setIsDragging(false);
   };
+
+  const onWheel = (event: WheelEvent<T>) => {
+    if (!ref.current) return;
+    if (Math.abs(event.deltaY) > 0 && Math.abs(event.deltaX) === 0) {
+      if (hasVerticalScrollableAncestor(event.target, ref.current)) {
+        return;
+      }
+      ref.current.scrollLeft += event.deltaY;
+    }
+  };
+
+  useEffect(() => {
+    const handleGlobalMouseUp = () => {
+      if (isPointerDownRef.current) {
+        isPointerDownRef.current = false;
+        setIsDragging(false);
+      }
+    };
+    window.addEventListener("mouseup", handleGlobalMouseUp);
+    return () => window.removeEventListener("mouseup", handleGlobalMouseUp);
+  }, []);
 
   return {
     ref,
@@ -41,6 +83,7 @@ export function useDragScroll<T extends HTMLElement>() {
       onMouseLeave,
       onMouseUp,
       onMouseMove,
+      onWheel,
     },
   };
 }

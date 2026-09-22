@@ -14,7 +14,7 @@ This directory contains UI components specific to the course curriculum viewer r
   - Configures `autoScroll` with threshold-based acceleration on board edges.
   - Isolates background board drag-scroll events while an active drag operation is in progress.
   - Mounts `CourseDetailModal` when courses are selected on mobile devices or when blocked courses are tapped.
-  - Constrains desktop column height (`max-h-[calc(100vh-270px)]`) with sticky phase headers to avoid page blowout from large elective pools.
+  - Provides full visibility for standard semester phases (1ª to 10ª) without artificial height clipping or nested scrollbars, while constraining oversized elective pools (Phase 0) with unblocked horizontal gesture propagation.
 
 - **`CourseCard.tsx`**: Renders individual discipline cards.
   - Displays course code, title, credits, hours, status indicators, and prerequisite ring highlights.

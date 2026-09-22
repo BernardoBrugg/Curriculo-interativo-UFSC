@@ -1,5 +1,5 @@
 {
-  "program": "ENGENHARIA DE ALIMENTOS",
+  "program": "Engenharia de Alimentos",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 1991.1",
   "totalHours": 4368,
@@ -2748,7 +2748,6 @@
       "EGR5617",
       "EQA5105",
       "FSC5101",
-      "GMT5617",
       "INE5201",
       "MTM3110",
       "QMC5152",
@@ -2807,13 +2806,12 @@
       "EQA5533",
       "EQA5616",
       "EQA5611",
-      "EQA5621",
-      "QMC5406"
+      "EQA5621"
     ],
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 108,
         "sources": [
           {
@@ -2852,10 +2850,10 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 108
+            "maxHours": 54
           }
         ]
       }

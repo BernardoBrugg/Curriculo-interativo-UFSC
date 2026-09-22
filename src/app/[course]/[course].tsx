@@ -165,9 +165,9 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
         <ThemeToggle />
       </div>
 
-      <div className="relative z-10 mx-auto flex w-full max-w-[1920px] min-w-0 flex-col gap-4 px-3 pb-8 pt-20 sm:px-5 lg:px-7">
+      <div className="relative z-10 mx-auto flex w-full max-w-[1920px] min-w-0 flex-col gap-3 px-3 pb-8 pt-16 sm:px-5 lg:px-7">
         {!user && (
-          <div className="flex flex-wrap items-center justify-between gap-2 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-strong)] px-4 py-2.5 text-xs text-[var(--text-muted)] shadow-sm backdrop-blur">
+          <div className="flex flex-wrap items-center justify-between gap-2 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-strong)] px-3.5 py-1.5 text-xs text-[var(--text-muted)] shadow-sm backdrop-blur">
             <span className="flex items-center gap-2 font-medium">
               <span className="h-2 w-2 rounded-full bg-amber-400" />
               Modo visitante: seu planejamento está sendo salvo neste navegador.
