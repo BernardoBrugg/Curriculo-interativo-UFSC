@@ -1,5 +1,5 @@
 {
-  "program": "CIÊNCIAS CONTÁBEIS",
+  "program": "Ciências Contábeis",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2019.1",
   "totalHours": 3624,
@@ -1062,7 +1062,7 @@
       "code": "CCN5301",
       "name": "Atividades Complementares",
       "credits": 0,
-      "hours": 0,
+      "hours": 384,
       "phase": 9,
       "type": "Ob",
       "prerequisites": [],
@@ -1709,8 +1709,8 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
-        "requiredHours": 288,
+        "name": "Disciplinas optativas",
+        "requiredHours": 360,
         "sources": [
           {
             "id": "electives-catalogue",
@@ -1752,10 +1752,10 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 144
           }
         ]
       }

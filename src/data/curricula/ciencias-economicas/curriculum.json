@@ -1,5 +1,5 @@
 {
-  "program": "CIÊNCIAS ECONÔMICAS",
+  "program": "Ciências Econômicas",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2019.1",
   "totalHours": 3600,
@@ -850,7 +850,7 @@
       "code": "CNM7619",
       "name": "Atividades Complementares: Atividades",
       "credits": 0,
-      "hours": 0,
+      "hours": 72,
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
@@ -862,7 +862,7 @@
       "code": "CNM7620",
       "name": "Atividades Complementares: Atividades",
       "credits": 0,
-      "hours": 0,
+      "hours": 72,
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
@@ -874,7 +874,7 @@
       "code": "CNM7621",
       "name": "Atividades Complementares: Atividades",
       "credits": 0,
-      "hours": 0,
+      "hours": 72,
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
@@ -886,7 +886,7 @@
       "code": "CNM7622",
       "name": "Atividades Complementares: Atividades",
       "credits": 0,
-      "hours": 0,
+      "hours": 72,
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
@@ -2261,8 +2261,8 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
-        "requiredHours": 300,
+        "name": "Disciplinas optativas",
+        "requiredHours": 576,
         "sources": [
           {
             "id": "electives-catalogue",
@@ -2376,10 +2376,24 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 96
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Atividades acadêmico-científico-culturais",
+        "requiredHours": 576,
+        "sources": [
+          {
+            "id": "complementary-activities-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 576,
+            "manualLabel": "Horas de atividades complementares concluídas"
           }
         ]
       }

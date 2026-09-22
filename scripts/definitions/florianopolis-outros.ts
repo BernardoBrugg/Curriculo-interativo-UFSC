@@ -44,4 +44,52 @@ export const florianopolisOutrosDefinitions: Record<string, CurriculumDefinition
       };
     },
   },
+  "ciencias-contabeis": {
+    program: "Ciências Contábeis",
+    version: "Matriz 2019.1",
+    totalHours: 3624,
+    completion: (_text, courses) => ({
+      requiredCourseIds: idsByType(courses, "Ob"),
+      requirements: [
+        requirement("electives", "Disciplinas optativas", 360, [
+          catalogueSource("electives-catalogue", idsByType(courses, "Op")),
+          manualSource("free-electives", 144),
+        ]),
+      ],
+    }),
+  },
+  "ciencias-economicas": {
+    program: "Ciências Econômicas",
+    version: "Matriz 2019.1",
+    totalHours: 3600,
+    completion: (_text, courses) => ({
+      requiredCourseIds: idsByType(courses, "Ob"),
+      requirements: [
+        requirement("electives", "Disciplinas optativas", 576, [
+          catalogueSource("electives-catalogue", idsByType(courses, "Op")),
+          manualSource("free-electives", 96),
+        ]),
+        requirement("complementary-activities", "Atividades acadêmico-científico-culturais", 576, [
+          manualSource("complementary-activities-hours", 576, "Horas de atividades complementares concluídas"),
+        ]),
+      ],
+    }),
+  },
+  "relacoes-internacionais": {
+    program: "Relações Internacionais",
+    version: "Matriz 2009.1",
+    totalHours: 3000,
+    completion: (_text, courses) => ({
+      requiredCourseIds: idsByType(courses, "Ob"),
+      requirements: [
+        requirement("electives", "Disciplinas optativas", 480, [
+          catalogueSource("electives-catalogue", idsByType(courses, "Op")),
+          manualSource("free-electives", 72),
+        ]),
+        requirement("complementary-activities", "Atividades técnico-científicas e culturais", 594, [
+          manualSource("complementary-activities-hours", 594, "Horas de atividades complementares concluídas"),
+        ]),
+      ],
+    }),
+  },
 };

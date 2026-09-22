@@ -1,5 +1,5 @@
 {
-  "program": "RELAÇÕES INTERNACIONAIS",
+  "program": "Relações Internacionais",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2009.1",
   "totalHours": 3000,
@@ -1257,7 +1257,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 480,
         "sources": [
           {
@@ -1318,10 +1318,24 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 72
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Atividades técnico-científicas e culturais",
+        "requiredHours": 594,
+        "sources": [
+          {
+            "id": "complementary-activities-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 594,
+            "manualLabel": "Horas de atividades complementares concluídas"
           }
         ]
       }
