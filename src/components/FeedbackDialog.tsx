@@ -70,6 +70,7 @@ export function FeedbackDialog({ onClose }: FeedbackDialogProps) {
               </div>
               <button type="button" aria-label="Fechar feedback" onClick={onClose} className="rounded-full p-2 text-xl leading-none text-[var(--text-muted)] transition hover:bg-[var(--glass-muted)] hover:text-[var(--text-strong)]">×</button>
             </div>
+            <input type="text" name="website_url" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
             <label htmlFor="feedback-message" className="mt-6 block text-sm font-bold text-[var(--text-strong)]">Mensagem</label>
             <textarea id="feedback-message" value={message} maxLength={feedbackCharacterLimit} onChange={(event) => setMessage(event.target.value)} rows={5} className="glass-control mt-2 w-full resize-none rounded-2xl px-4 py-3 text-sm outline-none focus:border-[var(--accent)] focus:ring-2 focus:ring-[var(--ring)]" placeholder="Conte o que podemos melhorar..." />
             <div className="mt-2 flex justify-end text-xs text-[var(--text-faint)]">{message.length}/{feedbackCharacterLimit}</div>

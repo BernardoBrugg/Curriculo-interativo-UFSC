@@ -20,6 +20,10 @@ This directory encapsulates the business logic, service layers, validation rules
 
 - **`firestore-progress.ts`**: Firebase Firestore persistence adapter for user subject status and preferences.
 
+- **`local-progress.ts`**: Browser localStorage persistence layer supporting guest mode and offline-first state synchronization.
+
+- **`cagr-transcript-parser.ts`**: Text parser extracting course codes and academic statuses (approved, in-progress) from UFSC CAGR transcripts.
+
 - **`course-popover.ts` & `course-popover-position.ts`**: Helper services calculating hover metadata and viewport boundary positioning for desktop cards.
 
 - **`drag-copy.ts` & `drag-scroll.ts`**: Drag-and-drop text formatters and horizontal mouse dragging utilities.

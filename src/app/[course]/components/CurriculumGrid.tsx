@@ -5,10 +5,12 @@ import { DndContext, DragEndEvent, DragOverlay, DragStartEvent, useDroppable, Mo
 import { Course, CourseStatus, PhaseInfo } from "@/types/curriculum";
 import { CourseCard } from "./CourseCard";
 import { CourseDetailModal } from "./CourseDetailModal";
+import { CurriculumFilter } from "./CurriculumFilters";
 import { useDragScroll } from "@/hooks/useDragScroll";
 import { useDragTutorial } from "@/hooks/useDragTutorial";
 import { getDropTargetLabel } from "@/lib/drag-copy";
 import { sumCourseCredits } from "@/lib/curriculum-stats";
+import { isRequirementSatisfied } from "@/lib/curriculum-requirements";
 
 interface CurriculumGridProps {
   phases: PhaseInfo[];
@@ -16,6 +18,7 @@ interface CurriculumGridProps {
   statuses: Record<string, CourseStatus>;
   selectedId: string | null;
   searchQuery: string;
+  activeFilter?: CurriculumFilter;
   prerequisites: Set<string>;
   dependents: Set<string>;
   customPhases: Record<string, number>;
@@ -31,6 +34,7 @@ export function CurriculumGrid({
   statuses,
   selectedId,
   searchQuery,
+  activeFilter = "all",
   prerequisites,
   dependents,
   customPhases,
@@ -114,6 +118,9 @@ export function CurriculumGrid({
 
   const isCourseBlocked = useCallback(
     (course: Course) => {
+      if (course.prerequisiteExpression) {
+        return !isRequirementSatisfied(course.prerequisiteExpression, statuses, courseMap);
+      }
       return course.prerequisites.some((prerequisiteId) => {
         if (statuses[prerequisiteId] === "completed") return false;
         const prerequisiteCourse = courseMap.get(prerequisiteId);
@@ -270,6 +277,7 @@ export function CurriculumGrid({
                     selectedId={selectedId}
                     searchQuery={searchQuery}
                     searchMatches={searchMatches}
+                    activeFilter={activeFilter}
                     statuses={statuses}
                     prerequisites={prerequisites}
                     dependents={dependents}
@@ -333,6 +341,7 @@ interface PhaseColumnProps {
   selectedId: string | null;
   searchQuery: string;
   searchMatches: Set<string>;
+  activeFilter?: CurriculumFilter;
   statuses: Record<string, CourseStatus>;
   prerequisites: Set<string>;
   dependents: Set<string>;
@@ -350,6 +359,7 @@ function PhaseColumn({
   selectedId,
   searchQuery,
   searchMatches,
+  activeFilter,
   statuses,
   prerequisites,
   dependents,
@@ -402,17 +412,30 @@ function PhaseColumn({
           const isSelected = selectedId === course.id;
           const isPrereq = prerequisites.has(course.id);
           const isDependent = dependents.has(course.id);
-          const isFilteredOut = searchQuery.length > 0 && !searchMatches.has(course.id);
           const status = statuses[course.id] ?? "pending";
 
-          const isBlocked = course.prerequisites.some((pid) => {
-            if (statuses[pid] === "completed") return false;
-            const prereqCourse = courseMap.get(pid);
-            if (prereqCourse?.equivalents?.some((eqId) => statuses[eqId] === "completed")) {
-              return false;
-            }
-            return true;
-          });
+          const isBlocked = course.prerequisiteExpression
+            ? !isRequirementSatisfied(course.prerequisiteExpression, statuses, courseMap)
+            : course.prerequisites.some((pid) => {
+                if (statuses[pid] === "completed") return false;
+                const prereqCourse = courseMap.get(pid);
+                if (prereqCourse?.equivalents?.some((eqId) => statuses[eqId] === "completed")) {
+                  return false;
+                }
+                return true;
+              });
+
+          const matchesFilter =
+            !activeFilter ||
+            activeFilter === "all" ||
+            (activeFilter === "available" && status !== "completed" && status !== "in-progress" && !isBlocked) ||
+            (activeFilter === "in-progress" && status === "in-progress") ||
+            (activeFilter === "pending" && status === "pending") ||
+            (activeFilter === "completed" && status === "completed") ||
+            (activeFilter === "mandatory" && course.type === "Ob") ||
+            (activeFilter === "elective" && (course.type === "Op" || course.type === "FreeOp"));
+
+          const isFilteredOut = (searchQuery.length > 0 && !searchMatches.has(course.id)) || !matchesFilter;
 
           let computedState: "completed" | "in-progress" | "available" | "blocked" = "available";
           if (status === "completed") computedState = "completed";

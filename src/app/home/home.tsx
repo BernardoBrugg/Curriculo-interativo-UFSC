@@ -1,12 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { SiteFooter } from "@/components/SiteFooter";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { AuthScreen } from "./components/AuthScreen";
 import { CourseLibrary } from "./components/CourseLibrary";
+import { GuestCourseList } from "./components/GuestCourseList";
 import { ProfileMenu } from "@/components/ProfileMenu";
 import { useAuth } from "@/components/AuthProvider";
 
@@ -32,6 +34,7 @@ const featureCards = [
 
 export default function LandingPage() {
   const { isLoading, user } = useAuth();
+  const [guestView, setGuestView] = useState<"courses" | "auth">("courses");
 
   if (isLoading) {
     return <main className="app-gradient min-h-screen" />;
@@ -47,6 +50,15 @@ export default function LandingPage() {
             Currículo Interativo UFSC
           </Link>
           <div className="flex items-center gap-2">
+            {!user && (
+              <button
+                type="button"
+                onClick={() => setGuestView(guestView === "courses" ? "auth" : "courses")}
+                className="auth-secondary rounded-xl px-3 py-1.5 text-xs font-bold"
+              >
+                {guestView === "courses" ? "Entrar" : "Explorar cursos"}
+              </button>
+            )}
             {user && <ProfileMenu />}
             <ThemeToggle />
           </div>
@@ -64,14 +76,17 @@ export default function LandingPage() {
               <span className="block">Acompanhe progresso e pré-requisitos.</span>
               <span className="block">Simule seu percurso em um painel interativo.</span>
             </p>
-
-
           </div>
 
           <div className="animate-rise-delayed w-full min-w-0">
-            {user ? <CourseLibrary /> : <AuthScreen />}
+            {user ? (
+              <CourseLibrary />
+            ) : guestView === "courses" ? (
+              <GuestCourseList onSwitchToAuth={() => setGuestView("auth")} />
+            ) : (
+              <AuthScreen onBackToGuest={() => setGuestView("courses")} />
+            )}
           </div>
-
         </div>
       </section>
 

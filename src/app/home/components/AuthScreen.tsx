@@ -7,7 +7,11 @@ import { getPasswordValidationError, PASSWORD_MIN_LENGTH } from "@/lib/password-
 
 type AuthMode = "sign-in" | "sign-up" | "reset";
 
-export function AuthScreen() {
+interface AuthScreenProps {
+  onBackToGuest?: () => void;
+}
+
+export function AuthScreen({ onBackToGuest }: AuthScreenProps = {}) {
   const { signIn, signInWithGoogle, signUp, sendPasswordReset } = useAuth();
   const [mode, setMode] = useState<AuthMode>("sign-in");
   const [email, setEmail] = useState("");
@@ -93,7 +97,11 @@ export function AuthScreen() {
         <button type="submit" disabled={isSubmitting} className="auth-primary w-full rounded-xl px-4 py-3.5 text-sm font-bold transition hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-60">{isSubmitting ? "Aguarde..." : action}</button>
       </form>
       {!isReset && <><div className="my-5 flex items-center gap-3 text-xs font-semibold text-[var(--text-faint)]"><span className="h-px flex-1 bg-[var(--glass-border)]" />ou<span className="h-px flex-1 bg-[var(--glass-border)]" /></div><button type="button" disabled={isSubmitting} onClick={handleGoogleSignIn} className="auth-secondary w-full rounded-xl px-4 py-3.5 text-sm font-bold transition hover:-translate-y-0.5 disabled:cursor-not-allowed disabled:opacity-60">Continuar com Google</button></>}
-      <div className="mt-5 flex justify-center text-sm font-semibold">{mode === "sign-in" && <button type="button" onClick={() => changeMode("reset")} className="auth-tab cursor-pointer px-2 py-1 text-[var(--accent)] hover:underline">Esqueci minha senha</button>}{mode !== "sign-in" && <button type="button" onClick={() => changeMode("sign-in")} className="auth-tab cursor-pointer px-2 py-1 text-[var(--accent)] hover:underline">Voltar para entrar</button>}</div>
+      <div className="mt-5 flex flex-col items-center gap-2 text-sm font-semibold">
+        {mode === "sign-in" && <button type="button" onClick={() => changeMode("reset")} className="auth-tab cursor-pointer px-2 py-1 text-[var(--accent)] hover:underline">Esqueci minha senha</button>}
+        {mode !== "sign-in" && <button type="button" onClick={() => changeMode("sign-in")} className="auth-tab cursor-pointer px-2 py-1 text-[var(--accent)] hover:underline">Voltar para entrar</button>}
+        {onBackToGuest && <button type="button" onClick={onBackToGuest} className="auth-tab cursor-pointer pt-1 text-xs text-[var(--text-muted)] hover:underline">← Explorar cursos como visitante</button>}
+      </div>
     </div>
   );
 }

@@ -27,11 +27,11 @@ describe("normalizeProgress", () => {
   it("removes invalid custom phase values", () => {
     expect(
       normalizeProgress({
-        customPhases: { invalid: 0, decimal: 2.5, valid: 7 },
+        customPhases: { negative: -1, decimal: 2.5, tooHigh: 99, valid: 7, validZero: 0 },
       })
     ).toEqual({
       statuses: {},
-      customPhases: { valid: 7 },
+      customPhases: { valid: 7, validZero: 0 },
       requirementHours: {},
     });
   });

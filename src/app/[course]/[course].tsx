@@ -1,11 +1,10 @@
 "use client";
 
-import { use, useState, useMemo, useCallback, useEffect } from "react";
+import { use, useState, useMemo, useCallback } from "react";
 import Link from "next/link";
 import { useCourseStatus } from "@/hooks/useCourseStatus";
 import { useCourseGraph } from "@/hooks/useCourseGraph";
 import { useCustomPhases } from "@/hooks/useCustomPhases";
-import { useRouter } from "next/navigation";
 import { useCurriculum } from "@/hooks/useCurricula";
 import { isRequirementSatisfied } from "@/lib/curriculum-requirements";
 
@@ -13,22 +12,26 @@ import { SearchBar } from "./components/SearchBar";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { ProgressDashboard } from "./components/ProgressDashboard";
 import { CurriculumGrid } from "./components/CurriculumGrid";
+import { CurriculumFilters, CurriculumFilter } from "./components/CurriculumFilters";
+import { CagrImportModal } from "./components/CagrImportModal";
 import { ProfileMenu } from "@/components/ProfileMenu";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { SiteFooter } from "@/components/SiteFooter";
 import { useAuth } from "@/components/AuthProvider";
+import { CourseStatus } from "@/types/curriculum";
 
 export default function CoursePage({ params }: { params: Promise<{ course: string }> }) {
   const { course } = use(params);
-  const router = useRouter();
   const { user, isLoading } = useAuth();
   const { curriculum, isLoading: curriculumLoading, error: curriculumError } = useCurriculum(course);
   const curriculumCourses = useMemo(() => curriculum?.courses ?? [], [curriculum]);
 
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [activeFilter, setActiveFilter] = useState<CurriculumFilter>("all");
+  const [isCagrModalOpen, setIsCagrModalOpen] = useState(false);
 
-  const { statuses, requirementHours, toggleStatus, setStatus, setRequirementHours, resetAll, error: statusError } = useCourseStatus(course);
+  const { statuses, requirementHours, toggleStatus, setStatus, setBatchStatuses, setRequirementHours, resetAll, error: statusError } = useCourseStatus(course);
   const { customPhases, setCustomPhase, error: phaseError } = useCustomPhases(course);
   const graph = useCourseGraph(curriculumCourses);
 
@@ -78,15 +81,62 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
     [coursesById, hasNonPendingStatus, isBlockedByPrerequisites, setStatus, toggleStatus]
   );
 
-  useEffect(() => {
-    if (!isLoading && !user) router.replace("/");
-  }, [isLoading, router, user]);
+  const handleCagrApply = useCallback(
+    (completedIds: string[], inProgressIds: string[]) => {
+      const updates: Record<string, CourseStatus> = {};
+      completedIds.forEach((id) => {
+        updates[id] = "completed";
+      });
+      inProgressIds.forEach((id) => {
+        updates[id] = "in-progress";
+      });
+      setBatchStatuses(updates);
+    },
+    [setBatchStatuses]
+  );
 
-  if (isLoading || !user) {
-    return <main className="app-gradient min-h-screen" />;
-  }
+  const filterCounts = useMemo<Record<CurriculumFilter, number>>(() => {
+    let all = 0;
+    let available = 0;
+    let inProgress = 0;
+    let pending = 0;
+    let completed = 0;
+    let mandatory = 0;
+    let elective = 0;
 
-  if (curriculumLoading) {
+    for (const c of curriculumCourses) {
+      all++;
+      const s = statuses[c.id] ?? "pending";
+      if (s === "completed") {
+        completed++;
+      } else if (s === "in-progress") {
+        inProgress++;
+      } else {
+        pending++;
+        if (!isBlockedByPrerequisites(c.id)) {
+          available++;
+        }
+      }
+
+      if (c.type === "Ob") {
+        mandatory++;
+      } else if (c.type === "Op" || c.type === "FreeOp") {
+        elective++;
+      }
+    }
+
+    return {
+      all,
+      available,
+      "in-progress": inProgress,
+      pending,
+      completed,
+      mandatory,
+      elective,
+    };
+  }, [curriculumCourses, isBlockedByPrerequisites, statuses]);
+
+  if (isLoading || curriculumLoading) {
     return <main className="app-gradient min-h-screen" />;
   }
 
@@ -116,6 +166,17 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
       </div>
 
       <div className="relative z-10 mx-auto flex w-full max-w-[1920px] min-w-0 flex-col gap-4 px-3 pb-8 pt-20 sm:px-5 lg:px-7">
+        {!user && (
+          <div className="flex flex-wrap items-center justify-between gap-2 rounded-2xl border border-[var(--glass-border)] bg-[var(--glass-strong)] px-4 py-2.5 text-xs text-[var(--text-muted)] shadow-sm backdrop-blur">
+            <span className="flex items-center gap-2 font-medium">
+              <span className="h-2 w-2 rounded-full bg-amber-400" />
+              Modo visitante: seu planejamento está sendo salvo neste navegador.
+            </span>
+            <Link href="/" className="font-bold text-[var(--accent)] hover:underline">
+              Entrar ou criar conta para salvar na nuvem
+            </Link>
+          </div>
+        )}
         <ScrollReveal>
           {(statusError || phaseError) && <p role="alert" className="rounded-xl bg-red-500/10 px-4 py-3 text-sm font-medium text-red-600">{statusError || phaseError}</p>}
           <ProgressDashboard
@@ -124,9 +185,16 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
             requirementHours={requirementHours}
             onRequirementHoursChange={setRequirementHours}
             onReset={resetAll}
+            onOpenCagrImport={() => setIsCagrModalOpen(true)}
             searchSlot={<SearchBar query={searchQuery} onChange={setSearchQuery} />}
           />
         </ScrollReveal>
+
+        <CurriculumFilters
+          activeFilter={activeFilter}
+          onFilterChange={setActiveFilter}
+          counts={filterCounts}
+        />
 
         <ScrollReveal delay={90}>
           <CurriculumGrid
@@ -135,6 +203,7 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
             statuses={statuses}
             selectedId={selectedId}
             searchQuery={searchQuery}
+            activeFilter={activeFilter}
             prerequisites={prerequisites}
             dependents={dependents}
             customPhases={customPhases}
@@ -145,6 +214,13 @@ export default function CoursePage({ params }: { params: Promise<{ course: strin
           />
         </ScrollReveal>
       </div>
+
+      <CagrImportModal
+        isOpen={isCagrModalOpen}
+        onClose={() => setIsCagrModalOpen(false)}
+        allCourses={curriculumCourses}
+        onApply={handleCagrApply}
+      />
 
       <ScrollReveal>
         <SiteFooter />

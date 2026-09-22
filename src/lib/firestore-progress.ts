@@ -20,7 +20,7 @@ export function normalizeProgress(value: unknown): FirestoreProgress {
   );
   const customPhases = Object.fromEntries(
     Object.entries(data.customPhases ?? {}).filter((entry): entry is [string, number] =>
-      typeof entry[1] === "number" && Number.isInteger(entry[1]) && entry[1] >= 1 && entry[1] <= 10
+      typeof entry[1] === "number" && Number.isInteger(entry[1]) && entry[1] >= 0 && entry[1] <= 16
     )
   );
   const requirementHours = Object.fromEntries(

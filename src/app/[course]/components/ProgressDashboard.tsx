@@ -11,6 +11,7 @@ interface ProgressDashboardProps {
   requirementHours: Record<string, number>;
   onRequirementHoursChange: (sourceId: string, hours: number) => void;
   onReset: () => void;
+  onOpenCagrImport?: () => void;
   searchSlot: ReactNode;
 }
 
@@ -27,11 +28,25 @@ export function ProgressDashboard({
   requirementHours,
   onRequirementHoursChange,
   onReset,
+  onOpenCagrImport,
   searchSlot,
 }: ProgressDashboardProps) {
   const stats = useMemo(
     () => calculateCurriculumProgress({ curriculum, statuses, requirementHours }),
     [curriculum, requirementHours, statuses]
+  );
+
+  const inProgressCoursesList = useMemo(
+    () => curriculum.courses.filter((course) => statuses[course.id] === "in-progress"),
+    [curriculum.courses, statuses]
+  );
+  const inProgressCredits = useMemo(
+    () => inProgressCoursesList.reduce((sum, course) => sum + course.credits, 0),
+    [inProgressCoursesList]
+  );
+  const inProgressHours = useMemo(
+    () => inProgressCoursesList.reduce((sum, course) => sum + course.hours, 0),
+    [inProgressCoursesList]
   );
 
   return (
@@ -72,6 +87,18 @@ export function ProgressDashboard({
               <p className="truncate text-xs text-[var(--text-muted)]">Disciplinas</p>
             </div>
           </div>
+          {inProgressCoursesList.length > 0 && (
+            <div className="mt-2 flex flex-wrap items-center justify-between gap-1.5 rounded-xl border border-amber-400/25 bg-amber-500/10 px-3 py-1.5 text-xs text-amber-700">
+              <span className="font-semibold">
+                Semestre atual: {inProgressCoursesList.length} disc • {inProgressCredits} cr • {inProgressHours}h
+              </span>
+              {inProgressCredits > 28 && (
+                <span className="rounded-full bg-amber-500/20 px-2 py-0.5 text-[10px] font-bold text-amber-800">
+                  Acima de 28 cr recomendados
+                </span>
+              )}
+            </div>
+          )}
         </div>
 
         <div className="min-w-0 flex flex-col gap-3">
@@ -86,6 +113,18 @@ export function ProgressDashboard({
                 {label}
               </span>
             ))}
+            {onOpenCagrImport && (
+              <button
+                type="button"
+                onClick={onOpenCagrImport}
+                className="inline-flex items-center gap-1.5 rounded-full border border-[var(--accent)]/30 bg-[var(--accent-soft)] px-3 py-1.5 text-xs font-semibold text-[var(--accent)] shadow-sm transition hover:bg-[var(--accent)] hover:text-[var(--on-accent)] focus:outline-none focus:ring-2 focus:ring-[var(--ring)] sm:ml-auto"
+              >
+                <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+                </svg>
+                Importar CAGR
+              </button>
+            )}
             <button
               type="button"
               onClick={() => {
@@ -93,7 +132,7 @@ export function ProgressDashboard({
                   onReset();
                 }
               }}
-              className="col-span-2 justify-self-start rounded-full border border-[var(--glass-border)] bg-[var(--text-strong)] px-3 py-1.5 text-xs font-semibold text-[var(--bg-base)] shadow-sm transition hover:-translate-y-0.5 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-[var(--ring)] sm:ml-auto"
+              className="col-span-2 justify-self-start rounded-full border border-[var(--glass-border)] bg-[var(--text-strong)] px-3 py-1.5 text-xs font-semibold text-[var(--bg-base)] shadow-sm transition hover:-translate-y-0.5 hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-[var(--ring)]"
             >
               Limpar selecao
             </button>

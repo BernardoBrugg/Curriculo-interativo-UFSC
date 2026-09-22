@@ -4,6 +4,24 @@ import { validateFeedbackPayload } from "@/lib/feedback-validation";
 
 export const runtime = "nodejs";
 
+const ipRateLimits = new Map<string, { count: number; resetAt: number }>();
+const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
+const RATE_LIMIT_MAX_REQUESTS = 5;
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const entry = ipRateLimits.get(ip);
+  if (!entry || now > entry.resetAt) {
+    ipRateLimits.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS });
+    return false;
+  }
+  if (entry.count >= RATE_LIMIT_MAX_REQUESTS) {
+    return true;
+  }
+  entry.count += 1;
+  return false;
+}
+
 function getSmtpTransporter() {
   const host = process.env.SMTP_HOST;
   const port = Number(process.env.SMTP_PORT ?? "587");
@@ -22,7 +40,17 @@ function getSmtpTransporter() {
 
 export async function POST(request: Request) {
   try {
+    const clientIp = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+    if (clientIp !== "unknown" && isRateLimited(clientIp)) {
+      return NextResponse.json({ error: "Muitas tentativas. Aguarde alguns minutos antes de enviar outro feedback." }, { status: 429 });
+    }
+
     const formData = await request.formData();
+    const honeypot = formData.get("website_url");
+    if (typeof honeypot === "string" && honeypot.length > 0) {
+      return NextResponse.json({ error: "Requisição inválida." }, { status: 400 });
+    }
+
     const message = formData.get("message");
     const file = formData.get("file");
 

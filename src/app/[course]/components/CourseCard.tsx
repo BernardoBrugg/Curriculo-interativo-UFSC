@@ -1,7 +1,7 @@
 "use client";
 
 import { useDraggable } from "@dnd-kit/core";
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useMemo, useRef, useState, memo } from "react";
 import { createPortal } from "react-dom";
 import { Course } from "@/types/curriculum";
 import { getCoursePopoverData } from "@/lib/course-popover";
@@ -22,7 +22,7 @@ interface CourseCardProps {
   isOverlay?: boolean;
 }
 
-export function CourseCard({
+export const CourseCard = memo(function CourseCard({
   course,
   allCourses,
   computedState,
@@ -232,7 +232,7 @@ export function CourseCard({
         </button>}
     </div>
   );
-}
+});
 
 function PopoverList({ label, items }: { label: string; items: string[] }) {
   return (

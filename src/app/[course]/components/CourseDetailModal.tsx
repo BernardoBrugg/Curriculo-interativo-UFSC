@@ -1,8 +1,12 @@
 "use client";
 
-import { useEffect, useMemo, useCallback, useState } from "react";
+import { useEffect, useMemo, useCallback, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import { Course, CourseStatus, PhaseInfo } from "@/types/curriculum";
+
+const subscribeNoop = () => () => {};
+const getClientSnapshot = () => true;
+const getServerSnapshot = () => false;
 
 interface CourseDetailModalProps {
   course: Course | null;
@@ -29,11 +33,7 @@ export function CourseDetailModal({
   onMovePhase,
   phases,
 }: CourseDetailModalProps) {
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
+  const isMounted = useSyncExternalStore(subscribeNoop, getClientSnapshot, getServerSnapshot);
 
   useEffect(() => {
     if (!course) return;

@@ -28,9 +28,10 @@ This directory contains UI components specific to the course curriculum viewer r
 
 - **`RequirementProgress.tsx`**: Sub-component tracking specific curricular requirements and external manual hours inputs.
 
-- **`SearchBar.tsx`**: Quick search input filtering courses across all phases by code or name, with keyboard shortcut `/`.
+- **`CurriculumFilters.tsx`**: Quick status and course type filter chips (Todas, Liberadas, Cursando, Pendentes, Concluídas, Obrigatórias, Optativas) with dynamic badge counters.
+- **`CagrImportModal.tsx`**: Modal dialog allowing students to paste UFSC CAGR academic history text and automatically match completed and enrolled disciplines to their curriculum.
 
-- **`ArrowOverlay.tsx`**: SVG overlay utility for prerequisite/dependent relationship visualization.
+- **`SearchBar.tsx`**: Quick search input filtering courses across all phases by code or name, with keyboard shortcut `/`.
 
 ## Data Flow
 1. Parent page (`[course].tsx`) fetches curriculum data and user statuses.
