@@ -22,7 +22,8 @@ This directory encapsulates the business logic, service layers, validation rules
 
 - **`local-progress.ts`**: Browser localStorage persistence layer supporting guest mode and offline-first state synchronization.
 
-- **`cagr-transcript-parser.ts`**: Text parser extracting course codes and academic statuses (approved, in-progress) from UFSC CAGR transcripts.
+- **`pdf-parser.ts`**: Client-side PDF text extraction service utilizing `pdfjs-dist` to parse documents locally in the user's browser without uploading files to servers.
+- **`cagr-transcript-parser.ts`**: Parser extracting student metadata (name, course, matrícula, curriculum code), course codes, and statuses (approved, in-progress) from official UFSC CAGR Histórico Síntese transcripts and legacy text copies.
 
 - **`course-popover.ts` & `course-popover-position.ts`**: Helper services calculating hover metadata and viewport boundary positioning for desktop cards.
 

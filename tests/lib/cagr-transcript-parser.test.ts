@@ -58,4 +58,49 @@ describe("cagr-transcript-parser", () => {
     expect(result.completedCourses).toEqual(["MTM3101"]);
     expect(result.inProgressCourses).toEqual([]);
   });
+
+  it("parses official UFSC Histórico Síntese with student metadata and grades", () => {
+    const transcript = `
+      HISTÓRICO SÍNTESE DE GRADUAÇÃO
+      ENGENHARIA DE PRODUÇÃO - Bacharelado
+      Currículo: 2023/1
+      Curso: 237 ENGENHARIA DE PRODUÇÃO - Bacharelado
+      Aluno: Bernardo Broering Bruggemann
+      Matrícula: 25250319
+
+      Semestre 2025/1
+      Disciplina Nota H/A Fr Tipo
+      EEL5113 Eletrotécnica Geral 8.0 36 FS Ob Rv
+      EEL7011 Laboratório de Eletricidade Básica 10.0 36 FS Op Rv
+      MTM3110 Cálculo 1 6.5 72 FS Ob Rv
+      MTM3120 Cálculo 2 6.5 72 FS Ob Rv
+      MTM3103 Cálculo 3 6.0 72 FS Ob Rv
+      IA - 7,36 IAA - 7,36 IAP - 7,36 H/A (total = 828 aprov = 828)
+
+      Semestre 2025/2
+      Disciplina Nota H/A Fr Tipo
+      EMC5425 Fenômenos de Transportes 7.0 72 FS Ob
+      EPS2301 Programação para Engenharia de Produção I 10.0 72 FS Ob
+
+      Observação: O aluno de graduação é considerado aprovado numa disciplina se obtém frequência suficiente (FS) e nota final igual ou superior a 6.0.
+      Legenda: Ob = Obrigatória, Op=Optativa
+    `;
+
+    const result = parseCagrTranscript(transcript);
+
+    expect(result.studentName).toBe("Bernardo Broering Bruggemann");
+    expect(result.matricula).toBe("25250319");
+    expect(result.curriculumCode).toBe("2023/1");
+    expect(result.completedCourses).toEqual([
+      "EEL5113",
+      "EEL7011",
+      "MTM3110",
+      "MTM3120",
+      "MTM3103",
+      "EMC5425",
+      "EPS2301",
+    ]);
+    expect(result.inProgressCourses).toEqual([]);
+    expect(result.recognizedCount).toBe(7);
+  });
 });
