@@ -1,5 +1,5 @@
 {
-  "program": "ENFERMAGEM",
+  "program": "Enfermagem",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2022.1",
   "totalHours": 4980,
@@ -1512,7 +1512,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 72,
         "sources": [
           {
@@ -1537,10 +1537,24 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
             "maxHours": 72
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Atividades complementares",
+        "requiredHours": 120,
+        "sources": [
+          {
+            "id": "complementary-activities-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 120,
+            "manualLabel": "Horas de atividades complementares concluídas"
           }
         ]
       }

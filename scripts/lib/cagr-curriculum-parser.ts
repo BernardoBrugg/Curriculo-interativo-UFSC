@@ -43,7 +43,7 @@ function parseColumns(header: string): Columns {
 }
 
 function parsePhase(page: string): number {
-  const phase = page.match(/(?:Fase\s*0?(\d+)|(\d+)[ªaº°]\s*Fase)/i);
+  const phase = page.match(/(?:(?:Fase|Per[íi]odo)\s*0?(\d+)|(\d+)[ªaº°]\s*(?:Fase|Per[íi]odo))/i);
   return Number(phase?.[1] ?? phase?.[2] ?? 0);
 }
 
@@ -177,7 +177,7 @@ function parsePage(page: string, inheritedColumns?: Columns): { courses: Course[
   const rows: CourseRow[] = [];
 
   for (let index = 0; index < lines.length; index += 1) {
-    const flexibleMatch = lines[index].match(/^\s{3,10}([A-Z]{3}\d{4})\s+(.+?)\s+(Ob|Op|Es|Ex)(?:\s+(\d+)\s+(\d+))?(?:\s|$)/i);
+    const flexibleMatch = lines[index].match(/^\s{3,10}([A-Z]{3}\d{4})\s+(.+?)\s+(Ob|Op|Es|Ex)(?:\s+(\d+)(?:\s+(\d+))?)?(?:\s|$)/i);
     const code = flexibleMatch?.[1];
     const initialName = flexibleMatch?.[2];
     if (!code || !initialName) continue;

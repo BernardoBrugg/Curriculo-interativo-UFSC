@@ -1,5 +1,5 @@
 {
-  "program": "CIÊNCIAS BIOLÓGICAS",
+  "program": "Ciências Biológicas",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2006.1",
   "totalHours": 4806,
@@ -4151,7 +4151,6 @@
       "BQA7002",
       "CFS7002",
       "ECZ7012",
-      "MTM3100",
       "BEG7013",
       "BEG7225",
       "BOT1617",
@@ -4197,16 +4196,12 @@
       "MEN7009",
       "BIO7009",
       "MEN7010",
-      "BIO7031",
-      "BIO7033",
-      "BIO7034",
-      "BIO7035",
       "BEG7226"
     ],
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 360,
         "sources": [
           {
@@ -4334,10 +4329,10 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 72
           }
         ]
       }
