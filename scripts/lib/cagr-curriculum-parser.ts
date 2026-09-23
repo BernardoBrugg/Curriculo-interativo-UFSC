@@ -35,11 +35,15 @@ function parseColumns(header: string): Columns {
     type: header.indexOf("Tipo"),
     hours: header.indexOf("H/A"),
     credits: header.indexOf("Aulas"),
-    equivalents: header.indexOf("Equivalentes"),
-    prerequisites: header.indexOf("Pré-Requisito"),
-    set: header.indexOf("Conjunto"),
-    prerequisiteHours: header.indexOf("Pré CH"),
+    equivalents: Math.max(0, header.indexOf("Equivalentes") - 2),
+    prerequisites: Math.max(0, header.indexOf("Pré-Requisito") - 2),
+    set: Math.max(0, header.indexOf("Conjunto") - 2),
+    prerequisiteHours: Math.max(0, header.indexOf("Pré CH") - 2),
   };
+}
+
+export interface ParseCagrCurriculumOptions {
+  includeTypes?: ("Ob" | "Op" | "Es")[];
 }
 
 function parsePhase(page: string): number {
@@ -47,10 +51,11 @@ function parsePhase(page: string): number {
   return Number(phase?.[1] ?? phase?.[2] ?? 0);
 }
 
-function parseType(value: string): Course["type"] | null {
+function parseType(value: string, options?: ParseCagrCurriculumOptions): Course["type"] | null {
   const normalized = value.trim().toLowerCase();
   if (normalized === "ob") return "Ob";
   if (normalized === "op") return "Op";
+  if (normalized === "es" && options?.includeTypes?.some((item) => item.toLowerCase() === "es")) return "Ob";
   return null;
 }
 
@@ -168,7 +173,7 @@ function syllabusText(lines: string[], previousRow: CourseRow | undefined, row: 
   return parts.join(" ").replace(/\s+/g, " ").trim();
 }
 
-function parsePage(page: string, inheritedColumns?: Columns): { courses: Course[]; columns?: Columns } {
+function parsePage(page: string, inheritedColumns?: Columns, options?: ParseCagrCurriculumOptions): { courses: Course[]; columns?: Columns } {
   const lines = page.split("\n");
   const headerIndex = lines.findIndex((line) => line.includes("Disciplina") && line.includes("Tipo") && line.includes("Equivalentes") && line.includes("Pré-Requisito"));
   const columns = headerIndex >= 0 ? parseColumns(lines[headerIndex]) : inheritedColumns;
@@ -181,7 +186,7 @@ function parsePage(page: string, inheritedColumns?: Columns): { courses: Course[
     const code = flexibleMatch?.[1];
     const initialName = flexibleMatch?.[2];
     if (!code || !initialName) continue;
-    const type = parseType(flexibleMatch[3]);
+    const type = parseType(flexibleMatch[3], options);
     if (!type) continue;
     const nameData = findNameContinuations(lines, index, columns, initialName.trim());
     const extension = nameData.name.match(/\bEXT?\s*(\d+)h-a\b/i);
@@ -269,11 +274,11 @@ function recoverMissingSyllabi(text: string, courses: Course[]): Course[] {
   });
 }
 
-export function parseCagrCurriculum(text: string): ParsedCagrCurriculum {
+export function parseCagrCurriculum(text: string, options?: ParseCagrCurriculumOptions): ParsedCagrCurriculum {
   const byCode = new Map<string, Course>();
   let columns: Columns | undefined;
   for (const page of text.split("\f")) {
-    const parsed = parsePage(page, columns);
+    const parsed = parsePage(page, columns, options);
     columns = parsed.columns;
     for (const course of parsed.courses) {
       const current = byCode.get(course.code);

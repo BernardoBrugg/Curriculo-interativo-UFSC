@@ -1,5 +1,5 @@
 {
-  "program": "AGRONOMIA [Campus Curitibanos]",
+  "program": "Agronomia",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2021.2",
   "totalHours": 4464,
@@ -428,41 +428,6 @@
         "code": "CNS7113"
       },
       "syllabus": "Análise estatística na área de ciências agrárias. Estatística descritiva: Organização, resumo e apresentação de dados estatísticos. Técnicas de amostragem. Noções de probabilidade. Inferência estatística. Tabelas de contigência. A informática na Estatística."
-    },
-    {
-      "id": "ABF7139",
-      "code": "ABF7139",
-      "name": "Entomologia Agrícola",
-      "credits": 4,
-      "hours": 72,
-      "phase": 4,
-      "type": "Ob",
-      "prerequisites": [
-        "ABF7101"
-      ],
-      "equivalents": [
-        "ABF7108"
-      ],
-      "prerequisiteExpression": {
-        "kind": "all",
-        "requirements": [
-          {
-            "kind": "course",
-            "code": "ABF7101"
-          },
-          {
-            "kind": "hours",
-            "hours": 18
-          }
-        ]
-      },
-      "equivalentExpression": {
-        "kind": "course",
-        "code": "ABF7108"
-      },
-      "prerequisiteHours": 18,
-      "syllabus": "",
-      "extensionHours": 18
     },
     {
       "id": "ABF7839",
@@ -1388,62 +1353,6 @@
       "syllabus": "Importância econômica, alimentar e social, origem, botânica e fisiologia, cultivares, exigências climáticas, propagação, nutrição, tratos culturais das principais espécies olerícolas."
     },
     {
-      "id": "ABF7126",
-      "code": "ABF7126",
-      "name": "Irrigação e Drenagem",
-      "credits": 3,
-      "hours": 54,
-      "phase": 8,
-      "type": "Ob",
-      "prerequisites": [
-        "ABF7114",
-        "ABF7117"
-      ],
-      "equivalents": [],
-      "prerequisiteExpression": {
-        "kind": "all",
-        "requirements": [
-          {
-            "kind": "course",
-            "code": "ABF7114"
-          },
-          {
-            "kind": "course",
-            "code": "ABF7117"
-          }
-        ]
-      },
-      "syllabus": "A água no sistema solo-planta-atmosfera; Manejo da irrigação; Métodos de irrigação pressurizada; Métodos de irrigação por superfície; Drenagem agrícola."
-    },
-    {
-      "id": "ABF7128",
-      "code": "ABF7128",
-      "name": "Agroecologia",
-      "credits": 3,
-      "hours": 54,
-      "phase": 8,
-      "type": "Ob",
-      "prerequisites": [
-        "ABF7841",
-        "CNS7409"
-      ],
-      "equivalents": [],
-      "prerequisiteExpression": {
-        "kind": "all",
-        "requirements": [
-          {
-            "kind": "course",
-            "code": "ABF7841"
-          },
-          {
-            "kind": "course",
-            "code": "CNS7409"
-          }
-        ]
-      },
-      "syllabus": "Agricultura de base agroecológica: conceitos, princípios, processos e histórico. Princípios ecológicos na agricultura: dinâmica de nutrientes, da água e da energia, biodiversidade e trofobiose. Base ecológica do manejo de pragas, doenças e espécies ruderais. Tecnologias agroecológicas. Correntes da agricultura de base agroecológica: orgânica, biodinâmica, natural, permacultura. Conhecimento tradicional/local e conservação da agrobiodiversidade. Legislação associada à produção de base agroecológica."
-    },
-    {
       "id": "ABF7845",
       "code": "ABF7845",
       "name": "Irrigação e Drenagem",
@@ -1557,46 +1466,6 @@
       "prerequisiteHours": 18,
       "syllabus": "",
       "extensionHours": 18
-    },
-    {
-      "id": "BSU7818",
-      "code": "BSU7818",
-      "name": "Bovinocultura de Corte e Leite",
-      "credits": 4,
-      "hours": 72,
-      "phase": 8,
-      "type": "Ob",
-      "prerequisites": [
-        "BSU7115",
-        "CBA7830"
-      ],
-      "equivalents": [],
-      "prerequisiteExpression": {
-        "kind": "all",
-        "requirements": [
-          {
-            "kind": "course",
-            "code": "BSU7115"
-          },
-          {
-            "kind": "course",
-            "code": "CBA7830"
-          }
-        ]
-      },
-      "syllabus": "Contextualização da cadeia produtiva de bovinos de corte e de leite. Raças, cruzamentos e morfologia de bovinos de corte e de leite. Sistemas de produção intensiva e extensiva de bovinos de corte e de leite. Manejo reprodutivo, alimentar e sanitário do rebanho de bovinos de corte nas fases de cria, recria e terminação. Manejo reprodutivo, alimentar e sanitário de vacas em lactação e fêmeas leiteiras nas fases de cria e recria. Estudo da lactação e manejo da ordenha. Qualidade do leite. Gestão da produção de bovinos de corte e de leite. Bem-estar animal. Aulas de campo."
-    },
-    {
-      "id": "CBA7124",
-      "code": "CBA7124",
-      "name": "Plantas de Lavoura I",
-      "credits": 4,
-      "hours": 72,
-      "phase": 8,
-      "type": "Ob",
-      "prerequisites": [],
-      "equivalents": [],
-      "syllabus": "Trigo, Cevada, Arroz, Soja, Feijão e Milho; Importância socioeconômica; Origem; Usos; Taxonomia, Morfologia e estádios de desenvolvimento; Clima e zoneamento agroclimático; Ecofisiologia; Nutrição mineral e adubação; Manejo da área; Cultivares; Estabelecimento e manejo da cultura; Doenças, Pragas, Plantas daninhas e controle; Colheita; Aulas de campo."
     },
     {
       "id": "CBA7127",
@@ -1736,30 +1605,6 @@
       "syllabus": "Floricultura: Importância econômica e social, origem, botânica, cultivares, exigências climáticas, propagação, nutrição, tratos culturais, colheita, embalagem, armazenamento, transporte, e comercialização das principais espécies floríferas e ornamentais. Plantas nativas com potencial ornamental. Paisagismo: Introdução e histórico. Estilos de jardins. Os elementos e suas características. Elaboração de projetos paisagísticos. Arborização urbana e rodoviária."
     },
     {
-      "id": "ABF7418",
-      "code": "ABF7418",
-      "name": "Avaliação, Perícia e Restauração Ambiental",
-      "credits": 4,
-      "hours": 72,
-      "phase": 9,
-      "type": "Ob",
-      "prerequisites": [
-        "ABF7205"
-      ],
-      "equivalents": [
-        "ABF7318"
-      ],
-      "prerequisiteExpression": {
-        "kind": "course",
-        "code": "ABF7205"
-      },
-      "equivalentExpression": {
-        "kind": "course",
-        "code": "ABF7318"
-      },
-      "syllabus": "Diagnóstico dos impactos ambientais em ecossistemas naturais: avaliação e perícia com enfoque para as propriedades e atividades agropecuárias e florestais. Avaliação de bens rurais NBR 14653. Avaliação da cobertura natural e Valoração Econômica dos Recursos Ambientais (VERA). Legislação aplicada ao uso, avaliação de impacto e restauração ambiental. Elaboração de laudo de avaliação e pericia ambiental. Princípios da restauração: solo, interações ecológicas e sucessão. Projeto de Recuperação de Áreas Degradadas. Práticas de Avaliação, Perícia e Restauração de recursos naturais em áreas degradadas."
-    },
-    {
       "id": "ABF7847",
       "code": "ABF7847",
       "name": "Avaliação e Perícia",
@@ -1824,18 +1669,6 @@
         "code": "CBA7003"
       },
       "syllabus": "Importância da qualidade na aplicação de defensivos agrícolas. Conceitos de alvo biológico. Técnicas de aplicação de produtos agrícolas. Adjuvantes agrícolas. Fatores climáticos na aplicação de defensivos. Teoria da gota. Índice Span. Penetração, Deposição, cobertura e densidade de gotas. Deriva na aplicação de defensivos agrícolas. Tipos de pulverizadores. Manutenção de equipamentos. Pontas de pulverização. Importância da pressão de pulverização. Qualidade e segurança na aplicação. Metodologias para estimar a qualidade da aplicação."
-    },
-    {
-      "id": "CBA7131",
-      "code": "CBA7131",
-      "name": "Plantas de Lavoura II",
-      "credits": 4,
-      "hours": 72,
-      "phase": 9,
-      "type": "Ob",
-      "prerequisites": [],
-      "equivalents": [],
-      "syllabus": "Agrícolas CBA7823) Café, Cana-de-açúcar, Algodão, Mandioca, Girassol e Canola. Importância socioeconômica; Origem; Usos; Taxonomia, Morfologia e estádios de desenvolvimento; Clima e zoneamento agroclimático; Ecofisiologia; Nutrição mineral e adubação; Manejo da área; Cultivares; Estabelecimento e manejo da cultura; Doenças, Pragas, Plantas daninhas e controle; Colheita; Aulas de Campo."
     },
     {
       "id": "CBA7132",
@@ -2914,60 +2747,6 @@
       },
       "prerequisiteHours": 18,
       "syllabus": "Desmistificação de idéias recebidas relativamente às línguas de sinais. A língua de sinais enquanto língua utilizada pela comunidade surda brasileira. Introdução à língua brasileira de sinais: usar a língua em contextos que exigem comunicação básica, como se apresentar, realizar perguntas, responder perguntas e dar informações sobre alguns aspectos pessoais (nome, endereço, telefone). Conhecer aspectos culturais específicos da comunidade surda brasileira."
-    },
-    {
-      "id": "CNS8014",
-      "code": "CNS8014",
-      "name": "Atividade Ação de Extensão - Cursos",
-      "credits": 0,
-      "hours": 0,
-      "phase": 0,
-      "type": "Ob",
-      "prerequisites": [],
-      "equivalents": [],
-      "prerequisiteExpression": {
-        "kind": "hours",
-        "hours": 18
-      },
-      "prerequisiteHours": 18,
-      "syllabus": "",
-      "extensionHours": 18
-    },
-    {
-      "id": "CNS8015",
-      "code": "CNS8015",
-      "name": "Atividade Ação de Extensão - Eventos",
-      "credits": 0,
-      "hours": 0,
-      "phase": 0,
-      "type": "Ob",
-      "prerequisites": [],
-      "equivalents": [],
-      "prerequisiteExpression": {
-        "kind": "hours",
-        "hours": 18
-      },
-      "prerequisiteHours": 18,
-      "syllabus": "",
-      "extensionHours": 18
-    },
-    {
-      "id": "CNS8016",
-      "code": "CNS8016",
-      "name": "Atividade Ação de Extensão - Projetos",
-      "credits": 0,
-      "hours": 0,
-      "phase": 0,
-      "type": "Ob",
-      "prerequisites": [],
-      "equivalents": [],
-      "prerequisiteExpression": {
-        "kind": "hours",
-        "hours": 18
-      },
-      "prerequisiteHours": 18,
-      "syllabus": "",
-      "extensionHours": 18
     }
   ],
   "completion": {
@@ -2995,7 +2774,6 @@
       "CNS7102",
       "CNS7115",
       "CNS7314",
-      "ABF7139",
       "ABF7839",
       "CBA7106",
       "CNS7202",
@@ -3028,23 +2806,17 @@
       "CBA7830",
       "CNS7133",
       "ABF7125",
-      "ABF7126",
-      "ABF7128",
       "ABF7845",
       "ABF7846",
       "BSU7189",
-      "BSU7818",
-      "CBA7124",
       "CBA7127",
       "CBA7129",
       "CBA7831",
       "CNS7718",
       "ABF7130",
-      "ABF7418",
       "ABF7847",
       "BSU7806",
       "CBA7103",
-      "CBA7131",
       "CBA7132",
       "CBA7832",
       "CNS7135",
@@ -3055,10 +2827,7 @@
       "CNS7134",
       "CNS7329",
       "CNS7336",
-      "CNS8017",
-      "CNS8014",
-      "CNS8015",
-      "CNS8016"
+      "CNS8017"
     ],
     "requirements": []
   },

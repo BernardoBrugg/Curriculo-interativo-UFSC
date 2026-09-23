@@ -3419,8 +3419,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "BSU7209"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BSU7209"
+      },
       "syllabus": "Fundamentos básicos das principais modalidades terapêuticas em reabilitação. Calor superficial. TENS. Interferencial. Corrente Russa. LASER. Ultrassom terapêutico. Micro-ondas terapêutico. Ondas Curtas terapêutico."
     },
     {
@@ -3431,8 +3437,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "CNS7314"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNS7314"
+      },
       "syllabus": "em Reabilitação Fundamentos e teoria da pesquisa qualitativa. Tipos e procedimentos. Desenho metodológico. Análise e interpretação. Validade, confiabilidade. Elaboração de projeto."
     },
     {

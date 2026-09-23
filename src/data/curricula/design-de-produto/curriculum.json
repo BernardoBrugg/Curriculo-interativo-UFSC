@@ -1,7 +1,7 @@
 {
-  "program": "Design",
+  "program": "Design de Produto",
   "institution": "Universidade Federal de Santa Catarina",
-  "version": "Matriz 2019.1",
+  "version": "Matriz 2008.1",
   "totalHours": 3456,
   "phases": [
     {
@@ -563,7 +563,7 @@
       "code": "EGR5801",
       "name": "Programa de Intercâmbio I",
       "credits": 0,
-      "hours": 0,
+      "hours": 32,
       "phase": 7,
       "type": "Ob",
       "prerequisites": [],
@@ -575,7 +575,7 @@
       "code": "EGR5802",
       "name": "Programa de Intercâmbio II",
       "credits": 0,
-      "hours": 0,
+      "hours": 32,
       "phase": 7,
       "type": "Ob",
       "prerequisites": [],
@@ -587,7 +587,7 @@
       "code": "EGR5803",
       "name": "Programa de Intercâmbio III",
       "credits": 0,
-      "hours": 0,
+      "hours": 32,
       "phase": 7,
       "type": "Ob",
       "prerequisites": [],
@@ -701,30 +701,31 @@
       "EGR7807",
       "GMT7195",
       "EGR7196",
-      "EGR7198",
       "EGR7197",
-      "EGR5801",
-      "EGR5802",
-      "EGR5803",
-      "EGR7808",
-      "EGR7809",
-      "EGR7810",
-      "LSB7409",
       "EGR7811"
     ],
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
-        "requiredHours": 180,
+        "name": "Disciplinas optativas e estágio",
+        "requiredHours": 288,
         "sources": [
           {
             "id": "electives-catalogue",
-            "courseIds": [],
+            "courseIds": [
+              "EGR7808",
+              "EGR7809",
+              "EGR7810",
+              "LSB7409",
+              "EGR5801",
+              "EGR5802",
+              "EGR5803",
+              "EGR7198"
+            ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
             "maxHours": 180

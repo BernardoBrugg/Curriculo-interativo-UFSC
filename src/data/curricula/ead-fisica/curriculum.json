@@ -1,5 +1,5 @@
 {
-  "program": "EaD FÍSICA",
+  "program": "Física (EaD)",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2017.1",
   "totalHours": 3600,
@@ -685,7 +685,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 288,
         "sources": [
           {
@@ -694,10 +694,24 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 288
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Atividades complementares",
+        "requiredHours": 130,
+        "sources": [
+          {
+            "id": "complementary-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 130,
+            "manualLabel": "Horas de atividades complementares"
           }
         ]
       }

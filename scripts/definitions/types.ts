@@ -5,6 +5,8 @@ export interface CurriculumDefinition {
   version: string;
   totalHours: number;
   completion: (text: string, courses: CurriculumData["courses"]) => CurriculumCompletion;
+  includeTypes?: ("Ob" | "Op" | "Es")[];
+  excludeCourses?: string[];
 }
 
 export function courseIdsBetween(text: string, startMarker: string, endMarker?: string): string[] {

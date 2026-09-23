@@ -1,5 +1,5 @@
 {
-  "program": "CIÊNCIA E TECNOLOGIA [Campus de Joinville]",
+  "program": "Ciência e Tecnologia",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2025.1",
   "totalHours": 2880,
@@ -803,8 +803,8 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
-        "requiredHours": 936,
+        "name": "Disciplinas optativas",
+        "requiredHours": 576,
         "sources": [
           {
             "id": "electives-catalogue",
@@ -812,17 +812,55 @@
               "EMB5096",
               "EMB5097",
               "EMB5098",
-              "LSB7244",
-              "EMB5000",
+              "LSB7244"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "free-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 576
+          }
+        ]
+      },
+      {
+        "id": "complementary",
+        "name": "Atividades complementares",
+        "requiredHours": 288,
+        "sources": [
+          {
+            "id": "complementary-course",
+            "courseIds": [
+              "EMB5000"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "complementary-manual",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 288
+          }
+        ]
+      },
+      {
+        "id": "extension",
+        "name": "Atividades de extensão",
+        "requiredHours": 72,
+        "sources": [
+          {
+            "id": "extension-course",
+            "courseIds": [
               "EMB5122"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "extension-manual",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 72
           }
         ]
       }

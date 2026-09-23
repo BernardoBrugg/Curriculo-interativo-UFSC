@@ -2946,8 +2946,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5228"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5228"
+      },
       "syllabus": "Histórico do material. Situação no Brasil. Potencialidades. Comparação com o concreto armado. Composição do material. Corpos de prova do material. Pré- fabricação de elementos de argamassa armada. Análise de custos. Comportamento mecânico. Tensões admissíveis teóricas e dimensionamento. Modelos para ensaio experimental. Comportamento ao longo do tempo. Ação de agentes externos."
     },
     {
@@ -2958,8 +2964,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5220"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5220"
+      },
       "syllabus": "Introdução. Estruturas constituídas de barras. Introdução aos métodos da flexibilidade e da rigidez. Equações fundamentais.Exemplos do método da rigidez. Aplicações em programas computacionais. Tópicos adicionais para o método da rigidez."
     },
     {
@@ -2970,8 +2982,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5223"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5223"
+      },
       "syllabus": "Generalidades. Avaliação do momento de plastificação total de flexão pura. Verificação da capacidade de carga. Princípio dos trabalhos virtuais em regime plástico. Tipos de colapso plástico. Processos de cálculo. Cálculo de deslocamentos. Fatores que afetam o momento de plastificação total. Projeto de pêso mínimo. Cargas variáveis e repetidas."
     },
     {
@@ -2982,8 +3000,24 @@
       "hours": 90,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5220",
+        "ECV5228"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECV5220"
+          },
+          {
+            "kind": "course",
+            "code": "ECV5228"
+          }
+        ]
+      },
       "syllabus": "Introdução, elementos e ações a considerar, projeto completo de uma ponte com superestrutura composta por duas vigas principais, transversianas, cortinas e lajes, mesoestrutura formada por pilares e aparelhos de apoio; infraestrutura em fundação direta. Considerações sobre superestrutura em laje, celulares e em grelha."
     },
     {
@@ -2994,8 +3028,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5228"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5228"
+      },
       "syllabus": "Introdução. Materiais empregados. Sistemas de protensão. Flexão. Fissuração. Traçado da armadura. Perdas de protensão. Cisalhamento. Tópicos especiais."
     },
     {
@@ -3006,8 +3046,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5307"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5307"
+      },
       "syllabus": "Características básicas de gerenciamento e controle da construção, A técnica PERT/CPM ( Project Evolution Review Technique/Critical Path Method ) através de software. Uso de software aplicado a programação de uma obra de engenharia."
     },
     {
@@ -3018,8 +3064,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ENS5107"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ENS5107"
+      },
       "syllabus": "Conceitos básicos, tipos característicos, funções de elementos componentes e necessidades físicas em: instalações de climatização, instalações de elevadores, monta-cargas e escadas rolantes. Instalação de cozinhas, lavanderias, subestações. Instalações de ar comprimido, gás, vapor, oxigenio e outros fluídos. Instalações de sonorização e comunicação."
     },
     {
@@ -3030,8 +3082,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5331"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5331"
+      },
       "syllabus": "Noções de planejamento. Metodologia de planejamento de um empreendimento. Planejamento da construção em PERT-CPM. Cronograma físico. Cronograma físico-financeiro."
     },
     {
@@ -3042,8 +3100,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5134"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5134"
+      },
       "syllabus": "Água subterrânea, geologia aplicada a estabilidade de taludes; Geologia de estradas; Geologia de túneis. geologia de fundações: Geologia de barragens, geologia do estado de Santa catarina."
     },
     {
@@ -3054,8 +3118,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5331"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5331"
+      },
       "syllabus": "Modo de execução, tipos de materiais e equipamentos para a resolução de problemas especiais de: impermeabilização, isolamento acústico e térmico, drenagem, grandes movimentos de terra, sistemas de escoramento, transporte de materiais, translado de edificações, redes de abastecimento e saneamento, fundações especiais para grandes obras. Curas artificiais de concreto. Grandes formas. Técnicas para concretagem de grandes maciços. Técnicas de protensão. Muros de arrimo. Reservatórios. Silos, Pontes, Barragens, Usinas Atômicas. Túneis. Aeroportos, pavilhões industriais, escolas, hospitais, hotéis (tipos de projetos, instalações, normas)."
     },
     {
@@ -3066,8 +3136,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7003"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS7003"
+      },
       "syllabus": "Noções de matemática financeira. Planta genérica. Homogeneização de valores. Avaliação de terrenos loteados. Avaliações de glebas urbanizavam. Avaliação de terrenos parcialmente desapropriados. Avaliação de faixas de servidão de passagem. Avaliação de imóveis. Depreciação. Arbitramento de aluguéis. Avaliação de instalações industriais."
     },
     {
@@ -3078,8 +3154,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5347"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5347"
+      },
       "syllabus": "Avaliação de imóveis urbanos: métodos, fatores de valor. Método comparativo de dados do mercado: estudo das variáveis, pesquisa de dados, vistoria. Nível de rigor da avaliação. Avaliação por estatística inferencial: regressões, correlação, intervalo de confiança, testes de hipótese, análise de variância, testes complementares, intervalo para estimativa de valor. Perícia judicial e elaboração de laudos."
     },
     {
@@ -3090,8 +3172,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5331"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5331"
+      },
       "syllabus": "Finalidade. Modernas técnicas de construção. Produtividade. Prazos-Custos. Tipos de industrialização e modulação. Montagem. Equipamentos de industrialização, transporte e elevação. Materiais utilizados na industrialização das peças. Elementos de ligação (juntas, uniões, conexões) vantagens e desvantagens. Política e planejamento para aplicações de processos tecnologicamente avançados."
     },
     {
@@ -3102,8 +3190,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5331"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5331"
+      },
       "syllabus": "Histórico do desperdício na construção; causas do desperdício; impacto do desperdício nos custos das edificações; indicadores de perdas; instrumentos de medição e/ou quantificação do desperdício; instrumentos de controle do desperdício; diretrizes para a implantação de uma política de redução de perdas."
     },
     {
@@ -3114,8 +3208,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ECV5331"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ECV5331"
+      },
       "syllabus": "Introdução. Conceitos. Agentes causadores de patologias. Patologias do concreto armado: corrosão das armaduras, fissuração, ataque de agentes agressivos. Patologias das fundações. Patologia dos revestimentos (argamassas, cerâmicas, pintura). Problemas em impermeabilizações. Patologias das alvenarias. Análise de estruturas acabadas. Diagnóstico. Prevenção."
     },
     {
@@ -3126,8 +3226,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7001"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS7001"
+      },
       "syllabus": "Noções de sistemas de computação, funções principais, formas de apresentação de dados. Ferramentas: processadores de texto, planilhas, bancos de dados, programas de desenho assistido do computador (CADE), cálculo numérico e visualização de funções, gerenciadores de projetos, rede de computadores, linguagens de programação."
     },
     {
@@ -3162,13 +3268,24 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7005"
+      ],
       "equivalents": [
         "EMC5351"
       ],
       "prerequisiteExpression": {
-        "kind": "hours",
-        "hours": 2500
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS7005"
+          },
+          {
+            "kind": "hours",
+            "hours": 2500
+          }
+        ]
       },
       "equivalentExpression": {
         "kind": "course",
@@ -3185,8 +3302,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7005"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS7005"
+      },
       "syllabus": "- Familiarização com conceitos e técnicas de teoria de grafos: definições básicas; árvores; problemas de cobertura e partição de conjuntos; problemas de p- medianas e p-centros; coloração de grafos; algoritmos de busca e caminhos mínimos; fluxos em redes; problemas Eulerianos e Hamiltoneanos; emparelhamento. Métodos meta-heurísticos: busca tabu, algoritmo genético, simulated annealing, ant systems. Aplicações."
     },
     {
@@ -3197,8 +3320,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7005"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS7005"
+      },
       "syllabus": "- Estudo de caso com aplicações de técnicas de Pesquisa Operacional. - Artigos diversos publicados em revistas sobre temas relacionados com os estudos de caso realizados."
     },
     {
@@ -3209,8 +3338,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS5235"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS5235"
+      },
       "syllabus": "Operacional Gestão da manutenção e confiabilidade de Equipamentos. Planejamento da capacidade de produção. Modelos e controle de estoque e formação de lote. Modelos de seqüenciamento e programação da produção. Balanceamento de linhas de produção. Planejamento de Materiais."
     },
     {
@@ -3245,8 +3380,14 @@
       "hours": 0,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7011"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS7011"
+      },
       "syllabus": "Continuidade da participação em Programas de Intercâmbio Acadêmico visando a realização de cursos, estágios e pesquisas orientados ao aprimoramento da formação do aluno.-"
     },
     {
@@ -3257,8 +3398,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7018"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS7018"
+      },
       "syllabus": "- A formação da Personalidade; O processo comportamental; As necessidades do empreendedor; O conhecimento para empreender; O empreendedor e suas habilidades; Os valores do empreendedor; O processo evolutivo das empresas; Modelos de Ciclo de Vida; A personalidade do empreendedor e o ciclo de vida da organização."
     },
     {
@@ -3269,8 +3416,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7010"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS7010"
+      },
       "syllabus": "Globalização e Competitividade, Competitividade Regional, Aglomerações Produtivas, Redes e Consórcios de Empresas, Cadeias de Fornecedores."
     },
     {
@@ -3281,8 +3434,24 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7021",
+        "EPS7023"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS7021"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7023"
+          }
+        ]
+      },
       "syllabus": ""
     },
     {
@@ -3293,8 +3462,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS5235"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS5235"
+      },
       "syllabus": "Introdução: Teoria da Produção; fatores de produção; planejamento e controle da produção; caracterização dos sistemas de produção. 2 Linhas de Produção: Introdução e formulação do problema; procedimentos heurísticos; sequenciamento de linhas mistas (múltiplos produtos). Plano Mestre da Produção (16 horas-aula) - Introdução e objetivos; políticas de encomendas; modelos dinâmicos de determinação de lotes; métodos heurísticos; modelos considerando capacidade limitada. Programação da Produção: Introdução e definição do problema; flow-shop com uma máquina; flow-shop com duas ou mais máquinas; job shop; regras de despacho. Planejamento de Materiais: Introdução; heurísticas para definição de lotes de material na produção com múltiplos estágios; cálculo das necessidades de material; MRP. Tecnologia de Grupo: Definições; codificação e classificação de peças; algoritmos de clusterização."
     },
     {
@@ -3305,8 +3480,24 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS2363",
+        "EPS7018"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS2363"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7018"
+          }
+        ]
+      },
       "syllabus": "- Planejamento estratégico e objetivo. Sistemas de planejamento estratégico. Sistemas de planos. O processo de planejamento estratégico. O subsistema de decisão para planejamento. Subsistema de informação e organização para planejamento. Subsistema de gerência para planejamento. Estratégia de marketing."
     },
     {
@@ -3317,8 +3508,24 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7000",
+        "EPS7010"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS7000"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7010"
+          }
+        ]
+      },
       "syllabus": "Introdução a moderna teoria de investimentos, títulos e mercados. Conceitos estatísticos para gestão de carteiras: retorno médio, desvio padrão, variância, covariância, grau de correlação. Carteira eficiente. Relação entre risco, retor-no esperado e medidas de desempenho. Mercado de capitais e carteira do mercado"
     },
     {
@@ -3329,10 +3536,16 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7008"
+      ],
       "equivalents": [
         "EGC5018"
       ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EPS7008"
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "EGC5018"
@@ -3347,8 +3560,24 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EPS7002",
+        "EPS7019"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EPS7002"
+          },
+          {
+            "kind": "course",
+            "code": "EPS7019"
+          }
+        ]
+      },
       "syllabus": "- Conceito e evolução das técnicas de Avaliação de Desempenho. Métodos Locais - Estatísticos, Mapas, Gráficos, Diagramas e Pareto. Métodos Corporativos - BSC, Baldrige, FPNQ, Nevada,Hronec, McKinsey 7-S, etc. Métodos Construtivistas - SSM, MCDA-C. Estruturação - Contextualização, Elementos Primários de Avaliação, Conceitos, Mapas meio-fim, Árvore de Valor, descritores, níveis âncora. Avaliação - função de valor, independência, taxas, perfil de desempenho. Recomendações - análise de sensibilidade, processo gerador de ações."
     },
     {
@@ -3533,7 +3762,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "EPS7046"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS7046"
+      },
       "syllabus": "Fundamentos da Teoria de Decisão - Modelos Básicos da Teoria dos Jogos - Conceituação e Caracterização de Jogos de Empresas - Estruturação de Processos de Decisão - Modelos de Avaliação de Resultados - Aplicação Prática de Jogo de Empresas.-"
     },
     {
@@ -3586,10 +3821,16 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "EPS7045"
+      ],
       "prerequisiteExpression": {
         "kind": "hours",
         "hours": 2500
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS7045"
       },
       "prerequisiteHours": 2500,
       "syllabus": "Learning EPS7001)"
@@ -3627,7 +3868,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "EPS0423"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS0423"
+      },
       "syllabus": "Economia Circular: histórico e conceituação. Modelos de negócios circulares. As mudanças na cadeia de suprimentos. Capacitores e aceleradores da economia circular. Aplicações práticas da economia circular."
     },
     {
@@ -3698,7 +3945,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "PSI7002"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI7002"
+      },
       "syllabus": "Processos humanos nas organizações. Integração indivíduo X organização. Organização como contexto social. Poder nas organizações e administração de conflitos."
     }
   ],

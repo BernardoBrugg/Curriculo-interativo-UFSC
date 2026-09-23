@@ -20,6 +20,12 @@ This directory encapsulates the business logic, service layers, validation rules
 
 - **`firestore-progress.ts`**: Firebase Firestore persistence adapter for user subject status and preferences.
 
+- **`firebase-admin.ts`**: Centralized Firebase Admin SDK service providing authenticated server-side access to Auth and Firestore.
+
+- **`email/`**: SMTP transporter service and styled email templates for password reset and monthly metric reporting.
+
+- **`reporting/`**: Metrics collection and executive reporting services aggregating user activity and feedbacks.
+
 - **`local-progress.ts`**: Browser localStorage persistence layer supporting guest mode and offline-first state synchronization.
 
 - **`pdf-parser.ts`**: Client-side PDF text extraction service utilizing `pdfjs-dist` to parse documents locally in the user's browser without uploading files to servers. Implements vertical line clustering and horizontal coordinate sorting to preserve visual table layout regardless of stream item ordering, and loads `pdf.worker.min.mjs` directly from the local public origin.

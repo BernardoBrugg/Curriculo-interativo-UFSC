@@ -1,5 +1,5 @@
 {
-  "program": "MEDICINA [Campus Araranguá]",
+  "program": "Medicina",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2025.1",
   "totalHours": 9144,
@@ -39,6 +39,18 @@
     {
       "number": 8,
       "name": "8ª Fase"
+    },
+    {
+      "number": 9,
+      "name": "9ª Fase"
+    },
+    {
+      "number": 10,
+      "name": "10ª Fase"
+    },
+    {
+      "number": 11,
+      "name": "11ª Fase"
     },
     {
       "number": 12,
@@ -1222,6 +1234,110 @@
       "syllabus": "Elaboração, desenvolvimento e apresentação de Trabalho de Conclusão de Curso."
     },
     {
+      "id": "DCM1901",
+      "code": "DCM1901",
+      "name": "Internato Médico I",
+      "credits": 36,
+      "hours": 828,
+      "phase": 9,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS8145"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 5598
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8145"
+      },
+      "prerequisiteHours": 5598,
+      "syllabus": "Medicina de Família e Comunidade I, Clínica Médica I e Clínica Cirúrgica I. Bases conceituais da ESF. A Unidade Básica de Saúde, o território e a população adscrita. Assistência à população adscrita na perspectiva individual, familiar e comunitária. Estudo global das patologias clínicas mais comuns. Relação médico paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica com ênfase na interdisciplinaridade. Propedêutica e terapêutica das doenças prevalentes. Treinamento da prática médica sob supervisão. Promoção e proteção à saúde incluindo aspecto biopsicossocial e ambiental. Prevenção de riscos e agravos. Diagnóstico e tratamento das patologias de demanda em crianças, adultos, idosos e mulher em núcleo urbano diferente da área original de atuação. Saúde da Família. Exame ginecológico. Doenças mais prevalentes do trato genital feminino. Instrumentação dos principais procedimentos cirúrgicos em Ginecologia. Propiciar o atendimento na atenção integral da saúde da criança e do adolescente em suas diferentes fases do desenvolvimento. Desenvolvimento de conhecimentos, habilidades e atitudes para o atendimento na atenção primária em saúde. Trabalho em equipe interprofissional. NASF. Identificação de urgências e emergências, procedimentos de reanimação, indicação de UTI. Estudo para a formação de médicos generalista com conhecimento científico na área de emergências e urgências na atenção à saúde do Adulto, do Idoso, da Mulher e da Criança. Transtornos Psiquiátricos ma"
+    },
+    {
+      "id": "DCM1902",
+      "code": "DCM1902",
+      "name": "Internato Médico II",
+      "credits": 36,
+      "hours": 828,
+      "phase": 10,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1901"
+      ],
+      "equivalents": [
+        "DCS8146"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DCM1901"
+          },
+          {
+            "kind": "hours",
+            "hours": 5598
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8146"
+      },
+      "prerequisiteHours": 5598,
+      "syllabus": "Medicina de Família e Comunidade II, Pediatria I e Ginecologia e Obstetrícia I Bases conceituais da ESF. A Unidade Básica de Saúde, o território e a população adscrita. Assistência à população adscrita na perspectiva individual, familiar e comunitária. Estudo global das patologias clínicas mais comuns. Relação médico paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica com ênfase na interdisciplinaridade. Propedêutica e terapêutica das doenças prevalentes. Treinamento da prática médica sob supervisão. Promoção e proteção à saúde incluindo aspecto biopsicossocial e ambiental. Prevenção de riscos e agravos. Diagnóstico e tratamento das patologias de demanda em crianças, adultos, idosos e mulher em núcleo urbano diferente da área original de atuação. Saúde da Família. Exame ginecológico. Doenças mais prevalentes do trato genital feminino. Instrumentação dos principais procedimentos cirúrgicos em Ginecologia. Propiciar o atendimento na atenção integral da saúde da criança e do adolescente em suas diferentes fases do desenvolvimento. Desenvolvimento de conhecimentos, habilidades e atitudes para o atendimento na atenção primária em saúde. Trabalho em equipe interprofissional. NASF. Identificação de urgências e emergências, procedimentos de reanimação, indicação de UTI. Transtornos Psiquiátricos mais comuns Prevenção, Diagnóstico e Tratamento. Classificações. Síndromes. Higiene mental. Psicopatologia forense. Psico farmacoterapia. Relação médico paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica. Possibilidades de prevenção do adoecer psíquico em suas três dimensões. Abordagem do paciente psiquiátrico e seus familiares. O estágio propicia ao aluno trabalhar na atenção integral da saúde da criança e do adolescente em suas diferentes fases do desenvolvimento. Promoção e proteção à saúde incluindo aspectos biopsicossocial e ambiental. Prevenção de riscos e agravos. Propedêutica e terapêutica das doenças prevalentes. Desenvolvimento de conhecimentos, habilidades e atitudes para o atendimento. Estimular o desenvolvimento pessoal de princípios éticos, humanístico e relacional com ênfase na interdisciplinaridade."
+    },
+    {
+      "id": "DCM1903",
+      "code": "DCM1903",
+      "name": "Internato Médico III",
+      "credits": 36,
+      "hours": 828,
+      "phase": 11,
+      "type": "Ob",
+      "prerequisites": [],
+      "equivalents": [
+        "DCS8147"
+      ],
+      "prerequisiteExpression": {
+        "kind": "hours",
+        "hours": 7488
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8147"
+      },
+      "prerequisiteHours": 7488,
+      "syllabus": "Medicina de Família e Comunidade III, Clínica Médica II e Clínica Cirúrgica II: ementa: Bases conceituais da ESF. A Unidade Básica de Saúde, o território e a população adscrita. Assistência à população adscrita na perspectiva individual, familiar e comunitária. Estudo global das patologias clínicas mais comuns. Relação médico-paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica com ênfase na interdisciplinaridade. Propedêutica e terapêutica das doenças prevalentes. Treinamento da prática médica sob supervisão. Promoção e proteção à saúde incluindo aspecto biopsicossocial e ambiental. Prevenção de riscos e agravos. Diagnóstico e tratamento das patologias de demanda em crianças, adultos, idosos e mulher em núcleo urbano diferente da área original de atuação. Saúde da Família. Exame ginecológico. Doenças mais prevalentes do trato genital feminino. Instrumentação dos principais procedimentos cirúrgicos em Ginecologia. Propiciar o atendimento na atenção integral da saúde da criança e do adolescente em suas diferentes fases do desenvolvimento. Desenvolvimento de conhecimentos, habilidades e atitudes para o atendimento na atenção primária em saúde. Trabalho em equipe interprofissional. NASF. Identificação de urgências e emergências, procedimentos de reanimação, indicação de UTI. Estudo para a formação de médicos generalista com conhecimento científico na área de emergências e urgências na atenção à saúde do Adulto, do Idoso, da Mulher e da Criança. Transtornos Psiquiátricos mais comuns – Prevenção, Diagnóstico e Tratamento. Classificações. Síndromes. Higiene mental. Psicopatologia forense. Psico- farmacoterapia. Relação médico-paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica. Possibilidades de prevenção do adoecer psíquico em suas três dimensões. Abordagem do paciente psiquiátrico e seus familiares. Estudo das patologias mais comuns nas especialidades clínicas. Diagnóstico, tratamento. Medidas de prevenção. Relação médico-paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica. Treinamento da prática médica sob supervisão.Estudo para a formação de médicos com conhecimento científico na área de cirurgia, compreendendo os diagnósticos das principais patologias cirúrgicas, suas complicações e indicações cirúrgicas eletivas e emergenciais. Ambiente cirúrgico. Avaliação cirúrgica pré-operatória e pós-operatória. Anestesia."
+    },
+    {
+      "id": "DCM1904",
+      "code": "DCM1904",
+      "name": "Internato Médico IV",
+      "credits": 36,
+      "hours": 828,
+      "phase": 12,
+      "type": "Ob",
+      "prerequisites": [
+        "DCM1903"
+      ],
+      "equivalents": [
+        "DCS8148"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DCM1903"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "DCS8148"
+      },
+      "syllabus": "Medicina de Família e Comunidade IV, Pediatria II e Ginecologia e Obstetrícia II Bases conceituais da ESF. A Unidade Básica de Saúde, o território e a população adscrita. Assistência à população adscrita na perspectiva individual, familiar e comunitária. Estudo global das patologias clínicas mais comuns. Relação médico-paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica com ênfase na interdisciplinaridade. Propedêutica e terapêutica das doenças prevalentes. Treinamento da prática médica sob supervisão. Promoção e proteção à saúde incluindo aspecto biopsicossocial e ambiental. Prevenção de riscos e agravos. Diagnóstico e tratamento das patologias de demanda em crianças, adultos, idosos e mulher em núcleo urbano diferente da área original de atuação. Saúde da Família. Exame ginecológico. Doenças mais prevalentes do trato genital feminino. Instrumentação dos principais procedimentos cirúrgicos em Ginecologia. Propiciar o atendimento na atenção integral da saúde da criança e do adolescente em suas diferentes fases do desenvolvimento. Desenvolvimento de conhecimentos, habilidades e atitudes para o atendimento na atenção primária em saúde. Trabalho em equipe interprofissional. NASF. Identificação de urgências e emergências, procedimentos de reanimação, indicação de UTI. Transtornos Psiquiátricos mais comuns – Prevenção, Diagnóstico e Tratamento. Classificações. Síndromes. Higiene mental. Psicopatologia forense. Psico-farmacoterapia. Relação médico-paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica. Possibilidades de prevenção do adoecer psíquico em suas três dimensões. Abordagem do paciente psiquiátrico e seus familiares.O estágio propicia ao aluno trabalhar na atenção integral da saúde da criança e do adolescente em suas diferentes fases do desenvolvimento. Promoção e proteção à saúde incluindo aspectos biopsicossocial e ambiental. Prevenção de riscos e agravos. Propedêutica e terapêutica das doenças prevalentes. Desenvolvimento de conhecimentos, habilidades e atitudes para o atendimento. Estimular o desenvolvimento pessoal de princípios éticos, humanístico e relacional com ênfase na interdisciplinaridade."
+    },
+    {
       "id": "DCM1001",
       "code": "DCM1001",
       "name": "Programa de Intercâmbio I",
@@ -1237,7 +1353,7 @@
         "kind": "course",
         "code": "DCS7001"
       },
-      "syllabus": "Medicina de Família e Comunidade IV, Pediatria II e Ginecologia e Obstetrícia II Bases conceituais da ESF. A Unidade Básica de Saúde, o território e a população adscrita. Assistência à população adscrita na perspectiva individual, familiar e comunitária. Estudo global das patologias clínicas mais comuns. Relação médico-paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica com ênfase na interdisciplinaridade. Propedêutica e terapêutica das doenças prevalentes. Treinamento da prática médica sob supervisão. Promoção e proteção à saúde incluindo aspecto biopsicossocial e ambiental. Prevenção de riscos e agravos. Diagnóstico e tratamento das patologias de demanda em crianças, adultos, idosos e mulher em núcleo urbano diferente da área original de atuação. Saúde da Família. Exame ginecológico. Doenças mais prevalentes do trato genital feminino. Instrumentação dos principais procedimentos cirúrgicos em Ginecologia. Propiciar o atendimento na atenção integral da saúde da criança e do adolescente em suas diferentes fases do desenvolvimento. Desenvolvimento de conhecimentos, habilidades e atitudes para o atendimento na atenção primária em saúde. Trabalho em equipe interprofissional. NASF. Identificação de urgências e emergências, procedimentos de reanimação, indicação de UTI. Transtornos Psiquiátricos mais comuns – Prevenção, Diagnóstico e Tratamento. Classificações. Síndromes. Higiene mental. Psicopatologia forense. Psico-farmacoterapia. Relação médico-paciente. Aspectos éticos, morais, sociais e fisiopatológicos na prática médica. Possibilidades de prevenção do adoecer psíquico em suas três dimensões. Abordagem do paciente psiquiátrico e seus familiares.O estágio propicia ao aluno trabalhar na atenção integral da saúde da criança e do adolescente em suas diferentes fases do desenvolvimento. Promoção e proteção à saúde incluindo aspectos biopsicossocial e ambiental. Prevenção de riscos e agravos. Propedêutica e terapêutica das doenças prevalentes. Desenvolvimento de conhecimentos, habilidades e atitudes para o atendimento. Estimular o desenvolvimento pessoal de princípios éticos, humanístico e relacional com ênfase na interdisciplinaridade. Rol de Disciplinas Optativas Programa de Intercâmbio I"
+      "syllabus": "Rol de Disciplinas Optativas Programa de Intercâmbio I"
     },
     {
       "id": "DCM1002",
@@ -1515,12 +1631,16 @@
       "DCM1801",
       "DCM1802",
       "DCM1803",
-      "DCM1804"
+      "DCM1804",
+      "DCM1901",
+      "DCM1902",
+      "DCM1903",
+      "DCM1904"
     ],
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 72,
         "sources": [
           {
@@ -1537,16 +1657,35 @@
               "DFT1201",
               "DFT1305",
               "DFT1405",
-              "LSB7244",
+              "LSB7244"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "free-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 72
+          }
+        ]
+      },
+      {
+        "id": "complementary",
+        "name": "Atividades complementares",
+        "requiredHours": 162,
+        "sources": [
+          {
+            "id": "complementary-course",
+            "courseIds": [
               "DCM1000"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "complementary-manual",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 72
+            "maxHours": 162
           }
         ]
       }

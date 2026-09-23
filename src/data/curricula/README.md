@@ -1,7 +1,7 @@
 # Curricula Data Models
 
 ## Directory Purpose
-Contains official curriculum matrices and completion specifications extracted from CAGR reports for UFSC engineering programs.
+Contains official curriculum matrices and completion specifications extracted from CAGR reports for all 93 UFSC undergraduate programs across all 5 campuses.
 
 ## Architecture
 Each program directory (`automacao`, `civil`, `eletrica`, etc.) holds:

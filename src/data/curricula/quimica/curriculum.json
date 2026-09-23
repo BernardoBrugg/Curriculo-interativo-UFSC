@@ -2376,15 +2376,25 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "EQA5313"
+        "EQA5313",
+        "EQA5417"
       ],
       "equivalents": [
         "ENQ1425",
         "ENQ5425"
       ],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "EQA5313"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EQA5313"
+          },
+          {
+            "kind": "course",
+            "code": "EQA5417"
+          }
+        ]
       },
       "equivalentExpression": {
         "kind": "any",
@@ -2511,10 +2521,16 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EQA5214"
+      ],
       "equivalents": [
         "ENQ5550"
       ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EQA5214"
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "ENQ5550"
@@ -2529,8 +2545,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "QMC5229"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5229"
+      },
       "syllabus": "Polímeros. Mecanismos de polimerização. Caracterização dos polímeros. Processos de polimerização. Processos de transformação de polímeros. Reprocessamento e reciclagem de polímeros. Técnicas matemáticas para o cálculo das curvas de distribuição de peso molecular."
     },
     {

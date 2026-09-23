@@ -1,4 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "npm install --registry=https://registry.npmjs.org/"
+  "installCommand": "npm install --registry=https://registry.npmjs.org/",
+  "crons": [
+    {
+      "path": "/api/cron/monthly-report",
+      "schedule": "0 9 1 * *"
+    }
+  ]
 }

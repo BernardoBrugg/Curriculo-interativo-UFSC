@@ -1,5 +1,5 @@
 {
-  "program": "GEOGRAFIA",
+  "program": "Geografia",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2007.1",
   "totalHours": 4448,
@@ -1494,21 +1494,11 @@
       "type": "Op",
       "prerequisites": [],
       "equivalents": [
-        "GCN7104",
         "GCN7204"
       ],
       "equivalentExpression": {
-        "kind": "all",
-        "requirements": [
-          {
-            "kind": "course",
-            "code": "GCN7104"
-          },
-          {
-            "kind": "course",
-            "code": "GCN7204"
-          }
-        ]
+        "kind": "course",
+        "code": "GCN7204"
       },
       "syllabus": ""
     },
@@ -1546,21 +1536,11 @@
       "type": "Op",
       "prerequisites": [],
       "equivalents": [
-        "GCN7104",
         "GCN7204"
       ],
       "equivalentExpression": {
-        "kind": "all",
-        "requirements": [
-          {
-            "kind": "course",
-            "code": "GCN7104"
-          },
-          {
-            "kind": "course",
-            "code": "GCN7204"
-          }
-        ]
+        "kind": "course",
+        "code": "GCN7204"
       },
       "syllabus": ""
     },
@@ -1573,13 +1553,7 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [
-        "GCN7302"
-      ],
-      "equivalentExpression": {
-        "kind": "course",
-        "code": "GCN7302"
-      },
+      "equivalents": [],
       "syllabus": "Introduzir o problema das mudanças climáticas globais durante o passado geológico recente, e qualificar discente para a identificação, caracterização e utilização de registros quaternários continentais, visando interpretação paleoambiental e construção de cenários evolutivos do relevo do Sul do Brasil."
     },
     {
@@ -1718,17 +1692,12 @@
       "type": "Op",
       "prerequisites": [],
       "equivalents": [
-        "GCN7302",
         "GCN7403",
         "GCN7500"
       ],
       "equivalentExpression": {
         "kind": "all",
         "requirements": [
-          {
-            "kind": "course",
-            "code": "GCN7302"
-          },
           {
             "kind": "course",
             "code": "GCN7403"
@@ -1995,21 +1964,13 @@
       "MEN5602",
       "MEN7025",
       "MEN7026",
-      "MEN7027",
-      "GCN7400",
-      "GCN7603",
-      "GCN7604",
-      "GCN7700",
-      "GCN7702",
-      "GCN7703",
-      "GCN7802",
-      "GCN7803"
+      "MEN7027"
     ],
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
-        "requiredHours": 360,
+        "name": "Disciplinas optativas",
+        "requiredHours": 216,
         "sources": [
           {
             "id": "electives-catalogue",
@@ -2064,15 +2025,37 @@
               "GCN7943",
               "GCN7944",
               "GCN7945",
-              "MEN5107"
+              "MEN5107",
+              "GCN7400",
+              "GCN7603",
+              "GCN7604",
+              "GCN7700",
+              "GCN7702",
+              "GCN7703",
+              "GCN7802",
+              "GCN7803"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 72
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Atividades complementares",
+        "requiredHours": 252,
+        "sources": [
+          {
+            "id": "complementary-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 252,
+            "manualLabel": "Horas de atividades complementares"
           }
         ]
       }

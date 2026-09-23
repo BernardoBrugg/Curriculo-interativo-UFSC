@@ -1820,8 +1820,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5131"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5131"
+      },
       "syllabus": "A estrutura geofísica dos oceanos: a importância dinâmica da estratificação e da rotação; o efeito de Coriolis. Equações da continuidade e do movimento nos oceanos: conservação da massa e continuidade de volume; as equações de Navier-Stokes num sistema referencial não inercial. Elementos de análise de escalas: as aproximações do plano f, beta e tradicional; aproximação de Boussinesq. O movimento geostrófico: o número de Rossby; as equações da corrente geostrófica; componentes barotrópicas e baroclínicas das correntes geostróficas; a equação do vento térmico; pressão e geopotencial; o método dinâmico. Vorticidade: vorticidade relativa, planetária e conservação da vorticidade potencial. Teoria de Ekman: forças de atrito em um oceano turbulento; bombeamento de Ekman; ressurgência e subsidência. Modelos oceânicos de circulação: Modelos de Sverdrup, Stommel e Munk; a intensificação das correntes de contorno oeste. Circulação termohalina dos oceanos: circulação do oceano profundo; modelo de Stommel e Arons."
     },
     {
@@ -1856,8 +1862,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "QMC5517"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "QMC5517"
+      },
       "syllabus": "Modelos e a química; sólidos iônicos e metálicos; forças intermoleculares; estequiometria em solução aquosa; ácidos e bases; propriedades de soluções; introdução à termoquímica; eletroquímica; cinética química. Associação desses conteúdos com a história da química, implicações sociais da química e discussões ambientais."
     }
   ],

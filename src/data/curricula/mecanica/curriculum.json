@@ -1497,8 +1497,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMC5336"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5336"
+      },
       "syllabus": "Revisão de alguns aspectos básicos de sistemas hidráulicos oferecidos na disciplina de Fundamentos de Sistemas Hidráulicos e Pneumáticos -"
     },
     {

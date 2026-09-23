@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 import { mkdir, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { applicationDefault, getApps, initializeApp } from "firebase-admin/app";
@@ -46,7 +47,14 @@ async function main(): Promise<void> {
     return;
   }
 
-  if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) throw new Error("Defina GOOGLE_APPLICATION_CREDENTIALS apontando para a chave de serviço Firebase.");
+  if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
+    const defaultCredentialsPath = resolve(process.cwd(), "curriculo-interativo-ufsc-firebase-adminsdk-fbsvc-9afdca8573.json");
+    if (existsSync(defaultCredentialsPath)) {
+      process.env.GOOGLE_APPLICATION_CREDENTIALS = defaultCredentialsPath;
+    } else {
+      throw new Error("Defina GOOGLE_APPLICATION_CREDENTIALS apontando para a chave de serviço Firebase.");
+    }
+  }
   if (getApps().length === 0) initializeApp({ credential: applicationDefault() });
   const result = await runCurriculaSeed({ apply: true, payloads, adapter: firestoreAdapter(getFirestore()) });
   process.stdout.write(`Backup: ${result.backupPath}\nCurrículos publicados e verificados: ${result.documentCount}\n`);

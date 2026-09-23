@@ -1,5 +1,5 @@
 {
-  "program": "PEDAGOGIA",
+  "program": "Pedagogia",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2009.1",
   "totalHours": 4128,
@@ -1628,112 +1628,87 @@
         "hours": 16
       },
       "equivalentExpression": {
-        "kind": "any",
+        "kind": "all",
         "requirements": [
           {
-            "kind": "all",
-            "requirements": [
-              {
-                "kind": "course",
-                "code": "MEN2034"
-              },
-              {
-                "kind": "course",
-                "code": "MEN2035"
-              },
-              {
-                "kind": "course",
-                "code": "MEN2044"
-              },
-              {
-                "kind": "course",
-                "code": "MEN2054"
-              }
-            ]
+            "kind": "course",
+            "code": "MEN2034"
           },
           {
-            "kind": "all",
-            "requirements": [
-              {
-                "kind": "course",
-                "code": "MEN7112"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7121"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7130"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7131"
-              }
-            ]
+            "kind": "course",
+            "code": "MEN2035"
           },
           {
-            "kind": "all",
-            "requirements": [
-              {
-                "kind": "course",
-                "code": "MEN2044"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7112"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7121"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7131"
-              }
-            ]
+            "kind": "course",
+            "code": "MEN2044"
           },
           {
-            "kind": "all",
-            "requirements": [
-              {
-                "kind": "course",
-                "code": "MEN2035"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7121"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7130"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7131"
-              }
-            ]
+            "kind": "course",
+            "code": "MEN2054"
           },
           {
-            "kind": "all",
-            "requirements": [
-              {
-                "kind": "course",
-                "code": "MEN2034"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7112"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7130"
-              },
-              {
-                "kind": "course",
-                "code": "MEN7131"
-              }
-            ]
+            "kind": "course",
+            "code": "MEN7112"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7121"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7130"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7131"
+          },
+          {
+            "kind": "course",
+            "code": "MEN2044"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7112"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7121"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7131"
+          },
+          {
+            "kind": "course",
+            "code": "MEN2035"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7121"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7130"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7131"
+          },
+          {
+            "kind": "course",
+            "code": "MEN2034"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7112"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7130"
+          },
+          {
+            "kind": "course",
+            "code": "MEN7131"
           }
         ]
       },
@@ -1762,7 +1737,7 @@
         "hours": 16
       },
       "equivalentExpression": {
-        "kind": "any",
+        "kind": "all",
         "requirements": [
           {
             "kind": "course",
@@ -3219,7 +3194,13 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "MEN2043"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "MEN2043"
+      },
       "syllabus": "(PCC 9h-a) -Apropriação de conceitos, recursos didáticos e metodologias de ensino das áreas das ciências da natureza voltadas à infância. Educação Ambiental e suas intersecções com o Ensino de Ciências e a infância. Desenvolvimento de atividades práticas de ensino de ciências voltadas à infância."
     },
     {
@@ -3502,53 +3483,136 @@
       "MEN2061",
       "MEN2062",
       "MEN2063",
-      "MEN2064",
-      "MEN2065",
       "MEN2071",
       "MEN2072",
       "MEN2073",
       "EED2082",
       "MEN2081",
       "EED2091",
-      "LSB7244",
-      "EED2083",
-      "EED2084",
-      "EED2085",
-      "EED2086",
-      "EED2341",
-      "EED2342",
-      "EED7155",
-      "EED7156",
-      "EED7157",
-      "EED7158",
-      "EED7159",
-      "EED7170",
-      "EED7171",
-      "EED7172",
-      "EED7173",
-      "EED7174",
-      "EED7175",
-      "EED7176",
-      "EED7257",
-      "MEN2084",
-      "MEN2085",
-      "MEN7155",
-      "MEN7156",
-      "MEN7157",
-      "MEN7158",
-      "MEN7159",
-      "MEN7170",
-      "MEN7171",
-      "MEN7172",
-      "MEN7173",
-      "MEN7174",
-      "MEN7175",
-      "MEN7176",
-      "MEN7177",
-      "MEN7178",
-      "MEN7181"
+      "LSB7244"
     ],
-    "requirements": []
+    "requirements": [
+      {
+        "id": "nade-electives",
+        "name": "Disciplinas de aprofundamento (NADE)",
+        "requiredHours": 324,
+        "sources": [
+          {
+            "id": "nade-catalogue",
+            "courseIds": [
+              "ANT5309",
+              "EED2092",
+              "EED2093",
+              "EED2094",
+              "EED2095",
+              "EED2096",
+              "EED2097",
+              "EED5110",
+              "EED5116",
+              "EED5220",
+              "EED5221",
+              "EED5222",
+              "EED5224",
+              "EED5225",
+              "EED5226",
+              "EED5227",
+              "EED5228",
+              "EED5229",
+              "EED5306",
+              "EED5603",
+              "EED7145",
+              "EED7146",
+              "EED7147",
+              "EED7148",
+              "EED7149",
+              "LLV5622",
+              "MEN2091",
+              "MEN2092",
+              "MEN2093",
+              "MEN2094",
+              "MEN2095",
+              "MEN2096",
+              "MEN2097",
+              "MEN2099",
+              "MEN5102",
+              "MEN5104",
+              "MEN5105",
+              "MEN5107",
+              "MEN5108",
+              "MEN5141",
+              "MEN5910",
+              "MEN5912",
+              "MEN5913",
+              "MEN5914",
+              "AEC2001",
+              "AEC2002",
+              "AEC2003",
+              "AEC2005",
+              "AEC2006",
+              "MEN2064",
+              "MEN2065",
+              "EED2083",
+              "EED2084",
+              "EED2085",
+              "EED2086",
+              "EED2341",
+              "EED2342",
+              "EED7155",
+              "EED7156",
+              "EED7157",
+              "EED7158",
+              "EED7159",
+              "EED7170",
+              "EED7171",
+              "EED7172",
+              "EED7173",
+              "EED7174",
+              "EED7175",
+              "EED7176",
+              "EED7257",
+              "MEN2084",
+              "MEN2085",
+              "MEN7155",
+              "MEN7156",
+              "MEN7157",
+              "MEN7158",
+              "MEN7159",
+              "MEN7170",
+              "MEN7171",
+              "MEN7172",
+              "MEN7173",
+              "MEN7174",
+              "MEN7175",
+              "MEN7176",
+              "MEN7177",
+              "MEN7178",
+              "MEN7181"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "free-nade",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 108
+          }
+        ]
+      },
+      {
+        "id": "atca",
+        "name": "Atividades Técnico-Científicas e Artísticas",
+        "requiredHours": 240,
+        "sources": [
+          {
+            "id": "atca-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 240,
+            "manualLabel": "Horas de ATCA"
+          }
+        ]
+      }
+    ]
   },
   "source": {
     "kind": "official-cagr-report",

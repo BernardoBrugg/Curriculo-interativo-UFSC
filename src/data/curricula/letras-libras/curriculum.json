@@ -7,6 +7,38 @@
     {
       "number": 0,
       "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 2,
+      "name": "2ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 4,
+      "name": "4ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
     }
   ],
   "courses": [
@@ -16,7 +48,7 @@
       "name": "Fundamentos da Educação dos Surdos",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -28,7 +60,7 @@
       "name": "Tecnologias da Informação e EaD",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -71,7 +103,7 @@
       "name": "Libras Iniciante (PCC 36Horas)",
       "credits": 8,
       "hours": 144,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -88,7 +120,7 @@
       "name": "Conversação Intercultural",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -100,7 +132,7 @@
       "name": "Libras Pré-Intermediário ( PCC 36 Horas)",
       "credits": 12,
       "hours": 216,
-      "phase": 0,
+      "phase": 2,
       "type": "Ob",
       "prerequisites": [
         "LSB7106"
@@ -128,7 +160,7 @@
       "name": "Corporalidade e Escrita",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 2,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -161,7 +193,7 @@
       "name": "Fundamentos da Tradução e da Interpretação",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 2,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -214,7 +246,7 @@
       "name": "Libras Intermediário (PCC 36 Horas )",
       "credits": 8,
       "hours": 144,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [
         "LSB7020"
@@ -242,7 +274,7 @@
       "name": "Introdução aos Estudos Linguísticos",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -260,7 +292,7 @@
       "name": "Estudos da Tradução I",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [
         "LSB7022"
@@ -309,7 +341,7 @@
       "name": "Estudos da Interpretação I",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -342,7 +374,7 @@
       "name": "Libras Avançado (PCC 36 Horas)",
       "credits": 8,
       "hours": 144,
-      "phase": 0,
+      "phase": 4,
       "type": "Ob",
       "prerequisites": [
         "LSB7030"
@@ -370,7 +402,7 @@
       "name": "Estudos Linguísticos I",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 4,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -403,7 +435,7 @@
       "name": "Estudos da Tradução II",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 4,
       "type": "Ob",
       "prerequisites": [
         "LSB7022",
@@ -457,7 +489,7 @@
       "name": "Estudos da Interpretação II",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 4,
       "type": "Ob",
       "prerequisites": [
         "LSB7033"
@@ -491,7 +523,7 @@
       "name": "Libras Acadêmica (PCC 36 horas-aula)",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 5,
       "type": "Ob",
       "prerequisites": [
         "LSB7040"
@@ -519,7 +551,7 @@
       "name": "Escritas de Sinais I",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 5,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -552,7 +584,7 @@
       "name": "Estudos Linguísticos II",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 5,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -615,7 +647,7 @@
       "name": "Metodologia Científica",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 5,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -627,7 +659,7 @@
       "name": "Português I",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 5,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -645,7 +677,7 @@
       "name": "Laboratório em Interpretação I ( PCC 36",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 6,
       "type": "Ob",
       "prerequisites": [
         "LSB7043"
@@ -669,7 +701,7 @@
       "name": "Estudos Surdos I",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 6,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -681,7 +713,7 @@
       "name": "Escrita de Sinais II (PCC 36 horas-aula)",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 6,
       "type": "Ob",
       "prerequisites": [
         "LSB7051"
@@ -730,7 +762,7 @@
       "name": "Estudos Linguísticos III",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 6,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -798,7 +830,7 @@
       "name": "Português II",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 6,
       "type": "Ob",
       "prerequisites": [
         "LSB7054"
@@ -816,7 +848,7 @@
       "name": "Laboratório em Interpretação II ( PCC 36",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 7,
       "type": "Ob",
       "prerequisites": [
         "LSB7060"
@@ -840,7 +872,7 @@
       "name": "Literatura Surda I",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 7,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -873,7 +905,7 @@
       "name": "Prática de Tradução I",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 7,
       "type": "Ob",
       "prerequisites": [
         "LSB7022",
@@ -912,7 +944,7 @@
       "name": "Estudos Linguísticos IV",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 7,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -970,7 +1002,7 @@
       "name": "Português III",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 7,
       "type": "Ob",
       "prerequisites": [
         "LSB7065"
@@ -988,7 +1020,7 @@
       "name": "Laboratório em Interpretação III",
       "credits": 8,
       "hours": 144,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [
         "LSB7070"
@@ -1047,7 +1079,7 @@
       "name": "Literatura Surda II (PCC 36 horas-aula)",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -1064,7 +1096,7 @@
       "name": "Prática de Tradução II",
       "credits": 8,
       "hours": 144,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [
         "LSB7062",
@@ -1092,7 +1124,7 @@
       "name": "TCC (Trabalho de Conclusão de Curso)",
       "credits": 4,
       "hours": 72,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -1110,7 +1142,7 @@
       "name": "Estágio em Interpretação",
       "credits": 8,
       "hours": 144,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [
         "LSB7020",
@@ -1276,8 +1308,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
+      "prerequisites": [
+        "LSB7020"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LSB7020"
+      },
       "syllabus": "-Desenvolvimento do estágio supervisionado em tradução de Libras/Português em contextos institucionais."
     },
     {

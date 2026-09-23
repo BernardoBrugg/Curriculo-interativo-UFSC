@@ -1,5 +1,5 @@
 {
-  "program": "EDUCAÇÃO FÍSICA",
+  "program": "Educação Física",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2006.1",
   "totalHours": 3840,
@@ -1603,7 +1603,6 @@
       "DEF5829",
       "DEF5835",
       "DEF5843",
-      "DEF5844",
       "DEF5892",
       "MOR5219",
       "CFS5148",
@@ -1611,7 +1610,6 @@
       "DEF5830",
       "DEF5836",
       "DEF5845",
-      "DEF5846",
       "DEF5893",
       "DEF5894",
       "DEF5807",
@@ -1619,7 +1617,6 @@
       "DEF5837",
       "DEF5838",
       "DEF5847",
-      "DEF5848",
       "DEF5897",
       "DEF5898",
       "DEF5808",
@@ -1635,7 +1632,6 @@
       "DEF5823",
       "DEF5826",
       "DEF5849",
-      "DEF5850",
       "DEF5812",
       "DEF5817",
       "DEF5818",
@@ -1654,7 +1650,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 216,
         "sources": [
           {
@@ -1693,15 +1689,19 @@
               "DEF5900",
               "DEF5901",
               "DEF5903",
-              "DEF5910"
+              "DEF5910",
+              "DEF5844",
+              "DEF5846",
+              "DEF5848",
+              "DEF5850"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 72
           }
         ]
       }

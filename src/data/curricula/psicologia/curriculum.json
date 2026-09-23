@@ -1,5 +1,5 @@
 {
-  "program": "PSICOLOGIA",
+  "program": "Psicologia",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2010.1",
   "totalHours": 4896,
@@ -2983,8 +2983,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "PSI7605"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7605"
+      },
       "syllabus": "Grupos como recurso e modalidade de intervenção em Psicologia. Aplicação de Técnicas de Dinâmica de Grupo nos diferentes contextos de atuação do psicólogo. As Técnicas de Dinâmica de Grupo. O papel do coordenador de grupos. Cuidados éticos na utilização de Técnicas de Dinâmica de Grupo e no manejo grupal."
     },
     {
@@ -3019,8 +3025,20 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "PSI7401"
+      ],
+      "equivalents": [
+        "PSI5148"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "PSI7401"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5148"
+      },
       "syllabus": "Teorias psicológicas da vida adulta e do envelhecimento. Dinâmica familiar, vida adulta e envelhecimento. Saúde, qualidade de vida e envelhecimento. Políticas Públicas e a Pessoa Idosa no Brasil. Gênero, classe, etnia no envelhecimento. Intervenção do psicólogo junto à pessoa idosa, sua família e comunidade."
     },
     {
@@ -3032,7 +3050,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "PSI5411"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "PSI5411"
+      },
       "syllabus": "Orientação e de Carreira nas diferentes áreas: educação, saúde e trabalho. Aspectos teóricos e práticos."
     },
     {
@@ -3235,47 +3259,13 @@
       "PSI7808",
       "PSI7018",
       "PSI7013",
-      "PSI7014",
-      "PSI7015",
-      "PSI7016",
       "PSI7701",
-      "PSI7702",
-      "PSI7703",
-      "PSI7704",
-      "PSI7023",
-      "PSI7024",
-      "PSI7025",
-      "PSI7026",
-      "PSI7801",
-      "PSI7802",
-      "PSI7803",
-      "PSI7804",
-      "PSI7033",
-      "PSI7034",
-      "PSI7035",
-      "PSI7036",
-      "PSI7901",
-      "PSI7902",
-      "PSI7903",
-      "PSI7904",
-      "PSI7003",
-      "PSI7004",
-      "PSI7005",
-      "PSI7006",
-      "PSI7043",
-      "PSI7044",
-      "PSI7045",
-      "PSI7046",
-      "ANT7003",
-      "MEN5602",
-      "LSB7904",
-      "MEN5421",
-      "MEN5422"
+      "PSI7702"
     ],
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 792,
         "sources": [
           {
@@ -3392,15 +3382,63 @@
               "ANT7052",
               "EED5116",
               "EED7149",
-              "MEN5141"
+              "MEN5141",
+              "PSI7014",
+              "PSI7015",
+              "PSI7016",
+              "PSI7703",
+              "PSI7704",
+              "PSI7023",
+              "PSI7024",
+              "PSI7025",
+              "PSI7026",
+              "PSI7801",
+              "PSI7802",
+              "PSI7803",
+              "PSI7804",
+              "PSI7033",
+              "PSI7034",
+              "PSI7035",
+              "PSI7036",
+              "PSI7901",
+              "PSI7902",
+              "PSI7903",
+              "PSI7904",
+              "PSI7003",
+              "PSI7004",
+              "PSI7005",
+              "PSI7006",
+              "PSI7043",
+              "PSI7044",
+              "PSI7045",
+              "PSI7046",
+              "ANT7003",
+              "MEN5602",
+              "LSB7904",
+              "MEN5421",
+              "MEN5422"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 270
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Disciplinas complementares",
+        "requiredHours": 288,
+        "sources": [
+          {
+            "id": "complementary-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 288,
+            "manualLabel": "Horas complementares"
           }
         ]
       }

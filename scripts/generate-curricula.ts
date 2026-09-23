@@ -43,7 +43,12 @@ async function generate(source: ManifestSource, capturedAt: string, rulesMap: Ma
   const hash = createHash("sha256").update(pdf).digest("hex");
   if (hash !== source.sha256) throw new Error(`Hash divergente para ${baseName}.pdf`);
 
-  const courses = parseCagrCurriculum(text).courses;
+  const parserOption = definition.includeTypes ? { includeTypes: definition.includeTypes } : undefined;
+  let courses = parseCagrCurriculum(text, parserOption).courses;
+  if (definition.excludeCourses && definition.excludeCourses.length > 0) {
+    const excludeSet = new Set(definition.excludeCourses);
+    courses = courses.filter((course) => !excludeSet.has(course.code));
+  }
   const curriculum: CurriculumData = {
     program: definition.program,
     institution: "Universidade Federal de Santa Catarina",

@@ -1,5 +1,5 @@
 {
-  "program": "MEDICINA [Campus Curitibanos]",
+  "program": "Medicina",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2025.1",
   "totalHours": 8676,
@@ -885,7 +885,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 72,
         "sources": [
           {
@@ -896,14 +896,52 @@
               "BSU7902",
               "BSU7903",
               "BSU7904",
-              "LSB7244",
-              "BSU7908",
+              "LSB7244"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "free-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 72
+          }
+        ]
+      },
+      {
+        "id": "complementary",
+        "name": "Atividades complementares",
+        "requiredHours": 108,
+        "sources": [
+          {
+            "id": "complementary-course",
+            "courseIds": [
+              "BSU7908"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "complementary-manual",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 108
+          }
+        ]
+      },
+      {
+        "id": "extension",
+        "name": "Atividades de extensão",
+        "requiredHours": 72,
+        "sources": [
+          {
+            "id": "extension-course",
+            "courseIds": [
               "BSU7909"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "extension-manual",
             "courseIds": [],
             "allowsManualHours": true,
             "maxHours": 72

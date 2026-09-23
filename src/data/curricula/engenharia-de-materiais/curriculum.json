@@ -1,5 +1,5 @@
 {
-  "program": "ENGENHARIA DE MATERIAIS [Campus Blumenau]",
+  "program": "Engenharia de Materiais",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2023.1",
   "totalHours": 4320,
@@ -2107,7 +2107,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "BLU2028"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2028"
+      },
       "syllabus": "Elaboração e apresentação de um projeto de produto relacionado à Engenharia de Materiais. Complementar a prática e focar no desenvolvimento de um produto, processo ou serviço relacionado à Engenharia de Materiais. O objetivo é resolver um problema ambiental global ou local, produto inovador, resolução de um problema de engenharia da indústria."
     },
     {
@@ -2118,8 +2124,20 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "EMT2010"
+      ],
+      "equivalents": [
+        "BLU2022"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2010"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "BLU2022"
+      },
       "syllabus": "Introdução aos elastômeros. Tipos de elastômeros (naturais e sintéticos). Elastômeros termoplásticos. Vulcanização. Formulação de compostos elastoméricos (diferentes elastômeros, sistemas de aceleração, cargas, lubrificantes e plastificantes, protetores e outros aditivos). Processamento de elastômeros. Ensaios de interesse na indústria. Reciclagem de elastômeros."
     },
     {
@@ -2130,13 +2148,29 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [
-        "BLU2013"
+      "prerequisites": [
+        "EMT2010"
       ],
-      "equivalentExpression": {
+      "equivalents": [
+        "BLU2013",
+        "EMT2013"
+      ],
+      "prerequisiteExpression": {
         "kind": "course",
-        "code": "BLU2013"
+        "code": "EMT2010"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2013"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2013"
+          }
+        ]
       },
       "syllabus": "Introdução, importância e requisitos. Tipos de aditivos usados em materiais poliméricos: estabilizantes, plastificantes, lubrificantes, antiestáticos, retardantes de chama, pigmentos, agentes nucleantes, cargas de reforço e enchimento, espumantes, modificadores de impacto"
     },
@@ -2148,13 +2182,29 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [
-        "BLU2024"
+      "prerequisites": [
+        "DET6014"
       ],
-      "equivalentExpression": {
+      "equivalents": [
+        "BLU2024",
+        "EMT2024"
+      ],
+      "prerequisiteExpression": {
         "kind": "course",
-        "code": "BLU2024"
+        "code": "DET6014"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2024"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2024"
+          }
+        ]
       },
       "syllabus": "Conceitos fundamentais da reologia e definição dos parâmetros reológicos. Sólidos de Hooke e fluídos de Newton: comportamento ideal da matéria. Sólidos e fluidos reais: modelos reológicos. Reologia das suspensões de partículas sólidas. Propriedades das dispersões coloidais. Comportamento reológico das suspensões coloidais. Propriedades mecânicas dos materiais de engenharia sob o ponto de vista da reologia. Comportamento reológico dos polímeros. Viscosimetria e reometria"
     },
@@ -2166,13 +2216,29 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [
-        "BLU2019"
+      "prerequisites": [
+        "EMT2029"
       ],
-      "equivalentExpression": {
+      "equivalents": [
+        "BLU2019",
+        "EMT2019"
+      ],
+      "prerequisiteExpression": {
         "kind": "course",
-        "code": "BLU2019"
+        "code": "EMT2029"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2019"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2019"
+          }
+        ]
       },
       "syllabus": "Introdução aos processos de usinagem. Principais processos: torneamento, fresamento, retificação, furação, eletroerosão, processos especiais. Normas de usinagem. Mecanismos de formação de cavaco. Forças e potência de corte. Materiais de ferramentas. Desgaste, avarias e vida de ferramentas. Análise das condições econômicas de usinagem. Usinabilidade."
     },
@@ -2184,13 +2250,29 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [
-        "BLU2019"
+      "prerequisites": [
+        "EMT2029"
       ],
-      "equivalentExpression": {
+      "equivalents": [
+        "BLU2019",
+        "EMT2019"
+      ],
+      "prerequisiteExpression": {
         "kind": "course",
-        "code": "BLU2019"
+        "code": "EMT2029"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BLU2019"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2019"
+          }
+        ]
       },
       "syllabus": "Introdução à metalurgia de soldagem. Energia e calor adicionado. Ciclo térmico. Transformações na zona fundida termicamente afetada. Soldabilidade dos metais. Defeitos de soldagem: trincas a frio e a quente. Tensões e deformações em soldagem. Funções dos tratamentos aplicados em soldagem."
     },
@@ -2202,8 +2284,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMT2038"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2038"
+      },
       "syllabus": "Aplicações de Materiais Magnéticos Moles e Duros; Relação Microestrutura-Propriedades em Materiais Magnéticos; Rotas de Processamento de Materiais Magnéticos e Desenvolvimento Microestrutural."
     },
     {
@@ -2214,8 +2302,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMT2302"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2302"
+      },
       "syllabus": "Revisão termodinâmica referente ao ciclo de Carnot. Classificação e funcionamento das máquinas térmicas. Ciclo Otto, ciclo Diesel, motores 2 tempos, motor Wankel. Alimentação e sobrealimentação. Ciclo Rankine. Ciclo Brayton. Seminários."
     },
     {
@@ -2226,8 +2320,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMT2033"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2033"
+      },
       "syllabus": "Introdução aos Metais não-ferrosos. Metais não-ferrosos principais e suas ligas (cobre, níquel, cobalto). Metais leves principais e suas ligas (titânio, alumínio, magnésio). Metais nobres e suas ligas (ouro, prata, grupo da platina). Metais refratários e suas ligas (tungstênio, molibdênio, tântalo, nióbio); Metais de Baixo Ponto de Fusão e Suas ligas (zinco, chumbo, estanho)."
     },
     {
@@ -2238,8 +2338,24 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMT2010",
+        "EMT2015"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2010"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2015"
+          }
+        ]
+      },
       "syllabus": "Conceitos básicos, classificação, estrutura, propriedade, aplicação dos biomateriais e possíveis reações teciduais. Comportamento da Interface Biomaterial/Osso/Tecido. Ciência dos Materiais aplicada ao Desenvolvimento dos Biomateriais: Materiais Metálicos; Materiais Cerâmicos; Materiais Poliméricos; Biomateriais híbridos orgânicoinorgânicos; Tratamentos Superficiais em Biomateriais"
     },
     {
@@ -2250,8 +2366,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMT2041"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2041"
+      },
       "syllabus": "Cor em sólidos; Fisiologia da cor; Sistemas colorimétricos e Diferença de cor; Equipamentos de medida de cor e brilho; Espectrofotometria UV-Vis; Formulação de Cor; Metamerismo; Pigmentos e materiais colorantes."
     },
     {
@@ -2262,8 +2384,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMT2015"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2015"
+      },
       "syllabus": "Aplicadas à Indústria Introdução geral às cerâmicas refratárias. Materiais refratários: Classificação, matérias-primas, técnicas de fabricação, ensaios e características, principais produtos e campos de aplicação"
     },
     {
@@ -2274,8 +2402,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMT2015"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2015"
+      },
       "syllabus": "Mecanismos de condução de cargas elétricas. Defeitos em cristais. Condução eletrônica e iônica. Materiais cerâmicos condutores iônicos e eletrônicos. Aplicações de condutores iônicos e eletrônicos. Materiais cerâmicos semicondutores e aplicações. Materiais cerâmicos isolantes elétricos. Materiais cerâmicos dielétricos. Aplicações de materiais dielétricos."
     },
     {
@@ -2286,8 +2420,24 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMT2033",
+        "EMT2302"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMT2033"
+          },
+          {
+            "kind": "course",
+            "code": "EMT2302"
+          }
+        ]
+      },
       "syllabus": "Introdução Geral à Metalurgia; Introdução Geral às Operações de Metalurgia dos Não-Ferrosos; Introdução Geral às Operações de Siderurgia; Introdução Geral à Eletrometalurgia; Introdução Geral à Hidrometalurgia; Introdução Geral à Pirometalurgia; Introdução Geral às Operações de Redução; Introdução Geral às Operações de Oxidação; Introdução Geral às Operações de Refino; Considerações Gerais sobre Escórias; Considerações Gerais sobre Novos Processos de Metalurgia Extrativa; Considerações Gerais sobre Questões Ambientais na Metalurgia Extrativa; Considerações sobre Refratários em Metalurgia Extrativa."
     },
     {
@@ -2298,8 +2448,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMT2302"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2302"
+      },
       "syllabus": "Introdução a Elementos de Mineralogia e de Petrografia; Introdução aos Principais Minerais-Minérios (Óxidos, Sulfetos, Carbonatos, Argilominerias, Silicatos); Introdução aos Tratamentos de Minérios (Operações de Cominuição; Operações de Classificação; Operações de Concentração); Carvão Mineral e Coque Metalúrgico; Carvão Vegetal; Processos de Aglomeração de Minérios (Sinterização de Minério, Pelotização, Briquetagem)."
     },
     {
@@ -2310,8 +2466,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMT2011"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2011"
+      },
       "syllabus": "para Engenharia de Materiais EMT2502) Síntese e classificação de polímeros biodegradáveis; estrutura e propriedades dos polímeros biodegradáveis; processamento de polímeros biodegradáveis; aplicações; nanotecnologia e polímeros biodegradáveis; blendas e compósitos à base de polímeros biodegradáveis; mecanismos e ensaios de biodegradação."
     },
     {
@@ -2322,8 +2484,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMT2010"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMT2010"
+      },
       "syllabus": "Estudo dos fundamentos e aplicações da manufatura aditiva (impressão 3D) com foco em materiais poliméricos. Modelamento e fatiamento de peças. Técnicas de impressão 3D com polímeros (Modelagem por Fusão e Deposição, Estereolitografia, Sinterização Seletiva a Laser, entre outras). Polímeros para manufatura aditiva. Manufatura aditiva de compósitos poliméricos. Processamento, parâmetros de impressão e pós-processamento. Avaliação de desempenho e caracterização dos produtos fabricados."
     },
     {
@@ -2334,8 +2502,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "CAC6002"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CAC6002"
+      },
       "syllabus": "Princípios fundamentais. Tensões de trabalho. Parafusos e rebites. Soldagem. Eixos e acoplamentos. Correias, embreagens e freios. Lubrificação. Rolamentos. Engrenagens cônicas, sem fim e helicoidais. Elementos de máquinas diversos"
     },
     {
@@ -2514,7 +2688,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 144,
         "sources": [
           {
@@ -2548,17 +2722,56 @@
               "EMT2070",
               "EMT3034",
               "EMT3035",
-              "MAT4741",
-              "EMT3003",
-              "EMT3004"
+              "MAT4741"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
             "maxHours": 144
+          }
+        ]
+      },
+      {
+        "id": "complementary",
+        "name": "Atividades complementares",
+        "requiredHours": 90,
+        "sources": [
+          {
+            "id": "complementary-course",
+            "courseIds": [
+              "EMT3003"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "complementary-manual",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 90
+          }
+        ]
+      },
+      {
+        "id": "extension",
+        "name": "Atividades de extensão",
+        "requiredHours": 126,
+        "sources": [
+          {
+            "id": "extension-courses",
+            "courseIds": [
+              "EMT3004"
+            ],
+            "allowsManualHours": false,
+            "maxHours": 126
+          },
+          {
+            "id": "extension-manual",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 126
           }
         ]
       }

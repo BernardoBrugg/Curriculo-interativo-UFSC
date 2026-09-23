@@ -1,5 +1,5 @@
 {
-  "program": "Letras, habilitação em Língua Portuguesa e Literaturas de Língua Portuguesa",
+  "program": "Letras - Língua Portuguesa",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2007.1",
   "totalHours": 3852,
@@ -948,8 +948,20 @@
       "hours": 72,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "LLV7201"
+      ],
+      "equivalents": [
+        "LLV7502"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7502"
+      },
       "syllabus": "A historiografia e os seus mecanismos de inclusão; a crítica como instância legitimadora; instituições literárias e os processos de consagração; memória e políticas culturais; história da literatura e história das mentalidades: o desafio da longa duração; história da literatura e o construtivismo radical; mapeamento de invisibilidades. Reflexões sobre a prática pedagógica no ensino fundamental e médio."
     },
     {
@@ -960,8 +972,20 @@
       "hours": 72,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "LLV7201"
+      ],
+      "equivalents": [
+        "LLV7503"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLV7201"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7503"
+      },
       "syllabus": "Literatura/Invisibilidades (PCC 8h-a) LLV7301 eh A presença da natureza na lírica amorosa. A tensão campo e cidade. O processo de modernização e a emergência da cidade moderna no século XIX. A cena bucólica e os temas urbanos na poesia. O campo e o sertão como espaços de conflito. O surgimento do romance urbano. Poéticas urbanas. Novas cartografias na cidade pós-moderna. Reflexões sobre a prática pedagógica."
     },
     {
@@ -2050,7 +2074,23 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV5661",
+        "LLV7623"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5661"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7623"
+          }
+        ]
+      },
       "syllabus": "Introdução à morfologia gerativa: derivação."
     },
     {
@@ -2062,7 +2102,23 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV5662",
+        "LLV7624"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5662"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7624"
+          }
+        ]
+      },
       "syllabus": "Introdução à morfologia gerativa: flexão."
     },
     {
@@ -2074,7 +2130,23 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV5641",
+        "LLV7625"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5641"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7625"
+          }
+        ]
+      },
       "syllabus": "Introdução à semântica formal no estudo das línguas naturais."
     },
     {
@@ -2086,7 +2158,23 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV5642",
+        "LLV7626"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5642"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7626"
+          }
+        ]
+      },
       "syllabus": "Descrição e análise de um fenômeno específico dentro do quadro formal de análise das línguas naturais."
     },
     {
@@ -2098,7 +2186,23 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV5606",
+        "LLV7627"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5606"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7627"
+          }
+        ]
+      },
       "syllabus": "Métodos em aquisição da linguagem."
     },
     {
@@ -2110,7 +2214,23 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV5616",
+        "LLV7628"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5616"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7628"
+          }
+        ]
+      },
       "syllabus": "Questões específicas sobre a aquisição do Português Brasileiro, comparativamente a outras línguas."
     },
     {
@@ -2122,7 +2242,13 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV5111"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV5111"
+      },
       "syllabus": "Experiência com atuação em sala de aula."
     },
     {
@@ -2134,7 +2260,23 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV5854",
+        "LLV7630"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5854"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7630"
+          }
+        ]
+      },
       "syllabus": "Portuguesa (PCC 72h-a) LLV7629) Estudo aprofundado do sistema verbal e nominal latino. Prática de leitura e tradução dos clássicos. Verbos: formas nominais; subjuntivo; voz passiva. Usos específicos dos casos. Pronomes e conjunções. Subsistência de traços latinos no português."
     },
     {
@@ -2146,7 +2288,23 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV5855",
+        "LLV7631"
+      ],
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLV5855"
+          },
+          {
+            "kind": "course",
+            "code": "LLV7631"
+          }
+        ]
+      },
       "syllabus": "Sintaxe das orações consecutivas, finais, infinitivas, comparativas, imperativas (subjuntivas), completivas, condicionais. Verbos impessoais; gerundivos. Números cardinais. Subsistência de traços latinos no português."
     },
     {
@@ -2158,7 +2316,13 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV7632"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7632"
+      },
       "syllabus": ""
     },
     {
@@ -2170,7 +2334,13 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV7633"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7633"
+      },
       "syllabus": "Introdução à semântica formal no estudo das línguas naturais."
     },
     {
@@ -2182,7 +2352,13 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV7634"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7634"
+      },
       "syllabus": ""
     },
     {
@@ -2194,10 +2370,16 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV7637"
+      ],
       "prerequisiteExpression": {
         "kind": "hours",
         "hours": 1000
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7637"
       },
       "prerequisiteHours": 1000,
       "syllabus": ""
@@ -2211,7 +2393,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "LLV7638"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "LLV7638"
+      },
       "syllabus": "Literatura Sentenças interrogativas e relativas. Foco. Tópico. A periferia esquerda da sentença. Subordinação. Coordenação."
     },
     {
@@ -2638,17 +2826,12 @@
         "kind": "all",
         "requirements": [
           {
-            "kind": "any",
-            "requirements": [
-              {
-                "kind": "course",
-                "code": "LLV7401"
-              },
-              {
-                "kind": "course",
-                "code": "LLV8005"
-              }
-            ]
+            "kind": "course",
+            "code": "LLV7401"
+          },
+          {
+            "kind": "course",
+            "code": "LLV8005"
           },
           {
             "kind": "hours",
@@ -2689,7 +2872,7 @@
         "LLV7718"
       ],
       "prerequisiteExpression": {
-        "kind": "any",
+        "kind": "all",
         "requirements": [
           {
             "kind": "course",
@@ -2757,7 +2940,7 @@
         "LLV7720"
       ],
       "prerequisiteExpression": {
-        "kind": "any",
+        "kind": "all",
         "requirements": [
           {
             "kind": "course",
@@ -2801,7 +2984,7 @@
         "LLV7721"
       ],
       "prerequisiteExpression": {
-        "kind": "any",
+        "kind": "all",
         "requirements": [
           {
             "kind": "course",
@@ -2844,7 +3027,7 @@
         "LLV7722"
       ],
       "prerequisiteExpression": {
-        "kind": "any",
+        "kind": "all",
         "requirements": [
           {
             "kind": "course",
@@ -4375,72 +4558,13 @@
       "LLV8063",
       "LLV8064",
       "LLV8065",
-      "LLV8066",
-      "LLV8067",
-      "LLV8068",
-      "LLV8069",
-      "LLV8070",
-      "LLV8071",
-      "LLV8072",
-      "LLV8073",
-      "LLV8074",
-      "LLV8075",
-      "LLV8076",
-      "LLV8077",
-      "LLV8078",
-      "LLV8079",
-      "LLV8080",
-      "LLV8081",
-      "LLV8082",
-      "LLV8083",
-      "LLV8084",
-      "LLV8085",
-      "LLV8086",
-      "LLV8087",
-      "LLV8088",
-      "LLV8089",
-      "LLV8090",
-      "LLV8092",
-      "LLV8096",
-      "LLV8128",
-      "LLV8130",
-      "LLV8025",
-      "LLV8026",
-      "LLV8027",
-      "LLV8028",
-      "LLV8029",
-      "LLV8030",
-      "LLV8031",
-      "LLV8032",
-      "LLV8033",
-      "PSI5137",
-      "EED5187",
-      "LLV8034",
-      "LLV8035",
-      "LLV8036",
-      "LLV8037",
-      "LLV8038",
-      "LLV8039",
-      "LLV8131",
-      "MEN5604",
-      "LLV8041",
-      "LLV8042",
-      "LLV8043",
-      "LLV8044",
-      "LLV8045",
-      "LLV8046",
-      "MEN7000",
-      "LSB7244",
-      "MEN7001",
-      "MEN7002",
-      "LLV8047",
-      "LLV8048"
+      "LLV8066"
     ],
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
-        "requiredHours": 198,
+        "name": "Disciplinas optativas",
+        "requiredHours": 216,
         "sources": [
           {
             "id": "electives-catalogue",
@@ -4485,15 +4609,74 @@
               "LLV8129",
               "LTR5009",
               "LTR5010",
-              "MEN7100"
+              "MEN7100",
+              "LLV8067",
+              "LLV8068",
+              "LLV8069",
+              "LLV8070",
+              "LLV8071",
+              "LLV8072",
+              "LLV8073",
+              "LLV8074",
+              "LLV8075",
+              "LLV8076",
+              "LLV8077",
+              "LLV8078",
+              "LLV8079",
+              "LLV8080",
+              "LLV8081",
+              "LLV8082",
+              "LLV8083",
+              "LLV8084",
+              "LLV8085",
+              "LLV8086",
+              "LLV8087",
+              "LLV8088",
+              "LLV8089",
+              "LLV8090",
+              "LLV8092",
+              "LLV8096",
+              "LLV8128",
+              "LLV8130",
+              "LLV8025",
+              "LLV8026",
+              "LLV8027",
+              "LLV8028",
+              "LLV8029",
+              "LLV8030",
+              "LLV8031",
+              "LLV8032",
+              "LLV8033",
+              "PSI5137",
+              "EED5187",
+              "LLV8034",
+              "LLV8035",
+              "LLV8036",
+              "LLV8037",
+              "LLV8038",
+              "LLV8039",
+              "LLV8131",
+              "MEN5604",
+              "LLV8041",
+              "LLV8042",
+              "LLV8043",
+              "LLV8044",
+              "LLV8045",
+              "LLV8046",
+              "MEN7000",
+              "LSB7244",
+              "MEN7001",
+              "MEN7002",
+              "LLV8047",
+              "LLV8048"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 216
           }
         ]
       }

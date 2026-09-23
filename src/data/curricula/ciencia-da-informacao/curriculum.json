@@ -1,5 +1,5 @@
 {
-  "program": "CIÊNCIA DA INFORMAÇÃO",
+  "program": "Ciência da Informação",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2026.1",
   "totalHours": 2880,
@@ -994,7 +994,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 414,
         "sources": [
           {
@@ -1036,10 +1036,24 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 108
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Atividades complementares e extensão",
+        "requiredHours": 268,
+        "sources": [
+          {
+            "id": "complementary-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 268,
+            "manualLabel": "Horas de atividades complementares e extensão"
           }
         ]
       }

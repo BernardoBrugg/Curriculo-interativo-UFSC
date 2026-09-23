@@ -1,5 +1,5 @@
 {
-  "program": "HISTÓRIA",
+  "program": "História",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2007.1",
   "totalHours": 3384,
@@ -2735,7 +2735,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 288,
         "sources": [
           {
@@ -2888,10 +2888,38 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 72
+          }
+        ]
+      },
+      {
+        "id": "free-electives",
+        "name": "Disciplinas optativas fora do curso",
+        "requiredHours": 120,
+        "sources": [
+          {
+            "id": "free-electives-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 120,
+            "manualLabel": "Horas de disciplinas fora do curso"
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Atividades complementares",
+        "requiredHours": 240,
+        "sources": [
+          {
+            "id": "complementary-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 240,
+            "manualLabel": "Horas de atividades complementares"
           }
         ]
       }

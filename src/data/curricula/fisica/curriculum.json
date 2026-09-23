@@ -1137,8 +1137,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5118"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5118"
+      },
       "syllabus": "Elaboração de Projeto de Extensão. Aplicação do projeto na forma de uma Unidade de Ensino de Física (Projeto Temático) em turmas piloto da comunidade. Elaboração de instrumentos para acompanhamento e avaliação da Unidade de Ensino com objetivos de reformulação. Seminários de apresentação de resultados"
     },
     {
@@ -1149,8 +1155,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC2312"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2312"
+      },
       "syllabus": "(Ext 72h-a) Semicondutores orgânicos e sistemas eletrônicos orgânicos. Fotofísica de moléculas eletrônicas. Filmes finos orgânicos. Dispositivos eletrônicos orgânicos. Atividade prática em laboratório de pesquisa."
     },
     {
@@ -1161,8 +1173,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC2193"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2193"
+      },
       "syllabus": "O processo de ensino aprendizagem da Física. O papel e a influência das concepções alternativas, história da Física, transposição didática e modelização no ensino de Física. As relações CTS e o ensino de Física. Retrospectiva histórica do ensino de Física no Brasil. O estudo dos projetos de ensino de Física (nacionais e estrangeiros) da década de 60 (PSSC, Harvard, Nuffiel, Piloto, FAI, PEF, PBEF) e suas influências no ensino de Física no Brasil."
     },
     {
@@ -1191,8 +1209,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5151"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5151"
+      },
       "syllabus": "(PCC 72h/a) FSC5506) Desenvolvimento e realização de experimentos sobre tópicos avançados de Física atômica, molecular e nuclear."
     },
     {
@@ -1203,11 +1227,22 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5165"
+      ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "hours",
-        "hours": 54
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5165"
+          },
+          {
+            "kind": "hours",
+            "hours": 54
+          }
+        ]
       },
       "prerequisiteHours": 54,
       "syllabus": "Elaboração e apresentação, pelos alunos, de módulos de ensino envolvendo conceitos tratados nas disciplinas Física Geral I-A (FSC 5107), Física Geral II-A (FSC 5165) e Física Geral II-B (FSC 5166). Nestes módulos os mesmos devem procurar utilizar experimentos ou demonstrações experimentais."
@@ -1256,14 +1291,48 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC2312"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2312"
+      },
       "syllabus": "36 horas - aula) FSC5539) Histórico. Referenciais inerciais. Postulados da teoria da relatividade. Cinemática e dinâmica relativistas. Teoria da relatividade e o eletromagnetismo."
     },
     {
       "id": "FSC5291",
       "code": "FSC5291",
       "name": "Relatividade Geral",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC2312",
+        "FSC5218"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC2312"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5218"
+          }
+        ]
+      },
+      "syllabus": "Conceitos fundamentais da teoria da relatividade geral; tópicos de matemática aplicada à relatividade geral; aplicações de relatividade geral na Física, Astrofísica e Cosmologia."
+    },
+    {
+      "id": "FSC5514",
+      "code": "FSC5514",
+      "name": "Mecânica Ondulatória",
       "credits": 4,
       "hours": 72,
       "phase": 0,
@@ -1276,18 +1345,6 @@
         "kind": "course",
         "code": "FSC2312"
       },
-      "syllabus": "Conceitos fundamentais da teoria da relatividade geral; tópicos de matemática aplicada à relatividade geral; aplicações de relatividade geral na Física, Astrofísica e Cosmologia."
-    },
-    {
-      "id": "FSC5514",
-      "code": "FSC5514",
-      "name": "Mecânica Ondulatória",
-      "credits": 4,
-      "hours": 72,
-      "phase": 0,
-      "type": "Op",
-      "prerequisites": [],
-      "equivalents": [],
       "syllabus": "Linearidade e princípios de superposição; pulsos; equação de onda; análise de Fourier; relação de dispersão; oscilação forçada e ressonância com muitos graus de liberdade; índice de refração, reflexão, difração e polarização; ondas moduladas; pacotes de ondas em duas e três dimensões; aplicação a ondas eletromagnéticas; Ondas mecânicas e ondas de Broglie."
     },
     {
@@ -1311,12 +1368,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "FSC5166"
+        "FSC5166",
+        "MTM3103"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "FSC5166"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5166"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3103"
+          }
+        ]
       },
       "syllabus": "Fluidos e tensões. Fluidos estáticos. Fluxos de energia e momento. Escoamento potencial. Ondas sonoras. Ondas na superfície de fluidos. Escoamentos laminares. Vórtices e Turbulência. Noções de fluidos complexos. Aplicações."
     },
@@ -1324,18 +1391,6 @@
       "id": "FSC5530",
       "code": "FSC5530",
       "name": "Caos em Sistemas Dinâmicos",
-      "credits": 4,
-      "hours": 72,
-      "phase": 0,
-      "type": "Op",
-      "prerequisites": [],
-      "equivalents": [],
-      "syllabus": "Estuda-se o aparecimento de caos determinístico em sistemas dinâmicos definidos por mapas, equações diferenciais ordinárias não-lineares e equações diferenciais parciais. Discutem-se vários critérios para caracterizar-se caos numa série temporal genérica. Estudam-se ainda várias rotas para o caos, com especial ênfase na rota por dobramento do período (cascata de Feingenbaum)."
-    },
-    {
-      "id": "FSC5531",
-      "code": "FSC5531",
-      "name": "Introdução a Física das Nanoestruturas",
       "credits": 4,
       "hours": 72,
       "phase": 0,
@@ -1348,6 +1403,34 @@
         "kind": "course",
         "code": "FSC5218"
       },
+      "syllabus": "Estuda-se o aparecimento de caos determinístico em sistemas dinâmicos definidos por mapas, equações diferenciais ordinárias não-lineares e equações diferenciais parciais. Discutem-se vários critérios para caracterizar-se caos numa série temporal genérica. Estudam-se ainda várias rotas para o caos, com especial ênfase na rota por dobramento do período (cascata de Feingenbaum)."
+    },
+    {
+      "id": "FSC5531",
+      "code": "FSC5531",
+      "name": "Introdução a Física das Nanoestruturas",
+      "credits": 4,
+      "hours": 72,
+      "phase": 0,
+      "type": "Op",
+      "prerequisites": [
+        "FSC5218",
+        "FSC5506"
+      ],
+      "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5218"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5506"
+          }
+        ]
+      },
       "syllabus": "Nanoestruturas, aplicações, diferentes tipos, preparação, caracterização e descrição teórica."
     },
     {
@@ -1358,8 +1441,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5506"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5506"
+      },
       "syllabus": "Experimento de Stern-Gerlach. Spin. Átomo de hélio. Introdução à estatística quântica. Teoria do campo medio. Átomos multieletrônicos. Moléculas, espectro rotacional, vibracional e eletrônico."
     },
     {
@@ -1370,8 +1459,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5539"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5539"
+      },
       "syllabus": "Aplicações das estatísticas quânticas. Física do estado sólido. Física nuclear e de partículas elementares."
     },
     {
@@ -1383,12 +1478,27 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "FSC5219"
+        "FSC5219",
+        "FSC5290",
+        "FSC5511"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "FSC5219"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5219"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5290"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5511"
+          }
+        ]
       },
       "syllabus": "Grupos de Lorentz e Poincaré e as equações de onda relativísticas. Formalismo Lagrangiano para campos. Quantização canônica. Teorias de gauge não-Abelianas e a cromodinâmica. Quebra espontânea de simetrias globais e o teorema de Goldstone. Mecanismo de Higgs. Teoria de Weinberg-Salam e Teorias de Grande Unificação. Soluções topológicas em diferentes dimensões"
     },
@@ -1400,8 +1510,14 @@
       "hours": 108,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC2312"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2312"
+      },
       "syllabus": "Radiação eletromagnética. Telescópios e detetores. O sol e o sistema solar. Estrelas: magnitude, brilho, espectro e classificação. Estrelas binárias, variáveis e explosivas. Objetos compactos: anãs-brancas, estrelas de neutrons e buracos negros. Aglomerados estelares. Evolução estelar. Desenvolvimento e realização de práticas computacionais e observacionais sobre técnicas de observação e análise de dados astrônomicos e tópicos de astrofísica estelar."
     },
     {
@@ -1412,8 +1528,14 @@
       "hours": 108,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5803"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5803"
+      },
       "syllabus": "A galáxia: componentes e evolução. Meio interestelar. Evolução da galáxia. Outras galáxias. Galáxias ativas e quasares. Estrutura do universo. Cosmologia. Desenvolvimento e realização de práticas computacionais e observacionais sobre tópicos de astrofísica galáctica, extragaláctica e cosmologia."
     },
     {
@@ -1425,12 +1547,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "FSC2312"
+        "FSC2312",
+        "FSC5218"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "FSC2312"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC2312"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5218"
+          }
+        ]
       },
       "syllabus": "Projeto de Pesquisa"
     },
@@ -1442,8 +1574,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC2312"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2312"
+      },
       "syllabus": "Seminário de Física"
     },
     {
@@ -1454,8 +1592,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC2193"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2193"
+      },
       "syllabus": "A relatividade na cosmologia galileana. A relatividade e o espaço absoluto de Newton. Os fenômenos ópticos, o éter e a detecção de movimentos absolutos. O éter eletromagnético e a Física dos corpos em movimento. O princípio de relatividade nos programas de pesquisa de Poincaré, Lorentz e Einstein."
     },
     {
@@ -1466,8 +1610,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5506"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5506"
+      },
       "syllabus": "O conceito de simetria e a teoria de grupos em Física. O cálculo de Feynman. Teorias de calibre para as interações fundamentais. Eletrodinâmica Quântica. Cromodinâmica Quântica. Teoria Eletrofaca de Weinberg-Salam. Unificação das teorias fundamentais."
     },
     {
@@ -1478,8 +1628,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC2193"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2193"
+      },
       "syllabus": "Introdução à interação da radiação com matéria, à Física da formação de imagens em diagnóstico médico (radiologia, tomografia, medicina nuclear, ultrassonografia, ressonância magnética) e à Física da radioterapia (teleterapia, braquiterapia e medicina nuclear). Introdução à proteção radiológica e legislação pertinente."
     },
     {
@@ -1520,8 +1676,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC2193"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2193"
+      },
       "syllabus": "Introdução ao uso de computadores na solução de problemas em Física. Aplicação a problemas encontrados pelos alunos no curso de Física. Desenvolvimento de algorítimos e programas."
     },
     {
@@ -1532,8 +1694,24 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5166",
+        "MTM3104"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5166"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3104"
+          }
+        ]
+      },
       "syllabus": "Escoamentos invíscidos, Equação de Navier-Stokes, Ondas, Instabilidades e Turbulência."
     },
     {
@@ -1544,8 +1722,39 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC7114",
+        "MTM3102",
+        "MTM3103",
+        "MTM3131"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC7114"
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3103"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3131"
+              }
+            ]
+          }
+        ]
+      },
       "syllabus": "Introdução à análise geométrica de equações diferenciais ordinárias não-lineares de tempo contínuo e equações de tempo discreto com aplicações em física, biologia, química, engenharia e meteorologia, com prática computacional e teórica. Espaço de fase e soluções assintóticas, pontos fixos, ciclos-limites, estabilidade e diagramas de bifurcação. Introdução ao caos, atratores estranhos, fractais e quasiperiodicidade."
     },
     {
@@ -1556,8 +1765,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC2193"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2193"
+      },
       "syllabus": "Definições e unidades, Origem do magnetismo nos materiais, Anisotropia magnética, Domínios magnéticos, Paredes de domínio, Processos reversíveis de magnetização, Materiais magnéticos duros e macios, métodos experimentais de medida e aplicações."
     },
     {
@@ -1616,8 +1831,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC2193"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC2193"
+      },
       "syllabus": "Constituição da atmosfera; Tempo e Clima; Energia e Radiação eletromagnética; Transformação e transferência de energia; Propriedades emissivas dos corpos negros; As leis da radiação; Interações da radiação com a matéria; Espalhamento radiativo. Radiação solar, Natureza e distribuição espectral, geográfica e sazonal da radiação solar; Esmaecimento e disposição média da radiação solar. Radiação terrestre; Características, absorção e transmissão da radiação terrestre. O balanço médio da energia."
     },
     {
@@ -1628,8 +1849,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5131"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "FSC5131"
+      },
       "syllabus": "Equilíbrio Hidrostático; Variáveis Úmidas e Processos Adiabáticos; Diagramas Termodinâmicos; Uso Prático dos Diagramas Termodinâmicos; Estabilidade Vertical da Atmosfera; Nuvens e Precipitação; Ótica Atmosférica, Eletricidade Atmosférica."
     },
     {
@@ -1640,8 +1867,24 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5131",
+        "FSC5705"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5131"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5705"
+          }
+        ]
+      },
       "syllabus": "Revisão de termodinâmica. Introdução à mecânica estatística. Método de Monte Carlo. Algoritmo de Metropolis. Modelo de Ising. Outros Algoritmos. Dinâmica molecular clássica. Potencial de Lennard-Jones. Outros ensembles."
     },
     {
@@ -1652,8 +1895,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "MTM3121"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3121"
+      },
       "syllabus": "Álgebra linear com a notação de Dirac. Postulados da Mecânica Quântica. Conceitos básicos de computação clássica. Portas lógicas clássicas. Portas lógicas quânticas. Circuitos quânticos. Protocolos e algoritmos quânticos."
     },
     {
@@ -1664,8 +1913,24 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "FSC5511",
+        "FSC5539"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5511"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5539"
+          }
+        ]
+      },
       "syllabus": "Formalismo grã-canônico e aplicações, formulação covariante relativística, apresentação e solução das equações de Klein-Gordon, Dirac, Maxwell, Proca e Rarita-Schwinger, modelo da hadrodinâmica quântica e aplicações."
     },
     {
@@ -1676,8 +1941,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "MTM3120"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3120"
+      },
       "syllabus": "Teoria da probabilidade. Variáveis aleatórias e distribuição de probabilidade. Principais distribuições de probabilidade discretas. Distribuição normal. Outras distribuições de probabilidade contínuas. Estimação de parâmetros. Testes de hipóteses."
     },
     {
@@ -1909,8 +2180,14 @@
       "hours": 108,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "MTM3120"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3120"
+      },
       "syllabus": "Formulação de problemas de otimização irrestritos e restritos. Condições necessárias de otimalidade para problemas irrestritos. Métodos de busca unidirecional, algoritmos básicos de otimização não linear irrestrita. Condições de otimalidade para problemas não lineares com restrições lineares. Problema de programação linear, método simplex, teoria de dualidade e análise de sensibilidade. Algoritmos de pontos interiores."
     },
     {
@@ -1921,8 +2198,14 @@
       "hours": 108,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "MTM3103"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "MTM3103"
+      },
       "syllabus": "Conceitos básicos de análise convexa. Condições de otimalidade. Métodos de otimização irrestrita. Métodos de busca unidimensional e multidimensional para funções diferenciáveis e não diferenciáveis. Otimização restrita: condições de otimalidade de Kuhntucker, métodos das barreiras e das penalidades. Programação quadrática."
     },
     {

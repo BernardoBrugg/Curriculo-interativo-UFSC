@@ -1,5 +1,5 @@
 {
-  "program": "ARQUITETURA E URBANISMO",
+  "program": "Arquitetura e Urbanismo",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2026.1",
   "totalHours": 4572,
@@ -1962,7 +1962,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 162,
         "sources": [
           {
@@ -2014,10 +2014,24 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 162
+            "maxHours": 90
+          }
+        ]
+      },
+      {
+        "id": "extension-complementary",
+        "name": "Atividades de extensão e complementares",
+        "requiredHours": 90,
+        "sources": [
+          {
+            "id": "extension-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 90,
+            "manualLabel": "Horas de extensão e complementares"
           }
         ]
       }

@@ -3070,8 +3070,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EEL7600"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7600"
+      },
       "syllabus": "A função da produção. Sistemas de produção: convencional, MRP I e II e 'Just-in-time'. Técnicas de programação e controle. Garantia da qualidade: conceitos, organização do sistemas de garantia da qualidade, inspeção de qualidade, normalização e gráficos de controle."
     },
     {
@@ -3082,8 +3088,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EEL7600"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7600"
+      },
       "syllabus": "O ciclo de vida do projeto. As funções administrativas no projeto. O gerente do projeto. Organização da equipe. Planejamento do projeto. Programação. Cronogramas. Rêdes. Orçamentos. Controle do projeto. Interligação do projeto com a empresa."
     },
     {
@@ -3094,8 +3106,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EEL7600"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7600"
+      },
       "syllabus": "Planejamento estratégico e objetivos. Sistemas de planejamento estratégico. Sistemas de planos. O processo de planejamento estratégico. O subsistema de decisão para planejamento. Subsistema de informação e organização para planejamento. Subsistema de gerência para planejamento."
     },
     {
@@ -3106,8 +3124,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EEL7600"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7600"
+      },
       "syllabus": "O ambiente de negócios. Conceito e evolução da logística. Cadeia de suprimentos (supply chain). O sistema logístico. Custos logísticos. Nível de serviço ao cliente. A logística de suprimento. A distribuição física de produtos. O subsistema transporte: os modais de transporte; característica e escolha do modal; os processos coleta-transferência e distribuição. O subsistema armazém: funções e meios de armazenagem; unitização de cargas; sistemas de endereçamento dos produtos. O gerenciamento de estoques: classificação ABC, sistemática de re-suprimento."
     },
     {
@@ -3118,8 +3142,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EEL7600"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7600"
+      },
       "syllabus": "Competitividade; Empresas Inteligentes (Gerenciamento na Era da Informação); Plano de ação em GC; Gestão da Informação e o Suporte à Decisão; Tecnologia da Informação e BI; Tecnologias da informação e GC; Implantação de Projetos de TI e GC."
     },
     {
@@ -3130,8 +3160,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EEL7600"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EEL7600"
+      },
       "syllabus": "- O ambiente de negócios. Conceito e evolução da logística. Cadeia de suprimentos (supply chain). O sistema logístico. Custos logísticos. Nível de serviço ao cliente. A logística de suprimento. A distribuição física de produtos. O subsistema transporte: os modais de transporte; característica e escolha do modal; os processos de coleta, transferência e distribuição. O subsistema armazém: funções e meios de armazenagem; unitização de cargas;sistemas de endereçamento dos produtos. O gerenciamento de estoques: classificação ABC, sistemática de re-suprimento."
     },
     {
@@ -3143,12 +3179,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ECZ5102"
+        "ECZ5102",
+        "EEL7600"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "ECZ5102"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ECZ5102"
+          },
+          {
+            "kind": "course",
+            "code": "EEL7600"
+          }
+        ]
       },
       "syllabus": "- Recursos e sistemas ambientais. Economia do meio ambiente. Desenvolvimento e sustentabilidade. Qualidade total e ambiente: conceitos e definições. Causas da degradação ambiental. A produção de bens e serviços e o mecanismo do desenvolvimento limpo. Sistemas de gestão da qualidade ambiental. Responsabilidades das empresas. Avaliação de custos ambientais. Normativas internacionais. Auditorias ambientais."
     },

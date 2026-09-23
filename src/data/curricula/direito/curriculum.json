@@ -1,5 +1,5 @@
 {
-  "program": "DIREITO",
+  "program": "Direito",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2023.1",
   "totalHours": 4464,
@@ -2475,8 +2475,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DIR5012"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5012"
+      },
       "syllabus": "-Direito do Mar. A constituição e a soberania em águas territoriais. Espécie de navios. Tipos de navegação. A marinha de guerra e a marinha mercante. O Poder Marítimo e o Poder Naval. NORMAM (Normas de autoridade marítima) e os seus órgãos, competência para a segurança do tráfego aquaviário, salvaguarda da vida humana, formação de tripulação da marinha mercante e outras atividades. Inquérito administrativo Naval e o Tribunal Marítimo na apuração de acidentes e fatos de navegação."
     },
     {
@@ -2487,8 +2493,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DIR5012"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5012"
+      },
       "syllabus": "-Direitos e obrigações comerciais envolvendo o transporte aquaviário. Estudo da segunda parte do Colóquio Comercial brasileiro e legislação comercial aplicável. Proteção nacional e internacional do comércio de transporte aquaviário. Contratos internacionais de transporte marítimo. Sujeitos de direito envolvidos no comércio de transporte aquaviário. Regimes jurídicos da propriedade e da exploração comercial de navios."
     },
     {
@@ -2500,12 +2512,27 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "DIR5111"
+        "DIR5111",
+        "DIR5112",
+        "DIR5113"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "DIR5111"
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5111"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5112"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5113"
+          }
+        ]
       },
       "syllabus": "A problemática do acesso à justiça: precedentes e situação contemporânea; aspectos culturais, políticos, sociais e econômicos; aspectos jurídicos; aspectos processuais. Acesso à justiça e Constituição. Acesso à justiça, Poder Judiciario e STF. Processo e democracia no século XXI."
     },
@@ -2518,12 +2545,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "DIR5120"
+        "DIR5120",
+        "DIR5511"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "DIR5120"
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DIR5120"
+          },
+          {
+            "kind": "course",
+            "code": "DIR5511"
+          }
+        ]
       },
       "syllabus": "Ensino do Direito no Brasil: história e legislação. Diretrizes curriculares nacionais e projeto pedagógico. SINAES e instrumentos de avaliação dos Cursos de Graduação em Direito. Pós-graduação e formação docente. Aspectos didático-pedagógicos. Educação jurídica e formação profissional no século XXI."
     },
@@ -2605,8 +2642,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DIR5710"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5710"
+      },
       "syllabus": "Cartas e atos do escrivão. Procedimentos especiais (Habilitação. Homologação de penhor legal. Regulação de avaria grossa. Restauração de autos). Procedimentos especiais de jurisdição voluntária (Testamento e Codicilos. Herança Jacente. Bens dos ausentes. Das coisas vagas. Organização e Fiscalização das fundações. Ratificação de protestos marítimos)."
     },
     {
@@ -2617,11 +2660,17 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DIR5513"
+      ],
       "equivalents": [
         "DIR5757",
         "DIR5936"
       ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5513"
+      },
       "equivalentExpression": {
         "kind": "any",
         "requirements": [
@@ -2645,8 +2694,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DIR5710"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5710"
+      },
       "syllabus": "Tópicos Especiais de Processo Civil II"
     },
     {
@@ -2657,8 +2712,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DIR5512"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DIR5512"
+      },
       "syllabus": "-Estudos críticos jurídicos. História das mulheres. Política e discursos sobre as mulheres. Teorias feministas. Direito das mulheres."
     },
     {
@@ -2852,7 +2913,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 180,
         "sources": [
           {
@@ -2913,10 +2974,24 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 90
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Atividades complementares e extensão",
+        "requiredHours": 114,
+        "sources": [
+          {
+            "id": "complementary-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 114,
+            "manualLabel": "Horas de atividades complementares e extensão"
           }
         ]
       }

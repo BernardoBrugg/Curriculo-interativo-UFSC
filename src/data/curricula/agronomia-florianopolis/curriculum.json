@@ -1,5 +1,5 @@
 {
-  "program": "AGRONOMIA",
+  "program": "Agronomia",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2025.1",
   "totalHours": 4788,
@@ -2298,8 +2298,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ZOT5302"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT5302"
+      },
       "syllabus": "Origem, caracteres e classificação. Importância e economia, rendimento na criação externa. Condições essenciais à ovinocultura. Finalidade: carne, lã, leite e peles. Fisiologia da reprodução, exterior e raças especializadas. Instalações. Formação do rebanho, plantel e alimentação. Reprodução, inseminação artificial e parição. Fundamentos da seleção e tosquia. Doenças do rebanho."
     },
     {
@@ -2310,8 +2316,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ZOT5302"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT5302"
+      },
       "syllabus": "Produção de carne: processos físicos químicos e microbiológicos. Fatores que interferem na qualidade da carne: genéticos, nutricionais, manejo e transporte dos animais, temperatura. Avaliação da carne: analise sensorial: cor, consistência, maciez, sabor. Processos para conservação da carne: resfriamento, congelamento."
     },
     {
@@ -2322,8 +2334,24 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ZOT5706",
+        "ZOT7703"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT5706"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7703"
+          }
+        ]
+      },
       "syllabus": "Estudo teórico-prático das tecnologias empregadas para produção, avaliação e utilização de forragens conservadas."
     },
     {
@@ -2334,8 +2362,24 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "BOT5304",
+        "ZOT5302"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BOT5304"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT5302"
+          }
+        ]
+      },
       "syllabus": "Biologia, classificação e ocorrência de plantas tóxicas e invasoras de pastagens. Descrição e preparo de plantas tóxicas e invasoras para identificação. Controle de plantas tóxicas e invasoras de pastagens. Nível de toxicidade e sintomas nos animais."
     },
     {
@@ -2346,8 +2390,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "BOT5304"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "BOT5304"
+      },
       "syllabus": "Composição morfologia e taxonomia de plantas de uso terapêutico. Fundamentos da fitoterapia. Princípios gerais do uso de homeopatias na produção animal sustentável. Plantas forrageiras usadas na prevenção de parasitoses animais."
     },
     {
@@ -2358,8 +2408,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ZOT5706"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT5706"
+      },
       "syllabus": "Sustentável ZOT5302) Adaptação, distribuição e comportamento de plantas forrageiras sob corte ou pastejo. Sistemas de pastoreio: continuo rotacional, diferido e em faixas. Consorciação de forragens."
     },
     {
@@ -2370,11 +2426,27 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ZOT5505",
+        "ZOT5706"
+      ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "hours",
-        "hours": 18
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT5505"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT5706"
+          },
+          {
+            "kind": "hours",
+            "hours": 18
+          }
+        ]
       },
       "prerequisiteHours": 18,
       "syllabus": "Ovinocultura e Caprinocultura no Brasil e no mundo. Raças e produtos ovinos e caprinos. Manejo geral, da Nutrição, da Reprodução, das Instalações e Controle zoossanitário dos rebanhos ovino e caprino. Planejamento de uma criação.",
@@ -4030,7 +4102,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 450,
         "sources": [
           {
@@ -4159,10 +4231,24 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
             "maxHours": 180
+          }
+        ]
+      },
+      {
+        "id": "complementary-extension",
+        "name": "Atividades complementares e extensão",
+        "requiredHours": 180,
+        "sources": [
+          {
+            "id": "complementary-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180,
+            "manualLabel": "Horas de atividades complementares e extensão"
           }
         ]
       }

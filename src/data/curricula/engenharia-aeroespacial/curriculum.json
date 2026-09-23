@@ -1,5 +1,5 @@
 {
-  "program": "ENGENHARIA AEROESPACIAL [Campus Joinville]",
+  "program": "Engenharia Aeroespacial",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2025.1",
   "totalHours": 4770,
@@ -1996,8 +1996,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMB5017"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5017"
+      },
       "syllabus": "Teoria Fundamental da Turbulência: natureza da turbulência, descrição estatística da turbulência, equações médias, escalas da turbulência, tópicos especiais - simulação numérica direta, turbulência bidimensional, dispersão turbulenta, investigação lagrangeana da turbulência, escoamentos turbulentos com fase particulada dispersa, estruturas coerentes e análise modal."
     },
     {
@@ -2020,8 +2026,24 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMB5405",
+        "EMB5410"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5405"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5410"
+          }
+        ]
+      },
       "syllabus": "Introdução aos conceitos de controle moderno em sistemas aeroespaciais. Representação de sistemas no espaço de estados. Análise de estabilidade e controlabilidade. Síntese de controladores robustos e observadores. Aplicações práticas no controle de aeronaves, satélites, foguetes e drones. Simulação computacional e desenvolvimento de modelos dinâmicos."
     },
     {
@@ -2032,8 +2054,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMB5022"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5022"
+      },
       "syllabus": "Introdução aos materiais metálicos aeroespaciais. Requisitos das ligas metálicas para aplicações aeroespaciais. Classificação e propriedades mecânicas das ligas de Aluminio, Magnésio e Titânio. Classificação dos processos de união. Fundamentos de metalurgia da soldagem. Processos de união empregados na construção aeronáutica: União por rebites, União por conformação, Soldagem GTAW, Soldagem PAW, Soldagem Laser e Soldagem por Atrito."
     },
     {
@@ -2044,8 +2072,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMB5423"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5423"
+      },
       "syllabus": "Aeronáuticos Geração de malha linear no plano e superfície no espaço. Interpolação linear e transfinita. Método dos vórtice concentrados. Método do dipolo. Método da linha sustentadora. Método da Superfície sustentadora e teoria das faixas. Utilização do Xfoil e AVL."
     },
     {
@@ -2056,8 +2090,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMB5431"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5431"
+      },
       "syllabus": "Conceitos introdutórios acerca da produção e uso de biocombustíveis no setor de transportes. Produção de biocombustíveis e matérias primas. Biomassa. Propriedades físico-químicas dos biocombustíveis. Propriedades termoquímicas da combustão de biocombustíveis. Características de combustão e aplicações. Análise de exemplos e tópicos avançados sobre os seguintes biocombustíveis: Etanol, Biodiesel (FAME e HVO), Combustível Sustentável de Aviação (SAF), Amônia."
     },
     {
@@ -2080,8 +2120,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMB5022"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5022"
+      },
       "syllabus": "Introdução ao MBSE; 2. Conceitos Fundamentais de Engenharia de Sistemas; 3. Linguagens de Modelagem para Engenharia de Sistemas (ex. SysML); 4. Modelagem de Produtos Mecânicos e Arquiteturas de Sistema; 5. Gestão de Requisitos e Rastreabilidade."
     },
     {
@@ -2092,8 +2138,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMB5017"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5017"
+      },
       "syllabus": "Fundamentos e principais estratégias de modelagem e simulação de escoamentos turbulentos em engenharia, caracterização estatística da turbulência; métodos de fechamento para as equações de Navier Stokes (RANS); técnicas de Large Eddy Simulation (LES) e Direct Numerical Simulation (DNS); aspectos numéricos e computacionais para implementação em códigos CFD."
     },
     {
@@ -2298,8 +2350,20 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "EMB5648"
+      ],
+      "equivalents": [
+        "EMB5630"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5648"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5630"
+      },
       "syllabus": "Apontadores, alocação dinâmica de memória. Recursividade. Algoritmos de ordenação e busca. Tipos abstratos de dados. Listas, pilhas, filas e árvores."
     },
     {
@@ -2310,8 +2374,20 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "EMB5116"
+      ],
+      "equivalents": [
+        "EMB5604"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5116"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5604"
+      },
       "syllabus": "Conceitos de Instrumentação. Sinais e Ruído. Conversores AD e DA. Efeitos Físicos Aplicados em Sensores. Medidores de Grandezas Elétricas, Medição de Temperatura, de Força, de Deslocamento, Posição, Velocidade, Aceleração e Vibração, de Pressão, de Nível, de Fluxo, de Umidade, pH e Viscosidade. Introdução à Instrumentação Óptica. Introdução à Instrumentação Virtual e automação da medição."
     },
     {
@@ -2322,8 +2398,20 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "EMB5108"
+      ],
+      "equivalents": [
+        "EMB5627"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMB5108"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5627"
+      },
       "syllabus": "Circuitos Magnéticos. Transformadores. Fundamentos da conversão eletromecânica da energia. Introdução e princípios das máquinas elétricas rotativas."
     },
     {
@@ -2334,13 +2422,29 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [
-        "EMB5111"
+      "prerequisites": [
+        "EMB5640"
       ],
-      "equivalentExpression": {
+      "equivalents": [
+        "EMB5111",
+        "EMB5641"
+      ],
+      "prerequisiteExpression": {
         "kind": "course",
-        "code": "EMB5111"
+        "code": "EMB5640"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5111"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5641"
+          }
+        ]
       },
       "syllabus": "Modelagem matemática de sistemas. Análise da resposta temporal de sistemas lineares. Mapa de polos e zeros. Requisitos de desempenho de sistemas realimentados. Estabilidade. Método do lugar das raízes. Análise da resposta em frequência. Projeto de controladores lineares nos domínios do tempo e frequência. Controle PID: características e projeto"
     },
@@ -2352,13 +2456,29 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [
-        "EMB5602"
+      "prerequisites": [
+        "EMB5657"
       ],
-      "equivalentExpression": {
+      "equivalents": [
+        "EMB5602",
+        "EMB5646"
+      ],
+      "prerequisiteExpression": {
         "kind": "course",
-        "code": "EMB5602"
+        "code": "EMB5657"
+      },
+      "equivalentExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMB5602"
+          },
+          {
+            "kind": "course",
+            "code": "EMB5646"
+          }
+        ]
       },
       "syllabus": "Introdução aos sistemas de controle digital. Transformada Z. Representação de sistemas discretos. Amostragem e reconstrução. Seleção de taxa de amostragem. Resposta temporal de sistemas discretos em malha aberta e fechada. Características da resposta temporal. Resposta em frequência de sistemas discretos. Projeto de controladores digitais."
     },
@@ -2371,7 +2491,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "EMB5923"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EMB5923"
+      },
       "syllabus": "Conceituação geral e função dos terminais de transportes: rodoviárias, estações de metrô e de trem de curta e de longa distância, portos e aeroportos. Dimensionamento físico das instalações para a operação de transportes. Capacidades de transporte. Nível de serviço em terminais de transportes. Indicadores de desempenho de terminais de transportes."
     },
     {
@@ -2584,16 +2710,30 @@
     ],
     "requirements": [
       {
+        "id": "internship",
+        "name": "Estágio curricular obrigatório",
+        "requiredHours": 396,
+        "sources": [
+          {
+            "id": "internship-courses",
+            "courseIds": [
+              "EMB5046",
+              "EMB5443",
+              "EMB5444"
+            ],
+            "allowsManualHours": false,
+            "maxHours": 396
+          }
+        ]
+      },
+      {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 180,
         "sources": [
           {
             "id": "electives-catalogue",
             "courseIds": [
-              "EMB5046",
-              "EMB5443",
-              "EMB5444",
               "EMB5056",
               "EMB5058",
               "EMB5062",
@@ -2644,20 +2784,59 @@
               "EMB5658",
               "EMB5968",
               "LSB7244",
-              "EMB5100",
-              "EMB5445",
-              "EMB5446",
-              "EMB5447",
-              "EMB9000",
+              "EMB5100"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "free-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      },
+      {
+        "id": "complementary",
+        "name": "Atividades complementares",
+        "requiredHours": 108,
+        "sources": [
+          {
+            "id": "complementary-course",
+            "courseIds": [
               "EMB5441"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "complementary-manual",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 108
+          }
+        ]
+      },
+      {
+        "id": "extension",
+        "name": "Atividades de extensão",
+        "requiredHours": 252,
+        "sources": [
+          {
+            "id": "extension-courses",
+            "courseIds": [
+              "EMB5445",
+              "EMB5446",
+              "EMB5447",
+              "EMB9000"
+            ],
+            "allowsManualHours": false,
+            "maxHours": 252
+          },
+          {
+            "id": "extension-manual",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 252
           }
         ]
       }

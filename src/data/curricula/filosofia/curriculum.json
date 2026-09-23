@@ -1,5 +1,5 @@
 {
-  "program": "FILOSOFIA",
+  "program": "Filosofia",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2006.1",
   "totalHours": 2940,
@@ -2107,25 +2107,16 @@
       "FIL5612",
       "FIL5651",
       "FIL5652",
-      "FIL5660",
-      "MEN5602",
-      "PSI5137",
-      "EED5185",
-      "FIL5680",
-      "MEN5142",
-      "MEN5315",
       "FIL5690",
-      "LSB7244",
-      "MEN5316",
       "FIL5661",
       "FIL5671",
       "FIL5672"
     ],
     "requirements": [
       {
-        "id": "electives",
-        "name": "Disciplinas optativas e complementares",
-        "requiredHours": 900,
+        "id": "philosophical-electives",
+        "name": "Disciplinas optativas filosóficas",
+        "requiredHours": 792,
         "sources": [
           {
             "id": "electives-catalogue",
@@ -2239,10 +2230,24 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-philosophical-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 792
+          }
+        ]
+      },
+      {
+        "id": "free-electives",
+        "name": "Disciplinas optativas não-filosóficas",
+        "requiredHours": 216,
+        "sources": [
+          {
+            "id": "free-electives-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 216,
+            "manualLabel": "Horas em disciplinas optativas livres"
           }
         ]
       }

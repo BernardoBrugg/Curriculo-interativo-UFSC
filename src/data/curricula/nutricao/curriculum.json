@@ -1462,8 +1462,249 @@
       "hours": 324,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
+      "prerequisites": [
+        "BEG5101",
+        "BEG5204",
+        "BEG5406",
+        "BQA5104",
+        "BQA5123",
+        "CAL5301",
+        "CAL5305",
+        "CAL5309",
+        "CFS1102",
+        "CFS5146",
+        "CIN5105",
+        "MIP5118",
+        "MIP5202",
+        "MIP5306",
+        "MOR5118",
+        "MOR5210",
+        "NTR1119",
+        "NTR5604",
+        "NTR5606",
+        "NTR5617",
+        "NTR5619",
+        "NTR5620",
+        "NTR5621",
+        "NTR5622",
+        "NTR5629",
+        "NTR5630",
+        "NTR7000",
+        "NTR7001",
+        "NTR7003",
+        "NTR7004",
+        "NTR7006",
+        "NTR7007",
+        "NTR7008",
+        "NTR7009",
+        "NTR7010",
+        "NTR7011",
+        "NTR7012",
+        "NTR7013",
+        "NTR7014",
+        "NTR7015",
+        "NTR7016",
+        "PSI5608",
+        "PTL5121",
+        "SPB1118",
+        "SPB5200",
+        "SPB5210",
+        "SPO5114"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5101"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5204"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5406"
+          },
+          {
+            "kind": "course",
+            "code": "BQA5104"
+          },
+          {
+            "kind": "course",
+            "code": "BQA5123"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5301"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5305"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5309"
+          },
+          {
+            "kind": "course",
+            "code": "CFS1102"
+          },
+          {
+            "kind": "course",
+            "code": "CFS5146"
+          },
+          {
+            "kind": "course",
+            "code": "CIN5105"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5118"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5202"
+          },
+          {
+            "kind": "course",
+            "code": "MIP5306"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5118"
+          },
+          {
+            "kind": "course",
+            "code": "MOR5210"
+          },
+          {
+            "kind": "course",
+            "code": "NTR1119"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5604"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5606"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5617"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5619"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5620"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5621"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5622"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5629"
+          },
+          {
+            "kind": "course",
+            "code": "NTR5630"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7000"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7001"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7003"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7004"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7006"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7007"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7008"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7009"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7010"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7011"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7012"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7013"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7014"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7015"
+          },
+          {
+            "kind": "course",
+            "code": "NTR7016"
+          },
+          {
+            "kind": "course",
+            "code": "PSI5608"
+          },
+          {
+            "kind": "course",
+            "code": "PTL5121"
+          },
+          {
+            "kind": "course",
+            "code": "SPB1118"
+          },
+          {
+            "kind": "course",
+            "code": "SPB5200"
+          },
+          {
+            "kind": "course",
+            "code": "SPB5210"
+          },
+          {
+            "kind": "course",
+            "code": "SPO5114"
+          }
+        ]
+      },
       "syllabus": "Atividades orientadas na área de nutrição em saúde pública na atenção básica no âmbito do Sistema Único de Saúde, em instituições de educação, entre outras instituições sociais e projetos de extensão comunitária, desenvolvendo ações intersetoriais e atuando junto a equipes interdisciplinares."
     },
     {
@@ -1474,8 +1715,49 @@
       "hours": 324,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
+      "prerequisites": [
+        "BEG5101",
+        "BEG5204",
+        "BEG5406",
+        "BQA5104",
+        "BQA5123",
+        "CAL5301",
+        "CAL5305"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "BEG5101"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5204"
+          },
+          {
+            "kind": "course",
+            "code": "BEG5406"
+          },
+          {
+            "kind": "course",
+            "code": "BQA5104"
+          },
+          {
+            "kind": "course",
+            "code": "BQA5123"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5301"
+          },
+          {
+            "kind": "course",
+            "code": "CAL5305"
+          }
+        ]
+      },
       "syllabus": "Atividades orientadas na área de Gestão em Unidades de Alimentação e Nutrição, aplicando conhecimentos e instrumentos para qualidade do processo produtivo e das refeições, atuando em conjunto com a equipe das unidades."
     },
     {

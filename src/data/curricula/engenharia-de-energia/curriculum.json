@@ -1536,10 +1536,16 @@
       "hours": 0,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EES7002"
+      ],
       "equivalents": [
         "ARA7007"
       ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7002"
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "ARA7007"
@@ -1577,8 +1583,14 @@
       "hours": 0,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EES7007"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7007"
+      },
       "syllabus": "Disciplina optativa; com base na Resolução nº 007/CuN/99."
     },
     {
@@ -1635,10 +1647,16 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EES7355"
+      ],
       "equivalents": [
         "EES7387"
       ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7355"
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "EES7387"
@@ -1654,12 +1672,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "EES7371"
+        "EES7371",
+        "EES7470"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "EES7371"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7371"
+          },
+          {
+            "kind": "course",
+            "code": "EES7470"
+          }
+        ]
       },
       "syllabus": "Panorama da Energia Eólica no Brasil e no Mundo. Fundamentos e Características de Turbinas Eólicas. Tecnologias de Aerogeradores. Dimensionamento de Sistemas Eólicos Conectados à Rede. Geração Distribuída com Sistemas Eólicos. Dimensionamento de Sistemas Eólicos Isolados. Sistemas Eólicos Marinhos. Projeto e Análise de Viabilidade Econômica de Parques Eólicos."
     },
@@ -1672,12 +1700,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "EES7355"
+        "EES7355",
+        "EES7366"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "EES7355"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7355"
+          },
+          {
+            "kind": "course",
+            "code": "EES7366"
+          }
+        ]
       },
       "syllabus": "Panorama da Energia Solar Térmica no Brasil e no Mundo. Propriedades Ópticas de Superfícies. Coletores Solares para Aquecimento de Água. Dimensionamento de Sistemas de Aquecimento Solar de Água. Coletores Concentradores. Sistemas Termossolares. Aplicações Passivas da Energia Solar Térmica."
     },
@@ -1690,12 +1728,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "EES7355"
+        "EES7355",
+        "EES7479"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "EES7355"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EES7355"
+          },
+          {
+            "kind": "course",
+            "code": "EES7479"
+          }
+        ]
       },
       "syllabus": "Formação de petróleo. Reservas mundiais. Petrofísica. Características gerais do petróleo e do gás natural. Exploração e transporte. Métodos de elevação e separação. Tecnologias de refino. Uso da energia do gás natural e derivados de petróleo."
     },
@@ -1707,8 +1755,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EES7170"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7170"
+      },
       "syllabus": "Qualidade de energia e procedimentos de distribuição de energia elétrica. Indicadores de qualidade do serviço de distribuição de energia. Desequilíbrio de tensão. Flutuação de tensão. Variação de tensão de curta duração. Variação de frequência. Fator de potência. Distorção harmônica. Mitigação de problemas."
     },
     {
@@ -1719,8 +1773,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EES7170"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7170"
+      },
       "syllabus": "Equipamentos básicos de quadros de comando. Diagramas de comando. Acionamento e proteção de cargas elétricas: motores, bancos de capacitores e sistemas de iluminação."
     },
     {
@@ -1731,8 +1791,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EES7371"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7371"
+      },
       "syllabus": "Conceitos básicos de lógica combinacional e sequencial. Máquinas de estados. Sensores e atuadores industriais. Controladores lógicos programáveis. Linguagens de programação de controladores industriais. Aplicações de automação em sistemas de energia."
     },
     {
@@ -1743,8 +1809,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EES7366"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EES7366"
+      },
       "syllabus": "Irreversibilidade, disponilibidade e exergia. Análise exergética aplicada a sistemas e a volumes de controles. Análise exergética nas reações químicas."
     },
     {

@@ -1576,8 +1576,14 @@
       "hours": 0,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "EMC5950"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "EMC5950"
+      },
       "syllabus": ""
     },
     {

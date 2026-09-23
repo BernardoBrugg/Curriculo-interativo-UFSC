@@ -1,5 +1,5 @@
 {
-  "program": "EaD_UAB HISTÓRIA",
+  "program": "História (EaD)",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2025.1",
   "totalHours": 3945,
@@ -859,7 +859,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 225,
         "sources": [
           {
@@ -878,10 +878,24 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 90
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Atividades complementares",
+        "requiredHours": 75,
+        "sources": [
+          {
+            "id": "complementary-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 75,
+            "manualLabel": "Horas de atividades complementares"
           }
         ]
       }

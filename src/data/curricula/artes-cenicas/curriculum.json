@@ -1,5 +1,5 @@
 {
-  "program": "ARTES CÊNICAS",
+  "program": "Artes Cênicas",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2013.1",
   "totalHours": 3348,
@@ -2093,7 +2093,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6015"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6015"
+      },
       "syllabus": ""
     },
     {
@@ -2105,7 +2111,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6016"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6016"
+      },
       "syllabus": "Técnicas básicas de Yoga para Artes Cênicas, nível intermediário. Execução de posturas psico-físicas (ásanas), técnicas respiratórias (pranayama) e vocalização de mantras. Objetivos: Familiarizar os alunos com técnicas intermediárias de Yoga para trabalhar o autoconhecimento; Aumentar a consciência corporal; Aumentar o controle da postura externa (flexibilidade, resistência, controle físico); Aumentar o controle da atitude interna (segurança, autoconfiança, concentração)."
     },
     {
@@ -2117,7 +2129,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6017"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6017"
+      },
       "syllabus": ""
     },
     {
@@ -2129,7 +2147,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6018"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6018"
+      },
       "syllabus": ""
     },
     {
@@ -2141,7 +2165,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6019"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6019"
+      },
       "syllabus": ""
     },
     {
@@ -2153,7 +2183,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6020"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6020"
+      },
       "syllabus": ""
     },
     {
@@ -2165,7 +2201,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6021"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6021"
+      },
       "syllabus": ""
     },
     {
@@ -2177,7 +2219,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6022"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6022"
+      },
       "syllabus": ""
     },
     {
@@ -2189,7 +2237,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6023"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6023"
+      },
       "syllabus": ""
     },
     {
@@ -2201,7 +2255,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6024"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6024"
+      },
       "syllabus": ""
     },
     {
@@ -2213,7 +2273,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6041"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA6041"
+      },
       "syllabus": ""
     },
     {
@@ -2225,12 +2291,28 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ART6041"
+        "ART6041",
+        "CMA6041"
       ],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6042"
+      ],
       "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6041"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6041"
+          }
+        ]
+      },
+      "equivalentExpression": {
         "kind": "course",
-        "code": "ART6041"
+        "code": "CMA6042"
       },
       "syllabus": ""
     },
@@ -2243,12 +2325,28 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ART6042"
+        "ART6042",
+        "CMA6042"
       ],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6043"
+      ],
       "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6042"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6042"
+          }
+        ]
+      },
+      "equivalentExpression": {
         "kind": "course",
-        "code": "ART6042"
+        "code": "CMA6043"
       },
       "syllabus": ""
     },
@@ -2261,12 +2359,28 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ART6043"
+        "ART6043",
+        "CMA6043"
       ],
-      "equivalents": [],
+      "equivalents": [
+        "CMA6044"
+      ],
       "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6043"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6043"
+          }
+        ]
+      },
+      "equivalentExpression": {
         "kind": "course",
-        "code": "ART6043"
+        "code": "CMA6044"
       },
       "syllabus": ""
     },
@@ -2279,19 +2393,43 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ART6115"
+        "ART6115",
+        "CMA6115"
       ],
       "equivalents": [
         "CMA6615",
-        "CMA7502"
+        "CMA7502",
+        "CMA7601"
       ],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "ART6115"
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART6115"
+          },
+          {
+            "kind": "course",
+            "code": "CMA6115"
+          }
+        ]
       },
       "equivalentExpression": {
-        "kind": "course",
-        "code": "CMA6615"
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA6615"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7502"
+          },
+          {
+            "kind": "course",
+            "code": "CMA7601"
+          }
+        ]
       },
       "syllabus": ""
     },
@@ -2373,16 +2511,9 @@
       "ART6614",
       "ART6616",
       "ART6711",
-      "ART6712",
-      "ART6713",
-      "ART6714",
       "ART6715",
       "ART6811",
-      "ART6812",
-      "ART6813",
-      "ART6814",
       "ART6815",
-      "ART6816",
       "ART6911",
       "ART6912",
       "CMA7900"
@@ -2390,8 +2521,8 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
-        "requiredHours": 252,
+        "name": "Disciplinas optativas",
+        "requiredHours": 288,
         "sources": [
           {
             "id": "electives-catalogue",
@@ -2429,15 +2560,22 @@
               "ART6044",
               "ART6615",
               "ECZ7070",
-              "LSB7904"
+              "LSB7904",
+              "ART6712",
+              "ART6713",
+              "ART6714",
+              "ART6812",
+              "ART6813",
+              "ART6814",
+              "ART6816"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 72
           }
         ]
       }

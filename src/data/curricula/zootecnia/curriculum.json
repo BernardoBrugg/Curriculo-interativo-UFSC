@@ -1798,7 +1798,7 @@
       "code": "ZOT7003",
       "name": "Atividades Complementares - Ensino",
       "credits": 0,
-      "hours": 0,
+      "hours": 30,
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
@@ -1810,7 +1810,7 @@
       "code": "ZOT7004",
       "name": "Atividades Complementares - Pesquisa",
       "credits": 0,
-      "hours": 0,
+      "hours": 30,
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
@@ -1822,7 +1822,7 @@
       "code": "ZOT7005",
       "name": "Atividades Complementares - Extensão",
       "credits": 0,
-      "hours": 0,
+      "hours": 30,
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
@@ -2023,8 +2023,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ZOT7708"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7708"
+      },
       "syllabus": "Agroecológicos ZOT7500 eh Histórico, importância e desenvolvimento do PRV no Brasil e no mundo. O solo pastoril e suas relações com as plantas e com os animais, sob o comando humano. A biocenose. Princípios de fisiologia vegetal aplicadas ao manejo racional dos pastos. O crescimento do pasto e a qualidade da forragem produzida. Ingestão. O comportamento de pastoreio das principais espécies herbívoras e suas relações com o consumo e a utilização das pastagens. As principais espécies forrageiras e sua utilização no PRV. As leis universais do pastoreio racional Voisin. Divisão da área: princípios e necessidades. Hidráulica e paisagismo. Projeto de PRV."
     },
     {
@@ -2072,12 +2078,27 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ENR7312"
+        "ENR7312",
+        "ZOT7502",
+        "ZOT7708"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "ENR7312"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ENR7312"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7502"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7708"
+          }
+        ]
       },
       "syllabus": "Estudo teórico-prático das tecnologias empregadas para produção, avaliação e utilização de forragens conservadas."
     },
@@ -2090,12 +2111,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ZOT7501"
+        "ZOT7501",
+        "ZOT7700"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "ZOT7501"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ZOT7501"
+          },
+          {
+            "kind": "course",
+            "code": "ZOT7700"
+          }
+        ]
       },
       "syllabus": "Biologia, classificação e ocorrência de plantas tóxicas e invasoras de pastagens. Descrição e preparo de plantas tóxicas e invasoras para identificação. Controle de plantas tóxicas e invasoras de pastagens. Nível de toxicidade e sintomas nos animais."
     },
@@ -2107,8 +2138,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "ZOT7204"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "ZOT7204"
+      },
       "syllabus": "Composição morfologia e taxonomia de plantas de uso terapêutico. Fundamentos da fitoterapia. Princípios gerais do uso de homeopatias na produção animal sustentável. Plantas forrageiras usadas na prevenção de parasitoses animais."
     },
     {

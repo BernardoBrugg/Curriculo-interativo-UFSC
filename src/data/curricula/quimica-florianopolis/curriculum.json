@@ -1,5 +1,5 @@
 {
-  "program": "QUÍMICA",
+  "program": "Química",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2021.1",
   "totalHours": 3780,
@@ -1920,14 +1920,13 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 72,
         "sources": [
           {
             "id": "electives-catalogue",
             "courseIds": [
               "QMC5825",
-              "QMC5827",
               "LSB7244",
               "QMC5128",
               "QMC5135",
@@ -1951,10 +1950,45 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
             "maxHours": 72
+          }
+        ]
+      },
+      {
+        "id": "extension-actions",
+        "name": "Ações de extensão (QMC5827)",
+        "requiredHours": 252,
+        "sources": [
+          {
+            "id": "extension-catalogue",
+            "courseIds": [
+              "QMC5827"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "extension-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 252,
+            "manualLabel": "Horas de ações de extensão"
+          }
+        ]
+      },
+      {
+        "id": "aacc",
+        "name": "Atividades de Aprofundamento (AACC)",
+        "requiredHours": 108,
+        "sources": [
+          {
+            "id": "aacc-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 108,
+            "manualLabel": "Horas de AACC"
           }
         ]
       }

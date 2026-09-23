@@ -1,12 +1,36 @@
 {
-  "program": "Letras - Língua Espanhola e Literaturas de Língua Espanhola",
+  "program": "Letras - Língua Espanhola (EaD)",
   "institution": "Universidade Federal de Santa Catarina",
-  "version": "Matriz 2011.1",
+  "version": "Matriz 2010.1",
   "totalHours": 3104,
   "phases": [
     {
       "number": 0,
       "name": "Optativas e outros componentes"
+    },
+    {
+      "number": 1,
+      "name": "1ª Fase"
+    },
+    {
+      "number": 3,
+      "name": "3ª Fase"
+    },
+    {
+      "number": 5,
+      "name": "5ª Fase"
+    },
+    {
+      "number": 6,
+      "name": "6ª Fase"
+    },
+    {
+      "number": 7,
+      "name": "7ª Fase"
+    },
+    {
+      "number": 8,
+      "name": "8ª Fase"
     }
   ],
   "courses": [
@@ -16,7 +40,7 @@
       "name": "Introdução à Educação a Distância",
       "credits": 6,
       "hours": 90,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -34,7 +58,7 @@
       "name": "Leitura e Produção Textual Acadêmica",
       "credits": 2,
       "hours": 30,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -46,7 +70,7 @@
       "name": "Língua Espanhola I",
       "credits": 6,
       "hours": 90,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -64,7 +88,7 @@
       "name": "Introdução aos Estudos da Narrativa",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -76,7 +100,7 @@
       "name": "Introdução aos Estudos da Tradução",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -88,7 +112,7 @@
       "name": "Introdução aos Estudos da Linguagem",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -100,7 +124,7 @@
       "name": "Introdução à Linguística Aplicada (PCC 2",
       "credits": 2,
       "hours": 30,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -112,7 +136,7 @@
       "name": "Língua Espanhola II",
       "credits": 6,
       "hours": 90,
-      "phase": 0,
+      "phase": 1,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -130,7 +154,7 @@
       "name": "Introdução ao Estudo do Texto Poético e Dramático",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -142,7 +166,7 @@
       "name": "Língua Espanhola III",
       "credits": 6,
       "hours": 90,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -160,7 +184,7 @@
       "name": "Literatura Ocidental I",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -178,7 +202,7 @@
       "name": "Estudos Linguísticos I",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -196,7 +220,7 @@
       "name": "Língua Espanhola IV",
       "credits": 6,
       "hours": 108,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -214,7 +238,7 @@
       "name": "Literatura Ocidental II",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -232,7 +256,7 @@
       "name": "Estudos da Tradução I",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -250,7 +274,7 @@
       "name": "Estudos Linguisticos II",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 3,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -268,7 +292,7 @@
       "name": "Língua e Ensino I (PCC 60 horas)",
       "credits": 5,
       "hours": 80,
-      "phase": 0,
+      "phase": 5,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -285,7 +309,7 @@
       "name": "Literatura e Ensino I (PCC 60 horas)",
       "credits": 5,
       "hours": 80,
-      "phase": 0,
+      "phase": 5,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -302,7 +326,7 @@
       "name": "Língua Espanhola V",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 5,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -320,7 +344,7 @@
       "name": "Estudos da Tradução II",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 5,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -338,7 +362,7 @@
       "name": "Literatura Hispânica I",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 5,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -356,7 +380,7 @@
       "name": "Pesquisa em Letras Estrangeiras",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 5,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -374,7 +398,7 @@
       "name": "Organização Escolar - PCC 20 horas/aula",
       "credits": 4,
       "hours": 80,
-      "phase": 0,
+      "phase": 6,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -397,7 +421,7 @@
       "name": "Língua Espanhola VI",
       "credits": 6,
       "hours": 90,
-      "phase": 0,
+      "phase": 6,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -415,7 +439,7 @@
       "name": "Literatura Hispânica II",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 6,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -433,7 +457,7 @@
       "name": "Linguística Aplicada I",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 6,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -451,7 +475,7 @@
       "name": "Didática (PCC 20 horas)",
       "credits": 6,
       "hours": 108,
-      "phase": 0,
+      "phase": 6,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -474,7 +498,7 @@
       "name": "Língua e Ensino II (PCC 60 horas)",
       "credits": 5,
       "hours": 80,
-      "phase": 0,
+      "phase": 7,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -491,7 +515,7 @@
       "name": "Língua Espanhola VII",
       "credits": 5,
       "hours": 90,
-      "phase": 0,
+      "phase": 7,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -509,7 +533,7 @@
       "name": "Literatura Hispânica III",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 7,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -527,7 +551,7 @@
       "name": "Metodologia do Ensino (PCC 20 horas)",
       "credits": 10,
       "hours": 180,
-      "phase": 0,
+      "phase": 7,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -550,7 +574,7 @@
       "name": "Psicologia Educacional: Desenvolvimento",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 7,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -568,7 +592,7 @@
       "name": "Literatura e Ensino II (PCC 60 horas)",
       "credits": 5,
       "hours": 80,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -585,7 +609,7 @@
       "name": "Língua Espanhola VIII",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -603,7 +627,7 @@
       "name": "Literatura Hispânica IV",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -621,7 +645,7 @@
       "name": "Linguística Aplicada II",
       "credits": 6,
       "hours": 108,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -639,7 +663,7 @@
       "name": "Estágio Supervisionado I",
       "credits": 13,
       "hours": 234,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -657,7 +681,7 @@
       "name": "Libras para Licenciatura em Letras -",
       "credits": 4,
       "hours": 60,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -669,7 +693,7 @@
       "name": "Língua e Ensino III (PCC 60 horas)",
       "credits": 5,
       "hours": 80,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -686,7 +710,7 @@
       "name": "Literatura e Ensino III (PCC 60 horas)",
       "credits": 5,
       "hours": 80,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [],
@@ -703,7 +727,7 @@
       "name": "Estágio Supervisionado II",
       "credits": 14,
       "hours": 252,
-      "phase": 0,
+      "phase": 8,
       "type": "Ob",
       "prerequisites": [],
       "equivalents": [
@@ -796,7 +820,6 @@
       "LLE9020",
       "LLE9030",
       "LLE9040",
-      "LLE9050",
       "LLE9412",
       "LLE9023",
       "LLE9413",
@@ -807,7 +830,6 @@
       "LLE9431",
       "LLE9442",
       "LLE9402",
-      "LLE9403",
       "LLE9415",
       "LLE9432",
       "LLE9451",
@@ -822,17 +844,45 @@
       "LLE9453",
       "MEN9115",
       "PSI9405",
-      "LLE9405",
       "LLE9418",
       "LLE9454",
       "LLE9462",
       "MEN9116",
       "LLE9129",
       "LLE9406",
-      "LLE9407",
       "MEN9117"
     ],
-    "requirements": []
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas",
+        "requiredHours": 24,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "LLE9010",
+              "LLE9011",
+              "LLE9012",
+              "LLE9013",
+              "LLE9014",
+              "LLE9015",
+              "LLE9403",
+              "LLE9405",
+              "LLE9407",
+              "LLE9050"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "free-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 24
+          }
+        ]
+      }
+    ]
   },
   "source": {
     "kind": "official-cagr-report",

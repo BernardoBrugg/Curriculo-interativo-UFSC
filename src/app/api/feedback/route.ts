@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+import { FieldValue } from "firebase-admin/firestore";
+import { getFirebaseAdminFirestore } from "@/lib/firebase-admin";
 import { validateFeedbackPayload } from "@/lib/feedback-validation";
 
 export const runtime = "nodejs";
@@ -7,6 +8,7 @@ export const runtime = "nodejs";
 const ipRateLimits = new Map<string, { count: number; resetAt: number }>();
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_MAX_REQUESTS = 5;
+const INLINE_FILE_MAX_BYTES = 500 * 1024;
 
 function isRateLimited(ip: string): boolean {
   const now = Date.now();
@@ -15,27 +17,9 @@ function isRateLimited(ip: string): boolean {
     ipRateLimits.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS });
     return false;
   }
-  if (entry.count >= RATE_LIMIT_MAX_REQUESTS) {
-    return true;
-  }
+  if (entry.count >= RATE_LIMIT_MAX_REQUESTS) return true;
   entry.count += 1;
   return false;
-}
-
-function getSmtpTransporter() {
-  const host = process.env.SMTP_HOST;
-  const port = Number(process.env.SMTP_PORT ?? "587");
-  const user = process.env.SMTP_USER;
-  const password = process.env.SMTP_PASSWORD;
-
-  if (!host || !user || !password) throw new Error("SMTP configuration is incomplete");
-
-  return nodemailer.createTransport({
-    host,
-    port,
-    secure: process.env.SMTP_SECURE === "true",
-    auth: { user, pass: password },
-  });
 }
 
 export async function POST(request: Request) {
@@ -63,18 +47,33 @@ export async function POST(request: Request) {
 
     if (!validation.valid) return NextResponse.json({ error: validation.error }, { status: 400 });
 
-    const attachments = file instanceof File ? [{ filename: file.name, content: Buffer.from(await file.arrayBuffer()), contentType: file.type }] : [];
-    const from = process.env.SMTP_FROM ?? process.env.SMTP_USER;
-    const to = process.env.FEEDBACK_TO ?? "bbbrugg@gmail.com";
+    let fileAttachment: {
+      name: string;
+      size: number;
+      type: string;
+      base64?: string;
+    } | null = null;
 
-    if (!from) throw new Error("SMTP sender is not configured");
+    if (file instanceof File) {
+      const buffer = Buffer.from(await file.arrayBuffer());
+      fileAttachment = {
+        name: file.name,
+        size: file.size,
+        type: file.type,
+      };
 
-    await getSmtpTransporter().sendMail({
-      from,
-      to,
-      subject: "Novo feedback do Currículo Interativo UFSC",
-      text: message.trim(),
-      attachments,
+      if (file.size <= INLINE_FILE_MAX_BYTES) {
+        fileAttachment.base64 = buffer.toString("base64");
+      }
+    }
+
+    const firestore = getFirebaseAdminFirestore();
+    await firestore.collection("feedbacks").add({
+      message: message.trim(),
+      createdAt: FieldValue.serverTimestamp(),
+      status: "unread",
+      clientIp,
+      fileAttachment,
     });
 
     return NextResponse.json({ success: true });

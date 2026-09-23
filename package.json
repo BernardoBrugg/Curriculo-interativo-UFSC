@@ -9,10 +9,14 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
+    "ci:local": "scripts/ci-local.sh",
+    "hooks:install": "scripts/install-git-hooks.sh",
+    "prepare": "scripts/install-git-hooks.sh",
     "generate:curricula": "tsx scripts/generate-curricula.ts",
     "seed:curricula": "tsx scripts/seed-curricula.ts",
     "crawl:cagr": "tsx scripts/crawl-cagr.ts",
-    "fetch:sources": "tsx scripts/fetch-curricula-sources.ts"
+    "fetch:sources": "tsx scripts/fetch-curricula-sources.ts",
+    "report:monthly": "tsx scripts/send-monthly-report.ts"
   },
   "engines": {
     "node": ">=20.9.0"

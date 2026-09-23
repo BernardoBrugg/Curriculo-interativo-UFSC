@@ -1,5 +1,5 @@
 {
-  "program": "CIÊNCIA E TECNOLOGIA DE ALIMENTOS",
+  "program": "Ciência e Tecnologia de Alimentos",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2024.1",
   "totalHours": 3852,
@@ -1837,7 +1837,6 @@
       "QMC5150",
       "CAL5554",
       "FSC7118",
-      "MOR5226",
       "MOR5227",
       "MOR5228",
       "MTM3181",
@@ -1853,26 +1852,19 @@
       "QMC5230",
       "QMC5238",
       "QMC5307",
-      "QMC5451",
       "QMC5454",
       "QMC5461",
       "CAL5004",
-      "CAL5401",
       "CAL5421",
       "CAL5504",
-      "CAL5505",
-      "CAL5507",
       "CAL5527",
       "CAL5565",
       "QMC5351",
-      "CAL5502",
       "CAL5526",
       "CAL5562",
       "CAL5580",
       "INE5131",
       "NTR5634",
-      "CAL5124",
-      "CAL5402",
       "CAL5408",
       "CAL5422",
       "CAL5523",
@@ -1892,7 +1884,7 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 252,
         "sources": [
           {
@@ -1922,15 +1914,37 @@
               "FIT5922",
               "FIT5923",
               "LSB7244",
-              "PSI5112"
+              "PSI5112",
+              "CAL5401",
+              "CAL5505",
+              "CAL5507",
+              "CAL5502",
+              "CAL5124",
+              "CAL5402",
+              "QMC5451",
+              "MOR5226"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 90
+          }
+        ]
+      },
+      {
+        "id": "extension-actions",
+        "name": "Ações de extensão e complementares",
+        "requiredHours": 162,
+        "sources": [
+          {
+            "id": "extension-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 162,
+            "manualLabel": "Horas de extensão e complementares"
           }
         ]
       }

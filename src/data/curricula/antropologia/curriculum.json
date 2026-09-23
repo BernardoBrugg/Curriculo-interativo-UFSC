@@ -1163,12 +1163,27 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ANT7101"
+        "ANT7101",
+        "ANT7202",
+        "ANT7210"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "ANT7101"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ANT7101"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7202"
+          },
+          {
+            "kind": "course",
+            "code": "ANT7210"
+          }
+        ]
       },
       "syllabus": "Disciplina voltada ao aprofundamento de temas e questões especificas da Antropologia. É pré-requisito para esta disciplina a aprovação em todas as disciplinas obrigatórias da primeira fase."
     },

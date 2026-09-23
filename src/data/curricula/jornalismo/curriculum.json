@@ -1,5 +1,5 @@
 {
-  "program": "JORNALISMO",
+  "program": "Jornalismo",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2020.1",
   "totalHours": 3600,
@@ -1838,8 +1838,8 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
-        "requiredHours": 324,
+        "name": "Disciplinas optativas",
+        "requiredHours": 432,
         "sources": [
           {
             "id": "electives-catalogue",
@@ -1881,10 +1881,10 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 180
+            "maxHours": 144
           }
         ]
       }

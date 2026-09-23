@@ -1,7 +1,7 @@
 {
-  "program": "FISIOTERAPIA [Campus Araranguá]",
+  "program": "Fisioterapia",
   "institution": "Universidade Federal de Santa Catarina",
-  "version": "Matriz 2016.1",
+  "version": "Matriz 2011.1",
   "totalHours": 4824,
   "phases": [
     {
@@ -3054,13 +3054,12 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
+        "name": "Disciplinas optativas",
         "requiredHours": 234,
         "sources": [
           {
             "id": "electives-catalogue",
             "courseIds": [
-              "DFT2100",
               "CIT7137",
               "CIT7201",
               "CIT7203",
@@ -3091,10 +3090,30 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
             "maxHours": 180
+          }
+        ]
+      },
+      {
+        "id": "complementary",
+        "name": "Atividades complementares",
+        "requiredHours": 162,
+        "sources": [
+          {
+            "id": "complementary-course",
+            "courseIds": [
+              "DFT2100"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "complementary-manual",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 162
           }
         ]
       }

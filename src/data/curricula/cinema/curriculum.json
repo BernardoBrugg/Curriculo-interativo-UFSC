@@ -1225,7 +1225,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA5010"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5010"
+      },
       "syllabus": "Técnicas de acompanhamento musical de filmes e demais produtos audiovisuais. Análise de modelos de composição para cinema. Trilha sonora para novas mídias."
     },
     {
@@ -1237,7 +1243,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA5020"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5020"
+      },
       "syllabus": "Os recursos tecnológicos utilizados na produção audiovisual. Evolução histórica dos equipamentos, o estado atual da tecnologia e seu emprego."
     },
     {
@@ -1249,7 +1261,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA5023"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5023"
+      },
       "syllabus": "Os processos de comunicação humana. Estudo do signo. Semiótica como ciência. Contribuições interdisciplinares para a Teoria da Comunicação. O mundo e sua imagem. As simbologias das linguagens audiovisuais. O Cinema e os estudos semióticos."
     },
     {
@@ -1261,7 +1279,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA5100"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5100"
+      },
       "syllabus": "Técnicas de manipulação da imagem fotográfica. Processos fotoquímicos e digitais de intervenção artística."
     },
     {
@@ -1273,7 +1297,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA5105"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5105"
+      },
       "syllabus": "Tópicos de história do teatro, do surgimento na Grécia ao período elisabetano. Evolução das formas de representação e da estrutura cênica. Noções fundamentais: personagem, ação dramática, conflito. Texto teatral e encenação. O teatro épico."
     },
     {
@@ -1285,7 +1315,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA5106"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5106"
+      },
       "syllabus": "Os múltiplos espaços e sentidos do termo cultura. A cultura como processo ativo de representações sociais. Cultura como local de construção de subjetividades. Relações étnico-raciais dentro da história e cultura afro-brasileiras, africanas e indígenas. Estudos Culturais e direitos humanos. Estudos Culturais e o Cinema."
     },
     {
@@ -1297,7 +1333,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA5107"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5107"
+      },
       "syllabus": "Conceitos de experiência. O inenarrável. Imagem. Narrativa na imagem. Narrativa e tempo. Narrativa e experiência. Narrativa e infância. Narrativa e horror. Personagem. Focalização."
     },
     {
@@ -1308,8 +1350,30 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "ART5112",
+        "CMA5113"
+      ],
+      "equivalents": [
+        "CMA5201"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5112"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5113"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5201"
+      },
       "syllabus": "O literário e o fílmico como indizíveis, irredutíveis à linguagem – equiparação ao poético. A impossibilidade das adaptações. Leituras (não fenomenológicas) de filmes, contos e romances por fora de qualquer conceito de adaptação. Adoção. Conceitos de ficção. O literário e o fílmico enquanto resistência política. Cinema e poesia. Cinema, literatura e identidade nacional."
     },
     {
@@ -1320,8 +1384,30 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "ART5112",
+        "CMA5113"
+      ],
+      "equivalents": [
+        "CMA5312"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ART5112"
+          },
+          {
+            "kind": "course",
+            "code": "CMA5113"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5312"
+      },
       "syllabus": "O problema da identidade nacional. Questionamento dos pressupostos segundo os quais um cinema e uma literatura são ditos “brasileiros”. Relações entre produções de cinema e de literatura no Brasil, por fora da restritividade do conceito de adaptação. O ensaísmo de construção da identidade nacional brasileira: projetos (estéticos) de nação. Sertões, cidades, mares, favelas. Regionalismo. Inserções do Brasil."
     },
     {
@@ -1334,11 +1420,21 @@
       "type": "Op",
       "prerequisites": [],
       "equivalents": [
-        "CMA5503"
+        "CMA5503",
+        "PSI7302"
       ],
       "equivalentExpression": {
-        "kind": "course",
-        "code": "CMA5503"
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "CMA5503"
+          },
+          {
+            "kind": "course",
+            "code": "PSI7302"
+          }
+        ]
       },
       "syllabus": "Diferentes paradigmas sobre o sujeito e a personalidade humana. Modernidade e processos de subjetivação nas obras cinematográficas. Teorias do sujeito e criação de personagens para dramaturgia audiovisual."
     },
@@ -1351,7 +1447,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "CMA5603"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "CMA5603"
+      },
       "syllabus": "Teorias e métodos para a análise de produções audiovisuais. O campo específico do cinema, da televisão e das novas mídias e sua interrelação."
     },
     {
@@ -1697,24 +1799,14 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ART5090",
         "CMA5803"
       ],
       "equivalents": [
         "CMA5804"
       ],
       "prerequisiteExpression": {
-        "kind": "all",
-        "requirements": [
-          {
-            "kind": "course",
-            "code": "ART5090"
-          },
-          {
-            "kind": "course",
-            "code": "CMA5803"
-          }
-        ]
+        "kind": "course",
+        "code": "CMA5803"
       },
       "equivalentExpression": {
         "kind": "course",
@@ -1731,24 +1823,14 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ART5091",
         "CMA5804"
       ],
       "equivalents": [
         "CMA5805"
       ],
       "prerequisiteExpression": {
-        "kind": "all",
-        "requirements": [
-          {
-            "kind": "course",
-            "code": "ART5091"
-          },
-          {
-            "kind": "course",
-            "code": "CMA5804"
-          }
-        ]
+        "kind": "course",
+        "code": "CMA5804"
       },
       "equivalentExpression": {
         "kind": "course",
@@ -1765,24 +1847,14 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ART5092",
         "CMA5805"
       ],
       "equivalents": [
         "CMA5806"
       ],
       "prerequisiteExpression": {
-        "kind": "all",
-        "requirements": [
-          {
-            "kind": "course",
-            "code": "ART5092"
-          },
-          {
-            "kind": "course",
-            "code": "CMA5805"
-          }
-        ]
+        "kind": "course",
+        "code": "CMA5805"
       },
       "equivalentExpression": {
         "kind": "course",

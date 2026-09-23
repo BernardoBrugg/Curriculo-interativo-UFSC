@@ -1,5 +1,5 @@
 {
-  "program": "ENGENHARIA AUTOMOTIVA [Campus Joinville]",
+  "program": "Engenharia Automotiva",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2025.1",
   "totalHours": 4410,
@@ -2265,8 +2265,8 @@
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
-        "requiredHours": 144,
+        "name": "Disciplinas optativas",
+        "requiredHours": 90,
         "sources": [
           {
             "id": "electives-catalogue",
@@ -2314,10 +2314,10 @@
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
-            "maxHours": 144
+            "maxHours": 90
           }
         ]
       }

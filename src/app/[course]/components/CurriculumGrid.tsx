@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useCallback, useSyncExternalStore } from "react";
+import { useMemo, useState, useCallback, useEffect, useRef, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import {
   DndContext,
@@ -19,7 +19,6 @@ import { Course, CourseStatus, PhaseInfo } from "@/types/curriculum";
 import { CourseCard } from "./CourseCard";
 import { CourseDetailModal } from "./CourseDetailModal";
 import { CurriculumFilter } from "./CurriculumFilters";
-import { useDragScroll } from "@/hooks/useDragScroll";
 import { useDragTutorial } from "@/hooks/useDragTutorial";
 import { getDropTargetLabel } from "@/lib/drag-copy";
 import { sumCourseCredits } from "@/lib/curriculum-stats";
@@ -64,7 +63,9 @@ export function CurriculumGrid({
   onSetStatus,
   onMoveCourse,
 }: CurriculumGridProps) {
-  const { ref: scrollRef, isDragging, events } = useDragScroll<HTMLDivElement>();
+  const gridContainerRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
   const { isVisible: isTutorialVisible, dismiss: dismissTutorial } = useDragTutorial();
   const isMounted = useSyncExternalStore(
     () => () => {},
@@ -80,10 +81,42 @@ export function CurriculumGrid({
   const [moveConfirmation, setMoveConfirmation] = useState<string | null>(null);
   const [modalCourse, setModalCourse] = useState<Course | null>(null);
 
-  const scrollEvents = useMemo(
-    () => (activeCourseId ? {} : events),
-    [activeCourseId, events]
-  );
+  const checkScrollability = useCallback(() => {
+    const element = gridContainerRef.current;
+    if (!element) return;
+    const hasOverflow = element.scrollWidth > element.clientWidth + 5;
+    setCanScrollLeft(element.scrollLeft > 10);
+    setCanScrollRight(hasOverflow && element.scrollLeft < element.scrollWidth - element.clientWidth - 10);
+  }, []);
+
+  useEffect(() => {
+    const element = gridContainerRef.current;
+    if (!element) return;
+
+    checkScrollability();
+    element.addEventListener("scroll", checkScrollability, { passive: true });
+
+    let resizeObserver: ResizeObserver | null = null;
+    if (typeof ResizeObserver !== "undefined") {
+      resizeObserver = new ResizeObserver(checkScrollability);
+      resizeObserver.observe(element);
+    }
+
+    return () => {
+      element.removeEventListener("scroll", checkScrollability);
+      resizeObserver?.disconnect();
+    };
+  }, [checkScrollability, phases, courses]);
+
+  const handleNavigate = useCallback((direction: "left" | "right") => {
+    const element = gridContainerRef.current;
+    if (!element) return;
+    const scrollStep = Math.max(280, Math.floor(element.clientWidth * 0.7));
+    element.scrollBy({
+      left: direction === "left" ? -scrollStep : scrollStep,
+      behavior: "smooth",
+    });
+  }, []);
 
   const sensors = useSensors(
     useSensor(MouseSensor, {
@@ -92,14 +125,6 @@ export function CurriculumGrid({
       },
     })
   );
-
-  const scrollLeft = () => {
-    if (scrollRef.current) scrollRef.current.scrollBy({ left: -300, behavior: "smooth" });
-  };
-
-  const scrollRight = () => {
-    if (scrollRef.current) scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
-  };
 
   const courseMap = useMemo(() => {
     const map = new Map<string, Course>();
@@ -220,19 +245,47 @@ export function CurriculumGrid({
                 Clique no cartão para atualizar o status ou arraste para outro semestre.
               </p>
             </div>
-            <div className="flex flex-wrap items-center gap-2 text-xs text-[var(--text-muted)]">
-              <span className="inline-flex items-center gap-1.5">
-                <span className="h-3 w-1 rounded-sm bg-[var(--color-type-ob)]" />
-                Obrigatória
-              </span>
-              <span className="inline-flex items-center gap-1.5">
-                <span className="h-3 w-1 rounded-sm bg-[var(--color-type-op)]" />
-                Optativa do curso
-              </span>
-              <span className="inline-flex items-center gap-1.5">
-                <span className="h-3 w-1 rounded-sm bg-[var(--color-type-free-op)]" />
-                Optativa livre
-              </span>
+            <div className="flex flex-wrap items-center gap-3">
+              <div className="hidden md:flex items-center gap-1.5 rounded-xl border border-[var(--glass-border)] bg-[var(--glass-muted)] p-1">
+                <button
+                  type="button"
+                  onClick={() => handleNavigate("left")}
+                  disabled={!canScrollLeft}
+                  aria-label="Semestres anteriores"
+                  className="inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-semibold text-[var(--text-strong)] transition hover:bg-[var(--glass-strong)] disabled:cursor-not-allowed disabled:opacity-30"
+                >
+                  <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
+                  </svg>
+                  <span>Anterior</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleNavigate("right")}
+                  disabled={!canScrollRight}
+                  aria-label="Próximos semestres"
+                  className="inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-semibold text-[var(--text-strong)] transition hover:bg-[var(--glass-strong)] disabled:cursor-not-allowed disabled:opacity-30"
+                >
+                  <span>Próximo</span>
+                  <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+              <div className="flex flex-wrap items-center gap-2 text-xs text-[var(--text-muted)]">
+                <span className="inline-flex items-center gap-1.5">
+                  <span className="h-3 w-1 rounded-sm bg-[var(--color-type-ob)]" />
+                  Obrigatória
+                </span>
+                <span className="inline-flex items-center gap-1.5">
+                  <span className="h-3 w-1 rounded-sm bg-[var(--color-type-op)]" />
+                  Optativa do curso
+                </span>
+                <span className="inline-flex items-center gap-1.5">
+                  <span className="h-3 w-1 rounded-sm bg-[var(--color-type-free-op)]" />
+                  Optativa livre
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -277,31 +330,37 @@ export function CurriculumGrid({
           ))}
         </div>
 
-        <div className="relative group mx-auto max-w-[1920px]">
-          <button
-            onClick={scrollLeft}
-            aria-label="Rolar para a esquerda"
-            className="absolute left-0 top-1/2 z-20 -translate-x-4 -translate-y-1/2 hidden h-11 w-11 items-center justify-center rounded-full border border-[var(--glass-border)] bg-[var(--glass-surface)] text-[var(--text-strong)] shadow-lg backdrop-blur transition duration-300 hover:scale-110 hover:bg-[var(--glass-strong)] hover:border-[var(--glass-border)]/80 focus:outline-none focus:ring-2 focus:ring-[var(--accent)] md:flex opacity-0 group-hover:opacity-100"
-          >
-            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
+        <div className="relative mx-auto max-w-[1920px]">
+          {canScrollLeft && (
+            <button
+              type="button"
+              onClick={() => handleNavigate("left")}
+              aria-label="Rolar para a esquerda"
+              className="absolute left-2 top-1/2 z-30 -translate-y-1/2 hidden h-11 w-11 items-center justify-center rounded-full border border-[var(--glass-border)] bg-[var(--glass-strong)] text-[var(--text-strong)] shadow-2xl backdrop-blur-md transition duration-200 hover:scale-105 hover:border-[var(--accent)] hover:bg-[var(--glass-surface)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] md:flex"
+            >
+              <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+          )}
 
-          <button
-            onClick={scrollRight}
-            aria-label="Rolar para a direita"
-            className="absolute right-0 top-1/2 z-20 translate-x-4 -translate-y-1/2 hidden h-11 w-11 items-center justify-center rounded-full border border-[var(--glass-border)] bg-[var(--glass-surface)] text-[var(--text-strong)] shadow-lg backdrop-blur transition duration-300 hover:scale-110 hover:bg-[var(--glass-strong)] hover:border-[var(--glass-border)]/80 focus:outline-none focus:ring-2 focus:ring-[var(--accent)] md:flex opacity-0 group-hover:opacity-100"
-          >
-            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
+          {canScrollRight && (
+            <button
+              type="button"
+              onClick={() => handleNavigate("right")}
+              aria-label="Rolar para a direita"
+              className="absolute right-2 top-1/2 z-30 -translate-y-1/2 hidden h-11 w-11 items-center justify-center rounded-full border border-[var(--glass-border)] bg-[var(--glass-strong)] text-[var(--text-strong)] shadow-2xl backdrop-blur-md transition duration-200 hover:scale-105 hover:border-[var(--accent)] hover:bg-[var(--glass-surface)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] md:flex"
+            >
+              <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          )}
 
           <div
-            ref={scrollRef}
-            {...scrollEvents}
-            className={`max-w-full overflow-x-hidden md:overflow-x-auto pb-4 md:[scrollbar-gutter:stable] ${isDragging ? "md:cursor-grabbing md:select-none" : "md:cursor-grab"}`}
+            ref={gridContainerRef}
+            data-testid="curriculum-grid-container"
+            className="max-w-full overflow-x-auto pb-4 scroll-smooth md:[scrollbar-gutter:stable]"
           >
             <div className="flex flex-col md:flex-row md:min-w-max gap-4 md:gap-3 p-3 md:pr-6">
               {phases.map((phase) => {
@@ -420,11 +479,10 @@ function PhaseColumn({
 
   const phaseTitle = phase.number === 0 ? "Optativas" : phase.name || `Semestre ${phase.number}`;
 
-  const isScrollable = phase.number === 0 || phaseCourses.length > 10;
-
   return (
     <div
       ref={setNodeRef}
+      data-phase-column="true"
       aria-label={`${phaseTitle}, ${phaseStats.total} disciplinas`}
       className={`flex w-full md:w-[260px] shrink-0 flex-col rounded-2xl border ${
         isOver ? "border-[var(--accent)] bg-[var(--accent-soft)] shadow-lg" : "border-[var(--glass-border)]"
@@ -453,11 +511,7 @@ function PhaseColumn({
         </div>
       </div>
 
-      <div
-        className={`relative z-10 flex flex-col gap-2 p-2 min-h-[100px] ${
-          isScrollable ? "max-h-[620px] overflow-y-auto [scrollbar-gutter:stable]" : ""
-        }`}
-      >
+      <div className="relative z-10 flex flex-col gap-2 p-2 min-h-[100px]">
         {phaseCourses.map((course) => {
           const isSelected = selectedId === course.id;
           const isPrereq = prerequisites.has(course.id);

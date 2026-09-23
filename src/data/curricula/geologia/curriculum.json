@@ -1,5 +1,5 @@
 {
-  "program": "GEOLOGIA",
+  "program": "Geologia",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2018.1",
   "totalHours": 4752,
@@ -1492,7 +1492,7 @@
         ]
       },
       "equivalentExpression": {
-        "kind": "any",
+        "kind": "all",
         "requirements": [
           {
             "kind": "course",
@@ -1536,7 +1536,7 @@
         ]
       },
       "equivalentExpression": {
-        "kind": "any",
+        "kind": "all",
         "requirements": [
           {
             "kind": "course",
@@ -1838,7 +1838,7 @@
         ]
       },
       "equivalentExpression": {
-        "kind": "any",
+        "kind": "all",
         "requirements": [
           {
             "kind": "course",
@@ -2229,7 +2229,13 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "GCN7137"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7137"
+      },
       "syllabus": "Minerais de alteração. Soluções aquosas. Cinética dos processos exógenos. Intemperismo. Argilominerais. Geoquímica de alteração de rochas e das águas superficiais. Geoquímica dos carbonatos. Processos supergênicos. Prospecção geoquímica."
     },
     {
@@ -2241,7 +2247,13 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "GCN7142"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7142"
+      },
       "syllabus": "Introdução ao Sistema de Informações Geográficas (SIG). Fundamentos teóricos; Modelos de dados espaciais. Estrutura de dados espaciais. Captura de dados e informações espaciais. Funções de um SIG. Modelagem de dados espaciais. Projetos de SIG (aplicações em geologia, exploração mineral, exploração de óleo e gás)."
     },
     {
@@ -2265,7 +2277,13 @@
       "phase": 0,
       "type": "Ob",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "GCN7139"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7139"
+      },
       "syllabus": "Evolução dinâmica do Planeta Terra. Abordagem das diversas teorias e evidências acerca da evolução da vida. Noções sobre métodos de datação de rochas e minerais. Conhecimento das principais características dos Eons, Eras e Períodos do Tempo geológico."
     },
     {
@@ -2679,8 +2697,20 @@
       "hours": 54,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "DGL7115"
+      ],
+      "equivalents": [
+        "GCN7523"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7115"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7523"
+      },
       "syllabus": "Conceituação inicial. Classificação e gênese. Especificações, usos e aplicações dos bens minerais. Trabalho de campo: visita a ocorrências, depósitos, jazidas e minas. Aulas de campo."
     },
     {
@@ -2691,8 +2721,29 @@
       "hours": 36,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7116",
+        "GCN7120",
+        "GCN7131"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7116"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7120"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7131"
+          }
+        ]
+      },
       "syllabus": "Metálicos GCN7115) eh Introdução do curso. Usos, disponibilidade e importância dos recursos energéticos. Relação entre as fontes de energia renováveis e não-renováveis. Situação mundial das fontes de energia não-renováveis. Petróleo e gás natural. Carvão mineral e turfa. Fertilizantes. Energia nuclear. Energia hidroelétrica e das ondas. Energia Geotérmica. Energia eólica, Energia solar, Energia Termoelétrica e Biomassa, Biocombustíveis."
     },
     {
@@ -2703,11 +2754,27 @@
       "hours": 72,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7137",
+        "GCN7157"
+      ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "hours",
-        "hours": 7141
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7137"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7157"
+          },
+          {
+            "kind": "hours",
+            "hours": 7141
+          }
+        ]
       },
       "prerequisiteHours": 7141,
       "syllabus": "Ocorrência das águas subterrâneas. Definição e conceitos básicos dos sistemas aquíferos. Hidrodinâmica subterrânea. Hidráulica de poços. Determinação das condições de explotação de poços. Obras de captação de água subterrânea. Locação de poço tubular. Qualidade das águas subterrâneas. Hidrogeologia regional. Hidrogeoquímica. Práticas de laboratório e Aulas de Campo."
@@ -2720,8 +2787,35 @@
       "hours": 72,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "GCN7110",
+        "GCN7124",
+        "GCN7142"
+      ],
+      "equivalents": [
+        "GCN7132"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7110"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7124"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7142"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7132"
+      },
       "syllabus": ""
     },
     {
@@ -2732,8 +2826,40 @@
       "hours": 72,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "GCN7116",
+        "GCN7118",
+        "GCN7120",
+        "GCN7131"
+      ],
+      "equivalents": [
+        "GCN7139"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7116"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7118"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7120"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7131"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7139"
+      },
       "syllabus": ""
     },
     {
@@ -2744,8 +2870,50 @@
       "hours": 72,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "FSC5071",
+        "GCN7117",
+        "GCN7121",
+        "GCN7126",
+        "GCN7133",
+        "GCN7136"
+      ],
+      "equivalents": [
+        "GCN7144"
+      ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5071"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7117"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7121"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7126"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7133"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7136"
+          }
+        ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7144"
+      },
       "syllabus": ""
     },
     {
@@ -2756,8 +2924,39 @@
       "hours": 72,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7115",
+        "GCN7121",
+        "GCN7126",
+        "GCN7133",
+        "GCN7137"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7115"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7121"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7126"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7133"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7137"
+          }
+        ]
+      },
       "syllabus": ""
     },
     {
@@ -2768,8 +2967,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7115"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7115"
+      },
       "syllabus": ""
     },
     {
@@ -3802,10 +4007,46 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DGL7510",
+        "GCN7510",
+        "DGL7516",
+        "GCN7516"
+      ],
       "equivalents": [
         "GCN7138"
       ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7510"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7510"
+              }
+            ]
+          },
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7516"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7516"
+              }
+            ]
+          }
+        ]
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "GCN7138"
@@ -3820,10 +4061,26 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DGL7520",
+        "GCN7520"
+      ],
       "equivalents": [
         "GCN7145"
       ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7520"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7520"
+          }
+        ]
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "GCN7145"
@@ -3838,10 +4095,16 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DGL7507"
+      ],
       "equivalents": [
         "GCN7146"
       ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7507"
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "GCN7146"
@@ -3856,10 +4119,16 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DGL7125"
+      ],
       "equivalents": [
         "GCN7149"
       ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7125"
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "GCN7149"
@@ -3874,10 +4143,36 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DGL7127",
+        "GCN7127",
+        "GCN7137"
+      ],
       "equivalents": [
         "GCN7154"
       ],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "DGL7127"
+              },
+              {
+                "kind": "course",
+                "code": "GCN7127"
+              }
+            ]
+          },
+          {
+            "kind": "course",
+            "code": "GCN7137"
+          }
+        ]
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "GCN7154"
@@ -3910,10 +4205,26 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DGL7140",
+        "GCN7140"
+      ],
       "equivalents": [
         "GCN7162"
       ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7140"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7140"
+          }
+        ]
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "GCN7162"
@@ -3928,10 +4239,26 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DGL7140",
+        "GCN7140"
+      ],
       "equivalents": [
         "GCN7163"
       ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7140"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7140"
+          }
+        ]
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "GCN7163"
@@ -3946,10 +4273,26 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DGL7151",
+        "GCN7151"
+      ],
       "equivalents": [
         "GCN7164"
       ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7151"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7151"
+          }
+        ]
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "GCN7164"
@@ -3964,10 +4307,16 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DGL7151"
+      ],
       "equivalents": [
         "GCN7165"
       ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7151"
+      },
       "equivalentExpression": {
         "kind": "course",
         "code": "GCN7165"
@@ -3983,14 +4332,24 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "DGL7155"
+        "DGL7155",
+        "GCN7155"
       ],
       "equivalents": [
         "GCN7166"
       ],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "DGL7155"
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7155"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7155"
+          }
+        ]
       },
       "equivalentExpression": {
         "kind": "course",
@@ -4025,15 +4384,25 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "DGL7155"
+        "DGL7155",
+        "GCN7155"
       ],
       "equivalents": [
         "GCN7156",
         "GCN7168"
       ],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "DGL7155"
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7155"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7155"
+          }
+        ]
       },
       "equivalentExpression": {
         "kind": "any",
@@ -4059,14 +4428,24 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "DGL7127"
+        "DGL7127",
+        "DGL7512"
       ],
       "equivalents": [
         "GCN7176"
       ],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "DGL7127"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7127"
+          },
+          {
+            "kind": "course",
+            "code": "DGL7512"
+          }
+        ]
       },
       "equivalentExpression": {
         "kind": "course",
@@ -4083,14 +4462,24 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "DGL7511"
+        "DGL7511",
+        "FSC5071"
       ],
       "equivalents": [
         "GCN7178"
       ],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "DGL7511"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7511"
+          },
+          {
+            "kind": "course",
+            "code": "FSC5071"
+          }
+        ]
       },
       "equivalentExpression": {
         "kind": "course",
@@ -4131,14 +4520,24 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "DGL7180"
+        "DGL7180",
+        "GCN7180"
       ],
       "equivalents": [
         "GCN7181"
       ],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "DGL7180"
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7180"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7180"
+          }
+        ]
       },
       "equivalentExpression": {
         "kind": "course",
@@ -4155,15 +4554,25 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "DGL7508"
+        "DGL7508",
+        "GCN7508"
       ],
       "equivalents": [
         "GCN7122",
         "GCN7526"
       ],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "DGL7508"
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7508"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7508"
+          }
+        ]
       },
       "equivalentExpression": {
         "kind": "any",
@@ -4189,15 +4598,25 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "DGL7158"
+        "DGL7158",
+        "GCN7158"
       ],
       "equivalents": [
         "GCN7159",
         "GCN7527"
       ],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "DGL7158"
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "DGL7158"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7158"
+          }
+        ]
       },
       "equivalentExpression": {
         "kind": "any",
@@ -4240,8 +4659,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "DGL7505"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "DGL7505"
+      },
       "syllabus": "De acordo com o programa do tema especial apresentado ao Colegiado para aprovação. Pode ser validada pelo coordenador do curso, mediante a análise da documentação apresentada, segundo a resolução específica."
     },
     {
@@ -4538,8 +4963,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7115"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7115"
+      },
       "syllabus": ""
     },
     {
@@ -4551,7 +4982,8 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "GCN7111"
+        "GCN7111",
+        "GCN7112"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
@@ -4560,6 +4992,10 @@
           {
             "kind": "course",
             "code": "GCN7111"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7112"
           },
           {
             "kind": "hours",
@@ -4579,12 +5015,42 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "GCN7111"
+        "GCN7111",
+        "GCN7112",
+        "GCN7119",
+        "GCN7126",
+        "MTM3101",
+        "MTM3102"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "GCN7111"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7111"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7112"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7119"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7126"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3101"
+          },
+          {
+            "kind": "course",
+            "code": "MTM3102"
+          }
+        ]
       },
       "syllabus": "Geologia aplicada à engenharia em obras de contenção, barragens de terra, barragem de concreto, fundações, túneis estradas e aeroportos. Relatórios Geológicos-Geotécnicos."
     },
@@ -4597,12 +5063,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "GCN7120"
+        "GCN7120",
+        "GCN7131"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "GCN7120"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7120"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7131"
+          }
+        ]
       },
       "syllabus": ""
     },
@@ -4614,8 +5090,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7120"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7120"
+      },
       "syllabus": ""
     },
     {
@@ -4644,8 +5126,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7135"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7135"
+      },
       "syllabus": "Vulcânicas GCN7131)"
     },
     {
@@ -4657,12 +5145,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "GCN7127"
+        "GCN7127",
+        "GCN7137"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "GCN7127"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "GCN7127"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7137"
+          }
+        ]
       },
       "syllabus": ""
     },
@@ -4674,8 +5172,14 @@
       "hours": 1,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7150"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7150"
+      },
       "syllabus": ""
     },
     {
@@ -4686,8 +5190,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7140"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7140"
+      },
       "syllabus": ""
     },
     {
@@ -4698,8 +5208,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7140"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7140"
+      },
       "syllabus": ""
     },
     {
@@ -4710,8 +5226,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7151"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7151"
+      },
       "syllabus": ""
     },
     {
@@ -4722,8 +5244,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7151"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7151"
+      },
       "syllabus": ""
     },
     {
@@ -4734,8 +5262,14 @@
       "hours": 180,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7155"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7155"
+      },
       "syllabus": ""
     },
     {
@@ -4771,12 +5305,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "FSC5071"
+        "FSC5071",
+        "GCN7121"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "FSC5071"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "FSC5071"
+          },
+          {
+            "kind": "course",
+            "code": "GCN7121"
+          }
+        ]
       },
       "syllabus": ""
     },
@@ -4806,8 +5350,14 @@
       "hours": 126,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7180"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7180"
+      },
       "syllabus": "Aplicados a Problemas Ambientais GCN7143 eh"
     },
     {
@@ -4818,8 +5368,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "GCN7118"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7118"
+      },
       "syllabus": ""
     },
     {
@@ -4830,8 +5386,20 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [],
+      "prerequisites": [
+        "GCN7158"
+      ],
+      "equivalents": [
+        "GCN7159"
+      ],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "GCN7158"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "GCN7159"
+      },
       "syllabus": ""
     },
     {
@@ -5023,9 +5591,6 @@
       "DGL7211",
       "DGL7213",
       "FSC5101",
-      "GCN7110",
-      "GCN7211",
-      "GCN7213",
       "INE7302",
       "MTM3100",
       "MTM3101",
@@ -5035,8 +5600,6 @@
       "DGL7505",
       "ECV5131",
       "FSC5002",
-      "GCN7112",
-      "GCN7505",
       "INE5113",
       "MTM3102",
       "QMC5404",
@@ -5046,12 +5609,6 @@
       "DGL7508",
       "DGL7509",
       "FSC5113",
-      "GCN7115",
-      "GCN7157",
-      "GCN7506",
-      "GCN7507",
-      "GCN7508",
-      "GCN7509",
       "DGL7127",
       "DGL7510",
       "DGL7511",
@@ -5059,13 +5616,6 @@
       "DGL7513",
       "DGL7514",
       "DGL7515",
-      "GCN7127",
-      "GCN7510",
-      "GCN7511",
-      "GCN7512",
-      "GCN7513",
-      "GCN7514",
-      "GCN7515",
       "DGL7125",
       "DGL7133",
       "DGL7136",
@@ -5077,44 +5627,125 @@
       "DGL7521",
       "DGL7522",
       "DGL7523",
-      "GCN7125",
-      "GCN7133",
-      "GCN7136",
-      "GCN7516",
-      "GCN7517",
-      "GCN7518",
-      "GCN7519",
       "DGL7520",
       "DGL7524",
-      "GCN7140",
-      "GCN7141",
-      "GCN7520",
-      "GCN7521",
-      "GCN7522",
-      "GCN7523",
-      "GCN7524",
       "DGL7151",
       "DGL7152",
       "DGL7155",
       "DGL7158",
-      "GCN7151",
-      "GCN7152",
-      "GCN7155",
-      "GCN7158",
-      "GCN7525",
       "DGL7156",
       "DGL7160",
-      "GCN7156",
-      "GCN7160",
       "DGL7182",
-      "GCN7182",
       "DGL7183",
-      "GCN7183",
       "LSB7904",
       "DGL7175",
       "DGL7180"
     ],
-    "requirements": []
+    "requirements": [
+      {
+        "id": "electives",
+        "name": "Disciplinas optativas",
+        "requiredHours": 360,
+        "sources": [
+          {
+            "id": "electives-catalogue",
+            "courseIds": [
+              "DGL7525",
+              "DGL7004",
+              "DGL7012",
+              "DGL7014",
+              "DGL7123",
+              "DGL7130",
+              "DGL7135",
+              "DGL7138",
+              "DGL7145",
+              "DGL7146",
+              "DGL7149",
+              "DGL7154",
+              "DGL7161",
+              "DGL7162",
+              "DGL7163",
+              "DGL7164",
+              "DGL7165",
+              "DGL7166",
+              "DGL7167",
+              "DGL7168",
+              "DGL7176",
+              "DGL7178",
+              "DGL7179",
+              "DGL7181",
+              "DGL7526",
+              "DGL7527",
+              "DGL7528",
+              "DGL7529",
+              "DGL7915",
+              "DGL7927",
+              "DGL7928",
+              "DGL7939",
+              "DIR5555",
+              "DIR5933",
+              "DIR5934",
+              "ECZ5102",
+              "ENR5516",
+              "GCN5206",
+              "GCN7004",
+              "GCN7012",
+              "GCN7014",
+              "GCN7123",
+              "GCN7130",
+              "GCN7135",
+              "GCN7138",
+              "GCN7145",
+              "GCN7146",
+              "GCN7149",
+              "GCN7154",
+              "GCN7161",
+              "GCN7162",
+              "GCN7163",
+              "GCN7164",
+              "GCN7165",
+              "GCN7166",
+              "GCN7167",
+              "GCN7176",
+              "GCN7178",
+              "GCN7179",
+              "GCN7181",
+              "GCN7526",
+              "GCN7527",
+              "GCN7528",
+              "GCN7530",
+              "GCN7700",
+              "GCN7915",
+              "GCN7927",
+              "GCN7928",
+              "GCN7939",
+              "QMC5206"
+            ],
+            "allowsManualHours": false
+          },
+          {
+            "id": "free-electives",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 180
+          }
+        ]
+      },
+      {
+        "id": "complementary-extension",
+        "name": "Atividades complementares e de extensão",
+        "requiredHours": 288,
+        "sources": [
+          {
+            "id": "complementary-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 288,
+            "manualLabel": "Horas de atividades complementares e extensão"
+          }
+        ]
+      }
+    ]
   },
   "source": {
     "kind": "official-cagr-report",

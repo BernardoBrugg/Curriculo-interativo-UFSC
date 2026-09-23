@@ -1674,8 +1674,24 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5403",
+        "INE5408"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5403"
+          },
+          {
+            "kind": "course",
+            "code": "INE5408"
+          }
+        ]
+      },
       "syllabus": "-Ementa Livre para assuntos relevantes na área de Algoritmos"
     },
     {
@@ -1686,8 +1702,29 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5423",
+        "INE5432",
+        "INE5616"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5423"
+          },
+          {
+            "kind": "course",
+            "code": "INE5432"
+          },
+          {
+            "kind": "course",
+            "code": "INE5616"
+          }
+        ]
+      },
       "syllabus": "- A ementa é livre, podendo cobrir quaisquer temas avançados em gerência de dados que não tenham sido ministradas em outras disciplinas da área de Banco de Dados (BD). Os objetivos específicos e tópicos podem variar, conforme a atualidade dos temas na área."
     },
     {
@@ -1698,8 +1735,24 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5417",
+        "INE5608"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "INE5417"
+          },
+          {
+            "kind": "course",
+            "code": "INE5608"
+          }
+        ]
+      },
       "syllabus": "Conceitos Básicos. Níveis de Testes. Tipos de Testes. Técnicas de Testes. Planejamento e Execução de Testes de Software. Desenvolvimento Orientado a Testes. Automação de Testes. Ferramentas de Testes."
     },
     {
@@ -1710,8 +1763,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5417"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5417"
+      },
       "syllabus": "O paradigma de orientação a componentes; componente; modelo de componente; estudo de um modelo de componente; modelagem de componente e de programa orientado a componentes com UML; prática de desenvolvimento baseada no paradigma de orientação a componentes."
     },
     {
@@ -1722,8 +1781,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5423"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5423"
+      },
       "syllabus": "Componentes com UML INE5608)"
     },
     {
@@ -1746,8 +1811,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5432"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5432"
+      },
       "syllabus": "Aplicações não-convencionais. Novos desafios de gerenciamento de dados. Bancos de dados pós-relacionais: categorias, conceitos, modelos de dados, manipulação de dados, modelagem"
     },
     {
@@ -1758,8 +1829,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5422"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5422"
+      },
       "syllabus": "Introdução à Administração de Redes (sistemas de administração de redes, fontes, e fluxos de informação para administração e objetivos estratégicos); Administração Inovadora de Redes; Tecnologias e Suporte à Administração de Redes (TMN do ITU-T, OSI/NM da ISO, SNMP da Internet ou assemelhadas); Forças do Mercado de Administração de Redes (gerência proprietária, redes locais, e redes heterogêneas); Tendências em Administração e Gerência de Redes. Avaliação de plataformas de gerência, segurança da gerência de redes."
     },
     {
@@ -1770,8 +1847,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5419"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5419"
+      },
       "syllabus": "Cognição humana, Semiótica Computacional; Critérios e recomendações ergonômicas; Engenharia de requisitos visando a usabilidade, Técnicas de Análise Ergonômica do Trabalho; Técnicas de Concepção e de Especificação funcional da tarefa interativa; Técnicas de Projeto e Especificação da interface com o usuário; Técnicas de Prototipagem Off-line e On-line; Técnicas de avaliações heurísticas; Técnicas de inspeções ergonômicas, Norma ISO 9241, Técnica de ensaios de interação."
     },
     {
@@ -1782,8 +1865,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5430"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5430"
+      },
       "syllabus": "Propriedades de agentes. Arquitetura de construção de agentes. Linguagens para programação de agentes. Estudo de casos de agentes implementados"
     },
     {
@@ -1794,8 +1883,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5422"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5422"
+      },
       "syllabus": "Computação Ubíqua; Sistemas de Comunicação sem Fios; Serviços de Localização e Posicionamento; Transações e Gestão da Informação em Operação Desligada; Interfaces para dispositivos de dimensão muito reduzida; Eng. de Sistemas de Informação para suporte à mobilidade."
     },
     {
@@ -1806,8 +1901,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5417"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5417"
+      },
       "syllabus": "Conceitos básicos. Os Ecossistemas de Informação. O Ciclo de Vida do DW: Planejamento e Administração, Levantameto de Requisitos, Modelagem Dimensional, Projeto Físico, o Back-Room e o Froon-Room, Metadados, Arquiteturas, Implementação, Segurança e Internet. Implantação, Suporte e Treinamento."
     },
     {
@@ -1818,8 +1919,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "INE5423"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "INE5423"
+      },
       "syllabus": "Considerações iniciais da área e aplicações. Processos de descoberta do conhecimento (KDD) em base de dados. Análise exploratória de dados. Tipos de variáveis, Técnicas de Data Mining para classificação, estimação, predição, análise de agrupamentos, análise de associação: redes neurais, árvores de decisão, regras de decisão, análise discriminante, regressão linear, regressão logística, análise de cluster, análise de componentes principais. Uso de softwares de data mining. Exercícios. Data Mining de caso."
     },
     {

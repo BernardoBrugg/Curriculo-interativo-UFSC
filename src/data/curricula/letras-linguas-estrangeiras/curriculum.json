@@ -1,5 +1,5 @@
 {
-  "program": "LETRAS ALEMÃO",
+  "program": "Letras - Alemão",
   "institution": "Universidade Federal de Santa Catarina",
   "version": "Matriz 2007.1",
   "totalHours": 3390,
@@ -1935,12 +1935,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "LLE7115"
+        "LLE7115",
+        "LLE7195"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "LLE7115"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7115"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7195"
+          }
+        ]
       },
       "syllabus": ""
     },
@@ -1952,8 +1962,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "LLE7195"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7195"
+      },
       "syllabus": ""
     },
     {
@@ -1977,12 +1993,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "LLE7115"
+        "LLE7115",
+        "LLE7195"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "LLE7115"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7115"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7195"
+          }
+        ]
       },
       "syllabus": ""
     },
@@ -1995,12 +2021,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "LLE7115"
+        "LLE7115",
+        "LLE7195"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "LLE7115"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "LLE7115"
+          },
+          {
+            "kind": "course",
+            "code": "LLE7195"
+          }
+        ]
       },
       "syllabus": ""
     },
@@ -2126,8 +2162,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
+      "prerequisites": [
+        "LLE7114"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7114"
+      },
       "syllabus": ""
     },
     {
@@ -2138,8 +2180,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Ob",
-      "prerequisites": [],
+      "prerequisites": [
+        "LLE7195"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "LLE7195"
+      },
       "syllabus": ""
     },
     {
@@ -2359,18 +2407,14 @@
       "MEN7048",
       "LLE7124",
       "LSB7904",
-      "MEN7049",
       "LLE7188",
-      "LLE7189",
-      "LLE7190",
-      "LLE7161",
-      "LLE7162"
+      "LLE7189"
     ],
     "requirements": [
       {
         "id": "electives",
-        "name": "Disciplinas optativas e complementares",
-        "requiredHours": 570,
+        "name": "Disciplinas optativas",
+        "requiredHours": 360,
         "sources": [
           {
             "id": "electives-catalogue",
@@ -2424,15 +2468,33 @@
               "LLE7904",
               "LLE7905",
               "LLE7906",
-              "LLE7198"
+              "LLE7198",
+              "MEN7049",
+              "LLE7190",
+              "LLE7161",
+              "LLE7162"
             ],
             "allowsManualHours": false
           },
           {
-            "id": "external-electives",
+            "id": "free-electives",
             "courseIds": [],
             "allowsManualHours": true,
             "maxHours": 180
+          }
+        ]
+      },
+      {
+        "id": "complementary-activities",
+        "name": "Atividades complementares (ACCs)",
+        "requiredHours": 240,
+        "sources": [
+          {
+            "id": "complementary-hours",
+            "courseIds": [],
+            "allowsManualHours": true,
+            "maxHours": 240,
+            "manualLabel": "Horas de atividades complementares"
           }
         ]
       }

@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, ReactNode, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import { EmailAuthProvider, GoogleAuthProvider, User, createUserWithEmailAndPassword, deleteUser, onAuthStateChanged, reauthenticateWithCredential, reauthenticateWithPopup, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut, updateEmail, updatePassword, updateProfile } from "firebase/auth";
+import { EmailAuthProvider, GoogleAuthProvider, User, createUserWithEmailAndPassword, deleteUser, onAuthStateChanged, reauthenticateWithCredential, reauthenticateWithPopup, signInWithEmailAndPassword, signInWithPopup, signOut, updateEmail, updatePassword, updateProfile } from "firebase/auth";
 import { firebaseAuth } from "@/lib/firebase";
 
 interface AuthContextValue {
@@ -42,8 +42,16 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const sendPasswordReset = useCallback(async (email: string) => {
-    firebaseAuth.languageCode = "pt-BR";
-    await sendPasswordResetEmail(firebaseAuth, email);
+    const response = await fetch("/api/auth/reset-password", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: email.trim() }),
+    });
+
+    if (!response.ok) {
+      const data = (await response.json().catch(() => null)) as { error?: string } | null;
+      throw new Error(data?.error ?? "auth/internal-error");
+    }
   }, []);
 
   const reauthenticate = useCallback(async (currentUser: User, password?: string) => {

@@ -1124,7 +1124,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "INE5647"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5647"
+      },
       "syllabus": "Ementa: Qualidade da informação e conhecimento; Informação como Produto; Definição da Qualidade da Informação; Medidas e Processos para Qualidade da Informação; Ferramentas para Medir Qualidade da Informação; análise de Qualidade de Dados; Conceitos de Data Quality; Data Enrichment; Data Cleasing; Metodologia TDQM (Total Data Quality Management); Processo de Extração e Transformação - Alterações à Estrutura de Dados; Processo de Assimilação do Conteúdo Gramatical; Processo de Comparação, Gestão de Dados."
     },
     {
@@ -1139,7 +1145,9 @@
         "INE5611",
         "INE5670"
       ],
-      "equivalents": [],
+      "equivalents": [
+        "INE5650"
+      ],
       "prerequisiteExpression": {
         "kind": "any",
         "requirements": [
@@ -1152,6 +1160,10 @@
             "code": "INE5670"
           }
         ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5650"
       },
       "syllabus": "Conceito de Web semântica. Bases da Web Semântica. Ontologias. Representação do conhecimento através de ontologias. Padrões da Web Semântica (RDF. OWL, etc.). Desenvolvimento, evolução e mediação de ontologias. Sistemas de informação baseados em ontologias. Aplicações."
     },
@@ -1178,10 +1190,16 @@
       "prerequisites": [
         "INE5625"
       ],
-      "equivalents": [],
+      "equivalents": [
+        "INE5641"
+      ],
       "prerequisiteExpression": {
         "kind": "course",
         "code": "INE5625"
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5641"
       },
       "syllabus": "Modelos de Comércio Eletrônico; Comércio Eletrônico e o Ambiente Empresarial; Aspectos de Comércio Eletrônico; Linguagens e Ambientes apropriados; Estrutura de Análise de Comércio Eletrônico; Situação Atual e Tendências."
     },
@@ -1297,7 +1315,9 @@
         "INE5601",
         "INE5609"
       ],
-      "equivalents": [],
+      "equivalents": [
+        "INE5312"
+      ],
       "prerequisiteExpression": {
         "kind": "all",
         "requirements": [
@@ -1310,6 +1330,10 @@
             "code": "INE5609"
           }
         ]
+      },
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "INE5312"
       },
       "syllabus": "Grafos e grafos orientados. Representação de problemas com grafos. Caminhos, ciclos e caminho de custo mínimo. Conexidade e alcançabilidade. Árvores e árvore de custo mínimo. Coloração e planaridade de grafos. Grafos hamiltonianos e eulerianos. Fluxo máximo em redes. Estabilidade e emparelhamento em grafos. Problemas de cobertura e de travessia. Representações computacionais e complexidade de algoritmos em grafos."
     },
@@ -1401,7 +1425,7 @@
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "any",
+        "kind": "all",
         "requirements": [
           {
             "kind": "course",

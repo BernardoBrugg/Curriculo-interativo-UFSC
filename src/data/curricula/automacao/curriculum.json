@@ -1791,8 +1791,75 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "MTM3120",
+        "MTM3121",
+        "MTM3112",
+        "MTM3102",
+        "MTM3111"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3121"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3112"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3120"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3111"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3121"
+              }
+            ]
+          },
+          {
+            "kind": "all",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "MTM3102"
+              },
+              {
+                "kind": "course",
+                "code": "MTM3112"
+              }
+            ]
+          }
+        ]
+      },
       "syllabus": "Acadêmico Introdução. Conceitos e notações aplicado a mecanismos. Estudo de tipos de mecanismos. Síntese dimensional de mecanismos articulados. Análise e cinemática de cames planos."
     },
     {
@@ -1827,13 +1894,39 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
-      "equivalents": [
-        "EMC5257"
+      "prerequisites": [
+        "EMC5258",
+        "EMC5245"
       ],
+      "equivalents": [
+        "EMC5257",
+        "EPS5220"
+      ],
+      "prerequisiteExpression": {
+        "kind": "any",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5258"
+          },
+          {
+            "kind": "course",
+            "code": "EMC5245"
+          }
+        ]
+      },
       "equivalentExpression": {
-        "kind": "course",
-        "code": "EMC5257"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "EMC5257"
+          },
+          {
+            "kind": "course",
+            "code": "EPS5220"
+          }
+        ]
       },
       "syllabus": "Visão de engenharia da Gerência Operacional da Produção com ênfase na manufatura. Aspectos de Engenharia de Manufatura. Administração Operacional da Produção. Papel Estratégico e Objetivo da Produção. Apresentação do Jogo da Produção. Projeto da Rede de Operações Produtivas. Arranjo Físico e Fluxo. Tecnologia de Processo. Planejamento e Controle."
     },
@@ -1846,7 +1939,13 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [],
-      "equivalents": [],
+      "equivalents": [
+        "EPS5313"
+      ],
+      "equivalentExpression": {
+        "kind": "course",
+        "code": "EPS5313"
+      },
       "syllabus": "Esta disciplina tem como objetivo, fornecer um entendimento geral sobre os conceitos fundamentais que envolvem a área de CAE/CAD/CAM. O aluno deverá usar um software CAD/CAM comercial, aplicando os conceitos aprendidos na área do projeto mecânico em geral. O uso das ferramentas de CAD/CAM e o exercício dos conceitos de projeto mecânico lhe facultará o desenvolvimento de habilidades necessárias nos diversos estágios do projeto e manafatura de um produto."
     },
     {

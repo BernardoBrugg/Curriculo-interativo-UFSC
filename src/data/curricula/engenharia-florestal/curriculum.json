@@ -2322,15 +2322,25 @@
       "type": "Op",
       "prerequisites": [
         "ABF7302",
+        "ABF7848",
         "ABF7303"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "any",
+        "kind": "all",
         "requirements": [
           {
-            "kind": "course",
-            "code": "ABF7302"
+            "kind": "any",
+            "requirements": [
+              {
+                "kind": "course",
+                "code": "ABF7302"
+              },
+              {
+                "kind": "course",
+                "code": "ABF7848"
+              }
+            ]
           },
           {
             "kind": "course",
@@ -2361,12 +2371,22 @@
       "phase": 0,
       "type": "Op",
       "prerequisites": [
-        "ABF7102"
+        "ABF7102",
+        "ABF7103"
       ],
       "equivalents": [],
       "prerequisiteExpression": {
-        "kind": "course",
-        "code": "ABF7102"
+        "kind": "all",
+        "requirements": [
+          {
+            "kind": "course",
+            "code": "ABF7102"
+          },
+          {
+            "kind": "course",
+            "code": "ABF7103"
+          }
+        ]
       },
       "syllabus": ""
     },
@@ -2378,8 +2398,14 @@
       "hours": 72,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "CNS7315"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNS7315"
+      },
       "syllabus": "Ecologia florestal. Produção de mudas florestais de espécies nativas e exóticas. Implantação de povoamentos florestais para produção. Tratos silviculturais. Inventário de plantios florestais e fragmentos de florestas nativas. Monitoramento de experimentos. Elaboração de relatórios técnicos."
     },
     {
@@ -2694,8 +2720,14 @@
       "hours": 36,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "CNS7718"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNS7718"
+      },
       "syllabus": "Aspectos teóricos da comercialização. Descrição do processo da comercialização. O enfoque de Cadeias Produtivas. Identificação e denominação de origem geográfica. Certificação de produtos. Fundamentos do cooperativismo como doutrina. O cooperativismo no Brasil. Criação e administração de uma cooperativa. Legislação cooperativa brasileira. Autogestão e educação cooperativa."
     },
     {
@@ -2706,8 +2738,14 @@
       "hours": 54,
       "phase": 0,
       "type": "Op",
-      "prerequisites": [],
+      "prerequisites": [
+        "CNS7215"
+      ],
       "equivalents": [],
+      "prerequisiteExpression": {
+        "kind": "course",
+        "code": "CNS7215"
+      },
       "syllabus": "Importância dos Setores Agropecuário e Florestal para o Desenvolvimento Econômico. Tópicos de Microeconomia: A demanda do Consumidor; A curva de Oferta; Equilíbrio de Mercado; Teoria da Produção. Tópicos de Macroeconomia: Noções de Medidas de Atividade Econômica e os Instrumentos de Política Econômica; Inflação; Comercio Internacional. Políticas Agrícolas e Agrárias. Conjuntura da Economia Rural Brasileira."
     },
     {
